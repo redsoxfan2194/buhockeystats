@@ -5,7 +5,7 @@ Aiken,John 1954-55 — 0 0 0 —/4
 Alger,Rich 1995-97 35 1 5 6 15/41
 Almer,Joseph 1921-24 11 11 0 11 —/—
 Amonte,Tony 1989-91 79 56 70 126 50/132
-Amonte,Ty 2017-22 97 16 16 32 27/73
+Amonte,Ty 2017-22 119 17 20 37 32/91
 Anderson,Carl 1922-23 1 0 0 0 —/—
 Anderson,Francis 1941-47 24 26 22 48 7/17
 Anderson,Ron 1970-72 62 39 48 87 13/43
@@ -112,7 +112,7 @@ Cleverly,Harry 1935-37 23 3 2 5 4/8
 Cloonan,Ryan 2015-19 122 6 23 29 25/72
 Clopeck,Jack 1946-49 44 37 39 76 3/6
 Cochrane,Mickey 1922-23 2 0 0 0 —/—
-Cockerill,Logan 2017-22 134 24 33 57 20/51
+Cockerill,Logan 2017-22 164 29 39 68 24/59
 Cogan,George 1950-51,1952-53 — 0 0 0 —/2
 Cohen,Colby 2007-10 118 25 53 78 77/181
 Cohen,Zach 2006-10 130 31 21 52 34/68
@@ -760,3 +760,24 @@ Yip,Brandon 2005-09 139 45 63 108 99/234
 Young,Scott 1985-87 71 31 34 65 —/18
 Zancanaro,Brad 2002-06 161 34 56 90 67/153
 Zanetti,Mario 1951-53 — 26 24 50 /20
+Brink,Alex 2019-20 34 0 3 3 9/29
+Zegras,Trevor 2019-20 33 11 25 36 12/43
+Armstrong,Jamie 2019-22 66 3 10 13 16/43
+Boguslavsky,Markus 2019-22 39 4 2 6 6/23
+Campolieto,Joseph 2020-22 44 0 5 5 5/10
+Copeland,John 2019-22 19 0 1 1 1/2
+Driscoll,Sean 2019-22 22 1 0 1 4/8
+Fensore,Domenick 2019-22 85 10 45 55 20/48
+Jarman,Thomas 2020-22 19 0 2 2 5/10
+Kaufman,Max 2020-22 49 7 12 19 8 16
+Mastrosimone,Robert 2019-22 83 21 29 50 18/44
+McCarthy,Case 2019-22 70 8 20 28 15/38
+O'Brien,Jay 2020-22 40 18 20 38 19/46
+Peterson,Dylan 2020-22 45 13 9 22 16/43
+Phillips,Ethan 2019-22 60 8 19 27 10/20
+Skoog,Wilmer 2019-22 66 24 21 45 21/42
+Stevens,Sam 2019-22 62 8 7 15 15/30
+Tuch,Luke 2020-22 42 12 9 21 14/28
+Vlasic,Alex 2019-22 82 4 16 20 20/51
+Webber,Cade 2020-22 45 0 4 4 6/23
+Zabaneh,Nick 2020-22 45 1 16 17 9/18
