@@ -411,6 +411,7 @@ def determineQueryType(query):
 def tokenizeQuery(query):
     keywords=['vs','at','under','since','after','between','with','before','from','in','on','against']
     keyDict={}
+    keyWordsDict={}
     for i in keywords:
         if(query.find(i+' ')>=0):
             finds=[m.start() for m in re.finditer(i+' ', query)]
@@ -437,9 +438,10 @@ def tokenizeQuery(query):
     tokens=re.split(" | ".join(keywords),query)
     if(tokens[0]==' ' or tokens[0]==''):
         tokens.pop(0)
-    for i in range(len(tokens)):
-        tokens[i]=tokens[i].rstrip(' ').lstrip(' ')
-        keyWordsDict[keyWordList[i]]=tokens[i]
+    if(keyWordList!=[]):
+        for i in range(len(tokens)):
+            tokens[i]=tokens[i].rstrip(' ').lstrip(' ')
+            keyWordsDict[keyWordList[i]]=tokens[i]
     return keyWordsDict
     
 def cleanupQuery(query,qType):
@@ -456,6 +458,8 @@ def getResults(dfGames,query):
     months_short=[x.lower() for x in list(calendar.month_abbr)]
     qType=determineQueryType(query)
     queryDict=tokenizeQuery(cleanupQuery(query,qType))
+    if(queryDict=={} or qType==''):
+        return ''
     numGames=''
     ascen=True
     dfQueryList = []
