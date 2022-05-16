@@ -494,6 +494,7 @@ def getResults(dfGames,query):
     if('in' in queryDict.keys()):
         digSearch=re.search('\d',queryDict['in'])
         decSearch=re.search('(\d{2,4})s',queryDict['in'])
+        seaSearch=re.search('(\d{4}-\d{2})',queryDict['in'])
         if(digSearch==None and not(queryDict['in'] in months) and not(queryDict['in'] in months_short)):
             if('NCAA' in queryDict['in'].upper()):
                 queryDict['in']=queryDict['in'].replace('s','')
@@ -509,6 +510,8 @@ def getResults(dfGames,query):
             else:
                 decadeStart=int(decSearch.group(1))
             dfQueryList.append("(dfGames['date'].between('{}','{}'))".format(decadeStart,decadeStart+9))
+        elif(seaSearch!=None):
+            dfQueryList.append("(dfGames['season']==\"{}\")".format(queryDict['in']))
         elif('first' in queryDict['in']):
             numGamesSearch=re.search('first (\d*)',queryDict['in'])
             if(numGamesSearch!=None):
