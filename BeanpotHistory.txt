@@ -1,0 +1,70 @@
+1	1952	Boston Arena	Fri, Dec 26 	5105	Boston University	4	Northeastern	1		Harvard	3	Boston College	2	OT	Sat, Dec 27 	3382	Boston College	2	Northeastern	0		Harvard	7	Boston University	4	
+2	1954	Boston Garden	Mon, Jan 11 	711	Harvard	3	Boston University	2		Boston College	8	Northeastern	5		Tue, Jan 12 	2399	Boston University	5	Northeastern	3		Boston College	4	Harvard	1	
+3	1955	Boston Garden	Mon, Feb 7 	2560	Harvard	12	Northeastern	3		Boston College	9	Boston University	5		Tue, Feb 8 	5654	Boston University	4	Northeastern	3		Harvard	5	Boston College	4	OT 
+4	1956	Boston Garden	Mon, Feb 6 	2500	Boston College	7	Northeastern	1		Harvard	6	Boston University	1		Wed, Feb 8 	4000	Boston University	9	Northeastern	3		Boston College	4	Harvard	2	
+5	1957	Boston Garden	Fri, Feb 1 	4038	Boston College	6	Northeastern	0		Boston University	5	Harvard	3		Tue, Feb 5 	4038	Harvard	5	Northeastern	3		Boston College	5	Boston University	4	OT 
+6	1958	Boston Garden	Mon, Feb 3 	6117	Northeastern	5	Harvard	4		Boston University	5	Boston College	4		Mon, Feb 10 	4784	Harvard	7	Boston College	1		Boston University	9	Northeastern	3	
+7	1959	Boston Garden	Mon, Feb 2 	5920	Boston College	6	Harvard	4		Boston University	7	Northeastern	4		Mon, Feb 9 	8180	Harvard	4	Northeastern	0		Boston College	7	Boston University	4	
+8	1960	Boston Garden	Mon, Feb 8 	10909	Harvard	5	Northeastern	3		Boston University	5	Boston College	2		Mon, Feb 15 	5713	Northeastern	6	Boston College	5		Harvard	3	Boston University	2	
+9	1961	Boston Garden	Mon, Feb 6 	5800	Boston College	15	Northeastern	1		Harvard	3	Boston University	2	OT	Mon, Feb 13 	13909	Northeastern	6	Boston University	2		Boston College	4	Harvard	2	
+10	1962	Boston Garden	Mon, Feb 5 	13909	Boston University	5	Northeastern	4		Harvard	6	Boston College	1		Mon, Feb 12 	4500	Boston College	4	Northeastern	0		Harvard	5	Boston University	0	
+11	1963	Boston Garden	Mon, Feb 4 	6961	Boston College	2	Boston University	1	OT	Harvard	4	Northeastern	3	OT	Mon, Feb 11 	13909	Northeastern	4	Boston University	2		Boston College	3	Harvard	1	
+12	1964	Boston Garden	Mon, Feb 3 	8396	Boston College	7	Northeastern	4		Boston University	3	Harvard	2		Mon, Feb 10 	13909	Harvard	7	Northeastern	5		Boston College	6	Boston University	5	
+13	1965	Boston Garden	Mon, Feb 8 	13058	Boston University	5	Northeastern	4	3OT	Boston College	5	Harvard	4	OT	Mon, Feb 15 	13909	Northeastern	3	Harvard	1		Boston College	5	Boston University	4	
+14	1966	Boston Garden	Mon, Feb 7 	13909	Harvard	5	Northeastern	1		Boston University	6	Boston College	4		Mon, Feb 14 	13909	Boston College	5	Northeastern	3		Boston University	9	Harvard	2	
+15	1967	Boston Garden	Thu, Feb 9 	12261	Northeastern	6	Boston College	5	OT	Boston University	8	Harvard	3		Mon, Feb 13 	12910	Boston College	6	Harvard	5		Boston University	4	Northeastern	0	
+16	1968	Boston Garden	Mon, Feb 5 	11818	Boston University	7	Northeastern	4		Harvard	6	Boston College	4		Mon, Feb 12 	12674	Boston College	6	Northeastern	4		Boston University	4	Harvard	1	
+17	1969	Boston Garden	Mon, Feb 3 	14659	Harvard	8	Northeastern	4		Boston University	4	Boston College	2		Mon, Feb 10 	9236	Boston College	6	Northeastern	3		Harvard	5	Boston University	3	
+18	1970	Boston Garden	Mon, Feb 2 	14835	Boston College	5	Northeastern	0		Boston University	5	Harvard	3		Mon, Feb 9 	14702	Harvard	5	Northeastern	4	OT	Boston University	5	Boston College	4	
+19	1971	Boston Garden	Mon, Feb 8 	11449	Boston University	12	Northeastern	2		Harvard	10	Boston College	4		Mon, Feb 22 	14994	Boston College	8	Northeastern	2		Boston University	4	Harvard	1	
+20	1972	Boston Garden	Mon, Feb 7 	8159	Harvard	8	Northeastern	3		Boston University	4	Boston College	2		Mon, Feb 14 	14995	Boston College	5	Northeastern	4		Boston University	4	Harvard	1	
+21	1973	Boston Garden	Mon, Feb 5 	13643	Boston College	9	Northeastern	8	OT	Boston University	8	Harvard	3		Mon, Feb 12 	15003	Harvard	8	Northeastern	5		Boston University	4	Boston College	1	
+22	1974	Boston Garden	Mon, Feb 4 	8033	Boston University	6	Northeastern	1		Harvard	11	Boston College	6		Mon, Feb 11 	12202	Northeastern	4	Boston College	3		Harvard	5	Boston University	4	
+23	1975	Boston Garden	Mon, Feb 3 	8694	Harvard	9	Northeastern	0		Boston University	5	Boston College	3		Mon, Feb 10 	15003	Northeastern	5	Boston College	3		Boston University	7	Harvard	2	
+24	1976	Boston Garden	Mon, Feb 2 	11118	Boston College	5	Northeastern	3		Boston University	6	Harvard	5		Mon, Feb 9 	12250	Harvard	4	Northeastern	2		Boston College	6	Boston University	3	
+25	1977	Boston Garden	Mon, Feb 7 	13674	Boston University	10	Northeastern	5		Harvard	4	Boston College	2		Mon, Feb 14 	14597	Boston College	6	Northeastern	4		Harvard	4	Boston University	3	
+26	1978	Boston Garden	Mon, Feb 6 	11666	Harvard	4	Northeastern	3	OT	Boston University	12	Boston College	5		Wed, Mar 1 	14335	Boston College	3	Northeastern	2	OT	Boston University	7	Harvard	1	
+27	1979	Boston Garden	Mon, Feb 5 	14679	Boston College	7	Northeastern	2		Boston University	4	Harvard	2		Mon, Feb 12 	14456	Northeastern	5	Harvard	4		Boston University	4	Boston College	3	
+28	1980	Boston Garden	Mon, Feb 4 	14456	Northeastern	6	Boston University	5	OT	Boston College	4	Harvard	3		Mon, Feb 11 	14456	Harvard	7	Boston University	4		Northeastern	5	Boston College	4	OT 
+29	1981	Boston Garden	Mon, Feb 2 	14456	Harvard	10	Northeastern	2		Boston College	5	Boston University	2		Mon, Feb 9 	14456	Boston University	9	Northeastern	2		Harvard	2	Boston College	0	
+30	1982	Boston Garden	Mon, Feb 1 	14673	Boston University	5	Harvard	1		Boston College	3	Northeastern	2	OT	Mon, Feb 8 	14673	Northeastern	6	Harvard	5	OT	Boston University	3	Boston College	1	
+31	1983	Boston Garden	Tue, Feb 8 	14523	Boston College	5	Harvard	4	OT	Northeastern	4	Boston University	3		Mon, Feb 14 	14523	Boston University	5	Harvard	4		Boston College	8	Northeastern	2	
+32	1984	Boston Garden	Mon, Feb 6 	14451	Northeastern	7	Harvard	3		Boston University	6	Boston College	5		Mon, Feb 13 	14451	Boston College	5	Harvard	2		Northeastern	5	Boston University	2	
+33	1985	Boston Garden	Mon, Feb 4 	14451	Boston University	5	Harvard	3		Northeastern	4	Boston College	2		Mon, Feb 11 	14451	Harvard	6	Boston College	5		Northeastern	4	Boston University	2	
+34	1986	Boston Garden	Mon, Feb 3 	14451	Boston University	8	Northeastern	5		Boston College	4	Harvard	2		Mon, Feb 10 	14451	Harvard	7	Northeastern	1		Boston University	4	Boston College	1	
+35	1987	Boston Garden	Mon, Feb 2 	14451	Boston University	6	Boston College	3		Northeastern	5	Harvard	4	OT	Mon, Feb 9 	14451	Boston College	7	Harvard	6	OT	Boston University	4	Northeastern	3	OT 
+36	1988	Boston Garden	Mon, Feb 1 	14451	Northeastern	4	Boston College	0		Boston University	6	Harvard	4		Mon, Feb 8 	14451	Boston College	4	Harvard	2		Northeastern	6	Boston University	3	
+37	1989	Boston Garden	Mon, Feb 6 	14448	Harvard	5	Boston College	4		Boston University	5	Northeastern	4	OT	Mon, Feb 13 	14448	Boston College	4	Northeastern	1		Harvard	9	Boston University	6	
+38	1990	Boston Garden	Mon, Feb 5 	14448	Boston University	4	Boston College	3		Harvard	5	Northeastern	4		Mon, Feb 12 	14448	Boston College	8	Northeastern	4		Boston University	8	Harvard	2	
+39	1991	Boston Garden	Mon, Feb 4 	14448	Boston College	5	Northeastern	3		Boston University	8	Harvard	2		Mon, Feb 11 	14448	Northeastern	5	Harvard	0		Boston University	8	Boston College	4	
+40	1992	Boston Garden	Mon, Feb 3 	14448	Harvard	6	Boston College	4		Boston University	5	Northeastern	4		Mon, Feb 10 	14448	Boston College	5	Northeastern	3		Boston University	5	Harvard	2	
+41	1993	Boston Garden	Mon, Feb 1 	14448	Harvard	7	Northeastern	5		Boston University	8	Boston College	2		Mon, Feb 8 	14448	Northeastern	4	Boston College	3		Harvard	4	Boston University	2	
+42	1994	Boston Garden	Mon, Feb 7 	14448	Boston College	5	Northeastern	4	2OT	Harvard	4	Boston University	2		Mon, Feb 14 	14448	Boston University	8	Northeastern	0		Boston College	2	Harvard	1	OT 
+43	1995	Boston Garden	Mon, Feb 6 	14448	Boston University	6	Northeastern	2		Boston College	7	Harvard	6		Mon, Feb 13 	14448	Northeastern	4	Harvard	2		Boston University	5	Boston College	1	
+44	1996	FleetCenter	Mon, Feb 5 	17565	Northeastern	4	Harvard	1		Boston University	4	Boston College	1		Mon, Feb 12 	17565	Boston College	6	Harvard	2		Boston University	11	Northeastern	4	
+45	1997	FleetCenter	Mon, Feb 3 	17565	Boston College	4	Northeastern	1		Boston University	7	Harvard	1		Mon, Feb 10 	17565	Northeastern	2	Harvard	0		Boston University	4	Boston College	2	
+46	1998	FleetCenter	Mon, Feb 2 	17565	Harvard	5	Boston College	4	OT	Boston University	4	Northeastern	1		Mon, Feb 9 	17565	Boston College	4	Northeastern	1		Boston University	2	Harvard	1	OT 
+47	1999	FleetCenter	Mon, Feb 1 	17565	Northeastern	4	Harvard	3	OT	Boston University	3	Boston College	2	OT	Mon, Feb 8 	17565	Boston College	6	Harvard	4		Boston University	4	Northeastern	2	
+48	2000	FleetCenter	Mon, Feb 7 	17565	Boston College	6	Northeastern	0		Boston University	4	Harvard	0		Mon, Feb 14 	17278	Harvard	3	Northeastern	1		Boston University	4	Boston College	1	
+49	2001	FleetCenter	Mon, Feb 5 	17565	Boston College	4	Harvard	1		Boston University	6	Northeastern	4		Mon, Feb 12 	17278	Northeastern	8	Harvard	7		Boston College	5	Boston University	3	
+50	2002	FleetCenter	Mon, Feb 4 	17565	Northeastern	5	Harvard	2		Boston University	5	Boston College	3		Mon, Feb 11 	17565	Boston College	4	Harvard	0		Boston University	5	Northeastern	3	
+51	2003	FleetCenter	Mon, Feb 3 	17565	Boston University	2	Harvard	1		Boston College	5	Northeastern	2		Mon, Feb 10 	17565	Harvard	4	Northeastern	1		Boston University	3	Boston College	2	
+52	2004	FleetCenter	Mon, Feb 2 	17565	Boston University	5	Northeastern	2		Boston College	4	Harvard	1		Mon, Feb 9 	17565	Northeastern	3	Harvard	1		Boston College	2	Boston University	1	OT 
+53	2005	YourGarden†	Mon, Feb 7 	17565	Northeastern	2	Harvard	1	2OT	Boston University	3	Boston College	1		Mon, Feb 14 	17565	Boston College	4	Harvard	1		Boston University	3	Northeastern	2	OT 
+54	2006	TD BanknorGarden	Mon, Feb 6 	17565	Boston College	5	Northeastern	2		Boston University	5	Harvard	3		Mon, Feb 13 	17565	Harvard	5	Northeastern	0		Boston University	3	Boston College	2	
+55	2007	TD BanknorGarden	Mon, Feb 5 	17565	Boston University	4	Northeastern	0		Boston College	3	Harvard	1		Mon, Feb 12 	17565	Northeastern	3	Harvard	1		Boston University	2	Boston College	1	OT 
+56	2008	TD BanknorGarden	Mon, Feb 4 	17565	Harvard	3	Northeastern	1		Boston College	4	Boston University	3	OT	Mon, Feb 11 	17565	Boston University	5	Northeastern	4		Boston College	6	Harvard	5	OT 
+57	2009	TD BanknorGarden	Mon, Feb 2 	17565	Boston University	4	Harvard	3		Northeastern	6	Boston College	1		Mon, Feb 9 	17565	Boston College	4	Harvard	3		Boston University	5	Northeastern	2	
+58	2010	TD Garden	Mon, Feb 1 	17565	Boston College	6	Harvard	0		Boston University	2	Northeastern	1		Mon, Feb 8 	17565	Northeastern	4	Harvard	1		Boston College	4	Boston University	3	
+59	2011	TD Garden	Mon, Feb 7 	17565	Northeastern	4	Harvard	0		Boston College	3	Boston University	2	OT	Mon, Feb 14 	17565	Harvard	5	Boston University	4		Boston College	7	Northeastern	6	OT 
+60	2012	TD Garden	Mon, Feb 6 	17565	Boston University	3	Harvard	1		Boston College	7	Northeastern	1		Mon, Feb 13 	17565	Harvard	3	Northeastern	2		Boston College	3	Boston University	2	OT 
+61	2013	TD Garden	Mon, Feb 4 	17565	Northeastern	3	Boston University	2		Boston College	4	Harvard	1		Mon, Feb 11 	17565	Harvard	7	Boston University	4		Boston College	6	Northeastern	3	
+62	2014	TD Garden	Mon, Feb 3 	14776	Northeastern	6	Harvard	0		Boston College	3	Boston University	1		Mon, Feb 10 	17565	Harvard	6	Boston University	2		Boston College	4	Northeastern	1	
+63	2015	TD Garden	Tue, Feb 3 	14520	Boston University	4	Harvard	3	2OT	Northeastern	3	Boston College	2		Mon, Feb 23 	14523	Boston College	3	Harvard	2	OT	Boston University	4	Northeastern	3	OT 
+64	2016	TD Garden	Mon, Feb 1 	14832	Boston College	3	Harvard	2		Boston University	3	Northeastern	1		Mon, Feb 8 	15702	Northeastern	5	Harvard	1		Boston College	1	Boston University	0	OT 
+65	2017	TD Garden	Mon, Feb 6 	15299	Harvard	4	Northeastern	3		Boston University	3	Boston College	1		Mon, Feb 13 	15941	Northeastern	4	Boston College	2		Harvard	6	Boston University	3	
+66	2018	TD Garden	Mon, Feb 5 	13567	Northeastern	3	Boston College	0		Boston University	3	Harvard	2	2OT	Mon, Feb 12 	17565	Harvard	5	Boston College	4	OT	Northeastern	5	Boston University	2	
+67	2019	TD Garden	Mon, Feb 4 	12413	Boston College	2	Harvard	1		Northeastern	2	Boston University	1	OT	Mon, Feb 11 	15015	Harvard	5	Boston University	2		Northeastern	4	Boston College	2	
+68	2020	TD Garden	Mon, Feb 3 	13141	Northeastern	3	Harvard	1		Boston University	5	Boston College	4	2OT	Mon, Feb 10 	17850	Boston College	7	Harvard	2		Northeastern	5	Boston University	4	2OT 
+― 	2021	Cancelled due to the COVID-19 pandemic 																								
+69	2022	TD Garden	Mon, Feb 7 	15535	Boston University	4	Harvard	3		Northeastern	3	Boston College	1		Mon, Feb 14 	17850	Boston College Harvard	3	None	3	OT	Boston University	1	Northeastern	0	

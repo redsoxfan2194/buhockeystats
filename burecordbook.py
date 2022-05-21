@@ -2,6 +2,9 @@ import pandas as pd
 import re
 import operator
 import calendar
+import urllib.request, urllib.error, urllib.parse
+from bs4 import BeautifulSoup
+
 # Get Tourneys
 def generateRecordBook():
     global tourneyDict
@@ -32,11 +35,14 @@ def generateRecordBook():
 
     # Get Games
     fileName=('BURecordBook.txt')
+    tourneys=[]
+    teamSet=set()
     gameList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
         conf='Independent'
+        bean=0
         for i in rows:      
             if(len(i)==7):
                 season=i
@@ -49,7 +55,6 @@ def generateRecordBook():
             captSearch=re.search("CAPTAIN.?: (.*)",i)
             if captSearch != None:
                 capt=captSearch.group(1) 
-                #
             confSearch=re.search("(NEIHL|ECAC|HOCKEY EAST):",i)
             if confSearch != None:
                 conf=confSearch.group(1)
@@ -73,7 +78,6 @@ def generateRecordBook():
             game=re.search(r"(\d*\/\d*) (\w*) (?:\((.?ot)\))? ?(.*)\t(\S*|\S* \S*|\S* \S* \S*) ?(\(.*\))? (\d*-\d*)",i)
             if game==None:
                 continue
-            #
             gameDict={'date':game.group(1),
                      'result':game.group(2),
                      'ot':game.group(3),
@@ -101,10 +105,9 @@ def generateRecordBook():
             if(gameDict['location']=='' or gameDict['arena']=='Boston Garden' or gameDict['arena']=='VW Arena'):
                 gameDict['location']='Neutral'
             if((gameDict['arena']=='Gutterson' and gameDict['opponent']=='Vermont') or (gameDict['arena']=='Houston' and gameDict['opponent']=='Rensselaer') or (gameDict['arena']=='Broadmoor' and gameDict['opponent']=='Colorado College') or (gameDict['arena']=='DEC Center' and gameDict['opponent']=='Minnesota Duluth')or (gameDict['arena']=='Magness Arena' and gameDict['opponent']=='Denver')or (gameDict['arena']=='Mariucci Arena' and gameDict['opponent']=='Minnesota')or (gameDict['arena']=='Munn Ice Arena' and gameDict['opponent']=='Michigan State')or (gameDict['arena']=='Walker Arena' and gameDict['opponent']=='Clarkson')or (gameDict['arena']=='Thompson Arena' and gameDict['opponent']=='Dartmouth')or (gameDict['arena']=='St. Louis Arena' and gameDict['opponent']=='St. Louis') or (gameDict['arena']=='Sullivan Arena' and gameDict['opponent']=='Alaska Anchorage')):
-                gameDict['location']='Away'
+                gameDict['location']='Away' 
 
             if(gameDict['tourney']!=None):
-                #
                 gameDict['tourney']=tourneyDict[gameDict['tourney'].replace('(','').replace(')','')]
             gameDict['month'],gameDict['day']=gameDict['date'].split('/')
             gameDict['month']=int(gameDict['month'])
@@ -120,6 +123,7 @@ def generateRecordBook():
             if(gameDict['season']=='1973-74' and gameDict['date']=='12/12/1973'):
                 coach='Jack Parker'
             gameDict['date']=pd.Timestamp(gameDict['date'])
+            gameDict['dow']=gameDict['date'].weekday()
             gameList.append(gameDict)
     f.close()
     dfGames=pd.DataFrame(gameList)
@@ -165,8 +169,6 @@ def decodeTeam(team):
     team=team.replace("-","")
     team=team.replace("'","")
     team=team.replace(".","")
-    if(team=='beanpot'):
-        team = random.choice(['bu','bc','nu','hu'])
     dict={"afa" : "Air Force",
         "aic" : "American International",
         "alabamahuntsville" : "Alabama Huntsville",
@@ -398,7 +400,7 @@ def generateGoalies():
     
 def determineQueryType(query):
     qType=''
-    if('record' in query):
+    if('record' in query and 'career' not in query):
         qType='record'
     elif('wins' in query):
         qType='wins'
@@ -406,15 +408,20 @@ def determineQueryType(query):
         qType='loses'
     elif('ties' in query):
         qType='ties'
+    else:
+        qType='player'
     return qType
     
-def tokenizeQuery(query):
+def tokenizeResultsQuery(query):
     keywords=['vs','at','under','since','after','between','with','before','from','in','on','against']
     keyDict={}
     keyWordsDict={}
     for i in keywords:
         if(query.find(i+' ')>=0):
             finds=[m.start() for m in re.finditer(i+' ', query)]
+            for d in range(len(finds)):
+                if(finds[d]>0 and query[finds[d]-1]!=' '):
+                    finds.pop(d)
             if(finds==[]):
                 continue
             elif(len(finds)>1):
@@ -445,52 +452,60 @@ def tokenizeQuery(query):
     return keyWordsDict
     
 def cleanupQuery(query,qType):
-    cleanlist=['the','of',"bu","bu's",'what','is',"what's",'number of','games','game','his','arena','rink']
+    cleanlist=['the','of',"bu","bu's",'what','is',"what's",'number of','games','game','his','arena','rink',"'s"]
     for i in cleanlist:
         query=query.replace(i+' ','')
-    query=query.replace(qType+' ','')
-    return query
+    if(qType!=''):
+        query=query.replace(qType+' ','')
+    return query.lower()
     
 def getResults(dfGames,query):
     global tourneyDict
-    query=query.lower()
     months=[x.lower() for x in list(calendar.month_name)]
     months_short=[x.lower() for x in list(calendar.month_abbr)]
+    days=[x.lower() for x in list(calendar.day_name)]
+    days_short=[x.lower() for x in list(calendar.day_abbr)]
     qType=determineQueryType(query)
-    queryDict=tokenizeQuery(cleanupQuery(query,qType))
-    if(queryDict=={} or qType==''):
+    queryDict=tokenizeResultsQuery(cleanupQuery(query,qType))
+
+    if (queryDict=={} or qType=='' or qType=='player'):
         return ''
     numGames=''
     ascen=True
     dfQueryList = []
     if('vs' in queryDict.keys()):
-        
         dfQueryList.append("(dfGames['opponent'].str.contains('{}',case=False))".format(decodeTeam(queryDict['vs'])))
     if('against' in queryDict.keys()):
-        
         dfQueryList.append("(dfGames['opponent'].str.contains('{}',case=False))".format(decodeTeam(queryDict['against'])))
     if('under' in queryDict.keys()):
-        
         if(queryDict['under']=='AOC'.lower()):
             queryDict['under']="Albie O'Connell"
         dfQueryList.append("(dfGames['coach'].str.contains(\"{}\",case=False))".format(queryDict['under']))
     if('with' in queryDict.keys()):
-        
         if(queryDict['with']=='AOC'.lower()):
             queryDict['with']="Albie O'Connell"
         dfQueryList.append("(dfGames['coach'].str.contains(\"{}\",case=False))".format(queryDict['with']))
     if('at' in queryDict.keys()):
         if(queryDict['at'].capitalize() in ['Home','Away','Neutral']):
-            
             dfQueryList.append("(dfGames['location']==(\"{}\"))".format(queryDict['at']))
         elif(dfGames.loc[(dfGames['opponent']==decodeTeam(queryDict['at']))]['opponent'].count()>0):
-            
             dfQueryList.append("(dfGames['opponent'].str.contains('{}',case=False))".format(decodeTeam(queryDict['at'])))
-            
             dfQueryList.append("(dfGames['location']=='Away')".format(queryDict['at']))
         else:
-            
             dfQueryList.append("(dfGames['arena'].str.contains(\"{}\",case=False))".format(queryDict['at']))
+    if('on' in queryDict.keys()):
+        dateSearch=re.search('(\w*).(\d*)',queryDict['on'])
+        if(dateSearch !=None and '' not in dateSearch.groups()):            
+            for i in range(len(months_short)):
+                if(months_short[i] in dateSearch.group(1)):                
+                    dfQueryList.append("(dfGames['month']=={})".format(int(dateSearch.group(1))))
+                    break
+            dfQueryList.append("(dfGames['day']=={})".format(int(dateSearch.group(2))))
+        else:
+            for i in range(len(days_short)):
+                if(days_short[i] in queryDict['on']):
+                    dfQueryList.append("(dfGames['dow']=={})".format(i))
+                    break
     if('in' in queryDict.keys()):
         digSearch=re.search('\d',queryDict['in'])
         decSearch=re.search('(\d{2,4})s',queryDict['in'])
@@ -531,6 +546,7 @@ def getResults(dfGames,query):
                                                          
     if('since' in queryDict.keys()):
         dfQueryList.append("(dfGames['date']>'{}')".format(queryDict['since']))
+            
     if('before' in queryDict.keys()):
         dfQueryList.append("(dfGames['date']<'{}')".format(queryDict['before']))
     if('after' in queryDict.keys()):

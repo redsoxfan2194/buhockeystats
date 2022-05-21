@@ -21,3 +21,20 @@ Record Book Errors:
 
 2018-19:
 1/19 Loss to Qunnipiac listed as a Win 
+
+Player Stats:
+Lawless,John listed with 228 pts instead of 28
+Matt Nieto goals should be 44 instead of 55
+
+Name,G-A--Pts
+Matt Nieto,55-58--102
+Paul Brown,35-44--75
+Chris Matchett,14-55--72
+Darrell Abbott-14--50--67
+Keith Barnhill-37--14--50
+Paul Cleary-31--22--43
+John Lawless-228--7--35
+Mark Krys-1-18-29
+Burt MacArthur--13--9--23
+Dave Carver--2--11--14
+Ronald Weafer--8--5--12

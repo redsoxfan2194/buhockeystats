@@ -1,0 +1,101 @@
+1917-18 1 Warren Pond 0 None 1 Warren Pond
+1919-20 1 Warren Sullivan,John Mutty 0 None 1 Warren Sullivan,John Mutty
+1922-23 7 Joseph Almer 0 None 7 Joseph Almer
+1923-24 4 Robert Blais,Joseph Almer 0 None 4 Robert Blais,Joseph Almer
+1924-25 11 Ovila Gregoire 1 John Lawless 11 Ovila Gregoire
+1925-26 10 Ovila Gregoire 3 Chester Scott 11 Chester Scott
+1926-27 13 John Lawless 0 None 13 John Lawless
+1927-28 13 Benjamin Currier 4 John Lawless 13 Benjamin Currier
+1928-29 10 Holmes Whitmore 7 Richard Lombard 16 Richard Lombard
+1929-30 14 Richard Lombard 4 Benjamin Currier 17 Richard Lombard
+1930-31 6 Carl Clem 2 Richard French,Paul Bergholtz 7 Paul Bergholtz
+1931-32 10 Carl Clem 6 Walter Bender 13 Carl Clem
+1932-33 14 John Lax 5 Walter Bender 16 John Lax
+1933-34 14 John Lax 10 Russell Smith 23 Russell Smith
+1934-35 11 Paul Rowe 11 John Lax 19 John Lax
+1935-36 12 Tom Hartigan 14 Al Carvelli 24 Al Carvelli,Gerry Desrosiers
+1936-37 23 Gerry Desrosiers 11 Gerry Desrosiers 34 Gerry Desrosiers
+1937-38 26 Al Carvelli 24 Gerry Desrosiers 43 Gerry Desrosiers
+1938-39 19 Joe Conaty 15 Joe Conaty,Ed Richardson 34 Joe Conaty
+1939-40 10 Ed Richardson 12 Paul Brown 19 Ed Richardson
+1940-41 27 John Chambers 20 John Chambers,Paul Brown 47 John Chambers
+1941-42 9 Francis Anderson 4 Robert Crowley,Howard Blasenak 12 Francis Anderson
+1942-43 10 Burt MacArthur 7 Walt Stone 16 Burt MacArthur
+1945-46 5 Dick McGinley 3 Don Cleary,Benjamin Forbes 7 Dick McGinley
+1946-47 23 Robert Maker,Benjamin Forbes 25 Robert Maker 48 Robert Maker
+1947-48 33 Dana Hixon 23 Irving Haynes 49 Dana Hixon
+1948-49 25 Ed Cahoon 16 Dana Hixon 40 Ed Cahoon
+1949-50 51 Jack Garrity 33 Jack Garrity 84 Jack Garrity
+1950-51 34 Jack Garrity 23 Jack Garrity 57 Jack Garrity
+1951-52 25 Dick Rodenhiser 23 Dick Kelley 43 Dick Kelley
+1952-53 29 Dick Rodenhiser 20 Dick Rodenhiser 49 Dick Rodenhiser
+1953-54 26 Jack Murphy 14 John Burns 35 Jack Murphy
+1954-55 29 Jack Murphy 14 Jack Murphy 43 Jack Murphy
+1955-56 14 Jack Carruthers,Mike Manning 15 Jack Carruthers 29 Jack Carruthers
+1956-57 17 Larry Creighton 19 Bob Dupuis 28 Larry Creighton
+1957-58 24 Bob Marquis 29 Jack Carruthers 46 Bob Marquis
+1958-59 41 Bob Marquis 20 Larry Creighton 59 Bob Marquis
+1959-60 33 Bob Marquis 32 Bill McCormack 59 Bob Marquis
+1960-61 30 Mike Denihan 33 Bill Quinn 50 Mike Denihan
+1961-62 19 Bob Smith 16 Mike Denihan 34 Bob Smith
+1962-63 25 Mike Denihan 20 Bob Smith 39 Mike Denihan
+1963-64 13 Bruce Fennie 12 Jim Todaro 22 Bob Martell
+1964-65 21 Bruce Fennie 22 Dennis O’Connell 42 Bruce Fennie
+1965-66 35 Fred Bassi 30 Bruce Fennie 64 Fred Bassi
+1966-67 30 Fred Bassi 51 Herb Wakabayashi 67 Herb Wakabayashi
+1967-68 24 Larry Davenport,Herb Wakabayashi 44 Mike Hyndman 67 Mike Hyndman
+1968-69 23 Larry Davenport 34 Mike Hyndman 52 Mike Hyndman
+1969-70 25 John Danby 41 Mike Hyndman 52 Mike Hyndman
+1970-71 28 John Danby 43 Steve Stirling,Bob Brown 70 Steve Stirling
+1971-72 26 John Danby 36 Bob Gryp,Bob Brown 50 John Danby,Bob Brown
+1972-73 35 Paul O’Neil 39 Vic Stanfield 53 Paul O’Neil
+1973-74 21 Mike Eruzione 38 Peter Brown 46 Vic Stanfield,Peter Marzo
+1974-75 27 Mike Eruzione 60 Vic Stanfield 70 Vic Stanfield
+1975-76 30 Terry Meagher 42 Peter Brown 55 Terry Meagher
+1976-77 35 Dave Silk 46 Rick Meagher 80 Rick Meagher
+1977-78 30 Mark Fidler 47 Jack O’Callahan 65 Mark Fidler
+1977-78 30 Mark Fidler 47 Jack O’Callahan 65 Mark Fidler
+1978-79 17 Mark Fidler,Tony Meagher 23 Mark Fidler 40 Mark Fidler
+1979-80 16 Mark Fidler 23 Mark Fidler 39 Mark Fidler
+1980-81 18 Todd Johnson 20 Mark Fidler 34 Mark Fidler
+1981-82 23 Bob Darling 34 Tom O’Regan 52 Tom O’Regan
+1982-83 18 Marc Sinclair 23 Jerry August 34 Tom O’Regan
+1983-84 23 John Cullen 33 John Cullen 56 John Cullen
+1984-85 27 John Cullen 32 John Cullen 59 John Cullen
+1985-86 28 Clark Donatelli 49 John Cullen 74 John Cullen
+1986-87 23 John Cullen 29 John Cullen 52 John Cullen
+1987-88 26 Mike Kelfer 27 Mike Kelfer 53 Mike Kelfer
+1988-89 23 Mike Kelfer 30 David Tomlinson 52 Mike Kelfer
+1989-90 28 Joe Sacco 33 Tony Amonte 58 Tony Amonte
+1990-91 34 Shawn McEachern 48 Shawn McEachern 82 Shawn McEachern
+1991-92 19 Petteri Koskimaki,Mike Prendergast 33 David Sacco 47 David Sacco
+1992-93 25 David Sacco 37 David Sacco 62 David Sacco
+1993-94 28 Mike Pomichter 27 Rich Brennan 53 Mike Pomichter
+1994-95 29 Mike Grier,Jacques Joubert 33 Chris O’Sullivan 56 Chris O’Sullivan
+1995-96 38 Jay Pandolfo 38 Bob Lachance 68 Chris Drury
+1996-97 38 Chris Drury 27 Jon Coleman 62 Chris Drury
+1997-98 28 Chris Drury 29 Chris Drury,Tom Poti 57 Chris Drury
+1998-99 18 Chris Heron 30 Albie O’Connell 39 Albie O’Connell
+1999-00 22 Carl Corazzini 25 Dan Cavanaugh,Chris Heron 43 Tommi Degerman,Chris Heron
+2000-01 16 Carl Corazzini,Mike Pandolfo 21 Dan Cavanaugh 36 Carl Corazzini
+2001-02 22 Mike Pandolfo 18 Mike Pandolfo,Gregg Johnson,Chris Dyment 40 Mike Pandolfo
+2002-03 14 Frantisek Skladany 21 Frantisek Skladany 35 Frantisek Skladany
+2003-04 13 David Van der Gulik 21 Frantisek Skladany 25 Ryan Whitney
+2004-05 18 David Van der Gulik 20 Bryan Miller 31 David Van der Gulik
+2005-06 17 Kenny Roche 25 Pete MacArthur 39 Pete MacArthur
+2006-07 16 Pete MacArthur 20 Pete MacArthur 36 Pete MacArthur
+2007-08 21 Pete MacArthur 26 Bryan Ewing 45 Pete MacArthur
+2008-09 25 Jason Lawrence 38 Colin Wilson 55 Colin Wilson
+2009-10 15 Zach Cohen 27 Nick Bonino 38 Nick Bonino
+2010-11 15 Joe Pereira 21 Adam Clendening 34 Alex Chiasson
+2011-12 20 Wade Megan 31 Alex Chiasson,Chris Connolly 46 Alex Chiasson
+2012-13 18 Matt Nieto 24 Cason Hohmann 38 Danny O’Regan
+2013-14 10 Robbie Baillargeon,Danny O’Regan 17 Robbie Baillargeon,Ahti Oksanen 27 Robbie Baillargeon
+2014-15 26 Jack Eichel 45 Jack Eichel 71 Jack Eichel
+2015-16 17 Danny O’Regan 27 Danny O’Regan 44 Danny O’Regan
+2016-17 21 Clayton Keller 24 Patrick Harper,Clayton Keller 45 Clayton Keller
+2017-18 20 Bobo Carpenter 23 Brady Tkachuk 35 Bobo Carpenter,Jordan Greenway
+2018-19 17 Joel Farabee 26 Dante Fabbro 36 Joel Farabee
+2019-20 19 Patrick Curry 29 David Farrance 43 David Farrance
+2020-21 5 David Farrance 8 David Farrance 13 David Farrance
+2021-22 15 Wilmer Skoog 26 Domenick Fensore 31 Domenick Fensore
