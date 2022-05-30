@@ -98,7 +98,7 @@
 1987-89 Chris Lappin
 1989-91 Tony Amonte
 1991-92 Adrian Aucoin
-1992-96 Chris O’Sullivan
+1992-96 Chris O'Sullivan
 1997-99 Joe DiPenta
 2001-03 Ryan Whitney
 2003-07 Kevin Schaeffer
@@ -195,7 +195,7 @@
 1987-88 Mark Krys
 1988-92 Mark Brownschidle
 1993-94 Shane Johnson
-1995-99 Albie O’Connell
+1995-99 Albie O'Connell
 1999-03 Brian Collins
 2003-07 Kenny Roche
 2007-11 Joe Pereira
@@ -236,12 +236,12 @@
 1927-28 Richard Lombard
 1929-30 Leo Baron
 1935-36 Albert Woodward
-1936-37 Joseph O’Sullivan
+1936-37 Joseph O'Sullivan
 1947-50 Irving Haynes
 1950-53 Jerry Denning
 1954-55 Bill McDonnell
 1955-56 Don MacLeod
-1963-64 Mike O’Connell
+1963-64 Mike O'Connell
 1963-64 Mike Mulhall
 1964-67 Jim Wood
 1967-68 Dick Valle
@@ -251,7 +251,7 @@
 1973-76 Terry Meagher
 1976-77 John Melanson
 1977-79 Paul Miller
-1979-83 Tom O’Regan
+1979-83 Tom O'Regan
 1983-85 Joe Cappellano
 1986-90 Rob Regan
 1990-93 Mike Bavis
@@ -329,7 +329,7 @@
 2004-05 Bryan Ewing
 2005-09 Chris Higgins
 2009-11 Corey Trivino
-2012-16 Danny O’Regan
+2012-16 Danny O'Regan
 2016-20 Gabriel Chabot
 2020-23 Nick Zabaneh
 #11
@@ -393,7 +393,7 @@
 1984-86 Brad MacGregor
 1986-87 Brian Foreman
 1987-89 Mike Kelfer
-1989-93 Kevin O’Sullivan
+1989-93 Kevin O'Sullivan
 1993-96 Mike Grier
 1997-01 Nick Gillis
 2002-06 Brad Zancanaro
@@ -429,7 +429,7 @@
 1958-61 Pete McCann
 1961-62 Leonard Holmes
 1962-63 Mike Denihan
-1963-64 Dennis O’Connell
+1963-64 Dennis O'Connell
 1964-65 Charlie Morgan
 1965-66 John Labanara
 1966-67 Dick Valle
@@ -501,7 +501,7 @@
 1960-61 Dick Fogerty
 1961-62 Francis McFaun
 1962-64 Bob McCabe
-1964-66 Dennis O’Connell
+1964-66 Dennis O'Connell
 1966-69 Darrell Abbott
 1969-72 Guy Burrowes
 1972-76 Ken Kuzyk
@@ -540,7 +540,7 @@
 1970-72 Bob Gryp
 1972-73 Bill Bishop
 1973-75 Bill Burlington
-1975-79 Jack O’Callahan
+1975-79 Jack O'Callahan
 1979-83 Marc Sinclair
 1984-87 Clark Donatelli
 1987-91 David Tomlinson
@@ -568,7 +568,7 @@
 1960-62 Bob Smith
 1962-63 Bob Rowan
 1963-65 Lyman Carter
-1965-66 Frank D’Orio
+1965-66 Frank D'Orio
 1966-69 Herb Wakabayashi
 1969-70 Ted Bryand
 1970-73 Steve Dolloff
@@ -666,7 +666,7 @@
 1965-66 Steve McBride
 1967-69 Glen Gama
 1969-72 Don Cahoon
-1972-73 Paul O’Neil
+1972-73 Paul O'Neil
 1973-77 Mike Eruzione
 1977-78 John Melanson
 1979-80 Kevin Callaghan
@@ -786,7 +786,7 @@
 1969-70 Don Cahoon
 1972-73 Jim Glover
 1973-74 Stan Mescon
-1975-76 Bill O’Neill
+1975-76 Bill O'Neill
 1976-77 Bill LeBlond
 1985-86 Peter Headon
 1986-87 Ian Wood
@@ -811,7 +811,7 @@
 1970-73 Mike LaGarde
 1973-75 Jim Glover
 1975-76 Jerry Gryp
-1976-79 Bill O’Neill
+1976-79 Bill O'Neill
 1979-80 John Melanson
 1980-81 John Luimes
 1981-82 Rob Davies
@@ -848,7 +848,7 @@
 1999-00 Rick DiPietro
 2003-04 David Klema
 2005-08 Karson Gillespie
-2012-15 Matt O’Connor
+2012-15 Matt O'Connor
 2016-18 Jake Oettinger
 2019-20 Vinnie Purpura
 2020-23 Drew Commesso
