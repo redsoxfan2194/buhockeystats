@@ -92,7 +92,7 @@ def generateRecordBook():
                 gameDict['gameType']='Exhibition'
                 gameDict['result'] = 'E'
                 gameDict['tourney'] = None
-            if(gameDict['arena']=='Agganis Arena' or gameDict['arena']=='Brown Arena' or gameDict['arena']=='Boston Arena'):
+            if(gameDict['arena']=='Agganis Arena' or gameDict['arena']=='Walter Brown Arena' or gameDict['arena']=='Boston Arena'):
                 gameDict['location']='Home'
             elif(gameDict['tourney']==None or gameDict['tourney']=='(nc)' or gameDict['tourney'] == '(B1G/HE)' or ((gameDict['tourney'] == '(HE)' or gameDict['tourney'] == '(ECAC)') and (gameDict['arena'] != 'TD Garden' and gameDict['arena'] != 'Boston Garden' and gameDict['arena'] != 'Providence CC'))):
                 gameDict['location']='Away'
@@ -722,7 +722,12 @@ def getResults(dfGames,query):
         dfQuery += i + " & "
     dfQuery=dfQuery[:-2]
     result=''
-    dfResult=eval("dfGames.loc[{}].sort_values('date',ascending={})[:{}]".format(dfQuery,ascen,numGames))
+    if(dfQuery=='' and numGames!=''):
+        dfResult=eval("dfGames.sort_values('date',ascending={})[:{}]".format(ascen,numGames))
+    elif(dfQuery!=''):
+        dfResult=eval("dfGames.loc[{}].sort_values('date',ascending={})[:{}]".format(dfQuery,ascen,numGames))
+    else:
+        return "No Results Found"
     if('last' in qType):
         if('win' in qType):
             res=(dfResult.loc[(dfResult['result']=='W')].sort_values('date',ascending=False)[:1])
