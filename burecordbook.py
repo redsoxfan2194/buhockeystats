@@ -805,98 +805,97 @@ def getPlayerStats(playerDfs,query):
     numSearch=re.search('\#(\d*)',query)
     nameSearch=re.search('by (\w*)',query)
     numQuery=re.search('number (\w* \w*|\w*)',query)
-    seasonSearch=re.search('(\w* \w*|\w*)? ?(goal\S*|point\S*|pts|assists|stat\S*|record|gaa|sv|save|shut|so)? ?in (\d{4}-\d{2}|\d{4})',query)
+    seasonSearch=re.search('(\w*|\w* \w*)? ?(goal\S*|point\S*|pts|assists|stat\S*|record|gaa|sv|sv%|save|shut|so)? ?in (\d{4}-\d{2}|\d{4})',query)
     if(seasonSearch!=None and numSearch==None):
         season=seasonSearch.group(3)
         if('-' in seasonSearch.group(3)):
             year=int(season[:4])+1
         else:
             year=int(season)
-        if(seasonSearch.group(1) != None):
-            playerName = seasonSearch.group(1)
-            dfRes=dfSeasSkate.loc[(dfSeasSkate['year']==year) & (dfSeasSkate['name'].str.contains(playerName,case=False))]
-            dfResG=dfSeasGoalie.loc[(dfSeasGoalie['year']==year) & (dfSeasGoalie['name'].str.contains(playerName,case=False))]
-            resStr=''
-            if(dfRes.empty and dfResG.empty):
-                return resStr
-            if(seasonSearch.group(2)!=None):
-                statType=seasonSearch.group(2)
-                if(not dfResG.empty):
-                    gaa=dfResG['gaa'].to_string(index=False).lstrip()
-                    svper=dfResG['sv%'].to_string(index=False).lstrip()
-                    record=dfResG['record'].to_string(index=False).lstrip()
-                    so=dfResG['SO'].to_string(index=False).lstrip()
-                    if('stat' in statType or 'stat line' in statType.replace(' ','')):
-                        if(len(dfResG)>1):
-                            for row in range(len(dfResG)):
-                                resStr+= "{}: {}/{}/{}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['gaa'].to_string(index=False).lstrip(),dfResG.iloc[row]['sv%'].to_string(index=False).lstrip(),dfResG.iloc[row]['record'].to_string(index=False).lstrip())
-                        else:
-                            resStr= "{}: {}/{}/{}".format(dfResG['name'].to_string(index=False).lstrip(' '),gaa,svper,record)
-                    elif('gaa' in statType):
-                        if(len(dfResG)>1):
-                            for row in range(len(dfResG)):
-                                resStr+= "{}: {}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['gaa'].to_string(index=False).lstrip())
-                        else:    
-                            resStr = "{}: {}".format(dfResG['name'].to_string(index=False).lstrip(' '),gaa)
-                    elif('sv' in statType or 'save' in statType):
-                        if(len(dfResG)>1):
-                            for row in range(len(dfResG)):
-                                resStr+= "{}: {}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['sv%'].to_string(index=False).lstrip())
-                        else:
-                            resStr = "{}: {}".format(dfResG['name'].to_string(index=False).lstrip(' '),svper)
-                    elif('so' in statType or 'shut' in statType):
-                        if(len(dfResG)>1):
-                            for row in range(len(dfResG)):
-                                resStr+= "{}: {}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['SO'].to_string(index=False).lstrip())
-                        else:
-                            resStr = "{}: {}".format(dfResG['name'].to_string(index=False).lstrip(' '),so)
- 
-                    elif('record' in statType):
-                        if(len(dfResG)>1):
-                            for row in range(len(dfResG)):
-                                resStr+= "{}: {}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['record'].to_string(index=False).lstrip())
-                        else:
-                            resStr= "{}: {}".format(dfResG['name'].to_string(index=False).lstrip(' '),record)
-                else:
-                    if('goal' in statType):
-                        if(len(dfRes)>1):
-                            for row in range(len(dfRes)):
-                                resStr += dfRes.iloc[row]['name'] + " " + str(dfRes.iloc[row]['goals']) + "\n"
-                        else:
-                            resStr = "{}: {}".format(dfRes['name'].to_string(index=False).lstrip(),dfRes['goals'].to_string(index=False).lstrip())
-                    elif('assists' in statType):
-                        if(len(dfRes)>1):
-                            for row in range(len(dfRes)):
-                                resStr += dfRes.iloc[row]['name'].lstrip() + " " + str(dfRes.iloc[row]['assists']) + "\n"
-                        else:
-                            resStr = "{}: {}".format(dfRes['name'].lstrip(),dfRes['assists'].to_string(index=False).lstrip())
-                    elif('pts' in statType or 'point' in statType or 'stat' in statType):
-                        if(len(dfRes)>1):
-                            for row in range(len(dfRes)):
-                                resStr+= "{}: {}-{}--{}\n".format(dfRes.iloc[row]['name'].lstrip(' '),dfRes.iloc[row]['goals'],dfRes.iloc[row]['assists'],dfRes.iloc[row]['pts'])
-                        else:
-                            resStr= "{}: {}-{}--{}".format(dfRes['name'].to_string(index=False).lstrip(' '),dfRes['goals'].to_string(index=False).lstrip(' '),dfRes['assists'].to_string(index=False).lstrip(' '),dfRes['pts'].to_string(index=False).lstrip(' '))
+    if(seasonSearch!=None and seasonSearch.group(1) != None and 'most' not in query and 'lead' not in query):
+        playerName = seasonSearch.group(1)
+        dfRes=dfSeasSkate.loc[(dfSeasSkate['year']==year) & (dfSeasSkate['name'].str.contains(playerName,case=False))]
+        dfResG=dfSeasGoalie.loc[(dfSeasGoalie['year']==year) & (dfSeasGoalie['name'].str.contains(playerName,case=False))]
+        resStr=''
+        if(dfRes.empty and dfResG.empty):
+            return resStr
+        if(seasonSearch.group(2)!=None):
+            statType=seasonSearch.group(2)
+            if(not dfResG.empty):
+                gaa=dfResG['gaa'].to_string(index=False).lstrip()
+                svper=dfResG['sv%'].to_string(index=False).lstrip()
+                record=dfResG['record'].to_string(index=False).lstrip()
+                so=dfResG['SO'].to_string(index=False).lstrip()
+                if('stat' in statType or 'stat line' in statType.replace(' ','')):
+                    if(len(dfResG)>1):
+                        for row in range(len(dfResG)):
+                            resStr+= "{}: {}/{}/{}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['gaa'].to_string(index=False).lstrip(),dfResG.iloc[row]['sv%'].to_string(index=False).lstrip(),dfResG.iloc[row]['record'].to_string(index=False).lstrip())
+                    else:
+                        resStr= "{}: {}/{}/{}".format(dfResG['name'].to_string(index=False).lstrip(' '),gaa,svper,record)
+                elif('gaa' in statType):
+                    if(len(dfResG)>1):
+                        for row in range(len(dfResG)):
+                            resStr+= "{}: {}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['gaa'].to_string(index=False).lstrip())
+                    else:    
+                        resStr = "{}: {}".format(dfResG['name'].to_string(index=False).lstrip(' '),gaa)
+                elif('sv' in statType or 'save' in statType):
+                    if(len(dfResG)>1):
+                        for row in range(len(dfResG)):
+                            resStr+= "{}: {}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['sv%'].to_string(index=False).lstrip())
+                    else:
+                        resStr = "{}: {}".format(dfResG['name'].to_string(index=False).lstrip(' '),svper)
+                elif('so' in statType or 'shut' in statType):
+                    if(len(dfResG)>1):
+                        for row in range(len(dfResG)):
+                            resStr+= "{}: {}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['SO'].to_string(index=False).lstrip())
+                    else:
+                        resStr = "{}: {}".format(dfResG['name'].to_string(index=False).lstrip(' '),so)
+
+                elif('record' in statType):
+                    if(len(dfResG)>1):
+                        for row in range(len(dfResG)):
+                            resStr+= "{}: {}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['record'].to_string(index=False).lstrip())
+                    else:
+                        resStr= "{}: {}".format(dfResG['name'].to_string(index=False).lstrip(' '),record)
             else:
-                if(dfResG.empty):
+                if('goal' in statType):
+                    if(len(dfRes)>1):
+                        for row in range(len(dfRes)):
+                            resStr += dfRes.iloc[row]['name'] + " " + str(dfRes.iloc[row]['goals']) + "\n"
+                    else:
+                        resStr = "{}: {}".format(dfRes['name'].to_string(index=False).lstrip(),dfRes['goals'].to_string(index=False).lstrip())
+                elif('assists' in statType):
+                    if(len(dfRes)>1):
+                        for row in range(len(dfRes)):
+                            resStr += dfRes.iloc[row]['name'].lstrip() + " " + str(dfRes.iloc[row]['assists']) + "\n"
+                    else:
+                        resStr = "{}: {}".format(dfRes['name'].lstrip(),dfRes['assists'].to_string(index=False).lstrip())
+                elif('pts' in statType or 'point' in statType or 'stat' in statType):
                     if(len(dfRes)>1):
                         for row in range(len(dfRes)):
                             resStr+= "{}: {}-{}--{}\n".format(dfRes.iloc[row]['name'].lstrip(' '),dfRes.iloc[row]['goals'],dfRes.iloc[row]['assists'],dfRes.iloc[row]['pts'])
                     else:
                         resStr= "{}: {}-{}--{}".format(dfRes['name'].to_string(index=False).lstrip(' '),dfRes['goals'].to_string(index=False).lstrip(' '),dfRes['assists'].to_string(index=False).lstrip(' '),dfRes['pts'].to_string(index=False).lstrip(' '))
+        else:
+            if(dfResG.empty):
+                if(len(dfRes)>1):
+                    for row in range(len(dfRes)):
+                        resStr+= "{}: {}-{}--{}\n".format(dfRes.iloc[row]['name'].lstrip(' '),dfRes.iloc[row]['goals'],dfRes.iloc[row]['assists'],dfRes.iloc[row]['pts'])
                 else:
-                    gaa=dfResG['gaa'].to_string(index=False).lstrip()
-                    svper=dfResG['sv%'].to_string(index=False).lstrip()
-                    record=dfResG['record'].to_string(index=False).lstrip()
-                    so=dfResG['SO'].to_string(index=False).lstrip()
-                    if(len(dfResG)>1):
-                        for row in range(len(dfResG)):
-                                resStr+= "{}: {}/{}/{}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['gaa'].to_string(index=False).lstrip(),dfResG.iloc[row]['sv%'].to_string(index=False).lstrip(),dfResG.iloc[row]['record'].to_string(index=False).lstrip())
-                    else:
-                        resStr= "{}: {}/{}/{}".format(dfResG['name'].to_string(index=False).lstrip(' '),gaa,svper,record)
- 
-            return resStr
-    if('most' in query or 'lead' in query):
+                    resStr= "{}: {}-{}--{}".format(dfRes['name'].to_string(index=False).lstrip(' '),dfRes['goals'].to_string(index=False).lstrip(' '),dfRes['assists'].to_string(index=False).lstrip(' '),dfRes['pts'].to_string(index=False).lstrip(' '))
+            else:
+                gaa=dfResG['gaa'].to_string(index=False).lstrip()
+                svper=dfResG['sv%'].to_string(index=False).lstrip()
+                record=dfResG['record'].to_string(index=False).lstrip()
+                so=dfResG['SO'].to_string(index=False).lstrip()
+                if(len(dfResG)>1):
+                    for row in range(len(dfResG)):
+                            resStr+= "{}: {}/{}/{}".format(dfResG.iloc[row]['name'].to_string(index=False).lstrip(' '),dfResG.iloc[row]['gaa'].to_string(index=False).lstrip(),dfResG.iloc[row]['sv%'].to_string(index=False).lstrip(),dfResG.iloc[row]['record'].to_string(index=False).lstrip())
+                else:
+                    resStr= "{}: {}/{}/{}".format(dfResG['name'].to_string(index=False).lstrip(' '),gaa,svper,record)
 
+        return resStr
+    if('most' in query or 'lead' in query):
         if(seasonSearch!=None):
             if(re.search('goal\S',query)):
                 statType='goals'
@@ -909,7 +908,8 @@ def getPlayerStats(playerDfs,query):
             elif(re.search('assist\S',query)):
                 statType='assists'
                 name='aname'
-               
+            else:
+                return ""
             return "{}:{} {}".format(dfLead.loc[(dfLead['year']==year)][name].to_string(index=False).lstrip(),dfLead.loc[(dfLead['year']==year)][statType].to_string(index=False).lstrip(),statType)
         elif(numSearch!=None):
             number=int(numSearch.group(1))
@@ -1027,6 +1027,7 @@ def getPlayerStats(playerDfs,query):
                 return "{}-{}-{}".format(wins,loss,tie)
             
     return ''
+    
     
 def generateSeasonSkaters():
     fileName=('SeasonSkaterStats.txt')
