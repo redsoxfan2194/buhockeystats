@@ -196,7 +196,6 @@ def decodeTeam(team):
         "chestnuthilluniversity" : "Boston College",
         "clarky" : "Clarkson",
         "cct" : "Clarkson",
-        "connecticut" : "UConn",
         "cor" : "Cornell",
         "cuse" : "Syracuse",
         "darty" : "Dartmouth",
@@ -211,7 +210,7 @@ def decodeTeam(team):
         "hu" : "Harvard",
         "howlinhuskies" : "Northeastern",
         "huntsville" : "Alabama Huntsville",
-        "icebus" : "UConn",
+        "icebus" : "Connecticut",
         "keggy" : "Dartmouth",
         "lakestate" : "Lake Superior State",
         "lakesuperior" : "Lake Superior State",
@@ -255,7 +254,7 @@ def decodeTeam(team):
         "scsu" : "St. Cloud State",
         "shu" : "Sacred Heart",
         "slu" : "St. Lawrence",
-        "slushbus" : "UConn",
+        "slushbus" : "Connecticut",
         "smc" : "Saint Michael's",
         "sparky" : "Arizona State",
         "sparty" : "Michigan State",
@@ -272,7 +271,7 @@ def decodeTeam(team):
         "uaa" : "Alaska Anchorage",
         "uaf" : "Alaska",
         "uah" : "Alabama Huntsville",
-        "uconn" : "UConn",
+        "uconn" : "Connecticut",
         "umass" : "Massachusetts",
         "uma" : "Massachusetts",
         "umassamherst" : "Massachusetts",
@@ -468,8 +467,8 @@ def determineQueryType(query):
         qType='record'
     elif('wins' in query):
         qType='wins'
-    elif('loses' in query):
-        qType='loses'
+    elif('losses' in query):
+        qType='losses'
     elif('ties' in query):
         qType='ties'
     elif('last win' in query):
@@ -480,6 +479,14 @@ def determineQueryType(query):
         qType='last tie'
     elif('last' in query):
         qType='last'
+    elif('biggest win' in query):
+        qType='biggest win'
+    elif('biggest loss' in query):
+        qType='biggest loss'
+    elif('biggest tie' in query):
+        qType='biggest tie'
+    elif('biggest' in query):
+        qType='biggest'
     else:
         qType='player'
     return qType
@@ -525,7 +532,7 @@ def tokenizeResultsQuery(query):
     return keyWordsDict
     
 def cleanupQuery(query,qType):
-    cleanlist=['the','of','what','is',"what's",'number of','games','was','game','his','arena','rink', "a", "an"]
+    cleanlist=['the','of','what','is',"what's",'number of','games','was','game','his','arena','rink', "a", "an","did"]
     if(qType!='bean'):
         cleanlist.insert(0,"bu")
         cleanlist.insert(0,"bu's")
@@ -541,6 +548,7 @@ def getResults(dfGames,query):
     global tourneyDict
     months=[x.lower() for x in list(calendar.month_name)]
     months_short=[x.lower() for x in list(calendar.month_abbr)]
+    days=[x.lower() for x in list(calendar.day_name)]
     days_short=[x.lower() for x in list(calendar.day_abbr)]
     qType=determineQueryType(query)
     queryDict=tokenizeResultsQuery(cleanupQuery(query,qType))
@@ -577,7 +585,7 @@ def getResults(dfGames,query):
         if('neutral' in queryDict['at']):
             queryDict['at']='Neutral'
         if(queryDict['at'].capitalize() in ['Home','Away','Neutral']):
-            dfQueryList.append("(dfGames['location']==(\"{}\"))".format(queryDict['at']))
+            dfQueryList.append("(dfGames['location']==(\"{}\"))".format(queryDict['at'].capitalize()))
         elif(dfGames.loc[(dfGames['opponent']==decodeTeam(queryDict['at']))]['opponent'].count()>0):
             if((dfGames['opponent']==decodeTeam(queryDict['at']).title()).any()):
                 dfQueryList.append("(dfGames['opponent']=='{}')".format(decodeTeam(queryDict['at'])))
@@ -623,7 +631,7 @@ def getResults(dfGames,query):
             elif('neihl' in queryDict['in'] and 'tourn' not in queryDict['in']):
                     dfQueryList.append("(dfGames['gameType']=='Conference')") 
                     dfQueryList.append("(dfGames['conference']=='NEIHL')") 
-            elif('regular' == queryDict['in'] or 'rs' == queryDict['in']):
+            elif('regular' == queryDict['in'] or 'rs' == queryDict['in'] or 'regular season' == queryDict['in']):
                     dfQueryList.append("(dfGames['seasonType']=='Regular Season')") 
             elif('playoff' in queryDict['in']):
                     dfQueryList.append("(dfGames['seasonType']=='Playoffs')")
@@ -696,7 +704,7 @@ def getResults(dfGames,query):
             aDate='5/1/{}'.format(aStart)
         else:      
             aDate=queryDict['after']
-        dfQueryList.append("(dfGames['date']>'{}')".format(aDate))
+        dfQueryList.append("(dfGames['date']>'{}')".format(int(aDate)+1))
     if('between' in queryDict.keys()):
         dates=queryDict['between'].split(' and ')
         dfQueryList.append("(dfGames['date'].between('{}','{}'))".format(dates[0],dates[1]))
@@ -728,15 +736,22 @@ def getResults(dfGames,query):
         dfResult=eval("dfGames.loc[{}].sort_values('date',ascending={})[:{}]".format(dfQuery,ascen,numGames))
     else:
         return "No Results Found"
-    if('last' in qType):
+    if('last' in qType or 'biggest' in qType):
+        if('last' in qType):
+            sortType='date'
+        elif('biggest' in qType):
+            sortType=['GD','date']  
         if('win' in qType):
-            res=(dfResult.loc[(dfResult['result']=='W')].sort_values('date',ascending=False)[:1])
-        elif('tie' in qType):
-            res=(dfResult.loc[(dfResult['result']=='T')].sort_values('date',ascending=False)[:1])
+            res=(dfResult.loc[(dfResult['result']=='W')].sort_values(sortType,ascending=False)[:1])
+        elif('tie' in qType and 'GD' not in sortType):
+            res=(dfResult.loc[(dfResult['result']=='T')].sort_values(sortType,ascending=False)[:1])
+        elif('tie' in qType and 'GD' in sortType):
+            res=pd.DataFrame()
+            return ''
         elif('loss' in qType):
-            res=(dfResult.loc[(dfResult['result']=='L')].sort_values('date',ascending=False)[:1])
+            res=(dfResult.loc[(dfResult['result']=='L')].sort_values(sortType,ascending=False)[:1])
         else:
-            res=dfResult.sort_values('date',ascending=False)[:1]
+            res=dfResult.sort_values(sortType,ascending=False)[:1]
         if(not res.empty):
             resStr= "{} {} {}".format(datetime.strptime(res['date'].to_string(index=False),'%Y-%M-%d').strftime('%M/%d/%Y'),res['opponent'].to_string(index=False).lstrip(' '),res['scoreline'].to_string(index=False).lstrip(' '))
             if('None' not in res['ot'].to_string(index=False)):
@@ -759,7 +774,7 @@ def getResults(dfGames,query):
             else:
                 res=0
             result=str(res)
-    elif(qType=='loses'):
+    elif(qType=='losses'):
             if((dfResult['result']=='L').any()):
                 res=dfResult.groupby('result').count()['date']['L']
             else:
