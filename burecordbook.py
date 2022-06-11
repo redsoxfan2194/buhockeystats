@@ -913,7 +913,7 @@ def getPlayerStats(playerDfs,query):
 
         return resStr
     if('most' in query or 'lead' in query or 'lowest' in query or 'best' in query):
-        if(seasonSearch!=None):
+        if(seasonSearch!=None and nameSearch == None):
             if(re.search('goal\S',query)):
                 statType='goals'
                 name='gname'
@@ -965,9 +965,55 @@ def getPlayerStats(playerDfs,query):
                     name=df['name'].to_string(index=False).lstrip(' ')
                     stat=df[statType].to_string(index=False).lstrip(' ')
                     return "{}: {} {}".format(name,stat,statType)
-        elif(nameSearch!=None):
+        elif(nameSearch!=None and nameSearch.group(1) not in ['fr','so','freshman','sophomore','junior','jr','senior','sr','gr','grad','f','d','forward','dman','d-man','defenseman']):
             name=nameSearch.group(1)
             dfName=dfSkate.loc[dfSkate['name'].str.contains(name,case=False)]
+            if(not dfName.empty):
+                if(re.search('goal\S',query)):
+                    statType='goals'
+                elif(re.search('pts|point|scor',query)):
+                    statType='pts'
+                    df=dfName.sort_values(statType,ascending=False)[:1]
+                    name=df['name'].to_string(index=False).lstrip(' ')
+                    pts=df['pts'].to_string(index=False).lstrip(' ')
+                    goals=df['goals'].to_string(index=False).lstrip(' ')
+                    assists=df['assists'].to_string(index=False).lstrip(' ')
+                    if(not df.empty):
+                        return "{}:{}-{}--{}".format(name,goals,assists,pts)
+                elif(re.search('assist\S',query)):
+                    statType='assists'
+                df=dfName.sort_values(statType,ascending=False)[:1]
+                name=df['name'].to_string(index=False).lstrip(' ')
+                stat=df[statType].to_string(index=False).lstrip(' ')
+                if(not df.empty):
+                    return "{}: {} {}".format(name,stat,statType)
+        elif(nameSearch.group(1) in ['fr','so','freshman','sophomore','junior','jr','senior','sr','gr','grad','f','d','forward','dman','d-man','defenseman'] and seasonSearch != None):
+            yr=''
+            if(year<2003):
+                return 'Not Available for seasons prior to 2002-03'
+            if('freshman' in nameSearch.group(1)):
+                yr='FR'
+            elif('sophomore' in nameSearch.group(1)):
+                yr='SO'
+            elif('junior' in nameSearch.group(1)):
+                yr='JR'
+            elif('senior' in nameSearch.group(1)):
+                yr='SR'
+            elif('grad' in nameSearch.group(1)):
+                yr='GR'
+            else:
+                yr=nameSearch.group(1).upper()
+            pos=''
+            if('forward' == nameSearch.group(1)):
+                pos='F'
+            elif('defenseman' == nameSearch.group(1) or 'dman' == nameSearch.group(1) or 'd-man' == nameSearch.group(1)):
+                pos='D'
+            else:
+                pos=nameSearch.group(1).upper()
+            if(pos != 'F' and pos != 'D'):
+                dfName=dfSeasSkate.loc[(dfSeasSkate['yr']==yr) & (dfSeasSkate['year']==year)]
+            else:
+                dfName=dfSeasSkate.loc[(dfSeasSkate['pos'].str.contains(pos)) & (dfSeasSkate['year']==year)]
             if(not dfName.empty):
                 if(re.search('goal\S',query)):
                     statType='goals'
@@ -1199,7 +1245,7 @@ def getPlayerStats(playerDfs,query):
                     resStr+= "{}-{}-{}".format(wins,loss,tie)
                 resStr+="\n"
     return resStr
-    
+       
     
     
 def generateSeasonSkaters():
