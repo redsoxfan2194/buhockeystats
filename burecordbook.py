@@ -803,7 +803,7 @@ def getPlayerStats(playerDfs,query):
     query=cleanupQuery(query,'')
     careerSearch=re.search('(.*) career (.*)',query)
     numSearch=re.search('\#(\d*)',query)
-    nameSearch=re.search('by (\w*)',query)
+    nameSearch=re.search('by (\w*) ?(\w*)?',query)
     numQuery=re.search('number (\w* \w*|\w*)',query)
     seasonSearch=re.search('(\w*|\w* \w*)? ?(goal\S*|point\S*|pts|assists|stat\S*|stat line|record|gaa|sv|sv%|save|shut|so)? ?in (\d{4}-\d{2}|\d{4})',query)
     yrSearch=re.search("(\w*|\w* \w*)? ?(goal\S*|point\S*|pts|assists|stat\S*|stat line|record|gaa|sv|sv%|save|shut|so)? ?as (fr|so|jr|junior|senior|sr|gr)",query)
@@ -991,27 +991,35 @@ def getPlayerStats(playerDfs,query):
             yr=''
             if(year<2003):
                 return 'Not Available for seasons prior to 2002-03'
-            if('freshman' in nameSearch.group(1)):
+            if('freshman' in nameSearch.group(1) or 'freshman' in nameSearch.group(2)):
                 yr='FR'
-            elif('sophomore' in nameSearch.group(1)):
+            elif('sophomore' in nameSearch.group(1) or 'sophomore' in nameSearch.group(2)):
                 yr='SO'
-            elif('junior' in nameSearch.group(1)):
+            elif('junior' in nameSearch.group(1) or 'junior' in nameSearch.group(2)):
                 yr='JR'
-            elif('senior' in nameSearch.group(1)):
+            elif('senior' in nameSearch.group(1) or 'senior' in nameSearch.group(2)):
                 yr='SR'
-            elif('grad' in nameSearch.group(1)):
+            elif('grad' in nameSearch.group(1) or 'grad' in nameSearch.group(1)):
                 yr='GR'
-            else:
+            elif(len(nameSearch.group(1))==2):
                 yr=nameSearch.group(1).upper()
+            elif(len(nameSearch.group(2))==2):
+                yr=nameSearch.group(2).upper()
+            if(yr=='IN'):
+                yr=''
             pos=''
-            if('forward' == nameSearch.group(1)):
+            if('forward' == nameSearch.group(1) or 'forward' == nameSearch.group(2)):
                 pos='F'
-            elif('defenseman' == nameSearch.group(1) or 'dman' == nameSearch.group(1) or 'd-man' == nameSearch.group(1)):
+            elif('defenseman' == nameSearch.group(1) or 'dman' == nameSearch.group(1) or 'd-man' == nameSearch.group(2) or 'defenseman' == nameSearch.group(2) or 'dman' == nameSearch.group(2) or 'd-man' == nameSearch.group(2)):
                 pos='D'
-            else:
+            elif(len(nameSearch.group(1))==1):
                 pos=nameSearch.group(1).upper()
+            elif(len(nameSearch.group(2))==1):
+                pos=nameSearch.group(2).upper()
             if(pos != 'F' and pos != 'D'):
                 dfName=dfSeasSkate.loc[(dfSeasSkate['yr']==yr) & (dfSeasSkate['year']==year)]
+            elif(pos != '' and yr !=''):
+                dfName=dfSeasSkate.loc[(dfSeasSkate['yr']==yr) & (dfSeasSkate['pos'].str.contains(pos)) & (dfSeasSkate['year']==year)]
             else:
                 dfName=dfSeasSkate.loc[(dfSeasSkate['pos'].str.contains(pos)) & (dfSeasSkate['year']==year)]
             if(not dfName.empty):
@@ -1201,7 +1209,7 @@ def getPlayerStats(playerDfs,query):
                 loss=int(float(gStatsLine['L'].to_string(index=False)))
                 tie=int(float(gStatsLine['T'].to_string(index=False)))
                 resStr+="----------------------\nCareer     {} {}-{}-{}".format(dfRes.sum()['gp'],win,loss,tie)
-            elif('so' in stat or 'shut'):
+            elif('so' in stat or 'shut' in stat):
                 dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==gStatsLine['name'].to_string(index=False).lstrip()]
                 resStr='Season  Yr GP  SO\n'
                 cStats=False
@@ -1245,6 +1253,7 @@ def getPlayerStats(playerDfs,query):
                     resStr+= "{}-{}-{}".format(wins,loss,tie)
                 resStr+="\n"
     return resStr
+    
        
     
     
