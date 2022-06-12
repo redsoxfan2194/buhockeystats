@@ -987,7 +987,7 @@ def getPlayerStats(playerDfs,query):
                 stat=df[statType].to_string(index=False).lstrip(' ')
                 if(not df.empty):
                     return "{}: {} {}".format(name,stat,statType)
-        elif(nameSearch.group(1) in ['fr','so','freshman','sophomore','junior','jr','senior','sr','gr','grad','f','d','forward','dman','d-man','defenseman'] and seasonSearch != None):
+        elif(nameSearch != None and nameSearch.group(1) in ['fr','so','freshman','sophomore','junior','jr','senior','sr','gr','grad','f','d','forward','dman','d-man','defenseman'] and seasonSearch != None):
             yr=''
             if(year<2003):
                 return 'Not Available for seasons prior to 2002-03'
@@ -1041,6 +1041,8 @@ def getPlayerStats(playerDfs,query):
                 stat=df[statType].to_string(index=False).lstrip(' ')
                 if(not df.empty):
                     return "{}: {} {}".format(name,stat,statType)
+        elif('by' in query):
+            return ""
         else:
             if(not dfSkate.empty):
                 if(re.search('goal\S',query)):
@@ -1061,6 +1063,8 @@ def getPlayerStats(playerDfs,query):
                 stat=df[statType].to_string(index=False).lstrip(' ')
                 if(not df.empty):
                     return "{}: {} {}".format(name,stat,statType) 
+            else:
+                return ""
     if(numSearch !=None and seasonSearch != None):
         number=int(numSearch.group(1))
         season=seasonSearch.group(3)
