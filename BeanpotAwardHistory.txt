@@ -1,0 +1,69 @@
+1952	Walt Greeley	F	Harvard						
+1954	Bob Babine	F	Boston College						
+1955	Billy Cleary	F	Harvard						
+1956	James Tiernan	F	Boston College						
+1957	Joe Celeta	F	Boston College						
+1958	Bill Sullivan	F	Boston University						
+1959	Jim Logue	G	Boston College						
+1960	Bob Bland	G	Harvard						
+1961	Tom Martin	D	Boston College						
+1962	Gene Kinasewich	F	Harvard						
+1963	Billy Hogan	F	Boston College						
+1964	John Cunniff	F	Boston College						
+1965	John Cunniff	F	Boston College						
+1966	Tom Ross	D	Boston University						
+1967	Herb Wakabayashi	F	Boston University						
+1968	Jim McCann	G	Boston University						
+1969	Joe Cavanagh	F	Harvard						
+1970	Mike Hyndman	D	Boston University						
+1971	Steve Stirling	F	Boston University						
+1972	Dan Brady,John Danby	G,F	Boston University						
+1973	Vic Stanfield	D	Boston University						
+1974	Randy Roth	F	Harvard	Ed Walsh	Boston University	50	6	0.893	3
+1975	Vic Stanfield	D	Boston University	Brian Durocher	Boston University	54	5	0.915	2.5
+1976	Paul Skidmore	G	Boston College	Paul Skidmore	Boston College	70	6	0.921	3
+1977	Brian Petrovek	G	Harvard	Brian Petrovek	Harvard	46	5	0.902	2.5
+1978	Jack O'Callahan	D	Boston University	Ed Arrington	Northeastern	51	7	0.879	3.5
+1979	Daryl MacLeod	F	Boston University	Paul Skidmore	Boston College	57	6	0.905	3
+1980	Dave Archambault	D	Northeastern	George Demetroulakas	Northeastern	40	9	0.816	4.5
+1981	Wade Lau	G	Harvard	Wade Lau	Harvard	36	2	0.947	1
+1982	Tom O'Regan	F	Boston University	Bob O'Connor	Boston College	67	5	0.93	2.5
+1983	Bob Sweeney	F	Boston College	Bill Switaj	Boston College	58	6	0.906	3
+1984	Tim Marshall	G	Northeastern	Tim Marshall	Northeastern	54	5	0.915	2.5
+1985	Bruce Racine	G	Northeastern	Bruce Racine	Northeastern	63	4	0.94	2
+1986	Terry Taillefer	G	Boston University	Scott Gordon	Boston College	51	6	0.895	3
+1987	Mike Kelfer	F	Boston University	Terry Taillefer	Boston University	70	6	0.921	3
+1988	Bruce Racine	G	Northeastern	Bruce Racine	Northeastern	50	3	0.943	1.5
+1989	Lane MacDonald	F	Harvard	Rich Burchill	Northeastern	67	9	0.882	4.5
+1990	David Tomlinson	F	Boston University	Scott Cashman	Boston University	52	5	0.912	2.5
+1991	Tony Amonte	F	Boston University	Tom Cole	Northeastern	86	5	0.945	2.5
+1992	Mike Prendergast	F	Boston University	Scott Cashman	Boston University	59	6	0.908	3
+1993	Ted Drury	F	Harvard	Scott Cashman	Boston University	41	6	0.872	3
+1994	Greg Taylor	G	Boston College	Greg Taylor	Boston College	66	5	0.93	2.11
+1995	Ken Rausch	F	Boston University	Derek Herlofsky	Boston University	51	3	0.944	1.5
+1996	Chris Drury	F	Boston University	Tom Noble	Boston University	52	5	0.912	2.64
+1997	Bill Pierce	F	Boston University	Marc Robitaille	Northeastern	68	4	0.944	2
+1998	Tom Poti	D	Boston University	Marc Robitaille	Northeastern	75	7	0.915	3.51
+1999	Michel Larocque	G	Boston University	Michel Larocque	Boston University	65	4	0.942	1.92
+2000	Rick DiPietro	G	Boston University	Rick DiPietro	Boston University	52	1	0.981	0.5
+2001	Krys Kolanos	F	Boston College	Scott Clemmensen	Boston College	36	4	0.9	2
+2002	Justin Maiser	F	Boston University	Matti Kaltiainen	Boston College	42	4	0.913	2.02
+2003	Sean Fields	G	Boston University	Sean Fields	Boston University	59	3	0.952	1.5
+2004	Sean Fields	G	Boston University	Sean Fields	Boston University	85	4	0.955	1.9
+2005	Chris Bourque	F	Boston University	Keni Gibson	Northeastern	65	4	0.942	1.54
+2006	Peter MacArthur	F	Boston University	Cory Schneider	Boston College	61	5	0.924	2.53
+2007	John Curry	G	Boston University	John Curry	Boston University	64	1	0.985	0.48
+2008	Brian Gibbons	F	Boston College	Brad Thiessen	Northeastern	70	8	0.897	4.06
+2009	Nick Bonino	F	Boston University	Brad Thiessen	Northeastern	74	6	0.925	3
+2010	John Muse	G	Boston College	John Muse	Boston College	64	3	0.955	1.53
+2011	Chris Kreider	F	Boston College	Chris Rawlings	Northeastern	80	7	0.92	3.36
+2012	Johnny Gaudreau	F	Boston College	Kieran Millan	Boston University	73	4	0.948	1.72
+2013	Kevin Roy	F	Northeastern	Parker Milner	Boston College	39	4	0.907	2
+2014	Kevin Hayes	F	Boston College	Thatcher Demko	Boston College	56	2	0.966	1
+2015	Matt Grzelcyk	D	Boston University	Steve Michalek	Harvard	87	7	0.926	2.93
+2016	Sean Maguire	G	Boston University	Sean Maguire	Boston University	65	2	0.97	0.98
+2017	Nathan Krusko	F	Harvard	Jake Oettinger	Boston University	63	7	0.913	3.5
+2018	Adam Gaudette	F	Northeastern	Cayden Primeau	Northeastern	75	2	0.974	1
+2019	Cayden Primeau	G	Northeastern	Cayden Primeau	Northeastern	59	3	0.952	1.49
+2020	Zach Solow	F	Northeastern	Craig Pantano	Northeastern	67	5	0.931	2.16
+2022	Dylan Peterson	F	Boston University	TJ Semptimphelter	Northeastern	69	2	0.972	1.01

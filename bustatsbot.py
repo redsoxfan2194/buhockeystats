@@ -18,6 +18,8 @@ dfLead=generateSeasonLeaders()
 dfBeanpot=generateBeanpotHistory()
 dfSeasSkate=generateSeasonSkaters()
 dfSeasGoalie=generateSeasonGoalies()
+dfBeanpotAwards=generateBeanpotAwards()
+dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET_KEY)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 replyList=[]
@@ -41,7 +43,7 @@ while(True):
             # delete by ID
             query=query.lstrip(' ')
             query=cleanupQuery(query,'bean')
-            result=getBeanpotStats(dfBeanpot,query)
+            result=getBeanpotStats(dfBean,query)
             if(result==''):
                 if(determineQueryType(query)!='player'):
                     result=getResults(dfGames,query)  
@@ -69,7 +71,7 @@ while(True):
           query=mentions.text.lstrip('@BUStatsBot ')
           query=query.lstrip(' ')
           query=cleanupQuery(query,'bean')
-          result=getBeanpotStats(dfBeanpot,query)
+          result=getBeanpotStats(dfBean,query)
           if(result==''):
               if(determineQueryType(query)!='player'):
                   result=getResults(dfGames,query)  

@@ -461,6 +461,30 @@ def generateBeanpotHistory():
     dfBeanpot=pd.DataFrame(beanList) 
     return dfBeanpot
   
+def generateBeanpotAwards():
+    fileName=('BeanpotAwardHistory.txt')
+    with open(fileName, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        awardList=[]
+        counter=0
+        for i in rows:
+            col=i.split('\t')
+            awardDict={'year':int(col[0]),
+                      'mvpName':col[1],
+                      'mvpPos':col[2],
+                      'mvpSchool':col[3],
+                      'ebName':col[4],
+                      'ebSchool':col[5],
+                      'ebSaves':col[6],
+                      'ebGA':col[7],
+                      'ebSV%':col[8],
+                      'ebGAA':col[9]}
+            awardList.append(awardDict)
+    f.close()
+    dfBeanpotAwards=pd.DataFrame(awardList)
+    return dfBeanpotAwards
+    
 def determineQueryType(query):
     qType=''
     if('record' in query and 'career' not in query and cleanupQuery(query,'').startswith('record')):
@@ -930,6 +954,7 @@ def getPlayerStats(playerDfs,query):
                 sortType=True
                 if('sv' in query):
                     statType='sv%'
+                    sortType=False
                 elif('gaa' in query):
                     statType='gaa'
                 elif('so' in query):
@@ -1036,11 +1061,12 @@ def getPlayerStats(playerDfs,query):
                         return "{}:{}-{}--{}".format(name,goals,assists,pts)
                 elif(re.search('assist\S',query)):
                     statType='assists'
-                df=dfName.sort_values(statType,ascending=False)[:1]
-                name=df['name'].to_string(index=False).lstrip(' ')
-                stat=df[statType].to_string(index=False).lstrip(' ')
-                if(not df.empty):
-                    return "{}: {} {}".format(name,stat,statType)
+                if(stateType!=''):
+                    df=dfName.sort_values(statType,ascending=False)[:1]
+                    name=df['name'].to_string(index=False).lstrip(' ')
+                    stat=df[statType].to_string(index=False).lstrip(' ')
+                    if(not df.empty):
+                        return "{}: {} {}".format(name,stat,statType)
         elif('by' in query):
             return ""
         else:
@@ -1058,6 +1084,20 @@ def getPlayerStats(playerDfs,query):
                         return "{}:{}-{}--{}".format(name,goals,assists,pts)
                 elif(re.search('assist\S',query)):
                     statType='assists'
+                elif(re.search('sv|sv%|gaa',query)):
+                    gpMin=40
+                    if('sv' in query):
+                        statType='sv%'
+                        sortType=False
+                    elif('gaa' in query):
+                        statType='gaa'
+                        sortType=True
+                    else:
+                        return ""
+                    dfRes=dfGoalie.loc[(dfGoalie['gp']>=gpMin)].sort_values(statType,ascending=sortType)[:1]
+                    return "{}: {}".format(dfRes['name'].to_string(index=False).lstrip(' '),dfRes[statType].to_string(index=False).lstrip(' '))
+                else:
+                    return ""
                 df=dfSkate.sort_values(statType,ascending=False)[:1]
                 name=df['name'].to_string(index=False).lstrip(' ')
                 stat=df[statType].to_string(index=False).lstrip(' ')
@@ -1256,10 +1296,8 @@ def getPlayerStats(playerDfs,query):
                 elif('record' in stat):
                     resStr+= "{}-{}-{}".format(wins,loss,tie)
                 resStr+="\n"
-    return resStr
-    
+    return resStr  
        
-    
     
 def generateSeasonSkaters():
     fileName=('SeasonSkaterStats.txt')
@@ -1311,13 +1349,17 @@ def generateSeasonGoalies():
     dfSeasGoalie=pd.DataFrame(seasGList)
     return dfSeasGoalie
     
-def getBeanpotStats(dfBeanpot,query):
+def getBeanpotStats(dfBean,query):
+    dfBeanpot=dfBean['results']
+    dfBeanpotAwards=dfBean['awards']
     beanNumSearch=re.search('(\d{4}|\d{1,2}|first|second|third)(?:st|nd|rd|th)? beanpot',query)
     typeSearch=re.search('beanpot (semi|consolation|final|championship)?\s?(champ|winner|runner|runner-up|1st|first|2nd|second|third|3rd|fourth|4th|last|result|finish)',query)
     recordSearch=re.search('(bu|boston university|bc|boston college|northeastern|nu|harvard|hu) record in beanpot ?(early|late|semi|cons|final|champ|3rd|third)?(.*(\d))?',query)
     head2headSearch=re.search('(bu|boston university|bc|boston college|northeastern|nu|harvard|hu) record vs (bu|boston university|bc|boston college|northeastern|nu|harvard|hu) in beanpot ?(early|late|semi|cons|final|champ|3rd|third)?(\d)?',query)
     finishSearch=re.search('^(bu|boston university|bc|boston college|northeastern|nu|harvard|hu)? ?beanpot (1st|first|2nd|second|3rd|third|fourth|last|4th|champ|title)? ?(?:place)? ?(finish)?',query)
     timeSearch=re.search('(since|after|before) (\d{4})|(?:between|from) (\d{4}) (?:and|to) (\d{4})',query)
+    teamFinishYearSearch=re.search('^(bu|boston university|bc|boston college|northeastern|nu|harvard|hu)? ?beanpot finish in (\d{4})',query)
+    awardSearch=re.search("(eberly|mvp|most valuable)",query)
     tQuery=''
     if(timeSearch!=None):
         timeType=timeSearch.group(1)
@@ -1367,7 +1409,7 @@ def getBeanpotStats(dfBeanpot,query):
             else:
                 consLossesStr=str(consLosses)
             recStr+= "Consolation Game: {}-{} ({} Appearances)\n".format(consWins,consLossesStr,consApp)
-        if(qType in ['final','champ'] or qType==''):
+        if(qType in ['final','championship','champ'] or qType==''):
             champWins=dfBeanpot.loc[eval("(dfBeanpot['champion']==\"{}\")".format(team)+tQuery)]['year'].count()
             champLosses=dfBeanpot.loc[eval("(dfBeanpot['runnerup']==\"{}\")".format(team)+tQuery)]['year'].count()
             recStr+= "Championship Game: {}-{} ({} Appearances)\n".format(champWins,champLosses,champWins+champLosses)
@@ -1427,7 +1469,7 @@ def getBeanpotStats(dfBeanpot,query):
                 beanStr+='Consolation Game:\n'
                 for i in ['consWinner','consWinnerScore','consLoser','consLoserScore','consOT']:
                     beanStr+=dfBeanpot.loc[dfBeanpot[numType]==year][i].to_string(index=False).lstrip(' ')+' '
-            if(typeSearch.group(1)==None or typeSearch.group(1) in ['final','champ']):
+            if(typeSearch.group(1)==None or typeSearch.group(1) in ['final','championship']):
                 if(typeSearch.group(1)==None):
                     beanStr+='\n\n'
                 beanStr+='Championship:\n'
@@ -1466,7 +1508,7 @@ def getBeanpotStats(dfBeanpot,query):
                 consLossesStr=str(consTeam2Wins)
     
             h2hStr+="Consolation Game: {}-{}\n".format(consTeam1Wins,consLossesStr)
-        if(qType in ['final','champ'] or qType==''):
+        if(qType in ['final','champ','championship'] or qType==''):
             champWins=dfBeanpot.loc[eval("(dfBeanpot['champion']==\"{}\") & (dfBeanpot['runnerup']==\"{}\")".format(team1,team2)+tQuery)]['year'].count()
             champLosses=dfBeanpot.loc[eval("(dfBeanpot['champion']==\"{}\") & (dfBeanpot['runnerup']==\"{}\")".format(team2,team1)+tQuery)]['year'].count()
             h2hStr+="Championship Game: {}-{}\n".format(champWins,champLosses)
@@ -1490,6 +1532,7 @@ def getBeanpotStats(dfBeanpot,query):
             counter=0
             if(finishSearch.group(2)==None):
                 places=['champion','runnerup','consWinner','consLoser']
+                header=['1st','2nd','3rd','4th']
                 beans={'Boston University':[0,0,0,0],'Boston College':[0,0,0,0],'Northeastern':[0,0,0,0],'Harvard':[0,0,0,0]} 
             else:
                 finish=finishSearch.group(2)
@@ -1497,12 +1540,16 @@ def getBeanpotStats(dfBeanpot,query):
                     finish=''
                 if(finish in ['champ','title','1st','first']):
                     places=['champion']
+                    header=['Titles']
                 if(finish in ['2nd','second'] or finish==''):
                     places=['runnerup']
+                    header=['Runner-Up']
                 if(finish in ['3rd','third'] or finish==''):
                     places=['consWinner']
+                    header=['3rd Place Finish']
                 if(finish in ['4th','fourth','last'] or finish==''):
                     places=['consLoser']
+                    header=['4th Place Finish']
             for place in places:
                 if(tQuery==''):
                     rows=(dfBeanpot.groupby([place])[place].count().sort_values(ascending=False).to_string(header=False).split('\n'))
@@ -1530,6 +1577,21 @@ def getBeanpotStats(dfBeanpot,query):
                     finStr+= "{0: <3} ".format(d)
                 finStr+='\n'
             return finStr
+        if(teamFinishYearSearch != None):
+            team=decodeTeam(teamFinishYearSearch.group(1))
+            year=int(teamFinishYearSearch.group(2))
+            if(year==2021):
+                return '2021 Beanpot cancelled due to the COVID-19 pandemic'
+            for i in ['champion','runnerup','consWinner','consLoser']:
+                if(team in dfBeanpot.loc[dfBeanpot['year']==year][i].to_string(index=False).lstrip(' ')):
+                    if(i=='consWinner'):
+                        i='3rd Place'
+                    elif(i=='consLoser'):
+                        i='4th Place'
+                    else:
+                        i=i.title()
+                    return "{} {} {}".format(year,i,team)
+                
         else:
             team=decodeTeam(finishSearch.group(1))
             finish=finishSearch.group(2)
@@ -1558,6 +1620,14 @@ def getBeanpotStats(dfBeanpot,query):
             if(finish in ['4th','fourth','last'] or finish==''):
                 finStr+='4th {}\n'.format(consLosses)
             return finStr
+    if(awardSearch != None and beanNumSearch!=None):
+        year=int(beanNumSearch.group(1))
+        dfRes=dfBeanpotAwards.loc[dfBeanpotAwards['year']==year]
+        if('eberly' in awardSearch.group(1)):
+            return('{} ({}) {}/{}'.format(dfRes['ebName'].to_string(index=False).lstrip(' '),dfRes['ebSchool'].to_string(index=False).lstrip(' '),dfRes['ebSV%'].to_string(index=False).lstrip(' '),dfRes['ebGAA'].to_string(index=False).lstrip(' ')))
+        elif('mvp' in awardSearch.group(1) or 'most val' in awardSearch.group(1)):
+            return('{} {} ({})'.format(dfRes['mvpName'].to_string(index=False).lstrip(' '),dfRes['mvpPos'].to_string(index=False).lstrip(' '),dfRes['mvpSchool'].to_string(index=False).lstrip(' ')))
+        
     return ''
     
 def updateCurrentSeasonStats():
