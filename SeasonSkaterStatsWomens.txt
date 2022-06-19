@@ -301,7 +301,7 @@
 1	Ashlyn Aiello	G	SR	1	0	0	0	N/A	2017-18
 4	Alexandra Calderone	D	SO	2	0	0	0	N/A	2017-18
 31	Erin O'Neil	G	SR	14	0	0	0	N/A	2017-18
---	Lauren Klein	F	FR	19	0	0	0	2/4	2017-18
+11	Lauren Klein	F	FR	19	0	0	0	2/4	2017-18
 7	Jesse Compher	F	SO	37	17	44	61	6/12	2018-19
 16	Sammy Davis	F	JR	37	25	27	52	11/22	2018-19
 9	Abby Cook	D	JR	37	8	20	28	9/18	2018-19
@@ -374,6 +374,7 @@
 30	Corinne Schroeder	G	SR	8	0	0	0	N/A	2020-21
 22	Rachel Allen	F	SR	10	0	0	0	N/A	2020-21
 4	Grace Parker	D	SO	12	0	0	0	3/6	2020-21
+1	Kate Stuart	G	SR	22	0	0	0	0/0	2021-22
 2	Alex Allan	D	SR	33	3	4	7	6/12	2021-22
 3	Liv Haag	F	FR	11	0	0	0	3/6	2021-22
 4	Grace Parker	D	JR	31	0	0	0	4/8	2021-22
@@ -398,3 +399,5 @@
 23	Tamara Giaquinto	D	SO	26	0	6	6	1/2	2021-22
 26	Brooke Ersoy	F	JR	19	0	2	2	3/6	2021-22
 28	Catherine Foulem	F	SO	33	4	8	12	6/12	2021-22
+31	Nicole McGuigan	G	SR	15	0	0	0	0/0	2021-22
+37	Callie Shanahan	G	FR	22	0	0	0	0/0	2021-22
