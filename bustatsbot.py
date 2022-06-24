@@ -11,14 +11,15 @@ def getListOfTweets(api):
     return tweetList
 
 dfGames=generateRecordBook()
-dfJersey=generateJerseys()
-dfSkate=generateSkaters()
-dfGoalie=generateGoalies()
-dfLead=generateSeasonLeaders()
-dfBeanpot=generateBeanpotHistory()
-dfSeasSkate=generateSeasonSkaters()
-dfSeasGoalie=generateSeasonGoalies()
-dfBeanpotAwards=generateBeanpotAwards()
+dfGamesWomens=generateWomensRecordBook()
+dfJersey,dfJerseyMens,dfJerseyWomens=generateJerseys()
+dfSkate,dfSkateMens,dfSkateWomens=generateSkaters()
+dfGoalie,dfGoalieMens,dfGoalieWomens=generateGoalies()
+dfLead,dfLeadWomens=generateSeasonLeaders()
+dfBeanpot,dfBeanpotWomens=generateBeanpotHistory()
+dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens=generateSeasonSkaters()
+dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens=generateSeasonGoalies()
+dfBeanpotAwards,dfBeanpotAwardsWomens=generateBeanpotAwards()
 dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET_KEY)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
@@ -41,20 +42,41 @@ while(True):
             # what are they saying?
             query = message.message_create["message_data"]["text"]
             # delete by ID
+            query,gender=determineGender(query)
             query=query.lstrip(' ')
-            query=cleanupQuery(query,'bean')
-            result=getBeanpotStats(dfBean,query)
+            if(gender=='Womens'):
+                query=cleanupQuery(query,'bean')
+                dfBean={'results':dfBeanpotWomens,'awards':dfBeanpotAwardsWomens}
+                result=getBeanpotStats(dfBean,query)
+            else:
+                query=cleanupQuery(query,'bean')
+                dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
+                result=getBeanpotStats(dfBean,query)
             if(result==''):
                 if(determineQueryType(query)!='player'):
-                    result=getResults(dfGames,query)  
+                    if(gender=='Womens'):
+                        result=getResults(dfGamesWomens,query)  
+                    else:
+                        result=getResults(dfGames,query)  
                 else:
                     playerDfs={}
-                    playerDfs['careerSkaters']=dfSkate
-                    playerDfs['careerGoalies']=dfGoalie
                     playerDfs['jerseys']=dfJersey
                     playerDfs['seasonleaders']=dfLead
+                    playerDfs['careerSkaters']=dfSkate
+                    playerDfs['careerGoalies']=dfGoalie
                     playerDfs['seasonSkaters']=dfSeasSkate
                     playerDfs['seasonGoalies']=dfSeasGoalie
+                    if(gender=='Womens'):
+                        playerDfs['jerseys']=dfJerseyWomens
+                        playerDfs['seasonleaders']=dfLeadWomens
+                        playerDfs['careerSkaters']=dfSkateWomens
+                        playerDfs['careerGoalies']=dfGoalieWomens
+                        playerDfs['seasonSkaters']=dfSeasSkateWomens
+                        playerDfs['seasonGoalies']=dfSeasGoalieWomens
+                    if(gender=='Mens'):
+                        playerDfs['seasonSkaters']=dfSeasSkateMens
+                        playerDfs['seasonGoalies']=dfSeasGoalieMens
+                        playerDfs['jerseys']=dfJerseyMens
                     result=getPlayerStats(playerDfs,query)
             if(result!=''):
               api.send_direct_message(sender_id, "{}: {}".format(query,result))
@@ -69,21 +91,43 @@ while(True):
           if(tweetid in replyList):
               continue
           query=mentions.text.lstrip('@BUStatsBot ')
+          query,gender=determineGender(query)
           query=query.lstrip(' ')
-          query=cleanupQuery(query,'bean')
-          result=getBeanpotStats(dfBean,query)
+          if(gender=='Womens'):
+              query=cleanupQuery(query,'bean')
+              dfBean={'results':dfBeanpotWomens,'awards':dfBeanpotAwardsWomens}
+              result=getBeanpotStats(dfBean,query)
+          else:
+              query=cleanupQuery(query,'bean')
+              dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
+              result=getBeanpotStats(dfBean,query)
           if(result==''):
               if(determineQueryType(query)!='player'):
-                  result=getResults(dfGames,query)  
+                  if(gender=='Womens'):
+                      result=getResults(dfGamesWomens,query)  
+                  else:
+                      result=getResults(dfGames,query)  
               else:
                   playerDfs={}
-                  playerDfs['careerSkaters']=dfSkate
-                  playerDfs['careerGoalies']=dfGoalie
                   playerDfs['jerseys']=dfJersey
                   playerDfs['seasonleaders']=dfLead
+                  playerDfs['careerSkaters']=dfSkate
+                  playerDfs['careerGoalies']=dfGoalie
                   playerDfs['seasonSkaters']=dfSeasSkate
                   playerDfs['seasonGoalies']=dfSeasGoalie
+                  if(gender=='Womens'):
+                      playerDfs['jerseys']=dfJerseyWomens
+                      playerDfs['seasonleaders']=dfLeadWomens
+                      playerDfs['careerSkaters']=dfSkateWomens
+                      playerDfs['careerGoalies']=dfGoalieWomens
+                      playerDfs['seasonSkaters']=dfSeasSkateWomens
+                      playerDfs['seasonGoalies']=dfSeasGoalieWomens
+                  if(gender=='Mens'):
+                      playerDfs['seasonSkaters']=dfSeasSkateMens
+                      playerDfs['seasonGoalies']=dfSeasGoalieMens
+                      playerDfs['jerseys']=dfJerseyMens
                   result=getPlayerStats(playerDfs,query)
+
           print("{}-{}:{}:{}".format(mentions.user.name,mentions.user.screen_name,mentions.text,result))
           if(result!=''):
               api.update_status(status = result, in_reply_to_status_id = tweetid , auto_populate_reply_metadata=True)

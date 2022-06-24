@@ -8,8 +8,7 @@ from datetime import datetime
 
 # Get Tourneys
 def generateRecordBook():
-    global tourneyDict
-    fileName=('BURecordBook.txt')
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/BURecordBook.txt')
     tourneys=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -33,8 +32,7 @@ def generateRecordBook():
     tourneyDict['HF ex']='Hall of Fame Game-Exhibition'
     tourneyDict['IB ex']='Ice Breaker-Exhibition'
 
-    # Get Games
-    fileName=('BURecordBook.txt')
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/BURecordBook.txt')
     gameList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -42,7 +40,7 @@ def generateRecordBook():
         conf='Independent'
         for i in rows:      
             if(len(i)==7):
-                season=i
+                season=i 
             coachSearch=re.search("COACH: (.*)",i)
             if coachSearch != None:
                 coach=coachSearch.group(1)
@@ -127,11 +125,121 @@ def generateRecordBook():
     dfGames=pd.DataFrame(gameList)
     return dfGames
 
+def generateWomensRecordBook():
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/BUWomensRecordBook.txt')
+    tourneys=[]
+    with open(fileName, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        conf='Independent'
+        tourneyDict={}
+        for i in rows:
+            row=i.split('  ')
+            if(len(row)==2):
+                tourneyDict[row[0]]=row[1]
+      # Get Games
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/BUWomensRecordBook.txt')
+    gameList=[]
+    with open(fileName, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        conf='Independent'
+        for i in rows:      
+            if(len(i)==7):
+                season=i 
+            coachSearch=re.search("COACH: (.*)",i)
+            if coachSearch != None:
+                coach=coachSearch.group(1)
+            captSearch=re.search("CAPTAIN.?: (.*)",i)
+            if captSearch != None:
+                capt=captSearch.group(1) 
+            confSearch=re.search("(NEIHL|ECAC|HOCKEY EAST):",i)
+            if confSearch != None:
+                conf=confSearch.group(1)
+                if(conf=='HOCKEY EAST'):
+                    conf='Hockey East'
+            if(re.search('\*',i)!=None):
+                gameType='Conference'
+            else:
+                gameType='Non-Conference'
+            i=i.replace("* ",'')
+            note=''
+            if('†' in i):
+                note='Loss by forfeit (ineligible player)'
+                i=i.replace('†','')
+            if('+' in i):
+                note='Win by forfeit (opponent left ice – score was 5-1, BU)'
+                i=i.replace('+','')
+            if('‡' in i):
+                note='Win by forfeit (ineligible player)'
+                i=i.replace('‡','')
+            game=re.search(r"(\d*\/\d*) (\w) (?:\((.?ot)\))? ?(.*) (\w) (#\d*)? ?(\S*|\S* \S*|\S* \S* \S*) ?(\(.*\))? (\d*-\d*)",i)
+            if game==None:
+                continue
+            gameDict={'date':game.group(1),
+                     'result':game.group(2),
+                     'ot':game.group(3),
+                     'arena':game.group(4),
+                     'opponent':game.group(7),
+                     'gameType':gameType,
+                     'tourney': game.group(8),
+                     'scoreline':game.group(9),
+                     'location':game.group(5),
+                     'rank':game.group(6),
+                     'coach':coach,
+                     'captain':capt,
+                     'conference':conf,
+                     'season':season,
+                     'note':note}
+            if(gameDict['gameType']==None):
+                gameDict['gameType']='Non-Conference'
+            if(gameDict['tourney']=='(ex)' or gameDict['result']=='E'):
+                gameDict['gameType']='Exhibition'
+                gameDict['result'] = 'E'
+                gameDict['tourney'] = None
+
+            if(gameDict['tourney']!=None):
+                gameDict['tourney']=tourneyDict[gameDict['tourney'].replace('(','').replace(')','')]
+            if((gameDict['tourney'] == gameDict['conference'] +" "+ 'Tournament') or (gameDict['tourney'] == 'NCAA Tournament')):
+                gameDict['seasonType'] = 'Playoffs'
+            else:
+                gameDict['seasonType'] = 'Regular Season'
+            if(gameDict['location']=='H'):
+                gameDict['location']='Home'
+            elif(gameDict['location']=='A'):
+                gameDict['location']='Away'
+            elif(gameDict['location']=='N'):
+                gameDict['location']='Neutral'
+            gameDict['month'],gameDict['day']=gameDict['date'].split('/')
+            gameDict['month']=int(gameDict['month'])
+            gameDict['day']=int(gameDict['day'])
+            if(gameDict['month'] >=9):
+                gameDict['date']+="/" + gameDict['season'][:4]
+                gameDict['year']=int(gameDict['season'][:4])
+            elif(gameDict['month'] <= 4):
+                gameDict['date']+= "/" + str(int(gameDict['season'][:4])+1)
+                gameDict['year']=int(gameDict['season'][:4])+1
+            gameDict['BUScore'],gameDict['OppoScore']=int(gameDict['scoreline'].split('-')[0]),int(gameDict['scoreline'].split('-')[1])
+            gameDict['GD']=abs(gameDict['BUScore']-gameDict['OppoScore'])
+            gameDict['date']=pd.Timestamp(gameDict['date'])
+            gameDict['dow']=gameDict['date'].weekday()
+            gameList.append(gameDict)
+    f.close()
+    dfWomensGames=pd.DataFrame(gameList)
+    return dfWomensGames
+
 def convertToInt(val):
         if(val.isdigit()):
             val=int(val)
         else:
             val=None
+        return val
+        
+def convertToIntZ(val):
+        if(val.isdigit()):
+            val=int(val)
+        else:
+            val=0
         return val
         
 def convertToFloat(val):
@@ -306,12 +414,11 @@ def decodeTeam(team):
 
 def generateJerseys():
     # Get Jerseys
-    fileName=('JerseyNumbers.txt')
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/JerseyNumbers.txt')
     playerList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
-        number=0
         numDict={'number':0,'player':'','season':''}
         for i in rows:
             
@@ -328,11 +435,33 @@ def generateJerseys():
                      'name':playerSearch.group(2)}
                 playerList.append(numDict)
     f.close()
-    return pd.DataFrame(playerList)
+
+
+    fileNameW=('/home/nmemme/bustatsbot/recordbookdata/JerseyNumbersWomens.txt')
+    playerListW=[]
+    with open(fileNameW, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        numDict={'number':0,'player':'','season':''}
+        for i in rows:
+            if("Retired - " in i):
+                    continue
+            playerSearch=re.search("(\d*)\t(.*)\t(.*)",i)
+            if playerSearch != None:
+                season=playerSearch.group(1)
+                numDict={'number':int(playerSearch.group(1)),
+                     'season':playerSearch.group(3),
+                     'name':playerSearch.group(2)}
+                playerListW.append(numDict)
+    f.close()
+    dfJerseyWomens=pd.DataFrame(playerListW)
+    dfJerseyMens=pd.DataFrame(playerList)
+    dfJersey=pd.DataFrame(playerList+playerListW)
+    return dfJersey,dfJerseyMens,dfJerseyWomens
     
     
 def generateSkaters():
-    fileName=('SkaterStats.txt')
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/SkaterStats.txt')
     skateList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -351,11 +480,32 @@ def generateSkaters():
                            'pen':convertToInt(skaterSearch.group(8)),
                            'pim':convertToInt(skaterSearch.group(9))}
                 skateList.append(skaterDict)
-    f.close()
-    return pd.DataFrame(skateList)
+    fileNameW=('/home/nmemme/bustatsbot/recordbookdata/SkaterStatsWomens.txt')
+    skateListW=[]
+    with open(fileNameW, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        for i in rows:
+            skaterSearch=re.search('(.*),(.*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*)\/(\S*)',i)
+            if skaterSearch!=None:
+                skaterDict={'last':skaterSearch.group(1),
+                           'first':skaterSearch.group(2),
+                            'name':skaterSearch.group(2)+' '+skaterSearch.group(1),
+                           'seasons':convertSeasons(skaterSearch.group(3)),
+                           'gp':convertToInt(skaterSearch.group(4)),
+                           'goals':convertToInt(skaterSearch.group(5)),
+                           'assists':convertToInt(skaterSearch.group(6)),
+                           'pts':convertToInt(skaterSearch.group(7)),
+                           'pen':convertToInt(skaterSearch.group(8)),
+                           'pim':convertToInt(skaterSearch.group(9))}
+                skateListW.append(skaterDict)
+    dfSkate=pd.DataFrame(skateList+skateListW)
+    dfSkateMens=pd.DataFrame(skateList)
+    dfSkateWomens=pd.DataFrame(skateListW)
+    return dfSkate,dfSkateMens,dfSkateWomens
 
 def generateGoalies():
-    fileName=('GoalieStats.txt')
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/GoalieStats.txt')
     goalieList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -383,11 +533,42 @@ def generateGoalies():
                            'L':convertToInt(goalieSearch.group(11)),
                            'T':convertToInt(goalieSearch.group(12))}
                 goalieList.append(goalieDict)
-    f.close()
-    return pd.DataFrame(goalieList)   
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/GoalieStatsWomens.txt')
+    goalieListW=[]
+    with open(fileName, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        for i in rows:
+            goalieSearch=re.search('(.*),(.*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*)',i)
+            if goalieSearch!=None:
+                mins=goalieSearch.group(5).split(':')
+                if(len(mins)>1):
+                    time = "{}:{}".format(*divmod(int(mins[0]), 60)) + ":" + mins[1]
+                    time = pd.to_timedelta(time)
+                else:
+                    time=float('nan')
+                goalieDict={'last':goalieSearch.group(1),
+                           'first':goalieSearch.group(2),
+                           'name':goalieSearch.group(2)+' '+goalieSearch.group(1),
+                           'seasons':convertSeasons(goalieSearch.group(3)),
+                           'gp':convertToInt(goalieSearch.group(4)),
+                           'mins':round(pd.Timedelta(time).total_seconds()/60,2),
+                           'ga':convertToInt(goalieSearch.group(6)),
+                           'gaa':convertToFloat(goalieSearch.group(7)),
+                           'saves':convertToInt(goalieSearch.group(8)),
+                           'sv%':convertToFloat(goalieSearch.group(9)),
+                           'W':convertToInt(goalieSearch.group(10)),
+                           'L':convertToInt(goalieSearch.group(11)),
+                           'T':convertToInt(goalieSearch.group(12))}
+                goalieListW.append(goalieDict)
+    dfGoalieWomens=pd.DataFrame(goalieListW)
+    dfGoalieMens=pd.DataFrame(goalieList)  
+    dfGoalie=pd.DataFrame(goalieList+goalieListW)
+
+    return dfGoalie,dfGoalieMens,dfGoalieWomens
 
 def generateSeasonLeaders():
-    fileName=('SeasonLeaders.txt')
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/SeasonLeaders.txt')
     leadList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -406,10 +587,126 @@ def generateSeasonLeaders():
                 leadList.append(leadDict)
     f.close()
     dfLead=pd.DataFrame(leadList)
-    return dfLead
+
+    fileNameW=('/home/nmemme/bustatsbot/recordbookdata/SeasonLeadersWomens.txt')
+    leadListW=[]
+    with open(fileNameW, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        for i in rows:
+            leadSearch=re.search('(\d{4}-\d{2}) (\d*) (.*) (\d*) (.*) (\d*) (.*)',i)
+            if leadSearch!=None:
+                leadDict={'season':leadSearch.group(1),
+                          'year': int(leadSearch.group(1)[:4])+1,
+                           'goals':convertToInt(leadSearch.group(2)),
+                            'gname':leadSearch.group(3),
+                           'assists':convertToInt(leadSearch.group(4)),
+                           'aname':leadSearch.group(5),
+                           'pts':convertToInt(leadSearch.group(6)),
+                           'pname':leadSearch.group(7)}
+                leadListW.append(leadDict)
+    f.close()
+    dfLeadWomens=pd.DataFrame(leadListW)
+    return dfLead,dfLeadWomens
+
+def generateSeasonSkaters():
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/SeasonSkaterStats.txt')
+    with open(fileName, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        seasList=[]
+        for i in rows:
+            col=i.split('\t')
+            seasDict={'number':col[0],
+                     'name':col[1],
+                     'pos':col[2],
+                     'yr':col[3],
+                     'gp':int(col[4]),
+                     'goals':int(col[5]),
+                     'assists':int(col[6]),
+                     'pts':int(col[7]),
+                     'pens':col[8],
+                     'season':col[9],
+                     'year':int(col[9][:4])+1}
+            seasList.append(seasDict)
+    f.close()
+    seasListW=[]
+    fileNameW=('/home/nmemme/bustatsbot/recordbookdata/SeasonSkaterStatsWomens.txt')
+    with open(fileNameW, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        for i in rows:
+            col=i.split('\t')
+            seasDict={'number':col[0],
+                     'name':col[1],
+                     'pos':col[2],
+                     'yr':col[3],
+                     'gp':int(col[4]),
+                     'goals':int(col[5]),
+                     'assists':int(col[6]),
+                     'pts':int(col[7]),
+                     'pens':col[8],
+                     'season':col[9],
+                     'year':int(col[9][:4])+1}
+            seasListW.append(seasDict)
+    f.close()
+    dfSeasSkateWomens=pd.DataFrame(seasListW)
+    dfSeasSkateMens=pd.DataFrame(seasList)
+    dfSeasSkate=pd.DataFrame(seasList+seasListW)
+    return dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens
+    
+def generateSeasonGoalies():    
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/SeasonGoalieStats.txt')
+    with open(fileName, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        seasGList=[]
+        for i in rows:
+            col=i.split('\t')
+            seasGDict={'number':col[0],
+                     'name':col[1],
+                     'yr':col[2],
+                     'gp':int(col[3]),
+                     'mins':col[4],
+                     'ga':int(col[5]),
+                     'saves':int(col[6]),
+                     'sv%':float(col[7]),
+                     'gaa':float(col[8]),
+                     'record':col[9],
+                     'SO':int(col[10]),
+                     'season':col[11],
+                     'year':int(col[11][:4])+1}
+            seasGList.append(seasGDict)
+    f.close()
+    fileNameW=('/home/nmemme/bustatsbot/recordbookdata/SeasonGoalieStatsWomens.txt')
+    with open(fileNameW, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        seasGListW=[]
+        for i in rows:
+            col=i.split('\t')
+            seasGDict={'number':col[0],
+                     'name':col[1],
+                     'yr':col[2],
+                     'gp':int(col[3]),
+                     'mins':col[4],
+                     'ga':int(col[5]),
+                     'saves':int(col[6]),
+                     'sv%':float(col[7]),
+                     'gaa':float(col[8]),
+                     'record':col[9],
+                     'SO':int(col[10]),
+                     'season':col[11],
+                     'year':int(col[11][:4])+1}
+            seasGListW.append(seasGDict)
+    f.close()
+    dfSeasGoalie=pd.DataFrame(seasGList+seasGListW)
+    dfSeasGoalieWomens=pd.DataFrame(seasGListW)
+    dfSeasGoalieMens=pd.DataFrame(seasGList)
+    return dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens
 
 def generateBeanpotHistory():
-    fileName=('BeanpotHistory.txt')
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/BeanpotHistory.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
@@ -458,11 +755,64 @@ def generateBeanpotHistory():
                 beanDict['champGD']=beanDict['championScore']-beanDict['runnerupScore']
                 beanList.append(beanDict)
     f.close()
-    dfBeanpot=pd.DataFrame(beanList) 
-    return dfBeanpot
+    dfBeanpot=pd.DataFrame(beanList)
+
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/BeanpotHistoryWomens.txt')
+    with open(fileName, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        beanListW=[]
+        for i in rows:
+            col=i.split('\t')
+            beanDict={  "edition" : int(col[0]),
+                        "year" : int(col[1]),
+                        "arena" : col[2],
+                        "semiDate" : col[3],
+                        "note": col[4],
+                        "semi1Winner" : col[5],
+                        "semi1WinnerScore" : int(col[6]),
+                        "semi1Loser" : col[7],
+                        "semi1LoserScore" : int(col[8]),
+                        "semi1OT" : col[9],
+                        "semi2Winner" : col[10],
+                        "semi2WinnerScore" : int(col[11]),
+                        "semi2Loser" : col[12],
+                        "semi2LoserScore" : int(col[13]),
+                        "semi2OT" : col[14],
+                        "semi3Winner" : col[15],
+                        "semi3WinnerScore" : convertToIntZ(col[16]),
+                        "semi3Loser" : col[17],
+                        "semi3LoserScore" : convertToIntZ(col[18]),
+                        "champDate" : col[19],
+                        "consWinner" : col[20],
+                        "consWinnerScore" : convertToIntZ(col[21]),
+                        "consLoser" : col[22],
+                        "consLoserScore" : convertToIntZ(col[23]),
+                        "consOT" : col[24],
+                        "champion" : col[25],
+                        "championScore" : int(col[26]),
+                        "runnerup" : col[27],
+                        "runnerupScore" : int(col[28]),
+                        "champOT" : col[29]}
+            beanDict['semiDate']=beanDict['semiDate'].rstrip(' ').lstrip(' ')
+            beanDict['champDate']=beanDict['champDate'].rstrip(' ').lstrip(' ')
+            beanDict['semiDate']+='/'+str(beanDict['year'])
+            beanDict['champDate']+='/'+str(beanDict['year'])
+            beanDict['semiDate']=pd.Timestamp(beanDict['semiDate'])
+            beanDict['champDate']=pd.Timestamp(beanDict['champDate'])
+            beanDict['semiDOW']=beanDict['semiDate'].weekday()
+            beanDict['champDOW']=beanDict['champDate'].weekday()
+            beanDict['semi1GD']=beanDict['semi1WinnerScore']-beanDict['semi1LoserScore']
+            beanDict['semi2GD']=beanDict['semi2WinnerScore']-beanDict['semi2LoserScore']
+            beanDict['consGD']=beanDict['consWinnerScore']-beanDict['consLoserScore']
+            beanDict['champGD']=beanDict['championScore']-beanDict['runnerupScore']
+            beanListW.append(beanDict)
+    f.close()
+    dfBeanpotWomens=pd.DataFrame(beanListW)
+    return dfBeanpot,dfBeanpotWomens
   
 def generateBeanpotAwards():
-    fileName=('BeanpotAwardHistory.txt')
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/BeanpotAwardHistory.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
@@ -483,7 +833,25 @@ def generateBeanpotAwards():
             awardList.append(awardDict)
     f.close()
     dfBeanpotAwards=pd.DataFrame(awardList)
-    return dfBeanpotAwards
+
+    fileName=('/home/nmemme/bustatsbot/recordbookdata/BeanpotAwardHistoryWomens.txt')
+    with open(fileName, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        awardListW=[]
+        counter=0
+        for i in rows:
+            col=i.split('\t')
+            awardDict={'year':int(col[0]),
+                      'mvpName':col[1],
+                      'mvpSchool':col[2],
+                      'berName':col[3],
+                      'berSchool':col[4]}
+            awardListW.append(awardDict)
+    f.close()
+    dfBeanpotAwardsWomens=pd.DataFrame(awardListW)
+    
+    return dfBeanpotAwards,dfBeanpotAwardsWomens
     
 def determineQueryType(query):
     qType=''
@@ -514,6 +882,19 @@ def determineQueryType(query):
     else:
         qType='player'
     return qType
+    
+def determineGender(query):
+    query=query.lower()
+    wSearch=re.search('(wom[a|e]n\S*\s?|female\S*\s?)',query)
+    gender=""
+    if(wSearch!=None):
+        gender='Womens'
+        query=query.replace(wSearch.group(1),'')
+    mSearch=re.search('(m[a|e]n\S*\s?|male\S*\s?)',query)
+    if(mSearch!=None):
+        gender='Mens'
+        query=query.replace(mSearch.group(1),'')
+    return query,gender
 
 def tokenizeResultsQuery(query):
     keywords=['vs','at','under','since','after','between','with','before','from','in','on','against','when']
@@ -661,6 +1042,8 @@ def getResults(dfGames,query):
                     dfQueryList.append("(dfGames['seasonType']=='Playoffs')")
             elif(digSearch==None and not(queryDict['in'] in months) and not(queryDict['in'] in months_short)):
                 queryDict['in']=queryDict['in'].replace('tourney','tournament')
+                queryDict['in']=queryDict['in'].replace('hea tournament','hockey east tournament')
+                queryDict['in']=queryDict['in'].replace('he tournament','hockey east tournament')
                 if('NCAA' in queryDict['in'].upper()):
                     queryDict['in']=queryDict['in'].replace('s','')
                 if(queryDict['in'].upper() in tourneyDict.keys()):
@@ -777,7 +1160,11 @@ def getResults(dfGames,query):
         else:
             res=dfResult.sort_values(sortType,ascending=False)[:1]
         if(not res.empty):
-            resStr= "{} {} {}".format(datetime.strptime(res['date'].to_string(index=False),'%Y-%M-%d').strftime('%M/%d/%Y'),res['opponent'].to_string(index=False).lstrip(' '),res['scoreline'].to_string(index=False).lstrip(' '))
+            if('Away' in res['location'].to_string(index='False')):
+                local='at'
+            else:
+                local='vs'
+            resStr= "{} {} {} {}".format(datetime.strptime(res['date'].to_string(index=False),'%Y-%M-%d').strftime('%M/%d/%Y'),local,res['opponent'].to_string(index=False).lstrip(' '),res['scoreline'].to_string(index=False).lstrip(' '))
             if('None' not in res['ot'].to_string(index=False)):
                 resStr+= res['ot'].to_string(index=False)
             if('None' not in res['tourney'].to_string(index=False)):
@@ -1109,7 +1496,7 @@ def getPlayerStats(playerDfs,query):
         number=int(numSearch.group(1))
         season=seasonSearch.group(3)
         if(not dfJersey.loc[(dfJersey['number']==number) & (dfJersey['season'].str.contains(season))].empty):
-            return dfJersey.loc[(dfJersey['number']==number) & (dfJersey['season'].str.contains(season))]['name'].to_string(index=False).lstrip()
+            return dfJersey.loc[(dfJersey['number']==number) & (dfJersey['season'].str.contains(season))]['name'].to_string(index=False).lstrip().replace('\n ','\n')
         elif(number==6 and int(season[:4])>=2014):
             return "Retired - Jack Parker"
         elif(number==24 and int(season[:4])>=1999):
@@ -1122,7 +1509,7 @@ def getPlayerStats(playerDfs,query):
         resStr=''
         if(not dfRes.empty):
             for row in range(len(dfRes)):
-                resStr+="{}: {} ({})\n".format(dfRes.iloc[row]['name'],dfRes.iloc[row]['number'],dfRes.iloc[row]['season'])
+                resStr+="{}: {} ({})\n".format(dfRes.iloc[row]['name'].lstrip(),dfRes.iloc[row]['number'],dfRes.iloc[row]['season'])
         return resStr
     if(careerSearch!=None):
         playerName=careerSearch.group(1)
@@ -1297,57 +1684,6 @@ def getPlayerStats(playerDfs,query):
                     resStr+= "{}-{}-{}".format(wins,loss,tie)
                 resStr+="\n"
     return resStr  
-       
-    
-def generateSeasonSkaters():
-    fileName=('SeasonSkaterStats.txt')
-    with open(fileName, 'r', encoding='utf-8') as f:
-        read_data = f.read()
-        rows=read_data.split('\n')
-        seasList=[]
-        for i in rows:
-            col=i.split('\t')
-            seasDict={'number':col[0],
-                     'name':col[1],
-                     'pos':col[2],
-                     'yr':col[3],
-                     'gp':int(col[4]),
-                     'goals':int(col[5]),
-                     'assists':int(col[6]),
-                     'pts':int(col[7]),
-                     'pens':col[8],
-                     'season':col[9],
-                     'year':int(col[9][:4])+1}
-            seasList.append(seasDict)
-    f.close()
-    dfSeasSkate=pd.DataFrame(seasList)  
-    return dfSeasSkate
-    
-def generateSeasonGoalies():    
-    fileName=('SeasonGoalieStats.txt')
-    with open(fileName, 'r', encoding='utf-8') as f:
-        read_data = f.read()
-        rows=read_data.split('\n')
-        seasGList=[]
-        for i in rows:
-            col=i.split('\t')
-            seasGDict={'number':col[0],
-                     'name':col[1],
-                     'yr':col[2],
-                     'gp':int(col[3]),
-                     'mins':col[4],
-                     'ga':int(col[5]),
-                     'saves':int(col[6]),
-                     'sv%':float(col[7]),
-                     'gaa':float(col[8]),
-                     'record':col[9],
-                     'SO':int(col[10]),
-                     'season':col[11],
-                     'year':int(col[11][:4])+1}
-            seasGList.append(seasGDict)
-    f.close()
-    dfSeasGoalie=pd.DataFrame(seasGList)
-    return dfSeasGoalie
     
 def getBeanpotStats(dfBean,query):
     dfBeanpot=dfBean['results']
@@ -1359,7 +1695,7 @@ def getBeanpotStats(dfBean,query):
     finishSearch=re.search('^(bu|boston university|bc|boston college|northeastern|nu|harvard|hu)? ?beanpot (1st|first|2nd|second|3rd|third|fourth|last|4th|champ|title)? ?(?:place)? ?(finish)?',query)
     timeSearch=re.search('(since|after|before) (\d{4})|(?:between|from) (\d{4}) (?:and|to) (\d{4})',query)
     teamFinishYearSearch=re.search('^(bu|boston university|bc|boston college|northeastern|nu|harvard|hu)? ?beanpot finish in (\d{4})',query)
-    awardSearch=re.search("(eberly|mvp|most valuable)",query)
+    awardSearch=re.search("(eberly|mvp|most valuable|bert)",query)
     tQuery=''
     if(timeSearch!=None):
         timeType=timeSearch.group(1)
@@ -1398,11 +1734,15 @@ def getBeanpotStats(dfBean,query):
             semi2Losses=dfBeanpot.loc[eval("(dfBeanpot['semi2Loser']==\"{}\")".format(team)+tQuery)]['year'].count()
             recStr+="Semi-Final 2: {}-{}\n".format(semi2Wins,semi2Losses)
         if((qType in ['semi'] and semiNum==0) or qType == ''):
-            recStr+='Semi-Finals: {}-{}\n'.format(semi1Wins+semi2Wins,semi1Losses+semi2Losses)
+            semi3Wins=dfBeanpot.loc[eval("(dfBeanpot['semi3Winner']==\"{}\")".format(team)+tQuery)]['year'].count()
+            semi3Losses=dfBeanpot.loc[eval("(dfBeanpot['semi3Loser']==\"{}\")".format(team)+tQuery)]['year'].count()
+            if(semi3Wins!=0 or semi3Losses!=0):
+                recStr+="Semi-Final 3: {}-{}\n".format(semi3Wins,semi3Losses) 
+            recStr+='Semi-Finals: {}-{}\n'.format(semi1Wins+semi2Wins+semi3Wins,semi1Losses+semi2Losses+semi3Losses)
         if(qType in ['cons','third','3rd'] or qType == '' ):
-            consWins=dfBeanpot.loc[eval("(dfBeanpot['consWinner']==\"{}\")".format(team)+tQuery)]['year'].count()
-            consLosses=dfBeanpot.loc[eval("(dfBeanpot['consLoser']==\"{}\")".format(team)+tQuery)]['year'].count()
-            consTies=dfBeanpot.loc[eval("(dfBeanpot['consWinner'].str.contains(team)) & (dfBeanpot['consWinner'].str.contains(','))"+tQuery)]['year'].count()
+            consWins=dfBeanpot.loc[eval("((dfBeanpot['consWinner']==\"{}\") & (dfBeanpot['consGD']!=0))".format(team)+tQuery)]['year'].count()
+            consLosses=dfBeanpot.loc[eval("((dfBeanpot['consLoser']==\"{}\") & (dfBeanpot['consGD']!=0))".format(team)+tQuery)]['year'].count()
+            consTies=dfBeanpot.loc[eval("((dfBeanpot['consWinner'].str.contains(team) | (dfBeanpot['consLoser'].str.contains(team))) & (dfBeanpot['consGD']==0))"+tQuery)]['year'].count()
             consApp=consWins+consLosses+consTies
             if(consTies>0):
                 consLossesStr=str(consLosses)+'-'+str(consTies)
@@ -1448,10 +1788,20 @@ def getBeanpotStats(dfBean,query):
             finStr += "Champion: " + dfRes['champion'].to_string(index=False).lstrip(' ') + "\n"
         if(qType in ['runner','2nd','second'] or qType=='finish'):
             finStr += "Runner-Up: " + dfRes['runnerup'].to_string(index=False).lstrip(' ') + "\n"
-        if(qType in ['third','3rd']or qType=='finish'):
-            finStr += "3rd Place: " +  dfRes['consWinner'].to_string(index=False).lstrip(' ') + "\n"
-        if(qType in ['fourth','4th','last']or qType=='finish'):
-            finStr += "4th Place: " + dfRes['consLoser'].to_string(index=False).lstrip(' ') + "\n"
+        if((dfRes['consGD']>0).bool()):
+            if(qType in ['third','3rd']or qType=='finish'):
+                finStr += "3rd Place: " +  dfRes['consWinner'].to_string(index=False).lstrip(' ') + "\n"
+            if(qType in ['fourth','4th','last']or qType=='finish'):
+                finStr += "4th Place: " + dfRes['consLoser'].to_string(index=False).lstrip(' ') + "\n"
+        else:
+            if(dfRes['consWinner'].to_string(index=False).lstrip()==""):
+                    thirds=list(set(['Boston University','Boston College','Northeastern','Harvard'])-set([dfRes['champion'].to_string(index=False).lstrip()])-set([dfRes['runnerup'].to_string(index=False).lstrip()]))
+                    finStr+="No Consolation Game Held: {},{}\n".format(thirds[0],thirds[1])
+            else:
+                if(qType in ['third','3rd']or qType=='finish'):
+                        finStr += "3rd Place: " +  dfRes['consWinner'].to_string(index=False).lstrip(' ') + ',' + dfRes['consLoser'].to_string(index=False).lstrip(' ') + "\n"
+                if(qType in ['fourth','4th','last']or qType=='finish'):
+                    finStr += "4th Place: None\n"
         if(finStr!=''):
             return finStr
         if('result' in qType):
@@ -1463,7 +1813,12 @@ def getBeanpotStats(dfBean,query):
                 beanStr+='\n'
                 for i in ['semi2Winner','semi2WinnerScore','semi2Loser','semi2LoserScore','semi2OT']:
                     beanStr+=dfBeanpot.loc[dfBeanpot[numType]==year][i].to_string(index=False).lstrip(' ')+' '
-            if(typeSearch.group(1)==None or typeSearch.group(1)=='consolation'):
+                if('semi3Winner' in dfBeanpot.columns and dfBeanpot.loc[dfBeanpot[numType]==year]['semi3Winner'].to_string(index=False).strip()!=''):
+                    beanStr+='\n'
+                    for i in ['semi3Winner','semi3WinnerScore','semi3Loser','semi3LoserScore']:
+                        beanStr+=dfBeanpot.loc[dfBeanpot[numType]==year][i].to_string(index=False).lstrip(' ')+' '
+                    beanStr+='\n'+dfBeanpot.loc[dfBeanpot[numType]==year]['note'].to_string(index=False).lstrip(' ')+' '
+            if((typeSearch.group(1)==None or typeSearch.group(1)=='consolation') and dfBeanpot.loc[dfBeanpot[numType]==year]['consWinner'].to_string(index=False).strip()!=''):
                 if(typeSearch.group(1)==None):
                     beanStr+='\n\n'
                 beanStr+='Consolation Game:\n'
@@ -1496,11 +1851,15 @@ def getBeanpotStats(dfBean,query):
             semi2Team2Wins=dfBeanpot.loc[eval("(dfBeanpot['semi2Winner']==\"{}\") & (dfBeanpot['semi2Loser']==\"{}\")".format(team2,team1)+tQuery)]['year'].count()
             h2hStr+="Semi-Final 2: {}-{}\n".format(semi2Team1Wins,semi2Team2Wins)
         if((qType in ['semi'] and semiNum==0) or qType==''): 
-            h2hStr+="Semi-Finals (Total): {}-{}\n".format(semi1Team1Wins+semi2Team1Wins,semi1Team2Wins+semi2Team2Wins)
+            semi3Team1Wins=dfBeanpot.loc[eval("(dfBeanpot['semi3Winner']==\"{}\") & (dfBeanpot['semi3Loser']==\"{}\")".format(team1,team2)+tQuery)]['year'].count()
+            semi3Team2Wins=dfBeanpot.loc[eval("(dfBeanpot['semi3Winner']==\"{}\") & (dfBeanpot['semi3Loser']==\"{}\")".format(team2,team1)+tQuery)]['year'].count()
+            if(semi3Team1Wins!=0 or semi3Team2Wins!=0):
+                 h2hStr+="Semi-Final 3: {}-{}\n".format(semi3Team1Wins,semi3Team2Wins) 
+            h2hStr+="Semi-Finals (Total): {}-{}\n".format(semi1Team1Wins+semi2Team1Wins+semi3Team1Wins,semi1Team2Wins+semi2Team2Wins+semi3Team2Wins)
         if(qType in ['cons','third','3rd'] or qType==''):
-            consTeam1Wins=dfBeanpot.loc[eval("(dfBeanpot['consWinner']==\"{}\") & (dfBeanpot['consLoser']==\"{}\")".format(team1,team2)+tQuery)]['year'].count()
-            consTeam2Wins=dfBeanpot.loc[eval("(dfBeanpot['consWinner']==\"{}\") & (dfBeanpot['consLoser']==\"{}\")".format(team2,team1)+tQuery)]['year'].count()
-            consTies=dfBeanpot.loc[(dfBeanpot['consWinner'].str.contains(team1)) & (dfBeanpot['consWinner'].str.contains(','))]['year'].count()
+            consTeam1Wins=dfBeanpot.loc[eval("(dfBeanpot['consWinner']==\"{}\") & (dfBeanpot['consLoser']==\"{}\") & (dfBeanpot['consGD']!=0)".format(team1,team2)+tQuery)]['year'].count()
+            consTeam2Wins=dfBeanpot.loc[eval("(dfBeanpot['consWinner']==\"{}\") & (dfBeanpot['consLoser']==\"{}\") & (dfBeanpot['consGD']!=0)".format(team2,team1)+tQuery)]['year'].count()
+            consTies=dfBeanpot.loc[(((dfBeanpot['consWinner'].str.contains(team1)) & (dfBeanpot['consLoser'].str.contains(team2))) | (dfBeanpot['consWinner'].str.contains(team2)) & (dfBeanpot['consLoser'].str.contains(team1)))  & (dfBeanpot['consGD']==0)]['year'].count()
             consApp=consTeam1Wins+consTeam2Wins+consTies
             if(consTies>0):
                 consLossesStr=str(consTeam2Wins)+'-'+str(consTies)
@@ -1513,7 +1872,7 @@ def getBeanpotStats(dfBean,query):
             champLosses=dfBeanpot.loc[eval("(dfBeanpot['champion']==\"{}\") & (dfBeanpot['runnerup']==\"{}\")".format(team2,team1)+tQuery)]['year'].count()
             h2hStr+="Championship Game: {}-{}\n".format(champWins,champLosses)
         if(qType==''):
-            h2hStr+="Total: {}-{}".format(semi1Team1Wins+semi2Team1Wins+consTeam1Wins+champWins,semi1Team2Wins+semi2Team2Wins+consTeam2Wins+champLosses)
+            h2hStr+="Total: {}-{}".format(semi1Team1Wins+semi2Team1Wins+semi3Team1Wins+consTeam1Wins+champWins,semi1Team2Wins+semi2Team2Wins+semi3Team2Wins+consTeam2Wins+champLosses)
             if(consTies>0):
                 h2hStr+="-{}\n".format(consTies)
             else:
@@ -1528,12 +1887,16 @@ def getBeanpotStats(dfBean,query):
             return ""
         if(finishSearch.group(1)==None):
             tQuery=tQuery.replace(' &','')
-            beans={'Boston University':[0],'Boston College': [0],'Northeastern':[0],'Harvard':[0]} 
+            beans={'Boston University':[0],'Boston College': [0],'Northeastern':[0],'Harvard':[0]}
+            if('Brown' in dfBeanpot['champion'].unique()):
+                beans['Brown']=[0]
             counter=0
             if(finishSearch.group(2)==None):
                 places=['champion','runnerup','consWinner','consLoser']
                 header=['1st','2nd','3rd','4th']
                 beans={'Boston University':[0,0,0,0],'Boston College':[0,0,0,0],'Northeastern':[0,0,0,0],'Harvard':[0,0,0,0]} 
+                if('Brown' in dfBeanpot['champion'].unique()):
+                    beans['Brown']=[0,0,0,0]
             else:
                 finish=finishSearch.group(2)
                 if(finish==None):
@@ -1557,14 +1920,20 @@ def getBeanpotStats(dfBean,query):
                     rows=(dfBeanpot.loc[eval(tQuery)].groupby([place])[place].count().sort_values(ascending=False).to_string(header=False).split('\n'))
                 for row in rows:
                     i=(list(filter(None,row.split('  '))))
-                    if(i[0]=='None'):
+                    if(i[0]=='None' or len(i)==1):
                         continue
-                    if(',' in i[0]):
-                        team=i[0].split(',')
-                        beans[team[0]][counter]+=int(i[1])
-                        beans[team[1]][counter]+=int(i[1])
+                    beans[i[0]][counter]=int(i[1])
+                if(place=='consLoser'):
+                    if(tQuery==''):
+                        tieList=dfBeanpot.loc[(dfBeanpot['consGD']==0) & (dfBeanpot['consWinner']!='')].groupby(['consWinner','consLoser'],as_index=False).count()[['consWinner','consLoser','year']].to_string(header=False,index=False).split('\n')
                     else:
-                        beans[i[0]][counter]=int(i[1])
+                        tQuery="& ({})".format(tQuery)
+                        tieList=dfBeanpot.loc[eval("(dfBeanpot['consGD']==0) & (dfBeanpot['consWinner']!='')"+tQuery)].groupby(['consWinner','consLoser'],as_index=False).count()[['consWinner','consLoser','year']].to_string(header=False,index=False).split('\n')
+                        if('Empty' not in tieList[0]):
+                            for r in tieList:
+                                tie=list(filter(None,r.split('  ')))
+                                beans[tie[1].strip()][counter-1]+=int(tie[2])
+                                beans[tie[1].strip()][counter]-=int(tie[2])
                 counter+=1
             if(counter>1):
                 sorted_finish=dict(sorted(beans.items(), key=lambda item: (item[1][0],item[1][1],item[1][2],item[1][3]),reverse=True))
@@ -1576,6 +1945,9 @@ def getBeanpotStats(dfBean,query):
                 for d in sorted_finish[i]:
                     finStr+= "{0: <3} ".format(d)
                 finStr+='\n'
+                bSearch=re.search("(Brown\s*(?:0(?:\s*)){1,4}\n)",finStr)
+                if(bSearch!=None):
+                    finStr=finStr.replace(bSearch.group(1),'')
             return finStr
         if(teamFinishYearSearch != None):
             team=decodeTeam(teamFinishYearSearch.group(1))
@@ -1592,6 +1964,7 @@ def getBeanpotStats(dfBean,query):
                         i=i.title()
                     return "{} {} {}".format(year,i,team)
                 
+                
         else:
             team=decodeTeam(finishSearch.group(1))
             finish=finishSearch.group(2)
@@ -1601,7 +1974,7 @@ def getBeanpotStats(dfBean,query):
             champLosses=dfBeanpot.loc[eval("(dfBeanpot['runnerup']==\"{}\")".format(team)+tQuery)]['year'].count()
             consWins=dfBeanpot.loc[eval("(dfBeanpot['consWinner']==\"{}\")".format(team)+tQuery)]['year'].count()
             consLosses=dfBeanpot.loc[eval("(dfBeanpot['consLoser']==\"{}\")".format(team)+tQuery)]['year'].count()
-            consTies=dfBeanpot.loc[eval("(dfBeanpot['consWinner'].str.contains(\"{}\")) & (dfBeanpot['consWinner'].str.contains(','))".format(team)+tQuery)]['year'].count()
+            consTies=dfBeanpot.loc[eval("((dfBeanpot['consWinner'].str.contains(team) | (dfBeanpot['consLoser'].str.contains(team))) & (dfBeanpot['consGD']==0))"+tQuery)]['year'].count()
             consApp=consWins+consLosses+consTies
             if(consTies>0):
                 consLossesStr=str(consLosses)+'-'+str(consTies)
@@ -1622,12 +1995,21 @@ def getBeanpotStats(dfBean,query):
             return finStr
     if(awardSearch != None and beanNumSearch!=None):
         year=int(beanNumSearch.group(1))
+        if(year==2021):
+            return '2021 Beanpot cancelled due to the COVID-19 pandemic'
         dfRes=dfBeanpotAwards.loc[dfBeanpotAwards['year']==year]
-        if('eberly' in awardSearch.group(1)):
-            return('{} ({}) {}/{}'.format(dfRes['ebName'].to_string(index=False).lstrip(' '),dfRes['ebSchool'].to_string(index=False).lstrip(' '),dfRes['ebSV%'].to_string(index=False).lstrip(' '),dfRes['ebGAA'].to_string(index=False).lstrip(' ')))
+        if('ebName' in dfRes.columns and 'eberly' in awardSearch.group(1)):
+            if(dfRes['ebName'].any()):
+                return('{} ({}) {}/{}'.format(dfRes['ebName'].to_string(index=False).lstrip(' '),dfRes['ebSchool'].to_string(index=False).lstrip(' '),dfRes['ebSV%'].to_string(index=False).lstrip(' '),dfRes['ebGAA'].to_string(index=False).lstrip(' ')))
         elif('mvp' in awardSearch.group(1) or 'most val' in awardSearch.group(1)):
-            return('{} {} ({})'.format(dfRes['mvpName'].to_string(index=False).lstrip(' '),dfRes['mvpPos'].to_string(index=False).lstrip(' '),dfRes['mvpSchool'].to_string(index=False).lstrip(' ')))
-        
+            if(dfRes['mvpName'].any()):
+                if('mvpPos' in dfRes.columns):
+                    return('{} {} ({})'.format(dfRes['mvpName'].to_string(index=False).lstrip(' '),dfRes['mvpPos'].to_string(index=False).lstrip(' '),dfRes['mvpSchool'].to_string(index=False).lstrip(' ')))
+                else:
+                    return('{} ({})'.format(dfRes['mvpName'].to_string(index=False).lstrip(' '),dfRes['mvpSchool'].to_string(index=False).lstrip(' ')))
+        elif('berName' in dfRes.columns and 'bert' in awardSearch.group(1)):
+            if(dfRes['berName'].any()):
+                 return('{} ({})'.format(dfRes['berName'].to_string(index=False).lstrip(' '),dfRes['berSchool'].to_string(index=False).lstrip(' ')))
     return ''
     
 def updateCurrentSeasonStats():
