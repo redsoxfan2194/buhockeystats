@@ -67,4 +67,4 @@
 67	2019	TD Garden	Mon, Feb 4 	12413	Boston College	2	Harvard	1		Northeastern	2	Boston University	1	OT	Mon, Feb 11 	15015	Harvard	5	Boston University	2		Northeastern	4	Boston College	2	
 68	2020	TD Garden	Mon, Feb 3 	13141	Northeastern	3	Harvard	1		Boston University	5	Boston College	4	2OT	Mon, Feb 10 	17850	Boston College	7	Harvard	2		Northeastern	5	Boston University	4	2OT 
 ― 	2021	Cancelled due to the COVID-19 pandemic 																								
-69	2022	TD Garden	Mon, Feb 7 	15535	Boston University	4	Harvard	3		Northeastern	3	Boston College	1		Mon, Feb 14 	17850	Boston College,Harvard	3	None	3	OT	Boston University	1	Northeastern	0	
+69	2022	TD Garden	Mon, Feb 7 	15535	Boston University	4	Harvard	3		Northeastern	3	Boston College	1		Mon, Feb 14 	17850	Boston College	3	Harvard	3	OT	Boston University	1	Northeastern	0	
