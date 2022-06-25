@@ -955,6 +955,17 @@ def getResults(dfGames,query):
     months_short=[x.lower() for x in list(calendar.month_abbr)]
     days=[x.lower() for x in list(calendar.day_name)]
     days_short=[x.lower() for x in list(calendar.day_abbr)]
+    numStartSearch=re.search("last (\d* )?(?:win|loss|tie)?",query.lstrip())
+    numRes=1
+    if(numStartSearch!=None):
+        query=query.replace('wins','win')
+        query=query.replace('losses','loss')
+        query=query.replace('ties','tie')
+        if(numStartSearch.group(1) !=None):
+            query=query.replace(numStartSearch.group(1),'')
+            numRes=int(numStartSearch.group(1))
+    else:
+        numRes=1
     qType=determineQueryType(query)
     queryDict=tokenizeResultsQuery(cleanupQuery(query,qType))
     
@@ -1143,32 +1154,35 @@ def getResults(dfGames,query):
         dfResult=eval("dfGames.loc[{}].sort_values('date',ascending={})[:{}]".format(dfQuery,ascen,numGames))
     else:
         return "No Results Found"
-    if('last' in qType or 'biggest' in qType):
+        if('last' in qType or 'biggest' in qType):
         if('last' in qType):
             sortType='date'
         elif('biggest' in qType):
             sortType=['GD','date']  
         if('win' in qType):
-            res=(dfResult.loc[(dfResult['result']=='W')].sort_values(sortType,ascending=False)[:1])
+            res=(dfResult.loc[(dfResult['result']=='W')].sort_values(sortType,ascending=False)[:numRes])
         elif('tie' in qType and 'GD' not in sortType):
-            res=(dfResult.loc[(dfResult['result']=='T')].sort_values(sortType,ascending=False)[:1])
+            res=(dfResult.loc[(dfResult['result']=='T')].sort_values(sortType,ascending=False)[:numRes])
         elif('tie' in qType and 'GD' in sortType):
             res=pd.DataFrame()
             return ''
         elif('loss' in qType):
-            res=(dfResult.loc[(dfResult['result']=='L')].sort_values(sortType,ascending=False)[:1])
+            res=(dfResult.loc[(dfResult['result']=='L')].sort_values(sortType,ascending=False)[:numRes])
         else:
-            res=dfResult.sort_values(sortType,ascending=False)[:1]
+            res=dfResult.sort_values(sortType,ascending=False)[:numRes]
         if(not res.empty):
-            if('Away' in res['location'].to_string(index='False')):
-                local='at'
-            else:
-                local='vs'
-            resStr= "{} {} {} {}".format(datetime.strptime(res['date'].to_string(index=False),'%Y-%M-%d').strftime('%M/%d/%Y'),local,res['opponent'].to_string(index=False).lstrip(' '),res['scoreline'].to_string(index=False).lstrip(' '))
-            if('None' not in res['ot'].to_string(index=False)):
-                resStr+= res['ot'].to_string(index=False)
-            if('None' not in res['tourney'].to_string(index=False)):
-                resStr+=" ("+ res['tourney'].to_string(index=False).lstrip(' ') +")"
+            resStr=''
+            for i in range(len(res)):
+                if('Away' in res.iloc[i]['location']):
+                    local='at'
+                else:
+                    local='vs'
+                resStr+= "{} {} {} {}".format(datetime.strptime(str(res.iloc[i]['date'])[:10],'%Y-%M-%d').strftime('%M/%d/%Y'),local,res.iloc[i]['opponent'].lstrip(' '),res.iloc[i]['scoreline'].lstrip(' '))
+                if(res.iloc[i]['ot'] !=None):
+                    resStr+= " " + res.iloc[i]['ot']
+                if(res.iloc[i]['tourney'] != None):
+                    resStr+=" ("+ res.iloc[i]['tourney'].lstrip(' ') +")"
+                resStr+='\n'
         else:
             resStr='No Results Found'
         return resStr
