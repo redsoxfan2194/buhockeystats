@@ -32,7 +32,7 @@ CAPTAIN: Ernest Almer
 1/30 L Boston Arena	Harvard 0-5
 2/1 L at Lewiston	L'Assoc. St. Dominique (nc) 0-3
 2/2 L at Maine	Maine 2-4
-2/9 L Baker Rink	Princeton 0-6
+2/9 L Hobey Baker Rink	Princeton 0-6
 2/13 L at Yale	Yale 0-6
 1924-25
 OVERALL: 7-4-1
@@ -124,7 +124,7 @@ CAPTAIN: Paul Bergholtz
 1/17 W Boston Arena	Bowdoin 5-1
 1/29 T UNH Rink	New Hampshire 2-2
 2/6 L (ot) Boston Arena	University Club (nc) 1-2
-2/12 L Baker Rink	Princeton 1-3
+2/12 L Hobey Baker Rink	Princeton 1-3
 2/21 W Boston Arena	Williams 8-3
 2/26 W Boston Arena	New Hampshire 9-0
 1930-31
@@ -137,7 +137,7 @@ CAPTAIN: Paul Bergholtz
 1/14 L Boston Arena	University Club (nc) 0-8
 1/24 W (ot) Smith Rink	Army 4-2
 2/6 W Boston Arena	Northeastern (Oly) 4-3
-2/11 L Baker Rink	Princeton 2-3
+2/11 L Hobey Baker Rink	Princeton 2-3
 2/21 L RI Auditorium	Brown 2-6
 2/27 W Boston Arena	New Hampshire 3-1
 2/28 W Boston Arena	Union Boat Club (Oly) (nc) 3-1
@@ -152,7 +152,7 @@ CAPTAIN: Ronald Weaver
 1/8 W Boston Arena	MIT 4-1
 1/15 W Boston Arena	Bates 2-1
 1/30 W Smith Rink	Army 8-3
-2/5 L Baker Rink	Princeton 1-8
+2/5 L Hobey Baker Rink	Princeton 1-8
 2/10 L N. Haven Arena	Yale 1-6
 2/19 L (2ot) Boston Arena	MIT 3-4
 2/24 W Boston Arena	New Hampshire 8-1
@@ -163,7 +163,7 @@ COACH: Wayland Vaughan
 CAPTAIN: Walter Bender
 12/8 W Boston Arena	MIT 6-1
 12/16 W Boston Arena	Brown 4-0
-1/7 L Baker Rink	Princeton 1-2
+1/7 L Hobey Baker Rink	Princeton 1-2
 1/11 L Boston Garden	Harvard 2-5
 1/14 W Smith Rink	Army 7-0
 2/08 L N. Haven Arena	Yale 2-5
@@ -177,7 +177,7 @@ COACH: Wayland Vaughan
 CAPTAIN: John Ulman
 12/4 L Boston Arena	MIT 0-1
 12/13 L N. Haven Arena	Yale 1-3
-12/16 L (2ot) Baker Rink	Princeton 4-5
+12/16 L (2ot) Hobey Baker Rink	Princeton 4-5
 1/10 L Boston Arena	Harvard 3-4
 1/27 L Boston Arena	Harvard 2-3
 2/3 L Davis Rink	Dartmouth 3-7
@@ -193,7 +193,7 @@ OVERALL: 5-6
 COACH: Wayland Vaughan
 CAPTAINS: John Lax, Paul Rowe
 12/12 L N. Haven Arena	Yale 1-9
-12/15 L Baker Rink	Princeton 2-3
+12/15 L Hobey Baker Rink	Princeton 2-3
 12/18 L Boston Arena	Harvard 1-5
 1/2 L Boston Arena	Dartmouth 2-4
 1/8 W Boston Arena	MIT 5-2
@@ -208,7 +208,7 @@ OVERALL: 7-6
 COACH: Wayland Vaughan
 CAPTAIN: Dexter Wesson
 12/3 W (ot) Boston Arena	MIT 6-5
-12/14 L Baker Rink	Princeton 4-5
+12/14 L Hobey Baker Rink	Princeton 4-5
 12/17 L Boston Arena	Harvard 1-12
 1/7 W Boston Arena	Brown 7-3
 1/10 W Boston Arena	Boston College 4-3
@@ -227,7 +227,7 @@ COACH: Wayland Vaughan
 CAPTAIN: Russell Lynch
 12/1 W Boston Arena	MIT * 7-1
 12/9 L N. Haven Arena	Yale 3-9
-12/12 L Baker Rink	Princeton 1-5
+12/12 L Hobey Baker Rink	Princeton 1-5
 12/18 W (2ot) Boston Arena	Colby * 6-4
 1/5 W Boston Arena	New Hampshire * 3-1
 1/12 L (2ot) Boston Arena	Boston College * 5-6
@@ -246,7 +246,7 @@ COACH: Wayland Vaughan
 CAPTAINS: Gerald Desrosiers, George Hoar
 12/3 W Boston Arena	MIT * 2-1
 12/8 L N. Haven Arena	Yale 3-6
-12/11 W (ot) Baker Rink	Princeton 5-4
+12/11 W (ot) Hobey Baker Rink	Princeton 5-4
 12/16 L (ot) Boston Arena	Harvard 4-5
 1/4 L Davis Rink	Dartmouth 4-8
 1/7 W Boston Arena	Brown 8-1
@@ -265,7 +265,7 @@ NEIHL: 6-0-0, 1st
 COACH: Wayland Vaughan
 CAPTAIN: Albert Carvelli
 12/2 W Boston Arena	MIT * 8-3
-12/10 L Baker Rink	Princeton 3-11
+12/10 L Hobey Baker Rink	Princeton 3-11
 12/16 L N. Haven Arena	Yale 2-12
 12/20 W Boston Arena	Harvard 6-3
 1/04 L Davis Rink	Dartmouth 3-5
@@ -284,7 +284,7 @@ NEIHL: 4-2-0, 3rd
 COACH: Wayland Vaughan
 CAPTAINS: Joseph Conaty, Ed Richardson
 12/2 W Boston Arena	MIT * 5-1
-12/9 T (ot) Baker Rink	Princeton 2-2
+12/9 T (ot) Hobey Baker Rink	Princeton 2-2
 12/13 L N. Haven Arena	Yale 4-5
 12/19 L Boston Arena	Harvard 1-8
 1/9 W UNH Rink	New Hampshire * 8-1
@@ -302,7 +302,7 @@ COACH: Syd Borofsky
 CAPTAIN: Paul Brown
 12/7 W Boston Arena	MIT * 6-1
 12/11 L N. Haven Arena	Yale 0-12
-12/14 L Baker Rink	Princeton 1-6
+12/14 L Hobey Baker Rink	Princeton 1-6
 12/17 W Boston Arena	Harvard 7-3
 1/7 W Boston Arena	Middlebury * 10-3
 1/8 W UNH Rink	New Hampshire * 8-5
@@ -321,7 +321,7 @@ COACH: Wayland Vaughan
 CAPTAIN: Henry Sullivan
 12/5 W Boston Arena	MIT * 4-1
 12/10 L N. Haven Arena	Yale 0-8
-12/13 L Baker Rink	Princeton 0-3
+12/13 L Hobey Baker Rink	Princeton 0-3
 12/17 L Skating Club	Harvard 1-5
 1/6 W (ot) Boston Arena	New Hampshire * 5-3
 1/7 L Davis Rink	Dartmouth 3-4
@@ -404,7 +404,7 @@ CAPTAIN: Benjamin Forbes
 1/26 L Boston Arena	Dartmouth 5-6
 1/27 W Boston Arena	New Hampshire * 4-1
 1/30 W Smith Rink	Army 4-3
-1/31 W Baker Rink	Princeton 8-1
+1/31 W Hobey Baker Rink	Princeton 8-1
 2/2 W Boston Arena	Northeastern * 12-2
 2/3 W Boston Arena	Boston College * 5-3
 2/10 W Boston Arena	Norwich * 7-3
@@ -447,7 +447,7 @@ CAPTAIN: Ralph “Ike” Bevins
 12/6 L Boston Arena	Harvard 6-7
 12/12 W Boston Arena	MIT * 11-1
 12/13 L Boston Arena	Boston College * 3-4
-12/17 W Baker Rink	Princeton 6-1
+12/17 W Hobey Baker Rink	Princeton 6-1
 1/3 W (ot) Boston Arena	Brown 4-3
 1/5 W RI Auditorium	Brown 6-4
 1/10 W Boston Arena	Northeastern * 6-1
@@ -530,7 +530,7 @@ CAPTAIN: Paul Kelley
 12/26 W Boston Arena	Northeastern (Pot) 4-1
 12/27 L Boston Arena	Harvard (Pot) 4-7
 1/3 L (ot) Boston Arena	Harvard 5-6
-1/10 W Baker Rink	Princeton 5-4
+1/10 W Hobey Baker Rink	Princeton 5-4
 1/14 L Boston Garden	Boston College * 3-7
 1/17 W Boston Arena	Northeastern * 8-5
 1/24 W Smith Rink	Army 4-0
@@ -576,7 +576,7 @@ COACH: Harry Cleverly
 CAPTAIN: Thomas Dwyer
 12/3 L RI Auditorium	Brown 3-4
 12/8 W (ot) N. Haven Arena	Yale 3-2
-12/11 W Baker Rink	Princeton 4-2
+12/11 W Hobey Baker Rink	Princeton 4-2
 12/14 L Boston Garden	Harvard 2-6
 12/17 L Boston Arena	Northeastern 4-8
 12/18 L (ot) Boston Arena	Middlebury 4-5
@@ -636,7 +636,7 @@ CAPTAINS: Joe Quinn, Mike Manning
 12/27 W Boston Arena	Dartmouth (BAC) 6-2
 12/28 L Boston Arena	Harvard (BAC) 2-5
 12/29 W Boston Arena	Brown (BAC) 6-1
-1/5 W Baker Rink	Princeton 6-3
+1/5 W Hobey Baker Rink	Princeton 6-3
 1/7 W Boston Arena	Harvard 4-3
 1/14 W Boston Garden	American International 8-5
 1/25 W Davis Rink	Dartmouth 5-1
@@ -684,7 +684,7 @@ CAPTAINS: Larry Creighton, Ron DiVincenzo
 12/2 T (ot) Boston Arena	Providence 4-4
 12/6 W Boston Arena	Northeastern 5-3
 12/8 T (ot) Boston Arena	Harvard 5-5
-12/13 W Baker Rink	Princeton 8-2
+12/13 W Hobey Baker Rink	Princeton 8-2
 12/17 W Boston Arena	St. Lawrence 5-3
 12/18 L Boston Arena	Clarkson 1-6
 12/22 L Boston Arena	Rensselaer 3-5
@@ -742,7 +742,7 @@ COACH: Harry Cleverly
 CAPTAIN: Bill Quinn
 12/3 W RI Auditorium	Providence 7-6
 12/6 L Boston Arena	Northeastern 1-5
-12/10 W Baker Rink	Princeton 4-2
+12/10 W Hobey Baker Rink	Princeton 4-2
 12/12 L Boston Arena	Rensselaer 4-8
 12/15 W Boston Arena	Clarkson 5-2
 12/27 W Boston Arena	Brown (BAC) 10-0
@@ -774,7 +774,7 @@ CAPTAIN: Bob Smith
 12/6 W Boston Arena	Yale * 4-3
 12/8 L Boston Arena	St. Lawrence * 1-4
 12/14 L Houston Field House	Rensselaer * 0-8
-12/19 W Baker Rink	Princeton * 6-4
+12/19 W Hobey Baker Rink	Princeton * 6-4
 12/21 L MSG III	Clarkson (EHF) * 0-7
 12/22 T (ot) MSG III	Boston College (EHF) * 2-2
 12/27 L Boston Arena	Queen's (BAC) 3-5
@@ -831,7 +831,7 @@ COACH: Jack Kelley
 CAPTAINS: Alden Sampson, Richie Green
 11/15 T Beaverbrook	New Brunswick 5-5
 11/16 T Beaverbrook	New Brunswick 2-2
-11/30 W Baker Rink	Princeton * 5-3
+11/30 W Hobey Baker Rink	Princeton * 5-3
 12/2 W Boston Arena	Yale * 6-0
 12/7 W Davis Rink	Dartmouth * 4-3
 12/10 L Meehan Auditorium	Brown * 3-4
@@ -898,7 +898,7 @@ CAPTAIN: Dennis O'Connell
 11/26 L Beaverbrook	St. Francis Xavier (NBI) 1-3
 11/27 W Beaverbrook	New Brunswick (NBI) 8-0
 11/30 W Boston Arena	Yale * 7-0
-12/4 W Baker Rink	Princeton * 7-3
+12/4 W Hobey Baker Rink	Princeton * 7-3
 12/9 W Snively Arena	New Hampshire 4-2
 12/11 W Boston Arena	Boston College * 9-2
 12/14 W Boston Arena	Rensselaer * 9-0
@@ -1023,7 +1023,7 @@ CAPTAIN: Bill Hinch
 1/14 L Houston Field House	Rensselaer * 0-7
 1/18 W (ot) Boston Arena	Clarkson * 3-2
 1/23 W Boston Arena	Providence * 12-1
-1/28 W Baker Rink	Princeton * 6-0
+1/28 W Hobey Baker Rink	Princeton * 6-0
 1/30 W Boston Arena	Dartmouth * 9-3
 2/3 W Boston Garden	Boston College (Pot) * 4-2
 2/8 W Boston Arena	St. Lawrence * 7-3
@@ -1114,7 +1114,7 @@ CAPTAIN: John Danby
 12/1 W Meehan Auditorium	Brown * 3-0
 12/4 W Walter Brown Arena	New Hampshire * 2-1
 12/8 T (ot) Walter Brown Arena	Harvard * 4-4
-12/11 W Baker Rink	Princeton * 6-1
+12/11 W Hobey Baker Rink	Princeton * 6-1
 12/13 W Walter Brown Arena	Ohio University 9-1
 12/21 W Boston Garden	Northeastern (ECT) * 4-1
 12/22 W Boston Garden	Rensselaer (ECT) * 4-0
@@ -1185,7 +1185,7 @@ CAPTAIN: Ed Walsh
 11/28 L Davis Rink	Dartmouth * 3-4
 12/1 L Walter Brown Arena	Vermont 6-7
 12/5 W Walter Brown Arena	Providence * 4-2
-12/8 W Baker Rink	Princeton * 4-0
+12/8 W Hobey Baker Rink	Princeton * 4-0
 12/12 W Watson Rink	Harvard * 6-5
 12/27 W Houston Field House	Dartmouth (RPI) * 3-1
 12/28 W Houston Field House	Ohio State (RPI) 6-5
@@ -1260,7 +1260,7 @@ CAPTAIN: Terry Meagher, Peter Brown
 12/10 W Walter Brown Arena	Harvard * 8-3
 12/29 L Olympia	Michigan Tech (GLI) 2-6
 12/30 W Olympia	Pennsylvania (GLI) * 4-2
-1/3 W Baker Rink	Princeton * 4-2
+1/3 W Hobey Baker Rink	Princeton * 4-2
 1/6 W Matthews Arena	Northeastern * 4-3
 1/9 W Walker Arena	Clarkson * 8-2
 1/10 W Appleton Arena	St. Lawrence * 7-4
@@ -1337,7 +1337,7 @@ CAPTAINS: Brian Durocher, Jack O'Callahan
 12/29 W Munn Ice Arena	Michigan State 7-5
 12/30 W Munn Ice Arena	Michigan State 6-3
 1/4 W Walter Brown Arena	Cornell * 6-5
-1/7 W Baker Rink	Princeton * 4-3
+1/7 W Hobey Baker Rink	Princeton * 4-3
 1/11 W Snively Arena	New Hampshire * 6-4
 1/13 W Appleton Arena	St. Lawrence * 8-3
 1/14 W Walker Arena	Clarkson * 7-4
@@ -1405,7 +1405,7 @@ CAPTAIN: Tony Meagher
 11/28 W Thompson Arena	Dartmouth * 6-4
 12/1 L Walter Brown Arena	New Hampshire * 3-4
 12/5 L (ot) Walter Brown Arena	Harvard * 3-4
-12/7 W Baker Rink	Princeton * 6-3
+12/7 W Hobey Baker Rink	Princeton * 6-3
 12/11 L (ot) Meehan Auditorium	Brown * 2-3
 12/26 L Williams Arena	Minnesota 4-5
 12/27 L Williams Arena	Minnesota 1-5
@@ -1437,7 +1437,7 @@ CAPTAIN: Bill Cotter, Daryl MacLeod
 11/22 L Houston Field House	Rensselaer * 0-4
 11/26 L Walter Brown Arena	Dartmouth * 2-6
 11/29 W Walter Brown Arena	Providence * 8-1
-12/2 L Bright Center	Harvard * 2-5
+12/2 L Bright-Landry Hockey Center	Harvard * 2-5
 12/6 L Lynah Rink	Cornell * 2-6
 12/10 W Walter Brown Arena	Yale * 5-3
 12/13 L Alfond Arena	Maine * 4-5
@@ -1490,7 +1490,7 @@ CAPTAIN: Paul Fenton
 2/5 L Starr Rink	Colgate * 3-8
 2/8 W Boston Garden	Boston College (Pot) 3-1
 2/13 L Snively Arena	New Hampshire * 1-7
-2/17 W Baker Rink	Princeton * 7-3
+2/17 W Hobey Baker Rink	Princeton * 7-3
 2/20 W Walter Brown Arena	Vermont * 7-2
 2/27 W Walter Brown Arena	Brown * 9-2
 3/3 W Walter Brown Arena	Boston College * 5-0
@@ -1504,7 +1504,7 @@ CAPTAINS: Jerry August, Tom O'Regan
 11/20 L Houston Field House	Rensselaer * 2-4
 11/23 W Walter Brown Arena	Princeton * 5-2
 11/28 L (ot) Walter Brown Arena	Providence * 2-3
-12/1 L Bright Center	Harvard * 3-10
+12/1 L Bright-Landry Hockey Center	Harvard * 3-10
 12/4 L Lynah Rink	Cornell * 3-5
 12/8 L Walter Brown Arena	Yale * 1-4
 12/11 W Alfond Arena	Maine * 5-2
@@ -1550,7 +1550,7 @@ CAPTAIN: T.J. Connolly
 12/29 W Walter Brown Arena	Western Michigan 8-3
 12/30 W Walter Brown Arena	Western Michigan 5-2
 1/3 W Walter Brown Arena	Northern Arizona 6-5
-1/7 W Baker Rink	Princeton * 5-2
+1/7 W Hobey Baker Rink	Princeton * 5-2
 1/11 L McHugh Forum	Boston College * 3-4
 1/14 W Starr Rink	Colgate * 2-1
 1/17 W Thompson Arena	Dartmouth * 5-4
@@ -1843,7 +1843,7 @@ CAPTAIN: Mike Sullivan
 3/23 L Munn Ice Arena	Michigan State (NCAA) 3-6
 3/24 W Munn Ice Arena	Michigan State (NCAA) 5-3
 3/25 W Munn Ice Arena	Michigan State (NCAA) 5-3
-3/30 L Joe Louis	Colgate (NCAA) 2-3
+3/30 L Joe Louis Arena	Colgate (NCAA) 2-3
 1990-91
 OVERALL: 28-11-2
 HOCKEY EAST: 13-6-2, 3rd
@@ -1856,8 +1856,8 @@ CAPTAIN: Mark Krys
 11/11 L Conte Forum	Boston College * 2-3
 11/16 W Walter Brown Arena	Denver 12-0
 11/17 W Walter Brown Arena	Denver 9-2
-11/20 W Bright Center	Harvard 4-0
-11/24 W Baker Rink	Princeton 7-2
+11/20 W Bright-Landry Hockey Center	Harvard 4-0
+11/24 W Hobey Baker Rink	Princeton 7-2
 11/27 W Walter Brown Arena	Northeastern * 8-5
 11/30 L Walter Brown Arena	Michigan 6-8
 12/2 W Walter Brown Arena	Maine * 7-4
@@ -1945,7 +1945,7 @@ CAPTAIN: Kevin O'Sullivan, David Sacco
 11/20 L Walter Brown Arena	Maine * 3-4
 11/21 L Walter Brown Arena	Maine * 3-6
 11/24 W Walter Brown Arena	Harvard 4-3
-11/28 L Baker Rink	Princeton 2-3
+11/28 L Hobey Baker Rink	Princeton 2-3
 12/4 W Lawler Rink	Merrimack * 5-2
 12/5 W Walter Brown Arena	Merrimack * 5-4
 12/9 W Walter Brown Arena	Boston College * 7-4
@@ -2039,7 +2039,7 @@ CAPTAIN: Jacques Joubert
 11/12 W Walter Brown Arena	Northeastern * 4-2
 11/18 W Mullins Center	Massachusetts * 7-0
 11/19 W Walter Brown Arena	Massachusetts * 7-4
-11/22 W Bright Center	Harvard 6-1
+11/22 W Bright-Landry Hockey Center	Harvard 6-1
 11/25 W The Forum	Princeton (GWF) 6-2
 11/27 L (ot) The Forum	Maine (GWF) 5-6
 12/2 L Alfond Arena	Maine * 5-6
@@ -2178,14 +2178,14 @@ CAPTAIN: Chris Drury, Chris Kelleher
 11/14 L Whittemore Center Arena	New Hampshire * 0-5
 11/15 W Walter Brown Arena	New Hampshire * 4-2
 11/21 W Walter Brown Arena	Brown 8-1
-11/25 W Bright Center	Harvard 5-3
+11/25 W Bright-Landry Hockey Center	Harvard 5-3
 11/28 W Walter Brown Arena	Clarkson 4-0
 11/29 W Walter Brown Arena	St. Lawrence 6-3
 12/4 W Lawler Rink	Merrimack * 4-2
 12/7 W Conte Forum	Boston College * 5-1
 12/9 T (ot) Walter Brown Arena	Boston College * 3-3
 12/12 T (ot) Whittemore Center Arena	New Hampshire * 4-4
-12/30 L Baker Rink	Princeton 2-3
+12/30 L Hobey Baker Rink	Princeton 2-3
 1/3 W Walter Brown Arena	Niagara 6-2
 1/9 L Conte Forum	Boston College * 2-4
 1/10 W Walter Brown Arena	Providence * 1-0
@@ -2268,7 +2268,7 @@ CAPTAIN: Tommi Degemen
 11/12 W Walter Brown Arena	UMass Lowell * 4-3
 11/13 T (ot) Walter Brown Arena	Northeastern * 4-4
 11/19 T (ot) Whittemore Center Arena	New Hampshire * 5-5
-11/23 W Bright Center	Harvard 2-1
+11/23 W Bright-Landry Hockey Center	Harvard 2-1
 11/26 W Walter Brown Arena	Denver 4-0
 11/27 W Walter Brown Arena	Colorado College 5-1
 12/3 W Mullins Center	Massachusetts * 2-1
@@ -2356,7 +2356,7 @@ CAPTAINS: Chris Dyment, Mike Pandolfo
 11/9 W (ot) Alfond Arena	Maine * 3-2
 11/13 W (ot) Ingalls Rink	Yale 4-3
 11/17 L Conte Forum	Boston College * 1-3
-11/20 W Bright Center	Harvard 8-4
+11/20 W Bright-Landry Hockey Center	Harvard 8-4
 11/24 W Walter Brown Arena	Cornell 5-3
 11/25 L Walter Brown Arena	Cornell 2-4
 12/1 L Tsongas Center	UMass Lowell * 2-3
@@ -2409,8 +2409,8 @@ CAPTAIN: Freddy Meyer
 12/6 L (ot) Mullins Center	Massachusetts * 4-5
 12/7 W Walter Brown Arena	Massachusetts * 3-1
 12/10 W Houston Field House	Rensselaer 4-1
-12/28 W Joe Louis	Michigan State (GLI) 6-1
-12/29 W Joe Louis	Michigan (GLI) 5-4
+12/28 W Joe Louis Arena	Michigan State (GLI) 6-1
+12/29 W Joe Louis Arena	Michigan (GLI) 5-4
 1/04 W Matthews Arena	Northeastern * 4-0
 1/05 W Walter Brown Arena	Northeastern * 7-2
 1/09 L (ot) Walter Brown Arena	Providence * 2-3
@@ -2449,7 +2449,7 @@ CAPTAIN: Mark Mullen
 11/15 W Walter Brown Arena	Merrimack * 6-1
 11/21 L Walter Brown Arena	UMass Lowell * 1-3
 11/22 T (ot) Tsongas Center	UMass Lowell * 3-3
-11/25 L Bright Center	Harvard 2-5
+11/25 L Bright-Landry Hockey Center	Harvard 2-5
 11/28 T (ot) Walter Brown Arena	Dartmouth 2-2
 11/30 W Walter Brown Arena	Yale 7-2
 12/5 L Conte Forum	Boston College * 2-5
@@ -2541,7 +2541,7 @@ CAPTAINS: David Van der Gulik, Brad Zancanaro
 11/11 L Agganis Arena	New Hampshire * 2-3
 11/12 L Mullins Center	Massachusetts * 2-4
 11/18 T (ot) Schneider Arena	Providence * 2-2
-11/22 T (ot) Bright Center	Harvard 2-2
+11/22 T (ot) Bright-Landry Hockey Center	Harvard 2-2
 11/25 W Agganis Arena	Denver 1-0
 11/26 L (ot) Agganis Arena	Colorado College 5-6
 12/2 L Conte Forum	Boston College * 1-2
@@ -2733,7 +2733,7 @@ CAPTAIN: Kevin Shattenkirk
 11/14 W Agganis Arena	Merrimack * 6-4
 11/20 L Whittemore Center Arena	New Hampshire * 2-4
 11/21 T (ot) Agganis Arena	New Hampshire * 3-3
-11/24 W (ot) Bright Center	Harvard 6-5
+11/24 W (ot) Bright-Landry Hockey Center	Harvard 6-5
 11/28 T (ot) MSG IV	Cornell (RHH) 3-3
 12/4 T (ot) Agganis Arena	Vermont * 3-3
 12/5 L Agganis Arena	Boston College * 1-4
@@ -2831,7 +2831,7 @@ CAPTAIN: Chris Connolly
 1/6 W Agganis Arena	Merrimack * 4-2
 1/8 E (ot) Agganis Arena	US Under-18 Team (ex) 3-3
 1/13 W Matthews Arena	Northeastern * 4-3
-1/14 W (ot) Bright Center	Harvard 4-3
+1/14 W (ot) Bright-Landry Hockey Center	Harvard 4-3
 1/20 W Agganis Arena	Providence * 6-1
 1/21 W Schneider Arena	Providence * 8-0
 1/27 L Agganis Arena	Maine * 2-4
@@ -2919,7 +2919,7 @@ CAPTAINS: Patrick MacGregor, Garrett Noonan
 12/6 L Lawler Rink	Merrimack * 2-3
 12/7 T (ot) Agganis Arena	Merrimack * 1-1
 12/14 L Agganis Arena	Bentley 1-4
-1/4 L Bright Center	Harvard 4-7
+1/4 L Bright-Landry Hockey Center	Harvard 4-7
 1/8 L Agganis Arena	Dartmouth 2-4
 1/11 L Fenway Park	Maine * (FF) 3-7
 1/17 L Conte Forum	Boston College * 4-6
@@ -3011,7 +3011,7 @@ CAPTAIN: Matt Grzelcyk
 12/5 W Agganis Arena	Vermont * 5-3
 12/11 L Ingalls Rink	Yale 2-3
 12/12 W TD Bank Center	Quinnipiac 4-1
-1/7 W Bright Center	Harvard 6-5
+1/7 W Bright-Landry Hockey Center	Harvard 6-5
 1/9 W Agganis Arena	Massachusetts * 7-2
 1/15 L Conte Forum	Boston College * 3-5
 1/16 T (ot) Agganis Arena	Boston College * 1-1
@@ -3147,7 +3147,7 @@ CAPTAINS: Bobo Carpenter, Dante Fabbro
 12/7 L Agganis Arena	UMass Lowell * 3-5
 12/8 W Tsongas Center	UMass Lowell * 5-2
 12/14 W Agganis Arena	Dartmouth 4-1
-1/8 T (ot) Bright Center	Harvard 2-2
+1/8 T (ot) Bright-Landry Hockey Center	Harvard 2-2
 1/11 W Agganis Arena	New Hampshire * 5-2
 1/12 W Schneider Arena	Providence * 4-3
 1/19 L Agganis Arena	Quinnipiac 3-4
