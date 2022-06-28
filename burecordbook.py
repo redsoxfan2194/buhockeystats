@@ -1154,7 +1154,7 @@ def getResults(dfGames,query):
         dfResult=eval("dfGames.loc[{}].sort_values('date',ascending={})[:{}]".format(dfQuery,ascen,numGames))
     else:
         return "No Results Found"
-        if('last' in qType or 'biggest' in qType):
+    if('last' in qType or 'biggest' in qType):
         if('last' in qType):
             sortType='date'
         elif('biggest' in qType):
