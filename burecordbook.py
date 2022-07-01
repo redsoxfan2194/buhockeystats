@@ -1707,13 +1707,15 @@ def getBeanpotStats(dfBean,query):
     recordSearch=re.search('(bu|boston university|bc|boston college|northeastern|nu|harvard|hu) record in beanpot ?(early|late|semi|cons|final|champ|3rd|third)?(.*(\d))?',query)
     head2headSearch=re.search('(bu|boston university|bc|boston college|northeastern|nu|harvard|hu) record vs (bu|boston university|bc|boston college|northeastern|nu|harvard|hu) in beanpot ?(early|late|semi|cons|final|champ|3rd|third)?(\d)?',query)
     finishSearch=re.search('^(bu|boston university|bc|boston college|northeastern|nu|harvard|hu)? ?beanpot (1st|first|2nd|second|3rd|third|fourth|last|4th|champ|title)? ?(?:place)? ?(finish)?',query)
-    timeSearch=re.search('(since|after|before) (\d{4})|(?:between|from) (\d{4}) (?:and|to) (\d{4})',query)
+    timeSearch=re.search('(?:(since|after|before) (\d{4})|(?:between|from) (\d{4}) (?:and|to) (\d{4})|(in) (\d{2,4})s)',query)
     teamFinishYearSearch=re.search('^(bu|boston university|bc|boston college|northeastern|nu|harvard|hu)? ?beanpot finish in (\d{4})',query)
     awardSearch=re.search("(eberly|mvp|most valuable|bert)",query)
     tQuery=''
     if(timeSearch!=None):
         timeType=timeSearch.group(1)
-        if(timeType==None):
+        if(timeType==None and timeSearch.group(5)!=None):
+            timeType='in'
+        elif(timeType==None):
             timeType='between'
         if(timeType =='since'):
             year=int(timeSearch.group(2))
@@ -1728,7 +1730,24 @@ def getBeanpotStats(dfBean,query):
             sYear=int(timeSearch.group(3))
             eYear=int(timeSearch.group(4))
             tQuery+=' & (dfBeanpot["year"].between({},{}))'.format(sYear,eYear) 
-
+        elif(timeType == 'in'):
+            if(len(timeSearch.group(6))==2):
+                if(int(timeSearch.group(6))>40):
+                    decadeStart=int("19"+timeSearch.group(2))
+                else:
+                    decadeStart=int("20"+timeSearch.group(2))
+            else:
+                decadeStart=int(timeSearch.group(6))
+            tQuery+=' & (dfBeanpot["year"].between({},{}))'.format(decadeStart,decadeStart+9)
+    elif(decSearch!=None):
+            if(len(decSearch.group(1))==2):
+                if(int(decSearch.group(1))>20):
+                    decadeStart=int("19"+decSearch.group(1))
+                else:
+                    decadeStart=int("20"+decSearch.group(1))
+            else:
+                decadeStart=int(decSearch.group(1))
+            tQuery+=' & (dfBeanpot["year"].between({},{}))'.format(decadeStart,decadeStart+9)
     if(recordSearch != None and 'vs' not in query):
         team=decodeTeam(recordSearch.group(1))
         qType=recordSearch.group(2)
