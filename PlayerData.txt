@@ -1,0 +1,499 @@
+1	Stephen Siwiec	FR	G	6-1	195	N/A	82	Calgary, Alberta / Calgary (AJHL)	2002-03
+2	Mike Bussoli	SR	D	6-2	206	N/A	78	Calgary, Alberta / St. Francis HS	2002-03
+3	Ryan Whitney	SO	D	6-4	202	N/A	83	Scituate, Massachusetts / U.S. National Program	2002-03
+4	Dan Spang	FR	D	6-0	200	N/A	83	Winchester, Massachusetts / Winchester HS	2002-03
+5	John Laliberte	FR	F	6-2	190	N/A	83	Saco, Maine / New Hampshire (EJHL)	2002-03
+6	Brian Collins	SR	F	6-1	203	N/A	80	Shrewsbury, Massachusetts / St. John's Shrewsbury	2002-03
+7	Bryan Miller	SO	D	5-10	180	N/A	83	Wayne, New Jersey / U.S. National Program	2002-03
+8	Stephen Greeley	JR	F	5-7	160	N/A	80	Scituate, Massachusetts / Thayer Academy	2002-03
+9	Brian McConnell	SO	F	6-1	190	N/A	83	Norfolk, Massachusetts / U.S. National Program	2002-03
+10	E.J. Solimine	FR	F	5-11	190	N/A	82	Brookside, New Hampshire / Choate School	2002-03
+11	John Sabo	SR	F	5-8	174	N/A	81	Harding Twp, New Jersey / U.S. National Program	2002-03
+12	Brad Zancanaro	FR	F	5-7	165	N/A	82	Trenton, Michigan / Sioux City (USHL)	2002-03
+14	Jekabs Redlihs	FR	D	6-1	190	N/A	82	Riga, Latvia / NY Apple Core	2002-03
+15	Ken Magowan	JR	F	6-2	205	N/A	81	Kelowna, British Columbia / Vernon (BCHL)	2002-03
+16	Gregg Johnson	JR	F	5-11	179	N/A	82	Windsor, Connecticut / Springfield (EJHL)	2002-03
+17	Frantisek Skladany	JR	F	6-0	183	N/A	82	Martin, Slovakia / Martin Jr. A	2002-03
+18	Matt Radoslovich	SO	F	5-11	160	N/A	83	Wanaque, New Jersey / Bergen Catholic	2002-03
+19	David VanderGulik	FR	F	5-11	180	N/A	83	Abbottsford, British Columbia / Chilliwack (BCHL)	2002-03
+20	Ryan Priem	SR	F/D	6-1	212	N/A	80	Minnetonka, Minnesota / Taft	2002-03
+21	Justin Maiser	SO	F	6-1	195	N/A	83	Edina, Minnesota / U.S. National Program	2002-03
+22	Adam Dunlap	FR	D	6-0	185	N/A	83	Minnetonka, Minnesota / Breck School	2002-03
+23	Mark Mullen	JR	F	5-11	176	N/A	81	Dorchester, Massachusetts / Boston College HS	2002-03
+26	David Klema	SO	F	6-1	175	N/A	82	Roseau, Minnesota / Des Moines (USHL)	2002-03
+27	John Cronin	SR	D	6-1	210	N/A	80	Duxbury, Massachusetts / Noble & Greenough	2002-03
+28	Freddy Meyer	SR	D	5-10	187	N/A	81	Sanbornville, New Hampshire / U.S. National Program	2002-03
+31	Sean Fields	JR	G	6-0	190	N/A	81	Edmonton, Alberta / Penticton (AJHL)	2002-03
+39	Andy Warren	JR	G	6-1	171	N/A	80	Princeton Junction, New Jersey / Princeton Day	2002-03
+1	Stephan Siwiec	SO	G	6-1	195	N/A	82	Calgary, Alberta / Calgary (AJHL)	2003-04
+2	Sean Sullivan	FR	D	6-0	190	N/A	84	Braintree, Massachusetts / St. Sebastien's	2003-04
+3	Kevin Schaeffer	FR	D	6-1	190	N/A	84	South Huntington, New York / New York (EJHL)	2003-04
+4	Adam Dunlap	FR	D	6-0	185	N/A	83	Minnetonka, Minnesota / Breck School	2003-04
+5	John Laliberte	SO	F	6-2	190	N/A	83	Saco, Maine / New Hampshire (EJHL)	2003-04
+6	Kenny Roche	FR	F	6-0	190	N/A	84	South Boston, Massachusetts / St. Sebastien's	2003-04
+7	David Van der Gulik	SO	F	5-11	180	N/A	83	Abbottsford, British Columbia / Chilliwack (BCHL)	2003-04
+8	Stephen Greeley	SR	F	5-7	160	N/A	80	Scituate, Massachusetts / Thayer Academy	2003-04
+9	Brian McConnell	JR	F	6-1	190	N/A	83	Norfolk, Massachusetts / U.S. National Program	2003-04
+10	E.J. Solimine	FR	F	5-11	190	N/A	82	Brookside, New Hampshire / Choate School	2003-04
+11	Dan Spang	SO	D	6-0	200	N/A	83	Winchester, Massachusetts / Winchester HS	2003-04
+12	Brad Zancanaro	SO	F	5-7	165	N/A	82	Trenton, Michigan / Sioux City (USHL)	2003-04
+14	Jekabs Redlihs	SO	D	6-1	190	N/A	82	Riga, Latvia / NY Apple Core	2003-04
+15	Ken Magowan	SR	F	6-2	205	N/A	81	Kelowna, British Columbia / Vernon (BCHL)	2003-04
+16	Gregg Johnson	SR	F	5-11	179	N/A	82	Windsor, Connecticut / Springfield (EJHL)	2003-04
+17	Frantisek Skladany	SR	F	6-0	183	N/A	82	Martin, Slovakia / Martin Jr. A	2003-04
+18	Matt Radoslovich	JR	F	5-11	160	N/A	83	Wanaque, New Jersey / Bergen Catholic	2003-04
+19	Ryan Whitney	JR	D	6-4	202	N/A	83	Scituate, Massachusetts / U.S. National Program	2003-04
+21	Thomas Morrow	FR	D	6-6	210	N/A	83	Afton, Minnesota / Des Moines (USHL)	2003-04
+23	Mark Mullen	SR	F	5-11	176	N/A	81	Dorchester, Massachusetts / Boston College HS	2003-04
+25	Eric Thomassian	FR	F	5-11	180	N/A	83	Rye, New York / Deerfield Academy	2003-04
+27	Bryan Miller	JR	D	5-10	180	N/A	83	Wayne, New Jersey / U.S. National Program	2003-04
+29	David Klema	JR	F	6-1	175	N/A	82	Roseau, Minnesota / Des Moines (USHL)	2003-04
+31	Sean Fields	SR	G	6-0	190	N/A	81	Edmonton, Alberta / Penticton (AJHL)	2003-04
+39	John Curry	FR	G	5-11	185	N/A	84	Shorewood, Minnesota / Taft School	2003-04
+1	Stephan Siwiec	JR	G	6-1	195	N/A	82	Calgary, Alberta / Calgary (AJHL)	2004-05
+2	Dan McGoff	FR	D	5-8	182	N/A	86	Winchester, Massachusetts / Noble & Greenough	2004-05
+3	Kevin Schaeffer	SO	D	6-1	190	N/A	84	South Huntington, New York / New York (EJHL)	2004-05
+4	Sean Sullivan	SO	D	6-0	190	N/A	84	Braintree, Massachusetts / St. Sebastien's	2004-05
+5	John Laliberte	JR	F	6-2	190	N/A	83	Saco, Maine / New Hampshire (EJHL)	2004-05
+6	Kenny Roche	SO	F	6-0	190	N/A	84	South Boston, Massachusetts / St. Sebastien's	2004-05
+7	David Van der Gulik	JR	F	5-11	180	N/A	83	Abbottsford, British Columbia / Chilliwack (BCHL)	2004-05
+8	Ryan Weston	FR	F	6-2	205	N/A	84	Henniker, New Hampshire / New England (EJHL)	2004-05
+9	Brian McConnell	SR	F	6-1	190	N/A	83	Norfolk, Massachusetts / U.S. National Program	2004-05
+10	Bryan Ewing	FR	F	5-9	158	N/A	85	Plymouth, Massachusetts / Cushing Academy	2004-05
+11	Dan Spang	JR	D	6-0	200	N/A	83	Winchester, Massachusetts / Winchester HS	2004-05
+12	Brad Zancanaro	JR	F	5-7	165	N/A	82	Trenton, Michigan / Sioux City (USHL)	2004-05
+14	Jekabs Redlihs	JR	D	6-1	190	N/A	82	Riga, Latvia / NY Apple Core	2004-05
+15	Kevin Kielt	FR	D	6-1	200	N/A	84	Brick, New Hampshire / New Hampshire (EJHL)	2004-05
+16	Pete MacArthur	FR	F	5-10	181	N/A	85	Clifton Park, New York / West HS	2004-05
+17	Eric Thomassian	SO	F	5-11	180	N/A	83	Rye, New York / Deerfield Academy	2004-05
+18	Matt Radoslovich	SR	F	5-11	160	N/A	83	Wanaque, New Jersey / Bergen Catholic	2004-05
+19	Chris Bourque	FR	F	5-8	178	N/A	86	Topsfield, Massachusetts / Cushing Academy	2004-05
+20	Craig Sanders	FR	F	5-11	185	N/A	84	Wellesley, Massachusetts / Valley (EJHL)	2004-05
+21	Thomas Morrow	SO	D	6-6	210	N/A	83	Afton, Minnesota / Des Moines (USHL)	2004-05
+22	Brian McGuirk	FR	F	5-11	190	N/A	85	Danvers, Massachusetts / Governor Dummer	2004-05
+23	Ryan Monaghan	FR	F	6-3	205	N/A	85	Wilmette, Illinois / Northfield Mt. Hermon	2004-05
+25	Pat Percella	FR	F	6-0	195	N/A	85	Bayonne, New Jersey / Avon Old Farms	2004-05
+27	Bryan Miller	SR	D	5-10	180	N/A	83	Wayne, New Jersey / U.S. National Program	2004-05
+33	Karson Gillespie	FR	G	5-9	180	N/A	81	Mankota, Saskatchewan / Bonnyville (AJHL)	2004-05
+36	John Curry	SO	G	5-11	185	N/A	84	Shorewood, Minnesota / Taft School	2004-05
+1	Stephan Siwiec	SR	G	6-1	195	L	82	Calgary, Alberta / Calgary (AJHL)	2005-06
+2	Kevin Kielt	SO	D	6-1	190	L	84	Brick, New Hampshire / New Hampshire (EJHL)	2005-06
+3	Kevin Schaeffer (NSH)	JR	D	6-1	200	R	84	South Huntington, New York / New York (EJHL)	2005-06
+4	Sean Sullivan (PHO)	JR	D	6-0	190	L	84	Braintree, Massachusetts / St. Sebastian's	2005-06
+5	John Laliberte (VAN)	SR	F	6-2	190	L	83	Saco, Maine / New Hampshire (EJHL)	2005-06
+6	Kenny Roche (NYR)	JR	F	6-0	205	L	84	South Boston, Massachusetts / St. Sebastian's	2005-06
+7	David Van der Gulik (CAL)	SR	F	5-11	185	L	83	Abbottsford, British Columbia / Chilliwack (BCHL)	2005-06
+8	Steve Smolinsky	FR	F	5-10	165	R	86	Plymouth, Massachusetts / Salisbury School	2005-06
+9	Ryan Weston	SO	F	6-2	205	R	84	Henniker, New Hampshire / New England (EJHL)	2005-06
+10	Chris Higgins	FR	F	5-11	165	L	86	Lynnfield, Massachusetts / New Hampshire (EJHL)	2005-06
+11	Dan Spang (SJS)	SR	D	6-0	200	L	83	Winchester, Massachusetts / Winchester HS	2005-06
+12	Brad Zancanaro	SR	F	5-5	170	R	82	Trenton, Michigan / Sioux City (USHL)	2005-06
+14	Jekabs Redlihs (CBJ)	SR	D	6-1	190	L	82	Riga, Latvia / New York (EJHL)	2005-06
+15	John McCarthy	FR	F	6-1	195	L	86	Andover, Massachusetts / Des Moines (USHL)	2005-06
+16	Pete MacArthur	SO	F	5-10	180	L	85	Clifton Park, New York / Waterloo (USHL)	2005-06
+17	Eric Thomassian	JR	F	5-11	180	R	83	Rye, New York / Walpole (EJHL)	2005-06
+18	Brandon Yip (COL)	FR	F	6-1	186	L	85	Maple Ridge, British Columbia / Coquitlam (BCHL)	2005-06
+19	Dan McGoff	SO	D	5-9	175	R	86	Winchester, Massachusetts / Noble & Greenough	2005-06
+20	Craig Sanders	SO	F	5-11	185	R	84	Wellesley, Massachusetts / Valley (EJHL)	2005-06
+21	Thomas Morrow (BUF)	JR	D	6-7	220	L	83	Afton, Minnesota / Des Moines (USHL)	2005-06
+22	Jason Lawrence	FR	F	5-10	185	R	87	Saugus, Massachusetts / U.S. National Under-18	2005-06
+23	Ryan Monaghan	SO	F	6-3	205	R	85	Wilmette, Illinois / Northfield Mt. Hermon	2005-06
+27	Bryan Ewing	SO	F	5-10	165	R	85	Plymouth, Massachusetts / Cushing Academy	2005-06
+28	Brian McGuirk (CBJ)	SO	F	5-11	190	L	85	Danvers, Massachusetts / Governor Dummer	2005-06
+29	Karson Gillespie	SO	G	5-9	180	L	81	Mankota, Saskatchewan / Bonnyville (AJHL)	2005-06
+36	John Curry	JR	G	5-11	185	L	84	Shorewood, Minnesota / Taft School	2005-06
+97	Matt Gilroy	FR	D	6-2	195	R	84	North Bellmore, New York / Walpole (EJHL)	2005-06
+2	Eric Gryba (OTT)	FR	D	6-3	215	R	88	Saskatoon, Saskatchewan / Green Bay Gamblers	2006-07
+3	Kevin Schaeffer (NSH)	SR	D	6-1	200	R	84	South Huntington, New York / New York (EJHL)	2006-07
+4	Sean Sullivan (PHO)	SR	D	6-0	190	L	84	Braintree, Massachusetts / St. Sebastian's	2006-07
+5	Kevin Kielt	JR	D	6-1	190	L	84	Brick, New Hampshire / New Hampshire (EJHL)	2006-07
+6	Kenny Roche (NYR)	SR	F	6-0	205	L	84	South Boston, Massachusetts / St. Sebastian's	2006-07
+7	Brian Strait (PIT)	FR	D	6-1	200	L	88	Waltham, Massachusetts / U.S. National Under-18 Team	2006-07
+8	Steve Smolinsky	SO	F	5-10	165	R	86	Plymouth, Massachusetts / Salisbury School	2006-07
+9	Ryan Weston	JR	F	6-2	205	R	84	Henniker, New Hampshire / New England (EJHL)	2006-07
+10	Chris Higgins	SO	F	5-11	165	L	86	Lynnfield, Massachusetts / New Hampshire (EJHL)	2006-07
+14	Zach Cohen	FR	F	6-3	195	L	87	Schaumburg, Illinois / Tri-City Storm	2006-07
+15	John McCarthy (SJS)	SO	F	6-1	195	L	86	Andover, Massachusetts / Des Moines (USHL)	2006-07
+16	Pete MacArthur	JR	F	5-10	180	L	85	Clifton Park, New York / Waterloo (USHL)	2006-07
+17	Eric Thomassian	SR	F	5-11	180	R	83	Rye, New York / Walpole (EJHL)	2006-07
+18	Brandon Yip (COL)	SO	F	6-1	186	L	85	Maple Ridge, British Columbia / Coquitlam (BCHL)	2006-07
+19	Dan McGoff	JR	D	5-9	175	R	86	Winchester, Massachusetts / Noble & Greenough	2006-07
+20	Craig Sanders	JR	F	5-11	185	R	84	Wellesley, Massachusetts / Valley (EJHL)	2006-07
+21	Thomas Morrow (BUF)	SR	D	6-7	220	L	83	Afton, Minnesota / Des Moines (USHL)	2006-07
+22	Jason Lawrence	SO	F	5-10	185	R	87	Saugus, Massachusetts / U.S. National Under-18	2006-07
+23	Ryan Monaghan	JR	F	6-3	205	R	85	Wilmette, Illinois / Northfield Mt. Hermon	2006-07
+26	Luke Popko	FR	F	5-10	200	L	88	Skillman, New Jersey / U.S. National Under-18 Team	2006-07
+27	Bryan Ewing	JR	F	5-10	165	R	85	Plymouth, Massachusetts / Cushing Academy	2006-07
+28	Brian McGuirk (CBJ)	JR	F	5-11	190	L	85	Danvers, Massachusetts / Governor Dummer	2006-07
+29	Karson Gillespie	JR	G	5-9	180	L	81	Mankota, Saskatchewan / Bonnyville (AJHL)	2006-07
+31	Brett Bennett (PHO)	FR	G	6-1	185	L	88	Williamsville, New York / U.S. National Under-18 Team	2006-07
+36	John Curry	SR	G	5-11	185	L	84	Shorewood, Minnesota / Taft School	2006-07
+97	Matt Gilroy	SO	D	6-2	195	R	84	North Bellmore, New York / Walpole (EJHL)	2006-07
+2	Eric Gryba (OTT)	SO	D	6-3	215	R	88	Saskatoon, Saskatchewan / Green Bay (USHL)	2007-08
+3	Kevin Shattenkirk (COL)	FR	D	5-11	193	R	89	New Rochelle, New York / U.S. National Under-18	2007-08
+5	Kevin Kielt	SR	D	6-1	190	L	84	Brick, New Hampshire / New Hampshire (EJHL)	2007-08
+6	Joe Pereira	FR	F	5-10	178	R	87	West Haven, Connecticut / South Kent School	2007-08
+7	Brian Strait (PIT)	SO	D	6-1	200	L	88	Waltham, Massachusetts / U.S. National Under-18	2007-08
+8	Steve Smolinsky	JR	F	5-10	170	R	86	Plymouth, Massachusetts / Salisbury School	2007-08
+9	Ryan Weston	SR	F	6-2	215	R	84	Henniker, New Hampshire / New England (EJHL)	2007-08
+10	Chris Higgins	JR	F	5-11	182	L	86	Lynnfield, Massachusetts / New Hampshire (EJHL)	2007-08
+11	Zach Cohen	SO	F	6-3	195	L	87	Schaumburg, Illinois / Tri-City (USHL)	2007-08
+13	Nick Bonino (SJS)	FR	F	6-1	190	L	88	Unionville, Connecticut / Avon Old Farms	2007-08
+15	John McCarthy (SJS)	JR	F	6-1	198	L	86	Andover, Massachusetts / Des Moines (USHL)	2007-08
+16	Pete MacArthur	SR	F	5-10	182	L	85	Clifton Park, New York / Waterloo (USHL)	2007-08
+17	Victor Saponari	FR	F	5-10	170	R	87	Powder Springs, Georgia / Culver Military Academy	2007-08
+18	Brandon Yip (COL)	JR	F	6-1	186	L	85	Maple Ridge, British Columbia / Coquitlam (BCHL)	2007-08
+19	Dan McGoff	SR	D	5-9	178	R	86	Winchester, Massachusetts / Noble & Greenough	2007-08
+20	Craig Sanders	SR	F	6-0	197	R	84	Wellesley, Massachusetts / Valley (EJHL)	2007-08
+21	Jason Lawrence	JR	F	5-10	185	R	87	Saugus, Massachusetts / U.S. National Under-18	2007-08
+23	Ryan Monaghan	SR	F	6-4	205	R	85	Wilmette, Illinois / Northfield Mt. Hermon	2007-08
+25	Colby Cohen (COL)	FR	D	6-3	210	R	89	Villanova, Pennsylvania / Lincoln Stars (USHL)	2007-08
+26	Luke Popko	SO	F	5-10	200	L	88	Skillman, New Jersey / U.S. National Under-18	2007-08
+27	Bryan Ewing	SR	F	5-10	166	R	85	Plymouth, Massachusetts / Cushing Academy	2007-08
+28	Brian McGuirk (CBJ)	SR	F	5-11	200	L	85	Danvers, Massachusetts / Governor Dummer	2007-08
+29	Karson Gillespie	SR	G	5-11	185	L	81	Mankota, Saskatchewan / Bonnyville (AJHL)	2007-08
+31	Brett Bennett (PHO)	SO	G	6-1	185	L	88	Williamsville, New York / U.S. National Under-18	2007-08
+32	Adam Kraus	FR	G	6-3	175	L	87	Irving, Texas / Alaska Avalanche (NAHL)	2007-08
+33	Colin Wilson	FR	F	6-1	215	L	89	Winnipeg, Manitoba / U.S. National Under-18	2007-08
+97	Matt Gilroy	JR	D	6-2	195	R	84	North Bellmore, New York / Walpole (EJHL)	2007-08
+2	Eric Gryba (OTT)	JR	D	6-4	215	R	88	Saskatoon, Saskatchewan / Green Bay (USHL)	2008-09
+3	Kevin Shattenkirk (COL)	SO	D	5-11	200	R	89	New Rochelle, New York / U.S. National Under-18	2008-09
+4	Ryan Ruikka	FR	D	6-0	187	R	88	Chelsea, Michigan / Jersey Hitmen (EJHL)	2008-09
+5	David Warsofsky (STL)	FR	D	5-9	170	L	90	Marshfield, Massachusetts / U.S. National Under-18	2008-09
+6	Joe Pereira	SO	F	5-10	185	R	87	West Haven, Connecticut / South Kent School	2008-09
+7	Brian Strait (PIT)	JR	D	6-1	205	L	88	Waltham, Massachusetts / U.S. National Under-18	2008-09
+8	Steve Smolinsky	SR	D	5-10	175	R	86	Plymouth, Massachusetts / Salisbury School	2008-09
+9	Corey Trivino (NYI)	FR	F	6-1	175	L	90	Toronto, Ontario / Stouffville Spirit (OPJHL)	2008-09
+10	Chris Higgins	SR	F	5-11	185	R	86	Lynnfield, Massachusetts / New Hampshire (EJHL)	2008-09
+11	Zach Cohen	JR	F	6-3	215	L	87	Schaumburg, Illinois / Tri-City (USHL)	2008-09
+12	Chris Connolly	FR	F	5-9	165	L	87	Duluth, Minnesota / Omaha Lancers (USHL)	2008-09
+13	Nick Bonino (ANA)	SO	F	6-1	190	L	88	Unionville, Connecticut / Avon Old Farms	2008-09
+14	Andrew Glass (WSH)	FR	F	5-11	180	L	89	Wrentham, Massachusetts / Noble & Greenough	2008-09
+15	John McCarthy (SJS)	SR	F	6-1	198	L	86	Andover, Massachusetts / Des Moines (USHL)	2008-09
+16	Kevin Gilroy	FR	F	6-0	185	R	87	North Bellmore, New York / South Shore Kings (EJHL)	2008-09
+17	Victor Saponari	SO	F	5-10	176	R	87	Powder Springs, Georgia / Culver Military Academy	2008-09
+18	Brandon Yip (COL)	SR	F	6-1	197	R	85	Maple Ridge, British Columbia / Coquitlam (BCHL)	2008-09
+21	Jason Lawrence	SR	F	5-10	185	R	87	Saugus, Massachusetts / U.S. National Under-18	2008-09
+22	Ross Gaudet	FR	F	6-0	185	L	88	Burlington, Massachusetts / Bridgewater Bandits (EJHL)	2008-09
+25	Colby Cohen (COL)	SO	D	6-3	210	R	89	Villanova, Pennsylvania / Lincoln Stars (USHL)	2008-09
+26	Luke Popko	JR	F	5-10	204	L	88	Skillman, New Jersey / U.S. National Under-18	2008-09
+27	Vinny Saponari (ATL)	FR	F	6-0	180	R	90	Powder Springs, Georgia / U.S. National Under-18	2008-09
+31	Kieran Millan	FR	G	6-0	190	L	89	Edmonton, Alberta / Spruce Grove Saints (AJHL)	2008-09
+32	Adam Kraus	SO	G	6-3	187	L	87	Irving, Texas / Alaska Avalanche (NAHL)	2008-09
+33	Colin Wilson (NSH)	SO	F	6-2	215	L	89	Winnipeg, Manitoba / U.S. National Under-18	2008-09
+35	Grant Rollheiser (TOR)	FR	G	6-4	195	L	89	Chilliwack, British Columbia / Trail Smoke Eaters (BCHL)	2008-09
+97	Matt Gilroy	SR	D	6-2	202	R	84	North Bellmore, New York / Walpole (EJHL)	2008-09
+2	Eric Gryba (OTT)	SR	D	6-4	219	R	88	Saskatoon, Saskatchewan / Green Bay (USHL)	2009-10
+3	Kevin Shattenkirk (COL)	JR	D	6-0	198	R	89	New Rochelle, New York / U.S. National Under-18	2009-10
+4	Ryan Ruikka	SO	D	6-0	190	R	88	Chelsea, Michigan / Jersey Hitmen (EJHL)	2009-10
+5	David Warsofsky (STL)	SO	D	5-9	170	L	90	Marshfield, Massachusetts / U.S. National Under-18	2009-10
+6	Joe Pereira	JR	F	5-10	185	R	87	West Haven, Connecticut / South Kent School	2009-10
+7	Max Nicastro (DET)	FR	D	6-3	200	R	90	Thousand Oaks, California / Chicago Steel (USHL)	2009-10
+8	Ben Rosen	FR	D	5-11	192	L	89	Syosset, New York / South Shore Kings (EJHL)	2009-10
+9	Alex Chiasson (DAL)	FR	F	6-4	195	R	90	St. Augustin, Quebec / Des Moines Buccaneers (USHL)	2009-10
+10	Corey Trivino (NYI)	SO	F	6-1	180	L	90	Toronto, Ontario / Stouffville Spirit (OPJHL)	2009-10
+11	Zach Cohen	SR	F	6-3	208	L	87	Schaumburg, Illinois / Tri-City (USHL)	2009-10
+12	Chris Connolly	SO	F	5-9	165	L	87	Duluth, Minnesota / Omaha Lancers (USHL)	2009-10
+13	Nick Bonino (ANA)	JR	F	6-1	190	L	88	Unionville, Connecticut / Avon Old Farms	2009-10
+14	Andrew Glass (WSH)	SO	F	5-11	180	L	89	Wrentham, Massachusetts / Noble & Greenough	2009-10
+15	Ryan Santana	FR	F	6-1	180	R	88	Yorba Linda, California / Vernon Vipers (BCHL)	2009-10
+16	Kevin Gilroy	SO	F	6-0	185	R	87	North Bellmore, New York / South Shore Kings (EJHL)	2009-10
+17	Victor Saponari	JR	F	5-10	183	R	87	Powder Springs, Georgia / Culver Military Academy	2009-10
+18	Wade Megan (FLA)	FR	F	6-1	185	L	90	Canton, New York / South Kent School	2009-10
+19	Justin Courtnall (TBL)	FR	F	6-3	205	L	89	Victoria, British Columbia / Victoria Grizzlies (BCHL)	2009-10
+21	Sean Escobedo	FR	D	6-0	190	L	90	Bayside, New York / Sioux Falls Stampede (USHL)	2009-10
+22	Ross Gaudet	SO	F	6-0	195	L	88	Burlington, Massachusetts / Bridgewater Bandits (EJHL)	2009-10
+25	Colby Cohen (COL)	JR	D	6-3	215	R	89	Villanova, Pennsylvania / Lincoln Stars (USHL)	2009-10
+26	Luke Popko	SR	F	5-10	200	L	88	Skillman, New Jersey / U.S. National Under-18	2009-10
+27	Vinny Saponari (ATL)	SO	F	6-0	192	R	90	Powder Springs, Georgia / U.S. National Under-18	2009-10
+31	Kieran Millan (COL)	SO	G	6-0	185	L	89	Edmonton, Alberta / Spruce Grove Saints (AJHL)	2009-10
+32	Adam Kraus	JR	G	6-3	185	L	87	Irving, Texas / Alaska Avalanche (NAHL)	2009-10
+35	Grant Rollheiser (TOR)	SO	G	6-4	208	L	89	Chilliwack, British Columbia / Trail Smoke Eaters (BCHL)	2009-10
+2	Ryan Ruikka	SO	D	6-0	193	R	88	Chelsea, Michigan / Jersey Hitmen (EJHL)	2010-11
+3	Charlie Coyle (SJS)	FR	F	6-2	207	R	92	East Weymouth, Massachusetts / South Shore Kings (EJHL)	2010-11
+4	Adam Clendening	FR	D	6-0	195	R	92	Wheatfield, New York / U.S. National Under-18	2010-11
+5	David Warsofsky (BOS)	JR	D	5-9	174	L	90	Marshfield, Massachusetts / U.S. National Under-18	2010-11
+6	Joe Pereira	SR	F	5-10	185	R	87	West Haven, Connecticut / South Kent School	2010-11
+7	Max Nicastro (DET)	SO	D	6-2	210	R	90	Thousand Oaks, California / Chicago Steel (USHL)	2010-11
+8	Ben Rosen	SO	D	5-11	194	L	89	Syosset, New York / South Shore Kings (EJHL)	2010-11
+9	Alex Chiasson (DAL)	SO	F	6-3	200	R	90	St. Augustin, Quebec / Des Moines Buccaneers (USHL)	2010-11
+10	Corey Trivino (NYI)	JR	F	6-1	185	L	90	Toronto, Ontario / Stouffville Spirit (OPJHL)	2010-11
+11	Patrick MacGregor	FR	D	6-4	210	R	90	Hamden, Connecticut / Avon Old Farms	2010-11
+12	Chris Connolly	JR	F	5-9	170	L	87	Duluth, Minnesota / Omaha Lancers (USHL)	2010-11
+13	Garrett Noonan	FR	D	6-2	195	L	91	Norfolk, Massachusetts / Vernon Vipers (BCHL)	2010-11
+15	Ryan Santana	SO	F	6-1	180	R	88	Yorba Linda, California / Vernon Vipers (BCHL)	2010-11
+16	Kevin Gilroy	JR	F	6-0	190	R	87	North Bellmore, New York / South Shore Kings (EJHL)	2010-11
+17	Matt Nieto	FR	F	5-11	183	R	92	Long Beach, California / U.S. National Under-18	2010-11
+18	Wade Megan (FLA)	SO	F	6-1	190	L	90	Canton, New York / South Kent School	2010-11
+19	Justin Courtnall (TBL)	SO	F	6-3	210	L	89	Victoria, British Columbia / Victoria Grizzlies (BCHL)	2010-11
+20	Matt Ronan	FR	F	5-11	175	R	90	Woburn, Massachusetts / Valley Jr. Warriors (EJHL)	2010-11
+21	Sean Escobedo	SO	D	6-0	190	L	90	Bayside, New York / Sioux Falls Stampede (USHL)	2010-11
+22	Ross Gaudet	SO	F	6-0	195	L	88	Burlington, Massachusetts / Bridgewater Bandits (EJHL)	2010-11
+27	Yasin Cissé (ATL)	FR	F	6-3	210	R	92	Westmount, Quebec / Des Moines Buccaneers (USHL)	2010-11
+28	Sahir Gill	FR	F	5-10	180	L	92	Terrace, British Columbia / Vernon Vipers (BCHL)	2010-11
+31	Kieran Millan (COL)	JR	G	6-0	190	L	89	Edmonton, Alberta / Spruce Grove Saints (AJHL)	2010-11
+32	Adam Kraus	SR	G	6-3	185	L	87	Irving, Texas / Alaska Avalanche (NAHL)	2010-11
+35	Grant Rollheiser (TOR)	JR	G	6-4	212	L	89	Chilliwack, British Columbia / Trail Smoke Eaters (BCHL)	2010-11
+1	Anthony Moccia	SO	G	5-9	160	R	90	Medford, Massachusetts / Buckingham Browne & Nichols	2011-12
+2	Ryan Ruikka	JR	D	6-0	193	R	88	Chelsea, Michigan / Jersey Hitmen (EJHL)	2011-12
+4	Patrick MacGregor	SO	D	6-4	210	R	90	Hamden, Connecticut / Avon Old Farms	2011-12
+5	Adam Clendening (CHI)	SO	D	6-0	195	R	92	Wheatfield, New York / U.S. National Under-18	2011-12
+6	Alexx Privitera	FR	D	5-11	195	R	93	Old Tappan, New Jersey / Muskegon Lumberjacks (USHL)	2011-12
+8	Ben Rosen	JR	F/D	5-11	194	L	89	Syosset, New York / South Shore Kings (EJHL)	2011-12
+9	Alex Chiasson (DAL)	JR	F	6-3	200	R	90	St. Augustin, Quebec / Des Moines Buccaneers (USHL)	2011-12
+12	Chris Connolly	SR	F	5-9	170	L	87	Duluth, Minnesota / Omaha Lancers (USHL)	2011-12
+13	Garrett Noonan (NSH)	SO	D	6-2	195	L	91	Norfolk, Massachusetts / Vernon Vipers (BCHL)	2011-12
+14	Jake Moscatel	JR	F/D	6-0	210	R	88	Lexington, Massachusetts / University of New England	2011-12
+15	Ryan Santana	JR	F	6-1	180	R	88	Yorba Linda, California / Vernon Vipers (BCHL)	2011-12
+16	Kevin Gilroy	SR	F	6-0	190	R	87	North Bellmore, New York / South Shore Kings (EJHL)	2011-12
+17	Matt Nieto (SJS)	SO	F	5-11	183	R	92	Long Beach, California / U.S. National Under-18	2011-12
+18	Wade Megan (FLA)	JR	F	6-1	190	L	90	Canton, New York / South Kent School	2011-12
+19	Justin Courtnall (TBL)	JR	F	6-3	210	L	89	Victoria, British Columbia / Victoria Grizzlies (BCHL)	2011-12
+20	Matt Ronan	SO	F	5-11	175	R	90	Woburn, Massachusetts / Valley Jr. Warriors (EJHL)	2011-12
+21	Sean Escobedo	JR	D	6-0	190	L	90	Bayside, New York / Sioux Falls Stampede (USHL)	2011-12
+22	Ross Gaudet	JR	F	6-0	195	L	88	Burlington, Massachusetts / Bridgewater Bandits (EJHL)	2011-12
+23	Cason Hohmann	FR	F	5-9	165	R	93	Plymouth, Michigan / Cedar Rapids RoughRiders -USHL	2011-12
+26	Evan Rodrigues	FR	F	5-10	175	R	93	Etobicoke, Ontario / Georgetown Raiders (OJHL)	2011-12
+27	Yasin Cissé (WPG)	FR	F	6-3	210	R	92	Westmount, Quebec / Des Moines Buccaneers (USHL)	2011-12
+28	Sahir Gill	SO	F	5-10	180	L	92	Terrace, British Columbia / Vernon Vipers (BCHL)	2011-12
+31	Kieran Millan (COL)	SR	G	6-0	190	L	89	Edmonton, Alberta / Spruce Grove Saints (AJHL)	2011-12
+35	Grant Rollheiser (TOR)	SR	G	6-4	212	L	89	Chilliwack, British Columbia / Trail Smoke Eaters (BCHL)	2011-12
+1	Anthony Moccia	JR	G	5-8	160	R	90	Medford, Massachusetts / Buckingham Browne & Nichols (PREP)	2012-13
+2	Ryan Ruikka	SR	D	6-0	200	R	88	Chelsea, Michigan / Jersey Hitmen (EJHL)	2012-13
+3	Ahti Oksanen	FR	D	6-3	201	L	93	Kirkkonummi, Finland / Espoo Blues (Europe)	2012-13
+4	Patrick MacGregor	JR	D	6-4	230	R	90	Hamden, Connecticut / Avon Old Farms (PREP)	2012-13
+5	Matt Grzelcyk (BOS)	FR	D	5-9	171	L	94	Charlestown, Massachusetts / U.S. National Under-18 Team (NTDP)	2012-13
+6	Alexx Privitera	SO	D	5-11	195	R	93	Old Tappan, New Jersey / Muskegon Lumberjacks (USHL)	2012-13
+7	Cason Hohmann	SO	F	5-8	178	R	93	Plymouth, Michigan / Cedar Rapids RoughRiders (USHL)	2012-13
+8	Ben Rosen	SR	F/D	5-11	195	L	89	Syosset, New York / South Shore Kings (EJHL)	2012-13
+10	Danny O'Regan (SJS)	FR	F	5-10	176	R	94	Needham, Massachusetts / St. Sebastian's (PREP)	2012-13
+11	Mike Moran	FR	F	6-1	205	L	91	Marshfield, Massachusetts / Bay State Breakers (EJHL)	2012-13
+13	Garrett Noonan (NSH)	JR	D	6-1	205	L	91	Norfolk, Massachusetts / Vernon Vipers (BCHL)	2012-13
+14	Jake Moscatel	SR	F/D	6-0	200	R	88	Lexington, Massachusetts / Boston Jr. Bruins (EJHL)  Previous College: University of New England (2010-11)	2012-13
+15	Ryan Santana	SR	F	6-1	195	R	88	Yorba Linda, California / Vernon Vipers (BCHL)	2012-13
+16	Sam Kurker (STL)	FR	F	6-3	210	R	94	Reading, Massachusetts / St. John's Prep (PREP)	2012-13
+17	Evan Rodrigues	SO	F	5-10	175	R	93	Etobicoke, Ontario / Georgetown Raiders (OJHL)	2012-13
+18	Wade Megan (FLA)	SR	F	6-1	190	L	90	Canton, New York / South Kent School (PREP)	2012-13
+19	Matt Nieto (SJS)	JR	F	6-0	192	R	92	Long Beach, California / U.S. National Under-18 Team (NTDP)	2012-13
+20	Matt Ronan	JR	D/F	5-11	187	R	90	Woburn, Massachusetts / Valley Jr. Warriors (EJHL)	2012-13
+21	Sean Escobedo	SR	D	6-1	205	L	90	Bayside, New York / Sioux Falls Stampede (USHL)	2012-13
+23	Matt Lane	FR	F	5-10	175	L	94	Rochester, New York / U.S. National Under-18 Team (NTDP)	2012-13
+28	Sahir Gill	JR	F	5-10	178	L	92	Terrace, British Columbia / Vernon Vipers (BCHL)	2012-13
+29	Matt O'Connor	FR	G	6-5	201	L	92	Toronto, Ontario / Youngstown Phantoms (USHL)	2012-13
+31	Sean Maguire (PIT)	FR	G	6-2	202	L	93	Powell River, British Columbia / Powell River Kings (BCHL)	2012-13
+1	Anthony Moccia	SR	G	5-8	160	R	90	Medford, Massachusetts / Buckingham Browne & Nichols (PREP)	2013-14
+2	Ahti Oksanen	SO	D	6-3	207	L	93	Kirkkonummi, Finland / Espoo Blues (Europe)	2013-14
+3	T.J. Ryan	FR	D	6-0	185	R	92	West Newton, Massachusetts / South Shore Kings (EJHL)	2013-14
+4	Patrick MacGregor	SR	D	6-4	230	R	90	Hamden, Connecticut / Avon Old Farms (PREP)	2013-14
+5	Matt Grzelcyk (BOS)	SO	D	5-10	175	L	94	Charlestown, Massachusetts / U.S. National Under-18 Team (NTDP)	2013-14
+7	Cason Hohmann	JR	F	5-9	175	R	93	Plymouth, Michigan / Cedar Rapids RoughRiders (USHL)	2013-14
+8	Brendan Collier (CAR)	FR	F	5-9	184	L	93	Charlestown, Massachusetts / Valley Jr. Warriors (EJHL)	2013-14
+10	Danny O'Regan (SJS)	SO	F	5-10	175	R	94	Needham, Massachusetts / St. Sebastian's (PREP)	2013-14
+11	Mike Moran	SO	F	6-1	200	L	91	Marshfield, Massachusetts / Bay State Breakers (EJHL)	2013-14
+12	Dillon Lawrence	FR	F	6-3	187	L	95	Toronto, Ontario / Toronto Young Nationals (GTHL)	2013-14
+13	Garrett Noonan (NSH)	SR	D	6-1	205	L	91	Norfolk, Massachusetts / Vernon Vipers (BCHL)	2013-14
+14	Jake Moscatel	SR	F	6-0	200	R	88	Lexington, Massachusetts / Boston Jr. Bruins (EJHL)  Previous College: University of New England (2010-11)	2013-14
+15	Nick Roberto	FR	F	5-9	173	R	94	Wakefield, Massachusetts / Kimball Union Academy (PREP)	2013-14
+17	Evan Rodrigues	JR	F	5-11	178	R	93	Etobicoke, Ontario / Georgetown Raiders (OJHL)	2013-14
+18	Kevin Duane	FR	F	6-5	210	R	94	New Canaan, Connecticut / Boston Jr. Bruins (EJHL)	2013-14
+19	Robbie Baillargeon (OTT)	FR	F	6-0	175	R	93	Enfield, Connecticut / Omaha Lancers (USHL)	2013-14
+20	Matt Ronan	SR	F/D	5-11	187	R	90	Woburn, Massachusetts / Valley Jr. Warriors (EJHL)	2013-14
+21	Matt Lane	SO	F	5-10	175	L	94	Rochester, New York / U.S. National Under-18 Team (NTDP)	2013-14
+22	Tommy Kelley	FR	F	5-10	186	L	94	Natick, Massachusetts / St. Sebastian's (PREP)	2013-14
+23	Dalton MacAfee	FR	D	6-0	190	R	94	Needham, Massachusetts / St. Sebastian's (PREP)	2013-14
+25	J.D. Carrabino	SO	D	6-6	230	R	94	New Canaan, Connecticut / Springfield Junior Pics (EJHL)  Previous College: Clarkson (2012-13)	2013-14
+27	Doyle Somerby (NYI)	FR	D	6-5	223	L	94	Marblehead, Massachusetts / Kimball Union Academy (PREP)	2013-14
+29	Matt O'Connor	SO	G	6-6	204	L	92	Toronto, Ontario / Youngstown Phantoms (USHL)	2013-14
+31	Sean Maguire (PIT)	SO	G	6-2	203	L	93	Powell River, British Columbia / Powell River Kings (BCHL)	2013-14
+1	Anthony Moccia	SR	G	5-8	160	L	90	Medford, Massachusetts / Buckingham Browne & Nichols (PREP)	2014-15
+2	Ahti Oksanen	JR	F/D	6-3	207	L	93	Kirkkonummi, Finland / Espoo Blues (Europe)	2014-15
+3	T.J. Ryan	SO	D	6-0	185	R	92	West Newton, Massachusetts / South Shore Kings (EJHL)	2014-15
+4	Brandon Hickey (CGY)	FR	D	6-2	190	L	96	Leduc, Alberta / Spruce Grove Saints (AJHL)	2014-15
+5	Matt Grzelcyk (BOS)	JR	D	5-10	175	L	94	Charlestown, Massachusetts / U.S. National Under-18 Team (NTDP)	2014-15
+7	Cason Hohmann	SR	F	5-9	175	R	93	Plymouth, Michigan / Cedar Rapids RoughRiders (USHL)	2014-15
+9	Jack Eichel	FR	F	6-2	194	R	96	North Chelmsford, Massachusetts / U.S. National Under-18 Team (NTDP)	2014-15
+10	Danny O'Regan (SJS)	JR	F	5-10	175	R	94	Needham, Massachusetts / St. Sebastian's (PREP)	2014-15
+11	Mike Moran	JR	F	6-1	200	L	91	Marshfield, Massachusetts / Bay State Breakers (EJHL)	2014-15
+12	Chase Phelps	FR	F	6-1	181	L	96	Edina, Minnesota / Shattuck St. Mary's (PREP)	2014-15
+13	Nikolas Olsson	FR	F	6-0	205	L	94	Escondido, California / Sioux City Musketeers (USHL)	2014-15
+14	Dillon Lawrence	SO	F	6-3	187	L	95	Toronto, Ontario / Toronto Young Nationals (GTHL)	2014-15
+15	Nick Roberto	SO	F	5-9	173	R	94	Wakefield, Massachusetts / Kimball Union Academy (PREP)	2014-15
+16	John MacLeod (TBL)	FR	D	6-1	203	R	96	Dracut, Massachusetts / U.S. National Under-18 Team (NTDP)	2014-15
+17	Evan Rodrigues	SR	F	5-11	178	R	93	Etobicoke, Ontario / Georgetown Raiders (OJHL)	2014-15
+18	Kevin Duane	SO	F	6-5	210	R	94	New Canaan, Connecticut / Boston Jr. Bruins (EJHL)	2014-15
+19	Robbie Baillargeon (OTT)	SO	F	6-0	175	R	93	Enfield, Connecticut / Omaha Lancers (USHL)	2014-15
+20	Brien Diffley	FR	D	6-2	184	L	95	Burlington, Massachusetts / Boston Jr. Bruins (USPHL)	2014-15
+21	Matt Lane	JR	F	5-10	175	L	94	Rochester, New York / U.S. National Under-18 Team (NTDP)	2014-15
+22	Tommy Kelley	SO	F	5-10	186	L	94	Natick, Massachusetts / St. Sebastian's (PREP)	2014-15
+23	J.D. Carrabino	JR	D	6-6	230	R	91	New Canaan, Connecticut / Springfield Junior Pics (EJHL)  Previous College: Clarkson (2012-13)	2014-15
+25	Brandon Fortunato	FR	D	5-10	150	L	96	North Hills, New York / U.S. National Under-18 Team (NTDP)	2014-15
+26	A.J. Greer	FR	F	6-3	205	L	96	Joliette, Québec / Kimball Union Academy (PREP)	2014-15
+27	Doyle Somerby (NYI)	SO	D	6-5	223	L	94	Marblehead, Massachusetts / Kimball Union Academy (PREP)	2014-15
+28	J.J. Piccinich (TOR)	FR	F	6-0	184	R	96	Paramus, New Jersey / Youngstown Phantoms (USHL)	2014-15
+29	Matt O'Connor	JR	G	6-6	204	L	92	Toronto, Ontario / Youngstown Phantoms (USHL)	2014-15
+30	Connor LaCouvee	FR	G	6-0	196	L	94	Qualicum Beach, British Columbia / Alberni Valley Bulldogs (BCHL)	2014-15
+1	Max Prawdzik	FR	G	6-3	170	L	97	Andover, Massachusetts / The Brooks School (PREP)	2015-16
+2	Shane Switzer	FR	D	6-2	190	R	95	Bloomfield Hills, Michigan / Lloydminster Bobcats (AJHL)	2015-16
+3	Erik Udahl	FR	F	5-7	155	L	96	East Walpole, Massachusetts / Coquitlam Express (BCHL)	2015-16
+4	Brandon Hickey (CGY)	SO	D	6-2	190	L	96	Leduc, Alberta / Spruce Grove Saints (AJHL)	2015-16
+5	Matt Grzelcyk (BOS)	SR	D	5-10	175	L	94	Charlestown, Massachusetts / U.S. National Under-18 Team (NTDP)	2015-16
+7	Charlie McAvoy	FR	D	6-1	211	R	97	Long Beach, New York / U.S. National Under-18 Team (NTDP)	2015-16
+8	Ryan Cloonan	FR	F	5-10	174	L	95	East Longmeadow, Massachusetts / Boston Jr. Bruins (USPHL)	2015-16
+10	Danny O'Regan (SJS)	SR	F	5-10	175	R	94	Needham, Massachusetts / St. Sebastian's (PREP)	2015-16
+11	Mike Moran	SR	F	6-1	200	L	91	Marshfield, Massachusetts / Bay State Breakers (EJHL)	2015-16
+12	Chase Phelps	SO	F	6-1	181	L	96	Edina, Minnesota / Shattuck St. Mary's (PREP)	2015-16
+13	Nikolas Olsson	SO	F	6-0	205	L	94	Escondido, California / Sioux City Musketeers (USHL)	2015-16
+14	Bobo Carpenter	FR	F	5-11	185	L	96	North Reading, Massachusetts / Sioux City Musketeers (USHL)	2015-16
+15	Nick Roberto	JR	F	5-9	173	R	94	Wakefield, Massachusetts / Kimball Union Academy (PREP)	2015-16
+16	John MacLeod (TBL)	SO	D	6-1	203	R	96	Dracut, Massachusetts / U.S. National Under-18 Team (NTDP)	2015-16
+17	Ahti Oksanen	SR	F	6-3	207	L	93	Kirkkonummi, Finland / Espoo Blues (Europe)	2015-16
+18	Jordan Greenway (MIN)	FR	F	6-5	230	L	97	Canton, New York / U.S. National Under-18 Team (NTDP)	2015-16
+19	Robbie Baillargeon (OTT)	JR	F	6-0	175	R	93	Enfield, Connecticut / Omaha Lancers (USHL)	2015-16
+20	Brien Diffley	SO	D	6-2	184	L	95	Burlington, Massachusetts / Boston Jr. Bruins (USPHL)	2015-16
+21	Matt Lane	SR	F	5-10	175	L	94	Rochester, New York / U.S. National Under-18 Team (NTDP)	2015-16
+22	Tommy Kelley	JR	F	5-10	186	L	94	Natick, Massachusetts / St. Sebastian's (PREP)	2015-16
+23	Jakob Forsbacka Karlsson (BOS)	FR	F	6-1	192	R	96	Stockholm, Sweden / Omaha Lancers (USHL)	2015-16
+25	Brandon Fortunato	SO	D	5-10	150	L	96	North Hills, New York / U.S. National Under-18 Team (NTDP)	2015-16
+26	Oskar Andrén	FR	F	6-1	185	L	95	Stockholm, Sweden / Lone Star Brahmas (NAHL)	2015-16
+27	Doyle Somerby (NYI)	JR	D	6-5	223	L	94	Marblehead, Massachusetts / Kimball Union Academy (PREP)	2015-16
+28	Dillon Lawrence	JR	F	6-3	187	L	95	Toronto, Ontario / Toronto Young Nationals (GTHL)	2015-16
+30	Connor LaCouvee	SO	G	6-0	196	L	94	Qualicum Beach, British Columbia / Alberni Valley Bulldogs (BCHL)	2015-16
+31	Sean Maguire (PIT)	SR	G	6-2	202	L	93	Powell River, British Columbia / Powell River Kings (BCHL)	2015-16
+1	Nico Lynch	FR	G	5-11	172	L	98	Barnstable, Massachusetts / Boston Advantage (Tier1)	2016-17
+2	Shane Switzer	SO	D	6-2	190	R	95	Bloomfield Hills, Michigan / Lloydminster Bobcats (AJHL)	2016-17
+4	Brandon Hickey (CGY)	JR	D	6-2	190	L	96	Leduc, Alberta / Spruce Grove Saints (AJHL)	2016-17
+5	Chad Krys (CHI)	FR	D	6-0	185	L	98	Ridgefield, Connecticut / U.S. National Under-18 Team (NTDP)	2016-17
+7	Charlie McAvoy (BOS)	SO	D	6-1	211	R	97	Long Beach, New York / U.S. National Under-18 Team (NTDP)	2016-17
+8	Ryan Cloonan	SO	F	5-10	174	L	95	East Longmeadow, Massachusetts / Boston Jr. Bruins (USPHL)	2016-17
+9	Kieffer Bellows (NYI)	FR	F	6-1	200	L	96	Edina, Minnesota / U.S. National Under-18 Team (NTDP)	2016-17
+10	Gabriel Chabot	FR	F	5-8	180	R	95	Québec City, Québec / Rochester Jr. Americans (USPHL)	2016-17
+11	Patrick Curry	FR	F	5-11	185	L	96	Schaumburg, Illinois / Bloomington Thunder (USHL)	2016-17
+12	Chase Phelps	JR	F	6-1	181	L	96	Edina, Minnesota / Shattuck St. Mary's (PREP)	2016-17
+13	Nikolas Olsson	JR	F	6-0	205	L	94	Escondido, California / Sioux City Musketeers (USHL)	2016-17
+14	Bobo Carpenter	SO	F	5-11	185	L	96	North Reading, Massachusetts / Sioux City Musketeers (USHL)	2016-17
+15	Nick Roberto	SR	F	5-9	173	R	94	Wakefield, Massachusetts / Kimball Union Academy (PREP)	2016-17
+16	John MacLeod (TBL)	JR	D	6-1	203	R	96	Dracut, Massachusetts / U.S. National Under-18 Team (NTDP)	2016-17
+17	Dante Fabbro (NSH)	FR	D	6-1	192	R	98	New Westminster, British Columbia / Penticton Vees (BCHL)	2016-17
+18	Jordan Greenway (MIN)	SO	F	6-5	230	L	97	Canton, New York / U.S. National Under-18 Team (NTDP)	2016-17
+19	Clayton Keller (ARI)	FR	F	5-10	175	L	98	Swansea, Illinois / U.S. National Under-18 Team (NTDP)	2016-17
+20	Brien Diffley	JR	D	6-2	184	L	95	Burlington, Massachusetts / Boston Jr. Bruins (USPHL)	2016-17
+21	Patrick Harper (NSH)	FR	F	5-9	160	L	98	New Canaan, Connecticut / Avon Old Farms (PREP)	2016-17
+22	Tommy Kelley	SR	F	5-10	186	L	94	Natick, Massachusetts / St. Sebastian's (PREP)	2016-17
+23	Jakob Forsbacka Karlsson (BOS)	SO	F	6-1	192	R	96	Stockholm, Sweden / Omaha Lancers (USHL)	2016-17
+26	Oskar Andrén	SO	F	6-1	185	L	95	Stockholm, Sweden / Lone Star Brahmas (NAHL)	2016-17
+27	Doyle Somerby (NYI)	SR	D	6-5	223	L	94	Marblehead, Massachusetts / Kimball Union Academy (PREP)	2016-17
+28	Johnny McDermott	FR	F	6-2	194	L	97	Darien, Connecticut / Westminster Prep (PREP)	2016-17
+29	Jake Oettinger	FR	G	6-4	205	L	98	Lakeville, Minnesota / U.S. National Under-18 Team (NTDP)	2016-17
+30	Connor LaCouvee	JR	G	6-0	196	L	94	Qualicum Beach, British Columbia / Alberni Valley Bulldogs (BCHL)	2016-17
+1	Nico Lynch	SO	G	5-11	172	L	98	Barnstable, Massachusetts / Boston Advantage (Tier1)	2017-18
+2	Shane Switzer	JR	D	6-2	190	R	95	Bloomfield Hills, Michigan / Lloydminster Bobcats (AJHL)	2017-18
+3	Ty Amonte	FR	F	5-11	184	R	98	Norwell, Massachusetts / Penticton Vees (BCHL)	2017-18
+4	Brandon Hickey (ARI)	SR	D	6-2	190	L	96	Leduc, Alberta / Spruce Grove Saints (AJHL)	2017-18
+5	Cam Crotty (ARI)	FR	D	6-2	188	R	99	Greely, Ontario / Brockville Braves (CCHL)	2017-18
+7	Chad Krys (CHI)	SO	D	6-0	185	L	98	Ridgefield, Connecticut / U.S. National Under-18 Team (NTDP)	2017-18
+8	Ryan Cloonan	JR	F	5-10	174	L	95	East Longmeadow, Massachusetts / Boston Jr. Bruins (USPHL)	2017-18
+9	Logan Cockerill (NYI)	FR	F	5-9	164	L	99	Brighton, Michigan / U.S. National Under-18 Team (NTDP)	2017-18
+10	Gabriel Chabot	SO	F	5-8	180	R	95	Québec City, Québec / Rochester Jr. Americans (USPHL)	2017-18
+11	Patrick Curry	SO	F	5-11	185	L	96	Schaumburg, Illinois / Bloomington Thunder (USHL)	2017-18
+12	Chase Phelps	SR	F	6-1	181	L	96	Edina, Minnesota / Shattuck St. Mary's (PREP)	2017-18
+13	Nikolas Olsson	SR	F	6-0	205	L	94	Escondido, California / Sioux City Musketeers (USHL)	2017-18
+14	Bobo Carpenter	JR	F	5-11	185	L	96	North Reading, Massachusetts / Sioux City Musketeers (USHL)	2017-18
+15	Shane Bowers (COL)	FR	F	6-2	186	L	99	Halifax, Nova Scotia / Waterloo Black Hawks (USHL)	2017-18
+16	John MacLeod (TBL)	SR	D	6-1	203	R	96	Dracut, Massachusetts / U.S. National Under-18 Team (NTDP)	2017-18
+17	Dante Fabbro (NSH)	SO	D	6-1	192	R	98	New Westminster, British Columbia / Penticton Vees (BCHL)	2017-18
+18	Jordan Greenway (MIN)	JR	F	6-5	230	L	97	Canton, New York / U.S. National Under-18 Team (NTDP)	2017-18
+19	Hank Crone	FR	F	5-9	165	L	98	Dallas, Texas / Fargo Force (USHL)	2017-18
+20	Brien Diffley	SR	D	6-2	184	L	95	Burlington, Massachusetts / Boston Jr. Bruins (USPHL)	2017-18
+21	Patrick Harper (NSH)	SO	F	5-9	160	L	98	New Canaan, Connecticut / Avon Old Farms (PREP)	2017-18
+22	Jake Witkowski	FR	F	5-10	173	R	96	Melrose, Massachusetts / Alberni Valley Bulldogs (BCHL)	2017-18
+23	Drew Melanson	SR	F	5-11	182	L	95	Paramus, New Jersey / Waterloo Black Hawks (USHL)  Previous College: Rensselaer (2016-17)	2017-18
+25	David Farrance (NSH)	FR	D	5-11	195	L	99	Victor, New York / U.S. National Under-18 Team (NTDP)	2017-18
+26	Kasper Kotkansalo (DET)	FR	D	6-2	190	L	98	Espoo, Finland / Sioux Falls Stampede (USHL)	2017-18
+27	Brady Tkachuk	FR	F	6-3	197	L	99	St. Louis, Missouri / U.S. National Under-18 Team (NTDP)	2017-18
+29	Jake Oettinger (DAL)	SO	G	6-4	205	L	98	Lakeville, Minnesota / U.S. National Under-18 Team (NTDP)	2017-18
+31	Max Prawdzik	JR	G	6-3	170	L	97	Andover, Massachusetts / Lone Star Brahmas (NAHL)	2017-18
+1	Nico Lynch	JR	G	5-11	165	L	98	Barnstable, Massachusetts / Boston Advantage (Tier1)	2018-19
+2	Shane Switzer	JR	D	6-2	190	R	95	Bloomfield Hills, Michigan / Lloydminster Bobcats (AJHL)	2018-19
+3	Ty Amonte	SO	F	5-11	184	R	98	Norwell, Massachusetts / Penticton Vees (BCHL)	2018-19
+4	David Farrance (NSH)	SO	D	6-0	190	L	99	Victor, New York / U.S. National Under-18 Team (NTDP)	2018-19
+5	Cam Crotty (ARI)	SO	D	6-2	190	R	99	Greely, Ontario / Brockville Braves (CCHL)	2018-19
+7	Chad Krys (CHI)	JR	D	6-0	185	L	98	Ridgefield, Connecticut / U.S. National Under-18 Team (NTDP)	2018-19
+8	Ryan Cloonan	SR	F	5-10	185	L	95	East Longmeadow, Massachusetts / Boston Jr. Bruins (USPHL)	2018-19
+9	Logan Cockerill (NYI)	SO	F	5-9	175	L	99	Brighton, Michigan / U.S. National Under-18 Team (NTDP)	2018-19
+10	Gabriel Chabot	JR	F	5-8	180	R	95	Québec City, Québec / Rochester Jr. Americans (USPHL)	2018-19
+11	Patrick Curry	JR	F	6-0	185	L	96	Schaumburg, Illinois / Bloomington Thunder (USHL)	2018-19
+12	Jake Wise (CHI)	FR	F	5-11	190	L	00	Reading, Massachusetts / U.S. National Under-18 Team (NTDP)	2018-19
+13	Mark Cheremeta	FR	F	5-11	175	L	99	Parkland, Florida / Islanders Hockey Club (USPHL)	2018-19
+14	Bobo Carpenter	SR	F	5-11	200	L	96	North Reading, Massachusetts / Sioux City Musketeers (USHL)	2018-19
+15	Shane Bowers (COL)	SO	F	6-2	188	L	99	Halifax, Nova Scotia / Waterloo Black Hawks (USHL)	2018-19
+16	Max Willman (BUF)	SR	F	6-0	190	L	95	Barnstable, Massachusetts / Williston-Northampton (PREP)  Previous College: Brown (2017-18)	2018-19
+17	Dante Fabbro (NSH)	JR	D	6-1	193	R	98	New Westminster, British Columbia / Penticton Vees (BCHL)	2018-19
+19	Jack DeBoer	FR	F	6-3	188	R	00	Madison, New Jersey / U.S. National Under-18 Team (NTDP)	2018-19
+20	Matthew Quercia	FR	F	6-3	202	L	99	Andover, Massachusetts / Sioux Falls Stampede (USHL)	2018-19
+21	Patrick Harper (NSH)	JR	F	5-9	160	L	98	New Canaan, Connecticut / Avon Old Farms (PREP)	2018-19
+22	Jake Witkowski	SO	F	5-10	178	R	96	Melrose, Massachusetts / Alberni Valley Bulldogs (BCHL)	2018-19
+26	Kasper Kotkansalo (DET)	SO	D	6-3	205	L	98	Espoo, Finland / Sioux Falls Stampede (USHL)	2018-19
+28	Joel Farabee (PHI)	FR	F	6-1	170	L	00	Cicero, New York / U.S. National Under-18 Team (NTDP)	2018-19
+29	Vinnie Purpura	FR	G	6-6	194	R	98	Lemont, Illinois / Youngstown Phantoms (USHL)	2018-19
+30	Jake Oettinger (DAL)	JR	G	6-5	205	L	98	Lakeville, Minnesota / U.S. National Under-18 Team (NTDP)	2018-19
+31	Max Prawdzik	JR	G	6-3	180	L	97	Andover, Massachusetts / Lone Star Brahmas (NAHL)	2018-19
+33	Hugo Blixt	FR	D	6-4	195	L	98	Linköping, Sweden / Tri-City Storm (USHL)	2018-19
+1	Nico Lynch	SR	G	5-11	165	L	98	Barnstable, Massachusetts / Boston Advantage (Tier1)	2019-20
+2	Case McCarthy (NJD)	FR	D	6-1	198	R	01	Clarence Center, New York / U.S. National Under-18 Team (NTDP)	2019-20
+3	Ty Amonte	JR	F	5-11	184	R	98	Norwell, Massachusetts / Penticton Vees (BCHL)	2019-20
+4	David Farrance (NSH)	JR	D	6-0	190	L	99	Victor, New York / U.S. National Under-18 Team (NTDP)	2019-20
+5	Cam Crotty (ARI)	JR	D	6-2	190	R	99	Greely, Ontario / Brockville Braves (CCHL)	2019-20
+7	Alex Vlasic (CHI)	FR	D	6-6	199	L	01	Wilmette, Illinois / U.S. National Under-18 Team (NTDP)	2019-20
+9	Logan Cockerill (NYI)	JR	F	5-9	175	L	99	Brighton, Michigan / U.S. National Under-18 Team (NTDP)	2019-20
+10	Gabriel Chabot	SR	F	5-8	180	R	95	Québec City, Québec / Rochester Jr. Americans (USPHL)	2019-20
+11	Patrick Curry	SR	F	6-0	185	L	96	Schaumburg, Illinois / Bloomington Thunder (USHL)	2019-20
+12	Jamie Armstrong	FR	F	6-2	192	L	98	Warwick, Rhode Island / Boston Jr. Bruins (USPHL)	2019-20
+13	Trevor Zegras (ANA)	FR	F	6-0	169	L	01	Bedford, New York / U.S. National Under-18 Team (NTDP)	2019-20
+14	Sean Driscoll	FR	D	6-2	194	L	98	Mequon, Wisconsin / Janesville Jetes (NAHL)	2019-20
+15	Markus Boguslavsky	FR	F	6-1	190	R	99	Calgary, Alberta / Drumheller Dragons (AJHL)	2019-20
+16	Robert Mastrosimone (DET)	FR	F	5-10	170	L	01	East Islip, New York / Chicago Steel (USHL)	2019-20
+17	Jake Wise (CHI)	SO	F	5-11	190	L	00	Reading, Massachusetts / U.S. National Under-18 Team (NTDP)	2019-20
+18	Alex Brink	SR	F	6-0	200	R	94	Hamilton, New York / Boston Jr. Bruins (USPHL)  Previous College: Brown (2018-19)	2019-20
+19	Jack DeBoer	SO	F	6-3	188	R	00	Madison, New Jersey / U.S. National Under-18 Team (NTDP)	2019-20
+20	Matthew Quercia	SO	F	6-3	202	L	99	Andover, Massachusetts / Sioux Falls Stampede (USHL)	2019-20
+21	Patrick Harper (NSH)	SR	F	5-9	160	L	98	New Canaan, Connecticut / Avon Old Farms (PREP)	2019-20
+22	Jake Witkowski	JR	F	5-10	178	R	96	Melrose, Massachusetts / Alberni Valley Bulldogs (BCHL)	2019-20
+23	Domenick Fensore (CAR)	FR	D	5-7	151	L	01	Thornwood, New York / U.S. National Under-18 Team (NTDP)	2019-20
+25	Sam Stevens	FR	F	6-1	185	L	00	Montréal, Québec / Sioux Falls Stampede (USHL)	2019-20
+26	Kasper Kotkansalo (DET)	JR	D	6-3	205	L	98	Espoo, Finland / Sioux Falls Stampede (USHL)	2019-20
+27	John Copeland	FR	F/D	6-6	181	R	99	Wellesley, Massachusetts / Carleton Place Canadians (CCHL)	2019-20
+28	Ethan Phillips (DET)	FR	F	5-9	155	R	01	Dartmouth, Nova Scotia / Sioux Falls Stampede (USHL)	2019-20
+29	Vinnie Purpura	SO	G	6-6	194	R	98	Lemont, Illinois / Youngstown Phantoms (USHL)	2019-20
+30	Ashton Abel	FR	G	6-0	165	L	99	Fort McMurray, Alberta / Okotoks Oilers (AJHL)	2019-20
+31	Sam Tucker	SR	G	6-2	180	L	96	Wilton, Connecticut / Choate Rosemary Hall (PREP)  Previous College: Yale (2018-19)	2019-20
+32	Wilmer Skoog	FR	F	6-2	197	L	99	Tyresö, Sweden / Maryland Black Bears (NAHL)	2019-20
+33	Hugo Blixt	SO	D	6-4	195	L	98	Linköping, Sweden / Tri-City Storm (USHL)	2019-20
+2	Case McCarthy (NJD)	SO	D	6-1	198	R	01	Clarence Center, New York / U.S. National Under-18 Team (NTDP)	2020-21
+3	Ty Amonte	SR	F	5-11	184	R	98	Norwell, Massachusetts / Penticton Vees (BCHL)	2020-21
+4	David Farrance (NSH)	SR	D	6-0	190	L	99	Victor, New York / U.S. National Under-18 Team (NTDP)	2020-21
+5	Thomas Jarman	FR	D	6-3	200	R	01	Gibsonia, Pennsylvania / Maryland Black Bears (NAHL)	2020-21
+7	Alex Vlasic (CHI)	SO	D	6-6	199	L	01	Wilmette, Illinois / U.S. National Under-18 Team (NTDP)	2020-21
+8	Cade Webber (CAR)	FR	D	6-7	208	L	01	Meadville, Pennsylvania / Penticton Vees (BCHL)	2020-21
+9	Logan Cockerill (NYI)	SR	F	5-9	175	L	99	Brighton, Michigan / U.S. National Under-18 Team (NTDP)	2020-21
+10	Nick Zabaneh	FR	F	5-10	182	L	01	Toronto, Ontario / Green Bay Gamblers (USHL)	2020-21
+11	Luke Tuch (MTL)	FR	F	6-2	203	L	02	Baldwinsville, New York / U.S. National Under-18 Team (NTDP)	2020-21
+12	Jamie Armstrong	SO	F	6-2	192	L	98	Warwick, Rhode Island / Boston Jr. Bruins (USPHL)	2020-21
+13	Dylan Peterson (STL)	FR	F	6-4	192	R	02	Roseville, California / U.S. National Under-18 Team (NTDP)	2020-21
+14	Sean Driscoll	SO	D	6-2	194	L	98	Mequon, Wisconsin / Janesville Jetes (NAHL)	2020-21
+15	Markus Boguslavsky	SO	F	6-1	190	R	99	Calgary, Alberta / Drumheller Dragons (AJHL)	2020-21
+16	Robert Mastrosimone (DET)	SO	F	5-10	170	L	01	East Islip, New York / Chicago Steel (USHL)	2020-21
+17	Jake Wise (CHI)	JR	F	5-11	190	L	00	Reading, Massachusetts / U.S. National Under-18 Team (NTDP)	2020-21
+18	Jay O'Brien (PHI)	SO	F	6-0	184	R	99	Hingham, Massachusetts / Penticton Vees (BCHL)  Previous College: Providence (2018-19)	2020-21
+19	Jack DeBoer	JR	F	6-3	188	R	00	Madison, New Jersey / U.S. National Under-18 Team (NTDP)	2020-21
+20	Matthew Quercia	JR	F	6-3	202	L	99	Andover, Massachusetts / Sioux Falls Stampede (USHL)	2020-21
+21	Max Kaufman	SR	F	5-8	165	L	96	Rochester, New York / Langley Rivermen (BCHL)  Previous College: Vermont (2019-20)	2020-21
+22	Jake Witkowski	SR	F	5-10	178	R	96	Melrose, Massachusetts / Alberni Valley Bulldogs (BCHL)	2020-21
+23	Domenick Fensore (CAR)	SO	D	5-7	151	L	01	Thornwood, New York / U.S. National Under-18 Team (NTDP)	2020-21
+25	Sam Stevens	SO	F	6-1	185	L	00	Montréal, Québec / Sioux Falls Stampede (USHL)	2020-21
+26	Joseph Campolieto	SR	D	6-0	185	L	98	Eynon, Pennsylvania / Tri-City Storm (USHL)  Previous College: Union (2019-20)	2020-21
+27	John Copeland	SO	F/D	6-6	181	R	99	Wellesley, Massachusetts / Carleton Place Canadians (CCHL)	2020-21
+28	Ethan Phillips (DET)	SO	F	5-9	155	R	01	Dartmouth, Nova Scotia / Sioux Falls Stampede (USHL)	2020-21
+29	Drew Commesso (CHI)	FR	G	6-2	180	L	02	Norwell, Massachusetts / U.S. National Under-18 Team (NTDP)	2020-21
+30	Ashton Abel	SO	G	6-0	165	L	99	Fort McMurray, Alberta / Okotoks Oilers (AJHL)	2020-21
+31	Vinny Duplessis	FR	G	6-1	170	L	99	Quebec City, Québec / Whitecourt Wolverines (AJHL)	2020-21
+32	Wilmer Skoog	SO	F	6-2	197	L	99	Tyresö, Sweden / Maryland Black Bears (NAHL)	2020-21
