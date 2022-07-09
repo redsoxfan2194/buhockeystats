@@ -173,7 +173,7 @@
 2	Britt Hergesheimer	SR	F	5-8	R	91	East St. Paul, Manitoba / Balmoral School	2012-13
 4	Kathryn Miller	SR	D	5-10	R	91	Milverton, Ontario / Mississauga Jr. Chiefs	2012-13
 5	Meghan Riggs	JR	F	5-5	R	92	Eden Prairie, Minnesota / Eden Prairie	2012-13
-6	Shannon Doyle	JR	D	5-4	R	92	Baldwin, Ontario / Colgate   Previous College: Colgate (2011-12)	2012-13
+6	Shannon Doyle	JR	D	5-4	R	92	Baldwin, Ontario / Colgate  Previous College: Colgate (2011-12)	2012-13
 7	Shannon Stoneburgh	SO	D	5-11	L	93	Pickering, Ontario / Toronto Aeros	2012-13
 8	Kayla Tutino	SO	F	5-5	R	92	Lorraine, Quebec / Ontario Hockey Academy	2012-13
 9	Sarah Lefort	FR	F	5-7	L	94	Ormstown, Quebec / Stanstead College	2012-13
@@ -187,7 +187,7 @@
 17	Diana Bennett	FR	D	5-5	L	93	Narragansett, Rhode Island / Cushing Academy	2012-13
 18	Rebecca Russo	FR	F	5-4	L	94	Shelton, Connecticut / Shattuck St. Mary's	2012-13
 19	Jenelle Kohanchuk	SR	F	5-7	L	90	Winnipeg, Manitoba / Balmoral School	2012-13
-20	Isabel Menard	SR	F	5-7	L	91	Ottawa, Ontario / Syracuse   Previous College: Syracuse (2010-11)	2012-13
+20	Isabel Menard	SR	F	5-7	L	91	Ottawa, Ontario / Syracuse  Previous College: Syracuse (2010-11)	2012-13
 22	Jill Cardella	SR	F	5-6	L	91	Rochester, New York / North American Hockey Academy	2012-13
 23	Sarah Bayersdorfer	SO	F	5-6	R	93	Short Hills, New Jersey / Morristown-Beard School	2012-13
 24	Taylor Holze	SR	F	5-4	R	90	Lynnbrook, New York / North American Hockey Academy	2012-13
@@ -199,7 +199,7 @@
 1	Kerrin Sperry	SR	G	5-6	L	92	North Reading, Massachusetts / Lawrence Academy	2013-14
 4	Sarah Steele	FR	D	5-6	L	95	Stratford, Prince Edward Island / Appleby College	2013-14
 5	Meghan Riggs	SR	F	5-5	R	92	Eden Prairie, Minnesota / Eden Prairie	2013-14
-6	Shannon Doyle	SR	D	5-4	R	92	Baldwin, Ontario / Colgate   Previous College: Colgate (2011-12)	2013-14
+6	Shannon Doyle	SR	D	5-4	R	92	Baldwin, Ontario / Colgate  Previous College: Colgate (2011-12)	2013-14
 7	Shannon Stoneburgh	JR	D	5-11	L	93	Pickering, Ontario / Toronto Aeros	2013-14
 8	Kayla Tutino	JR	F	5-5	R	92	Lorraine, Québec / Ontario Hockey Academy	2013-14
 9	Sarah Lefort	SO	F	5-7	L	94	Ormstown, Québec / Stanstead College	2013-14
@@ -221,7 +221,7 @@
 31	Braly Hiller	SR	G	5-7	L	92	Marion, Massachusetts / Tabor Academy	2013-14
 33	Victoria Hanson	FR	G	5-9	L	94	Stoughton, Massachusetts / Lawrence Academy	2013-14
 4	Sarah Steele	SO	D	5-6	L	95	Stratford, Prince Edward Island / Appleby College	2014-15
-6	Shannon Doyle	SR	D	5-4	R	92	Baldwin, Ontario / Colgate   Previous College: Colgate (2011-12)	2014-15
+6	Shannon Doyle	SR	D	5-4	R	92	Baldwin, Ontario / Colgate  Previous College: Colgate (2011-12)	2014-15
 7	Shannon Stoneburgh	SR	D	5-11	L	93	Pickering, Ontario / Toronto Aeros	2014-15
 8	Kayla Tutino	JR	F	5-5	R	92	Lorraine, Québec / Ontario Hockey Academy	2014-15
 9	Sarah Lefort	JR	F	5-7	L	94	Ormstown, Québec / Stanstead College	2014-15
@@ -238,7 +238,7 @@
 21	Natalie Flynn	SO	F	5-7	R	94	Medford, Massachusetts / Cushing Academy	2014-15
 22	Anna Streifel	FR	F	5-10	L	96	Bowie, Maryland / Washington Pride	2014-15
 23	Sarah Bayersdorfer	SR	F	5-6	R	93	Short Hills, New Jersey / Morristown-Beard School	2014-15
-25	Alexis Crossley	JR	D	5-8	L	94	Cole Harbour, Nova Scotia / New Hampshire   Previous College: New Hampshire (2013-14)	2014-15
+25	Alexis Crossley	JR	D	5-8	L	94	Cole Harbour, Nova Scotia / New Hampshire  Previous College: New Hampshire (2013-14)	2014-15
 27	Jordan Juron	JR	F	5-8	R	94	Latham, New York / Middlesex School	2014-15
 28	Savannah Newton	FR	D	5-4	N/A	96	Halifax, Nova Scotia / Appleby College	2014-15
 29	Marie-Philip Poulin	SR	F	5-6	L	91	Beauceville, Québec / Canadian National Team	2014-15
@@ -262,7 +262,7 @@
 21	Natalie Flynn	JR	F	5-7	R	94	Medford, Massachusetts / Cushing Academy	2015-16
 22	Anna Streifel	SO	F	5-10	L	96	Bowie, Maryland / Washington Pride	2015-16
 24	Mary Grace Kelley	FR	F	5-5	R	97	Natick, Massachusetts / Dexter Southfield	2015-16
-25	Alexis Crossley	JR	D	5-8	L	94	Cole Harbour, Nova Scotia / New Hampshire   Previous College: New Hampshire (2013-14)	2015-16
+25	Alexis Crossley	JR	D	5-8	L	94	Cole Harbour, Nova Scotia / New Hampshire  Previous College: New Hampshire (2013-14)	2015-16
 26	Connor Galway	FR	D	5-10	L	96	Athens, Ontario / Toronto Aeros	2015-16
 27	Jordan Juron	SR	F	5-8	R	94	Latham, New York / Middlesex School	2015-16
 28	Savannah Newton	SO	D	5-4	N/A	96	Halifax, Nova Scotia / Appleby College	2015-16
@@ -270,23 +270,23 @@
 33	Victoria Hanson	JR	G	5-9	L	94	Stoughton, Massachusetts / Lawrence Academy	2015-16
 1	Ashlyn Aiello	JR	G	5-0	L	96	Belmont, Massachusetts / Phillips Academy	2016-17
 4	Sarah Steele	SR	D	5-6	L	95	Stratford, Prince Edward Island / Appleby College	2016-17
-8	Deziray De Sousa	FR	F	5-8	L	98	Montréal, Québec / Phillips Exeter (Mass.)	2016-17
+8	Deziray De Sousa	FR	F	5-8	L	98	Montréal, Québec / Phillips Exeter (Massachusetts)	2016-17
 9	Abby Cook	FR	D	5-10	R	98	Kelowna, British Columbia / Pursuit of Excellence	2016-17
 10	Katie Shannahan	FR	D	5-7	L	98	Colorado Springs, Colorado / Detroit Little Caesars	2016-17
 11	Alexandra Calderone	FR	D	5-4	L	97	Kirkland, Québec / Dawson College	2016-17
 12	Victoria Bach	JR	F	5-4	L	96	Milton, Ontario / Mississauga Jr. Chiefs	2016-17
 13	Natasza Tarnowski	FR	F	5-4	R	98	Embrun, Ontario / Ottawa Senators	2016-17
 14	Maddie Elia	SR	F	5-10	R	95	Lewiston, New York / Nichols School	2016-17
-15	Mary Parker	SR	F	5-9	L	N/A	Milton, Massachusetts / Noble and Greenough School   Previous College: Harvard (2015-16)	2016-17
+15	Mary Parker	SR	F	5-9	L	N/A	Milton, Massachusetts / Noble and Greenough School  Previous College: Harvard (2015-16)	2016-17
 16	Sammy Davis	SO	F	5-4	L	97	Pembroke, Massachusetts / Tabor Academy	2016-17
 17	Breanna Scarpaci	FR	D	5-5	L	98	Washington, Michigan / Shattuck St. Mary's	2016-17
 19	Rebecca Leslie	JR	F	5-6	R	96	Ottawa, Ontario / Ottawa Senators	2016-17
 20	Samantha Sutherland	SR	F	5-4	R	95	Cochrane, Alberta / Warner School	2016-17
 21	Natalie Flynn	SR	F	5-7	R	94	Medford, Massachusetts / Cushing Academy	2016-17
 22	Anna Streifel	JR	F	5-10	L	96	Bowie, Maryland / Washington Pride	2016-17
-23	Nina Rodgers	JR	F	5-5	R	96	Minnetonka, Minnesota / Hopkins   Previous College: Minnesota (2015-16)	2016-17
+23	Nina Rodgers	JR	F	5-5	R	96	Minnetonka, Minnesota / Hopkins  Previous College: Minnesota (2015-16)	2016-17
 24	Mary Grace Kelley	SO	F	5-5	R	97	Natick, Massachusetts / Dexter Southfield	2016-17
-25	Alexis Crossley	SR	D	5-8	L	94	Cole Harbour, Nova Scotia / New Hampshire   Previous College: New Hampshire (2013-14)	2016-17
+25	Alexis Crossley	SR	D	5-8	L	94	Cole Harbour, Nova Scotia / New Hampshire  Previous College: New Hampshire (2013-14)	2016-17
 26	Connor Galway	SO	D	5-10	L	96	Athens, Ontario / Toronto Aeros	2016-17
 28	Savannah Newton	JR	D	5-4	N/A	96	Halifax, Nova Scotia / Appleby College	2016-17
 31	Erin O'Neil	JR	G	5-7	L	96	Minnetonka, Minnesota / Hopkins	2016-17
@@ -294,7 +294,7 @@
 1	Ashlyn Aiello	SR	G	5-0	L	96	Belmont, Massachusetts / Phillips Academy	2017-18
 4	Alexandra Calderone	SO	D	5-4	L	97	Kirkland, Québec / Dawson College	2017-18
 7	Jesse Compher	FR	F	5-8	N/A	99	Northbrook, Illinois / Chicago Mission	2017-18
-8	Deziray De Sousa	SO	F	5-8	L	98	Montréal, Québec / Phillips Exeter (Mass.)	2017-18
+8	Deziray De Sousa	SO	F	5-8	L	98	Montréal, Québec / Phillips Exeter (Massachusetts)	2017-18
 9	Abby Cook	SO	D	5-10	R	98	Kelowna, British Columbia / Pursuit of Excellence	2017-18
 10	Katie Shannahan	SO	D	5-7	L	98	Colorado Springs, Colorado / Detroit Little Caesars	2017-18
 12	Victoria Bach	SR	F	5-4	L	96	Milton, Ontario / Mississauga Jr. Chiefs	2017-18
@@ -304,9 +304,9 @@
 17	Breanna Scarpaci	SO	D	5-5	L	98	Washington, Michigan / Shattuck St. Mary's	2017-18
 18	Reagan Rust	JR	D	5-7	R	97	Southaven, Mississippi / Pittsburgh Penguins Elite U-19  Previous College: RIT (2016-17)	2017-18
 19	Rebecca Leslie	SR	F	5-6	R	96	Ottawa, Ontario / Ottawa Senators	2017-18
-21	Abbey Stanley	SO	D	5-8	N/A	98	St. Louis, Missouri / Minnesota Jr. Whitecaps   Previous College: North Dakota (2016-17)	2017-18
+21	Abbey Stanley	SO	D	5-8	N/A	98	St. Louis, Missouri / Minnesota Jr. Whitecaps  Previous College: North Dakota (2016-17)	2017-18
 22	Rachel Allen	FR	F	5-6	N/A	99	Cary, North Carolina / Gilmour Academy	2017-18
-23	Nina Rodgers	SR	F	5-5	R	96	Minnetonka, Minnesota / Hopkins   Previous College: Minnesota (2015-16)	2017-18
+23	Nina Rodgers	SR	F	5-5	R	96	Minnetonka, Minnesota / Hopkins  Previous College: Minnesota (2015-16)	2017-18
 24	Mary Grace Kelley	JR	F	5-5	R	97	Natick, Massachusetts / Dexter Southfield	2017-18
 26	Connor Galway	JR	D	5-10	L	96	Athens, Ontario / Toronto Aeros	2017-18
 27	Nara Elia	FR	F	5-7	N/A	99	Saskatoon, Saskatchewan / Okanagan Hockey Academy	2017-18
@@ -318,7 +318,7 @@
 4	Alexandra Calderone	JR	D	5-4	L	97	Kirkland, Québec / Dawson College	2018-19
 5	Courtney Correia	FR	F	5-6	L	00	Whitby, Ontario / Toronto Aeros	2018-19
 7	Jesse Compher	SO	F	5-8	R	99	Northbrook, Illinois / Chicago Mission	2018-19
-8	Deziray De Sousa	JR	F	5-8	L	98	Montréal, Québec / Phillips Exeter (Mass.)	2018-19
+8	Deziray De Sousa	JR	F	5-8	L	98	Montréal, Québec / Phillips Exeter (Massachusetts)	2018-19
 9	Abby Cook	JR	D	5-10	R	98	Kelowna, British Columbia / Pursuit of Excellence	2018-19
 10	Katie Shannahan	JR	D	5-7	L	98	Colorado Springs, Colorado / Detroit Little Caesars	2018-19
 11	Mackenna Parker	FR	F	5-6	R	00	Cavet, Saskatchewan / Saskatoon Stars	2018-19
@@ -327,9 +327,9 @@
 14	Kristina Schuler	SO	F	5-5	R	99	Webster, New York / Choate Rosemary Hall	2018-19
 16	Sammy Davis	JR	F	5-4	L	97	Pembroke, Massachusetts / Tabor Academy	2018-19
 17	Breanna Scarpaci	JR	D	5-5	L	98	Washington, Michigan / Shattuck St. Mary's	2018-19
-18	Reagan Rust	SR	D	5-7	R	97	Southaven, Mississippi / Pittsburgh Penguins Elite U-19   Previous College: RIT (2016-17)	2018-19
+18	Reagan Rust	SR	D	5-7	R	97	Southaven, Mississippi / Pittsburgh Penguins Elite U-19  Previous College: RIT (2016-17)	2018-19
 19	Emma Wuthrich	FR	F	5-8	L	00	Anchorage, Alaska / North American Hockey Academy	2018-19
-21	Abbey Stanley	JR	D	5-8	R	98	St. Louis, Missouri / Minnesota Jr. Whitecaps   Previous College: North Dakota (2016-17)	2018-19
+21	Abbey Stanley	JR	D	5-8	R	98	St. Louis, Missouri / Minnesota Jr. Whitecaps  Previous College: North Dakota (2016-17)	2018-19
 22	Rachel Allen	SO	F	5-6	R	99	Cary, North Carolina / Gilmour Academy	2018-19
 23	Joo Hyung Kwak	FR	F	5-4	R	99	La Crescenta, California / The Hotchkiss School	2018-19
 24	Mary Grace Kelley	SR	F	5-5	R	97	Natick, Massachusetts / Dexter Southfield	2018-19
@@ -343,7 +343,7 @@
 5	Courtney Correia	SO	F	5-6	L	00	Whitby, Ontario / Toronto Aeros	2019-20
 6	Nadia Mattivi	FR	D	5-9	N/A	00	Baselga di Pinè (Trento), Italy / Italian National Team	2019-20
 7	Jesse Compher	JR	F	5-8	R	99	Northbrook, Illinois / Chicago Mission	2019-20
-8	Deziray De Sousa	SR	F	5-8	L	98	Montréal, Québec / Phillips Exeter (Mass.)	2019-20
+8	Deziray De Sousa	SR	F	5-8	L	98	Montréal, Québec / Phillips Exeter (Massachusetts)	2019-20
 9	Abby Cook	SR	D	5-10	R	98	Kelowna, British Columbia / Pursuit of Excellence	2019-20
 10	Katie Shannahan	SR	D	5-7	L	98	Colorado Springs, Colorado / Detroit Little Caesars	2019-20
 11	Mackenna Parker	SO	F	5-6	R	00	Clavet, Saskatchewan / Saskatoon Stars	2019-20
@@ -356,7 +356,7 @@
 18	Haylee Blinkhorn	FR	F	5-4	N/A	00	Oakdale, Minnesota / Hill-Murray	2019-20
 19	Emma Wuthrich	SO	F	5-8	L	00	Anchorage, Alaska / North American Hockey Academy	2019-20
 20	Grace Parker	FR	D	5-8	N/A	01	Nepean, Ontario / Nepean Jr. Wildcats	2019-20
-21	Abbey Stanley	SR	D	5-8	R	98	St. Louis, Missouri / Minnesota Jr. Whitecaps   Previous College: North Dakota (2016-17)	2019-20
+21	Abbey Stanley	SR	D	5-8	R	98	St. Louis, Missouri / Minnesota Jr. Whitecaps  Previous College: North Dakota (2016-17)	2019-20
 22	Rachel Allen	JR	F	5-6	R	99	Cary, North Carolina / Gilmour Academy	2019-20
 26	Brooke Ersoy	FR	F	5-10	N/A	01	Arlington Heights, Illinois / Chicago Mission	2019-20
 27	Nara Elia	JR	F	5-7	R	99	Saskatoon, Saskatchewan / Okanagan Hockey Academy	2019-20
@@ -386,3 +386,29 @@
 28	Catherine Foulem	FR	F	5-6	L	02	Dieppe, New Brunswick / Ridley College	2020-21
 30	Corinne Schroeder	SR	G	5-11	L	99	Elm Creek, Manitoba / Balmoral Hall	2020-21
 31	Nicole McGuigan	JR	G	5-8	L	00	Huntington, New York / Choate Rosemary Hall	2020-21
+1	Kate Stuart	SR	G	6-0	L	00	Chilliwack, British Columbia / Toronto Leaside Jr. Wildcats	2021-22
+2	Alex Allan	SR	D	5-8	L	00	Abbotsford, British Columbia / Pacific Steelers	2021-22
+3	Liv Haag	FR	F	5-1	R	03	Robbinsdale, Minnesota / Benilde-St. Margaret’s	2021-22
+4	Grace Parker	JR	D	5-8	L	01	Nepean, Ontario / Nepean Jr. Wildcats	2021-22
+5	Courtney Correia	SR	F	5-6	L	00	Whitby, Ontario / Toronto Aeros	2021-22
+6	Nadia Mattivi	JR	D	5-9	L	00	Baselga di Pinè (Trento), Italy / Italian National Team	2021-22
+7	Kylie Roberts	FR	F	5-8	L	03	Edina, Minnesota / Edina	2021-22
+8	Maggie Hanzel	FR	D	5-9	L	02	Rochester, Minnesota / Lourdes	2021-22
+9	Clare O'Leary	SO	F	5-8	R	01	Hingham, Massachusetts / Tabor Academy	2021-22
+10	Jesse DeVito	SR	F	5-6	R	99	Rumson, New Jersey / Kent School Previous College: Wisconsin (2020-21)	2021-22
+11	Mackenna Parker	SR	F	5-6	R	00	Clavet, Saskatchewan / Saskatoon Stars	2021-22
+12	Kaleigh Donnelly	SR	F	5-8	R	00	Wellesley, Massachusetts / North American Hockey Academy	2021-22
+13	Andi Calderone	SO	D	5-6	L	01	Kirkland, Québec / John Abbott College	2021-22
+15	Ellie Larson	GR	D	5-9	L	99	Hutchinson, Minnesota / Hutchinson  Previous College: RIT (2020-21)	2021-22
+16	Julia Nearis	JR	F	5-9	R	99	Beverly, Massachusetts / Kent School	2021-22
+17	Lacey Martin	SO	F	5-8	L	02	Minnetonka, Minnesota / Minnetonka	2021-22
+18	Haylee Blinkhorn	JR	F	5-4	R	00	Oakdale, Minnesota / Hill-Murray	2021-22
+19	Emma Wuthrich	SR	F	5-8	L	00	Castle Rock, Colorado / North American Hockey Academy	2021-22
+20	Julia Shaunessy	SO	D	6-1	R	02	Marshfield, Massachusetts / Tabor Academy	2021-22
+21	Madison Cardaci	SO	D	5-9	R	02	Westminster, Massachusetts / Williston Northampton School	2021-22
+22	Christina Vote	FR	F	5-2	L	02	Arlington, Massachusetts / Dexter Southfield	2021-22
+23	Tamara Giaquinto	SO	D	5-6	R	02	Toronto, Ontario / Appleby College	2021-22
+26	Brooke Ersoy	JR	F	5-10	R	01	Arlington Heights, Illinois / Chicago Mission	2021-22
+28	Catherine Foulem	SO	F	5-6	L	02	Dieppe, New Brunswick / Ridley College	2021-22
+31	Nicole McGuigan	SR	G	5-8	L	00	Huntington, New York / Choate Rosemary Hall	2021-22
+37	Callie Shanahan	FR	G	5-10	L	03	Commerce, Michigan / HoneyBaked	2021-22
