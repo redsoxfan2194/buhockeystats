@@ -6,8 +6,10 @@ import urllib.request, urllib.error, urllib.parse
 from bs4 import BeautifulSoup
 from datetime import datetime
 
+tourneyDict={}
 # Get Tourneys
 def generateRecordBook():
+    global tourneyDict
     fileName=('/home/nmemme/bustatsbot/recordbookdata/BURecordBook.txt')
     tourneys=[]
     with open(fileName, 'r', encoding='utf-8') as f:
@@ -19,8 +21,6 @@ def generateRecordBook():
             if(len(row[0])>7 and len(row)==1 and ('COACH' not in i and 'OVERALL' not in i and 'ECAC:' not in i and 'CAPTAIN' not in i and 'HOCKEY' not in i and 'NEIHL:' not in i and 'forfeit' not in i)):
                 tourneys.append(row[0])
                 
-                
-    tourneyDict={}
     for i in tourneys:
         if(i=='Key to Tournaments'):
             continue
@@ -125,13 +125,13 @@ def generateRecordBook():
     return dfGames
 
 def generateWomensRecordBook():
+    global tourneyDict
     fileName=('/home/nmemme/bustatsbot/recordbookdata/BUWomensRecordBook.txt')
     tourneys=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
         conf='Independent'
-        tourneyDict={}
         for i in rows:
             row=i.split('  ')
             if(len(row)==2):
