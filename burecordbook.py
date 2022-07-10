@@ -1701,7 +1701,7 @@ def getPlayerStats(playerDfs,query):
 def getBeanpotStats(dfBean,query):
     dfBeanpot=dfBean['results']
     dfBeanpotAwards=dfBean['awards']
-    beanNumSearch=re.search('(\d{4}|\d{1,2}|first|second|third)(?:st|nd|rd|th)? beanpot',query)
+    beanNumSearch=re.search('(\d{4}|\d{1,2})(?:st|nd|rd|th)? beanpot',query)
     typeSearch=re.search('beanpot (semi|consolation|final|championship)?\s?(champ|winner|runner|runner-up|1st|first|2nd|second|third|3rd|fourth|4th|last|result|finish)',query)
     recordSearch=re.search('(bu|boston university|bc|boston college|northeastern|nu|harvard|hu) record in beanpot ?(early|late|semi|cons|final|champ|3rd|third)?(.*(\d))?',query)
     head2headSearch=re.search('(bu|boston university|bc|boston college|northeastern|nu|harvard|hu) record vs (bu|boston university|bc|boston college|northeastern|nu|harvard|hu) in beanpot ?(early|late|semi|cons|final|champ|3rd|third)?(\d)?',query)
@@ -1709,6 +1709,9 @@ def getBeanpotStats(dfBean,query):
     timeSearch=re.search('(?:(since|after|before) (\d{4})|(?:between|from) (\d{4}) (?:and|to) (\d{4})|(in) (\d{2,4})s)',query)
     teamFinishYearSearch=re.search('^(bu|boston university|bc|boston college|northeastern|nu|harvard|hu)? ?beanpot finish in (\d{4})',query)
     awardSearch=re.search("(eberly|mvp|most valuable|bert)",query)
+    if('semi3Winner' not in dfBeanpot.columns):
+        dfBeanpot['semi3Winner']=''
+        dfBeanpot['semi3Loser']=''
     tQuery=''
     if(timeSearch!=None):
         timeType=timeSearch.group(1)
@@ -1732,9 +1735,9 @@ def getBeanpotStats(dfBean,query):
         elif(timeType == 'in'):
             if(len(timeSearch.group(6))==2):
                 if(int(timeSearch.group(6))>40):
-                    decadeStart=int("19"+timeSearch.group(2))
+                    decadeStart=int("19"+timeSearch.group(6))
                 else:
-                    decadeStart=int("20"+timeSearch.group(2))
+                    decadeStart=int("20"+timeSearch.group(6))
             else:
                 decadeStart=int(timeSearch.group(6))
             tQuery+=' & (dfBeanpot["year"].between({},{}))'.format(decadeStart,decadeStart+9)
@@ -1765,7 +1768,7 @@ def getBeanpotStats(dfBean,query):
         if(qType in ['cons','third','3rd'] or qType == '' ):
             consWins=dfBeanpot.loc[eval("((dfBeanpot['consWinner']==\"{}\") & (dfBeanpot['consGD']!=0))".format(team)+tQuery)]['year'].count()
             consLosses=dfBeanpot.loc[eval("((dfBeanpot['consLoser']==\"{}\") & (dfBeanpot['consGD']!=0))".format(team)+tQuery)]['year'].count()
-            consTies=dfBeanpot.loc[eval("((dfBeanpot['consWinner'].str.contains(team) | (dfBeanpot['consLoser'].str.contains(team))) & (dfBeanpot['consGD']==0))"+tQuery)]['year'].count()
+            consTies=dfBeanpot.loc[eval("((dfBeanpot['consWinner'].str.contains(\"{}\") | (dfBeanpot['consLoser'].str.contains(\"{}\"))) & (dfBeanpot['consGD']==0))".format(team,team)+tQuery)]['year'].count()
             consApp=consWins+consLosses+consTies
             if(consTies>0):
                 consLossesStr=str(consLosses)+'-'+str(consTies)
@@ -1793,18 +1796,6 @@ def getBeanpotStats(dfBean,query):
             numType='year'
         elif(len(beanNumSearch.group(1))<=2):
             dfRes=dfBeanpot.loc[dfBeanpot['edition']==year]
-            numType='edition'
-        elif(year=='first'):
-            dfRes=dfBeanpot.loc[dfBeanpot['edition']==1]
-            year=1
-            numType='edition'
-        elif(year=='second'):
-            dfRes=dfBeanpot.loc[dfBeanpot['edition']==2]
-            year=2
-            numType='edition'
-        elif(year=='third'):
-            dfRes=dfBeanpot.loc[dfBeanpot['edition']==3]
-            year=3
             numType='edition'
         finStr=''
         if(qType in ['champ','winner','1st','first'] or qType=='finish'):
@@ -1882,7 +1873,7 @@ def getBeanpotStats(dfBean,query):
         if(qType in ['cons','third','3rd'] or qType==''):
             consTeam1Wins=dfBeanpot.loc[eval("(dfBeanpot['consWinner']==\"{}\") & (dfBeanpot['consLoser']==\"{}\") & (dfBeanpot['consGD']!=0)".format(team1,team2)+tQuery)]['year'].count()
             consTeam2Wins=dfBeanpot.loc[eval("(dfBeanpot['consWinner']==\"{}\") & (dfBeanpot['consLoser']==\"{}\") & (dfBeanpot['consGD']!=0)".format(team2,team1)+tQuery)]['year'].count()
-            consTies=dfBeanpot.loc[(((dfBeanpot['consWinner'].str.contains(team1)) & (dfBeanpot['consLoser'].str.contains(team2))) | (dfBeanpot['consWinner'].str.contains(team2)) & (dfBeanpot['consLoser'].str.contains(team1)))  & (dfBeanpot['consGD']==0)]['year'].count()
+            consTies=dfBeanpot.loc[eval("(((dfBeanpot['consWinner'].str.contains(\"{}\")) & (dfBeanpot['consLoser'].str.contains(\"{}\"))) | (dfBeanpot['consWinner'].str.contains(\"{}\")) & (dfBeanpot['consLoser'].str.contains(\"{}\")))  & (dfBeanpot['consGD']==0)".format(team1,team2,team2,team1) + tQuery)]['year'].count()
             consApp=consTeam1Wins+consTeam2Wins+consTies
             if(consTies>0):
                 consLossesStr=str(consTeam2Wins)+'-'+str(consTies)
@@ -1948,15 +1939,16 @@ def getBeanpotStats(dfBean,query):
                     beans[i[0]][counter]=int(i[1])
                 if(place=='consLoser'):
                     if(tQuery==''):
-                        tieList=dfBeanpot.loc[(dfBeanpot['consGD']==0) & (dfBeanpot['consWinner']!='')].groupby(['consWinner','consLoser'],as_index=False).count()[['consWinner','consLoser','year']].to_string(header=False,index=False).split('\n')
+                        tieList=dfBeanpot.loc[(dfBeanpot['consGD']==0) & (dfBeanpot['consWinner']!='')].groupby(['consWinner','consLoser'],as_index=False).count()[['consWinner','consLoser','year']].to_csv(header=False,index=False).split('\n')
                     else:
                         tQuery="& ({})".format(tQuery)
-                        tieList=dfBeanpot.loc[eval("(dfBeanpot['consGD']==0) & (dfBeanpot['consWinner']!='')"+tQuery)].groupby(['consWinner','consLoser'],as_index=False).count()[['consWinner','consLoser','year']].to_string(header=False,index=False).split('\n')
+                        tieList=dfBeanpot.loc[eval("(dfBeanpot['consGD']==0) & (dfBeanpot['consWinner']!='')"+tQuery)].groupby(['consWinner','consLoser'],as_index=False).count()[['consWinner','consLoser','year']].to_csv(header=False,index=False).split('\n')
                         if('Empty' not in tieList[0]):
                             for r in tieList:
-                                tie=list(filter(None,r.split('  ')))
-                                beans[tie[1].strip()][counter-1]+=int(tie[2])
-                                beans[tie[1].strip()][counter]-=int(tie[2])
+                                tie=list(filter(None,r.split(',')))
+                                if(tie!=[]):
+                                  beans[tie[1].strip()][counter-1]+=int(tie[2])
+                                  beans[tie[1].strip()][counter]-=int(tie[2])
                 counter+=1
             if(counter>1):
                 sorted_finish=dict(sorted(beans.items(), key=lambda item: (item[1][0],item[1][1],item[1][2],item[1][3]),reverse=True))
@@ -2003,6 +1995,7 @@ def getBeanpotStats(dfBean,query):
                 consLossesStr=str(consLosses)+'-'+str(consTies)
             else:
                 consLossesStr=str(consLosses)
+
             finStr=''
             if(finish in ['champ','title']):
                 return "{} Beanpot Titles".format(champWins)
@@ -2017,6 +2010,8 @@ def getBeanpotStats(dfBean,query):
             return finStr
     if(awardSearch != None and beanNumSearch!=None):
         year=int(beanNumSearch.group(1))
+        if(len(beanNumSearch.group(1))<=2):
+            year=int(dfBeanpot.loc[dfBeanpot['edition']==year]['year'].to_string(index=False))
         if(year==2021):
             return '2021 Beanpot cancelled due to the COVID-19 pandemic'
         dfRes=dfBeanpotAwards.loc[dfBeanpotAwards['year']==year]
