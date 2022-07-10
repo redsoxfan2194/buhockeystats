@@ -98,7 +98,6 @@ def generateRecordBook():
                 gameDict['location']='Neutral'
             if((gameDict['arena']=='Gutterson' and gameDict['opponent']=='Vermont') or (gameDict['arena']=='Houston' and gameDict['opponent']=='Rensselaer') or (gameDict['arena']=='Broadmoor' and gameDict['opponent']=='Colorado College') or (gameDict['arena']=='DEC Center' and gameDict['opponent']=='Minnesota Duluth')or (gameDict['arena']=='Magness Arena' and gameDict['opponent']=='Denver')or (gameDict['arena']=='Mariucci Arena' and gameDict['opponent']=='Minnesota')or (gameDict['arena']=='Munn Ice Arena' and gameDict['opponent']=='Michigan State')or (gameDict['arena']=='Walker Arena' and gameDict['opponent']=='Clarkson')or (gameDict['arena']=='Thompson Arena' and gameDict['opponent']=='Dartmouth')or (gameDict['arena']=='St. Louis Arena' and gameDict['opponent']=='St. Louis') or (gameDict['arena']=='Sullivan Arena' and gameDict['opponent']=='Alaska Anchorage')):
                 gameDict['location']='Away'
-
             if(gameDict['tourney']!=None):
                 gameDict['tourney']=tourneyDict[gameDict['tourney'].replace('(','').replace(')','')]
             if((gameDict['tourney'] == gameDict['conference'] +" "+ 'Tournament') or (gameDict['tourney'] == 'NCAA Tournament')):
@@ -1739,15 +1738,6 @@ def getBeanpotStats(dfBean,query):
             else:
                 decadeStart=int(timeSearch.group(6))
             tQuery+=' & (dfBeanpot["year"].between({},{}))'.format(decadeStart,decadeStart+9)
-    elif(decSearch!=None):
-            if(len(decSearch.group(1))==2):
-                if(int(decSearch.group(1))>20):
-                    decadeStart=int("19"+decSearch.group(1))
-                else:
-                    decadeStart=int("20"+decSearch.group(1))
-            else:
-                decadeStart=int(decSearch.group(1))
-            tQuery+=' & (dfBeanpot["year"].between({},{}))'.format(decadeStart,decadeStart+9)
     if(recordSearch != None and 'vs' not in query):
         team=decodeTeam(recordSearch.group(1))
         qType=recordSearch.group(2)
@@ -2013,7 +2003,6 @@ def getBeanpotStats(dfBean,query):
                 consLossesStr=str(consLosses)+'-'+str(consTies)
             else:
                 consLossesStr=str(consLosses)
-
             finStr=''
             if(finish in ['champ','title']):
                 return "{} Beanpot Titles".format(champWins)
