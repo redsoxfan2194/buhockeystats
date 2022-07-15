@@ -1357,7 +1357,7 @@ def getPlayerStats(playerDfs,query):
                     sortType=False
                 elif('gaa' in query):
                     statType='gaa'
-                elif('so' in query):
+                elif('so' in query or 'shut' in query):
                     statType='SO'
                     sortType=False
                 dfRes=dfSeasGoalie.loc[(dfSeasGoalie['year']==year) & (dfSeasGoalie['gp']>gpMin)].sort_values(statType,ascending=sortType)[:1]
