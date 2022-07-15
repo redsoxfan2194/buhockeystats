@@ -4,7 +4,7 @@ import operator
 import calendar
 import urllib.request, urllib.error, urllib.parse
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime,timedelta
 
 tourneyDict={}
 # Get Tourneys
@@ -1028,7 +1028,6 @@ def getResults(dfGames,query):
             digSearch=re.search('\d',queryDict['in'])
             decSearch=re.search('(\d{2,4})s',queryDict['in'])
             seaSearch=re.search('(\d{4}-\d{2})',queryDict['in'])
-            #confSearch=re.search('(nc|ooc|non-conference|conference|hockey east|hea|ecac|neihl)',queryDict['in'])
             if(queryDict['in'] in ['ot','overtime']):
                     dfQueryList.append("(dfGames['ot'].notnull())")
             elif(queryDict['in'] in ['reg','regulation']):
@@ -1121,7 +1120,9 @@ def getResults(dfGames,query):
             aDate='5/1/{}'.format(aStart)
         else:      
             aDate=queryDict['after']
-        dfQueryList.append("(dfGames['date']>'{}')".format(int(aDate)+1))
+        if(not aDate.isnumeric()):
+            aDate=(datetime.strptime(aDate, '%m/%d/%Y')+timedelta(days=1)).strftime('%m/%d/%Y')
+        dfQueryList.append("(dfGames['date']>'{}')".format(aDate))
     if('between' in queryDict.keys()):
         dates=queryDict['between'].split(' and ')
         dfQueryList.append("(dfGames['date'].between('{}','{}'))".format(dates[0],dates[1]))
@@ -1652,7 +1653,7 @@ def getPlayerStats(playerDfs,query):
                 wins=int(float(gStatsLine['W'].to_string(index=False)))
                 loss=int(float(gStatsLine['L'].to_string(index=False)))
                 tie=int(float(gStatsLine['T'].to_string(index=False)))
-                resStr+="----------------------\nCareer     {} {}-{}-{}".format(dfRes.sum()['gp'],win,loss,tie)
+                resStr+="----------------------\nCareer     {} {}-{}-{}".format(dfRes.sum()['gp'],wins,loss,tie)
             elif('so' in stat or 'shut' in stat):
                 dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==gStatsLine['name'].to_string(index=False).lstrip()]
                 resStr='Season  Yr GP  SO\n'
