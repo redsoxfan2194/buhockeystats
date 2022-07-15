@@ -884,12 +884,12 @@ def determineQueryType(query):
     
 def determineGender(query):
     query=query.lower()
-    wSearch=re.search('(wom[a|e]n\S*\s?|female\S*\s?)',query)
+    wSearch=re.search('(?:^|\s)(wom[a|e]n\S*\s?|female\S*\s?)',query)
     gender=""
     if(wSearch!=None):
         gender='Womens'
         query=query.replace(wSearch.group(1),'')
-    mSearch=re.search('(m[a|e]n\S*\s?|male\S*\s?)',query)
+    mSearch=re.search('(?:^|\s)(m[a|e]n\S*\s?|male\S*\s?)',query)
     if(mSearch!=None):
         gender='Mens'
         query=query.replace(mSearch.group(1),'')
@@ -1229,8 +1229,8 @@ def getPlayerStats(playerDfs,query):
     numSearch=re.search('\#(\d*)',query)
     nameSearch=re.search('by (\w*) ?(\w*)?',query)
     numQuery=re.search('number (\w* \w*|\w*)',query)
-    seasonSearch=re.search('(\w*|\w* \w*)? ?(goal\S*|point\S*|pts|assists|stat\S*|stat line|record|gaa|sv|sv%|save|shut|so)? ?in (\d{4}-\d{2}|\d{4})',query)
-    yrSearch=re.search("(\w*|\w* \w*)? ?(goal\S*|point\S*|pts|assists|stat\S*|stat line|record|gaa|sv|sv%|save|shut|so)? ?as (fr|so|jr|junior|senior|sr|gr)",query)
+    seasonSearch=re.search('(\w*|\w* \w*)? ?(goal\S*|point\S*|pts|assists|stat\S*|stat line|record|gaa|sv|sv%|save\S*|shut\S*|so)? ?in (\d{4}-\d{2}|\d{4})',query)
+    yrSearch=re.search("(\w*|\w* \w*)? ?(goal\S*|point\S*|pts|assists|stat\S*|stat line|record|gaa|sv|sv%|save\S*|shut\S*|so)? ?as (fr|so|jr|junior|senior|sr|gr)",query)
     resStr=''
     if(seasonSearch!=None and numSearch==None):
         season=seasonSearch.group(3)
@@ -1349,8 +1349,8 @@ def getPlayerStats(playerDfs,query):
             elif(re.search('assist\S',query)):
                 statType='assists'
                 name='aname'
-            elif(re.search('sv|sv%|gaa|so',query)):
-                gpMin=dfSeasGoalie.loc[dfSeasGoalie['year']==year]['gp'].sum()/3
+            elif(re.search('sv|sv%|gaa|so|shut\S*',query)):
+                gpMin=dfSeasGoalie.loc[dfSeasGoalie['year']==year]['gp'].sum()/len(dfSeasGoalie.loc[dfSeasGoalie['year']==year])
                 sortType=True
                 if('sv' in query):
                     statType='sv%'
@@ -1461,7 +1461,7 @@ def getPlayerStats(playerDfs,query):
                         return "{}:{}-{}--{}".format(name,goals,assists,pts)
                 elif(re.search('assist\S',query)):
                     statType='assists'
-                if(stateType!=''):
+                if(statType!=''):
                     df=dfName.sort_values(statType,ascending=False)[:1]
                     name=df['name'].to_string(index=False).lstrip(' ')
                     stat=df[statType].to_string(index=False).lstrip(' ')
@@ -1802,12 +1802,12 @@ def getBeanpotStats(dfBean,query):
             finStr += "Champion: " + dfRes['champion'].to_string(index=False).lstrip(' ') + "\n"
         if(qType in ['runner','2nd','second'] or qType=='finish'):
             finStr += "Runner-Up: " + dfRes['runnerup'].to_string(index=False).lstrip(' ') + "\n"
-        if((dfRes['consGD']>0).bool()):
-            if(qType in ['third','3rd']or qType=='finish'):
+        if((qType in ['third','3rd','fourth','4th','last'] or qType=='finish') and (dfRes['consGD']>0).bool()):
+            if(qType in ['third','3rd'] or qType=='finish'):
                 finStr += "3rd Place: " +  dfRes['consWinner'].to_string(index=False).lstrip(' ') + "\n"
             if(qType in ['fourth','4th','last']or qType=='finish'):
                 finStr += "4th Place: " + dfRes['consLoser'].to_string(index=False).lstrip(' ') + "\n"
-        else:
+        elif(qType in ['third','3rd','fourth','4th','last'] or qType=='finish') and not (dfRes['consGD']>0).bool():
             if(dfRes['consWinner'].to_string(index=False).lstrip()==""):
                     thirds=list(set(['Boston University','Boston College','Northeastern','Harvard'])-set([dfRes['champion'].to_string(index=False).lstrip()])-set([dfRes['runnerup'].to_string(index=False).lstrip()]))
                     finStr+="No Consolation Game Held: {},{}\n".format(thirds[0],thirds[1])
