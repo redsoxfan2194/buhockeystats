@@ -6,11 +6,16 @@ import urllib.request, urllib.error, urllib.parse
 from bs4 import BeautifulSoup
 from datetime import datetime,timedelta
 
+try:
+  from burecbookpath import *
+except ImportError:
+  RECBOOK_DATA_PATH = './'
+
 tourneyDict={}
 # Get Tourneys
 def generateRecordBook():
     global tourneyDict
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/BURecordBook.txt')
+    fileName=(RECBOOK_DATA_PATH + 'BURecordBook.txt')
     tourneys=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -32,7 +37,7 @@ def generateRecordBook():
     tourneyDict['HF ex']='Hall of Fame Game-Exhibition'
     tourneyDict['IB ex']='Ice Breaker-Exhibition'
 
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/BURecordBook.txt')
+    fileName=(RECBOOK_DATA_PATH + 'BURecordBook.txt')
     gameList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -126,7 +131,7 @@ def generateRecordBook():
 
 def generateWomensRecordBook():
     global tourneyDict
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/BUWomensRecordBook.txt')
+    fileName=(RECBOOK_DATA_PATH + 'BUWomensRecordBook.txt')
     tourneys=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -137,7 +142,7 @@ def generateWomensRecordBook():
             if(len(row)==2):
                 tourneyDict[row[0]]=row[1]
       # Get Games
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/BUWomensRecordBook.txt')
+    fileName=(RECBOOK_DATA_PATH + 'BUWomensRecordBook.txt')
     gameList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -413,7 +418,7 @@ def decodeTeam(team):
 
 def generateJerseys():
     # Get Jerseys
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/JerseyNumbers.txt')
+    fileName=(RECBOOK_DATA_PATH + 'JerseyNumbers.txt')
     playerList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -436,7 +441,7 @@ def generateJerseys():
     f.close()
 
 
-    fileNameW=('/home/nmemme/bustatsbot/recordbookdata/JerseyNumbersWomens.txt')
+    fileNameW=(RECBOOK_DATA_PATH + 'JerseyNumbersWomens.txt')
     playerListW=[]
     with open(fileNameW, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -460,7 +465,7 @@ def generateJerseys():
     
     
 def generateSkaters():
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/SkaterStats.txt')
+    fileName=(RECBOOK_DATA_PATH + 'SkaterStats.txt')
     skateList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -479,7 +484,7 @@ def generateSkaters():
                            'pen':convertToInt(skaterSearch.group(8)),
                            'pim':convertToInt(skaterSearch.group(9))}
                 skateList.append(skaterDict)
-    fileNameW=('/home/nmemme/bustatsbot/recordbookdata/SkaterStatsWomens.txt')
+    fileNameW=(RECBOOK_DATA_PATH + 'SkaterStatsWomens.txt')
     skateListW=[]
     with open(fileNameW, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -504,7 +509,7 @@ def generateSkaters():
     return dfSkate,dfSkateMens,dfSkateWomens
 
 def generateGoalies():
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/GoalieStats.txt')
+    fileName=(RECBOOK_DATA_PATH + 'GoalieStats.txt')
     goalieList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -532,7 +537,7 @@ def generateGoalies():
                            'L':convertToInt(goalieSearch.group(11)),
                            'T':convertToInt(goalieSearch.group(12))}
                 goalieList.append(goalieDict)
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/GoalieStatsWomens.txt')
+    fileName=(RECBOOK_DATA_PATH + 'GoalieStatsWomens.txt')
     goalieListW=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -567,7 +572,7 @@ def generateGoalies():
     return dfGoalie,dfGoalieMens,dfGoalieWomens
 
 def generateSeasonLeaders():
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/SeasonLeaders.txt')
+    fileName=(RECBOOK_DATA_PATH + 'SeasonLeaders.txt')
     leadList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -587,7 +592,7 @@ def generateSeasonLeaders():
     f.close()
     dfLead=pd.DataFrame(leadList)
 
-    fileNameW=('/home/nmemme/bustatsbot/recordbookdata/SeasonLeadersWomens.txt')
+    fileNameW=(RECBOOK_DATA_PATH + 'SeasonLeadersWomens.txt')
     leadListW=[]
     with open(fileNameW, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -609,7 +614,7 @@ def generateSeasonLeaders():
     return dfLead,dfLeadWomens
 
 def generateSeasonSkaters():
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/SeasonSkaterStats.txt')
+    fileName=(RECBOOK_DATA_PATH + 'SeasonSkaterStats.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
@@ -630,7 +635,7 @@ def generateSeasonSkaters():
             seasList.append(seasDict)
     f.close()
     seasListW=[]
-    fileNameW=('/home/nmemme/bustatsbot/recordbookdata/SeasonSkaterStatsWomens.txt')
+    fileNameW=(RECBOOK_DATA_PATH + 'SeasonSkaterStatsWomens.txt')
     with open(fileNameW, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
@@ -655,7 +660,7 @@ def generateSeasonSkaters():
     return dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens
     
 def generateSeasonGoalies():    
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/SeasonGoalieStats.txt')
+    fileName=(RECBOOK_DATA_PATH + 'SeasonGoalieStats.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
@@ -677,7 +682,7 @@ def generateSeasonGoalies():
                      'year':int(col[11][:4])+1}
             seasGList.append(seasGDict)
     f.close()
-    fileNameW=('/home/nmemme/bustatsbot/recordbookdata/SeasonGoalieStatsWomens.txt')
+    fileNameW=(RECBOOK_DATA_PATH + 'SeasonGoalieStatsWomens.txt')
     with open(fileNameW, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
@@ -705,7 +710,7 @@ def generateSeasonGoalies():
     return dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens
 
 def generateBeanpotHistory():
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/BeanpotHistory.txt')
+    fileName=(RECBOOK_DATA_PATH + 'BeanpotHistory.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
@@ -756,7 +761,7 @@ def generateBeanpotHistory():
     f.close()
     dfBeanpot=pd.DataFrame(beanList)
 
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/BeanpotHistoryWomens.txt')
+    fileName=(RECBOOK_DATA_PATH + 'BeanpotHistoryWomens.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
@@ -811,7 +816,7 @@ def generateBeanpotHistory():
     return dfBeanpot,dfBeanpotWomens
   
 def generateBeanpotAwards():
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/BeanpotAwardHistory.txt')
+    fileName=(RECBOOK_DATA_PATH + 'BeanpotAwardHistory.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
@@ -833,7 +838,7 @@ def generateBeanpotAwards():
     f.close()
     dfBeanpotAwards=pd.DataFrame(awardList)
 
-    fileName=('/home/nmemme/bustatsbot/recordbookdata/BeanpotAwardHistoryWomens.txt')
+    fileName=(RECBOOK_DATA_PATH + 'BeanpotAwardHistoryWomens.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
@@ -1177,7 +1182,7 @@ def getResults(dfGames,query):
                     local='at'
                 else:
                     local='vs'
-                resStr+= "{} {} {} {}".format(datetime.strptime(str(res.iloc[i]['date'])[:10],'%Y-%M-%d').strftime('%M/%d/%Y'),local,res.iloc[i]['opponent'].lstrip(' '),res.iloc[i]['scoreline'].lstrip(' '))
+                resStr+= "{} {} {} {} {}".format(datetime.strptime(str(res.iloc[i]['date'])[:10],'%Y-%M-%d').strftime('%M/%d/%Y'),local,res.iloc[i]['opponent'].lstrip(' '),res.iloc[i]['scoreline'].lstrip(' '),res.iloc[i]['result'].lstrip(' '))
                 if(res.iloc[i]['ot'] !=None):
                     resStr+= " " + res.iloc[i]['ot']
                 if(res.iloc[i]['tourney'] != None):
