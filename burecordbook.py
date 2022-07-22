@@ -475,7 +475,8 @@ def generateSkaters():
             if skaterSearch!=None:
                 skaterDict={'last':skaterSearch.group(1),
                            'first':skaterSearch.group(2),
-                            'name':skaterSearch.group(2)+' '+skaterSearch.group(1),
+                           'name':skaterSearch.group(2)+' '+skaterSearch.group(1),
+                           'career':skaterSearch.group(3),
                            'seasons':convertSeasons(skaterSearch.group(3)),
                            'gp':convertToInt(skaterSearch.group(4)),
                            'goals':convertToInt(skaterSearch.group(5)),
@@ -494,7 +495,8 @@ def generateSkaters():
             if skaterSearch!=None:
                 skaterDict={'last':skaterSearch.group(1),
                            'first':skaterSearch.group(2),
-                            'name':skaterSearch.group(2)+' '+skaterSearch.group(1),
+                           'name':skaterSearch.group(2)+' '+skaterSearch.group(1),
+                           'career':skaterSearch.group(3),
                            'seasons':convertSeasons(skaterSearch.group(3)),
                            'gp':convertToInt(skaterSearch.group(4)),
                            'goals':convertToInt(skaterSearch.group(5)),
@@ -526,6 +528,7 @@ def generateGoalies():
                 goalieDict={'last':goalieSearch.group(1),
                            'first':goalieSearch.group(2),
                            'name':goalieSearch.group(2)+' '+goalieSearch.group(1),
+                           'career':goalieSearch.group(3),
                            'seasons':convertSeasons(goalieSearch.group(3)),
                            'gp':convertToInt(goalieSearch.group(4)),
                            'mins':round(pd.Timedelta(time).total_seconds()/60,2),
@@ -554,6 +557,7 @@ def generateGoalies():
                 goalieDict={'last':goalieSearch.group(1),
                            'first':goalieSearch.group(2),
                            'name':goalieSearch.group(2)+' '+goalieSearch.group(1),
+                           'career':goalieSearch.group(3),
                            'seasons':convertSeasons(goalieSearch.group(3)),
                            'gp':convertToInt(goalieSearch.group(4)),
                            'mins':round(pd.Timedelta(time).total_seconds()/60,2),
@@ -1259,7 +1263,6 @@ def getPlayerStats(playerDfs,query):
                 yr=yrSearch.group(3).upper()
             dfRes=dfSeasSkate.loc[(dfSeasSkate['yr']==yr) & (dfSeasSkate['name'].str.contains(playerName,case=False))]
             dfResG=dfSeasGoalie.loc[(dfSeasGoalie['yr']==yr) & (dfSeasGoalie['name'].str.contains(playerName,case=False))]
- 
         resStr=''
         if(dfRes.empty and dfResG.empty):
             return resStr
@@ -1672,7 +1675,7 @@ def getPlayerStats(playerDfs,query):
                 resStr+="----------------------\nCareer     {} {}".format(dfRes.sum()['gp'],dfRes.sum()['SO'])
         elif(len(pStatsLine)>=1):
             for row in range(len(pStatsLine)):
-                resStr+="{}: ".format(pStatsLine.iloc[row]['name'].lstrip())
+                resStr+="{} ({}): ".format(pStatsLine.iloc[row]['name'].lstrip(),pStatsLine.iloc[row]['career'].lstrip())
                 goals=pStatsLine.iloc[row]['goals']
                 assists=pStatsLine.iloc[row]['assists']
                 pts=pStatsLine.iloc[row]['pts']
@@ -1687,7 +1690,7 @@ def getPlayerStats(playerDfs,query):
                 resStr+="\n"
         elif(len(gStatsLine)>=1):
             for row in range(len(gStatsLine)):
-                resStr+="{}: ".format(gStatsLine.iloc[row]['name'])
+                resStr+="{} ({}): ".format(gStatsLine.iloc[row]['name'],gStatsLine.iloc[row]['career'].lstrip())
                 gaa=gStatsLine.iloc[row]['gaa']
                 svper=gStatsLine.iloc[row]['sv%']
                 wins=int(float(gStatsLine.iloc[row]['W']))
@@ -1702,7 +1705,7 @@ def getPlayerStats(playerDfs,query):
                 elif('record' in stat):
                     resStr+= "{}-{}-{}".format(wins,loss,tie)
                 resStr+="\n"
-    return resStr  
+    return resStr
     
 def getBeanpotStats(dfBean,query):
     dfBeanpot=dfBean['results']
