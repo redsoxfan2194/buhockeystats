@@ -26,7 +26,7 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 replyList=[]
 # Create API object
 api = tweepy.API(auth, wait_on_rate_limit=True)
-print("Starting up BUStatsBot...")
+print("[{}]".format(datetime.now()),"Starting up BUStatsBot...")
 while(True):
     try:
       if(replyList==[]):
@@ -81,7 +81,7 @@ while(True):
             if(result!=''):
               api.send_direct_message(sender_id, "{}: {}".format(query,result))
             u=api.get_user(user_id=sender_id)
-            print(u.name,u.screen_name,"{}: {}".format(query,result))    
+            print("[{}]".format(datetime.now()),u.name,u.screen_name,"{}: {}".format(query,result))    
         api.delete_direct_message(message.id)
 
       # Check Mentions 
@@ -128,7 +128,7 @@ while(True):
                       playerDfs['jerseys']=dfJerseyMens
                   result=getPlayerStats(playerDfs,query)
 
-          print("{}-{}:{}:{}".format(mentions.user.name,mentions.user.screen_name,mentions.text,result))
+          print("[{}]".format(datetime.now()),"{}-{}:{}:{}".format(mentions.user.name,mentions.user.screen_name,mentions.text,result))
           if(result!=''):
               api.update_status(status = result, in_reply_to_status_id = tweetid , auto_populate_reply_metadata=True)
           replyList.append(tweetid)
@@ -136,3 +136,5 @@ while(True):
       traceback.print_exc()
       
     time.sleep(60)
+    
+print("[{}]".format(datetime.now()),"BUStatsBot Exitiing...")
