@@ -26,6 +26,7 @@ Record Book Errors:
 Player Stats:
 Lawless,John listed with 228 pts instead of 28
 Matt Nieto goals should be 44 instead of 55
+Headon,Peter years should be 1985-1989 instead of 1958-1989 
 
 Name,G-A--Pts
 Matt Nieto,55-58--102
