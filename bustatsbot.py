@@ -10,6 +10,7 @@ def getListOfTweets(api):
         tweetList.append(tweets.in_reply_to_status_id)
     return tweetList
 
+print("[{}]".format(datetime.now()),"Populating Record Book...")
 dfGames=generateRecordBook()
 dfGamesWomens=generateWomensRecordBook()
 dfJersey,dfJerseyMens,dfJerseyWomens=generateJerseys()
@@ -41,6 +42,7 @@ while(True):
         if(sender_id!=myUID):
             # what are they saying?
             query = message.message_create["message_data"]["text"]
+            origQuery=query
             # delete by ID
             query,gender=determineGender(query)
             query=query.lstrip(' ')
@@ -79,9 +81,9 @@ while(True):
                         playerDfs['jerseys']=dfJerseyMens
                     result=getPlayerStats(playerDfs,query)
             if(result!=''):
-              api.send_direct_message(sender_id, "{}: {}".format(query,result))
+              api.send_direct_message(sender_id, "{}: {}".format(origQuery,result))
             u=api.get_user(user_id=sender_id)
-            print("[{}]".format(datetime.now()),u.name,u.screen_name,"{}: {}".format(query,result))    
+            print("[{}]".format(datetime.now()),u.name,u.screen_name,"{}: {}".format(origQuery,result))    
         api.delete_direct_message(message.id)
 
       # Check Mentions 
