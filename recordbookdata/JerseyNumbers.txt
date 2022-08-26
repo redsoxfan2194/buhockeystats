@@ -296,6 +296,7 @@
 2014-15 Jack Eichel
 2016-17 Kieffer Bellows
 2017-22 Logan Cockerill
+2022-23 Ryan Greene
 #10
 1927-28 William Goodale
 1935-37 George Hoar
@@ -488,6 +489,7 @@
 2013-17 Nick Roberto
 2017-19 Shane Bowers
 2019-22 Markus Boguslavsky
+2022-23 Lachlan Getz
 #16
 1929-30 Jacob Arkin
 1936-37 Herbert Kaiser
@@ -522,6 +524,7 @@
 2014-18 John MacLeod
 2018-19 Max Willman
 2019-22 Robert Mastrosimone
+2022-23 Jeremy Wilmer
 #17
 1929-30 Hugo Nelson
 1935-36 Sydney Borofsky
@@ -555,6 +558,7 @@
 2015-16 Ahti Oksanen
 2016-19 Dante Fabbro
 2019-21 Jake Wise
+2022-23 Quinn Hutson
 #18
 1935-36 Herbert James
 1936-37 Warren McPhee
@@ -655,6 +659,7 @@
 2010-14 Matt Ronan
 2014-18 Brien Diffley
 2018-21 Matthew Quercia
+2022-23 Lane Hutson
 #21
 1936-37 Bud Cowdery
 1949-52 Keith Barnhill
@@ -685,6 +690,7 @@
 2013-16 Matt Lane
 2016-20 Patrick Harper
 2020-22 Max Kaufman
+2022-23 Devin Kaplan
 #22
 1955-56 Forbes Keith
 1956-58 Don MacLeod
@@ -864,7 +870,8 @@
 1994-98 Tom Noble
 2014-17 Connor LaCouvee
 2018-19 Jake Oettinger
-2019-23 Ashton Abel
+2019-22 Ashton Abel
+2022-23 Patrick Schena
 #31
 2000-04 Sean Fields
 2006-08 Brett Bennett

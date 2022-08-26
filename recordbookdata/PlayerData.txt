@@ -521,8 +521,36 @@
 27	John Copeland	JR	D	6-6	215	R	99	Wellesley, Massachusetts / Carleton Place Canadians (CCHL)	2021-22
 28	Ethan Phillips (DET)	JR	F	5-10	160	R	01	Dartmouth, Nova Scotia / Sioux Falls Stampede (USHL)	2021-22
 29	Drew Commesso (CHI)	SO	G	6-2	180	L	02	Norwell, Massachusetts / U.S. National Under-18 Team (NTDP)	2021-22
-30	Ashton Abel	JR	G	6-0	170		99	Fort McMurray, Alberta / Okotoks Oilers (AJHL)	2021-22
+30	Ashton Abel	JR	G	6-0	170	L	99	Fort McMurray, Alberta / Okotoks Oilers (AJHL)	2021-22
 31	Vinny Duplessis	SO	G	6-1	175	L	99	Quebec City, Québec / Whitecourt Wolverines (AJHL)	2021-22
 32	Wilmer Skoog	JR	F	6-2	200	L	99	Tyresö, Sweden / Maryland Black Bears (NAHL)	2021-22
 33	Ty Amonte	SR	F	5-11	180	R	98	Norwell, Massachusetts / Penticton Vees (BCHL)	2021-22
 37	Matt Brown	JR	F	5-9	190	L	99	Wood Ridge, New Jersey / Des Moines (USHL)  Previous College: UMass Lowell (2020-21)	2021-22
+2	Case McCarthy (NJD)	SR	D	6-1	202	R	01	Clarence Center	New York / U.S. National Under-18 Team (NTDP)	2022-23
+3	Tristan Amonte	SO	F	6-0	177	R	00	Norwell	Massachusetts / Penticton Vees (BCHL)	2022-23
+4	Ty Gallagher (BOS)	SO	D	6-0	190	R	03	Clarkston	Michigan / U.S. National Under-18 Team (NTDP)	2022-23
+5	Thomas Jarman	JR	D	6-3	190	R	01	Gibsonia	Pennsylvania / Maryland Black Bears (NAHL)	2022-23
+8	Cade Webber (CAR)	JR	D	6-7	215	L	01	Meadville	Pennsylvania / Penticton Vees (BCHL)	2022-23
+9	Ryan Greene (CHI)	FR	F	6-1	180	R	03	Paradise	Newfoundland / Green Bay Gamblers (USHL)	2022-23
+10	Nick Zabaneh	JR	F	5-10	188	L	01	Toronto	Ontario / Green Bay Gamblers (USHL)	2022-23
+11	Luke Tuch (MTL)	JR	F	6-2	210	L	02	Baldwinsville	New York / U.S. National Under-18 Team (NTDP)	2022-23
+12	Jamie Armstrong	SR	F	6-2	192	L	98	Warwick	Rhode Island / Boston Jr. Bruins (USPHL NCDC)	2022-23
+13	Dylan Peterson (STL)	JR	F	6-4	203	R	02	Roseville	California / U.S. National Under-18 Team (NTDP)	2022-23
+14	Sean Driscoll	SR	D	6-2	203	L	98	Mequon	Wisconsin / Janesville Jets (NAHL)	2022-23
+15	Lachlan Getz	FR	D	6-3	190	R	02	Northfield	Illinois / Chilliwack Chiefs (BCHL)	2022-23
+16	Jeremy Wilmer	FR	F	5-8	155	L	03	Rockville Centre	New York / Tri-City Storm (USHL)	2022-23
+17	Quinn Hutson	FR	F	5-10	170	R	02	North Barrington	Illinois / Muskegon Lumberjacks (USHL)	2022-23
+18	Jay O'Brien (PHI)	SR	F	6-0	188	R	99	Hingham	Massachusetts / Penticton Vees (BCHL)	2022-23
+19	Jack Page	SO	D	6-4	194	L	01	West Chester	Pennsylvania / New Jersey Rockets (USPHL NCDC)	2022-23
+20	Lane Hutson (MTL)	FR	D	5-9	155	L	04	North Barrington	Illinois / U.S. National Under-18 Team (NTDP)	2022-23
+21	Devin Kaplan (PHI)	FR	F	6-3	204	R	04	Bridgewater	New Jersey / U.S. National Under-18 Team (NTDP)	2022-23
+22	Brian Carrabes	SO	F	5-10	170	R	01	North Andover	Massachusetts / Sioux City Musketeers (USHL)	2022-23
+23	Domenick Fensore (CAR)	SR	D	5-9	170	L	01	Thornwood	New York / U.S. National Under-18 Team (NTDP)	2022-23
+25	Sam Stevens	SR	F	6-1	186	L	00	Montreal	Québec / Sioux Falls Stampede (USHL)	2022-23
+27	John Copeland	SR	D	6-6	215	R	99	Wellesley	Massachusetts / Carleton Place Canadians (CCHL)	2022-23
+28	Ethan Phillips (DET)	SR	F	5-10	160	R	01	Dartmouth	Nova Scotia / Sioux Falls Stampede (USHL)	2022-23
+29	Drew Commesso (CHI)	JR	G	6-2	180	L	02	Norwell	Massachusetts / U.S. National Under-18 Team (NTDP)	2022-23
+30	Patrick Schena	GR	G	6-1	220	L	98	Medford	Massachusetts / University of New England	2022-23
+31	Vinny Duplessis	JR	G	6-1	175	L	99	Quebec City	Québec / Whitecourt Wolverines (AJHL)	2022-23
+32	Wilmer Skoog	SR	F	6-2	200	L	99	Tyresö	Sweden / Maryland Black Bears (NAHL)	2022-23
+37	Matt Brown	SR	F	5-9	190	L	99	Wood Ridge	New Jersey / Des Moines (USHL)  Previous College: UMass Lowell (2020-21)	2022-23
