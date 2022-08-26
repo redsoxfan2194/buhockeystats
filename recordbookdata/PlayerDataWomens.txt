@@ -412,3 +412,27 @@
 28	Catherine Foulem	SO	F	5-6	L	02	Dieppe, New Brunswick / Ridley College	2021-22
 31	Nicole McGuigan	SR	G	5-8	L	00	Huntington, New York / Choate Rosemary Hall	2021-22
 37	Callie Shanahan	FR	G	5-10	L	03	Commerce, Michigan / HoneyBaked	2021-22
+3	Liv Haag	SO	F	5-1	R	03	Robbinsdale	Minnesota / Benilde-St. Margaret’s	2022-23
+6	Nadia Mattivi	SR	D	5-9	L	00	Baselga di Pinè (Trento)	Italy / Italian National Team	2022-23
+7	Kylie Roberts	SO	F	5-8	L	03	Edina	Minnesota / Edina	2022-23
+8	Maggie Hanzel	SO	D	5-9	L	02	Rochester	Minnesota / Lourdes	2022-23
+9	Clare O'Leary	JR	F	5-8	R	01	Hingham	Massachusetts / Tabor Academy	2022-23
+10	Jesse DeVito	GR	F	5-6	R	99	Rumson	New Jersey / Kent School Previous College: Wisconsin (2020-21)	2022-23
+13	Andi Calderone	JR	D	5-6	L	01	Kirkland	Québec / John Abbott College	2022-23
+16	Julia Nearis	SR	F	5-9	R	99	Beverly	Massachusetts / Kent School	2022-23
+17	Lacey Martin	JR	F	5-8	L	02	Minnetonka	Minnesota / Minnetonka	2022-23
+18	Haylee Blinkhorn	SR	F	5-4	R	00	Oakdale	Minnesota / Hill-Murray	2022-23
+20	Julia Shaunessy	JR	D	6-1	R	02	Marshfield	Massachusetts / Tabor Academy	2022-23
+21	Madison Cardaci	JR	D	5-9	R	02	Westminster	Massachusetts / Williston Northampton School	2022-23
+22	Christina Vote	SO	F	5-2	L	02	Arlington	Massachusetts / Dexter Southfield	2022-23
+23	Tamara Giaquinto	JR	D	5-6	R	02	Toronto	Ontario / Appleby College	2022-23
+26	Brooke Ersoy	SR	F	5-10	R	01	Arlington Heights	Illinois / Chicago Mission	2022-23
+28	Catherine Foulem	JR	F	5-6	L	02	Dieppe	New Brunswick / Ridley College	2022-23
+37	Callie Shanahan	SO	G	5-10	L	03	Commerce	Michigan / HoneyBaked	2022-23
+	Andrea Braendli	GR	G	5-6	L	97	Kloten	Switzerland / United School of Sports Previous College: Ohio State (2021-22)	2022-23
+	Allie Cuellar	FR	G	5-4	L	04	Saint Charles	Illinois / TBD	2022-23
+	Brooke Disher	FR	D	5-6	L	04	Fort St. John	British Columbia / TBD	2022-23
+	Ani FitzGerald	JR	F	5-7	L	01	Shaker Heights	Ohio / Gilmour Academy Previous College: Northeastern (2021-22)	2022-23
+	Sydney Healey	FR	F	5-7	L	04	Arthur	Ontario / TBD	2022-23
+	Maeve Kelly	FR	D	5-6	R	04	Victoria	Minnesota / TBD	2022-23
+	Clara Yuhn	FR	F	5-9	R	04	Bloomfield Hills	Michigan / TBD	2022-23
