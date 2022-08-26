@@ -139,4 +139,4 @@ while(True):
       
     time.sleep(60)
     
-print("[{}]".format(datetime.now()),"BUStatsBot Exitiing...")
+print("[{}]".format(datetime.now()),"BUStatsBot Exiting...")
