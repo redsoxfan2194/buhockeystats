@@ -1178,7 +1178,7 @@ def getResults(dfGames,query):
         elif('loss' in qType):
             res=(dfResult.loc[(dfResult['result']=='L')].sort_values(sortType,ascending=False)[:numRes])
         else:
-            res=dfResult.sort_values(sortType,ascending=False)[:numRes]
+            res=dfResult.loc[(dfResult['result']!='N')].sort_values(sortType,ascending=False)[:numRes]
         if(not res.empty):
             resStr=''
             for i in range(len(res)):
