@@ -1585,8 +1585,8 @@ CAPTAIN: Joe Delorey
 10/19 L Walter Brown Arena	Minnesota * 2-5
 10/20 W (ot) Walter Brown Arena	Minnesota * 5-4
 10/28 W Walter Brown Arena	UMass Lowell * 5-0
-11/2 T (ot) Walter Brown Arena 	Minnesota Duluth * 6-6
-11/3 L Walter Brown Arena 	Minnesota Duluth * 2-3
+11/2 T (ot) Walter Brown Arena	Minnesota Duluth * 6-6
+11/3 L Walter Brown Arena	Minnesota Duluth * 2-3
 11/10 W Walter Brown Arena	New Hampshire * 5-4
 11/13 L McHugh Forum	Boston College * 3-6
 11/16 L Walter Brown Arena	Toronto 0-6
@@ -1900,8 +1900,8 @@ CAPTAIN: Tom Dion
 10/19 E DCU Center	U.S. National Team (ex) 4-6
 10/26 W Walter Brown Arena	Rensselaer 5-1
 11/2 W Starr Rink	Colgate 4-3
-11/8 W Walter Brown Arena 	Minnesota Duluth 4-3
-11/9 W Walter Brown Arena 	Minnesota Duluth 6-3
+11/8 W Walter Brown Arena	Minnesota Duluth 4-3
+11/9 W Walter Brown Arena	Minnesota Duluth 6-3
 11/15 W Walter Brown Arena	Maine * 5-4
 11/16 W‡ Walter Brown Arena	Maine * 1-8
 11/22 L Schneider Arena	Providence * 5-8
@@ -3273,6 +3273,47 @@ CAPTAIN: Logan Cockerill
 3/4 W Alfond Arena	Maine * 5-1
 3/5 L Alfond Arena	Maine * 1-8
 3/12 L XL Center	Connecticut (HE) 1-3
+2022-23
+OVERALL: 0-0-0
+HOCKEY EAST: 0-0-0, 1st
+COACH: Jay Pandolfo
+CAPTAIN: Domenick Fensore
+10/01 N Agganis Arena	Bentley 0-0
+10/08 N Agganis Arena	Waterloo (ex) 0-0
+10/14 N Yost Ice Arena	Michigan 0-0
+10/16 N Yost Ice Arena	Michigan 0-0
+10/21 N Agganis Arena	Connecticut * 0-0
+10/22 N Agganis Arena	Connecticut * 0-0
+10/28 N Tsongas Center	UMass Lowell * 0-0
+10/29 N Agganis Arena	UMass Lowell * 0-0
+11/11 N Mullins Center	Massachusetts * 0-0
+11/12 N Agganis Arena	Massachusetts * 0-0
+11/18 N Agganis Arena	Northeastern * 0-0
+11/19 N Matthews Arena	Northeastern * 0-0
+11/23 N Agganis Arena	Notre Dame 0-0
+11/26 N Agganis Arena	US Under-18 Team (ex) 0-0
+12/02 N Whittemore Center Arena	New Hampshire * 0-0
+12/03 N Agganis Arena	New Hampshire * 0-0
+12/09 N Conte Forum	Boston College * 0-0
+12/11 N XL Center	Connecticut * 0-0
+12/30 N Walter Brown Arena	Harvard 0-0
+01/06 N Mullett Arena	Air Force (DHC) 0-0
+01/07 N Mullett Arena	Arizona State/Michigan Tech (DHC) 0-0
+01/11 N Agganis Arena	Massachusetts * 0-0
+01/14 N Agganis Arena	Cornell 0-0
+01/20 N Agganis Arena	Maine * 0-0
+01/21 N Agganis Arena	Maine * 0-0
+01/27 N Agganis Arena	Boston College * 0-0
+01/28 N Conte Forum	Boston College * 0-0
+02/03 N Alfond Arena	Maine * 0-0
+02/06 N TD Garden	Northeastern (Pot) 0-0
+02/13 N TD Garden	Boston College/Harvard (Pot) 0-0
+02/17 N Lawler Rink	Merrimack * 0-0
+02/18 N Agganis Arena	Merrimack * 0-0
+02/24 N Gutterson Fieldhouse	Vermont * 0-0
+02/25 N Gutterson Fieldhouse	Vermont * 0-0
+03/03 N Agganis Arena	Providence * 0-0
+03/04 N Schneider Arena	Providence * 0-0
 Key to Tournaments
 ALS Auld Lang Syne Tournament
 B1G/HE Big Ten/Hockey East Challenge
@@ -3282,6 +3323,7 @@ BS Bank One Badger Showdown
 CB Colonial Bank Hockey Invitational
 CCN Christmas City of the North Tournament
 DC Wells Fargo Denver Cup
+DHC Desert Hockey Classic
 ECAC ECAC Tournament
 ECT ECAC Christmas Tournament
 EHF ECAC Holiday Festival
