@@ -15,5 +15,7 @@ BU Hockey Stats Bot
 4. Enter Query: 
 5. Enter "quit" to exit
 
+Addtionally BU Record Book.ipynb can be used access and utilize the interal DataFrames
+
 ### Cheat Sheet
 ![Cheat Sheet](https://github.com/redsoxfan2194/buhockeystatsbot/blob/main/statsbotcheatsheet.png "BU Stats Bot Cheat Sheet")
