@@ -1922,6 +1922,7 @@ def getBeanpotStats(dfBean,query):
                     beans['Brown']=[0,0,0,0]
             else:
                 finish=finishSearch.group(2)
+                places=[]
                 if(finish==None):
                     finish=''
                 if(finish in ['champ','title','1st','first']):
