@@ -1152,6 +1152,7 @@ def getResults(dfGames,query):
                 dfQueryList.append("(dfGames['OppoScore']{}{})".format(diff,goals))
             if('scor' in queryDict['when']):
                 dfQueryList.append("(dfGames['BUScore']{}{})".format(diff,goals))
+    dfQueryList.append("(dfGames['result']!='N')")
     dfQuery =''
     for i in dfQueryList:
         dfQuery += i + " & "
