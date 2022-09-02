@@ -30,8 +30,6 @@ api = tweepy.API(auth, wait_on_rate_limit=True)
 print("[{}]".format(datetime.now()),"Starting up BUStatsBot...")
 while(True):
     try:
-      if(replyList==[]):
-          replyList = getListOfTweets(api)
       # check DMs
       messages = api.get_direct_messages()
 
@@ -98,7 +96,10 @@ while(True):
               print("[{}]".format(datetime.now()),"{}-{}:{}".format(mentions.user.name,mentions.user.screen_name,mentions.text))
               replyList.append(tweetid)
             continue
-          api.create_favorite(tweetid)
+          if(not mentions.favorited):
+            api.create_favorite(tweetid)
+          else:
+            continue
           query=mentions.text.lstrip('@BUStatsBot ')
           query,gender=determineGender(query)
           query=query.lstrip(' ')
@@ -140,7 +141,7 @@ while(True):
           print("[{}]".format(datetime.now()),"{}-{}:{}:{}".format(mentions.user.name,mentions.user.screen_name,mentions.text,result))
           if(result!=''):
               tweetURL="https://twitter.com/{}/status/{}".format(mentions.user.screen_name,tweetid)
-              api.update_status(status = result + tweetURL)
+              api.update_status(status = result + " " + tweetURL)
           replyList.append(tweetid)
     except Exception:
       traceback.print_exc()
