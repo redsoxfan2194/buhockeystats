@@ -1519,8 +1519,12 @@ def getPlayerStats(playerDfs,query):
     if(numSearch !=None and seasonSearch != None):
         number=int(numSearch.group(1))
         season=seasonSearch.group(3)
+        jStr= ''
         if(not dfJersey.loc[(dfJersey['number']==number) & (dfJersey['season'].str.contains(season))].empty):
-            return dfJersey.loc[(dfJersey['number']==number) & (dfJersey['season'].str.contains(season))]['name'].to_string(index=False).lstrip().replace('\n ','\n')
+            jStrList = dfJersey.loc[(dfJersey['number']==number) & (dfJersey['season'].str.contains(season))]['name'].to_string(index=False).split('\n')
+            for j in jStrList:
+                jStr+=j.strip() + "\n"
+            return jStr[:-1]
         elif(number==6 and int(season[:4])>=2014):
             return "Retired - Jack Parker"
         elif(number==24 and int(season[:4])>=1999):
