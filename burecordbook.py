@@ -1615,21 +1615,31 @@ def getPlayerStats(playerDfs,query):
                     resStr+="----------------------\nCareer     {} {}".format(gp,pts)
             
         elif(len(gStatsLine)==1 and gStatsLine['name'].isin(dfSeasGoalie['name']).any()):
+            wins=0
+            loss=0
+            tie=0
+            mTime=0
+            dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==gStatsLine['name'].to_string(index=False).lstrip()]
+            for row in range(len(dfRes)):
+                rec=dfRes.iloc[row]['record'].split('-')
+                wins+=int(rec[0])
+                loss+=int(rec[1])
+                tie+=int(rec[2])
+                mins=dfRes.iloc[row]['mins'].split(':')
+                time = "{}:{}".format(*divmod(int(mins[0]), 60)) + ":" + mins[1]
+                time = pd.to_timedelta(time)
+                mTime+=round(pd.Timedelta(time).total_seconds()/60,2)
+            gaa=round((dfRes['ga'].sum()/mTime)*60,2)
+            svper=round(dfRes.sum()['saves']/(dfRes.sum()['saves']+dfRes.sum()['ga']),3)
             if('stat' in stat):
-                dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==gStatsLine['name'].to_string(index=False).lstrip()]
                 resStr='Season  Yr GP  SV%  GAA SO Record\n'
                 cStats=False
                 startYear=dfRes.iloc[0]['year']
+                for row in range(len(dfRes)):
+                    resStr+="{} {} {} {} {} {} {}\n".format(dfRes.iloc[row]['season'],dfRes.iloc[row]['yr'],dfRes.iloc[row]['gp'],dfRes.iloc[row]['sv%'],dfRes.iloc[row]['gaa'],dfRes.iloc[row]['SO'],dfRes.iloc[row]['record'])
                 if(startYear==2003 and dfRes.iloc[0]['yr']!='FR'):
                     resStr+="(Season Stats Prior to 2002-03 N/A) \n"
                     cStats=True
-                for row in range(len(dfRes)):
-                    resStr+="{} {} {} {} {} {} {}\n".format(dfRes.iloc[row]['season'],dfRes.iloc[row]['yr'],dfRes.iloc[row]['gp'],dfRes.iloc[row]['sv%'],dfRes.iloc[row]['gaa'],dfRes.iloc[row]['SO'],dfRes.iloc[row]['record'])
-                gaa=gStatsLine['gaa'].to_string(index=False).lstrip()
-                svper=gStatsLine['sv%'].to_string(index=False).lstrip()
-                wins=int(float(gStatsLine['W'].to_string(index=False)))
-                loss=int(float(gStatsLine['L'].to_string(index=False)))
-                tie=int(float(gStatsLine['T'].to_string(index=False)))
                 resStr+="----------------------\nCareer     {} {} {} {} {}-{}-{}".format(dfRes.sum()['gp'],svper,gaa,dfRes.sum()['SO'],wins,loss,tie)
             elif('sv' in stat):
                 dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==gStatsLine['name'].to_string(index=False).lstrip()]
@@ -1641,7 +1651,6 @@ def getPlayerStats(playerDfs,query):
                     cStats=True
                 for row in range(len(dfRes)):
                     resStr+="{} {} {} {}\n".format(dfRes.iloc[row]['season'],dfRes.iloc[row]['yr'],dfRes.iloc[row]['gp'],dfRes.iloc[row]['sv%'])
-                svper=gStatsLine['sv%'].to_string(index=False).lstrip()
                 resStr+="----------------------\nCareer     {} {}".format(dfRes.sum()['gp'],svper)
             elif('gaa' in stat):
                 dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==gStatsLine['name'].to_string(index=False).lstrip()]
@@ -1653,7 +1662,6 @@ def getPlayerStats(playerDfs,query):
                     cStats=True
                 for row in range(len(dfRes)):
                     resStr+="{} {} {} {}\n".format(dfRes.iloc[row]['season'],dfRes.iloc[row]['yr'],dfRes.iloc[row]['gp'],dfRes.iloc[row]['gaa'])
-                gaa=gStatsLine['gaa'].to_string(index=False).lstrip()
                 resStr+="----------------------\nCareer     {} {}".format(dfRes.sum()['gp'],gaa)
             elif('record' in stat):
                 dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==gStatsLine['name'].to_string(index=False).lstrip()]
@@ -1665,9 +1673,6 @@ def getPlayerStats(playerDfs,query):
                     cStats=True
                 for row in range(len(dfRes)):
                     resStr+="{} {} {} {}\n".format(dfRes.iloc[row]['season'],dfRes.iloc[row]['yr'],dfRes.iloc[row]['gp'],dfRes.iloc[row]['record'])
-                wins=int(float(gStatsLine['W'].to_string(index=False)))
-                loss=int(float(gStatsLine['L'].to_string(index=False)))
-                tie=int(float(gStatsLine['T'].to_string(index=False)))
                 resStr+="----------------------\nCareer     {} {}-{}-{}".format(dfRes.sum()['gp'],wins,loss,tie)
             elif('so' in stat or 'shut' in stat):
                 dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==gStatsLine['name'].to_string(index=False).lstrip()]
@@ -1682,10 +1687,16 @@ def getPlayerStats(playerDfs,query):
                 resStr+="----------------------\nCareer     {} {}".format(dfRes.sum()['gp'],dfRes.sum()['SO'])
         elif(len(pStatsLine)>=1):
             for row in range(len(pStatsLine)):
+                dfRes=dfSeasSkate.loc[dfSeasSkate['name']==pStatsLine.iloc[row]['name']]
                 resStr+="{} ({}): ".format(pStatsLine.iloc[row]['name'].lstrip(),pStatsLine.iloc[row]['career'].lstrip())
-                goals=pStatsLine.iloc[row]['goals']
-                assists=pStatsLine.iloc[row]['assists']
-                pts=pStatsLine.iloc[row]['pts']
+                if(dfRes.empty):
+                    goals=pStatsLine.iloc[row]['goals']
+                    assists=pStatsLine.iloc[row]['assists']
+                    pts=pStatsLine.iloc[row]['pts']
+                else:
+                    goals=dfRes.sum()['goals']
+                    assists=dfRes.sum()['assists']
+                    pts=dfRes.sum()['pts']
                 if('stats' in stat or 'statline' in stat.replace(' ','')):
                     resStr+=("{}-{}--{}".format(goals,assists,pts))
                 elif('goal' in stat):
@@ -1698,11 +1709,22 @@ def getPlayerStats(playerDfs,query):
         elif(len(gStatsLine)>=1):
             for row in range(len(gStatsLine)):
                 resStr+="{} ({}): ".format(gStatsLine.iloc[row]['name'],gStatsLine.iloc[row]['career'].lstrip())
-                gaa=gStatsLine.iloc[row]['gaa']
-                svper=gStatsLine.iloc[row]['sv%']
-                wins=int(float(gStatsLine.iloc[row]['W']))
-                loss=int(float(gStatsLine.iloc[row]['L']))
-                tie=int(float(gStatsLine.iloc[row]['T']))
+                wins=0
+                loss=0
+                tie=0
+                mTime=0
+                dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==gStatsLine.iloc[row]['name'].lstrip()]
+                for row in range(len(dfRes)):
+                    rec=dfRes.iloc[row]['record'].split('-')
+                    wins+=int(rec[0])
+                    loss+=int(rec[1])
+                    tie+=int(rec[2])
+                    mins=dfRes.iloc[row]['mins'].split(':')
+                    time = "{}:{}".format(*divmod(int(mins[0]), 60)) + ":" + mins[1]
+                    time = pd.to_timedelta(time)
+                    mTime+=round(pd.Timedelta(time).total_seconds()/60,2)
+                gaa=round((dfRes['ga'].sum()/mTime)*60,2)
+                svper=round(dfRes.sum()['saves']/(dfRes.sum()['saves']+dfRes.sum()['ga']),3)
                 if('stat' in stat or 'stat line' in stat or 'statline' in stat):
                     resStr+="{}/{}/{}-{}-{}".format(gaa,svper,wins,loss,tie)
                 elif('gaa' in stat):
