@@ -4,7 +4,8 @@ import operator
 import calendar
 import urllib.request, urllib.error, urllib.parse
 from bs4 import BeautifulSoup
-from datetime import datetime,timedelta
+from datetime import datetime,timedelta,date
+import numpy as np
 
 try:
   from burecbookpath import *
@@ -2045,15 +2046,26 @@ def getBeanpotStats(dfBean,query):
                  return('{} ({})'.format(dfRes['berName'].to_string(index=False).lstrip(' '),dfRes['berSchool'].to_string(index=False).lstrip(' ')))
     return ''
     
-def updateCurrentSeasonStats():
+
+def updateCurrentSeasonStats(gender):
+    if(gender=='Mens'):
+        url = "https://goterriers.com/sports/mens-ice-hockey/stats?path=mhockey"
+        currSkateFileName=RECBOOK_DATA_PATH + "SeasonSkaterStats.txt"
+        currGoalieFileName=RECBOOK_DATA_PATH + "SeasonGoalieStats.txt"
+    elif(gender=='Womens'):
+        url="https://goterriers.com/sports/womens-ice-hockey/stats/?path=whockey"
+        currSkateFileName=RECBOOK_DATA_PATH +"SeasonSkaterStatsWomens.txt"
+        currGoalieFileName=RECBOOK_DATA_PATH +"SeasonGoalieStatsWomens.txt"
+    else:
+        return
     currSeason='2022-23'
-    url = "https://goterriers.com/sports/mens-ice-hockey/stats?path=mhockey"
+
     f=urllib.request.urlopen(url)
     html = f.read()
     f.close()
     soup = BeautifulSoup(html, 'html.parser')
-    head=soup.find('h1')
-    if(currSeason not in head):
+    head=soup.find('h1',{'class':'no-print'})
+    if(currSeason not in head.get_text()):
         pass
     else:
         curSkate=soup.find('section',{'id':'individual-overall-skaters'})
@@ -2068,15 +2080,14 @@ def updateCurrentSeasonStats():
                            'last':lastName,
                            'first':firstName,
                            'name':firstName+' '+lastName,
-                            'gp':int(col[1].get_text()),
-                            'goals':int(col[2].get_text()),
-                            'assists':int(col[3].get_text()),
-                            'pts':int(col[4].get_text()),
-                            'pen':col[16].get_text().replace('-','/')}
+                            'gp':int(col[2].get_text()),
+                            'goals':int(col[3].get_text()),
+                            'assists':int(col[4].get_text()),
+                            'pts':int(col[5].get_text()),
+                            'pens':col[17].get_text().replace('-','/'),
+                            'season':currSeason}
                 currSkaters.append(skateDict)
-        curSkateDf=pd.DataFrame(currSkaters)
-
-
+        dfCurSkate=pd.DataFrame(currSkaters)
 
         curGoals=soup.find('section',{'id':'individual-overall-goaltenders'})
         rows=curGoals.find_all('tr')
@@ -2091,17 +2102,162 @@ def updateCurrentSeasonStats():
                            'last':lastName,
                            'first':firstName,
                            'name':firstName+' '+lastName,
-                            'gp':int(col[1].get_text().split('-')[0]),
-                            'mins':col[2].get_text(),
-                            'ga':col[3].get_text(),
-                            'gaa':col[4].get_text(),
-                            'saves':col[8].get_text(),
-                            'sv%':col[9].get_text(),
-                            'W':col[10].get_text(),
-                            'L':col[11].get_text(),
-                            'T':col[12].get_text(),
-                            'SO':col[13].get_text()}
+                            'gp':int(col[2].get_text().split('-')[0]),
+                            'mins':col[3].get_text(),
+                            'ga':col[4].get_text(),
+                            'gaa':col[5].get_text(),
+                            'saves':col[9].get_text(),
+                            'sv%':col[10].get_text(),
+                            'W':col[11].get_text(),
+                            'L':col[12].get_text(),
+                            'T':col[13].get_text(),
+                            'SO':col[14].get_text(),
+                            'season':currSeason}
                 currGoalies.append(goalDict)
 
-        curGoaldf=pd.DataFrame(currGoalies)
-    return curSkateDf,curGoaldf
+        dfCurGoal=pd.DataFrame(currGoalies)
+        dfCurSkateClean=dfCurSkate.drop(columns=['last','first'])
+        with open(currSkateFileName, "r",encoding='utf-8') as sources:
+            lines = sources.readlines()
+        with open(currSkateFileName, "w",encoding='utf-8',newline='\n') as sources:
+            for line in lines:
+                if(currSeason in line):
+                    lList=line.split('\t')
+                    for i in dfCurSkateClean.to_string(header=False,index=False).split('\n'):
+                        pStr=i.lstrip()
+                        curList=(list(filter(None,pStr.lstrip().split(' '))))
+                        if(curList[0]==lList[0]):
+                            lList[4]=curList[3]
+                            lList[5]=curList[4]
+                            lList[6]=curList[5]
+                            lList[7]=curList[6]
+                            lList[8]=curList[7]
+                            line='\t'.join(lList)
+                sources.write(line)
+        dfCurGoalClean=dfCurGoal.drop(columns=['last','first'])
+        with open(currGoalieFileName, "r",encoding='utf-8') as sources:
+            lines = sources.readlines()
+        with open(currGoalieFileName, "w",encoding='utf-8',newline='\n') as sources:
+            for line in lines:
+                if(currSeason in line):
+                    lList=line.split('\t')
+                    for i in dfCurGoalClean.to_string(header=False,index=False).split('\n'):
+                        pStr=i.lstrip()
+                        curList=(list(filter(None,pStr.lstrip().split(' '))))
+                        if(curList[0]==lList[0]):
+                            lList[3]=curList[3] #
+                            lList[4]=curList[4]
+                            lList[5]=curList[5]
+                            lList[6]=curList[7]
+                            lList[7]=curList[8]
+                            lList[8]=curList[6]
+                            lList[9]="{}-{}-{}".format(curList[9],curList[10],curList[11])
+                            lList[10]=curList[12]
+                            line='\t'.join(lList)
+                sources.write(line)
+        return dfCurSkate,dfCurGoal
+        
+def updateCareerStats(dfCurSkate,dfCurGoalie,dfSkate,dfGoalie,gender):
+    for player in dfCurSkate.iloc:
+        pen,pim=player['pens'].split('/')
+        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'gp']+=player['gp']
+        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'goals']+=player['goals']
+        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'assists']+=player['assists']
+        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'pts']+=player['pts']
+        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'pen']+=int(pen)
+        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'pim']+=int(pim)
+    for player in dfCurGoalie.iloc:
+        mins=player['mins']
+        time = "{}:{}".format(*divmod(int(mins[0]), 60)) + ":" + mins[1]
+        time = pd.to_timedelta(time)
+        pName=player['name'].strip().title()
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'W']+=int(player['W'])
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'L']+=int(player['L'])
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'T']+=int(player['T'])
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'saves']+=int(player['saves'])
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'ga']+=int(player['ga'])
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'gp']+=int(player['gp'])
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'mins']+=round(pd.Timedelta(time).total_seconds()/60,2)
+        dfRes=dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season']))]
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'sv%']=round(dfRes['saves']/(dfRes['ga']+dfRes['saves']),3)
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'gaa']=round((dfRes['ga']/dfRes['mins'])*60,2)
+    
+    currSeason='-23'
+    if(gender=='Mens'):
+        careerSkateFileName=RECBOOK_DATA_PATH + 'SkaterStats.txt'
+        careerGoalieFileName=RECBOOK_DATA_PATH + 'GoalieStats.txt'
+    elif(gender=='Womens'):
+        careerSkateFileName=RECBOOK_DATA_PATH + 'SkaterStatsWomens.txt'
+        careerGoalieFileName=RECBOOK_DATA_PATH + 'GoalieStatsWomens.txt'
+    with open(careerSkateFileName, "r",encoding='utf-8') as sources:
+        lines = sources.readlines()
+    with open(careerSkateFileName, "w",encoding='utf-8',newline='\n') as sources:
+        for line in lines:
+            if(currSeason in line):
+                for i in dfCurSkate.iloc:
+                    if("{},{}".format(i['last'],i['first']) in line):
+                        row=line.split(' ')
+                        row[2]=str(int(dfSkate.loc[dfSkate['name']==i['name']]['gp']))
+                        row[3]=dfSkate.loc[dfSkate['name']==i['name']]['goals'].to_string(index=False,header=False)
+                        row[4]=dfSkate.loc[dfSkate['name']==i['name']]['assists'].to_string(index=False,header=False)
+                        row[5]=dfSkate.loc[dfSkate['name']==i['name']]['pts'].to_string(index=False,header=False)
+                        row[6]="{}/{}\n".format(int(dfSkate.loc[dfSkate['name']==i['name']]['pen']),int(dfSkate.loc[dfSkate['name']==i['name']]['pim']))
+                        line=' '.join(row)
+            sources.write(line)
+    with open(careerGoalieFileName, "r",encoding='utf-8') as sources:
+        lines = sources.readlines()
+    with open(careerGoalieFileName, "w",encoding='utf-8',newline='\n') as sources:
+        for line in lines:
+            if(currSeason in line):
+                for i in dfCurGoalie.iloc:
+                    if("{},{}".format(i['last'],i['first'].strip().capitalize()) in line):
+                        name=i['name'].strip().title()
+                        row=line.split(' ')
+                        mins,sec=dfGoalie.loc[dfGoalie['name']==name]['mins'].to_string(index=False,header=False).split('.')
+                        sec=str(round(float("."+sec)*60))
+                        row[2]=str(int(dfGoalie.loc[dfGoalie['name']==name]['gp']))
+                        row[3]=mins+":"+sec
+                        row[4]=str(int(dfGoalie.loc[dfGoalie['name']==name]['ga']))
+                        row[5]=dfGoalie.loc[dfGoalie['name']==name]['gaa'].replace(np.nan,0.0).to_string(index=False,header=False)
+                        row[6]=str(int(dfGoalie.loc[dfGoalie['name']==name]['saves']))
+                        row[7]=dfGoalie.loc[dfGoalie['name']==name]['sv%'].replace(np.nan,.000).to_string(index=False,header=False).lstrip('0')
+                        row[8]=str(int(dfGoalie.loc[dfGoalie['name']==name]['W']))
+                        row[9]=str(int(dfGoalie.loc[dfGoalie['name']==name]['L']))
+                        row[10]=str(int(dfGoalie.loc[dfGoalie['name']==name]['T']))+'\n'
+                        line=' '.join(row)
+            sources.write(line)
+            
+def updateResults(gender):
+    if(gender=='Mens'):
+        url="https://goterriers.com/services/schedule_txt.ashx?schedule=4663" #mens
+        recBookFileName=RECBOOK_DATA_PATH + 'BURecordBook.txt'
+    elif(gender=='Womens'):
+        url="https://goterriers.com/services/schedule_txt.ashx?schedule=4662" #womens
+        recBookFileName=RECBOOK_DATA_PATH + "BUWomensRecordBook.txt"
+    else:
+        return
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    html = urllib.request.urlopen(req).read()
+    sched=html.decode().split('\n\r')
+    gameList=[]
+    for i in sched:
+        if('PM' in i):
+            row=list(filter(None,i.split('  ')))
+            date=row[0].split('(')[0]
+            res=row[-1].strip().split(' ')
+            if(len(res)!=2 or not res[1][0].isnumeric()):
+                continue
+            scoreline=res[1]
+            res=res[0]
+            gDict={'date':datetime.strftime(datetime.strptime(date.strip(),"%b %d"),"%m/%d"),'result':res,'scoreline':scoreline}
+            gameList.append(gDict)
+    soup = BeautifulSoup(html, 'html.parser')
+    with open(recBookFileName, "r",encoding='utf-8') as sources:
+        lines = sources.readlines()
+    with open(recBookFileName, "w",encoding='utf-8',newline='\n') as sources:
+        for line in lines:
+            for game in gameList:
+                if(re.match(game['date'],line)!=None):
+                    line = re.sub(r' N ', ' {} '.format(game['result']), line)
+                    line = re.sub(r'0-0\n', '{}\n'.format(game['scoreline']), line)
+            sources.write(line)

@@ -10,6 +10,30 @@ def getListOfTweets(api):
         tweetList.append(tweets.in_reply_to_status_id)
     return tweetList
 
+def updateScoresAndStats():
+  global dfGames,dfGamesWomens,dfJersey,dfJerseyMens,dfJerseyWomens,dfSkate,dfSkateMens,dfSkateWomens,dfGoalie,dfGoalieMens,dfGoalieWomens,dfLead,dfLeadWomens,dfBeanpot,dfBeanpotWomens,dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens,dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens,dfBeanpotAwards,dfBeanpotAwardsWomens
+  
+  # Update Results
+  updateResults('Mens')
+  updateResults('Womens')
+  dfCurSMens,dfCurGMens=updateCurrentSeasonStats('Mens')
+  dfCurSWomens,dfCurGWomens=updateCurrentSeasonStats('Womens')
+  
+  # Regenerate Data
+  dfGames=generateRecordBook()
+  dfGamesWomens=generateWomensRecordBook()
+  dfJersey,dfJerseyMens,dfJerseyWomens=generateJerseys()
+  dfSkate,dfSkateMens,dfSkateWomens=generateSkaters()
+  dfGoalie,dfGoalieMens,dfGoalieWomens=generateGoalies()
+  dfLead,dfLeadWomens=generateSeasonLeaders()
+  dfBeanpot,dfBeanpotWomens=generateBeanpotHistory()
+  dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens=generateSeasonSkaters()
+  dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens=generateSeasonGoalies()
+  dfBeanpotAwards,dfBeanpotAwardsWomens=generateBeanpotAwards()
+  dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
+  #updateCareerStats(dfCurSMens,dfCurGMens,dfSkate,dfGoalie,'Mens')
+  #updateCareerStats(dfCurSWomens,dfCurGWomens,dfSkate,dfGoalie,'Womens')
+  
 print("[{}]".format(datetime.now()),"Populating Record Book...")
 dfGames=generateRecordBook()
 dfGamesWomens=generateWomensRecordBook()
@@ -28,8 +52,16 @@ replyList=[]
 # Create API object
 api = tweepy.API(auth, wait_on_rate_limit=True)
 print("[{}]".format(datetime.now()),"Starting up BUStatsBot...")
+lastUpdateDate=date.fromisoformat('2022-10-01')
 while(True):
     try:
+    
+      #update if needs updating
+      if(date.today()>lastUpdateDate):
+        print("[{}]".format(datetime.now()),"Updating Player Stats and Results...")
+        updateScoresAndStats()
+        lastUpdateDate=date.today()
+        print("[{}]".format(datetime.now()),"Player Stats and Results Updated...")
       # check DMs
       messages = api.get_direct_messages()
 
