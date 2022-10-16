@@ -16,8 +16,8 @@ def updateScoresAndStats():
   # Update Results
   updateResults('Mens')
   updateResults('Womens')
-  dfCurSMens,dfCurGMens=updateCurrentSeasonStats('Mens')
-  dfCurSWomens,dfCurGWomens=updateCurrentSeasonStats('Womens')
+  updateCurrentSeasonStats('Mens')
+  updateCurrentSeasonStats('Womens')
   
   # Regenerate Data
   dfGames=generateRecordBook()
@@ -31,8 +31,8 @@ def updateScoresAndStats():
   dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens=generateSeasonGoalies()
   dfBeanpotAwards,dfBeanpotAwardsWomens=generateBeanpotAwards()
   dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
-  #updateCareerStats(dfCurSMens,dfCurGMens,dfSkate,dfGoalie,'Mens')
-  #updateCareerStats(dfCurSWomens,dfCurGWomens,dfSkate,dfGoalie,'Womens')
+  updateCareerStats(dfSkate,dfGoalie,dfSeasSkate,dfSeasGoalie)
+
   
 print("[{}]".format(datetime.now()),"Populating Record Book...")
 dfGames=generateRecordBook()

@@ -2179,76 +2179,46 @@ def updateCurrentSeasonStats(gender):
                 sources.write(line)
         return dfCurSkate,dfCurGoal
         
-def updateCareerStats(dfCurSkate,dfCurGoalie,dfSkate,dfGoalie,gender):
-    for player in dfCurSkate.iloc:
-        pen,pim=player['pens'].split('/')
-        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'gp']+=player['gp']
-        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'goals']+=player['goals']
-        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'assists']+=player['assists']
-        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'pts']+=player['pts']
-        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'pen']+=int(pen)
-        dfSkate.loc[(dfSkate['name']==player['name']) & (dfSkate['seasons'].str.contains(player['season'])),'pim']+=int(pim)
-    for player in dfCurGoalie.iloc:
-        mins=player['mins']
-        time = "{}:{}".format(*divmod(int(mins[0]), 60)) + ":" + mins[1]
+def updateCareerStats(dfSkate,dfGoalie,dfSeasSkate,dfSeasGoalie):
+    currSeason='2022-23'
+    curSkateList=dfSeasSkate.loc[dfSeasSkate['season'].str.contains(currSeason)]['name'].to_list()
+    curGoalieList=dfSeasGoalie.loc[dfSeasGoalie['season'].str.contains(currSeason)]['name'].to_list()
+    for player in curSkateList:
+        dfRes=dfSeasSkate.loc[dfSeasSkate['name']==player]
+        if('Brändli' in player):
+            dfRes=dfSeasSkate.loc[dfSeasSkate['name']==player.strip().title()]
+        pens=dfRes.pens.str.split('/',expand=True).astype(int).sum()
+        pen=pens.iloc[0]
+        pim=pens.iloc[1]
+        pSums=dfRes.sum()
+        dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'gp']=pSums['gp']
+        dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'goals']=pSums['goals']
+        dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'assists']=pSums['assists']
+        dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'pts']=pSums['pts']
+        dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'pen']=pen
+        dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'pim']=pim
+    for player in curGoalieList:
+        dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==player]
+        if('Brändli' in player):
+            dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==player.strip().title()]
+        pName=player.strip().title()
+        dfResSeas=dfSeasGoalie.loc[(dfSeasGoalie['name']==pName)]
+        mins=dfResSeas.mins.str.split(':',expand=True).astype(int).sum()
+        time = "{}:{}".format(*divmod(int(mins.iloc[0]), 60)) + ":" + str(mins.iloc[1])
         time = pd.to_timedelta(time)
-        pName=player['name'].strip().title()
-        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'W']+=int(player['W'])
-        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'L']+=int(player['L'])
-        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'T']+=int(player['T'])
-        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'saves']+=int(player['saves'])
-        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'ga']+=int(player['ga'])
-        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'gp']+=int(player['gp'])
-        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'mins']+=round(pd.Timedelta(time).total_seconds()/60,2)
-        dfRes=dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season']))]
-        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'sv%']=round(dfRes['saves']/(dfRes['ga']+dfRes['saves']),3)
-        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(player['season'])),'gaa']=round((dfRes['ga']/dfRes['mins'])*60,2)
-    
-    currSeason='-23'
-    if(gender=='Mens'):
-        careerSkateFileName=RECBOOK_DATA_PATH + 'SkaterStats.txt'
-        careerGoalieFileName=RECBOOK_DATA_PATH + 'GoalieStats.txt'
-    elif(gender=='Womens'):
-        careerSkateFileName=RECBOOK_DATA_PATH + 'SkaterStatsWomens.txt'
-        careerGoalieFileName=RECBOOK_DATA_PATH + 'GoalieStatsWomens.txt'
-    with open(careerSkateFileName, "r",encoding='utf-8') as sources:
-        lines = sources.readlines()
-    with open(careerSkateFileName, "w",encoding='utf-8',newline='\n') as sources:
-        for line in lines:
-            if(currSeason in line):
-                for i in dfCurSkate.iloc:
-                    if("{},{}".format(i['last'],i['first']) in line):
-                        row=line.split(' ')
-                        row[2]=str(int(dfSkate.loc[dfSkate['name']==i['name']]['gp']))
-                        row[3]=dfSkate.loc[dfSkate['name']==i['name']]['goals'].to_string(index=False,header=False)
-                        row[4]=dfSkate.loc[dfSkate['name']==i['name']]['assists'].to_string(index=False,header=False)
-                        row[5]=dfSkate.loc[dfSkate['name']==i['name']]['pts'].to_string(index=False,header=False)
-                        row[6]="{}/{}\n".format(int(dfSkate.loc[dfSkate['name']==i['name']]['pen']),int(dfSkate.loc[dfSkate['name']==i['name']]['pim']))
-                        line=' '.join(row)
-            sources.write(line)
-    with open(careerGoalieFileName, "r",encoding='utf-8') as sources:
-        lines = sources.readlines()
-    with open(careerGoalieFileName, "w",encoding='utf-8',newline='\n') as sources:
-        for line in lines:
-            if(currSeason in line):
-                for i in dfCurGoalie.iloc:
-                    if("{},{}".format(i['last'],i['first'].strip().capitalize()) in line):
-                        name=i['name'].strip().title()
-                        row=line.split(' ')
-                        mins,sec=dfGoalie.loc[dfGoalie['name']==name]['mins'].to_string(index=False,header=False).split('.')
-                        sec=str(round(float("."+sec)*60))
-                        row[2]=str(int(dfGoalie.loc[dfGoalie['name']==name]['gp']))
-                        row[3]=mins+":"+sec
-                        row[4]=str(int(dfGoalie.loc[dfGoalie['name']==name]['ga']))
-                        row[5]=dfGoalie.loc[dfGoalie['name']==name]['gaa'].replace(np.nan,0.0).to_string(index=False,header=False)
-                        row[6]=str(int(dfGoalie.loc[dfGoalie['name']==name]['saves']))
-                        row[7]=dfGoalie.loc[dfGoalie['name']==name]['sv%'].replace(np.nan,.000).to_string(index=False,header=False).lstrip('0')
-                        row[8]=str(int(dfGoalie.loc[dfGoalie['name']==name]['W']))
-                        row[9]=str(int(dfGoalie.loc[dfGoalie['name']==name]['L']))
-                        row[10]=str(int(dfGoalie.loc[dfGoalie['name']==name]['T']))+'\n'
-                        line=' '.join(row)
-            sources.write(line)
-            
+        record=dfResSeas.record.str.split('-',expand=True).astype(int).sum()
+        pSum=dfResSeas.sum()
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(currSeason)),'W']=record[0]
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(currSeason)),'L']=record[1]
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(currSeason)),'T']=record[2]
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(currSeason)),'saves']=pSum['saves']
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(currSeason)),'ga']=pSum['ga']
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(currSeason)),'gp']=pSum['gp']
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(currSeason)),'mins']+=round(pd.Timedelta(time).total_seconds()/60,2)
+        dfRes=dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(currSeason))]
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(currSeason)),'sv%']=round(dfRes['saves']/(dfRes['ga']+dfRes['saves']),3)
+        dfGoalie.loc[(dfGoalie['name']==pName) & (dfGoalie['seasons'].str.contains(currSeason)),'gaa']=round((dfRes['ga']/dfRes['mins'])*60,2)
+        
 def updateResults(gender):
     if(gender=='Mens'):
         url="https://goterriers.com/services/schedule_txt.ashx?schedule=4663" #mens

@@ -12,6 +12,7 @@ if __name__ == '__main__':
   dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens=generateSeasonGoalies()
   dfBeanpotAwards,dfBeanpotAwardsWomens=generateBeanpotAwards()
   dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
+  updateCareerStats(dfSkate,dfGoalie,dfSeasSkate,dfSeasGoalie)
 
   query=input("Query: ")
   while(query!='' and query != 'quit' and query != 'q'): 
