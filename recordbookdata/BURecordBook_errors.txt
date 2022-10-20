@@ -5,6 +5,7 @@ Record Book Errors:
 
 2007-08:
 11/9 Massachusetts at Agganis listed as at Mullins
+
 2008-09:
 1/2 Rensselaer spelt Rensselear
 
@@ -12,19 +13,20 @@ Record Book Errors:
 10/10 Notre Dame game not tagged as IB
 1/18 Lawler spelt Lawlor Arena
 
-
 2016-17:
 12/10 Vermont at Gutterson listed as at Agganis
-3/27 vs North Dakota listed as 2/27
-3/28 vs Duluth listed as 3/27
+3/24 vs North Dakota listed as 2/24
+3/25 vs Duluth listed as 2/25
+
 2017-18:
-11/3 Providence at Schneider listed as at Agganis
+11/3 Providence at Agganis listed as at Schneider
 2/24 vs Cornell should be 3/24
-2/25 vs Cornell should be 3/25
+2/25 vs Michigan should be 3/25
+
 2018-19:
 1/19 Loss to Qunnipiac listed as a Win 
 
-Player Stats:
+Player Stats(All-Time Letter Winners):
 Lawless,John listed with 228 pts instead of 28
 Matt Nieto goals should be 44 instead of 55
 Headon,Peter years should be 1985-1989 instead of 1958-1989 
