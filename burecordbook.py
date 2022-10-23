@@ -288,7 +288,7 @@ def decodeTeam(team):
         "amworst" : "Massachusetts",
         "amwurst" : "Massachusetts",
         "anosu" : "Ohio State",
-        "army" : "Army West Point",
+        "army" : "Army",
         "asu" : "Arizona State",
         "bama" : "Alabama Huntsville",
         "bc" : "Boston College",
