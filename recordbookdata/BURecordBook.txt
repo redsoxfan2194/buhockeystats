@@ -3281,9 +3281,9 @@ CAPTAIN: Domenick Fensore
 10/01 W Agganis Arena	Bentley 8-2
 10/08 W Agganis Arena	Waterloo (ex) 7-1
 10/14 L Yost Ice Arena	Michigan 2-9
-10/16 N Yost Ice Arena	Michigan 0-0
-10/21 N Agganis Arena	Connecticut * 0-0
-10/22 N Agganis Arena	Connecticut * 0-0
+10/16 W Yost Ice Arena	Michigan 3-2
+10/21 L (ot) Agganis Arena	Connecticut * 3-4
+10/22 W Agganis Arena	Connecticut * 5-2
 10/28 N Tsongas Center	UMass Lowell * 0-0
 10/29 N Agganis Arena	UMass Lowell * 0-0
 11/11 N Mullins Center	Massachusetts * 0-0
