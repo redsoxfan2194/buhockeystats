@@ -189,7 +189,7 @@ CAPTAINS: Sarah Appleton, Melissa Tetreau
 1/8 W Walter Brown Arena H Yale 4-1
 1/10 T Walter Brown Arena H Brown 5-5
 1/19 W Walter Brown Arena H Boston College * 3-1
-1/22 L (ot) Gutterson Field House A Vermont * 2-1
+1/22 L (ot) Gutterson Field House A Vermont * 1-2
 1/23 W Gutterson Field House A Vermont * 3-2
 1/26 T Matthews Arena A Northeastern * 2-2
 1/29 L Walter Brown Arena H Connecticut * 0-2
@@ -527,7 +527,7 @@ CAPTAIN: Rebecca Leslie
 10/29 T (ot) Whittemore Center Arena A New Hampshire * 2-2
 11/3 W Walter Brown Arena H RIT 5-1
 11/4 L (ot) Agganis Arena H RIT 1-2
-11/10 W Walter Brown Arena H Connecticut * 2-2
+11/10 T (ot) Walter Brown Arena H Connecticut * 2-2
 11/17 W Gutterson Field House A Vermont * 7-1
 11/18 W Gutterson Field House A Vermont * 3-1
 11/24 W Kettler Iceplex N Minnesota State 5-2
