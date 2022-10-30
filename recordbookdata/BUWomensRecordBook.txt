@@ -707,8 +707,8 @@ CAPTAIN: Nadia Mattivi
 10/15 L (ot) Walter Brown Arena H New Hampshire * 2-3
 10/21 L Conte Forum A Boston College * 0-3
 10/22 L Walter Brown Arena H Boston College * 4-5
-10/28 N Lawler Rink A Merrimack * 0-0
-10/29 N Walter Brown Arena H Merrimack * 0-0
+10/28 L Lawler Rink A Merrimack * 2-5
+10/29 W Walter Brown Arena H Merrimack * 5-2
 11/04 N Walter Brown Arena H Providence * 0-0
 11/05 N Schneider Arena A Providence * 0-0
 11/11 N Gutterson Fieldhouse A Vermont * 0-0
