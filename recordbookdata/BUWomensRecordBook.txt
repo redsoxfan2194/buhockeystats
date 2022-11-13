@@ -709,10 +709,10 @@ CAPTAIN: Nadia Mattivi
 10/22 L Walter Brown Arena H Boston College * 4-5
 10/28 L Lawler Rink A Merrimack * 2-5
 10/29 W Walter Brown Arena H Merrimack * 5-2
-11/04 N Walter Brown Arena H Providence * 0-0
-11/05 N Schneider Arena A Providence * 0-0
-11/11 N Gutterson Fieldhouse A Vermont * 0-0
-11/12 N Gutterson Fieldhouse A Vermont * 0-0
+11/04 L Walter Brown Arena H Providence * 2-3
+11/05 L Schneider Arena A Providence * 1-4
+11/11 L Gutterson Fieldhouse A Vermont * 1-2
+11/12 W Gutterson Fieldhouse A Vermont * 4-3
 11/18 N Freitas Ice Forum A UConn * 0-0
 11/19 N Walter Brown Arena H UConn * 0-0
 11/25 N Lifeguard Arena N Yale (VS) 0-0
