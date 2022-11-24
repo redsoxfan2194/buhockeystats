@@ -2081,45 +2081,7 @@ def updateCurrentSeasonStats(gender):
     else:
         return
     currSeason='2022-23'
-    if(gender=='Mens'):
-      fileName=(RECBOOK_DATA_PATH+'SkateStatCorrections.txt')
-      with open(fileName, 'r', encoding='utf-8') as f:
-          read_data = f.read()
-          rows=read_data.split('\n')
-          corrList=[]
-          for i in rows:
-              col=i.split('\t')
-              corrDict={'name':col[0],
-                       'gp':int(col[1]),
-                       'goals':int(col[2]),
-                       'assists':int(col[3]),
-                       'pts':int(col[4]),
-                       'pens':col[5]}
-              corrList.append(corrDict)
-      f.close()
-      dfCorrSkate=pd.DataFrame(corrList)
-      
-      fileName=(RECBOOK_DATA_PATH+'GoalieStatCorrections.txt')
-      with open(fileName, 'r', encoding='utf-8') as f:
-          read_data = f.read()
-          rows=read_data.split('\n')
-          corrList=[]
-          for i in rows:
-              col=i.split('\t')
-              corrDict={'name':col[0],
-                       'gp':int(col[1]),
-                       'mins':col[2],
-                       'ga':int(col[3]),
-                       'saves':int(col[4]),
-                       'record':col[5],
-                       'so':int(col[6])}
-              corrList.append(corrDict)
-      f.close()
-      dfCorrGoalie=pd.DataFrame(corrList)
-    else:
-      dfCorrSkate=pd.DataFrame()
-      dfCorrGoalie=pd.DataFrame()
-      
+
     f=urllib.request.urlopen(url)
     html = f.read()
     f.close()
@@ -2146,18 +2108,6 @@ def updateCurrentSeasonStats(gender):
                             'pts':int(col[5].get_text()),
                             'pens':col[17].get_text().replace('-','/'),
                             'season':currSeason}
-                if(not dfCorrSkate.empty):
-                  dfRes=dfCorrSkate.loc[dfCorrSkate['name']==skateDict['name']]
-                  if(not dfRes.empty):
-                    skateDict['gp']+=int(dfRes['gp'].to_string(index=False))
-                    skateDict['goals']+=int(dfRes['goals'].to_string(index=False))
-                    skateDict['assists']+=int(dfRes['assists'].to_string(index=False))
-                    skateDict['pts']+=int(dfRes['pts'].to_string(index=False))
-                    pen,pim=skateDict['pens'].split('/')
-                    penTemp=dfRes['pens'].to_string(index=False).split('/')
-                    penCor = penTemp[0]
-                    pimCor = penTemp[1]
-                    skateDict['pens']="{}/{}".format(int(pen)+int(penCor),int(pim)+int(pimCor))
                 currSkaters.append(skateDict)
         dfCurSkate=pd.DataFrame(currSkaters)
 
@@ -2176,37 +2126,15 @@ def updateCurrentSeasonStats(gender):
                            'name':firstName+' '+lastName,
                             'gp':int(col[2].get_text().split('-')[0]),
                             'mins':col[3].get_text(),
-                            'ga':int(col[4].get_text()),
+                            'ga':col[4].get_text(),
                             'gaa':col[5].get_text(),
-                            'saves':int(col[9].get_text()),
+                            'saves':col[9].get_text(),
                             'sv%':col[10].get_text(),
-                            'W':int(col[11].get_text()),
-                            'L':int(col[12].get_text()),
-                            'T':int(col[13].get_text()),
-                            'SO':int(col[14].get_text()),
+                            'W':col[11].get_text(),
+                            'L':col[12].get_text(),
+                            'T':col[13].get_text(),
+                            'SO':col[14].get_text(),
                             'season':currSeason}
-                if(not dfCorrGoalie.empty):
-                  dfRes=dfCorrGoalie.loc[dfCorrGoalie['name']==goalDict['name'].strip()]
-                  if(not dfRes.empty):
-                    goalDict['gp']+=int(dfRes['gp'].to_string(index=False))
-                    goalDict['ga']+=int(dfRes['ga'].to_string(index=False))
-                    goalDict['saves']+=int(dfRes['saves'].to_string(index=False))
-                    goalDict['SO']+=int(dfRes['so'].to_string(index=False))
-                    mins,sec=goalDict['mins'].split(':')
-                    minTemp=dfRes['mins'].to_string(index=False).split(':')
-                    minsCor = minTemp[0]
-                    secCor = minTemp[1]
-                    secTot=int(sec)+int(secCor)
-                    minTot=int(mins)+int(minsCor)+secTot//60
-                    goalDict['mins']="{}:{}".format(minTot,secTot%60)
-                    time = "{}:{}".format(*divmod(minTot, 60)) + ":" + str(secTot%60)
-                    time = pd.to_timedelta(time)
-                    time = round(pd.Timedelta(time).total_seconds()/60,2)
-                    goalDict['sv%']=round(goalDict['saves']/(goalDict['saves']+goalDict['ga']),3)
-                    goalDict['gaa']=round((goalDict['ga']/time)*60,2)
-                    goalDict['W']+=int(dfRes['record'].to_string(index=False).split('-')[0])
-                    goalDict['L']+=int(dfRes['record'].to_string(index=False).split('-')[1])
-                    goalDict['T']+=int(dfRes['record'].to_string(index=False).split('-')[2])
                 currGoalies.append(goalDict)
 
         dfCurGoal=pd.DataFrame(currGoalies)
