@@ -2251,5 +2251,5 @@ def updateResults(gender):
             for game in gameList:
                 if(re.match(game['date'],line)!=None):
                     line = re.sub(r' N ', ' {} '.format(game['result']), line)
-                    line = re.sub(r'0-0\n', '{}\n'.format(game['scoreline']), line)
+                    line = re.sub(r' 0-0\n', ' {}\n'.format(game['scoreline']), line)
             sources.write(line)
