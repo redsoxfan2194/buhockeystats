@@ -984,7 +984,12 @@ def getResults(dfGames,query):
     for i in queryDict.keys():
         if('in' == i or 'in_' in i):
             inList.append(queryDict[i])
-            
+    
+    whenList=[]
+    for i in queryDict.keys():
+        if('when' == i or 'when_' in i):
+            whenList.append(queryDict[i])    
+    
     numGames=''
     ascen=True
     dfQueryList = []
@@ -1139,20 +1144,22 @@ def getResults(dfGames,query):
     if('from' in queryDict.keys()):
         dates=queryDict['from'].split(' to ')
         dfQueryList.append("(dfGames['date'].between('{}','{}'))".format(dates[0],dates[1]))
-    if('when' in queryDict.keys()):
-        goalSearch=re.search("(\>|\<|\>\=|\<=)? ?(\d{1,3})(\+)?",queryDict['when'])
-        if(goalSearch!=None):
-            goals=int(goalSearch.group(2))
-            if(goalSearch.group(1)!=None):
-                diff=goalSearch.group(1)
-            elif(goalSearch.group(3)!=None):
-                diff='>='
-            else:
-                diff='=='
-            if('allow' in queryDict['when']):
-                dfQueryList.append("(dfGames['OppoScore']{}{})".format(diff,goals))
-            if('scor' in queryDict['when']):
-                dfQueryList.append("(dfGames['BUScore']{}{})".format(diff,goals))
+    if('when' in queryDict.keys() or len(whenList)>1):
+        for i in whenList:
+            queryDict['when']=i
+            goalSearch=re.search("(\>|\<|\>\=|\<=)? ?(\d{1,3})(\+)?",queryDict['when'])
+            if(goalSearch!=None):
+                goals=int(goalSearch.group(2))
+                if(goalSearch.group(1)!=None):
+                    diff=goalSearch.group(1)
+                elif(goalSearch.group(3)!=None):
+                    diff='>='
+                else:
+                    diff='=='
+                if('allow' in queryDict['when']):
+                    dfQueryList.append("(dfGames['OppoScore']{}{})".format(diff,goals))
+                if('scor' in queryDict['when']):
+                    dfQueryList.append("(dfGames['BUScore']{}{})".format(diff,goals))
     dfQueryList.append("(dfGames['result']!='N')")
     dfQueryList.append("(dfGames['result']!='E')")
     dfQuery =''
@@ -2250,6 +2257,7 @@ def updateResults(gender):
         for line in lines:
             for game in gameList:
                 if(re.match(game['date'],line)!=None):
-                    line = re.sub(r' N ', ' {} '.format(game['result']), line)
+                    if(' N ' in line and ' 0-0' in line):
+                      line = re.sub(r' N ', ' {} '.format(game['result']), line)
                     line = re.sub(r' 0-0\n', ' {}\n'.format(game['scoreline']), line)
             sources.write(line)
