@@ -946,7 +946,7 @@ def tokenizeResultsQuery(query):
     return keyWordsDict
     
 def cleanupQuery(query,qType):
-    cleanlist=['the','of','what','is',"what's",'number of','games','was','game','his','arena','rink', "a", "an","did"]
+    cleanlist=['the','of','what','is',"what's",'number of','games','was','game','his','arena','rink', "a", "an","did","all time", "all-time"]
     if(qType!='bean'):
         cleanlist.insert(0,"bu")
         cleanlist.insert(0,"bu's")
