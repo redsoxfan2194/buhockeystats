@@ -1093,26 +1093,26 @@
 12/11/2004,Rensselaer,Thomas Morrow,0,0,0
 12/11/2004,Rensselaer,Sean Sullivan,0,1,1
 12/11/2004,Rensselaer,John Curry,0,0,0
-12/29/2004,Nebraska-Omaha,Kevin Schaeffer,0,1,1
-12/29/2004,Nebraska-Omaha,Brian McConnell,1,0,1
-12/29/2004,Nebraska-Omaha,Eric Thomassian,0,0,0
-12/29/2004,Nebraska-Omaha,Sean Sullivan,0,0,0
-12/29/2004,Nebraska-Omaha,Bryan Ewing,1,0,1
-12/29/2004,Nebraska-Omaha,Matt Radoslovich,0,0,0
-12/29/2004,Nebraska-Omaha,John Laliberte,0,1,1
-12/29/2004,Nebraska-Omaha,Dan Spang,0,0,0
-12/29/2004,Nebraska-Omaha,Thomas Morrow,0,0,0
-12/29/2004,Nebraska-Omaha,Kenny Roche,0,0,0
-12/29/2004,Nebraska-Omaha,Brad Zancanaro,0,1,1
-12/29/2004,Nebraska-Omaha,Brian McGuirk,0,0,0
-12/29/2004,Nebraska-Omaha,David Van der Gulik,2,1,3
-12/29/2004,Nebraska-Omaha,Jekabs Redlihs,0,0,0
-12/29/2004,Nebraska-Omaha,Ryan Monaghan,0,0,0
-12/29/2004,Nebraska-Omaha,Ryan Weston,0,0,0
-12/29/2004,Nebraska-Omaha,Pete MacArthur,0,1,1
-12/29/2004,Nebraska-Omaha,Bryan Miller,0,1,1
-12/29/2004,Nebraska-Omaha,Stephan Siwiec,0,0,0
-12/29/2004,Nebraska-Omaha,John Curry,0,0,0
+12/29/2004,Nebraska Omaha,Kevin Schaeffer,0,1,1
+12/29/2004,Nebraska Omaha,Brian McConnell,1,0,1
+12/29/2004,Nebraska Omaha,Eric Thomassian,0,0,0
+12/29/2004,Nebraska Omaha,Sean Sullivan,0,0,0
+12/29/2004,Nebraska Omaha,Bryan Ewing,1,0,1
+12/29/2004,Nebraska Omaha,Matt Radoslovich,0,0,0
+12/29/2004,Nebraska Omaha,John Laliberte,0,1,1
+12/29/2004,Nebraska Omaha,Dan Spang,0,0,0
+12/29/2004,Nebraska Omaha,Thomas Morrow,0,0,0
+12/29/2004,Nebraska Omaha,Kenny Roche,0,0,0
+12/29/2004,Nebraska Omaha,Brad Zancanaro,0,1,1
+12/29/2004,Nebraska Omaha,Brian McGuirk,0,0,0
+12/29/2004,Nebraska Omaha,David Van der Gulik,2,1,3
+12/29/2004,Nebraska Omaha,Jekabs Redlihs,0,0,0
+12/29/2004,Nebraska Omaha,Ryan Monaghan,0,0,0
+12/29/2004,Nebraska Omaha,Ryan Weston,0,0,0
+12/29/2004,Nebraska Omaha,Pete MacArthur,0,1,1
+12/29/2004,Nebraska Omaha,Bryan Miller,0,1,1
+12/29/2004,Nebraska Omaha,Stephan Siwiec,0,0,0
+12/29/2004,Nebraska Omaha,John Curry,0,0,0
 01/02/2005,Minnesota,Dan McGoff,0,0,0
 01/02/2005,Minnesota,Ryan Weston,0,0,0
 01/02/2005,Minnesota,Pete MacArthur,0,0,0
@@ -2398,27 +2398,27 @@
 03/18/2006,Boston College,Jekabs Redlihs,0,0,0
 03/18/2006,Boston College,Thomas Morrow,0,0,0
 03/18/2006,Boston College,John Curry,0,0,0
-03/24/2006,Nebraska-Omaha,David Van der Gulik,0,1,1
-03/24/2006,Nebraska-Omaha,Brad Zancanaro,0,0,0
-03/24/2006,Nebraska-Omaha,John Laliberte,0,1,1
-03/24/2006,Nebraska-Omaha,Kenny Roche,1,1,2
-03/24/2006,Nebraska-Omaha,Pete MacArthur,0,2,2
-03/24/2006,Nebraska-Omaha,Bryan Ewing,2,1,3
-03/24/2006,Nebraska-Omaha,Jason Lawrence,0,2,2
-03/24/2006,Nebraska-Omaha,Chris Higgins,3,0,3
-03/24/2006,Nebraska-Omaha,Brandon Yip,0,3,3
-03/24/2006,Nebraska-Omaha,Brian McGuirk,1,0,1
-03/24/2006,Nebraska-Omaha,John McCarthy,0,0,0
-03/24/2006,Nebraska-Omaha,Ryan Weston,1,1,2
-03/24/2006,Nebraska-Omaha,Dan Spang,1,0,1
-03/24/2006,Nebraska-Omaha,Matt Gilroy,0,0,0
-03/24/2006,Nebraska-Omaha,Stephan Siwiec,0,0,0
-03/24/2006,Nebraska-Omaha,Sean Sullivan,0,3,3
-03/24/2006,Nebraska-Omaha,Kevin Schaeffer,0,0,0
-03/24/2006,Nebraska-Omaha,Karson Gillespie,0,0,0
-03/24/2006,Nebraska-Omaha,Jekabs Redlihs,0,1,1
-03/24/2006,Nebraska-Omaha,Thomas Morrow,0,1,1
-03/24/2006,Nebraska-Omaha,John Curry,0,0,0
+03/24/2006,Nebraska Omaha,David Van der Gulik,0,1,1
+03/24/2006,Nebraska Omaha,Brad Zancanaro,0,0,0
+03/24/2006,Nebraska Omaha,John Laliberte,0,1,1
+03/24/2006,Nebraska Omaha,Kenny Roche,1,1,2
+03/24/2006,Nebraska Omaha,Pete MacArthur,0,2,2
+03/24/2006,Nebraska Omaha,Bryan Ewing,2,1,3
+03/24/2006,Nebraska Omaha,Jason Lawrence,0,2,2
+03/24/2006,Nebraska Omaha,Chris Higgins,3,0,3
+03/24/2006,Nebraska Omaha,Brandon Yip,0,3,3
+03/24/2006,Nebraska Omaha,Brian McGuirk,1,0,1
+03/24/2006,Nebraska Omaha,John McCarthy,0,0,0
+03/24/2006,Nebraska Omaha,Ryan Weston,1,1,2
+03/24/2006,Nebraska Omaha,Dan Spang,1,0,1
+03/24/2006,Nebraska Omaha,Matt Gilroy,0,0,0
+03/24/2006,Nebraska Omaha,Stephan Siwiec,0,0,0
+03/24/2006,Nebraska Omaha,Sean Sullivan,0,3,3
+03/24/2006,Nebraska Omaha,Kevin Schaeffer,0,0,0
+03/24/2006,Nebraska Omaha,Karson Gillespie,0,0,0
+03/24/2006,Nebraska Omaha,Jekabs Redlihs,0,1,1
+03/24/2006,Nebraska Omaha,Thomas Morrow,0,1,1
+03/24/2006,Nebraska Omaha,John Curry,0,0,0
 03/25/2006,Boston College,David Van der Gulik,0,0,0
 03/25/2006,Boston College,Brad Zancanaro,0,0,0
 03/25/2006,Boston College,John Laliberte,0,0,0
@@ -11053,44 +11053,44 @@
 10/14/2017,Minnesota State,Jake Oettinger,0,0,0
 10/14/2017,Minnesota State,David Farrance,0,0,0
 10/14/2017,Minnesota State,Dante Fabbro,0,0,0
-10/20/2017,UConn,Jordan Greenway,0,1,1
-10/20/2017,UConn,Shane Bowers,0,0,0
-10/20/2017,UConn,Hank Crone,0,0,0
-10/20/2017,UConn,Brady Tkachuk,0,0,0
-10/20/2017,UConn,Bobo Carpenter,2,0,2
-10/20/2017,UConn,Patrick Harper,0,0,0
-10/20/2017,UConn,Nikolas Olsson,0,0,0
-10/20/2017,UConn,Drew Melanson,0,0,0
-10/20/2017,UConn,Chase Phelps,0,0,0
-10/20/2017,UConn,Logan Cockerill,0,0,0
-10/20/2017,UConn,Ryan Cloonan,0,0,0
-10/20/2017,UConn,Patrick Curry,0,0,0
-10/20/2017,UConn,Brandon Hickey,0,0,0
-10/20/2017,UConn,Kasper Kotkansalo,0,0,0
-10/20/2017,UConn,David Farrance,0,0,0
-10/20/2017,UConn,Dante Fabbro,0,0,0
-10/20/2017,UConn,Jake Oettinger,0,0,0
-10/20/2017,UConn,Chad Krys,0,0,0
-10/20/2017,UConn,Cam Crotty,0,0,0
-10/21/2017,UConn,Brady Tkachuk,0,1,1
-10/21/2017,UConn,Bobo Carpenter,3,1,4
-10/21/2017,UConn,Patrick Curry,2,0,2
-10/21/2017,UConn,Patrick Harper,0,2,2
-10/21/2017,UConn,Shane Bowers,0,1,1
-10/21/2017,UConn,Jordan Greenway,0,2,2
-10/21/2017,UConn,Nikolas Olsson,0,0,0
-10/21/2017,UConn,Drew Melanson,0,0,0
-10/21/2017,UConn,Ty Amonte,0,0,0
-10/21/2017,UConn,Hank Crone,0,0,0
-10/21/2017,UConn,Ryan Cloonan,0,0,0
-10/21/2017,UConn,Chase Phelps,0,0,0
-10/21/2017,UConn,Brandon Hickey,1,0,1
-10/21/2017,UConn,Dante Fabbro,0,2,2
-10/21/2017,UConn,Jake Oettinger,0,0,0
-10/21/2017,UConn,Kasper Kotkansalo,0,1,1
-10/21/2017,UConn,John MacLeod,0,1,1
-10/21/2017,UConn,Chad Krys,0,1,1
-10/21/2017,UConn,Cam Crotty,0,0,0
+10/20/2017,Connecticut,Jordan Greenway,0,1,1
+10/20/2017,Connecticut,Shane Bowers,0,0,0
+10/20/2017,Connecticut,Hank Crone,0,0,0
+10/20/2017,Connecticut,Brady Tkachuk,0,0,0
+10/20/2017,Connecticut,Bobo Carpenter,2,0,2
+10/20/2017,Connecticut,Patrick Harper,0,0,0
+10/20/2017,Connecticut,Nikolas Olsson,0,0,0
+10/20/2017,Connecticut,Drew Melanson,0,0,0
+10/20/2017,Connecticut,Chase Phelps,0,0,0
+10/20/2017,Connecticut,Logan Cockerill,0,0,0
+10/20/2017,Connecticut,Ryan Cloonan,0,0,0
+10/20/2017,Connecticut,Patrick Curry,0,0,0
+10/20/2017,Connecticut,Brandon Hickey,0,0,0
+10/20/2017,Connecticut,Kasper Kotkansalo,0,0,0
+10/20/2017,Connecticut,David Farrance,0,0,0
+10/20/2017,Connecticut,Dante Fabbro,0,0,0
+10/20/2017,Connecticut,Jake Oettinger,0,0,0
+10/20/2017,Connecticut,Chad Krys,0,0,0
+10/20/2017,Connecticut,Cam Crotty,0,0,0
+10/21/2017,Connecticut,Brady Tkachuk,0,1,1
+10/21/2017,Connecticut,Bobo Carpenter,3,1,4
+10/21/2017,Connecticut,Patrick Curry,2,0,2
+10/21/2017,Connecticut,Patrick Harper,0,2,2
+10/21/2017,Connecticut,Shane Bowers,0,1,1
+10/21/2017,Connecticut,Jordan Greenway,0,2,2
+10/21/2017,Connecticut,Nikolas Olsson,0,0,0
+10/21/2017,Connecticut,Drew Melanson,0,0,0
+10/21/2017,Connecticut,Ty Amonte,0,0,0
+10/21/2017,Connecticut,Hank Crone,0,0,0
+10/21/2017,Connecticut,Ryan Cloonan,0,0,0
+10/21/2017,Connecticut,Chase Phelps,0,0,0
+10/21/2017,Connecticut,Brandon Hickey,1,0,1
+10/21/2017,Connecticut,Dante Fabbro,0,2,2
+10/21/2017,Connecticut,Jake Oettinger,0,0,0
+10/21/2017,Connecticut,Kasper Kotkansalo,0,1,1
+10/21/2017,Connecticut,John MacLeod,0,1,1
+10/21/2017,Connecticut,Chad Krys,0,1,1
+10/21/2017,Connecticut,Cam Crotty,0,0,0
 10/27/2017,Denver,Brady Tkachuk,0,1,1
 10/27/2017,Denver,Bobo Carpenter,1,0,1
 10/27/2017,Denver,Patrick Curry,0,0,0
@@ -11548,25 +11548,25 @@
 02/12/2018,Northeastern,John MacLeod,0,0,0
 02/12/2018,Northeastern,Kasper Kotkansalo,0,0,0
 02/12/2018,Northeastern,Cam Crotty,0,0,0
-02/16/2018,UConn,Hank Crone,0,1,1
-02/16/2018,UConn,Bobo Carpenter,1,1,2
-02/16/2018,UConn,Drew Melanson,0,1,1
-02/16/2018,UConn,Logan Cockerill,0,1,1
-02/16/2018,UConn,Shane Bowers,0,0,0
-02/16/2018,UConn,Brady Tkachuk,0,1,1
-02/16/2018,UConn,David Farrance,0,1,1
-02/16/2018,UConn,Ty Amonte,1,0,1
-02/16/2018,UConn,Gabriel Chabot,0,1,1
-02/16/2018,UConn,Nikolas Olsson,0,0,0
-02/16/2018,UConn,Chase Phelps,0,0,0
-02/16/2018,UConn,Jake Witkowski,0,0,0
-02/16/2018,UConn,Brandon Hickey,0,0,0
-02/16/2018,UConn,Dante Fabbro,0,1,1
-02/16/2018,UConn,Jake Oettinger,0,0,0
-02/16/2018,UConn,Kasper Kotkansalo,0,0,0
-02/16/2018,UConn,Chad Krys,1,0,1
-02/16/2018,UConn,Brien Diffley,1,0,1
-02/16/2018,UConn,John MacLeod,0,0,0
+02/16/2018,Connecticut,Hank Crone,0,1,1
+02/16/2018,Connecticut,Bobo Carpenter,1,1,2
+02/16/2018,Connecticut,Drew Melanson,0,1,1
+02/16/2018,Connecticut,Logan Cockerill,0,1,1
+02/16/2018,Connecticut,Shane Bowers,0,0,0
+02/16/2018,Connecticut,Brady Tkachuk,0,1,1
+02/16/2018,Connecticut,David Farrance,0,1,1
+02/16/2018,Connecticut,Ty Amonte,1,0,1
+02/16/2018,Connecticut,Gabriel Chabot,0,1,1
+02/16/2018,Connecticut,Nikolas Olsson,0,0,0
+02/16/2018,Connecticut,Chase Phelps,0,0,0
+02/16/2018,Connecticut,Jake Witkowski,0,0,0
+02/16/2018,Connecticut,Brandon Hickey,0,0,0
+02/16/2018,Connecticut,Dante Fabbro,0,1,1
+02/16/2018,Connecticut,Jake Oettinger,0,0,0
+02/16/2018,Connecticut,Kasper Kotkansalo,0,0,0
+02/16/2018,Connecticut,Chad Krys,1,0,1
+02/16/2018,Connecticut,Brien Diffley,1,0,1
+02/16/2018,Connecticut,John MacLeod,0,0,0
 02/17/2018,Merrimack,Hank Crone,0,0,0
 02/17/2018,Merrimack,Bobo Carpenter,0,0,0
 02/17/2018,Merrimack,Drew Melanson,0,1,1
@@ -11624,44 +11624,44 @@
 02/24/2018,Vermont,Jake Oettinger,0,0,0
 02/24/2018,Vermont,Kasper Kotkansalo,0,0,0
 02/24/2018,Vermont,Cam Crotty,0,0,0
-03/09/2018,UConn,Logan Cockerill,0,1,1
-03/09/2018,UConn,Shane Bowers,0,2,2
-03/09/2018,UConn,Bobo Carpenter,1,0,1
-03/09/2018,UConn,Brady Tkachuk,0,1,1
-03/09/2018,UConn,Jordan Greenway,2,0,2
-03/09/2018,UConn,Drew Melanson,1,1,2
-03/09/2018,UConn,David Farrance,0,0,0
-03/09/2018,UConn,Ty Amonte,0,0,0
-03/09/2018,UConn,Hank Crone,0,0,0
-03/09/2018,UConn,Patrick Curry,0,0,0
-03/09/2018,UConn,Chase Phelps,0,0,0
-03/09/2018,UConn,Gabriel Chabot,0,0,0
-03/09/2018,UConn,Chad Krys,1,2,3
-03/09/2018,UConn,John MacLeod,0,0,0
-03/09/2018,UConn,Brandon Hickey,0,0,0
-03/09/2018,UConn,Dante Fabbro,0,1,1
-03/09/2018,UConn,Jake Oettinger,0,0,0
-03/09/2018,UConn,Kasper Kotkansalo,0,1,1
-03/09/2018,UConn,Cam Crotty,0,0,0
-03/10/2018,UConn,Brady Tkachuk,1,0,1
-03/10/2018,UConn,Jordan Greenway,0,1,1
-03/10/2018,UConn,Drew Melanson,0,0,0
-03/10/2018,UConn,Logan Cockerill,1,0,1
-03/10/2018,UConn,Shane Bowers,0,1,1
-03/10/2018,UConn,Bobo Carpenter,0,0,0
-03/10/2018,UConn,David Farrance,0,0,0
-03/10/2018,UConn,Ty Amonte,0,0,0
-03/10/2018,UConn,Hank Crone,0,0,0
-03/10/2018,UConn,Patrick Curry,0,0,0
-03/10/2018,UConn,Chase Phelps,0,0,0
-03/10/2018,UConn,Gabriel Chabot,0,0,0
-03/10/2018,UConn,Brandon Hickey,0,0,0
-03/10/2018,UConn,Dante Fabbro,0,2,2
-03/10/2018,UConn,Chad Krys,0,0,0
-03/10/2018,UConn,Brien Diffley,0,0,0
-03/10/2018,UConn,Jake Oettinger,0,0,0
-03/10/2018,UConn,Kasper Kotkansalo,0,0,0
-03/10/2018,UConn,Cam Crotty,0,0,0
+03/09/2018,Connecticut,Logan Cockerill,0,1,1
+03/09/2018,Connecticut,Shane Bowers,0,2,2
+03/09/2018,Connecticut,Bobo Carpenter,1,0,1
+03/09/2018,Connecticut,Brady Tkachuk,0,1,1
+03/09/2018,Connecticut,Jordan Greenway,2,0,2
+03/09/2018,Connecticut,Drew Melanson,1,1,2
+03/09/2018,Connecticut,David Farrance,0,0,0
+03/09/2018,Connecticut,Ty Amonte,0,0,0
+03/09/2018,Connecticut,Hank Crone,0,0,0
+03/09/2018,Connecticut,Patrick Curry,0,0,0
+03/09/2018,Connecticut,Chase Phelps,0,0,0
+03/09/2018,Connecticut,Gabriel Chabot,0,0,0
+03/09/2018,Connecticut,Chad Krys,1,2,3
+03/09/2018,Connecticut,John MacLeod,0,0,0
+03/09/2018,Connecticut,Brandon Hickey,0,0,0
+03/09/2018,Connecticut,Dante Fabbro,0,1,1
+03/09/2018,Connecticut,Jake Oettinger,0,0,0
+03/09/2018,Connecticut,Kasper Kotkansalo,0,1,1
+03/09/2018,Connecticut,Cam Crotty,0,0,0
+03/10/2018,Connecticut,Brady Tkachuk,1,0,1
+03/10/2018,Connecticut,Jordan Greenway,0,1,1
+03/10/2018,Connecticut,Drew Melanson,0,0,0
+03/10/2018,Connecticut,Logan Cockerill,1,0,1
+03/10/2018,Connecticut,Shane Bowers,0,1,1
+03/10/2018,Connecticut,Bobo Carpenter,0,0,0
+03/10/2018,Connecticut,David Farrance,0,0,0
+03/10/2018,Connecticut,Ty Amonte,0,0,0
+03/10/2018,Connecticut,Hank Crone,0,0,0
+03/10/2018,Connecticut,Patrick Curry,0,0,0
+03/10/2018,Connecticut,Chase Phelps,0,0,0
+03/10/2018,Connecticut,Gabriel Chabot,0,0,0
+03/10/2018,Connecticut,Brandon Hickey,0,0,0
+03/10/2018,Connecticut,Dante Fabbro,0,2,2
+03/10/2018,Connecticut,Chad Krys,0,0,0
+03/10/2018,Connecticut,Brien Diffley,0,0,0
+03/10/2018,Connecticut,Jake Oettinger,0,0,0
+03/10/2018,Connecticut,Kasper Kotkansalo,0,0,0
+03/10/2018,Connecticut,Cam Crotty,0,0,0
 03/16/2018,Boston College,Brady Tkachuk,0,0,0
 03/16/2018,Boston College,Jordan Greenway,0,2,2
 03/16/2018,Boston College,Drew Melanson,1,0,1
@@ -11920,26 +11920,26 @@
 11/17/2018,Maine,Chad Krys,0,0,0
 11/17/2018,Maine,Hugo Blixt,0,0,0
 11/17/2018,Maine,Jake Witkowski,0,0,0
-11/23/2018,UConn,Max Willman,0,1,1
-11/23/2018,UConn,Shane Bowers,0,0,0
-11/23/2018,UConn,Joel Farabee,0,0,0
-11/23/2018,UConn,Patrick Harper,0,1,1
-11/23/2018,UConn,Bobo Carpenter,0,0,0
-11/23/2018,UConn,Jake Wise,0,0,0
-11/23/2018,UConn,Logan Cockerill,1,0,1
-11/23/2018,UConn,Ty Amonte,1,0,1
-11/23/2018,UConn,Patrick Curry,1,0,1
-11/23/2018,UConn,Matthew Quercia,0,0,0
-11/23/2018,UConn,Ryan Cloonan,0,0,0
-11/23/2018,UConn,Gabriel Chabot,0,0,0
-11/23/2018,UConn,David Farrance,0,0,0
-11/23/2018,UConn,Dante Fabbro,0,0,0
-11/23/2018,UConn,Kasper Kotkansalo,0,0,0
-11/23/2018,UConn,Cam Crotty,0,0,0
-11/23/2018,UConn,Jake Oettinger,0,0,0
-11/23/2018,UConn,Chad Krys,0,0,0
-11/23/2018,UConn,Hugo Blixt,0,1,1
-11/23/2018,UConn,Mark Cheremeta,0,2,2
+11/23/2018,Connecticut,Max Willman,0,1,1
+11/23/2018,Connecticut,Shane Bowers,0,0,0
+11/23/2018,Connecticut,Joel Farabee,0,0,0
+11/23/2018,Connecticut,Patrick Harper,0,1,1
+11/23/2018,Connecticut,Bobo Carpenter,0,0,0
+11/23/2018,Connecticut,Jake Wise,0,0,0
+11/23/2018,Connecticut,Logan Cockerill,1,0,1
+11/23/2018,Connecticut,Ty Amonte,1,0,1
+11/23/2018,Connecticut,Patrick Curry,1,0,1
+11/23/2018,Connecticut,Matthew Quercia,0,0,0
+11/23/2018,Connecticut,Ryan Cloonan,0,0,0
+11/23/2018,Connecticut,Gabriel Chabot,0,0,0
+11/23/2018,Connecticut,David Farrance,0,0,0
+11/23/2018,Connecticut,Dante Fabbro,0,0,0
+11/23/2018,Connecticut,Kasper Kotkansalo,0,0,0
+11/23/2018,Connecticut,Cam Crotty,0,0,0
+11/23/2018,Connecticut,Jake Oettinger,0,0,0
+11/23/2018,Connecticut,Chad Krys,0,0,0
+11/23/2018,Connecticut,Hugo Blixt,0,1,1
+11/23/2018,Connecticut,Mark Cheremeta,0,2,2
 11/24/2018,Union,Max Willman,0,0,0
 11/24/2018,Union,Shane Bowers,0,0,0
 11/24/2018,Union,Joel Farabee,0,0,0
@@ -12281,46 +12281,46 @@
 02/11/2019,Harvard,Chad Krys,0,0,0
 02/11/2019,Harvard,Hugo Blixt,0,0,0
 02/11/2019,Harvard,Shane Switzer,0,0,0
-02/15/2019,UConn,Logan Cockerill,0,0,0
-02/15/2019,UConn,Ty Amonte,0,0,0
-02/15/2019,UConn,Patrick Harper,1,0,1
-02/15/2019,UConn,Joel Farabee,0,0,0
-02/15/2019,UConn,Shane Bowers,0,0,0
-02/15/2019,UConn,Patrick Curry,1,0,1
-02/15/2019,UConn,Matthew Quercia,0,0,0
-02/15/2019,UConn,Ryan Cloonan,0,0,0
-02/15/2019,UConn,Max Willman,0,0,0
-02/15/2019,UConn,Mark Cheremeta,0,0,0
-02/15/2019,UConn,Jack DeBoer,0,0,0
-02/15/2019,UConn,Gabriel Chabot,0,0,0
-02/15/2019,UConn,David Farrance,0,2,2
-02/15/2019,UConn,Dante Fabbro,0,2,2
-02/15/2019,UConn,Chad Krys,0,0,0
-02/15/2019,UConn,Cam Crotty,0,0,0
-02/15/2019,UConn,Jake Oettinger,0,0,0
-02/15/2019,UConn,Kasper Kotkansalo,0,0,0
-02/15/2019,UConn,Hugo Blixt,0,0,0
-02/15/2019,UConn,Shane Switzer,0,0,0
-02/16/2019,UConn,Joel Farabee,1,0,1
-02/16/2019,UConn,Shane Bowers,0,0,0
-02/16/2019,UConn,Patrick Curry,0,0,0
-02/16/2019,UConn,Ryan Cloonan,0,1,1
-02/16/2019,UConn,Ty Amonte,1,0,1
-02/16/2019,UConn,Patrick Harper,0,0,0
-02/16/2019,UConn,Logan Cockerill,0,0,0
-02/16/2019,UConn,Matthew Quercia,0,0,0
-02/16/2019,UConn,Max Willman,0,0,0
-02/16/2019,UConn,Gabriel Chabot,0,0,0
-02/16/2019,UConn,Jack DeBoer,0,0,0
-02/16/2019,UConn,Jake Witkowski,0,0,0
-02/16/2019,UConn,David Farrance,0,0,0
-02/16/2019,UConn,Dante Fabbro,0,0,0
-02/16/2019,UConn,Chad Krys,0,0,0
-02/16/2019,UConn,Cam Crotty,0,1,1
-02/16/2019,UConn,Jake Oettinger,0,0,0
-02/16/2019,UConn,Kasper Kotkansalo,0,1,1
-02/16/2019,UConn,Hugo Blixt,0,0,0
-02/16/2019,UConn,Shane Switzer,0,0,0
+02/15/2019,Connecticut,Logan Cockerill,0,0,0
+02/15/2019,Connecticut,Ty Amonte,0,0,0
+02/15/2019,Connecticut,Patrick Harper,1,0,1
+02/15/2019,Connecticut,Joel Farabee,0,0,0
+02/15/2019,Connecticut,Shane Bowers,0,0,0
+02/15/2019,Connecticut,Patrick Curry,1,0,1
+02/15/2019,Connecticut,Matthew Quercia,0,0,0
+02/15/2019,Connecticut,Ryan Cloonan,0,0,0
+02/15/2019,Connecticut,Max Willman,0,0,0
+02/15/2019,Connecticut,Mark Cheremeta,0,0,0
+02/15/2019,Connecticut,Jack DeBoer,0,0,0
+02/15/2019,Connecticut,Gabriel Chabot,0,0,0
+02/15/2019,Connecticut,David Farrance,0,2,2
+02/15/2019,Connecticut,Dante Fabbro,0,2,2
+02/15/2019,Connecticut,Chad Krys,0,0,0
+02/15/2019,Connecticut,Cam Crotty,0,0,0
+02/15/2019,Connecticut,Jake Oettinger,0,0,0
+02/15/2019,Connecticut,Kasper Kotkansalo,0,0,0
+02/15/2019,Connecticut,Hugo Blixt,0,0,0
+02/15/2019,Connecticut,Shane Switzer,0,0,0
+02/16/2019,Connecticut,Joel Farabee,1,0,1
+02/16/2019,Connecticut,Shane Bowers,0,0,0
+02/16/2019,Connecticut,Patrick Curry,0,0,0
+02/16/2019,Connecticut,Ryan Cloonan,0,1,1
+02/16/2019,Connecticut,Ty Amonte,1,0,1
+02/16/2019,Connecticut,Patrick Harper,0,0,0
+02/16/2019,Connecticut,Logan Cockerill,0,0,0
+02/16/2019,Connecticut,Matthew Quercia,0,0,0
+02/16/2019,Connecticut,Max Willman,0,0,0
+02/16/2019,Connecticut,Gabriel Chabot,0,0,0
+02/16/2019,Connecticut,Jack DeBoer,0,0,0
+02/16/2019,Connecticut,Jake Witkowski,0,0,0
+02/16/2019,Connecticut,David Farrance,0,0,0
+02/16/2019,Connecticut,Dante Fabbro,0,0,0
+02/16/2019,Connecticut,Chad Krys,0,0,0
+02/16/2019,Connecticut,Cam Crotty,0,1,1
+02/16/2019,Connecticut,Jake Oettinger,0,0,0
+02/16/2019,Connecticut,Kasper Kotkansalo,0,1,1
+02/16/2019,Connecticut,Hugo Blixt,0,0,0
+02/16/2019,Connecticut,Shane Switzer,0,0,0
 02/22/2019,Vermont,Joel Farabee,0,0,0
 02/22/2019,Vermont,Shane Bowers,0,0,0
 02/22/2019,Vermont,Patrick Curry,0,0,0
@@ -13084,47 +13084,47 @@
 02/15/2020,New Hampshire,Alex Vlasic,0,0,0
 02/15/2020,New Hampshire,Sam Tucker,0,0,0
 02/15/2020,New Hampshire,Jack DeBoer,0,0,0
-02/21/2020,UConn,Jamie Armstrong,0,0,0
-02/21/2020,UConn,Trevor Zegras,0,0,0
-02/21/2020,UConn,Patrick Harper,0,1,1
-02/21/2020,UConn,Logan Cockerill,0,0,0
-02/21/2020,UConn,Jake Wise,0,1,1
-02/21/2020,UConn,Patrick Curry,0,1,1
-02/21/2020,UConn,Robert Mastrosimone,0,1,1
-02/21/2020,UConn,Wilmer Skoog,0,0,0
-02/21/2020,UConn,Ethan Phillips,0,0,0
-02/21/2020,UConn,Gabriel Chabot,0,0,0
-02/21/2020,UConn,Markus Boguslavsky,0,0,0
-02/21/2020,UConn,Alex Brink,0,0,0
-02/21/2020,UConn,David Farrance,0,1,1
-02/21/2020,UConn,Cam Crotty,1,0,1
-02/21/2020,UConn,Domenick Fensore,0,1,1
-02/21/2020,UConn,Case McCarthy,1,0,1
-02/21/2020,UConn,Sam Tucker,0,0,0
-02/21/2020,UConn,Kasper Kotkansalo,0,0,0
-02/21/2020,UConn,Alex Vlasic,0,0,0
-02/21/2020,UConn,Jack DeBoer,1,0,1
-02/22/2020,UConn,Logan Cockerill,0,0,0
-02/22/2020,UConn,Jake Wise,0,0,0
-02/22/2020,UConn,Patrick Curry,1,0,1
-02/22/2020,UConn,Robert Mastrosimone,0,0,0
-02/22/2020,UConn,Trevor Zegras,0,1,1
-02/22/2020,UConn,Patrick Harper,0,0,0
-02/22/2020,UConn,Jamie Armstrong,0,0,0
-02/22/2020,UConn,Wilmer Skoog,0,0,0
-02/22/2020,UConn,Ethan Phillips,0,0,0
-02/22/2020,UConn,Gabriel Chabot,0,0,0
-02/22/2020,UConn,Sam Stevens,0,0,0
-02/22/2020,UConn,Alex Brink,0,0,0
-02/22/2020,UConn,David Farrance,0,1,1
-02/22/2020,UConn,Cam Crotty,0,0,0
-02/22/2020,UConn,Nico Lynch,0,0,0
-02/22/2020,UConn,Domenick Fensore,0,0,0
-02/22/2020,UConn,Alex Vlasic,0,0,0
-02/22/2020,UConn,Ashton Abel,0,0,0
-02/22/2020,UConn,Kasper Kotkansalo,0,0,0
-02/22/2020,UConn,Sean Driscoll,0,0,0
-02/22/2020,UConn,Jack DeBoer,0,0,0
+02/21/2020,Connecticut,Jamie Armstrong,0,0,0
+02/21/2020,Connecticut,Trevor Zegras,0,0,0
+02/21/2020,Connecticut,Patrick Harper,0,1,1
+02/21/2020,Connecticut,Logan Cockerill,0,0,0
+02/21/2020,Connecticut,Jake Wise,0,1,1
+02/21/2020,Connecticut,Patrick Curry,0,1,1
+02/21/2020,Connecticut,Robert Mastrosimone,0,1,1
+02/21/2020,Connecticut,Wilmer Skoog,0,0,0
+02/21/2020,Connecticut,Ethan Phillips,0,0,0
+02/21/2020,Connecticut,Gabriel Chabot,0,0,0
+02/21/2020,Connecticut,Markus Boguslavsky,0,0,0
+02/21/2020,Connecticut,Alex Brink,0,0,0
+02/21/2020,Connecticut,David Farrance,0,1,1
+02/21/2020,Connecticut,Cam Crotty,1,0,1
+02/21/2020,Connecticut,Domenick Fensore,0,1,1
+02/21/2020,Connecticut,Case McCarthy,1,0,1
+02/21/2020,Connecticut,Sam Tucker,0,0,0
+02/21/2020,Connecticut,Kasper Kotkansalo,0,0,0
+02/21/2020,Connecticut,Alex Vlasic,0,0,0
+02/21/2020,Connecticut,Jack DeBoer,1,0,1
+02/22/2020,Connecticut,Logan Cockerill,0,0,0
+02/22/2020,Connecticut,Jake Wise,0,0,0
+02/22/2020,Connecticut,Patrick Curry,1,0,1
+02/22/2020,Connecticut,Robert Mastrosimone,0,0,0
+02/22/2020,Connecticut,Trevor Zegras,0,1,1
+02/22/2020,Connecticut,Patrick Harper,0,0,0
+02/22/2020,Connecticut,Jamie Armstrong,0,0,0
+02/22/2020,Connecticut,Wilmer Skoog,0,0,0
+02/22/2020,Connecticut,Ethan Phillips,0,0,0
+02/22/2020,Connecticut,Gabriel Chabot,0,0,0
+02/22/2020,Connecticut,Sam Stevens,0,0,0
+02/22/2020,Connecticut,Alex Brink,0,0,0
+02/22/2020,Connecticut,David Farrance,0,1,1
+02/22/2020,Connecticut,Cam Crotty,0,0,0
+02/22/2020,Connecticut,Nico Lynch,0,0,0
+02/22/2020,Connecticut,Domenick Fensore,0,0,0
+02/22/2020,Connecticut,Alex Vlasic,0,0,0
+02/22/2020,Connecticut,Ashton Abel,0,0,0
+02/22/2020,Connecticut,Kasper Kotkansalo,0,0,0
+02/22/2020,Connecticut,Sean Driscoll,0,0,0
+02/22/2020,Connecticut,Jack DeBoer,0,0,0
 02/29/2020,Boston College,Robert Mastrosimone,0,0,0
 02/29/2020,Boston College,Jake Wise,0,0,0
 02/29/2020,Boston College,Patrick Curry,1,0,1
@@ -13386,26 +13386,26 @@
 02/13/2021,Vermont,Joseph Campolieto,0,0,0
 02/13/2021,Vermont,Cade Webber,0,1,1
 02/13/2021,Vermont,Jack DeBoer,0,0,0
-02/20/2021,UConn,Logan Cockerill,0,3,3
-02/20/2021,UConn,Jay O'Brien,1,1,2
-02/20/2021,UConn,Max Kaufman,1,1,2
-02/20/2021,UConn,Luke Tuch,1,0,1
-02/20/2021,UConn,Wilmer Skoog,0,0,0
-02/20/2021,UConn,Robert Mastrosimone,0,0,0
-02/20/2021,UConn,Matthew Quercia,0,0,0
-02/20/2021,UConn,Nick Zabaneh,0,0,0
-02/20/2021,UConn,Dylan Peterson,0,0,0
-02/20/2021,UConn,Jamie Armstrong,0,0,0
-02/20/2021,UConn,Sam Stevens,0,0,0
-02/20/2021,UConn,Markus Boguslavsky,0,0,0
-02/20/2021,UConn,Alex Vlasic,0,0,0
-02/20/2021,UConn,Thomas Jarman,0,0,0
-02/20/2021,UConn,Vinny Duplessis,0,0,0
-02/20/2021,UConn,Domenick Fensore,0,0,0
-02/20/2021,UConn,Case McCarthy,0,0,0
-02/20/2021,UConn,Joseph Campolieto,0,0,0
-02/20/2021,UConn,Cade Webber,0,0,0
-02/20/2021,UConn,Jack DeBoer,0,0,0
+02/20/2021,Connecticut,Logan Cockerill,0,3,3
+02/20/2021,Connecticut,Jay O'Brien,1,1,2
+02/20/2021,Connecticut,Max Kaufman,1,1,2
+02/20/2021,Connecticut,Luke Tuch,1,0,1
+02/20/2021,Connecticut,Wilmer Skoog,0,0,0
+02/20/2021,Connecticut,Robert Mastrosimone,0,0,0
+02/20/2021,Connecticut,Matthew Quercia,0,0,0
+02/20/2021,Connecticut,Nick Zabaneh,0,0,0
+02/20/2021,Connecticut,Dylan Peterson,0,0,0
+02/20/2021,Connecticut,Jamie Armstrong,0,0,0
+02/20/2021,Connecticut,Sam Stevens,0,0,0
+02/20/2021,Connecticut,Markus Boguslavsky,0,0,0
+02/20/2021,Connecticut,Alex Vlasic,0,0,0
+02/20/2021,Connecticut,Thomas Jarman,0,0,0
+02/20/2021,Connecticut,Vinny Duplessis,0,0,0
+02/20/2021,Connecticut,Domenick Fensore,0,0,0
+02/20/2021,Connecticut,Case McCarthy,0,0,0
+02/20/2021,Connecticut,Joseph Campolieto,0,0,0
+02/20/2021,Connecticut,Cade Webber,0,0,0
+02/20/2021,Connecticut,Jack DeBoer,0,0,0
 02/26/2021,Merrimack,Logan Cockerill,0,0,0
 02/26/2021,Merrimack,Jay O'Brien,0,1,1
 02/26/2021,Merrimack,Max Kaufman,0,0,0
@@ -13628,43 +13628,43 @@
 10/23/2021,Merrimack,Jamie Armstrong,0,1,1
 10/23/2021,Merrimack,Logan Cockerill,0,0,0
 10/23/2021,Merrimack,Ty Amonte,1,0,1
-10/29/2021,Mass.-Lowell,Brian Carrabes,0,0,0
-10/29/2021,Mass.-Lowell,Tyler Boucher,0,0,0
-10/29/2021,Mass.-Lowell,Braden Doyle,0,0,0
-10/29/2021,Mass.-Lowell,Ty Gallagher,0,0,0
-10/29/2021,Mass.-Lowell,Joseph Campolieto,0,0,0
-10/29/2021,Mass.-Lowell,Drew Commesso,0,0,0
-10/29/2021,Mass.-Lowell,Dylan Peterson,0,0,0
-10/29/2021,Mass.-Lowell,Max Kaufman,0,0,0
-10/29/2021,Mass.-Lowell,Cade Webber,0,0,0
-10/29/2021,Mass.-Lowell,Nick Zabaneh,0,0,0
-10/29/2021,Mass.-Lowell,Wilmer Skoog,0,0,0
-10/29/2021,Mass.-Lowell,Sam Stevens,0,0,0
-10/29/2021,Mass.-Lowell,Domenick Fensore,0,0,0
-10/29/2021,Mass.-Lowell,Ethan Phillips,0,0,0
-10/29/2021,Mass.-Lowell,Robert Mastrosimone,0,0,0
-10/29/2021,Mass.-Lowell,Alex Vlasic,0,0,0
-10/29/2021,Mass.-Lowell,Case McCarthy,0,0,0
-10/29/2021,Mass.-Lowell,Jamie Armstrong,0,0,0
-10/29/2021,Mass.-Lowell,Logan Cockerill,0,0,0
-10/29/2021,Mass.-Lowell,Ty Amonte,0,0,0
-10/30/2021,Mass.-Lowell,Brian Carrabes,0,0,0
-10/30/2021,Mass.-Lowell,Tyler Boucher,0,0,0
-10/30/2021,Mass.-Lowell,Ty Gallagher,0,0,0
-10/30/2021,Mass.-Lowell,Tristan Amonte,0,0,0
-10/30/2021,Mass.-Lowell,Drew Commesso,0,0,0
-10/30/2021,Mass.-Lowell,Dylan Peterson,0,0,0
-10/30/2021,Mass.-Lowell,Max Kaufman,0,0,0
-10/30/2021,Mass.-Lowell,Nick Zabaneh,0,0,0
-10/30/2021,Mass.-Lowell,Wilmer Skoog,0,0,0
-10/30/2021,Mass.-Lowell,Sam Stevens,0,0,0
-10/30/2021,Mass.-Lowell,Domenick Fensore,0,0,0
-10/30/2021,Mass.-Lowell,Markus Boguslavsky,0,0,0
-10/30/2021,Mass.-Lowell,Ethan Phillips,0,0,0
-10/30/2021,Mass.-Lowell,Robert Mastrosimone,0,1,1
-10/30/2021,Mass.-Lowell,Alex Vlasic,0,0,0
-10/30/2021,Mass.-Lowell,Case McCarthy,1,0,1
-10/30/2021,Mass.-Lowell,Jamie Armstrong,0,0,0
+10/29/2021,UMass Lowell,Brian Carrabes,0,0,0
+10/29/2021,UMass Lowell,Tyler Boucher,0,0,0
+10/29/2021,UMass Lowell,Braden Doyle,0,0,0
+10/29/2021,UMass Lowell,Ty Gallagher,0,0,0
+10/29/2021,UMass Lowell,Joseph Campolieto,0,0,0
+10/29/2021,UMass Lowell,Drew Commesso,0,0,0
+10/29/2021,UMass Lowell,Dylan Peterson,0,0,0
+10/29/2021,UMass Lowell,Max Kaufman,0,0,0
+10/29/2021,UMass Lowell,Cade Webber,0,0,0
+10/29/2021,UMass Lowell,Nick Zabaneh,0,0,0
+10/29/2021,UMass Lowell,Wilmer Skoog,0,0,0
+10/29/2021,UMass Lowell,Sam Stevens,0,0,0
+10/29/2021,UMass Lowell,Domenick Fensore,0,0,0
+10/29/2021,UMass Lowell,Ethan Phillips,0,0,0
+10/29/2021,UMass Lowell,Robert Mastrosimone,0,0,0
+10/29/2021,UMass Lowell,Alex Vlasic,0,0,0
+10/29/2021,UMass Lowell,Case McCarthy,0,0,0
+10/29/2021,UMass Lowell,Jamie Armstrong,0,0,0
+10/29/2021,UMass Lowell,Logan Cockerill,0,0,0
+10/29/2021,UMass Lowell,Ty Amonte,0,0,0
+10/30/2021,UMass Lowell,Brian Carrabes,0,0,0
+10/30/2021,UMass Lowell,Tyler Boucher,0,0,0
+10/30/2021,UMass Lowell,Ty Gallagher,0,0,0
+10/30/2021,UMass Lowell,Tristan Amonte,0,0,0
+10/30/2021,UMass Lowell,Drew Commesso,0,0,0
+10/30/2021,UMass Lowell,Dylan Peterson,0,0,0
+10/30/2021,UMass Lowell,Max Kaufman,0,0,0
+10/30/2021,UMass Lowell,Nick Zabaneh,0,0,0
+10/30/2021,UMass Lowell,Wilmer Skoog,0,0,0
+10/30/2021,UMass Lowell,Sam Stevens,0,0,0
+10/30/2021,UMass Lowell,Domenick Fensore,0,0,0
+10/30/2021,UMass Lowell,Markus Boguslavsky,0,0,0
+10/30/2021,UMass Lowell,Ethan Phillips,0,0,0
+10/30/2021,UMass Lowell,Robert Mastrosimone,0,1,1
+10/30/2021,UMass Lowell,Alex Vlasic,0,0,0
+10/30/2021,UMass Lowell,Case McCarthy,1,0,1
+10/30/2021,UMass Lowell,Jamie Armstrong,0,0,0
 11/05/2021,Northern Michigan,Brian Carrabes,0,0,0
 11/05/2021,Northern Michigan,Tyler Boucher,0,0,0
 11/05/2021,Northern Michigan,Braden Doyle,0,1,1
@@ -14304,46 +14304,46 @@
 10/22/2022,Connecticut,Jamie Armstrong,0,0,0
 10/22/2022,Connecticut,Luke Tuch,0,0,0
 10/22/2022,Connecticut,Vinny Duplessis,0,0,0
-10/28/2022,Mass.-Lowell,Devin Kaplan,0,0,0
-10/28/2022,Mass.-Lowell,Lane Hutson,0,0,0
-10/28/2022,Mass.-Lowell,Quinn Hutson,0,0,0
-10/28/2022,Mass.-Lowell,Jeremy Wilmer,0,0,0
-10/28/2022,Mass.-Lowell,Ryan Greene,0,0,0
-10/28/2022,Mass.-Lowell,Ty Gallagher,0,0,0
-10/28/2022,Mass.-Lowell,Tristan Amonte,0,0,0
-10/28/2022,Mass.-Lowell,Thomas Jarman,0,0,0
-10/28/2022,Mass.-Lowell,Matt Brown,0,0,0
-10/28/2022,Mass.-Lowell,Dylan Peterson,0,0,0
-10/28/2022,Mass.-Lowell,Cade Webber,0,0,0
-10/28/2022,Mass.-Lowell,Jay O'Brien,0,0,0
-10/28/2022,Mass.-Lowell,Wilmer Skoog,0,0,0
-10/28/2022,Mass.-Lowell,Sam Stevens,0,0,0
-10/28/2022,Mass.-Lowell,Domenick Fensore,0,1,1
-10/28/2022,Mass.-Lowell,Ethan Phillips,0,1,1
-10/28/2022,Mass.-Lowell,Case McCarthy,0,0,0
-10/28/2022,Mass.-Lowell,Jamie Armstrong,0,0,0
-10/28/2022,Mass.-Lowell,Luke Tuch,1,0,1
-10/28/2022,Mass.-Lowell,Vinny Duplessis,0,0,0
-10/29/2022,Mass.-Lowell,Devin Kaplan,0,0,0
-10/29/2022,Mass.-Lowell,Lane Hutson,2,0,2
-10/29/2022,Mass.-Lowell,Quinn Hutson,0,1,1
-10/29/2022,Mass.-Lowell,Jeremy Wilmer,0,1,1
-10/29/2022,Mass.-Lowell,Ryan Greene,0,0,0
-10/29/2022,Mass.-Lowell,Ty Gallagher,0,0,0
-10/29/2022,Mass.-Lowell,Tristan Amonte,0,0,0
-10/29/2022,Mass.-Lowell,Thomas Jarman,0,0,0
-10/29/2022,Mass.-Lowell,Matt Brown,0,1,1
-10/29/2022,Mass.-Lowell,Drew Commesso,0,0,0
-10/29/2022,Mass.-Lowell,Dylan Peterson,0,0,0
-10/29/2022,Mass.-Lowell,Cade Webber,0,0,0
-10/29/2022,Mass.-Lowell,Jay O'Brien,0,0,0
-10/29/2022,Mass.-Lowell,Wilmer Skoog,0,0,0
-10/29/2022,Mass.-Lowell,Sam Stevens,0,0,0
-10/29/2022,Mass.-Lowell,Domenick Fensore,0,0,0
-10/29/2022,Mass.-Lowell,Ethan Phillips,0,0,0
-10/29/2022,Mass.-Lowell,Case McCarthy,0,0,0
-10/29/2022,Mass.-Lowell,Jamie Armstrong,0,0,0
-10/29/2022,Mass.-Lowell,Luke Tuch,0,0,0
+10/28/2022,UMass Lowell,Devin Kaplan,0,0,0
+10/28/2022,UMass Lowell,Lane Hutson,0,0,0
+10/28/2022,UMass Lowell,Quinn Hutson,0,0,0
+10/28/2022,UMass Lowell,Jeremy Wilmer,0,0,0
+10/28/2022,UMass Lowell,Ryan Greene,0,0,0
+10/28/2022,UMass Lowell,Ty Gallagher,0,0,0
+10/28/2022,UMass Lowell,Tristan Amonte,0,0,0
+10/28/2022,UMass Lowell,Thomas Jarman,0,0,0
+10/28/2022,UMass Lowell,Matt Brown,0,0,0
+10/28/2022,UMass Lowell,Dylan Peterson,0,0,0
+10/28/2022,UMass Lowell,Cade Webber,0,0,0
+10/28/2022,UMass Lowell,Jay O'Brien,0,0,0
+10/28/2022,UMass Lowell,Wilmer Skoog,0,0,0
+10/28/2022,UMass Lowell,Sam Stevens,0,0,0
+10/28/2022,UMass Lowell,Domenick Fensore,0,1,1
+10/28/2022,UMass Lowell,Ethan Phillips,0,1,1
+10/28/2022,UMass Lowell,Case McCarthy,0,0,0
+10/28/2022,UMass Lowell,Jamie Armstrong,0,0,0
+10/28/2022,UMass Lowell,Luke Tuch,1,0,1
+10/28/2022,UMass Lowell,Vinny Duplessis,0,0,0
+10/29/2022,UMass Lowell,Devin Kaplan,0,0,0
+10/29/2022,UMass Lowell,Lane Hutson,2,0,2
+10/29/2022,UMass Lowell,Quinn Hutson,0,1,1
+10/29/2022,UMass Lowell,Jeremy Wilmer,0,1,1
+10/29/2022,UMass Lowell,Ryan Greene,0,0,0
+10/29/2022,UMass Lowell,Ty Gallagher,0,0,0
+10/29/2022,UMass Lowell,Tristan Amonte,0,0,0
+10/29/2022,UMass Lowell,Thomas Jarman,0,0,0
+10/29/2022,UMass Lowell,Matt Brown,0,1,1
+10/29/2022,UMass Lowell,Drew Commesso,0,0,0
+10/29/2022,UMass Lowell,Dylan Peterson,0,0,0
+10/29/2022,UMass Lowell,Cade Webber,0,0,0
+10/29/2022,UMass Lowell,Jay O'Brien,0,0,0
+10/29/2022,UMass Lowell,Wilmer Skoog,0,0,0
+10/29/2022,UMass Lowell,Sam Stevens,0,0,0
+10/29/2022,UMass Lowell,Domenick Fensore,0,0,0
+10/29/2022,UMass Lowell,Ethan Phillips,0,0,0
+10/29/2022,UMass Lowell,Case McCarthy,0,0,0
+10/29/2022,UMass Lowell,Jamie Armstrong,0,0,0
+10/29/2022,UMass Lowell,Luke Tuch,0,0,0
 11/11/2022,Massachusetts,Devin Kaplan,1,0,1
 11/11/2022,Massachusetts,Lane Hutson,0,2,2
 11/11/2022,Massachusetts,Quinn Hutson,2,1,3

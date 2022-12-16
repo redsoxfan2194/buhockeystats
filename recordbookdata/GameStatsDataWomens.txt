@@ -8708,22 +8708,22 @@
 10/20/2017,Maine,Savannah Newton,0,0,0
 10/20/2017,Maine,Abby Cook,0,0,0
 10/20/2017,Maine,Erin O'Neil,0,0,0
-10/22/2017,UConn,Mary Grace Kelley,0,0,0
-10/22/2017,UConn,Victoria Bach,1,3,4
-10/22/2017,UConn,Rebecca Leslie,3,1,4
-10/22/2017,UConn,Nina Rodgers,1,1,2
-10/22/2017,UConn,Jesse Compher,0,1,1
-10/22/2017,UConn,Natasza Tarnowski,0,1,1
-10/22/2017,UConn,Lauren Klein,0,0,0
-10/22/2017,UConn,Kristina Schuler,0,0,0
-10/22/2017,UConn,Nara Elia,1,0,1
-10/22/2017,UConn,Savannah Newton,0,1,1
-10/22/2017,UConn,Abby Cook,0,1,1
-10/22/2017,UConn,Connor Galway,0,0,0
-10/22/2017,UConn,Reagan Rust,0,1,1
-10/22/2017,UConn,Corinne Schroeder,0,1,1
-10/22/2017,UConn,Katie Shannahan,0,0,0
-10/22/2017,UConn,Abbey Stanley,0,0,0
+10/22/2017,Connecticut,Mary Grace Kelley,0,0,0
+10/22/2017,Connecticut,Victoria Bach,1,3,4
+10/22/2017,Connecticut,Rebecca Leslie,3,1,4
+10/22/2017,Connecticut,Nina Rodgers,1,1,2
+10/22/2017,Connecticut,Jesse Compher,0,1,1
+10/22/2017,Connecticut,Natasza Tarnowski,0,1,1
+10/22/2017,Connecticut,Lauren Klein,0,0,0
+10/22/2017,Connecticut,Kristina Schuler,0,0,0
+10/22/2017,Connecticut,Nara Elia,1,0,1
+10/22/2017,Connecticut,Savannah Newton,0,1,1
+10/22/2017,Connecticut,Abby Cook,0,1,1
+10/22/2017,Connecticut,Connor Galway,0,0,0
+10/22/2017,Connecticut,Reagan Rust,0,1,1
+10/22/2017,Connecticut,Corinne Schroeder,0,1,1
+10/22/2017,Connecticut,Katie Shannahan,0,0,0
+10/22/2017,Connecticut,Abbey Stanley,0,0,0
 10/28/2017,Boston College,Mary Grace Kelley,1,0,1
 10/28/2017,Boston College,Victoria Bach,0,2,2
 10/28/2017,Boston College,Rebecca Leslie,2,1,3
@@ -8794,23 +8794,23 @@
 11/04/2017,RIT,Reagan Rust,0,0,0
 11/04/2017,RIT,Savannah Newton,0,0,0
 11/04/2017,RIT,Abby Cook,0,0,0
-11/10/2017,UConn,Mary Grace Kelley,0,0,0
-11/10/2017,UConn,Victoria Bach,0,1,1
-11/10/2017,UConn,Rebecca Leslie,1,0,1
-11/10/2017,UConn,Nina Rodgers,0,0,0
-11/10/2017,UConn,Jesse Compher,0,1,1
-11/10/2017,UConn,Natasza Tarnowski,1,0,1
-11/10/2017,UConn,Lauren Klein,0,0,0
-11/10/2017,UConn,Kristina Schuler,0,0,0
-11/10/2017,UConn,Rachel Allen,0,0,0
-11/10/2017,UConn,Breanna Scarpaci,0,0,0
-11/10/2017,UConn,Connor Galway,0,0,0
-11/10/2017,UConn,Reagan Rust,0,0,0
-11/10/2017,UConn,Katie Shannahan,0,0,0
-11/10/2017,UConn,Abbey Stanley,0,1,1
-11/10/2017,UConn,Corinne Schroeder,0,0,0
-11/10/2017,UConn,Savannah Newton,0,0,0
-11/10/2017,UConn,Abby Cook,0,1,1
+11/10/2017,Connecticut,Mary Grace Kelley,0,0,0
+11/10/2017,Connecticut,Victoria Bach,0,1,1
+11/10/2017,Connecticut,Rebecca Leslie,1,0,1
+11/10/2017,Connecticut,Nina Rodgers,0,0,0
+11/10/2017,Connecticut,Jesse Compher,0,1,1
+11/10/2017,Connecticut,Natasza Tarnowski,1,0,1
+11/10/2017,Connecticut,Lauren Klein,0,0,0
+11/10/2017,Connecticut,Kristina Schuler,0,0,0
+11/10/2017,Connecticut,Rachel Allen,0,0,0
+11/10/2017,Connecticut,Breanna Scarpaci,0,0,0
+11/10/2017,Connecticut,Connor Galway,0,0,0
+11/10/2017,Connecticut,Reagan Rust,0,0,0
+11/10/2017,Connecticut,Katie Shannahan,0,0,0
+11/10/2017,Connecticut,Abbey Stanley,0,1,1
+11/10/2017,Connecticut,Corinne Schroeder,0,0,0
+11/10/2017,Connecticut,Savannah Newton,0,0,0
+11/10/2017,Connecticut,Abby Cook,0,1,1
 11/17/2017,Vermont,Mary Grace Kelley,0,3,3
 11/17/2017,Vermont,Victoria Bach,4,1,5
 11/17/2017,Vermont,Rebecca Leslie,1,3,4
@@ -9080,22 +9080,22 @@
 01/16/2018,Northeastern,Corinne Schroeder,0,0,0
 01/16/2018,Northeastern,Katie Shannahan,0,0,0
 01/16/2018,Northeastern,Abby Cook,0,0,0
-01/21/2018,UConn,Savannah Newton,0,0,0
-01/21/2018,UConn,Victoria Bach,0,0,0
-01/21/2018,UConn,Rebecca Leslie,0,0,0
-01/21/2018,UConn,Deziray De Sousa,1,1,2
-01/21/2018,UConn,Jesse Compher,1,0,1
-01/21/2018,UConn,Nara Elia,0,0,0
-01/21/2018,UConn,Nina Rodgers,0,0,0
-01/21/2018,UConn,Kristina Schuler,0,0,0
-01/21/2018,UConn,Natasza Tarnowski,0,0,0
-01/21/2018,UConn,Breanna Scarpaci,0,1,1
-01/21/2018,UConn,Abbey Stanley,0,1,1
-01/21/2018,UConn,Connor Galway,0,1,1
-01/21/2018,UConn,Reagan Rust,0,0,0
-01/21/2018,UConn,Corinne Schroeder,0,0,0
-01/21/2018,UConn,Katie Shannahan,0,0,0
-01/21/2018,UConn,Abby Cook,0,0,0
+01/21/2018,Connecticut,Savannah Newton,0,0,0
+01/21/2018,Connecticut,Victoria Bach,0,0,0
+01/21/2018,Connecticut,Rebecca Leslie,0,0,0
+01/21/2018,Connecticut,Deziray De Sousa,1,1,2
+01/21/2018,Connecticut,Jesse Compher,1,0,1
+01/21/2018,Connecticut,Nara Elia,0,0,0
+01/21/2018,Connecticut,Nina Rodgers,0,0,0
+01/21/2018,Connecticut,Kristina Schuler,0,0,0
+01/21/2018,Connecticut,Natasza Tarnowski,0,0,0
+01/21/2018,Connecticut,Breanna Scarpaci,0,1,1
+01/21/2018,Connecticut,Abbey Stanley,0,1,1
+01/21/2018,Connecticut,Connor Galway,0,1,1
+01/21/2018,Connecticut,Reagan Rust,0,0,0
+01/21/2018,Connecticut,Corinne Schroeder,0,0,0
+01/21/2018,Connecticut,Katie Shannahan,0,0,0
+01/21/2018,Connecticut,Abby Cook,0,0,0
 01/25/2018,Merrimack,Nina Rodgers,0,1,1
 01/25/2018,Merrimack,Victoria Bach,2,2,4
 01/25/2018,Merrimack,Rebecca Leslie,1,1,2
@@ -9347,26 +9347,26 @@
 10/13/2018,New Hampshire,Breanna Scarpaci,0,0,0
 10/13/2018,New Hampshire,Abbey Stanley,0,0,0
 10/13/2018,New Hampshire,Mary Grace Kelley,0,0,0
-10/19/2018,UConn,Emma Wuthrich,0,0,0
-10/19/2018,UConn,Kristina Schuler,0,0,0
-10/19/2018,UConn,Mackenna Parker,0,0,0
-10/19/2018,UConn,Sammy Davis,1,0,1
-10/19/2018,UConn,Jesse Compher,0,1,1
-10/19/2018,UConn,Courtney Correia,0,0,0
-10/19/2018,UConn,Deziray De Sousa,0,0,0
-10/19/2018,UConn,Natasza Tarnowski,0,0,0
-10/19/2018,UConn,Nara Elia,0,0,0
-10/19/2018,UConn,Rachel Allen,0,0,0
-10/19/2018,UConn,Mary Grace Kelley,0,0,0
-10/19/2018,UConn,Kaleigh Donnelly,0,0,0
-10/19/2018,UConn,Alex Allan,0,0,0
-10/19/2018,UConn,Abby Cook,0,0,0
-10/19/2018,UConn,Connor Galway,0,1,1
-10/19/2018,UConn,Reagan Rust,0,0,0
-10/19/2018,UConn,Corinne Schroeder,0,0,0
-10/19/2018,UConn,Breanna Scarpaci,0,0,0
-10/19/2018,UConn,Abbey Stanley,0,0,0
-10/19/2018,UConn,Katie Shannahan,0,0,0
+10/19/2018,Connecticut,Emma Wuthrich,0,0,0
+10/19/2018,Connecticut,Kristina Schuler,0,0,0
+10/19/2018,Connecticut,Mackenna Parker,0,0,0
+10/19/2018,Connecticut,Sammy Davis,1,0,1
+10/19/2018,Connecticut,Jesse Compher,0,1,1
+10/19/2018,Connecticut,Courtney Correia,0,0,0
+10/19/2018,Connecticut,Deziray De Sousa,0,0,0
+10/19/2018,Connecticut,Natasza Tarnowski,0,0,0
+10/19/2018,Connecticut,Nara Elia,0,0,0
+10/19/2018,Connecticut,Rachel Allen,0,0,0
+10/19/2018,Connecticut,Mary Grace Kelley,0,0,0
+10/19/2018,Connecticut,Kaleigh Donnelly,0,0,0
+10/19/2018,Connecticut,Alex Allan,0,0,0
+10/19/2018,Connecticut,Abby Cook,0,0,0
+10/19/2018,Connecticut,Connor Galway,0,1,1
+10/19/2018,Connecticut,Reagan Rust,0,0,0
+10/19/2018,Connecticut,Corinne Schroeder,0,0,0
+10/19/2018,Connecticut,Breanna Scarpaci,0,0,0
+10/19/2018,Connecticut,Abbey Stanley,0,0,0
+10/19/2018,Connecticut,Katie Shannahan,0,0,0
 10/20/2018,Maine,Sammy Davis,0,0,0
 10/20/2018,Maine,Jesse Compher,0,1,1
 10/20/2018,Maine,Courtney Correia,0,0,0
@@ -9407,26 +9407,26 @@
 10/28/2018,Northeastern,Breanna Scarpaci,0,0,0
 10/28/2018,Northeastern,Abbey Stanley,0,0,0
 10/28/2018,Northeastern,Katie Shannahan,0,0,0
-11/09/2018,UConn,Sammy Davis,2,1,3
-11/09/2018,UConn,Jesse Compher,2,1,3
-11/09/2018,UConn,Mackenna Parker,0,0,0
-11/09/2018,UConn,Emma Wuthrich,0,0,0
-11/09/2018,UConn,Kristina Schuler,0,0,0
-11/09/2018,UConn,Courtney Correia,0,0,0
-11/09/2018,UConn,Deziray De Sousa,0,0,0
-11/09/2018,UConn,Natasza Tarnowski,0,0,0
-11/09/2018,UConn,Nara Elia,0,0,0
-11/09/2018,UConn,Rachel Allen,0,0,0
-11/09/2018,UConn,Kaleigh Donnelly,0,0,0
-11/09/2018,UConn,Mary Grace Kelley,0,0,0
-11/09/2018,UConn,Connor Galway,0,0,0
-11/09/2018,UConn,Reagan Rust,0,0,0
-11/09/2018,UConn,Alex Allan,0,0,0
-11/09/2018,UConn,Abby Cook,0,1,1
-11/09/2018,UConn,Corinne Schroeder,0,0,0
-11/09/2018,UConn,Breanna Scarpaci,0,1,1
-11/09/2018,UConn,Abbey Stanley,0,2,2
-11/09/2018,UConn,Katie Shannahan,0,0,0
+11/09/2018,Connecticut,Sammy Davis,2,1,3
+11/09/2018,Connecticut,Jesse Compher,2,1,3
+11/09/2018,Connecticut,Mackenna Parker,0,0,0
+11/09/2018,Connecticut,Emma Wuthrich,0,0,0
+11/09/2018,Connecticut,Kristina Schuler,0,0,0
+11/09/2018,Connecticut,Courtney Correia,0,0,0
+11/09/2018,Connecticut,Deziray De Sousa,0,0,0
+11/09/2018,Connecticut,Natasza Tarnowski,0,0,0
+11/09/2018,Connecticut,Nara Elia,0,0,0
+11/09/2018,Connecticut,Rachel Allen,0,0,0
+11/09/2018,Connecticut,Kaleigh Donnelly,0,0,0
+11/09/2018,Connecticut,Mary Grace Kelley,0,0,0
+11/09/2018,Connecticut,Connor Galway,0,0,0
+11/09/2018,Connecticut,Reagan Rust,0,0,0
+11/09/2018,Connecticut,Alex Allan,0,0,0
+11/09/2018,Connecticut,Abby Cook,0,1,1
+11/09/2018,Connecticut,Corinne Schroeder,0,0,0
+11/09/2018,Connecticut,Breanna Scarpaci,0,1,1
+11/09/2018,Connecticut,Abbey Stanley,0,2,2
+11/09/2018,Connecticut,Katie Shannahan,0,0,0
 11/16/2018,Vermont,Sammy Davis,0,1,1
 11/16/2018,Vermont,Jesse Compher,1,1,2
 11/16/2018,Vermont,Rachel Allen,0,0,0
@@ -9909,26 +9909,26 @@
 02/17/2019,New Hampshire,Breanna Scarpaci,0,0,0
 02/17/2019,New Hampshire,Abbey Stanley,0,1,1
 02/17/2019,New Hampshire,Alexandra Calderone,0,0,0
-02/22/2019,UConn,Deziray De Sousa,0,0,0
-02/22/2019,UConn,Kristina Schuler,0,0,0
-02/22/2019,UConn,Nara Elia,1,0,1
-02/22/2019,UConn,Sammy Davis,0,0,0
-02/22/2019,UConn,Jesse Compher,0,0,0
-02/22/2019,UConn,Mackenna Parker,0,1,1
-02/22/2019,UConn,Courtney Correia,1,0,1
-02/22/2019,UConn,Natasza Tarnowski,0,0,0
-02/22/2019,UConn,Kaleigh Donnelly,0,1,1
-02/22/2019,UConn,Mary Grace Kelley,0,1,1
-02/22/2019,UConn,Emma Wuthrich,1,0,1
-02/22/2019,UConn,Rachel Allen,0,0,0
-02/22/2019,UConn,Alex Allan,0,0,0
-02/22/2019,UConn,Abby Cook,0,1,1
-02/22/2019,UConn,Connor Galway,0,0,0
-02/22/2019,UConn,Reagan Rust,0,0,0
-02/22/2019,UConn,Corinne Schroeder,0,0,0
-02/22/2019,UConn,Breanna Scarpaci,0,0,0
-02/22/2019,UConn,Abbey Stanley,0,0,0
-02/22/2019,UConn,Alexandra Calderone,0,0,0
+02/22/2019,Connecticut,Deziray De Sousa,0,0,0
+02/22/2019,Connecticut,Kristina Schuler,0,0,0
+02/22/2019,Connecticut,Nara Elia,1,0,1
+02/22/2019,Connecticut,Sammy Davis,0,0,0
+02/22/2019,Connecticut,Jesse Compher,0,0,0
+02/22/2019,Connecticut,Mackenna Parker,0,1,1
+02/22/2019,Connecticut,Courtney Correia,1,0,1
+02/22/2019,Connecticut,Natasza Tarnowski,0,0,0
+02/22/2019,Connecticut,Kaleigh Donnelly,0,1,1
+02/22/2019,Connecticut,Mary Grace Kelley,0,1,1
+02/22/2019,Connecticut,Emma Wuthrich,1,0,1
+02/22/2019,Connecticut,Rachel Allen,0,0,0
+02/22/2019,Connecticut,Alex Allan,0,0,0
+02/22/2019,Connecticut,Abby Cook,0,1,1
+02/22/2019,Connecticut,Connor Galway,0,0,0
+02/22/2019,Connecticut,Reagan Rust,0,0,0
+02/22/2019,Connecticut,Corinne Schroeder,0,0,0
+02/22/2019,Connecticut,Breanna Scarpaci,0,0,0
+02/22/2019,Connecticut,Abbey Stanley,0,0,0
+02/22/2019,Connecticut,Alexandra Calderone,0,0,0
 02/23/2019,Providence,Sammy Davis,0,0,0
 02/23/2019,Providence,Jesse Compher,0,0,0
 02/23/2019,Providence,Mackenna Parker,0,0,0
@@ -10069,26 +10069,26 @@
 10/12/2019,New Hampshire,Alex Allan,0,0,0
 10/12/2019,New Hampshire,Abbey Stanley,0,0,0
 10/12/2019,New Hampshire,Grace Parker,0,0,0
-10/18/2019,UConn,Sammy Davis,0,0,0
-10/18/2019,UConn,Natasza Tarnowski,0,0,0
-10/18/2019,UConn,Mackenna Parker,0,0,0
-10/18/2019,UConn,Julia Nearis,0,0,0
-10/18/2019,UConn,Kristina Schuler,0,0,0
-10/18/2019,UConn,Nara Elia,0,0,0
-10/18/2019,UConn,Deziray De Sousa,1,0,1
-10/18/2019,UConn,Courtney Correia,0,1,1
-10/18/2019,UConn,Kaleigh Donnelly,0,0,0
-10/18/2019,UConn,Katie Shannahan,0,0,0
-10/18/2019,UConn,Emma Wuthrich,0,0,0
-10/18/2019,UConn,Haylee Blinkhorn,0,0,0
-10/18/2019,UConn,Alex Allan,0,0,0
-10/18/2019,UConn,Abby Cook,0,1,1
-10/18/2019,UConn,Breanna Scarpaci,0,0,0
-10/18/2019,UConn,Nadia Mattivi,0,0,0
-10/18/2019,UConn,Corinne Schroeder,0,0,0
-10/18/2019,UConn,Alexandra Calderone,0,0,0
-10/18/2019,UConn,Abbey Stanley,0,0,0
-10/18/2019,UConn,Grace Parker,0,0,0
+10/18/2019,Connecticut,Sammy Davis,0,0,0
+10/18/2019,Connecticut,Natasza Tarnowski,0,0,0
+10/18/2019,Connecticut,Mackenna Parker,0,0,0
+10/18/2019,Connecticut,Julia Nearis,0,0,0
+10/18/2019,Connecticut,Kristina Schuler,0,0,0
+10/18/2019,Connecticut,Nara Elia,0,0,0
+10/18/2019,Connecticut,Deziray De Sousa,1,0,1
+10/18/2019,Connecticut,Courtney Correia,0,1,1
+10/18/2019,Connecticut,Kaleigh Donnelly,0,0,0
+10/18/2019,Connecticut,Katie Shannahan,0,0,0
+10/18/2019,Connecticut,Emma Wuthrich,0,0,0
+10/18/2019,Connecticut,Haylee Blinkhorn,0,0,0
+10/18/2019,Connecticut,Alex Allan,0,0,0
+10/18/2019,Connecticut,Abby Cook,0,1,1
+10/18/2019,Connecticut,Breanna Scarpaci,0,0,0
+10/18/2019,Connecticut,Nadia Mattivi,0,0,0
+10/18/2019,Connecticut,Corinne Schroeder,0,0,0
+10/18/2019,Connecticut,Alexandra Calderone,0,0,0
+10/18/2019,Connecticut,Abbey Stanley,0,0,0
+10/18/2019,Connecticut,Grace Parker,0,0,0
 10/20/2019,Maine,Sammy Davis,0,0,0
 10/20/2019,Maine,Natasza Tarnowski,0,0,0
 10/20/2019,Maine,Nara Elia,0,2,2
@@ -10649,45 +10649,45 @@
 02/16/2020,New Hampshire,Alex Allan,0,0,0
 02/16/2020,New Hampshire,Katie Shannahan,0,0,0
 02/16/2020,New Hampshire,Grace Parker,0,0,0
-02/21/2020,UConn,Deziray De Sousa,0,1,1
-02/21/2020,UConn,Kristina Schuler,0,1,1
-02/21/2020,UConn,Julia Nearis,1,0,1
-02/21/2020,UConn,Sammy Davis,1,2,3
-02/21/2020,UConn,Natasza Tarnowski,0,2,2
-02/21/2020,UConn,Nara Elia,1,0,1
-02/21/2020,UConn,Courtney Correia,1,0,1
-02/21/2020,UConn,Jesse Compher,2,0,2
-02/21/2020,UConn,Mackenna Parker,0,2,2
-02/21/2020,UConn,Kaleigh Donnelly,0,0,0
-02/21/2020,UConn,Emma Wuthrich,0,0,0
-02/21/2020,UConn,Haylee Blinkhorn,0,0,0
-02/21/2020,UConn,Katie Shannahan,0,0,0
-02/21/2020,UConn,Abbey Stanley,0,1,1
-02/21/2020,UConn,Alexandra Calderone,0,2,2
-02/21/2020,UConn,Abby Cook,0,1,1
-02/21/2020,UConn,Corinne Schroeder,0,0,0
-02/21/2020,UConn,Breanna Scarpaci,0,0,0
-02/21/2020,UConn,Alex Allan,0,0,0
-02/21/2020,UConn,Grace Parker,0,0,0
-02/22/2020,UConn,Sammy Davis,0,1,1
-02/22/2020,UConn,Natasza Tarnowski,1,1,2
-02/22/2020,UConn,Abby Cook,1,0,1
-02/22/2020,UConn,Deziray De Sousa,0,0,0
-02/22/2020,UConn,Kristina Schuler,0,1,1
-02/22/2020,UConn,Julia Nearis,0,0,0
-02/22/2020,UConn,Courtney Correia,0,0,0
-02/22/2020,UConn,Nara Elia,1,1,2
-02/22/2020,UConn,Mackenna Parker,0,0,0
-02/22/2020,UConn,Kaleigh Donnelly,0,0,0
-02/22/2020,UConn,Emma Wuthrich,0,0,0
-02/22/2020,UConn,Haylee Blinkhorn,0,0,0
-02/22/2020,UConn,Breanna Scarpaci,0,0,0
-02/22/2020,UConn,Alexandra Calderone,0,1,1
-02/22/2020,UConn,Grace Parker,0,0,0
-02/22/2020,UConn,Alex Allan,0,1,1
-02/22/2020,UConn,Corinne Schroeder,0,0,0
-02/22/2020,UConn,Katie Shannahan,0,0,0
-02/22/2020,UConn,Abbey Stanley,0,0,0
+02/21/2020,Connecticut,Deziray De Sousa,0,1,1
+02/21/2020,Connecticut,Kristina Schuler,0,1,1
+02/21/2020,Connecticut,Julia Nearis,1,0,1
+02/21/2020,Connecticut,Sammy Davis,1,2,3
+02/21/2020,Connecticut,Natasza Tarnowski,0,2,2
+02/21/2020,Connecticut,Nara Elia,1,0,1
+02/21/2020,Connecticut,Courtney Correia,1,0,1
+02/21/2020,Connecticut,Jesse Compher,2,0,2
+02/21/2020,Connecticut,Mackenna Parker,0,2,2
+02/21/2020,Connecticut,Kaleigh Donnelly,0,0,0
+02/21/2020,Connecticut,Emma Wuthrich,0,0,0
+02/21/2020,Connecticut,Haylee Blinkhorn,0,0,0
+02/21/2020,Connecticut,Katie Shannahan,0,0,0
+02/21/2020,Connecticut,Abbey Stanley,0,1,1
+02/21/2020,Connecticut,Alexandra Calderone,0,2,2
+02/21/2020,Connecticut,Abby Cook,0,1,1
+02/21/2020,Connecticut,Corinne Schroeder,0,0,0
+02/21/2020,Connecticut,Breanna Scarpaci,0,0,0
+02/21/2020,Connecticut,Alex Allan,0,0,0
+02/21/2020,Connecticut,Grace Parker,0,0,0
+02/22/2020,Connecticut,Sammy Davis,0,1,1
+02/22/2020,Connecticut,Natasza Tarnowski,1,1,2
+02/22/2020,Connecticut,Abby Cook,1,0,1
+02/22/2020,Connecticut,Deziray De Sousa,0,0,0
+02/22/2020,Connecticut,Kristina Schuler,0,1,1
+02/22/2020,Connecticut,Julia Nearis,0,0,0
+02/22/2020,Connecticut,Courtney Correia,0,0,0
+02/22/2020,Connecticut,Nara Elia,1,1,2
+02/22/2020,Connecticut,Mackenna Parker,0,0,0
+02/22/2020,Connecticut,Kaleigh Donnelly,0,0,0
+02/22/2020,Connecticut,Emma Wuthrich,0,0,0
+02/22/2020,Connecticut,Haylee Blinkhorn,0,0,0
+02/22/2020,Connecticut,Breanna Scarpaci,0,0,0
+02/22/2020,Connecticut,Alexandra Calderone,0,1,1
+02/22/2020,Connecticut,Grace Parker,0,0,0
+02/22/2020,Connecticut,Alex Allan,0,1,1
+02/22/2020,Connecticut,Corinne Schroeder,0,0,0
+02/22/2020,Connecticut,Katie Shannahan,0,0,0
+02/22/2020,Connecticut,Abbey Stanley,0,0,0
 02/28/2020,Maine,Sammy Davis,0,0,0
 02/28/2020,Maine,Natasza Tarnowski,0,0,0
 02/28/2020,Maine,Nara Elia,2,0,2
@@ -10768,25 +10768,25 @@
 12/05/2020,New Hampshire,Andi Calderone,0,0,0
 12/05/2020,New Hampshire,Julia Shaunessy,0,0,0
 12/05/2020,New Hampshire,Madison Cardaci,0,0,0
-12/11/2020,UConn,Kaleigh Donnelly,0,0,0
-12/11/2020,UConn,Kristina Schuler,0,0,0
-12/11/2020,UConn,Nara Elia,0,0,0
-12/11/2020,UConn,Courtney Correia,0,1,1
-12/11/2020,UConn,Haylee Blinkhorn,0,0,0
-12/11/2020,UConn,Mackenna Parker,1,0,1
-12/11/2020,UConn,Julia Nearis,0,1,1
-12/11/2020,UConn,Catherine Foulem,0,0,0
-12/11/2020,UConn,Clare O'Leary,0,0,0
-12/11/2020,UConn,Brooke Ersoy,0,0,0
-12/11/2020,UConn,Rachel Allen,0,0,0
-12/11/2020,UConn,Alex Allan,0,0,0
-12/11/2020,UConn,Madison Cardaci,0,0,0
-12/11/2020,UConn,Grace Parker,0,0,0
-12/11/2020,UConn,Nadia Mattivi,0,0,0
-12/11/2020,UConn,Corinne Schroeder,0,0,0
-12/11/2020,UConn,Andi Calderone,0,0,0
-12/11/2020,UConn,Tamara Giaquinto,0,0,0
-12/11/2020,UConn,Nicole McGuigan,0,0,0
+12/11/2020,Connecticut,Kaleigh Donnelly,0,0,0
+12/11/2020,Connecticut,Kristina Schuler,0,0,0
+12/11/2020,Connecticut,Nara Elia,0,0,0
+12/11/2020,Connecticut,Courtney Correia,0,1,1
+12/11/2020,Connecticut,Haylee Blinkhorn,0,0,0
+12/11/2020,Connecticut,Mackenna Parker,1,0,1
+12/11/2020,Connecticut,Julia Nearis,0,1,1
+12/11/2020,Connecticut,Catherine Foulem,0,0,0
+12/11/2020,Connecticut,Clare O'Leary,0,0,0
+12/11/2020,Connecticut,Brooke Ersoy,0,0,0
+12/11/2020,Connecticut,Rachel Allen,0,0,0
+12/11/2020,Connecticut,Alex Allan,0,0,0
+12/11/2020,Connecticut,Madison Cardaci,0,0,0
+12/11/2020,Connecticut,Grace Parker,0,0,0
+12/11/2020,Connecticut,Nadia Mattivi,0,0,0
+12/11/2020,Connecticut,Corinne Schroeder,0,0,0
+12/11/2020,Connecticut,Andi Calderone,0,0,0
+12/11/2020,Connecticut,Tamara Giaquinto,0,0,0
+12/11/2020,Connecticut,Nicole McGuigan,0,0,0
 01/23/2021,Maine,Kaleigh Donnelly,0,1,1
 01/23/2021,Maine,Courtney Correia,0,0,0
 01/23/2021,Maine,Mackenna Parker,0,0,0
