@@ -767,6 +767,7 @@ Boguslavsky,Markus 2019-22 39 4 2 6 6/23
 Campolieto,Joseph 2020-22 44 0 5 5 5/10
 Copeland,John 2019-23 19 0 1 1 1/2
 Driscoll,Sean 2019-23 22 1 0 1 4/8
+Doyle,Braden 2021-22 8 0 1 1 0/0
 Fensore,Domenick 2019-23 85 10 45 55 20/48
 Jarman,Thomas 2020-23 19 0 2 2 5/10
 Kaufman,Max 2020-22 49 7 12 19 8/16
