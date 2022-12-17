@@ -1723,12 +1723,12 @@ def getPlayerStats(playerDfs,query):
                 if(opponent!=''):
                     dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['season','yr','year']).sum()
                     dfRes.reset_index(inplace=True)
+                    if(dfRes.empty):
+                      return ''
                 else:
                     dfRes=dfSeasSkate.loc[dfSeasSkate['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()]
                 resStr="Season  Yr GP G A Pts\n"
                 cStats=False
-                if(dfRes.empty):
-                  return ''
                 startYear=dfRes.iloc[0]['year']
                 if(startYear==2003 and dfRes.iloc[0]['yr']!='FR'):
                     resStr+="(Season Stats Prior to 2002-03 N/A) \n"
@@ -1747,6 +1747,8 @@ def getPlayerStats(playerDfs,query):
                 if(opponent!=''):
                     dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['yr','season']).sum()
                     dfRes.reset_index(inplace=True)
+                    if(dfRes.empty):
+                      return ''
                 else:
                     dfRes=dfSeasSkate.loc[dfSeasSkate['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()]
                 resStr="Season  Yr GP G\n"
@@ -1767,6 +1769,8 @@ def getPlayerStats(playerDfs,query):
                 if(opponent!=''):
                     dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['yr','season']).sum()
                     dfRes.reset_index(inplace=True)
+                    if(dfRes.empty):
+                      return ''
                 else:
                     dfRes=dfSeasSkate.loc[dfSeasSkate['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()]
                 resStr="Season  Yr GP A\n"
@@ -1787,6 +1791,8 @@ def getPlayerStats(playerDfs,query):
                 if(opponent!=''):
                     dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['yr','season']).sum()
                     dfRes.reset_index(inplace=True)
+                    if(dfRes.empty):
+                      return ''
                 else:
                     dfRes=dfSeasSkate.loc[dfSeasSkate['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()]
                 resStr="Season  Yr GP Pts\n"
@@ -1810,6 +1816,8 @@ def getPlayerStats(playerDfs,query):
             tie=0
             if(opponent!=''):
                 dfRes=dfGameStatsGoalie.loc[(dfGameStatsGoalie['name'].str.contains(playerName,case=False)) & (dfGameStatsGoalie['opponent']==opponent)]
+                if(dfRes.empty):
+                      return ''
                 yrs=dfRes.yr.unique()
                 yrList=[]
                 for yr in yrs:
@@ -1915,6 +1923,8 @@ def getPlayerStats(playerDfs,query):
                 if(opponent!=''):
                     dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine.iloc[row]['name']) & (dfGameStats['opponent']==opponent)].groupby('name').sum()
                     dfRes.reset_index(inplace=True) 
+                    if(dfRes.empty):
+                      return ''
                 else:
                     dfRes=dfSeasSkate.loc[dfSeasSkate['name']==pStatsLine.iloc[row]['name']]
                 if(dfRes.empty and opponent!=''):
