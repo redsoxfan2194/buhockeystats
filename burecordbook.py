@@ -1727,6 +1727,8 @@ def getPlayerStats(playerDfs,query):
                     dfRes=dfSeasSkate.loc[dfSeasSkate['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()]
                 resStr="Season  Yr GP G A Pts\n"
                 cStats=False
+                if(dfRes.empty):
+                  return ''
                 startYear=dfRes.iloc[0]['year']
                 if(startYear==2003 and dfRes.iloc[0]['yr']!='FR'):
                     resStr+="(Season Stats Prior to 2002-03 N/A) \n"
