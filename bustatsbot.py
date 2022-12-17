@@ -29,6 +29,8 @@ def updateScoresAndStats():
   dfBeanpot,dfBeanpotWomens=generateBeanpotHistory()
   dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens=generateSeasonSkaters()
   dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens=generateSeasonGoalies()
+  dfGameStats,dfGameStatsMens,dfGameStatsMens=generateGameSkaterStats()
+  dfGameStatsGoalie,dfGameStatsGoalieMens,dfGameStatsGoalieWomens = generateGameGoalieStats()
   dfBeanpotAwards,dfBeanpotAwardsWomens=generateBeanpotAwards()
   dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
   updateCareerStats(dfSkate,dfGoalie,dfSeasSkate,dfSeasGoalie)
@@ -44,6 +46,8 @@ dfLead,dfLeadWomens=generateSeasonLeaders()
 dfBeanpot,dfBeanpotWomens=generateBeanpotHistory()
 dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens=generateSeasonSkaters()
 dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens=generateSeasonGoalies()
+dfGameStats,dfGameStatsMens,dfGameStatsMens=generateGameSkaterStats()
+dfGameStatsGoalie,dfGameStatsGoalieMens,dfGameStatsGoalieWomens = generateGameGoalieStats()
 dfBeanpotAwards,dfBeanpotAwardsWomens=generateBeanpotAwards()
 dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET_KEY)
@@ -98,6 +102,8 @@ while(True):
                     playerDfs['careerGoalies']=dfGoalie
                     playerDfs['seasonSkaters']=dfSeasSkate
                     playerDfs['seasonGoalies']=dfSeasGoalie
+                    playerDfs['gameStats']=dfGameStats
+                    playerDfs['gameGoalieStats']=dfGameStatsGoalie
                     if(gender=='Womens'):
                         playerDfs['jerseys']=dfJerseyWomens
                         playerDfs['seasonleaders']=dfLeadWomens
@@ -105,10 +111,14 @@ while(True):
                         playerDfs['careerGoalies']=dfGoalieWomens
                         playerDfs['seasonSkaters']=dfSeasSkateWomens
                         playerDfs['seasonGoalies']=dfSeasGoalieWomens
+                        playerDfs['gameStats']=dfGameStatsWomens
+                        playerDfs['gameGoalieStats']=dfGameStatsGoalieWomens
                     if(gender=='Mens'):
                         playerDfs['seasonSkaters']=dfSeasSkateMens
                         playerDfs['seasonGoalies']=dfSeasGoalieMens
                         playerDfs['jerseys']=dfJerseyMens
+                        playerDfs['gameStats']=dfGameStatsMens
+                        playerDfs['gameGoalieStats']=dfGameStatsGoalieMens
                     result=getPlayerStats(playerDfs,query)
             if(result!=''):
               api.send_direct_message(sender_id, "{}: {}".format(origQuery,result))
@@ -157,6 +167,8 @@ while(True):
                   playerDfs['careerGoalies']=dfGoalie
                   playerDfs['seasonSkaters']=dfSeasSkate
                   playerDfs['seasonGoalies']=dfSeasGoalie
+                  playerDfs['gameStats']=dfGameStats
+                  playerDfs['gameGoalieStats']=dfGameStatsGoalie
                   if(gender=='Womens'):
                       playerDfs['jerseys']=dfJerseyWomens
                       playerDfs['seasonleaders']=dfLeadWomens
@@ -164,10 +176,14 @@ while(True):
                       playerDfs['careerGoalies']=dfGoalieWomens
                       playerDfs['seasonSkaters']=dfSeasSkateWomens
                       playerDfs['seasonGoalies']=dfSeasGoalieWomens
+                      playerDfs['gameStats']=dfGameStatsWomens
+                      playerDfs['gameGoalieStats']=dfGameStatsGoalieWomens
                   if(gender=='Mens'):
                       playerDfs['seasonSkaters']=dfSeasSkateMens
                       playerDfs['seasonGoalies']=dfSeasGoalieMens
                       playerDfs['jerseys']=dfJerseyMens
+                      playerDfs['gameStats']=dfGameStatsMens
+                      playerDfs['gameGoalieStats']=dfGameStatsGoalieMens
                   result=getPlayerStats(playerDfs,query)
 
           print("[{}]".format(datetime.now()),"{}-{}:{}:{}".format(mentions.user.name,mentions.user.screen_name,mentions.text,result))

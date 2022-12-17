@@ -10,6 +10,8 @@ if __name__ == '__main__':
   dfBeanpot,dfBeanpotWomens=generateBeanpotHistory()
   dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens=generateSeasonSkaters()
   dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens=generateSeasonGoalies()
+  dfGameStats,dfGameStatsMens,dfGameStatsMens=generateGameSkaterStats()
+  dfGameStatsGoalie,dfGameStatsGoalieMens,dfGameStatsGoalieWomens = generateGameGoalieStats()
   dfBeanpotAwards,dfBeanpotAwardsWomens=generateBeanpotAwards()
   dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
   updateCareerStats(dfSkate,dfGoalie,dfSeasSkate,dfSeasGoalie)
@@ -41,6 +43,8 @@ if __name__ == '__main__':
             playerDfs['careerGoalies']=dfGoalie
             playerDfs['seasonSkaters']=dfSeasSkate
             playerDfs['seasonGoalies']=dfSeasGoalie
+            playerDfs['gameStats']=dfGameStats
+            playerDfs['gameGoalieStats']=dfGameStatsGoalie
             if(gender=='Womens'):
                 playerDfs['jerseys']=dfJerseyWomens
                 playerDfs['seasonleaders']=dfLeadWomens
@@ -48,10 +52,14 @@ if __name__ == '__main__':
                 playerDfs['careerGoalies']=dfGoalieWomens
                 playerDfs['seasonSkaters']=dfSeasSkateWomens
                 playerDfs['seasonGoalies']=dfSeasGoalieWomens
+                playerDfs['gameStats']=dfGameStatsWomens
+                playerDfs['gameGoalieStats']=dfGameStatsGoalieWomens
             if(gender=='Mens'):
                 playerDfs['seasonSkaters']=dfSeasSkateMens
                 playerDfs['seasonGoalies']=dfSeasGoalieMens
                 playerDfs['jerseys']=dfJerseyMens
+                playerDfs['gameStats']=dfGameStatsMens
+                playerDfs['gameGoalieStats']=dfGameStatsGoalieMens
             result=getPlayerStats(playerDfs,query)
     print(origQuery.upper(),result,sep='\n')
     print()
