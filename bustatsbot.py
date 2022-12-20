@@ -90,10 +90,10 @@ while(True):
                 result=getBeanpotStats(dfBean,query)
             if(result==''):
                 if(determineQueryType(query)!='player'):
-                    if(gender=='Womens'):
-                        result=getResults(dfGamesWomens,query)  
-                    else:
-                        result=getResults(dfGames,query)  
+                  if(gender=='Womens'):
+                      result=getResults(dfGamesWomens,dfGameStatsWomens,dfGameStatsGoalieWomens,query)
+                  else:
+                      result=getResults(dfGames,dfGameStatsMens,dfGameStatsGoalieMens,query)  
                 else:
                     playerDfs={}
                     playerDfs['jerseys']=dfJersey
@@ -155,10 +155,10 @@ while(True):
               result=getBeanpotStats(dfBean,query)
           if(result==''):
               if(determineQueryType(query)!='player'):
-                  if(gender=='Womens'):
-                      result=getResults(dfGamesWomens,query)  
-                  else:
-                      result=getResults(dfGames,query)  
+                if(gender=='Womens'):
+                    result=getResults(dfGamesWomens,dfGameStatsWomens,dfGameStatsGoalieWomens,query)
+                else:
+                    result=getResults(dfGames,dfGameStatsMens,dfGameStatsGoalieMens,query)
               else:
                   playerDfs={}
                   playerDfs['jerseys']=dfJersey

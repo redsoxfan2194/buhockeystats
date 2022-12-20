@@ -1059,7 +1059,7 @@ def cleanupQuery(query,qType):
         query=query.replace(qType+' ','')
     return query.lower()
     
-def getResults(dfGames,query):
+def  getResults(dfGames,dfGameStats,dfGameStatsGoalie,query):
     global tourneyDict
     months=[x.lower() for x in list(calendar.month_name)]
     months_short=[x.lower() for x in list(calendar.month_abbr)]
@@ -1248,8 +1248,52 @@ def getResults(dfGames,query):
     if('when' in queryDict.keys() or len(whenList)>1):
         for i in whenList:
             queryDict['when']=i
-            goalSearch=re.search("(\>|\<|\>\=|\<=)? ?(\d{1,3})(\+)?",queryDict['when'])
-            if(goalSearch!=None):
+            goalSearch=re.search("(\>\=|\<=|\>|\<)? ?(\d{1,3})(\+)?",queryDict['when'])
+            pSearch=re.search('(.*) (make\S*|scor\S*|allow\S*|get\S*|has) ?(\>\=|\<=|\>|\<)? ?(a|\d{1,3})?(\+)? ?(pt\S*|point\S*|goal\S*|assist\S*|ga|save\S*|g|a)?',queryDict['when'])
+            if(pSearch!=None):
+                pName=pSearch.group(1)
+                opt=pSearch.group(2)
+                diff=''
+                if(pSearch.group(4)==None and 'scor' in pSearch.group(2)):
+                    stat='goals'
+                    diff='>='
+                    statNum=1
+                if(pSearch.group(4) != None):
+                    if(pSearch.group(4)=='a'):
+                        statNum=1
+                        diff='>='
+                    else:
+                        statNum=int(pSearch.group(4))
+                elif(pSearch.group(4)==None and pSearch.group(6)!=None):
+                        statNum=1
+                if(diff==''):
+                    if(pSearch.group(3)!=None):
+                        diff=pSearch.group(3)
+                    elif(pSearch.group(5)!=None):
+                        diff='>='
+                    else:
+                        diff='=='
+                if(pSearch.group(6) != None):
+                    statGrp=pSearch.group(6)
+                    if('pt' in statGrp or 'point' in statGrp):
+                        stat='pts'
+                    elif(('goal' in statGrp or statGrp == 'g') and 'allow' not in opt):
+                        stat='goals'
+                    elif('assist' in statGrp or statGrp == 'a'):
+                        stat='assists'
+                    elif(('allow' in opt and 'goal' in statGrp or statGrp == 'g') or 'ga' in statGrp):
+                        stat='ga'
+                    elif('save' in statGrp):
+                        stat='sv'
+                if(stat in ['sv','ga']):
+                    dfRes=dfGameStatsGoalie.groupby(['date','name']).sum()
+                    dfRes.reset_index(inplace=True)
+                    gameDays=list(set(dfRes.loc[eval("(dfRes['name'].str.contains('{}',case=False)) & (dfRes['{}']{}{})".format(pName,stat,diff,statNum))]['date'].to_list()))
+                    dfQueryList.append("(dfGames['date'].isin({}))".format(gameDays))
+                elif(stat in ['pts','goals','assists']):
+                    gameDays=list(set(dfGameStats.loc[eval("(dfGameStats['name'].str.contains('{}',case=False)) & (dfGameStats['{}']{}{})".format(pName,stat,diff,statNum))]['date'].to_list()))
+                    dfQueryList.append("(dfGames['date'].isin({}))".format(gameDays))
+            elif(goalSearch!=None):
                 goals=int(goalSearch.group(2))
                 if(goalSearch.group(1)!=None):
                     diff=goalSearch.group(1)

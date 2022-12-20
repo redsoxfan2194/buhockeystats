@@ -32,9 +32,9 @@ if __name__ == '__main__':
     if(result==''):
         if(determineQueryType(query)!='player'):
             if(gender=='Womens'):
-                result=getResults(dfGamesWomens,query)  
+                result=getResults(dfGamesWomens,dfGameStatsWomens,dfGameStatsGoalieWomens,query)
             else:
-                result=getResults(dfGames,query)  
+                result=getResults(dfGames,dfGameStatsMens,dfGameStatsGoalieMens,query) 
         else:
             playerDfs={}
             playerDfs['jerseys']=dfJersey
