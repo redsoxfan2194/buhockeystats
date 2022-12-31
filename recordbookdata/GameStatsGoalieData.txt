@@ -1247,3 +1247,4 @@
 12/09/2022,Boston College,Drew Commesso,JR,21,7,1,0,40:00,L,2022-23
 12/09/2022,Boston College,Vinny Duplessis,JR,7,1,1,0,17:36,,2022-23
 12/11/2022,Connecticut,Drew Commesso,JR,28,2,1,0,60:00,W,2022-23
+12/30/2022,Harvard,Drew Commesso,JR,33,1,1,0,64:27,W,2022-23
