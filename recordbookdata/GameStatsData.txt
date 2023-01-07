@@ -15403,3 +15403,25 @@
 12/30/2022,Harvard,Drew Commesso,G,JR,0,0,0,2022-23
 12/30/2022,Harvard,Wilmer Skoog,F,SR,0,1,1,2022-23
 12/30/2022,Harvard,Matt Brown,F,SR,0,1,1,2022-23
+01/06/2023,Air Force,Case McCarthy,D,SR,0,0,0,2022-23
+01/06/2023,Air Force,Ty Gallagher,D,SO,0,1,1,2022-23
+01/06/2023,Air Force,Thomas Jarman,D,JR,0,0,0,2022-23
+01/06/2023,Air Force,Cade Webber,D,JR,0,1,1,2022-23
+01/06/2023,Air Force,Ryan Greene,F,FR,0,0,0,2022-23
+01/06/2023,Air Force,Nick Zabaneh,F,JR,0,0,0,2022-23
+01/06/2023,Air Force,Luke Tuch,F,JR,0,0,0,2022-23
+01/06/2023,Air Force,Jamie Armstrong,F,SR,1,0,1,2022-23
+01/06/2023,Air Force,Dylan Peterson,F,JR,0,0,0,2022-23
+01/06/2023,Air Force,Lachlan Getz,D,FR,0,0,0,2022-23
+01/06/2023,Air Force,Jeremy Wilmer,F,FR,0,3,3,2022-23
+01/06/2023,Air Force,Quinn Hutson,F,FR,0,0,0,2022-23
+01/06/2023,Air Force,Lane Hutson,D,FR,0,1,1,2022-23
+01/06/2023,Air Force,Devin Kaplan,F,FR,0,2,2,2022-23
+01/06/2023,Air Force,Brian Carrabes,F,SO,1,1,2,2022-23
+01/06/2023,Air Force,Domenick Fensore,D,SR,0,0,0,2022-23
+01/06/2023,Air Force,Sam Stevens,F,SR,1,0,1,2022-23
+01/06/2023,Air Force,Drew Commesso,G,JR,0,0,0,2022-23
+01/06/2023,Air Force,Patrick Schena,G,GR,0,0,0,2022-23
+01/06/2023,Air Force,Vinny Duplessis,G,JR,0,0,0,2022-23
+01/06/2023,Air Force,Wilmer Skoog,F,SR,2,0,2,2022-23
+01/06/2023,Air Force,Matt Brown,F,SR,0,0,0,2022-23
