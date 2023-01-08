@@ -2509,8 +2509,8 @@ def updateGameStats(gender):
     for box in boxscores:
         url2='https://goterriers.com/'
         url2+=box
-        req = Request(url2, headers={'User-Agent': 'Mozilla/5.0'})
-        html = urlopen(req).read()
+        req = urllib.request.Request(url2, headers={'User-Agent': 'Mozilla/5.0'})
+        html = urllib.request.urlopen(req).read()
         soup = BeautifulSoup(html, 'html.parser')
         date=soup.find('dl',{'class':"text-center inline"}).find('dd').get_text()
         if(pd.to_datetime(dfGameStats.iloc[-1]['date'])>=pd.to_datetime(date)):
@@ -2543,7 +2543,7 @@ def updateGameStats(gender):
                     name=pDict['name'].split(', ')
                     pDict['name']=name[1]+" "+name[0]
                     if('FitzGerald' in pDict['name']):
-                        pDict['name']=pDict['name'].capitalize()
+                        pDict['name']=pDict['name'].title()
                     posDict=dfGameStats.loc[(dfGameStats['season']==season) & (dfGameStats['name']==pDict['name'])].iloc[0][['pos','yr']].to_dict()
                     pDict['pos']=posDict['pos']
                     pDict['yr']=posDict['yr']
@@ -2575,12 +2575,12 @@ def updateGameStats(gender):
         dfCurrPlayStats=pd.DataFrame(pList)
         dfCurrGoalStats=pd.DataFrame(gList)
         f=open(pFile,'a')
-        for i in dfCurrPlayStats[['date','opponent','name','pos','yr','goals','assists','pts','season']].to_csv(index=False,header=False).split('\r\n'):
+        for i in dfCurrPlayStats[['date','opponent','name','pos','yr','goals','assists','pts','season']].to_csv(index=False,header=False).split('\n'):
             if(i!=''):
                 print("\n"+i,end='',file=f)
         f.close()
         f=open(gFile,'a')
-        for i in dfCurrGoalStats[['date','opponent','name','yr','sv','ga','gp','so','mins','result','season']].to_csv(index=False,header=False).split('\r\n'):
+        for i in dfCurrGoalStats[['date','opponent','name','yr','sv','ga','gp','so','mins','result','season']].to_csv(index=False,header=False).split('\n'):
             if(i!=''):
                 print("\n"+i,end='',file=f)
         f.close()
