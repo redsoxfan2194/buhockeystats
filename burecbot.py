@@ -10,7 +10,7 @@ if __name__ == '__main__':
   dfBeanpot,dfBeanpotWomens=generateBeanpotHistory()
   dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens=generateSeasonSkaters()
   dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens=generateSeasonGoalies()
-  dfGameStats,dfGameStatsMens,dfGameStatsMens=generateGameSkaterStats()
+  dfGameStats,dfGameStatsMens,dfGameStatsWomens=generateGameSkaterStats()
   dfGameStatsGoalie,dfGameStatsGoalieMens,dfGameStatsGoalieWomens = generateGameGoalieStats()
   dfBeanpotAwards,dfBeanpotAwardsWomens=generateBeanpotAwards()
   dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}

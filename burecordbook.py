@@ -911,7 +911,7 @@ def generateGameSkaterStats():
   dfGameStatsWomens=pd.DataFrame(gameStatsWList)
   dfGameStats=pd.DataFrame(gameStatsList+gameStatsWList)
   
-  return dfGameStats,dfGameStatsMens,dfGameStatsMens
+  return dfGameStats,dfGameStatsMens,dfGameStatsWomens
   
 def generateGameGoalieStats():
   fileName=(RECBOOK_DATA_PATH + 'GameStatsGoalieData.txt')
