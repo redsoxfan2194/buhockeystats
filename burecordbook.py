@@ -2464,6 +2464,127 @@ def updateCurrentSeasonStats(gender):
                 sources.write(line)
         return dfCurSkate,dfCurGoal
         
+def updateGameStats(gender):
+    if(gender=='Mens'):
+        url='https://goterriers.com/sports/mens-ice-hockey/stats?path=mhockey'
+        pFile=RECBOOK_DATA_PATH + 'GameStatsData.txt'
+        gFile=RECBOOK_DATA_PATH + 'GameStatsGoalieData.txt'
+    elif(gender=='Womens'):
+        url='https://goterriers.com/sports/womens-ice-hockey/stats?path=whockey'
+        pFile=RECBOOK_DATA_PATH + 'GameStatsDataWomens.txt'
+        gFile=RECBOOK_DATA_PATH + 'GameStatsGoalieDataWomens.txt'
+    gameStatsList=[]
+    with open(pFile, 'r', encoding='utf-8') as f:
+        read_data = f.read()
+        rows=read_data.split('\n')
+        for i in rows:
+                col=i.split(',')
+                gameStatDict={'date':col[0],
+                             'opponent':col[1],
+                             'name':col[2],
+                             'pos':col[3],
+                             'yr':col[4],
+                             'gp':1,
+                             'goals':int(col[5]),
+                             'assists':int(col[6]),
+                             'pts':int(col[7]),
+                             'season':col[8],
+                             'year':int(col[8][:4])+1}
+                gameStatsList.append(gameStatDict)
+    f.close()
+    dfGameStats=pd.DataFrame(gameStatsList)
+    f=urllib.request.urlopen(url)
+    html = f.read()
+    f.close()
+    soup = BeautifulSoup(html, 'html.parser')
+    refs=soup.find_all('a')
+    boxscores=set()
+    for i in refs:
+        if('boxscore' in str(i.get('href'))):
+            boxscores.add(i.get('href'))
+    boxscores=sorted(list(boxscores),reverse=True)
+    pList=[]
+    gList=[]
+    season='2022-23'
+    for box in boxscores:
+        url2='https://goterriers.com/'
+        url2+=box
+        req = Request(url2, headers={'User-Agent': 'Mozilla/5.0'})
+        html = urlopen(req).read()
+        soup = BeautifulSoup(html, 'html.parser')
+        date=soup.find('dl',{'class':"text-center inline"}).find('dd').get_text()
+        if(pd.to_datetime(dfGameStats.iloc[-1]['date'])>=pd.to_datetime(date)):
+            break
+        indBoxScore=soup.find('section',{'id':"individual-stats"})
+        aTeam=indBoxScore.find_all('h4')[0].get_text()
+        hTeam=indBoxScore.find_all('h4')[1].get_text()
+        if('Boston U' in aTeam):
+            isBUSkate=True
+            isBUGoalie=True
+            teamSearch=re.search("(.*) \d*",hTeam)
+            opponent=teamSearch.group(1).strip()
+        else:
+            isBUSkate=False
+            isBUGoalie=False
+            teamSearch=re.search("(.*) \d*",aTeam)
+            opponent=teamSearch.group(1).strip()
+        for i in indBoxScore.find_all('tr'):
+            col=i.find_all('td')
+            if(col!=[] and len(col)>=11):
+                if((len(col)==14 or len(col) == 15) and 'TEAM' not in col[2].get_text() and 'Totals' not in col[2].get_text() and isBUSkate):
+                    counter=0
+                    pDict={'date':date,
+                      'opponent':decodeTeam(opponent),
+                      'name':col[2].get_text().replace(col[1].get_text().strip(),''),
+                      'goals':int(col[3].get_text()),
+                      'assists':int(col[4].get_text()),
+                      'pts':int(col[3].get_text())+int(col[4].get_text()),
+                      'season':season}
+                    name=pDict['name'].split(', ')
+                    pDict['name']=name[1]+" "+name[0]
+                    if('FitzGerald' in pDict['name']):
+                        pDict['name']=pDict['name'].capitalize()
+                    posDict=dfGameStats.loc[(dfGameStats['season']==season) & (dfGameStats['name']==pDict['name'])].iloc[0][['pos','yr']].to_dict()
+                    pDict['pos']=posDict['pos']
+                    pDict['yr']=posDict['yr']
+                    pList.append(pDict)
+                elif((len(col)==14 or len(col) == 15) and 'Totals' in col[2].get_text()):
+                    isBUSkate= not isBUSkate
+                elif((len(col)==11 or len(col) == 12) and 'TEAM' not in col[2].get_text() and 'Totals' not in col[1].get_text() and isBUGoalie):
+                    gDict={'date':date,
+                      'opponent':decodeTeam(opponent),
+                      'name':col[1].get_text().replace(col[0].get_text().strip(),''),
+                      'result':col[2].get_text(),
+                      'mins':col[3].get_text(),
+                      'ga':int(col[4].get_text()),
+                      'sv':int(col[-1].get_text()),
+                      'gp':1,
+                      'season':season}
+                    if((gDict['result']=='W' or gDict['result']=='T') and gDict['ga']==0):
+                        gDict['so']=1
+                    else:
+                        gDict['so']=0
+                    name=gDict['name'].split(', ')
+                    gDict['name']=name[1]+" "+name[0]
+                    posDict=dfGameStats.loc[(dfGameStats['season']==season) & (dfGameStats['name']==pDict['name'])].iloc[0][['pos','yr']].to_dict()
+                    gDict['yr']=posDict['yr']
+                    if(gDict['mins']!='00:00'):
+                        gList.append(gDict)
+                elif((len(col)==11 or len(col) == 12) and 'Totals' in col[1].get_text()):
+                    isBUGoalie=not isBUGoalie
+        dfCurrPlayStats=pd.DataFrame(pList)
+        dfCurrGoalStats=pd.DataFrame(gList)
+        f=open(pFile,'a')
+        for i in dfCurrPlayStats[['date','opponent','name','pos','yr','goals','assists','pts','season']].to_csv(index=False,header=False).split('\r\n'):
+            if(i!=''):
+                print("\n"+i,end='',file=f)
+        f.close()
+        f=open(gFile,'a')
+        for i in dfCurrGoalStats[['date','opponent','name','yr','sv','ga','gp','so','mins','result','season']].to_csv(index=False,header=False).split('\r\n'):
+            if(i!=''):
+                print("\n"+i,end='',file=f)
+        f.close()
+        
 def updateCareerStats(dfSkate,dfGoalie,dfSeasSkate,dfSeasGoalie):
     currSeason='2022-23'
     curSkateList=dfSeasSkate.loc[dfSeasSkate['season'].str.contains(currSeason)]['name'].to_list()

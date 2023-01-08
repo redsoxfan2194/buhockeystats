@@ -18,6 +18,8 @@ def updateScoresAndStats():
   updateResults('Womens')
   updateCurrentSeasonStats('Mens')
   updateCurrentSeasonStats('Womens')
+  updateGameStats('Mens')
+  updateGameStats('Womens')
   
   # Regenerate Data
   dfGames=generateRecordBook()
