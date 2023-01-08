@@ -921,3 +921,4 @@
 12/02/2022,Maine,Andrea Br‰ndli,GR,25,2,1,0,55:28,L,2022-23
 12/03/2022,Maine,Callie Shanahan,SO,28,3,1,0,58:40,L,2022-23
 12/09/2022,Holy Cross,Callie Shanahan,SO,24,2,1,0,60:50,W,2022-23
+01/06/2023,Holy Cross,Andrea Br√§ndli,GR,29,3,1,0,58:12,L,2022-23

@@ -1249,3 +1249,4 @@
 12/11/2022,Connecticut,Drew Commesso,JR,28,2,1,0,60:00,W,2022-23
 12/30/2022,Harvard,Drew Commesso,JR,33,1,1,0,64:27,W,2022-23
 01/06/2023,Air Force,Drew Commesso,SR,29,1,1,0,59:22,W,2022-23
+01/07/2023,Michigan Tech,Drew Commesso,SR,20,3,1,0,58:02,L,2022-23
