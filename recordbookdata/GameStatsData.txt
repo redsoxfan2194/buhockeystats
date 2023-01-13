@@ -15447,3 +15447,23 @@
 01/07/2023,Michigan Tech,Vinny Duplessis,G,JR,0,0,0,2022-23
 01/07/2023,Michigan Tech,Wilmer Skoog,F,SR,0,0,0,2022-23
 01/07/2023,Michigan Tech,Matt Brown,F,SR,1,0,1,2022-23
+01/11/2023,Massachusetts,Case McCarthy,D,SR,0,2,2,2022-23
+01/11/2023,Massachusetts,Tristan Amonte,F,SO,0,0,0,2022-23
+01/11/2023,Massachusetts,Ty Gallagher,D,SO,0,0,0,2022-23
+01/11/2023,Massachusetts,Cade Webber,D,JR,0,1,1,2022-23
+01/11/2023,Massachusetts,Ryan Greene,F,FR,0,1,1,2022-23
+01/11/2023,Massachusetts,Nick Zabaneh,F,JR,1,0,1,2022-23
+01/11/2023,Massachusetts,Luke Tuch,F,JR,1,0,1,2022-23
+01/11/2023,Massachusetts,Dylan Peterson,F,JR,0,1,1,2022-23
+01/11/2023,Massachusetts,Lachlan Getz,D,FR,0,0,0,2022-23
+01/11/2023,Massachusetts,Jeremy Wilmer,F,FR,0,0,0,2022-23
+01/11/2023,Massachusetts,Quinn Hutson,F,FR,1,0,1,2022-23
+01/11/2023,Massachusetts,Jay O'Brien,F,SR,0,1,1,2022-23
+01/11/2023,Massachusetts,Lane Hutson,D,FR,0,1,1,2022-23
+01/11/2023,Massachusetts,Devin Kaplan,F,FR,2,1,3,2022-23
+01/11/2023,Massachusetts,Brian Carrabes,F,SO,0,0,0,2022-23
+01/11/2023,Massachusetts,Domenick Fensore,D,SR,0,1,1,2022-23
+01/11/2023,Massachusetts,Sam Stevens,F,SR,0,0,0,2022-23
+01/11/2023,Massachusetts,Drew Commesso,G,JR,0,0,0,2022-23
+01/11/2023,Massachusetts,Wilmer Skoog,F,SR,1,2,3,2022-23
+01/11/2023,Massachusetts,Matt Brown,F,SR,0,1,1,2022-23
