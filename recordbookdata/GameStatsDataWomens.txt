@@ -12030,3 +12030,23 @@
 01/08/2023,Northeastern,Catherine Foulem,F,JR,0,0,0,2022-23
 01/08/2023,Northeastern,Callie Shanahan,G,SO,0,0,0,2022-23
 01/08/2023,Northeastern,Andrea Brändli,G,GR,0,0,0,2022-23
+01/13/2023,Holy Cross,Alex Allan,D,GR,0,0,0,2022-23
+01/13/2023,Holy Cross,Liv Haag,F,SO,0,0,0,2022-23
+01/13/2023,Holy Cross,Nadia Mattivi,D,SR,0,1,1,2022-23
+01/13/2023,Holy Cross,Kylie Roberts,F,SO,0,0,0,2022-23
+01/13/2023,Holy Cross,Clare O'Leary,F,JR,1,0,1,2022-23
+01/13/2023,Holy Cross,Jesse DeVito,F,GR,0,0,0,2022-23
+01/13/2023,Holy Cross,Sydney Healey,F,FR,0,1,1,2022-23
+01/13/2023,Holy Cross,Andi Calderone,D,JR,0,0,0,2022-23
+01/13/2023,Holy Cross,Julia Nearis,F,SR,0,0,0,2022-23
+01/13/2023,Holy Cross,Lacey Martin,F,JR,0,0,0,2022-23
+01/13/2023,Holy Cross,Clara Yuhn,F,FR,0,0,0,2022-23
+01/13/2023,Holy Cross,Julia Shaunessy,D,JR,0,0,0,2022-23
+01/13/2023,Holy Cross,Madison Cardaci,D,JR,0,0,0,2022-23
+01/13/2023,Holy Cross,Christina Vote,F,SO,0,0,0,2022-23
+01/13/2023,Holy Cross,Tamara Giaquinto,D,JR,0,0,0,2022-23
+01/13/2023,Holy Cross,Maeve Kelly,D,FR,0,0,0,2022-23
+01/13/2023,Holy Cross,Ani Fitzgerald,F,JR,0,0,0,2022-23
+01/13/2023,Holy Cross,Brooke Disher,D,FR,0,0,0,2022-23
+01/13/2023,Holy Cross,Catherine Foulem,F,JR,0,0,0,2022-23
+01/13/2023,Holy Cross,Andrea Brändli,G,GR,0,0,0,2022-23
