@@ -2531,7 +2531,7 @@ def updateGameStats(gender):
         for i in indBoxScore.find_all('tr'):
             col=i.find_all('td')
             if(col!=[] and len(col)>=11):
-                if((len(col)==14 or len(col) == 15) and 'TEAM' not in col[2].get_text() and 'Totals' not in col[2].get_text() and isBUSkate):
+                if((len(col)>=14 and len(col) <= 16) and 'TEAM' not in col[2].get_text() and 'Totals' not in col[2].get_text() and isBUSkate):
                     counter=0
                     pDict={'date':date,
                       'opponent':decodeTeam(opponent),
@@ -2548,9 +2548,9 @@ def updateGameStats(gender):
                     pDict['pos']=posDict['pos']
                     pDict['yr']=posDict['yr']
                     pList.append(pDict)
-                elif((len(col)==14 or len(col) == 15) and 'Totals' in col[2].get_text()):
+                elif((len(col)>=14 and len(col) <= 16) and 'Totals' in col[2].get_text()):
                     isBUSkate= not isBUSkate
-                elif((len(col)==11 or len(col) == 12) and 'TEAM' not in col[2].get_text() and 'Totals' not in col[1].get_text() and isBUGoalie):
+                elif((len(col)>=11 and len(col) <= 13) and 'TEAM' not in col[2].get_text() and 'Totals' not in col[1].get_text() and isBUGoalie):
                     gDict={'date':date,
                       'opponent':decodeTeam(opponent),
                       'name':col[1].get_text().replace(col[0].get_text().strip(),''),
@@ -2570,7 +2570,7 @@ def updateGameStats(gender):
                     gDict['yr']=posDict['yr']
                     if(gDict['mins']!='00:00'):
                         gList.append(gDict)
-                elif((len(col)==11 or len(col) == 12) and 'Totals' in col[1].get_text()):
+                elif((len(col)>=11 and len(col) <=13) and 'Totals' in col[1].get_text()):
                     isBUGoalie=not isBUGoalie
         dfCurrPlayStats=pd.DataFrame(pList)
         dfCurrGoalStats=pd.DataFrame(gList)
