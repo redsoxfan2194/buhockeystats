@@ -722,9 +722,9 @@ CAPTAIN: Nadia Mattivi
 12/09 W (ot) Walter Brown Arena H Holy Cross * 3-2
 01/06 L Fenway Park L Holy Cross * 2-3
 01/08 L Matthews Arena A Northeastern * 0-6
-01/13 L Hart Center A Holy Cross * 1-2
-01/17 N Walter Brown Arena H Providence * 0-0
-01/20 N Alfond Arena A Maine * 0-0
+01/13 L (ot) Hart Center A Holy Cross * 1-2
+01/17 T (ot) Walter Brown Arena H Providence * 2-2
+01/20 T (ot) Alfond Arena A Maine * 3-3
 01/21 N Whittemore Center Arena A New Hampshire * 0-0
 01/27 N Walter Brown Arena H Merrimack * 0-0
 01/28 N Walter Brown Arena H Vermont * 0-0
