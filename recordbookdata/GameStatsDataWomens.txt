@@ -12110,3 +12110,23 @@
 01/20/2023,Maine,Brooke Disher,D,FR,0,1,1,2022-23
 01/20/2023,Maine,Catherine Foulem,F,JR,0,0,0,2022-23
 01/20/2023,Maine,Callie Shanahan,G,SO,0,0,0,2022-23
+01/21/2023,New Hampshire,Alex Allan,D,GR,0,0,0,2022-23
+01/21/2023,New Hampshire,Liv Haag,F,SO,0,0,0,2022-23
+01/21/2023,New Hampshire,Nadia Mattivi,D,SR,0,1,1,2022-23
+01/21/2023,New Hampshire,Kylie Roberts,F,SO,0,0,0,2022-23
+01/21/2023,New Hampshire,Clare O'Leary,F,JR,1,0,1,2022-23
+01/21/2023,New Hampshire,Jesse DeVito,F,GR,0,0,0,2022-23
+01/21/2023,New Hampshire,Sydney Healey,F,FR,0,0,0,2022-23
+01/21/2023,New Hampshire,Andi Calderone,D,JR,0,0,0,2022-23
+01/21/2023,New Hampshire,Julia Nearis,F,SR,0,1,1,2022-23
+01/21/2023,New Hampshire,Lacey Martin,F,JR,0,0,0,2022-23
+01/21/2023,New Hampshire,Clara Yuhn,F,FR,1,1,2,2022-23
+01/21/2023,New Hampshire,Julia Shaunessy,D,JR,0,1,1,2022-23
+01/21/2023,New Hampshire,Madison Cardaci,D,JR,0,0,0,2022-23
+01/21/2023,New Hampshire,Christina Vote,F,SO,0,0,0,2022-23
+01/21/2023,New Hampshire,Tamara Giaquinto,D,JR,0,0,0,2022-23
+01/21/2023,New Hampshire,Maeve Kelly,D,FR,0,0,0,2022-23
+01/21/2023,New Hampshire,Ani Fitzgerald,F,JR,0,0,0,2022-23
+01/21/2023,New Hampshire,Brooke Disher,D,FR,1,1,2,2022-23
+01/21/2023,New Hampshire,Catherine Foulem,F,JR,0,0,0,2022-23
+01/21/2023,New Hampshire,Andrea Brändli,G,GR,0,0,0,2022-23

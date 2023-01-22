@@ -927,3 +927,4 @@
 01/13/2023,Holy Cross,Andrea Br‰ndli,GR,38,2,1,0,60:03,L,2022-23
 01/17/2023,Providence,Andrea Br‰ndli,GR,40,2,1,0,65:00,,2022-23
 01/20/2023,Maine,Callie Shanahan,SO,27,3,1,0,65:00,,2022-23
+01/21/2023,New Hampshire,Andrea Br√§ndli,GR,30,1,1,0,60:00,W,2022-23

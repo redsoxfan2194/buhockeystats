@@ -1253,3 +1253,5 @@
 01/11/2023,Massachusetts,Drew Commesso,SR,17,2,1,0,60:00,W,2022-23
 01/14/2023,Cornell,Drew Commesso,SR,28,3,1,0,59:38,W,2022-23
 01/20/2023,Maine,Drew Commesso,SR,30,1,1,0,59:58,W,2022-23
+01/21/2023,Maine,Drew Commesso,SR,12,5,1,0,31:26,,2022-23
+01/21/2023,Maine,Vinny Duplessis,SR,9,1,1,0,28:26,W,2022-23
