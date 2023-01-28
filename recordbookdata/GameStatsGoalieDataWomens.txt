@@ -928,3 +928,4 @@
 01/17/2023,Providence,Andrea Br�ndli,GR,40,2,1,0,65:00,,2022-23
 01/20/2023,Maine,Callie Shanahan,SO,27,3,1,0,65:00,,2022-23
 01/21/2023,New Hampshire,Andrea Brändli,GR,30,1,1,0,60:00,W,2022-23
+01/27/2023,Merrimack,Andrea Brändli,GR,25,1,1,0,59:41,W,2022-23
