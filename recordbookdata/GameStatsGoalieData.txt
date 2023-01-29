@@ -1256,3 +1256,4 @@
 01/21/2023,Maine,Drew Commesso,SR,12,5,1,0,31:26,,2022-23
 01/21/2023,Maine,Vinny Duplessis,SR,9,1,1,0,28:26,W,2022-23
 01/27/2023,Boston College,Drew Commesso,SR,24,3,1,0,60:00,W,2022-23
+01/28/2023,Boston College,Drew Commesso,SR,40,1,1,0,60:00,W,2022-23
