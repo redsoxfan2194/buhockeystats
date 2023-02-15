@@ -12210,3 +12210,23 @@
 02/07/2023,Northeastern,Brooke Disher,D,FR,1,0,1,2022-23
 02/07/2023,Northeastern,Catherine Foulem,F,JR,0,0,0,2022-23
 02/07/2023,Northeastern,Andrea Brändli,G,GR,0,0,0,2022-23
+02/11/2023,Boston College,Alex Allan,D,GR,0,0,0,2022-23
+02/11/2023,Boston College,Kylie Roberts,F,SO,0,0,0,2022-23
+02/11/2023,Boston College,Maggie Hanzel,D,SO,0,1,1,2022-23
+02/11/2023,Boston College,Clare O'Leary,F,JR,0,0,0,2022-23
+02/11/2023,Boston College,Jesse DeVito,F,GR,0,0,0,2022-23
+02/11/2023,Boston College,Sydney Healey,F,FR,0,0,0,2022-23
+02/11/2023,Boston College,Andi Calderone,D,JR,0,0,0,2022-23
+02/11/2023,Boston College,Julia Nearis,F,SR,0,0,0,2022-23
+02/11/2023,Boston College,Lacey Martin,F,JR,0,1,1,2022-23
+02/11/2023,Boston College,Haylee Blinkhorn,F,SR,1,0,1,2022-23
+02/11/2023,Boston College,Clara Yuhn,F,FR,0,0,0,2022-23
+02/11/2023,Boston College,Julia Shaunessy,D,JR,0,0,0,2022-23
+02/11/2023,Boston College,Madison Cardaci,D,JR,0,0,0,2022-23
+02/11/2023,Boston College,Christina Vote,F,SO,0,0,0,2022-23
+02/11/2023,Boston College,Tamara Giaquinto,D,JR,0,0,0,2022-23
+02/11/2023,Boston College,Maeve Kelly,D,FR,0,0,0,2022-23
+02/11/2023,Boston College,Ani Fitzgerald,F,JR,0,0,0,2022-23
+02/11/2023,Boston College,Brooke Disher,D,FR,0,0,0,2022-23
+02/11/2023,Boston College,Catherine Foulem,F,JR,0,0,0,2022-23
+02/11/2023,Boston College,Andrea Brändli,G,GR,0,0,0,2022-23

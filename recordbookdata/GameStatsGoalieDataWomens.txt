@@ -932,3 +932,4 @@
 01/28/2023,Vermont,Andrea Br�ndli,GR,22,1,1,0,60:19,W,2022-23
 02/03/2023,Connecticut,Andrea Brändli,GR,23,2,1,0,65:00,,2022-23
 02/07/2023,Northeastern,Andrea Brändli,GR,41,3,1,0,57:48,L,2022-23
+02/11/2023,Boston College,Andrea Brändli,GR,31,2,1,0,58:40,L,2022-23

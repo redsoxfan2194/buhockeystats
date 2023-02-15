@@ -15606,3 +15606,23 @@
 02/06/2023,Northeastern,Drew Commesso,G,JR,0,0,0,2022-23
 02/06/2023,Northeastern,Wilmer Skoog,F,SR,0,0,0,2022-23
 02/06/2023,Northeastern,Matt Brown,F,SR,1,0,1,2022-23
+02/13/2023,Boston College,Case McCarthy,D,SR,0,0,0,2022-23
+02/13/2023,Boston College,Tristan Amonte,F,SO,0,0,0,2022-23
+02/13/2023,Boston College,Ty Gallagher,D,SO,0,0,0,2022-23
+02/13/2023,Boston College,Thomas Jarman,D,JR,0,0,0,2022-23
+02/13/2023,Boston College,Cade Webber,D,JR,0,0,0,2022-23
+02/13/2023,Boston College,Ryan Greene,F,FR,1,0,1,2022-23
+02/13/2023,Boston College,Nick Zabaneh,F,JR,0,0,0,2022-23
+02/13/2023,Boston College,Luke Tuch,F,JR,0,0,0,2022-23
+02/13/2023,Boston College,Dylan Peterson,F,JR,0,0,0,2022-23
+02/13/2023,Boston College,Jeremy Wilmer,F,FR,0,1,1,2022-23
+02/13/2023,Boston College,Quinn Hutson,F,FR,0,1,1,2022-23
+02/13/2023,Boston College,Jay O'Brien,F,SR,1,0,1,2022-23
+02/13/2023,Boston College,Lane Hutson,D,FR,0,0,0,2022-23
+02/13/2023,Boston College,Devin Kaplan,F,FR,0,0,0,2022-23
+02/13/2023,Boston College,Domenick Fensore,D,SR,0,2,2,2022-23
+02/13/2023,Boston College,Sam Stevens,F,SR,0,0,0,2022-23
+02/13/2023,Boston College,Ethan Phillips,F,SR,0,0,0,2022-23
+02/13/2023,Boston College,Drew Commesso,G,JR,0,0,0,2022-23
+02/13/2023,Boston College,Wilmer Skoog,F,SR,0,0,0,2022-23
+02/13/2023,Boston College,Matt Brown,F,SR,0,0,0,2022-23

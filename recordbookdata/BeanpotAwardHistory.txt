@@ -67,3 +67,4 @@
 2019	Cayden Primeau	G	Northeastern	Cayden Primeau	Northeastern	59	3	0.952	1.49
 2020	Zach Solow	F	Northeastern	Craig Pantano	Northeastern	67	5	0.931	2.16
 2022	Dylan Peterson	F	Boston University	TJ Semptimphelter	Northeastern	69	2	0.972	1.01
+2023	Devon Levi	G	Northeastern	Devon Levi	Northeastern	65	3	0.956	1.50
