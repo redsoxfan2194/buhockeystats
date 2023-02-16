@@ -41,3 +41,4 @@
 2019	Sammy Davis	Boston University	Lindsay Reed	Harvard
 2020	Chloe Aurard	Northeastern	Aerin Frankel	Northeastern
 2022	Becca Gilmour	Harvard	Abigail Levy	Boston College
+2023	Maureeen Murphy	Northeastern	Gwyneth Philips	Northeastern

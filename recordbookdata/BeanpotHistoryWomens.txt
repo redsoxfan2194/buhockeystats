@@ -41,3 +41,4 @@
 41	2019	Harvard	February 5		Boston University	3	Northeastern	3	(BU wins shootout 2-1)	Harvard	4	Boston College	1						February 12	Boston College	4	Northeastern	1		Boston University	3	Harvard	2	(OT)
 42	2020	Boston University	February 4		Northeastern	3	Harvard	1		Boston University	4	Boston College	0						February 11	Boston College	3	Harvard	1		Northeastern	4	Boston University	3	(2OT)
 43	2022	Northeastern	February 1		Harvard	4	Boston University	1		Boston College	3	Northeastern	1						February 8	Northeastern	3	Boston University	0		Harvard	5	Boston College	4	
+44	2023	Boston College	February 7		Northeastern	4	Boston University	1		Boston College	3	Harvard	0						February 14	Boston University	7	Harvard	4		Northeastern	2	Boston College	1	
