@@ -12230,3 +12230,23 @@
 02/11/2023,Boston College,Brooke Disher,D,FR,0,0,0,2022-23
 02/11/2023,Boston College,Catherine Foulem,F,JR,0,0,0,2022-23
 02/11/2023,Boston College,Andrea Brändli,G,GR,0,0,0,2022-23
+02/14/2023,Harvard,Alex Allan,D,GR,0,1,1,2022-23
+02/14/2023,Harvard,Nadia Mattivi,D,SR,1,0,1,2022-23
+02/14/2023,Harvard,Kylie Roberts,F,SO,0,0,0,2022-23
+02/14/2023,Harvard,Clare O'Leary,F,JR,0,1,1,2022-23
+02/14/2023,Harvard,Jesse DeVito,F,GR,0,0,0,2022-23
+02/14/2023,Harvard,Sydney Healey,F,FR,1,0,1,2022-23
+02/14/2023,Harvard,Andi Calderone,D,JR,0,0,0,2022-23
+02/14/2023,Harvard,Julia Nearis,F,SR,1,1,2,2022-23
+02/14/2023,Harvard,Lacey Martin,F,JR,0,0,0,2022-23
+02/14/2023,Harvard,Haylee Blinkhorn,F,SR,0,0,0,2022-23
+02/14/2023,Harvard,Clara Yuhn,F,FR,1,0,1,2022-23
+02/14/2023,Harvard,Julia Shaunessy,D,JR,0,0,0,2022-23
+02/14/2023,Harvard,Madison Cardaci,D,JR,0,2,2,2022-23
+02/14/2023,Harvard,Christina Vote,F,SO,2,1,3,2022-23
+02/14/2023,Harvard,Tamara Giaquinto,D,JR,0,1,1,2022-23
+02/14/2023,Harvard,Maeve Kelly,D,FR,0,1,1,2022-23
+02/14/2023,Harvard,Ani Fitzgerald,F,JR,0,0,0,2022-23
+02/14/2023,Harvard,Brooke Disher,D,FR,1,0,1,2022-23
+02/14/2023,Harvard,Catherine Foulem,F,JR,0,3,3,2022-23
+02/14/2023,Harvard,Callie Shanahan,G,SO,0,0,0,2022-23
