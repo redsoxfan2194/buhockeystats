@@ -15626,3 +15626,23 @@
 02/13/2023,Boston College,Drew Commesso,G,JR,0,0,0,2022-23
 02/13/2023,Boston College,Wilmer Skoog,F,SR,0,0,0,2022-23
 02/13/2023,Boston College,Matt Brown,F,SR,0,0,0,2022-23
+02/17/2023,Merrimack,Case McCarthy,D,SR,0,0,0,2022-23
+02/17/2023,Merrimack,Ty Gallagher,D,SO,0,0,0,2022-23
+02/17/2023,Merrimack,Thomas Jarman,D,JR,0,0,0,2022-23
+02/17/2023,Merrimack,Cade Webber,D,JR,0,0,0,2022-23
+02/17/2023,Merrimack,Ryan Greene,F,FR,0,0,0,2022-23
+02/17/2023,Merrimack,Nick Zabaneh,F,JR,0,0,0,2022-23
+02/17/2023,Merrimack,Luke Tuch,F,JR,0,0,0,2022-23
+02/17/2023,Merrimack,Dylan Peterson,F,JR,0,0,0,2022-23
+02/17/2023,Merrimack,Jeremy Wilmer,F,FR,0,0,0,2022-23
+02/17/2023,Merrimack,Quinn Hutson,F,FR,0,0,0,2022-23
+02/17/2023,Merrimack,Jay O'Brien,F,SR,1,0,1,2022-23
+02/17/2023,Merrimack,Lane Hutson,D,FR,0,0,0,2022-23
+02/17/2023,Merrimack,Devin Kaplan,F,FR,0,0,0,2022-23
+02/17/2023,Merrimack,Brian Carrabes,F,SO,0,0,0,2022-23
+02/17/2023,Merrimack,Domenick Fensore,D,SR,0,0,0,2022-23
+02/17/2023,Merrimack,Sam Stevens,F,SR,0,0,0,2022-23
+02/17/2023,Merrimack,Ethan Phillips,F,SR,0,0,0,2022-23
+02/17/2023,Merrimack,Drew Commesso,G,JR,0,0,0,2022-23
+02/17/2023,Merrimack,Wilmer Skoog,F,SR,0,1,1,2022-23
+02/17/2023,Merrimack,Matt Brown,F,SR,0,1,1,2022-23
