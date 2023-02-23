@@ -401,6 +401,7 @@
 28	Catherine Foulem	F	SO	33	4	8	12	6/12	2021-22
 31	Nicole McGuigan	G	SR	15	0	0	0	0/0	2021-22
 37	Callie Shanahan	G	FR	22	0	0	0	0/0	2021-22
+2	Alex Allan	D	GR	32	0	5	5	12/35	2022-23
 3	Liv Haag	F	SO	16	0	2	2	1/2	2022-23
 6	Nadia Mattivi	D	SR	32	6	11	17	11/22	2022-23
 7	Kylie Roberts	F	SO	28	0	3	3	3/6	2022-23
