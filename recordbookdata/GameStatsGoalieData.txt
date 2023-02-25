@@ -1263,3 +1263,4 @@
 02/17/2023,Merrimack,Drew Commesso,SR,17,3,1,0,57:04,L,2022-23
 02/18/2023,Merrimack,Drew Commesso,SR,10,2,1,0,20:00,,2022-23
 02/18/2023,Merrimack,Vinny Duplessis,SR,10,2,1,0,44:59,L,2022-23
+02/24/2023,Vermont,Drew Commesso,SR,19,3,1,0,60:00,W,2022-23
