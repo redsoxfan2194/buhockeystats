@@ -1286,7 +1286,7 @@ def  getResults(dfGames,dfGameStats,dfGameStatsGoalie,query):
                     elif('save' in statGrp):
                         stat='sv'
                 if(stat in ['sv','ga']):
-                    dfRes=dfGameStatsGoalie.groupby(['date','name']).sum()
+                    dfRes=dfGameStatsGoalie.groupby(['date','name']).sum(numeric_only=True)
                     dfRes.reset_index(inplace=True)
                     gameDays=list(set(dfRes.loc[eval("(dfRes['name'].str.contains('{}',case=False)) & (dfRes['{}']{}{})".format(pName,stat,diff,statNum))]['date'].to_list()))
                     dfQueryList.append("(dfGames['date'].isin({}))".format(gameDays))
@@ -1413,7 +1413,7 @@ def getPlayerStats(playerDfs,query):
         if(seasonSearch!=None):
             playerName = seasonSearch.group(1)
             if(opponent!=''):
-                dfRes=dfGameStats.loc[(dfGameStats['year']==year) & (dfGameStats['name'].str.contains(playerName,case=False)) & (dfGameStats['opponent']==opponent)].groupby('name').sum()
+                dfRes=dfGameStats.loc[(dfGameStats['year']==year) & (dfGameStats['name'].str.contains(playerName,case=False)) & (dfGameStats['opponent']==opponent)].groupby('name').sum(numeric_only=True)
                 dfRes.reset_index(inplace=True)
                 dfResG=dfGameStatsGoalie.loc[(dfGameStatsGoalie['year']==year) & (dfGameStatsGoalie['name'].str.contains(playerName,case=False)) & (dfGameStatsGoalie['opponent']==opponent)]
                 dfResG.reset_index(inplace=True)
@@ -1452,7 +1452,7 @@ def getPlayerStats(playerDfs,query):
             else:
                 yr=yrSearch.group(3).upper()
             if(opponent!=''):
-                dfRes=dfGameStats.loc[(dfGameStats['yr']==yr) & (dfGameStats['name'].str.contains(playerName,case=False)) & (dfGameStats['opponent']==opponent)].groupby('name').sum()
+                dfRes=dfGameStats.loc[(dfGameStats['yr']==yr) & (dfGameStats['name'].str.contains(playerName,case=False)) & (dfGameStats['opponent']==opponent)].groupby('name').sum(numeric_only=True)
                 dfRes.reset_index(inplace=True)
                 dfResG=dfGameStatsGoalie.loc[(dfGameStatsGoalie['yr']==yr) & (dfGameStatsGoalie['name'].str.contains(playerName,case=False)) & (dfGameStatsGoalie['opponent']==opponent)]
                 dfResG.reset_index(inplace=True)
@@ -1765,7 +1765,7 @@ def getPlayerStats(playerDfs,query):
         if(len(pStatsLine)==1 and pStatsLine['name'].isin(dfSeasSkate['name']).any()):
             if('stat' in stat):
                 if(opponent!=''):
-                    dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['season','yr','year']).sum()
+                    dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['season','yr','year']).sum(numeric_only=True)
                     dfRes.reset_index(inplace=True)
                     if(dfRes.empty):
                       return ''
@@ -1789,7 +1789,7 @@ def getPlayerStats(playerDfs,query):
                     resStr+="----------------------\nCareer     {} {}-{}-{}".format(gp,goals,assists,pts)
             elif('goal' in stat):
                 if(opponent!=''):
-                    dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['yr','season']).sum()
+                    dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['yr','season']).sum(numeric_only=True)
                     dfRes.reset_index(inplace=True)
                     if(dfRes.empty):
                       return ''
@@ -1811,7 +1811,7 @@ def getPlayerStats(playerDfs,query):
                     resStr+="----------------------\nCareer     {} {}".format(gp,goals)
             elif('assist' in stat):
                 if(opponent!=''):
-                    dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['yr','season']).sum()
+                    dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['yr','season']).sum(numeric_only=True)
                     dfRes.reset_index(inplace=True)
                     if(dfRes.empty):
                       return ''
@@ -1833,7 +1833,7 @@ def getPlayerStats(playerDfs,query):
                     resStr+="----------------------\nCareer     {} {}".format(gp,assists)
             elif('point' in stat or 'pts' in stat):
                 if(opponent!=''):
-                    dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['yr','season']).sum()
+                    dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine['name'].to_string(index=False,header=False).lstrip()) & (dfGameStats['opponent']==opponent)].groupby(['yr','season']).sum(numeric_only=True)
                     dfRes.reset_index(inplace=True)
                     if(dfRes.empty):
                       return ''
@@ -1965,7 +1965,7 @@ def getPlayerStats(playerDfs,query):
         elif(len(pStatsLine)>=1):
             for row in range(len(pStatsLine)):
                 if(opponent!=''):
-                    dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine.iloc[row]['name']) & (dfGameStats['opponent']==opponent)].groupby('name').sum()
+                    dfRes=dfGameStats.loc[(dfGameStats['name']==pStatsLine.iloc[row]['name']) & (dfGameStats['opponent']==opponent)].groupby('name').sum(numeric_only=True)
                     dfRes.reset_index(inplace=True) 
                     if(dfRes.empty):
                       return ''
