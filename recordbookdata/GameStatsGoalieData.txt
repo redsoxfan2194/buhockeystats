@@ -1265,3 +1265,5 @@
 02/18/2023,Merrimack,Vinny Duplessis,SR,10,2,1,0,44:59,L,2022-23
 02/24/2023,Vermont,Drew Commesso,SR,19,3,1,0,60:00,W,2022-23
 02/25/2023,Vermont,Drew Commesso,SR,23,0,1,1,60:00,W,2022-23
+03/03/2023,Providence,Drew Commesso,SR,22,4,1,0,59:44,W,2022-23
+03/03/2023,Providence,Patrick Schena,SR,0,0,1,0,00:09,,2022-23
