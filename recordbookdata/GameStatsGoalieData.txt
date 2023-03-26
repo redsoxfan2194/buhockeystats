@@ -1271,4 +1271,5 @@
 03/11/2023,Vermont,Drew Commesso,SR,19,3,1,0,59:13,W,2022-23
 03/17/2023,Providence,Drew Commesso,SR,37,1,1,0,70:44,W,2022-23
 03/18/2023,Merrimack,Drew Commesso,SR,23,2,1,0,61:48,W,2022-23
-03/23/2023,Western Mich.,Drew Commesso,SR,24,1,1,0,60:00,W,2022-23
+03/23/2023,Western Michigan,Drew Commesso,SR,24,1,1,0,60:00,W,2022-23
+03/25/2023,Cornell,Drew Commesso,SR,13,1,1,0,60:00,W,2022-23

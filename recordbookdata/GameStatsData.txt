@@ -15811,23 +15811,43 @@
 03/18/2023,Merrimack,Ethan Phillips,F,SR,0,0,0,2022-23
 03/18/2023,Merrimack,Drew Commesso,G,JR,0,0,0,2022-23
 03/18/2023,Merrimack,Matt Brown,F,SR,0,1,1,2022-23
-03/23/2023,Western Mich.,Tristan Amonte,F,SO,0,0,0,2022-23
-03/23/2023,Western Mich.,Ty Gallagher,D,SO,0,0,0,2022-23
-03/23/2023,Western Mich.,Cade Webber,D,JR,0,0,0,2022-23
-03/23/2023,Western Mich.,Ryan Greene,F,FR,0,0,0,2022-23
-03/23/2023,Western Mich.,Luke Tuch,F,JR,0,1,1,2022-23
-03/23/2023,Western Mich.,Jamie Armstrong,F,SR,0,0,0,2022-23
-03/23/2023,Western Mich.,Dylan Peterson,F,JR,0,0,0,2022-23
-03/23/2023,Western Mich.,Lachlan Getz,D,FR,0,0,0,2022-23
-03/23/2023,Western Mich.,Jeremy Wilmer,F,FR,0,1,1,2022-23
-03/23/2023,Western Mich.,Quinn Hutson,F,FR,1,0,1,2022-23
-03/23/2023,Western Mich.,Jay O'Brien,F,SR,0,1,1,2022-23
-03/23/2023,Western Mich.,Lane Hutson,D,FR,1,0,1,2022-23
-03/23/2023,Western Mich.,Devin Kaplan,F,FR,0,0,0,2022-23
-03/23/2023,Western Mich.,Domenick Fensore,D,SR,0,1,1,2022-23
-03/23/2023,Western Mich.,Sam Stevens,F,SR,0,0,0,2022-23
-03/23/2023,Western Mich.,John Copeland,D,SR,0,0,0,2022-23
-03/23/2023,Western Mich.,Ethan Phillips,F,SR,1,2,3,2022-23
-03/23/2023,Western Mich.,Drew Commesso,G,JR,0,0,0,2022-23
-03/23/2023,Western Mich.,Wilmer Skoog,F,SR,1,0,1,2022-23
-03/23/2023,Western Mich.,Matt Brown,F,SR,1,0,1,2022-23
+03/23/2023,Western Michigan,Tristan Amonte,F,SO,0,0,0,2022-23
+03/23/2023,Western Michigan,Ty Gallagher,D,SO,0,0,0,2022-23
+03/23/2023,Western Michigan,Cade Webber,D,JR,0,0,0,2022-23
+03/23/2023,Western Michigan,Ryan Greene,F,FR,0,0,0,2022-23
+03/23/2023,Western Michigan,Luke Tuch,F,JR,0,1,1,2022-23
+03/23/2023,Western Michigan,Jamie Armstrong,F,SR,0,0,0,2022-23
+03/23/2023,Western Michigan,Dylan Peterson,F,JR,0,0,0,2022-23
+03/23/2023,Western Michigan,Lachlan Getz,D,FR,0,0,0,2022-23
+03/23/2023,Western Michigan,Jeremy Wilmer,F,FR,0,1,1,2022-23
+03/23/2023,Western Michigan,Quinn Hutson,F,FR,1,0,1,2022-23
+03/23/2023,Western Michigan,Jay O'Brien,F,SR,0,1,1,2022-23
+03/23/2023,Western Michigan,Lane Hutson,D,FR,1,0,1,2022-23
+03/23/2023,Western Michigan,Devin Kaplan,F,FR,0,0,0,2022-23
+03/23/2023,Western Michigan,Domenick Fensore,D,SR,0,1,1,2022-23
+03/23/2023,Western Michigan,Sam Stevens,F,SR,0,0,0,2022-23
+03/23/2023,Western Michigan,John Copeland,D,SR,0,0,0,2022-23
+03/23/2023,Western Michigan,Ethan Phillips,F,SR,1,2,3,2022-23
+03/23/2023,Western Michigan,Drew Commesso,G,JR,0,0,0,2022-23
+03/23/2023,Western Michigan,Wilmer Skoog,F,SR,1,0,1,2022-23
+03/23/2023,Western Michigan,Matt Brown,F,SR,1,0,1,2022-23
+03/25/2023,Cornell,Tristan Amonte,F,SO,0,0,0,2022-23
+03/25/2023,Cornell,Ty Gallagher,D,SO,0,0,0,2022-23
+03/25/2023,Cornell,Cade Webber,D,JR,0,0,0,2022-23
+03/25/2023,Cornell,Ryan Greene,F,FR,0,0,0,2022-23
+03/25/2023,Cornell,Luke Tuch,F,JR,0,0,0,2022-23
+03/25/2023,Cornell,Jamie Armstrong,F,SR,0,0,0,2022-23
+03/25/2023,Cornell,Dylan Peterson,F,JR,0,0,0,2022-23
+03/25/2023,Cornell,Lachlan Getz,D,FR,0,0,0,2022-23
+03/25/2023,Cornell,Jeremy Wilmer,F,FR,0,1,1,2022-23
+03/25/2023,Cornell,Quinn Hutson,F,FR,0,0,0,2022-23
+03/25/2023,Cornell,Jay O'Brien,F,SR,0,0,0,2022-23
+03/25/2023,Cornell,Lane Hutson,D,FR,0,0,0,2022-23
+03/25/2023,Cornell,Devin Kaplan,F,FR,0,0,0,2022-23
+03/25/2023,Cornell,Domenick Fensore,D,SR,0,0,0,2022-23
+03/25/2023,Cornell,Sam Stevens,F,SR,0,0,0,2022-23
+03/25/2023,Cornell,John Copeland,D,SR,0,0,0,2022-23
+03/25/2023,Cornell,Ethan Phillips,F,SR,1,0,1,2022-23
+03/25/2023,Cornell,Drew Commesso,G,JR,0,0,0,2022-23
+03/25/2023,Cornell,Wilmer Skoog,F,SR,1,0,1,2022-23
+03/25/2023,Cornell,Matt Brown,F,SR,0,1,1,2022-23
