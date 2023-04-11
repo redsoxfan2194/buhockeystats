@@ -515,7 +515,7 @@
 14	Sean Driscoll	D	JR	3	0	0	0	0/0	2021-22
 31	Vinny Duplessis	G	SO	17	0	0	0	0/0	2021-22
 5	Thomas Jarman	D	SO	3	0	0	0	0/0	2021-22
-19	Jack Page	D	SO	1	0	0	0	0/0	2021-22
+19	Jack Page	D	FR	1	0	0	0	0/0	2021-22
 2	Case McCarthy	D	SR	35	3	12	15	7/14	2022-23
 3	Tristan Amonte	F	SO	18	0	0	0	2/4	2022-23
 4	Ty Gallagher	D	SO	40	3	18	21	12/24	2022-23
