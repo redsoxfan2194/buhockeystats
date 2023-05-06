@@ -33,8 +33,8 @@ def generateRecordBook():
             continue
         tourney=i.split(' ')
         tourneyDict[tourney[0]]=' '.join(tourney[1:])
-    tourneyDict['nc']='Non-Colleigate'
-    tourneyDict['Oly nc']='1932 NEAAU Olympic tryouts-Non-Colleigate'
+    tourneyDict['nc']='Non-Collegiate'
+    tourneyDict['Oly nc']='1932 NEAAU Olympic tryouts-Non-Collegiate'
     tourneyDict['ex']='Exhibition'
     tourneyDict['HF ex']='Hall of Fame Game-Exhibition'
     tourneyDict['IB ex']='Ice Breaker-Exhibition'
