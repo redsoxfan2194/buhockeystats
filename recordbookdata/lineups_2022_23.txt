@@ -1,0 +1,440 @@
+GAME #1
+LW,C,RW
+Tuch,O'Brien,Kaplan
+Phillips,Brown,Peterson
+Wilmer,Greene,Quinn Hutson
+Armstrong,Stevens,Carrabes
+,,Zabaneh
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #2
+LW,C,RW
+Phillips,O'Brien,Brown
+Tuch,Skoog,Peterson
+Wilmer,Greene,Quinn Hutson
+Zabaneh,Stevens,Kaplan
+Armstrong,,
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,
+GAME #3
+LW,C,RW
+Phillips,O'Brien,Brown
+Tuch,Skoog,Peterson
+Wilmer,Greene,Quinn Hutson
+Zabaneh,Stevens,Kaplan
+Armstrong,,
+LD,RD,G
+Fensore,Gallagher,Duplessis
+Lane Hutson,McCarthy,Schena
+Webber,Copeland,
+GAME #4
+LW,C,RW
+Phillips,O'Brien,Brown
+Tuch,Skoog,Peterson
+Wilmer,Greene,Quinn Hutson
+Armstrong,Stevens,Kaplan
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Duplessis
+Lane Hutson,McCarthy,Schena
+Webber,Copeland,
+GAME #5
+LW,C,RW
+Tuch,O'Brien,Phillips
+Brown,Skoog,Peterson
+Zabaneh,Greene,Carrabes
+Armstrong,Stevens,Amonte
+,,Kaplan
+LD,RD,G
+Fensore,Gallagher,Duplessis
+Lane Hutson,McCarthy,Schena
+Webber,Copeland,
+GAME #6
+LW,C,RW
+Tuch,O'Brien,Phillips
+Brown,Skoog,Peterson
+Wilmer,Greene,Quinn Hutson
+Armstrong,Stevens,Kaplan
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Duplessis
+Lane Hutson,McCarthy,Commesso
+Webber,Jarman,Schena
+GAME #7
+LW,C,RW
+Tuch,O'Brien,Phillips
+Brown,Skoog,Peterson
+Wilmer,Greene,Quinn Hutson
+Armstrong,Stevens,Kaplan
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Jarman,Schena
+GAME #8
+LW,C,RW
+Zabaneh,O'Brien,Phillips
+Brown,Skoog,Carrabes
+Tuch,Greene,Quinn Hutson
+Armstrong,Stevens,Kaplan
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Getz,Schena
+GAME #9
+LW,C,RW
+Zabaneh,O'Brien,Phillips
+Brown,Skoog,Carrabes
+Tuch,Greene,Quinn Hutson
+Armstrong,Stevens,Kaplan
+,,Peterson
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Getz,Schena
+GAME #10
+LW,C,RW
+Zabaneh,O'Brien,Phillips
+Brown,Skoog,Peterson
+Tuch,Greene,Quinn Hutson
+Armstrong,Stevens,Kaplan
+,,Wilmer
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Getz,Schena
+GAME #11
+LW,C,RW
+Phillips,O'Brien,Kaplan
+Wilmer,Skoog,Brown
+Tuch,Greene,Quinn Hutson
+Armstrong,Stevens,Peterson
+,,Zabaneh
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Getz,Schena
+GAME #12
+LW,C,RW
+Phillips,O'Brien,Peterson
+Wilmer,Skoog,Brown
+Tuch,Greene,Quinn Hutson
+Armstrong,Stevens,Kaplan
+,,Zabaneh
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Getz,Schena
+GAME #13
+LW,C,RW
+Wilmer,Skoog,Brown
+Tuch,O'Brien,Kaplan
+Phillips,Greene,Quinn Hutson
+Armstrong,Stevens,Peterson
+,,Zabaneh
+LD,RD,G
+Fensore,Gallagher,Duplessis
+Lane Hutson,McCarthy,Schena
+Webber,Copeland,
+GAME #14
+LW,C,RW
+Wilmer,Skoog,Brown
+Tuch,O'Brien,Kaplan
+Phillips,Greene,Quinn Hutson
+Armstrong,Stevens,Peterson
+,,Zabaneh
+LD,RD,G
+Fensore,Gallagher,Duplessis
+Lane Hutson,McCarthy,Schena
+Webber,Copeland,
+GAME #15
+LW,C,RW
+Wilmer,Skoog,Brown
+Phillips,O'Brien,Quinn Hutson
+Tuch,Stevens,Kaplan
+Armstrong,Zabaneh,Peterson
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #16
+LW,C,RW
+Wilmer,Skoog,Brown
+Phillips,O'Brien,Quinn Hutson
+Tuch,Stevens,Kaplan
+Armstrong,Zabaneh,Peterson
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #17
+LW,C,RW
+Wilmer,Skoog,O'Brien
+Brown,Greene,Quinn Hutson
+Tuch,Zabaneh,Peterson
+Armstrong,Stevens,Kaplan
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Webber,McCarthy,Duplessis
+Page,Copeland,Schena
+GAME #18
+LW,C,RW
+Wilmer,Skoog,Carrabes
+Brown,Greene,Quinn Hutson
+Tuch,Zabaneh,Peterson
+Armstrong,Stevens,Kaplan
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Jarman,Schena
+,Getz,
+GAME #19
+LW,C,RW
+Wilmer,Skoog,Brown
+Quinn Hutson,Greene,Kaplan
+Tuch,Stevens,O'Brien
+Carrabes,Zabaneh,Peterson
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Getz,Schena
+GAME #20
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,O'Brien,Peterson
+Wilmer,Greene,Quinn Hutson
+Zabaneh,Stevens,Amonte
+,,Carrabes
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Getz,Schena
+GAME #21
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,O'Brien,Peterson
+Wilmer,Greene,Quinn Hutson
+Zabaneh,Stevens,Amonte
+,,Carrabes
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #22
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,O'Brien,Peterson
+Wilmer,Greene,Quinn Hutson
+Zabaneh,Stevens,Amonte
+,,Carrabes
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #23
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,O'Brien,Peterson
+Wilmer,Greene,Quinn Hutson
+Zabaneh,Stevens,Amonte
+LD,RD,G
+Webber,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Page,Copeland,Schena
+Getz,,
+GAME #24
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,O'Brien,Peterson
+Wilmer,Greene,Quinn Hutson
+Armstrong,Stevens,Zabaneh
+LD,RD,G
+Lane Hutson,McCarthy,Commesso
+Webber,Gallagher,Duplessis
+Page,Copeland,Schena
+Getz,,
+GAME #25
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,O'Brien,Peterson
+Wilmer,Greene,Quinn Hutson
+Armstrong,Stevens,Zabaneh
+LD,RD,G
+Lane Hutson,McCarthy,Commesso
+Webber,Gallagher,Duplessis
+Page,Copeland,Schena
+Getz,,
+GAME #26
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,O'Brien,Peterson
+Wilmer,Greene,Quinn Hutson
+Zabaneh,Stevens,Carrabes
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,Copeland,Duplessis
+Webber,Getz,Schena
+Driscoll,,
+GAME #27
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,O'Brien,Peterson
+Wilmer,Greene,Quinn Hutson
+Zabaneh,Stevens,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+,Jarman,
+GAME #28
+LW,C,RW
+Phillips,Skoog,Kaplan
+Wilmer,O'Brien,Brown
+Tuch,Greene,Quinn Hutson
+Zabaneh,Stevens,Peterson
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Jarman,Schena
+GAME #29
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,O'Brien,Phillips
+Wilmer,Greene,Quinn Hutson
+Zabaneh,Stevens,Peterson
+,,Carrabes
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Jarman,Schena
+GAME #30
+LW,C,RW
+Brown,Skoog,Phillips
+Tuch,O'Brien,Quinn Hutson
+Wilmer,Greene,Kaplan
+Zabaneh,Stevens,Peterson
+,,Carrabes
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #31
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,Greene,O'Brien
+Wilmer,Zabaneh,Peterson
+Phillips,Stevens,Quinn Hutson
+Armstrong,,
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,
+GAME #32
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,Greene,O'Brien
+Wilmer,Zabaneh,Peterson
+Phillips,Stevens,Quinn Hutson
+Armstrong,,
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #33
+LW,C,RW
+Brown,Skoog,Kaplan
+Tuch,Greene,O'Brien
+Wilmer,Zabaneh,Peterson
+Phillips,Stevens,Quinn Hutson
+,,Armstrong
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #34
+LW,C,RW
+Wilmer,Skoog,Quinn Hutson
+Tuch,Greene,O'Brien
+Phillips,Zabaneh,Peterson
+Armstrong,Stevens,Kaplan
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #35
+LW,C,RW
+Brown,Skoog,O'Brien
+Tuch,Greene,Quinn Hutson
+Wilmer,Zabaneh,Peterson
+Armstrong,Stevens,Kaplan
+,,Phillips
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #36
+LW,C,RW
+Brown,Skoog,O'Brien
+Tuch,Greene,Quinn Hutson
+Wilmer,Zabaneh,Peterson
+Armstrong,Stevens,Kaplan
+,,Phillips
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,McCarthy,Duplessis
+Webber,Copeland,Schena
+GAME #37
+LW,C,RW
+Brown,O'Brien,Phillips
+Tuch,Greene,Quinn Hutson
+Wilmer,Zabaneh,Peterson
+Armstrong,Stevens,Kaplan
+,,Carrabes
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,Copeland,Duplessis
+Webber,Getz,Schena
+GAME #38
+LW,C,RW
+Brown,O'Brien,Phillips
+Tuch,Greene,Quinn Hutson
+Wilmer,Skoog,Peterson
+Armstrong,Stevens,Kaplan
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,Copeland,Duplessis
+Webber,Getz,Schena
+GAME #39
+LW,C,RW
+Brown,O'Brien,Phillips
+Tuch,Greene,Quinn Hutson
+Wilmer,Skoog,Peterson
+Armstrong,Stevens,Kaplan
+,,Amonte
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,Copeland,Duplessis
+Webber,Getz,Schena
+GAME #40
+LW,C,RW
+Brown,O'Brien,Phillips
+Tuch,Greene,Quinn Hutson
+Wilmer,Zabaneh,Peterson
+Armstrong,Stevens,Kaplan
+,,Skoog
+LD,RD,G
+Fensore,Gallagher,Commesso
+Lane Hutson,Copeland,Duplessis
+Webber,Getz,Schena
