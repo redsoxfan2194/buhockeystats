@@ -15869,4 +15869,5 @@
 04/06/2023,Minnesota,John Copeland,D,SR,0,0,0,2022-23
 04/06/2023,Minnesota,Ethan Phillips,F,SR,0,0,0,2022-23
 04/06/2023,Minnesota,Drew Commesso,G,JR,0,0,0,2022-23
+04/06/2023,Minnesota,Wilmer Skoog,F,SR,0,0,0,2022-23
 04/06/2023,Minnesota,Matt Brown,F,SR,0,1,1,2022-23
