@@ -15084,6 +15084,7 @@
 10/01/2022,Bentley,Jamie Armstrong,F,SR,0,0,0,2022-23
 10/01/2022,Bentley,Luke Tuch,F,JR,1,1,2,2022-23
 10/14/2022,Michigan,Devin Kaplan,F,FR,0,0,0,2022-23
+10/14/2022,Michigan,Jamie Armstrong,F,SR,0,0,0,2022-23
 10/14/2022,Michigan,Lane Hutson,D,FR,0,0,0,2022-23
 10/14/2022,Michigan,Quinn Hutson,F,FR,0,0,0,2022-23
 10/14/2022,Michigan,Jeremy Wilmer,F,FR,0,0,0,2022-23
@@ -15380,6 +15381,7 @@
 12/11/2022,Connecticut,Sam Stevens,F,SR,0,0,0,2022-23
 12/11/2022,Connecticut,Domenick Fensore,D,SR,0,1,1,2022-23
 12/11/2022,Connecticut,Ethan Phillips,F,SR,0,0,0,2022-23
+12/11/2022,Connecticut,Tristan Amonte,F,JR,0,0,0,2022-23
 12/11/2022,Connecticut,Case McCarthy,D,SR,0,0,0,2022-23
 12/11/2022,Connecticut,Jamie Armstrong,F,SR,0,1,1,2022-23
 12/11/2022,Connecticut,Luke Tuch,F,JR,0,0,0,2022-23
@@ -15595,9 +15597,11 @@
 02/06/2023,Northeastern,Ryan Greene,F,FR,0,0,0,2022-23
 02/06/2023,Northeastern,Nick Zabaneh,F,JR,0,0,0,2022-23
 02/06/2023,Northeastern,Luke Tuch,F,JR,0,0,0,2022-23
+02/06/2023,Northeastern,Thomas Jarman,F,JR,0,0,0,2022-23
 02/06/2023,Northeastern,Dylan Peterson,F,JR,0,0,0,2022-23
 02/06/2023,Northeastern,Jeremy Wilmer,F,FR,0,0,0,2022-23
 02/06/2023,Northeastern,Quinn Hutson,F,FR,0,0,0,2022-23
+02/06/2023,Northeastern,John Copeland,D,SR,0,0,0,2022-23
 02/06/2023,Northeastern,Jay O'Brien,F,SR,0,0,0,2022-23
 02/06/2023,Northeastern,Lane Hutson,D,FR,0,1,1,2022-23
 02/06/2023,Northeastern,Devin Kaplan,F,FR,0,0,0,2022-23
