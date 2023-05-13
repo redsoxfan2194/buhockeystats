@@ -1,0 +1,95 @@
+h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+body{background-color:#cc0000}
+
+select{
+  background-color:#cc0000;
+  color:white;
+  border:none;
+}
+input{
+  background-color:#cc0000;
+  color:white;
+  border:none;
+  text-align:center;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+label{
+  color:white;
+}
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.checkbox-label {
+  margin-left: 10px;
+}
+
+#query { 
+    color:white;
+    font-size:160%;
+    text-align: center;
+    
+  }
+#submitbutton { 
+  color:white;
+  font-size:160%;
+  text-align: center;
+  
+}
+#record { 
+  color:white;
+  font-size:160%;
+  text-align: center;
+  
+}
+
+#dash{
+    color:white;
+    font-size:150%;
+    text-align: center;
+}
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-container label {
+  margin-right: 10px;
+}
+
+table{
+  width : 100%;
+}
+.arrow-up {
+  display: none;
+  color: white;
+}
+.arrow-down {
+  display: inline-block;
+  color: white;
+}

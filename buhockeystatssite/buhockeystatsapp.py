@@ -1,5 +1,5 @@
 from flask import Flask,render_template,request
-from burecordbook import *
+from burecordbook_site import *
 
 print('Generating...')
 dfGames=generateRecordBook()
@@ -45,11 +45,20 @@ def getOpponentList(dfRes):
   if(exOpps!=[]):
     retList += ['Exhibition:'] + exOpps
   return retList 
+
+def getTourneyList(dfRes):
+  df=dfRes.copy()
+  df.loc[dfRes['tourney'].isnull(),'tourney']=''
+  df=df.query('tourney != ""').loc[~df['tourney'].str.contains('1932')]
+  retList=['Tournament']+sorted(df.query('tourney != ""').tourney.unique())
+  return retList
   
+
 @app.route('/', methods = ['POST', 'GET'])
 def data():
     global buscore,oppscore,dfGames,dfGamesWomens,dfJersey,dfJerseyMens,dfJerseyWomens,dfSkate,dfSkateMens,dfSkateWomens,dfGoalie,dfGoalieMens,dfGoalieWomens,dfLead,dfLeadWomens,dfBeanpot,dfBeanpotWomens,dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens,dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens,dfBeanpotAwards,dfBeanpotAwardsWomens,dfGameStats,dfGameStatsMens,dfGameStatsWomens,dfGameStatsGoalie,dfGameStatsGoalieMens,dfGameStatsGoalieWomens
     dfRes=dfGames
+    dfOrig=dfGames
     minYear=dfRes.year.min()
     maxYear=dfRes.year.max()
     result=''
@@ -61,7 +70,7 @@ def data():
         result+=str(res)+'-'
     result=result.rstrip('-')
     if request.method == 'GET':
-        return render_template('form.html',result=result,query='',resTable=formatResults(dfRes),opponents_values=getOpponentList(dfRes),season_values=list(dfRes.season.unique()),arena_values=sorted(list(dfRes.arena.unique())),buscore=buscore,oppscore=oppscore,isAscending=True,selected_sort='date',startYear=dfRes.year.min(),endYear=dfRes.year.max(),minYear=minYear,maxYear=maxYear,selected_startSeas=dfRes.season.min(),selected_endSeas=dfRes.season.max(),selected_range='season',hideExStatus="true")
+        return render_template('form.html',result=result,query='',resTable=formatResults(dfRes),opponents_values=getOpponentList(dfOrig),season_values=list(dfOrig.season.unique()),arena_values=sorted(list(dfOrig.arena.unique())),buscore=buscore,oppscore=oppscore,isAscending=True,selected_sort='date',startYear=dfOrig.year.min(),endYear=dfOrig.year.max(),minYear=minYear,maxYear=maxYear,selected_startSeas=dfOrig.season.min(),selected_endSeas=dfOrig.season.max(),selected_range='season',hideExStatus="true",tourney_values=getTourneyList(dfOrig),coach_values=list(dfOrig.coach.unique()))
     if request.method == 'POST':
         form_data = request.form
         if(form_data['gender']=='Mens'):
@@ -104,7 +113,16 @@ def data():
           eYear=dfRes.year.max()
           seasonStart=dfRes.season.min()
           seasonEnd=dfRes.season.max()
-        
+          
+        if(form_data['DOW']!='-1'):
+          dfRes=dfRes.query(f"dow == {form_data['DOW']}")
+        if(form_data['month']!='0'):
+          dfRes=dfRes.query(f"month == {form_data['month']}")
+        if('day' in form_data and form_data['day']!='0'):
+          dfRes=dfRes.query(f"day == {form_data['day']}")
+          dayVal=form_data['day']
+        else:
+          dayVal=0
         if(form_data['opponent']!='all'):
           if(form_data['opponent']=='Exhibition:'):
             dfRes=dfRes.query("result=='E'")
@@ -115,9 +133,12 @@ def data():
         result=''
         if(form_data['season']!='all'):
             dfRes=dfRes.query(f"season==\'{form_data['season']}\'")
-            
+        if(form_data['tourney']!='Tournament'):
+            dfRes=dfRes.query(f"tourney==\'{form_data['tourney']}\'")
         if(form_data['location']!='all'):
             dfRes=dfRes.query(f"location==\'{form_data['location']}\'")
+        if(form_data['coach']!='all'):
+            dfRes=dfRes.query(f"coach==\"{form_data['coach']}\"")
         if(form_data['arena']!='all'):
             dfRes=dfRes.query(f"arena==\'{form_data['arena']}\'")
         if(form_data['buscore']!=''):
@@ -131,7 +152,6 @@ def data():
         else:
             oppscore="Opp Score"
        
-  
         for i in ['W','L','T']:
             if((dfRes['result']==i).any()):
                 res=dfRes.groupby('result').count()['date'][i]
@@ -148,9 +168,9 @@ def data():
         else:
           hideEx=""
         dfRes=dfRes.sort_values(form_data['sortval'],ascending=sortType)
-        return render_template('form.html',result=result,query='',resTable=formatResults(dfRes),opponents_values=getOpponentList(dfRes),\
-        season_values=list(dfOrig.season.unique()),selected_gender=form_data['gender'],selected_opponent=form_data['opponent'],selected_season=form_data['season'],selected_location=form_data['location'],arena_values=sorted(list(dfRes.arena.unique())),selected_arena=form_data['arena'],buscore=buscore,selected_buop=form_data['buscoreop'],selected_oppop=form_data['oppscoreop'],oppscore=oppscore,\
-        isAscending=form_data['isAscending'].capitalize(),selected_sort=form_data['sortval'],startYear=sYear,endYear=eYear,minYear=minYear,maxYear=maxYear,selected_startSeas=seasonStart,selected_endSeas=seasonEnd,selected_range=form_data['range'],hideExStatus=hideEx)
+        return render_template('form.html',result=result,query='',resTable=formatResults(dfRes),opponents_values=getOpponentList(dfOrig),\
+        season_values=list(dfOrig.season.unique()),selected_gender=form_data['gender'],selected_opponent=form_data['opponent'],selected_season=form_data['season'],selected_location=form_data['location'],arena_values=sorted(list(dfOrig.arena.unique())),selected_arena=form_data['arena'],buscore=buscore,selected_buop=form_data['buscoreop'],selected_oppop=form_data['oppscoreop'],oppscore=oppscore,\
+        isAscending=form_data['isAscending'].capitalize(),selected_sort=form_data['sortval'],startYear=sYear,endYear=eYear,minYear=minYear,maxYear=maxYear,selected_startSeas=seasonStart,selected_endSeas=seasonEnd,selected_range=form_data['range'],hideExStatus=hideEx,selected_dow=int(form_data['DOW']),selected_month=int(form_data['month']),selected_day=int(dayVal),tourney_values=getTourneyList(dfOrig),selected_tourney=form_data['tourney'],coach_values=list(dfOrig.coach.unique()),selected_coach=form_data['coach'])
         if(query in form_data.keys()):
           query,gender=determineGender(form_data['query'])
           query=query.lstrip(' ')
