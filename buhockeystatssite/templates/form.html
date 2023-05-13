@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>BU Hockey Stats</title>
+  </head>
+  <body>
+    <h1>BU Hockey Stats</h1>
+    <div class="dropdown-container">
+    <form method="post" id="resForm">
+    <!--<p id="query">Query: <input type = "text" name = "query" /></p>
+    <p id="submitbutton"><input type = "submit" value = "Submit" /></p> -->
+    <select name="gender" id="gender" onchange="this.form.submit()">
+      <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %} >Mens</option>
+      <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}>Womens</option>
+    </select>
+     <select name="sortval" id="sortval" onchange="this.form.submit()">
+      <option value="date" {% if selected_sort == 'date' %} selected {% endif %} >Date</option>
+      <option value="GD" {% if selected_sort == 'GD' %} selected {% endif %}>MOV</option>
+      <option value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}>Goals Scored</option>
+      <option value="OppoScore" {% if selected_sort == 'OppoScore' %} selected {% endif %}>Goals Allowed</option>
+      
+    </select>
+  <span id="arrowUp" class="arrow-up" onclick="toggleArrow();updateForm(true)">&#9650;</span>
+  <span id="arrowDown" class="arrow-down" onclick="toggleArrow();updateForm(false)">&#9660;</span>
+  <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
+    <select name="opponent" id="opponent" onchange="this.form.submit()">
+      <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}>Opponent</option>
+      {% for opponent in opponents_values %}
+      <option value="{{ opponent }}" {% if selected_opponent == opponent %} selected {% endif %}>{{ opponent }}</option>
+      {% endfor %}
+  </select>
+      <select name="season" id="season" onchange="this.form.submit()">
+      <option value="all" {% if selected_season == 'all' %} selected {% endif %}>Season</option>
+      {% for season in season_values %}
+      <option value="{{ season }}" {% if selected_season == season %} selected {% endif %}>{{ season }}</option>
+      {% endfor %}
+      </select>
+      <select name="location" id="location" onchange="this.form.submit()">
+      <option value="all" {% if selected_location == 'all' %} selected {% endif %} >Location</option>
+      <option value="Home" {% if selected_location == 'Home' %} selected {% endif %} >Home</option>
+      <option value="Away" {% if selected_location == 'Away' %} selected {% endif %}>Away</option>
+      <option value="Neutral" {% if selected_location == 'Neutral' %} selected {% endif %}>Neutral</option>
+      </select>
+      <select name="arena" id="arena" onchange="this.form.submit()">
+      <option value="all" {% if selected_arena == 'all' %} selected {% endif %}>Arena</option>
+      {% for arena in arena_values %}
+      <option value="{{ arena }}" {% if selected_arena == arena %} selected {% endif %}>{{ arena }}</option>
+      {% endfor %}
+      </select>
+      <select name="buscoreop" id="buscoreop" onchange="this.form.submit()">
+      <option value="==" {% if selected_buop == '==' %} selected {% endif %}>=</option>
+      <option value=">=" {% if selected_buop == '>=' %} selected {% endif %}>>=</option>
+      <option value=">" {% if selected_buop == '>' %} selected {% endif %}>></option>
+      <option value="<" {% if selected_buop == '<' %} selected {% endif %}><</option>
+      <option value="<=" {% if selected_buop == '<=' %} selected {% endif %}><=</option>
+      </select>
+      <input type="number" name="buscore" id="buscore" value="{{ buscore }}" placeholder="BU Score" min=0 onchange="this.form.submit()">
+      <select name="oppscoreop" id="oppscoreop" onchange="this.form.submit()">
+      <option value="==" {% if selected_oppop == '==' %} selected {% endif %}>=</option>
+      <option value=">=" {% if selected_oppop == '>=' %} selected {% endif %}>>=</option>
+      <option value=">" {% if selected_oppop == '>' %} selected {% endif %}>></option>
+      <option value="<" {% if selected_oppop == '<' %} selected {% endif %}>&lt;</option>
+      <option value="<=" {% if selected_oppop == '<=' %} selected {% endif %}>&lt;=</option>
+      </select>
+      <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" placeholder="Opp Score" min=0 onchange="this.form.submit()">
+  <input type = "submit" id='resetButton' value = "Reset"  />
+  </div>
+  <br>
+  <div class='dropdown-container'>
+  <select name="range" id="range" onchange="toggleDropdowns()">
+      <option value="year" {% if selected_range == "year" %} selected {% endif %}>Year Range:</option>
+      <option value="season" {% if selected_range == "season" %} selected {% endif %}>Season Range:</option>
+  </select>
+  <input type="number" name="startYear" id="startYear" value="{{ startYear }}" placeholder="{{startYear}}" min={{minYear}} max={{maxYear}} onchange="this.form.submit()" style="display: none;">
+  <select name="seasonStart" id="seasonStart" onchange="this.form.submit()" style="display: none;">
+    {% for seasonStart in season_values %}
+    <option value="{{ seasonStart }}" {% if selected_startSeas == seasonStart %} selected {% endif %}>{{ seasonStart }}</option>
+    {% endfor %}
+    </select>
+  <p id='dash'>-</p>
+  <input type="number" name="endYear" id="endYear" value="{{ endYear }}" placeholder="{{endYear}}" min={{minYear}} max={{maxYear}} onchange="this.form.submit()" style="display: none;">
+  <select name="seasonEnd" id="seasonEnd" onchange="this.form.submit()" style="display: none;">
+    {% for seasonEnd in season_values %}
+    <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>{{ seasonEnd }}</option>
+    {% endfor %}
+    </select>
+  </div>
+  <p id="record"> Record: {{result}}<p>
+  <div class="checkbox-container">
+  <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="this.form.submit()"> 
+  <label for="hideEx" class="checkbox-label">Hide Exhibtions</label>
+  <input type="hidden" id="hideExStatus" name="hideExStatus" value="{{hideExStatus}}">
+  </div>
+  </form>
+  
+<script>
+document.getElementById("resetButton").addEventListener("click", clearFilers);
+
+function clearFilers() {
+  document.getElementById("arena").value = "all";
+  document.getElementById("location").value = "all";
+  document.getElementById("opponent").value = "all";
+  document.getElementById("season").value = "all";
+  document.getElementById("buscoreop").value = "==";
+  document.getElementById("buscore").value = "BU Score";
+  document.getElementById("oppscoreop").value = "==";
+  document.getElementById("oppscore").value = "Opp Score";
+  document.getElementById("startYear").value = {{minYear}};
+  document.getElementById("endYear").value = {{maxYear}};
+  document.getElementById("seasonStart").value = "{{season_values[0]}}";
+  document.getElementById("seasonEnd").value = "{{season_values[-1]}}";
+  document.getElementById("hideExStatus").checked = true;
+  
+}
+</script>
+<script>
+      var arrowStateField = document.getElementById('isAscending');
+      if (arrowStateField.value === "True") {
+        arrowUp.style.display = 'none';
+        arrowDown.style.display = 'inline-block';
+
+        
+      } else {
+        arrowUp.style.display = 'inline-block';
+        arrowDown.style.display = 'none';
+      }
+      var checkbox = document.getElementById("hideEx");
+      var checkboxState = document.getElementById("hideExStatus");
+      checkbox.checked = checkboxState.value === "true";
+      var selection = document.getElementById("range").value;
+      var sYear = document.getElementById("startYear");
+      var eYear = document.getElementById("endYear");
+      var sSeason = document.getElementById("seasonStart");
+      var eSeason = document.getElementById("seasonEnd");
+      if (selection === "year") {
+        sYear.style.display = "block";
+        eYear.style.display = "block";
+        sYear.disabled = false;
+        eYear.disabled = false;
+        sSeason.style.display = "none";
+        eSeason.style.display = "none";
+        sSeason.disabled = true;
+        eSeason.disabled = true;
+        
+      } else if (selection === "season") {
+        sYear.style.display = "none";
+        eYear.style.display = "none";
+        sYear.disabled = true;
+        eYear.disabled = true;
+        sSeason.style.display = "block";
+        eSeason.style.display = "block";
+        sSeason.disabled = false;
+        eSeason.disabled = false;
+      } else {
+        sSeason.style.display = "block";
+        eSeason.style.display = "block";
+        sYear.style.display = "block";
+        eYear.style.display = "block";
+        sSeason.disabled = false;
+        eSeason.disabled = false;
+        sYear.disabled = false;
+        eYear.disabled = false;
+      }
+
+    function toggleArrow() {
+      var arrowUp = document.getElementById('arrowUp');
+      var arrowDown = document.getElementById('arrowDown');
+      var arrowStateField = document.getElementById('isAscending');
+      if (arrowStateField.value === "True") {
+        return true; // Arrow is down (false)
+        
+      } else {
+        return false; // Arrow is up (true)
+      }
+    }
+      function updateForm(state) {
+      var arrowStateField = document.getElementById('isAscending');
+      arrowStateField.value = state;
+      document.getElementById("resForm").submit();
+      
+    }
+    function toggleDropdowns() {
+      var selection = document.getElementById("range").value;
+      
+      var sYear = document.getElementById("startYear");
+      var eYear = document.getElementById("endYear");
+      var sSeason = document.getElementById("seasonStart");
+      var eSeason = document.getElementById("seasonEnd");
+      
+      if (selection === "year") {
+        sYear.style.display = "block";
+        eYear.style.display = "block";
+        sYear.disabled = false;
+        eYear.disabled = false;
+        sSeason.style.display = "none";
+        eSeason.style.display = "none";
+        sSeason.disabled = true;
+        eSeason.disabled = true;
+        
+      } else if (selection === "season") {
+        sYear.style.display = "none";
+        eYear.style.display = "none";
+        sYear.disabled = true;
+        eYear.disabled = true;
+        sSeason.style.display = "block";
+        eSeason.style.display = "block";
+        sSeason.disabled = false;
+        eSeason.disabled = false;
+      } else {
+        sSeason.style.display = "block";
+        eSeason.style.display = "block";
+        sYear.style.display = "block";
+        eYear.style.display = "block";
+        sSeason.disabled = false;
+        eSeason.disabled = false;
+        sYear.disabled = false;
+        eYear.disabled = false;
+      }
+    }
+  </script>
+</script>   
+<!--<h2> {{query}}</h2>
+ {% for para in result %}
+     <p>{{para}}</p>
+ {% endfor %}-->
+
+
+{% autoescape false %}
+{{resTable}}
+{% endautoescape %}
+
+</body>
+</html>
