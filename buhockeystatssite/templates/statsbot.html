@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+      <title>BU Hockey Stats</title>
+      <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+   <h1>BU Hockey Stats</h1>
+<h2 class="clickable-heading">
+  <a class='link' href="/records">Records</a>
+  <a class='link' href="/players">Players</a>
+  <a class='link' href="/statsbot">Stats Bot</a>
+</h2>
+<form method='POST'>
+<p id="query">Query: <input id='query' type = "text" name = "query" /></p>
+<p id="submitbutton"><input type = "submit" value = "Submit" /></p>
+</form>
+    <div class="center">
+      <input type = "submit" id='helpbutton' value="Help" onclick="openHelpImage()"/>
+    </div>
+    
+    <script>
+      function openHelpImage() {
+        window.open("{{ url_for('static', filename='images/statsbotcheatsheet.png') }}", "_blank");
+      }
+    </script>
+<h2> {{query}}</h2>
+{% autoescape false %}
+{{result}}
+{% endautoescape %}
+   </body>
+</html>

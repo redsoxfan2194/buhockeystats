@@ -3,11 +3,20 @@ h1 {
     text-align: center;
     padding: 10px;
 }
+.link{color:white;
+text-decoration:underline;
+padding:10px}
+
+#results{color:white;
+text-align: center;
+font-size: 20px;
+}
 
 h2 {
     color: white;
     text-align: center;
     padding: 10px;
+    font-size:20px;
 }
 
 body{background-color:#cc0000}
@@ -17,22 +26,40 @@ select{
   color:white;
   border:none;
 }
+.btn-custom-red{
+  background-color:#cc0000;
+  color:white;
+  border:none;
+}
+.btn:hover {
+  color: white;
+}
+.btn{text-align:left}
 input{
   background-color:#cc0000;
   color:white;
   border:none;
-  text-align:center;
+}
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+  background-color:#cc0000;
+  color:white;
+  border:none;
+  width:120px;
 }
 
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+  background-color:#cc0000;
+  color:white;
+  border:none;
+  width:120px;
+}
 }
 
 label{
@@ -47,19 +74,39 @@ label{
 .checkbox-label {
   margin-left: 10px;
 }
+.stat-table{
+  color:white;
+  text-align: center;
+  width:  auto;
+    margin-left: auto;
+  margin-right: auto;
+}
 
+.stat-row{
+  padding-right: 4px;
+} 
+.checkbox-label{
+  color:white;
+}
 #query { 
     color:white;
-    font-size:160%;
     text-align: center;
     
   }
 #submitbutton { 
   color:white;
-  font-size:160%;
   text-align: center;
   
 }
+#helpbutton { 
+  color:white;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #record { 
   color:white;
   font-size:160%;
@@ -69,7 +116,6 @@ label{
 
 #dash{
     color:white;
-    font-size:150%;
     text-align: center;
 }
 .dropdown-container {
@@ -77,6 +123,8 @@ label{
   align-items: center;
   justify-content: center;
 }
+
+th{text-align:center}
 
 .dropdown-container label {
   margin-right: 10px;
@@ -93,3 +141,29 @@ table{
   display: inline-block;
   color: white;
 }
+/* Default styles for the div */
+.options-menu {
+  display: none;
+  
+}
+#filterMenu {
+  display:block;
+  font-size:20px;
+  padding-left:10px;
+}
+    /* Media query for screens wider than 600px */
+@media (min-width: 601px) {
+  .options-menu {
+    display: block;
+  }
+  #filterMenu {
+  display:none;
+}
+h2 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size:30px;
+}
+}
+
