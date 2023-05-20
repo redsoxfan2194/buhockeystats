@@ -64,7 +64,7 @@
 8	Ryan Weston	F	FR	40	4	1	5	17/42	2004-05
 17	Eric Thomassian	F	SO	20	1	4	5	1/2	2004-05
 4	Sean Sullivan	D	SO	41	1	3	4	5/10	2004-05
-25	Pat Percella	F	FR	4	1	1	2	10	2004-05
+25	Pat Percella	F	FR	4	1	1	2	0/0	2004-05
 15	Kevin Kielt	D	FR	15	0	2	2	2/4	2004-05
 14	Jekabs Redlihs	D	JR	40	1	0	1	16/32	2004-05
 2	Dan McGoff	D	FR	16	0	1	1	4/8	2004-05
@@ -156,7 +156,7 @@
 33	Colin Wilson	F	SO	43	17	38	55	22/52	2008-09
 13	Nick Bonino	F	SO	44	18	32	50	15/30	2008-09
 10	Chris Higgins	F	SR	42	14	34	48	20/40	2008-09
-18	Brandon Yip	F	SR	45	20	23	43	48/1184	2008-09
+18	Brandon Yip	F	SR	45	20	23	43	48/118	2008-09
 21	Jason Lawrence	F	SR	44	25	14	39	19/38	2008-09
 97	Matt Gilroy	D	SR	45	8	29	37	6/12	2008-09
 25	Colby Cohen	D	SO	43	8	24	32	27/65	2008-09
@@ -170,7 +170,7 @@
 9	Corey Trivino	F	FR	32	6	7	13	7/14	2008-09
 6	Joe Pereira	F	SO	34	3	7	10	26/74	2008-09
 7	Brian Strait	D	JR	38	2	5	7	24/67	2008-09
-2	Eric Gryba	D	JR	45	0	6	6	45/1060	2008-09
+2	Eric Gryba	D	JR	45	0	6	6	45/106	2008-09
 14	Andrew Glass	F	FR	15	2	1	3	1/2	2008-09
 16	Kevin Gilroy	F	FR	12	2	0	2	1/2	2008-09
 8	Steve Smolinsky	D	SR	14	0	1	1	0/0	2008-09
@@ -190,7 +190,7 @@
 7	Max Nicastro	D	FR	37	3	12	15	13/26	2009-10
 22	Ross Gaudet	F	SO	35	10	2	12	8/16	2009-10
 18	Wade Megan	F	FR	35	5	7	12	11/22	2009-10
-2	Eric Gryba	D	SR	38	4	6	10	48/1181	2009-10
+2	Eric Gryba	D	SR	38	4	6	10	48/118	2009-10
 26	Luke Popko	F	SR	37	2	7	9	7/14	2009-10
 16	Kevin Gilroy	F	SO	25	1	2	3	2/4	2009-10
 21	Sean Escobedo	D	FR	38	0	3	3	21/42	2009-10
