@@ -255,24 +255,26 @@ def convertToFloat(val):
             val=float('nan')
         return val        
 
-def convertSeasons(season):
-    gap=season.split(',')
-    years=season[2:].split('-')
-    seasonStr=''
-    if(len(gap)>1):
-        for i in gap:
-            seasonStr+=convertSeasons(i)
-    else:
-        yearDiff=abs(int(years[0])-int(years[1]))
-        if(yearDiff>6):
-            yearDiff=100-yearDiff
-        firstHalf=season[:4]
+def convertSeasons(season,strip=True):
+        gap=season.split(',')
+        years=season[2:].split('-')
         seasonStr=''
-        for i in range(yearDiff):
-            secondHalf=int(firstHalf)+1
-            seasonStr+=str(firstHalf)+'-'+str(secondHalf)[2:]+','
-            firstHalf=secondHalf
-    return seasonStr[:-1]
+        if(len(gap)>1):
+            for i in gap:
+                seasonStr+=convertSeasons(i,False)
+        else:
+            yearDiff=abs(int(years[0])-int(years[1]))
+            if(yearDiff>6):
+                yearDiff=100-yearDiff
+            firstHalf=season[:4]
+            seasonStr=''
+            for i in range(yearDiff):
+                secondHalf=int(firstHalf)+1
+                seasonStr+=str(firstHalf)+'-'+str(secondHalf)[2:]+','
+                firstHalf=secondHalf
+        if(not strip):
+            return seasonStr
+        return seasonStr[:-1]
 
 def decodeTeam(team):
     origTeam = team
