@@ -343,7 +343,7 @@
 4	Brandon Hickey	D	SO	36	5	3	8	14/28	2015-16
 12	Chase Phelps	F	SO	37	3	2	5	6/12	2015-16
 26	Oskar Andrén	F	FR	21	2	3	5	4/8	2015-16
---	A.J. Greer	F	SO	18	1	4	5	5/10	2015-16
+26	A.J. Greer	F	SO	18	1	4	5	5/10	2015-16
 20	Brien Diffley	D	SO	28	0	5	5	5/10	2015-16
 13	Nikolas Olsson	F	SO	14	0	4	4	5/10	2015-16
 22	Tommy Kelley	F	JR	24	1	2	3	1/2	2015-16
