@@ -146,10 +146,10 @@ def players():
         else:
           oppList=[]
         if(form_data['name']!='Name'):
-          dfStat=dfStat.loc[dfStat['name'].str.contains(form_data['name'],case=False)]
+          dfStat=dfStat.loc[dfStat['name'].str.contains(form_data['name'].strip(),case=False)]
         if(form_data['number']!=''):
           dfStat=dfStat.query(f"number == {form_data['number']}")
-          num=form_data['number']
+          num=form_data['number'].strip()
         else:
           num="Number"
         if(form_data['isAscending']!=''):
