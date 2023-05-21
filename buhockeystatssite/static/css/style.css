@@ -1,8 +1,12 @@
+@font-face {
+    font-family: college-font;
+    src: url(font/college.ttf) format('truetype');
+}
 h1 {
     color: white;
     text-align: center;
     padding: 10px;
-    font-family: college;
+    font-family: college-font;
     font-size: 60px;
 }
 .link{color:white;
