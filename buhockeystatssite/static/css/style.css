@@ -1,6 +1,6 @@
 @font-face {
     font-family: college-font;
-    src: url(font/college.ttf) format('truetype');
+    src: url(fonts/college.ttf) format('truetype');
 }
 h1 {
     color: white;
