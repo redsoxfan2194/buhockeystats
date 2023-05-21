@@ -27,13 +27,6 @@ print('Generated')
 
 app = Flask(__name__)
 
-#@app.route('/')
-#def home():
-#  return "<h1> Hello World </h1>"
-#@app.route('/form')
-#def form():
-#    return render_template('records.html')
-
 def getOpponentList(dfRes):
   dfRes.loc[dfRes['tourney'].isnull(),'tourney']=''
   nonCollOpps = sorted(list(dfRes[dfRes['tourney'].str.contains("Non-Collegiate")].opponent.unique()))
@@ -55,7 +48,125 @@ def getTourneyList(dfRes):
   
 @app.route('/players', methods = ['POST', 'GET'])
 def players():
-  return render_template('players.html')
+    global dfGames,dfGamesWomens,dfJersey,dfJerseyMens,dfJerseyWomens,dfSkate,dfSkateMens,dfSkateWomens,dfGoalie,dfGoalieMens,dfGoalieWomens,dfLead,dfLeadWomens,dfBeanpot,dfBeanpotWomens,dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens,dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens,dfBeanpotAwards,dfBeanpotAwardsWomens,dfGameStats,dfGameStatsMens,dfGameStatsWomens,dfGameStatsGoalie,dfGameStatsGoalieMens,dfGameStatsGoalieWomens
+    if request.method == 'GET':
+        dfStat=dfSkateMens
+        seasVals=sorted(set(dfStat['seasons'].to_string(index=False).replace(' ','').replace('\n',',').split(',')))
+        return render_template('players.html',statTable=formatStats(dfStat),season_values=seasVals,selected_startSeas=seasVals[0],selected_endSeas=seasVals[-1],name="Name",number="Number",date="Date")
+    if request.method == 'POST':
+        form_data = request.form
+        dfStat=pd.DataFrame()
+        seasVals=[]
+        if(form_data['gender']=='Mens'):
+           if(form_data['type']=='career'):
+              if(form_data['position']=='skater'):
+                dfStat=dfSkateMens
+              elif(form_data['position']=='goalie'):
+                dfStat=dfGoalieMens
+              seasVals=sorted(set(dfStat['seasons'].to_string(index=False).replace(' ','').replace('\n',',').split(',')))
+           elif(form_data['type']=='season'):
+              if(form_data['position']=='skater'):
+                dfStat=dfSeasSkateMens
+              elif(form_data['position']=='goalie'):
+                dfStat=dfSeasGoalieMens
+                rec=dfStat.record.str.split('-',expand=True)
+                dfStat['W']=rec[0].astype(int)
+                dfStat['L']=rec[1].astype(int)
+                dfStat['T']=rec[2].astype(int)
+           elif(form_data['type']=='game'):
+              if(form_data['position']=='skater'):
+                dfStat=dfGameStatsMens
+              elif(form_data['position']=='goalie'):
+                dfStat=dfGameStatsGoalieMens
+        elif(form_data['gender']=='Womens'):
+           if(form_data['type']=='career'):
+              if(form_data['position']=='skater'):
+                dfStat=dfSkateWomens
+              elif(form_data['position']=='goalie'):
+                dfStat=dfGoalieWomens
+              seasVals=sorted(set(dfStat['seasons'].to_string(index=False).replace(' ','').replace('\n',',').split(',')))
+           elif(form_data['type']=='season'):
+              if(form_data['position']=='skater'):
+                dfStat=dfSeasSkateWomens
+              elif(form_data['position']=='goalie'):
+                dfStat=dfSeasGoalieWomens
+                rec=dfStat.record.str.split('-',expand=True)
+                dfStat['W']=rec[0].astype(int)
+                dfStat['L']=rec[1].astype(int)
+                dfStat['T']=rec[2].astype(int)
+           elif(form_data['type']=='game'):
+              if(form_data['position']=='skater'):
+                dfStat=dfGameStatsWomens
+              elif(form_data['position']=='goalie'):
+                dfStat=dfGameStatsGoalieWomens
+        if(seasVals==[]):
+          seasVals=list(dfStat.season.unique())
+        sSeas=form_data['seasonStart']
+        eSeas=form_data['seasonEnd']
+        if(form_data['season']!='all'):
+          if(form_data['type']=='career'):
+            dfStat=dfStat.loc[dfStat['seasons'].str.contains(form_data['season'])]
+          else:
+            dfStat=dfStat.query(f"season == '{form_data['season']}'")
+        else:
+          if(sSeas not in seasVals):
+            sIdx=0
+            sSeas=seasVals[0]
+          else:
+            sIdx=seasVals.index(sSeas)
+          eIdx=seasVals.index(eSeas)+1
+          if(sIdx>eIdx):
+            temp=sIdx
+            sIdx=eIdx
+            eIdx=temp
+            sSeas=seasVals[sIdx]
+            eSeas=seasVals[eIdx]
+          valSeas=seasVals[sIdx:eIdx]
+          if(form_data['type']=='career'):
+            idx=[]
+            for seas in valSeas:
+                idx+=(list(dfStat.loc[dfStat['seasons'].str.contains(seas)].index))
+            idx=list(set(idx))
+            dfStat=dfStat.loc[idx]
+            dfStat.reset_index(inplace=True)
+          else:
+            dfStat=dfStat.loc[dfStat['season'].isin(valSeas)]
+        if(form_data['type']!='career'):
+          if(form_data['pos']!='all' and form_data['position']!='goalie'):
+            dfStat=dfStat.query(f"pos=='{form_data['pos']}'")
+          if(form_data['yr']!='all'):
+            dfStat=dfStat.query(f"yr=='{form_data['yr']}'")
+        if(form_data['type']=='game'):
+          oppList=sorted(list(dfStat.opponent.unique()))
+          dfStat['date']=pd.to_datetime(dfStat['date'])
+          if(form_data['opponent']!='all'):
+            dfStat=dfStat.query(f"opponent==\"{form_data['opponent']}\"")
+          if(form_data['date']!='Date'):
+            dfStat=dfStat.query(f"date==\"{form_data['date']}\"")
+        else:
+          oppList=[]
+        if(form_data['name']!='Name'):
+          dfStat=dfStat.loc[dfStat['name'].str.contains(form_data['name'],case=False)]
+        if(form_data['number']!=''):
+          dfStat=dfStat.query(f"number == {form_data['number']}")
+          num=form_data['number']
+        else:
+          num="Number"
+        if(form_data['isAscending']!=''):
+          if(form_data['sortval']!='' and form_data['sortval'] in dfStat.columns ):
+            sortType=eval(form_data['isAscending'].capitalize())
+            if(form_data['sortval']!='date' and sortType!='' and form_data['sortval']!='career' and form_data['sortval']!='season'):
+               sortType=not sortType
+            if(form_data['sortval']=='name' and 'last' in dfStat.columns):
+               sortVal='last'
+            else:
+               sortVal=form_data['sortval']
+            dfStat=dfStat.sort_values(sortVal,ascending=sortType)
+            sortVal=form_data['sortval']
+        else:
+          sortVal=''
+          sortType=''
+        return render_template('players.html',statTable=formatStats(dfStat),selected_gender=form_data['gender'],selected_position=form_data['position'],selected_pos=form_data['pos'],selected_yr=form_data['yr'],selected_type=form_data['type'],selected_sort=form_data['sortval'],selected_season=form_data['season'],season_values=seasVals,selected_startSeas=sSeas,selected_endSeas=eSeas,minYear=seasVals[0],maxYear=seasVals[-1],sortval=sortVal,isAscending=form_data['isAscending'],opponents_values=oppList,selected_opponent=form_data['opponent'],name=form_data['name'],number=num,date=form_data['date'])
   
 @app.route('/statsbot', methods = ['POST', 'GET'])
 def statsbot():

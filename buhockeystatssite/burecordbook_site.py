@@ -255,24 +255,26 @@ def convertToFloat(val):
             val=float('nan')
         return val        
 
-def convertSeasons(season):
-    gap=season.split(',')
-    years=season[2:].split('-')
-    seasonStr=''
-    if(len(gap)>1):
-        for i in gap:
-            seasonStr+=convertSeasons(i)
-    else:
-        yearDiff=abs(int(years[0])-int(years[1]))
-        if(yearDiff>6):
-            yearDiff=100-yearDiff
-        firstHalf=season[:4]
+def convertSeasons(season,strip=True):
+        gap=season.split(',')
+        years=season[2:].split('-')
         seasonStr=''
-        for i in range(yearDiff):
-            secondHalf=int(firstHalf)+1
-            seasonStr+=str(firstHalf)+'-'+str(secondHalf)[2:]+','
-            firstHalf=secondHalf
-    return seasonStr[:-1]
+        if(len(gap)>1):
+            for i in gap:
+                seasonStr+=convertSeasons(i,False)
+        else:
+            yearDiff=abs(int(years[0])-int(years[1]))
+            if(yearDiff>6):
+                yearDiff=100-yearDiff
+            firstHalf=season[:4]
+            seasonStr=''
+            for i in range(yearDiff):
+                secondHalf=int(firstHalf)+1
+                seasonStr+=str(firstHalf)+'-'+str(secondHalf)[2:]+','
+                firstHalf=secondHalf
+        if(not strip):
+            return seasonStr
+        return seasonStr[:-1]
 
 def decodeTeam(team):
     origTeam = team
@@ -627,7 +629,7 @@ def generateSeasonSkaters():
         seasList=[]
         for i in rows:
             col=i.split('\t')
-            seasDict={'number':col[0],
+            seasDict={'number':int(col[0]),
                      'name':col[1],
                      'pos':col[2],
                      'yr':col[3],
@@ -647,7 +649,7 @@ def generateSeasonSkaters():
         rows=read_data.split('\n')
         for i in rows:
             col=i.split('\t')
-            seasDict={'number':col[0],
+            seasDict={'number':int(col[0]),
                      'name':col[1],
                      'pos':col[2],
                      'yr':col[3],
@@ -1407,6 +1409,47 @@ def formatResults(dfRes):
     style.set_table_styles([headers,table])
     dfRes=style.to_html(index_names=False,render_links=True)
     return dfRes
+def formatStats(dfRes):
+    dfRes=dfRes.copy()
+    if('career' in dfRes.columns and 'pts' in dfRes.columns):
+      dfRes=dfRes[['name','career','gp','goals','assists','pts','pen','pim']]
+    elif('career' in dfRes.columns and 'gaa' in dfRes.columns):
+      dfRes=dfRes[['name','career','gp','mins','ga','gaa','saves','sv%','W','L','T']]
+    elif('number' in dfRes.columns and 'gaa' in dfRes.columns):
+      dfRes=dfRes[['number','name','yr','season','gp','mins','ga','gaa','saves','sv%','W','L','T','SO']]
+    elif('date' in dfRes.columns and 'ga' in dfRes.columns):
+      dfRes['date']=dfRes['date'].dt.strftime('%m/%d/%Y')
+      dfRes=dfRes[['date','name','opponent','yr','season','sv','ga','mins','result']]
+    elif('number' in dfRes.columns and 'pts' in dfRes.columns):
+      dfRes['number']=dfRes['number'].astype(int)
+      dfRes=dfRes[['number','name','pos','yr','season','gp','goals','assists','pts','pens']]
+    elif('date' in dfRes.columns and 'pts' in dfRes.columns):
+      dfRes['date']=dfRes['date'].dt.strftime('%m/%d/%Y')
+      dfRes=dfRes[['date','name','opponent','yr','pos','season','goals','assists','pts']]
+    if('season' in dfRes.columns):
+      style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','sv%':'{:.3f}'})
+    else:
+      style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','mins':'{:.2f}','sv%':'{:.3f}'})
+    for stat in ['gp','goals','assists','pts','pen','pim','ga','W','L','T','saves']:
+      if(stat not in dfRes.columns):
+        continue
+      dfRes[stat] = dfRes[stat].fillna(-1)
+      dfRes[stat] = dfRes[stat].astype(int)
+      dfRes[stat] = dfRes[stat].astype(str)
+      dfRes[stat] = dfRes[stat].replace('-1', '-')
+      
+    headers = {
+        'selector': 'th:not(.index_name)',
+        'props': 'color: white;'
+    }
+    table={
+        'selector': 'table',
+        'props': [('class', 'sortable')]
+    }
+    style.set_table_styles([headers,table])
+    dfRes=style.to_html(index_names=False,render_links=True).replace(">nan<",">-<").replace('<th','<th onclick=setSort(this)')
+    return dfRes
+    
 teamColors={"Yale":("#0A2240","#FFFFFF"),
 "Harvard":("#A31F36","#FFFFFF"),
 "Princeton":("#000000","#FF6000"),

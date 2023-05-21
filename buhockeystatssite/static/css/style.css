@@ -2,6 +2,8 @@ h1 {
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: college;
+    font-size: 60px;
 }
 .link{color:white;
 text-decoration:underline;
@@ -65,6 +67,9 @@ input[type=number] {
 label{
   color:white;
 }
+    .hidden {
+      display: none;
+    }
 .checkbox-container {
   display: flex;
   justify-content: flex-end;
@@ -73,6 +78,7 @@ label{
 
 .checkbox-label {
   margin-left: 10px;
+  color:white;
 }
 .stat-table{
   color:white;
@@ -85,9 +91,7 @@ label{
 .stat-row{
   padding-right: 4px;
 } 
-.checkbox-label{
-  color:white;
-}
+
 #query { 
     color:white;
     text-align: center;
@@ -141,6 +145,10 @@ table{
   display: inline-block;
   color: white;
 }
+    .arrow {
+      margin-left: 5px;
+      cursor: pointer;
+    }
 /* Default styles for the div */
 .options-menu {
   display: none;
