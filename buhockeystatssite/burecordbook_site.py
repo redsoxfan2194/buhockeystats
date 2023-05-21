@@ -1446,6 +1446,8 @@ def formatStats(dfRes):
         'selector': 'table',
         'props': [('class', 'sortable')]
     }
+    dfRes.columns=dfRes.columns.str.capitalize()
+    dfRes.rename(columns={'Yr':'YR','Gp':'GP','Ga':'GA','Gaa':'GAA','Sv%':'SV%','So':'SO','Sv':'SV','Pim':'PIM'},inplace=True)
     style.set_table_styles([headers,table])
     dfRes=style.to_html(index_names=False,render_links=True).replace(">nan<",">-<").replace('<th','<th onclick=setSort(this)')
     return dfRes

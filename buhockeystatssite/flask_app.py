@@ -153,14 +153,17 @@ def players():
         else:
           num="Number"
         if(form_data['isAscending']!=''):
-          if(form_data['sortval']!='' and form_data['sortval'] in dfStat.columns ):
+          if(form_data['sortval']!='' and form_data['sortval'].lower() in dfStat.columns or form_data['sortval'] in ['W','L','T','SO'] ):
             sortType=eval(form_data['isAscending'].capitalize())
-            if(form_data['sortval']!='date' and sortType!='' and form_data['sortval']!='career' and form_data['sortval']!='season'):
+            if(form_data['sortval'].lower()!='date' and sortType!='' and form_data['sortval'].lower()!='career' and form_data['sortval'].lower()!='season'):
                sortType=not sortType
-            if(form_data['sortval']=='name' and 'last' in dfStat.columns):
+            if(form_data['sortval'].lower()=='name' and 'last' in dfStat.columns):
                sortVal='last'
             else:
-               sortVal=form_data['sortval']
+               if(form_data['sortval'] not in ['W','L','T','SO']):
+                  sortVal=form_data['sortval'].lower()
+               else:
+                  sortVal=form_data['sortval']
             dfStat=dfStat.sort_values(sortVal,ascending=sortType)
             sortVal=form_data['sortval']
         else:
