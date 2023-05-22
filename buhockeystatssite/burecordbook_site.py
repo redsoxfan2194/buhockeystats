@@ -874,7 +874,7 @@ def generateGameSkaterStats():
       rows=read_data.split('\n')
       for i in rows:
               col=i.split(',')
-              gameStatDict={'date':col[0],
+              gameStatDict={'date':pd.to_datetime(col[0]),
                            'opponent':col[1],
                            'name':col[2],
                            'pos':col[3],
@@ -897,7 +897,7 @@ def generateGameSkaterStats():
       rows=read_data.split('\n')
       for i in rows:
               col=i.split(',')
-              gameStatWDict={'date':col[0],
+              gameStatWDict={'date':pd.to_datetime(col[0]),
                            'opponent':col[1],
                            'name':col[2],
                            'pos':col[3],
@@ -923,7 +923,7 @@ def generateGameGoalieStats():
       rows=read_data.split('\n')
       for i in rows:
               col=i.split(',')
-              gameStatGoalieDict={'date':col[0],
+              gameStatGoalieDict={'date':pd.to_datetime(col[0]),
                            'opponent':col[1],
                            'name':col[2],
                            'yr':col[3],
@@ -946,7 +946,7 @@ def generateGameGoalieStats():
       rows=read_data.split('\n')
       for i in rows:
               col=i.split(',')
-              gameStatGoalieWDict={'date':col[0],
+              gameStatGoalieWDict={'date':pd.to_datetime(col[0]),
                            'opponent':col[1],
                            'name':col[2],
                            'yr':col[3],

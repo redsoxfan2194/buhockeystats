@@ -138,7 +138,6 @@ def players():
             dfStat=dfStat.query(f"yr=='{form_data['yr']}'")
         if(form_data['type']=='game'):
           oppList=sorted(list(dfStat.opponent.unique()))
-          dfStat['date']=pd.to_datetime(dfStat['date'])
           if(form_data['opponent']!='all'):
             dfStat=dfStat.query(f"opponent==\"{form_data['opponent']}\"")
           if(form_data['date']!='Date'):
