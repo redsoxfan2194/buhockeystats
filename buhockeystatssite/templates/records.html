@@ -18,11 +18,11 @@
       <input type = "submit" id='filterMenu' value = "&#9881&#xFE0E;"/>
       <div class="dropdown-container options-menu" id="options-menu">
          <form method="post" id="resForm">
-            <select class="btn btn-custom-red dropdown-toggle" name="gender" id="gender" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" name="gender" id="gender" onchange="submitForm(this)">
             <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %} >Mens</option>
             <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}>Womens</option>
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="sortval" id="sortval" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" name="sortval" id="sortval" onchange="submitForm(this)">
             <option value="date" {% if selected_sort == 'date' %} selected {% endif %} >Date</option>
             <option value="GD" {% if selected_sort == 'GD' %} selected {% endif %}>MOV</option>
             <option value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}>Goals Scored</option>
@@ -31,13 +31,13 @@
             <span id="arrowUp" class="arrow-up" onclick="toggleArrow();updateForm(true)">&#9650;</span>
             <span id="arrowDown" class="arrow-down" onclick="toggleArrow();updateForm(false)">&#9660;</span>
             <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
-            <select class="btn btn-custom-red dropdown-toggle" name="opponent" id="opponent" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" name="opponent" id="opponent" onchange="submitForm(this)">
             <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}>Opponent</option>
             {% for opponent in opponents_values %}
             <option value="{{ opponent }}" {% if selected_opponent == opponent %} selected {% endif %}>{{ opponent }}</option>
             {% endfor %}
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" id="DOW" name="DOW" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" id="DOW" name="DOW" onchange="submitForm(this)">
             <option value=-1 {% if selected_dow == -1 %} selected {% endif %} >DOW</option>
             <option value=6 {% if selected_dow == 6 %} selected {% endif %} >Sunday</option>
             <option value=0 {% if selected_dow == 0 %} selected {% endif %} >Monday</option>
@@ -47,7 +47,7 @@
             <option value=4 {% if selected_dow == 4 %} selected {% endif %} >Friday</option>
             <option value=5 {% if selected_dow == 5 %} selected {% endif %} >Saturday</option>
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" id="month" name="month" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" id="month" name="month" onchange="submitForm(this)">
                <option value=0 {% if selected_month == 0%} selected {% endif %}>Month</option>
                <option value=1 {% if selected_month == 1%} selected {% endif %}>January</option>
                <option value=2 {% if selected_month == 2%} selected {% endif %}>February</option>
@@ -62,49 +62,49 @@
                <option value=11 {% if selected_month == 11%} selected {% endif %}>November</option>
                <option value=12 {% if selected_month == 12%} selected {% endif %}>December</option>
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" id="day" name="day" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" id="day" name="day" onchange="submitForm(this)">
             <option value=0>Day</option>
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="submitForm(this)">
             <option value="all" {% if selected_season == 'all' %} selected {% endif %}>Season</option>
             {% for season in season_values %}
             <option value="{{ season }}" {% if selected_season == season %} selected {% endif %}>{{ season }}</option>
             {% endfor %}
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="location" id="location" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" name="location" id="location" onchange="submitForm(this)">
             <option value="all" {% if selected_location == 'all' %} selected {% endif %} >Location</option>
             <option value="Home" {% if selected_location == 'Home' %} selected {% endif %} >Home</option>
             <option value="Away" {% if selected_location == 'Away' %} selected {% endif %}>Away</option>
             <option value="Neutral" {% if selected_location == 'Neutral' %} selected {% endif %}>Neutral</option>
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="buscoreop" id="buscoreop" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" name="buscoreop" id="buscoreop" onchange="submitForm(this)">
             <option value="==" {% if selected_buop == '==' %} selected {% endif %}>=</option>
             <option value=">=" {% if selected_buop == '>=' %} selected {% endif %}>>=</option>
             <option value=">" {% if selected_buop == '>' %} selected {% endif %}>></option>
             <option value="<" {% if selected_buop == '<' %} selected {% endif %}><</option>
             <option value="<=" {% if selected_buop == '<=' %} selected {% endif %}><=</option>
             </select>
-            <input type="number" name="buscore" id="buscore" value="{{ buscore }}" placeholder="BU Score" min=0 onchange="this.form.submit()">
-            <select class="btn btn-custom-red dropdown-toggle" name="oppscoreop" id="oppscoreop" onchange="this.form.submit()">
+            <input type="number" name="buscore" id="buscore" value="{{ buscore }}" placeholder="BU Score" min=0 onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" name="oppscoreop" id="oppscoreop" onchange="submitForm(this)">
             <option value="==" {% if selected_oppop == '==' %} selected {% endif %}>=</option>
             <option value=">=" {% if selected_oppop == '>=' %} selected {% endif %}>>=</option>
             <option value=">" {% if selected_oppop == '>' %} selected {% endif %}>></option>
             <option value="<" {% if selected_oppop == '<' %} selected {% endif %}>&lt;</option>
             <option value="<=" {% if selected_oppop == '<=' %} selected {% endif %}>&lt;=</option>
             </select>
-            <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" placeholder="Opp Score" min=0 onchange="this.form.submit()">
-            <select class="btn btn-custom-red dropdown-toggle" name="arena" id="arena" onchange="this.form.submit()">
+            <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" placeholder="Opp Score" min=0 onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" name="arena" id="arena" onchange="submitForm(this)">
             <option value="all" {% if selected_arena == 'all' %} selected {% endif %}>Arena</option>
             {% for arena in arena_values %}
             <option value="{{ arena }}" {% if selected_arena == arena %} selected {% endif %}>{{ arena }}</option>
             {% endfor %}
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="tourney" id="tourney" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" name="tourney" id="tourney" onchange="submitForm(this)">
             {% for tourney in tourney_values %}
             <option value="{{ tourney }}" {% if selected_tourney == tourney %} selected {% endif %}>{{ tourney }}</option>
             {% endfor %}
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="coach" id="coach" onchange="this.form.submit()">
+            <select class="btn btn-custom-red dropdown-toggle" name="coach" id="coach" onchange="submitForm(this)">
             <option value="all" {% if selected_coach == 'all' %} selected {% endif %}>Coach</option>
             {% for coach in coach_values %}
             <option value="{{ coach }}" {% if selected_coach == coach %} selected {% endif %}>{{ coach }}</option>
@@ -118,15 +118,15 @@
       <option value="year" {% if selected_range == "year" %} selected {% endif %}>Year Range:</option>
       <option value="season" {% if selected_range == "season" %} selected {% endif %}>Season Range:</option>
       </select>
-      <input type="number" name="startYear" id="startYear" value="{{ startYear }}" placeholder="{{startYear}}" min={{minYear}} max={{maxYear}} onchange="this.form.submit()" style="display: none;">
-      <select class="btn btn-custom-red dropdown-toggle" name="seasonStart" id="seasonStart" onchange="this.form.submit()" style="display: none;">
+      <input type="number" name="startYear" id="startYear" value="{{ startYear }}" placeholder="{{startYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm(this)" style="display: none;">
+      <select class="btn btn-custom-red dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm(this)" style="display: none;">
       {% for seasonStart in season_values %}
       <option value="{{ seasonStart }}" {% if selected_startSeas == seasonStart %} selected {% endif %}>{{ seasonStart }}</option>
       {% endfor %}
       </select>
       <p id='dash'>_</p>
-      <input type="number" name="endYear" id="endYear" value="{{ endYear }}" placeholder="{{endYear}}" min={{minYear}} max={{maxYear}} onchange="this.form.submit()" style="display: none;">
-      <select class="btn btn-custom-red dropdown-toggle" name="seasonEnd" id="seasonEnd" onchange="this.form.submit()" style="display: none;">
+      <input type="number" name="endYear" id="endYear" value="{{ endYear }}" placeholder="{{endYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm(this)" style="display: none;">
+      <select class="btn btn-custom-red dropdown-toggle" name="seasonEnd" id="seasonEnd" onchange="submitForm(this)" style="display: none;">
       {% for seasonEnd in season_values %}
       <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>{{ seasonEnd }}</option>
       {% endfor %}
@@ -134,7 +134,7 @@
       </div>
       <p id="record"> Record: {{result}}<p>
       <div class="checkbox-container">
-      <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="this.form.submit()"> 
+      <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="submitForm(this)"> 
       <label for="hideEx" class="checkbox-label">Hide Exhibitions</label>
       <input type="hidden" id="hideExStatus" name="hideExStatus" value="{{hideExStatus}}">
       </div>
@@ -143,7 +143,7 @@
          
          document.getElementById("resetButton").addEventListener("click", clearFilers);
          
-         function clearFilers() {
+         function clearFilers(event) {
            document.getElementById("arena").value = "all";
            document.getElementById("location").value = "all";
            document.getElementById("opponent").value = "all";
@@ -161,7 +161,8 @@
            document.getElementById("day").value = 0;
            document.getElementById("tourney").value= "Tournament";
            document.getElementById("coach").value= "all";
-           
+           event.preventDefault();
+           submitForm(event);
          }
       </script>
       <script>
@@ -220,16 +221,19 @@
          var arrowDown = document.getElementById('arrowDown');
          var arrowStateField = document.getElementById('isAscending');
          if (arrowStateField.value === "True") {
-           return true; // Arrow is down (false)
-           
+           arrowDown.style.display = 'none';
+           arrowUp.style.display = 'inline-block';
+           return true;
          } else {
-           return false; // Arrow is up (true)
+           arrowDown.style.display = 'inline-block';
+           arrowUp.style.display = 'none';
+           return false;
          }
          }
          function updateForm(state) {
          var arrowStateField = document.getElementById('isAscending');
          arrowStateField.value = state;
-         document.getElementById("resForm").submit();
+         submitForm(this);
          
          }
          function toggleDropdowns() {
@@ -329,7 +333,23 @@ mobileButton.addEventListener('click', function() {
   }
 });
 </script>
-<div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+  
+    function submitForm(event) {
+      // Send an AJAX POST request to the server
+      $.ajax({
+        type: 'POST',
+        url: '/',
+        data: $('#resForm').serialize(),
+        success: function(response) {
+          // Update the table with the received HTML
+          document.getElementById('rTable').innerHTML=response;
+        }
+      });
+    }
+  </script>
+<div id="rTable">
 {% autoescape false %}
 {{resTable}}
 {% endautoescape %}
