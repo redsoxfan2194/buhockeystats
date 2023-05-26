@@ -1,195 +1,216 @@
 @font-face {
-    font-family: college-font;
-    src: url(fonts/college.ttf) format('truetype');
+	font-family: college-font;
+	src: url(fonts/college.ttf) format('truetype');
 }
+
 /* Common Styling */
 h1 {
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-family: college-font;
-    font-size: 60px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-family: college-font;
+	font-size: 60px;
 }
 
 h2 {
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size:20px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
 }
 
-body{background-color:#cc0000}
-
-select{
-  background-color:#cc0000;
-  color:white;
-  border:none;
+body {
+	background-color: #cc0000
 }
 
-input{
-  background-color:#cc0000;
-  color:white;
-  border:none;
+select {
+	background-color: #cc0000;
+	color: white;
+	border: none;
+}
+
+input {
+	background-color: #cc0000;
+	color: white;
+	border: none;
 }
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-  background-color:#cc0000;
-  color:white;
-  border:none;
-  width:120px;
+	-webkit-appearance: none;
+	margin: 0;
+	background-color: #cc0000;
+	color: white;
+	border: none;
+	width: 120px;
 }
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
-  background-color:#cc0000;
-  color:white;
-  border:none;
-  width:120px;
+	-moz-appearance: textfield;
+	background-color: #cc0000;
+	color: white;
+	border: none;
+	width: 120px;
 }
 
-label{
-  color:white;
+label {
+	color: white;
 }
 
-table{
-  width : 100%;
+table {
+	width: 100%;
 }
 
 
-th{text-align:center}
+th {
+	text-align: center
+}
 
 /* Class Styling */
 
-.link{color:white;
-text-decoration:underline;
-padding:10px}
+.link {
+	color: white;
+	text-decoration: underline;
+	padding: 10px
+}
 
-.btn-custom-red{
-  background-color:#cc0000;
-  color:white;
-  border:none;
+.btn-custom-red {
+	background-color: #cc0000;
+	color: white;
+	border: none;
 }
+
 .btn:hover {
-  color: white;
+	color: white;
 }
-.btn{text-align:left}
-    .hidden {
-      display: none;
-    }
+
+.btn {
+	text-align: left
+}
+
+.hidden {
+	display: none;
+}
+
 .checkbox-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .checkbox-label {
-  margin-left: 10px;
-  color:white;
-}
-.stat-table{
-  color:white;
-  text-align: center;
-  width:  auto;
-    margin-left: auto;
-  margin-right: auto;
+	margin-left: 10px;
+	color: white;
 }
 
-.stat-row{
-  padding-right: 4px;
-} 
+.stat-table {
+	color: white;
+	text-align: center;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.stat-row {
+	padding-right: 4px;
+}
 
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .dropdown-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .dropdown-container label {
-  margin-right: 10px;
+	margin-right: 10px;
 }
 
 
 .arrow-up {
-  display: none;
-  color: white;
+	display: none;
+	color: white;
 }
+
 .arrow-down {
-  display: inline-block;
-  color: white;
+	display: inline-block;
+	color: white;
 }
-    .arrow {
-      margin-left: 5px;
-      cursor: pointer;
-    }
+
+.arrow {
+	margin-left: 5px;
+	cursor: pointer;
+}
+
 /* Default styles for the div */
 .options-menu {
-  display: none;
-  
+	display: none;
+
 }
 
 /* Id Styling */
 
-#results{color:white;
-text-align: center;
-font-size: 20px;
+#results {
+	color: white;
+	text-align: center;
+	font-size: 20px;
 }
 
-#query { 
-    color:white;
-    text-align: center;
-    
-  }
-#submitbutton { 
-  color:white;
-  text-align: center;
-  
-}
-#helpbutton { 
-  color:white;
+#query {
+	color: white;
+	text-align: center;
+
 }
 
-#record { 
-  color:white;
-  font-size:160%;
-  text-align: center;
-  
+#submitbutton {
+	color: white;
+	text-align: center;
+
 }
 
-#dash{
-    color:white;
-    text-align: center;
+#helpbutton {
+	color: white;
+}
+
+#record {
+	color: white;
+	font-size: 160%;
+	text-align: center;
+
+}
+
+#dash {
+	color: white;
+	text-align: center;
 }
 
 #filterMenu {
-  display:block;
-  font-size:20px;
-  padding-left:10px;
+	display: block;
+	font-size: 20px;
+	padding-left: 10px;
 }
 
 /* Media query for screens wider than 600px */
 @media (min-width: 601px) {
-    .options-menu {
-      display: block;
-    }
-    #filterMenu {
-    display:none;
-  }
-  h2 {
-      color: white;
-      text-align: center;
-      padding: 10px;
-      font-size:30px;
-  }
-}
+	.options-menu {
+		display: block;
+	}
 
+	#filterMenu {
+		display: none;
+	}
+
+	h2 {
+		color: white;
+		text-align: center;
+		padding: 10px;
+		font-size: 30px;
+	}
+}

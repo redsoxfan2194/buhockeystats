@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
       <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
       <title>BU Hockey Stats</title>
       <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
@@ -11,9 +11,9 @@
    <body>
       <h1>BU Hockey Stats</h1>
       <h2 class="clickable-heading">
-        <a class='link' href="/records">Records</a>
-        <a class='link' href="/players">Players</a>
-        <a class='link' href="/statsbot">Stats Bot</a>
+         <a class='link' href="/records">Records</a>
+         <a class='link' href="/players">Players</a>
+         <a class='link' href="/statsbot">Stats Bot</a>
       </h2>
       <input type = "submit" id='filterMenu' value = "&#9881&#xFE0E;"/>
       <div class="dropdown-container options-menu" id="options-menu">
@@ -48,22 +48,22 @@
             <option value=5 {% if selected_dow == 5 %} selected {% endif %} >Saturday</option>
             </select>
             <select class="btn btn-custom-red dropdown-toggle" id="month" name="month" onchange="submitForm()">
-               <option value=0 {% if selected_month == 0%} selected {% endif %}>Month</option>
-               <option value=1 {% if selected_month == 1%} selected {% endif %}>January</option>
-               <option value=2 {% if selected_month == 2%} selected {% endif %}>February</option>
-               <option value=3 {% if selected_month == 3%} selected {% endif %}>March</option>
-               <option value=4 {% if selected_month == 4%} selected {% endif %}>April</option>
-               <option value=5 {% if selected_month == 5%} selected {% endif %}>May</option>
-               <option value=6 {% if selected_month == 6%} selected {% endif %}>June</option>
-               <option value=7 {% if selected_month == 7%} selected {% endif %}>July</option>
-               <option value=8 {% if selected_month == 8%} selected {% endif %}>August</option>
-               <option value=9 {% if selected_month == 9%} selected {% endif %}>September</option>
-               <option value=10 {% if selected_month == 10%} selected {% endif %}>October</option>
-               <option value=11 {% if selected_month == 11%} selected {% endif %}>November</option>
-               <option value=12 {% if selected_month == 12%} selected {% endif %}>December</option>
+            <option value=0 {% if selected_month == 0%} selected {% endif %}>Month</option>
+            <option value=1 {% if selected_month == 1%} selected {% endif %}>January</option>
+            <option value=2 {% if selected_month == 2%} selected {% endif %}>February</option>
+            <option value=3 {% if selected_month == 3%} selected {% endif %}>March</option>
+            <option value=4 {% if selected_month == 4%} selected {% endif %}>April</option>
+            <option value=5 {% if selected_month == 5%} selected {% endif %}>May</option>
+            <option value=6 {% if selected_month == 6%} selected {% endif %}>June</option>
+            <option value=7 {% if selected_month == 7%} selected {% endif %}>July</option>
+            <option value=8 {% if selected_month == 8%} selected {% endif %}>August</option>
+            <option value=9 {% if selected_month == 9%} selected {% endif %}>September</option>
+            <option value=10 {% if selected_month == 10%} selected {% endif %}>October</option>
+            <option value=11 {% if selected_month == 11%} selected {% endif %}>November</option>
+            <option value=12 {% if selected_month == 12%} selected {% endif %}>December</option>
             </select>
             <select class="btn btn-custom-red dropdown-toggle" id="day" name="day" onchange="submitForm()">
-            <option value=0>Day</option>
+               <option value=0>Day</option>
             </select>
             <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="submitForm()">
             <option value="all" {% if selected_season == 'all' %} selected {% endif %}>Season</option>
@@ -111,7 +111,6 @@
             {% endfor %}
             </select>
             <input type = "submit" id='resetButton' value = "Reset"/>
-            
       </div>
       <div class='dropdown-container'>
       <select class="btn btn-custom-red dropdown-toggle" name="range" id="range" onchange="toggleDropdowns()">
@@ -140,10 +139,9 @@
       </div>
       </form>
       <script>
-         
          resButton=document.getElementById("resetButton").addEventListener("click",function(event){ clearFilers(event)});
            const buScoreInput = document.getElementById('buscore');
-
+         
           buScoreInput.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
               event.preventDefault(); // Prevent form submission
@@ -152,7 +150,7 @@
             }
           });
          const oppScoreInput = document.getElementById('oppscore');
-
+         
           oppScoreInput.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
               event.preventDefault(); // Prevent form submission
@@ -161,7 +159,7 @@
             }
           });
          const sYearInput = document.getElementById('startYear');
-
+         
           sYearInput.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
               event.preventDefault(); // Prevent form submission
@@ -170,7 +168,7 @@
             }
           });
           const eYearInput = document.getElementById('endYear');
-
+         
           eYearInput.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
               event.preventDefault(); // Prevent form submission
@@ -323,178 +321,177 @@
          }
       </script>
       </script>  
-    <script>
-      const monthSelect = document.getElementById('month');
-      const daySelect = document.getElementById('day');
-
-      // Function to populate the days based on the selected month
-      function populateDays() {
-        const selectedMonth = parseInt(monthSelect.value);
-        const daysInMonth = new Date(2020, selectedMonth, 0).getDate();
-        if (selectedMonth === 0) {
-          daySelect.innerHTML = ''; // Clear the day dropdown
-          const defaultOption = document.createElement('option');
-          defaultOption.value = 0;
-          defaultOption.textContent = 'Day';
-          defaultOption.selected = true;
-          daySelect.appendChild(defaultOption);
-          return;
-        }
-        daySelect.innerHTML = ''; // Clear the day dropdown
-        // Add default "Day" option
-          const defaultOption = document.createElement('option');
-          defaultOption.value = 0;
-          defaultOption.textContent = 'Day';
-          defaultOption.selected = true;
-          daySelect.appendChild(defaultOption);
-        // Add options for each day
-        for (let i = 1; i <= daysInMonth; i++) {
-          const option = document.createElement('option');
-          option.value = i;
-          option.textContent = i;
-          
-          if (i === parseInt(daySelect.value)) {
-            option.selected = true; // Mark the option as selected
-          }
-
-          daySelect.appendChild(option);
-        }
-      }
-
-      // Populate the days initially
-      populateDays();
-
-      // Add event listener to the month dropdown
-      monthSelect.addEventListener('change', populateDays);
-      document.getElementById("day").value={{selected_day}};
-    </script>      
-    <script>
-    var mobileButton = document.getElementById('filterMenu');
-var hiddenDiv = document.getElementById('options-menu');
-
-mobileButton.addEventListener('click', function() {
-  if (hiddenDiv.style.display === 'none' || hiddenDiv.style.display === '' ) {
-    hiddenDiv.style.display = 'block';
-  } else {
-    hiddenDiv.style.display = 'none';
-  }
-});
-</script>
-<script>
-function submitForm(reset='false') {
-  const formData = $('#resForm').serialize();
-
-  $.ajax({
-    url: $('#resForm').attr('action'),
-    method: $('#resForm').attr('method'),
-    data: formData,
-    success: function(response) {
-      $('#resultTable').html(response.resTable);
-      $('#record').html("Record: "+response.result);
-      if(reset==='true')
-      {
-        document.getElementById('startYear').value = response.minYear;
-        document.getElementById('startYear').min = response.minYear;
-        document.getElementById('startYear').placeholder = response.minYear;
-        <!-- Update Season List -->
-        const selectSeasElement = $('#season');
-        selectSeasElement.empty();
-        selectSeasElement.append($('<option>', {
-            value: "all",
-            text: "Season"
-          }));
-        $.each(response.season_values, function(index, item) {
-          selectSeasElement.append($('<option>', {
-            value: item,
-            text: item
-          }));
-        });
-        
-        const selectseasStartElement = $('#seasonStart');
-        selectseasStartElement.empty();
-        $.each(response.season_values, function(index, item) {
-          selectseasStartElement.append($('<option>', {
-            value: item,
-            text: item
-          }));
-        });
-        
-        const selectseasEndElement = $('#seasonEnd');
-        selectseasStartElement.empty();
-        $.each(response.season_values, function(index, item) {
-          selectseasStartElement.append($('<option>', {
-            value: item,
-            text: item
-          }));
-        });
-        
-       <!-- Update Arena List -->
-       const selectArenaElement = $('#arena');
-        selectArenaElement.empty();
-        selectArenaElement.append($('<option>', {
-            value: "all",
-            text: "Arena"
-          }));
-        $.each(response.arena_values, function(index, item) {
-          selectArenaElement.append($('<option>', {
-            value: item,
-            text: item
-          }));
-        });
-        
-      <!-- Update Opponent List -->
-       const selectOppElement = $('#opponent');
-        selectOppElement.empty();
-        selectOppElement.append($('<option>', {
-            value: "all",
-            text: "Opponent"
-          }));
-        $.each(response.opponents_values, function(index, item) {
-          selectOppElement.append($('<option>', {
-            value: item,
-            text: item
-          }));
-        });
-        
-        <!-- Update Coach List -->
-       const selectCoachElement = $('#coach');
-        selectCoachElement.empty();
-        selectCoachElement.append($('<option>', {
-            value: "all",
-            text: "Coach"
-          }));
-        $.each(response.coach_values, function(index, item) {
-          selectCoachElement.append($('<option>', {
-            value: item,
-            text: item
-          }));
-        });
-       
-       <!-- Update Tournament List -->
-       const selectTourneyElement = $('#tourney');
-        selectTourneyElement.empty();
-        $.each(response.tourney_values, function(index, item) {
-          selectTourneyElement.append($('<option>', {
-            value: item,
-            text: item
-          }));
-        });   
-      }
-    },
-    error: function(xhr, status, error) {
-      console.error('Error:', error);
-    }
-  });
-}
-</script>
-<div id='resultTable'>
-{% autoescape false %}
-{{resTable}}
-{% endautoescape %}
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+      <script>
+         const monthSelect = document.getElementById('month');
+         const daySelect = document.getElementById('day');
+         
+         // Function to populate the days based on the selected month
+         function populateDays() {
+           const selectedMonth = parseInt(monthSelect.value);
+           const daysInMonth = new Date(2020, selectedMonth, 0).getDate();
+           if (selectedMonth === 0) {
+             daySelect.innerHTML = ''; // Clear the day dropdown
+             const defaultOption = document.createElement('option');
+             defaultOption.value = 0;
+             defaultOption.textContent = 'Day';
+             defaultOption.selected = true;
+             daySelect.appendChild(defaultOption);
+             return;
+           }
+           daySelect.innerHTML = ''; // Clear the day dropdown
+           // Add default "Day" option
+             const defaultOption = document.createElement('option');
+             defaultOption.value = 0;
+             defaultOption.textContent = 'Day';
+             defaultOption.selected = true;
+             daySelect.appendChild(defaultOption);
+           // Add options for each day
+           for (let i = 1; i <= daysInMonth; i++) {
+             const option = document.createElement('option');
+             option.value = i;
+             option.textContent = i;
+             
+             if (i === parseInt(daySelect.value)) {
+               option.selected = true; // Mark the option as selected
+             }
+         
+             daySelect.appendChild(option);
+           }
+         }
+         
+         // Populate the days initially
+         populateDays();
+         
+         // Add event listener to the month dropdown
+         monthSelect.addEventListener('change', populateDays);
+         document.getElementById("day").value={{selected_day}};
+      </script>      
+      <script>
+         var mobileButton = document.getElementById('filterMenu');
+         var hiddenDiv = document.getElementById('options-menu');
+         
+         mobileButton.addEventListener('click', function() {
+         if (hiddenDiv.style.display === 'none' || hiddenDiv.style.display === '' ) {
+         hiddenDiv.style.display = 'block';
+         } else {
+         hiddenDiv.style.display = 'none';
+         }
+         });
+      </script>
+      <script>
+         function submitForm(reset='false') {
+           const formData = $('#resForm').serialize();
+         
+           $.ajax({
+             url: $('#resForm').attr('action'),
+             method: $('#resForm').attr('method'),
+             data: formData,
+             success: function(response) {
+               $('#resultTable').html(response.resTable);
+               $('#record').html("Record: "+response.result);
+               if(reset==='true')
+               {
+                 document.getElementById('startYear').value = response.minYear;
+                 document.getElementById('startYear').min = response.minYear;
+                 document.getElementById('startYear').placeholder = response.minYear;
+                 <!-- Update Season List -->
+                 const selectSeasElement = $('#season');
+                 selectSeasElement.empty();
+                 selectSeasElement.append($('<option>', {
+                     value: "all",
+                     text: "Season"
+                   }));
+                 $.each(response.season_values, function(index, item) {
+                   selectSeasElement.append($('<option>', {
+                     value: item,
+                     text: item
+                   }));
+                 });
+                 
+                 const selectseasStartElement = $('#seasonStart');
+                 selectseasStartElement.empty();
+                 $.each(response.season_values, function(index, item) {
+                   selectseasStartElement.append($('<option>', {
+                     value: item,
+                     text: item
+                   }));
+                 });
+                 
+                 const selectseasEndElement = $('#seasonEnd');
+                 selectseasStartElement.empty();
+                 $.each(response.season_values, function(index, item) {
+                   selectseasStartElement.append($('<option>', {
+                     value: item,
+                     text: item
+                   }));
+                 });
+                 
+                <!-- Update Arena List -->
+                const selectArenaElement = $('#arena');
+                 selectArenaElement.empty();
+                 selectArenaElement.append($('<option>', {
+                     value: "all",
+                     text: "Arena"
+                   }));
+                 $.each(response.arena_values, function(index, item) {
+                   selectArenaElement.append($('<option>', {
+                     value: item,
+                     text: item
+                   }));
+                 });
+                 
+               <!-- Update Opponent List -->
+                const selectOppElement = $('#opponent');
+                 selectOppElement.empty();
+                 selectOppElement.append($('<option>', {
+                     value: "all",
+                     text: "Opponent"
+                   }));
+                 $.each(response.opponents_values, function(index, item) {
+                   selectOppElement.append($('<option>', {
+                     value: item,
+                     text: item
+                   }));
+                 });
+                 
+                 <!-- Update Coach List -->
+                const selectCoachElement = $('#coach');
+                 selectCoachElement.empty();
+                 selectCoachElement.append($('<option>', {
+                     value: "all",
+                     text: "Coach"
+                   }));
+                 $.each(response.coach_values, function(index, item) {
+                   selectCoachElement.append($('<option>', {
+                     value: item,
+                     text: item
+                   }));
+                 });
+                
+                <!-- Update Tournament List -->
+                const selectTourneyElement = $('#tourney');
+                 selectTourneyElement.empty();
+                 $.each(response.tourney_values, function(index, item) {
+                   selectTourneyElement.append($('<option>', {
+                     value: item,
+                     text: item
+                   }));
+                 });   
+               }
+             },
+             error: function(xhr, status, error) {
+               console.error('Error:', error);
+             }
+           });
+         }
+      </script>
+      <div id='resultTable'>
+         {% autoescape false %}
+         {{resTable}}
+         {% endautoescape %}
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
    </body>
 </html>
