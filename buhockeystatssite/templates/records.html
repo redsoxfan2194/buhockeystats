@@ -418,14 +418,15 @@
                  });
                  
                  const selectseasEndElement = $('#seasonEnd');
-                 selectseasStartElement.empty();
+                 selectseasEndElement.empty();
                  $.each(response.season_values, function(index, item) {
-                   selectseasStartElement.append($('<option>', {
+                   selectseasEndElement.append($('<option>', {
                      value: item,
                      text: item
                    }));
                  });
-                 
+                 document.getElementById("seasonEnd").value = "2022-23";
+                 document.getElementById("seasonEnd").text = "2022-23";
                 <!-- Update Arena List -->
                 const selectArenaElement = $('#arena');
                  selectArenaElement.empty();

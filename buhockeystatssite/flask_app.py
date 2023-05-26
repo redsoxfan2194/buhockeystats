@@ -168,9 +168,10 @@ def players():
         else:
           sortVal=''
           sortType=''
+        if(form_data['type']=='game'):
+          dfStat=dfStat[:1000]
         return jsonify(statTable=formatStats(dfStat),season_values=seasVals,opponents_values=oppList,sortval=sortVal,isAscending=form_data['isAscending'])
-        return render_template('players.html',statTable=formatStats(dfStat),selected_gender=form_data['gender'],selected_position=form_data['position'],selected_pos=form_data['pos'],selected_yr=form_data['yr'],selected_type=form_data['type'],selected_sort=form_data['sortval'],selected_season=form_data['season'],season_values=seasVals,selected_startSeas=sSeas,selected_endSeas=eSeas,minYear=seasVals[0],maxYear=seasVals[-1],sortval=sortVal,isAscending=form_data['isAscending'],opponents_values=oppList,selected_opponent=form_data['opponent'],name=form_data['name'],number=num,date=form_data['date'])
-  
+        
 @app.route('/statsbot', methods = ['POST', 'GET'])
 def statsbot():
   global dfGames,dfGamesWomens,dfJersey,dfJerseyMens,dfJerseyWomens,dfSkate,dfSkateMens,dfSkateWomens,dfGoalie,dfGoalieMens,dfGoalieWomens,dfLead,dfLeadWomens,dfBeanpot,dfBeanpotWomens,dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens,dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens,dfBeanpotAwards,dfBeanpotAwardsWomens,dfGameStats,dfGameStatsMens,dfGameStatsWomens,dfGameStatsGoalie,dfGameStatsGoalieMens,dfGameStatsGoalieWomens
