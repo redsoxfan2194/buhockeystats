@@ -675,7 +675,7 @@ def generateSeasonGoalies():
         seasGList=[]
         for i in rows:
             col=i.split('\t')
-            seasGDict={'number':col[0],
+            seasGDict={'number':int(col[0]),
                      'name':col[1],
                      'yr':col[2],
                      'gp':int(col[3]),
@@ -697,7 +697,7 @@ def generateSeasonGoalies():
         seasGListW=[]
         for i in rows:
             col=i.split('\t')
-            seasGDict={'number':col[0],
+            seasGDict={'number':int(col[0]),
                      'name':col[1],
                      'yr':col[2],
                      'gp':int(col[3]),
