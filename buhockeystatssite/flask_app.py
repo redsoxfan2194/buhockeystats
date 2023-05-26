@@ -340,11 +340,7 @@ def records():
         else:
           hideEx=""
         dfRes=dfRes.sort_values(form_data['sortval'],ascending=sortType)
-        return jsonify(formatResults(dfRes))
-        return render_template('records.html',result=result,query='',resTable=formatResults(dfRes),opponents_values=getOpponentList(dfOrig),\
-        season_values=list(dfOrig.season.unique()),selected_gender=form_data['gender'],selected_opponent=form_data['opponent'],selected_season=form_data['season'],selected_location=form_data['location'],arena_values=sorted(list(dfOrig.arena.unique())),selected_arena=form_data['arena'],buscore=buscore,selected_buop=form_data['buscoreop'],selected_oppop=form_data['oppscoreop'],oppscore=oppscore,\
-        isAscending=form_data['isAscending'].capitalize(),selected_sort=form_data['sortval'],startYear=sYear,endYear=eYear,minYear=minYear,maxYear=maxYear,selected_startSeas=seasonStart,selected_endSeas=seasonEnd,selected_range=form_data['range'],hideExStatus=hideEx,selected_dow=int(form_data['DOW']),selected_month=int(form_data['month']),selected_day=int(dayVal),tourney_values=getTourneyList(dfOrig),selected_tourney=form_data['tourney'],coach_values=list(dfOrig.coach.unique()),selected_coach=form_data['coach'])
-
+        return jsonify(resTable=formatResults(dfRes),result=result,opponents_values=getOpponentList(dfOrig),season_values=list(dfOrig.season.unique()),arena_values=sorted(list(dfOrig.arena.unique())),tourney_values=getTourneyList(dfOrig),coach_values=list(dfOrig.coach.unique()),minYear=int(minYear))
  
 def convertToHtmlTable(input_string):
     rows = input_string  

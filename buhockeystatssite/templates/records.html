@@ -18,26 +18,26 @@
       <input type = "submit" id='filterMenu' value = "&#9881&#xFE0E;"/>
       <div class="dropdown-container options-menu" id="options-menu">
          <form method="post" id="resForm">
-            <select class="btn btn-custom-red dropdown-toggle" name="gender" id="gender" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" name="gender" id="gender" onchange="clearFilers(event)">
             <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %} >Mens</option>
             <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}>Womens</option>
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="sortval" id="sortval" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" name="sortval" id="sortval" onchange="submitForm()">
             <option value="date" {% if selected_sort == 'date' %} selected {% endif %} >Date</option>
             <option value="GD" {% if selected_sort == 'GD' %} selected {% endif %}>MOV</option>
             <option value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}>Goals Scored</option>
             <option value="OppoScore" {% if selected_sort == 'OppoScore' %} selected {% endif %}>Goals Allowed</option>
             </select>
-            <span id="arrowUp" class="arrow-up" onclick="toggleArrow();updateForm(true)">&#9650;</span>
-            <span id="arrowDown" class="arrow-down" onclick="toggleArrow();updateForm(false)">&#9660;</span>
+            <span id="arrowUp" class="arrow-up" onclick=";toggleArrow()">&#9650;</span>
+            <span id="arrowDown" class="arrow-down" onclick="toggleArrow()">&#9660;</span>
             <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
-            <select class="btn btn-custom-red dropdown-toggle" name="opponent" id="opponent" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" name="opponent" id="opponent" onchange="submitForm()">
             <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}>Opponent</option>
             {% for opponent in opponents_values %}
             <option value="{{ opponent }}" {% if selected_opponent == opponent %} selected {% endif %}>{{ opponent }}</option>
             {% endfor %}
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" id="DOW" name="DOW" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" id="DOW" name="DOW" onchange="submitForm()">
             <option value=-1 {% if selected_dow == -1 %} selected {% endif %} >DOW</option>
             <option value=6 {% if selected_dow == 6 %} selected {% endif %} >Sunday</option>
             <option value=0 {% if selected_dow == 0 %} selected {% endif %} >Monday</option>
@@ -47,7 +47,7 @@
             <option value=4 {% if selected_dow == 4 %} selected {% endif %} >Friday</option>
             <option value=5 {% if selected_dow == 5 %} selected {% endif %} >Saturday</option>
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" id="month" name="month" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" id="month" name="month" onchange="submitForm()">
                <option value=0 {% if selected_month == 0%} selected {% endif %}>Month</option>
                <option value=1 {% if selected_month == 1%} selected {% endif %}>January</option>
                <option value=2 {% if selected_month == 2%} selected {% endif %}>February</option>
@@ -62,55 +62,55 @@
                <option value=11 {% if selected_month == 11%} selected {% endif %}>November</option>
                <option value=12 {% if selected_month == 12%} selected {% endif %}>December</option>
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" id="day" name="day" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" id="day" name="day" onchange="submitForm()">
             <option value=0>Day</option>
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="submitForm()">
             <option value="all" {% if selected_season == 'all' %} selected {% endif %}>Season</option>
             {% for season in season_values %}
             <option value="{{ season }}" {% if selected_season == season %} selected {% endif %}>{{ season }}</option>
             {% endfor %}
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="location" id="location" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" name="location" id="location" onchange="submitForm()">
             <option value="all" {% if selected_location == 'all' %} selected {% endif %} >Location</option>
             <option value="Home" {% if selected_location == 'Home' %} selected {% endif %} >Home</option>
             <option value="Away" {% if selected_location == 'Away' %} selected {% endif %}>Away</option>
             <option value="Neutral" {% if selected_location == 'Neutral' %} selected {% endif %}>Neutral</option>
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="buscoreop" id="buscoreop" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" name="buscoreop" id="buscoreop" onchange="submitForm()">
             <option value="==" {% if selected_buop == '==' %} selected {% endif %}>=</option>
             <option value=">=" {% if selected_buop == '>=' %} selected {% endif %}>>=</option>
             <option value=">" {% if selected_buop == '>' %} selected {% endif %}>></option>
             <option value="<" {% if selected_buop == '<' %} selected {% endif %}><</option>
             <option value="<=" {% if selected_buop == '<=' %} selected {% endif %}><=</option>
             </select>
-            <input type="number" name="buscore" id="buscore" value="{{ buscore }}" placeholder="BU Score" min=0 onchange="submitForm(this)">
-            <select class="btn btn-custom-red dropdown-toggle" name="oppscoreop" id="oppscoreop" onchange="submitForm(this)">
+            <input type="number" name="buscore" id="buscore" value="{{ buscore }}" placeholder="BU Score" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            <select class="btn btn-custom-red dropdown-toggle" name="oppscoreop" id="oppscoreop" onchange="submitForm()">
             <option value="==" {% if selected_oppop == '==' %} selected {% endif %}>=</option>
             <option value=">=" {% if selected_oppop == '>=' %} selected {% endif %}>>=</option>
             <option value=">" {% if selected_oppop == '>' %} selected {% endif %}>></option>
             <option value="<" {% if selected_oppop == '<' %} selected {% endif %}>&lt;</option>
             <option value="<=" {% if selected_oppop == '<=' %} selected {% endif %}>&lt;=</option>
             </select>
-            <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" placeholder="Opp Score" min=0 onchange="submitForm(this)">
-            <select class="btn btn-custom-red dropdown-toggle" name="arena" id="arena" onchange="submitForm(this)">
+            <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" placeholder="Opp Score" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            <select class="btn btn-custom-red dropdown-toggle" name="arena" id="arena" onchange="submitForm()">
             <option value="all" {% if selected_arena == 'all' %} selected {% endif %}>Arena</option>
             {% for arena in arena_values %}
             <option value="{{ arena }}" {% if selected_arena == arena %} selected {% endif %}>{{ arena }}</option>
             {% endfor %}
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="tourney" id="tourney" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" name="tourney" id="tourney" onchange="submitForm()">
             {% for tourney in tourney_values %}
             <option value="{{ tourney }}" {% if selected_tourney == tourney %} selected {% endif %}>{{ tourney }}</option>
             {% endfor %}
             </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="coach" id="coach" onchange="submitForm(this)">
+            <select class="btn btn-custom-red dropdown-toggle" name="coach" id="coach" onchange="submitForm()">
             <option value="all" {% if selected_coach == 'all' %} selected {% endif %}>Coach</option>
             {% for coach in coach_values %}
             <option value="{{ coach }}" {% if selected_coach == coach %} selected {% endif %}>{{ coach }}</option>
             {% endfor %}
             </select>
-            <input type = "submit" id='resetButton' value = "Reset"  />
+            <input type = "submit" id='resetButton' value = "Reset"/>
             
       </div>
       <div class='dropdown-container'>
@@ -118,32 +118,68 @@
       <option value="year" {% if selected_range == "year" %} selected {% endif %}>Year Range:</option>
       <option value="season" {% if selected_range == "season" %} selected {% endif %}>Season Range:</option>
       </select>
-      <input type="number" name="startYear" id="startYear" value="{{ startYear }}" placeholder="{{startYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm(this)" style="display: none;">
-      <select class="btn btn-custom-red dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm(this)" style="display: none;">
+      <input type="number" name="startYear" id="startYear" value="{{ startYear }}" placeholder="{{startYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
+      <select class="btn btn-custom-red dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm()" style="display: none;">
       {% for seasonStart in season_values %}
       <option value="{{ seasonStart }}" {% if selected_startSeas == seasonStart %} selected {% endif %}>{{ seasonStart }}</option>
       {% endfor %}
       </select>
       <p id='dash'>_</p>
-      <input type="number" name="endYear" id="endYear" value="{{ endYear }}" placeholder="{{endYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm(this)" style="display: none;">
-      <select class="btn btn-custom-red dropdown-toggle" name="seasonEnd" id="seasonEnd" onchange="submitForm(this)" style="display: none;">
+      <input type="number" name="endYear" id="endYear" value="{{ endYear }}" placeholder="{{endYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
+      <select class="btn btn-custom-red dropdown-toggle" name="seasonEnd" id="seasonEnd" onchange="submitForm()" style="display: none;">
       {% for seasonEnd in season_values %}
       <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>{{ seasonEnd }}</option>
       {% endfor %}
       </select>
       </div>
-      <p id="record"> Record: {{result}}<p>
+      <p id="record">Record: {{result}}<p>
       <div class="checkbox-container">
-      <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="submitForm(this)"> 
+      <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="submitForm()"> 
       <label for="hideEx" class="checkbox-label">Hide Exhibitions</label>
       <input type="hidden" id="hideExStatus" name="hideExStatus" value="{{hideExStatus}}">
       </div>
       </form>
       <script>
          
-         document.getElementById("resetButton").addEventListener("click", clearFilers);
-         
+         resButton=document.getElementById("resetButton").addEventListener("click",function(event){ clearFilers(event)});
+           const buScoreInput = document.getElementById('buscore');
+
+          buScoreInput.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+              event.preventDefault(); // Prevent form submission
+              // Perform your desired action here
+              submitForm();
+            }
+          });
+         const oppScoreInput = document.getElementById('oppscore');
+
+          oppScoreInput.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+              event.preventDefault(); // Prevent form submission
+              // Perform your desired action here
+              submitForm();
+            }
+          });
+         const sYearInput = document.getElementById('startYear');
+
+          sYearInput.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+              event.preventDefault(); // Prevent form submission
+              // Perform your desired action here
+              submitForm();
+            }
+          });
+          const eYearInput = document.getElementById('endYear');
+
+          eYearInput.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+              event.preventDefault(); // Prevent form submission
+              // Perform your desired action here
+              submitForm();
+            }
+          });
          function clearFilers(event) {
+           event.preventDefault();
            document.getElementById("arena").value = "all";
            document.getElementById("location").value = "all";
            document.getElementById("opponent").value = "all";
@@ -152,17 +188,32 @@
            document.getElementById("buscore").value = "BU Score";
            document.getElementById("oppscoreop").value = "==";
            document.getElementById("oppscore").value = "Opp Score";
-           document.getElementById("startYear").value = {{minYear}};
+           
            document.getElementById("endYear").value = {{maxYear}};
-           document.getElementById("seasonStart").value = "{{season_values[0]}}";
-           document.getElementById("seasonEnd").value = "{{season_values[-1]}}";
+           if(document.getElementById("gender").value === "Womens")
+           {
+              document.getElementById("seasonStart").value = "2005-06";
+              document.getElementById("startYear").value = 2005;
+           }
+           else
+           {
+              const option = document.createElement('option');
+              option.value = "1917-18";
+              option.textContent = "1917-18";
+              document.getElementById("seasonStart").appendChild(option);
+              document.getElementById("seasonStart").value = "1917-18";
+              document.getElementById("startYear").value = 1917;
+           }
+           document.getElementById("seasonEnd").value = "2022-23";
+           
            document.getElementById("DOW").value = -1;
            document.getElementById("month").value = 0;
            document.getElementById("day").value = 0;
            document.getElementById("tourney").value= "Tournament";
            document.getElementById("coach").value= "all";
-           event.preventDefault();
-           submitForm(event);
+           
+           submitForm('true');
+           
          }
       </script>
       <script>
@@ -220,21 +271,17 @@
          var arrowUp = document.getElementById('arrowUp');
          var arrowDown = document.getElementById('arrowDown');
          var arrowStateField = document.getElementById('isAscending');
-         if (arrowStateField.value === "True") {
+         if (arrowStateField.value.toLowerCase() === "true") {
            arrowDown.style.display = 'none';
            arrowUp.style.display = 'inline-block';
-           return true;
+           document.getElementById('isAscending').value=false;
+           
          } else {
-           arrowDown.style.display = 'inline-block';
            arrowUp.style.display = 'none';
-           return false;
+           arrowDown.style.display = 'inline-block';
+           document.getElementById('isAscending').value=true;
          }
-         }
-         function updateForm(state) {
-         var arrowStateField = document.getElementById('isAscending');
-         arrowStateField.value = state;
-         submitForm(this);
-         
+         submitForm();
          }
          function toggleDropdowns() {
          var selection = document.getElementById("range").value;
@@ -333,23 +380,114 @@ mobileButton.addEventListener('click', function() {
   }
 });
 </script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-  
-    function submitForm(event) {
-      // Send an AJAX POST request to the server
-      $.ajax({
-        type: 'POST',
-        url: '/',
-        data: $('#resForm').serialize(),
-        success: function(response) {
-          // Update the table with the received HTML
-          document.getElementById('rTable').innerHTML=response;
-        }
-      });
+<script>
+function submitForm(reset='false') {
+  const formData = $('#resForm').serialize();
+
+  $.ajax({
+    url: $('#resForm').attr('action'),
+    method: $('#resForm').attr('method'),
+    data: formData,
+    success: function(response) {
+      $('#resultTable').html(response.resTable);
+      $('#record').html("Record: "+response.result);
+      if(reset==='true')
+      {
+        document.getElementById('startYear').value = response.minYear;
+        document.getElementById('startYear').min = response.minYear;
+        document.getElementById('startYear').placeholder = response.minYear;
+        <!-- Update Season List -->
+        const selectSeasElement = $('#season');
+        selectSeasElement.empty();
+        selectSeasElement.append($('<option>', {
+            value: "all",
+            text: "Season"
+          }));
+        $.each(response.season_values, function(index, item) {
+          selectSeasElement.append($('<option>', {
+            value: item,
+            text: item
+          }));
+        });
+        
+        const selectseasStartElement = $('#seasonStart');
+        selectseasStartElement.empty();
+        $.each(response.season_values, function(index, item) {
+          selectseasStartElement.append($('<option>', {
+            value: item,
+            text: item
+          }));
+        });
+        
+        const selectseasEndElement = $('#seasonEnd');
+        selectseasStartElement.empty();
+        $.each(response.season_values, function(index, item) {
+          selectseasStartElement.append($('<option>', {
+            value: item,
+            text: item
+          }));
+        });
+        
+       <!-- Update Arena List -->
+       const selectArenaElement = $('#arena');
+        selectArenaElement.empty();
+        selectArenaElement.append($('<option>', {
+            value: "all",
+            text: "Arena"
+          }));
+        $.each(response.arena_values, function(index, item) {
+          selectArenaElement.append($('<option>', {
+            value: item,
+            text: item
+          }));
+        });
+        
+      <!-- Update Opponent List -->
+       const selectOppElement = $('#opponent');
+        selectOppElement.empty();
+        selectOppElement.append($('<option>', {
+            value: "all",
+            text: "Opponent"
+          }));
+        $.each(response.opponents_values, function(index, item) {
+          selectOppElement.append($('<option>', {
+            value: item,
+            text: item
+          }));
+        });
+        
+        <!-- Update Coach List -->
+       const selectCoachElement = $('#coach');
+        selectCoachElement.empty();
+        selectCoachElement.append($('<option>', {
+            value: "all",
+            text: "Coach"
+          }));
+        $.each(response.coach_values, function(index, item) {
+          selectCoachElement.append($('<option>', {
+            value: item,
+            text: item
+          }));
+        });
+       
+       <!-- Update Tournament List -->
+       const selectTourneyElement = $('#tourney');
+        selectTourneyElement.empty();
+        $.each(response.tourney_values, function(index, item) {
+          selectTourneyElement.append($('<option>', {
+            value: item,
+            text: item
+          }));
+        });   
+      }
+    },
+    error: function(xhr, status, error) {
+      console.error('Error:', error);
     }
-  </script>
-<div id="rTable">
+  });
+}
+</script>
+<div id='resultTable'>
 {% autoescape false %}
 {{resTable}}
 {% endautoescape %}
