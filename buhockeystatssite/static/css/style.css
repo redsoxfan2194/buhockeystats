@@ -2,20 +2,13 @@
     font-family: college-font;
     src: url(fonts/college.ttf) format('truetype');
 }
+/* Common Styling */
 h1 {
     color: white;
     text-align: center;
     padding: 10px;
     font-family: college-font;
     font-size: 60px;
-}
-.link{color:white;
-text-decoration:underline;
-padding:10px}
-
-#results{color:white;
-text-align: center;
-font-size: 20px;
 }
 
 h2 {
@@ -32,21 +25,13 @@ select{
   color:white;
   border:none;
 }
-.btn-custom-red{
-  background-color:#cc0000;
-  color:white;
-  border:none;
-}
-.btn:hover {
-  color: white;
-}
-.btn{text-align:left}
+
 input{
   background-color:#cc0000;
   color:white;
   border:none;
 }
-}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -66,11 +51,33 @@ input[type=number] {
   border:none;
   width:120px;
 }
-}
 
 label{
   color:white;
 }
+
+table{
+  width : 100%;
+}
+
+
+th{text-align:center}
+
+/* Class Styling */
+
+.link{color:white;
+text-decoration:underline;
+padding:10px}
+
+.btn-custom-red{
+  background-color:#cc0000;
+  color:white;
+  border:none;
+}
+.btn:hover {
+  color: white;
+}
+.btn{text-align:left}
     .hidden {
       display: none;
     }
@@ -96,51 +103,23 @@ label{
   padding-right: 4px;
 } 
 
-#query { 
-    color:white;
-    text-align: center;
-    
-  }
-#submitbutton { 
-  color:white;
-  text-align: center;
-  
-}
-#helpbutton { 
-  color:white;
-}
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#record { 
-  color:white;
-  font-size:160%;
-  text-align: center;
-  
-}
-
-#dash{
-    color:white;
-    text-align: center;
-}
 .dropdown-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-th{text-align:center}
-
 .dropdown-container label {
   margin-right: 10px;
 }
 
-table{
-  width : 100%;
-}
+
 .arrow-up {
   display: none;
   color: white;
@@ -158,24 +137,59 @@ table{
   display: none;
   
 }
+
+/* Id Styling */
+
+#results{color:white;
+text-align: center;
+font-size: 20px;
+}
+
+#query { 
+    color:white;
+    text-align: center;
+    
+  }
+#submitbutton { 
+  color:white;
+  text-align: center;
+  
+}
+#helpbutton { 
+  color:white;
+}
+
+#record { 
+  color:white;
+  font-size:160%;
+  text-align: center;
+  
+}
+
+#dash{
+    color:white;
+    text-align: center;
+}
+
 #filterMenu {
   display:block;
   font-size:20px;
   padding-left:10px;
 }
-    /* Media query for screens wider than 600px */
+
+/* Media query for screens wider than 600px */
 @media (min-width: 601px) {
-  .options-menu {
-    display: block;
+    .options-menu {
+      display: block;
+    }
+    #filterMenu {
+    display:none;
   }
-  #filterMenu {
-  display:none;
-}
-h2 {
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size:30px;
-}
+  h2 {
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size:30px;
+  }
 }
 
