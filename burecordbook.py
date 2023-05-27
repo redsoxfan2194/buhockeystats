@@ -1333,7 +1333,7 @@ def  getResults(dfGames,dfGameStats,dfGameStatsGoalie,query):
             res=pd.DataFrame()
             return ''
         elif('loss' in qType):
-            res=(dfResult.loc[(dfResult['result']=='L')].sort_values(sortType,ascending=False)[:numRes])
+            res=(dfResult.loc[(dfResult['result']=='L')].sort_values(sortType,ascending=True)[:numRes])
         else:
             res=dfResult.loc[(dfResult['result']!='N') & (dfResult['result']!='E')].sort_values(sortType,ascending=False)[:numRes]
         if(not res.empty):
