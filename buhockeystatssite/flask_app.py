@@ -387,7 +387,7 @@ def convertToHtmlTable(input_string):
 def formatResults(dfRes):
     dfRes=dfRes[['date','opponent','result','scoreline','ot','arena','tourney','note']].copy()
     dfRes.loc[dfRes['tourney'].isnull(),'tourney']=''
-    dfRes.loc[~dfRes['ot'].isnull(),'ot']=" (" + dfRes.loc[~dfRes['ot'].isnull(),'ot'] + ")"
+    dfRes.loc[dfRes['ot'].notnull(),'ot']=" (" + dfRes.loc[dfRes['ot'].notnull(),'ot'] + ")"
     dfRes.loc[dfRes['ot'].isnull(),'ot']=''
     dfRes['scoreline']+=dfRes['ot']
     notes=list(dfRes['note'].unique())
@@ -396,7 +396,7 @@ def formatResults(dfRes):
     else:
       dfRes=dfRes[['date','opponent','result','scoreline','arena','tourney']]
     dfRes['date']=dfRes['date'].dt.strftime('%m/%d/%Y')
-    dfRes.rename(columns={'date': 'Date', 'opponent': 'Opponent', 'result': 'Result','scoreline':'Score','arena':'Location', 'note':'Note','tourney':'Tournament','note':'Note'}, inplace=True)
+    dfRes.rename(columns={'date': 'Date', 'opponent': 'Opponent', 'result': 'Result', 'scoreline':'Score', 'arena':'Location', 'note':'Note', 'tourney':'Tournament'}, inplace = True)
     style = dfRes.style.apply(colorwinner,axis=1).hide(axis='index')
     headers = {
         'selector': 'th:not(.index_name)',
