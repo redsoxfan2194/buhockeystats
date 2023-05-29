@@ -58,6 +58,7 @@ def players():
         form_data = request.form
         dfStat=pd.DataFrame()
         seasVals=[]
+        sortVal=''
         if(form_data['gender']=='Mens'):
            if(form_data['type']=='career'):
               if(form_data['position']=='skater'):
@@ -152,6 +153,17 @@ def players():
           num=form_data['number'].strip()
         else:
           num="Number"
+        if(form_data['group']!='' and form_data['position']=='skater'):
+          dfStat=dfStat.groupby(['name','opponent']).sum(numeric_only=True)
+          dfStat=dfStat.reset_index()
+          dfStat=dfStat[['name','opponent','gp','goals','assists','pts']]
+        if(form_data['group']!='' and form_data['position']=='goalie'):
+          dfStat=determineRecord(dfStat)
+          dfStat=dfStat.groupby(['name','opponent']).sum(numeric_only=True)
+          dfStat=dfStat.reset_index()
+          dfStat['sv%']=dfStat['sv']/(dfStat['sv']+dfStat['ga'])
+          dfStat['gaa']=(dfStat['ga']/dfStat['minsNum'])*60
+          dfStat=dfStat[['name','opponent','gp','ga','gaa','sv','sv%','SO','W','L','T']]    
         if(form_data['isAscending']!=''):
           if(form_data['sortval']!='' and form_data['sortval'].lower() in dfStat.columns or form_data['sortval'] in ['W','L','T','SO'] ):
             sortType=eval(form_data['isAscending'].capitalize())
@@ -164,7 +176,8 @@ def players():
                   sortVal=form_data['sortval'].lower()
                else:
                   sortVal=form_data['sortval']
-            dfStat=dfStat.sort_values(sortVal,ascending=sortType)
+            if(sortVal in dfStat.columns):
+              dfStat=dfStat.sort_values(sortVal,ascending=sortType)
             sortVal=form_data['sortval']
         else:
           sortVal=''
@@ -382,6 +395,28 @@ def records():
             tourney_values=getTourneyList(dfOrig),
             coach_values=list(dfOrig.coach.unique()),
             minYear=int(minYear))
-     
+
+def determineRecord(dfRes):
+  dfStat=dfRes.groupby(['name','opponent']).sum(numeric_only=True)
+  dfStat.reset_index(inplace=True)
+  dfStat['W']=0
+  dfStat['L']=0
+  dfStat['T']=0
+  dfRec=dfRes.groupby(['name','opponent','result']).count()
+  dfRec.reset_index(inplace=True)
+  for res in ['W','L','T']:
+      dfRec[res]=dfRec.query(f'result=="{res}"')['date']
+      dfRec[res]=dfRec[res].fillna(0).astype(int)
+  dfRec=dfRec.groupby(['name','opponent']).sum(numeric_only=True)
+  dfRec.reset_index(inplace=True)
+  # Merge dfStat and dfRec based on name and opponent columns
+  merged_df = pd.merge(dfStat, dfRec[['name','opponent','W','L','T']], on=['name', 'opponent'], how='left')
+
+  # Sum the 'W', 'L', 'T' columns from dfRec and assign the values to corresponding columns in dfStat
+  dfStat['W'] = merged_df.groupby(['name', 'opponent'])['W_y'].transform(sum)
+  dfStat['L'] = merged_df.groupby(['name', 'opponent'])['L_y'].transform(sum)
+  dfStat['T'] = merged_df.groupby(['name', 'opponent'])['T_y'].transform(sum,numeric_only=True)
+
+  return dfStat
 if __name__=='__main__':
   app.run(host='localhost', port=5000)

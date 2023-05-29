@@ -56,6 +56,10 @@
             <option value="{{ opponent }}" {% if selected_opponent == opponent %} selected {% endif %}>{{ opponent }}</option>
             {% endfor %}
             </select>
+            <select class="btn btn-custom-red dropdown-toggle game-stats" name="group" id="group" onchange="submitForm()">
+            <option value="" {% if selected_group == 'all' %} selected {% endif %}>Group by:</option>
+            <option value="opponent" {% if selected_group == "" %} selected {% endif %}>Group by: Opponent</option>
+            </select>
             <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="submitForm()">
             <option value="all" {% if selected_season == 'all' %} selected {% endif %}>Season</option>
             {% for season in season_values %}
@@ -149,6 +153,7 @@
            document.getElementById("name").value = "Name";
            document.getElementById("number").value = "Number";
            document.getElementById("date").value = "Date";
+           document.getElementById("group").value = "";
            submitForm('true');
          }
       </script>

@@ -171,7 +171,7 @@ def formatStats(dfRes):
       dfRes=dfRes[['number','name','yr','season','gp','mins','ga','gaa','saves','sv%','W','L','T','SO']]
     elif('date' in dfRes.columns and 'ga' in dfRes.columns):
       dfRes['date']=dfRes['date'].dt.strftime('%m/%d/%Y')
-      dfRes=dfRes[['date','name','opponent','yr','season','sv','ga','mins','result']]
+      dfRes=dfRes[['date','name','opponent','yr','season','ga','gaa','sv','sv%','mins','result']]
     elif('number' in dfRes.columns and 'pts' in dfRes.columns):
       dfRes['number']=dfRes['number'].astype(int)
       dfRes=dfRes[['number','name','pos','yr','season','gp','goals','assists','pts','pens']]

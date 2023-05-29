@@ -935,6 +935,17 @@ def generateGameGoalieStats():
                            'result':col[9],
                            'season':col[10],
                            'year':int(col[10][:4])+1}
+              mins=gameStatGoalieDict['mins'].split(':')
+              hrStr=divmod(int(mins[0]),60)[0]
+              minStr=divmod(int(mins[0]),60)[1]
+              secStr=str(mins[1])
+              time="{}:{}:{}".format(hrStr,minStr,secStr)
+              gameStatGoalieDict['minsNum']=round(pd.to_timedelta(time).total_seconds()/60,2)
+              gameStatGoalieDict['gaa']=round((gameStatGoalieDict['ga']/gameStatGoalieDict['minsNum'])*60,2)
+              if((gameStatGoalieDict['sv']+gameStatGoalieDict['ga'])==0):
+                  gameStatGoalieDict['sv%']=0
+              else:
+                  gameStatGoalieDict['sv%']=gameStatGoalieDict['sv']/(gameStatGoalieDict['sv']+gameStatGoalieDict['ga'])
               gameStatsGoalieList.append(gameStatGoalieDict)
   f.close()
   dfGameStatsGoalieMens=pd.DataFrame(gameStatsGoalieList)
@@ -958,7 +969,17 @@ def generateGameGoalieStats():
                            'result':col[9],
                            'season':col[10],
                            'year':int(col[10][:4])+1}
-                  
+              mins=gameStatGoalieWDict['mins'].split(':')
+              hrStr=divmod(int(mins[0]),60)[0]
+              minStr=divmod(int(mins[0]),60)[1]
+              secStr=str(mins[1])
+              time="{}:{}:{}".format(hrStr,minStr,secStr)
+              gameStatGoalieWDict['minsNum']=round(pd.to_timedelta(time).total_seconds()/60,2)
+              gameStatGoalieWDict['gaa']=round((gameStatGoalieWDict['ga']/gameStatGoalieWDict['minsNum'])*60,2)
+              if((gameStatGoalieWDict['sv']+gameStatGoalieWDict['ga'])==0):
+                  gameStatGoalieWDict['sv%']=0
+              else:
+                  gameStatGoalieWDict['sv%']=gameStatGoalieWDict['sv']/(gameStatGoalieWDict['sv']+gameStatGoalieWDict['ga'])     
               gameStatsGoalieWList.append(gameStatGoalieWDict)
   f.close()
   dfGameStatsGoalieWomens=pd.DataFrame(gameStatsGoalieWList)
