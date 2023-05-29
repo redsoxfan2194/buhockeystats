@@ -1,5 +1,5 @@
 from flask import Flask,render_template,request,jsonify
-from formatresults import format_results
+from formatresults import formatResults
 from burecordbook import *
 
 print('Generating...')
@@ -249,7 +249,7 @@ def records():
             'records.html',
             result=result,
             query='',
-            resTable=format_results(dfRes),
+            resTable=formatResults(dfRes),
             opponents_values=getOpponentList(dfOrig),
             season_values=list(dfOrig.season.unique()),
             arena_values=sorted(list(dfOrig.arena.unique())),
@@ -367,7 +367,7 @@ def records():
           hideEx=""
         dfRes=dfRes.sort_values(form_data['sortval'],ascending=sortType)
         return jsonify(
-            resTable=format_results(dfRes),
+            resTable=formatResults(dfRes),
             result=result,
             opponents_values=getOpponentList(dfOrig),
             season_values=list(dfOrig.season.unique()),

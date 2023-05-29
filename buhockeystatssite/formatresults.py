@@ -109,9 +109,8 @@ TEAM_COLORS = {
 }
 
 
-def format_results(df_results):
+def formatResults(df_results):
     table_data = df_results[['date', 'opponent', 'result', 'scoreline', 'ot', 'arena', 'tourney', 'note']].copy()
-    table_data.fillna('', inplace=True)
 
     table_data['date'] = table_data['date'].dt.strftime('%m/%d/%Y')
 
@@ -121,27 +120,28 @@ def format_results(df_results):
     if len(list(table_data['note'].unique())) < 1:
         table_data.drop(['note'], axis=1, inplace=True)
 
+    table_data.fillna('', inplace=True)
     table_data.rename(columns=COLUMNS, inplace=True)
-    return table_data.style.apply(style_row, axis=1).hide(axis='index').set_table_styles(TABLE_STYLES).to_html(index_names=False, render_links=True)
+    return table_data.style.apply(styleRow, axis=1).hide(axis='index').set_table_styles(TABLE_STYLES).to_html(index_names=False, render_links=True)
 
 
-def style_row(row):
-    background, font = winner_colors(row['Result'], row['Opponent'])
+def styleRow(row):
+    background, font = winnerColors(row['Result'], row['Opponent'])
     return [f'background-color: {background}; color: {font}; text-align:center'] * len(row)
 
 
-def winner_colors(result, opponent):
+def winnerColors(result, opponent):
     if result == "W":
         return BU_BG_COLOR, BU_COLOR
     elif result == "L":
-        return opponent_colors(opponent)
+        return opponentColors(opponent)
     elif result == "T":
         return TIE_BG_COLOR, TIE_COLOR
     else:
         return DEFAULT_BG_COLOR, DEFAULT_COLOR
 
 
-def opponent_colors(opponent):
+def opponentColors(opponent):
     if opponent not in TEAM_COLORS.keys():
         return DEFAULT_BG_COLOR, DEFAULT_COLOR
     else:
