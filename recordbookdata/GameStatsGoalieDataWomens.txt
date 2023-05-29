@@ -4,7 +4,7 @@
 10/15/2005,Union,Karilyn Pilch,FR,25,2,1,0,60:00,W,2005-06
 10/18/2005,Boston College,Allyse Wilcox,FR,39,3,1,0,65:00,T,2005-06
 10/22/2005,Vermont,Allyse Wilcox,FR,41,3,1,0,58:03,,2005-06
-10/22/2005,Vermont,Allyse Wilcox,FR,0,0,1,1,0:39,T,2005-06
+10/22/2005,Vermont,Allyse Wilcox,FR,0,0,1,0,0:39,T,2005-06
 10/22/2005,Vermont,Allyse Wilcox,FR,2,0,1,0,5:12,,2005-06
 10/23/2005,Vermont,Allyse Wilcox,FR,16,1,1,0,60:00,W,2005-06
 10/26/2005,Northeastern,Allyse Wilcox,FR,26,2,1,0,60:00,W,2005-06
@@ -60,7 +60,7 @@
 12/09/2006,Sacred Heart,Melissa Haber,FR,1,0,1,0,3:54,,2006-07
 12/09/2006,Sacred Heart,Melissa Haber,FR,3,0,1,1,55:59,W,2006-07
 01/05/2007,St. Cloud State,Allyse Wilcox,SO,16,2,1,0,43:02,,2006-07
-01/05/2007,St. Cloud State,Allyse Wilcox,SO,1,0,1,1,7:48,T,2006-07
+01/05/2007,St. Cloud State,Allyse Wilcox,SO,1,0,1,0,7:48,T,2006-07
 01/05/2007,St. Cloud State,Allyse Wilcox,SO,10,0,1,0,13:55,,2006-07
 01/06/2007,St. Cloud State,Melissa Haber,FR,12,2,1,0,24:02,L,2006-07
 01/06/2007,St. Cloud State,Melissa Haber,FR,3,0,1,0,9:59,,2006-07
@@ -97,7 +97,7 @@
 10/28/2007,Dartmouth,Melissa Haber,SO,33,5,1,0,45:00,T,2007-08
 11/01/2007,New Hampshire,Allyse Wilcox,JR,31,3,1,0,57:40,L,2007-08
 11/01/2007,New Hampshire,Allyse Wilcox,JR,2,0,1,0,1:44,,2007-08
-11/03/2007,Union,Allyse Wilcox,JR,6,0,1,1,40:00,W,2007-08
+11/03/2007,Union,Allyse Wilcox,JR,6,0,1,0,40:00,W,2007-08
 11/03/2007,Union,Ashley Leichliter,SO,0,0,1,0,20:00,,2007-08
 11/07/2007,Quinnipiac,Allyse Wilcox,JR,16,1,1,0,60:00,W,2007-08
 11/10/2007,Princeton,Allyse Wilcox,JR,22,3,1,0,59:15,L,2007-08
@@ -112,7 +112,7 @@
 12/01/2007,New Hampshire,Allyse Wilcox,JR,41,3,1,0,64:57,L,2007-08
 12/02/2007,Vermont,Allyse Wilcox,JR,21,0,1,1,60:00,W,2007-08
 12/06/2007,Boston College,Allyse Wilcox,JR,20,2,1,0,62:43,W,2007-08
-12/08/2007,Sacred Heart,Melissa Haber,SO,5,0,1,1,19:28,W,2007-08
+12/08/2007,Sacred Heart,Melissa Haber,SO,5,0,1,0,19:28,W,2007-08
 12/08/2007,Sacred Heart,Melissa Haber,SO,5,1,1,0,28:59,,2007-08
 12/08/2007,Sacred Heart,Ashley Leichliter,SO,5,0,1,0,11:29,,2007-08
 01/13/2008,Northeastern,Allyse Wilcox,JR,23,1,1,0,60:00,W,2007-08
@@ -126,7 +126,7 @@
 02/02/2008,Providence,Allyse Wilcox,JR,29,1,1,0,29:53,W,2007-08
 02/05/2008,Boston College,Allyse Wilcox,JR,13,0,1,0,31:09,,2007-08
 02/05/2008,Boston College,Allyse Wilcox,JR,11,1,1,0,28:36,W,2007-08
-02/08/2008,Vermont,Allyse Wilcox,JR,20,0,1,1,52:10,W,2007-08
+02/08/2008,Vermont,Allyse Wilcox,JR,20,0,1,0,52:10,W,2007-08
 02/08/2008,Vermont,Allyse Wilcox,JR,4,0,1,0,7:33,,2007-08
 02/09/2008,Vermont,Allyse Wilcox,JR,22,0,1,1,60:00,W,2007-08
 02/12/2008,Harvard,Allyse Wilcox,JR,34,3,1,0,57:51,L,2007-08
@@ -146,7 +146,7 @@
 10/04/2008,Rensselaer,Allyse Wilcox,SR,33,2,1,0,59:01,L,2008-09
 10/10/2008,Mercyhurst,Melissa Haber,JR,34,4,1,0,58:25,L,2008-09
 10/11/2008,Mercyhurst,Allyse Wilcox,SR,24,2,1,0,54:36,,2008-09
-10/11/2008,Mercyhurst,Allyse Wilcox,SR,2,0,1,1,5:21,W,2008-09
+10/11/2008,Mercyhurst,Allyse Wilcox,SR,2,0,1,0,5:21,W,2008-09
 10/18/2008,Clarkson,Melissa Haber,JR,17,1,1,0,45:35,W,2008-09
 10/18/2008,Clarkson,Melissa Haber,JR,11,0,1,0,14:24,,2008-09
 10/19/2008,St. Lawrence,Allyse Wilcox,SR,31,2,1,0,65:00,T,2008-09
@@ -155,7 +155,7 @@
 10/30/2008,New Hampshire,Allyse Wilcox,SR,34,2,1,0,65:00,T,2008-09
 11/01/2008,Providence,Allyse Wilcox,SR,15,2,1,0,38:07,,2008-09
 11/01/2008,Providence,Allyse Wilcox,SR,3,1,1,0,15:06,,2008-09
-11/01/2008,Providence,Allyse Wilcox,SR,0,0,1,1,5:42,T,2008-09
+11/01/2008,Providence,Allyse Wilcox,SR,0,0,1,0,5:42,T,2008-09
 11/01/2008,Providence,Allyse Wilcox,SR,1,0,1,0,5:11,,2008-09
 11/14/2008,Princeton,Allyse Wilcox,SR,30,0,1,1,60:00,W,2008-09
 11/15/2008,Quinnipiac,Melissa Haber,JR,7,1,1,0,60:00,W,2008-09
@@ -198,10 +198,10 @@
 10/02/2009,Ohio State,Melissa Haber,SR,7,1,1,0,23:21,T,2009-10
 10/03/2009,Ohio State,Melissa Haber,SR,32,4,1,0,65:00,T,2009-10
 10/09/2009,Robert Morris,Melissa Haber,SR,21,3,1,0,51:19,,2009-10
-10/09/2009,Robert Morris,Melissa Haber,SR,3,0,1,1,13:16,W,2009-10
+10/09/2009,Robert Morris,Melissa Haber,SR,3,0,1,0,13:16,W,2009-10
 10/16/2009,Wayne State,Alissa Fromkin,FR,21,4,1,0,58:03,,2009-10
 10/16/2009,Wayne State,Alissa Fromkin,FR,0,0,1,0,0:30,,2009-10
-10/16/2009,Wayne State,Alissa Fromkin,FR,0,0,1,1,0:42,T,2009-10
+10/16/2009,Wayne State,Alissa Fromkin,FR,0,0,1,0,0:42,T,2009-10
 10/16/2009,Wayne State,Alissa Fromkin,FR,1,0,1,0,5:02,,2009-10
 10/17/2009,Wayne State,Melissa Haber,SR,18,2,1,0,60:00,W,2009-10
 10/23/2009,St. Lawrence,Melissa Haber,SR,27,2,1,0,65:00,T,2009-10
@@ -245,7 +245,7 @@
 02/21/2010,Maine,Melissa Haber,SR,0,0,1,0,4:38,,2009-10
 02/21/2010,Maine,Melissa Haber,SR,16,0,1,1,43:39,W,2009-10
 02/28/2010,Boston College,Melissa Haber,SR,12,1,1,0,33:55,,2009-10
-02/28/2010,Boston College,Melissa Haber,SR,5,0,1,1,25:57,W,2009-10
+02/28/2010,Boston College,Melissa Haber,SR,5,0,1,0,25:57,W,2009-10
 03/06/2010,New Hampshire,Melissa Haber,SR,9,0,1,1,28:51,W,2009-10
 03/06/2010,New Hampshire,Melissa Haber,SR,8,0,1,0,30:52,,2009-10
 03/07/2010,Connecticut,Melissa Haber,SR,4,0,1,0,12:20,,2009-10
@@ -263,16 +263,16 @@
 10/15/2010,Wayne State,Kerrin Sperry,FR,11,2,1,0,47:56,W,2010-11
 10/15/2010,Wayne State,Kerrin Sperry,FR,3,0,1,0,11:50,,2010-11
 10/16/2010,Wayne State,Kerrin Sperry,FR,3,1,1,0,19:57,,2010-11
-10/16/2010,Wayne State,Kerrin Sperry,FR,21,0,1,1,40:01,W,2010-11
-10/22/2010,St. Lawrence,Kerrin Sperry,FR,21,0,1,1,49:37,W,2010-11
+10/16/2010,Wayne State,Kerrin Sperry,FR,21,0,1,0,40:01,W,2010-11
+10/22/2010,St. Lawrence,Kerrin Sperry,FR,21,0,1,0,49:37,W,2010-11
 10/22/2010,St. Lawrence,Kerrin Sperry,FR,4,1,1,0,10:18,,2010-11
 10/23/2010,Clarkson,Kerrin Sperry,FR,15,2,1,0,60:00,W,2010-11
 10/29/2010,Providence,Kerrin Sperry,FR,27,2,1,0,65:00,T,2010-11
 11/06/2010,Providence,Alissa Fromkin,SO,13,1,1,0,22:24,,2010-11
-11/06/2010,Providence,Alissa Fromkin,SO,14,0,1,1,37:32,W,2010-11
+11/06/2010,Providence,Alissa Fromkin,SO,14,0,1,0,37:32,W,2010-11
 11/07/2010,New Hampshire,Kerrin Sperry,FR,18,2,1,0,60:00,W,2010-11
 11/12/2010,Vermont,Alissa Fromkin,SO,8,1,1,0,14:45,,2010-11
-11/12/2010,Vermont,Alissa Fromkin,SO,15,0,1,1,50:09,T,2010-11
+11/12/2010,Vermont,Alissa Fromkin,SO,15,0,1,0,50:09,T,2010-11
 11/13/2010,Vermont,Kerrin Sperry,FR,29,2,1,0,64:49,T,2010-11
 11/20/2010,Boston College,Alissa Fromkin,SO,15,4,1,0,22:05,L,2010-11
 11/20/2010,Boston College,Braly Hiller,FR,18,2,1,0,37:55,,2010-11
@@ -315,7 +315,7 @@
 10/01/2011,North Dakota,Kerrin Sperry,SO,37,4,1,0,57:42,L,2011-12
 10/01/2011,North Dakota,Kerrin Sperry,SO,0,0,1,0,0:30,,2011-12
 10/07/2011,Niagara,Kerrin Sperry,SO,17,1,1,0,54:04,,2011-12
-10/07/2011,Niagara,Kerrin Sperry,SO,1,0,1,1,5:41,W,2011-12
+10/07/2011,Niagara,Kerrin Sperry,SO,1,0,1,0,5:41,W,2011-12
 10/08/2011,Niagara,Alissa Fromkin,JR,29,2,1,0,60:00,W,2011-12
 10/15/2011,Union,Braly Hiller,SO,27,2,1,0,60:00,W,2011-12
 10/21/2011,Clarkson,Kerrin Sperry,SO,32,2,1,0,65:00,T,2011-12
@@ -360,7 +360,7 @@
 02/12/2012,Vermont,Kerrin Sperry,SO,19,1,1,0,60:00,W,2011-12
 02/18/2012,Connecticut,Kerrin Sperry,SO,16,2,1,0,62:13,W,2011-12
 02/19/2012,Connecticut,Braly Hiller,SO,22,1,1,0,60:00,W,2011-12
-02/26/2012,New Hampshire,Kerrin Sperry,SO,6,0,1,1,13:42,W,2011-12
+02/26/2012,New Hampshire,Kerrin Sperry,SO,6,0,1,0,13:42,W,2011-12
 02/26/2012,New Hampshire,Kerrin Sperry,SO,13,1,1,0,46:11,,2011-12
 03/03/2012,Boston College,Kerrin Sperry,SO,8,1,1,0,22:33,W,2011-12
 03/03/2012,Boston College,Kerrin Sperry,SO,25,1,1,0,37:07,,2011-12
@@ -414,7 +414,7 @@
 02/12/2013,Harvard,Kerrin Sperry,JR,34,3,1,0,60:00,L,2012-13
 02/16/2013,Vermont,Alissa Fromkin,SR,6,1,1,0,4:45,,2012-13
 02/16/2013,Vermont,Alissa Fromkin,SR,15,0,1,0,41:07,,2012-13
-02/16/2013,Vermont,Alissa Fromkin,SR,3,0,1,1,13:50,W,2012-13
+02/16/2013,Vermont,Alissa Fromkin,SR,3,0,1,0,13:50,W,2012-13
 02/17/2013,Vermont,Kerrin Sperry,JR,15,1,1,0,47:07,W,2012-13
 02/17/2013,Vermont,Kerrin Sperry,JR,4,1,1,0,12:38,,2012-13
 02/20/2013,New Hampshire,Kerrin Sperry,JR,22,0,1,1,60:00,W,2012-13
@@ -434,7 +434,7 @@
 10/11/2013,Rensselaer,Kerrin Sperry,SR,34,2,1,0,65:00,T,2013-14
 10/12/2013,Union,Kerrin Sperry,SR,23,2,1,0,50:45,,2013-14
 10/12/2013,Union,Kerrin Sperry,SR,3,0,1,0,8:11,,2013-14
-10/12/2013,Union,Kerrin Sperry,SR,1,0,1,1,3:45,W,2013-14
+10/12/2013,Union,Kerrin Sperry,SR,1,0,1,0,3:45,W,2013-14
 10/18/2013,Robert Morris,Kerrin Sperry,SR,34,2,1,0,60:00,W,2013-14
 10/19/2013,Robert Morris,Victoria Hanson,FR,24,2,1,0,58:15,L,2013-14
 10/19/2013,Robert Morris,Victoria Hanson,FR,0,0,1,0,0:42,,2013-14
@@ -488,7 +488,7 @@
 10/04/2014,Minnesota,Erin O'Neil,FR,23,5,1,0,57:50,L,2014-15
 10/17/2014,Clarkson,Victoria Hanson,SO,19,1,1,0,60:00,W,2014-15
 10/18/2014,Clarkson,Erin O'Neil,FR,21,2,1,0,60:00,W,2014-15
-10/24/2014,Maine,Victoria Hanson,SO,20,0,1,1,46:59,W,2014-15
+10/24/2014,Maine,Victoria Hanson,SO,20,0,1,0,46:59,W,2014-15
 10/24/2014,Maine,Erin O'Neil,FR,4,0,1,0,13:01,,2014-15
 10/25/2014,Maine,Erin O'Neil,FR,26,3,1,0,56:42,L,2014-15
 10/25/2014,Maine,Erin O'Neil,FR,0,0,1,0,0:28,,2014-15
@@ -516,17 +516,17 @@
 01/24/2015,Vermont,Erin O'Neil,FR,2,0,1,0,8:00,,2014-15
 01/24/2015,Vermont,Erin O'Neil,FR,17,2,1,0,48:29,L,2014-15
 01/24/2015,Vermont,Erin O'Neil,FR,0,0,1,0,0:15,,2014-15
-01/25/2015,Vermont,Victoria Hanson,SO,4,0,1,1,13:22,W,2014-15
+01/25/2015,Vermont,Victoria Hanson,SO,4,0,1,0,13:22,W,2014-15
 01/25/2015,Vermont,Victoria Hanson,SO,11,0,1,0,26:36,,2014-15
 01/25/2015,Vermont,Mia Becker,SO,9,2,1,0,20:00,,2014-15
 01/31/2015,Connecticut,Erin O'Neil,FR,13,3,1,0,42:02,,2014-15
-01/31/2015,Connecticut,Erin O'Neil,FR,5,0,1,1,17:55,W,2014-15
+01/31/2015,Connecticut,Erin O'Neil,FR,5,0,1,0,17:55,W,2014-15
 02/03/2015,Harvard,Victoria Hanson,SO,14,7,1,0,40:00,L,2014-15
 02/03/2015,Harvard,Erin O'Neil,FR,9,2,1,0,20:00,,2014-15
 02/07/2015,New Hampshire,Erin O'Neil,FR,21,2,1,0,60:00,W,2014-15
 02/10/2015,Northeastern,Victoria Hanson,SO,31,1,1,0,60:00,W,2014-15
 02/14/2015,Providence,Erin O'Neil,FR,27,1,1,0,60:00,W,2014-15
-02/16/2015,Providence,Victoria Hanson,SO,8,0,1,1,22:53,W,2014-15
+02/16/2015,Providence,Victoria Hanson,SO,8,0,1,0,22:53,W,2014-15
 02/16/2015,Providence,Victoria Hanson,SO,9,0,1,0,23:53,,2014-15
 02/16/2015,Providence,Victoria Hanson,SO,6,1,1,0,12:31,,2014-15
 02/19/2015,Boston College,Erin O'Neil,FR,18,3,1,0,39:38,L,2014-15
@@ -543,9 +543,9 @@
 03/14/2015,Wisconsin,Victoria Hanson,SO,40,5,1,0,56:56,L,2014-15
 03/14/2015,Wisconsin,Mia Becker,SO,3,0,1,0,3:04,,2014-15
 10/02/2015,Connecticut,Victoria Hanson,JR,10,1,1,0,38:48,,2015-16
-10/02/2015,Connecticut,Victoria Hanson,JR,10,0,1,1,21:10,W,2015-16
+10/02/2015,Connecticut,Victoria Hanson,JR,10,0,1,0,21:10,W,2015-16
 10/04/2015,Maine,Erin O'Neil,SO,4,2,1,0,21:46,,2015-16
-10/04/2015,Maine,Victoria Hanson,JR,14,0,1,1,38:14,W,2015-16
+10/04/2015,Maine,Victoria Hanson,JR,14,0,1,0,38:14,W,2015-16
 10/09/2015,Penn State,Victoria Hanson,JR,21,5,1,0,57:14,L,2015-16
 10/09/2015,Penn State,Victoria Hanson,JR,0,0,1,0,0:17,,2015-16
 10/10/2015,Penn State,Erin O'Neil,SO,27,1,1,0,60:00,W,2015-16
@@ -567,7 +567,7 @@
 11/10/2015,Boston College,Victoria Hanson,JR,39,4,1,0,62:17,L,2015-16
 11/14/2015,Maine,Victoria Hanson,JR,19,3,1,0,36:39,,2015-16
 11/14/2015,Maine,Victoria Hanson,JR,7,0,1,0,8:52,,2015-16
-11/14/2015,Maine,Victoria Hanson,JR,4,0,1,1,14:16,W,2015-16
+11/14/2015,Maine,Victoria Hanson,JR,4,0,1,0,14:16,W,2015-16
 11/15/2015,Maine,Erin O'Neil,SO,29,2,1,0,58:14,W,2015-16
 11/15/2015,Maine,Erin O'Neil,SO,0,0,1,0,1:40,,2015-16
 11/20/2015,Merrimack,Victoria Hanson,JR,16,1,1,0,60:00,W,2015-16
@@ -675,7 +675,7 @@
 10/28/2017,Boston College,Erin O'Neil,SR,0,0,1,0,0:16,,2017-18
 10/28/2017,Boston College,Erin O'Neil,SR,0,0,1,0,0:21,,2017-18
 10/29/2017,New Hampshire,Corinne Schroeder,FR,42,2,1,0,65:00,T,2017-18
-11/03/2017,RIT,Corinne Schroeder,FR,6,0,1,1,10:31,W,2017-18
+11/03/2017,RIT,Corinne Schroeder,FR,6,0,1,0,10:31,W,2017-18
 11/03/2017,RIT,Corinne Schroeder,FR,3,0,1,0,9:19,,2017-18
 11/03/2017,RIT,Corinne Schroeder,FR,1,0,1,0,11:23,,2017-18
 11/03/2017,RIT,Corinne Schroeder,FR,9,1,1,0,28:34,,2017-18
@@ -687,13 +687,13 @@
 11/10/2017,UConn,Corinne Schroeder,FR,5,0,1,0,5:50,,2017-18
 11/17/2017,Vermont,Corinne Schroeder,FR,25,1,1,0,60:00,W,2017-18
 11/18/2017,Vermont,Corinne Schroeder,FR,10,1,1,0,26:55,,2017-18
-11/18/2017,Vermont,Corinne Schroeder,FR,25,0,1,1,32:44,W,2017-18
+11/18/2017,Vermont,Corinne Schroeder,FR,25,0,1,0,32:44,W,2017-18
 11/24/2017,Minnesota State,Corinne Schroeder,FR,29,2,1,0,60:00,W,2017-18
 11/25/2017,Wisconsin,Corinne Schroeder,FR,31,4,1,0,57:50,L,2017-18
 11/25/2017,Wisconsin,Corinne Schroeder,FR,0,0,1,0,0:21,,2017-18
 11/25/2017,Wisconsin,Corinne Schroeder,FR,0,0,1,0,0:06,,2017-18
 11/28/2017,Brown,Corinne Schroeder,FR,11,4,1,0,48:30,,2017-18
-11/28/2017,Brown,Corinne Schroeder,FR,6,0,1,1,11:21,W,2017-18
+11/28/2017,Brown,Corinne Schroeder,FR,6,0,1,0,11:21,W,2017-18
 12/01/2017,Boston College,Erin O'Neil,SR,12,1,1,0,24:28,,2017-18
 12/01/2017,Boston College,Erin O'Neil,SR,24,1,1,0,40:09,T,2017-18
 12/02/2017,Boston College,Erin O'Neil,SR,11,0,1,0,12:50,,2017-18
@@ -755,7 +755,7 @@
 12/01/2018,Boston College,Corinne Schroeder,SO,19,1,1,0,31:06,,2018-19
 12/01/2018,Boston College,Corinne Schroeder,SO,18,1,1,0,28:39,W,2018-19
 12/07/2018,RIT,Corinne Schroeder,SO,27,1,1,0,60:00,W,2018-19
-12/08/2018,RIT,Corinne Schroeder,SO,12,0,1,1,32:08,W,2018-19
+12/08/2018,RIT,Corinne Schroeder,SO,12,0,1,0,32:08,W,2018-19
 12/08/2018,RIT,Corinne Schroeder,SO,10,0,1,0,18:28,,2018-19
 12/08/2018,RIT,Nicole McGuigan,FR,0,0,1,0,9:11,,2018-19
 12/30/2018,Penn State,Corinne Schroeder,SO,8,0,1,0,26:14,,2018-19
@@ -785,7 +785,7 @@
 02/23/2019,Providence,Corinne Schroeder,SO,21,2,1,0,45:06,L,2018-19
 02/23/2019,Providence,Corinne Schroeder,SO,6,0,1,0,13:50,,2018-19
 03/01/2019,New Hampshire,Corinne Schroeder,SO,25,1,1,0,60:00,W,2018-19
-03/02/2019,New Hampshire,Corinne Schroeder,SO,11,0,1,1,25:26,W,2018-19
+03/02/2019,New Hampshire,Corinne Schroeder,SO,11,0,1,0,25:26,W,2018-19
 03/02/2019,New Hampshire,Corinne Schroeder,SO,0,0,1,0,1:04,,2018-19
 03/02/2019,New Hampshire,Corinne Schroeder,SO,16,1,1,0,33:09,,2018-19
 03/09/2019,Boston College,Corinne Schroeder,SO,31,5,1,0,60:00,L,2018-19
@@ -815,7 +815,7 @@
 12/07/2019,Boston College,Corinne Schroeder,JR,25,1,1,0,60:00,W,2019-20
 01/04/2020,Maine,Kate Stuart,SO,27,2,1,0,62:30,W,2019-20
 01/05/2020,Maine,Corinne Schroeder,JR,10,3,1,0,30:40,,2019-20
-01/05/2020,Maine,Corinne Schroeder,JR,4,0,1,1,34:14,T,2019-20
+01/05/2020,Maine,Corinne Schroeder,JR,4,0,1,0,34:14,T,2019-20
 01/10/2020,Providence,Corinne Schroeder,JR,26,2,1,0,55:19,L,2019-20
 01/10/2020,Providence,Corinne Schroeder,JR,0,0,1,0,0:25,,2019-20
 01/10/2020,Providence,Corinne Schroeder,JR,0,0,1,0,0:12,,2019-20
@@ -823,7 +823,7 @@
 01/17/2020,Holy Cross,Corinne Schroeder,JR,6,0,1,0,24:14,,2019-20
 01/17/2020,Holy Cross,Corinne Schroeder,JR,5,1,1,0,19:25,W,2019-20
 01/17/2020,Holy Cross,Corinne Schroeder,JR,6,0,1,0,15:22,,2019-20
-01/18/2020,Holy Cross,Kate Stuart,SO,8,0,1,1,29:49,W,2019-20
+01/18/2020,Holy Cross,Kate Stuart,SO,8,0,1,0,29:49,W,2019-20
 01/18/2020,Holy Cross,Kate Stuart,SO,3,1,1,0,29:37,,2019-20
 01/24/2020,Merrimack,Kate Stuart,SO,7,0,1,0,26:30,,2019-20
 01/24/2020,Merrimack,Kate Stuart,SO,16,1,1,0,38:19,T,2019-20
@@ -930,10 +930,9 @@
 01/21/2023,New Hampshire,Andrea Br‰ndli,GR,30,1,1,0,60:00,W,2022-23
 01/27/2023,Merrimack,Andrea Br‰ndli,GR,25,1,1,0,59:41,W,2022-23
 01/28/2023,Vermont,Andrea Br‰ndli,GR,22,1,1,0,60:19,W,2022-23
-02/03/2023,Connecticut,Andrea Br‰ndli,GR,23,2,1,0,65:00,,2022-23
-02/07/2023,Northeastern,Andrea Br‰ndli,GR,41,3,1,0,57:48,L,2022-23
-02/11/2023,Boston College,Andrea Br‰ndli,GR,31,2,1,0,58:40,L,2022-23
+02/03/2023,Connecticut,Andrea Br√§ndli,GR,23,2,1,0,65:00,,2022-23
+02/07/2023,Northeastern,Andrea Br√§ndli,GR,41,3,1,0,57:48,L,2022-23
+02/11/2023,Boston College,Andrea Br√§ndli,GR,31,2,1,0,58:40,L,2022-23
 02/14/2023,Harvard,Callie Shanahan,SO,24,4,1,0,60:00,W,2022-23
-02/17/2023,Northeastern,Andrea Br‰ndli,GR,32,5,1,0,59:59,L,2022-23
-02/18/2023,Northeastern,Andrea Br‰ndli,GR,45,4,1,0,60:00,L,2022-23
-02/12/2023,Merrimack,Andrea Br‰ndli,GR,20,5,1,0,68:58,L,2022-23
+02/17/2023,Northeastern,Andrea Br√§ndli,GR,32,5,1,0,59:59,L,2022-23
+02/18/2023,Northeastern,Andrea Br√§ndli,GR,45,4,1,0,60:00,L,2022-23
