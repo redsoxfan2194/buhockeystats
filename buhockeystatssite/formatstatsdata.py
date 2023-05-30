@@ -1,3 +1,4 @@
+import re
 COLUMNS = {
     'date': 'Date',
     'opponent': 'Opponent',
