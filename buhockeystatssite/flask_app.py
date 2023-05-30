@@ -162,7 +162,7 @@ def players():
           dfStat=dfStat.groupby(['name','opponent']).sum(numeric_only=True)
           dfStat=dfStat.reset_index()
           dfStat['sv%']=dfStat['sv']/(dfStat['sv']+dfStat['ga'])
-          dfStat['gaa']=(dfStat['ga']/dfStat['minsNum'])*60
+          dfStat['gaa']=(dfStat['ga']/dfStat['mins'])*60
           dfStat=dfStat[['name','opponent','gp','ga','gaa','sv','sv%','SO','W','L','T']]    
         if(form_data['isAscending']!=''):
           if(form_data['sortval']!='' and form_data['sortval'].lower() in dfStat.columns or form_data['sortval'] in ['W','L','T','SO'] ):
