@@ -632,7 +632,7 @@
 02/25/2017,Notre Dame,Jake Oettinger,FR,40,1,1,0,60.00,W,2016-17
 03/10/2017,Northeastern,Jake Oettinger,FR,33,2,1,0,63.18,W,2016-17
 03/11/2017,Northeastern,Jake Oettinger,FR,24,2,1,0,60.00,W,2016-17
-03/17/2017,Boston College,Jake Oettinger,FR,32,3,1,0,56.88,L,2016-17
+03/17/2017,Boston College,Jake Oettinger,FR,32,3,1,0,56.7,L,2016-17
 03/25/2017,Minnesota Duluth,Jake Oettinger,FR,20,3,1,0,61.95,L,2016-17
 09/30/2017,Union,Jake Oettinger,SO,31,1,1,0,59.87,W,2017-18
 10/08/2017,Quinnipiac,Jake Oettinger,SO,22,2,1,0,64.32,W,2017-18
