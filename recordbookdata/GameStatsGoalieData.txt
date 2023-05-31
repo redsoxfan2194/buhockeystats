@@ -37,7 +37,7 @@
 02/28/2003,Maine,Sean Fields,JR,28,2,1,0,60.00,W,2002-03
 03/01/2003,Maine,Sean Fields,JR,22,4,1,0,60.00,L,2002-03
 03/07/2003,Providence,Sean Fields,JR,26,4,1,0,68.05,L,2002-03
-03/08/2003,Providence,Sean Fields,JR,58,2,1,0,120.00,W,2002-03
+03/08/2003,Providence,Sean Fields,JR,29,1,1,0,60.00,W,2002-03
 03/15/2003,New Hampshire,Sean Fields,JR,40,1,1,0,71.72,L,2002-03
 03/28/2003,Harvard,Sean Fields,JR,34,4,1,0,60.00,W,2002-03
 03/29/2003,New Hampshire,Sean Fields,JR,24,2,1,0,58.31,L,2002-03
@@ -424,7 +424,7 @@
 02/25/2012,Vermont,Kieran Millan,SR,22,2,1,0,62.77,W,2011-12
 03/02/2012,Northeastern,Kieran Millan,SR,25,2,1,0,59.89,W,2011-12
 03/03/2012,Northeastern,Grant Rollheiser,SR,33,5,1,0,62.50,L,2011-12
-03/10/2012,New Hampshire,Kieran Millan,SR,70,4,1,0,120.00,W,2011-12
+03/10/2012,New Hampshire,Kieran Millan,SR,35,2,1,0,60.00,W,2011-12
 03/16/2012,Maine,Kieran Millan,SR,39,4,1,0,58.99,L,2011-12
 03/24/2012,Minnesota,Kieran Millan,SR,35,5,1,0,58.70,L,2011-12
 10/13/2012,Providence,Matt O'Connor,FR,26,2,1,0,59.84,W,2012-13
