@@ -3,21 +3,24 @@
 	src: url(fonts/college.ttf) format('truetype');
 }
 
-/* Common Styling */
-h1 {
-	color: white;
-	text-align: center;
-	padding: 10px;
+.nav-top-line {
 	font-family: college-font;
-	font-size: 60px;
+	width: 100%;
 }
 
-h2 {
-	color: white;
-	text-align: center;
-	padding: 10px;
-	font-size: 20px;
+@media (min-width: 576px) {
+	.nav-top-line {
+		width: auto;
+	}
+	.navbar-brand {
+		font-size: 60px;
+	}
+	.nav-item {
+		font-size: 30px;
+	}
 }
+
+/* Common Styling */
 a:hover {
   color: white;
   text-decoration: none;
@@ -212,12 +215,5 @@ hr{
 
 	#filterMenu {
 		display: none;
-	}
-
-	h2 {
-		color: white;
-		text-align: center;
-		padding: 10px;
-		font-size: 30px;
 	}
 }
