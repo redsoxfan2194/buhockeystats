@@ -423,7 +423,7 @@
 02/24/2012,Vermont,Grant Rollheiser,SR,18,0,1,1,59.75,W,2011-12
 02/25/2012,Vermont,Kieran Millan,SR,22,2,1,0,62.77,W,2011-12
 03/02/2012,Northeastern,Kieran Millan,SR,25,2,1,0,59.89,W,2011-12
-03/03/2012,Northeastern,Grant Rollheiser,SR,66,10,1,0,122.83,L,2011-12
+03/03/2012,Northeastern,Grant Rollheiser,SR,33,5,1,0,62.50,L,2011-12
 03/10/2012,New Hampshire,Kieran Millan,SR,70,4,1,0,120.00,W,2011-12
 03/16/2012,Maine,Kieran Millan,SR,39,4,1,0,58.99,L,2011-12
 03/24/2012,Minnesota,Kieran Millan,SR,35,5,1,0,58.70,L,2011-12
@@ -530,7 +530,7 @@
 01/18/2015,UMass Lowell,Matt O'Connor,JR,34,3,1,0,61.30,W,2014-15
 01/23/2015,Vermont,Matt O'Connor,JR,32,2,1,0,60.00,W,2014-15
 01/24/2015,Vermont,Matt O'Connor,JR,31,1,1,0,62.93,W,2014-15
-01/30/2015,Massachusetts,Connor LaCouvee,FR,37,6,1,0,72.58,W,2014-15
+01/30/2015,Massachusetts,Connor LaCouvee,FR,30,5,1,0,59.35,W,2014-15
 02/06/2015,UMass Lowell,Matt O'Connor,JR,27,2,1,0,60.00,W,2014-15
 02/13/2015,New Hampshire,Matt O'Connor,JR,30,3,1,0,60.00,W,2014-15
 02/14/2015,New Hampshire,Connor LaCouvee,FR,13,1,1,0,28.82,L,2014-15
@@ -661,7 +661,7 @@
 01/20/2018,Merrimack,Jake Oettinger,SO,26,1,1,0,59.63,W,2017-18
 01/26/2018,Arizona State,Jake Oettinger,SO,23,0,1,1,59.93,W,2017-18
 01/27/2018,Arizona State,Jake Oettinger,SO,18,3,1,0,59.85,W,2017-18
-02/02/2018,Massachusetts,Jake Oettinger,SO,40,4,1,0,120.00,W,2017-18
+02/02/2018,Massachusetts,Jake Oettinger,SO,20,2,1,0,60.00,W,2017-18
 02/09/2018,Massachusetts,Jake Oettinger,SO,20,3,1,0,64.90,T,2017-18
 02/12/2018,Northeastern,Jake Oettinger,SO,22,4,1,0,56.11,L,2017-18
 02/16/2018,UConn,Jake Oettinger,SO,15,5,1,0,62.85,L,2017-18

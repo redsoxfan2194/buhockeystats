@@ -576,7 +576,7 @@
 02/15/2020,New Hampshire,Corinne Schroeder,JR,33,0,1,1,59.92,W,2019-20
 02/16/2020,New Hampshire,Kate Stuart,SO,17,0,1,1,60.00,W,2019-20
 02/21/2020,UConn,Corinne Schroeder,JR,20,2,1,0,59.83,W,2019-20
-02/22/2020,UConn,Corinne Schroeder,JR,64,2,1,0,120.00,W,2019-20
+02/22/2020,UConn,Corinne Schroeder,JR,32,1,1,0,60.00,W,2019-20
 02/29/2020,Maine,Corinne Schroeder,JR,32,2,1,0,59.00,L,2019-20
 12/04/2020,New Hampshire,Corinne Schroeder,SR,18,1,1,0,60.00,W,2020-21
 12/05/2020,New Hampshire,Kate Stuart,JR,26,4,1,0,58.95,L,2020-21
