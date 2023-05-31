@@ -52,6 +52,7 @@
          </select>
          <input class="game-stats" type="text" name="date" id="date" value="{{ date }}" placeholder="{{date}}" onchange="submitForm()">
          <input type = "submit" id='resetButton' value = "Reset"  />
+         </div>
          <div class='dropdown-container'>
             <select class="btn btn-custom-red dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm()">
             {% for seasonStart in season_values %}
@@ -64,9 +65,8 @@
             <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>{{ seasonEnd }}</option>
             {% endfor %}
             </select>
-         </div>
+        </div>
       </form>
-   </div>
    <div id="statTable">
       {% autoescape false %}
       {{statTable}}

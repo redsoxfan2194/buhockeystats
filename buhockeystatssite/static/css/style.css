@@ -20,6 +20,13 @@
 	}
 }
 
+h2 {
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
+
 /* Common Styling */
 a:hover {
   color: white;
