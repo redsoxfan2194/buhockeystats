@@ -262,7 +262,7 @@
 02/18/2012,Connecticut,Kerrin Sperry,SO,16,2,1,0,62.22,W,2011-12
 02/19/2012,Connecticut,Braly Hiller,SO,22,1,1,0,60.00,W,2011-12
 02/26/2012,New Hampshire,Kerrin Sperry,SO,19,1,1,0,59.88,W,2011-12
-03/03/2012,Boston College,Kerrin Sperry,SO,183,8,1,0,282.39,W,2011-12
+03/03/2012,Boston College,Kerrin Sperry,SO,33,2,1,0,59.67,W,2011-12
 10/05/2012,Boston College,Kerrin Sperry,JR,29,2,1,0,60.00,W,2012-13
 10/12/2012,Rensselaer,Kerrin Sperry,JR,17,2,1,0,60.00,W,2012-13
 10/13/2012,Union,Alissa Fromkin,SR,12,1,1,0,19.95,,2012-13
@@ -626,37 +626,37 @@
 02/19/2022,Providence,Kate Stuart,SR,10,1,1,0,32.58,,2021-22
 02/19/2022,Providence,Nicole McGuigan,SR,11,1,1,0,31.02,L,2021-22
 02/26/2022,Connecticut,Callie Shanahan,FR,23,2,1,0,58.50,L,2021-22
-10/07/2022,Rensselaer,Andrea Br‰ndli,GR,19,0,1,1,60.00,W,2022-23
+10/07/2022,Rensselaer,Andrea Br√§ndli,GR,19,0,1,1,60.00,W,2022-23
 10/08/2022,Union,Callie Shanahan,SO,32,3,1,0,58.60,L,2022-23
-10/14/2022,New Hampshire,Andrea Br‰ndli,GR,26,0,1,1,60.00,W,2022-23
+10/14/2022,New Hampshire,Andrea Br√§ndli,GR,26,0,1,1,60.00,W,2022-23
 10/15/2022,New Hampshire,Callie Shanahan,SO,39,3,1,0,63.23,L,2022-23
-10/21/2022,Boston College,Andrea Br‰ndli,GR,31,3,1,0,59.80,L,2022-23
+10/21/2022,Boston College,Andrea Br√§ndli,GR,31,3,1,0,59.80,L,2022-23
 10/22/2022,Boston College,Callie Shanahan,SO,37,5,1,0,59.55,L,2022-23
 10/28/2022,Merrimack,Callie Shanahan,SO,24,4,1,0,58.60,L,2022-23
-10/29/2022,Merrimack,Andrea Br‰ndli,GR,29,2,1,0,59.30,W,2022-23
-11/04/2022,Providence,Andrea Br‰ndli,GR,42,3,1,0,62.62,L,2022-23
-11/05/2022,Providence,Andrea Br‰ndli,GR,36,4,1,0,60.00,L,2022-23
-11/11/2022,Vermont,Andrea Br‰ndli,GR,31,2,1,0,59.08,L,2022-23
+10/29/2022,Merrimack,Andrea Br√§ndli,GR,29,2,1,0,59.30,W,2022-23
+11/04/2022,Providence,Andrea Br√§ndli,GR,42,3,1,0,62.62,L,2022-23
+11/05/2022,Providence,Andrea Br√§ndli,GR,36,4,1,0,60.00,L,2022-23
+11/11/2022,Vermont,Andrea Br√§ndli,GR,31,2,1,0,59.08,L,2022-23
 11/12/2022,Vermont,Callie Shanahan,SO,25,3,1,0,60.32,W,2022-23
-11/18/2022,Connecticut,Andrea Br‰ndli,GR,38,1,1,0,60.00,W,2022-23
+11/18/2022,Connecticut,Andrea Br√§ndli,GR,38,1,1,0,60.00,W,2022-23
 11/19/2022,Connecticut,Callie Shanahan,SO,25,2,1,0,60.00,W,2022-23
-11/25/2022,Yale,Andrea Br‰ndli,GR,30,2,1,0,57.47,L,2022-23
+11/25/2022,Yale,Andrea Br√§ndli,GR,30,2,1,0,57.47,L,2022-23
 11/26/2022,Penn State,Callie Shanahan,SO,37,3,1,0,60.00,L,2022-23
-12/02/2022,Maine,Andrea Br‰ndli,GR,25,2,1,0,55.47,L,2022-23
+12/02/2022,Maine,Andrea Br√§ndli,GR,25,2,1,0,55.47,L,2022-23
 12/03/2022,Maine,Callie Shanahan,SO,28,3,1,0,58.67,L,2022-23
 12/09/2022,Holy Cross,Callie Shanahan,SO,24,2,1,0,60.83,W,2022-23
-01/06/2023,Holy Cross,Andrea Br‰ndli,GR,29,3,1,0,58.20,L,2022-23
-01/08/2023,Northeastern,Andrea Br‰ndli,GR,26,5,1,0,40.00,L,2022-23
+01/06/2023,Holy Cross,Andrea Br√§ndli,GR,29,3,1,0,58.20,L,2022-23
+01/08/2023,Northeastern,Andrea Br√§ndli,GR,26,5,1,0,40.00,L,2022-23
 01/08/2023,Northeastern,Callie Shanahan,GR,11,1,1,0,20.00,,2022-23
-01/13/2023,Holy Cross,Andrea Br‰ndli,GR,38,2,1,0,60.05,L,2022-23
-01/17/2023,Providence,Andrea Br‰ndli,GR,40,2,1,0,65.00,T,2022-23
+01/13/2023,Holy Cross,Andrea Br√§ndli,GR,38,2,1,0,60.05,L,2022-23
+01/17/2023,Providence,Andrea Br√§ndli,GR,40,2,1,0,65.00,T,2022-23
 01/20/2023,Maine,Callie Shanahan,SO,27,3,1,0,65.00,T,2022-23
-01/21/2023,New Hampshire,Andrea Br‰ndli,GR,30,1,1,0,60.00,W,2022-23
-01/27/2023,Merrimack,Andrea Br‰ndli,GR,25,1,1,0,59.68,W,2022-23
-01/28/2023,Vermont,Andrea Br‰ndli,GR,22,1,1,0,60.32,W,2022-23
-02/03/2023,Connecticut,Andrea Br‰ndli,GR,23,2,1,0,65.00,T,2022-23
-02/07/2023,Northeastern,Andrea Br‰ndli,GR,41,3,1,0,57.80,L,2022-23
-02/11/2023,Boston College,Andrea Br‰ndli,GR,31,2,1,0,58.67,L,2022-23
+01/21/2023,New Hampshire,Andrea Br√§ndli,GR,30,1,1,0,60.00,W,2022-23
+01/27/2023,Merrimack,Andrea Br√§ndli,GR,25,1,1,0,59.68,W,2022-23
+01/28/2023,Vermont,Andrea Br√§ndli,GR,22,1,1,0,60.32,W,2022-23
+02/03/2023,Connecticut,Andrea Br√§ndli,GR,23,2,1,0,65.00,T,2022-23
+02/07/2023,Northeastern,Andrea Br√§ndli,GR,41,3,1,0,57.80,L,2022-23
+02/11/2023,Boston College,Andrea Br√§ndli,GR,31,2,1,0,58.67,L,2022-23
 02/14/2023,Harvard,Callie Shanahan,SO,24,4,1,0,60.00,W,2022-23
-02/17/2023,Northeastern,Andrea Br‰ndli,GR,32,5,1,0,59.98,L,2022-23
-02/18/2023,Northeastern,Andrea Br‰ndli,GR,45,4,1,0,60.00,L,2022-23
+02/17/2023,Northeastern,Andrea Br√§ndli,GR,32,5,1,0,59.98,L,2022-23
+02/18/2023,Northeastern,Andrea Br√§ndli,GR,45,4,1,0,60.00,L,2022-23
