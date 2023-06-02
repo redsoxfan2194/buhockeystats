@@ -405,6 +405,14 @@
           success: function(response) {
             $('#resultTable').html(response.resTable);
             $('#record').html("Record: "+response.result);
+            if(!document.getElementById('tabletype').value)
+            {
+              document.getElementById('grouping').hidden=true;           
+            }
+            else
+            {
+              document.getElementById('grouping').hidden=false;    
+            }
             if(reset==='true')
             {
               document.getElementById('startYear').value = response.minYear;
@@ -495,7 +503,7 @@
                 }));
               });
               
-              if(document.getElementById('tabletype').value!='record')
+              if(!document.getElementById('tabletype').value)
               {
                 document.getElementById('grouping').hidden=true;           
                
