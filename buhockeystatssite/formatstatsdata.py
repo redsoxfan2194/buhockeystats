@@ -6,7 +6,11 @@ COLUMNS = {
     'scoreline': 'Score',
     'arena': 'Location',
     'tourney': 'Tournament',
-    'note': 'Note'
+    'note': 'Note',
+    'coach': 'Coach',
+    'month': 'Month',
+    'season': 'Season',
+    'dow': 'DOW'
 }
 TABLE_STYLES = [
     {
@@ -148,19 +152,27 @@ def convertToHtmlTable(input_string):
     return html_table
 
 def formatResults(dfRes):
-    table_data = dfRes[['date', 'opponent', 'result', 'scoreline', 'ot', 'arena', 'tourney', 'note']].copy()
-    table_data.fillna('', inplace=True)
+    firstCol=dfRes.columns[0]
+    if('date' in dfRes.columns):
+      table_data = dfRes[['date', 'opponent', 'result', 'scoreline', 'ot', 'arena', 'tourney', 'note']].copy()
+      table_data.fillna('', inplace=True)
 
-    table_data['date'] = table_data['date'].dt.strftime('%m/%d/%Y')
+      table_data['date'] = table_data['date'].dt.strftime('%m/%d/%Y')
 
-    table_data.loc[table_data['ot']!='', 'scoreline'] = table_data['scoreline'] + " (" + table_data.loc[table_data['ot']!='', 'ot'] + ")"
-    table_data.drop(['ot'], axis=1, inplace=True)
+      table_data.loc[table_data['ot']!='', 'scoreline'] = table_data['scoreline'] + " (" + table_data.loc[table_data['ot']!='', 'ot'] + ")"
+      table_data.drop(['ot'], axis=1, inplace=True)
 
-    if len(list(table_data['note'].unique())) < 1:
-        table_data.drop(['note'], axis=1, inplace=True)
-
+      if len(list(table_data['note'].unique())) < 1:
+          table_data.drop(['note'], axis=1, inplace=True)
+    else:
+      table_data=dfRes
+    if(firstCol not in table_data.columns):
+      table_data.insert(0,firstCol,dfRes[firstCol])
+    else:
+      new_order = [firstCol] + [col for col in table_data.columns if col != firstCol]
+      table_data = table_data[new_order]
     table_data.rename(columns=COLUMNS, inplace=True)
-    return table_data.style.apply(stylerow, axis=1).hide(axis='index').set_table_styles(TABLE_STYLES).to_html(index_names=False, render_links=True)
+    return table_data.style.apply(stylerow, axis=1).hide(axis='index').format({'Win%':'{:.3f}'}).set_table_styles(TABLE_STYLES).to_html(index_names=False, render_links=True)
     
 def formatStats(dfRes):
     dfRes=dfRes.copy()
@@ -180,7 +192,7 @@ def formatStats(dfRes):
       dfRes['date']=dfRes['date'].dt.strftime('%m/%d/%Y')
       dfRes=dfRes[['date','name','opponent','yr','pos','season','goals','assists','pts']]
     if('season' in dfRes.columns):
-      style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','sv%':'{:.3f}'})
+      style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','sv%':'{:.3f}','mins':'{:.2f}'})
     else:
       style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','mins':'{:.2f}','sv%':'{:.3f}'})
     for stat in ['gp','goals','assists','pts','pen','pim','ga','W','L','T','saves']:
@@ -207,7 +219,17 @@ def formatStats(dfRes):
     
   
 def stylerow(row):
-    background, font = winnercolors(row['Result'], row['Opponent'])
+    if('Result' in row):
+      background, font = winnercolors(row['Result'], row['Opponent'])
+    elif('Opponent' in row):
+      background, font = winnercolors('L', row['Opponent'])
+    elif(int(row.name)%2==0):
+      background=BU_COLOR
+      font=BU_BG_COLOR
+    else:
+      background=BU_BG_COLOR
+      font=BU_COLOR
+      
     return [f'background-color: {background}; color: {font}; text-align:center'] * len(row)
 
 

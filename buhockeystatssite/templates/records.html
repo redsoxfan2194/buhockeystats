@@ -7,11 +7,30 @@
          <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %} >Mens</option>
          <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}>Womens</option>
          </select>
+         <select class="btn btn-custom-red dropdown-toggle" name="tabletype" id="tabletype" onchange="submitForm('true')">
+         <option value="" {% if selected_tabletype == '' %} selected {% endif %}>Results</option>
+         <option value="record" {% if selected_tabletype == 'record' %} selected {% endif %}>Record</option>
+         <option value="first" {% if selected_tabletype == 'first' %} selected {% endif %}>First Game</option>
+         <option value="last" {% if selected_tabletype == 'last' %} selected {% endif %}>Last Game</option>
+         </select>
+         <select class="btn btn-custom-red dropdown-toggle" name="grouping" id="grouping" onchange="submitForm()">
+         <option value="Opponent" {% if selected_group == 'Opponent' %} selected {% endif %}>Group by: Opponent</option>
+         <option value="Coach" {% if selected_group == 'Coach' %} selected {% endif %}>Group by: Coach</option>
+         <option value="Arena" {% if selected_group == 'Arena' %} selected {% endif %}>Group by: Arena</option>
+         <option value="Season" {% if selected_group == 'Season' %} selected {% endif %}>Group by: Season</option>
+         <option value="Month" {% if selected_group == 'Month' %} selected {% endif %}>Group by: Month</option>
+         <option value="DOW" {% if selected_group == 'DOW' %} selected {% endif %}>Group by: DOW</option>
+         </select>
          <select class="btn btn-custom-red dropdown-toggle" name="sortval" id="sortval" onchange="submitForm()">
-         <option value="date" {% if selected_sort == 'date' %} selected {% endif %} >Date</option>
-         <option value="GD" {% if selected_sort == 'GD' %} selected {% endif %}>MOV</option>
-         <option value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}>Goals Scored</option>
-         <option value="OppoScore" {% if selected_sort == 'OppoScore' %} selected {% endif %}>Goals Allowed</option>
+         <option class="res-sort" value="date" {% if selected_sort == 'date' %} selected {% endif %} >Date</option>
+         <option class="res-sort" value="GD" {% if selected_sort == 'GD' %} selected {% endif %}>MOV</option>
+         <option class="res-sort" value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}>Goals Scored</option>
+         <option class="res-sort" value="OppoScore" {% if selected_sort == 'OppoScore' %} selected {% endif %}>Goals Allowed</option>
+         <option class="rec-sort" value="sort" {% if selected_sort == 'sort' %} selected {% endif %}>Sort</option>
+         <option class="rec-sort" value="W" {% if selected_sort == 'W' %} selected {% endif %}>Wins</option>
+         <option class="rec-sort" value="L" {% if selected_sort == 'L' %} selected {% endif %}>Losses</option>
+         <option class="rec-sort" value="T" {% if selected_sort == 'T' %} selected {% endif %}>Ties</option>
+         <option class="rec-sort" value="Win%" {% if selected_sort == 'Win%' %} selected {% endif %}>Win%</option>
          </select>
          <span id="arrowUp" class="arrow-up" onclick=";toggleArrow()">&#9650;</span>
          <span id="arrowDown" class="arrow-down" onclick="toggleArrow()">&#9660;</span>
@@ -194,12 +213,22 @@
         document.getElementById("day").value = 0;
         document.getElementById("tourney").value= "Tournament";
         document.getElementById("coach").value= "all";
-
+        document.getElementById("tabletype").value= "";
+        document.getElementById("grouping").value= "Opponent";
+        document.getElementById("grouping").hidden= true;
         submitForm('true');
 
       }
    </script>
    <script>
+      document.getElementById('grouping').hidden=true;
+      var select = document.getElementById('sortval');
+      const optionToHide = document.querySelectorAll(".rec-sort");
+
+        // Hide all rec-sort elements
+        for (let i = 0; i < optionToHide.length; i++) {
+          optionToHide[i].classList.add("hidden");
+        }
       var arrowStateField = document.getElementById('isAscending');
       if (arrowStateField.value === "True") {
         arrowUp.style.display = 'none';
@@ -366,7 +395,9 @@
    <script>
       function submitForm(reset='false') {
         const formData = $('#resForm').serialize();
-
+        var sortSelect = document.getElementById('sortval');
+        var recSort = document.querySelectorAll(".rec-sort");
+        var resSort = document.querySelectorAll(".res-sort");
         $.ajax({
           url: $('#resForm').attr('action'),
           method: $('#resForm').attr('method'),
@@ -463,6 +494,36 @@
                   text: item
                 }));
               });
+              
+              if(document.getElementById('tabletype').value!='record')
+              {
+                document.getElementById('grouping').hidden=true;           
+               
+                // Hide all rec-sort elements
+                for (let i = 0; i < recSort.length; i++) {
+                  recSort[i].classList.add("hidden");
+                }
+                
+                // show all res-sort elements
+                for (let i = 0; i < resSort.length; i++) {
+                  resSort[i].classList.remove("hidden");
+                }
+               document.getElementById('sortval').value='date';
+              }
+              else
+              {
+                document.getElementById('grouping').hidden=false;
+                // Hide all res-sort elements
+                for (let i = 0; i < resSort.length; i++) {
+                  resSort[i].classList.add("hidden");
+                }
+                
+                // show all rec-sort elements
+                for (let i = 0; i < recSort.length; i++) {
+                  recSort[i].classList.remove("hidden");
+                }
+                document.getElementById('sortval').value='sort';
+              }
             }
           },
           error: function(xhr, status, error) {

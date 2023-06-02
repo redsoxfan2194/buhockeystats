@@ -2,6 +2,8 @@ from flask import Flask,render_template,request,jsonify
 from burecordbook import *
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
 
+dayNames = {0: 'Monday', 1: 'Tuesday', 2: 'Wednesday', 3: 'Thursday', 4: 'Friday', 5: 'Saturday', 6: 'Sunday'}
+
 print('Generating...')
 dfGames=generateRecordBook()
 dfGamesWomens=generateWomensRecordBook()
@@ -21,12 +23,8 @@ buscore='BU Score'
 oppscore='Opp Score'
 print('Generated')
   
-# cd env
-# Scripts\activate
-#set FLASK_APP=app.py
-#flask run
-
 app = Flask(__name__)
+
 
 def getOpponentList(dfRes):
   dfRes.loc[dfRes['tourney'].isnull(),'tourney']=''
@@ -386,7 +384,52 @@ def records():
           hideEx="true"
         else:
           hideEx=""
-        dfRes=dfRes.sort_values(form_data['sortval'],ascending=sortType)
+        if('grouping' in form_data and form_data['grouping']!=''):
+          if(form_data['grouping']=='Month'):
+              dfRes=dfRes.copy()
+              dfRes.loc[:,'month'] = pd.to_datetime(dfRes['month'], format='%m').dt.strftime('%B')
+          elif(form_data['grouping']=='DOW'):
+              dfRes=dfRes.copy()
+              dfRes.loc[:,'dow'] = dfRes['dow'].map(dayNames)
+          if(form_data['tabletype']=='record'):
+            grouped_data = dfRes.groupby([form_data['grouping'].lower(),'result']).count()['date']
+            records = grouped_data.unstack().fillna(0).astype(int).to_dict(orient='index')
+            recsList=[]
+            for team in records.keys():
+                recDict={form_data['grouping']:team}
+                for res in ['W','L','T']:
+                  if(res not in records[team]):
+                    recDict[res]=0
+                  else:
+                    recDict[res]=records[team][res]
+                    
+                if((recDict['W']+recDict['L']+recDict['T'])!=0):
+                    recDict['Win%']=round(recDict['W']/(recDict['W']+recDict['L']+recDict['T']),3)
+                    recsList.append(recDict)
+            dfRes=pd.DataFrame(recsList)
+          elif(form_data['tabletype']=='first'):
+              dfRes=dfRes.copy()
+              dfRes.fillna('', inplace=True)
+              dfRes=dfRes.groupby(form_data['grouping'].lower()).first()
+              dfRes.reset_index(inplace=True)
+          elif(form_data['tabletype']=='last'):
+              dfRes=dfRes.copy()
+              dfRes.fillna('', inplace=True)
+              dfRes=dfRes.groupby(form_data['grouping'].lower()).last()
+              dfRes.reset_index(inplace=True)
+        if(form_data['sortval'] in ["date","GD", "BUScore", "OppoScore"] and 'date' not in dfRes.columns):
+          if(form_data['sortval']!='date'):
+            sortType=not sortType
+          dfRes=dfRes.sort_values(form_data['grouping'],ascending=sortType)
+        elif(form_data['sortval'] in ['Win%','W','L','T','sort'] and 'Win%' not in dfRes.columns):
+          sortType=not sortType
+          dfRes=dfRes.sort_values('date',ascending=sortType)
+        elif(form_data['sortval']=='sort'):
+          sortType=not sortType
+          dfRes=dfRes.sort_values(form_data['grouping'],ascending=sortType)
+        else:
+          dfRes=dfRes.sort_values(form_data['sortval'],ascending=sortType)
+        
         return jsonify(resTable=formatResults(dfRes),
             result=result,
             opponents_values=getOpponentList(dfOrig),
