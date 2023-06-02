@@ -404,7 +404,7 @@ def records():
                     recDict[res]=records[team][res]
                     
                 if((recDict['W']+recDict['L']+recDict['T'])!=0):
-                    recDict['Win%']=round(recDict['W']/(recDict['W']+recDict['L']+recDict['T']),3)
+                    recDict['Win%']=round((recDict['W']+recDict['T']*.5)/(recDict['W']+recDict['L']+recDict['T']),3)
                     recsList.append(recDict)
             dfRes=pd.DataFrame(recsList)
           elif(form_data['tabletype']=='first'):
