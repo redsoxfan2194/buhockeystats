@@ -503,24 +503,25 @@
                 }));
               });
               
-              if(!document.getElementById('tabletype').value)
+              if(document.getElementById('tabletype').value!='record')
               {
-                document.getElementById('grouping').hidden=true;           
-               
-                // Hide all rec-sort elements
-                for (let i = 0; i < recSort.length; i++) {
-                  recSort[i].classList.add("hidden");
+                if(resSort[0].classList.contains('hidden'))
+                {
+                  // Hide all rec-sort elements
+                  for (let i = 0; i < recSort.length; i++) {
+                    recSort[i].classList.add("hidden");
+                  }
+                  
+                  // show all res-sort elements
+                  for (let i = 0; i < resSort.length; i++) {
+                    resSort[i].classList.remove("hidden");
+                  }
+                  document.getElementById('sortval').value='date';
                 }
-                
-                // show all res-sort elements
-                for (let i = 0; i < resSort.length; i++) {
-                  resSort[i].classList.remove("hidden");
-                }
-               document.getElementById('sortval').value='date';
               }
               else
               {
-                document.getElementById('grouping').hidden=false;
+                
                 // Hide all res-sort elements
                 for (let i = 0; i < resSort.length; i++) {
                   resSort[i].classList.add("hidden");
