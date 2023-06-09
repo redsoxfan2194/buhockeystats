@@ -1,3 +1,103 @@
+1	Don Aiken	SR	23	1380	163			7.09	4-19-0	0	1954-55
+2	Ron Tanner		23	1360	73	558	0.884	3.22	13-8-2		1958-59
+2	Barry Urbanski		24		55	539	0.907		--		1959-60
+1	Glen Eberly	JR	20						--		1961-62
+1	Glen Eberly	SR	23						--		1962-63
+	Chris Parlante		1	5	0	0	0	0	0-0-0	0	1962-63
+1	Andy Fila		3	180	3	6	0.5	1	--		1963-64
+1	Wayne Ryan	SO	5				0.833	0.2	--		1964-65
+1	Jack Ferreira		31	1784	63			2.12	25--	8	1964-65
+1	Andy Fila		3	180	9	63	0.875	3	--		1964-65
+1	Wayne Ryan	JR	13	640	24	224	0.903	2.25	--		1965-66
+1	Dave Crisafulli		1		0		1	0	0-0-0	0	1965-66
+1	Wayne Ryan	SR	26				0.9	2.88	--		1966-67
+1	Jim McCann	SO	7				0.947	1	--		1966-67
+1	Dave Crisafulli		10		2	20	0.909	1.2	0-0-0	0	1966-67
+1	Mark Fennie		16						--		1967-68
+1	Jim McCann	JR	26						--		1967-68
+1	Saul Weiss		1	3	0	0	0	0	0-0-0	0	1968-69
+1	Jim McCann	SR	29						--		1968-69
+1	Tim Regan	SO	23				0.897	2.82	--		1969-70
+1	Stefan Brueckner		2	20	2	0	0	6	--		1969-70
+1	Tim Regan	JR	14	780	23	299	0.929	1.77	--		1970-71
+1	Stefan Brueckner		1	60	1	12	0.923	1	1-0-0		1970-71
+30	Dan Brady	JR	18	1059	36	396	0.917	2.04	--		1970-71
+1	Tim Regan	SR	9						--		1971-72
+1	Ed Walsh	SO	3	70	3	29	0.906	2.6	--		1971-72
+30	Dan Brady	SR	27					2.22	23--		1971-72
+30	John Bresnehan		3	40	1	10	0.909	1.5	0-0-0	0	1972-73
+30	Joe Robillard		3				0.9	2.14	--		1972-73
+1	Ed Walsh	JR	27	1613	79	804	0.911	2.94	--		1972-73
+35	Pat Devlin		4				0.92	3	--		1973-74
+30	Joe Robillard		3				0.814	6.84	--		1973-74
+1	Ed Walsh	SR	29	1637	78	800	0.911	2.86	--		1973-74
+35	Pat Devlin		12						--		1974-75
+1	Brian Durocher	FR	22						--		1974-75
+35	Pat Devlin		13						--		1975-76
+1	Brian Durocher	SO	17						--		1975-76
+30	Jim Craig	FR	27						--		1976-77
+1	Brian Durocher	JR	10						--		1976-77
+30	Jim Craig	SO	16					3.72	--		1977-78
+1	Brian Durocher	SR	16						--		1977-78
+35	Bob Wels		1	15	3	6	0.667	12	0-0-0	0	1977-78
+30	Jim Craig	JR	22	1009	60			3.57	--		1978-79
+1	Jeff Weisman	SO	10				0.893		--		1978-79
+1	Jeff Weisman	JR	12						--		1979-80
+30	Bob Barich		16						--		1979-80
+1	Jeff Weisman	SR	18						--		1980-81
+35	Cleon Daskalakis	FR	8					3.61	--		1980-81
+35	Cleon Daskalakis	SO	20	1100	59	589	0.909	3.22	--		1981-82
+30	Bob Barich		11						--		1981-82
+35	Cleon Daskalakis	JR	24					3.35	--		1982-83
+30	Terry Taillefer	FR	10						--		1983-84
+35	Cleon Daskalakis	SR	35	1973	96	983	0.911	2.92	25--		1983-84
+30	Terry Taillefer	SO	15				0.902	3.01	--		1984-85
+35	Peter Fish	FR	17						--		1984-85
+29	Bob Deraney	SO	13				0.882	3.66	--		1984-85
+30	Terry Taillefer	JR	29	1651	93	775	0.893	3.38	--		1985-86
+29	Bob Deraney	JR	16				0.894	3.48	--		1985-86
+30	Terry Taillefer	SR	22				0.89	3.9	--		1986-87
+35	Peter Fish	SO	5				0.891	3.58	--		1986-87
+29	Bob Deraney	SR	12					3.78	--		1986-87
+35	Peter Fish	JR	27	1552	114	885	0.886	4.41	--		1987-88
+30	John Bradley	FR	9				0.873	4.59	--		1987-88
+35	Peter Fish	SR	17					3.82	--		1988-89
+30	John Bradley	SO	11					5.45	--		1988-89
+29	Bryan LaFort	FR	11	585	48	273	0.85	4.93	3-7-0		1988-89
+1	Scott Cashman	FR	39	2277	122	1027	0.894	3.21	23--		1989-90
+30	John Bradley	JR	7					3.18	--		1989-90
+1	Scott Cashman	SO	22						--		1990-91
+30	John Bradley	SR	20						--		1990-91
+35	Chris Bise		1	7	1			8.57	0-0-0	0	1990-91
+1	Scott Cashman	JR	21				0.88	3.82	--		1991-92
+29	J.P. McKersie	FR	8				0.866	3.48	--		1991-92
+35	Derek Herlofsky	FR	9				0.912	2.46	--		1991-92
+1	Scott Cashman	SR	17						--		1992-93
+29	J.P. McKersie	SO	9						--		1992-93
+35	Derek Herlofsky	SO	19						--		1992-93
+1	Shawn Ferullo		1					21.95	--		1993-94
+29	J.P. McKersie	JR	24					2.9	--		1993-94
+35	Derek Herlofsky	JR	20	1056	44	437	0.909	2.5	--		1993-94
+30	Chris Bise		1	12	3			15.93	0-0-0	0	1993-94
+30	Tom Noble	FR	18						--		1994-95
+35	Derek Herlofsky	SR	24						--		1994-95
+30	Tom Noble	SO	28				0.886	3.01	--		1995-96
+28	Michel Larocque	FR	14	858	49	374	0.884	3.43	--		1995-96
+29	J.P. McKersie	SR	7				0.907	2.01	--		1995-96
+30	Tom Noble	JR	17				0.884	3.13	--		1996-97
+1	Shawn Ferullo		3				0.923	3.81	--		1996-97
+28	Michel Larocque	SO	24	1469	58	592	0.911	2.37	--		1996-97
+30	Tom Noble	SR	16	930	33	323	0.907	2.13	11-4-1		1997-98
+28	Michel Larocque	JR	24	1370	50	518	0.912	2.19	17-4-1		1997-98
+28	Michel Larocque	SR	35	2072	110	928	0.894	3.39	--		1998-99
+83	Jason Tapp	FR	6				0.826	4.46	--		1998-99
+29	Rick DiPietro	FR	29	1788	73	762	0.913	2.45	18-5-5		1999-00
+83	Jason Tapp	SO	15				0.879	3.12	--		1999-00
+31	Sean Fields	FR	16	949	40	372	0.904	2.53	--		2000-01
+83	Jason Tapp	JR	23				0.893	3.37	--		2000-01
+39	Andy Warren	JR	2				0.833	7.76	--		2000-01
+31	Sean Fields	SO	33	1935	88	796	0.9	2.73	--		2001-02
+83	Jason Tapp	SR	7				0.867	3.31	--		2001-02
 31	Sean Fields	JR	40	2435:16	101	1035	.911	2.49	24-13-3	4	2002-03
 1	Stephan Siwiec	FR	3	144:00	9	47	.839	3.75	1-1-0	0	2002-03
 39	Andy Warren	JR	1	3:44	0	1	1.000	0.00	0-0-0	0	2002-03

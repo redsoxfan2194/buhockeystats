@@ -675,19 +675,26 @@ def generateSeasonGoalies():
         seasGList=[]
         for i in rows:
             col=i.split('\t')
-            seasGDict={'number':int(col[0]),
+            seasGDict={'number':convertToInt(col[0]),
                      'name':col[1],
                      'yr':col[2],
-                     'gp':int(col[3]),
+                     'gp':convertToInt(col[3]),
                      'mins':col[4],
-                     'ga':int(col[5]),
-                     'saves':int(col[6]),
-                     'sv%':float(col[7]),
-                     'gaa':float(col[8]),
+                     'ga':convertToInt(col[5]),
+                     'saves':convertToInt(col[6]),
+                     'sv%':convertToFloat(col[7]),
+                     'gaa':convertToFloat(col[8]),
                      'record':col[9],
-                     'SO':int(col[10]),
+                     'SO':convertToInt(col[10]),
                      'season':col[11],
                      'year':int(col[11][:4])+1}
+            if(":" in seasGDict['mins']):
+                mins=seasGDict['mins'].split(':')
+                seasGDict['min']=round(int(mins[0])+int(mins[1])/60,3)
+            elif(seasGDict['mins']==''):
+                seasGDict['min']=np.nan
+            else:
+                seasGDict['min']=convertToFloat(seasGDict['mins'])
             seasGList.append(seasGDict)
     f.close()
     fileNameW=(RECBOOK_DATA_PATH + 'SeasonGoalieStatsWomens.txt')
@@ -710,6 +717,13 @@ def generateSeasonGoalies():
                      'SO':int(col[10]),
                      'season':col[11],
                      'year':int(col[11][:4])+1}
+            if(":" in seasGDict['mins']):
+                mins=seasGDict['mins'].split(':')
+                seasGDict['min']=round(int(mins[0])+int(mins[1])/60,3)
+            elif(seasGDict['mins']==''):
+                seasGDict['min']=np.nan
+            else:
+                seasGDict['min']=convertToFloat(seasGDict['mins'])
             seasGListW.append(seasGDict)
     f.close()
     dfSeasGoalie=pd.DataFrame(seasGList+seasGListW)

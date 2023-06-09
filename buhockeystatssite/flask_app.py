@@ -68,15 +68,14 @@ def players():
               if(form_data['position']=='skater'):
                 dfStat=dfSeasSkateMens
                 pens=dfStat['pens'].str.split('/',expand=True)
-                dfStat.loc[:,'pen']=pens[0]
-                dfStat.loc[:,'pim']=pens[1]
-                dfStat=dfStat.replace('—',np.nan)
+                dfStat.loc[:,'pen']=pens[0].replace('—',np.nan)
+                dfStat.loc[:,'pim']=pens[1].replace('—',np.nan)
               elif(form_data['position']=='goalie'):
                 dfStat=dfSeasGoalieMens
-                rec=dfStat.record.str.split('-',expand=True)
-                dfStat['W']=rec[0].astype(int)
-                dfStat['L']=rec[1].astype(int)
-                dfStat['T']=rec[2].astype(int)
+                rec=dfStat.record.str.split('-',expand=True)          
+                dfStat['W']=rec[0].replace('',-1).astype(int)
+                dfStat['L']=rec[1].replace('',-1).astype(int)
+                dfStat['T']=rec[2].replace('',-1).astype(int)
            elif(form_data['type']=='game'):
               if(form_data['position']=='skater'):
                 dfStat=dfGameStatsMens
@@ -93,9 +92,8 @@ def players():
               if(form_data['position']=='skater'):
                 dfStat=dfSeasSkateWomens
                 pens=dfStat['pens'].str.split('/',expand=True)
-                dfStat.loc[:,'pen']=pens[0]
-                dfStat.loc[:,'pim']=pens[1]
-                dfStat=dfStat.replace('—',np.nan)
+                dfStat.loc[:,'pen']=pens[0].replace('—',np.nan)
+                dfStat.loc[:,'pim']=pens[1].replace('—',np.nan)
               elif(form_data['position']=='goalie'):
                 dfStat=dfSeasGoalieWomens
                 rec=dfStat.record.str.split('-',expand=True)
