@@ -67,6 +67,10 @@ def players():
            elif(form_data['type']=='season'):
               if(form_data['position']=='skater'):
                 dfStat=dfSeasSkateMens
+                pens=dfStat['pens'].str.split('/',expand=True)
+                dfStat.loc[:,'pen']=pens[0]
+                dfStat.loc[:,'pim']=pens[1]
+                dfStat=dfStat.replace('—',np.nan)
               elif(form_data['position']=='goalie'):
                 dfStat=dfSeasGoalieMens
                 rec=dfStat.record.str.split('-',expand=True)
@@ -88,6 +92,10 @@ def players():
            elif(form_data['type']=='season'):
               if(form_data['position']=='skater'):
                 dfStat=dfSeasSkateWomens
+                pens=dfStat['pens'].str.split('/',expand=True)
+                dfStat.loc[:,'pen']=pens[0]
+                dfStat.loc[:,'pim']=pens[1]
+                dfStat=dfStat.replace('—',np.nan)
               elif(form_data['position']=='goalie'):
                 dfStat=dfSeasGoalieWomens
                 rec=dfStat.record.str.split('-',expand=True)
@@ -429,7 +437,7 @@ def records():
           dfRes=dfRes.sort_values(form_data['grouping'],ascending=sortType)
         else:
           dfRes=dfRes.sort_values(form_data['sortval'],ascending=sortType)
-        
+          
         return jsonify(resTable=formatResults(dfRes),
             result=result,
             opponents_values=getOpponentList(dfOrig),

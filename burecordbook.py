@@ -486,7 +486,7 @@ def generateSkaters():
                            'goals':convertToInt(skaterSearch.group(5)),
                            'assists':convertToInt(skaterSearch.group(6)),
                            'pts':convertToInt(skaterSearch.group(7)),
-                           'pen':convertToInt(skaterSearch.group(8)),
+                           'pens':convertToInt(skaterSearch.group(8)),
                            'pim':convertToInt(skaterSearch.group(9))}
                 skateList.append(skaterDict)
     fileNameW=(RECBOOK_DATA_PATH + 'SkaterStatsWomens.txt')
@@ -506,7 +506,7 @@ def generateSkaters():
                            'goals':convertToInt(skaterSearch.group(5)),
                            'assists':convertToInt(skaterSearch.group(6)),
                            'pts':convertToInt(skaterSearch.group(7)),
-                           'pen':convertToInt(skaterSearch.group(8)),
+                           'pens':convertToInt(skaterSearch.group(8)),
                            'pim':convertToInt(skaterSearch.group(9))}
                 skateListW.append(skaterDict)
     dfSkate=pd.DataFrame(skateList+skateListW)
@@ -629,14 +629,14 @@ def generateSeasonSkaters():
         seasList=[]
         for i in rows:
             col=i.split('\t')
-            seasDict={'number':int(col[0]),
+            seasDict={'number':convertToInt(col[0]),
                      'name':col[1],
                      'pos':col[2],
                      'yr':col[3],
-                     'gp':int(col[4]),
-                     'goals':int(col[5]),
-                     'assists':int(col[6]),
-                     'pts':int(col[7]),
+                     'gp':convertToInt(col[4]),
+                     'goals':convertToInt(col[5]),
+                     'assists':convertToInt(col[6]),
+                     'pts':convertToInt(col[7]),
                      'pens':col[8],
                      'season':col[9],
                      'year':int(col[9][:4])+1}
@@ -2613,7 +2613,7 @@ def updateCareerStats(dfSkate,dfGoalie,dfSeasSkate,dfSeasGoalie):
         dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'goals']=pSums['goals']
         dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'assists']=pSums['assists']
         dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'pts']=pSums['pts']
-        dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'pen']=pen
+        dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'pens']=pen
         dfSkate.loc[(dfSkate['name']==player) & (dfSkate['seasons'].str.contains(currSeason)),'pim']=pim
     for player in curGoalieList:
         dfRes=dfSeasGoalie.loc[dfSeasGoalie['name']==player]

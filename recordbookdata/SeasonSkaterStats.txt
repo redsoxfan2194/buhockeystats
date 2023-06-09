@@ -1,3 +1,1147 @@
+	Harold Leatherbee	F		1	0	0	0	—/—	1917-18
+	John O'Hare	F		1	0	0	0	—/—	1917-18
+	Luther Bennett	F		1	0	0	0	—/—	1917-18
+	Nelson Jost	F		1	0	0	0	—/—	1917-18
+	Paul Rasmussen	F		1	0	0	0	—/—	1917-18
+	Vincent Morton	F		1	0	0	0	—/—	1917-18
+	Warren Pond	F		1	1	0	1	—/—	1917-18
+	Andrew Evers	F		1	0	0	0	—/0	1919-20
+27	Charles Goodrich	F		2	0	0	0	—/—	1919-20
+	Clifford Pinkham	F		2	0	0	0	—/—	1919-20
+	Edward Hersey	F		2	0	0	0	—/—	1919-20
+	Hazen Spinney	F		2	0	0	0	—/—	1919-20
+	Henry Roeske	F		2	0	0	0	—/—	1919-20
+	John Mutty	F		1	1	0	1	—/—	1919-20
+	Philip Richardson	F		1	0	0	0	—/—	1919-20
+	Robert Sears	F		1	0	0	0	—/—	1919-20
+	Warren Sullivan	F		1	1	0	1	—/—	1919-20
+	Ernest Almer	F	SO		0	0	0	—/—	1921-22
+	Carl Anderson	F		1	0	0	0	—/0	1922-23
+	Ernest Almer	F	JR		7	0	7	—/—	1922-23
+	George Sterling	F		8	4	0	4	—/—	1922-23
+	Harry McArdle	F		6	1	0	1	—/—	1922-23
+	Joe Beauchemin	F		8	0	0	0	—/—	1922-23
+	John Diehl	F		2	0	0	0	—/—	1922-23
+	Louis Rosenfield	F		1	0	0	0	—/—	1922-23
+	Mickey Cochrane	F		2	0	0	0	—/—	1922-23
+	— Frazier	F		3	0	0	0	—/—	1922-23
+	Arle Ashcraft	F		8	0	0	0	—/0	1923-24
+	Edmund Burke	F		7	0	0	0	—/—	1923-24
+	Ernest Almer	F	SR		4	0	4	—/—	1923-24
+	George Feldman	F		1	0	0	0	—/0	1923-24
+	Joe Brown	F	FR	5	0	0	0	—/—	1923-24
+	Oscar Hurteau	F		6	0	0	0	—/—	1923-24
+	Robert Blais	F			4	0	4	—/—	1923-24
+	Sanfield Morrison	F		1	0	0	0	—/—	1923-24
+	— McRae	F		4	0	0	0	—/—	1923-24
+	— Robertson	F		1	0	0	0	—/—	1923-24
+	David Goldfine	F		10	2	0	2	—/—	1924-25
+6	John Lawless	F	SO			1		—/—	1924-25
+7	Ovila Gregoire	F			11	0	11	—/—	1924-25
+	— Scribner	F		1	0	0	0	—/—	1924-25
+	Chester Scott	F			8	3	11	—/—	1925-26
+7	Ovila Gregoire	F			10	0	10	—/—	1925-26
+	Thomas Cummings	F		4	0	0	0	—/—	1925-26
+	— McLean	F		1	0	0	0	—/—	1925-26
+	Arthur Kimball	F		4	0	0	0	—/—	1926-27
+	John Carnie	F		3	0	0	0	—/0	1926-27
+6	John Lawless	F	JR		13			—/—	1926-27
+6	John Lawless	F	SR			4		—/—	1926-27
+	Junie Crampton	F		1	0	0	0	—/—	1926-27
+	Richard Breen	F		3	0	0	0	—/—	1926-27
+	Russell MacKenzie	F		6	0	0	0	—/—	1926-27
+5	Benjamin Currier	F	JR		13	0	13	—/—	1927-28
+14	Holmes Whitmore	F			10			—/—	1928-29
+	Randell Snow	F		5	0	0	0	—/—	1928-29
+4	Richard Lombard	F			9	7	16	—/—	1928-29
+	Stephen Roblin	F		5	0	0	0	—/—	1928-29
+	W. Fredrickson	F		2	0	0	0	—/—	1928-29
+5	Benjamin Currier	F	SR			4		—/—	1929-30
+16	Jacob Arkin	F		13	0	0	0	—/—	1929-30
+4	Richard Lombard	F			14	3	17	—/—	1929-30
+	Arthur Wilson	F						—/—	1930-31
+15	Carl Clem	F			6	0	6	—/—	1930-31
+	John Walker	F						—/—	1930-31
+8	Leo Baron	F						—/—	1930-31
+11	Paul Bergholtz	F			5	2	7	—/—	1930-31
+	Paul Toohey	F		8	0	1	1	—/—	1930-31
+3	Richard French	F				2		—/—	1930-31
+6	Ronald Weafer	F						—/—	1930-31
+	Walter Bender	F	SO			0		—/—	1930-31
+15	Carl Clem	F			10	3	13	—/—	1931-32
+	John Murphy	F		1	0	0	0	—/—	1931-32
+	Joseph McDonald	F		4	0	0	0	—/—	1931-32
+	Kenneth Slade	F		3	0	0	0	—/—	1931-32
+	Walter Bender	F	JR			6		—/—	1931-32
+	John Lax	F	SO		14	2	16	—/—	1932-33
+	Kenneth Hathaway	F		2	0	0	0	—/0	1932-33
+	Robert Bell	F		2	1	0	1	—/—	1932-33
+	Walter Bender	F	SR			5		—/—	1932-33
+	John Lax	F	JR		14	5	19	—/—	1933-34
+	John Rosenfeld	F		10	0	0	0	—/—	1933-34
+	John Taylor	F		2	0	0	0	—/—	1933-34
+	Leo Gaul	F		9	0	0	0	—/—	1933-34
+	Russell Smith	F			13	10	23	—/—	1933-34
+	Dick Sherman	F		2	0	0	0	—/—	1934-35
+	John Lax	F	SR		8	11	19	—/—	1934-35
+	Paul Rowe	F			11			—/—	1934-35
+	Robert Neilson	F		1	0	0	0	—/—	1934-35
+	— Campbell	F		1	0	0	0	—/—	1934-35
+	— Miner	F		2	0	0	0	—/—	1934-35
+9	Al Carvelli	F	SO		10	14	24	—/—	1935-36
+7	Gerry Desrosiers	F	SO		11	13	24	—/—	1935-36
+	Paul Fohlin	F		2	0	0	0	—/0	1935-36
+3	Tom Hartigan	F			12			—/—	1935-36
+21	Bud Cowdery	F		1	0	0	0	—/0	1936-37
+14	Chester Chilson	F		1	0	0	0	—/0	1936-37
+7	Gerry Desrosiers	F	JR		23	11	34	—/—	1936-37
+9	William Freeman	F		1	1	0	1	—/0	1936-37
+3	William Hardiman	F		1	0	0	0	—/0	1936-37
+9	Al Carvelli	F	JR		26			—/—	1937-38
+2	Ed Richardson	F	SO			4		—/—	1937-38
+7	Gerry Desrosiers	F	SR		19	24	43	—/—	1937-38
+	John Dewhurst	F		1	0	0	0	—/0	1937-38
+9	Al Carvelli	F	SR		10			—/—	1938-39
+	Edouard Lacroix	F		3	0	0	0	—/0	1938-39
+2	Ed Richardson	F	JR			15		—/—	1938-39
+	Jack Herrick	F		6	0	2	2	—/4	1938-39
+7	Joe Conaty	F			19	15	34	—/—	1938-39
+	John Geary	F		6	0	0	0	—/0	1938-39
+	John Walker	F		14	0	0	0	—/0	1938-39
+5	Paul Brown	F	SO			12		—/—	1938-39
+	Whitley Cummings	F		2	0	0	0	—/0	1938-39
+	— Hiller	F		4	0	0	0	—/0	1938-39
+	— Nickles	F		7	1	0	1	—/2	1938-39
+18	Bob Lange	F		12	4	6	10	—/0	1939-40
+23	Bob Lind	F		6	2	2	4	—/13	1939-40
+	Earl Richardson	F		2	0	0	0	—/0	1939-40
+2	Ed Richardson	F	SR		10	9	19	—/—	1939-40
+5	Paul Brown	F	JR			24		—/—	1939-40
+	Robert Hall	F		6	8	4	12	—/6	1939-40
+	Bill Pollard	F		8	0	0	0	—/0	1940-41
+10	John Chambers	F			27	20	47	—/—	1940-41
+5	Paul Brown	F	SR			20		—/—	1940-41
+	Francis Anderson	F			9	3	12	—/—	1941-42
+11	Howard Blasenak	F				4		—/—	1941-42
+	John Spang	F		1	0	0	0	—/0	1941-42
+	Larry Cugini	F		1	0	0	0	—/0	1941-42
+	Leo Gulley	F		14	4	1	5	—/12	1941-42
+	Pete O'Sullivan	F		3	1	0	1	—/0	1941-42
+	Philip Cargill	F		10	0	0	0	—/2	1941-42
+	Robert Crowley	F		14	3	4	7	—/6	1941-42
+	Burt MacArthur	F			10	6	16	—/—	1942-43
+	Charlie Black	F		6	1	2	3	—/0	1942-43
+	David Barr	F		9	0	1	1	—/6	1942-43
+	Guy Page	F		1	0	0	0	—/0	1942-43
+	Jack Dodge	F		3	0	0	0	—/0	1942-43
+	Jim Moran	F		10	1	0	1	—/2	1942-43
+	Jim Nesbitt	F		9	1	0	1	—/4	1942-43
+	Jim Walsh	F		8	0	0	0	—/8	1942-43
+	John Sullivan	F		4	0	0	0	—/0	1942-43
+	Robert McCarthy	F		3	0	0	0	—/2	1942-43
+	Thomas Whalen	F		7	2	1	3	—/6	1942-43
+	Walt Stone	F				7		—/—	1942-43
+	Walter Walworth	F		3	0	0	0	—/0	1942-43
+	— Keaton	F		1	0	0	0	—/0	1942-43
+10	Benjamin Forbes	F	SO		2	3	5	—/—	1945-46
+	Bob Gray	F		3	3	2	5	—/0	1945-46
+	Charlie Mains	F		1	0	0	0	—/0	1945-46
+7	David Quinn	F		3	0	0	0	—/0	1945-46
+	Dick McGinley	F		3	5	2	7	—/0	1945-46
+12	Don Cleary	F				3		—/—	1945-46
+	Ed O'Riordan	F		3	0	1	1	—/4	1945-46
+	Edward Gould	F		3	0	1	1	—/0	1945-46
+	Gene St. Hiliaire	F		3	0	0	0	—/0	1945-46
+	Raymond Foley	F		2	0	0	0	—/0	1945-46
+10	Benjamin Forbes	F	JR		23	22	45	—/—	1946-47
+	Dan Crowley	D			15	22	37	—/—	1946-47
+18	Dana Hixon	F	FR			15		—/—	1946-47
+	James Reynolds	F			13	9	22	—/—	1946-47
+	Robert Maker	F			23	25	48	—/—	1946-47
+	Walt Stone	F				2		—/—	1946-47
+10	Benjamin Forbes	F	SR		17	13	30	—/—	1947-48
+	Bill Gibson	F		24	13	18	31	—/—	1947-48
+18	Dana Hixon	F	SO		33	16	49	—/—	1947-48
+12	Don Cleary	F			21	16	37	—/—	1947-48
+14	Donald Dockrell	F		19	2	3	5	—/—	1947-48
+8	Irving Haynes	F				23		—/—	1947-48
+	John Pynchon	F	JR	8	0	0	0	—/—	1947-48
+6	William Kirrane	F			8	13	21	—/—	1947-48
+	Carl Wennberg	F			6	10	16	—/2	1948-49
+18	Dana Hixon	F	JR			16		—/—	1948-49
+4	Ed Cahoon	F	JR		25	15	40	—/—	1948-49
+17	Jack Garrity	F	JR	21	34	23	57	—/20	1949-50
+14	Bill Downing	F	JR		1	6	7	—/6	1950-51
+5	Bob Barrett	F	JR		0	0	0	—/2	1950-51
+19	Bob Bell	F			5	6	11	—/—	1950-51
+12	Bob Dupuis	F			2	1	3	—/14	1950-51
+	Carl Wennberg	F			1	2	3	—/0	1950-51
+18	Dana Hixon	F	SR		2	1	3	—/—	1950-51
+40	Ed Cahoon	F	SO	21	20	18	38	—/—	1950-51
+40	Ed Cahoon	F	SR		15	24	39	—/32	1950-51
+8	Irving Haynes	F			15	15	30	—/18	1950-51
+17	Jack Garrity	F	SR		51	33	84	—/37	1950-51
+15	Jack Kelley	F/D	SO	21	26	17	43	—/8	1950-51
+15	Jack Kelley	F/D	SR		22	10	32	—/18	1950-51
+9	Jack Martin	F			15	17	32	—/8	1950-51
+10	Joe Czarnota	F/D			3	2	5	—/29	1950-51
+3	Joe Folino	F			1	3	4	—/24	1950-51
+21	Keith Barnhill	F	JR		7	1	8	—/—	1950-51
+7	Lloyd Robinson	F			4	6	10	—/10	1950-51
+19	Mario Casali	F						—/4	1950-51
+6	Dick Kelley	F	JR		18	23	41	—/6	1950-51
+20	Walt Anderson	F			3	5	8	—/12	1950-51
+11	William Jurgelevich	F			5	4	9	—/18	1950-51
+14	Bill Downing	F	SR		9	13	22	—/17	1951-52
+5	Bob Barrett	F	SR		0	3	3	—/0	1951-52
+17	Dick Rodenhiser	F	FR	21	25	17	42	—/6	1951-52
+15	Jack Kelley	F/D	JR	21	4	16	20	—/18	1951-52
+9	Jack Martin	F			12	15	27	—/10	1951-52
+8	Jerry Denning	F	SO	21	7	17	24	—/—	1951-52
+8	Jerry Denning	F	SR		8	8	16	—/—	1951-52
+3	Joe Folino	F			4	7	11	—/46	1951-52
+21	Keith Barnhill	F	SO	20	19	10	29	—/13	1951-52
+21	Keith Barnhill	F	SR		11	3	14	—/—	1951-52
+11	Mario Zanetti	F	JR	19	14	8	22	—/10	1951-52
+16	Paul Cleary	F			12	5	17	—/—	1951-52
+6	Dick Kelley	F	SO	21	20	23	43	—/6	1951-52
+6	Dick Kelley	F	SR		16	20	36	—/6	1951-52
+18	Roger Merrill	F			1	0	1	—/2	1951-52
+11	Walter Fife	D			0	2	2	—/0	1951-52
+15	Art Shannon	F			0	3	3	—/4	1952-53
+10	Charles Tutuny	F			3	7	10	—/28	1952-53
+3	Dick Lee	D			8	21	29	—/68	1952-53
+17	Dick Rodenhiser	F	SO	22	29	20	49	—/12	1952-53
+19	Frank Toperzer	F			8	4	12	—/6	1952-53
+8	Jerry Denning	F	JR	22	17	17	34	—/—	1952-53
+11	Mario Zanetti	F	SR	22	12	16	28	—/0	1952-53
+16	Paul Cleary	F		22	10	15	25	—/—	1952-53
+14	Paul Whalen	F		22	15	19	34	—/10	1952-53
+18	John Burns	F				14		—/—	1953-54
+17	Jack Murphy	F	SO		26	9	35	—/—	1953-54
+	Marvin Gurberg	F			4	4	8	—/4	1953-54
+	Ralph Collins	F			1	3	4	—/4	1953-54
+	Warren Whiting	F			2	2	4	—/10	1953-54
+5	Bob Buell	F			1	3	4	—/22	1954-55
+17	Jack Murphy	F	JR		29	14	43	—/—	1954-55
+14	Curtis Ford	F			8	2	10	—/2	1955-56
+7	Jack Carruthers	F	SO		14	15	29	—/—	1955-56
+17	Jack Murphy	F	SR		12	8	20	—/—	1955-56
+9	Mike Manning	F			14			—/—	1955-56
+2	Ralph Vito	F			0	0	0	—/5	1955-56
+6	Bob Dupuis	D	SO			7		—/—	1955-56
+	Russ MacLeod	F/D			0	2	2	—/—	1955-56
+2	Al Sutherland	D			0	2	2	—/12	1956-57
+10	Bob Knight	F			0	2	2	—/6	1956-57
+13	Jack Carruthers	F	JR			17		—/—	1956-57
+12	Larry Creighton	F	SO		17	11	28	—/—	1956-57
+21	Bob Dupuis	D	JR			19		—/—	1956-57
+17	Bob Marquis	F	SO		24	22	46	—/—	1957-58
+13	Jack Carruthers	F	SR			29		—/—	1957-58
+26	Jim MacKay	F		4	0	0	0	—/0	1957-58
+12	Larry Creighton	F	JR			20		—/—	1957-58
+21	Bob Dupuis	D	SR	23	12	22	34	—/—	1957-58
+17	Bob Marquis	F	JR		41	18	59	—/—	1958-59
+	Don Dolan	F		5	1	0	1	—/8	1958-59
+	Earl Cornish	F		6	1	0	1	—/4	1958-59
+19	George Flynn	F		2	0	0	0	—/0	1958-59
+12	Larry Creighton	F	SR			20		—/—	1958-59
+11	Bill Blainey	F		12	3	3	6	—/2	1959-60
+18	Bill McCormack	F				32		—/—	1959-60
+17	Bob Marquis	F	SR		33	26	59	—/—	1959-60
+26	Bill Quinn	F				33		—/—	1960-61
+20	Bob Rowan	F	SO	24	12	8	20	—/37	1960-61
+18	Bob Smith	D	SO	24	15	17	32	—/6	1960-61
+27	Dave Carver	D		12	1	6	7	—/6	1960-61
+16	Dick Fogerty	F		6	0	0	0	—/0	1960-61
+11	Edmund Connors	F	SO	24	5	15	20	—/18	1960-61
+16	Francis McFaun	D	SO	3	0	0	0	—/0	1960-61
+24	Jim Higgins	D	SO	11	0	1	1	—/4	1960-61
+25	John McBride	F	SO	18	3	1	4	—/31	1960-61
+23	Mike Denihan	F	SO	24	30	20	50	—/6	1960-61
+13	Peter Fitzgerald	F		21	3	2	5	—/24	1960-61
+15	Alan Fuller	F		19	2	3	5	—/2	1961-62
+	Alan Welch	F		10	5	2	7	—/2	1961-62
+2	Alden Sampson	D	SO	25	5	10	15	—/22	1961-62
+22	Allen Comeau	D	SO	8	0	0	0	—/2	1961-62
+21	Bennett McInnis	D	JR	19	0	1	1	—/8	1961-62
+	Bob Rowan	F	JR	10	0	3	3	—/0	1961-62
+18	Bob Smith	D	JR	25	19	15	34	—/8	1961-62
+27	Dave Carver	D		25	1	5	6	—/18	1961-62
+12	David Mahoney	F	SR	25	5	3	8	—/34	1961-62
+10	Don Goguen	D		25	6	11	17	—/36	1961-62
+19	Don Spinney	F		21	4	6	10	—/6	1961-62
+11	Edmund Connors	F	JR	25	4	7	11	—/4	1961-62
+16	Francis McFaun	D	JR	24	1	3	4	—/4	1961-62
+24	Jim Higgins	D	JR	24	0	2	2	—/12	1961-62
+25	John McBride	F	JR	23	2	1	3	—/18	1961-62
+20	Ken Ross	F	SO	13	8	6	14	—/20	1961-62
+14	Leonard Holmes	D		19	1	4	5	—/6	1961-62
+23	Mike Denihan	F	JR	12	8	16	24	—/10	1961-62
+	Paul Johnson	F		9	0	1	1	—/0	1961-62
+13	Peter Fitzgerald	F		25	3	5	8	—/14	1961-62
+2	Alden Sampson	D	JR	13	1	6	7	—/14	1962-63
+5	Allen Comeau	D	JR	16	0	1	1	—/14	1962-63
+6	Bennett McInnis	D	SR	23	0	4	4	—/26	1962-63
+15	Bob Martell	F	SO	21	4	11	15	—/4	1962-63
+16	Bob McCabe	F	JR	23	3	9	12	—/16	1962-63
+18	Bob Rowan	F	SR	23	9	10	19	—/13	1962-63
+17	Bob Smith	D	SR	23	13	20	33	—/16	1962-63
+19	Bob Sylvia	F	SO	23	5	1	6	—/11	1962-63
+4	Ed Crotty	F		10	2	0	2	—/0	1962-63
+20	Edmund Connors	F	SR	23	6	8	14	—/4	1962-63
+9	Francis McFaun	D	SR	20	1	5	6	—/0	1962-63
+4	Jack McGarry	F		6	0	2	2	—/0	1962-63
+24	Jim Higgins	D	SR	9	1	1	2	—/0	1962-63
+12	John McBride	F	SR	20	3	5	8	—/27	1962-63
+3	Ken Ross	F	JR	13	3	3	6	—/8	1962-63
+10	Leo Maloney	F		4	0	0	0	—/0	1962-63
+14	Mike Denihan	F	SR	23	25	14	39	—/8	1962-63
+7	Richard Green	D		23	3	13	16	—/40	1962-63
+2	Alden Sampson	D	SR	14	3	5	8	—/4	1963-64
+5	Allen Comeau	D	SR	24	0	2	2	—/14	1963-64
+12	Bill Jackson	F		21	5	6	11	—/20	1963-64
+15	Bob Martell	F	JR	24	12	10	22	—/6	1963-64
+16	Bob McCabe	F	SR	24	6	9	15	—/12	1963-64
+19	Bob Sylvia	F	JR	23	12	8	20	—/6	1963-64
+17	Bruce Fennie	F	SO	24	13	8	21	—/2	1963-64
+14	Dennis O'Connell	F	SO	24	6	9	15	—/11	1963-64
+4	Jack McGarry	F		11	1	0	1	—/2	1963-64
+20	Jim Todaro	F	SO	24	3	12	15	—/8	1963-64
+14	Leonard Holmes	D		7	0	0	0	—/0	1963-64
+18	Lyman Carter	F		24	8	7	15	—/4	1963-64
+10	Manuel Eads	F		3	0	0	0	—/0	1963-64
+8	Mike O'Connell	F		10	0	1	1	—/2	1963-64
+11	Ray Payne	D	SO	6	0	0	0	—/2	1963-64
+7	Richard Green	D		16	3	11	14	—/22	1963-64
+3	Tom Ross	D	SO	23	1	10	11	—/10	1963-64
+9	Vic Conte	D	SO	24	5	10	15	—/10	1963-64
+15	Bob Martell	F	SR	31	16	19	35	—/8	1964-65
+19	Bob Sylvia	F	SR	31	17	21	38	—/2	1964-65
+4	Brian Gilmour	D	SO	31	11	19	30	—/24	1964-65
+7	Bruce Fennie	F	JR	31	21	21	42	—/14	1964-65
+14	Charlie Morgan	F	SO	3	0	0	0	—/0	1964-65
+16	Dennis O'Connell	F	JR	31	16	22	38	—/10	1964-65
+2	Donald Lumley	D	SO	1	0	0	0	—/0	1964-65
+18	Frank D'Orio	F		14	5	5	10	—/2	1964-65
+5	Fred Bassi	F	SO	15	15	13	28	—/8	1964-65
+12	Jim Quinn	F	SO	31	15	19	34	—/16	1964-65
+20	Jim Todaro	F	JR	27	5	8	13	—/2	1964-65
+8	Jim Wood	F	SO	31	8	14	22	—/12	1964-65
+10	Ken Ross	F	SR	31	6	19	25	—/4	1964-65
+18	Lyman Carter	F		11	1	0	1	—/4	1964-65
+6	Mike Sobeski	F	SO	31	17	13	30	—/12	1964-65
+11	Pete McLachlan	D	SO	30	4	18	22	—/18	1964-65
+2	Ray Payne	D	JR	1	0	0	0	—/0	1964-65
+17	Shaun Quinlan	F		9	4	3	7	—/0	1964-65
+3	Tom Ross	D	JR	31	0	17	17	—/6	1964-65
+9	Vic Conte	D	JR	31	7	13	20	—/10	1964-65
+10	Bill Riley Jr.	F	SO	35	7	14	21	—/22	1965-66
+4	Brian Gilmour	D	JR	35	12	27	39	—/52	1965-66
+7	Bruce Fennie	F	SR	32	23	30	53	—/21	1965-66
+16	Dennis O'Connell	F	SR	34	13	28	41	—/24	1965-66
+2	Donald Lumley	D	JR	32	2	2	4	—/8	1965-66
+18	Frank D'Orio	F		3	0	0	0	—/0	1965-66
+5	Fred Bassi	F	JR	35	35	29	64	—/33	1965-66
+15	Jack Parker	F	SO	34	9	13	22	—/0	1965-66
+12	Jim Quinn	F	JR	35	24	25	49	—/21	1965-66
+20	Jim Todaro	F	SR	26	3	4	7	—/0	1965-66
+8	Jim Wood	F	JR	35	10	17	27	—/6	1965-66
+19	John Cooke	F	SO	36	8	6	14	—/14	1965-66
+4	John Crawley	F	SO	3	2	0	2	—/2	1965-66
+14	John Labanara	F		2	0	0	0	—/0	1965-66
+6	Mike Sobeski	F	JR	33	18	21	39	—/31	1965-66
+11	Pete McLachlan	D	JR	35	12	27	39	—/34	1965-66
+22	Ray Payne	D	SR	2	0	0	0	—/0	1965-66
+17	Shaun Quinlan	F		4	0	3	3	—/0	1965-66
+21	Steve McBride	D		2	0	0	0	—/0	1965-66
+3	Tom Ross	D	SR	25	1	15	16	—/4	1965-66
+9	Vic Conte	D	SR	32	4	12	16	—/18	1965-66
+17	Bill Hinch	D	SO	29	4	15	19	—/44	1966-67
+10	Bill Riley Jr.	F	JR	29	8	14	22	—/31	1966-67
+4	Brian Gilmour	D	SR	29	13	41	54	—/32	1966-67
+15	Charlie Morgan	F	SR	11	3	4	7	—/2	1966-67
+16	Darrell Abbott	D	SO	31	5	7	12	—/4	1966-67
+14	Dick Valle	D		2	0	0	0	—/0	1966-67
+2	Donald Lumley	D	SR	11	0	0	0	—/2	1966-67
+19	Eddie Wright	F	SO	4	0	1	1	—/0	1966-67
+5	Fred Bassi	F	SR	31	30	19	49	—/26	1966-67
+18	Herb Wakabayashi	F	SO	31	16	51	67	—/4	1966-67
+6	Jack Parker	F	JR	31	8	9	17	—/18	1966-67
+3	Jim Dakin	D	SO	11	0	2	2	—/4	1966-67
+7	Jim Quinn	F	SR	31	19	33	52	—/18	1966-67
+8	Jim Wood	F	SR	24	4	2	6	—/2	1966-67
+19	John Cooke	F	JR	27	7	10	17	—/12	1966-67
+22	John Crawley	F	JR	2	0	1	1	—/0	1966-67
+20	Mickey Gray	F	SO	31	24	24	48	—/18	1966-67
+7	Mike Hyndman	F	FR	16	14	28	42	—/30	1966-67
+9	Mike Sobeski	F	SR	28	19	30	49	—/29	1966-67
+11	Pete McLachlan	D	SR	31	10	25	35	—/34	1966-67
+12	Serge Boily	F	SO	39	29	26	55	—/21	1966-67
+17	Bill Hinch	D	JR	32	7	18	25	—/—	1967-68
+10	Bill Riley Jr.	F	SR	9	2	6	8	—/0	1967-68
+22	Blaine Maus	F	JR	12	1	4	5	—/4	1967-68
+16	Darrell Abbott	D	JR	32	8	29	37	—/22	1967-68
+5	Dick Toomey	F	SO	31	19	20	39	—/6	1967-68
+19	Eddie Wright	F	JR	32	13	16	29	—/10	1967-68
+21	Glen Gama	F		11	2	2	4	—/12	1967-68
+18	Herb Wakabayashi	F	JR	32	24	19	43	—/—	1967-68
+6	Jack Parker	F	SR	31	14	11	25	—/0	1967-68
+3	Jim Dakin	D	JR	38	0	6	6	—/24	1967-68
+9	John Cooke	F	SR	14	4	4	8	—/0	1967-68
+4	John Crawley	F	SR	3	0	0	0	—/0	1967-68
+14	Larry Davenport	F	SO	31	24	35	59	—/20	1967-68
+20	Mickey Gray	F	JR	32	16	32	48	—/48	1967-68
+7	Mike Hyndman	F	SO	32	23	44	67	—/51	1967-68
+12	Serge Boily	F	JR	22	20	18	38	—/—	1967-68
+23	Terry Kirby	D		3	0	0	0	—/0	1967-68
+2	Wayne Decker	D	SO	32	1	21	22	—/14	1967-68
+17	Bill Hinch	D	SR	29	4	17	21	—/—	1968-69
+22	Blaine Maus	F	SR	10	2	2	4	—/0	1968-69
+19	Bob Gryp	F	FR	17	9	17	26	—/18	1968-69
+6	Bob Johnson	F		1	0	0	0	—/0	1968-69
+15	Bruce Hatton	F	JR	28	13	5	18	—/18	1968-69
+16	Darrell Abbott	D	SR	29	4	14	18	—/0	1968-69
+5	Dick Toomey	F	JR	28	17	26	43	—/2	1968-69
+19	Eddie Wright	F	SR	29	16	16	32	—/0	1968-69
+8	Eugene Fortier	F		2	0	0	0	—/0	1968-69
+21	Glen Gama	F		13	0	4	4	—/0	1968-69
+18	Herb Wakabayashi	F	SR	29	15	20	35	—/—	1968-69
+3	Jim Dakin	D	SR	14	1	4	5	—/15	1968-69
+14	Larry Davenport	F	JR	27	23	22	45	—/15	1968-69
+20	Mickey Gray	F	SR	29	4	15	19	—/0	1968-69
+7	Mike Hyndman	F	JR	29	18	34	52	—/20	1968-69
+4	Peter Yetten	D	SO	9	0	1	1	—/0	1968-69
+12	Serge Boily	F	SR	29	17	16	33	—/—	1968-69
+9	Steve Stirling	F	SO	29	13	20	33	—/12	1968-69
+24	Thomas Holmen	F		3	0	1	1	—/0	1968-69
+2	Wayne Decker	D	JR	29	2	17	19	—/8	1968-69
+11	Wayne Gowing	F	SO	29	5	11	16	—/8	1968-69
+3	Bill Fenwick	D		20	0	4	4	—/6	1969-70
+19	Bob Gryp	F	SO	27	12	17	29	—/20	1969-70
+20	Bob Murray	D	SO	23	2	4	6	—/14	1969-70
+15	Bruce Hatton	F	SR	12	0	2	2	—/2	1969-70
+23	Coleman Donaldson	F		1	0	1	1	—/0	1969-70
+5	Dick Toomey	F	SR	27	15	18	33	—/2	1969-70
+21	Don Cahoon	F	SO	27	12	10	22	—/19	1969-70
+16	Guy Burrowes	F	SO	26	10	12	22	—/10	1969-70
+25	Joe Meehan	F		18	3	5	8	—/16	1969-70
+12	John Danby	F	SO	27	25	21	46	—/12	1969-70
+14	Larry Davenport	F	SR	26	20	30	50	—/8	1969-70
+7	Mike Hyndman	F	SR	27	11	41	52	—/34	1969-70
+8	Paul Giandomenico	F	SO	20	2	2	4	—/6	1969-70
+4	Peter Yetten	D	JR	13	0	1	1	—/0	1969-70
+2	Peter Thornton	F	SO	25	6	11	17	—/20	1969-70
+9	Steve Stirling	F	JR	27	20	31	51	—/15	1969-70
+18	Ted Bryand	D		27	0	5	5	—/12	1969-70
+2	Wayne Decker	D	SR	27	1	8	9	—/14	1969-70
+11	Wayne Gowing	F	JR	26	10	18	28	—/6	1969-70
+5	Bill Flynn	F	JR	18	0	3	3	—/4	1970-71
+17	Bob Gryp	F	JR	30	20	19	39	—/51	1970-71
+20	Bob Murray	D	JR	31	3	13	16	—/54	1970-71
+24	David Warner	D	SO	1	0	0	0	—/0	1970-71
+21	Don Cahoon	F	JR	31	24	20	44	—/20	1970-71
+16	Guy Burrowes	F	JR	31	9	23	32	—/18	1970-71
+12	John Danby	F	JR	31	28	36	64	—/10	1970-71
+7	Ric Jordan	D	JR	30	12	38	50	—/55	1970-71
+23	Larry Abbott	D	SO	20	1	3	4	—/4	1970-71
+27	Mike LaGarde	D	SO	26	2	13	15	—/38	1970-71
+14	Olivier Prechac	F	SR	5	0	2	2	—/2	1970-71
+8	Paul Giandomenico	F	JR	30	9	15	24	—/8	1970-71
+4	Peter Yetten	D	SR	27	0	9	9	—/16	1970-71
+25	Peter Thornton	F	JR	15	5	7	12	—/10	1970-71
+10	Ray Cournoyea	F	FR	14	2	0	2	—/0	1970-71
+2	Bob Brown	D	JR	31	17	43	60	—/38	1970-71
+19	Ron Anderson	F	JR	31	20	21	41	—/17	1970-71
+18	Steve Doloff	F	SO	31	15	22	37	—/8	1970-71
+9	Steve Stirling	F	SR	31	27	43	70	—/20	1970-71
+11	Wayne Gowing	F	SR	31	16	24	40	—/6	1970-71
+5	Bill Flynn	F	SR	23	2	7	9	—/4	1971-72
+17	Bob Gryp	F	SR	31	9	36	45	—/14	1971-72
+20	Bob Murray	D	SR	29	1	11	12	—/36	1971-72
+24	David Warner	D	JR	28	0	2	2	—/4	1971-72
+11	David Wisener	F	FR	31	10	10	20	—/34	1971-72
+21	Don Cahoon	F	SR	31	13	17	30	—/14	1971-72
+16	Guy Burrowes	F	SR	31	12	16	28	—/12	1971-72
+9	Jim Connors	F	SO	6	1	0	1	—/0	1971-72
+12	John Danby	F	SR	26	26	24	50	—/14	1971-72
+7	Ric Jordan	D	SR	31	13	27	40	—/34	1971-72
+23	Larry Abbott	D	JR	16	1	1	2	—/0	1971-72
+27	Mike LaGarde	D	JR	31	4	7	11	—/20	1971-72
+8	Paul Giandomenico	F	SR	31	9	7	16	—/10	1971-72
+25	Peter Thornton	F	SR	31	8	11	19	—/31	1971-72
+10	Ray Cournoyea	F	SO	22	4	8	12	—/4	1971-72
+4	Ray Fowle	F	SO	1	0	0	0	—/2	1971-72
+2	Bob Brown	D	SR	31	14	36	50	—/36	1971-72
+19	Ron Anderson	F	SR	31	19	27	46	—/26	1971-72
+18	Steve Doloff	F	JR	31	9	19	28	—/26	1971-72
+17	Bill Bishop	F	SO	26	4	7	11	—/4	1972-73
+25	Bill Burlington	F	SO	28	10	15	25	—/14	1972-73
+9	Bill Robbins	F	FR	29	16	16	32	—/30	1972-73
+7	Buddy Powers	F/D	SO	27	5	7	12	—/2	1972-73
+24	David Warner	D	SR	29	3	13	16	—/30	1972-73
+11	David Wisener	F	SO	27	21	20	41	—/38	1972-73
+12	Dick Decloe	F		14	12	8	20	—/18	1972-73
+4	Jerry Gryp	D	FR	21	1	9	10	—/33	1972-73
+26	Jim Glover	F	SO	12	3	5	8	—/0	1972-73
+20	Jim Lowell	F	SO	21	2	2	4	—/16	1972-73
+16	Ken Kuzyk	F	FR	28	10	15	25	—/8	1972-73
+23	Larry Abbott	D	SR	26	2	6	8	—/13	1972-73
+27	Mike LaGarde	D	SR	29	1	16	17	—/38	1972-73
+21	Paul O'Neil	F	FR	28	35	19	54	—/8	1972-73
+2	Peter Brown	D	FR	18	3	15	18	—/8	1972-73
+6	Peter Marzo	F	FR	2	0	1	1	—/0	1972-73
+8	Pete McCann	D		16	3	13	16	—/10	1972-73
+10	Ray Cournoyea	F	JR	29	22	23	45	—/14	1972-73
+18	Steve Doloff	F	SR	29	16	36	52	—/26	1972-73
+3	Vic Stanfield	D	SO	29	5	39	44	—/12	1972-73
+18	Bill Bishop	F	JR	31	12	12	24	—/6	1973-74
+19	Bill Buckton	F	SO	31	16	18	34	—/22	1973-74
+17	Bill Burlington	F	JR	31	15	30	45	—/10	1973-74
+9	Bill Robbins	F	SO	31	20	21	41	—/36	1973-74
+24	Bob Sunderland	D	FR	11	1	4	5	—/0	1973-74
+12	Buddy Powers	F/D	JR	31	5	6	11	—/10	1973-74
+6	Chris Bannerman	D	SO	28	2	27	29	—/22	1973-74
+22	Dana Sennett	F		1	0	0	0	—/2	1973-74
+25	Gary Fay	D	FR	11	1	3	4	—/2	1973-74
+27	Jim Glover	F	JR	30	3	11	14	—/8	1973-74
+20	Jim Lowell	F	JR	31	10	12	22	—/10	1973-74
+5	John McClellan	F	FR	28	3	10	13	—/14	1973-74
+16	Ken Kuzyk	F	SO	31	8	7	15	—/26	1973-74
+21	Mike Eruzione	F	FR	31	21	19	40	—/14	1973-74
+2	Peter Brown	D	SO	31	4	38	42	—/36	1973-74
+11	Peter Marzo	F	SO	31	16	30	46	—/18	1973-74
+10	Ray Cournoyea	F	SR	48	3	11	14	—/10	1973-74
+15	Rick Meagher	F	FR	30	19	21	40	—/26	1973-74
+26	Stan Mescon	F		1	0	0	0	—/0	1973-74
+8	Terry Meagher	F	SO	31	18	24	42	—/8	1973-74
+10	Vic Stanfield	D	JR	31	16	30	46	—/12	1973-74
+18	Bill Bishop	F	SR	1	0	0	0	—/0	1974-75
+19	Bill Buckton	F	JR	32	14	16	30	—/12	1974-75
+17	Bill Burlington	F	SR	32	17	31	48	—/14	1974-75
+9	Bill Robbins	F	JR	32	16	23	39	—/36	1974-75
+14	Bob Dudley	D	SO	28	4	7	11	—/20	1974-75
+24	Bob Sunderland	D	SO	27	2	11	13	—/20	1974-75
+7	Buddy Powers	F/D	SR	32	4	13	17	—/14	1974-75
+6	Chris Bannerman	D	JR	15	0	4	4	—/4	1974-75
+3	Gary Fay	D	SO	26	3	26	29	—/10	1974-75
+4	Jerry Gryp	D	JR	32	0	14	14	—/48	1974-75
+27	Jim Glover	F	SR	32	7	12	19	—/16	1974-75
+20	Jim Lowell	F	SR	10	3	2	5	—/4	1974-75
+5	John McClellan	F	SO	32	1	10	11	—/22	1974-75
+16	Ken Kuzyk	F	JR	32	8	16	24	—/46	1974-75
+21	Mike Eruzione	F	SO	32	27	29	56	—/20	1974-75
+12	Mike Fidler	F	FR	31	24	24	48	—/56	1974-75
+2	Peter Brown	D	JR	22	6	27	33	—/18	1974-75
+11	Peter Marzo	F	JR	31	24	23	47	—/12	1974-75
+15	Rick Meagher	F	SO	32	25	28	53	—/80	1974-75
+8	Terry Meagher	F	JR	32	26	19	45	—/12	1974-75
+10	Vic Stanfield	D	SR	32	10	60	70	—/32	1974-75
+19	Bill Buckton	F	SR	30	15	13	28	—/32	1975-76
+26	Bill O'Neill	D	FR	1	0	0	0	—/0	1975-76
+9	Bill Robbins	F	SR	25	13	21	34	—/40	1975-76
+14	Bob Dudley	D	JR	27	8	20	28	—/16	1975-76
+12	Bob Sunderland	D	JR	30	0	17	17	—/48	1975-76
+6	Chris Bannerman	D	SR	1	0	0	0	—/0	1975-76
+3	Gary Fay	D	JR	30	5	29	34	—/16	1975-76
+17	Jack O'Callahan	D	FR	30	3	16	19	—/60	1975-76
+27	Jerry Gryp	D	SR	29	4	10	14	—/60	1975-76
+7	John Fox	D	FR	21	1	2	3	—/12	1975-76
+5	John McClellan	F	JR	30	1	7	8	—/24	1975-76
+16	Ken Kuzyk	F	SR	30	15	8	23	—/30	1975-76
+10	Marc Hetnik	F	FR	24	4	3	7	—/6	1975-76
+20	Matt Marden	F	SO	2	0	2	2	—/0	1975-76
+25	Mickey Mullen	F	FR	18	1	4	5	—/4	1975-76
+21	Mike Eruzione	F	JR	30	21	27	48	—/18	1975-76
+4	Mike Fidler	F	SO	29	22	24	46	—/78	1975-76
+2	Peter Brown	D	SR	30	9	42	51	—/54	1975-76
+11	Peter Marzo	F	SR	30	18	26	44	—/16	1975-76
+15	Rick Meagher	F	JR	28	12	25	37	—/22	1975-76
+24	Robert Boileau	D	FR	2	0	0	0	—/0	1975-76
+8	Terry Meagher	F	SR	29	30	25	55	—/20	1975-76
+22	Vince Mullins	F		1	0	1	1	—/0	1975-76
+26	Bill LeBlond	F	FR	34	5	5	10	—/8	1976-77
+27	Bill O'Neill	D	SO	34	4	19	23	—/34	1976-77
+14	Bob Dudley	D	SR	30	7	16	23	—/20	1976-77
+10	Dave Silk	F	FR	34	35	30	65	—/50	1976-77
+23	Dick Lamby	D	JR	24	9	36	45	—/44	1976-77
+3	Gary Fay	D	SR	34	4	31	35	—/18	1976-77
+17	Jack O'Callahan	D	SO	31	1	23	24	—/90	1976-77
+9	John Bethel	F	FR	33	14	12	26	—/30	1976-77
+7	John Fox	D	SO	18	5	8	13	—/18	1976-77
+2	John McClellan	F	SR	33	1	7	8	—/34	1976-77
+8	John Melanson	F	SO	18	2	3	5	—/8	1976-77
+4	Marc Hetnik	F	SO	30	9	12	21	—/22	1976-77
+20	Matt Marden	F	JR	30	16	18	34	—/16	1976-77
+16	Mickey Mullen	F	SO	26	6	7	13	—/6	1976-77
+21	Mike Eruzione	F	SR	34	23	41	64	—/18	1976-77
+19	Mike Pidgeon	F	FR	32	7	10	17	—/18	1976-77
+6	Pat McMahon	D		3	0	0	0	—/2	1976-77
+15	Rick Meagher	F	SR	34	34	46	80	—/42	1976-77
+11	Robert Boileau	D	SO	34	9	12	21	—/22	1976-77
+12	Steve Gibson	F		12	1	2	3	—/6	1976-77
+18	Tony Meagher	F	FR	27	5	12	17	—/51	1976-77
+22	Vince Mullins	F		3	1	0	1	—/2	1976-77
+3	Bill Cotter	F	FR	32	2	8	10	—/16	1977-78
+15	Bill LeBlond	F	SO	32	8	15	23	—/16	1977-78
+27	Bill O'Neill	D	JR	32	3	15	18	—/22	1977-78
+19	Daryl MacLeod	F	FR	31	3	9	12	—/33	1977-78
+10	Dave Silk	F	SO	28	27	31	58	—/57	1977-78
+23	Dick Lamby	D	SR	30	15	44	59	—/64	1977-78
+17	Jack O'Callahan	D	JR	31	8	47	55	—/61	1977-78
+9	John Bethel	F	SO	30	25	38	63	—/53	1977-78
+14	John Corriveau	F	JR	6	1	2	3	—/4	1977-78
+7	John Fox	D	JR	15	1	3	4	—/6	1977-78
+21	John Melanson	F	JR	30	7	0	7	—/10	1977-78
+4	Marc Hetnik	F	JR	31	12	25	37	—/33	1977-78
+12	Mark Fidler	F	FR	31	30	35	65	—/34	1977-78
+20	Matt Marden	F	SR	28	10	11	21	—/22	1977-78
+16	Mickey Mullen	F	JR	18	9	5	14	—/0	1977-78
+8	Paul Miller	F	FR	31	10	14	24	—/28	1977-78
+11	Robert Boileau	D	JR	25	9	18	27	—/20	1977-78
+6	Scott Nieland	D	SO	22	0	3	3	—/10	1977-78
+5	Tim Kimball	F	FR	11	0	3	3	—/0	1977-78
+24	Todd Johnson	F	FR	29	2	2	4	—/2	1977-78
+18	Tony Meagher	F	SO	32	17	21	38	—/26	1977-78
+3	Bill Cotter	F	SO	30	9	17	26	—/30	1978-79
+15	Bill LeBlond	F	JR	28	5	15	20	—/26	1978-79
+27	Bill O'Neill	D	SR	30	0	18	18	—/36	1978-79
+2	Bill Whelton	D	FR	30	2	5	7	—/20	1978-79
+19	Daryl MacLeod	F	SO	30	8	8	16	—/40	1978-79
+10	Dave Silk	F	JR	23	8	12	20	—/20	1978-79
+23	Grant Goegan	F		25	6	8	14	—/10	1978-79
+17	Jack O'Callahan	D	SR	29	6	16	22	—/72	1978-79
+9	John Bethel	F	JR	19	5	10	15	—/28	1978-79
+14	John Corriveau	F	SR	6	0	3	3	—/4	1978-79
+7	John Fox	D	SR	14	2	3	5	—/4	1978-79
+4	Marc Hetnik	F	SR	30	8	19	27	—/14	1978-79
+12	Mark Fidler	F	SO	29	17	23	40	—/30	1978-79
+16	Mickey Mullen	F	SR	28	7	14	21	—/6	1978-79
+8	Paul Miller	F	SO	29	15	20	35	—/10	1978-79
+11	Robert Boileau	D	SR	18	2	4	6	—/4	1978-79
+20	Rob Davies	F	FR	25	4	10	14	—/22	1978-79
+6	Scott Nieland	D	JR	20	2	6	8	—/18	1978-79
+5	Tim Kimball	F	SO	28	4	2	6	—/12	1978-79
+24	Todd Johnson	F	SO	30	11	12	23	—/22	1978-79
+18	Tony Meagher	F	JR	29	17	11	28	—/34	1978-79
+3	Bill Cotter	F	JR	27	5	16	21	—/61	1979-80
+15	Bill LeBlond	F	SR	19	0	6	6	—/4	1979-80
+2	Bill Whelton	D	SO	25	4	14	18	—/39	1979-80
+9	Dan Carnevale	F	FR	2	0	0	0	—/0	1979-80
+11	Daryl MacLeod	F	JR	26	9	15	24	—/56	1979-80
+19	Don Marshall	F		28	3	8	11	—/10	1979-80
+24	George Klapes	D	FR	26	2	8	10	—/8	1979-80
+9	Grant Goegan	F		23	12	7	19	—/20	1979-80
+22	Jerry August	F	FR	27	2	13	15	—/40	1979-80
+27	John Melanson	F	SR	28	6	7	13	—/12	1979-80
+21	Kevin Callaghan	D		16	0	0	0	—/8	1979-80
+17	Marc Sinclair	F	FR	28	10	15	25	—/6	1979-80
+4	Mark Fidler	F	JR	27	16	23	39	—/58	1979-80
+12	Paul Fenton	F	SO	28	12	21	33	—/18	1979-80
+14	Paul Miller	F	JR	20	4	10	14	—/13	1979-80
+7	Rob Davies	F	SO	6	2	5	7	—/4	1979-80
+16	Scott Nieland	D	SR	25	1	4	5	—/24	1979-80
+23	Steve Simpson	D		5	0	0	0	—/0	1979-80
+5	Tim Kimball	F	JR	28	11	16	27	—/26	1979-80
+10	Todd Johnson	F	JR	20	7	8	15	—/16	1979-80
+8	Tom O'Regan	F	FR	28	9	15	24	—/31	1979-80
+18	Tony Meagher	F	SR	27	13	19	32	—/42	1979-80
+3	Bill Cotter	F	SR	28	14	13	27	—/36	1980-81
+2	Bill Whelton	D	JR	29	4	18	22	—/42	1980-81
+20	Bob Darling	F	FR	14	2	1	3	—/2	1980-81
+25	Bruce Milton	D	FR	29	5	18	23	—/30	1980-81
+18	Chris Mays	F	FR	28	4	8	12	—/14	1980-81
+21	Dale Dunbar	D	FR	8	2	0	2	—/10	1980-81
+9	Dan Carnevale	F	SO	10	1	0	1	—/0	1980-81
+	Danny Burdett	F		8	1	0	1	—/2	1980-81
+11	Daryl MacLeod	F	SR	29	10	17	27	—/56	1980-81
+24	George Klapes	D	SO	29	1	7	8	—/6	1980-81
+22	Jerry August	F	SO	29	3	12	15	—/62	1980-81
+27	John Luimes	F		10	1	3	4	—/2	1980-81
+6	Les Smith	D		18	0	0	0	—/10	1980-81
+17	Marc Sinclair	F	SO	28	10	6	16	—/14	1980-81
+4	Mark Fidler	F	SR	29	14	20	34	—/22	1980-81
+14	Mark Pierog	F	FR	17	2	3	5	—/8	1980-81
+10	Mike Jantzi	D		21	0	1	1	—/18	1980-81
+12	Paul Fenton	F	JR	7	4	4	8	—/0	1980-81
+16	Rob Davies	F	JR	21	6	18	24	—/26	1980-81
+23	Steve Simpson	D		14	0	2	2	—/0	1980-81
+7	T.J. Connolly	D	FR	26	1	8	9	—/52	1980-81
+5	Tim Kimball	F	SR	17	2	2	4	—/4	1980-81
+15	Todd Johnson	F	SR	29	18	13	31	—/48	1980-81
+8	Tom O'Regan	F	SO	20	10	10	20	—/41	1980-81
+20	Bob Darling	F	SO	28	23	13	36	—/8	1981-82
+3	Bruce Milton	D	SO	28	4	25	29	—/46	1981-82
+16	Cesare Carlacci	F	SO	27	3	4	7	—/24	1981-82
+18	Chris Mays	F	SO	16	9	4	13	—/14	1981-82
+9	Dan Carnevale	F	JR	27	4	8	12	—/8	1981-82
+19	Denis LaGarde	F		24	3	5	8	—/12	1981-82
+14	Fred Barker	F		22	4	2	6	—/14	1981-82
+4	George Klapes	D	JR	28	4	6	10	—/20	1981-82
+2	Jerry August	F	JR	28	3	13	16	—/70	1981-82
+5	Joe Delorey	D	FR	27	0	5	5	—/13	1981-82
+11	Kevin Mutch	F	FR	27	7	20	27	—/20	1981-82
+17	Marc Sinclair	F	JR	26	6	9	15	—/56	1981-82
+15	Mark Pierog	F	SO	28	11	12	23	—/12	1981-82
+10	Mike Jantzi	D		10	0	0	0	—/0	1981-82
+12	Paul Fenton	F	SR	28	20	13	33	—/28	1981-82
+27	Rob Davies	F	SR	28	9	31	40	—/48	1981-82
+21	Scott Manty	F		8	0	1	1	—/2	1981-82
+7	T.J. Connolly	D	SO	24	2	13	15	—/60	1981-82
+22	Tim Little	F		25	3	7	10	—/20	1981-82
+8	Tom O'Regan	F	JR	28	18	34	52	—/67	1981-82
+20	Bob Darling	F	JR	7	3	4	7	—/2	1982-83
+13	Brad MacGregor	F	FR	28	5	6	11	—/8	1982-83
+10	Carl Van Camp	F		7	1	2	3	—/6	1982-83
+21	Cesare Carlacci	F	JR	27	3	8	11	—/16	1982-83
+6	Chris Matchett	D	FR	30	1	5	6	—/36	1982-83
+18	Chris Mays	F	JR	13	4	3	7	—/10	1982-83
+16	Chuck Sullivan	F	SO	20	7	3	10	—/12	1982-83
+3	Dale Dunbar	D	SO	23	1	7	8	—/36	1982-83
+9	Dan Carnevale	F	SR	20	2	3	5	—/6	1982-83
+12	Denis LaGarde	F		30	7	12	19	—/30	1982-83
+4	George Klapes	D	SR	30	4	11	15	—/12	1982-83
+2	Jerry August	F	SR	28	3	23	26	—/23	1982-83
+25	Joe Cappellano	D		29	5	12	17	—/6	1982-83
+5	Joe Delorey	D	SO	30	1	6	7	—/4	1982-83
+14	John Tiano	F		1	0	0	0	—/0	1982-83
+11	Kevin Mutch	F	SO	29	6	17	23	—/10	1982-83
+17	Marc Sinclair	F	SR	28	18	12	30	—/36	1982-83
+15	Mark Pierog	F	JR	30	12	16	28	—/26	1982-83
+23	Paul Gerlitz	F	FR	21	7	7	14	—/16	1982-83
+24	Peter Marshall	F	FR	28	10	9	19	—/34	1982-83
+7	T.J. Connolly	D	JR	29	4	18	22	—/24	1982-83
+27	Tim Little	F		7	2	2	4	—/6	1982-83
+8	Tom O'Regan	F	SR	29	16	18	34	—/47	1982-83
+22	Tony Majkozak	F	FR	2	2	0	2	—/0	1982-83
+20	Bob Darling	F	SR	1	0	0	0	—/0	1983-84
+13	Brad MacGregor	F	SO	38	5	16	21	—/28	1983-84
+21	Cesare Carlacci	F	SR	31	6	10	16	—/18	1983-84
+6	Chris Matchett	D	SO	39	2	7	9	—/48	1983-84
+18	Chris Mays	F	SR	22	1	9	10	—/24	1983-84
+16	Chuck Sullivan	F	JR	33	11	11	22	—/10	1983-84
+3	Dale Dunbar	D	JR	34	0	15	15	—/49	1983-84
+2	David Thiesing	D	FR	19	1	2	3	—/10	1983-84
+12	Denis LaGarde	F		39	13	18	31	—/32	1983-84
+9	Ed Lowney	F	FR	40	21	12	33	—/26	1983-84
+10	Jay Octeau	D	FR	27	1	6	7	—/20	1983-84
+8	Joe Cappellano	D		37	10	24	34	—/26	1983-84
+5	Joe Delorey	D	JR	39	4	15	19	—/20	1983-84
+19	John Cullen	F	FR	40	23	33	56	—/28	1983-84
+14	John Tiano	F		14	3	4	7	—/4	1983-84
+11	Kevin Mutch	F	JR	38	17	12	29	—/16	1983-84
+15	Mark Pierog	F	SR	40	17	17	34	—/32	1983-84
+23	Paul Gerlitz	F	SO	40	14	13	27	—/46	1983-84
+24	Peter Marshall	F	SO	39	6	19	25	—/42	1983-84
+4	Scott Shaunessy	D	FR	40	6	22	28	—/48	1983-84
+25	Steve Crozier	F		5	0	0	0	—/2	1983-84
+7	T.J. Connolly	D	SR	40	3	20	23	—/34	1983-84
+22	Tony Majkozak	F	SO	23	3	5	8	—/14	1983-84
+12	Brad MacGregor	F	JR	41	10	10	20	—/30	1984-85
+14	Brian Foreman	F	FR	24	3	2	5	—/14	1984-85
+6	Chris Matchett	D	JR	41	9	20	29	—/69	1984-85
+16	Chuck Sullivan	F	SR	26	6	10	16	—/6	1984-85
+17	Clark Donatelli	F	FR	40	17	18	35	—/46	1984-85
+3	Dale Dunbar	D	SR	39	2	19	21	—/62	1984-85
+7	David Quinn	D	FR	30	3	11	14	—/26	1984-85
+2	David Thiesing	D	SO	28	1	5	6	—/10	1984-85
+9	Ed Lowney	F	SO	42	18	21	39	—/10	1984-85
+15	Eric Labrosse	F	FR	26	7	7	14	—/24	1984-85
+10	Jay Octeau	D	SO	38	2	14	16	—/42	1984-85
+21	Jeff Sveen	F	FR	42	14	10	24	—/10	1984-85
+8	Joe Cappellano	D		3	0	1	1	—/0	1984-85
+5	Joe Delorey	D	SR	40	3	10	13	—/22	1984-85
+19	John Cullen	F	SO	41	27	32	59	—/46	1984-85
+11	Kevin Mutch	F	SR	23	7	11	18	—/28	1984-85
+23	Paul Gerlitz	F	JR	39	5	14	19	—/26	1984-85
+24	Peter Marshall	F	JR	42	10	23	33	—/30	1984-85
+27	Scott Sanders	F	FR	29	0	7	7	—/12	1984-85
+4	Scott Shaunessy	D	SO	42	7	15	22	—/87	1984-85
+18	Tom Ryan	D	FR	34	6	8	14	—/14	1984-85
+22	Tony Majkozak	F	JR	42	13	9	22	—/14	1984-85
+12	Brad MacGregor	F	SR	43	4	11	15	—/20	1985-86
+14	Brian Foreman	F	SO	22	2	8	10	—/0	1985-86
+6	Chris Matchett	D	SR	42	5	23	28	—/50	1985-86
+17	Clark Donatelli	F	SO	43	28	34	62	—/30	1985-86
+7	David Quinn	D	SO	37	2	20	22	—/58	1985-86
+2	David Thiesing	D	JR	39	2	5	7	—/12	1985-86
+9	Ed Lowney	F	JR	43	18	20	38	—/14	1985-86
+15	Eric Labrosse	F	SO	30	4	7	11	—/28	1985-86
+28	Ian Wood	F	FR	1	0	0	0	—/0	1985-86
+3	Jay Octeau	D	JR	41	8	27	35	—/47	1985-86
+10	Jeff Sveen	F	SO	35	15	8	23	—/18	1985-86
+5	Jim Ennis	D	FR	40	1	4	5	—/22	1985-86
+19	John Cullen	F	JR	43	25	49	74	—/54	1985-86
+20	Kris Werner	D	FR	10	0	3	3	—/2	1985-86
+18	Mike Kelfer	F	FR	39	13	14	27	—/40	1985-86
+23	Paul Gerlitz	F	SR	34	6	7	13	—/17	1985-86
+26	Peter Headon	F	FR	2	0	0	0	—/0	1985-86
+24	Peter Marshall	F	SR	39	15	10	25	—/37	1985-86
+27	Scott Sanders	F	SO	36	11	14	25	—/19	1985-86
+4	Scott Shaunessy	D	JR	38	6	13	19	—/31	1985-86
+25	Scott Young	F	FR	38	16	13	29	—/31	1985-86
+11	Tom Ryan	D	SO	42	2	8	10	—/22	1985-86
+22	Tony Majkozak	F	SR	31	3	6	9	—/12	1985-86
+12	Brian Foreman	F	JR	9	0	1	1	—/2	1986-87
+17	Clark Donatelli	F	JR	37	15	23	38	—/46	1986-87
+7	David Quinn	D	JR	27	1	11	12	—/34	1986-87
+2	David Thiesing	D	SR	37	2	5	7	—/18	1986-87
+9	Ed Lowney	F	SR	37	22	22	44	—/6	1986-87
+15	Eric Labrosse	F	JR	37	10	12	22	—/56	1986-87
+26	Ian Wood	F	SO	19	1	2	3	—/4	1986-87
+3	Jay Octeau	D	SR	37	5	23	28	—/40	1986-87
+10	Jeff Sveen	F	JR	34	8	6	14	—/32	1986-87
+5	Jim Ennis	D	SO	26	3	4	7	—/27	1986-87
+19	John Cullen	F	SR	36	23	29	52	—/35	1986-87
+16	John Matterazzo	F		7	0	0	0	—/2	1986-87
+18	John Preston	F	FR	13	0	0	0	—/0	1986-87
+20	Kris Werner	D	SO	16	0	1	1	—/4	1986-87
+23	Matt Pesklewis	F	FR	24	0	2	2	—/28	1986-87
+16	Mike Kelfer	F	SO	33	21	19	40	—/20	1986-87
+24	Mike Sullivan	F	FR	37	13	18	31	—/18	1986-87
+21	Peter Headon	F	SO	5	0	0	0	—/0	1986-87
+8	Rob Regan	F	FR	17	1	3	4	—/6	1986-87
+27	Scott Sanders	F	JR	31	11	9	20	—/26	1986-87
+4	Scott Shaunessy	D	SR	32	2	13	15	—/71	1986-87
+25	Scott Young	F	SO	33	15	21	36	—/24	1986-87
+6	Steve Shaunessy	D	SO	15	0	2	2	—/18	1986-87
+11	Tom Ryan	D	JR	37	1	7	8	—/20	1986-87
+22	Ville Kentala	F	SO	35	4	11	15	—/24	1986-87
+3	Chris Lappin	D	FR	31	0	4	4	—/28	1987-88
+26	Chris McCann	F	FR	22	2	1	3	—/4	1987-88
+25	Darin MacDonald	F	FR	12	2	1	3	—/0	1987-88
+17	David Tomlinson	F	FR	34	16	20	36	—/40	1987-88
+13	Ed Ronan	F	FR	31	2	5	7	—/20	1987-88
+15	Eric Labrosse	F	SR	20	3	12	15	—/35	1987-88
+19	Ian Wood	F	JR	8	2	0	2	—/4	1987-88
+10	Jeff Sveen	F	SR	17	6	5	11	—/14	1987-88
+14	Joe Sacco	F	FR	34	14	22	36	—/38	1987-88
+20	Kris Werner	D	JR	32	0	3	3	—/22	1987-88
+6	Mark Krys	D	FR	34	0	6	6	—/40	1987-88
+23	Matt Pesklewis	F	SO	28	6	11	17	—/54	1987-88
+9	Mike Lappin	F	FR	34	12	15	27	—/40	1987-88
+12	Mike Kelfer	F	JR	34	26	27	53	—/33	1987-88
+24	Mike Sullivan	F	SO	30	18	22	40	—/30	1987-88
+21	Peter Headon	F	JR	22	2	3	5	—/4	1987-88
+4	Phil Von Stefenelli	D	FR	34	3	13	16	—/38	1987-88
+8	Rob Regan	F	SO	26	3	6	9	—/16	1987-88
+27	Scott Sanders	F	SR	4	0	3	3	—/2	1987-88
+2	Steve Shaunessy	D	JR	26	1	3	4	—/61	1987-88
+5	Tom Dion	D	FR	34	8	16	24	—/40	1987-88
+11	Tom Ryan	D	SR	33	9	14	23	—/12	1987-88
+22	Ville Kentala	F	JR	32	15	19	34	—/34	1987-88
+	Chuck Beauchain	F		6	1	1	2	—/2	1988-89
+3	Chris Lappin	D	SO	27	2	6	8	—/26	1988-89
+26	Chris McCann	F	SO	12	1	1	2	—/2	1988-89
+25	Darin MacDonald	F	SO	35	6	6	12	—/20	1988-89
+16	David Sacco	F	FR	35	14	29	43	—/40	1988-89
+17	David Tomlinson	F	SO	34	16	30	46	—/28	1988-89
+10	Ed Ronan	F	SO	36	4	11	15	—/34	1988-89
+19	Ian Wood	F	SR	32	3	5	8	—/12	1988-89
+14	Joe Sacco	F	SO	33	21	19	40	—/66	1988-89
+23	Jack MacDougall	F		24	1	3	4	—/4	1988-89
+6	Mark Brownschidle	D	FR	35	0	7	7	—/12	1988-89
+7	Mark Krys	D	SO	35	0	7	7	—/54	1988-89
+11	Matt Pesklewis	F	JR	12	2	7	9	—/31	1988-89
+9	Mike Lappin	F	SO	27	11	16	27	—/43	1988-89
+12	Mike Kelfer	F	SR	33	23	29	52	—/22	1988-89
+24	Mike Sullivan	F	JR	36	19	17	36	—/30	1988-89
+21	Peter Headon	F	SR	13	1	2	3	—/8	1988-89
+4	Phil Von Stefenelli	D	SO	33	2	6	8	—/34	1988-89
+8	Rob Regan	F	JR	22	1	1	2	—/29	1988-89
+28	Ron Trentini	F		10	1	1	2	—/0	1988-89
+15	Shawn McEachern	F	FR	36	20	28	48	—/32	1988-89
+2	Steve Shaunessy	D	SR	11	0	2	2	—/36	1988-89
+5	Tom Dion	D	SO	33	3	15	18	—/40	1988-89
+22	Ville Kentala	F	SR	34	5	7	12	—/46	1988-89
+19	Alexandre Legault	D	FR	43	9	21	30	—/54	1989-90
+21	Chris McCann	F	JR	23	1	0	1	—/12	1989-90
+25	Darin MacDonald	F	JR	38	4	3	7	—/29	1989-90
+22	Dave Dahlberg	F	FR	18	1	1	2	—/6	1989-90
+16	David Sacco	F	SO	3	0	4	4	—/2	1989-90
+17	David Tomlinson	F	JR	43	15	22	37	—/53	1989-90
+10	Ed Ronan	F	JR	44	17	23	40	—/50	1989-90
+14	Joe Sacco	F	JR	44	28	24	52	—/70	1989-90
+12	Kevin O'Sullivan	D	FR	43	0	6	6	—/42	1989-90
+20	Mark Bavis	F	FR	44	2	11	13	—/28	1989-90
+6	Mark Brownschidle	D	SO	38	1	4	5	—/12	1989-90
+7	Mark Krys	D	JR	30	0	4	4	—/34	1989-90
+18	Mike Bavis	F	FR	44	6	5	11	—/50	1989-90
+24	Mike Sullivan	F	SR	38	11	20	31	—/26	1989-90
+2	Peter Ahola	D	FR	43	3	20	23	—/65	1989-90
+9	Petteri Koskimäki	F	FR	44	12	12	24	—/15	1989-90
+4	Phil Von Stefenelli	D	JR	44	8	20	28	—/40	1989-90
+8	Rob Regan	F	SR	44	12	5	17	—/32	1989-90
+28	Ron Trentini	F		6	0	0	0	—/0	1989-90
+15	Shawn McEachern	F	SO	43	25	31	56	—/78	1989-90
+26	Stephen Foster	D	FR	28	0	8	8	—/26	1989-90
+5	Tom Dion	D	JR	3	0	0	0	—/4	1989-90
+3	Tony Amonte	F	FR	41	25	33	58	—/52	1989-90
+19	Alexandre Legault	D	SO	19	2	9	11	—/30	1990-91
+21	Chris McCann	F	SR	41	9	9	18	—/24	1990-91
+25	Darin MacDonald	F	SR	22	2	4	6	—/20	1990-91
+22	Dave Dahlberg	F	SO	10	0	0	0	—/4	1990-91
+16	David Sacco	F	SO	40	21	40	61	—/24	1990-91
+17	David Tomlinson	F	SR	41	30	30	60	—/55	1990-91
+23	Doug Friedman	F	FR	36	6	6	12	—/37	1990-91
+10	Ed Ronan	F	SR	41	16	19	35	—/38	1990-91
+18	Jon Pratt	F	FR	16	3	1	4	—/26	1990-91
+24	Keith Tkachuk	F	FR	36	17	23	40	—/70	1990-91
+12	Kevin O'Sullivan	D	SO	37	4	7	11	—/50	1990-91
+20	Mark Bavis	F	SO	33	7	9	16	—/30	1990-91
+6	Mark Brownschidle	D	JR	13	0	1	1	—/10	1990-91
+7	Mark Krys	D	SR	36	1	9	10	—/18	1990-91
+8	Mike Bavis	F	SO	40	5	18	23	—/47	1990-91
+14	Nick Vachon	F	FR	8	0	1	1	—/4	1990-91
+2	Peter Ahola	D	SO	39	12	24	36	—/88	1990-91
+9	Petteri Koskimäki	F	SO	37	16	22	38	—/12	1990-91
+4	Phil Von Stefenelli	D	SR	41	7	23	30	—/32	1990-91
+11	Scott Lachance	D	FR	31	5	19	24	—/48	1990-91
+15	Shawn McEachern	F	JR	41	34	48	82	—/43	1990-91
+5	Tom Dion	D	JR	40	6	14	20	—/14	1990-91
+3	Tony Amonte	F	SO	38	31	37	68	—/82	1990-91
+3	Adrian Aucoin	D		32	2	10	12	—/62	1991-92
+4	Dan Donato	D	SO	6	1	3	4	—/2	1991-92
+22	Dave Dahlberg	F	JR	29	2	9	11	—/10	1991-92
+16	David Sacco	F	JR	35	14	33	47	—/30	1991-92
+23	Doug Friedman	F	SO	34	11	8	19	—/42	1991-92
+27	John Jacques	F		7	1	0	1	—/2	1991-92
+17	John Lilley	F	FR	23	9	9	18	—/43	1991-92
+10	Jon Jenkins	F	FR	32	4	4	8	—/14	1991-92
+18	Jon Pratt	F	SO	29	8	4	12	—/42	1991-92
+2	Kaj Linna	D	FR	33	7	14	21	—/46	1991-92
+20	Kenny Rausch	F	FR	11	0	2	2	—/0	1991-92
+12	Kevin O'Sullivan	D	JR	33	3	18	21	—/62	1991-92
+11	Mark Bavis	F	JR	35	9	18	27	—/30	1991-92
+6	Mark Brownschidle	D	SR	26	2	6	8	—/6	1991-92
+8	Mike Bavis	F	JR	35	11	14	25	—/32	1991-92
+15	Mike Pomichter	F	FR	35	11	27	38	—/14	1991-92
+21	Mike Prendergast	F	FR	32	19	15	34	—/49	1991-92
+14	Nick Vachon	F	SO	16	6	7	13	—/10	1991-92
+9	Petteri Koskimäki	F	JR	33	19	18	37	—/12	1991-92
+7	Rich Brennan	D	FR	31	4	13	17	—/54	1991-92
+19	Steve Thornton	F	FR	29	11	16	27	—/10	1991-92
+26	Stephen Foster	D	SO	12	0	4	4	—/12	1991-92
+5	Tom Dion	D	SR	35	5	12	17	—/34	1991-92
+14	Bob Lachance	F	FR	33	4	10	14	—/24	1992-93
+3	Chris O'Sullivan	D	FR	5	0	2	2	—/4	1992-93
+4	Dan Donato	D	JR	38	3	8	11	—/56	1992-93
+16	David Sacco	F	SR	40	25	37	62	—/86	1992-93
+23	Doug Friedman	F	JR	38	17	24	41	—/62	1992-93
+5	Doug Wood	D	FR	37	3	5	8	—/38	1992-93
+24	Jacques Joubert	F	SO	40	17	18	35	—/54	1992-93
+17	Jay Pandolfo	F	FR	37	16	22	38	—/16	1992-93
+25	John Lilley	F	SO	4	0	1	1	—/13	1992-93
+10	Jon Jenkins	F	SO	34	3	8	11	—/18	1992-93
+18	Jon Pratt	F	JR	31	9	8	17	—/70	1992-93
+2	Kaj Linna	D	SO	36	2	27	29	—/71	1992-93
+20	Kenny Rausch	F	SO	18	7	5	12	—/12	1992-93
+12	Kevin O'Sullivan	D	SR	40	5	20	25	—/78	1992-93
+11	Mark Bavis	F	SR	40	14	10	24	—/58	1992-93
+8	Mike Bavis	F	SR	40	12	11	23	—/87	1992-93
+15	Mike Pomichter	F	SO	30	16	14	30	—/23	1992-93
+21	Mike Prendergast	F	SO	27	8	7	15	—/18	1992-93
+9	Petteri Koskimäki	F	SR	27	2	9	11	—/10	1992-93
+7	Rich Brennan	D	SO	40	9	11	20	—/68	1992-93
+19	Steve Thornton	F	SO	40	18	19	37	—/19	1992-93
+26	Stephen Foster	D	JR	34	2	6	8	—/42	1992-93
+8	Bill Pierce	F	FR	31	4	4	8	—/28	1993-94
+11	Bob Lachance	F	SO	32	13	19	32	—/42	1993-94
+3	Chris O'Sullivan	D	SO	32	5	18	23	—/25	1993-94
+4	Dan Donato	D	SR	36	4	17	21	—/58	1993-94
+22	Dave Dahlberg	F	SR	7	0	0	0	—/4	1993-94
+23	Doug Friedman	F	SR	41	9	23	32	—/110	1993-94
+5	Doug Wood	D	SO	33	3	2	5	—/57	1993-94
+24	Jacques Joubert	F	JR	41	20	24	44	—/82	1993-94
+17	Jay Pandolfo	F	SO	37	17	25	42	—/27	1993-94
+10	Jon Jenkins	F	JR	38	12	9	21	—/27	1993-94
+18	Jon Pratt	F	SR	32	11	8	19	—/66	1993-94
+23	Jon Coleman	D	FR	29	1	14	15	—/26	1993-94
+2	Kaj Linna	D	JR	34	4	13	17	—/26	1993-94
+20	Kenny Rausch	F	JR	31	6	9	15	—/4	1993-94
+22	Matt Wright	F	FR	3	1	0	1	—/5	1993-94
+12	Mike Grier	F	FR	39	9	9	18	—/58	1993-94
+15	Mike Pomichter	F	JR	40	28	26	54	—/37	1993-94
+21	Mike Prendergast	F	JR	39	15	18	33	—/52	1993-94
+7	Rich Brennan	D	JR	41	8	27	35	—/82	1993-94
+6	Shane Johnson	D	FR	37	1	8	9	—/34	1993-94
+9	Shawn Bates	F	FR	41	10	19	29	—/24	1993-94
+19	Steve Thornton	F	JR	41	13	26	39	—/26	1993-94
+26	Stephen Foster	D	SR	10	1	4	5	—/25	1993-94
+8	Bill Pierce	F	SO	33	5	13	18	—/29	1994-95
+11	Bob Lachance	F	JR	37	12	29	41	—/51	1994-95
+18	Chris Drury	F	FR	39	12	15	27	—/38	1994-95
+4	Chris Kelleher	D	FR	35	3	17	20	—/62	1994-95
+3	Chris O'Sullivan	D	JR	40	23	33	56	—/48	1994-95
+5	Doug Wood	D	JR	39	6	11	17	—/87	1994-95
+24	Jacques Joubert	F	SR	40	29	23	52	—/41	1994-95
+17	Jay Pandolfo	F	JR	20	7	13	20	—/6	1994-95
+20	Jeff Kealty	D	FR	25	0	5	5	—/29	1994-95
+14	John Hynes	F	FR	7	0	0	0	—/6	1994-95
+26	Jon Coleman	D	SO	40	5	23	28	—/42	1994-95
+2	Kaj Linna	D	SR	36	7	20	27	—/26	1994-95
+16	Kenny Rausch	F	SR	37	12	12	24	—/6	1994-95
+22	Matt Wright	F	SO	35	7	9	16	—/27	1994-95
+12	Mike Grier	F	SO	37	29	26	55	—/85	1994-95
+21	Mike Prendergast	F	SR	38	17	22	39	—/30	1994-95
+15	Mike Sylvia	F	FR	36	10	9	19	—/25	1994-95
+10	Peter Donatelli	F	FR	2	0	0	0	—/0	1994-95
+7	Rich Brennan	D	SR	31	5	23	28	—/56	1994-95
+27	Shane Johnson	D	SO	33	0	6	6	—/50	1994-95
+9	Shawn Bates	F	SO	38	18	12	30	—/48	1994-95
+19	Steve Thornton	F	SR	39	17	24	41	—/14	1994-95
+6	Albie O'Connell	F	FR	38	9	8	17	—/34	1995-96
+8	Bill Pierce	F	JR	39	10	10	20	—/58	1995-96
+11	Bob Lachance	F	SR	38	15	38	53	—/67	1995-96
+19	Brendan Walsh	F	FR	38	8	16	24	—/90	1995-96
+18	Chris Drury	F	SO	37	35	32	67	—/46	1995-96
+4	Chris Kelleher	D	SO	37	7	18	25	—/43	1995-96
+3	Chris O'Sullivan	D	SR	37	12	34	46	—/50	1995-96
+2	Dan Ronan	D	FR	39	3	8	11	—/64	1995-96
+5	Doug Wood	D	SR	39	9	26	35	—/66	1995-96
+17	Jay Pandolfo	F	SR	39	38	29	67	—/6	1995-96
+20	Jeff Kealty	D	SO	34	4	15	19	—/38	1995-96
+14	John Hynes	F	SO	34	4	6	10	—/28	1995-96
+26	Jon Coleman	D	JR	40	7	31	38	—/58	1995-96
+22	Matt Wright	F	JR	28	10	8	18	—/37	1995-96
+12	Mike Grier	F	JR	38	21	26	47	—/82	1995-96
+15	Mike Sylvia	F	SO	38	7	17	24	—/28	1995-96
+10	Peter Donatelli	F	SO	16	0	1	1	—/25	1995-96
+7	Rich Alger	D		5	1	0	1	—/6	1995-96
+23	Scott King	F	FR	18	5	9	14	—/38	1995-96
+27	Shane Johnson	D	JR	40	3	13	16	—/50	1995-96
+9	Shawn Bates	F	JR	40	28	22	50	—/54	1995-96
+24	Travis Roy	F	FR	1	0	0	0	—/0	1995-96
+6	Albie O'Connell	F	SO	41	12	12	24	—/72	1996-97
+8	Bill Pierce	F	SR	40	8	21	29	—/66	1996-97
+11	Bobby Hanson	F	FR	27	0	2	2	—/19	1996-97
+19	Brendan Walsh	F	SO	27	5	8	13	—/83	1996-97
+18	Chris Drury	F	JR	41	38	24	62	—/64	1996-97
+16	Chris Heron	F	FR	41	9	11	20	—/28	1996-97
+4	Chris Kelleher	D	JR	39	10	24	34	—/54	1996-97
+25	Dan LaCouture	F	FR	31	13	12	25	—/18	1996-97
+2	Dan Ronan	D	SO	41	7	5	12	—/64	1996-97
+17	Greg Quebec	F	FR	36	5	6	11	—/10	1996-97
+20	Jeff Kealty	D	JR	40	4	9	13	—/42	1996-97
+14	John Hynes	F	JR	1	0	0	0	—/0	1996-97
+26	Jon Coleman	D	SR	39	5	27	32	—/20	1996-97
+22	Matt Wright	F	SR	40	7	8	15	—/51	1996-97
+15	Mike Sylvia	F	JR	41	18	21	39	—/58	1996-97
+10	Peter Donatelli	F	JR	37	6	2	8	—/38	1996-97
+7	Rich Alger	D		30	0	5	5	—/35	1996-97
+27	Shane Johnson	D	SR	38	4	13	17	—/72	1996-97
+9	Shawn Bates	F	SR	41	17	18	35	—/64	1996-97
+5	Tom Poti	D	FR	38	4	17	21	—/54	1996-97
+21	Tommi Degerman	F	FR	17	6	10	16	—/19	1996-97
+6	Albie O'Connell	F	JR	34	12	16	28	—/60	1997-98
+11	Bobby Hanson	F	SO	34	3	9	12	—/20	1997-98
+19	Bob Weston	F		7	0	2	2	—/0	1997-98
+8	Carl Corazzini	F	FR	37	9	6	15	—/4	1997-98
+18	Chris Drury	F	SR	38	28	29	57	—/88	1997-98
+16	Chris Heron	F	SO	32	4	10	14	—/22	1997-98
+4	Chris Kelleher	D	SR	37	4	26	30	—/40	1997-98
+7	Colin Sheen	D	FR	36	0	2	2	—/30	1997-98
+2	Dan Ronan	D	JR	38	1	6	7	—/62	1997-98
+17	Greg Quebec	F	SO	13	3	3	6	—/4	1997-98
+20	Jeff Kealty	D	SR	38	11	15	26	—/53	1997-98
+3	Joe DiPenta	D	FR	38	2	16	18	—/50	1997-98
+22	Juha Vuori	F	SO	36	10	7	17	—/22	1997-98
+26	Keith Emery	D	FR	15	2	2	4	—/12	1997-98
+15	Mike Sylvia	F	SR	38	19	21	40	—/48	1997-98
+12	Nick Gillis	F	FR	34	8	12	20	—/43	1997-98
+10	Peter Donatelli	F	SR	29	1	5	6	—/24	1997-98
+14	Russ Bartlett	F	FR	38	8	11	19	—/44	1997-98
+23	Ryan Campbell	F		2	0	0	0	—/0	1997-98
+9	Scott Perry	F	FR	38	5	12	17	—/18	1997-98
+5	Tom Poti	D	SO	38	13	29	42	—/60	1997-98
+21	Tommi Degerman	F	SO	35	12	20	32	—/37	1997-98
+6	Albie O'Connell	F	SR	36	9	30	39	—/66	1998-99
+11	Bobby Hanson	F	JR	34	5	13	18	—/16	1998-99
+19	Bob Weston	F		3	0	0	0	—/2	1998-99
+8	Carl Corazzini	F	SO	37	15	9	24	—/12	1998-99
+4	Chris Dyment	D	FR	25	1	5	6	—/18	1998-99
+16	Chris Heron	F	JR	36	18	17	35	—/28	1998-99
+7	Colin Sheen	D	SO	33	1	4	5	—/26	1998-99
+18	Dan Cavanaugh	F	FR	36	6	8	14	—/60	1998-99
+2	Dan Ronan	D	SR	37	0	10	10	—/78	1998-99
+20	David LoPresti	D	FR	12	0	1	1	—/10	1998-99
+17	Greg Quebec	F	JR	33	3	4	7	—/22	1998-99
+15	Jack Baker	F	FR	31	6	7	13	—/40	1998-99
+3	Joe DiPenta	D	SO	36	2	15	17	—/72	1998-99
+22	Juha Vuori	F	JR	35	4	14	18	—/40	1998-99
+26	Keith Emery	D	SO	29	0	0	0	—/16	1998-99
+10	Mike DiMella	F	SO	26	0	1	1	—/16	1998-99
+25	Mike Pandolfo	F	FR	34	13	4	17	—/26	1998-99
+12	Nick Gillis	F	SO	33	3	16	19	—/37	1998-99
+5	Pat Aufiero	D	FR	22	3	4	7	—/14	1998-99
+14	Russ Bartlett	F	SO	35	12	20	32	—/18	1998-99
+9	Scott Perry	F	SO	33	4	8	12	—/26	1998-99
+21	Tommi Degerman	F	JR	27	12	9	21	—/24	1998-99
+14	Carl Corazzini	F	JR	42	22	20	42	—/44	1999-00
+33	John Sabo	F	FR	39	8	10	18	—/89	1999-00
+19	Mike Pandolfo	F	SO	42	13	10	23	—/35	1999-00
+12	Nick Gillis	F	JR	42	8	18	26	—/26	1999-00
+5	Pat Aufiero	D	SO	38	3	21	24	—/37	1999-00
+11	Bobby Hanson	F	SR	32	3	3	6	—/30	1999-00
+6	Brian Collins	F	FR	42	13	11	24	—/50	1999-00
+4	Chris Dyment	D	SO	42	11	20	31	—/42	1999-00
+16	Chris Heron	F	SR	42	18	25	43	—/38	1999-00
+7	Colin Sheen	D	JR	9	1	0	1	—/8	1999-00
+18	Dan Cavanaugh	F	SO	40	9	25	34	—/62	1999-00
+28	Freddy Meyer	D	FR	25	1	11	12	—/52	1999-00
+17	Greg Quebec	F	SR	29	3	0	3	—/12	1999-00
+15	Jack Baker	F	SO	41	13	19	32	—/40	1999-00
+27	John Cronin	D	FR	28	3	5	8	—/26	1999-00
+22	Juha Vuori	F	SR	17	0	3	3	—/18	1999-00
+26	Keith Emery	D	JR	41	1	5	6	—/43	1999-00
+2	Mike Bussoli	D	FR	42	1	6	7	—/56	1999-00
+10	Mike DiMella	F	JR	18	0	1	1	—/12	1999-00
+20	Ryan Priem	F	FR	22	0	1	1	—/24	1999-00
+9	Scott Perry	F	JR	41	0	3	3	—/18	1999-00
+21	Tommi Degerman	F	SR	42	19	24	43	—/18	1999-00
+14	Carl Corazzini	F	SR	35	16	20	36	—/48	2000-01
+33	John Sabo	F	SO	35	6	8	14	—/58	2000-01
+25	Ken Magowan	F	FR	34	5	1	6	—/22	2000-01
+19	Mike Pandolfo	F	JR	37	16	13	29	—/30	2000-01
+12	Nick Gillis	F	SR	35	7	7	14	—/16	2000-01
+5	Pat Aufiero	D	JR	34	5	8	13	—/30	2000-01
+8	Stephen Greeley	F	FR	22	1	2	3	—/16	2000-01
+6	Brian Collins	F	SO	37	14	16	30	—/16	2000-01
+4	Chris Dyment	D	JR	37	1	10	11	—/38	2000-01
+7	Colin Sheen	D	SR	28	0	1	1	—/28	2000-01
+18	Dan Cavanaugh	F	JR	35	7	21	28	—/43	2000-01
+17	Frantisek Skladany	F	FR	35	4	5	9	—/4	2000-01
+28	Freddy Meyer	D	SO	28	6	13	19	—/82	2000-01
+16	Gregg Johnson	F	FR	35	5	5	10	—/20	2000-01
+15	Jack Baker	F	JR	28	9	9	18	—/51	2000-01
+27	John Cronin	D	SO	37	2	11	13	—/36	2000-01
+26	Keith Emery	D	SR	17	0	3	3	—/8	2000-01
+23	Mark Mullen	F	FR	31	2	8	10	—/18	2000-01
+2	Mike Bussoli	D	SO	37	3	14	17	—/52	2000-01
+10	Mike DiMella	F	SR	1	0	0	0	—/0	2000-01
+20	Ryan Priem	F	SO	24	0	1	1	—/14	2000-01
+9	Scott Perry	F	SR	23	0	3	3	—/8	2000-01
+	Bryan Miller	D	FR	34	4	15	19	—/12	2001-02
+26	David Klema	F	FR	38	6	11	17	—/4	2001-02
+11	John Sabo	F	JR	37	10	11	21	—/82	2001-02
+25	Ken Magowan	F	SO	37	6	15	21	—/28	2001-02
+19	Mike Pandolfo	F	SR	38	22	18	40	—/22	2001-02
+5	Pat Aufiero	D	SR	26	2	10	12	—/16	2001-02
+3	Ryan Whitney	D	FR	35	4	17	21	—/46	2001-02
+8	Stephen Greeley	F	SO	27	2	1	3	—/6	2001-02
+6	Brian Collins	F	JR	38	12	8	20	—/22	2001-02
+9	Brian McConnell	F	FR	38	11	15	26	—/68	2001-02
+4	Chris Dyment	D	SR	38	7	18	25	—/24	2001-02
+17	Frantisek Skladany	F	SO	33	13	13	26	—/23	2001-02
+28	Freddy Meyer	D	JR	37	5	15	20	—/78	2001-02
+16	Gregg Johnson	F	SO	33	5	18	23	—/34	2001-02
+15	Jack Baker	F	SR	38	15	13	28	—/63	2001-02
+27	John Cronin	D	JR	32	1	8	9	—/20	2001-02
+21	Justin Maiser	F	FR	36	8	14	22	—/65	2001-02
+23	Mark Mullen	F	SO	38	8	9	17	—/26	2001-02
+18	Matt Radoslovich	F	FR	11	0	1	1	—/2	2001-02
+2	Mike Bussoli	D	JR	29	0	4	4	—/34	2001-02
+20	Ryan Priem	F	JR	13	0	0	0	—/4	2001-02
 17	Frantisek Skladany	F	JR	41	14	21	35	9/34	2002-03
 23	Mark Mullen	F	JR	42	13	14	27	10/28	2002-03
 9	Brian McConnell	F	SO	34	11	14	25	27/70	2002-03

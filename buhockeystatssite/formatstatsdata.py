@@ -176,8 +176,9 @@ def formatResults(dfRes):
     
 def formatStats(dfRes):
     dfRes=dfRes.copy()
+    
     if('career' in dfRes.columns and 'pts' in dfRes.columns):
-      dfRes=dfRes[['name','career','gp','goals','assists','pts','pen','pim']]
+      dfRes=dfRes[['name','career','gp','goals','assists','pts','pens','pim']]
     elif('career' in dfRes.columns and 'gaa' in dfRes.columns):
       dfRes=dfRes[['name','career','gp','mins','ga','gaa','saves','sv%','W','L','T']]
     elif('number' in dfRes.columns and 'gaa' in dfRes.columns):
@@ -186,8 +187,9 @@ def formatStats(dfRes):
       dfRes['date']=dfRes['date'].dt.strftime('%m/%d/%Y')
       dfRes=dfRes[['date','name','opponent','yr','season','ga','gaa','sv','sv%','mins','result']]
     elif('number' in dfRes.columns and 'pts' in dfRes.columns):
+      dfRes['number'] = dfRes['number'].fillna(-1)
       dfRes['number']=dfRes['number'].astype(int)
-      dfRes=dfRes[['number','name','pos','yr','season','gp','goals','assists','pts','pens']]
+      dfRes=dfRes[['number','name','pos','yr','season','gp','goals','assists','pts','pen','pim']]
     elif('date' in dfRes.columns and 'pts' in dfRes.columns):
       dfRes['date']=dfRes['date'].dt.strftime('%m/%d/%Y')
       dfRes=dfRes[['date','name','opponent','yr','pos','season','goals','assists','pts']]
@@ -195,7 +197,7 @@ def formatStats(dfRes):
       style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','sv%':'{:.3f}','mins':'{:.2f}'})
     else:
       style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','mins':'{:.2f}','sv%':'{:.3f}'})
-    for stat in ['gp','goals','assists','pts','pen','pim','ga','W','L','T','saves']:
+    for stat in ['gp','goals','assists','pts','pen','pens','pim','ga','W','L','T','saves','number']:
       if(stat not in dfRes.columns):
         continue
       dfRes[stat] = dfRes[stat].fillna(-1)
