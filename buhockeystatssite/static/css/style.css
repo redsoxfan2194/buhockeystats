@@ -27,6 +27,16 @@ h2 {
 	font-size: 20px;
 }
 
+h3 {
+	color: white;
+	text-align: left;
+	font-size: 15px;
+}
+
+li{
+  color: white;
+}
+
 /* Common Styling */
 a:hover {
   color: white;
@@ -86,6 +96,10 @@ hr{
 	color: white;
 	text-decoration: underline;
 	padding: 10px
+}
+.link-no-pad {
+	color: white;
+	text-decoration: underline;
 }
 
 .btn-custom-red {
@@ -172,6 +186,11 @@ hr{
   text-decoration: none;
   
 }
+
+.about-text {
+	color: white;
+}
+
 /* Id Styling */
 
 #results {
