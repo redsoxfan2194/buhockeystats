@@ -41,8 +41,10 @@
          {% endfor %}
          </select>
          <select class="btn btn-custom-red dropdown-toggle game-stats" name="group" id="group" onchange="submitForm()">
-         <option value="" {% if selected_group == 'all' %} selected {% endif %}>Group by:</option>
+         <option value="" {% if selected_group == 'all' %} selected {% endif %}>Grouping</option>
          <option value="opponent" {% if selected_group == "" %} selected {% endif %}>Group by: Opponent</option>
+         <option value="splits" {% if selected_group == "" %} selected {% endif %}>Splits</option>
+         <option value="records" {% if selected_group == "" %} selected {% endif %}>Situational Records</option>
          </select>
          <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="submitForm()">
          <option value="all" {% if selected_season == 'all' %} selected {% endif %}>Season</option>
@@ -134,7 +136,7 @@
         document.getElementById("seasonEnd").value = "2022-23";
         document.getElementById("sortval").value = "";
         document.getElementById("isAscending").value = "";
-        document.getElementById("name").value = "Name";
+        document.getElementById("name").value = "";
         document.getElementById("number").value = "Number";
         document.getElementById("date").value = "Date";
         document.getElementById("group").value = "";

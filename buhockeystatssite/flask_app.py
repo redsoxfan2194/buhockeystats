@@ -61,6 +61,7 @@ def players():
         seasVals=[]
         sortVal=''
         if(form_data['gender']=='Mens'):
+           mergeGames=dfGames.copy()
            if(form_data['type']=='career'):
               if(form_data['position']=='skater'):
                 dfStat=dfSkateMens
@@ -85,6 +86,7 @@ def players():
               elif(form_data['position']=='goalie'):
                 dfStat=dfGameStatsGoalieMens
         elif(form_data['gender']=='Womens'):
+           mergeGames=dfGamesWomens.copy()
            if(form_data['type']=='career'):
               if(form_data['position']=='skater'):
                 dfStat=dfSkateWomens
@@ -160,17 +162,102 @@ def players():
           num=form_data['number'].strip()
         else:
           num="Number"
-        if(form_data['group']!='' and form_data['position']=='skater'):
+        if(form_data['group'] not in ['','splits','records'] and form_data['position']=='skater'):
           dfStat=dfStat.groupby(['name','opponent']).sum(numeric_only=True)
           dfStat=dfStat.reset_index()
           dfStat=dfStat[['name','opponent','gp','goals','assists','pts']]
-        if(form_data['group']!='' and form_data['position']=='goalie'):
+        if(form_data['group'] not in ['','splits','records'] and form_data['position']=='goalie'):
           dfStat=determineRecord(dfStat)
           dfStat=dfStat.groupby(['name','opponent']).sum(numeric_only=True)
           dfStat=dfStat.reset_index()
           dfStat['sv%']=dfStat['sv']/(dfStat['sv']+dfStat['ga'])
           dfStat['gaa']=(dfStat['ga']/dfStat['mins'])*60
-          dfStat=dfStat[['name','opponent','gp','ga','gaa','sv','sv%','SO','W','L','T']]    
+          dfStat=dfStat[['name','opponent','gp','ga','gaa','sv','sv%','SO','W','L','T']]   
+        if(form_data['group'] in ['splits','records'] and form_data['name'] in ['','Name'] ):
+          dfStat=pd.DataFrame([{"":'Please Enter a Player Name'}])
+        if(form_data['group'] == 'splits' and form_data['name'] not in ['','Name'] and form_data['position']=='skater' ):
+          if(len(dfStat.loc[dfStat['name'].str.contains(form_data['name'],case=False)].name.unique())>1):
+            dfStat=pd.DataFrame({"":['Please Enter One of the Following Player Names:'] + [i for i in dfStat.loc[dfStat['name'].str.contains(form_data['name'],case='False')].name.unique()]})  
+          else:
+            mergeGames.drop(axis=1,labels=['opponent', 'season', 'year'],inplace=True)
+            df_merged = dfStat.merge(mergeGames, on='date', how='left')
+            dfStat=pd.DataFrame(df_merged.loc[df_merged['name'].str.contains(form_data['name'],case=False)].sum(numeric_only=True)[['gp','goals','assists','pts']]).transpose()
+            dfStat.insert(0,'value','Total')
+            dfStat.insert(0,'Split','')
+            for col in ['location','result','month','dow','opponent','arena','tourney']:
+                vals=df_merged.loc[df_merged['name'].str.contains(form_data['name'],case=False)].groupby(col).sum(numeric_only=True)[['gp','goals','assists','pts']]
+                vals.reset_index(inplace=True)
+                vals.rename(columns={col:'value'},inplace=True)
+                if(col=='month'):
+                    vals.loc[:,'value'] = pd.to_datetime(vals['value'], format='%m').dt.strftime('%B')
+                if(col=='dow'):
+                    vals.loc[:,'value'] = vals['value'].map(dayNames)
+                    col='Day'
+                row=pd.DataFrame([col.capitalize() if i==0 else np.nan for i in range(len(dfStat.columns))]).transpose()
+                row.columns=dfStat.columns
+                vals.insert(0,'Split', ['' for i in range(len(vals))])
+                vals=pd.concat([row,vals])
+                dfStat=pd.concat([dfStat,vals]).reset_index(drop=True)
+        if(form_data['group'] == 'splits' and form_data['name'] not in ['','Name'] and form_data['position']=='goalie' ):
+          if(len(dfStat.loc[dfStat['name'].str.contains(form_data['name'],case=False)].name.unique())>1):
+            dfStat=pd.DataFrame({"":['Please Enter One of the Following Player Names:'] + [i for i in dfStat.loc[dfStat['name'].str.contains(form_data['name'],case='False')].name.unique()]})  
+          else:
+            dfStat=dfStat.copy()
+            dfStat.drop(axis=1,labels=['result'],inplace=True)
+            mergeGames.drop(axis=1,labels=['opponent', 'season', 'year'],inplace=True)
+            df_merged = dfStat.merge(mergeGames, on='date', how='left')
+            dfStat=pd.DataFrame(df_merged.loc[df_merged['name'].str.contains(form_data['name'],case=False)].sum(numeric_only=True)[['gp','sv','ga','mins','SO']]).transpose()
+            dfStat['sv']=int(dfStat['sv'])
+            dfStat['sv%']=round(dfStat['sv']/(dfStat['sv']+dfStat['ga']),3)
+            dfStat['gaa']=round((dfStat['ga']/dfStat['mins'])*60,2)
+            dfStat.insert(0,'value','Total')
+            dfStat.insert(0,'Split','')
+            for col in ['location','result','month','dow','opponent','arena','tourney']:
+                vals=df_merged.loc[df_merged['name'].str.contains(form_data['name'],case=False)].groupby(col).sum(numeric_only=True)[['gp','sv','ga','mins','SO']]
+                vals['sv%']=round(vals['sv']/(vals['sv']+vals['ga']),3)
+                vals['gaa']=round((vals['ga']/vals['mins'])*60,2)
+                vals.reset_index(inplace=True)
+                vals.rename(columns={col:'value'},inplace=True)
+                if(col=='month'):
+                    vals.loc[:,'value'] = pd.to_datetime(vals['value'], format='%m').dt.strftime('%B')
+                if(col=='dow'):
+                    vals.loc[:,'value'] = vals['value'].map(dayNames)
+                    col='Day'
+                row=pd.DataFrame([col.capitalize() if i==0 else np.nan for i in range(len(dfStat.columns))]).transpose()
+                row.columns=dfStat.columns
+                vals.insert(0,'Split', ['' for i in range(len(vals))])
+                vals=pd.concat([row,vals])
+                dfStat=pd.concat([dfStat,vals]).reset_index(drop=True)
+            dfStat=dfStat[['Split','value','gp','ga','gaa','sv','sv%','SO','mins']] 
+        if(form_data['group'] == 'records' and form_data['name'] not in ['','Name']):
+          if(len(dfStat.loc[dfStat['name'].str.contains(form_data['name'],case=False)].name.unique())>1):
+            dfStat=pd.DataFrame({"":['Please Enter One of the Following Player Names:'] + [i for i in dfStat.loc[dfStat['name'].str.contains(form_data['name'],case='False')].name.unique()]})  
+          else:
+            if(form_data['position']=='skater'):
+              queries=['goals>0','goals==0','goals==1','goals>1','goals==2','goals>=3','assists==0','assists>0','assists==1','assists>1','assists==2','assists>=3','pts==0','pts>0','pts==1','pts>1','pts==2','pts==3','pts>=3',]
+              qText=["Scores","Doesn't Score","Scores Exactly 1 Goal", "Has a Multi-Goal Game","Scores Exactly 2 Goals", "Scores 3+ Goals", 'Gets 0 Assists','Gets At Least 1 Assist','Gets 1 Assist','Has A Multi-Assist Game','Gets 2 Assists','Gets 3+ Assists','Gets 0 Points','Gets At Least 1 Point','Gets Exactly 1 Point','Has A Multi-Point Game','Gets Exactly 2 Points','Gets Exactly 3 Points','Gets 3+ Points']
+            else:
+              dfStat=dfStat.copy()
+              dfStat.drop(axis=1,labels=['result'],inplace=True)
+              queries=['ga==0','ga>0','ga==1','ga>1','ga==2','ga>=3','sv>0 and sv<20','sv>=20 and sv<30','sv>=30 and sv<40','sv>=40 and sv<50','sv>=50']
+              qText=["Allows 0 Goals","Allows at least 1 Goal","Allows exactly 1 Goal", "Allows 1+ Goals","Allows Exactly 2 Goals", "Allows 3+ Goals", 'Makes 0-19 Saves','Makes 20-29 Saves','Makes 30-39 Saves','Makes 40-49 Saves','Makes 50+ Saves']
+            mergeGames.drop(axis=1,labels=['opponent', 'season', 'year'],inplace=True)
+            df_merged = dfStat.merge(mergeGames, on='date', how='left')
+            name=df_merged.loc[df_merged['name'].str.contains(form_data['name'],case=False)].name.unique()[0]
+            qList=[]
+            for q in range(len(queries)):
+                rec=df_merged.query(f'name == "{name}" and {queries[q]}').groupby('result').count()['date'].to_dict()
+                for res in ['W','L','T']:
+                    if(res not in rec):
+                        rec[res]=0
+                rec['GP']=rec['W']+rec['L']+rec['T']
+                if(rec['GP']!=0):
+                    rec['Win%']=round((rec['W']+rec['T']*.5)/(rec['GP']),3)
+                else:
+                    rec['Win%']=0
+                rec[f'BU\'s Record when {name}...']=qText[q]
+                qList.append(rec)
+            dfStat=pd.DataFrame(qList)[[f'BU\'s Record when {name}...','GP','W','L','T','Win%']]           
         if(form_data['isAscending']!=''):
           if(form_data['sortval']!='' and form_data['sortval'].lower() in dfStat.columns or form_data['sortval'] in ['W','L','T','SO'] ):
             sortType=eval(form_data['isAscending'].capitalize())

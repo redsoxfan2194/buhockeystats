@@ -192,18 +192,21 @@ def formatStats(dfRes):
     elif('date' in dfRes.columns and 'pts' in dfRes.columns):
       dfRes['date']=dfRes['date'].dt.strftime('%m/%d/%Y')
       dfRes=dfRes[['date','name','opponent','yr','pos','season','goals','assists','pts']]
-    if('SO' in dfRes.columns):
-      style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','sv%':'{:.3f}','min':'{:.2f}'})
+    if('SO' in dfRes.columns):       
+      style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','sv%':'{:.3f}','min':'{:.2f}','mins':'{:.2f}'})
     else:
-      style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','mins':'{:.2f}','sv%':'{:.3f}'})
+      style= dfRes.style.apply(lambda x: ['background-color: white; color:#cc0000; text-align:center' if i % 2 == 0 else 'background-color: #cc0000; color:white; text-align:center' for i in range(len(x))]).hide(axis='index').format({'gaa':'{:.2f}','mins':'{:.2f}','sv%':'{:.3f}','Win%':'{:.3f}'})
     for stat in ['gp','goals','assists','pts','pen','pens','pim','ga','W','L','T','saves','number','SO']:
       if(stat not in dfRes.columns):
         continue
       dfRes[stat] = dfRes[stat].fillna(-1)
       dfRes[stat] = dfRes[stat].astype(int)
       dfRes[stat] = dfRes[stat].astype(str)
-      dfRes[stat] = dfRes[stat].replace('-1', '-')
-      
+      if('Split' in dfRes.columns):
+        dfRes[stat] = dfRes[stat].replace('-1', '')
+      else:
+        dfRes[stat] = dfRes[stat].replace('-1', '-')
+
     headers = {
         'selector': 'th:not(.index_name)',
         'props': 'color: white;'
@@ -212,10 +215,14 @@ def formatStats(dfRes):
         'selector': 'table',
         'props': [('class', 'sortable')]
     }
-    dfRes.columns=dfRes.columns.str.capitalize()
+    if('BU' not in dfRes.columns[0]):
+      dfRes.columns=dfRes.columns.str.capitalize()
     dfRes.rename(columns={'Yr':'YR','Gp':'GP','Ga':'GA','Gaa':'GAA','Sv%':'SV%','So':'SO','Sv':'SV','Pim':'PIM'},inplace=True)
     style.set_table_styles([headers,table])
-    dfRes=style.to_html(index_names=False,render_links=True).replace(">nan<",">-<").replace('<th','<th onclick=setSort(this)')
+    if('Split' in dfRes.columns):
+      dfRes=style.to_html(index_names=False,render_links=True).replace(">nan<","><")
+    else:
+      dfRes=style.to_html(index_names=False,render_links=True).replace(">nan<",">-<").replace('<th','<th onclick=setSort(this)')
     return dfRes
     
   
