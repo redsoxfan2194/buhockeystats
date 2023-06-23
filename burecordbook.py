@@ -18,6 +18,8 @@ tourneyDict={}
 # Get Tourneys
 def generateRecordBook():
     global tourneyDict
+    dfConf=pd.read_csv(RECBOOK_DATA_PATH + 'OpponentConferenceData.csv')
+    dfConf['season']=dfConf['season'].apply(convertSeasons,args=(True,))
     fileName=(RECBOOK_DATA_PATH + 'BURecordBook.txt')
     tourneys=[]
     with open(fileName, 'r', encoding='utf-8') as f:
@@ -130,10 +132,13 @@ def generateRecordBook():
             gameList.append(gameDict)
     f.close()
     dfGames=pd.DataFrame(gameList)
+    dfGames['OppoConference']=dfGames.apply(lambda row: getConference(dfConf,row['opponent'], row['season']), axis=1)
     return dfGames
 
 def generateWomensRecordBook():
     global tourneyDict
+    dfConf=pd.read_csv(RECBOOK_DATA_PATH + 'OpponentConferenceDataWomens.csv')
+    dfConf['season']=dfConf['season'].apply(convertSeasons,args=(True,))
     fileName=(RECBOOK_DATA_PATH + 'BUWomensRecordBook.txt')
     tourneys=[]
     with open(fileName, 'r', encoding='utf-8') as f:
@@ -233,6 +238,7 @@ def generateWomensRecordBook():
             gameList.append(gameDict)
     f.close()
     dfWomensGames=pd.DataFrame(gameList)
+    dfWomensGames['OppoConference']=dfWomensGames.apply(lambda row: getConference(dfConf,row['opponent'], row['season']), axis=1)
     return dfWomensGames
 
 def convertToInt(val):
@@ -256,17 +262,24 @@ def convertToFloat(val):
             val=float('nan')
         return val        
 
-def convertSeasons(season,strip=True):
+def convertSeasons(season,isConf=False,strip=True):
+        if(season==''):
+            return ''
         gap=season.split(',')
         years=season[2:].split('-')
         seasonStr=''
         if(len(gap)>1):
             for i in gap:
-                seasonStr+=convertSeasons(i,False)
+                seasonStr+=convertSeasons(i,isConf,False)
         else:
             yearDiff=abs(int(years[0])-int(years[1]))
-            if(yearDiff>6):
+            if(yearDiff>6 and not isConf):
                 yearDiff=100-yearDiff
+            if(isConf):
+                if(int(years[1])<int(years[0])):
+                    yearDiff=abs(int("19"+years[0])-int("20"+years[1])) 
+                else:
+                    yearDiff=abs(int(years[0])-int(years[1]))
             firstHalf=season[:4]
             seasonStr=''
             for i in range(yearDiff):
@@ -277,6 +290,13 @@ def convertSeasons(season,strip=True):
             return seasonStr
         return seasonStr[:-1]
 
+def getConference(dfConf,team,season):
+    dfConf=dfConf.copy()
+    conf= dfConf.loc[(dfConf['opponent']==team) & (dfConf['season'].str.contains(season))]['OppoConference']
+    if(conf.empty):
+        return ''
+    return conf.to_string(index=False)
+    
 def decodeTeam(team):
     origTeam = team
     team=team.lower()
