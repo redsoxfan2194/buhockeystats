@@ -2,6 +2,7 @@ import re
 COLUMNS = {
     'date': 'Date',
     'opponent': 'Opponent',
+    'oppconference' : 'Conference',
     'result': 'Result',
     'scoreline': 'Score',
     'arena': 'Location',

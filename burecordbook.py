@@ -132,7 +132,7 @@ def generateRecordBook():
             gameList.append(gameDict)
     f.close()
     dfGames=pd.DataFrame(gameList)
-    dfGames['OppoConference']=dfGames.apply(lambda row: getConference(dfConf,row['opponent'], row['season']), axis=1)
+    dfGames['oppconference']=dfGames.apply(lambda row: getConference(dfConf,row['opponent'], row['season']), axis=1)
     return dfGames
 
 def generateWomensRecordBook():
@@ -238,7 +238,7 @@ def generateWomensRecordBook():
             gameList.append(gameDict)
     f.close()
     dfWomensGames=pd.DataFrame(gameList)
-    dfWomensGames['OppoConference']=dfWomensGames.apply(lambda row: getConference(dfConf,row['opponent'], row['season']), axis=1)
+    dfWomensGames['oppconference']=dfWomensGames.apply(lambda row: getConference(dfConf,row['opponent'], row['season']), axis=1)
     return dfWomensGames
 
 def convertToInt(val):

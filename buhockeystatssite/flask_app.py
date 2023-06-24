@@ -184,7 +184,7 @@ def players():
             dfStat=pd.DataFrame(df_merged.loc[df_merged['name'].str.contains(form_data['name'],case=False)].sum(numeric_only=True)[['gp','goals','assists','pts']]).transpose()
             dfStat.insert(0,'value','Total')
             dfStat.insert(0,'Split','')
-            for col in ['location','result','month','dow','opponent','arena','tourney']:
+            for col in ['location','result','month','dow','opponent','oppconference','arena','tourney']:
                 vals=df_merged.loc[(df_merged['name'].str.contains(form_data['name'],case=False)) & (df_merged[col]!='')].groupby(col).sum(numeric_only=True)[['gp','goals','assists','pts']]
                 vals.reset_index(inplace=True)
                 vals.rename(columns={col:'value'},inplace=True)
@@ -193,6 +193,8 @@ def players():
                 if(col=='dow'):
                     vals.loc[:,'value'] = vals['value'].map(dayNames)
                     col='Day'
+                if(col=='oppconference'):
+                    col='Conference'
                 row=pd.DataFrame([col.capitalize() if i==0 else np.nan for i in range(len(dfStat.columns))]).transpose()
                 row.columns=dfStat.columns
                 vals.insert(0,'Split', ['' for i in range(len(vals))])
@@ -214,7 +216,7 @@ def players():
             dfStat['gaa']=round((dfStat['ga']/dfStat['mins'])*60,2)
             dfStat.insert(0,'value','Total')
             dfStat.insert(0,'Split','')
-            for col in ['location','result','month','dow','opponent','arena','tourney']:
+            for col in ['location','result','month','dow','opponent','oppconference','arena','tourney']:
                 vals=df_merged.loc[(df_merged['name'].str.contains(form_data['name'],case=False)) & (df_merged[col]!='')].groupby(col).sum(numeric_only=True)[['gp','sv','ga','mins','SO']]
                 vals['sv%']=round(vals['sv']/(vals['sv']+vals['ga']),3)
                 vals['gaa']=round((vals['ga']/vals['mins'])*60,2)
@@ -372,6 +374,7 @@ def records():
           query='',
           resTable=formatResults(dfRes),
           opponents_values=getOpponentList(dfOrig),
+          conference_values=sorted(list(dfOrig.query('oppconference!=""').oppconference.unique())),
           season_values=list(dfOrig.season.unique()),
           arena_values=sorted(list(dfOrig.arena.unique())),
           buscore=buscore,
@@ -450,6 +453,13 @@ def records():
           else:
             dfRes=dfRes.query(f'opponent==\"{form_data["opponent"]}\"')
         result=''
+        if(form_data['conference']!='all'):
+            if(form_data['conference']=='conf'):
+              dfRes=dfRes.query(f"gameType==\'Conference\'")
+            elif(form_data['conference']=='nc'):
+              dfRes=dfRes.query(f"gameType==\'Non-Conference\'")
+            else:
+              dfRes=dfRes.query(f"oppconference==\'{form_data['conference']}\'")
         if(form_data['season']!='all'):
             dfRes=dfRes.query(f"season==\'{form_data['season']}\'")
         if(form_data['tourney']!='Tournament'):
@@ -536,6 +546,7 @@ def records():
             result=result,
             opponents_values=getOpponentList(dfOrig),
             season_values=list(dfOrig.season.unique()),
+            conference_values=sorted(list(dfOrig.query('oppconference!=""').oppconference.unique())),
             arena_values=sorted(list(dfOrig.arena.unique())),
             tourney_values=getTourneyList(dfOrig),
             coach_values=list(dfOrig.coach.unique()),
