@@ -463,7 +463,7 @@ def records():
         if(form_data['season']!='all'):
             dfRes=dfRes.query(f"season==\'{form_data['season']}\'")
         if(form_data['tourney']!='Tournament'):
-            dfRes=dfRes.query(f"tourney==\'{form_data['tourney']}\'")
+            dfRes=dfRes.query(f"tourney==\"{form_data['tourney']}\"")
         if(form_data['location']!='all'):
             dfRes=dfRes.query(f"location==\'{form_data['location']}\'")
         if(form_data['coach']!='all'):
@@ -471,12 +471,16 @@ def records():
         if(form_data['arena']!='all'):
             dfRes=dfRes.query(f"arena==\'{form_data['arena']}\'")
         if(form_data['buscore']!=''):
-            dfRes=dfRes.query(f"BUScore {form_data['buscoreop']} {form_data['buscore']}")
+            buscore=form_data['buscore']
+            buscore=buscore.split(' ')[0]
+            dfRes=dfRes.query(f"BUScore {form_data['buscoreop']} {buscore}")
             buscore=form_data['buscore']
         else:
             buscore="BU Score"
         if(form_data['oppscore']!=''):
-            dfRes=dfRes.query(f"OppoScore {form_data['oppscoreop']} {form_data['oppscore']}")
+            oppscore=form_data['oppscore']
+            oppscore=oppscore.split(' ')[0]
+            dfRes=dfRes.query(f"OppoScore {form_data['oppscoreop']} {oppscore}")
             oppscore=form_data['oppscore']
         else:
             oppscore="Opp Score"
