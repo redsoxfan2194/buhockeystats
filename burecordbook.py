@@ -18,19 +18,25 @@ tourneyDict={}
 # Get Tourneys
 def generateRecordBook():
     global tourneyDict
+    
+    # load in conference data
     dfConf=pd.read_csv(RECBOOK_DATA_PATH + 'OpponentConferenceData.csv')
     dfConf['season']=dfConf['season'].apply(convertSeasons,args=(True,))
     fileName=(RECBOOK_DATA_PATH + 'BURecordBook.txt')
     tourneys=[]
+    
+    # read in record book
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
         conf='Independent'
+        # loop through record book and find all the tournaments
         for i in rows:
             row=i.split('\t')
             if(len(row[0])>7 and len(row)==1 and ('COACH' not in i and 'OVERALL' not in i and 'ECAC:' not in i and 'CAPTAIN' not in i and 'HOCKEY' not in i and 'NEIHL:' not in i and 'forfeit' not in i)):
                 tourneys.append(row[0])
-                
+    
+    # create dict for tournament lookup
     for i in tourneys:
         if(i=='Key to Tournaments'):
             continue
@@ -48,26 +54,42 @@ def generateRecordBook():
         read_data = f.read()
         rows=read_data.split('\n')
         conf='Independent'
-        for i in rows:      
+        
+        # loop through record book
+        for i in rows:    
+            
+            # row contains the season
             if(len(i)==7):
                 season=i 
+            
+            # find coach if in line
             coachSearch=re.search("COACH: (.*)",i)
             if coachSearch != None:
                 coach=coachSearch.group(1)
+            
+            # find captain if in line
             captSearch=re.search("CAPTAIN.?: (.*)",i)
             if captSearch != None:
                 capt=captSearch.group(1) 
+                
+            # find conference if in line
             confSearch=re.search("(NEIHL|ECAC|HOCKEY EAST):",i)
             if confSearch != None:
                 conf=confSearch.group(1)
                 if(conf=='HOCKEY EAST'):
                     conf='Hockey East'
+            
+            # '*' denotes conference games in record book
             if(re.search('\*',i)!=None):
                 gameType='Conference'
             else:
                 gameType='Non-Conference'
+            
+            # remove '*' to make the lines uniform
             i=i.replace("* ",'')
             note=''
+            
+            # save off the notes and remove the special character
             if('†' in i):
                 note='Loss by forfeit (ineligible player)'
                 i=i.replace('†','')
@@ -77,6 +99,8 @@ def generateRecordBook():
             if('‡' in i):
                 note='Win by forfeit (ineligible player)'
                 i=i.replace('‡','')
+                
+            # search for a valid line and separate out the regex
             game=re.search(r"(\d*\/\d*) (\w*) (?:\((.?ot)\))? ?(.*)\t(\S*|\S* \S*|\S* \S* \S*) ?(\(.*\))? (\d*-\d*)",i)
             if game==None:
                 continue
@@ -94,86 +118,127 @@ def generateRecordBook():
                      'conference':conf,
                      'season':season,
                      'note':note}
+            
+            # if not a conference game set as non-conference
             if(gameDict['gameType']==None):
                 gameDict['gameType']='Non-Conference'
+            
+            # set result of and exhibition as 'E' so it doesn't appear in the record
             if(gameDict['tourney']=='(ex)' or gameDict['result']=='E'):
                 gameDict['gameType']='Exhibition'
                 gameDict['result'] = 'E'
                 gameDict['tourney'] = None
+                
+            # determine home games by arena
             if(gameDict['arena']=='Agganis Arena' or gameDict['arena']=='Walter Brown Arena' or gameDict['arena']=='Boston Arena'):
                 gameDict['location']='Home'
+            
+            # anything that isn't a tournament is an away game
             elif(gameDict['tourney']==None or gameDict['tourney']=='(nc)' or gameDict['tourney'] == '(B1G/HE)' or ((gameDict['tourney'] == '(HE)' or gameDict['tourney'] == '(ECAC)') and (gameDict['arena'] != 'TD Garden' and gameDict['arena'] != 'Boston Garden' and gameDict['arena'] != 'Providence CC'))):
                 gameDict['location']='Away'
+            
+            # everything else is neutral
             if(gameDict['location']=='' or gameDict['arena']=='Boston Garden' or gameDict['arena']=='VW Arena'):
                 gameDict['location']='Neutral'
+            
+            # tourney games vs hosts are road games
             if((gameDict['arena']=='Gutterson' and gameDict['opponent']=='Vermont') or (gameDict['arena']=='Houston' and gameDict['opponent']=='Rensselaer') or (gameDict['arena']=='Broadmoor' and gameDict['opponent']=='Colorado College') or (gameDict['arena']=='DEC Center' and gameDict['opponent']=='Minnesota Duluth')or (gameDict['arena']=='Magness Arena' and gameDict['opponent']=='Denver')or (gameDict['arena']=='Mariucci Arena' and gameDict['opponent']=='Minnesota')or (gameDict['arena']=='Munn Ice Arena' and gameDict['opponent']=='Michigan State')or (gameDict['arena']=='Walker Arena' and gameDict['opponent']=='Clarkson')or (gameDict['arena']=='Thompson Arena' and gameDict['opponent']=='Dartmouth')or (gameDict['arena']=='St. Louis Arena' and gameDict['opponent']=='St. Louis') or (gameDict['arena']=='Sullivan Arena' and gameDict['opponent']=='Alaska Anchorage')):
                 gameDict['location']='Away'
+                
+            # clear parens from tournys
             if(gameDict['tourney']!=None):
                 gameDict['tourney']=tourneyDict[gameDict['tourney'].replace('(','').replace(')','')]
+                
+            # conference and ncaa tournament games are playoff games
             if((gameDict['tourney'] == gameDict['conference'] +" "+ 'Tournament') or (gameDict['tourney'] == 'NCAA Tournament')):
                 gameDict['seasonType'] = 'Playoffs'
             else:
                 gameDict['seasonType'] = 'Regular Season'
+                
+            # get month and day from date
             gameDict['month'],gameDict['day']=gameDict['date'].split('/')
             gameDict['month']=int(gameDict['month'])
             gameDict['day']=int(gameDict['day'])
+            
+            # determine year from season
             if(gameDict['month'] >=9):
                 gameDict['date']+="/" + gameDict['season'][:4]
                 gameDict['year']=int(gameDict['season'][:4])
             elif(gameDict['month'] <= 4):
                 gameDict['date']+= "/" + str(int(gameDict['season'][:4])+1)
                 gameDict['year']=int(gameDict['season'][:4])+1
+            
+            # get goals scored from scoreline
             gameDict['BUScore'],gameDict['OppoScore']=int(gameDict['scoreline'].split('-')[0]),int(gameDict['scoreline'].split('-')[1])
             gameDict['GD']=gameDict['BUScore']-gameDict['OppoScore']
+            
+            # set Jack Parker as coach for second half of 73-74 season
             if(gameDict['season']=='1973-74' and gameDict['date']=='12/12/1973'):
                 coach='Jack Parker'
             gameDict['date']=pd.Timestamp(gameDict['date'])
             gameDict['dow']=gameDict['date'].weekday()
             gameList.append(gameDict)
+    
     f.close()
     dfGames=pd.DataFrame(gameList)
+    # get conference of all opponents
     dfGames['oppconference']=dfGames.apply(lambda row: getConference(dfConf,row['opponent'], row['season']), axis=1)
     return dfGames
 
 def generateWomensRecordBook():
     global tourneyDict
+    
+    # load in conference data
     dfConf=pd.read_csv(RECBOOK_DATA_PATH + 'OpponentConferenceDataWomens.csv')
     dfConf['season']=dfConf['season'].apply(convertSeasons,args=(True,))
+    
     fileName=(RECBOOK_DATA_PATH + 'BUWomensRecordBook.txt')
     tourneys=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
         conf='Independent'
+        # create tourney lookup
         for i in rows:
             row=i.split('  ')
             if(len(row)==2):
                 tourneyDict[row[0]]=row[1]
-      # Get Games
+    # Get Games
     fileName=(RECBOOK_DATA_PATH + 'BUWomensRecordBook.txt')
     gameList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
         conf='Independent'
-        for i in rows:      
+        for i in rows:   
+            # row contains season
             if(len(i)==7):
-                season=i 
+                season=i
+
+            # find coach in row
             coachSearch=re.search("COACH: (.*)",i)
             if coachSearch != None:
                 coach=coachSearch.group(1)
+            
+            # find captain in row
             captSearch=re.search("CAPTAIN.?: (.*)",i)
             if captSearch != None:
                 capt=captSearch.group(1) 
+            
+            # determine conference
             confSearch=re.search("(NEIHL|ECAC|HOCKEY EAST):",i)
             if confSearch != None:
                 conf=confSearch.group(1)
                 if(conf=='HOCKEY EAST'):
                     conf='Hockey East'
+            
+            # '*' indicates conference games
             if(re.search('\*',i)!=None):
                 gameType='Conference'
             else:
                 gameType='Non-Conference'
+            
+            # remove '*' since its no longer needed
             i=i.replace("* ",'')
             note=''
             if('†' in i):
@@ -185,6 +250,8 @@ def generateWomensRecordBook():
             if('‡' in i):
                 note='Win by forfeit (ineligible player)'
                 i=i.replace('‡','')
+               
+            # separate out record book line using regex
             game=re.search(r"(\d*\/\d*) (\w) (?:\((.?ot)\))? ?(.*) (\w) (#\d*)? ?(\S*|\S* \S*|\S* \S* \S*) ?(\(.*\))? (\d*-\d*)",i)
             if game==None:
                 continue
@@ -216,6 +283,8 @@ def generateWomensRecordBook():
                 gameDict['seasonType'] = 'Playoffs'
             else:
                 gameDict['seasonType'] = 'Regular Season'
+                
+            # home/away/neutral is in dict expand it out
             if(gameDict['location']=='H'):
                 gameDict['location']='Home'
             elif(gameDict['location']=='A'):
@@ -225,23 +294,31 @@ def generateWomensRecordBook():
             gameDict['month'],gameDict['day']=gameDict['date'].split('/')
             gameDict['month']=int(gameDict['month'])
             gameDict['day']=int(gameDict['day'])
+            
+            # determine year by season
             if(gameDict['month'] >=9):
                 gameDict['date']+="/" + gameDict['season'][:4]
                 gameDict['year']=int(gameDict['season'][:4])
             elif(gameDict['month'] <= 4):
                 gameDict['date']+= "/" + str(int(gameDict['season'][:4])+1)
                 gameDict['year']=int(gameDict['season'][:4])+1
+                
+            # separate goals scored from scoreline
             gameDict['BUScore'],gameDict['OppoScore']=int(gameDict['scoreline'].split('-')[0]),int(gameDict['scoreline'].split('-')[1])
             gameDict['GD']=gameDict['BUScore']-gameDict['OppoScore']
             gameDict['date']=pd.Timestamp(gameDict['date'])
             gameDict['dow']=gameDict['date'].weekday()
             gameList.append(gameDict)
+    
     f.close()
     dfWomensGames=pd.DataFrame(gameList)
+    
+    # set conference for opponents 
     dfWomensGames['oppconference']=dfWomensGames.apply(lambda row: getConference(dfConf,row['opponent'], row['season']), axis=1)
     return dfWomensGames
 
 def convertToInt(val):
+        # check str is int if it isn't make it none
         if(val.isdigit()):
             val=int(val)
         else:
@@ -249,6 +326,7 @@ def convertToInt(val):
         return val
         
 def convertToIntZ(val):
+        # check if str is int if it isn't make it 0
         if(val.isdigit()):
             val=int(val)
         else:
@@ -256,6 +334,7 @@ def convertToIntZ(val):
         return val
         
 def convertToFloat(val):
+        # try to make str a float if can't make it nan
         try:
             val=float(val)
         except:
@@ -268,12 +347,16 @@ def convertSeasons(season,isConf=False,strip=True):
         gap=season.split(',')
         years=season[2:].split('-')
         seasonStr=''
+        # determine if the span encompasses more than one season
+        # if it does, expand it out
         if(len(gap)>1):
             for i in gap:
                 seasonStr+=convertSeasons(i,isConf,False)
         else:
+            # check if year crosses a millennium 
             yearDiff=abs(int(years[0])-int(years[1]))
             if(yearDiff>6 and not isConf):
+                # if it does figure out the real diff
                 yearDiff=100-yearDiff
             if(isConf):
                 if(int(years[1])<int(years[0])):
@@ -282,6 +365,7 @@ def convertSeasons(season,isConf=False,strip=True):
                     yearDiff=abs(int(years[0])-int(years[1]))
             firstHalf=season[:4]
             seasonStr=''
+            # loop through until and make the list of seasons
             for i in range(yearDiff):
                 secondHalf=int(firstHalf)+1
                 seasonStr+=str(firstHalf)+'-'+str(secondHalf)[2:]+','
@@ -291,6 +375,7 @@ def convertSeasons(season,isConf=False,strip=True):
         return seasonStr[:-1]
 
 def getConference(dfConf,team,season):
+    # look up a teams conference in specified season
     dfConf=dfConf.copy()
     conf= dfConf.loc[(dfConf['opponent']==team) & (dfConf['season'].str.contains(season))]['OppoConference']
     if(conf.empty):
@@ -298,6 +383,7 @@ def getConference(dfConf,team,season):
     return conf.to_string(index=False)
     
 def decodeTeam(team):
+    # create short form look up for teams
     origTeam = team
     team=team.lower()
     team=team.replace(" ","")
@@ -442,7 +528,7 @@ def decodeTeam(team):
         return teamName
 
 def generateJerseys():
-    # Get Jerseys
+    # create data frame containing uniform numbers for men's and women's players
     fileName=(RECBOOK_DATA_PATH + 'JerseyNumbers.txt')
     playerList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
@@ -450,12 +536,13 @@ def generateJerseys():
         rows=read_data.split('\n')
         numDict={'number':0,'player':'','season':''}
         for i in rows:
-            
+            # determine if row contains a number if it does save it off
             numSearch=re.search("#(.*)",i)
             if numSearch != None:
                 number=numSearch.group(1)
             if("Retired - " in i):
                     continue
+            # determine which year each player wore said number
             playerSearch=re.search("(\d*-\d*) (.*)",i)
             if playerSearch != None:
                 season=playerSearch.group(1)
@@ -464,7 +551,6 @@ def generateJerseys():
                      'name':playerSearch.group(2)}
                 playerList.append(numDict)
     f.close()
-
 
     fileNameW=(RECBOOK_DATA_PATH + 'JerseyNumbersWomens.txt')
     playerListW=[]
@@ -475,6 +561,7 @@ def generateJerseys():
         for i in rows:
             if("Retired - " in i):
                     continue
+            # determine which year each player wore said number
             playerSearch=re.search("(\d*)\t(.*)\t(.*)",i)
             if playerSearch != None:
                 season=playerSearch.group(1)
@@ -490,12 +577,14 @@ def generateJerseys():
     
     
 def generateSkaters():
+    # create DataFrame containing career stats for skaters 
     fileName=(RECBOOK_DATA_PATH + 'SkaterStats.txt')
     skateList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
         for i in rows:
+            # loop through and use regex to determine career stats
             skaterSearch=re.search('(.*),(.*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*)\/(\S*)',i)
             if skaterSearch!=None:
                 skaterDict={'last':skaterSearch.group(1),
@@ -510,12 +599,14 @@ def generateSkaters():
                            'pens':convertToInt(skaterSearch.group(8)),
                            'pim':convertToInt(skaterSearch.group(9))}
                 skateList.append(skaterDict)
+    
     fileNameW=(RECBOOK_DATA_PATH + 'SkaterStatsWomens.txt')
     skateListW=[]
     with open(fileNameW, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
         for i in rows:
+            # loop through and use regex to determine career stats
             skaterSearch=re.search('(.*),(.*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*)\/(\S*)',i)
             if skaterSearch!=None:
                 skaterDict={'last':skaterSearch.group(1),
@@ -536,12 +627,14 @@ def generateSkaters():
     return dfSkate,dfSkateMens,dfSkateWomens
 
 def generateGoalies():
+    # create DataFrame containing career stats for goalies
     fileName=(RECBOOK_DATA_PATH + 'GoalieStats.txt')
     goalieList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
         for i in rows:
+            # loop through and use regex to determine career stats
             goalieSearch=re.search('(.*),(.*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*)',i)
             if goalieSearch!=None:
                 mins=goalieSearch.group(5).split(':')
@@ -565,12 +658,14 @@ def generateGoalies():
                            'L':convertToInt(goalieSearch.group(11)),
                            'T':convertToInt(goalieSearch.group(12))}
                 goalieList.append(goalieDict)
+    
     fileName=(RECBOOK_DATA_PATH + 'GoalieStatsWomens.txt')
     goalieListW=[]
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
         rows=read_data.split('\n')
         for i in rows:
+            # loop through and use regex to determine career stats
             goalieSearch=re.search('(.*),(.*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*) (\S*)',i)
             if goalieSearch!=None:
                 mins=goalieSearch.group(5).split(':')
@@ -601,6 +696,7 @@ def generateGoalies():
     return dfGoalie,dfGoalieMens,dfGoalieWomens
 
 def generateSeasonLeaders():
+    # create DataFrame containing the season stats leaders for skaters
     fileName=(RECBOOK_DATA_PATH + 'SeasonLeaders.txt')
     leadList=[]
     with open(fileName, 'r', encoding='utf-8') as f:
@@ -611,12 +707,12 @@ def generateSeasonLeaders():
             if leadSearch!=None:
                 leadDict={'season':leadSearch.group(1),
                           'year': int(leadSearch.group(1)[:4])+1,
-                           'goals':convertToInt(leadSearch.group(2)),
-                            'gname':leadSearch.group(3),
-                           'assists':convertToInt(leadSearch.group(4)),
-                           'aname':leadSearch.group(5),
-                           'pts':convertToInt(leadSearch.group(6)),
-                           'pname':leadSearch.group(7)}
+                          'goals':convertToInt(leadSearch.group(2)),
+                          'gname':leadSearch.group(3),
+                          'assists':convertToInt(leadSearch.group(4)),
+                          'aname':leadSearch.group(5),
+                          'pts':convertToInt(leadSearch.group(6)),
+                          'pname':leadSearch.group(7)}
                 leadList.append(leadDict)
     f.close()
     dfLead=pd.DataFrame(leadList)
@@ -643,6 +739,7 @@ def generateSeasonLeaders():
     return dfLead,dfLeadWomens
 
 def generateSeasonSkaters():
+    # create DataFrame containing the season stats for skaters from 2002-03 on
     fileName=(RECBOOK_DATA_PATH + 'SeasonSkaterStats.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -663,6 +760,8 @@ def generateSeasonSkaters():
                      'year':int(col[9][:4])+1}
             seasList.append(seasDict)
     f.close()
+    
+    # create DataFrame containing the season stats for all skaters
     seasListW=[]
     fileNameW=(RECBOOK_DATA_PATH + 'SeasonSkaterStatsWomens.txt')
     with open(fileNameW, 'r', encoding='utf-8') as f:
@@ -688,7 +787,8 @@ def generateSeasonSkaters():
     dfSeasSkate=pd.DataFrame(seasList+seasListW)
     return dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens
     
-def generateSeasonGoalies():    
+def generateSeasonGoalies():   
+    # create DataFrame containing the season stats for goalies from 2002-03 on 
     fileName=(RECBOOK_DATA_PATH + 'SeasonGoalieStats.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -718,6 +818,8 @@ def generateSeasonGoalies():
                 seasGDict['min']=convertToFloat(seasGDict['mins'])
             seasGList.append(seasGDict)
     f.close()
+   
+    # create DataFrame containing the season stats for all goalies
     fileNameW=(RECBOOK_DATA_PATH + 'SeasonGoalieStatsWomens.txt')
     with open(fileNameW, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -753,6 +855,7 @@ def generateSeasonGoalies():
     return dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens
 
 def generateBeanpotHistory():
+    # create DataFrame containing all Beanpot Results
     fileName=(RECBOOK_DATA_PATH + 'BeanpotHistory.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -859,6 +962,7 @@ def generateBeanpotHistory():
     return dfBeanpot,dfBeanpotWomens
   
 def generateBeanpotAwards():
+    # create DataFrame containing all Beanpot Awards
     fileName=(RECBOOK_DATA_PATH + 'BeanpotAwardHistory.txt')
     with open(fileName, 'r', encoding='utf-8') as f:
         read_data = f.read()
@@ -901,7 +1005,7 @@ def generateBeanpotAwards():
     return dfBeanpotAwards,dfBeanpotAwardsWomens
     
 def generateGameSkaterStats():
-  # Get Game Stats
+  # create DataFrame game stats for skaters from 2002-03 on
   fileName=(RECBOOK_DATA_PATH + 'GameStatsData.txt')
   gameStatsList=[]
   with open(fileName, 'r', encoding='utf-8') as f:
@@ -924,7 +1028,7 @@ def generateGameSkaterStats():
   f.close()
   dfGameStatsMens=pd.DataFrame(gameStatsList)
 
-
+  # create DataFrame game stats for all skaters
   fileName=(RECBOOK_DATA_PATH +'GameStatsDataWomens.txt')
   gameStatsWList=[]
   with open(fileName, 'r', encoding='utf-8') as f:
@@ -951,6 +1055,7 @@ def generateGameSkaterStats():
   return dfGameStats,dfGameStatsMens,dfGameStatsWomens
   
 def generateGameGoalieStats():
+  # create DataFrame containing game stats for goalies from 2002-03 on
   fileName=(RECBOOK_DATA_PATH + 'GameStatsGoalieData.txt')
   gameStatsGoalieList=[]
   with open(fileName, 'r', encoding='utf-8') as f:
@@ -970,15 +1075,21 @@ def generateGameGoalieStats():
                            'result':col[9],
                            'season':col[10],
                            'year':int(col[10][:4])+1}
+              
+              # Calculate GAA - Goals Against Average = (Goals Allowed / Minutes Played )* 60
               gameStatGoalieDict['gaa']=round((gameStatGoalieDict['ga']/gameStatGoalieDict['mins'])*60,2)
+              
+              # if no saves or goals allowed set sv% to 0
               if((gameStatGoalieDict['sv']+gameStatGoalieDict['ga'])==0):
                   gameStatGoalieDict['sv%']=0
               else:
+                  # calculate sv% - Save Percentage = Saves/(Saves+Goals Allowed)
                   gameStatGoalieDict['sv%']=gameStatGoalieDict['sv']/(gameStatGoalieDict['sv']+gameStatGoalieDict['ga'])
               gameStatsGoalieList.append(gameStatGoalieDict)
   f.close()
   dfGameStatsGoalieMens=pd.DataFrame(gameStatsGoalieList)
   
+  # create DataFrame containing game stats for all goalies 
   fileName=(RECBOOK_DATA_PATH + 'GameStatsGoalieDataWomens.txt')
   gameStatsGoalieWList=[]
   with open(fileName, 'r', encoding='latin-1') as f:
@@ -998,11 +1109,15 @@ def generateGameGoalieStats():
                            'result':col[9],
                            'season':col[10],
                            'year':int(col[10][:4])+1}
-                           
+              
+              # Calculate GAA - Goals Against Average = (Goals Allowed / Minutes Played )* 60           
               gameStatGoalieWDict['gaa']=round((gameStatGoalieWDict['ga']/gameStatGoalieWDict['mins'])*60,2)
+              
+              # if no saves or goals allowed set sv% to 0
               if((gameStatGoalieWDict['sv']+gameStatGoalieWDict['ga'])==0):
                   gameStatGoalieWDict['sv%']=0
               else:
+                  # calculate sv% - Save Percentage = Saves/(Saves+Goals Allowed)
                   gameStatGoalieWDict['sv%']=gameStatGoalieWDict['sv']/(gameStatGoalieWDict['sv']+gameStatGoalieWDict['ga']) 
               gameStatsGoalieWList.append(gameStatGoalieWDict)
   f.close()
