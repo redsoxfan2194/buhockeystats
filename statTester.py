@@ -14,6 +14,8 @@ dfBeanpot,dfBeanpotWomens=generateBeanpotHistory()
 dfSeasSkate,dfSeasSkateMens,dfSeasSkateWomens=generateSeasonSkaters()
 dfSeasGoalie,dfSeasGoalieMens,dfSeasGoalieWomens=generateSeasonGoalies()
 dfBeanpotAwards,dfBeanpotAwardsWomens=generateBeanpotAwards()
+dfGameStats, dfGameStatsMens, dfGameStatsWomens = generateGameSkaterStats()
+dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens = generateGameGoalieStats()
 dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
 
 querys=['2019 beanpot results',
@@ -242,40 +244,53 @@ for query in querys:
   origQuery=query
   query,gender=determineGender(query)
   query=query.lstrip(' ')
-  if(gender=='Womens'):
-      query=cleanupQuery(query,'bean')
-      dfBean={'results':dfBeanpotWomens,'awards':dfBeanpotAwardsWomens}
-      result=getBeanpotStats(dfBean,query)
+  if gender == 'Womens':
+      query = cleanupQuery(query, 'bean')
+      dfBean = {
+          'results': dfBeanpotWomens,
+          'awards': dfBeanpotAwardsWomens}
+      result = getBeanpotStats(dfBean, query)
   else:
-      query=cleanupQuery(query,'bean')
-      dfBean={'results':dfBeanpot,'awards':dfBeanpotAwards}
-      result=getBeanpotStats(dfBean,query)
-  if(result==''):
-      if(determineQueryType(query)!='player'):
-          if(gender=='Womens'):
-              result=getResults(dfGamesWomens,query)  
+      query = cleanupQuery(query, 'bean')
+      dfBean = {'results': dfBeanpot, 'awards': dfBeanpotAwards}
+      result = getBeanpotStats(dfBean, query)
+  if result == '':
+      if determineQueryType(query) != 'player':
+          if gender == 'Womens':
+              result = getResults(
+                  dfGamesWomens,
+                  dfGameStatsWomens,
+                  dfGameStatsGoalieWomens,
+                  query)
           else:
-              result=getResults(dfGames,query)  
+              result = getResults(
+                  dfGames, dfGameStatsMens, dfGameStatsGoalieMens, query)
       else:
-          playerDfs={}
-          playerDfs['jerseys']=dfJersey
-          playerDfs['seasonleaders']=dfLead
-          playerDfs['careerSkaters']=dfSkate
-          playerDfs['careerGoalies']=dfGoalie
-          playerDfs['seasonSkaters']=dfSeasSkate
-          playerDfs['seasonGoalies']=dfSeasGoalie
-          if(gender=='Womens'):
-              playerDfs['jerseys']=dfJerseyWomens
-              playerDfs['seasonleaders']=dfLeadWomens
-              playerDfs['careerSkaters']=dfSkateWomens
-              playerDfs['careerGoalies']=dfGoalieWomens
-              playerDfs['seasonSkaters']=dfSeasSkateWomens
-              playerDfs['seasonGoalies']=dfSeasGoalieWomens
-          if(gender=='Mens'):
-              playerDfs['seasonSkaters']=dfSeasSkateMens
-              playerDfs['seasonGoalies']=dfSeasGoalieMens
-              playerDfs['jerseys']=dfJerseyMens
-          result=getPlayerStats(playerDfs,query)
+          playerDfs = {}
+          playerDfs['jerseys'] = dfJersey
+          playerDfs['seasonleaders'] = dfLead
+          playerDfs['careerSkaters'] = dfSkate
+          playerDfs['careerGoalies'] = dfGoalie
+          playerDfs['seasonSkaters'] = dfSeasSkate
+          playerDfs['seasonGoalies'] = dfSeasGoalie
+          playerDfs['gameStats'] = dfGameStats
+          playerDfs['gameGoalieStats'] = dfGameStatsGoalie
+          if gender == 'Womens':
+              playerDfs['jerseys'] = dfJerseyWomens
+              playerDfs['seasonleaders'] = dfLeadWomens
+              playerDfs['careerSkaters'] = dfSkateWomens
+              playerDfs['careerGoalies'] = dfGoalieWomens
+              playerDfs['seasonSkaters'] = dfSeasSkateWomens
+              playerDfs['seasonGoalies'] = dfSeasGoalieWomens
+              playerDfs['gameStats'] = dfGameStatsWomens
+              playerDfs['gameGoalieStats'] = dfGameStatsGoalieWomens
+          if gender == 'Mens':
+              playerDfs['seasonSkaters'] = dfSeasSkateMens
+              playerDfs['seasonGoalies'] = dfSeasGoalieMens
+              playerDfs['jerseys'] = dfJerseyMens
+              playerDfs['gameStats'] = dfGameStatsMens
+              playerDfs['gameGoalieStats'] = dfGameStatsGoalieMens
+          result = getPlayerStats(playerDfs, query)
   if(result==''):
     result='FAIL'
   print(origQuery.upper(),result,sep='\n')
