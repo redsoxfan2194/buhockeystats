@@ -1389,9 +1389,10 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
     monthsShort = [x.lower() for x in list(calendar.month_abbr)]
     daysShort = [x.lower() for x in list(calendar.day_abbr)]
     numStartSearch = re.search(
-        "last (\\d* )?(?:win|loss|tie)?",
+        "^(?:\s*)?last (\\d* )?(?:win|loss|tie)?",
         query.lstrip())
     numRes = 1
+    
     if numStartSearch is not None:
         query = query.replace('wins', 'win')
         query = query.replace('losses', 'loss')
@@ -1402,8 +1403,8 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
     else:
         numRes = 1
     qType = determineQueryType(query)
-    queryDict = tokenizeResultsQuery(cleanupQuery(query, qType))
 
+    queryDict = tokenizeResultsQuery(cleanupQuery(query, qType))
     if (not queryDict or qType == '' or qType == 'player'):
         return ''
     inList = []
@@ -1801,11 +1802,31 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
 def getPlayerStats(playerDfs, query):
     '''return player stats for given query'''
     dfSkate = playerDfs['careerSkaters']
+    dfSkate['gp']=dfSkate['gp'].astype('Int64')
+    dfSkate['pim']=dfSkate['pim'].astype('Int64')
+    
     dfGoalie = playerDfs['careerGoalies']
+    dfGoalie['gp']=dfGoalie['gp'].astype('Int64')
+    dfGoalie['ga']=dfGoalie['ga'].astype('Int64')
+    dfGoalie['saves']=dfGoalie['saves'].astype('Int64')
+    dfGoalie['W']=dfGoalie['W'].astype('Int64')
+    dfGoalie['L']=dfGoalie['L'].astype('Int64')
+    dfGoalie['T']=dfGoalie['T'].astype('Int64')
+    
     dfJersey = playerDfs['jerseys']
     dfLead = playerDfs['seasonleaders']
     dfSeasSkate = playerDfs['seasonSkaters']
+    dfSeasSkate['gp']=dfSeasSkate['gp'].astype('Int64')
+    dfSeasSkate['goals']=dfSeasSkate['goals'].astype('Int64')
+    dfSeasSkate['assists']=dfSeasSkate['assists'].astype('Int64')
+    dfSeasSkate['pts']=dfSeasSkate['pts'].astype('Int64')
+    
     dfSeasGoalie = playerDfs['seasonGoalies']
+    dfSeasGoalie['gp']=dfSeasGoalie['gp'].astype('Int64')
+    dfSeasGoalie['ga']=dfSeasGoalie['ga'].astype('Int64')
+    dfSeasGoalie['saves']=dfSeasGoalie['saves'].astype('Int64')
+    dfSeasGoalie['SO']=dfSeasGoalie['SO'].astype('Int64')
+    
     dfGameStats = playerDfs['gameStats']
     dfGameStatsGoalie = playerDfs['gameGoalieStats']
     opponent = ''
@@ -2348,16 +2369,16 @@ def getPlayerStats(playerDfs, query):
                 if not cStats:
                     resStr += "----------------------\nCareer     {} {}-{}-{}".format(
                         dfRes.sum(
-                            numeric_only=True)['gp'], dfRes.sum(
-                            numeric_only=True)['goals'], dfRes.sum(
-                            numeric_only=True)['assists'], dfRes.sum(
-                            numeric_only=True)['pts'])
+                            numeric_only=True)['gp'].astype(int), dfRes.sum(
+                            numeric_only=True)['goals'].astype(int), dfRes.sum(
+                            numeric_only=True)['assists'].astype(int), dfRes.sum(
+                            numeric_only=True)['pts'].astype(int))
                 else:
-                    goals = pStatsLine['goals'].to_string(
+                    goals = pStatsLine['goals'].astype(int).to_string(
+                        index=False, header=False).astype(int).lstrip()
+                    assists = pStatsLine['assists'].astype(int).to_string(
                         index=False, header=False).lstrip()
-                    assists = pStatsLine['assists'].to_string(
-                        index=False, header=False).lstrip()
-                    pts = pStatsLine['pts'].to_string(
+                    pts = pStatsLine['pts'].astype(int).to_string(
                         index=False, header=False).lstrip()
                     gp = int(
                         float(
@@ -2390,7 +2411,7 @@ def getPlayerStats(playerDfs, query):
                         dfRes.iloc[row]['goals'])
                 if not cStats:
                     resStr += "----------------------\nCareer     {} {}".format(
-                        dfRes.sum(numeric_only=True)['gp'], dfRes.sum(numeric_only=True)['goals'])
+                        dfRes.sum(numeric_only=True)['gp'].astype(int), dfRes.sum(numeric_only=True)['goals'].astype(int))
                 else:
                     goals = pStatsLine['goals'].to_string(
                         index=False, header=False).lstrip()
@@ -2425,9 +2446,9 @@ def getPlayerStats(playerDfs, query):
                         dfRes.iloc[row]['assists'])
                 if not cStats:
                     resStr += "----------------------\nCareer     {} {}".format(
-                        dfRes.sum(numeric_only=True)['gp'], dfRes.sum(numeric_only=True)['assists'])
+                        dfRes.sum(numeric_only=True)['gp'].astype(int), dfRes.sum(numeric_only=True)['assists'].astype(int))
                 else:
-                    assists = pStatsLine['assists'].to_string(
+                    assists = pStatsLine['assists'].astype(int).to_string(
                         index=False, header=False).lstrip()
                     gp = int(
                         float(
@@ -2439,7 +2460,7 @@ def getPlayerStats(playerDfs, query):
             elif ('point' in stat or 'pts' in stat):
                 if opponent != '':
                     dfRes = dfGameStats.loc[(dfGameStats['name'] == pStatsLine['name'].to_string(index=False, header=False).lstrip()) & (
-                        dfGameStats['opponent'] == opponent)].groupby(['yr', 'season']).sum(numeric_only=True)
+                        dfGameStats['opponent'] == opponent)].groupby(['yr', 'season']).sum(numeric_only=True).astype(int)
                     dfRes.reset_index(inplace=True)
                     if dfRes.empty:
                         return ''
@@ -2460,9 +2481,9 @@ def getPlayerStats(playerDfs, query):
                         dfRes.iloc[row]['pts'])
                 if not cStats:
                     resStr += "----------------------\nCareer     {} {}".format(
-                        dfRes.sum(numeric_only=True)['gp'], dfRes.sum(numeric_only=True)['pts'])
+                        dfRes.sum(numeric_only=True)['gp'].astype(int), dfRes.sum(numeric_only=True)['pts'].astype(int))
                 else:
-                    pts = pStatsLine['pts'].to_string(
+                    pts = pStatsLine['pts'].astype(int).to_string(
                         index=False, header=False).lstrip()
                     gp = int(
                         float(
@@ -2472,7 +2493,7 @@ def getPlayerStats(playerDfs, query):
                     resStr += "----------------------\nCareer     {} {}".format(
                         gp, pts)
 
-        elif (len(gStatsLine) == 1 and gStatsLine['name'].isin(dfSeasGoalie['name']).any() and not dfSeasGoalie.loc[(dfSeasGoalie['name']==gStatsLine['name'].to_string(index=False))]['SO'].isnull().all()):
+        elif (len(gStatsLine) == 1 and gStatsLine['name'].isin(dfSeasGoalie['name']).any()):
             wins = 0
             loss = 0
             tie = 0
@@ -2527,17 +2548,32 @@ def getPlayerStats(playerDfs, query):
                 dfRes = dfSeasGoalie.loc[dfSeasGoalie['name'] == gStatsLine['name'].to_string(
                     index=False, header=False).lstrip()]
             mTime = 0
+            incompleteData=False
             for row in range(len(dfRes)):
                 rec = dfRes.iloc[row]['record'].split('-')
-                wins += int(rec[0])
-                loss += int(rec[1])
-                tie += int(rec[2])
-                mins = dfRes.iloc[row]['mins'].split(':')
-                time = "{}:{}".format(
-                    *divmod(int(mins[0]), 60)) + ":" + mins[1]
-                time = pd.to_timedelta(time)
-                mTime += round(pd.Timedelta(time).total_seconds() / 60, 2)
-            gaa = round((dfRes['ga'].sum(numeric_only=True) / mTime) * 60, 2)
+                if rec[0]!='':
+                  wins += int(rec[0])
+                else:
+                  incompleteData=True
+                if rec[1]!='':
+                  loss += int(rec[1])
+                else:
+                  incompleteData=True
+                if rec[2]!='':
+                  tie += int(rec[2])
+                else:
+                  incompleteData=True
+                if(not incompleteData):
+                    mins = dfRes.iloc[row]['mins'].split(':')
+                    if(mins[0]!=''):
+                      time = "{}:{}".format(
+                          *divmod(int(mins[0]), 60)) + ":" + mins[1]
+                      time = pd.to_timedelta(time)
+                      mTime += round(pd.Timedelta(time).total_seconds() / 60, 2)
+            if(mTime==0):
+              gaa=0
+            else:
+              gaa = round((dfRes['ga'].sum(numeric_only=True) / mTime) * 60, 2)
             svper = round(dfRes.sum(numeric_only=True)[
                           'saves'] / (dfRes.sum(numeric_only=True)['saves'] + dfRes.sum(numeric_only=True)['ga']), 3)
             if 'stat' in stat:
@@ -2556,10 +2592,15 @@ def getPlayerStats(playerDfs, query):
                 if (startYear == 2003 and dfRes.iloc[0]['yr'] != 'FR'):
                     resStr += "(Season Stats Prior to 2002-03 N/A) \n"
                     cStats = True
-                resStr += "----------------------\nCareer     {} {} {} {} {}-{}-{}".format(
-                    dfRes.sum(
-                        numeric_only=True)['gp'], svper, gaa, dfRes.sum(
-                        numeric_only=True)['SO'], wins, loss, tie)
+                if(not incompleteData):
+                  resStr += "----------------------\nCareer     {} {} {} {} {}-{}-{}".format(
+                      dfRes.sum(
+                          numeric_only=True)['gp'], svper, gaa, dfRes.sum(
+                          numeric_only=True)['SO'], wins, loss, tie)
+                else:
+                  resStr += "----------------------\nCareer     {} {} {} {} {}-{}-{}".format(
+                      gStatsLine['gp'].astype(int).to_string(index=False),gStatsLine['sv%'].to_string(index=False),gStatsLine['gaa'].to_string(index=False),'',gStatsLine['W'].astype(int).to_string(index=False),gStatsLine['L'].astype(int).to_string(index=False),gStatsLine['T'].astype(int).to_string(index=False))
+
             elif 'sv' in stat:
                 resStr = 'Season  Yr GP  SV%\n'
                 cStats = False
@@ -2574,7 +2615,7 @@ def getPlayerStats(playerDfs, query):
                         dfRes.iloc[row]['gp'],
                         dfRes.iloc[row]['sv%'])
                 resStr += "----------------------\nCareer     {} {}".format(
-                    dfRes.sum(numeric_only=True)['gp'], svper)
+                    dfRes.sum(numeric_only=True)['gp'].astype(int), svper)
             elif 'gaa' in stat:
                 resStr = 'Season  Yr GP  GAA\n'
                 cStats = False
@@ -2588,8 +2629,12 @@ def getPlayerStats(playerDfs, query):
                         dfRes.iloc[row]['yr'],
                         dfRes.iloc[row]['gp'],
                         dfRes.iloc[row]['gaa'])
-                resStr += "----------------------\nCareer     {} {}".format(
-                    dfRes.sum(numeric_only=True)['gp'], gaa)
+                if(not incompleteData):
+                  resStr += "----------------------\nCareer     {} {}".format(
+                      dfRes.sum(numeric_only=True)['gp'].astype(int), gaa)
+                else:
+                  resStr += "----------------------\nCareer     {} {}".format(
+                      gStatsLine['gp'].astype(int).to_string(index=False),gStatsLine['gaa'].to_string(index=False))
             elif 'record' in stat:
                 resStr = 'Season  Yr GP  Record\n'
                 cStats = False
@@ -2603,8 +2648,13 @@ def getPlayerStats(playerDfs, query):
                         dfRes.iloc[row]['yr'],
                         dfRes.iloc[row]['gp'],
                         dfRes.iloc[row]['record'])
-                resStr += "----------------------\nCareer     {} {}-{}-{}".format(
-                    dfRes.sum(numeric_only=True)['gp'], wins, loss, tie)
+                if(not incompleteData):
+                  resStr += "----------------------\nCareer     {} {}-{}-{}".format(
+                      dfRes.sum(numeric_only=True)['gp'].astype(int), wins, loss, tie)
+                else:
+                  resStr += "----------------------\nCareer     {} {}-{}-{}".format(
+                      gStatsLine['gp'].to_string(index=False),gStatsLine['W'].to_string(index=False), gStatsLine['L'].to_string(index=False), gStatsLine['T'].to_string(index=False))
+                  
             elif ('so' in stat or 'shut' in stat):
                 resStr = 'Season  Yr GP  SO\n'
                 cStats = False
@@ -2619,7 +2669,7 @@ def getPlayerStats(playerDfs, query):
                         dfRes.iloc[row]['gp'],
                         dfRes.iloc[row]['SO'])
                 resStr += "----------------------\nCareer     {} {}".format(
-                    dfRes.sum(numeric_only=True)['gp'], dfRes.sum(numeric_only=True)['SO'])
+                    dfRes.sum(numeric_only=True)['gp'].astype(int), dfRes.sum(numeric_only=True)['SO'].astype(int))
         elif len(pStatsLine) >= 1:
             for row in range(len(pStatsLine)):
                 if opponent != '':
@@ -2641,9 +2691,9 @@ def getPlayerStats(playerDfs, query):
                     assists = pStatsLine.iloc[row]['assists']
                     pts = pStatsLine.iloc[row]['pts']
                 else:
-                    goals = dfRes.sum(numeric_only=True)['goals']
-                    assists = dfRes.sum(numeric_only=True)['assists']
-                    pts = dfRes.sum(numeric_only=True)['pts']
+                    goals = dfRes.sum(numeric_only=True)['goals'].astype(int)
+                    assists = dfRes.sum(numeric_only=True)['assists'].astype(int)
+                    pts = dfRes.sum(numeric_only=True)['pts'].astype(int)
                 if ('stats' in stat or 'statline' in stat.replace(' ', '')):
                     resStr += ("{}-{}--{}".format(goals, assists, pts))
                 elif 'goal' in stat:
@@ -2653,7 +2703,7 @@ def getPlayerStats(playerDfs, query):
                 elif ('pts' in stat or 'point' in stat):
                     resStr += str(pts)
                 resStr += "\n"
-        elif len(gStatsLine) >= 1 and not dfSeasGoalie.loc[(dfSeasGoalie['name']==gStatsLine['name'].to_string(index=False))]['SO'].isnull().all():
+        elif len(gStatsLine) >= 1:
             for row in range(len(gStatsLine)):
                 resStr += "{} ({}): ".format(
                     gStatsLine.iloc[row]['name'],
@@ -2690,7 +2740,7 @@ def getPlayerStats(playerDfs, query):
                 elif 'record' in stat:
                     resStr += "{}-{}-{}".format(wins, loss, tie)
                 resStr += "\n"
-    return resStr
+    return resStr.replace('nan','-')
 
 
 def getBeanpotStats(dfBean, query):
@@ -2833,7 +2883,8 @@ def getBeanpotStats(dfBean, query):
             dfRes = dfBeanpot.loc[dfBeanpot['edition'] == year]
             numType = 'edition'
         finStr = ''
-        if (qType in ['champ', 'winner', '1st', 'first'] or qType == 'finish'):
+        
+        if ('champ' in qType or 'winner' in qType or '1st' in qType or 'first' in qType or qType == 'finish'):
             finStr += "Champion: " + \
                 dfRes['champion'].to_string(index=False).lstrip(' ') + "\n"
         if (qType in ['runner', '2nd', 'second'] or qType == 'finish'):
@@ -2911,8 +2962,9 @@ def getBeanpotStats(dfBean, query):
                         'consOT']:
                     beanStr += dfBeanpot.loc[dfBeanpot[numType] ==
                                              year][i].to_string(index=False).lstrip(' ') + ' '
-            if (typeSearch.group(1) is None or typeSearch.group(
-                    1) in ['final', 'championship']):
+            if (typeSearch.group(1) is None or 'champ' in typeSearch.group(
+                    1) or 'final' in typeSearch.group(
+                    1)):
                 if typeSearch.group(1) is None:
                     beanStr += '\n\n'
                 beanStr += 'Championship:\n'
@@ -3141,15 +3193,15 @@ def getBeanpotStats(dfBean, query):
                 consLossesStr = str(consLosses)
 
             finStr = ''
-            if finish in ['champ', 'title']:
+            if ('champ' in finish or 'title' in finish):
                 return "{} Beanpot Titles".format(champWins)
-            if finish in ['1st', 'first'] or finish == '':
+            if ('1st' in finish or 'first' in finish or finish == ''):
                 finStr += '1st {}\n'.format(champWins)
-            if finish in ['2nd', 'second'] or finish == '':
+            if ('2nd' in finish or 'second' in finish or finish == ''):
                 finStr += '2nd {}\n'.format(champLosses)
-            if finish in ['3rd', 'third'] or finish == '':
+            if ('3rd' in finish or 'third' in finish or finish == ''):
                 finStr += '3rd {}\n'.format(consWins + consTies)
-            if finish in ['4th', 'fourth', 'last'] or finish == '':
+            if ('4th' in finish or 'fourth' in finish or 'last' in finish or finish == ''):
                 finStr += '4th {}\n'.format(consLosses)
             return finStr
     if (awardSearch is not None and beanNumSearch is not None):
