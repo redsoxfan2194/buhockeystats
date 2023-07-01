@@ -3,13 +3,9 @@ import re
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request, jsonify
-from burecordbook import generateRecordBook, generateWomensRecordBook, generateJerseys,\
-generateSkaters, generateGoalies, generateSeasonLeaders, generateBeanpotHistory,\
-generateSeasonSkaters, generateSeasonGoalies, generateGameSkaterStats,\
-generateGameGoalieStats, generateBeanpotAwards, updateCareerStats,\
-determineGender,determineQueryType, cleanupQuery, getBeanpotStats,getResults, getPlayerStats
+from burecordbook import initializeRecordBook,determineGender,determineQueryType, cleanupQuery, getBeanpotStats,getResults, getPlayerStats
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
-
+import burecordbook as burb
 dayNames = {
     0: 'Monday',
     1: 'Tuesday',
@@ -19,21 +15,9 @@ dayNames = {
     5: 'Saturday',
     6: 'Sunday'}
 
-print('Generating...')
-dfGames = generateRecordBook()
-dfGamesWomens = generateWomensRecordBook()
-dfJersey, dfJerseyMens, dfJerseyWomens = generateJerseys()
-dfSkate, dfSkateMens, dfSkateWomens = generateSkaters()
-dfGoalie, dfGoalieMens, dfGoalieWomens = generateGoalies()
-dfLead, dfLeadWomens = generateSeasonLeaders()
-dfBeanpot, dfBeanpotWomens = generateBeanpotHistory()
-dfSeasSkate, dfSeasSkateMens, dfSeasSkateWomens = generateSeasonSkaters()
-dfSeasGoalie, dfSeasGoalieMens, dfSeasGoalieWomens = generateSeasonGoalies()
-dfGameStats, dfGameStatsMens, dfGameStatsWomens = generateGameSkaterStats()
-dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens = generateGameGoalieStats()
-dfBeanpotAwards, dfBeanpotAwardsWomens = generateBeanpotAwards()
-updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie)
-print('Generated')
+print('Inititatizing Record Book...')
+initializeRecordBook()
+print('Record Book Initialized')
 
 app = Flask(__name__)
 
@@ -103,57 +87,57 @@ def players():
         seasVals = []
         sortVal = ''
         if formData['gender'] == 'Mens':
-            mergeGames = dfGames.copy()
+            mergeGames = burb.dfGames.copy()
             if formData['type'] == 'career':
                 if formData['position'] == 'skater':
-                    dfStat = dfSkateMens
+                    dfStat = burb.dfSkateMens
                 elif formData['position'] == 'goalie':
-                    dfStat = dfGoalieMens
+                    dfStat = burb.dfGoalieMens
                 seasVals = sorted(set(dfStat['seasons'].to_string(
                     index=False).replace(' ', '').replace('\n', ',').split(',')))
             elif formData['type'] == 'season':
                 if formData['position'] == 'skater':
-                    dfStat = dfSeasSkateMens
+                    dfStat = burb.dfSeasSkateMens
                     pens = dfStat['pens'].str.split('/', expand=True)
                     dfStat.loc[:, 'pen'] = pens[0].replace('—', np.nan)
                     dfStat.loc[:, 'pim'] = pens[1].replace('—', np.nan)
                 elif formData['position'] == 'goalie':
-                    dfStat = dfSeasGoalieMens
+                    dfStat = burb.dfSeasGoalieMens
                     rec = dfStat.record.str.split('-', expand=True)
                     dfStat['W'] = rec[0].replace('', -1).astype(int)
                     dfStat['L'] = rec[1].replace('', -1).astype(int)
                     dfStat['T'] = rec[2].replace('', -1).astype(int)
             elif formData['type'] == 'game':
                 if formData['position'] == 'skater':
-                    dfStat = dfGameStatsMens
+                    dfStat = burb.dfGameStatsMens
                 elif formData['position'] == 'goalie':
-                    dfStat = dfGameStatsGoalieMens
+                    dfStat = burb.dfGameStatsGoalieMens
         elif formData['gender'] == 'Womens':
-            mergeGames = dfGamesWomens.copy()
+            mergeGames = burb.dfGamesWomens.copy()
             if formData['type'] == 'career':
                 if formData['position'] == 'skater':
-                    dfStat = dfSkateWomens
+                    dfStat = burb.dfSkateWomens
                 elif formData['position'] == 'goalie':
-                    dfStat = dfGoalieWomens
+                    dfStat = burb.dfGoalieWomens
                 seasVals = sorted(set(dfStat['seasons'].to_string(index=False).
                 replace(' ', '').replace('\n', ',').split(',')))
             elif formData['type'] == 'season':
                 if formData['position'] == 'skater':
-                    dfStat = dfSeasSkateWomens
+                    dfStat = burb.dfSeasSkateWomens
                     pens = dfStat['pens'].str.split('/', expand=True)
                     dfStat.loc[:, 'pen'] = pens[0].replace('—', np.nan)
                     dfStat.loc[:, 'pim'] = pens[1].replace('—', np.nan)
                 elif formData['position'] == 'goalie':
-                    dfStat = dfSeasGoalieWomens
+                    dfStat = burb.dfSeasGoalieWomens
                     rec = dfStat.record.str.split('-', expand=True)
                     dfStat['W'] = rec[0].astype(int)
                     dfStat['L'] = rec[1].astype(int)
                     dfStat['T'] = rec[2].astype(int)
             elif formData['type'] == 'game':
                 if formData['position'] == 'skater':
-                    dfStat = dfGameStatsWomens
+                    dfStat = burb.dfGameStatsWomens
                 elif formData['position'] == 'goalie':
-                    dfStat = dfGameStatsGoalieWomens
+                    dfStat = burb.dfGameStatsGoalieWomens
         if seasVals == []:
             seasVals = list(dfStat.season.unique())
         sSeas = formData['seasonStart']
@@ -474,7 +458,7 @@ def players():
                        opponents_values=oppList,
                        sortval=sortVal,
                        isAscending=formData['isAscending'])
-    dfStat = dfSkateMens
+    dfStat = burb.dfSkateMens
     seasVals = sorted(set(dfStat['seasons'].to_string(
         index=False).replace(' ', '').replace('\n', ',').split(',')))
     return render_template('players.html',
@@ -501,49 +485,49 @@ def statsbot():
             if gender == 'Womens':
                 query = cleanupQuery(query, 'bean')
                 dfBean = {
-                    'results': dfBeanpotWomens,
-                    'awards': dfBeanpotAwardsWomens}
+                    'results': burb.dfBeanpotWomens,
+                    'awards': burb.dfBeanpotAwardsWomens}
                 result = getBeanpotStats(dfBean, query)
             else:
                 query = cleanupQuery(query, 'bean')
-                dfBean = {'results': dfBeanpot, 'awards': dfBeanpotAwards}
+                dfBean = {'results': burb.dfBeanpot, 'awards': burb.dfBeanpotAwards}
                 result = getBeanpotStats(dfBean, query)
             if result == '':
                 if determineQueryType(query) != 'player':
                     if gender == 'Womens':
                         result = getResults(
-                            dfGamesWomens,
-                            dfGameStatsWomens,
-                            dfGameStatsGoalieWomens,
+                            burb.dfGamesWomens,
+                            burb.dfGameStatsWomens,
+                            burb.dfGameStatsGoalieWomens,
                             query)
                     else:
                         result = getResults(
-                            dfGames, dfGameStatsMens, dfGameStatsGoalieMens, query)
+                            burb.dfGames, burb.dfGameStatsMens, burb.dfGameStatsGoalieMens, query)
                 else:
                     playerDfs = {}
-                    playerDfs['jerseys'] = dfJersey
-                    playerDfs['seasonleaders'] = dfLead
-                    playerDfs['careerSkaters'] = dfSkate
-                    playerDfs['careerGoalies'] = dfGoalie
-                    playerDfs['seasonSkaters'] = dfSeasSkate
-                    playerDfs['seasonGoalies'] = dfSeasGoalie
-                    playerDfs['gameStats'] = dfGameStats
-                    playerDfs['gameGoalieStats'] = dfGameStatsGoalie
+                    playerDfs['jerseys'] = burb.dfJersey
+                    playerDfs['seasonleaders'] = burb.dfLead
+                    playerDfs['careerSkaters'] = burb.dfSkate
+                    playerDfs['careerGoalies'] = burb.dfGoalie
+                    playerDfs['seasonSkaters'] = burb.dfSeasSkate
+                    playerDfs['seasonGoalies'] = burb.dfSeasGoalie
+                    playerDfs['gameStats'] = burb.dfGameStats
+                    playerDfs['gameGoalieStats'] = burb.dfGameStatsGoalie
                     if gender == 'Womens':
-                        playerDfs['jerseys'] = dfJerseyWomens
-                        playerDfs['seasonleaders'] = dfLeadWomens
-                        playerDfs['careerSkaters'] = dfSkateWomens
-                        playerDfs['careerGoalies'] = dfGoalieWomens
-                        playerDfs['seasonSkaters'] = dfSeasSkateWomens
-                        playerDfs['seasonGoalies'] = dfSeasGoalieWomens
-                        playerDfs['gameStats'] = dfGameStatsWomens
-                        playerDfs['gameGoalieStats'] = dfGameStatsGoalieWomens
+                        playerDfs['jerseys'] = burb.dfJerseyWomens
+                        playerDfs['seasonleaders'] = burb.dfLeadWomens
+                        playerDfs['careerSkaters'] = burb.dfSkateWomens
+                        playerDfs['careerGoalies'] = burb.dfGoalieWomens
+                        playerDfs['seasonSkaters'] = burb.dfSeasSkateWomens
+                        playerDfs['seasonGoalies'] = burb.dfSeasGoalieWomens
+                        playerDfs['gameStats'] = burb.dfGameStatsWomens
+                        playerDfs['gameGoalieStats'] = burb.dfGameStatsGoalieWomens
                     if gender == 'Mens':
-                        playerDfs['seasonSkaters'] = dfSeasSkateMens
-                        playerDfs['seasonGoalies'] = dfSeasGoalieMens
-                        playerDfs['jerseys'] = dfJerseyMens
-                        playerDfs['gameStats'] = dfGameStatsMens
-                        playerDfs['gameGoalieStats'] = dfGameStatsGoalieMens
+                        playerDfs['seasonSkaters'] = burb.dfSeasSkateMens
+                        playerDfs['seasonGoalies'] = burb.dfSeasGoalieMens
+                        playerDfs['jerseys'] = burb.dfJerseyMens
+                        playerDfs['gameStats'] = burb.dfGameStatsMens
+                        playerDfs['gameGoalieStats'] = burb.dfGameStatsGoalieMens
                     result = getPlayerStats(playerDfs, query)
             result = result.split('\n')
             result = convertToHtmlTable(result)
@@ -565,8 +549,8 @@ def records():
     '''
     buscore = 'BU Score'
     oppscore = 'Opp Score'
-    dfRes = dfGames
-    dfOrig = dfGames
+    dfRes = burb.dfGames
+    dfOrig = burb.dfGames
     minYear = dfRes.year.min()
     maxYear = dfRes.year.max()
     result = ''
@@ -581,11 +565,11 @@ def records():
     if request.method == 'POST':
         formData = request.form
         if formData['gender'] == 'Mens':
-            dfRes = dfGames
-            dfOrig = dfGames
+            dfRes = burb.dfGames
+            dfOrig = burb.dfGames
         else:
-            dfRes = dfGamesWomens
-            dfOrig = dfGamesWomens
+            dfRes = burb.dfGamesWomens
+            dfOrig = burb.dfGamesWomens
         minYear = dfRes.year.min()
         maxYear = dfRes.year.max()
         if 'startYear' in formData:

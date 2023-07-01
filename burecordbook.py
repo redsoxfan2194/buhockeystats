@@ -19,6 +19,36 @@ except ImportError:
 tourneyDict = {}
 # Get Tourneys
 
+# initialize DataFrames
+dfGames = pd.DataFrame()
+dfGamesWomens = pd.DataFrame()
+dfJersey = pd.DataFrame()
+dfJerseyMens = pd.DataFrame()
+dfJerseyWomens = pd.DataFrame()
+dfSkate = pd.DataFrame()
+dfSkateMens = pd.DataFrame()
+dfSkateWomens = pd.DataFrame()
+dfGoalie = pd.DataFrame()
+dfGoalieMens = pd.DataFrame()
+dfGoalieWomens = pd.DataFrame()
+dfLead = pd.DataFrame()
+dfLeadWomens = pd.DataFrame()
+dfBeanpot = pd.DataFrame()
+dfBeanpotWomens = pd.DataFrame()
+dfSeasSkate = pd.DataFrame()
+dfSeasSkateMens = pd.DataFrame()
+dfSeasSkateWomens = pd.DataFrame()
+dfSeasGoalie = pd.DataFrame()
+dfSeasGoalieMens = pd.DataFrame()
+dfSeasGoalieWomens = pd.DataFrame()
+dfGameStats = pd.DataFrame()
+dfGameStatsMens = pd.DataFrame()
+dfGameStatsWomens = pd.DataFrame()
+dfGameStatsGoalie = pd.DataFrame()
+dfGameStatsGoalieMens = pd.DataFrame()
+dfGameStatsGoalieWomens = pd.DataFrame()
+dfBeanpotAwards = pd.DataFrame()
+dfBeanpotAwardsWomens = pd.DataFrame()
 
 def generateRecordBook():
     '''Generate BU Men's Hockey Record Book'''
@@ -3641,3 +3671,20 @@ def updateResults(gender):
                         game['scoreline']),
                         line)
             sources.write(line)
+            
+def initializeRecordBook():
+  ''' initialize all DataFrames in record book'''
+  global dfGames, dfGamesWomens, dfJersey, dfJerseyMens, dfJerseyWomens, dfSkate, dfSkateMens, dfSkateWomens, dfGoalie, dfGoalieMens, dfGoalieWomens, dfLead, dfLeadWomens, dfBeanpot, dfBeanpotWomens, dfSeasSkate, dfSeasSkateMens, dfSeasSkateWomens, dfSeasGoalie, dfSeasGoalieMens, dfSeasGoalieWomens, dfGameStats, dfGameStatsMens, dfGameStatsWomens, dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens, dfBeanpotAwards, dfBeanpotAwardsWomens
+  dfGames = generateRecordBook()
+  dfGamesWomens = generateWomensRecordBook()
+  dfJersey, dfJerseyMens, dfJerseyWomens = generateJerseys()
+  dfSkate, dfSkateMens, dfSkateWomens = generateSkaters()
+  dfGoalie, dfGoalieMens, dfGoalieWomens = generateGoalies()
+  dfLead, dfLeadWomens = generateSeasonLeaders()
+  dfBeanpot, dfBeanpotWomens = generateBeanpotHistory()
+  dfSeasSkate, dfSeasSkateMens, dfSeasSkateWomens = generateSeasonSkaters()
+  dfSeasGoalie, dfSeasGoalieMens, dfSeasGoalieWomens = generateSeasonGoalies()
+  dfGameStats, dfGameStatsMens, dfGameStatsWomens = generateGameSkaterStats()
+  dfBeanpotAwards, dfBeanpotAwardsWomens = generateBeanpotAwards()
+  dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens = generateGameGoalieStats()
+  updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie)
