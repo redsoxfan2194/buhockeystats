@@ -3,9 +3,11 @@ import re
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request, jsonify
-from burecordbook import initializeRecordBook,determineGender,determineQueryType, cleanupQuery, getBeanpotStats,getResults, getPlayerStats
+from querystatsbot import querystatsbot
+from burecordbook import initializeRecordBook
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
 import burecordbook as burb
+
 dayNames = {
     0: 'Monday',
     1: 'Tuesday',
@@ -470,6 +472,7 @@ def players():
                            number="Number",
                            date="Date")
 
+
 @app.route('/statsbot', methods=['POST', 'GET'])
 def statsbot():
     ''' Loads BU Hockey Stats StatsBot page
@@ -480,62 +483,14 @@ def statsbot():
     if request.method == 'POST':
         formData = request.form
         if 'query' in formData.keys():
-            query, gender = determineGender(formData['query'])
-            query = query.lstrip(' ')
-            if gender == 'Womens':
-                query = cleanupQuery(query, 'bean')
-                dfBean = {
-                    'results': burb.dfBeanpotWomens,
-                    'awards': burb.dfBeanpotAwardsWomens}
-                result = getBeanpotStats(dfBean, query)
-            else:
-                query = cleanupQuery(query, 'bean')
-                dfBean = {'results': burb.dfBeanpot, 'awards': burb.dfBeanpotAwards}
-                result = getBeanpotStats(dfBean, query)
-            if result == '':
-                if determineQueryType(query) != 'player':
-                    if gender == 'Womens':
-                        result = getResults(
-                            burb.dfGamesWomens,
-                            burb.dfGameStatsWomens,
-                            burb.dfGameStatsGoalieWomens,
-                            query)
-                    else:
-                        result = getResults(
-                            burb.dfGames, burb.dfGameStatsMens, burb.dfGameStatsGoalieMens, query)
-                else:
-                    playerDfs = {}
-                    playerDfs['jerseys'] = burb.dfJersey
-                    playerDfs['seasonleaders'] = burb.dfLead
-                    playerDfs['careerSkaters'] = burb.dfSkate
-                    playerDfs['careerGoalies'] = burb.dfGoalie
-                    playerDfs['seasonSkaters'] = burb.dfSeasSkate
-                    playerDfs['seasonGoalies'] = burb.dfSeasGoalie
-                    playerDfs['gameStats'] = burb.dfGameStats
-                    playerDfs['gameGoalieStats'] = burb.dfGameStatsGoalie
-                    if gender == 'Womens':
-                        playerDfs['jerseys'] = burb.dfJerseyWomens
-                        playerDfs['seasonleaders'] = burb.dfLeadWomens
-                        playerDfs['careerSkaters'] = burb.dfSkateWomens
-                        playerDfs['careerGoalies'] = burb.dfGoalieWomens
-                        playerDfs['seasonSkaters'] = burb.dfSeasSkateWomens
-                        playerDfs['seasonGoalies'] = burb.dfSeasGoalieWomens
-                        playerDfs['gameStats'] = burb.dfGameStatsWomens
-                        playerDfs['gameGoalieStats'] = burb.dfGameStatsGoalieWomens
-                    if gender == 'Mens':
-                        playerDfs['seasonSkaters'] = burb.dfSeasSkateMens
-                        playerDfs['seasonGoalies'] = burb.dfSeasGoalieMens
-                        playerDfs['jerseys'] = burb.dfJerseyMens
-                        playerDfs['gameStats'] = burb.dfGameStatsMens
-                        playerDfs['gameGoalieStats'] = burb.dfGameStatsGoalieMens
-                    result = getPlayerStats(playerDfs, query)
-            result = result.split('\n')
-            result = convertToHtmlTable(result)
+            query = formData['query']
+            result = convertToHtmlTable(querystatsbot(query))
 
             return render_template(
                 'statsbot.html',
                 result=result,
-                query=formData['query'].upper())
+                query=query.upper()
+            )
 
     return render_template('statsbot.html', result='', query='')
 
