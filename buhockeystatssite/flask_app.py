@@ -15,7 +15,7 @@ dayNames = {
     5: 'Saturday',
     6: 'Sunday'}
 
-print('Inititatizing Record Book...')
+print('Initializing Record Book...')
 initializeRecordBook()
 print('Record Book Initialized')
 
