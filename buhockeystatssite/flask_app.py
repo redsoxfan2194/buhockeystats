@@ -144,33 +144,35 @@ def players():
             seasVals = list(dfStat.season.unique())
         sSeas = formData['seasonStart']
         eSeas = formData['seasonEnd']
+        if sSeas not in seasVals:
+                sIdx = 0
+                sSeas = seasVals[0]
+        else:
+            sIdx = seasVals.index(sSeas)
+        eIdx = seasVals.index(eSeas) + 1
+        if sIdx > eIdx:
+            sIdx, eIdx = eIdx, sIdx
+            sSeas = seasVals[sIdx]
+            eSeas = seasVals[eIdx]
+        valSeas = seasVals[sIdx:eIdx]
+        if formData['type'] == 'career':
+          idx = []
+          for seas in valSeas:
+              idx += (list(dfStat.loc[dfStat['seasons'].str.contains(seas)].index))
+          idx = list(set(idx))
+          dfStat = dfStat.loc[idx]
+          dfStat.reset_index(inplace=True)
+          
         if formData['season'] != 'all':
             if formData['type'] == 'career':
                 dfStat = dfStat.loc[dfStat['seasons'].str.contains(
                     formData['season'])]
             else:
-                dfStat = dfStat.query(f"season == '{formData['season']}'")
+                dfStat = dfStat.loc[(dfStat['season'].isin(valSeas)) & (dfStat['season']==formData['season'])]
         else:
-            if sSeas not in seasVals:
-                sIdx = 0
-                sSeas = seasVals[0]
-            else:
-                sIdx = seasVals.index(sSeas)
-            eIdx = seasVals.index(eSeas) + 1
-            if sIdx > eIdx:
-                sIdx, eIdx = eIdx, sIdx
-                sSeas = seasVals[sIdx]
-                eSeas = seasVals[eIdx]
-            valSeas = seasVals[sIdx:eIdx]
-            if formData['type'] == 'career':
-                idx = []
-                for seas in valSeas:
-                    idx += (list(dfStat.loc[dfStat['seasons'].str.contains(seas)].index))
-                idx = list(set(idx))
-                dfStat = dfStat.loc[idx]
-                dfStat.reset_index(inplace=True)
-            else:
+            if formData['type'] != 'career':
                 dfStat = dfStat.loc[dfStat['season'].isin(valSeas)]
+                
         if formData['type'] != 'career':
             if (formData['pos'] !=
                     'all' and formData['position'] != 'goalie'):
