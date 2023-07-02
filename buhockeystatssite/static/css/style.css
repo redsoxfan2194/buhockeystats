@@ -153,6 +153,7 @@ hr{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .dropdown-container label {
