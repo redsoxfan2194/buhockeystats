@@ -307,11 +307,11 @@ def formatStats(dfRes):
         inplace=True)
     style.set_table_styles([headers, table])
     if 'Split' in dfRes.columns:
-        dfRes = style.to_html(
+        dfRes = style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(
             index_names=False,
             render_links=True).replace(">nan<", "><")
     else:
-        dfRes = style.to_html(index_names=False, render_links=True).replace(
+        dfRes = style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(index_names=False, render_links=True).replace(
             ">nan<", ">-<").replace('<th', '<th onclick=setSort(this)')
     return dfRes
 
