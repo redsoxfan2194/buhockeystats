@@ -194,7 +194,7 @@ def formatResults(dfRes):
             [col for col in tableData.columns if col != firstCol]
         tableData = tableData[newOrder]
     tableData.rename(columns=COLUMNS, inplace=True)
-    return tableData.style.set_table_attributes('class="table table-borderless table-responsive-md"').apply(
+    return tableData.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').apply(
         stylerow,
         axis=1).hide(
         axis='index').format(
