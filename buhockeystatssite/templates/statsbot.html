@@ -1,19 +1,15 @@
 {% extends "layout.html" %}
 {% block content %}
-    <form method='POST'>
-        <p id="query">Query: <input id='query' type = "text" name = "query" /></p>
-        <p id="submitbutton"><input type = "submit" value = "Submit" /></p>
-    </form>
-    <div class="center">
-        <input type = "submit" id='helpbutton' value="Help" onclick="openHelpImage()"/>
-    </div>
-    <script>
-        function openHelpImage() {
-          window.open("{{ url_for('static', filename='images/statsbotcheatsheet.png') }}", "_blank");
-        }
-    </script>
-    <h2> {{query}}</h2>
-    {% autoescape false %}
-    {{result}}
-    {% endautoescape %}
+<form method='POST'>
+    <p id="query">Query: <input id='query' type = "text" name = "query" /></p>
+    <p id="submitbutton"><input type = "submit" value = "Submit" /></p>
+</form>
+<div class="center">
+    <input type = "submit" id='helpbutton' value="Help" onclick="openHelpImage()"/>
+</div>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/statsbot.js') }}"></script>
+<h2>{{query}}</h2>
+{% autoescape false %}
+{{result}}
+{% endautoescape %}
 {% endblock %}
