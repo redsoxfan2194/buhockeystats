@@ -64,6 +64,14 @@ function initializeFilters() {
 
     var mobileButton = document.getElementById("filterMenu");
     mobileButton.addEventListener("click", onClick);
+    
+    // Hide all season stats
+    const statsElements = document.querySelectorAll(".season-stats, .game-stats");
+
+    // Hide all stats elements
+    for (let i = 0; i < statsElements.length; i++) {
+        statsElements[i].classList.add("hidden");
+    }
 }
 
 function submitForm(reset = "false") {
@@ -207,4 +215,45 @@ function submitForm(reset = "false") {
             console.error("Error:", error);
         },
     });
+}
+ function setSort(header) {
+            var columnName = header.innerHTML;
+            if(!columnName)
+                return;
+            var thElements = document.getElementsByTagName('th');
+            document.getElementById("sortval").value = columnName.replace("<span class=\"arrow\">▲</span> ","").replace("<span class=\"arrow\">▼</span> ","")
+
+            // Clear arrow from all other th elements
+            for (var i = 0; i < thElements.length; i++) {
+                var th = thElements[i];
+                if (th !== header) {
+                    var arrow = th.querySelector('.arrow');
+                    if (arrow) {
+                        th.removeChild(arrow);
+                        th.innerHTML = th.innerHTML.trim();
+                    }
+                }
+            }
+
+            var arrow = header.querySelector('.arrow');
+            if (arrow === null) {
+                // Add up arrow
+                arrow = document.createElement('span');
+                arrow.className = 'arrow';
+                arrow.innerHTML = '▼'; // Up arrow unicode
+
+                header.appendChild(arrow);
+                header.innerHTML += ' ';
+                document.getElementById("isAscending").value = "true";
+            } else if (arrow.innerHTML === '▼') {
+                // Change to down arrow
+                arrow.innerHTML = '▲'; // Down arrow unicode
+                document.getElementById("isAscending").value = "false";
+            } else {
+                // Remove arrow
+                header.removeChild(arrow);
+                header.innerHTML = header.innerHTML.trim(); // Remove trailing space
+                document.getElementById("isAscending").value = "";
+            }
+            submitForm();
 }
