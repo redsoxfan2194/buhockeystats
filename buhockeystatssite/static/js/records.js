@@ -1,12 +1,12 @@
 console.log("loading records.js");
-initializeFilters();
+
 const onKeydown = function (event) {
     if (event.key === "Enter") {
         event.preventDefault(); // Prevent form submission
         submitForm();
     }
 };
-
+initializeFilters();
 function clearFilers(event) {
     event.preventDefault();
     document.getElementById("arena").value = "all";
@@ -173,12 +173,8 @@ function initializeFilters() {
         eYear.disabled = false;
     }
 
-    // Populate the days initially
-    populateDays();
-
     // Add event listener to the month dropdown
-    monthSelect.addEventListener("change", populateDays);
-    document.getElementById("day").value = "{{selected_day}}";
+    document.getElementById("month").addEventListener("change", populateDays);
 
     var mobileButton = document.getElementById("filterMenu");
     var hiddenDiv = document.getElementById("options-menu");
