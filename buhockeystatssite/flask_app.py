@@ -101,8 +101,8 @@ def players():
                 if formData['position'] == 'skater':
                     dfStat = burb.dfSeasSkateMens
                     pens = dfStat['pens'].str.split('/', expand=True)
-                    dfStat.loc[:, 'pen'] = pens[0].replace('—', np.nan)
-                    dfStat.loc[:, 'pim'] = pens[1].replace('—', np.nan)
+                    dfStat.loc[:, 'pen'] = pens[0].replace('—', np.nan).astype('Int64')
+                    dfStat.loc[:, 'pim'] = pens[1].replace('—', np.nan).astype('Int64')
                 elif formData['position'] == 'goalie':
                     dfStat = burb.dfSeasGoalieMens
                     rec = dfStat.record.str.split('-', expand=True)
