@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../buhockeystatssite')
 from burecordbook import *
 import coverage
 

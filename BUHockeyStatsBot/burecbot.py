@@ -1,3 +1,6 @@
+import sys
+sys.path.append('../buhockeystatssite')
+
 from burecordbook import *
 
 if __name__ == '__main__':
