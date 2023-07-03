@@ -1,560 +1,177 @@
 {% extends "layout.html" %}
 {% block content %}
-   <input type = "submit" id='filterMenu' value = "&#9881&#xFE0E;"/>
-   <div class="dropdown-container options-menu" id="options-menu">
-      <form method="post" id="resForm">
-         <select class="btn btn-custom-red dropdown-toggle" name="gender" id="gender" onchange="clearFilers(event)">
-         <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %} >Mens</option>
-         <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}>Womens</option>
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" name="tabletype" id="tabletype" onchange="submitForm('true')">
-         <option value="" {% if selected_tabletype == '' %} selected {% endif %}>Results</option>
-         <option value="record" {% if selected_tabletype == 'record' %} selected {% endif %}>Record</option>
-         <option value="first" {% if selected_tabletype == 'first' %} selected {% endif %}>First Game</option>
-         <option value="last" {% if selected_tabletype == 'last' %} selected {% endif %}>Last Game</option>
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" name="grouping" id="grouping" onchange="submitForm()">
-         <option value="Opponent" {% if selected_group == 'Opponent' %} selected {% endif %}>Group by: Opponent</option>
-         <option value="OppConference" {% if selected_group == 'OppConference' %} selected {% endif %}>Group by: Conference</option>
-         <option value="Coach" {% if selected_group == 'Coach' %} selected {% endif %}>Group by: Coach</option>
-         <option value="Arena" {% if selected_group == 'Arena' %} selected {% endif %}>Group by: Arena</option>
-         <option value="Season" {% if selected_group == 'Season' %} selected {% endif %}>Group by: Season</option>
-         <option value="Month" {% if selected_group == 'Month' %} selected {% endif %}>Group by: Month</option>
-         <option value="DOW" {% if selected_group == 'DOW' %} selected {% endif %}>Group by: DOW</option>
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" name="sortval" id="sortval" onchange="submitForm()">
-         <option class="res-sort" value="date" {% if selected_sort == 'date' %} selected {% endif %} >Date</option>
-         <option class="res-sort" value="GD" {% if selected_sort == 'GD' %} selected {% endif %}>MOV</option>
-         <option class="res-sort" value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}>Goals Scored</option>
-         <option class="res-sort" value="OppoScore" {% if selected_sort == 'OppoScore' %} selected {% endif %}>Goals Allowed</option>
-         <option class="rec-sort" value="sort" {% if selected_sort == 'sort' %} selected {% endif %}>Sort</option>
-         <option class="rec-sort" value="W" {% if selected_sort == 'W' %} selected {% endif %}>Wins</option>
-         <option class="rec-sort" value="L" {% if selected_sort == 'L' %} selected {% endif %}>Losses</option>
-         <option class="rec-sort" value="T" {% if selected_sort == 'T' %} selected {% endif %}>Ties</option>
-         <option class="rec-sort" value="Win%" {% if selected_sort == 'Win%' %} selected {% endif %}>Win%</option>
-         </select>
-         <span id="arrowUp" class="arrow-up" onclick=";toggleArrow()">&#9650;</span>
-         <span id="arrowDown" class="arrow-down" onclick="toggleArrow()">&#9660;</span>
-         <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
-         <select class="btn btn-custom-red dropdown-toggle" name="opponent" id="opponent" onchange="submitForm()">
-         <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}>Opponent</option>
-         {% for opponent in opponents_values %}
-         <option value="{{ opponent }}" {% if selected_opponent == opponent %} selected {% endif %}>{{ opponent }}</option>
-         {% endfor %}
-         </select>
-         
-         <select class="btn btn-custom-red dropdown-toggle" name="conference" id="conference" onchange="submitForm()">
-         <option value="all" {% if selected_conference == 'all' %} selected {% endif %}>Conference</option>
-         <option value="conf" {% if selected_conference == 'conf' %} selected {% endif %}>Conference Games</option>
-         <option value="nc" {% if selected_conference == 'nc' %} selected {% endif %}>Non-Conference</option>
-         {% for conference in conference_values %}
-         <option value="{{ conference }}" {% if selected_conference == conference %} selected {% endif %}>{{ conference }}</option>
-         {% endfor %}
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" id="DOW" name="DOW" onchange="submitForm()">
-         <option value=-1 {% if selected_dow == -1 %} selected {% endif %} >DOW</option>
-         <option value=6 {% if selected_dow == 6 %} selected {% endif %} >Sunday</option>
-         <option value=0 {% if selected_dow == 0 %} selected {% endif %} >Monday</option>
-         <option value=1 {% if selected_dow == 1 %} selected {% endif %} >Tuesday</option>
-         <option value=2 {% if selected_dow == 2 %} selected {% endif %} >Wednesday</option>
-         <option value=3 {% if selected_dow == 3 %} selected {% endif %} >Thursday</option>
-         <option value=4 {% if selected_dow == 4 %} selected {% endif %} >Friday</option>
-         <option value=5 {% if selected_dow == 5 %} selected {% endif %} >Saturday</option>
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" id="month" name="month" onchange="submitForm()">
-         <option value=0 {% if selected_month == 0%} selected {% endif %}>Month</option>
-         <option value=1 {% if selected_month == 1%} selected {% endif %}>January</option>
-         <option value=2 {% if selected_month == 2%} selected {% endif %}>February</option>
-         <option value=3 {% if selected_month == 3%} selected {% endif %}>March</option>
-         <option value=4 {% if selected_month == 4%} selected {% endif %}>April</option>
-         <option value=5 {% if selected_month == 5%} selected {% endif %}>May</option>
-         <option value=6 {% if selected_month == 6%} selected {% endif %}>June</option>
-         <option value=7 {% if selected_month == 7%} selected {% endif %}>July</option>
-         <option value=8 {% if selected_month == 8%} selected {% endif %}>August</option>
-         <option value=9 {% if selected_month == 9%} selected {% endif %}>September</option>
-         <option value=10 {% if selected_month == 10%} selected {% endif %}>October</option>
-         <option value=11 {% if selected_month == 11%} selected {% endif %}>November</option>
-         <option value=12 {% if selected_month == 12%} selected {% endif %}>December</option>
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" id="day" name="day" onchange="submitForm()">
+<input type="submit" id='filterMenu' value="&#9881&#xFE0E;" />
+<form method="post" id="resForm">
+    <div class="dropdown-container options-menu" id="options-menu">
+        <select class="btn btn-custom-red dropdown-toggle" name="gender" id="gender" onchange="clearFilers(event)">
+            <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %}> Mens </option>
+            <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}> Womens </option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="tabletype" id="tabletype" onchange="submitForm('true')">
+            <option value="" {% if selected_tabletype == '' %} selected {% endif %}> Results </option>
+            <option value="record" {% if selected_tabletype == 'record' %} selected {% endif %}> Record </option>
+            <option value="first" {% if selected_tabletype == 'first' %} selected {% endif %}> First Game </option>
+            <option value="last" {% if selected_tabletype == 'last' %} selected {% endif %}> Last Game </option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="grouping" id="grouping" onchange="submitForm()">
+            <option value="Opponent" {% if selected_group == 'Opponent' %} selected {% endif %}> Group by: Opponent </option>
+            <option value="OppConference" {% if selected_group == 'OppConference' %} selected {% endif %}> Group by: Conference </option>
+            <option value="Coach" {% if selected_group == 'Coach' %} selected {% endif %}> Group by: Coach </option>
+            <option value="Arena" {% if selected_group == 'Arena' %} selected {% endif %}> Group by: Arena </option>
+            <option value="Season" {% if selected_group == 'Season' %} selected {% endif %}> Group by: Season </option>
+            <option value="Month" {% if selected_group == 'Month' %} selected {% endif %}> Group by: Month </option>
+            <option value="DOW" {% if selected_group == 'DOW' %} selected {% endif %}> Group by: DOW </option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="sortval" id="sortval" onchange="submitForm()">
+            <option class="res-sort" value="date" {% if selected_sort == 'date' %} selected {% endif %}> Date </option>
+            <option class="res-sort" value="GD" {% if selected_sort == 'GD' %} selected {% endif %}> MOV </option>
+            <option class="res-sort" value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}> Goals Scored </option>
+            <option class="res-sort" value="OppoScore" {% if selected_sort == 'OppoScore' %} selected {% endif %}> Goals Allowed </option>
+            <option class="rec-sort" value="sort" {% if selected_sort == 'sort' %} selected {% endif %}> Sort </option>
+            <option class="rec-sort" value="W" {% if selected_sort == 'W' %} selected {% endif %}> Wins </option>
+            <option class="rec-sort" value="L" {% if selected_sort == 'L' %} selected {% endif %}> Losses </option>
+            <option class="rec-sort" value="T" {% if selected_sort == 'T' %} selected {% endif %}> Ties </option>
+            <option class="rec-sort" value="Win%" {% if selected_sort == 'Win%' %} selected {% endif %}> Win% </option>
+        </select>
+        <span id="arrowUp" class="arrow-up" onclick=";toggleArrow()">&#9650;</span>
+        <span id="arrowDown" class="arrow-down" onclick="toggleArrow()">&#9660;</span>
+        <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
+        <select class="btn btn-custom-red dropdown-toggle" name="opponent" id="opponent" onchange="submitForm()">
+            <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}> Opponent </option>
+            {% for opponent in opponents_values %}
+                <option value="{{ opponent }}" {% if selected_opponent == opponent %} selected {% endif %}>
+                    {{ opponent }}
+                </option>
+            {% endfor %}
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="conference" id="conference" onchange="submitForm()">
+            <option value="all" {% if selected_conference == 'all' %} selected {% endif %}> Conference </option>
+            <option value="conf" {% if selected_conference == 'conf' %} selected {% endif %}> Conference Games </option>
+            <option value="nc" {% if selected_conference == 'nc' %} selected {% endif %}> Non-Conference </option>
+            {% for conference in conference_values %}
+                <option value="{{ conference }}" {% if selected_conference == conference %} selected {% endif %}>
+                    {{ conference }}
+                </option>
+            {% endfor %}
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" id="DOW" name="DOW" onchange="submitForm()">
+            <option value=-1 {% if selected_dow == -1 %} selected {% endif %}>DOW</option>
+            <option value=6 {% if selected_dow == 6 %} selected {% endif %}> Sunday </option>
+            <option value=0 {% if selected_dow == 0 %} selected {% endif %}> Monday </option>
+            <option value=1 {% if selected_dow == 1 %} selected {% endif %}> Tuesday </option>
+            <option value=2 {% if selected_dow == 2 %} selected {% endif %}> Wednesday </option>
+            <option value=3 {% if selected_dow == 3 %} selected {% endif %}> Thursday </option>
+            <option value=4 {% if selected_dow == 4 %} selected {% endif %}> Friday </option>
+            <option value=5 {% if selected_dow == 5 %} selected {% endif %}> Saturday </option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" id="month" name="month" onchange="submitForm()">
+            <option value=0 {% if selected_month == 0%} selected {% endif %}> Month </option>
+            <option value=1 {% if selected_month == 1%} selected {% endif %}> January </option>
+            <option value=2 {% if selected_month == 2%} selected {% endif %}> February </option>
+            <option value=3 {% if selected_month == 3%} selected {% endif %}> March </option>
+            <option value=4 {% if selected_month == 4%} selected {% endif %}> April </option>
+            <option value=5 {% if selected_month == 5%} selected {% endif %}> May </option>
+            <option value=6 {% if selected_month == 6%} selected {% endif %}> June </option>
+            <option value=7 {% if selected_month == 7%} selected {% endif %}> July </option>
+            <option value=8 {% if selected_month == 8%} selected {% endif %}> August </option>
+            <option value=9 {% if selected_month == 9%} selected {% endif %}> September </option>
+            <option value=10 {% if selected_month == 10%} selected {% endif %}> October </option>
+            <option value=11 {% if selected_month == 11%} selected {% endif %}> November </option>
+            <option value=12 {% if selected_month == 12%} selected {% endif %}> December </option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" id="day" name="day" onchange="submitForm()">
             <option value=0>Day</option>
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="submitForm()">
-         <option value="all" {% if selected_season == 'all' %} selected {% endif %}>Season</option>
-         {% for season in season_values %}
-         <option value="{{ season }}" {% if selected_season == season %} selected {% endif %}>{{ season }}</option>
-         {% endfor %}
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" name="location" id="location" onchange="submitForm()">
-         <option value="all" {% if selected_location == 'all' %} selected {% endif %} >Location</option>
-         <option value="Home" {% if selected_location == 'Home' %} selected {% endif %} >Home</option>
-         <option value="Away" {% if selected_location == 'Away' %} selected {% endif %}>Away</option>
-         <option value="Neutral" {% if selected_location == 'Neutral' %} selected {% endif %}>Neutral</option>
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" name="buscoreop" id="buscoreop" onchange="submitForm()">
-         <option value="==" {% if selected_buop == '==' %} selected {% endif %}>=</option>
-         <option value=">=" {% if selected_buop == '>=' %} selected {% endif %}>>=</option>
-         <option value=">" {% if selected_buop == '>' %} selected {% endif %}>></option>
-         <option value="<" {% if selected_buop == '<' %} selected {% endif %}><</option>
-         <option value="<=" {% if selected_buop == '<=' %} selected {% endif %}><=</option>
-         </select>
-         <input type="number" name="buscore" id="buscore" value="{{ buscore }}" placeholder="BU Score" min=0 onchange="submitForm()" onsubmit="submitForm()">
-         <select class="btn btn-custom-red dropdown-toggle" name="oppscoreop" id="oppscoreop" onchange="submitForm()">
-         <option value="==" {% if selected_oppop == '==' %} selected {% endif %}>=</option>
-         <option value=">=" {% if selected_oppop == '>=' %} selected {% endif %}>>=</option>
-         <option value=">" {% if selected_oppop == '>' %} selected {% endif %}>></option>
-         <option value="<" {% if selected_oppop == '<' %} selected {% endif %}>&lt;</option>
-         <option value="<=" {% if selected_oppop == '<=' %} selected {% endif %}>&lt;=</option>
-         </select>
-         <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" placeholder="Opp Score" min=0 onchange="submitForm()" onsubmit="submitForm()">
-         <select class="btn btn-custom-red dropdown-toggle" name="arena" id="arena" onchange="submitForm()">
-         <option value="all" {% if selected_arena == 'all' %} selected {% endif %}>Arena</option>
-         {% for arena in arena_values %}
-         <option value="{{ arena }}" {% if selected_arena == arena %} selected {% endif %}>{{ arena }}</option>
-         {% endfor %}
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" name="tourney" id="tourney" onchange="submitForm()">
-         {% for tourney in tourney_values %}
-         <option value="{{ tourney }}" {% if selected_tourney == tourney %} selected {% endif %}>{{ tourney }}</option>
-         {% endfor %}
-         </select>
-         <select class="btn btn-custom-red dropdown-toggle" name="coach" id="coach" onchange="submitForm()">
-         <option value="all" {% if selected_coach == 'all' %} selected {% endif %}>Coach</option>
-         {% for coach in coach_values %}
-         <option value="{{ coach }}" {% if selected_coach == coach %} selected {% endif %}>{{ coach }}</option>
-         {% endfor %}
-         </select>
-         <input type = "submit" id='resetButton' value = "Reset"/>
-   </div>
-   <div class='dropdown-container'>
-   <select class="btn btn-custom-red dropdown-toggle" name="range" id="range" onchange="toggleDropdowns()">
-   <option value="year" {% if selected_range == "year" %} selected {% endif %}>Year Range:</option>
-   <option value="season" {% if selected_range == "season" %} selected {% endif %}>Season Range:</option>
-   </select>
-   <input type="number" name="startYear" id="startYear" value="{{ startYear }}" placeholder="{{startYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
-   <select class="btn btn-custom-red dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm()" style="display: none;">
-   {% for seasonStart in season_values %}
-   <option value="{{ seasonStart }}" {% if selected_startSeas == seasonStart %} selected {% endif %}>{{ seasonStart }}</option>
-   {% endfor %}
-   </select>
-   <p id='dash'>_</p>
-   <input type="number" name="endYear" id="endYear" value="{{ endYear }}" placeholder="{{endYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
-   <select class="btn btn-custom-red dropdown-toggle" name="seasonEnd" id="seasonEnd" onchange="submitForm()" style="display: none;">
-   {% for seasonEnd in season_values %}
-   <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>{{ seasonEnd }}</option>
-   {% endfor %}
-   </select>
-   </div>
-   <p id="record">Record: {{result}}<p>
-   <div class="checkbox-container">
-   <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="submitForm()">
-   <label for="hideEx" class="checkbox-label">Hide Exhibitions</label>
-   <input type="hidden" id="hideExStatus" name="hideExStatus" value="{{hideExStatus}}">
-   </div>
-   </form>
-   <script>
-      resButton=document.getElementById("resetButton").addEventListener("click",function(event){ clearFilers(event)});
-        const buScoreInput = document.getElementById('buscore');
-
-       buScoreInput.addEventListener('keydown', function(event) {
-         if (event.key === 'Enter') {
-           event.preventDefault(); // Prevent form submission
-           // Perform your desired action here
-           submitForm();
-         }
-       });
-      const oppScoreInput = document.getElementById('oppscore');
-
-       oppScoreInput.addEventListener('keydown', function(event) {
-         if (event.key === 'Enter') {
-           event.preventDefault(); // Prevent form submission
-           // Perform your desired action here
-           submitForm();
-         }
-       });
-      const sYearInput = document.getElementById('startYear');
-
-       sYearInput.addEventListener('keydown', function(event) {
-         if (event.key === 'Enter') {
-           event.preventDefault(); // Prevent form submission
-           // Perform your desired action here
-           submitForm();
-         }
-       });
-       const eYearInput = document.getElementById('endYear');
-
-       eYearInput.addEventListener('keydown', function(event) {
-         if (event.key === 'Enter') {
-           event.preventDefault(); // Prevent form submission
-           // Perform your desired action here
-           submitForm();
-         }
-       });
-      function clearFilers(event) {
-        event.preventDefault();
-        document.getElementById("arena").value = "all";
-        document.getElementById("location").value = "all";
-        document.getElementById("opponent").value = "all";
-        document.getElementById("season").value = "all";
-        document.getElementById("buscoreop").value = "==";
-        document.getElementById("buscore").value = "BU Score";
-        document.getElementById("oppscoreop").value = "==";
-        document.getElementById("oppscore").value = "Opp Score";
-
-        document.getElementById("endYear").value = {{maxYear}};
-        if(document.getElementById("gender").value === "Womens")
-        {
-           document.getElementById("seasonStart").value = "2005-06";
-           document.getElementById("startYear").value = 2005;
-        }
-        else
-        {
-           const option = document.createElement('option');
-           option.value = "1917-18";
-           option.textContent = "1917-18";
-           document.getElementById("seasonStart").appendChild(option);
-           document.getElementById("seasonStart").value = "1917-18";
-           document.getElementById("startYear").value = 1917;
-        }
-        document.getElementById("seasonEnd").value = "2022-23";
-
-        document.getElementById("DOW").value = -1;
-        document.getElementById("month").value = 0;
-        document.getElementById("day").value = 0;
-        document.getElementById("tourney").value= "Tournament";
-        document.getElementById("conference").value= "all";
-        document.getElementById("coach").value= "all";
-        document.getElementById("tabletype").value= "";
-        document.getElementById("grouping").value= "Opponent";
-        document.getElementById("grouping").hidden= true;
-        submitForm('true');
-
-      }
-   </script>
-   <script>
-      document.getElementById('grouping').hidden=true;
-      var select = document.getElementById('sortval');
-      const optionToHide = document.querySelectorAll(".rec-sort");
-
-        // Hide all rec-sort elements
-        for (let i = 0; i < optionToHide.length; i++) {
-          optionToHide[i].classList.add("hidden");
-        }
-      var arrowStateField = document.getElementById('isAscending');
-      if (arrowStateField.value === "True") {
-        arrowUp.style.display = 'none';
-        arrowDown.style.display = 'inline-block';
-
-
-      } else {
-        arrowUp.style.display = 'inline-block';
-        arrowDown.style.display = 'none';
-      }
-      var checkbox = document.getElementById("hideEx");
-      var checkboxState = document.getElementById("hideExStatus");
-      checkbox.checked = checkboxState.value === "true";
-
-
-      var selection = document.getElementById("range").value;
-      var sYear = document.getElementById("startYear");
-      var eYear = document.getElementById("endYear");
-      var sSeason = document.getElementById("seasonStart");
-      var eSeason = document.getElementById("seasonEnd");
-      if (selection === "year") {
-        sYear.style.display = "block";
-        eYear.style.display = "block";
-        sYear.disabled = false;
-        eYear.disabled = false;
-        sSeason.style.display = "none";
-        eSeason.style.display = "none";
-        sSeason.disabled = true;
-        eSeason.disabled = true;
-
-      } else if (selection === "season") {
-        sYear.style.display = "none";
-        eYear.style.display = "none";
-        sYear.disabled = true;
-        eYear.disabled = true;
-        sSeason.style.display = "block";
-        eSeason.style.display = "block";
-        sSeason.disabled = false;
-        eSeason.disabled = false;
-      } else {
-        sSeason.style.display = "block";
-        eSeason.style.display = "block";
-        sYear.style.display = "block";
-        eYear.style.display = "block";
-        sSeason.disabled = false;
-        eSeason.disabled = false;
-        sYear.disabled = false;
-        eYear.disabled = false;
-      }
-
-      function toggleArrow() {
-      var arrowUp = document.getElementById('arrowUp');
-      var arrowDown = document.getElementById('arrowDown');
-      var arrowStateField = document.getElementById('isAscending');
-      if (arrowStateField.value.toLowerCase() === "true") {
-        arrowDown.style.display = 'none';
-        arrowUp.style.display = 'inline-block';
-        document.getElementById('isAscending').value=false;
-
-      } else {
-        arrowUp.style.display = 'none';
-        arrowDown.style.display = 'inline-block';
-        document.getElementById('isAscending').value=true;
-      }
-      submitForm();
-      }
-      function toggleDropdowns() {
-      var selection = document.getElementById("range").value;
-
-      var sYear = document.getElementById("startYear");
-      var eYear = document.getElementById("endYear");
-      var sSeason = document.getElementById("seasonStart");
-      var eSeason = document.getElementById("seasonEnd");
-
-      if (selection === "year") {
-        sYear.style.display = "block";
-        eYear.style.display = "block";
-        sYear.disabled = false;
-        eYear.disabled = false;
-        sSeason.style.display = "none";
-        eSeason.style.display = "none";
-        sSeason.disabled = true;
-        eSeason.disabled = true;
-
-      } else if (selection === "season") {
-        sYear.style.display = "none";
-        eYear.style.display = "none";
-        sYear.disabled = true;
-        eYear.disabled = true;
-        sSeason.style.display = "block";
-        eSeason.style.display = "block";
-        sSeason.disabled = false;
-        eSeason.disabled = false;
-      } else {
-        sSeason.style.display = "block";
-        eSeason.style.display = "block";
-        sYear.style.display = "block";
-        eYear.style.display = "block";
-        sSeason.disabled = false;
-        eSeason.disabled = false;
-        sYear.disabled = false;
-        eYear.disabled = false;
-      }
-      }
-   </script>
-   </script>
-   <script>
-      const monthSelect = document.getElementById('month');
-      const daySelect = document.getElementById('day');
-
-      // Function to populate the days based on the selected month
-      function populateDays() {
-        const selectedMonth = parseInt(monthSelect.value);
-        const daysInMonth = new Date(2020, selectedMonth, 0).getDate();
-        if (selectedMonth === 0) {
-          daySelect.innerHTML = ''; // Clear the day dropdown
-          const defaultOption = document.createElement('option');
-          defaultOption.value = 0;
-          defaultOption.textContent = 'Day';
-          defaultOption.selected = true;
-          daySelect.appendChild(defaultOption);
-          return;
-        }
-        daySelect.innerHTML = ''; // Clear the day dropdown
-        // Add default "Day" option
-          const defaultOption = document.createElement('option');
-          defaultOption.value = 0;
-          defaultOption.textContent = 'Day';
-          defaultOption.selected = true;
-          daySelect.appendChild(defaultOption);
-        // Add options for each day
-        for (let i = 1; i <= daysInMonth; i++) {
-          const option = document.createElement('option');
-          option.value = i;
-          option.textContent = i;
-
-          if (i === parseInt(daySelect.value)) {
-            option.selected = true; // Mark the option as selected
-          }
-
-          daySelect.appendChild(option);
-        }
-      }
-
-      // Populate the days initially
-      populateDays();
-
-      // Add event listener to the month dropdown
-      monthSelect.addEventListener('change', populateDays);
-      document.getElementById("day").value={{selected_day}};
-   </script>
-   <script>
-      var mobileButton = document.getElementById('filterMenu');
-      var hiddenDiv = document.getElementById('options-menu');
-
-      mobileButton.addEventListener('click', function() {
-      if (hiddenDiv.style.display === 'none' || hiddenDiv.style.display === '' ) {
-      hiddenDiv.style.display = 'block';
-      } else {
-      hiddenDiv.style.display = 'none';
-      }
-      });
-   </script>
-   <script>
-      function submitForm(reset='false') {
-        const formData = $('#resForm').serialize();
-        var sortSelect = document.getElementById('sortval');
-        var recSort = document.querySelectorAll(".rec-sort");
-        var resSort = document.querySelectorAll(".res-sort");
-        $.ajax({
-          url: $('#resForm').attr('action'),
-          method: $('#resForm').attr('method'),
-          data: formData,
-          success: function(response) {
-            $('#resultTable').html(response.resTable);
-            $('#record').html("Record: "+response.result);
-            if(!document.getElementById('tabletype').value)
-            {
-              document.getElementById('grouping').hidden=true;           
-            }
-            else
-            {
-              document.getElementById('grouping').hidden=false;    
-            }
-            if(reset==='true')
-            {
-              document.getElementById('startYear').value = response.minYear;
-              document.getElementById('startYear').min = response.minYear;
-              document.getElementById('startYear').placeholder = response.minYear;
-              <!-- Update Season List -->
-              const selectSeasElement = $('#season');
-              selectSeasElement.empty();
-              selectSeasElement.append($('<option>', {
-                  value: "all",
-                  text: "Season"
-                }));
-              $.each(response.season_values, function(index, item) {
-                selectSeasElement.append($('<option>', {
-                  value: item,
-                  text: item
-                }));
-              });
-
-              const selectseasStartElement = $('#seasonStart');
-              selectseasStartElement.empty();
-              $.each(response.season_values, function(index, item) {
-                selectseasStartElement.append($('<option>', {
-                  value: item,
-                  text: item
-                }));
-              });
-
-              const selectseasEndElement = $('#seasonEnd');
-              selectseasEndElement.empty();
-              $.each(response.season_values, function(index, item) {
-                selectseasEndElement.append($('<option>', {
-                  value: item,
-                  text: item
-                }));
-              });
-              document.getElementById("seasonEnd").value = "2022-23";
-              document.getElementById("seasonEnd").text = "2022-23";
-             <!-- Update Arena List -->
-             const selectArenaElement = $('#arena');
-              selectArenaElement.empty();
-              selectArenaElement.append($('<option>', {
-                  value: "all",
-                  text: "Arena"
-                }));
-              $.each(response.arena_values, function(index, item) {
-                selectArenaElement.append($('<option>', {
-                  value: item,
-                  text: item
-                }));
-              });
-
-            <!-- Update Opponent List -->
-             const selectOppElement = $('#opponent');
-              selectOppElement.empty();
-              selectOppElement.append($('<option>', {
-                  value: "all",
-                  text: "Opponent"
-                }));
-              $.each(response.opponents_values, function(index, item) {
-                selectOppElement.append($('<option>', {
-                  value: item,
-                  text: item
-                }));
-              });
-
-              <!-- Update Coach List -->
-             const selectCoachElement = $('#coach');
-              selectCoachElement.empty();
-              selectCoachElement.append($('<option>', {
-                  value: "all",
-                  text: "Coach"
-                }));
-              $.each(response.coach_values, function(index, item) {
-                selectCoachElement.append($('<option>', {
-                  value: item,
-                  text: item
-                }));
-              });
-
-             <!-- Update Tournament List -->
-             const selectTourneyElement = $('#tourney');
-              selectTourneyElement.empty();
-              $.each(response.tourney_values, function(index, item) {
-                selectTourneyElement.append($('<option>', {
-                  value: item,
-                  text: item
-                }));
-              });
-              
-              if(document.getElementById('tabletype').value!='record')
-              {
-                if(resSort[0].classList.contains('hidden'))
-                {
-                  // Hide all rec-sort elements
-                  for (let i = 0; i < recSort.length; i++) {
-                    recSort[i].classList.add("hidden");
-                  }
-                  
-                  // show all res-sort elements
-                  for (let i = 0; i < resSort.length; i++) {
-                    resSort[i].classList.remove("hidden");
-                  }
-                  document.getElementById('sortval').value='date';
-                }
-              }
-              else
-              {
-                
-                // Hide all res-sort elements
-                for (let i = 0; i < resSort.length; i++) {
-                  resSort[i].classList.add("hidden");
-                }
-                
-                // show all rec-sort elements
-                for (let i = 0; i < recSort.length; i++) {
-                  recSort[i].classList.remove("hidden");
-                }
-                document.getElementById('sortval').value='sort';
-              }
-            }
-          },
-          error: function(xhr, status, error) {
-            console.error('Error:', error);
-          }
-        });
-      }
-   </script>
-   <div id='resultTable'>
-      {% autoescape false %}
-      {{resTable}}
-      {% endautoescape %}
-   </div>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="submitForm()">
+            <option value="all" {% if selected_season == 'all' %} selected {% endif %}> Season </option>
+            {% for season in season_values %}
+                <option value="{{ season }}" {% if selected_season == season %} selected {% endif %}>
+                    {{ season }}
+                </option>
+            {% endfor %}
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="location" id="location" onchange="submitForm()">
+            <option value="all" {% if selected_location == 'all' %} selected {% endif %}> Location </option>
+            <option value="Home" {% if selected_location == 'Home' %} selected {% endif %}> Home </option>
+            <option value="Away" {% if selected_location == 'Away' %} selected {% endif %}> Away </option>
+            <option value="Neutral" {% if selected_location == 'Neutral' %} selected {% endif %}> Neutral </option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="buscoreop" id="buscoreop" onchange="submitForm()">
+            <option value="==" {% if selected_buop == '==' %} selected {% endif %}> = </option>
+            <option value=">=" {% if selected_buop == '>=' %} selected {% endif %}> >= </option>
+            <option value=">" {% if selected_buop == '>' %} selected {% endif %}> > </option>
+            <option value="<" {% if selected_buop == '<' %} selected {% endif %}> < </option>
+            <option value="<=" {% if selected_buop == '<=' %} selected {% endif %}> <= </option>
+        </select>
+        <input type="number" name="buscore" id="buscore" value="{{ buscore }}" placeholder="BU Score" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        <select class="btn btn-custom-red dropdown-toggle" name="oppscoreop" id="oppscoreop" onchange="submitForm()">
+            <option value="==" {% if selected_oppop == '==' %} selected {% endif %}> = </option>
+            <option value=">=" {% if selected_oppop == '>=' %} selected {% endif %}> >= </option>
+            <option value=">" {% if selected_oppop == '>' %} selected {% endif %}> > </option>
+            <option value="<" {% if selected_oppop == '<' %} selected {% endif %}> < </option>
+            <option value="<=" {% if selected_oppop == '<=' %} selected {% endif %}> <= </option>
+        </select>
+        <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" placeholder="Opp Score" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        <select class="btn btn-custom-red dropdown-toggle" name="arena" id="arena" onchange="submitForm()">
+            <option value="all" {% if selected_arena == 'all' %} selected {% endif %}> Arena </option>
+            {% for arena in arena_values %}
+                <option value="{{ arena }}" {% if selected_arena == arena %} selected {% endif %}>
+                    {{ arena }}
+                </option>
+            {% endfor %}
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="tourney" id="tourney" onchange="submitForm()">
+            {% for tourney in tourney_values %}
+                <option value="{{ tourney }}" {% if selected_tourney == tourney %} selected {% endif %}>
+                    {{ tourney }}
+                </option>
+            {% endfor %}
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="coach" id="coach" onchange="submitForm()">
+            <option value="all" {% if selected_coach == 'all' %} selected {% endif %}> Coach </option>
+            {% for coach in coach_values %}
+                <option value="{{ coach }}" {% if selected_coach == coach %} selected {% endif %}>
+                    {{ coach }}
+                </option>
+            {% endfor %}
+        </select>
+        <input type="submit" id='resetButton' value="Reset" />
+    </div>
+    <div class='dropdown-container'>
+        <select class="btn btn-custom-red dropdown-toggle" name="range" id="range" onchange="toggleDropdowns()">
+            <option value="year" {% if selected_range == "year" %} selected {% endif %}> Year Range: </option>
+            <option value="season" {% if selected_range == "season" %} selected {% endif %}> Season Range: </option>
+        </select>
+        <input type="number" name="startYear" id="startYear" value="{{ startYear }}" placeholder="{{startYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
+        <select class="btn btn-custom-red dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm()" style="display: none;">
+            {% for seasonStart in season_values %}
+                <option value="{{ seasonStart }}" {% if selected_startSeas == seasonStart %} selected {% endif %}>
+                    {{ seasonStart }}
+                </option>
+            {% endfor %}
+        </select>
+        <p id='dash'>_</p>
+        <input type="number" name="endYear" id="endYear" value="{{ endYear }}" placeholder="{{endYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
+        <select class="btn btn-custom-red dropdown-toggle" name="seasonEnd" id="seasonEnd" onchange="submitForm()" style="display: none;">
+            {% for seasonEnd in season_values %}
+                <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>
+                    {{ seasonEnd }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+    <p id="record"> Record: {{result}}
+    </p>
+    <div class="checkbox-container">
+        <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="submitForm()">
+        <label for="hideEx" class="checkbox-label"> Hide Exhibitions </label>
+        <input type="hidden" id="hideExStatus" name="hideExStatus" value="{{hideExStatus}}">
+    </div>
+</form>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/records.js') }}"></script>
+<div id='resultTable'>
+    {% autoescape false %}
+    {{resTable}}
+    {% endautoescape %}
+</div>
 {% endblock %}

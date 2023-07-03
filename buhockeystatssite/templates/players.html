@@ -1,330 +1,86 @@
 {% extends "layout.html" %}
 {% block content %}
-    <input type = "submit" id='filterMenu' value = "&#9881&#xFE0E;"/>
-    <div class="dropdown-container options-menu" id="options-menu">
-        <form method="post" id="playerForm">
-            <select class="btn btn-custom-red dropdown-toggle" name="gender" id="gender" onchange="clearFilters(event)">
-                <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %} >Mens</option>
-                <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}>Womens</option>
-            </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="position" id="position" onchange="clearFilters(event)">
-                <option value="skater" {% if selected_position == 'skater' %} selected {% endif %}>Skaters</option>
-                <option value="goalie" {% if selected_position == 'goalie' %} selected {% endif %}>Goalies</option>
-            </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="type" id="type" onchange="clearFilters(event)">
-                <option value="career" {% if selected_type == 'career' %} selected {% endif %}>Career</option>
-                <option value="season" {% if selected_type == 'season' %} selected {% endif %}>Season</option>
-                <option value="game" {% if selected_type == 'game' %} selected {% endif %}>Game</option>
-            </select>
-            <input type="text" name="name" id="name" value="{{ name }}" placeholder="{{name}}" onchange="submitForm()">
-            <input class="season-stats" type="number" name="number" id="number" value="{{ number }}" placeholder="{{number}}" min=1 max=99 onchange="submitForm()">
-            <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
-            <input type="hidden" id="sortval" name="sortval" value="{{sortval}}">
-            <select class="btn btn-custom-red dropdown-toggle season-stats game-stats skater-stats" name="pos" id="pos" onchange="submitForm()">
-                <option value="all" {% if selected_pos == 'all' %} selected {% endif %}>Position</option>
-                <option value="F" {% if selected_pos == 'F' %} selected {% endif %}>F</option>
-                <option value="D" {% if selected_pos == 'D' %} selected {% endif %}>D</option>
-                <option value="G" {% if selected_pos == 'G' %} selected {% endif %}>G</option>
-            </select>
-            <select class="btn btn-custom-red dropdown-toggle season-stats game-stats" name="yr" id="yr" onchange="submitForm()">
-                <option value="all" {% if selected_yr == 'all' %} selected {% endif %}>YR</option>
-                <option value="FR" {% if selected_yr == 'FR' %} selected {% endif %}>FR</option>
-                <option value="SO" {% if selected_yr == 'SO' %} selected {% endif %}>SO</option>
-                <option value="JR" {% if selected_yr == 'JR' %} selected {% endif %}>JR</option>
-                <option value="SR" {% if selected_yr == 'SR' %} selected {% endif %}>SR</option>
-                <option value="GR" {% if selected_yr == 'GR' %} selected {% endif %}>GR</option>
-            </select>
-            <select class="btn btn-custom-red dropdown-toggle game-stats" name="opponent" id="opponent" onchange="submitForm()">
-                <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}>
-                    Opponent
+<input type="submit" id='filterMenu' value="&#9881&#xFE0E;" />
+<div class="dropdown-container options-menu" id="options-menu">
+    <form method="post" id="playerForm">
+        <select class="btn btn-custom-red dropdown-toggle" name="gender" id="gender" onchange="clearFilters(event)">
+            <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %}>Mens</option>
+            <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}>Womens</option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="position" id="position" onchange="clearFilters(event)">
+            <option value="skater" {% if selected_position == 'skater' %} selected {% endif %}>Skaters</option>
+            <option value="goalie" {% if selected_position == 'goalie' %} selected {% endif %}>Goalies</option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="type" id="type" onchange="clearFilters(event)">
+            <option value="career" {% if selected_type == 'career' %} selected {% endif %}>Career</option>
+            <option value="season" {% if selected_type == 'season' %} selected {% endif %}>Season</option>
+            <option value="game" {% if selected_type == 'game' %} selected {% endif %}>Game</option>
+        </select>
+        <input type="text" name="name" id="name" value="{{ name }}" placeholder="{{name}}" onchange="submitForm()">
+        <input class="season-stats" type="number" name="number" id="number" value="{{ number }}" placeholder="{{number}}" min=1 max=99 onchange="submitForm()">
+        <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
+        <input type="hidden" id="sortval" name="sortval" value="{{sortval}}">
+        <select class="btn btn-custom-red dropdown-toggle season-stats game-stats skater-stats" name="pos" id="pos" onchange="submitForm()">
+            <option value="all" {% if selected_pos == 'all' %} selected {% endif %}>Position</option>
+            <option value="F" {% if selected_pos == 'F' %} selected {% endif %}>F</option>
+            <option value="D" {% if selected_pos == 'D' %} selected {% endif %}>D</option>
+            <option value="G" {% if selected_pos == 'G' %} selected {% endif %}>G</option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle season-stats game-stats" name="yr" id="yr" onchange="submitForm()">
+            <option value="all" {% if selected_yr == 'all' %} selected {% endif %}>YR</option>
+            <option value="FR" {% if selected_yr == 'FR' %} selected {% endif %}>FR</option>
+            <option value="SO" {% if selected_yr == 'SO' %} selected {% endif %}>SO</option>
+            <option value="JR" {% if selected_yr == 'JR' %} selected {% endif %}>JR</option>
+            <option value="SR" {% if selected_yr == 'SR' %} selected {% endif %}>SR</option>
+            <option value="GR" {% if selected_yr == 'GR' %} selected {% endif %}>GR</option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle game-stats" name="opponent" id="opponent" onchange="submitForm()">
+            <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}> Opponent </option>
+            {% for opponent in opponents_values %}
+                <option value="{{ opponent }}" {% if selected_opponent == opponent %} selected {% endif %}>
+                    {{ opponent }}
                 </option>
-                {% for opponent in opponents_values %}
-                    <option value="{{ opponent }}" {% if selected_opponent == opponent %} selected {% endif %}>
-                        {{ opponent }}
+            {% endfor %}
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle game-stats" name="group" id="group" onchange="submitForm()">
+            <option value="" {% if selected_group == 'all' %} selected {% endif %}>Grouping</option>
+            <option value="opponent" {% if selected_group == "" %} selected {% endif %}>Group by: Opponent</option>
+            <option value="splits" {% if selected_group == "" %} selected {% endif %}>Splits</option>
+            <option value="records" {% if selected_group == "" %} selected {% endif %}>Situational Records</option>
+        </select>
+        <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="submitForm()">
+            <option value="all" {% if selected_season == 'all' %} selected {% endif %}>Season</option>
+            {% for season in season_values %}
+                <option value="{{ season }}" {% if selected_season == season %} selected {% endif %}>
+                    {{ season }}
+                </option>
+            {% endfor %}
+        </select>
+        <input class="game-stats" type="text" name="date" id="date" value="{{ date }}" placeholder="{{date}}" onchange="submitForm()">
+        <input type="submit" id='resetButton' value="Reset" />
+        <div class='dropdown-container'>
+            <select class="btn btn-custom-red dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm()">
+                {% for seasonStart in season_values %}
+                    <option value="{{ seasonStart }}" {% if selected_startSeas == seasonStart %} selected {% endif %}>
+                        {{ seasonStart }}
                     </option>
                 {% endfor %}
             </select>
-            <select class="btn btn-custom-red dropdown-toggle game-stats" name="group" id="group" onchange="submitForm()">
-                <option value="" {% if selected_group == 'all' %} selected {% endif %}>Grouping</option>
-                <option value="opponent" {% if selected_group == "" %} selected {% endif %}>Group by: Opponent</option>
-                <option value="splits" {% if selected_group == "" %} selected {% endif %}>Splits</option>
-                <option value="records" {% if selected_group == "" %} selected {% endif %}>Situational Records</option>
-            </select>
-            <select class="btn btn-custom-red dropdown-toggle" name="season" id="season" onchange="submitForm()">
-                <option value="all" {% if selected_season == 'all' %} selected {% endif %}>Season</option>
-                {% for season in season_values %}
-                    <option value="{{ season }}" {% if selected_season == season %} selected {% endif %}>
-                        {{ season }}
+            <p id='dash'>_</p>
+            <select class="btn btn-custom-red dropdown-toggle" name="seasonEnd" id="seasonEnd" onchange="submitForm()">
+                {% for seasonEnd in season_values %}
+                    <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>
+                        {{ seasonEnd }}
                     </option>
                 {% endfor %}
             </select>
-            <input class="game-stats" type="text" name="date" id="date" value="{{ date }}" placeholder="{{date}}" onchange="submitForm()">
-            <input type = "submit" id='resetButton' value = "Reset"  />
-            <div class='dropdown-container'>
-                <select class="btn btn-custom-red dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm()">
-                    {% for seasonStart in season_values %}
-                        <option value="{{ seasonStart }}" {% if selected_startSeas == seasonStart %} selected {% endif %}>
-                            {{ seasonStart }}
-                        </option>
-                    {% endfor %}
-                </select>
-                <p id='dash'>_</p>
-                <select class="btn btn-custom-red dropdown-toggle" name="seasonEnd" id="seasonEnd" onchange="submitForm()">
-                    {% for seasonEnd in season_values %}
-                        <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>
-                            {{ seasonEnd }}
-                        </option>
-                    {% endfor %}
-                </select>
-            </div>
-        </form>
-    </div>
-    <div id="statTable">
-        {% autoescape false %}
-        {{statTable}}
-        {% endautoescape %}
-    </div>
-    <script>
-        const nameInput = document.getElementById('name');
-        nameInput.addEventListener('keydown', onKeydown);
-
-        const numberInput = document.getElementById('number');
-        numberInput.addEventListener('keydown', onKeydown);
-
-        const dateInput = document.getElementById('date');
-        dateInput.addEventListener('keydown', onKeydown);
-
-        function onKeydown(event) {
-            if (event.key === 'Enter') {
-                event.preventDefault(); // Prevent form submission
-                submitForm();
-           }
-        }
-
-        document.getElementById("resetButton").addEventListener("click", clearFilters);
-
-        function clearFilters(event) {
-            event.preventDefault();
-            document.getElementById("pos").value = "all";
-            document.getElementById("yr").value = "all";
-            document.getElementById("season").value = "all";
-            document.getElementById("opponent").value = "all";
-
-            if (document.getElementById("gender").value === "Womens") {
-                document.getElementById("seasonStart").value = "2005-06";
-            } else if (document.getElementById("type").value !== "game") {
-                   const option = document.createElement('option');
-                   option.value = "1917-18";
-                   option.textContent = "1917-18";
-                   document.getElementById("seasonStart").appendChild(option);
-                   document.getElementById("seasonStart").value = "1917-18";
-            } else {
-                const option = document.createElement('option');
-                option.value = "2002-03";
-                option.textContent = "2002-03";
-                document.getElementById("seasonStart").appendChild(option);
-                document.getElementById("seasonStart").value = "2002-03";
-            }
-
-            document.getElementById("seasonEnd").value = "2022-23";
-            document.getElementById("sortval").value = "";
-            document.getElementById("isAscending").value = "";
-            document.getElementById("name").value = "";
-            document.getElementById("number").value = "Number";
-            document.getElementById("date").value = "Date";
-            document.getElementById("group").value = "";
-            submitForm('true');
-        }
-    </script>
-    <script>
-        var mobileButton = document.getElementById('filterMenu');
-        var hiddenDiv = document.getElementById('options-menu');
-
-        function onClick() {
-            if (hiddenDiv.style.display === 'none' || hiddenDiv.style.display === '' ) {
-                hiddenDiv.style.display = 'block';
-            } else {
-                hiddenDiv.style.display = 'none';
-            }
-        }
-
-        mobileButton.addEventListener('click', onClick);
-    </script>
-    <script>
-        // Hide all season stats
-        const statsElements = document.querySelectorAll(".season-stats, .game-stats");
-
-        // Hide all stats elements
-        for (let i = 0; i < statsElements.length; i++) {
-            statsElements[i].classList.add("hidden");
-        }
-    </script>
-    <script>
-        function setSort(header) {
-            var columnName = header.innerHTML;
-            if(!columnName)
-                return;
-            var thElements = document.getElementsByTagName('th');
-            document.getElementById("sortval").value = columnName.replace("<span class=\"arrow\">▲</span> ","").replace("<span class=\"arrow\">▼</span> ","")
-
-            // Clear arrow from all other th elements
-            for (var i = 0; i < thElements.length; i++) {
-                var th = thElements[i];
-                if (th !== header) {
-                    var arrow = th.querySelector('.arrow');
-                    if (arrow) {
-                        th.removeChild(arrow);
-                        th.innerHTML = th.innerHTML.trim();
-                    }
-                }
-            }
-
-            var arrow = header.querySelector('.arrow');
-            if (arrow === null) {
-                // Add up arrow
-                arrow = document.createElement('span');
-                arrow.className = 'arrow';
-                arrow.innerHTML = '▼'; // Up arrow unicode
-
-                header.appendChild(arrow);
-                header.innerHTML += ' ';
-                document.getElementById("isAscending").value = "true";
-            } else if (arrow.innerHTML === '▼') {
-                // Change to down arrow
-                arrow.innerHTML = '▲'; // Down arrow unicode
-                document.getElementById("isAscending").value = "false";
-            } else {
-                // Remove arrow
-                header.removeChild(arrow);
-                header.innerHTML = header.innerHTML.trim(); // Remove trailing space
-                document.getElementById("isAscending").value = "";
-            }
-            submitForm();
-        }
-    </script>
-    <script>
-        function submitForm(reset='false') {
-            const formData = $('#playerForm').serialize();
-
-            $.ajax({
-                url: $('#playerForm').attr('action'),
-                method: $('#playerForm').attr('method'),
-                data: formData,
-                success: function(response) {
-                    $('#statTable').html(response.statTable);
-                    $('#sortval').value=response.sortval;
-
-                    if(reset==='true') {
-                        <!-- Update Season List -->
-                        const selectSeasElement = $('#season');
-                        selectSeasElement.empty();
-                        selectSeasElement.append($('<option>', {
-                            value: "all",
-                            text: "Season"
-                        }));
-                        $.each(response.season_values, function(index, item) {
-                            selectSeasElement.append($('<option>', {
-                                value: item,
-                                text: item
-                            }));
-                        });
-
-                        const selectseasStartElement = $('#seasonStart');
-                        selectseasStartElement.empty();
-                        $.each(response.season_values, function(index, item) {
-                            selectseasStartElement.append($('<option>', {
-                                value: item,
-                                text: item
-                            }));
-                        });
-
-                        const selectseasEndElement = $('#seasonEnd');
-                        selectseasEndElement.empty();
-                        $.each(response.season_values, function(index, item) {
-                            selectseasEndElement.append($('<option>', {
-                                value: item,
-                                text: item
-                            }));
-                        });
-                        document.getElementById("seasonEnd").value = "2022-23";
-                        document.getElementById("seasonEnd").text = "2022-23";
-
-                        <!-- Update Opponent List -->
-                        const selectOppElement = $('#opponent');
-                        selectOppElement.empty();
-                        selectOppElement.append($('<option>', {
-                            value: "all",
-                            text: "Opponent"
-                        }));
-                        $.each(response.opponents_values, function(index, item) {
-                            selectOppElement.append($('<option>', {
-                                value: item,
-                                text: item
-                            }));
-                        });
-                    }
-
-                    if(document.getElementById("sortval").value) {
-                        var thElements = document.getElementsByTagName('th');
-                        var clickedText= document.getElementById("sortval").value;
-
-                        for (var i = 0; i < thElements.length; i++) {
-                            var th = thElements[i];
-                            var thText = th.textContent || th.innerText;
-                            if (thText === clickedText) {
-                                var arrow = th.querySelector('.arrow');
-                                arrow = document.createElement('span');
-                                arrow.className = 'arrow';
-                                if(document.getElementById("isAscending").value==="") {
-                                    arrow.innerHTML= "";
-                                } else {
-                                    if(document.getElementById("isAscending").value==="false") {
-                                        arrow.innerHTML = '▲'; // Up arrow unicode
-                                    } else {
-                                        arrow.innerHTML = '▼'; // down arrow unicode
-                                    }
-                                    th.appendChild(arrow);
-                                    th.innerHTML += ' ';
-                                }
-                            }
-                        }
-                    }
-
-                    var positionSelect = document.querySelector('select[name="position"]');
-                    var typeSelect = document.querySelector('select[name="type"]');
-                    var seasonStats = document.getElementsByClassName('season-stats');
-                    var gameStats = document.getElementsByClassName('game-stats');
-
-                    // Hide all season stats
-                    const statsElements = document.querySelectorAll(".season-stats, .game-stats");
-
-                    // Hide all stats elements
-                    for (let i = 0; i < statsElements.length; i++) {
-                        statsElements[i].classList.add("hidden");
-                    }
-
-                    // Show stats elements based on the selected type
-                    if (typeSelect.value === "season") {
-                        for (let i = 0; i < seasonStats.length; i++) {
-                            seasonStats[i].classList.remove("hidden");
-                        }
-                    } else if (typeSelect.value === "game") {
-                        // Do nothing for game stats
-                        for (let i = 0; i < gameStats.length; i++) {
-                            gameStats[i].classList.remove("hidden");
-                        }
-                    }
-
-                    if (positionSelect.value==="goalie") {
-                        document.getElementById("pos").hidden=true;
-                    } else {
-                        document.getElementById("pos").hidden=false;
-                    }
-                },
-                error: function(xhr, status, error) {
-                    console.error('Error:', error);
-                }
-            });
-        }
-    </script>
+        </div>
+    </form>
+</div>
+<div id="statTable">
+    {% autoescape false %}
+    {{statTable}}
+    {% endautoescape %}
+</div>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/players.js') }}"></script>
 {% endblock %}
