@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/redesign.css') }}">
+        <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+        <title>BU Hockey Stats</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <a class="navbar-brand" href="#">BU Hockey Stats</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/statsbot">Stats Bot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/records">Records</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/players">Players</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="content">{% block content %}{% endblock %}</div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 my-4 border-top">
+        <p class="mb-0 text-muted">© 2022</p>
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><a href="/about" class="nav-link px-2 text-muted fa fa-question-circle"></a></li>
+            <li class="nav-item"><a href="https://instagram.com/buhockeystats" class="nav-link px-2 text-muted fa fa-instagram"></a></li>
+            <li class="nav-item"><a href="https://twitter.com/buhockeystats" class="nav-link px-2 text-muted fa fa-twitter"></a></li>
+            <li class="nav-item"><a href="https://github.com/redsoxfan2194/buhockeystatsbot" class="nav-link px-2 text-muted fa fa-github"></a></li>
+        </ul>
+    </footer>
+</html>
