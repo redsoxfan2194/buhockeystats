@@ -1,15 +1,36 @@
-{% extends "layout.html" %}
+{% extends "layout_redesign.html" %}
 {% block content %}
-<form method='POST'>
-    <p id="query">Query: <input id='query' type = "text" name = "query" /></p>
-    <p id="submitbutton"><input type = "submit" value = "Submit" /></p>
-</form>
-<div class="center">
-    <input type = "submit" id='helpbutton' value="Help" onclick="openHelpImage()"/>
+<aside>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Stats Bot Cheatsheet</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <img src="../static/images/statsbotcheatsheet.png"/>
+        </div>
+    </div>
+</aside>
+<div class="p-3 container">
+    <h1>Stats Bot</h1>
+    <div>
+        <h2>Query</h2>
+        <p>
+            Need help? Try the <a data-bs-toggle="offcanvas" href="#offcanvasScrolling" role="button" aria-controls="offcanvasScrolling">cheatsheet</a>
+        </p>
+        <form method='POST'>
+            <div class="input-group input-group-lg mb-3">
+                <input id="query" name="query" type="text" class="form-control" aria-label="Stats Bot query" aria-describedby="query-submit-buttono">
+                <button class="btn btn-outline-primary" type="submit" id="query-submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div>
+        <h2>{{query}}</h2>
+        {% autoescape false %}
+        {{result}}
+        {% endautoescape %}
+        <script type="text/javascript" src="{{ url_for('static', filename = 'js/statsbot.js') }}"></script>
+    </div>
 </div>
-<script type="text/javascript" src="{{ url_for('static', filename = 'js/statsbot.js') }}"></script>
-<h2>{{query}}</h2>
-{% autoescape false %}
-{{result}}
-{% endautoescape %}
 {% endblock %}
