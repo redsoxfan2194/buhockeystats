@@ -9,6 +9,7 @@ import urllib.parse
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 import numpy as np
+from pandas import Timestamp
 import pandas as pd
 
 try:
