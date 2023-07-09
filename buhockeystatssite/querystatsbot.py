@@ -71,8 +71,51 @@ def queryrecords(query, gender):
         return getResults(burb.dfGamesWomens, burb.dfGameStatsWomens, burb.dfGameStatsGoalieWomens, query)
     else:
         return getResults(burb.dfGames, burb.dfGameStatsMens, burb.dfGameStatsGoalieMens, query)
-        
+
 def generaterandomstat():
+    typeList=['record','player']
+    if(random.choice(typeList)=='record'):
+       return generaterandomrecordstat()
+    return generaterandomplayerstat()
+
+def generaterandomplayerstat():
+  queryList=['leader','hat trick','shutout-game','shutout-season','multi-point-game']
+  qChoice=random.choice(queryList)
+  validQuery=False
+  
+  if(qChoice=='leader'):
+    dfRes=burb.dfLead.sample().iloc[0]
+    statChoice=random.choice(['goals','assists','pts'])
+    while(not validQuery):
+      if(int(dfRes[statChoice])!=0):
+        validQuery=True
+        nameStr=statChoice[0]+'name'
+        return f"In {dfRes['season']}, {dfRes[nameStr]} lead all Terriers with {dfRes[statChoice]} {statChoice}"
+  
+  if(qChoice=='hat trick'):
+    dfRes=burb.dfGameStatsMens.query('goals>=3').sample().iloc[0]
+    date=datetime.strptime(str(dfRes['date'])[:10],'%Y-%m-%d').strftime('%b %d, %Y')
+    dfGameRes=burb.dfGames.query(f"date == '{date}'").iloc[0]
+    
+    return f"{dfRes['name']} recorded a hat trick on {date} vs {dfRes['opponent']} in a {dfGameRes['scoreline']} {dfGameRes['result'].replace('W','win').replace('L','loss').replace('T','tie')} at {dfGameRes['arena']}"
+  
+  if(qChoice=='shutout-game'):
+      dfRes=burb.dfGameStatsGoalieMens.query('SO>0').sample().iloc[0]
+      date=datetime.strptime(str(dfRes['date'])[:10],'%Y-%m-%d').strftime('%b %d, %Y')
+      dfGameRes=burb.dfGames.query(f"date == '{date}'").iloc[0]
+      
+      return f"{dfRes['name']} recorded a shutout on {date} vs {dfRes['opponent']} in a {dfGameRes['scoreline']} {dfGameRes['result'].replace('W','win').replace('L','loss').replace('T','tie')} at {dfGameRes['arena']}"
+
+  if(qChoice=='shutout-season'):
+    dfRes=burb.dfSeasGoalieMens.query('SO>0').sample().iloc[0]
+    return f"In {dfRes['season']}, {dfRes['name']} recorded {int(dfRes['SO'])} shutouts"     
+
+  if(qChoice=='multi-point-game'):
+    dfRes=burb.dfGameStatsMens.query('pts>1').groupby(['name','season']).count().sample()
+    dfRes.reset_index(inplace=True)
+    return f"In {dfRes.iloc[0]['season']}, {dfRes.iloc[0]['name']} recorded {int(dfRes.iloc[0]['pts'])} multi-point games" 
+
+def generaterandomrecordstat():
 
   queryList=['record','last win','last loss','last tie','last game','biggest win']
   opsDict={'opponent':{'type':'vs','choice':''},
@@ -116,7 +159,6 @@ def generaterandomstat():
         validQuery=False
         continue
     else:
-
         if(qChoice=='record'):
             recDict=dfRes.groupby('result').count()['date'].to_dict()
             recStr=""
