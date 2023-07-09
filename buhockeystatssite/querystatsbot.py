@@ -108,11 +108,15 @@ def generaterandomplayerstat():
 
   if(qChoice=='shutout-season'):
     dfRes=burb.dfSeasGoalieMens.query('SO>0').sample().iloc[0]
+    if(int(dfRes['SO'])==1):
+      return f"In {dfRes['season']}, {dfRes['name']} recorded {int(dfRes['SO'])} shutout"
     return f"In {dfRes['season']}, {dfRes['name']} recorded {int(dfRes['SO'])} shutouts"     
 
   if(qChoice=='multi-point-game'):
     dfRes=burb.dfGameStatsMens.query('pts>1').groupby(['name','season']).count().sample()
     dfRes.reset_index(inplace=True)
+    if(int(dfRes.iloc[0]['pts'])==1):
+      return f"In {dfRes.iloc[0]['season']}, {dfRes.iloc[0]['name']} recorded {int(dfRes.iloc[0]['pts'])} multi-point game" 
     return f"In {dfRes.iloc[0]['season']}, {dfRes.iloc[0]['name']} recorded {int(dfRes.iloc[0]['pts'])} multi-point games" 
 
 def generaterandomrecordstat():
