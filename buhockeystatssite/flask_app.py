@@ -30,8 +30,8 @@ def homepage():
     Returns:
       Flask Template : flask template containing home.html
     '''
-    query,result=generaterandomstat()
-    return render_template('home.html',result=convertToHtmlTable(result),query=query.upper())
+    result=generaterandomstat()
+    return render_template('home.html',result=result)
 
 
 
@@ -737,7 +737,7 @@ def determineRecord(dfRes):
       dfRes (DataFrame) : DataFrame containing results
       
     Returns:
-      DataFrame: DataFrame containg W-L-T
+      DataFrame: DataFrame containing W-L-T
 
     '''
     dfStat = dfRes.groupby(['name', 'opponent']).sum(numeric_only=True)
