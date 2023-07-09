@@ -3,7 +3,7 @@ import re
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request, jsonify
-from querystatsbot import querystatsbot
+from querystatsbot import querystatsbot,generaterandomstat
 from burecordbook import initializeRecordBook
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
 import burecordbook as burb
@@ -22,6 +22,17 @@ initializeRecordBook()
 print('Record Book Initialized')
 
 app = Flask(__name__)
+
+@app.route('/')
+def homepage():
+    ''' Renders "Home" Page
+    
+    Returns:
+      Flask Template : flask template containing home.html
+    '''
+    query,result=generaterandomstat()
+    return render_template('home.html',result=convertToHtmlTable(result),query=query.upper())
+
 
 
 @app.route('/about')
@@ -127,8 +138,8 @@ def players():
                 if formData['position'] == 'skater':
                     dfStat = burb.dfSeasSkateWomens
                     pens = dfStat['pens'].str.split('/', expand=True)
-                    dfStat.loc[:, 'pen'] = pens[0].replace('—', np.nan)
-                    dfStat.loc[:, 'pim'] = pens[1].replace('—', np.nan)
+                    dfStat.loc[:, 'pen'] = pens[0].replace('—', np.nan).astype('Int64')
+                    dfStat.loc[:, 'pim'] = pens[1].replace('—', np.nan).astype('Int64')
                 elif formData['position'] == 'goalie':
                     dfStat = burb.dfSeasGoalieWomens
                     rec = dfStat.record.str.split('-', expand=True)
@@ -496,7 +507,6 @@ def statsbot():
 
     return render_template('statsbot.html', result='', query='')
 
-@app.route('/', methods=['POST', 'GET'])
 @app.route('/records', methods=['POST', 'GET'])
 def records():
     ''' Loads BU Hockey Stats Record page

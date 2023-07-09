@@ -9,6 +9,7 @@ import urllib.parse
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 import numpy as np
+from pandas import Timestamp
 import pandas as pd
 
 try:
@@ -1768,7 +1769,7 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
             return ''
         elif 'loss' in qType:
             res = (dfResult.loc[(dfResult['result'] == 'L')].sort_values(
-                sortType, ascending=True)[:numRes])
+                sortType, ascending=False)[:numRes])
         else:
             res = dfResult.loc[(dfResult['result'] != 'N') & (
                 dfResult['result'] != 'E')].sort_values(sortType, ascending=False)[:numRes]
