@@ -23,7 +23,7 @@ print('Record Book Initialized')
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/',methods=['POST', 'GET'])
 def homepage():
     ''' Renders "Home" Page
     
@@ -31,6 +31,8 @@ def homepage():
       Flask Template : flask template containing home.html
     '''
     result=generaterandomstat()
+    if(request.method=='POST'):
+      return jsonify(result=result)
     return render_template('home.html',result=result)
 
 

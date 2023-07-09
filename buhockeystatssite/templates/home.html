@@ -12,12 +12,15 @@
       <div class="column">
         <a class='homepage-link' href="/players"><img id='players-logo' src="../static/images/jersey_road.ico"></a>
       </div>
-    </div>
-    <h2 id='dyk'> Did You Know?</h2>
+    <div>
+    <form method='POST' id='randomStatForm'>
+    <h2 id='dyk'> Did You Know? <button class="btn btn-outline-primary btn-sm" type="submit" id="new-stat-button">Generate New Stat</button></h2>
+    </form>
     <h3 id='dyk-query'>{{query}}</h3>
-    {% autoescape false %}
+    <p id='result'>{% autoescape false %}
     {{result}}
-    {% endautoescape %}
+    {% endautoescape %}</p>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
     </div>
 </div>
 {% endblock %}
