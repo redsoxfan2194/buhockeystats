@@ -11,3 +11,56 @@ nav {
 .navbar-brand {
 	font-family: college-font;
 }
+
+#homepage-title{
+  font-family: college-font;
+  color: #cc0000;
+  text-align: center;
+  font-size: 75px;
+}
+  
+.homepage-ul{
+  
+  list-style: none; 
+  text-align:center;
+  
+}
+
+.homepage-li {
+  display: inline-block;
+  margin-right: 10px; /* add spacing between items */
+}
+
+.homepage-link {
+  display: inline-block;
+  margin-right: 10px; /* add spacing between items */
+  font-size: 30px;
+  color: #cc0000;
+  text-align: center;
+}
+
+#dyk{
+  font-size: 30px;
+}
+
+#dyk-query{
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+}
+
+.homepage-link
+{
+  max-width:100%;
+}
