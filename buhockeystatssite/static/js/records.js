@@ -274,6 +274,23 @@ function submitForm(reset = "false") {
                         })
                     );
                 });
+                
+                const selectConferenceElement = $("#conference");
+                selectConferenceElement.empty();
+                selectConferenceElement.append(
+                    $("<option>", {
+                        value: "all",
+                        text: "Conference",
+                    })
+                );
+                $.each(response.conference_values, function (index, item) {
+                    selectConferenceElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
 
                 const selectOppElement = $("#opponent");
                 selectOppElement.empty();
