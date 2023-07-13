@@ -15,3 +15,4 @@
 2019-20 17 Sammy Davis 24 Sammy Davis 41 Sammy Davis
 2020-21 7 Jesse Compher 6 Courtney Correia 11 Jesse Compher
 2021-22 14 Courtney Correia 16 Julia Nearis 25 Courtney Correia
+2022-23 12 Julia Nearis 14 Christina Vote 24 Julia Nearis

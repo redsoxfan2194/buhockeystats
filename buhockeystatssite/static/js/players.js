@@ -65,6 +65,15 @@ function initializeFilters() {
     var mobileButton = document.getElementById("filterMenu");
     mobileButton.addEventListener("click", onClick);
     
+    var hiddenDiv = document.getElementById('options-menu');
+
+    mobileButton.addEventListener('click', function() {
+    if (hiddenDiv.style.display === 'none' || hiddenDiv.style.display === '' ) {
+    hiddenDiv.style.display = 'block';
+    } else {
+      hiddenDiv.style.display = 'none';
+    }
+    });
     // Hide all season stats
     const statsElements = document.querySelectorAll(".season-stats, .game-stats");
 

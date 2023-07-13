@@ -98,3 +98,4 @@
 2019-20 19 Patrick Curry 29 David Farrance 43 David Farrance
 2020-21 5 David Farrance 8 David Farrance 13 David Farrance
 2021-22 15 Wilmer Skoog 26 Domenick Fensore 31 Domenick Fensore
+2022-23 16 Wilmer Skoog,Matt Brown 33 Lane Hutson 48 Lane Hutson
