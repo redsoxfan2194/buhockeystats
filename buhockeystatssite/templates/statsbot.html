@@ -1,36 +1,175 @@
 {% extends "layout_redesign.html" %}
 {% block content %}
 <aside>
-    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Stats Bot Cheatsheet</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <img src="../static/images/statsbotcheatsheet.png"/>
-        </div>
-    </div>
+   <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+   <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Stats Bot Cheatsheet</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+   </div>
+   <div class="accordion-flush" id="accordionCheatSheet">
+      <div class="accordion-item">
+         <h2 class="accordion-header" id="recordQueries">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#recordQueriesCollapse" aria-expanded="false" aria-controls="recordQueriesCollapse">
+            Record Queries
+            </button>
+         </h2>
+         <div id="recordQueriesCollapse" class="accordion-collapse collapse show" aria-labelledby="recordQueries" data-bs-parent="#accordionCheatSheet">
+            <div class="accordion-body">
+               <p>Note: women’s can be added to any query to get women’s record info<br>
+                  Record queries require one (1) <strong><i>query type</i></strong> and one (1) or more <strong><i>options</i></strong>
+               </p>
+               <h2 class="accordion-header" id="qType">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#qTypeCollapse" aria-expanded="false" aria-controls="qTypeCollapse">
+                  Query Types
+                  </button>
+               </h2>
+               <div id="qTypeCollapse" class="accordion-collapse collapse show" aria-labelledby="qType" data-bs-parent="#recordQueries">
+                  <div class="card">
+                     <div class="card-header">
+                        record
+                     </div>
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">returns BU's record (W-L-T) in given condition(s)</li>
+                     </ul>
+                  </div>
+                  <div class="card">
+                     <div class="card-header">
+                        wins
+                     </div>
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">returns BU's number of wins in given condition(s)</li>
+                     </ul>
+                  </div>
+                  <div class="card">
+                     <div class="card-header">
+                        losses
+                     </div>
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">returns BU's number of losses in given condition(s)</li>
+                     </ul>
+                  </div>
+                  <div class="card">
+                     <div class="card-header">
+                        ties
+                     </div>
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">returns BU's number of losses in given condition(s)</li>
+                     </ul>
+                  </div>
+                  <div class="card">
+                     <div class="card-header">
+                        last [win/loss/tie/game]
+                     </div>
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">returns last BU wins/loss/tie/game in given condition(s)</li>
+                     </ul>
+                  </div>
+                  <div class="card">
+                     <div class="card-header">
+                        last <i>N</i> [win/loss/tie/games]
+                     </div>
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">returns list of last N BU wins/loss/tie/games in given condition(s)</li>
+                     </ul>
+                  </div>
+                  <div class="card">
+                     <div class="card-header">
+                        biggest [win/loss]
+                     </div>
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">returns biggest win/loss in given condition(s)</li>
+                     </ul>
+                  </div>
+               </div>
+               <h2 class="accordion-header" id="options">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#opsCollapse" aria-expanded="false" aria-controls="opsCollapse">
+                  Options
+                  </button>
+               </h2>
+               <div id="opsCollapse" class="accordion-collapse collapse show" aria-labelledby="options" data-bs-parent="#recordQueries">
+                  <div class="card">
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>at</strong> [<i>team/arena</i>/home/away/neutral]</li>
+                        <li class="list-group-item"><strong>under/with</strong> [<i>coach</i>]</li>
+                        <li class="list-group-item"><strong>since/after/before</strong> [<i>year/season/date</i>]</li>
+                        <li class="list-group-item"><strong>from/between</strong> [year/date] <strong>to/and</strong> [<i>year/date</i>]</li>
+                        <li class="list-group-item"><strong>in</strong> [<i>year/season/decade/tourney/</i>regular season/playoffs/overtime/regulation/non-conference/conference/<i>conference name</i>/first <i>n</i>/last <i>n</i>/<i>n</i> goal game]</li>
+                        <li class="list-group-item"><strong>on</strong> [<i>date (Month/Day)/day of week</i>]</li>
+                        <li class="list-group-item"><strong>when</strong> [scoring/allowing] [>/>=/</<=] [<i>number</i>][+] <strong>goals</strong></li>
+                        <li class="list-group-item"><strong>when</strong> [<i>player name</i>] <strong>has</strong> [>/>=/<\/<=] [<i>number</i>][+] [goals/assists/points/saves/ga]</li>
+                        <li class="list-group-item"><strong>when</strong> [player name] <strong>has</strong> [>/>=\/<\/<=] [<i>number</i>][+] [goals/assists/points/saves/ga]</li>
+                        <li class="list-group-item"><strong>when</strong> [player name] <strong>when</strong></li>
+                     </ul>
+                  </div>
+               </div>
+               <h2 class="accordion-header" id="examples">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#exCollapse" aria-expanded="false" aria-controls="exCollapse">
+                  Examples:
+                  </button>
+               </h2>
+               <div id="exCollapse" class="accordion-collapse collapse show" aria-labelledby="examples" data-bs-parent="#exCollapse">
+                  <div class="card">
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item">record vs BC on Mondays</li>
+                        <li class="list-group-item">women’s last 3 wins at Matthews</li>
+                        <li class="list-group-item">biggest win under Parker in Beanpot before 1994</li>
+                        <li class="list-group-item">wins in 2000s in overtime</li>
+                        <li class="list-group-item">last win on 2/1</li>
+                        <li class="list-group-item">record when Drew Commesso makes 29 saves</li>
+                        <li class="list-group-item">record when Lane Hutson scores</li>
+                        <li class="list-group-item">last win when Matt Brown has 3+ pts</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               Player Queries
+               </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionCheatSheet">
+               <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+               </div>
+            </div>
+         </div>
+         <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               Beanpot Queries
+               </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionCheatSheet">
+               <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 </aside>
 <div class="p-3 container">
-    <h1>Stats Bot</h1>
-    <div>
-        <h2>Query</h2>
-        <p>
-            Need help? Try the <a data-bs-toggle="offcanvas" href="#offcanvasScrolling" role="button" aria-controls="offcanvasScrolling">cheatsheet</a>
-        </p>
-        <form method='POST'>
-            <div class="input-group input-group-lg mb-3">
-                <input id="query" name="query" type="text" class="form-control" aria-label="Stats Bot query" aria-describedby="query-submit-buttono">
-                <button class="btn btn-outline-primary" type="submit" id="query-submit-button">Submit</button>
-            </div>
-        </form>
-    </div>
-    <div>
-        <h2>{{query}}</h2>
-        {% autoescape false %}
-        {{result}}
-        {% endautoescape %}
-        <script type="text/javascript" src="{{ url_for('static', filename = 'js/statsbot.js') }}"></script>
-    </div>
+   <h1>Stats Bot</h1>
+   <div>
+      <h2>Query</h2>
+      <p>
+         Need help? Try the <a data-bs-toggle="offcanvas" href="#offcanvasScrolling" role="button" aria-controls="offcanvasScrolling">cheatsheet</a>
+      </p>
+      <form method='POST'>
+         <div class="input-group input-group-lg mb-3">
+            <input id="query" name="query" type="text" class="form-control" aria-label="Stats Bot query" aria-describedby="query-submit-buttono">
+            <button class="btn btn-outline-danger" type="submit" id="query-submit-button">Submit</button>
+         </div>
+      </form>
+   </div>
+   <div>
+      <h2>{{query}}</h2>
+      {% autoescape false %}
+      {{result}}
+      {% endautoescape %}
+      <script type="text/javascript" src="{{ url_for('static', filename = 'js/statsbot.js') }}"></script>
+   </div>
 </div>
 {% endblock %}
