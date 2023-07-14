@@ -3,6 +3,18 @@
 	src: url(font/college.ttf) format('truetype');
 }
 
+#content{
+  background-color: #fffafa;
+}
+
+footer{
+  background-color: #fffafa;
+}
+
+body{
+  background-color: #fffafa;
+}
+
 nav {
 	background-color: #cc0000;
 	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.3);
