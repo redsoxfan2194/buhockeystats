@@ -84,7 +84,7 @@ def getTourneyList(dfRes):
     dfRes = dfRes.copy()
     dfRes.loc[dfRes['tourney'].isnull(), 'tourney'] = ''
     dfRes = dfRes.query('tourney != ""').loc[~dfRes['tourney'].str.contains('1932')]
-    retList = ['Tournament'] + \
+    retList = ['All'] + \
         sorted(dfRes.query('tourney != ""').tourney.unique())
     return retList
 
@@ -533,6 +533,7 @@ def records():
 
     if request.method == 'POST':
         formData = request.form
+        print(formData)
         if formData['gender'] == 'Mens':
             dfRes = burb.dfGames
             dfOrig = burb.dfGames
@@ -594,7 +595,7 @@ def records():
                     f"oppconference==\'{formData['conference']}\'")
         if formData['season'] != 'all':
             dfRes = dfRes.query(f"season==\'{formData['season']}\'")
-        if formData['tourney'] != 'Tournament':
+        if formData['tourney'] != 'All':
             dfRes = dfRes.query(f"tourney==\"{formData['tourney']}\"")
         if formData['location'] != 'all':
             dfRes = dfRes.query(f"location==\'{formData['location']}\'")

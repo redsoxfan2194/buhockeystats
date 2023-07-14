@@ -2,7 +2,9 @@
 	font-family: college-font;
 	src: url(font/college.ttf) format('truetype');
 }
-
+.offcanvas-buhs{
+  width:300px;
+}
 #content{
   background-color: #fffafa;
 }
@@ -72,7 +74,9 @@ img {
 .column {
   flex: 33.33%;
 }
-
+.btn-stats-bg{
+ background-color: #fffafa; 
+}
 .homepage-link
 {
   max-width:100%;
@@ -80,4 +84,32 @@ img {
 
 .accordion-flush{
   overflow-y: auto;
+}
+
+#offcanvasRecordsFilters{
+  overflow-y: auto;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.recLabels{
+  color:gray;
+}
+.dropdown-container{
+  display: flex;
+}
+
+#record {
+	color: #cc0000;
+	font-size: 160%;
+	text-align: center;
+
 }

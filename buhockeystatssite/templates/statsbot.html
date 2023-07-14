@@ -1,9 +1,9 @@
 {% extends "layout_redesign.html" %}
 {% block content %}
 <aside>
-   <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+   <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasCheatSheet" aria-labelledby="offcanvasCheatSheetLabel">
    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Stats Bot Cheatsheet</h5>
+      <h5 class="offcanvas-title" id="offcanvasCheatSheetLabel">Stats Bot Cheatsheet</h5>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
    </div>
    <div class="accordion-flush" id="accordionCheatSheet">
@@ -297,11 +297,11 @@
    <div>
       <h2>Query</h2>
       <p>
-         Need help? Try the <a data-bs-toggle="offcanvas" href="#offcanvasScrolling" role="button" aria-controls="offcanvasScrolling">cheatsheet</a>
+         Need help? Try the <a data-bs-toggle="offcanvas" href="#offcanvasCheatSheet" role="button" aria-controls="offcanvasCheatSheet">cheatsheet</a>
       </p>
       <form method='POST'>
          <div class="input-group input-group-lg mb-3">
-            <input id="query" name="query" type="text" class="form-control" aria-label="Stats Bot query" aria-describedby="query-submit-buttono">
+            <input id="query" name="query" type="text" class="form-control" aria-label="Stats Bot query" aria-describedby="query-submit-button">
             <button class="btn btn-outline-danger" type="submit" id="query-submit-button">Submit</button>
          </div>
       </form>

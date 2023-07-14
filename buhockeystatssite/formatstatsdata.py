@@ -18,7 +18,7 @@ COLUMNS = {
 TABLE_STYLES = [
     {
         'selector': 'th:not(.index_name)',
-        'props': 'color: #FFFFFF;'
+        'props': 'color: #cc0000; text-align:center'
     }, {
         'selector': 'table',
         'props': [('class', 'sortable')]
@@ -312,7 +312,7 @@ def formatStats(dfRes):
             render_links=True).replace(">nan<", "><")
     else:
         dfRes = style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(index_names=False, render_links=True).replace(
-            ">nan<", ">-<").replace('<th', '<th onclick=setSort(this)')
+            ">nan<", ">-<").replace('<th ', '<th onclick=setSort(this) ')
     return dfRes
 
 

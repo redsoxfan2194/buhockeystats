@@ -35,12 +35,13 @@ function clearFilers(event) {
     document.getElementById("DOW").value = -1;
     document.getElementById("month").value = 0;
     document.getElementById("day").value = 0;
-    document.getElementById("tourney").value = "Tournament";
+    document.getElementById("tourney").value = "All";
     document.getElementById("conference").value = "all";
     document.getElementById("coach").value = "all";
     document.getElementById("tabletype").value = "";
     document.getElementById("grouping").value = "Opponent";
     document.getElementById("grouping").hidden = true;
+    document.getElementById("groupLabel").hidden = true;
     submitForm("true");
 }
 
@@ -117,6 +118,7 @@ function initializeFilters() {
     eYearInput.addEventListener("keydown", onKeydown);
 
     document.getElementById("grouping").hidden = true;
+    document.getElementById("groupLabel").hidden = true;
 
     var select = document.getElementById("sortval");
     const optionToHide = document.querySelectorAll(".rec-sort");
@@ -175,7 +177,7 @@ function initializeFilters() {
 
     // Add event listener to the month dropdown
     document.getElementById("month").addEventListener("change", populateDays);
-
+/*
     var mobileButton = document.getElementById("filterMenu");
     var hiddenDiv = document.getElementById("options-menu");
 
@@ -188,7 +190,7 @@ function initializeFilters() {
         } else {
             hiddenDiv.style.display = "none";
         }
-    });
+    });*/
 }
 
 function submitForm(reset = "false") {
@@ -206,8 +208,10 @@ function submitForm(reset = "false") {
 
             if (!document.getElementById("tabletype").value) {
                 document.getElementById("grouping").hidden = true;
+                document.getElementById("groupLabel").hidden = true;
             } else {
                 document.getElementById("grouping").hidden = false;
+                document.getElementById("groupLabel").hidden = false;
             }
 
             if (reset === "true") {
@@ -221,7 +225,7 @@ function submitForm(reset = "false") {
                 selectSeasElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Season",
+                        text: "All",
                     })
                 );
                 $.each(response.season_values, function (index, item) {
@@ -263,7 +267,7 @@ function submitForm(reset = "false") {
                 selectArenaElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Arena",
+                        text: "All",
                     })
                 );
                 $.each(response.arena_values, function (index, item) {
@@ -280,7 +284,7 @@ function submitForm(reset = "false") {
                 selectConferenceElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Conference",
+                        text: "All",
                     })
                 );
                 $.each(response.conference_values, function (index, item) {
@@ -297,7 +301,7 @@ function submitForm(reset = "false") {
                 selectOppElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Opponent",
+                        text: "All",
                     })
                 );
                 $.each(response.opponents_values, function (index, item) {
@@ -314,7 +318,7 @@ function submitForm(reset = "false") {
                 selectCoachElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Coach",
+                        text: "All",
                     })
                 );
                 $.each(response.coach_values, function (index, item) {
@@ -380,7 +384,7 @@ function populateDays() {
         daySelect.innerHTML = ""; // Clear the day dropdown
         const defaultOption = document.createElement("option");
         defaultOption.value = 0;
-        defaultOption.textContent = "Day";
+        defaultOption.textContent = "All";
         defaultOption.selected = true;
         daySelect.appendChild(defaultOption);
         return;
@@ -391,7 +395,7 @@ function populateDays() {
     // Add default "Day" option
     const defaultOption = document.createElement("option");
     defaultOption.value = 0;
-    defaultOption.textContent = "Day";
+    defaultOption.textContent = "All";
     defaultOption.selected = true;
     daySelect.appendChild(defaultOption);
 
