@@ -9,21 +9,21 @@
    <div class="accordion-flush" id="accordionCheatSheet">
       <div class="accordion-item">
          <h2 class="accordion-header" id="recordQueries">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#recordQueriesCollapse" aria-expanded="false" aria-controls="recordQueriesCollapse">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#recordQueriesCollapse" aria-expanded="false" aria-controls="recordQueriesCollapse">
             Record Queries
             </button>
          </h2>
-         <div id="recordQueriesCollapse" class="accordion-collapse collapse show" aria-labelledby="recordQueries" data-bs-parent="#accordionCheatSheet">
+         <div id="recordQueriesCollapse" class="accordion-collapse collapse" aria-labelledby="recordQueries" data-bs-parent="#accordionCheatSheet">
             <div class="accordion-body">
-               <p>Note: women’s can be added to any query to get women’s record info<br>
+               <p>Note: <strong>women’s</strong> can be added to any query to get women’s record info<br>
                   Record queries require one (1) <strong><i>query type</i></strong> and one (1) or more <strong><i>options</i></strong>
                </p>
                <h2 class="accordion-header" id="qType">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#qTypeCollapse" aria-expanded="false" aria-controls="qTypeCollapse">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#qTypeCollapse" aria-expanded="false" aria-controls="qTypeCollapse">
                   Query Types
                   </button>
                </h2>
-               <div id="qTypeCollapse" class="accordion-collapse collapse show" aria-labelledby="qType" data-bs-parent="#recordQueries">
+               <div id="qTypeCollapse" class="accordion-collapse collapse" aria-labelledby="qType" data-bs-parent="#recordQueries">
                   <div class="card">
                      <div class="card-header">
                         record
@@ -69,7 +69,7 @@
                         last <i>N</i> [win/loss/tie/games]
                      </div>
                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">returns list of last N BU wins/loss/tie/games in given condition(s)</li>
+                        <li class="list-group-item">returns list of last <i>N</i> BU wins/loss/tie/games in given condition(s)</li>
                      </ul>
                   </div>
                   <div class="card">
@@ -82,11 +82,11 @@
                   </div>
                </div>
                <h2 class="accordion-header" id="options">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#opsCollapse" aria-expanded="false" aria-controls="opsCollapse">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#opsCollapse" aria-expanded="false" aria-controls="opsCollapse">
                   Options
                   </button>
                </h2>
-               <div id="opsCollapse" class="accordion-collapse collapse show" aria-labelledby="options" data-bs-parent="#recordQueries">
+               <div id="opsCollapse" class="accordion-collapse collapse" aria-labelledby="options" data-bs-parent="#recordQueries">
                   <div class="card">
                      <ul class="list-group list-group-flush">
                         <li class="list-group-item"><strong>at</strong> [<i>team/arena</i>/home/away/neutral]</li>
@@ -103,11 +103,11 @@
                   </div>
                </div>
                <h2 class="accordion-header" id="examples">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#exCollapse" aria-expanded="false" aria-controls="exCollapse">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exCollapse" aria-expanded="false" aria-controls="exCollapse">
                   Examples:
                   </button>
                </h2>
-               <div id="exCollapse" class="accordion-collapse collapse show" aria-labelledby="examples" data-bs-parent="#exCollapse">
+               <div id="exCollapse" class="accordion-collapse collapse" aria-labelledby="examples" data-bs-parent="#exCollapse">
                   <div class="card">
                      <ul class="list-group list-group-flush">
                         <li class="list-group-item">record vs BC on Mondays</li>
@@ -124,26 +124,168 @@
             </div>
          </div>
          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h2 class="accordion-header" id="playerQueries">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#playCollapse" aria-expanded="false" aria-controls="playCollapse">
                Player Queries
                </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionCheatSheet">
+            <div id="playCollapse" class="accordion-collapse collapse" aria-labelledby="playerQueries" data-bs-parent="#accordionCheatSheet">
                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p>Note: <strong>Men’s/Women’s</strong> can be added to specified team</p>
+                  <div class="card">
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>[<i>Name</i>] career [<i>stat</i>]</strong></li>
+                        <li class="list-group-item">Can also add “vs [opponent]” to show stats vs specified opponent (Note: Only valid on players 2003-Present)</li>
+                        <li class="list-group-item">Ex: <i>Matt Grzelcyk career statline</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>most career [<i>stat</i>]</strong></li>
+                        <li class="list-group-item">Ex: <i>most career goals</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>most [<i>stat</i>] by #[<i>number</i>]</strong></li>
+                        <li class="list-group-item">Ex: <i>most pts by #32</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>most [<i>stat</i>] by [<i>name</i>]</strong></li>
+                        <li class="list-group-item"><i>Ex: most goals by Jack</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>most/leading/best [<i>stat</i>] in [<i>season</i>]</strong></li>
+                        <li class="list-group-item"><i>Ex: best sv% in 2017-18</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>most/leading/best [<i>stat</i>] by [<i>pos/yr</i>] in [<i>season</i>]</strong></li>
+                        <li class="list-group-item"><i>Ex: most goals by freshman in 2014-15</i></li>
+                        <li class="list-group-item"><i>Ex: most assists by defenseman in 2016-17</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>most/leading/best [<i>stat</i>] by [<i>yr</i>] [<i>pos</i>] in [<i>season</i>]</strong></li>
+                        <li class="list-group-item"><i>Ex: most pts by junior women’s forward in 2018-19</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] in [<i>season</i>]</strong></li>
+                        <li class="list-group-item">Can also add “vs [opponent]” to show stats vs specified opponent (Note: Only valid on players 2003-Present)</li>
+                        <li class="list-group-item"><i>Ex: Bobo Carpenter goals in 2016-17</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] as [<i>yr</i>]</strong></li>
+                        <li class="list-group-item">Can also add “vs [opponent]” to show stats vs specified opponent (Note: Only valid on players 2003-Present)</li>
+                        <li class="list-group-item"><i>Ex: Marie-Philip Poulin pts as senior</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>#[<i>number</i>] in [<i>season</i>]</strong></li>
+                        <li class="list-group-item"><i>Ex: #17 in 1994-95</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>number [<i>Name</i>]</strong></li>
+                        <li class="list-group-item"><i>Ex: number Joe Pereira </i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>[<i>Name</i>] career [<i>stat</i>] vs [<i>opponent</i>]</strong></li>
+                        <li class="list-group-item">Note: Only valid for players 2003-Present</li>
+                        <li class="list-group-item"><i>Ex: Colby Cohen career stats vs BC</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] in [<i>season</i>] vs [<i>opponent</i>]</strong></li>
+                        <li class="list-group-item">Note: Only valid for players 2003-Present</li>
+                        <li class="list-group-item"><i>Ex: Ryan Greene pts in 2022-23 vs Umass</i></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] as [<i>yr</i>] vs [<i>opponent</i>]</strong></li>
+                        <li class="list-group-item">Note: Only valid for players 2003-Present</li>
+                        <li class="list-group-item"><i>Ex: Victoria Bach goals as senior vs Vermont</i></li>
+                     </ul>
+                  </div>
+                  <h2 class="accordion-header" id="valStats">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#valStatsCollapse" aria-expanded="false" aria-controls="valStatsCollapse">
+                     Valid Stats
+                     </button>
+                  </h2>
+                  <div id="valStatsCollapse" class="accordion-collapse collapse" aria-labelledby="valStats" data-bs-parent="#valStatsCollapse">
+                     <div class="card">
+                        <div class="card-header">
+                           Skaters
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item">goals</li>
+                           <li class="list-group-item">assists</li>
+                           <li class="list-group-item">points</li>
+                           <li class="list-group-item">stat line</li>
+                        </ul>
+                     </div>
+                     <div class="card">
+                        <div class="card-header">
+                           Goalies
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item">GAA</li>
+                           <li class="list-group-item">SV%</li>
+                           <li class="list-group-item">record</li>
+                           <li class="list-group-item">stat line</li>
+                           <li class="list-group-item">shutouts (only valid for seasons)</li>
+                        </ul>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h2 class="accordion-header" id="beanpotQueries">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#beanpotCollapse" aria-expanded="false" aria-controls="beanpotCollapse">
                Beanpot Queries
                </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionCheatSheet">
+            <div id="beanpotCollapse" class="accordion-collapse collapse" aria-labelledby="beanpotQueries" data-bs-parent="#accordionCheatSheet">
                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot results</strong></li>
+                  <li class="list-group-item">returns all results from given Beanpot</li>
+                  <li class="list-group-item">Ex: <i>1990 Beanpot results</i></li>
+                  <li class="list-group-item">Ex: <i>41st Women’s Beanpot results</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot [<i>round</i>] results</strong></li>
+                  <li class="list-group-item">returns results for the given round of the given Beanpot</li>
+                  <li class="list-group-item">Ex: <i>69th Beanpot semifinal results</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot finish</strong></li>
+                  <li class="list-group-item">returns final standings for given Beanpot</li>
+                  <li class="list-group-item">optional place returns only the team to finish in that place</li>
+                  <li class="list-group-item">Ex: <i>3rd Women’s Beanpot finish</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot [<i>place</i>]</strong></li>
+                  <li class="list-group-item">returns team that finished in given place in given Beanpot</li>
+                  <li class="list-group-item">Ex: <i>2019 Women’s Beanpot runnerup</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot [<i>MVP/Eberly/Bertgna</i>]</strong></li>
+                  <li class="list-group-item">returns award winner in given Beanpot</li>
+                  <li class="list-group-item">Ex: <i>1978 Beanpot MVP</i></li>
+                  <li class="list-group-item">Ex: <i>55th Beanpot Eberly</i></li>
+                  <li class="list-group-item">Ex: <i>2021 Women’s Beanpot Bertgna</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Team</i>] record in Beanpot [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>/in <i>decade</i>]</strong></li>
+                  <li class="list-group-item">returns given team's record in all rounds/games</li>
+                  <li class="list-group-item">optional see record for given team in given time frame</li>
+                  <li class="list-group-item">Ex: <i>BC record in Beanpot after 2016</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Team</i>] record in Beanpot [<i>round/game</i>]</strong></li>
+                  <li class="list-group-item">returns given team's record in given rounds/games</li>
+                  <li class="list-group-item">Ex: <i>BU record in Beanpot finals</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Team</i>] record in Beanpot [<i>round/game</i>] [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong></li>
+                  <li class="list-group-item">returns given team's record in given rounds/games</li>
+                  <li class="list-group-item">optional see record for given team in given time frame</li>
+                  <li class="list-group-item">Ex: <i>Harvard record in Beanpot semifinals since 1995</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Team</i>] Beanpot finish [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong></li>
+                  <li class="list-group-item">returns given finishes</li>
+                  <li class="list-group-item">optional see record for given team in given time frame</li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Team</i>] Beanpot finish in [<i>year</i>]</strong></li>
+                  <li class="list-group-item">returns teams finish in given year</li>
+                  <li class="list-group-item">Ex: <i>BC Beanpot finish in 2017</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Team</i>] Beanpot place [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong></li>
+                  <li class="list-group-item">returns given team's record in given rounds/games</li>
+                  <li class="list-group-item">optional see record for given team in given time frame</li>
+                  <li class="list-group-item">Ex: <i>BC Beanpot 3rd Place</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>Beanpot finish [since/after/before year/between year and year]</strong></li>
+                  <li class="list-group-item">returns finishes for all teams</li>
+                  <li class="list-group-item">optional see record for given team in given time frame</li>
+                  <li class="list-group-item">Ex: <i>Beanpot finish between 1996 and 2016</i></li>
+                  <li class="list-group-item"></li>
+                  <li class="list-group-item"><strong>[<i>Team1</i>] record vs [<i>Team2</i>] in Beanpot [<i>round/game</i>] [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong>
+                  <li class="list-group-item">returns head to head record of given teams</li>
+                  <li class="list-group-item">optional round/game shows results in given round</li>
+                  <li class="list-group-item">optional see record for given team in given time frame</li>
+                  <li class="list-group-item">Ex: <i>NU record vs Harvard in Beanpot consolation game</i></li>
                </div>
             </div>
          </div>
