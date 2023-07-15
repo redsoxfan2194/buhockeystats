@@ -16,19 +16,19 @@
             <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}>Womens</option>
         </select>
         </div>
-        <div id="positionDiv">
-        <label for="position" class="recLabels">Position:</label>
-        <select class="btn dropdown-toggle custom-align" name="position" id="position" onchange="clearFilters(event)">
-            <option value="skater" {% if selected_position == 'skater' %} selected {% endif %}>Skaters</option>
-            <option value="goalie" {% if selected_position == 'goalie' %} selected {% endif %}>Goalies</option>
-        </select>
-        </div>
         <div id="typeDiv">
         <label for="type" class="recLabels">Stats:</label>
         <select class="btn dropdown-toggle custom-align" name="type" id="type" onchange="clearFilters(event)">
             <option value="career" {% if selected_type == 'career' %} selected {% endif %}>Career</option>
             <option value="season" {% if selected_type == 'season' %} selected {% endif %}>Season</option>
             <option value="game" {% if selected_type == 'game' %} selected {% endif %}>Game</option>
+        </select>
+        </div>
+        <div id="positionDiv">
+        <label for="position" class="recLabels">Position:</label>
+        <select class="btn dropdown-toggle custom-align" name="position" id="position" onchange="clearFilters(event)">
+            <option value="skater" {% if selected_position == 'skater' %} selected {% endif %}>Skaters</option>
+            <option value="goalie" {% if selected_position == 'goalie' %} selected {% endif %}>Goalies</option>
         </select>
         </div>
         <div id="nameDiv">
