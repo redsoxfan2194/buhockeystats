@@ -533,7 +533,6 @@ def records():
 
     if request.method == 'POST':
         formData = request.form
-        print(formData)
         if formData['gender'] == 'Mens':
             dfRes = burb.dfGames
             dfOrig = burb.dfGames
