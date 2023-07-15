@@ -93,6 +93,11 @@ img {
 input[type=number]{
     -moz-appearance: textfield;
     width:100px;
+}
+
+#startYear,
+#endYear
+{
     margin-left:5px;
     margin-right:5px;
 }
@@ -122,11 +127,20 @@ input::-webkit-inner-spin-button {
   width: 130px;
 }
 
+.hidden {
+	display: none;
+}
+
 .custom-align{
   margin-left:5px;
 }
 
 #offcanvasRecordsFilters label{
+  width:100px;
+  margin-left: 5px;
+}
+
+#offcanvasPlayersFilters label{
   width:100px;
   margin-left: 5px;
 }
@@ -137,6 +151,20 @@ input::-webkit-inner-spin-button {
 
 #oppscoreop{
   width:50px;
+}
+
+#name{
+  width:130px;
+}
+#number{
+  width:130px;
+}
+#date{
+  width:130px;
+}
+
+#seasRange label{
+  width: 150px;
 }
 
 #resetButton{

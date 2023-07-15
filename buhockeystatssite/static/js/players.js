@@ -42,8 +42,8 @@ function clearFilters(event) {
     document.getElementById("sortval").value = "";
     document.getElementById("isAscending").value = "";
     document.getElementById("name").value = "";
-    document.getElementById("number").value = "Number";
-    document.getElementById("date").value = "Date";
+    document.getElementById("number").value = "";
+    document.getElementById("date").value = "";
     document.getElementById("group").value = "";
     submitForm("true");
 }
@@ -62,7 +62,7 @@ function initializeFilters() {
         .getElementById("resetButton")
         .addEventListener("click", clearFilters);
 
-    var mobileButton = document.getElementById("filterMenu");
+    /*var mobileButton = document.getElementById("filterMenu");
     mobileButton.addEventListener("click", onClick);
     
     var hiddenDiv = document.getElementById('options-menu');
@@ -73,13 +73,21 @@ function initializeFilters() {
     } else {
       hiddenDiv.style.display = 'none';
     }
-    });
+    });*/
     // Hide all season stats
-    const statsElements = document.querySelectorAll(".season-stats, .game-stats");
+    const seasStatsElements = document.getElementsByClassName("season-stats");
 
     // Hide all stats elements
-    for (let i = 0; i < statsElements.length; i++) {
-        statsElements[i].classList.add("hidden");
+    for (let i = 0; i < seasStatsElements.length; i++) {
+        seasStatsElements[i].classList.add("hidden");
+    }
+    
+       // Hide all season stats
+    const gameStatsElements = document.getElementsByClassName("game-stats");
+
+    // Hide all stats elements
+    for (let i = 0; i < gameStatsElements.length; i++) {
+        gameStatsElements[i].classList.add("hidden");
     }
 }
 
@@ -100,7 +108,7 @@ function submitForm(reset = "false") {
                 selectSeasElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Season",
+                        text: "All",
                     })
                 );
                 $.each(response.season_values, function (index, item) {
@@ -141,7 +149,7 @@ function submitForm(reset = "false") {
                 selectOppElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Opponent",
+                        text: "All",
                     })
                 );
                 $.each(response.opponents_values, function (index, item) {
@@ -193,8 +201,8 @@ function submitForm(reset = "false") {
             var gameStats = document.getElementsByClassName("game-stats");
 
             // Hide all season stats
-            const statsElements = document.querySelectorAll(
-                ".season-stats, .game-stats"
+            const statsElements = document.getElementsByClassName(
+                "season-stats, game-stats"
             );
 
             // Hide all stats elements
@@ -216,8 +224,10 @@ function submitForm(reset = "false") {
 
             if (positionSelect.value === "goalie") {
                 document.getElementById("pos").hidden = true;
+                document.getElementById("posLabel").hidden = true;
             } else {
                 document.getElementById("pos").hidden = false;
+                document.getElementById("posLabel").hidden = false;
             }
         },
         error: function (xhr, status, error) {
