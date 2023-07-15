@@ -14,9 +14,9 @@ function clearFilers(event) {
     document.getElementById("opponent").value = "all";
     document.getElementById("season").value = "all";
     document.getElementById("buscoreop").value = "==";
-    document.getElementById("buscore").value = "BU Score";
+    document.getElementById("buscore").value = "";
     document.getElementById("oppscoreop").value = "==";
-    document.getElementById("oppscore").value = "Opp Score";
+    document.getElementById("oppscore").value = "";
     document.getElementById("endYear").value = "{{maxYear}}";
 
     if (document.getElementById("gender").value === "Womens") {
