@@ -286,7 +286,7 @@ def formatStats(dfRes):
 
     headers = {
         'selector': 'th:not(.index_name)',
-        'props': 'color: white;'
+        'props': 'color: #cc0000;text-align:center;'
     }
     table = {
         'selector': 'table',
