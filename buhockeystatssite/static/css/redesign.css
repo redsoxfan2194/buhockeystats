@@ -7,6 +7,7 @@
 }
 #content{
   background-color: #fffafa;
+  overflow:auto;
 }
 
 footer{
@@ -170,4 +171,3 @@ input::-webkit-inner-spin-button {
 #resetButton{
   margin-top:5px;
 }
-
