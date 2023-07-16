@@ -409,7 +409,7 @@ def players():
                     inplace=True)
                 dfMerged = dfStat.merge(mergeGames, on='date', how='left')
                 if len(dfMerged.loc[dfMerged['name'].str.contains(
-                        formData['name'], case=False)].name.unique() > 0):
+                        formData['name'], case=False)].name.unique()) > 0:
                     name = dfMerged.loc[dfMerged['name'].str.contains(
                         formData['name'], case=False)].name.unique()[0]
                 else:
