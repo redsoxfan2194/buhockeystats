@@ -196,11 +196,11 @@ def players():
             oppList = sorted(list(dfStat.opponent.unique()))
             if formData['opponent'] != 'all':
                 dfStat = dfStat.query(f"opponent==\"{formData['opponent']}\"")
-            if formData['date'] != 'Date':
+            if formData['date'] != '':
                 dfStat = dfStat.query(f"date==\"{formData['date']}\"")
         else:
             oppList = []
-        if formData['name'] != 'Name':
+        if formData['name'] != '':
             dfStat = dfStat.loc[dfStat['name'].str.contains(
                 formData['name'].strip(), case=False)]
         if formData['number'] != '':
@@ -631,13 +631,6 @@ def records():
         if 'hideEx' in formData:
             dfRes = dfRes.query("result !='E'")
         if ('grouping' in formData and formData['grouping'] != ''):
-            if formData['grouping'] == 'Month':
-                dfRes = dfRes.copy()
-                dfRes.loc[:, 'month'] = pd.to_datetime(
-                    dfRes['month'], format='%m').dt.strftime('%B')
-            elif formData['grouping'] == 'DOW':
-                dfRes = dfRes.copy()
-                dfRes.loc[:, 'dow'] = dfRes['dow'].map(dayNames)
             if formData['tabletype'] == 'record':
                 groupedData = dfRes.groupby(
                     [formData['grouping'].lower(), 'result']).count()['date']
@@ -681,9 +674,15 @@ def records():
             sortType = not sortType
             dfRes = dfRes.sort_values(
                 formData['grouping'], ascending=sortType)
+            if formData['grouping'] == 'Month':
+                dfRes = dfRes.copy()
+                dfRes.loc[:, 'Month'] = pd.to_datetime(
+                    dfRes['Month'], format='%m').dt.strftime('%B')
+            elif formData['grouping'] == 'DOW':
+                dfRes = dfRes.copy()
+                dfRes.loc[:, 'DOW'] = dfRes['DOW'].map(dayNames)
         else:
             dfRes = dfRes.sort_values(formData['sortval'], ascending=sortType)
-
         return jsonify(
             resTable=formatResults(dfRes),
             result=result,
