@@ -17,25 +17,25 @@ event.preventDefault();
 }
 
 function changeStatsBotImage() {
-  document.getElementById('stats-bot-logo').src = '../static/images/statsbotlogo_hover.ico';
+  document.getElementById('stats-bot-logo').src = '../static/images/statsbotlogo_hover.png';
 }
 
 function restoreStatsBotImage() {
-  document.getElementById('stats-bot-logo').src = '../static/images/statsbotlogo.ico';
+  document.getElementById('stats-bot-logo').src = '../static/images/statsbotlogo.png';
 }
 
 function changeRecordsImage() {
-  document.getElementById('records-logo').src = '../static/images/recordslogo_hover.ico';
+  document.getElementById('records-logo').src = '../static/images/recordslogo_hover.png';
 }
 
 function restoreRecordsImage() {
-  document.getElementById('records-logo').src = '../static/images/recordslogo.ico';
+  document.getElementById('records-logo').src = '../static/images/recordslogo.png';
 }
 
 function changePlayersImage() {
-  document.getElementById('players-logo').src = '../static/images/jersey_home.ico';
+  document.getElementById('players-logo').src = '../static/images/jersey_home.png';
 }
 
 function restorePlayersImage() {
-  document.getElementById('players-logo').src = '../static/images/jersey_road.ico';
+  document.getElementById('players-logo').src = '../static/images/jersey_road.png';
 }
