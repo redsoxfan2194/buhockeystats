@@ -73,16 +73,18 @@ def queryrecords(query, gender):
         return getResults(burb.dfGames, burb.dfGameStatsMens, burb.dfGameStatsGoalieMens, query)
 
 def generaterandomstat():
-    typeList=['record','player']
-    if(random.choice(typeList)=='record'):
-       return generaterandomrecordstat()
-    return generaterandomplayerstat()
+    pQueryList=['leader','hat trick','shutout-game','shutout-season','multi-point-game']
+    recQueryList=['record','last win','last loss','last tie','last game','biggest win']
+    queryList=pQueryList+recQueryList
+    random.shuffle(queryList)
+    qChoice = random.choice(queryList)
+    if(qChoice in recQueryList):
+       return generaterandomrecordstat(recQueryList, qChoice)
+    return generaterandomplayerstat(qChoice)
 
-def generaterandomplayerstat():
-  queryList=['leader','hat trick','shutout-game','shutout-season','multi-point-game']
-  qChoice=random.choice(queryList)
+def generaterandomplayerstat(qChoice):
+
   validQuery=False
-  
   if(qChoice=='leader'):
     dfRes=burb.dfLead.sample().iloc[0]
     statChoice=random.choice(['goals','assists','pts'])
@@ -119,9 +121,7 @@ def generaterandomplayerstat():
       return f"In {dfRes.iloc[0]['season']}, {dfRes.iloc[0]['name']} recorded {int(dfRes.iloc[0]['pts'])} multi-point game" 
     return f"In {dfRes.iloc[0]['season']}, {dfRes.iloc[0]['name']} recorded {int(dfRes.iloc[0]['pts'])} multi-point games" 
 
-def generaterandomrecordstat():
-
-  queryList=['record','last win','last loss','last tie','last game','biggest win']
+def generaterandomrecordstat(recQueryList, qChoice):
   opsDict={'opponent':{'type':'vs','choice':''},
            'tourney':{'type':'in the','choice':''},
            'arena':{'type':'at','choice':''},
@@ -137,7 +137,6 @@ def generaterandomrecordstat():
     randLoc=random.choice(['Home','Away','Neutral'])
     randMonth,randDay=random.choice(burb.dfGames.groupby(['month','day']).count().index)
     opsDict['date']['choice']=f"{randMonth}/{randDay}"
-    qChoice=random.choice(queryList)
     opsChoice=random.choice(list(opsDict.keys()))
     if(opsDict[opsChoice]['choice'] is None or 'NEAAU' in opsDict[opsChoice]['choice'] or 'Non-Collegiate' in opsDict[opsChoice]['choice'] or "Challenge" in opsDict[opsChoice]['choice'] ):
       continue
@@ -146,7 +145,7 @@ def generaterandomrecordstat():
     if(result[0]!='0-0-0' and result[0]!="No Results Found" and result[0]!='' and 'Non-Collegiate' not in result[0]):
       validQuery=True
       result[0]=result[0].replace("()",'')
-    qChoice=random.choice(queryList)
+    qChoice=random.choice(recQueryList)
     opsChoice=random.choice(list(opsDict.keys()))
     if(opsChoice=='date'):
       qText=f"month == {randMonth} and day == {randDay}"

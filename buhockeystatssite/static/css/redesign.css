@@ -171,3 +171,7 @@ input::-webkit-inner-spin-button {
 #resetButton{
   margin-top:5px;
 }
+
+#randStat{
+  padding-top:5px;
+}
