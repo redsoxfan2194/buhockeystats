@@ -16,7 +16,6 @@ function onClick() {
 }
 
 function clearFilters(event) {
-    event.preventDefault();
     document.getElementById("pos").value = "all";
     document.getElementById("yr").value = "all";
     document.getElementById("season").value = "all";
@@ -45,7 +44,10 @@ function clearFilters(event) {
     document.getElementById("number").value = "";
     document.getElementById("date").value = "";
     document.getElementById("group").value = "";
-    submitForm("true");
+    if(event!=null){
+      event.preventDefault();
+      submitForm("true");
+    }
 }
 
 function initializeFilters() {
@@ -62,18 +64,6 @@ function initializeFilters() {
         .getElementById("resetButton")
         .addEventListener("click", clearFilters);
 
-    /*var mobileButton = document.getElementById("filterMenu");
-    mobileButton.addEventListener("click", onClick);
-    
-    var hiddenDiv = document.getElementById('options-menu');
-
-    mobileButton.addEventListener('click', function() {
-    if (hiddenDiv.style.display === 'none' || hiddenDiv.style.display === '' ) {
-    hiddenDiv.style.display = 'block';
-    } else {
-      hiddenDiv.style.display = 'none';
-    }
-    });*/
     // Hide all season stats
     const seasStatsElements = document.getElementsByClassName("season-stats");
 
@@ -89,6 +79,7 @@ function initializeFilters() {
     for (let i = 0; i < gameStatsElements.length; i++) {
         gameStatsElements[i].classList.add("hidden");
     }
+    clearFilters();
 }
 
 function submitForm(reset = "false") {

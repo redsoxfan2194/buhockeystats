@@ -8,7 +8,6 @@ const onKeydown = function (event) {
 };
 initializeFilters();
 function clearFilers(event) {
-    event.preventDefault();
     document.getElementById("arena").value = "all";
     document.getElementById("location").value = "all";
     document.getElementById("opponent").value = "all";
@@ -42,7 +41,10 @@ function clearFilers(event) {
     document.getElementById("grouping").value = "Opponent";
     document.getElementById("grouping").hidden = true;
     document.getElementById("groupLabel").hidden = true;
-    submitForm("true");
+    if(event!=null){
+      event.preventDefault();
+      submitForm("true");
+    }
 }
 
 function toggleArrow() {
@@ -177,20 +179,7 @@ function initializeFilters() {
 
     // Add event listener to the month dropdown
     document.getElementById("month").addEventListener("change", populateDays);
-/*
-    var mobileButton = document.getElementById("filterMenu");
-    var hiddenDiv = document.getElementById("options-menu");
-
-    mobileButton.addEventListener("click", function () {
-        if (
-            hiddenDiv.style.display === "none" ||
-            hiddenDiv.style.display === ""
-        ) {
-            hiddenDiv.style.display = "block";
-        } else {
-            hiddenDiv.style.display = "none";
-        }
-    });*/
+    clearFilers();
 }
 
 function submitForm(reset = "false") {
