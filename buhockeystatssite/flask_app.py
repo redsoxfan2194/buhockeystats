@@ -7,6 +7,7 @@ from querystatsbot import querystatsbot,generaterandomstat
 from burecordbook import initializeRecordBook
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
 import burecordbook as burb
+import random
 
 dayNames = {
     0: 'Monday',
@@ -45,6 +46,113 @@ def about():
       Flask Template : flask template containing about.html
     '''
     return render_template('about.html')
+
+@app.route('/trivia',methods=['POST', 'GET'])
+def trivia():
+    ''' Renders "Trivia" Page
+    
+    Returns:
+      Flask Template : flask template containing trivia.html
+    '''   
+    if(request.method=='POST'):
+      quiz=[]
+      for i in range(10):
+        seasList=burb.dfGames.query('year>2016').season.unique()
+        qType=['jersey','season']
+        random.shuffle(qType)
+        qChoice=random.choice(qType)
+        if(qChoice=='jersey'):
+          question,choices,answer=generateJerseyQuestion('Mens',seasList)
+        elif(qChoice=='season'):
+          question,choices,answer=generateSeasonStatQuestion('Mens',seasList)
+        random.shuffle(choices)
+        ques={'question':question,'choices':choices,'correctAnswer':choices.index(answer)}
+        quiz.append(ques)
+      return jsonify(quiz=quiz)
+      
+    return render_template('trivia.html',
+    season_values=burb.dfGames.season.unique(),
+    selected_startSeas=burb.dfGames.season.min(),
+    selected_endSeas=burb.dfGames.season.max())
+
+def generateJerseyQuestion(gender,seasList):
+  quesType=random.choice(['number','name'])
+  dfJerSeas=pd.DataFrame()
+  if(gender=='Mens'):
+    dfJers=burb.dfJerseyMens.copy()
+  elif(gender=='Womens'):
+    dfJers=burb.dfJerseyWomens.copy()
+    
+  while(dfJerSeas.empty):
+    season=random.choice(seasList)
+    dfJerSeas=dfJers.loc[dfJers['season'].str.contains(season)]
+  correctAnswer=dfJerSeas.sample()
+  validChoices=False
+  while(not validChoices):
+      wrongAnswers=dfJerSeas.sample(n=3)
+      if(correctAnswer['name'].unique()[0] not in wrongAnswers['name'].unique()):
+          validChoices=True
+  choices=pd.concat([wrongAnswers,correctAnswer])
+  if quesType=='number':
+    question = f'What number did {correctAnswer["name"].to_string(index=False,header=False)} wear in {season}?'
+    options = choices['number'].to_list()
+    answer = int(correctAnswer["number"].to_string(index=False,header=False))
+
+  elif quesType=='name':
+      question= f'Who wore #{correctAnswer["number"].to_string(index=False,header=False)} in {season}?'
+      options = choices['name'].to_list()
+      answer=correctAnswer["name"].to_string(index=False,header=False)
+  return question,options,answer
+
+def generateSeasonStatQuestion(gender,seasList):
+  dfStatSeas=pd.DataFrame()
+  if(gender=='Mens'):
+    dfSeas=burb.dfSeasSkateMens.copy()
+  elif(gender=='Womens'):
+    dfSeas=burb.dfSeasSkateWomens.copy()
+    
+  while(dfStatSeas.empty):
+    season=random.choice(seasList)
+    dfStatSeas=dfSeas.loc[dfSeas['season']==season]
+  validQuestion=False
+  while(not validQuestion):
+    quesType=random.choice(['','FR','SO','JR','SR'])
+    posType=random.choice(['','F','D'])
+    stat=random.choice(['goals','assists','pts'])
+    qStr=''
+    if(quesType!='' and posType!=''):
+      qStr=f' yr == "{quesType}" and pos == "{posType}"'
+      quesStr=f"all {quesType} {posType}"
+    elif(quesType!=''):
+      qStr=f' yr == "{quesType}"'
+      quesStr=f"all {quesType}"
+    elif(posType!=''):
+      qStr=f' pos == "{posType}"'
+      quesStr=f"all {posType}"
+    else:
+      quesStr="all Terriers"
+    if(qStr!=''):
+      correctAnswer=dfStatSeas.query(qStr).sort_values(stat,ascending=False).head(1)
+    else:
+      correctAnswer=dfStatSeas.sort_values(stat,ascending=False).head(1)
+    question=f'Who lead {quesStr} in {stat} in {season}?'
+    validChoices=False
+    while(not validChoices):
+        wrongAnswers=dfStatSeas.query ('pos != "G"').sample(n=3)
+        if((len(correctAnswer['name'].unique())>0) and correctAnswer['name'].unique()[0] not in wrongAnswers['name'].unique()):
+            validChoices=True
+    choices=pd.concat([wrongAnswers,correctAnswer])
+    options = choices['name'].to_list()
+    answer=correctAnswer["name"].to_string(index=False,header=False)
+    if(qStr!=''):
+      if((dfStatSeas.query(qStr).sort_values(stat,ascending=False).head(1)[stat]!=0).bool()):
+        validQuestion=True
+    else:
+      if((dfStatSeas.sort_values(stat,ascending=False).head(1)[stat]!=0).bool()):
+        validQuestion=True
+
+  return question,options,answer
+
 
 
 def getOpponentList(dfRes):
