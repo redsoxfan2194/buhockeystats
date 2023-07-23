@@ -47,156 +47,6 @@ def about():
     '''
     return render_template('about.html')
 
-@app.route('/trivia',methods=['POST', 'GET'])
-def trivia():
-    ''' Renders "Trivia" Page
-    
-    Returns:
-      Flask Template : flask template containing trivia.html
-    '''   
-    if(request.method=='POST'):
-      quiz=[]
-      for i in range(10):
-        seasList=burb.dfGames.query('year>2016').season.unique()
-        qType=['jersey','season']
-        random.shuffle(qType)
-        qChoice=random.choice(qType)
-        if(qChoice=='jersey'):
-          question,choices,answer=generateJerseyQuestion('Mens',seasList)
-        elif(qChoice=='season'):
-          question,choices,answer=generateSeasonStatQuestion('Mens',seasList)
-        random.shuffle(choices)
-        ques={'question':question,'choices':choices,'correctAnswer':choices.index(answer)}
-        quiz.append(ques)
-      return jsonify(quiz=quiz)
-      
-    return render_template('trivia.html',
-    season_values=burb.dfGames.season.unique(),
-    selected_startSeas=burb.dfGames.season.min(),
-    selected_endSeas=burb.dfGames.season.max())
-
-def generateJerseyQuestion(gender,seasList):
-  quesType=random.choice(['number','name'])
-  dfJerSeas=pd.DataFrame()
-  if(gender=='Mens'):
-    dfJers=burb.dfJerseyMens.copy()
-  elif(gender=='Womens'):
-    dfJers=burb.dfJerseyWomens.copy()
-    
-  while(dfJerSeas.empty):
-    season=random.choice(seasList)
-    dfJerSeas=dfJers.loc[dfJers['season'].str.contains(season)]
-  correctAnswer=dfJerSeas.sample()
-  validChoices=False
-  while(not validChoices):
-      wrongAnswers=dfJerSeas.sample(n=3)
-      if(correctAnswer['name'].unique()[0] not in wrongAnswers['name'].unique()):
-          validChoices=True
-  choices=pd.concat([wrongAnswers,correctAnswer])
-  if quesType=='number':
-    question = f'What number did {correctAnswer["name"].to_string(index=False,header=False)} wear in {season}?'
-    options = choices['number'].to_list()
-    answer = int(correctAnswer["number"].to_string(index=False,header=False))
-
-  elif quesType=='name':
-      question= f'Who wore #{correctAnswer["number"].to_string(index=False,header=False)} in {season}?'
-      options = choices['name'].to_list()
-      answer=correctAnswer["name"].to_string(index=False,header=False)
-  return question,options,answer
-
-def generateSeasonStatQuestion(gender,seasList):
-  dfStatSeas=pd.DataFrame()
-  if(gender=='Mens'):
-    dfSeas=burb.dfSeasSkateMens.copy()
-  elif(gender=='Womens'):
-    dfSeas=burb.dfSeasSkateWomens.copy()
-    
-  while(dfStatSeas.empty):
-    season=random.choice(seasList)
-    dfStatSeas=dfSeas.loc[dfSeas['season']==season]
-  validQuestion=False
-  while(not validQuestion):
-    quesType=random.choice(['','FR','SO','JR','SR'])
-    posType=random.choice(['','F','D'])
-    stat=random.choice(['goals','assists','pts'])
-    qStr=''
-    if(quesType!='' and posType!=''):
-      qStr=f' yr == "{quesType}" and pos == "{posType}"'
-      quesStr=f"all {quesType} {posType}"
-    elif(quesType!=''):
-      qStr=f' yr == "{quesType}"'
-      quesStr=f"all {quesType}"
-    elif(posType!=''):
-      qStr=f' pos == "{posType}"'
-      quesStr=f"all {posType}"
-    else:
-      quesStr="all Terriers"
-    if(qStr!=''):
-      correctAnswer=dfStatSeas.query(qStr).sort_values(stat,ascending=False).head(1)
-    else:
-      correctAnswer=dfStatSeas.sort_values(stat,ascending=False).head(1)
-    question=f'Who lead {quesStr} in {stat} in {season}?'
-    validChoices=False
-    while(not validChoices):
-        wrongAnswers=dfStatSeas.query ('pos != "G"').sample(n=3)
-        if((len(correctAnswer['name'].unique())>0) and correctAnswer['name'].unique()[0] not in wrongAnswers['name'].unique()):
-            validChoices=True
-    choices=pd.concat([wrongAnswers,correctAnswer])
-    options = choices['name'].to_list()
-    answer=correctAnswer["name"].to_string(index=False,header=False)
-    if(qStr!=''):
-      if((dfStatSeas.query(qStr).sort_values(stat,ascending=False).head(1)[stat]!=0).bool()):
-        validQuestion=True
-    else:
-      if((dfStatSeas.sort_values(stat,ascending=False).head(1)[stat]!=0).bool()):
-        validQuestion=True
-
-  return question,options,answer
-
-
-
-def getOpponentList(dfRes):
-    ''' Generates Opponent List
-    
-    Parameters:
-      dfRes (DataFrame) : DataFrame containing Game Results
-    
-    Returns:
-      list : list of Opponents for given DataFrame
-    '''
-    dfRes.loc[dfRes['tourney'].isnull(), 'tourney'] = ''
-    nonCollOpps = sorted(
-        list(dfRes[dfRes['tourney'].str.contains("Non-Collegiate")].opponent.unique()))
-    exOpps = sorted(list(set(dfRes.query('result=="E"').opponent.unique(
-    )) - set(dfRes.query('result!="E"').opponent.unique())))
-    opps = sorted(list(set(dfRes.opponent.unique()) -
-                  set(nonCollOpps) - set(exOpps)))
-    retList = opps
-    if nonCollOpps != []:
-        retList += ['Non-Collegiate:'] + nonCollOpps
-    if exOpps != []:
-        retList += ['Exhibition:'] + exOpps
-    return retList
-
-
-def getTourneyList(dfRes):
-    ''' Generates Tournament List
-    
-    Parameters:
-      dfRes (DataFrame) : DataFrame containing Game Results
-    
-    Returns:
-      list : list of Tournaments for given DataFrame
-    
-    '''
-    dfRes = dfRes.copy()
-    dfRes.loc[dfRes['tourney'].isnull(), 'tourney'] = ''
-    dfRes = dfRes.query('tourney != ""').loc[~dfRes['tourney'].str.contains('1932')]
-    retList = ['All'] + \
-        sorted(dfRes.query('tourney != ""').tourney.unique())
-    return retList
-
-
 @app.route('/players', methods=['POST', 'GET'])
 def players():
     ''' Loads BU Hockey Stats Players page
@@ -839,6 +689,314 @@ def records():
             dfOrig.coach.unique()),
         selected_day=0)
 
+@app.route('/trivia',methods=['POST', 'GET'])
+def trivia():
+    ''' Renders "Trivia" Page
+    
+    Returns:
+      Flask Template : flask template containing trivia.html
+    '''   
+    if(request.method=='POST'):
+      quiz=[]
+      qType=[]
+      formData=request.form
+      if('gender' not in formData):
+        gender= 'Mens'
+      else:
+        gender=formData['gender']
+      for type in ['jersey','season','result','beanpot']:
+        if(type in formData):
+          qType.append(type)
+      if(qType==[]):
+        qType=['jersey','season','result','beanpot']
+      numQuestions=int(formData['numQuestions'])
+      distQ=distributeQuestions(len(qType),numQuestions)
+      qDict={}
+      qNum=0
+      for q in range(len(qType)):
+        qDict[qType[q]]=distQ[q]
+      while(qNum<numQuestions):
+        sYear=formData['seasonStart'][:4]
+        eYear=formData['seasonEnd'][:4]
+        
+        if(sYear==eYear):
+          eYear=str(int(eYear)+1)
+        seasList=burb.dfGames.query(f'year>{sYear} and year<={eYear}').season.unique()
+        random.shuffle(qType)
+        qChoice=random.choice(qType)
+        
+        if(qDict[qChoice] == 0):
+          continue
+        if(qChoice=='jersey'):
+          question,choices,answer=generateJerseyQuestion(gender,seasList)
+        elif(qChoice=='season'):
+          question,choices,answer=generateSeasonStatQuestion(gender,seasList)
+        elif(qChoice=='result'):
+          question,choices,answer=generateResultsQuestion(gender,seasList)
+        elif(qChoice=='beanpot'):
+          question,choices,answer=generateBeanpotQuestion(gender,seasList)
+        random.shuffle(choices)
+        qDict[qChoice]-=1
+        qNum+=1
+        ques={'question':question,'choices':choices,'correctAnswer':choices.index(answer)}
+        quiz.append(ques)
+        random.shuffle(quiz)
+      return jsonify(quiz=quiz)
+      
+    return render_template('trivia.html',
+    season_values=burb.dfGames.season.unique(),
+    selected_startSeas=burb.dfGames.season.min(),
+    selected_endSeas=burb.dfGames.season.max())
+
+def distributeQuestions(numCategories,numQuestions):
+
+    # Calculate the number of questions per category.
+    quesPerCat = numQuestions // numCategories
+    
+    # Calculate the remainder questions.
+    remQs = numQuestions % numCategories
+    
+    # Create a list to hold the distribution of questions per category.
+    distribution = [quesPerCat] * numCategories
+    
+    # Randomly assign the remainder questions to the categories.
+    for i in range(remQs):
+        randCat = random.randint(0, numCategories - 1)
+        distribution[randCat] += 1
+    
+    return distribution
+
+
+
+def generateJerseyQuestion(gender,seasList):
+  quesType=random.choice(['number','name'])
+  dfJerSeas=pd.DataFrame()
+  if(gender=='Mens'):
+    dfJers=burb.dfJerseyMens.copy()
+  elif(gender=='Womens'):
+    dfJers=burb.dfJerseyWomens.copy()
+  validQuestion=False
+  while(not validQuestion):
+    season=random.choice(seasList)
+    dfJerSeas=dfJers.loc[dfJers['season'].str.contains(season)]
+    if(len(dfJerSeas)<4):
+      continue
+    correctAnswer=dfJerSeas.sample()
+    validChoices=False
+    while(not validChoices):
+        wrongAnswers=dfJerSeas.sample(n=3)
+        if(correctAnswer['name'].unique()[0] not in wrongAnswers['name'].unique()):
+            validChoices=True
+    validQuestion=True
+    choices=pd.concat([wrongAnswers,correctAnswer])
+  if quesType=='number':
+    question = f'What number did {correctAnswer["name"].to_string(index=False,header=False)} wear in {season}?'
+    options = choices['number'].to_list()
+    answer = int(correctAnswer["number"].to_string(index=False,header=False))
+
+  elif quesType=='name':
+      question= f'Who wore #{correctAnswer["number"].to_string(index=False,header=False)} in {season}?'
+      options = choices['name'].to_list()
+      answer=correctAnswer["name"].to_string(index=False,header=False)
+  return question,options,answer
+
+def generateSeasonStatQuestion(gender,seasList):
+  dfStatSeas=pd.DataFrame()
+  if(gender=='Mens'):
+    dfSeas=burb.dfSeasSkateMens.copy()
+  elif(gender=='Womens'):
+    dfSeas=burb.dfSeasSkateWomens.copy()
+  validQuestion=False  
+  while(not validQuestion):
+    season=random.choice(seasList)
+    dfStatSeas=dfSeas.loc[dfSeas['season']==season]
+    quesType=random.choice(['','FR','SO','JR','SR'])
+    posType=random.choice(['','F','D'])
+    stat=random.choice(['goals','assists','pts'])
+    qStr=''
+    if(quesType!='' and posType!=''):
+      qStr=f' yr == "{quesType}" and pos == "{posType}"'
+      quesStr=f"all {quesType} {posType}"
+    elif(quesType!=''):
+      qStr=f' yr == "{quesType}"'
+      quesStr=f"all {quesType}"
+    elif(posType!=''):
+      qStr=f' pos == "{posType}"'
+      quesStr=f"all {posType}"
+    else:
+      quesStr="all Terriers"
+    if(qStr!=''):
+      correctAnswer=dfStatSeas.query(qStr).sort_values(stat,ascending=False).head(1)
+    else:
+      correctAnswer=dfStatSeas.sort_values(stat,ascending=False).head(1)
+    question=f'Who lead {quesStr} in {stat} in {season}?'
+    validChoices=False
+    vChoiceCounter=0
+    broken=False
+    while(not validChoices):
+        if(len(dfStatSeas.query('pos != "G"'))<4 or vChoiceCounter>10):
+          broken=True
+          break
+        wrongAnswers=dfStatSeas.query('pos != "G"').sample(n=3)
+        if((len(correctAnswer['name'].unique())>0) and correctAnswer['name'].unique()[0] not in wrongAnswers['name'].unique()):
+            validChoices=True
+        vChoiceCounter+=1
+    if(broken):
+      continue
+    choices=pd.concat([wrongAnswers,correctAnswer])
+    options = choices['name'].to_list()
+    answer=correctAnswer["name"].to_string(index=False,header=False)
+    if(qStr!=''):
+      if((dfStatSeas.query(qStr).sort_values(stat,ascending=False).head(1)[stat]!=0).bool()):
+        validQuestion=True
+    else:
+      if((dfStatSeas.sort_values(stat,ascending=False).head(1)[stat]!=0).bool()):
+        validQuestion=True
+    if(validQuestion):
+      break
+  return question,options,answer
+
+def generateResultsQuestion(gender,seasList):
+  if(gender=="Mens"):
+    dfG=burb.dfGames.copy()
+  elif(gender=="Womens"):
+    dfG=burb.dfGamesWomens.copy()
+  qOps=['first','last','road']
+  qChoice=random.choice(qOps)
+  teamsList=dfG.loc[dfG['season'].isin(seasList)].opponent.unique()
+  if(qChoice in ['first','last']):
+    if(qChoice=='last'):
+      lastGame=dfG.loc[(dfG['result']!="E") & (~dfG['tourney'].isin(['Non-Collegiate','Non-Collegiate', '1932 NEAAU Olympic tryouts',\
+    '1932 NEAAU Olympic tryouts-Non-Collegiate','NEIHL Tournament','ECAC Tournament','Hockey East Tournament'])) & (dfG['opponent'].isin(teamsList))].groupby('opponent').last()
+      ans=lastGame.sample()
+      
+    elif(qChoice=='first'):
+      firstGame=dfG.loc[(dfG['result']!="E") & (~dfG['tourney'].isin(['Non-Collegiate','Non-Collegiate', '1932 NEAAU Olympic tryouts',\
+    '1932 NEAAU Olympic tryouts-Non-Collegiate','NEIHL Tournament','ECAC Tournament','Hockey East Tournament'])) & (dfG['opponent'].isin(teamsList))].groupby('opponent').first()
+      ans=firstGame.sample()
+    
+    ans.reset_index(inplace=True)
+    oppName=ans['opponent'].to_string(index=False)
+    season=ans['season'].to_string(index=False)
+    coach=ans['coach'].to_string(index=False)
+    seasons=list(dfG.season.unique())
+    seasIdx=seasons.index(season)
+    eIdx=seasIdx+5
+    sIdx=seasIdx-5
+    if(eIdx>len(seasons)):
+        eIdx=len(seasons)
+        sIdx-=(seasIdx+5)-len(seasons)
+    if((seasIdx-5)<0):
+        sIdx=0
+        eIdx+=abs(int(seasIdx)-5)
+    ops=[]
+    while(len(set(ops))<3 or seasIdx in ops):
+        ops=random.sample(range(sIdx,eIdx),3)
+    options=[seasons[i] for i in ops]
+    options.append(season)
+    question = f"BU's {qChoice} game vs {oppName} occurred during which season?"
+    answer=season
+  elif(qChoice=='road'):
+      ans=dfG.loc[dfG['opponent'].isin(teamsList)].query('location=="Away"').groupby(['opponent','arena']).count()['date'].sample()
+      arenaName=ans.index[0][1]
+      numGames=ans.values[0]
+      answer=ans.index[0][0]
+      if(numGames==1):
+        numGames=str(numGames) + " game"
+      else:
+        numGames=str(numGames) + " games"
+      options=[]
+      while(len(set(options))<3 or answer in options):
+        options=dfG.loc[dfG['opponent'].isin(teamsList)].query('location=="Away"').opponent.sample(3).to_list()
+      options.append(answer)
+      question=f"BU has played {numGames} at {arenaName} vs:"
+  return question,options,answer
+  
+def generateBeanpotQuestion(gender,seasList):
+  if(gender=="Mens"):
+    dfBean=burb.dfBeanpot.copy()
+  elif(gender=="Womens"):
+    dfBean=burb.dfBeanpotWomens.copy()
+  ops=['finish','championship']
+  opChoice=random.choice(ops)
+  validQuestion=False
+  while(not validQuestion):
+    ans=dfBean.sample()
+    if(opChoice=='finish'):
+      place=['champion','runnerup','consWinner','consLoser']
+      pChoice=random.choices(place,weights=[5,2,1,1])[0]
+      answer=ans[pChoice].to_string(index=False)
+      pQues={'champion': "Who won the", 'runnerup': "Who was the runner-up of the",'consWinner':"Who finished 3rd in the",'consLoser':"Who finished last in the"}
+      question = f"{pQues[pChoice]} {ans['year'].to_string(index=False)} Beanpot?"
+      if(answer=="Brown"):
+        options=['Brown','Boston College', 'Northeastern', 'Harvard']
+      else:
+        options=['Boston University','Boston College', 'Northeastern', 'Harvard']
+    if(opChoice=='championship'):
+      champCombo=tuple(ans[['champion','runnerup']].to_csv(index=False,header=False).strip('\r\n').split(','))
+      combos=[('Boston University', 'Boston College'),
+         ('Boston University', 'Northeastern'),
+         ('Boston University', 'Harvard'),
+         ('Boston College', 'Northeastern'),
+         ('Boston College', 'Harvard')]
+      opSet=set()
+      options=[]
+      while(len(opSet)<4):
+        opSet=set(random.choices(combos,k=3)+[champCombo])
+      opSet.remove(champCombo)
+      for op in opSet:
+        op=list(op)
+        random.shuffle(op)
+        options.append(f"{op[0]} vs {op[1]}")
+      answer=f"{champCombo[0]} vs {champCombo[1]}"
+      question=f"Which of the following was the championship matchup for the {ans['year'].to_string(index=False)} Beanpot?"
+      options.append(answer)
+    if(answer==''):
+        continue
+    validQuestion=True
+  return question,options,answer
+
+def getOpponentList(dfRes):
+    ''' Generates Opponent List
+    
+    Parameters:
+      dfRes (DataFrame) : DataFrame containing Game Results
+    
+    Returns:
+      list : list of Opponents for given DataFrame
+    '''
+    dfRes.loc[dfRes['tourney'].isnull(), 'tourney'] = ''
+    nonCollOpps = sorted(
+        list(dfRes[dfRes['tourney'].str.contains("Non-Collegiate")].opponent.unique()))
+    exOpps = sorted(list(set(dfRes.query('result=="E"').opponent.unique(
+    )) - set(dfRes.query('result!="E"').opponent.unique())))
+    opps = sorted(list(set(dfRes.opponent.unique()) -
+                  set(nonCollOpps) - set(exOpps)))
+    retList = opps
+    if nonCollOpps != []:
+        retList += ['Non-Collegiate:'] + nonCollOpps
+    if exOpps != []:
+        retList += ['Exhibition:'] + exOpps
+    return retList
+
+
+def getTourneyList(dfRes):
+    ''' Generates Tournament List
+    
+    Parameters:
+      dfRes (DataFrame) : DataFrame containing Game Results
+    
+    Returns:
+      list : list of Tournaments for given DataFrame
+    
+    '''
+    dfRes = dfRes.copy()
+    dfRes.loc[dfRes['tourney'].isnull(), 'tourney'] = ''
+    dfRes = dfRes.query('tourney != ""').loc[~dfRes['tourney'].str.contains('1932')]
+    retList = ['All'] + \
+        sorted(dfRes.query('tourney != ""').tourney.unique())
+    return retList
+
 def determineRecord(dfRes):
     ''' Generate Record for given DataFrame
 
@@ -872,7 +1030,6 @@ def determineRecord(dfRes):
     dfStat['T'] = mergedDf.groupby(['name', 'opponent'])['T_y'].transform(sum, numeric_only=True)
 
     return dfStat
-
 
 if __name__ == '__main__':
     app.run(host='localhost', port=5000)

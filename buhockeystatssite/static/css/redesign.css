@@ -186,5 +186,36 @@ display: none;
 .choice-btn{
   margin-right:10px;
   margin-bottom:10px;
+  display:block;
+}
+
+.btn-group{
+  margin-bottom:10px;
+}
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      background: #cc0000;
+    }
+
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+  background-color: #cc0000; 
+}
+input[type="range"]::-moz-range-track {  
+  background-color: #a2a4a8;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #cc0000; 
+}
+input[type="range"]::-ms-fill-upper {  
+  background-color: #a2a4a8;
 }
   
