@@ -62,7 +62,7 @@ $(document).ready(function () {
           // All questions answered, show results screen
           $("#game-screen").hide();
           $("#results-screen").show();
-          showScore(scoreNum);
+          showScore(scoreNum,questions.length);
       } else {
           var question = questions[index];
           $("#questionNumber").text("Question "+(index+1)+" of " + questions.length + ":")
@@ -108,8 +108,31 @@ $(document).ready(function () {
   }
 
 
-    function showScore(score) {
+    function showScore(score,numQuestions) {
+        var ranking=''
         $("#score").text("Your Score: " + score);
+
+        if ((score == 0 && numQuestions <= 20) || (numQuestions > 20 && score <= 0.1 * numQuestions)) {
+          ranking = 'Eagle';
+        } else if ((score <= 5 && numQuestions <= 20) || (numQuestions > 20 && (score > 0.1 * numQuestions && score <= 0.25 * numQuestions))) {
+          ranking = '4th Liner';
+        } else if ((score <= 10 && numQuestions <= 20) || (numQuestions > 20 && (score > 0.25 * numQuestions && score <= 0.5 * numQuestions))) {
+          ranking = 'Starter';
+        } else if ((score > 10 && numQuestions <= 20) || (numQuestions >= 20 && (score > 0.5 * numQuestions && score <= 0.75 * numQuestions))) {
+          ranking = 'All-Conference';
+        } else if (numQuestions > 20 && (score > 0.75 * numQuestions && score <= 0.9 * numQuestions)) {
+          ranking = 'All-American';
+        } else if (numQuestions >= 25 && score == numQuestions) {
+          ranking = 'Bernie Corbett';
+        } else {
+          if($("input[name='gender']").val() === "Womens") {
+            ranking = 'Patty Kazmaier Winner';
+          } else {
+            ranking = 'Hobey Baker Winner';
+          }
+        }
+        
+        $("#rank").text("Your Rank: " + ranking);
     }
 
 });
