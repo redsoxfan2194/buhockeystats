@@ -3,25 +3,36 @@
 <div class="p-3 container">
     <h1 id='homepage-title'>BU Hockey Stats</h1>
     <div class="row">
-      <div class="column">
-        <a class='homepage-link' href="/statsbot"><img id='stats-bot-logo' src="../static/images/statsbotlogo.png" onmouseover="changeStatsBotImage()" onmouseout="restoreStatsBotImage()"></a>
-      </div>
-      <div class="column">
-        <a class='homepage-link' href="/records"><img id='records-logo' src="../static/images/recordslogo.png" onmouseover="changeRecordsImage()" onmouseout="restoreRecordsImage()"></a>
-      </div>
-      <div class="column">
-        <a class='homepage-link' href="/players"><img id='players-logo' src="../static/images/jersey_road.png" onmouseover="changePlayersImage()" onmouseout="restorePlayersImage()"></a>
-      </div>
-    <div id='randStat'>
-    <form method='POST' id='randomStatForm'>
-    <h2 id='dyk'> Did You Know? <button class="btn btn-outline-danger btn-sm" type="submit" id="new-stat-button">Generate New Stat</button></h2>
-    </form>
-    <h3 id='dyk-query'>{{query}}</h3>
-    <p id='result'>{% autoescape false %}
-    {{result}}
-    {% endautoescape %}</p>
-    <p align="center"><iframe src="https://free.timeanddate.com/countdown/i8xklykc/n43/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cacc00/cpc000/pcfff/tcfff/fs100/szw448/szh189/iso2023-09-01T00:00:00" allowtransparency="true" frameborder="0" width="153" height="41"></iframe></p>
-    <script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+        <div class="column">
+            <a class='homepage-link' href="/statsbot">
+                <img id='stats-bot-logo' src="../static/images/statsbotlogo.png" onmouseover="changeStatsBotImage()" onmouseout="restoreStatsBotImage()">
+            </a>
+        </div>
+        <div class="column">
+            <a class='homepage-link' href="/records">
+                <img id='records-logo' src="../static/images/recordslogo.png" onmouseover="changeRecordsImage()" onmouseout="restoreRecordsImage()">
+            </a>
+        </div>
+        <div class="column">
+            <a class='homepage-link' href="/players">
+                <img id='players-logo' src="../static/images/jersey_road.png" onmouseover="changePlayersImage()" onmouseout="restorePlayersImage()">
+            </a>
+        </div>
+    </div>
+    <div id="randStat" class="card">
+        <div class="card-body">
+            <form method='POST' id='randomStatForm'>
+                <h2 class="card-title" id="dyk"> Did You Know?</h2>
+                <h3 id="dyk-query">{{query}}</h3>
+                <p class="card-text" id="result">
+                    {% autoescape false %}
+                    {{result}}
+                    {% endautoescape %}
+                </p>
+                <button class="btn btn-danger btn-sm" type="submit" id="new-stat-button">Generate New Stat</button>
+            </form>
+            <script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+        </div>
     </div>
 </div>
 {% endblock %}
