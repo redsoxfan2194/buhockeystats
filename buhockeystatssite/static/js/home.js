@@ -39,3 +39,11 @@ function changePlayersImage() {
 function restorePlayersImage() {
   document.getElementById('players-logo').src = '../static/images/jersey_road.png';
 }
+
+function changeTriviaImage() {
+  document.getElementById('trivia-logo').src = '../static/images/trivialogo_hover.png';
+}
+
+function restoreTriviaImage() {
+  document.getElementById('trivia-logo').src = '../static/images/trivialogo.png';
+}

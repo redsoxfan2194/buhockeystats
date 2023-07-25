@@ -73,7 +73,7 @@ img {
 }
 
 .column {
-  flex: 33.33%;
+  flex: 25%;
 }
 .btn-stats-bg{
  background-color: #fffafa; 
@@ -217,5 +217,9 @@ input[type="range"]::-ms-fill-lower {
 }
 input[type="range"]::-ms-fill-upper {  
   background-color: #a2a4a8;
+}
+
+#randStat{
+  margin-top:5px;
 }
   
