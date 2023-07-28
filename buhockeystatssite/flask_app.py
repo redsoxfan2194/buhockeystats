@@ -1,13 +1,14 @@
 '''Boots and Runs BU Hockey Stats Website Via Flask'''
 import re
+import random
+import datetime
 import numpy as np
 import pandas as pd
 from flask import Flask, render_template, request, jsonify
 from querystatsbot import querystatsbot,generaterandomstat
-from burecordbook import initializeRecordBook
+from burecordbook import initializeRecordBook,awardsDict
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
 import burecordbook as burb
-import random
 
 dayNames = {
     0: 'Monday',
@@ -689,6 +690,64 @@ def records():
             dfOrig.coach.unique()),
         selected_day=0)
 
+@app.route('/trivia_challenge',methods=['POST', 'GET'])
+def triviaChallenge():
+    ''' Renders "Trivia" Page
+    
+    Returns:
+      Flask Template : flask template containing trivia.html
+    '''   
+    if(request.method=='POST'):
+      quiz=[]
+      qType=[]
+      formData=request.form
+      DOW=dayNames[datetime.datetime.now().weekday()]
+      qNum=0
+      for q in range(5):
+        
+        if DOW == "Monday":
+          title = "Beanpot Monday"
+          question,choices,answer=generateBeanpotQuestion()
+          
+        elif DOW == "Tuesday":
+          title = "Terrific Terrier Tuesday" #Awards Related Questions
+          question,choices,answer=generateAwardQuestion()
+          
+        elif DOW == "Wednesday":
+          title = "Womens Hockey Wednesday"
+          qChoice=random.choice(['jersey','season','result'])
+          if(qChoice=='jersey'):
+            question,choices,answer=generateJerseyQuestion(gender,seasList)
+          elif(qChoice=='season'):
+            question,choices,answer=generateSeasonStatQuestion(gender,seasList)
+          elif(qChoice=='result'):
+            question,choices,answer=generateResultsQuestion(gender,seasList)
+          
+        elif DOW == "Thursday":
+          title = "Jersday Thursday"
+          question,choices,answer=generateJerseyQuestion()
+          
+        elif DOW == "Friday":
+          title = "Foe Friday" # Questions About Opponents
+          question,choices,answer=generateResultsQuestion()
+          
+        elif DOW == "Saturday":
+          title = "Staturday" # Player Stat Questions
+          question,choices,answer=generateSeasonStatQuestion()
+          
+        elif DOW == "Sunday":
+          title = "Sunday Scores" #score related questions
+
+        random.shuffle(choices)
+        ques={'question':question,'choices':choices,'correctAnswer':choices.index(answer)}
+        
+        quiz.append(ques)
+        random.shuffle(quiz)
+      return jsonify(quiz=quiz)
+      
+    return render_template('trivia.html')
+    
+
 @app.route('/trivia',methods=['POST', 'GET'])
 def trivia():
     ''' Renders "Trivia" Page
@@ -766,9 +825,7 @@ def distributeQuestions(numCategories,numQuestions):
     
     return distribution
 
-
-
-def generateJerseyQuestion(gender,seasList):
+def generateJerseyQuestion(gender="Mens",seasList=burb.dfGames.season.unique()):
   quesType=random.choice(['number','name'])
   dfJerSeas=pd.DataFrame()
   if(gender=='Mens'):
@@ -856,7 +913,7 @@ def generateSeasonStatQuestion(gender,seasList):
       break
   return question,options,answer
 
-def generateResultsQuestion(gender,seasList):
+def generateResultsQuestion(gender="Mens",seasList=burb.dfGames.season.unique()):
   if(gender=="Mens"):
     dfG=burb.dfGames.copy()
   elif(gender=="Womens"):
@@ -912,7 +969,7 @@ def generateResultsQuestion(gender,seasList):
       question=f"BU has played {numGames} at {arenaName} vs:"
   return question,options,answer
   
-def generateBeanpotQuestion(gender,seasList):
+def generateBeanpotQuestion(gender="Mens",seasList=burb.dfGames.season.unique()):
   if(gender=="Mens"):
     dfBean=burb.dfBeanpot.copy()
   elif(gender=="Womens"):
@@ -954,6 +1011,50 @@ def generateBeanpotQuestion(gender,seasList):
     if(answer==''):
         continue
     validQuestion=True
+  return question,options,answer
+  
+def generateAwardQuestion():
+  validQuestion=False
+  while(not validQuestion):
+    broken=False
+    qType=random.choice(list(burb.awardsDict.keys()))
+    kName=random.choice(list(burb.awardsDict[qType].keys()))
+    if(qType in ['Spencer Penrose Award Winner','NCAA Scoring Champion']):
+      question=f"{kName} was the {qType} in what year?"
+      answer=random.choice(burb.awardsDict[qType][kName])
+      options=[]
+      while(answer in options or len(set(options))<3):
+        options=random.sample(range(answer-2,answer+7),k=3)
+      options.append(answer)
+      validQuestion=True
+      
+    elif("All-American" in qType):
+      question=f"Who was named a {qType} in {kName}?"
+      aList=burb.awardsDict[qType][kName]
+      if(len(aList)>1):
+        answer=random.choice(burb.awardsDict[qType][kName])
+      else:
+        answer=aList[0]
+      options=[]
+      while(len(set(options)-set(aList))<3):
+        if(len(burb.dfSkateMens.loc[burb.dfSkateMens['seasons'].str.contains(kName)])<4):
+          broken=True
+          break
+        options=burb.dfSkateMens.loc[burb.dfSkateMens['seasons'].str.contains(kName)].sample(3)['name'].to_list()
+      options.append(answer)
+      validQuestion=True
+    else:
+      question=f"Who won the {qType} in {kName}?"
+      answer=burb.awardsDict[qType][kName]
+      options=[]
+      while(answer in options or len(set(options))<3):
+        if(len(burb.dfSeasSkateMens.query(f'year=={kName}'))<4):
+          broken=True
+          break
+        options=burb.dfSeasSkateMens.query(f'year=={kName}').sample(3)['name'].to_list()
+      if(not broken):
+        validQuestion=True
+        options.append(answer)
   return question,options,answer
 
 def getOpponentList(dfRes):
