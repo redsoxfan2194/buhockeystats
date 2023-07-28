@@ -706,24 +706,29 @@ def triviaChallenge():
     Returns:
       Flask Template : flask template containing trivia.html
     '''
+    DOW = dayNames[datetime.datetime.now().weekday()]
+    titles={'Monday':"Beanpot Monday",
+      'Tuesday':"Terrific Terrier Tuesday",  # Awards Related Questions
+      'Wednesday':"Womens Hockey Wednesday",
+      'Thursday':"Jersday Thursday",
+      'Friday': "Foe Friday",  # Questions About Opponents
+      'Saturday':"Staturday", # Player Stat Questions
+      'Sunday':"Sunday Scores"} # score related questions
+      
     if (request.method == 'POST'):
         quiz = []
         qType = []
         formData = request.form
-        DOW = dayNames[datetime.datetime.now().weekday()]
         qNum = 0
         for q in range(5):
 
             if DOW == "Monday":
-                title = "Beanpot Monday"
                 question, choices, answer = generateBeanpotQuestion()
 
             elif DOW == "Tuesday":
-                title = "Terrific Terrier Tuesday"  # Awards Related Questions
                 question, choices, answer = generateAwardQuestion()
 
             elif DOW == "Wednesday":
-                title = "Womens Hockey Wednesday"
                 qChoice = random.choice(['jersey', 'season', 'result'])
                 if (qChoice == 'jersey'):
                     question, choices, answer = generateJerseyQuestion(
@@ -736,19 +741,15 @@ def triviaChallenge():
                         gender, seasList)
 
             elif DOW == "Thursday":
-                title = "Jersday Thursday"
                 question, choices, answer = generateJerseyQuestion()
 
             elif DOW == "Friday":
-                title = "Foe Friday"  # Questions About Opponents
                 question, choices, answer = generateResultsQuestion()
 
             elif DOW == "Saturday":
-                title = "Staturday"  # Player Stat Questions
                 question, choices, answer = generateSeasonStatQuestion()
 
             elif DOW == "Sunday":
-                title = "Sunday Scores"  # score related questions
                 question, choices, answer = generateScoreQuestion()
 
             random.shuffle(choices)
@@ -759,7 +760,7 @@ def triviaChallenge():
             random.shuffle(quiz)
         return jsonify(quiz=quiz)
 
-    return render_template('trivia.html')
+    return render_template('trivia_challenge.html',topic=titles[DOW])
 
 
 @app.route('/trivia', methods=['POST', 'GET'])

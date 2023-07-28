@@ -1,0 +1,30 @@
+{% extends "layout_redesign.html" %}
+{% block content %}
+<div class="p-3">
+   <form id="game-options-form" method="post">
+      <div id="start-screen">
+         <h1>BU Hockey Daily Trivia Challenge</h1>
+         <div class="form-group">
+         <h2>Today's Category: <strong>{{topic}}</strong></h2>
+         </div>
+         <button id="startBtn" class="btn btn-outline-danger">Start</button>
+      </div>
+   </form>
+   <div id="game-screen" style="display: none;">
+      <h2 id='questionNumber'>Question :</h2>
+      <p id="questionText"></p>
+      <div id="choices">
+         <!-- The question choices will be dynamically populated here -->
+      </div>
+      <button id="nextBtn" class="btn btn-danger" style="display: none;">Next Question</button>
+   </div>
+   <div id="results-screen" style="display: none;">
+      <h2>Results:</h2>
+      <p id="score"></p>
+      <button id="restartBtn" class="btn btn-outline-danger">Play Again</button>
+   </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/trivia_challenge.js') }}"></script>
+{% endblock %}
