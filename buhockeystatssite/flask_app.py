@@ -790,7 +790,6 @@ def trivia():
         for q in range(len(qType)):
             qDict[qType[q]] = distQ[q]
         while (qNum < numQuestions):
-            print("Generating Question", qNum)
             sYear = formData['seasonStart'][:4]
             eYear = formData['seasonEnd'][:4]
 
@@ -879,7 +878,7 @@ def generateJerseyQuestion(gender="Mens", seasList=burb.dfGames.season.unique())
     return question, options, answer
 
 
-def generateSeasonStatQuestion(gender, seasList):
+def generateSeasonStatQuestion(gender="Mens", seasList=burb.dfGames.season.unique()):
     dfStatSeas = pd.DataFrame()
     if (gender == 'Mens'):
         dfSeas = burb.dfSeasSkateMens.copy()
@@ -892,6 +891,7 @@ def generateSeasonStatQuestion(gender, seasList):
         quesType = random.choice(['', 'FR', 'SO', 'JR', 'SR'])
         posType = random.choice(['', 'F', 'D'])
         stat = random.choice(['goals', 'assists', 'pts'])
+        nameVal = random.choice(['name','value'])
         qStr = ''
         if (quesType != '' and posType != ''):
             qStr = f' yr == "{quesType}" and pos == "{posType}"'
@@ -910,31 +910,53 @@ def generateSeasonStatQuestion(gender, seasList):
         else:
             correctAnswer = dfStatSeas.sort_values(
                 stat, ascending=False).head(1)
-        question = f'Who lead {quesStr} in {stat} in {season}?'
-        validChoices = False
-        vChoiceCounter = 0
-        broken = False
-        while (not validChoices):
-            if (len(dfStatSeas.query('pos != "G"')) < 4 or vChoiceCounter > 10):
-                broken = True
-                break
-            wrongAnswers = dfStatSeas.query('pos != "G"').sample(n=3)
-            if ((len(correctAnswer['name'].unique()) > 0) and correctAnswer['name'].unique()[0] not in wrongAnswers['name'].unique()):
-                validChoices = True
-            vChoiceCounter += 1
-        if (broken):
+        if(nameVal=='name'):
+          question = f'Who lead {quesStr} in {stat} in {season}?'
+          validChoices = False
+          vChoiceCounter = 0
+          broken = False
+          while (not validChoices):
+              if (len(dfStatSeas.query('pos != "G"')) < 4 or vChoiceCounter > 10):
+                  broken = True
+                  break
+              wrongAnswers = dfStatSeas.query('pos != "G"').sample(n=3)
+              if ((len(correctAnswer['name'].unique()) > 0) and correctAnswer['name'].unique()[0] not in wrongAnswers['name'].unique()):
+                  validChoices = True
+              vChoiceCounter += 1
+          if (broken):
+              continue
+          choices = pd.concat([wrongAnswers, correctAnswer])
+          options = choices['name'].to_list()
+          answer = correctAnswer["name"].to_string(index=False, header=False)
+          if (qStr != ''):
+              if ((dfStatSeas.query(qStr).sort_values(stat, ascending=False).head(1)[stat] != 0).bool()):
+                  validQuestion = True
+          else:
+              if ((dfStatSeas.sort_values(stat, ascending=False).head(1)[stat] != 0).bool()):
+                  validQuestion = True
+          if (validQuestion):
+              break
+        elif(nameVal=='value'):
+          question = f'{correctAnswer["name"].to_string(index=False, header=False)} lead {quesStr} with ____ {stat} in {season}.'
+          if(correctAnswer[stat].empty):
             continue
-        choices = pd.concat([wrongAnswers, correctAnswer])
-        options = choices['name'].to_list()
-        answer = correctAnswer["name"].to_string(index=False, header=False)
-        if (qStr != ''):
-            if ((dfStatSeas.query(qStr).sort_values(stat, ascending=False).head(1)[stat] != 0).bool()):
-                validQuestion = True
-        else:
-            if ((dfStatSeas.sort_values(stat, ascending=False).head(1)[stat] != 0).bool()):
-                validQuestion = True
-        if (validQuestion):
-            break
+          answer = int(correctAnswer[stat].astype(int).to_string(index=False, header=False))
+          if (qStr != ''):
+              if ((dfStatSeas.query(qStr).sort_values(stat, ascending=False).head(1)[stat] != 0).bool()):
+                  validQuestion = True
+          else:
+              if ((dfStatSeas.sort_values(stat, ascending=False).head(1)[stat] != 0).bool()):
+                  validQuestion = True
+          options = []
+          while (len(set(options)) < 3 or answer in options):
+              if(answer-5<0):
+                low=1
+                high=answer+abs(answer-5)
+              else:
+                low=answer-5
+                high=answer+5
+              options = random.sample(range(low, high), 3)
+          options.append(answer)
     return question, options, answer
 
 
