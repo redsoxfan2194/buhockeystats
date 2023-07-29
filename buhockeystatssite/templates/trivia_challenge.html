@@ -20,8 +20,9 @@
    </div>
    <div id="results-screen" style="display: none;">
       <h2>Results:</h2>
-      <p id="score"></p>
+      <div id="score"></div>
       <button id="restartBtn" class="btn btn-outline-danger">Play Again</button>
+      <button id="shareBtn" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to clipboard" onclick="copyScore()">Share<i class="px-2 fa fa-share"></i></button>
    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -1,6 +1,6 @@
 console.log("loading trivia_challenge.js");
 // JavaScript code for handling the form submission and switching screens
-var scoreNum=0;
+const pts=[0,0,0,0,0];
 $(document).ready(function () {
 
         $("#game-options-form").submit(function (event) {
@@ -23,11 +23,14 @@ $(document).ready(function () {
         });
 
     $("#restartBtn").click(function () {
-        scoreNum=0;
-        index=0;
-        $("#results-screen").hide();
-        $("#game-screen").hide();
-        $("#start-screen").show();
+      for(let s = 0; s < 5;s++)
+      {
+         pts[s]=0;
+      }
+      index=0;
+      $("#results-screen").hide();
+      $("#game-screen").hide();
+      $("#start-screen").show();
     });
 
     $("#nextBtn").click(function () {
@@ -64,7 +67,7 @@ $(document).ready(function () {
               // Check if the selected answer is correct
               if (selectedChoice === correctAnswer) {
                   $(this).removeClass("btn-outline-danger").addClass("btn-success");
-                  scoreNum=scoreNum+1;
+                  pts[index]+=1;
               } else {
                   $(this).removeClass("btn-outline-danger").addClass("btn-danger");
                   // Highlight the correct answer in green
@@ -89,8 +92,77 @@ $(document).ready(function () {
   }
 
 
-    function showScore() {
-        $("#score").text("Your Score: " + scoreNum);
-    }
+function showScore() {
+  scoreStr = "";
+
+  for (let i = 0; i < 5; i++) {
+  starStr= "";
+  for(let s = 0; s < pts[i];s++)
+  {
+     starStr+="🐾"
+  }
+  if(starStr===""){
+     starStr="❌"
+  }
+  scoreStr += "Question: " + (i + 1) + " " + starStr + '<br>';
+  }
+
+  $("#score").html(scoreStr);
+}
 
 });
+
+function copyScore() {
+  // Get the text field
+  triviaNum=1;
+  scoreStr="BU Hockey Stats Trivia #"+ triviaNum+ "\n"
+  for (let i = 0; i < 5; i++) {
+    starStr= "";
+    for(let s = 0; s < pts[i];s++)
+    {
+       starStr+="🐾"
+    }
+    if(starStr===""){
+       starStr="❌"
+    }
+    scoreStr += "Question: " + (i + 1) + " " + starStr + '\n';
+  }
+   
+   // Copy the text inside the text field
+  return scoreStr+'\nbuhockeystats.com';
+} 
+
+const shareButton = document.getElementById('shareBtn');
+let tooltipTimeout;
+
+// Function to update the tooltip text
+function updateTooltipText(text) {
+  const tooltip = new bootstrap.Tooltip(shareButton);
+  tooltip.hide();
+  tooltip.update();
+  shareButton.setAttribute('data-bs-original-title', text);
+  tooltip.show();
+  clearTimeout(tooltipTimeout);
+  tooltipTimeout = setTimeout(() => {
+    tooltip.hide();
+  }, 2000); // Hide the tooltip after 2 seconds
+}
+
+// Function to handle button click event
+function handleButtonClick() {
+  const textToCopy = copyScore(); 
+  const textArea = document.createElement('textarea');
+  textArea.value = textToCopy;
+  document.body.appendChild(textArea);
+  textArea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textArea);
+
+  updateTooltipText('Copied');
+  setTimeout(() => {
+    updateTooltipText('Copy to clipboard');
+  }, 2000);
+}
+
+// Add event listeners
+shareButton.addEventListener('click', handleButtonClick);
