@@ -3795,11 +3795,12 @@ awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 "Spencer Penrose Award Winner":{"Harry Cleverly": [1958],
 "Jack Parker": [1975, 1978, 2009]},
 
-"NCAA Tournament Most Outstanding Player":{1950:"Ralph Bevins",
-1960:"Bob Marquis",
-1960:"Barry Urbanski",
-1971:"Dan Brady",
-1972:"Tim Regan",
-1978:"Jack O'Callahan",
-1995:"Chris O'Sullivan",
-2009:"Colby Cohen"}}
+"NCAA Tournament Most Outstanding Player":{
+"Ralph Bevins":[1950],
+"Bob Marquis":[1960],
+"Barry Urbanski":[1960],
+"Dan Brady":[1971],
+"Tim Regan":[1972],
+"Jack O'Callahan":[1978],
+"Chris O'Sullivan":[1995],
+"Colby Cohen":[2009]}}

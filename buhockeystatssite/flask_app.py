@@ -1078,7 +1078,7 @@ def generateAwardQuestion():
         broken = False
         qType = random.choice(list(burb.awardsDict.keys()))
         kName = random.choice(list(burb.awardsDict[qType].keys()))
-        if (qType in ['Spencer Penrose Award Winner', 'NCAA Scoring Champion']):
+        if (qType in ['Spencer Penrose Award Winner', 'NCAA Scoring Champion','NCAA Tournament Most Outstanding Player']):
             question = f"{kName} was the {qType} in what year?"
             answer = random.choice(burb.awardsDict[qType][kName])
             options = []
