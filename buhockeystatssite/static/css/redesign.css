@@ -2,6 +2,11 @@
 	font-family: college-font;
 	src: url(font/college.ttf) format('truetype');
 }
+
+body{
+  font-family: 'Roboto Slab';
+}
+
 .offcanvas-buhs{
   width:300px;
 }
@@ -223,3 +228,16 @@ input[type="range"]::-ms-fill-upper {
   margin-top:5px;
 }
   
+.error-container {
+  text-align: center;
+}
+.error-code {
+  font-size: 12rem;
+  font-weight: bold;
+  color: #cc0000;
+  margin-bottom: 20px;
+}
+.error-message {
+  font-size: 2rem;
+  color: #555;
+}
