@@ -241,3 +241,9 @@ input[type="range"]::-ms-fill-upper {
   font-size: 2rem;
   color: #555;
 }
+
+#freeplayres {
+  display: block;
+  width: 213px;
+  margin-top: 5px;
+}
