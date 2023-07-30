@@ -720,12 +720,18 @@ def triviaChallenge():
       'Friday': "Foe Friday",  # Questions About Opponents
       'Saturday':"Staturday", # Player Stat Questions
       'Sunday':"Sunday Scores"} # score related questions
+    
+    # seed is Day of Year + Year
+    seedVal=int(datetime.datetime.now().strftime('%j'))+int(datetime.datetime.now().strftime('%Y'))
+    random.seed(seedVal)
+    np.random.seed(seedVal)
+    
     if (request.method == 'POST'):
         quiz = []
         qType = []
         formData = request.form
         qNum = 0
-        
+
         for q in range(5):
 
             if DOW == "Monday":
@@ -775,6 +781,8 @@ def trivia():
     Returns:
       Flask Template : flask template containing trivia.html
     '''
+    random.seed(None)
+    np.random.seed(None)
     if (request.method == 'POST'):
         quiz = []
         qType = []
