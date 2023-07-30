@@ -18,6 +18,8 @@ dayNames = {
     4: 'Friday',
     5: 'Saturday',
     6: 'Sunday'}
+    
+numOptions = 5
 
 print('Initializing Record Book...')
 initializeRecordBook()
@@ -703,12 +705,12 @@ def records():
         selected_day=0)
 
 
-@app.route('/trivia_challenge', methods=['POST', 'GET'])
+@app.route('/dailytrivia', methods=['POST', 'GET'])
 def triviaChallenge():
-    ''' Renders "Trivia" Page
+    ''' Renders "Trivia Challenge" Page
 
     Returns:
-      Flask Template : flask template containing trivia.html
+      Flask Template : flask template containing trivia_challenge.html
     '''
     DOW = dayNames[datetime.datetime.now().weekday()]
     titles={'Monday':"Beanpot Monday",
@@ -718,12 +720,12 @@ def triviaChallenge():
       'Friday': "Foe Friday",  # Questions About Opponents
       'Saturday':"Staturday", # Player Stat Questions
       'Sunday':"Sunday Scores"} # score related questions
-      
     if (request.method == 'POST'):
         quiz = []
         qType = []
         formData = request.form
         qNum = 0
+        
         for q in range(5):
 
             if DOW == "Monday":
@@ -763,7 +765,6 @@ def triviaChallenge():
             quiz.append(ques)
             random.shuffle(quiz)
         return jsonify(quiz=quiz)
-
     return render_template('trivia_challenge.html',topic=titles[DOW])
 
 
@@ -796,7 +797,6 @@ def trivia():
         while (qNum < numQuestions):
             sYear = formData['seasonStart'][:4]
             eYear = formData['seasonEnd'][:4]
-
             if (sYear == eYear):
                 eYear = str(int(eYear)+1)
             seasList = burb.dfGames.query(
@@ -859,12 +859,12 @@ def generateJerseyQuestion(gender="Mens", seasList=burb.dfGames.season.unique())
     while (not validQuestion):
         season = random.choice(seasList)
         dfJerSeas = dfJers.loc[dfJers['season'].str.contains(season)]
-        if (len(dfJerSeas) < 4):
+        if (len(dfJerSeas) < numOptions):
             continue
         correctAnswer = dfJerSeas.sample()
         validChoices = False
         while (not validChoices):
-            wrongAnswers = dfJerSeas.sample(n=3)
+            wrongAnswers = dfJerSeas.sample(n=numOptions-1)
             if (correctAnswer['name'].unique()[0] not in wrongAnswers['name'].unique()):
                 validChoices = True
         validQuestion = True
@@ -920,10 +920,10 @@ def generateSeasonStatQuestion(gender="Mens", seasList=burb.dfGames.season.uniqu
           vChoiceCounter = 0
           broken = False
           while (not validChoices):
-              if (len(dfStatSeas.query('pos != "G"')) < 4 or vChoiceCounter > 10):
+              if (len(dfStatSeas.query('pos != "G"')) < numOptions or vChoiceCounter > 10):
                   broken = True
                   break
-              wrongAnswers = dfStatSeas.query('pos != "G"').sample(n=3)
+              wrongAnswers = dfStatSeas.query('pos != "G"').sample(n=numOptions-1)
               if ((len(correctAnswer['name'].unique()) > 0) and correctAnswer['name'].unique()[0] not in wrongAnswers['name'].unique()):
                   validChoices = True
               vChoiceCounter += 1
@@ -942,7 +942,7 @@ def generateSeasonStatQuestion(gender="Mens", seasList=burb.dfGames.season.uniqu
               break
         elif(nameVal=='value'):
           question = f'{correctAnswer["name"].to_string(index=False, header=False)} lead {quesStr} with ____ {stat} in {season}.'
-          if(correctAnswer[stat].empty):
+          if(correctAnswer[stat].empty or correctAnswer[stat].isnull().bool()):
             continue
           answer = int(correctAnswer[stat].astype(int).to_string(index=False, header=False))
           if (qStr != ''):
@@ -952,14 +952,13 @@ def generateSeasonStatQuestion(gender="Mens", seasList=burb.dfGames.season.uniqu
               if ((dfStatSeas.sort_values(stat, ascending=False).head(1)[stat] != 0).bool()):
                   validQuestion = True
           options = []
-          while (len(set(options)) < 3 or answer in options):
+          while (len(set(options)) < numOptions-1 or answer in options):
               if(answer-5<0):
                 low=1
-                high=answer+abs(answer-5)
               else:
                 low=answer-5
-                high=answer+5
-              options = random.sample(range(low, high), 3)
+              high=answer+10
+              options = random.sample(range(low, high), numOptions-1)
           options.append(answer)
     return question, options, answer
 
@@ -989,17 +988,17 @@ def generateResultsQuestion(gender="Mens", seasList=burb.dfGames.season.unique()
         coach = ans['coach'].to_string(index=False)
         seasons = list(dfG.season.unique())
         seasIdx = seasons.index(season)
-        eIdx = seasIdx+5
+        eIdx = seasIdx+10
         sIdx = seasIdx-5
         if (eIdx > len(seasons)):
             eIdx = len(seasons)
             sIdx -= (seasIdx+5)-len(seasons)
         if ((seasIdx-5) < 0):
             sIdx = 0
-            eIdx += abs(int(seasIdx)-5)
+            eIdx += abs(int(seasIdx)-10)
         ops = []
-        while (len(set(ops)) < 3 or seasIdx in ops):
-            ops = random.sample(range(sIdx, eIdx), 3)
+        while (len(set(ops)) < numOptions-1 or seasIdx in ops):
+            ops = random.sample(range(sIdx, eIdx), numOptions-1)
         options = [seasons[i] for i in ops]
         options.append(season)
         question = f"BU's {qChoice} game vs {oppName} occurred during which season?"
@@ -1015,9 +1014,9 @@ def generateResultsQuestion(gender="Mens", seasList=burb.dfGames.season.unique()
         else:
             numGames = str(numGames) + " games"
         options = []
-        while (len(set(options)) < 3 or answer in options):
+        while (len(set(options)) < numOptions-1 or answer in options):
             options = dfG.loc[dfG['opponent'].isin(teamsList)].query(
-                'location=="Away"').opponent.sample(3).to_list()
+                'location=="Away"').opponent.sample(numOptions-1).to_list()
         options.append(answer)
         question = f"BU has played {numGames} at {arenaName} vs:"
     return question, options, answer
@@ -1053,19 +1052,18 @@ def generateBeanpotQuestion(gender="Mens", seasList=burb.dfGames.season.unique()
                       ('Boston University', 'Northeastern'),
                       ('Boston University', 'Harvard'),
                       ('Boston College', 'Northeastern'),
-                      ('Boston College', 'Harvard')]
-            opSet = set()
-            options = []
-            while (len(opSet) < 4):
-                opSet = set(random.choices(combos, k=3)+[champCombo])
-            opSet.remove(champCombo)
-            for op in opSet:
+                      ('Boston College', 'Harvard'),
+                      ('Harvard','Northeastern')]
+            invCombo=champCombo[1],champCombo[0]
+            options=[]
+            for op in combos:
                 op = list(op)
-                random.shuffle(op)
                 options.append(f"{op[0]} vs {op[1]}")
-            answer = f"{champCombo[0]} vs {champCombo[1]}"
+            if(tuple(champCombo) in combos):
+              answer = f"{champCombo[0]} vs {champCombo[1]}"
+            else:
+              answer = f"{invCombo[0]} vs {invCombo[1]}"
             question = f"Which of the following was the championship matchup for the {ans['year'].to_string(index=False)} Beanpot?"
-            options.append(answer)
         if (answer == ''):
             continue
         validQuestion = True
@@ -1082,8 +1080,8 @@ def generateAwardQuestion():
             question = f"{kName} was the {qType} in what year?"
             answer = random.choice(burb.awardsDict[qType][kName])
             options = []
-            while (answer in options or len(set(options)) < 3):
-                options = random.sample(range(answer-2, answer+7), k=3)
+            while (answer in options or len(set(options)) < numOptions-1):
+                options = random.sample(range(answer-2, answer+7), k=numOptions-1)
             options.append(answer)
             validQuestion = True
 
@@ -1095,11 +1093,11 @@ def generateAwardQuestion():
             else:
                 answer = aList[0]
             options = []
-            while (len(set(options)-set(aList)) < 3):
-                if (len(burb.dfSkateMens.loc[burb.dfSkateMens['seasons'].str.contains(kName)]) < 4):
+            while (len(set(options)-set(aList)) < numOptions-1):
+                if (len(burb.dfSkateMens.loc[burb.dfSkateMens['seasons'].str.contains(kName)]) < numOptions):
                     broken = True
                     break
-                options = burb.dfSkateMens.loc[burb.dfSkateMens['seasons'].str.contains(kName)].sample(3)[
+                options = burb.dfSkateMens.loc[burb.dfSkateMens['seasons'].str.contains(kName)].sample(numOptions-1)[
                     'name'].to_list()
             options.append(answer)
             validQuestion = True
@@ -1107,11 +1105,11 @@ def generateAwardQuestion():
             question = f"Who won the {qType} in {kName}?"
             answer = burb.awardsDict[qType][kName]
             options = []
-            while (answer in options or len(set(options)) < 3):
-                if (len(burb.dfSeasSkateMens.query(f'year=={kName}')) < 4):
+            while (answer in options or len(set(options)) < numOptions-1):
+                if (len(burb.dfSeasSkateMens.query(f'year=={kName}')) < numOptions):
                     broken = True
                     break
-                options = burb.dfSeasSkateMens.query(f'year=={kName}').sample(3)[
+                options = burb.dfSeasSkateMens.query(f'year=={kName}').sample(numOptions-1)[
                     'name'].to_list()
             if (not broken):
                 validQuestion = True
@@ -1132,11 +1130,11 @@ def generateScoreQuestion():
         question = f"On {dateStr}, BU beat {oppStr} at {arenaStr} with a score of:"
         options = []
         failCount = 0
-        while (answer in options or len(set(options)) < 3):
-            if (len(burb.dfGames.loc[burb.dfGames['GD'].isin(game['GD'])]) < 4 or failCount > 10):
+        while (answer in options or len(set(options)) < numOptions-1):
+            if (len(burb.dfGames.loc[burb.dfGames['GD'].isin(game['GD'])]) < numOptions or failCount > 10):
                 broken = True
                 break
-            options = burb.dfGames.loc[burb.dfGames['GD'].isin(game['GD'])].sample(3)[
+            options = burb.dfGames.loc[burb.dfGames['GD'].isin(game['GD'])].sample(numOptions-1)[
                 'scoreline'].to_list()
             failCount += 1
         options.append(answer)

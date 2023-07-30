@@ -54,7 +54,12 @@ $(document).ready(function () {
               var choiceBtn = $("<button>").text(choice).addClass("btn btn-outline-danger choice-btn").data("index", idx);
               $("#choices").append(choiceBtn);
           });
-
+          var wrongCounter = 0;
+          var showButtons= false;
+          for(let i = 1; i<=3; i++)
+          {
+            document.getElementById("guess"+i).style.display ='inline-block';
+          }
           // Disable all buttons after a selection is made
           function disableButtons() {
               $(".choice-btn").prop("disabled", true);
@@ -67,21 +72,29 @@ $(document).ready(function () {
               // Check if the selected answer is correct
               if (selectedChoice === correctAnswer) {
                   $(this).removeClass("btn-outline-danger").addClass("btn-success");
-                  pts[index]+=1;
+                  pts[index]=5-(2*wrongCounter);
+                  showButtons=true
               } else {
                   $(this).removeClass("btn-outline-danger").addClass("btn-danger");
+                  $(this).prop("disabled", true);
                   // Highlight the correct answer in green
+                  wrongCounter+=1;
+                  document.getElementById("guess"+wrongCounter).style.display ='none';
               }
-
+              if(wrongCounter>2)
+                showButtons=true;
               // Disable all buttons after a selection is made
-              disableButtons();
-              if(index == questions.length-1){
-                $("#nextBtn").text('See Results')
+              if(showButtons)
+              {
+                disableButtons();
+                if(index == questions.length-1){
+                  $("#nextBtn").text('See Results')
+                }
+                else{
+                  $("#nextBtn").text('Next Question')
+                }
+                $("#nextBtn").show().data("index", index).data("questions", questions);
               }
-              else{
-                $("#nextBtn").text('Next Question')
-              }
-              $("#nextBtn").show().data("index", index).data("questions", questions);
           });
 
           $("#start-screen").hide();
@@ -99,7 +112,7 @@ function showScore() {
   starStr= "";
   for(let s = 0; s < pts[i];s++)
   {
-     starStr+="🐾"
+     starStr+="🚨"
   }
   if(starStr===""){
      starStr="❌"
@@ -120,7 +133,7 @@ function copyScore() {
     starStr= "";
     for(let s = 0; s < pts[i];s++)
     {
-       starStr+="🐾"
+       starStr+="🚨"
     }
     if(starStr===""){
        starStr="❌"
