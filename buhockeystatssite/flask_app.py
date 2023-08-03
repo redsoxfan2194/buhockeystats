@@ -4,6 +4,8 @@ import random
 import datetime
 import numpy as np
 import pandas as pd
+import atexit
+from apscheduler.schedulers.background import BackgroundScheduler
 from flask import Flask, render_template, request, jsonify
 from querystatsbot import querystatsbot, generaterandomstat
 from burecordbook import initializeRecordBook, awardsDict
@@ -26,6 +28,18 @@ initializeRecordBook()
 print('Record Book Initialized')
 
 app = Flask(__name__)
+
+def refresh_stats():
+  print("Refreshing Stats...")
+  # Update Results
+  updateResults('Mens')
+  updateResults('Womens')
+  updateCurrentSeasonStats('Mens')
+  updateCurrentSeasonStats('Womens')
+  updateGameStats('Mens')
+  updateGameStats('Womens')
+  initializeRecordBook()
+  print("Stats Refreshed")
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -1228,6 +1242,11 @@ def determineRecord(dfRes):
 
     return dfStat
 
+scheduler = BackgroundScheduler()
+scheduler.add_job(refresh_stats, 'cron', month='10-12,1-4', hour='0')
+scheduler.start()
+# Shut down the scheduler when exiting the app
+atexit.register(lambda: scheduler.shutdown())
 
 if __name__ == '__main__':
     app.run(host='localhost', port=5000)
