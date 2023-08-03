@@ -197,6 +197,6 @@ def generaterandomrecordstat(recQueryList, qChoice):
                 resStr+=f" vs {res['opponent']}"
             if(opsChoice!='arena'):
                 resStr+=f" at {res['arena']}"
-            if(opsChoice!='tourney' and res['tourney'] is not None):
+            if(opsChoice!='tourney' and (res['tourney'] is not None and res['tourney'] !='')):
                 resStr+=f" in the {res['tourney']}"
   return resStr
