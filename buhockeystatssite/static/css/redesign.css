@@ -4,7 +4,14 @@
 }
 
 body{
-  font-family: 'Roboto Slab';
+  font-family: 'Quicksand';
+}
+
+.link-no-pad{
+  color:black;
+}
+.link{
+  color:black;
 }
 
 .offcanvas-buhs{
