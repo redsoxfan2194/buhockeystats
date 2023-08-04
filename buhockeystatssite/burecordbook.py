@@ -17,6 +17,8 @@ try:
 except ImportError:
     RECBOOK_DATA_PATH = './'
 
+currSeason = '2022-23'
+
 tourneyDict = {}
 # Get Tourneys
 
@@ -3290,7 +3292,6 @@ def updateCurrentSeasonStats(gender):
         currGoalieFileName = RECBOOK_DATA_PATH + "SeasonGoalieStatsWomens.txt"
     else:
         return
-    currSeason = '2022-23'
 
     f = urllib.request.urlopen(url)
     html = f.read()
@@ -3444,7 +3445,6 @@ def updateGameStats(gender):
     boxscores = sorted(list(boxscores), reverse=True)
     pList = []
     gList = []
-    season = '2022-23'
     for box in boxscores:
         url2 = 'https://goterriers.com/'
         url2 += box
@@ -3483,12 +3483,12 @@ def updateGameStats(gender):
                             col[3].get_text()), 'assists': int(
                             col[4].get_text()), 'pts': int(
                             col[3].get_text()) + int(
-                            col[4].get_text()), 'season': season}
+                            col[4].get_text()), 'season': currSeason}
                     name = pDict['name'].split(', ')
                     pDict['name'] = name[1] + " " + name[0]
                     if 'FitzGerald' in pDict['name']:
                         pDict['name'] = pDict['name'].title()
-                    posDict = dfGameStats.loc[(dfGameStats['season'] == season) & (
+                    posDict = dfGameStats.loc[(dfGameStats['season'] == currSeason) & (
                         dfGameStats['name'] == pDict['name'])].iloc[0][['pos', 'yr']].to_dict()
                     pDict['pos'] = posDict['pos']
                     pDict['yr'] = posDict['yr']
@@ -3505,7 +3505,7 @@ def updateGameStats(gender):
                              'ga': int(col[4].get_text()),
                              'sv': int(col[-1].get_text()),
                              'gp': 1,
-                             'season': season}
+                             'season': currSeason}
                     if ((gDict['result'] == 'W' or gDict['result']
                             == 'T') and gDict['ga'] == 0):
                         gDict['so'] = 1
@@ -3513,7 +3513,7 @@ def updateGameStats(gender):
                         gDict['so'] = 0
                     name = gDict['name'].split(', ')
                     gDict['name'] = name[1] + " " + name[0]
-                    posDict = dfGameStats.loc[(dfGameStats['season'] == season) & (
+                    posDict = dfGameStats.loc[(dfGameStats['season'] == currSeason) & (
                         dfGameStats['name'] == pDict['name'])].iloc[0][['pos', 'yr']].to_dict()
                     gDict['yr'] = posDict['yr']
                     if gDict['mins'] != '00:00':
@@ -3557,7 +3557,6 @@ def updateGameStats(gender):
 def updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie):
     ''' generate career stats for current players and return updated
     career DataFrames'''
-    currSeason = '2022-23'
     curSkateList = dfSeasSkate.loc[dfSeasSkate['season'].str.contains(
         currSeason)]['name'].to_list()
     curGoalieList = dfSeasGoalie.loc[dfSeasGoalie['season'].str.contains(
@@ -3629,35 +3628,25 @@ def updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie):
 def updateResults(gender):
     ''' update results for recently completed games'''
     if gender == 'Mens':
-        url = "https://goterriers.com/services/schedule_txt.ashx?schedule=4663"  # mens
+        url = f"https://goterriers.com/sports/mens-ice-hockey/schedule/{currSeason}?grid=true"  # mens
         recBookFileName = RECBOOK_DATA_PATH + 'BURecordBook.txt'
     elif gender == 'Womens':
-        url = "https://goterriers.com/services/schedule_txt.ashx?schedule=4662"  # womens
+        url = f"https://goterriers.com/sports/womens-ice-hockey/schedule/{currSeason}?grid=true"  # womens
         recBookFileName = RECBOOK_DATA_PATH + "BUWomensRecordBook.txt"
     else:
         return
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     html = urllib.request.urlopen(req).read()
-    sched = html.decode().split('\n\r')
-    gameList = []
-    for i in sched:
-        if 'PM' in i:
-            row = list(filter(None, i.split('  ')))
-            dateStr = row[0].split('(')[0]
-            res = row[-1].strip().split(' ')
-            if (len(res) != 2 or not res[1][0].isnumeric()):
-                continue
-            scoreline = res[1]
-            res = res[0]
-            gDict = {
-                'date': datetime.strftime(
-                    datetime.strptime(
-                        dateStr.strip(),
-                        "%b %d"),
-                    "%m/%d"),
-                'result': res,
-                'scoreline': scoreline}
-            gameList.append(gDict)
+    gameList=[]
+    for row in soup.find('table').find_all('tr'):
+      cols=row.find_all('td')
+      if(cols!=[]):
+          date=cols[0].get_text().strip().split(' (')[0]
+          dStr=datetime.strptime(date, '%B %d, %Y').strftime("%m/%d")
+          res=cols[8].get_text().strip().replace('\n','').replace(', SOL','').replace(', SOW','').replace('(',' (').split(',')
+          result,scoreline=res[0],res[1]
+          gDict={'date':dStr,'result':result,'scoreline':scoreline}
+          gameList.append(gDict)
     with open(recBookFileName, "r", encoding='utf-8') as sources:
         lines = sources.readlines()
     with open(recBookFileName, "w", encoding='utf-8', newline='\n') as sources:
