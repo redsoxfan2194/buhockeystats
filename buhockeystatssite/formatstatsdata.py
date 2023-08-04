@@ -237,7 +237,7 @@ def formatStats(dfRes):
     if 'SO' in dfRes.columns:
         style = dfRes.style.apply(
             lambda x: [
-                'color:#cc0000; text-align:center' if i % 2 == 0\
+                'color:#cc0000; text-align:center' if i % 2 != 0\
                 else 'background-color: #cc0000; color:white; text-align:center' for i in range(
                     len(x))]).hide(
                 axis='index').format(
@@ -249,7 +249,7 @@ def formatStats(dfRes):
     else:
         style = dfRes.style.apply(
             lambda x: [
-                'color:#cc0000; text-align:center' if i % 2 == 0\
+                'color:#cc0000; text-align:center' if i % 2 != 0\
                 else 'background-color: #cc0000; color:white; text-align:center' for i in range(
                     len(x))]).hide(
                 axis='index').format(
