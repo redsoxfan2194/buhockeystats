@@ -204,7 +204,7 @@ def players():
                     formData['name'], case=False)].name.unique()) > 1):
                 dfStat = pd.DataFrame({"": ['Please Enter One of the Following Player Names:'] +
                                        [i for i in dfStat.loc[dfStat['name'].str.contains(
-                                           formData['name'], case='False')].name.unique()]})
+                                           formData['name'], case=False)].name.unique()]})
             elif not dfStat.empty:
                 mergeGames.drop(
                     axis=1,
@@ -255,7 +255,7 @@ def players():
                     formData['name'], case=False)].name.unique()) > 1):
                 dfStat = pd.DataFrame({"": ['Please Enter One of the Following Player Names:'] + [
                     i for i in dfStat.loc[dfStat['name'].str.contains(
-                        formData['name'], case='False')].name.unique()]})
+                        formData['name'], case=False)].name.unique()]})
             elif not dfStat.empty:
                 dfStat = dfStat.copy()
                 dfStat.drop(axis=1, labels=['result'], inplace=True)
@@ -315,7 +315,7 @@ def players():
                     formData['name'], case=False)].name.unique()) > 1):
                 dfStat = pd.DataFrame({"": ['Please Enter One of the Following Player Names:'] +
                                       [i for i in dfStat.loc[dfStat['name'].str.contains(
-                                          formData['name'], case='False')].name.unique()]})
+                                          formData['name'], case=False)].name.unique()]})
             elif not dfStat.empty:
                 if formData['position'] == 'skater':
                     queries = [
