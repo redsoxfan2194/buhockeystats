@@ -1,4 +1,4 @@
-console.log("loading trivia_challenge.js");
+console.log("loading daily_trivia.js");
 // JavaScript code for handling the form submission and switching screens
 const pts=[0,0,0,0,0];
 var triviaNum=1;
@@ -143,7 +143,7 @@ function copyScore() {
   }
    
    // Copy the text inside the text field
-  return scoreStr+'\nbuhockeystats.com';
+  return scoreStr+'\nbuhockeystats.com/trivia';
 } 
 
 const shareButton = document.getElementById('shareBtn');

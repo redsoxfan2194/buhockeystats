@@ -8,7 +8,7 @@
          <h2>Today's Category: <strong>{{topic}}</strong></h2>
          </div>
          <button id="startBtn" class="btn btn-outline-danger">Start</button>
-         <a id="freeplay" class="btn btn-outline-danger" href="/trivia">Free Play</a>
+         <a id="freeplay" class="btn btn-outline-danger" href="/triviagame">Free Play</a>
       </div>
    </form>
    <div id="game-screen" style="display: none;">
@@ -25,10 +25,10 @@
       <div id="score"></div>
       <button id="restartBtn" class="btn btn-outline-danger">Play Again</button>
       <button id="shareBtn" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to clipboard" onclick="copyScore()">Share<i class="px-2 fa fa-share"></i></button>
-      <a id="freeplayres" class="btn btn-outline-danger" href="/trivia">Free Play</a>
+      <a id="freeplayres" class="btn btn-outline-danger" href="/triviagame">Free Play</a>
    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="{{ url_for('static', filename = 'js/trivia_challenge.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/daily_trivia.js') }}"></script>
 {% endblock %}

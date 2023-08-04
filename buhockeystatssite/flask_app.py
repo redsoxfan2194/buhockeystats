@@ -706,13 +706,12 @@ def records():
             dfOrig.coach.unique()),
         selected_day=0)
 
-
-@app.route('/dailytrivia', methods=['POST', 'GET'])
-def triviaChallenge():
+@app.route('/trivia', methods=['POST', 'GET'])
+def dailyTrivia():
     ''' Renders "Trivia Challenge" Page
 
     Returns:
-      Flask Template : flask template containing trivia_challenge.html
+      Flask Template : flask template containing daily_trivia.html
     '''
     DOW = dayNames[datetime.datetime.now().weekday()]
     titles={'Monday':"Beanpot Monday",
@@ -774,15 +773,15 @@ def triviaChallenge():
             quiz.append(ques)
             random.shuffle(quiz)
         return jsonify(quiz=quiz,triviaNum=(seedVal-launchSeed)+1)
-    return render_template('trivia_challenge.html',topic=titles[DOW])
+    return render_template('daily_trivia.html',topic=titles[DOW])
 
 
-@app.route('/trivia', methods=['POST', 'GET'])
-def trivia():
-    ''' Renders "Trivia" Page
+@app.route('/triviagame', methods=['POST', 'GET'])
+def triviagame():
+    ''' Renders "Trivia Free Play" Page
 
     Returns:
-      Flask Template : flask template containing trivia.html
+      Flask Template : flask template containing trivia_game.html
     '''
     random.seed(None)
     np.random.seed(None)
@@ -834,7 +833,7 @@ def trivia():
             random.shuffle(quiz)
         return jsonify(quiz=quiz)
 
-    return render_template('trivia.html',
+    return render_template('trivia_game.html',
                            season_values=burb.dfGames.season.unique(),
                            selected_startSeas=burb.dfGames.season.min(),
                            selected_endSeas=burb.dfGames.season.max())

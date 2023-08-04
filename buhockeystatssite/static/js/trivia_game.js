@@ -1,4 +1,4 @@
-console.log("loading trivia.js");
+console.log("loading trivia_game.js");
 $("input[name='gender']").change(function () {
   var gender = $(this).val();
 
