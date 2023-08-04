@@ -3637,6 +3637,7 @@ def updateResults(gender):
         return
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     html = urllib.request.urlopen(req).read()
+    soup = BeautifulSoup(html, 'html.parser')
     gameList=[]
     for row in soup.find('table').find_all('tr'):
       cols=row.find_all('td')
@@ -3679,6 +3680,18 @@ def initializeRecordBook():
   dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens = generateGameGoalieStats()
   updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie)
 
+def refreshStats():
+  print("Refreshing Stats...")
+  # Update Results
+  updateResults('Mens')
+  updateResults('Womens')
+  updateCurrentSeasonStats('Mens')
+  updateCurrentSeasonStats('Womens')
+  updateGameStats('Mens')
+  updateGameStats('Womens')
+  initializeRecordBook()
+  print("Stats Refreshed")
+  
 # Awards
 awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 1984:"Cleon Daskalakis",

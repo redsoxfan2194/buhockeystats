@@ -23,23 +23,11 @@ dayNames = {
     
 numOptions = 5
 
+app = Flask(__name__)
+
 print('Initializing Record Book...')
 initializeRecordBook()
 print('Record Book Initialized')
-
-app = Flask(__name__)
-
-def refresh_stats():
-  print("Refreshing Stats...")
-  # Update Results
-  updateResults('Mens')
-  updateResults('Womens')
-  updateCurrentSeasonStats('Mens')
-  updateCurrentSeasonStats('Womens')
-  updateGameStats('Mens')
-  updateGameStats('Womens')
-  initializeRecordBook()
-  print("Stats Refreshed")
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -1243,7 +1231,7 @@ def determineRecord(dfRes):
     return dfStat
 
 scheduler = BackgroundScheduler()
-scheduler.add_job(refresh_stats, 'cron', month='10-12,1-4', hour='0')
+scheduler.add_job(burb.refreshStats, 'cron', month='10-12,1-4', hour='0')
 scheduler.start()
 # Shut down the scheduler when exiting the app
 atexit.register(lambda: scheduler.shutdown())
