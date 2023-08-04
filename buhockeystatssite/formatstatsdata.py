@@ -182,8 +182,7 @@ def formatResults(dfRes):
         tableData.loc[tableData['ot'] != '', 'scoreline'] = tableData['scoreline'] + \
             " (" + tableData.loc[tableData['ot'] != '', 'ot'] + ")"
         tableData.drop(['ot'], axis=1, inplace=True)
-
-        if len(list(tableData['note'].unique())) < 1:
+        if ((len(list(tableData['note'].unique())) < 1) or (len(list(tableData['note'].unique()))==1 and list(tableData['note'].unique())[0]=='')):
             tableData.drop(['note'], axis=1, inplace=True)
     else:
         tableData = dfRes
@@ -238,7 +237,7 @@ def formatStats(dfRes):
     if 'SO' in dfRes.columns:
         style = dfRes.style.apply(
             lambda x: [
-                'background-color: white; color:#cc0000; text-align:center' if i % 2 == 0\
+                'color:#cc0000; text-align:center' if i % 2 == 0\
                 else 'background-color: #cc0000; color:white; text-align:center' for i in range(
                     len(x))]).hide(
                 axis='index').format(
@@ -250,7 +249,7 @@ def formatStats(dfRes):
     else:
         style = dfRes.style.apply(
             lambda x: [
-                'background-color: white; color:#cc0000; text-align:center' if i % 2 == 0\
+                'color:#cc0000; text-align:center' if i % 2 == 0\
                 else 'background-color: #cc0000; color:white; text-align:center' for i in range(
                     len(x))]).hide(
                 axis='index').format(
