@@ -80,6 +80,39 @@ img {
   height: auto;
 }
 
+.mobile-view{
+  display:none
+}
+.desktop-view{
+  display:block
+}
+
+@media (max-width:800px){
+  .desktop-view{
+    display:none
+  }
+
+  .mobile-view{
+    display:block
+  }
+  
+  .row{
+    margin-bottom: 7px;
+  }
+  
+  #homepage-title{
+    font-size: 45px;
+  }
+  
+  #dyk{
+  font-size: 20px;
+  }
+
+  #dyk-query{
+    font-size: 10px;
+  }
+  
+}
 .row {
   display: flex;
 }
