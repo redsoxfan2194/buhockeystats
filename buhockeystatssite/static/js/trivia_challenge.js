@@ -1,6 +1,7 @@
 console.log("loading trivia_challenge.js");
 // JavaScript code for handling the form submission and switching screens
 const pts=[0,0,0,0,0];
+var triviaNum=1;
 $(document).ready(function () {
 
         $("#game-options-form").submit(function (event) {
@@ -13,6 +14,7 @@ $(document).ready(function () {
                     data: formData,
                     success: function (response) {
                        questions=response.quiz;
+                       triviaNum=response.triviaNum;
                        displayQuestion(0, questions);
                     },
                     error: function (xhr, status, error) {
@@ -127,7 +129,6 @@ function showScore() {
 
 function copyScore() {
   // Get the text field
-  triviaNum=1;
   scoreStr="BU Hockey Stats Trivia #"+ triviaNum+ "\n"
   for (let i = 0; i < 5; i++) {
     starStr= "";

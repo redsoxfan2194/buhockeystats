@@ -724,6 +724,7 @@ def triviaChallenge():
       'Sunday':"Sunday Scores"} # score related questions
     
     # seed is Day of Year + Year
+    launchSeed=2267
     seedVal=int(datetime.datetime.now().strftime('%j'))+int(datetime.datetime.now().strftime('%Y'))
     random.seed(seedVal)
     np.random.seed(seedVal)
@@ -772,7 +773,7 @@ def triviaChallenge():
 
             quiz.append(ques)
             random.shuffle(quiz)
-        return jsonify(quiz=quiz)
+        return jsonify(quiz=quiz,triviaNum=(seedVal-launchSeed)+1)
     return render_template('trivia_challenge.html',topic=titles[DOW])
 
 
