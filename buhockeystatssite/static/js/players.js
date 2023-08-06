@@ -1,4 +1,27 @@
 console.log("loading players.js");
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  var alterClass = function() {
+    var ww = document.body.clientWidth;
+    if (ww < 800) {
+      $('#offcanvasPlayersFilters').addClass('offcanvas');
+      $('#offcanvasPlayersFilters').addClass('offcanvas-start');
+      $('#offcanvasPlayersFilters').removeClass('sidebar-buhs');
+      $('#ocPlayerHeader').removeClass('sidebar-header-center');
+    } else if (ww >= 801) {
+      $('#offcanvasPlayersFilters').removeClass('offcanvas');
+      $('#offcanvasPlayersFilters').removeClass('offcanvas-start');
+      $('#offcanvasPlayersFilters').addClass('sidebar-buhs');
+      $('#ocPlayerHeader').addClass('sidebar-header-center');
+    };
+  };
+  $(window).resize(function(){
+    alterClass();
+  });
+  //Fire it when the page first loads:
+  alterClass();
+});
+
 initializeFilters();
 function onKeydown(event) {
     if (event.key === "Enter") {

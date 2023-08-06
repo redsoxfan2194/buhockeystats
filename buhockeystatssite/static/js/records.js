@@ -1,5 +1,28 @@
 console.log("loading records.js");
 
+document.addEventListener("DOMContentLoaded", function(event) {
+  var alterClass = function() {
+    var ww = document.body.clientWidth;
+    if (ww < 800) {
+      $('#offcanvasRecordsFilters').addClass('offcanvas');
+      $('#offcanvasRecordsFilters').addClass('offcanvas-start');
+      $('#offcanvasRecordsFilters').removeClass('sidebar-buhs');
+      $('#ocRecHeader').removeClass('sidebar-header-center');
+      
+    } else if (ww >= 801) {
+      $('#offcanvasRecordsFilters').removeClass('offcanvas');
+      $('#offcanvasRecordsFilters').removeClass('offcanvas-start');
+      $('#offcanvasRecordsFilters').addClass('sidebar-buhs');
+      $('#ocRecHeader').addClass('sidebar-header-center');
+    };
+  };
+  $(window).resize(function(){
+    alterClass();
+  });
+  //Fire it when the page first loads:
+  alterClass();
+});
+
 const onKeydown = function (event) {
     if (event.key === "Enter") {
         event.preventDefault(); // Prevent form submission

@@ -17,6 +17,16 @@ body{
 .offcanvas-buhs{
   width:300px;
 }
+
+.sidebar-buhs{
+  float:left;  
+}
+
+.sidebar-header-center{
+  display:block;
+  text-align:center;
+}
+
 #content{
   background-color: #fffafa;
   overflow:auto;
@@ -170,7 +180,7 @@ input::-webkit-inner-spin-button {
 
 }
 .dropdown-toggle{
-  width: 130px;
+  width: 147px;
 }
 
 .hidden {
