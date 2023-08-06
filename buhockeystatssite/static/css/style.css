@@ -1,246 +1,299 @@
 @font-face {
 	font-family: college-font;
-	src: url(fonts/college.ttf) format('truetype');
+	src: url(font/college.ttf) format('truetype');
 }
 
-.nav-top-line {
+body{
+  font-family: 'Quicksand';
+}
+
+.link-no-pad{
+  color:black;
+}
+.link{
+  color:black;
+}
+
+.offcanvas-buhs{
+  width:300px;
+}
+
+.sidebar-buhs{
+  float:left;  
+}
+
+.sidebar-header-center{
+  display:block;
+  text-align:center;
+}
+
+#content{
+  background-color: #fffafa;
+  overflow:auto;
+}
+
+footer{
+  background-color: #fffafa;
+}
+
+body{
+  background-color: #fffafa;
+}
+
+nav {
+	background-color: #cc0000;
+	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.3);
+}
+
+.navbar-brand {
 	font-family: college-font;
-	width: 100%;
+  padding-left: 5px;
 }
 
-@media (min-width: 576px) {
-	.nav-top-line {
-		width: auto;
-	}
-	.navbar-brand {
-		font-size: 60px;
-	}
-	.nav-item {
-		font-size: 30px;
-	}
+#homepage-title{
+  font-family: college-font;
+  color: #cc0000;
+  text-align: center;
+  font-size: 75px;
+}
+  
+.homepage-ul{
+  
+  list-style: none; 
+  text-align:center;
+  
 }
 
-h2 {
-	color: white;
+.homepage-li {
+  display: inline-block;
+  margin-right: 10px; /* add spacing between items */
+}
+
+.homepage-link {
+  display: inline-block;
+  margin-right: 10px; /* add spacing between items */
+  font-size: 30px;
+  color: #cc0000;
+  text-align: center;
+}
+
+#dyk{
+  font-size: 30px;
+}
+
+#dyk-query{
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mobile-view{
+  display:none
+}
+.desktop-view{
+  display:block
+}
+
+@media (max-width:800px){
+  .desktop-view{
+    display:none
+  }
+
+  .mobile-view{
+    display:block
+  }
+  
+  .row{
+    margin-bottom: 7px;
+  }
+  
+  #homepage-title{
+    font-size: 45px;
+  }
+  
+  #dyk{
+  font-size: 20px;
+  }
+
+  #dyk-query{
+    font-size: 10px;
+  }
+  
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+}
+.btn-stats-bg{
+ background-color: #fffafa; 
+}
+.homepage-link
+{
+  max-width:100%;
+}
+
+.accordion-flush{
+  overflow-y: auto;
+}
+
+#offcanvasRecordsFilters{
+  overflow-y: auto;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+    width:100px;
+}
+
+#startYear,
+#endYear
+{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    width:100px;
+    margin-left:5px;
+}
+
+.recLabels{
+  color:gray;
+}
+.dropdown-container{
+  display: flex;
+}
+
+#record {
+	color: #cc0000;
+	font-size: 160%;
 	text-align: center;
-	padding: 10px;
-	font-size: 20px;
-}
 
-h3 {
-	color: white;
-	text-align: left;
-	font-size: 15px;
 }
-
-li{
-  color: white;
-}
-
-/* Common Styling */
-a:hover {
-  color: white;
-  text-decoration: none;
-}
-body {
-	background-color: #cc0000
-}
-
-select {
-	background-color: #cc0000;
-	color: white;
-	border: none;
-}
-
-input {
-	background-color: #cc0000;
-	color: white;
-	border: none;
-}
-
-/* Chrome, Safari, Edge, Opera */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-	-moz-appearance: textfield;
-	background-color: #cc0000;
-	color: white;
-	border: none;
-	width: 120px;
-}
-
-label {
-	color: white;
-}
-
-table {
-	width: 100%;
-}
-
-th {
-	text-align: center
-}
-hr{
-   background:white;
-   height: 1px;
-   
-}
-/* Class Styling */
-
-.link {
-	color: white;
-	text-decoration: underline;
-	padding: 10px
-}
-.link-no-pad {
-	color: white;
-	text-decoration: underline;
-}
-
-.btn-custom-red {
-	background-color: #cc0000;
-	color: white;
-	border: none;
-}
-
-.btn:hover {
-	color: white;
-}
-
-.btn {
-	text-align: left
+.dropdown-toggle{
+  width: 147px;
 }
 
 .hidden {
 	display: none;
 }
 
-.checkbox-container {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+.custom-align{
+  margin-left:5px;
 }
 
-.checkbox-label {
-	margin-left: 10px;
-	color: white;
+#offcanvasRecordsFilters label{
+  width:100px;
+  margin-left: 5px;
 }
 
-.stat-table {
-	color: white;
-	text-align: center;
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
+#offcanvasPlayersFilters label{
+  width:100px;
+  margin-left: 5px;
 }
 
-.stat-row {
-	padding-right: 4px;
+#buscoreop{
+  width:50px;
 }
 
-.center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+#oppscoreop{
+  width:50px;
 }
 
-.dropdown-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
+#name{
+  width:130px;
+}
+#number{
+  width:130px;
+}
+#date{
+  width:130px;
 }
 
-.dropdown-container label {
-	margin-right: 10px;
+#seasRange label{
+  width: 150px;
 }
 
-
-.arrow-up {
-	display: none;
-	color: white;
+#resetButton{
+  margin-top:5px;
 }
 
-.arrow-down {
-	display: inline-block;
-	color: white;
+#randStat{
+  padding-top:5px;
+}
+[type='radio'] {
+display: none; 
 }
 
-.arrow {
-	margin-left: 5px;
-	cursor: pointer;
+.tOps{
+display: none;
+}  
+
+.choice-btn{
+  margin-right:10px;
+  margin-bottom:10px;
+  display:block;
 }
 
-/* Default styles for the div */
-.options-menu {
-	display: none;
+.btn-group{
+  margin-bottom:10px;
+}
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      background: #cc0000;
+    }
 
 }
-.fa{
-  font-size:24px;
-  color:white;
-  text-decoration: none;
+/** FF*/
+input[type="range"]::-moz-range-progress {
+  background-color: #cc0000; 
+}
+input[type="range"]::-moz-range-track {  
+  background-color: #a2a4a8;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #cc0000; 
+}
+input[type="range"]::-ms-fill-upper {  
+  background-color: #a2a4a8;
+}
+
+#randStat{
+  margin-top:5px;
+}
   
+.error-container {
+  text-align: center;
+}
+.error-code {
+  font-size: 12rem;
+  font-weight: bold;
+  color: #cc0000;
+  margin-bottom: 20px;
+}
+.error-message {
+  font-size: 2rem;
+  color: #555;
 }
 
-.about-text {
-	color: white;
-}
-
-/* Id Styling */
-
-#results {
-	color: white;
-	text-align: center;
-	font-size: 20px;
-}
-
-#query {
-	color: white;
-	text-align: center;
-
-}
-
-#submitbutton {
-	color: white;
-	text-align: center;
-
-}
-
-#helpbutton {
-	color: white;
-}
-
-#record {
-	color: white;
-	font-size: 160%;
-	text-align: center;
-
-}
-
-#dash {
-	color: white;
-	text-align: center;
-}
-
-#filterMenu {
-	display: block;
-	font-size: 20px;
-	padding-left: 10px;
-}
-
-/* Media query for screens wider than 600px */
-@media (min-width: 601px) {
-	.options-menu {
-		display: block;
-	}
-
-	#filterMenu {
-		display: none;
-	}
+#freeplayres {
+  display: block;
+  width: 213px;
+  margin-top: 5px;
 }
