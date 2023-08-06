@@ -123,22 +123,27 @@ def convertToHtmlTable(inputString):
     Returns:
       str : string containing inputString formatted into an HTML table
     '''
-    rows = inputString
-
+    rows = list(filter(None, inputString))
+    print(rows)
+    if(rows==[]):
+      return ''
+      
     # Create the HTML table structure
-    htmlTable = '<table class="stat-table">\n<thead>\n<tr>'
-
+    htmlTable = '<table class="stat-table table-sm table-borderless table-responsive-md">\n<thead>\n<tr>'
+    
     # Process the first row as the header
     headers = rows[0].split()
     if headers == []:
         return ''
     if 'Season' in headers[0]:
         for header in headers:
-            htmlTable += f'<th>{header}</th>'
+            htmlTable += f'<th class="stat-header">{header}</th>'
         htmlTable += '</tr>\n</thead>\n<tbody>'
 
         # Process the remaining rows as data rows
         for row in rows[1:]:
+            if('-----' in row):
+              continue
             columns = row.split()
             pts = columns[-1].split('-')
             if (len(pts) > 1 and pts[0] != '' and 'Record' not in rows[0]):
@@ -151,12 +156,21 @@ def convertToHtmlTable(inputString):
                 htmlTable += f'<td class="stat-row">{column}</td>'
             htmlTable += '</tr>'
     else:
+        if(len(rows)==1):
+          return rows[0]
         # Process the remaining rows as data rows
         pattern = r'\s+(?![^()]*\))'
         for row in rows:
-            columns = re.split(pattern, row)
-            htmlTable += '\n<tr>'
+            rSplit=row.split(':')
+            if(len(rSplit)>1):
+              columns = re.split(pattern, rSplit[1].strip())
+              htmlTable += '\n<tr>'
+              columns.insert(0,rSplit[0])
+            else:
+              columns = re.split(pattern, row)
+              htmlTable += '\n<tr>'
             for column in columns:
+                column=column.strip().replace('!!',' ')
                 htmlTable += f'<td class="stat-row">{column}</td>'
             htmlTable += '</tr>'
     htmlTable += '\n</tbody>\n</table>'

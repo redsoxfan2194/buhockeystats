@@ -472,7 +472,14 @@ def statsbot():
         formData = request.form
         if 'query' in formData.keys():
             query = formData['query']
-            result = convertToHtmlTable(querystatsbot(query))
+            qStr=querystatsbot(query)
+            oppsList=list(set(list(burb.dfGames.loc[burb.dfGames['opponent'].str.contains(' ')].opponent.unique())+\
+              list(burb.dfGamesWomens.loc[burb.dfGamesWomens['opponent'].str.contains(' ')].opponent.unique())))+['Boston University']
+            for q in range(len(qStr)):
+              for team in oppsList:
+                if(team.strip() in qStr[q]):
+                  qStr[q]=qStr[q].replace(team,team.replace(' ','!!'))
+            result = convertToHtmlTable(qStr)
 
             return render_template(
                 'statsbot.html',

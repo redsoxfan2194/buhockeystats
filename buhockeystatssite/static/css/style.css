@@ -22,6 +22,17 @@ body{
   float:left;  
 }
 
+.stat-table {
+	text-align: center;
+}
+.stat-row {
+	padding-right: 4px;
+}
+
+.stat-header{
+  font-weight: bold;
+}
+
 .sidebar-header-center{
   display:block;
   text-align:center;
