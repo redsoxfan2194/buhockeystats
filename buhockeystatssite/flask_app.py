@@ -6,7 +6,8 @@ import numpy as np
 import pandas as pd
 import atexit
 from apscheduler.schedulers.background import BackgroundScheduler
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, Response
+from flask_sitemap import Sitemap
 from querystatsbot import querystatsbot, generaterandomstat
 from burecordbook import initializeRecordBook, awardsDict
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
@@ -24,6 +25,23 @@ dayNames = {
 numOptions = 5
 
 app = Flask(__name__)
+
+@app.route('/sitemap.xml', methods=['GET'])
+def generate_sitemap():
+    pages = ['/', '/about', '/players', '/statsbot', '/records', '/trivia', '/triviagame']
+
+    xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+
+    for page in pages:
+        xml_sitemap += f'    <url>\n'
+        xml_sitemap += f'        <loc>http://buhockeystats.com/{page}</loc>\n'
+        xml_sitemap += f'    </url>\n'
+
+    xml_sitemap += '</urlset>'
+    print(xml_sitemap)
+    return Response(xml_sitemap, mimetype='text/xml')
+
 
 print('Initializing Record Book...')
 initializeRecordBook()
