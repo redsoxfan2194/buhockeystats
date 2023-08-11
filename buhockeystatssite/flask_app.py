@@ -654,11 +654,25 @@ def records():
                 dfRes.fillna('', inplace=True)
                 dfRes = dfRes.groupby(formData['grouping'].lower()).first()
                 dfRes.reset_index(inplace=True)
+                if formData['grouping'] == 'Month':
+                  dfRes = dfRes.copy()
+                  dfRes.loc[:, 'month'] = pd.to_datetime(
+                  dfRes['month'], format='%m').dt.strftime('%B')
+                elif formData['grouping'] == 'DOW':
+                  dfRes = dfRes.copy()
+                  dfRes.loc[:, 'dow'] = dfRes['dow'].map(dayNames)
             elif formData['tabletype'] == 'last':
                 dfRes = dfRes.copy()
                 dfRes.fillna('', inplace=True)
                 dfRes = dfRes.groupby(formData['grouping'].lower()).last()
                 dfRes.reset_index(inplace=True)
+                if formData['grouping'] == 'Month':
+                  dfRes = dfRes.copy()
+                  dfRes.loc[:, 'month'] = pd.to_datetime(
+                  dfRes['month'], format='%m').dt.strftime('%B')
+                elif formData['grouping'] == 'DOW':
+                  dfRes = dfRes.copy()
+                  dfRes.loc[:, 'dow'] = dfRes['dow'].map(dayNames)
         if (formData['sortval'] in ["date", "GD", "BUScore", "OppoScore"]
                 and 'date' not in dfRes.columns):
             if formData['sortval'] != 'date':
