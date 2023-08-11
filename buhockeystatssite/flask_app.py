@@ -7,7 +7,6 @@ import pandas as pd
 import atexit
 from apscheduler.schedulers.background import BackgroundScheduler
 from flask import Flask, render_template, request, jsonify, Response
-from flask_sitemap import Sitemap
 from querystatsbot import querystatsbot, generaterandomstat
 from burecordbook import initializeRecordBook, awardsDict
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
