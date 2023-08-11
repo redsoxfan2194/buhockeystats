@@ -110,21 +110,10 @@ img {
 .mobile-view{
   display:none
 }
-.desktop-view{
-  display:block
-}
 
 @media (max-width:800px){
-  .desktop-view{
-    display:none
-  }
-
   .mobile-view{
     display:block
-  }
-  
-  .row{
-    margin-bottom: 7px;
   }
   
   #homepage-title{
@@ -138,21 +127,28 @@ img {
   #dyk-query{
     font-size: 10px;
   }
-  
-}
-.row {
-  display: flex;
+
+  .icon-link-container {
+    flex-direction: column;
+  }
 }
 
-.column {
-  flex: 25%;
-}
 .btn-stats-bg{
  background-color: #fffafa; 
 }
-.homepage-link
-{
-  max-width:100%;
+
+.icon-link-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.mobile-row {
+  display: flex;
+}
+
+.homepage-link {
+  max-width: 250px;
 }
 
 .accordion-flush{

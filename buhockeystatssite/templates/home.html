@@ -2,54 +2,30 @@
 {% block content %}
 <div class="p-3 container">
     <h1 id='homepage-title'>BU Hockey Stats</h1>
-    <div class='desktop-view'>
-        <div class="row">
-            <div class="column">
+    <div class="icon-link-container">
+        <div class="mobile-row">
+            <div>
                 <a class='homepage-link' href="/statsbot">
-                    <img id='stats-bot-logo' src="../static/images/statsbotlogo.png" onmouseover="changeStatsBotImage()" onmouseout="restoreStatsBotImage()">
+                    <img alt="Stats Bot" id='stats-bot-logo' src="../static/images/statsbotlogo.png" onmouseover="changeStatsBotImage()" onmouseout="restoreStatsBotImage()">
                 </a>
             </div>
-            <div class="column">
+            <div>
                 <a class='homepage-link' href="/records">
-                    <img id='records-logo' src="../static/images/recordslogo.png" onmouseover="changeRecordsImage()" onmouseout="restoreRecordsImage()">
+                    <img alt="Records" id='records-logo' src="../static/images/recordslogo.png" onmouseover="changeRecordsImage()" onmouseout="restoreRecordsImage()">
                 </a>
             </div>
-            <div class="column">
+        </div>
+        <div class="mobile-row">
+            <div>
                 <a class='homepage-link' href="/players">
-                    <img id='players-logo' src="../static/images/jersey_road.png" onmouseover="changePlayersImage()" onmouseout="restorePlayersImage()">
+                    <img alt="Players" id='players-logo' src="../static/images/jersey_road.png" onmouseover="changePlayersImage()" onmouseout="restorePlayersImage()">
                 </a>
             </div>
-            <div class="column">
+            <div>
                 <a class='homepage-link' href="/trivia">
-                    <img id='trivia-logo' src="../static/images/trivialogo.png" onmouseover="changeTriviaImage()" onmouseout="restoreTriviaImage()">
+                    <img alt="Trivia" id='trivia-logo' src="../static/images/trivialogo.png" onmouseover="changeTriviaImage()" onmouseout="restoreTriviaImage()">
                 </a>
             </div>
-        </div>
-    </div>
-    <div class='mobile-view'>
-      <div class="row">
-          <div class="column">
-              <a class='homepage-link' href="/statsbot">
-                  <img id='stats-bot-logo' src="../static/images/statsbotlogo.png" onmouseover="changeStatsBotImage()" onmouseout="restoreStatsBotImage()">
-              </a>
-          </div>
-          <div class="column">
-              <a class='homepage-link' href="/records">
-                  <img id='records-logo' src="../static/images/recordslogo.png" onmouseover="changeRecordsImage()" onmouseout="restoreRecordsImage()">
-              </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="column">
-              <a class='homepage-link' href="/players">
-                  <img id='players-logo' src="../static/images/jersey_road.png" onmouseover="changePlayersImage()" onmouseout="restorePlayersImage()">
-              </a>
-          </div>
-          <div class="column">
-              <a class='homepage-link' href="/trivia">
-                  <img id='trivia-logo' src="../static/images/trivialogo.png" onmouseover="changeTriviaImage()" onmouseout="restoreTriviaImage()">
-              </a>
-          </div>
         </div>
     </div>
     <div id="randStat" class="card">
