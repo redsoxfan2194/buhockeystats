@@ -71,7 +71,7 @@ def about():
     Returns:
       Flask Template : flask template containing about.html
     '''
-    return render_template('about.html')
+    return render_template('about.html',titletag=' - About')
 
 
 @app.route('/players', methods=['POST', 'GET'])
@@ -468,7 +468,7 @@ def players():
     dfStat = burb.dfSkateMens
     seasVals = sorted(set(dfStat['seasons'].to_string(
         index=False).replace(' ', '').replace('\n', ',').split(',')))
-    return render_template('players.html',
+    return render_template('players.html',titletag=" - Players",
                            statTable=formatStats(dfStat),
                            season_values=seasVals,
                            selected_startSeas=seasVals[0],
@@ -499,12 +499,12 @@ def statsbot():
             result = convertToHtmlTable(qStr)
 
             return render_template(
-                'statsbot.html',
+                'statsbot.html',titletag=' - Stats Bot',
                 result=result,
                 query=query.upper()
             )
 
-    return render_template('statsbot.html', result='', query='')
+    return render_template('statsbot.html', titletag=' - Stats Bot', result='', query='')
 
 
 @app.route('/records', methods=['POST', 'GET'])
@@ -714,7 +714,7 @@ def records():
             minYear=int(minYear))
 
     return render_template(
-        'records.html',
+        'records.html',titletag=' - Records',
         result=result,
         query='',
         resTable=formatResults(dfRes),
@@ -811,7 +811,7 @@ def dailyTrivia():
             quiz.append(ques)
             random.shuffle(quiz)
         return jsonify(quiz=quiz,triviaNum=(seedVal-launchSeed)+1)
-    return render_template('daily_trivia.html',topic=titles[DOW])
+    return render_template('daily_trivia.html',titletag=' - Daily Trivia', topic=titles[DOW])
 
 
 @app.route('/triviagame', methods=['POST', 'GET'])
@@ -871,7 +871,7 @@ def triviagame():
             random.shuffle(quiz)
         return jsonify(quiz=quiz)
 
-    return render_template('trivia_game.html',
+    return render_template('trivia_game.html',titletag=' - Trivia Game',
                            season_values=burb.dfGames.season.unique(),
                            selected_startSeas=burb.dfGames.season.min(),
                            selected_endSeas=burb.dfGames.season.max())
