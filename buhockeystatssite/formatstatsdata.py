@@ -1,10 +1,11 @@
 '''Module to Format Pandas Tables for HTML Site'''
 import re
-
+from bs4 import BeautifulSoup
 COLUMNS = {
     'date': 'Date',
     'opponent': 'Opponent',
     'oppconference': 'Conference',
+    'OppConference': 'Conference',
     'result': 'Result',
     'scoreline': 'Score',
     'arena': 'Location',
@@ -184,6 +185,7 @@ def formatResults(dfRes):
     Returns:
       DataFrame : formatted Record Data
     '''
+    global counter
     firstCol = dfRes.columns[0]
     if 'date' in dfRes.columns:
         tableData = dfRes[['date', 'opponent', 'result',
@@ -206,7 +208,8 @@ def formatResults(dfRes):
             [col for col in tableData.columns if col != firstCol]
         tableData = tableData[newOrder]
     tableData.rename(columns=COLUMNS, inplace=True)
-    return tableData.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').apply(
+    counter=0
+    resTable = tableData.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').apply(
         stylerow,
         axis=1).hide(
         axis='index').format(
@@ -214,7 +217,30 @@ def formatResults(dfRes):
                 'Win%': '{:.3f}'}).set_table_styles(TABLE_STYLES).to_html(
                     index_names=False,
         render_links=True)
-
+        # Parse the HTML using BeautifulSoup
+    soup = BeautifulSoup(resTable, 'html.parser')
+    if('result' in dfRes.columns):
+      # Find the specific cell you want to convert to a <span>
+      for row in soup.find_all('tr'):
+        for col in range(len(row.find_all('th'))):
+          row.find_all('th')[col]['class'].append(tableData.columns[col])
+        for col in range(len(row.find_all('td'))):
+          row.find_all('td')[col]['class'].append(tableData.columns[col])
+      for row in soup.find_all('tr'):
+        res_cell = row.find('td', {'class':'Result'})
+        score_cell = row.find('td', {'class':'Score'})
+        if(res_cell is None):
+          continue
+        # Create a new <span> element
+        new_span = soup.new_tag('span',id=res_cell['id'])
+        new_span.string=res_cell.get_text()
+        new_span['class']='badge'
+        # Replace the <td> cell with the <span> element
+        score_cell.append(new_span)
+        res_cell.decompose()
+      soup.find('th', {'class':'Result'}).decompose()
+      resTable = str(soup)
+    return resTable
 
 def formatStats(dfRes):
     ''' format player stats table
@@ -329,6 +355,7 @@ def formatStats(dfRes):
 
 
 def stylerow(row):
+    global counter
     '''Color row based on the opponent/result
     Parameters:
       row (DataFrame) : row of DataFrame
@@ -336,17 +363,24 @@ def stylerow(row):
     Returns:
       DataFrame : row formated color based on opponent
     '''
-    if 'Result' in row:
+    counter+=1
+    if 'Location' in row:
         background, font = winnercolors(row['Result'], row['Opponent'])
+        if(counter % 2 != 0):
+          bg = 'lightgray'
+        else:
+          bg =''
+        style=[f'background-color: {bg}; color: black; text-align:center'] * len(row)
+        style[list(row.index).index('Result')] = f'background-color: {background}; color: {font}; text-align:center'
+        return style
     elif 'Opponent' in row:
         background, font = winnercolors('L', row['Opponent'])
-    elif int(row.name) % 2 == 0:
-        background = BU_COLOR
+    elif counter % 2 == 0:
+        background = ''
         font = BU_BG_COLOR
     else:
         background = BU_BG_COLOR
         font = BU_COLOR
-
     return [f'background-color: {background}; color: {font}; text-align:center'] * len(row)
 
 
