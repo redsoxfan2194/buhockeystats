@@ -217,7 +217,10 @@ def formatResults(dfRes):
                 'Win%': '{:.3f}'}).set_table_styles(TABLE_STYLES).to_html(
                     index_names=False,
         render_links=True)
-        # Parse the HTML using BeautifulSoup
+    if 'Win%' in tableData:
+      resTable=resTable.replace('<th ', '<th onclick=setSort(this) ')
+    
+    # Parse the HTML using BeautifulSoup
     soup = BeautifulSoup(resTable, 'html.parser')
     if('result' in dfRes.columns):
       # Find the specific cell you want to convert to a <span>

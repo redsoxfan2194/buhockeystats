@@ -225,7 +225,36 @@ function submitForm(reset = "false") {
                 document.getElementById("grouping").hidden = false;
                 document.getElementById("groupLabel").hidden = false;
             }
-
+            if (document.getElementById("sortval").value) {
+                var thElements = document.getElementsByTagName("th");
+                var clickedText = document.getElementById("sortval").value;
+                var groupText = document.getElementById("grouping").value;
+                for (var i = 0; i < thElements.length; i++) {
+                    var th = thElements[i];
+                    var thText = th.textContent || th.innerText;
+                    if (thText === clickedText || (clickedText === "sort" && thText === groupText)) {
+                        var arrow = th.querySelector(".arrow");
+                        arrow = document.createElement("span");
+                        arrow.className = "arrow";
+                        if (
+                            document.getElementById("isAscending").value === ""
+                        ) {
+                            arrow.innerHTML = "";
+                        } else {
+                            if (
+                                document.getElementById("isAscending").value ===
+                                "false"
+                            ) {
+                                arrow.innerHTML = "▲"; // Up arrow unicode
+                            } else {
+                                arrow.innerHTML = "▼"; // down arrow unicode
+                            }
+                            th.appendChild(arrow);
+                            th.innerHTML += " ";
+                        }
+                    }
+                }
+            }
             if (reset === "true") {
                 document.getElementById("startYear").value = response.minYear;
                 document.getElementById("startYear").min = response.minYear;
@@ -365,6 +394,7 @@ function submitForm(reset = "false") {
                             resSort[i].classList.remove("hidden");
                         }
                         document.getElementById("sortval").value = "date";
+                        document.getElementById("sortDiv").hidden = false;
                     }
                 } else {
                     // Hide all res-sort elements
@@ -375,7 +405,9 @@ function submitForm(reset = "false") {
                     for (let i = 0; i < recSort.length; i++) {
                         recSort[i].classList.remove("hidden");
                     }
-                    document.getElementById("sortval").value = "sort";
+                    document.getElementById("sortDiv").hidden = true;
+                    
+                    
                 }
             }
         },
@@ -423,4 +455,50 @@ function populateDays() {
 
         daySelect.appendChild(option);
     }
+}
+
+ function setSort(header) {
+            var columnName = header.innerHTML;
+            if(!columnName)
+                return;
+            var thElements = document.getElementsByTagName('th');
+            document.getElementById("sortval").value = columnName.replace("<span class=\"arrow\">▲</span> ","").replace("<span class=\"arrow\">▼</span> ","")
+            if(document.getElementById("sortval").value === "")
+            {
+              document.getElementById("sortval").value="sort";
+            }
+            // Clear arrow from all other th elements
+            for (var i = 0; i < thElements.length; i++) {
+                var th = thElements[i];
+                if (th !== header) {
+                    var arrow = th.querySelector('.arrow');
+                    if (arrow) {
+                        th.removeChild(arrow);
+                        th.innerHTML = th.innerHTML.trim();
+                    }
+                }
+            }
+
+            var arrow = header.querySelector('.arrow');
+            if (arrow === null) {
+                // Add up arrow
+                arrow = document.createElement('span');
+                arrow.className = 'arrow';
+                arrow.innerHTML = '▼'; // Up arrow unicode
+
+                header.appendChild(arrow);
+                header.innerHTML += ' ';
+                document.getElementById("isAscending").value = "true";
+            } else if (arrow.innerHTML === '▼') {
+                // Change to down arrow
+                arrow.innerHTML = '▲'; // Down arrow unicode
+                document.getElementById("isAscending").value = "false";
+            } else {
+                // Remove arrow
+                header.removeChild(arrow);
+                header.innerHTML = header.innerHTML.trim(); // Remove trailing space
+                document.getElementById("isAscending").value = "";
+                document.getElementById("sortval").value="sort";
+            }
+            submitForm();
 }

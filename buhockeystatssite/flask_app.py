@@ -623,7 +623,10 @@ def records():
                 res = 0
             result += str(res) + '-'
         result = result.rstrip('-')
-        sortType = eval(formData['isAscending'].capitalize())
+        if(formData['isAscending']!=''):
+          sortType = eval(formData['isAscending'].capitalize())
+        else:
+          sortType=True
         if formData['sortval'] != 'date':
             sortType = not sortType
         if 'hideEx' in formData:
