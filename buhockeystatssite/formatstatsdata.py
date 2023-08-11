@@ -124,7 +124,6 @@ def convertToHtmlTable(inputString):
       str : string containing inputString formatted into an HTML table
     '''
     rows = list(filter(None, inputString))
-    print(rows)
     if(rows==[]):
       return ''
       
