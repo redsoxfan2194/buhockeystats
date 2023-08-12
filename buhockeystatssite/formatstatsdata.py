@@ -325,14 +325,6 @@ def formatStats(dfRes):
         else:
             dfRes[stat] = dfRes[stat].replace('-1', '-')
 
-    headers = {
-        'selector': 'th:not(.index_name)',
-        'props': 'color: #cc0000;'
-    }
-    table = {
-        'selector': 'table',
-        'props': [('class', 'sortable')]
-    }
     if 'BU' not in dfRes.columns[0]:
         dfRes.columns = dfRes.columns.str.capitalize()
     dfRes.rename(
@@ -346,7 +338,7 @@ def formatStats(dfRes):
             'Sv': 'SV',
             'Pim': 'PIM'},
         inplace=True)
-    style.set_table_styles([headers, table])
+    style.set_table_styles(TABLE_STYLES)
     if 'Split' in dfRes.columns:
         dfRes = style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(
             index_names=False,
