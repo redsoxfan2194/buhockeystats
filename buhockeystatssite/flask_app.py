@@ -5,10 +5,9 @@ import datetime
 import numpy as np
 import pandas as pd
 import atexit
-from apscheduler.schedulers.background import BackgroundScheduler
 from flask import Flask, render_template, request, jsonify, Response
 from querystatsbot import querystatsbot, generaterandomstat
-from burecordbook import initializeRecordBook, awardsDict
+from burecordbook import awardsDict
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
 import burecordbook as burb
 
@@ -20,7 +19,7 @@ dayNames = {
     4: 'Friday',
     5: 'Saturday',
     6: 'Sunday'}
-    
+
 numOptions = 5
 
 app = Flask(__name__)
@@ -38,13 +37,16 @@ def generate_sitemap():
         xml_sitemap += f'    </url>\n'
 
     xml_sitemap += '</urlset>'
-    print(xml_sitemap)
     return Response(xml_sitemap, mimetype='text/xml')
 
 
-print('Initializing Record Book...')
-initializeRecordBook()
-print('Record Book Initialized')
+
+if(datetime.datetime.now().month>10 or datetime.datetime.now().month<5):
+  burb.refreshStats()
+else:
+  print('Initializing Record Book...')
+  burb.initializeRecordBook()
+  print('Record Book Initialized')
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -78,7 +80,7 @@ def about():
 def players():
     ''' Loads BU Hockey Stats Players page
 
-    Returns: 
+    Returns:
       json : json structure of Player stats table
     '''
     if request.method == 'POST':
@@ -482,7 +484,7 @@ def players():
 def statsbot():
     ''' Loads BU Hockey Stats StatsBot page
 
-    Returns: 
+    Returns:
       Flask Template : Flask Template containing statbot.html
     '''
     if request.method == 'POST':
@@ -511,7 +513,7 @@ def statsbot():
 def records():
     ''' Loads BU Hockey Stats Record page
 
-    Returns: 
+    Returns:
       json : json structure of Records table
     '''
     buscore = 'BU Score'
@@ -762,13 +764,13 @@ def dailyTrivia():
       'Friday': "Foe Friday",  # Questions About Opponents
       'Saturday':"Staturday", # Player Stat Questions
       'Sunday':"Sunday Scores"} # score related questions
-    
+
     # seed is Day of Year + Year
     launchSeed=2267
     seedVal=int(datetime.datetime.now().strftime('%j'))+int(datetime.datetime.now().strftime('%Y'))
     random.seed(seedVal)
     np.random.seed(seedVal)
-    
+
     if (request.method == 'POST'):
         quiz = []
         qType = []
@@ -1270,12 +1272,6 @@ def determineRecord(dfRes):
     dfStat['T'] = mergedDf.groupby(['name', 'opponent'])['T_y'].transform(sum, numeric_only=True)
 
     return dfStat
-
-scheduler = BackgroundScheduler()
-scheduler.add_job(burb.refreshStats, 'cron', month='10-12,1-4', hour='0')
-scheduler.start()
-# Shut down the scheduler when exiting the app
-atexit.register(lambda: scheduler.shutdown())
 
 if __name__ == '__main__':
     app.run(host='localhost', port=5000)
