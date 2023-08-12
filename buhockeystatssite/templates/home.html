@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="p-3 container">
+    <h1 id='homepage-title'>BU Hockey Stats</h1>
+    <div class="icon-link-container">
+        <div class="mobile-row">
+            <div>
+                <a class='homepage-link' href="/statsbot">
+                    <img alt="Stats Bot" id='stats-bot-logo' src="../static/images/statsbotlogo.png" onmouseover="changeStatsBotImage()" onmouseout="restoreStatsBotImage()">
+                </a>
+            </div>
+            <div>
+                <a class='homepage-link' href="/records">
+                    <img alt="Records" id='records-logo' src="../static/images/recordslogo.png" onmouseover="changeRecordsImage()" onmouseout="restoreRecordsImage()">
+                </a>
+            </div>
+        </div>
+        <div class="mobile-row">
+            <div>
+                <a class='homepage-link' href="/players">
+                    <img alt="Players" id='players-logo' src="../static/images/jersey_road.png" onmouseover="changePlayersImage()" onmouseout="restorePlayersImage()">
+                </a>
+            </div>
+            <div>
+                <a class='homepage-link' href="/trivia">
+                    <img alt="Trivia" id='trivia-logo' src="../static/images/trivialogo.png" onmouseover="changeTriviaImage()" onmouseout="restoreTriviaImage()">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="randStat" class="card">
+        <div class="card-body">
+            <form method='POST' id='randomStatForm'>
+                <h2 class="card-title" id="dyk"> Did You Know?</h2>
+                <h3 id="dyk-query">{{query}}</h3>
+                <p class="card-text" id="result">
+                    {% autoescape false %}
+                    {{result}}
+                    {% endautoescape %}
+                </p>
+                <button class="btn btn-danger btn-sm" type="submit" id="new-stat-button">Generate New Stat</button>
+            </form>
+            <script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+        </div>
+    </div>
+</div>
+{% endblock %}

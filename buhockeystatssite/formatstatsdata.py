@@ -1,10 +1,11 @@
 '''Module to Format Pandas Tables for HTML Site'''
 import re
-
+from bs4 import BeautifulSoup
 COLUMNS = {
     'date': 'Date',
     'opponent': 'Opponent',
     'oppconference': 'Conference',
+    'OppConference': 'Conference',
     'result': 'Result',
     'scoreline': 'Score',
     'arena': 'Location',
@@ -18,7 +19,7 @@ COLUMNS = {
 TABLE_STYLES = [
     {
         'selector': 'th:not(.index_name)',
-        'props': 'color: #FFFFFF;'
+        'props': 'color: #cc0000;'
     }, {
         'selector': 'table',
         'props': [('class', 'sortable')]
@@ -123,22 +124,26 @@ def convertToHtmlTable(inputString):
     Returns:
       str : string containing inputString formatted into an HTML table
     '''
-    rows = inputString
-
+    rows = list(filter(None, inputString))
+    if(rows==[]):
+      return ''
+      
     # Create the HTML table structure
-    htmlTable = '<table class="stat-table">\n<thead>\n<tr>'
-
+    htmlTable = '<table class="stat-table table-sm table-borderless table-responsive-md">\n<thead>\n<tr>'
+    
     # Process the first row as the header
     headers = rows[0].split()
     if headers == []:
         return ''
     if 'Season' in headers[0]:
         for header in headers:
-            htmlTable += f'<th>{header}</th>'
+            htmlTable += f'<th class="stat-header">{header}</th>'
         htmlTable += '</tr>\n</thead>\n<tbody>'
 
         # Process the remaining rows as data rows
         for row in rows[1:]:
+            if('-----' in row):
+              continue
             columns = row.split()
             pts = columns[-1].split('-')
             if (len(pts) > 1 and pts[0] != '' and 'Record' not in rows[0]):
@@ -151,15 +156,25 @@ def convertToHtmlTable(inputString):
                 htmlTable += f'<td class="stat-row">{column}</td>'
             htmlTable += '</tr>'
     else:
+        if(len(rows)==1):
+          return rows[0]
         # Process the remaining rows as data rows
         pattern = r'\s+(?![^()]*\))'
         for row in rows:
-            columns = re.split(pattern, row)
-            htmlTable += '\n<tr>'
+            rSplit=row.split(':')
+            if(len(rSplit)>1):
+              columns = re.split(pattern, rSplit[1].strip())
+              htmlTable += '\n<tr>'
+              columns.insert(0,rSplit[0])
+            else:
+              columns = re.split(pattern, row)
+              htmlTable += '\n<tr>'
             for column in columns:
+                column=column.strip().replace('!!',' ')
                 htmlTable += f'<td class="stat-row">{column}</td>'
             htmlTable += '</tr>'
     htmlTable += '\n</tbody>\n</table>'
+    htmlTable = htmlTable.replace('()','')
     return htmlTable
 
 
@@ -171,6 +186,7 @@ def formatResults(dfRes):
     Returns:
       DataFrame : formatted Record Data
     '''
+    global counter
     firstCol = dfRes.columns[0]
     if 'date' in dfRes.columns:
         tableData = dfRes[['date', 'opponent', 'result',
@@ -182,8 +198,7 @@ def formatResults(dfRes):
         tableData.loc[tableData['ot'] != '', 'scoreline'] = tableData['scoreline'] + \
             " (" + tableData.loc[tableData['ot'] != '', 'ot'] + ")"
         tableData.drop(['ot'], axis=1, inplace=True)
-
-        if len(list(tableData['note'].unique())) < 1:
+        if ((len(list(tableData['note'].unique())) < 1) or (len(list(tableData['note'].unique()))==1 and list(tableData['note'].unique())[0]=='')):
             tableData.drop(['note'], axis=1, inplace=True)
     else:
         tableData = dfRes
@@ -194,7 +209,8 @@ def formatResults(dfRes):
             [col for col in tableData.columns if col != firstCol]
         tableData = tableData[newOrder]
     tableData.rename(columns=COLUMNS, inplace=True)
-    return tableData.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').apply(
+    counter=0
+    resTable = tableData.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').apply(
         stylerow,
         axis=1).hide(
         axis='index').format(
@@ -202,7 +218,33 @@ def formatResults(dfRes):
                 'Win%': '{:.3f}'}).set_table_styles(TABLE_STYLES).to_html(
                     index_names=False,
         render_links=True)
-
+    if 'Win%' in tableData:
+      resTable=resTable.replace('<th ', '<th onclick=setSort(this) ')
+    
+    # Parse the HTML using BeautifulSoup
+    soup = BeautifulSoup(resTable, 'html.parser')
+    if('result' in dfRes.columns):
+      # Find the specific cell you want to convert to a <div>
+      for row in soup.find_all('tr'):
+        for col in range(len(row.find_all('th'))):
+          row.find_all('th')[col]['class'].append(tableData.columns[col])
+        for col in range(len(row.find_all('td'))):
+          row.find_all('td')[col]['class'].append(tableData.columns[col])
+      for row in soup.find_all('tr'):
+        res_cell = row.find('td', {'class':'Result'})
+        score_cell = row.find('td', {'class':'Score'})
+        if(res_cell is None):
+          continue
+        # Create a new <div> element
+        new_div = soup.new_tag('div',id=res_cell['id'])
+        new_div.string=res_cell.get_text()
+        new_div['class']='badge'
+        # Replace the <td> cell with the <div> element
+        score_cell.insert(0, new_div)
+        res_cell.decompose()
+      soup.find('th', {'class':'Result'}).decompose()
+      resTable = str(soup)
+    return resTable
 
 def formatStats(dfRes):
     ''' format player stats table
@@ -238,8 +280,8 @@ def formatStats(dfRes):
     if 'SO' in dfRes.columns:
         style = dfRes.style.apply(
             lambda x: [
-                'background-color: white; color:#cc0000; text-align:center' if i % 2 == 0\
-                else 'background-color: #cc0000; color:white; text-align:center' for i in range(
+                'color:#cc0000;' if i % 2 != 0\
+                else 'background-color: #cc0000; color:white;' for i in range(
                     len(x))]).hide(
                 axis='index').format(
                     {
@@ -250,8 +292,8 @@ def formatStats(dfRes):
     else:
         style = dfRes.style.apply(
             lambda x: [
-                'background-color: white; color:#cc0000; text-align:center' if i % 2 == 0\
-                else 'background-color: #cc0000; color:white; text-align:center' for i in range(
+                'color:#cc0000;' if i % 2 != 0\
+                else 'background-color: #cc0000; color:white;' for i in range(
                     len(x))]).hide(
                 axis='index').format(
                     {
@@ -284,14 +326,6 @@ def formatStats(dfRes):
         else:
             dfRes[stat] = dfRes[stat].replace('-1', '-')
 
-    headers = {
-        'selector': 'th:not(.index_name)',
-        'props': 'color: white;'
-    }
-    table = {
-        'selector': 'table',
-        'props': [('class', 'sortable')]
-    }
     if 'BU' not in dfRes.columns[0]:
         dfRes.columns = dfRes.columns.str.capitalize()
     dfRes.rename(
@@ -305,18 +339,19 @@ def formatStats(dfRes):
             'Sv': 'SV',
             'Pim': 'PIM'},
         inplace=True)
-    style.set_table_styles([headers, table])
+    style.set_table_styles(TABLE_STYLES)
     if 'Split' in dfRes.columns:
         dfRes = style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(
             index_names=False,
             render_links=True).replace(">nan<", "><")
     else:
         dfRes = style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(index_names=False, render_links=True).replace(
-            ">nan<", ">-<").replace('<th', '<th onclick=setSort(this)')
+            ">nan<", ">-<").replace('<th ', '<th onclick=setSort(this) ')
     return dfRes
 
 
 def stylerow(row):
+    global counter
     '''Color row based on the opponent/result
     Parameters:
       row (DataFrame) : row of DataFrame
@@ -324,18 +359,25 @@ def stylerow(row):
     Returns:
       DataFrame : row formated color based on opponent
     '''
-    if 'Result' in row:
+    counter+=1
+    if 'Location' in row:
         background, font = winnercolors(row['Result'], row['Opponent'])
+        if(counter % 2 != 0):
+          bg = 'lightgray'
+        else:
+          bg =''
+        style=[f'background-color: {bg}; color: black;'] * len(row)
+        style[list(row.index).index('Result')] = f'background-color: {background}; color: {font};'
+        return style
     elif 'Opponent' in row:
         background, font = winnercolors('L', row['Opponent'])
-    elif int(row.name) % 2 == 0:
-        background = BU_COLOR
+    elif counter % 2 == 0:
+        background = ''
         font = BU_BG_COLOR
     else:
         background = BU_BG_COLOR
         font = BU_COLOR
-
-    return [f'background-color: {background}; color: {font}; text-align:center'] * len(row)
+    return [f'background-color: {background}; color: {font};'] * len(row)
 
 
 def winnercolors(result, opponent):

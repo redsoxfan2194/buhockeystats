@@ -1,0 +1,79 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="p-3">
+   <form id="game-options-form" method="post">
+      <div id="start-screen">
+         <h1>BU Hockey Stats Trivia</h1>
+         <div class="form-group">
+            <label for="genderSelect">Select Gender:</label>
+            <div id="genderSelect" class="btn-group btn-group-toggle" data-toggle="buttons">
+               <label class="btn btn-outline-danger" id='mens'>
+               <input type="radio" id="Mens" name="gender" value="Mens" checked> Mens
+               </label>
+               <label class="btn btn-outline-danger" id='womens'>
+               <input type="radio" id="Womens" name="gender" value="Womens"> Womens
+               </label>
+            </div>
+         </div>
+         <div class="form-group">
+            <label>Select Options:</label>
+            <div id="optionsSelect" class="btn-group btn-group-toggle" data-toggle="buttons">
+               <label class="btn btn-outline-danger">
+               <input type="checkbox" class='tOps' name="jersey" value="JerseyNumbers"> Jersey Numbers
+               </label>
+               <label class="btn btn-outline-danger">
+               <input type="checkbox" class='tOps' name="season" value="PlayerStats"> Player Stats
+               </label>
+               <label class="btn btn-outline-danger">
+               <input type="checkbox"class='tOps' name="result" value="ResultsRecords"> Results and Records
+               </label>
+               <label class="btn btn-outline-danger">
+               <input type="checkbox" class='tOps' name="beanpot" value="Beanpot"> Beanpot
+               </label>
+            </div>
+         </div>
+         <div id='seasRange' class='dropdown-container'>
+            <label>Question Range:</label>
+            <select class="btn dropdown-toggle" name="seasonStart" id="seasonStart">
+            {% for seasonStart in season_values %}
+            <option value="{{ seasonStart }}" {% if selected_startSeas == seasonStart %} selected {% endif %}>
+            {{ seasonStart }}
+            </option>
+            {% endfor %}
+            </select>
+            <p>_</p>
+            <select class="btn dropdown-toggle" name="seasonEnd" id="seasonEnd">
+            {% for seasonEnd in season_values %}
+            <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>
+            {{ seasonEnd }}
+            </option>
+            {% endfor %}
+            </select>
+         </div>
+         <div class="form-group">
+            <div id="numQuesDisplay">Number of Questions: 20</div>
+            <input type="range" class="custom-range" id="numQuestions" name="numQuestions" min="1" max="50" step="1" value="20">
+         </div>
+         <button id="startBtn" class="btn btn-outline-danger">Start</button>
+         <a id="daily" class="btn btn-outline-danger" href="/trivia">Daily Trivia</a>
+      </div>
+   </form>
+   <div id="game-screen" style="display: none;">
+      <h2 id='questionNumber'>Question :</h2>
+      <p id="questionText"></p>
+      <div id="choices">
+         <!-- The question choices will be dynamically populated here -->
+      </div>
+      <button id="nextBtn" class="btn btn-danger" style="display: none;">Next Question</button>
+   </div>
+   <div id="results-screen" style="display: none;">
+      <h2>Results:</h2>
+      <p id="score"></p>
+      <p id="rank"></p>
+      <button id="restartBtn" class="btn btn-outline-danger">Play Again</button>
+   </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/trivia_game.js') }}"></script>
+{% endblock %}

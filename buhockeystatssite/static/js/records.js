@@ -1,5 +1,29 @@
 console.log("loading records.js");
 
+document.addEventListener("DOMContentLoaded", function(event) {
+  var alterClass = function() {
+    var ww = document.body.clientWidth;
+    if (ww < 800) {
+      $('#offcanvasRecordsFilters').addClass('offcanvas');
+      $('#offcanvasRecordsFilters').addClass('offcanvas-start');
+      $('#offcanvasRecordsFilters').removeClass('sidebar-buhs');
+      $('#ocRecHeader').removeClass('sidebar-header-center');
+      $('#offcanvasRecordsFilters').hidden = false;
+      
+    } else if (ww >= 801) {
+      $('#offcanvasRecordsFilters').removeClass('offcanvas');
+      $('#offcanvasRecordsFilters').removeClass('offcanvas-start');
+      $('#offcanvasRecordsFilters').addClass('sidebar-buhs');
+      $('#ocRecHeader').addClass('sidebar-header-center');
+    };
+  };
+  $(window).resize(function(){
+    alterClass();
+  });
+  //Fire it when the page first loads:
+  alterClass();
+});
+
 const onKeydown = function (event) {
     if (event.key === "Enter") {
         event.preventDefault(); // Prevent form submission
@@ -8,15 +32,14 @@ const onKeydown = function (event) {
 };
 initializeFilters();
 function clearFilers(event) {
-    event.preventDefault();
     document.getElementById("arena").value = "all";
     document.getElementById("location").value = "all";
     document.getElementById("opponent").value = "all";
     document.getElementById("season").value = "all";
     document.getElementById("buscoreop").value = "==";
-    document.getElementById("buscore").value = "BU Score";
+    document.getElementById("buscore").value = "";
     document.getElementById("oppscoreop").value = "==";
-    document.getElementById("oppscore").value = "Opp Score";
+    document.getElementById("oppscore").value = "";
     document.getElementById("endYear").value = "{{maxYear}}";
 
     if (document.getElementById("gender").value === "Womens") {
@@ -35,13 +58,17 @@ function clearFilers(event) {
     document.getElementById("DOW").value = -1;
     document.getElementById("month").value = 0;
     document.getElementById("day").value = 0;
-    document.getElementById("tourney").value = "Tournament";
+    document.getElementById("tourney").value = "All";
     document.getElementById("conference").value = "all";
     document.getElementById("coach").value = "all";
     document.getElementById("tabletype").value = "";
     document.getElementById("grouping").value = "Opponent";
     document.getElementById("grouping").hidden = true;
-    submitForm("true");
+    document.getElementById("groupLabel").hidden = true;
+    if(event!=null){
+      event.preventDefault();
+      submitForm("true");
+    }
 }
 
 function toggleArrow() {
@@ -117,6 +144,7 @@ function initializeFilters() {
     eYearInput.addEventListener("keydown", onKeydown);
 
     document.getElementById("grouping").hidden = true;
+    document.getElementById("groupLabel").hidden = true;
 
     var select = document.getElementById("sortval");
     const optionToHide = document.querySelectorAll(".rec-sort");
@@ -175,20 +203,7 @@ function initializeFilters() {
 
     // Add event listener to the month dropdown
     document.getElementById("month").addEventListener("change", populateDays);
-
-    var mobileButton = document.getElementById("filterMenu");
-    var hiddenDiv = document.getElementById("options-menu");
-
-    mobileButton.addEventListener("click", function () {
-        if (
-            hiddenDiv.style.display === "none" ||
-            hiddenDiv.style.display === ""
-        ) {
-            hiddenDiv.style.display = "block";
-        } else {
-            hiddenDiv.style.display = "none";
-        }
-    });
+    clearFilers();
 }
 
 function submitForm(reset = "false") {
@@ -206,10 +221,41 @@ function submitForm(reset = "false") {
 
             if (!document.getElementById("tabletype").value) {
                 document.getElementById("grouping").hidden = true;
+                document.getElementById("groupLabel").hidden = true;
             } else {
                 document.getElementById("grouping").hidden = false;
+                document.getElementById("groupLabel").hidden = false;
             }
-
+            if (document.getElementById("sortval").value) {
+                var thElements = document.getElementsByTagName("th");
+                var clickedText = document.getElementById("sortval").value;
+                var groupText = document.getElementById("grouping").value;
+                for (var i = 0; i < thElements.length; i++) {
+                    var th = thElements[i];
+                    var thText = th.textContent || th.innerText;
+                    if (thText === clickedText || (clickedText === "sort" && thText === groupText)) {
+                        var arrow = th.querySelector(".arrow");
+                        arrow = document.createElement("span");
+                        arrow.className = "arrow";
+                        if (
+                            document.getElementById("isAscending").value === ""
+                        ) {
+                            arrow.innerHTML = "";
+                        } else {
+                            if (
+                                document.getElementById("isAscending").value ===
+                                "false"
+                            ) {
+                                arrow.innerHTML = "▲"; // Up arrow unicode
+                            } else {
+                                arrow.innerHTML = "▼"; // down arrow unicode
+                            }
+                            th.appendChild(arrow);
+                            th.innerHTML += " ";
+                        }
+                    }
+                }
+            }
             if (reset === "true") {
                 document.getElementById("startYear").value = response.minYear;
                 document.getElementById("startYear").min = response.minYear;
@@ -221,7 +267,7 @@ function submitForm(reset = "false") {
                 selectSeasElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Season",
+                        text: "All",
                     })
                 );
                 $.each(response.season_values, function (index, item) {
@@ -263,7 +309,7 @@ function submitForm(reset = "false") {
                 selectArenaElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Arena",
+                        text: "All",
                     })
                 );
                 $.each(response.arena_values, function (index, item) {
@@ -280,7 +326,7 @@ function submitForm(reset = "false") {
                 selectConferenceElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Conference",
+                        text: "All",
                     })
                 );
                 $.each(response.conference_values, function (index, item) {
@@ -297,7 +343,7 @@ function submitForm(reset = "false") {
                 selectOppElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Opponent",
+                        text: "All",
                     })
                 );
                 $.each(response.opponents_values, function (index, item) {
@@ -314,7 +360,7 @@ function submitForm(reset = "false") {
                 selectCoachElement.append(
                     $("<option>", {
                         value: "all",
-                        text: "Coach",
+                        text: "All",
                     })
                 );
                 $.each(response.coach_values, function (index, item) {
@@ -349,6 +395,7 @@ function submitForm(reset = "false") {
                             resSort[i].classList.remove("hidden");
                         }
                         document.getElementById("sortval").value = "date";
+                        document.getElementById("sortDiv").hidden = false;
                     }
                 } else {
                     // Hide all res-sort elements
@@ -359,7 +406,9 @@ function submitForm(reset = "false") {
                     for (let i = 0; i < recSort.length; i++) {
                         recSort[i].classList.remove("hidden");
                     }
-                    document.getElementById("sortval").value = "sort";
+                    document.getElementById("sortDiv").hidden = true;
+                    
+                    
                 }
             }
         },
@@ -380,7 +429,7 @@ function populateDays() {
         daySelect.innerHTML = ""; // Clear the day dropdown
         const defaultOption = document.createElement("option");
         defaultOption.value = 0;
-        defaultOption.textContent = "Day";
+        defaultOption.textContent = "All";
         defaultOption.selected = true;
         daySelect.appendChild(defaultOption);
         return;
@@ -391,7 +440,7 @@ function populateDays() {
     // Add default "Day" option
     const defaultOption = document.createElement("option");
     defaultOption.value = 0;
-    defaultOption.textContent = "Day";
+    defaultOption.textContent = "All";
     defaultOption.selected = true;
     daySelect.appendChild(defaultOption);
 
@@ -407,4 +456,50 @@ function populateDays() {
 
         daySelect.appendChild(option);
     }
+}
+
+ function setSort(header) {
+            var columnName = header.innerHTML;
+            if(!columnName)
+                return;
+            var thElements = document.getElementsByTagName('th');
+            document.getElementById("sortval").value = columnName.replace("<span class=\"arrow\">▲</span> ","").replace("<span class=\"arrow\">▼</span> ","")
+            if(document.getElementById("sortval").value === "")
+            {
+              document.getElementById("sortval").value="sort";
+            }
+            // Clear arrow from all other th elements
+            for (var i = 0; i < thElements.length; i++) {
+                var th = thElements[i];
+                if (th !== header) {
+                    var arrow = th.querySelector('.arrow');
+                    if (arrow) {
+                        th.removeChild(arrow);
+                        th.innerHTML = th.innerHTML.trim();
+                    }
+                }
+            }
+
+            var arrow = header.querySelector('.arrow');
+            if (arrow === null) {
+                // Add up arrow
+                arrow = document.createElement('span');
+                arrow.className = 'arrow';
+                arrow.innerHTML = '▼'; // Up arrow unicode
+
+                header.appendChild(arrow);
+                header.innerHTML += ' ';
+                document.getElementById("isAscending").value = "true";
+            } else if (arrow.innerHTML === '▼') {
+                // Change to down arrow
+                arrow.innerHTML = '▲'; // Down arrow unicode
+                document.getElementById("isAscending").value = "false";
+            } else {
+                // Remove arrow
+                header.removeChild(arrow);
+                header.innerHTML = header.innerHTML.trim(); // Remove trailing space
+                document.getElementById("isAscending").value = "";
+                document.getElementById("sortval").value="sort";
+            }
+            submitForm();
 }

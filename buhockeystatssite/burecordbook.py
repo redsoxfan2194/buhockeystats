@@ -17,6 +17,8 @@ try:
 except ImportError:
     RECBOOK_DATA_PATH = './'
 
+currSeason = '2022-23'
+
 tourneyDict = {}
 # Get Tourneys
 
@@ -3290,7 +3292,6 @@ def updateCurrentSeasonStats(gender):
         currGoalieFileName = RECBOOK_DATA_PATH + "SeasonGoalieStatsWomens.txt"
     else:
         return
-    currSeason = '2022-23'
 
     f = urllib.request.urlopen(url)
     html = f.read()
@@ -3444,7 +3445,6 @@ def updateGameStats(gender):
     boxscores = sorted(list(boxscores), reverse=True)
     pList = []
     gList = []
-    season = '2022-23'
     for box in boxscores:
         url2 = 'https://goterriers.com/'
         url2 += box
@@ -3483,12 +3483,12 @@ def updateGameStats(gender):
                             col[3].get_text()), 'assists': int(
                             col[4].get_text()), 'pts': int(
                             col[3].get_text()) + int(
-                            col[4].get_text()), 'season': season}
+                            col[4].get_text()), 'season': currSeason}
                     name = pDict['name'].split(', ')
                     pDict['name'] = name[1] + " " + name[0]
                     if 'FitzGerald' in pDict['name']:
                         pDict['name'] = pDict['name'].title()
-                    posDict = dfGameStats.loc[(dfGameStats['season'] == season) & (
+                    posDict = dfGameStats.loc[(dfGameStats['season'] == currSeason) & (
                         dfGameStats['name'] == pDict['name'])].iloc[0][['pos', 'yr']].to_dict()
                     pDict['pos'] = posDict['pos']
                     pDict['yr'] = posDict['yr']
@@ -3505,7 +3505,7 @@ def updateGameStats(gender):
                              'ga': int(col[4].get_text()),
                              'sv': int(col[-1].get_text()),
                              'gp': 1,
-                             'season': season}
+                             'season': currSeason}
                     if ((gDict['result'] == 'W' or gDict['result']
                             == 'T') and gDict['ga'] == 0):
                         gDict['so'] = 1
@@ -3513,7 +3513,7 @@ def updateGameStats(gender):
                         gDict['so'] = 0
                     name = gDict['name'].split(', ')
                     gDict['name'] = name[1] + " " + name[0]
-                    posDict = dfGameStats.loc[(dfGameStats['season'] == season) & (
+                    posDict = dfGameStats.loc[(dfGameStats['season'] == currSeason) & (
                         dfGameStats['name'] == pDict['name'])].iloc[0][['pos', 'yr']].to_dict()
                     gDict['yr'] = posDict['yr']
                     if gDict['mins'] != '00:00':
@@ -3557,7 +3557,6 @@ def updateGameStats(gender):
 def updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie):
     ''' generate career stats for current players and return updated
     career DataFrames'''
-    currSeason = '2022-23'
     curSkateList = dfSeasSkate.loc[dfSeasSkate['season'].str.contains(
         currSeason)]['name'].to_list()
     curGoalieList = dfSeasGoalie.loc[dfSeasGoalie['season'].str.contains(
@@ -3629,35 +3628,26 @@ def updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie):
 def updateResults(gender):
     ''' update results for recently completed games'''
     if gender == 'Mens':
-        url = "https://goterriers.com/services/schedule_txt.ashx?schedule=4663"  # mens
+        url = f"https://goterriers.com/sports/mens-ice-hockey/schedule/{currSeason}?grid=true"  # mens
         recBookFileName = RECBOOK_DATA_PATH + 'BURecordBook.txt'
     elif gender == 'Womens':
-        url = "https://goterriers.com/services/schedule_txt.ashx?schedule=4662"  # womens
+        url = f"https://goterriers.com/sports/womens-ice-hockey/schedule/{currSeason}?grid=true"  # womens
         recBookFileName = RECBOOK_DATA_PATH + "BUWomensRecordBook.txt"
     else:
         return
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     html = urllib.request.urlopen(req).read()
-    sched = html.decode().split('\n\r')
-    gameList = []
-    for i in sched:
-        if 'PM' in i:
-            row = list(filter(None, i.split('  ')))
-            dateStr = row[0].split('(')[0]
-            res = row[-1].strip().split(' ')
-            if (len(res) != 2 or not res[1][0].isnumeric()):
-                continue
-            scoreline = res[1]
-            res = res[0]
-            gDict = {
-                'date': datetime.strftime(
-                    datetime.strptime(
-                        dateStr.strip(),
-                        "%b %d"),
-                    "%m/%d"),
-                'result': res,
-                'scoreline': scoreline}
-            gameList.append(gDict)
+    soup = BeautifulSoup(html, 'html.parser')
+    gameList=[]
+    for row in soup.find('table').find_all('tr'):
+      cols=row.find_all('td')
+      if(cols!=[]):
+          date=cols[0].get_text().strip().split(' (')[0]
+          dStr=datetime.strptime(date, '%B %d, %Y').strftime("%m/%d")
+          res=cols[8].get_text().strip().replace('\n','').replace(', SOL','').replace(', SOW','').replace('(',' (').split(',')
+          result,scoreline=res[0],res[1]
+          gDict={'date':dStr,'result':result,'scoreline':scoreline}
+          gameList.append(gDict)
     with open(recBookFileName, "r", encoding='utf-8') as sources:
         lines = sources.readlines()
     with open(recBookFileName, "w", encoding='utf-8', newline='\n') as sources:
@@ -3689,3 +3679,130 @@ def initializeRecordBook():
   dfBeanpotAwards, dfBeanpotAwardsWomens = generateBeanpotAwards()
   dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens = generateGameGoalieStats()
   updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie)
+
+def refreshStats():
+  print("Refreshing Stats...")
+  # Update Results
+  updateResults('Mens')
+  updateResults('Womens')
+  updateCurrentSeasonStats('Mens')
+  updateCurrentSeasonStats('Womens')
+  updateGameStats('Mens')
+  updateGameStats('Womens')
+  initializeRecordBook()
+  print("Stats Refreshed")
+  
+# Awards
+awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
+1984:"Cleon Daskalakis",
+1993:"David Sacco",
+1994:"Jacques Joubert",
+1995:"Mike Grier",
+1996:"Jay Pandolfo",
+1997:"Chris Drury",
+1998:"Chris Drury",
+2007:"John Curry",
+2009:"Matt Gilroy",
+2023:"Lane Hutson"},
+
+"First Team All-American" : {"1949-50" : ["Ralph Bevins","Walt Anderson","Jack Garrity"],
+"1950-51" : ["Jack Garrity"],
+"1952-53" : ["Dick Rodenhiser"],
+"1957-58" : ["Don MacLeod","Bob Dupuis","Bob Marquis"],
+"1958-59" : ["Bob Marquis"],
+"1963-64" : ["Richie Green"],
+"1964-65" : ["Jack Ferreira","Tom Ross"],
+"1965-66" : ["Tom Ross","Fred Bassi"],
+"1966-67" : ["Brian Gilmour"],
+"1967-68" : ["Herb Wakabayashi"],
+"1968-69" : ["Herb Wakabayashi"],
+"1969-70" : ["Mike Hyndman"],
+"1970-71" : ["Steve Stirling","Bob Brown"],
+"1971-72" : ["Bob Brown","John Danby","Dan Brady"],
+"1972-73" : ["Ed Walsh","Steve Dolloff"],
+"1973-74" : ["Bill Burlington","Vic Stanfield"],
+"1974-75" : ["Vic Stanfield","Rick Meagher"],
+"1975-76" : ["Rick Meagher","Peter Brown"],
+"1976-77" : ["Rick Meagher"],
+"1978-79" : ["Jack O’Callahan","Jim Craig"],
+"1983-84" : ["Cleon Daskalakis"],
+"1990-91" : ["Shawn McEachern"],
+"1991-92" : ["David Sacco"],
+"1992-93" : ["David Sacco"],
+"1993-94" : ["Mike Pomichter"],
+"1994-95" : ["Mike Grier"],
+"1995-96" : ["Jay Pandolfo"],
+"1996-97" : ["Chris Drury","Jon Coleman"],
+"1997-98" : ["Chris Drury","Tom Poti"],
+"2002-03" : ["Freddy Meyer"],
+"2005-06" : ["Dan Spang"],
+"2006-07" : ["John Curry"],
+"2007-08" : ["Matt Gilroy"],
+"2008-09" : ["Matt Gilroy","Colin Wilson"],
+"2009-10" : ["Colby Cohen"],
+"2014-15" : ["Jack Eichel","Matt Grzelcyk"],
+"2015-16" : ["Matt Grzelcyk"],
+"2016-17" : ["Charlie McAvoy"],
+"2019-20" : ["David Farrance"],
+"2021-22" : ["David Farrance"],
+"2022-23" : ["Lane Hutson"]},
+
+"Second Team All-American":{"1983-84" : ["T.J. Connolly"],
+"1985-86" : ["Jay Octeau","John Cullen","Clark Donatelli"],
+"1990-91" : ["Peter Ahola"],
+"1991-92" : ["Tom Dion"],
+"1992-93" : ["Kaj Linna"],
+"1993-94" : ["J.P. McKersie","Rich Brennan","Jacques Joubert"],
+"1994-95" : ["Kaj Linna","Chris O’Sullivan"],
+"1995-96" : ["Jon Coleman","Chris Drury"],
+"1996-97" : ["Chris Kelleher"],
+"1997-98" : ["Chris Kelleher"],
+"1998-99" : ["Michael Larocque"],
+"1999-00" : ["Chris Dyment"],
+"2000-01" : ["Carl Corazzini"],
+"2001-02" : ["Chris Dyment"],
+"2005-06" : ["John Curry"],
+"2006-07" : ["Matt Gilroy","Sean Sullivan"],
+"2007-08" : ["Bryan Ewing","Pete MacArthur"],
+"2008-09" : ["Kevin Shattenkirk"],
+"2015-16" : ["Danny O'Regan"],
+"2022-23" : ["Matt Brown"]},
+
+"Hockey East Rookie of the Year":{1986:"Scott Young",
+1980:"Scott Cashman",
+2000:"Rick DiPietro",
+2006:"Brandon Yip",
+2008:"Colin Wilson",
+2009:"Kieran Millan",
+2011:"Charlie Coyle",
+2015:"Jack Eichel",
+2017:"Clayton Keller",
+2019:"Joel Farabee",
+2023:"Lane Hutson"},
+    
+"Hockey East Player of the Year" : {1996:"Jay Pandolfo",
+1997:"Chris Drury",
+1998:"Chris Drury",
+2007:"John Curry",
+2015:"Jack Eichel"},
+    
+"Tim Taylor Award":{2009:"Kieran Millan",
+2015:"Jack Eichel",
+2017:"Clayton Keller"},
+
+"NCAA Scoring Champion":{"Jack Garrity": [1950],
+"Herb Wakabayashi": [1967],
+"Jack Eichel": [2015]},
+
+"Spencer Penrose Award Winner":{"Harry Cleverly": [1958],
+"Jack Parker": [1975, 1978, 2009]},
+
+"NCAA Tournament Most Outstanding Player":{
+"Ralph Bevins":[1950],
+"Bob Marquis":[1960],
+"Barry Urbanski":[1960],
+"Dan Brady":[1971],
+"Tim Regan":[1972],
+"Jack O'Callahan":[1978],
+"Chris O'Sullivan":[1995],
+"Colby Cohen":[2009]}}

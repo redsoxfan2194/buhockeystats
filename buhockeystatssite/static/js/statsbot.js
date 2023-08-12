@@ -1,7 +1,10 @@
 console.log("loading statsbot.js");
-function openHelpImage() {
-  window.open(
-    "{{ url_for('static', filename='images/statsbotcheatsheet.png') }}",
-    "_blank"
-  );
+
+document.addEventListener("DOMContentLoaded", function(event) {
+if(document.getElementById('card-query').textContent != ""){
+  document.getElementById('result-card').style.display  = "block";
 }
+else{
+  document.getElementById('result-card').style.display ="none";
+}
+});
