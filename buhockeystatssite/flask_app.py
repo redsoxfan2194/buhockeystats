@@ -654,6 +654,13 @@ def records():
                             (recDict['W'] + recDict['L'] + recDict['T']), 3)
                         recsList.append(recDict)
                 dfRes = pd.DataFrame(recsList)
+                if formData['grouping'] == 'Month':
+                  dfRes = dfRes.copy()
+                  dfRes.loc[:, 'Month'] = pd.to_datetime(
+                  dfRes['Month'], format='%m').dt.strftime('%B')
+                elif formData['grouping'] == 'DOW':
+                  dfRes = dfRes.copy()
+                  dfRes.loc[:, 'DOW'] = dfRes['DOW'].map(dayNames)
             elif formData['tabletype'] == 'first':
                 dfRes = dfRes.copy()
                 dfRes.fillna('', inplace=True)
