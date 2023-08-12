@@ -307,10 +307,15 @@
       </form>
    </div>
    <div>
-      <h2>{{query}}</h2>
-      {% autoescape false %}
+   <div class="card border-danger" id="result-card">
+  <div class="card-header">Result:</div>
+  <div class="card-body">
+    <h5 class="card-title" id='card-query'>{{query}}</h5>
+    <p class="card-text">{% autoescape false %}
       {{result}}
-      {% endautoescape %}
+      {% endautoescape %}</p>
+  </div>
+
       <script type="text/javascript" src="{{ url_for('static', filename = 'js/statsbot.js') }}"></script>
    </div>
 </div>

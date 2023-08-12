@@ -107,7 +107,7 @@ img {
 }
 
 .mobile-view{
-  display:none
+  display:none;
 }
 
 @media (max-width:800px){
@@ -135,6 +135,9 @@ img {
   #offcanvasRecordsFilters{
     visibility: hidden;
   }
+}
+#result-card{
+   display:none;
 }
 
 .btn-stats-bg{
