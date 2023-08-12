@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       $('#offcanvasRecordsFilters').addClass('offcanvas-start');
       $('#offcanvasRecordsFilters').removeClass('sidebar-buhs');
       $('#ocRecHeader').removeClass('sidebar-header-center');
+      $('#offcanvasRecordsFilters').hidden = false;
       
     } else if (ww >= 801) {
       $('#offcanvasRecordsFilters').removeClass('offcanvas');
