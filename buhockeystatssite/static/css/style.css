@@ -138,6 +138,7 @@ img {
 }
 #result-card{
    display:none;
+   width: fit-content;
 }
 
 .btn-stats-bg{
