@@ -38,10 +38,9 @@ body{
   text-align:center;
 }
 
-.badge
-{
-  margin-left:5px;
-  
+.badge {
+  margin-right: 1em;
+  min-width: 3em;
 }
 
 #content{

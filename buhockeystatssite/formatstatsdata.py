@@ -19,7 +19,7 @@ COLUMNS = {
 TABLE_STYLES = [
     {
         'selector': 'th:not(.index_name)',
-        'props': 'color: #cc0000; text-align:center'
+        'props': 'color: #cc0000;'
     }, {
         'selector': 'table',
         'props': [('class', 'sortable')]
@@ -220,7 +220,7 @@ def formatResults(dfRes):
         # Parse the HTML using BeautifulSoup
     soup = BeautifulSoup(resTable, 'html.parser')
     if('result' in dfRes.columns):
-      # Find the specific cell you want to convert to a <span>
+      # Find the specific cell you want to convert to a <div>
       for row in soup.find_all('tr'):
         for col in range(len(row.find_all('th'))):
           row.find_all('th')[col]['class'].append(tableData.columns[col])
@@ -231,12 +231,12 @@ def formatResults(dfRes):
         score_cell = row.find('td', {'class':'Score'})
         if(res_cell is None):
           continue
-        # Create a new <span> element
-        new_span = soup.new_tag('span',id=res_cell['id'])
-        new_span.string=res_cell.get_text()
-        new_span['class']='badge'
-        # Replace the <td> cell with the <span> element
-        score_cell.append(new_span)
+        # Create a new <div> element
+        new_div = soup.new_tag('div',id=res_cell['id'])
+        new_div.string=res_cell.get_text()
+        new_div['class']='badge'
+        # Replace the <td> cell with the <div> element
+        score_cell.insert(0, new_div)
         res_cell.decompose()
       soup.find('th', {'class':'Result'}).decompose()
       resTable = str(soup)
@@ -324,7 +324,7 @@ def formatStats(dfRes):
 
     headers = {
         'selector': 'th:not(.index_name)',
-        'props': 'color: #cc0000;text-align:center;'
+        'props': 'color: #cc0000;'
     }
     table = {
         'selector': 'table',
@@ -370,8 +370,8 @@ def stylerow(row):
           bg = 'lightgray'
         else:
           bg =''
-        style=[f'background-color: {bg}; color: black; text-align:center'] * len(row)
-        style[list(row.index).index('Result')] = f'background-color: {background}; color: {font}; text-align:center'
+        style=[f'background-color: {bg}; color: black;'] * len(row)
+        style[list(row.index).index('Result')] = f'background-color: {background}; color: {font};'
         return style
     elif 'Opponent' in row:
         background, font = winnercolors('L', row['Opponent'])
@@ -381,7 +381,7 @@ def stylerow(row):
     else:
         background = BU_BG_COLOR
         font = BU_COLOR
-    return [f'background-color: {background}; color: {font}; text-align:center'] * len(row)
+    return [f'background-color: {background}; color: {font};'] * len(row)
 
 
 def winnercolors(result, opponent):
