@@ -174,6 +174,7 @@ def convertToHtmlTable(inputString):
                 htmlTable += f'<td class="stat-row">{column}</td>'
             htmlTable += '</tr>'
     htmlTable += '\n</tbody>\n</table>'
+    htmlTable = htmlTable.replace('()','')
     return htmlTable
 
 
