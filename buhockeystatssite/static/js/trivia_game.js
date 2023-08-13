@@ -16,6 +16,7 @@ $(document).ready(function () {
     function clearOptions() {
         $("input[name='gender']").prop("checked", false);
         $("input[name='options']").prop("checked", false);
+        scoreNum=0;
 
     }
         $("#game-options-form").submit(function (event) {
