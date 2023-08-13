@@ -109,12 +109,13 @@ $(document).ready(function () {
 
 function showScore() {
   scoreStr = "";
-
+  scoreTot=0;
   for (let i = 0; i < 5; i++) {
   starStr= "";
   for(let s = 0; s < pts[i];s++)
   {
-     starStr+="🚨"
+     starStr+="🚨";
+     scoreTot+=1;
   }
   if(starStr===""){
      starStr="❌"
@@ -122,28 +123,30 @@ function showScore() {
   scoreStr += "Question: " + (i + 1) + " " + starStr + '<br>';
   }
 
-  $("#score").html(scoreStr);
+  $("#score").html(scoreStr+"\nScore: " + scoreTot+"/25");
 }
 
 });
 
 function copyScore() {
+  scoreTot=0;
   // Get the text field
   scoreStr="BU Hockey Stats Trivia #"+ triviaNum+ "\n"
   for (let i = 0; i < 5; i++) {
     starStr= "";
     for(let s = 0; s < pts[i];s++)
     {
-       starStr+="🚨"
+       starStr+="🚨";
+       scoreTot+=1;
     }
     if(starStr===""){
-       starStr="❌"
+       starStr="❌";
     }
     scoreStr += "Question: " + (i + 1) + " " + starStr + '\n';
   }
    
    // Copy the text inside the text field
-  return scoreStr+'\nbuhockeystats.com/trivia';
+  return scoreStr+"\nScore: " + scoreTot+"/25"+'\nbuhockeystats.com/trivia';
 } 
 
 const shareButton = document.getElementById('shareBtn');
