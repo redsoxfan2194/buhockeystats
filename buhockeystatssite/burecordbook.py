@@ -1411,6 +1411,7 @@ def cleanupQuery(query, qType):
         if re.search("\\w" + i, query) is None:
             query = query.replace(i + ' ', '')
     query = query.replace("'s", '')
+    query = query.replace("vs.","vs")
     if qType != '':
         query = query.replace(qType + ' ', '')
     return query.lower()
