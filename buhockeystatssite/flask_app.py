@@ -74,6 +74,15 @@ def about():
       Flask Template : flask template containing about.html
     '''
     return render_template('about.html',titletag=' - About')
+    
+@app.route('/feedback')
+def feedback():
+    ''' Renders "Feedback" Page
+
+    Returns:
+      Flask Template : flask template containing feedback.html
+    '''
+    return render_template('feedback.html',titletag=' - Feedback')
 
 
 @app.route('/players', methods=['POST', 'GET'])
