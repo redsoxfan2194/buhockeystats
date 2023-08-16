@@ -4,10 +4,8 @@ import random
 import datetime
 import numpy as np
 import pandas as pd
-import atexit
 from flask import Flask, render_template, request, jsonify, Response
 from querystatsbot import querystatsbot, generaterandomstat
-from burecordbook import awardsDict
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
 import burecordbook as burb
 
@@ -805,13 +803,13 @@ def dailyTrivia():
                 qChoice = random.choice(['jersey', 'season', 'result'])
                 if (qChoice == 'jersey'):
                     question, choices, answer = generateJerseyQuestion(
-                        gender, seasList)
+                        "Womens")
                 elif (qChoice == 'season'):
                     question, choices, answer = generateSeasonStatQuestion(
-                        gender, seasList)
+                        "Womens")
                 elif (qChoice == 'result'):
                     question, choices, answer = generateResultsQuestion(
-                        gender, seasList)
+                        "Womens")
 
             elif DOW == "Thursday":
                 question, choices, answer = generateJerseyQuestion()
