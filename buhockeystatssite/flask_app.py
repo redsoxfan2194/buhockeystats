@@ -33,9 +33,9 @@ def generate_sitemap():
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 
     for page in pages:
-        xml_sitemap += f'    <url>\n'
+        xml_sitemap += '    <url>\n'
         xml_sitemap += f'        <loc>http://buhockeystats.com/{page}</loc>\n'
-        xml_sitemap += f'    </url>\n'
+        xml_sitemap += '    </url>\n'
 
     xml_sitemap += '</urlset>'
     return Response(xml_sitemap, mimetype='text/xml')
