@@ -37,6 +37,9 @@ def generate_sitemap():
     xml_sitemap += '</urlset>'
     return Response(xml_sitemap, mimetype='text/xml')
 
+@app.route('/robots.txt')
+def static_from_root():
+    return app.send_static_file('robots.txt')
 
 
 if(datetime.datetime.now().month>10 or datetime.datetime.now().month<5):
