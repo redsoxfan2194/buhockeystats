@@ -2355,6 +2355,17 @@ def getPlayerStats(playerDfs, query):
             return "Retired - Travis Roy"
         else:
             return "No one"
+    elif(numSearch is not None):
+        number = int(numSearch.group(1))
+        jStr = ''
+        if (not dfJersey.loc[(dfJersey['number'] == number)].empty):
+            jStrList = dfJersey.loc[(dfJersey['number'] == number)
+            ][['name','season']].to_string(index=False, header=False).split('\n')
+            for j in jStrList:
+                j = re.sub(r"(.*) (.*)", "\\1:\\2", j)
+                jStr += j.strip() + "\n"
+            return jStr[:-1]
+        return "Never Worn"
     if numQuery is not None:
         name = numQuery.group(1)
         dfRes = dfJersey.loc[(dfJersey['name'].str.contains(name, case=False))]
