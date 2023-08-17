@@ -4,6 +4,7 @@ import random
 import datetime
 import numpy as np
 import pandas as pd
+import pytz
 from flask import Flask, render_template, request, jsonify, Response
 from querystatsbot import querystatsbot, generaterandomstat
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
@@ -19,6 +20,8 @@ dayNames = {
     6: 'Sunday'}
 
 numOptions = 5
+
+easternTZ = pytz.timezone('US/Eastern')
 
 app = Flask(__name__)
 
@@ -41,8 +44,7 @@ def generate_sitemap():
 def static_from_root():
     return app.send_static_file('robots.txt')
 
-
-if(datetime.datetime.now().month>10 or datetime.datetime.now().month<5):
+if(datetime.datetime.now(easternTZ).month>10 or datetime.datetime.now(easternTZ).month<5):
   burb.refreshStats()
 else:
   print('Initializing Record Book...')
@@ -773,7 +775,7 @@ def dailyTrivia():
     Returns:
       Flask Template : flask template containing daily_trivia.html
     '''
-    DOW = dayNames[datetime.datetime.now().weekday()]
+    DOW = dayNames[datetime.datetime.now(easternTZ).weekday()]
     titles={'Monday':"Beanpot Monday",
       'Tuesday':"Terrific Terrier Tuesday",  # Awards Related Questions
       'Wednesday':"Womens Hockey Wednesday",
@@ -784,7 +786,7 @@ def dailyTrivia():
 
     # seed is Day of Year + Year
     launchSeed=2267
-    seedVal=int(datetime.datetime.now().strftime('%j'))+int(datetime.datetime.now().strftime('%Y'))
+    seedVal=int(datetime.datetime.now(easternTZ).strftime('%j'))+int(datetime.datetime.now(easternTZ).strftime('%Y'))
     random.seed(seedVal)
     np.random.seed(seedVal)
 
