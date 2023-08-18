@@ -1,231 +1,232 @@
 {% extends "layout.html" %}
 {% block content %}
-<button class="btn btn-stats-bg mobile-view" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRecordsFilters" aria-controls="offcanvasRecordsFilters">
-  <i class="fa fa-gear px-2 text-muted"></i>
-</button>
 <form method="post" id="resForm">
-   <div class="sidebar-buhs offcanvas-buhs flex-container" data-bs-scroll="false" data-bs-backdrop="true" tabindex="-1" id="offcanvasRecordsFilters" aria-labelledby="offcanvasRecordsFiltersLabel">
-   <div class="offcanvas-header sidebar-header-center" id="ocRecHeader">
-      <h5 class="offcanvas-title" id="offcanvasRecordsFiltersLabel">Filters and Sorts</h5>
-      <button type="button" class="btn-close text-reset mobile-view" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-   </div>
+    <div class="sidebar-buhs offcanvas-buhs flex-container" data-bs-scroll="false" data-bs-backdrop="true" tabindex="-1" id="offcanvasRecordsFilters" aria-labelledby="offcanvasRecordsFiltersLabel">
+        <div class="offcanvas-header sidebar-header-center" id="ocRecHeader">
+            <h5 class="offcanvas-title" id="offcanvasRecordsFiltersLabel">Filters and Sorts</h5>
+            <button type="button" class="btn-close text-reset mobile-view" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
         <div id="genderDiv">
-        <label for="gender" class="recLabels">Gender:</label>
-        <select class="btn dropdown-toggle custom-align" name="gender" id="gender" onchange="clearFilers(event)">
-            <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %}> Mens </option>
-            <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}> Womens </option>
-        </select>
+            <label for="gender" class="recLabels">Gender:</label>
+            <select class="btn dropdown-toggle custom-align" name="gender" id="gender" onchange="clearFilers(event)">
+                <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %}> Mens </option>
+                <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}> Womens </option>
+            </select>
         </div>
         <div id="tableTypeDiv">
-        <label for="tabletype" class="recLabels">Table Type:</label>
-        <select class="btn dropdown-toggle custom-align" name="tabletype" id="tabletype" onchange="submitForm('true')">
-            <option value="" {% if selected_tabletype == '' %} selected {% endif %}> Results </option>
-            <option value="record" {% if selected_tabletype == 'record' %} selected {% endif %}> Record </option>
-            <option value="first" {% if selected_tabletype == 'first' %} selected {% endif %}> First Game </option>
-            <option value="last" {% if selected_tabletype == 'last' %} selected {% endif %}> Last Game </option>
-        </select>
+            <label for="tabletype" class="recLabels">Table Type:</label>
+            <select class="btn dropdown-toggle custom-align" name="tabletype" id="tabletype" onchange="submitForm('true')">
+                <option value="" {% if selected_tabletype == '' %} selected {% endif %}> Results </option>
+                <option value="record" {% if selected_tabletype == 'record' %} selected {% endif %}> Record </option>
+                <option value="first" {% if selected_tabletype == 'first' %} selected {% endif %}> First Game </option>
+                <option value="last" {% if selected_tabletype == 'last' %} selected {% endif %}> Last Game </option>
+            </select>
         </div>
         <div id="groupingDiv">
-        <label for="grouping" id='groupLabel' class="recLabels">Group by:</label>
-        <select class="btn dropdown-toggle custom-align" name="grouping" id="grouping" onchange="submitForm()">
-            <option value="Opponent" {% if selected_group == 'Opponent' %} selected {% endif %}> Opponent </option>
-            <option value="OppConference" {% if selected_group == 'OppConference' %} selected {% endif %}> Conference </option>
-            <option value="Coach" {% if selected_group == 'Coach' %} selected {% endif %}> Coach </option>
-            <option value="Arena" {% if selected_group == 'Arena' %} selected {% endif %}> Arena </option>
-            <option value="Season" {% if selected_group == 'Season' %} selected {% endif %}> Season </option>
-            <option value="Month" {% if selected_group == 'Month' %} selected {% endif %}> Month </option>
-            <option value="DOW" {% if selected_group == 'DOW' %} selected {% endif %}> DOW </option>
-        </select>
+            <label for="grouping" id='groupLabel' class="recLabels">Group by:</label>
+            <select class="btn dropdown-toggle custom-align" name="grouping" id="grouping" onchange="submitForm()">
+                <option value="Opponent" {% if selected_group == 'Opponent' %} selected {% endif %}> Opponent </option>
+                <option value="OppConference" {% if selected_group == 'OppConference' %} selected {% endif %}> Conference </option>
+                <option value="Coach" {% if selected_group == 'Coach' %} selected {% endif %}> Coach </option>
+                <option value="Arena" {% if selected_group == 'Arena' %} selected {% endif %}> Arena </option>
+                <option value="Season" {% if selected_group == 'Season' %} selected {% endif %}> Season </option>
+                <option value="Month" {% if selected_group == 'Month' %} selected {% endif %}> Month </option>
+                <option value="DOW" {% if selected_group == 'DOW' %} selected {% endif %}> DOW </option>
+            </select>
         </div>
         <div id='sortDiv'>
-        <label for="sortval" class="recLabels">Sort by:</label>
-        <select class="btn dropdown-toggle custom-align" name="sortval" id="sortval" onchange="submitForm()">
-            <option class="res-sort" value="date" {% if selected_sort == 'date' %} selected {% endif %}> Date </option>
-            <option class="res-sort" value="GD" {% if selected_sort == 'GD' %} selected {% endif %}> MOV </option>
-            <option class="res-sort" value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}> Goals Scored </option>
-            <option class="res-sort" value="OppoScore" {% if selected_sort == 'OppoScore' %} selected {% endif %}> Goals Allowed </option>
-            <option class="rec-sort" value="sort" {% if selected_sort == 'sort' %} selected {% endif %}> Sort </option>
-            <option class="rec-sort" value="W" {% if selected_sort == 'W' %} selected {% endif %}> Wins </option>
-            <option class="rec-sort" value="L" {% if selected_sort == 'L' %} selected {% endif %}> Losses </option>
-            <option class="rec-sort" value="T" {% if selected_sort == 'T' %} selected {% endif %}> Ties </option>
-            <option class="rec-sort" value="Win%" {% if selected_sort == 'Win%' %} selected {% endif %}> Win% </option>
-        </select>
-        <span id="arrowUp" class="arrow-up" onclick=";toggleArrow()">&#9650;</span>
-        <span id="arrowDown" class="arrow-down" onclick="toggleArrow()">&#9660;</span>
-        <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
+            <label for="sortval" class="recLabels">Sort by:</label>
+            <select class="btn dropdown-toggle custom-align" name="sortval" id="sortval" onchange="submitForm()">
+                <option class="res-sort" value="date" {% if selected_sort == 'date' %} selected {% endif %}> Date </option>
+                <option class="res-sort" value="GD" {% if selected_sort == 'GD' %} selected {% endif %}> MOV </option>
+                <option class="res-sort" value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}> Goals Scored </option>
+                <option class="res-sort" value="OppoScore" {% if selected_sort == 'OppoScore' %} selected {% endif %}> Goals Allowed </option>
+                <option class="rec-sort" value="sort" {% if selected_sort == 'sort' %} selected {% endif %}> Sort </option>
+                <option class="rec-sort" value="W" {% if selected_sort == 'W' %} selected {% endif %}> Wins </option>
+                <option class="rec-sort" value="L" {% if selected_sort == 'L' %} selected {% endif %}> Losses </option>
+                <option class="rec-sort" value="T" {% if selected_sort == 'T' %} selected {% endif %}> Ties </option>
+                <option class="rec-sort" value="Win%" {% if selected_sort == 'Win%' %} selected {% endif %}> Win% </option>
+            </select>
+            <span id="arrowUp" class="arrow-up" onclick=";toggleArrow()">&#9650;</span>
+            <span id="arrowDown" class="arrow-down" onclick="toggleArrow()">&#9660;</span>
+            <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
         </div>
         <div id='opDiv'>
-        <label for="opponent"  class="recLabels">Opponent:</label>
-        <select class="btn dropdown-toggle custom-align" name="opponent" id="opponent" onchange="submitForm()">
-            <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}> All </option>
-            {% for opponent in opponents_values %}
-                <option value="{{ opponent }}" {% if selected_opponent == opponent %} selected {% endif %}>
-                    {{ opponent }}
-                </option>
-            {% endfor %}
-        </select>
+            <label for="opponent"  class="recLabels">Opponent:</label>
+            <select class="btn dropdown-toggle custom-align" name="opponent" id="opponent" onchange="submitForm()">
+                <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}> All </option>
+                {% for opponent in opponents_values %}
+                    <option value="{{ opponent }}" {% if selected_opponent == opponent %} selected {% endif %}>
+                        {{ opponent }}
+                    </option>
+                {% endfor %}
+            </select>
         </div>
         <div id='conferenceDiv'>
-        <label for="conference" class="recLabels">Conference:</label>
-        <select class="btn dropdown-toggle custom-align" name="conference" id="conference" onchange="submitForm()">
-            <option value="all" {% if selected_conference == 'all' %} selected {% endif %}> All </option>
-            <option value="conf" {% if selected_conference == 'conf' %} selected {% endif %}> Conference Games </option>
-            <option value="nc" {% if selected_conference == 'nc' %} selected {% endif %}> Non-Conference </option>
-            {% for conference in conference_values %}
-                <option value="{{ conference }}" {% if selected_conference == conference %} selected {% endif %}>
-                    {{ conference }}
-                </option>
-            {% endfor %}
-        </select>
+            <label for="conference" class="recLabels">Conference:</label>
+            <select class="btn dropdown-toggle custom-align" name="conference" id="conference" onchange="submitForm()">
+                <option value="all" {% if selected_conference == 'all' %} selected {% endif %}> All </option>
+                <option value="conf" {% if selected_conference == 'conf' %} selected {% endif %}> Conference Games </option>
+                <option value="nc" {% if selected_conference == 'nc' %} selected {% endif %}> Non-Conference </option>
+                {% for conference in conference_values %}
+                    <option value="{{ conference }}" {% if selected_conference == conference %} selected {% endif %}>
+                        {{ conference }}
+                    </option>
+                {% endfor %}
+            </select>
         </div>
         <div id='dowDiv'>
-        <label for="DOW" class="recLabels">DOW:</label>
-        <select class="btn dropdown-toggle custom-align" id="DOW" name="DOW" onchange="submitForm()">
-            <option value=-1 {% if selected_dow == -1 %} selected {% endif %}>All</option>
-            <option value=6 {% if selected_dow == 6 %} selected {% endif %}> Sunday </option>
-            <option value=0 {% if selected_dow == 0 %} selected {% endif %}> Monday </option>
-            <option value=1 {% if selected_dow == 1 %} selected {% endif %}> Tuesday </option>
-            <option value=2 {% if selected_dow == 2 %} selected {% endif %}> Wednesday </option>
-            <option value=3 {% if selected_dow == 3 %} selected {% endif %}> Thursday </option>
-            <option value=4 {% if selected_dow == 4 %} selected {% endif %}> Friday </option>
-            <option value=5 {% if selected_dow == 5 %} selected {% endif %}> Saturday </option>
-        </select>
+            <label for="DOW" class="recLabels">DOW:</label>
+            <select class="btn dropdown-toggle custom-align" id="DOW" name="DOW" onchange="submitForm()">
+                <option value=-1 {% if selected_dow == -1 %} selected {% endif %}>All</option>
+                <option value=6 {% if selected_dow == 6 %} selected {% endif %}> Sunday </option>
+                <option value=0 {% if selected_dow == 0 %} selected {% endif %}> Monday </option>
+                <option value=1 {% if selected_dow == 1 %} selected {% endif %}> Tuesday </option>
+                <option value=2 {% if selected_dow == 2 %} selected {% endif %}> Wednesday </option>
+                <option value=3 {% if selected_dow == 3 %} selected {% endif %}> Thursday </option>
+                <option value=4 {% if selected_dow == 4 %} selected {% endif %}> Friday </option>
+                <option value=5 {% if selected_dow == 5 %} selected {% endif %}> Saturday </option>
+            </select>
         </div>
         <div id='monthDiv'>
-          <label for="month" class="recLabels">Month:</label>
-        <select class="btn dropdown-toggle custom-align" id="month" name="month" onchange="submitForm()">
-            <option value=0 {% if selected_month == 0%} selected {% endif %}> All </option>
-            <option value=1 {% if selected_month == 1%} selected {% endif %}> January </option>
-            <option value=2 {% if selected_month == 2%} selected {% endif %}> February </option>
-            <option value=3 {% if selected_month == 3%} selected {% endif %}> March </option>
-            <option value=4 {% if selected_month == 4%} selected {% endif %}> April </option>
-            <option value=5 {% if selected_month == 5%} selected {% endif %}> May </option>
-            <option value=6 {% if selected_month == 6%} selected {% endif %}> June </option>
-            <option value=7 {% if selected_month == 7%} selected {% endif %}> July </option>
-            <option value=8 {% if selected_month == 8%} selected {% endif %}> August </option>
-            <option value=9 {% if selected_month == 9%} selected {% endif %}> September </option>
-            <option value=10 {% if selected_month == 10%} selected {% endif %}> October </option>
-            <option value=11 {% if selected_month == 11%} selected {% endif %}> November </option>
-            <option value=12 {% if selected_month == 12%} selected {% endif %}> December </option>
-        </select>
+            <label for="month" class="recLabels">Month:</label>
+            <select class="btn dropdown-toggle custom-align" id="month" name="month" onchange="submitForm()">
+                <option value=0 {% if selected_month == 0%} selected {% endif %}> All </option>
+                <option value=1 {% if selected_month == 1%} selected {% endif %}> January </option>
+                <option value=2 {% if selected_month == 2%} selected {% endif %}> February </option>
+                <option value=3 {% if selected_month == 3%} selected {% endif %}> March </option>
+                <option value=4 {% if selected_month == 4%} selected {% endif %}> April </option>
+                <option value=5 {% if selected_month == 5%} selected {% endif %}> May </option>
+                <option value=6 {% if selected_month == 6%} selected {% endif %}> June </option>
+                <option value=7 {% if selected_month == 7%} selected {% endif %}> July </option>
+                <option value=8 {% if selected_month == 8%} selected {% endif %}> August </option>
+                <option value=9 {% if selected_month == 9%} selected {% endif %}> September </option>
+                <option value=10 {% if selected_month == 10%} selected {% endif %}> October </option>
+                <option value=11 {% if selected_month == 11%} selected {% endif %}> November </option>
+                <option value=12 {% if selected_month == 12%} selected {% endif %}> December </option>
+            </select>
         </div>
         <div id='dayDiv'>
-          <label for="day" class="recLabels">Day:</label>
-        <select class="btn dropdown-toggle custom-align" id="day" name="day" onchange="submitForm()">
-            <option value=0>All</option>
-        </select>
+            <label for="day" class="recLabels">Day:</label>
+            <select class="btn dropdown-toggle custom-align" id="day" name="day" onchange="submitForm()">
+                <option value=0>All</option>
+            </select>
         </div>
-                <div id='seasDiv'>
-          <label for="season" class="recLabels">Season:</label>
-        <select class="btn dropdown-toggle custom-align" name="season" id="season" onchange="submitForm()">
-            <option value="all" {% if selected_season == 'all' %} selected {% endif %}> All </option>
-            {% for season in season_values %}
-                <option value="{{ season }}" {% if selected_season == season %} selected {% endif %}>
-                    {{ season }}
-                </option>
-            {% endfor %}
-        </select>
+        <div id='seasDiv'>
+            <label for="season" class="recLabels">Season:</label>
+            <select class="btn dropdown-toggle custom-align" name="season" id="season" onchange="submitForm()">
+                <option value="all" {% if selected_season == 'all' %} selected {% endif %}> All </option>
+                {% for season in season_values %}
+                    <option value="{{ season }}" {% if selected_season == season %} selected {% endif %}>
+                        {{ season }}
+                    </option>
+                {% endfor %}
+            </select>
         </div>
         <div id='locDiv'>
-        <label for="location" class="recLabels">Location:</label>
-        <select class="btn dropdown-toggle custom-align" name="location" id="location" onchange="submitForm()">
-            <option value="all" {% if selected_location == 'all' %} selected {% endif %}> All </option>
-            <option value="Home" {% if selected_location == 'Home' %} selected {% endif %}> Home </option>
-            <option value="Away" {% if selected_location == 'Away' %} selected {% endif %}> Away </option>
-            <option value="Neutral" {% if selected_location == 'Neutral' %} selected {% endif %}> Neutral </option>
-        </select>
+            <label for="location" class="recLabels">Location:</label>
+            <select class="btn dropdown-toggle custom-align" name="location" id="location" onchange="submitForm()">
+                <option value="all" {% if selected_location == 'all' %} selected {% endif %}> All </option>
+                <option value="Home" {% if selected_location == 'Home' %} selected {% endif %}> Home </option>
+                <option value="Away" {% if selected_location == 'Away' %} selected {% endif %}> Away </option>
+                <option value="Neutral" {% if selected_location == 'Neutral' %} selected {% endif %}> Neutral </option>
+            </select>
         </div>
         <div id='buscorediv'>
-        <label for="buscoreop" class="recLabels">BU Score:</label>
-        <select class="btn dropdown-toggle" name="buscoreop" id="buscoreop" onchange="submitForm()">
-            <option value="==" {% if selected_buop == '==' %} selected {% endif %}> = </option>
-            <option value=">=" {% if selected_buop == '>=' %} selected {% endif %}> >= </option>
-            <option value=">" {% if selected_buop == '>' %} selected {% endif %}> > </option>
-            <option value="<" {% if selected_buop == '<' %} selected {% endif %}> < </option>
-            <option value="<=" {% if selected_buop == '<=' %} selected {% endif %}> <= </option>
-        </select>
-        <input type="number" name="buscore" id="buscore" value="{{ buscore }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            <label for="buscoreop" class="recLabels">BU Score:</label>
+            <select class="btn dropdown-toggle" name="buscoreop" id="buscoreop" onchange="submitForm()">
+                <option value="==" {% if selected_buop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_buop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_buop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_buop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_buop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="buscore" id="buscore" value="{{ buscore }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
         </div>
         <div id='oppscorediv'>
-        <label for="oppscoreop" class="recLabels">Opp Score:</label>
-        <select class="btn dropdown-toggle" name="oppscoreop" id="oppscoreop" onchange="submitForm()">
-            <option value="==" {% if selected_oppop == '==' %} selected {% endif %}> = </option>
-            <option value=">=" {% if selected_oppop == '>=' %} selected {% endif %}> >= </option>
-            <option value=">" {% if selected_oppop == '>' %} selected {% endif %}> > </option>
-            <option value="<" {% if selected_oppop == '<' %} selected {% endif %}> < </option>
-            <option value="<=" {% if selected_oppop == '<=' %} selected {% endif %}> <= </option>
-        </select>
-        <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            <label for="oppscoreop" class="recLabels">Opp Score:</label>
+            <select class="btn dropdown-toggle" name="oppscoreop" id="oppscoreop" onchange="submitForm()">
+                <option value="==" {% if selected_oppop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_oppop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_oppop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_oppop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_oppop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
         </div>
         <div id='arenaDiv'>
-        <label for="arena" class="recLabels">Arena:</label>
-        <select class="btn dropdown-toggle custom-align" name="arena" id="arena" onchange="submitForm()">
-            <option value="all" {% if selected_arena == 'all' %} selected {% endif %}> All </option>
-            {% for arena in arena_values %}
-                <option value="{{ arena }}" {% if selected_arena == arena %} selected {% endif %}>
-                    {{ arena }}
-                </option>
-            {% endfor %}
-        </select>
+            <label for="arena" class="recLabels">Arena:</label>
+            <select class="btn dropdown-toggle custom-align" name="arena" id="arena" onchange="submitForm()">
+                <option value="all" {% if selected_arena == 'all' %} selected {% endif %}> All </option>
+                {% for arena in arena_values %}
+                    <option value="{{ arena }}" {% if selected_arena == arena %} selected {% endif %}>
+                        {{ arena }}
+                    </option>
+                {% endfor %}
+            </select>
         </div>
         <div id='tourneyDiv'>
-        <label for="tourney" class="recLabels">Tournament:</label>
-        <select class="btn dropdown-toggle custom-align" name="tourney" id="tourney" onchange="submitForm()">
-            {% for tourney in tourney_values %}
-                <option value="{{ tourney }}" {% if selected_tourney == tourney %} selected {% endif %}>
-                    {{ tourney }}
-                </option>
-            {% endfor %}
-        </select>
+            <label for="tourney" class="recLabels">Tournament:</label>
+            <select class="btn dropdown-toggle custom-align" name="tourney" id="tourney" onchange="submitForm()">
+                {% for tourney in tourney_values %}
+                    <option value="{{ tourney }}" {% if selected_tourney == tourney %} selected {% endif %}>
+                        {{ tourney }}
+                    </option>
+                {% endfor %}
+            </select>
         </div>
         <div id='coachDiv'>
-        <label for="coach" class="recLabels">Coach:</label>
-        <select class="btn dropdown-toggle custom-align" name="coach" id="coach" onchange="submitForm()">
-            <option value="all" {% if selected_coach == 'all' %} selected {% endif %}> All </option>
-            {% for coach in coach_values %}
-                <option value="{{ coach }}" {% if selected_coach == coach %} selected {% endif %}>
-                    {{ coach }}
-                </option>
-            {% endfor %}
-        </select>
+            <label for="coach" class="recLabels">Coach:</label>
+            <select class="btn dropdown-toggle custom-align" name="coach" id="coach" onchange="submitForm()">
+                <option value="all" {% if selected_coach == 'all' %} selected {% endif %}> All </option>
+                {% for coach in coach_values %}
+                    <option value="{{ coach }}" {% if selected_coach == coach %} selected {% endif %}>
+                        {{ coach }}
+                    </option>
+                {% endfor %}
+            </select>
         </div>
         <select class="btn dropdown-toggle" name="range" id="range" onchange="toggleDropdowns()">
             <option value="year" {% if selected_range == "year" %} selected {% endif %}> Year Range: </option>
             <option value="season" {% if selected_range == "season" %} selected {% endif %}> Season Range: </option>
         </select>
         <div id='seasRange' class='dropdown-container'>
-        <input type="number" name="startYear" id="startYear" value="{{ startYear }}" placeholder="{{startYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
-        <select class="btn dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm()" style="display: none;">
-            {% for seasonStart in season_values %}
-                <option value="{{ seasonStart }}" {% if selected_startSeas == seasonStart %} selected {% endif %}>
-                    {{ seasonStart }}
-                </option>
-            {% endfor %}
-        </select>
-        <p>_</p>
-        <input type="number" name="endYear" id="endYear" value="{{ endYear }}" placeholder="{{endYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
-        <select class="btn dropdown-toggle" name="seasonEnd" id="seasonEnd" onchange="submitForm()" style="display: none;">
-            {% for seasonEnd in season_values %}
-                <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>
-                    {{ seasonEnd }}
-                </option>
-            {% endfor %}
-        </select>
+            <input type="number" name="startYear" id="startYear" value="{{ startYear }}" placeholder="{{startYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
+            <select class="btn dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm()" style="display: none;">
+                {% for seasonStart in season_values %}
+                    <option value="{{ seasonStart }}" {% if selected_startSeas == seasonStart %} selected {% endif %}>
+                        {{ seasonStart }}
+                    </option>
+                {% endfor %}
+            </select>
+            <p>_</p>
+            <input type="number" name="endYear" id="endYear" value="{{ endYear }}" placeholder="{{endYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
+            <select class="btn dropdown-toggle" name="seasonEnd" id="seasonEnd" onchange="submitForm()" style="display: none;">
+                {% for seasonEnd in season_values %}
+                    <option value="{{ seasonEnd }}" {% if selected_endSeas == seasonEnd %} selected {% endif %}>
+                        {{ seasonEnd }}
+                    </option>
+                {% endfor %}
+            </select>
         </div>
         <button type="submit" id='resetButton' class='btn btn-outline-danger'>Reset</button>
         <div class="checkbox-container">
-        <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="submitForm()">
-        <label for="hideEx" class="checkbox-label" id='check-label'> Hide Exhibitions </label>
-        <input type="hidden" id="hideExStatus" name="hideExStatus" value="{{hideExStatus}}">
+            <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="submitForm()">
+            <label for="hideEx" class="checkbox-label" id='check-label'> Hide Exhibitions </label>
+            <input type="hidden" id="hideExStatus" name="hideExStatus" value="{{hideExStatus}}">
         </div>
     </div>
-    <p id="record"> Record: {{result}}
-    </p>
+    <p id="record"> Record: {{result}}</p>
 </form>
-<script type="text/javascript" src="{{ url_for('static', filename = 'js/records.js') }}"></script>
-<div id='resultTable'>
-    {% autoescape false %}
-    {{resTable}}
-    {% endautoescape %}
+<div class="page-body">
+    <button class="btn btn-sort-filter mobile-view" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRecordsFilters" aria-controls="offcanvasRecordsFilters">
+        Sort and Filter
+    </button>
+    <div id='resultTable'>
+        {% autoescape false %}
+        {{resTable}}
+        {% endautoescape %}
+    </div>
 </div>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/records.js') }}"></script>
 {% endblock %}
