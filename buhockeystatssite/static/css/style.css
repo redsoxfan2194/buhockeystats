@@ -141,8 +141,21 @@ img {
    width: fit-content;
 }
 
-.btn-stats-bg{
- background-color: #fffafa; 
+.page-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-sort-filter {
+  margin: 1em;
+  background-color: #cc0000;
+  border-color: #cc0000;
+  color: #fff;
+}
+
+.btn-sort-filter:focus {
+  border-color: #b02a37;
+  box-shadow: 0 0 0 .25rem rgba(225,83,97,.5);
 }
 
 .icon-link-container {
