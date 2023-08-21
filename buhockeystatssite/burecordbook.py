@@ -1,6 +1,5 @@
 ''' Module for Generating BU Hockey Record Book Data and Processing it'''
 import re
-import os
 import operator
 import calendar
 from math import floor
@@ -17,8 +16,6 @@ try:
     from burecbookpath import RECBOOK_DATA_PATH
 except ImportError:
     RECBOOK_DATA_PATH = './'
-
-RECBOOK_DATA_PATH = os.path.join(os.path.abspath(RECBOOK_DATA_PATH),'')
 
 currSeason = '2022-23'
 
