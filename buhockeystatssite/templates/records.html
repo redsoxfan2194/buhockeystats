@@ -51,6 +51,15 @@
             <span id="arrowDown" class="arrow-down" onclick="toggleArrow()">&#9660;</span>
             <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
         </div>
+        <div id='resDiv'>
+            <label for="result"  class="recLabels">Result:</label>
+            <select class="btn dropdown-toggle custom-align" name="result" id="result" onchange="submitForm()">
+                <option value="all" {% if selected_result == 'all' %} selected {% endif %}> All </option>
+                <option value="W" {% if selected_result == 'W' %} selected {% endif %}> Wins </option>
+                <option value="L" {% if selected_result == 'L' %} selected {% endif %}> Losses </option>
+                <option value="T" {% if selected_result == 'T' %} selected {% endif %}> Ties </option>
+            </select>
+        </div>
         <div id='opDiv'>
             <label for="opponent"  class="recLabels">Opponent:</label>
             <select class="btn dropdown-toggle custom-align" name="opponent" id="opponent" onchange="submitForm()">

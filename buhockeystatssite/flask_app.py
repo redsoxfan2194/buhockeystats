@@ -588,6 +588,8 @@ def records():
             dfRes = dfRes.query(f"month == {formData['month']}")
         if ('day' in formData and formData['day'] != '0'):
             dfRes = dfRes.query(f"day == {formData['day']}")
+        if formData['result'] != 'all':
+            dfRes = dfRes.query(f"result == \"{formData['result']}\"")
         if formData['opponent'] != 'all':
             if formData['opponent'] == 'Exhibition:':
                 dfRes = dfRes.query("result=='E'")

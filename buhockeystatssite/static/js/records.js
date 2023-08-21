@@ -34,6 +34,7 @@ initializeFilters();
 function clearFilers(event) {
     document.getElementById("arena").value = "all";
     document.getElementById("location").value = "all";
+    document.getElementById("result").value = "all";
     document.getElementById("opponent").value = "all";
     document.getElementById("season").value = "all";
     document.getElementById("buscoreop").value = "==";
