@@ -92,7 +92,7 @@ def generaterandomplayerstat(qChoice):
       if(int(dfRes[statChoice])!=0):
         validQuery=True
         nameStr=statChoice[0]+'name'
-        return f"In {dfRes['season']}, {dfRes[nameStr]} lead all Terriers with {dfRes[statChoice]} {statChoice}"
+        return f"In {dfRes['season']}, {dfRes[nameStr]} led all Terriers with {dfRes[statChoice]} {statChoice}"
   
   if(qChoice=='hat trick'):
     dfRes=burb.dfGameStatsMens.query('goals>=3').sample().iloc[0]
