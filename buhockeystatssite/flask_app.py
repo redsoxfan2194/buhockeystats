@@ -794,10 +794,6 @@ def dailyTrivia():
 
     if (request.method == 'POST'):
         quiz = []
-        qType = []
-        formData = request.form
-        qNum = 0
-
         for q in range(5):
 
             if DOW == "Monday":
