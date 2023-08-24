@@ -144,6 +144,15 @@ img {
 .page-body {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+}
+
+#resultTable {
+  overflow-y: auto;
+}
+
+#statTable {
+  overflow-y: auto;
 }
 
 .btn-sort-filter {
