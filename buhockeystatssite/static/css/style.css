@@ -191,7 +191,7 @@ img {
 
 input[type=number]{
     -moz-appearance: textfield;
-    width:100px;
+    width:75px;
 }
 
 #startYear,
@@ -235,7 +235,7 @@ input::-webkit-inner-spin-button {
 }
 
 .op-drop{
-  width:50px;
+  width:75px;
 }
 
 #offcanvasRecordsFilters label{
