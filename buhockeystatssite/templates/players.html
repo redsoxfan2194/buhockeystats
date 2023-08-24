@@ -95,6 +95,105 @@
             <label for="date" class="recLabels game-stats">Date:</label>
             <input class="game-stats" type="text" name="date" id="date" onchange="submitForm()">
         </div>
+        <div id='gpDiv'>
+            <label for="gpop" class="recLabels">GP:</label>
+            <select class="btn dropdown-toggle custom-align op-drop" name="gpop" id="gpop" onchange="submitForm()">
+                <option value="==" {% if selected_gpop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_gpop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_gpop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_gpop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_gpop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="gpmin" id="gpmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        </div>
+        <div id='goalDiv' class="skater-stats">
+            <label for="goalop" class="recLabels">Goals:</label>
+            <select class="btn dropdown-toggle custom-align op-drop" name="goalop" id="goalop" onchange="submitForm()">
+                <option value="==" {% if selected_goalop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_goalop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_goalop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_goalop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_goalop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="goalmin" id="goalmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        </div>
+        <div id='assistsDiv' class="skater-stats">
+            <label for="assistop" class="recLabels">Assists:</label>
+            <select class="btn dropdown-toggle custom-align op-drop" name="assistop" id="assistop" onchange="submitForm()">
+                <option value="==" {% if selected_assistop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_assistop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_assistop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_assistop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_assistop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="assistmin" id="assistmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        </div>
+        <div id='ptsDiv' class="skater-stats">
+            <label for="ptsop" class="recLabels">Pts:</label>
+            <select class="btn dropdown-toggle custom-align op-drop" name="ptsop" id="ptsop" onchange="submitForm()">
+                <option value="==" {% if selected_ptsop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_ptsop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_ptsop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_ptsop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_ptsop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="ptsmin" id="ptsmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        </div>
+        <div id='pensDiv' class="skater-stats">
+            <label for="pensop" class="recLabels">Pens:</label>
+            <select class="btn dropdown-toggle custom-align op-drop" name="pensop" id="pensop" onchange="submitForm()">
+                <option value="==" {% if selected_pensop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_pensop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_pensop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_pensop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_pensop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="pensmin" id="pensmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        </div>
+        <div id='pimDiv' class="skater-stats">
+            <label for="pimop" class="recLabels">PIM:</label>
+            <select class="btn dropdown-toggle custom-align op-drop" name="pimop" id="pimop" onchange="submitForm()">
+                <option value="==" {% if selected_pimop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_pimop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_pimop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_pimop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_pimop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="pimmin" id="pimmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        </div>
+        <div id='minsDiv' class="goalie-stats">
+            <label for="minsop" class="recLabels">Mins:</label>
+            <select class="btn dropdown-toggle custom-align op-drop" name="minsop" id="minsop" onchange="submitForm()">
+                <option value="==" {% if selected_minsop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_minsop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_minsop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_minsop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_minsop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="minsmin" id="minsmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        </div>
+        <div id='gaDiv' class="goalie-stats">
+            <label for="gaop" class="recLabels">GA:</label>
+            <select class="btn dropdown-toggle custom-align op-drop" name="gaop" id="gaop" onchange="submitForm()">
+                <option value="==" {% if selected_gaop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_gaop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_gaop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_gaop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_gaop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="gamin" id="gamin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        </div>
+        <div id='savesDiv' class="goalie-stats">
+            <label for="savesop" class="recLabels">Saves:</label>
+            <select class="btn dropdown-toggle custom-align op-drop" name="savesop" id="savesop" onchange="submitForm()">
+                <option value="==" {% if selected_savesop == '==' %} selected {% endif %}> = </option>
+                <option value=">=" {% if selected_savesop == '>=' %} selected {% endif %}> >= </option>
+                <option value=">" {% if selected_savesop == '>' %} selected {% endif %}> > </option>
+                <option value="<" {% if selected_savesop == '<' %} selected {% endif %}> < </option>
+                <option value="<=" {% if selected_savesop == '<=' %} selected {% endif %}> <= </option>
+            </select>
+            <input type="number" name="savesmin" id="savesmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+        </div>
         <div id='seasRange'>
             <label for="seasonStart" class="recLabels" id='seasonRange'>Season Range:</label>
             <div class='dropdown-container'>

@@ -171,6 +171,7 @@ def players():
             sSeas = seasVals[sIdx]
             eSeas = seasVals[eIdx]
         valSeas = seasVals[sIdx:eIdx]
+        dfStat = filterStats(formData,dfStat)
         if formData['type'] == 'career':
             idx = []
             for seas in valSeas:
@@ -1289,6 +1290,32 @@ def determineRecord(dfRes):
     dfStat['T'] = mergedDf.groupby(['name', 'opponent'])['T_y'].transform(sum, numeric_only=True)
 
     return dfStat
+
+def filterStats(formData,dfStat):
+
+    dfRes=dfStat.copy()
+    if(formData['gpmin']!=''):
+      dfRes=dfRes.query(f"gp{formData['gpop']} {int(formData['gpmin'])}")
+    if(formData['position']=='skater'):
+      if(formData['goalmin'] != ''):
+        dfRes=dfRes.query(f"goals{formData['goalop']} {int(formData['goalmin'])}")
+      if(formData['assistmin'] != ''):
+        dfRes=dfRes.query(f"assists{formData['assistop']} {int(formData['assistmin'])}")
+      if(formData['ptsmin'] != ''):
+        dfRes=dfRes.query(f"pts{formData['ptsop']} {int(formData['ptsmin'])}")
+      if(formData['type']!='game'):
+        if(formData['pensmin'] != ''):
+          dfRes=dfRes.query(f"pen{formData['pensop']} {int(formData['pensmin'])}")
+        if(formData['pimmin'] != ''):
+          dfRes=dfRes.query(f"pim{formData['pimop']} {int(formData['pimmin'])}")
+    elif(formData['position']=='goalie'):
+      if(formData['minsmin'] != ''):
+        dfRes=dfRes.query(f"mins{formData['minsop']} {float(formData['minsmin'])}")
+      if(formData['gamin'] != ''):
+        dfRes=dfRes.query(f"ga{formData['gaop']} {int(formData['gamin'])}")
+      if(formData['savesmin'] != ''):
+        dfRes=dfRes.query(f"saves{formData['savesop']} {int(formData['savesmin'])}")
+    return dfRes
 
 if __name__ == '__main__':
     app.run(host='localhost', port=5000)

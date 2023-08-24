@@ -234,6 +234,10 @@ input::-webkit-inner-spin-button {
   margin-left:5px;
 }
 
+.op-drop{
+  width:50px;
+}
+
 #offcanvasRecordsFilters label{
   width:100px;
   margin-left: 5px;
@@ -242,14 +246,6 @@ input::-webkit-inner-spin-button {
 #offcanvasPlayersFilters label{
   width:100px;
   margin-left: 5px;
-}
-
-#buscoreop{
-  width:50px;
-}
-
-#oppscoreop{
-  width:50px;
 }
 
 #name{

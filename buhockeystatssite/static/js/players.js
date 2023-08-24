@@ -69,6 +69,26 @@ function clearFilters(event) {
     document.getElementById("number").value = "";
     document.getElementById("date").value = "";
     document.getElementById("group").value = "";
+    
+    // Reset Min Filters
+    document.getElementById("gpmin").value = "";
+    document.getElementById("goalmin").value = "";
+    document.getElementById("assistmin").value = "";
+    document.getElementById("ptsmin").value = "";
+    document.getElementById("pensmin").value = "";
+    document.getElementById("pimmin").value  = "";
+    document.getElementById("minsmin").value = "";
+    document.getElementById("gamin").value = "";
+    document.getElementById("savesmin").value = "";
+    document.getElementById("gpop").value = "==";
+    document.getElementById("goalop").value = "==";
+    document.getElementById("assistop").value = "==";
+    document.getElementById("ptsop").value = "==";
+    document.getElementById("pensop").value = "==";
+    document.getElementById("pimop").value  = "==";
+    document.getElementById("minsop").value = "==";
+    document.getElementById("gaop").value = "==";
+    document.getElementById("savesop").value = "==";
     if(event!=null){
       event.preventDefault();
       submitForm("true");
@@ -84,6 +104,16 @@ function initializeFilters() {
 
     const dateInput = document.getElementById("date");
     dateInput.addEventListener("keydown", onKeydown);
+    
+    document.getElementById("gpmin").addEventListener("keydown", onKeydown);
+    document.getElementById("goalmin").addEventListener("keydown", onKeydown);
+    document.getElementById("assistmin").addEventListener("keydown", onKeydown);
+    document.getElementById("ptsmin").addEventListener("keydown", onKeydown);
+    document.getElementById("pensmin").addEventListener("keydown", onKeydown);
+    document.getElementById("pimmin").addEventListener("keydown", onKeydown);
+    document.getElementById("minsmin").addEventListener("keydown", onKeydown);
+    document.getElementById("gamin").addEventListener("keydown", onKeydown);
+    document.getElementById("savesmin").addEventListener("keydown", onKeydown);
 
     document
         .getElementById("resetButton")
@@ -104,6 +134,39 @@ function initializeFilters() {
     for (let i = 0; i < gameStatsElements.length; i++) {
         gameStatsElements[i].classList.add("hidden");
     }
+    
+    var positionSelect = document.querySelector(
+        'select[name="position"]'
+    );
+    var typeSelect = document.querySelector('select[name="type"]');
+        if (positionSelect.value === "goalie") {
+        document.getElementById("posDiv").hidden = true;
+        document.getElementById("goalDiv").hidden = true;
+        document.getElementById("assistsDiv").hidden = true;
+        document.getElementById("ptsDiv").hidden = true;
+        document.getElementById("gaDiv").hidden = false;
+        document.getElementById("savesDiv").hidden = false;
+        document.getElementById("minsDiv").hidden = false;
+    } else {
+        document.getElementById("posDiv").hidden = false;
+        document.getElementById("goalDiv").hidden = false;
+        document.getElementById("assistsDiv").hidden = false;
+        document.getElementById("ptsDiv").hidden = false;
+        document.getElementById("gaDiv").hidden = true;
+        document.getElementById("savesDiv").hidden = true;
+        document.getElementById("minsDiv").hidden = true;
+    }
+    if(typeSelect.value === "game" || positionSelect.value === "goalie")
+    {
+        document.getElementById("pensDiv").hidden = true;
+        document.getElementById("pimDiv").hidden = true;
+      
+    }
+    else{
+        document.getElementById("pensDiv").hidden = false;
+        document.getElementById("pimDiv").hidden = false;
+    }
+
     clearFilters();
 }
 
@@ -237,13 +300,48 @@ function submitForm(reset = "false") {
                     gameStats[i].classList.remove("hidden");
                 }
             }
-
-            if (positionSelect.value === "goalie") {
-                document.getElementById("pos").hidden = true;
-                document.getElementById("posLabel").hidden = true;
+            if(document.getElementById("group").value != "" && document.getElementById("group").value != "opponent")
+            {
+                document.getElementById("gpDiv").hidden = true;
+                document.getElementById("goalDiv").hidden = true;
+                document.getElementById("assistsDiv").hidden = true;
+                document.getElementById("ptsDiv").hidden = true;
+                document.getElementById("gaDiv").hidden = true;
+                document.getElementById("savesDiv").hidden = true;
+                document.getElementById("minsDiv").hidden = true;
+                document.getElementById("pensDiv").hidden = true;
+                document.getElementById("pimDiv").hidden = true;  
             } else {
-                document.getElementById("pos").hidden = false;
-                document.getElementById("posLabel").hidden = false;
+              if (positionSelect.value === "goalie") {
+                  document.getElementById("gpDiv").hidden = false;
+                  document.getElementById("posDiv").hidden = true;
+                  document.getElementById("goalDiv").hidden = true;
+                  document.getElementById("assistsDiv").hidden = true;
+                  document.getElementById("ptsDiv").hidden = true;
+                  document.getElementById("gaDiv").hidden = false;
+                  document.getElementById("savesDiv").hidden = false;
+                  document.getElementById("minsDiv").hidden = false;
+                  document.getElementById("pensDiv").hidden = true;
+                  document.getElementById("pimDiv").hidden = true;
+              } else {
+                  document.getElementById("gpDiv").hidden = false;
+                  document.getElementById("posDiv").hidden = false;
+                  document.getElementById("goalDiv").hidden = false;
+                  document.getElementById("assistsDiv").hidden = false;
+                  document.getElementById("ptsDiv").hidden = false;
+                  document.getElementById("gaDiv").hidden = true;
+                  document.getElementById("savesDiv").hidden = true;
+                  document.getElementById("minsDiv").hidden = true;
+                  document.getElementById("pensDiv").hidden = false;
+                  document.getElementById("pimDiv").hidden = false;
+              }
+              if(typeSelect.value === "game")
+              {
+                  document.getElementById("gpDiv").hidden = true;
+                  document.getElementById("pensDiv").hidden = true;
+                  document.getElementById("pimDiv").hidden = true;
+                
+              }
             }
         },
         error: function (xhr, status, error) {

@@ -143,7 +143,7 @@
         </div>
         <div id='buscorediv'>
             <label for="buscoreop" class="recLabels">BU Score:</label>
-            <select class="btn dropdown-toggle" name="buscoreop" id="buscoreop" onchange="submitForm()">
+            <select class="btn dropdown-toggle op-drop" name="buscoreop" id="buscoreop" onchange="submitForm()">
                 <option value="==" {% if selected_buop == '==' %} selected {% endif %}> = </option>
                 <option value=">=" {% if selected_buop == '>=' %} selected {% endif %}> >= </option>
                 <option value=">" {% if selected_buop == '>' %} selected {% endif %}> > </option>
@@ -154,7 +154,7 @@
         </div>
         <div id='oppscorediv'>
             <label for="oppscoreop" class="recLabels">Opp Score:</label>
-            <select class="btn dropdown-toggle" name="oppscoreop" id="oppscoreop" onchange="submitForm()">
+            <select class="btn dropdown-toggle op-drop" name="oppscoreop" id="oppscoreop" onchange="submitForm()">
                 <option value="==" {% if selected_oppop == '==' %} selected {% endif %}> = </option>
                 <option value=">=" {% if selected_oppop == '>=' %} selected {% endif %}> >= </option>
                 <option value=">" {% if selected_oppop == '>' %} selected {% endif %}> > </option>
