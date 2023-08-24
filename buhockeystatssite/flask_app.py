@@ -27,7 +27,7 @@ app = Flask(__name__)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame','feedback']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
