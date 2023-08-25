@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
       $('#offcanvasPlayersFilters').addClass('offcanvas-start');
       $('#offcanvasPlayersFilters').removeClass('sidebar-buhs');
       $('#ocPlayerHeader').removeClass('sidebar-header-center');
-      $('#offcanvasPlayersFilters').hidden = false;
-      
+      $('#offcanvasPlayersFilters').css("display", "flex");
+ 
     } else if (ww >= 801) {
       $('#offcanvasPlayersFilters').removeClass('offcanvas');
       $('#offcanvasPlayersFilters').removeClass('offcanvas-start');
