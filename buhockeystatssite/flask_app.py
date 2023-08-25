@@ -27,7 +27,7 @@ app = Flask(__name__)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame','feedback']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -724,7 +724,7 @@ def records():
         else:
             dfRes = dfRes.sort_values(formData['sortval'], ascending=sortType)
         return jsonify(
-            resTable=formatResults(dfRes),
+            resTable=formatResults(dfRes.query('result != "N"')),
             result=result,
             opponents_values=getOpponentList(dfOrig),
             season_values=list(
@@ -744,7 +744,7 @@ def records():
         'records.html',titletag=' - Records',
         result=result,
         query='',
-        resTable=formatResults(dfRes),
+        resTable=formatResults(dfRes.query('result != "E" and result != "N"')),
         opponents_values=getOpponentList(dfOrig),
         conference_values=sorted(
             list(
