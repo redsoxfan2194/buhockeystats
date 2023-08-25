@@ -679,7 +679,7 @@ def records():
             elif formData['tabletype'] == 'first':
                 dfRes = dfRes.copy()
                 dfRes.fillna('', inplace=True)
-                dfRes = dfRes.groupby(formData['grouping'].lower()).first()
+                dfRes = dfRes.query('result != "N"').groupby(formData['grouping'].lower()).first()
                 dfRes.reset_index(inplace=True)
                 if formData['grouping'] == 'Month':
                   dfRes = dfRes.copy()
@@ -691,7 +691,7 @@ def records():
             elif formData['tabletype'] == 'last':
                 dfRes = dfRes.copy()
                 dfRes.fillna('', inplace=True)
-                dfRes = dfRes.groupby(formData['grouping'].lower()).last()
+                dfRes = dfRes.query('result != "N"').groupby(formData['grouping'].lower()).last()
                 dfRes.reset_index(inplace=True)
                 if formData['grouping'] == 'Month':
                   dfRes = dfRes.copy()
@@ -724,7 +724,7 @@ def records():
         else:
             dfRes = dfRes.sort_values(formData['sortval'], ascending=sortType)
         return jsonify(
-            resTable=formatResults(dfRes.query('result != "N"')),
+            resTable=formatResults(dfRes),
             result=result,
             opponents_values=getOpponentList(dfOrig),
             season_values=list(
@@ -744,7 +744,7 @@ def records():
         'records.html',titletag=' - Records',
         result=result,
         query='',
-        resTable=formatResults(dfRes.query('result != "E" and result != "N"')),
+        resTable=formatResults(dfRes.query('result != "E"')),
         opponents_values=getOpponentList(dfOrig),
         conference_values=sorted(
             list(
@@ -1044,12 +1044,12 @@ def generateResultsQuestion(gender="Mens", seasList=burb.dfGames.season.unique()
     teamsList = dfG.loc[dfG['season'].isin(seasList)].opponent.unique()
     if (qChoice in ['first', 'last']):
         if (qChoice == 'last'):
-            lastGame = dfG.loc[(dfG['result'] != "E") & (~dfG['tourney'].isin(['Non-Collegiate', 'Non-Collegiate', '1932 NEAAU Olympic tryouts',
+            lastGame = dfG.loc[(dfG['result'] != "E") & (dfG['result'] != "N") & (~dfG['tourney'].isin(['Non-Collegiate', 'Non-Collegiate', '1932 NEAAU Olympic tryouts',
                                                                               '1932 NEAAU Olympic tryouts-Non-Collegiate', 'NEIHL Tournament', 'ECAC Tournament', 'Hockey East Tournament'])) & (dfG['opponent'].isin(teamsList))].groupby('opponent').last()
             ans = lastGame.sample()
 
         elif (qChoice == 'first'):
-            firstGame = dfG.loc[(dfG['result'] != "E") & (~dfG['tourney'].isin(['Non-Collegiate', 'Non-Collegiate', '1932 NEAAU Olympic tryouts',
+            firstGame = dfG.loc[(dfG['result'] != "E") & (dfG['result'] != "N") & (~dfG['tourney'].isin(['Non-Collegiate', 'Non-Collegiate', '1932 NEAAU Olympic tryouts',
                                                                                '1932 NEAAU Olympic tryouts-Non-Collegiate', 'NEIHL Tournament', 'ECAC Tournament', 'Hockey East Tournament'])) & (dfG['opponent'].isin(teamsList))].groupby('opponent').first()
             ans = firstGame.sample()
 
