@@ -429,10 +429,37 @@
 26	Brooke Ersoy	SR	F	5-10	R	01	Arlington Heights, Illinois / Chicago Mission	2022-23
 28	Catherine Foulem	JR	F	5-6	L	02	Dieppe, New Brunswick / Ridley College	2022-23
 37	Callie Shanahan	SO	G	5-10	L	03	Commerce, Michigan / HoneyBaked	2022-23
-	Andrea Braendli	GR	G	5-6	L	97	Kloten, Switzerland / United School of Sports Previous College: Ohio State (2021-22)	2022-23
-	Allie Cuellar	FR	G	5-4	L	04	Saint Charles, Illinois / TBD	2022-23
-	Brooke Disher	FR	D	5-6	L	04	Fort St. John, British Columbia / TBD	2022-23
-	Ani FitzGerald	JR	F	5-7	L	01	Shaker Heights, Ohio / Gilmour Academy Previous College: Northeastern (2021-22)	2022-23
-	Sydney Healey	FR	F	5-7	L	04	Arthur, Ontario / TBD	2022-23
-	Maeve Kelly	FR	D	5-6	R	04	Victoria, Minnesota / TBD	2022-23
-	Clara Yuhn	FR	F	5-9	R	04	Bloomfield Hills, Michigan / TBD	2022-23
+40	Andrea Braendli	GR	G	5-6	L	97	Kloten, Switzerland / United School of Sports Previous College: Ohio State (2021-22)	2022-23
+33	Allie Cuellar	FR	G	5-4	L	04	Saint Charles, Illinois / North American Hockey Academy	2022-23
+27	Brooke Disher	FR	D	5-6	L	04	Fort St. John, British Columbia / Rink Hockey Academy Kelowna	2022-23
+25	Ani FitzGerald	JR	F	5-7	L	01	Shaker Heights, Ohio / Gilmour Academy Previous College: Northeastern (2021-22)	2022-23
+11	Sydney Healey	FR	F	5-7	L	04	Arthur, Ontario / Burlington Barracudas	2022-23
+24	Maeve Kelly	FR	D	5-6	R	04	Victoria, Minnesota / Holy Family	2022-23
+19	Clara Yuhn	FR	F	5-9	R	04	Bloomfield Hills, Michigan / Detroit Little Caesars AAA	2022-23
+1	Alexa Matses	GR	G	5-8	N/A	00	Boxford, Massachusetts / Northeastern	2023-24
+2	Ella Huntley	FR	F	5-4	L	05	Buffalo, New York / Etobicoke Jr. Dolphins	2023-24
+3	Liv Haag	JR	F	5-1	R	03	Robbinsdale, Minnesota / Benilde-St. Margaret’s	2023-24
+4	Jackson Kinsler	FR	F	5-7	L	04	Madison, Wisconsin / Shattuck St. Mary's U19	2023-24
+6	Nadia Mattivi	GR	D	5-9	L	00	Baselga di Pinè (Trento), Italy / Italian National Team	2023-24
+7	Kylie Roberts	JR	F	5-8	L	03	Edina, Minnesota / Edina	2023-24
+8	Maggie Hanzel	JR	D	5-9	L	02	Rochester, Minnesota / Lourdes	2023-24
+9	Alex Law	FR	F	5-8	L	05	Brooklin, Ontario / Durham West Jr. Lightning	2023-24
+10	Mikayla Blomquist	FR	F	5-7	R	05	Lake Country, British Columbia / Rink Hockey Academy Kelowna	2023-24
+11	Sydney Healey	SO	F	5-7	L	04	Arthur, Ontario / Burlington Barracudas	2023-24
+13	Andi Calderone	SR	D	5-6	L	01	Kirkland, Québec / John Abbott College	2023-24
+16	Lilli Welcke	SO	F	5-7	R	02	Heidelberg, Germany / Maine	2023-24
+17	Lacey Martin	SR	F	5-8	L	02	Minnetonka, Minnesota / Minnetonka	2023-24
+18	Neely Nicholson	FR	F	5-8	L	04	Pittsburgh, Pennsylvania / Shady Side Academy	2023-24
+19	Clara Yuhn	SO	F	5-9	R	04	Bloomfield Hills, Michigan / Detroit Little Caesars AAA	2023-24
+20	Julia Shaunessy	SR	D	6-1	R	02	Marshfield, Massachusetts / Tabor Academy	2023-24
+21	Madison Cardaci	SR	D	5-9	R	02	Westminster, Massachusetts / Williston Northampton School	2023-24
+22	Christina Vote	JR	F	5-2	L	02	Arlington, Massachusetts / Dexter Southfield	2023-24
+23	Tamara Giaquinto	SR	D	5-6	R	02	Toronto, Ontario / Appleby College	2023-24
+24	Maeve Kelly	SO	D	5-9	R	04	Victoria, Minnesota / Holy Family	2023-24
+25	Ani FitzGerald	SR	F	5-7	L	01	Shaker Heights, Ohio / Northeastern	2023-24
+26	Luisa Welcke	SO	F	5-5	R	02	Heidelberg, Germany / Maine	2023-24
+27	Brooke Disher	SO	D	5-8	L	04	Fort St. John, British Columbia / Rink Hockey Academy Kelowna	2023-24
+28	Catherine Foulem	SR	F	5-6	L	02	Dieppe, New Brunswick / Ridley College	2023-24
+33	Emily McDonald	JR	G	5-5	N/A	03	Essex, Vermont / BU Club Team	2023-24
+37	Callie Shanahan	JR	G	5-10	L	03	Commerce, Michigan / HoneyBaked	2023-24
+92	Mari Petersen	FR	G	5-6	N/A	05	Goodwood, Ontario / Etobicoke Jr. Dolphins	2023-24

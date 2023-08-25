@@ -554,3 +554,30 @@
 31	Vinny Duplessis	JR	G	6-1	175	L	99	Quebec City, Québec / Whitecourt Wolverines (AJHL)	2022-23
 32	Wilmer Skoog	SR	F	6-2	200	L	99	Tyresö, Sweden / Maryland Black Bears (NAHL)	2022-23
 37	Matt Brown	SR	F	5-9	190	L	99	Wood Ridge, New Jersey / Des Moines (USHL)  Previous College: UMass Lowell (2020-21)	2022-23
+2	Gavin McCarthy	FR	D	6-2	185	R 	05	Clarence Center, New York / Muskegon Lumberjacks (USHL)	2023-24
+3	Tristan Amonte	JR	F	6-0	177	R 	00	Norwell, Massachusetts / Penticton Vees (BCHL)	2023-24
+4	Ty Gallagher	JR	D	6-0	190	R 	03	Clarkston, Michigan / U.S. National Under-18 Team (NTDP)	2023-24
+5	Tom Willander	FR	D	6-1	179	R 	05	Stockholm, Sweden / Rögle BK (J20 Nationell)	2023-24
+7	Case McCarthy	GR	D	6-1	202	R 	01	Clarence Center, New York / U.S. National Under-18 Team (NTDP)	2023-24
+8	Cade Webber	SR	D	6-7	215	L 	01	Meadville, Pennsylvania / Penticton Vees (BCHL)	2023-24
+9	Ryan Greene	SO	F	6-1	180	R 	03	Paradise, Newfoundland / Green Bay Gamblers (USHL)	2023-24
+10	Nick Zabaneh	SR	F	5-10	188	L 	01	Toronto, Ontario / Green Bay Gamblers (USHL)	2023-24
+11	Luke Tuch	SR	F	6-2	210	L 	02	Baldwinsville, New York / U.S. National Under-18 Team (NTDP)	2023-24
+12	Jack Harvey	FR	F	5-10	175	L 	03	Stacy, Minn. / Chicago Steel (USHL)	2023-24
+13	Dylan Peterson	SR	F	6-4	203	R 	02	Roseville, California / U.S. National Under-18 Team (NTDP)	2023-24
+14	Mick Frechette	FR	D	6-2	205	L 	03	Weston, Massachusetts / Dexter Southfield	2023-24
+16	Jeremy Wilmer	SO	F	5-8	155	L 	03	Rockville Centre, New York / Tri-City Storm (USHL)	2023-24
+17	Quinn Hutson	SO	F	5-11	170	R 	02	North Barrington, Illinois / Muskegon Lumberjacks (USHL)	2023-24
+18	Shane Lachance	FR	F	6-5	218	L 	03	Andover, Massachusetts / Youngstown Phantoms (USHL)	2023-24
+19	Jack Page	JR	D	6-4	194	L 	01	West Chester, Pennsylvania / New Jersey Rockets (USPHL NCDC)	2023-24
+20	Lane Hutson	SO	D	5-10	155	L 	04	North Barrington, Illinois / U.S. National Under-18 Team (NTDP)	2023-24
+21	Devin Kaplan	SO	F	6-3	204	R 	04	Bridgewater, New Jersey / U.S. National Under-18 Team (NTDP)	2023-24
+22	Aiden Celebrini	FR	D	6-1	195	R 	04	Vancouver, British Columbia / Brooks Bandits (AJHL)	2023-24
+23	Doug Grimes	FR	F	6-3	205	R 	02	Brookline, Massachusetts / Lincoln Stars (USHL)	2023-24
+25	Sam Stevens	GR	F	6-1	186	L 	00	Montreal, Québec / Sioux Falls Stampede (USHL)	2023-24
+26	Jack Gorton	FR	F	6-3	200	R 	02	New York, New York / Victoria Grizzlies (BCHL)	2023-24
+27	Jack Hughes	JR	F	6-0	170	L 	03	Westwood, Massachusetts / U.S. National Under-18 Team (NTDP)  Previous College: Northeastern (2021-23)	2023-24
+29	Nick Howard	GR	G	6-0	210	L 	98	Burlington, Massachusetts / Northern Cyclones (USPHL Premier)  Previous College: Saint Anselm (2019-23)	2023-24
+30	Henry Graham	SR	G	6-0	185	L 	00	New York, New York / P.A.L. Junior Islanders (USPHL NCDC)  Previous College: UMass (2020-23)	2023-24
+62	Mathieu Caron	JR	G	6-0	192	L 	00	Abbotsford, British Columbia / Chilliwack Chiefs 	(BCHL)  Previous College: Brown (2021-23)	2023-24
+71	Macklin Celebrini	FR	F	6-0	190	L 	06	Vancouver, British Columbia / Chicago Steel (USHL)	2023-24

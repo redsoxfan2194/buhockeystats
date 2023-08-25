@@ -6,7 +6,7 @@
 	Chris Parlante		1	5	0	0	0	0	0-0-0	0	1962-63
 1	Andy Fila		3	180	3	6	0.5	1	--		1963-64
 1	Wayne Ryan	SO	5				0.833	0.2	--		1964-65
-1	Jack Ferreira		31	1784	63			2.12	25--	8	1964-65
+1	Jack Ferreira	JR	31	1784	63			2.12	25--	8	1964-65
 1	Andy Fila		3	180	9	63	0.875	3	--		1964-65
 1	Wayne Ryan	JR	13	640	24	224	0.903	2.25	--		1965-66
 1	Dave Crisafulli		1		0		1	0	0-0-0	0	1965-66
@@ -156,3 +156,6 @@
 31	Vinny Duplessis	JR	14	484:39	20	186	.903	2.48	5-3-0	1	2022-23
 29	Drew Commesso	JR	34	1924:29	79	823	.912	2.46	24-8-0	2	2022-23
 30	Patrick Schena	GR	5	00:09	0	0	.000	.00	0-0-0	0	2022-23
+29	Nick Howard	GR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
+30	Henry Graham	SR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
+62	Mathieu Caron	JR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
