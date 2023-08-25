@@ -62,7 +62,7 @@ function clearFilters(event) {
         document.getElementById("seasonStart").value = "2002-03";
     }
 
-    document.getElementById("seasonEnd").value = "2022-23";
+    document.getElementById("seasonEnd").value = "2023-24";
     document.getElementById("sortval").value = "";
     document.getElementById("isAscending").value = "";
     document.getElementById("name").value = "";
@@ -220,8 +220,8 @@ function submitForm(reset = "false") {
                         })
                     );
                 });
-                document.getElementById("seasonEnd").value = "2022-23";
-                document.getElementById("seasonEnd").text = "2022-23";
+                document.getElementById("seasonEnd").value = "2023-24";
+                document.getElementById("seasonEnd").text = "2023-24";
 
                 const selectOppElement = $("#opponent");
                 selectOppElement.empty();

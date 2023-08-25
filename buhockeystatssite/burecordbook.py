@@ -1,5 +1,6 @@
 ''' Module for Generating BU Hockey Record Book Data and Processing it'''
 import re
+import os
 import operator
 import calendar
 from math import floor
@@ -17,7 +18,7 @@ try:
 except ImportError:
     RECBOOK_DATA_PATH = './'
 
-currSeason = '2022-23'
+currSeason = '2023-24'
 
 tourneyDict = {}
 # Get Tourneys
@@ -3603,7 +3604,7 @@ def updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie):
             dfRes = dfSeasGoalie.loc[dfSeasGoalie['name']
                                      == player.strip().title()]
         pName = player.strip().title()
-        dfResSeas = dfSeasGoalie.loc[(dfSeasGoalie['name'] == pName)]
+        dfResSeas = dfSeasGoalie.loc[(dfSeasGoalie['name'].str.contains(pName,case=False))]
         mins = dfResSeas.mins.str.split(
             ':', expand=True).astype(int).sum(
             numeric_only=True)
