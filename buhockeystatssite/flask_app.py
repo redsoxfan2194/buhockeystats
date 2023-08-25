@@ -704,8 +704,9 @@ def records():
                 and 'date' not in dfRes.columns):
             if formData['sortval'] != 'date':
                 sortType = not sortType
-            dfRes = dfRes.sort_values(
-                formData['grouping'], ascending=sortType)
+            if(not dfRes.empty):
+              dfRes = dfRes.sort_values(
+                  formData['grouping'], ascending=sortType)
         elif (formData['sortval'] in ['Win%', 'W', 'L', 'T', 'sort']
               and 'Win%' not in dfRes.columns):
             sortType = not sortType

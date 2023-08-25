@@ -187,6 +187,8 @@ def formatResults(dfRes):
       DataFrame : formatted Record Data
     '''
     global counter
+    if(dfRes.empty):
+      return "<p id='no-data'>No Data Available<p>"
     firstCol = dfRes.columns[0]
     if 'date' in dfRes.columns:
         tableData = dfRes[['date', 'opponent', 'result',

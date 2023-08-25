@@ -62,10 +62,6 @@ function clearFilers(event) {
     document.getElementById("tourney").value = "All";
     document.getElementById("conference").value = "all";
     document.getElementById("coach").value = "all";
-    document.getElementById("tabletype").value = "";
-    document.getElementById("grouping").value = "Opponent";
-    document.getElementById("grouping").hidden = true;
-    document.getElementById("groupLabel").hidden = true;
     if(event!=null){
       event.preventDefault();
       submitForm("true");
