@@ -20,9 +20,6 @@ except ImportError:
 
 currSeason = '2023-24'
 
-tourneyDict = {}
-# Get Tourneys
-
 # initialize DataFrames
 dfGames = pd.DataFrame()
 dfGamesWomens = pd.DataFrame()
@@ -62,7 +59,7 @@ def generateRecordBook():
     dfConf['season'] = dfConf['season'].apply(convertSeasons, args=(True,))
     fileName = RECBOOK_DATA_PATH + 'BURecordBook.txt'
     tourneys = []
-
+    tourneyDict = {}
     # read in record book
     with open(fileName, 'r', encoding='utf-8') as f:
         readData = f.read()
@@ -262,6 +259,7 @@ def generateWomensRecordBook():
     dfConf['season'] = dfConf['season'].apply(convertSeasons, args=(True,))
 
     fileName = RECBOOK_DATA_PATH + 'BUWomensRecordBook.txt'
+    tourneyDict={}
     with open(fileName, 'r', encoding='utf-8') as f:
         readData = f.read()
         rows = readData.split('\n')
