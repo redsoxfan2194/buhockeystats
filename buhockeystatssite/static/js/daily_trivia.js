@@ -3,7 +3,31 @@ console.log("loading daily_trivia.js");
 const pts=[0,0,0,0,0];
 var triviaNum=1;
 $(document).ready(function () {
+    const lastPlayedTimestamp = localStorage.getItem('lastPlayedTimestamp');
+    const savedResultsScreenContent = localStorage.getItem('resultsScreenContent');
+    if (lastPlayedTimestamp) {
+        const currentTime = new Date().getTime();
+        const millisecondsInADay = 24 * 60 * 60 * 1000; // Number of milliseconds in a day
 
+        if (currentTime - parseInt(lastPlayedTimestamp) < millisecondsInADay) {
+            // Game has been played today, show results screen
+            showScore();
+            $("#start-screen").hide();
+            $("#results-screen").show();
+        } else {
+            // Game not played today, show start screen
+            $("#start-screen").show();
+            $("#results-screen").hide();
+        }
+    } else {
+        // No previous timestamp found, show start screen
+        $("#start-screen").show();
+        $("#results-screen").hide();
+    }
+        // Insert saved results-screen content if available
+    if (savedResultsScreenContent) {
+        $("#results-screen").html(savedResultsScreenContent);
+    }
         $("#game-options-form").submit(function (event) {
             event.preventDefault();
             var formData = $(this).serializeArray();
@@ -43,10 +67,17 @@ $(document).ready(function () {
   
   function displayQuestion(index, questions) {
       if (index >= questions.length) {
-          // All questions answered, show results screen
-          $("#game-screen").hide();
-          $("#results-screen").show();
-          showScore();
+        // All questions answered, show results screen
+        $("#game-screen").hide();
+        $("#results-screen").show();
+        showScore();
+        
+        // Save results-screen content to localStorage
+        localStorage.setItem('resultsScreenContent', $("#results-screen").html());
+        
+        // Update lastPlayedTimestamp in localStorage
+        localStorage.setItem('lastPlayedTimestamp', new Date().getTime());
+      
       } else {
           var question = questions[index];
           $("#questionNumber").text("Question "+(index+1)+" of " + questions.length + ":")
