@@ -44,6 +44,10 @@ def generate_sitemap():
 def static_from_root():
     return app.send_static_file('robots.txt')
 
+@app.route('/favicon.ico')
+def static_favicon():
+    return app.send_static_file('images/favicon.ico')
+    
 if(datetime.datetime.now(easternTZ).month>10 or datetime.datetime.now(easternTZ).month<5):
   burb.refreshStats()
 else:
