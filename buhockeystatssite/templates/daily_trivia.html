@@ -1,32 +1,34 @@
 {% extends "layout.html" %}
 {% block content %}
-<div class="p-3">
-   <form id="game-options-form" method="post">
-      <div id="start-screen">
-         <h1>BU Hockey Daily Trivia Challenge</h1>
-         <div class="form-group">
-         <h2>Today's Category: <strong>{{topic}}</strong></h2>
-         </div>
-         <button id="startBtn" class="btn btn-outline-danger">Start</button>
-         <a id="freeplay" class="btn btn-outline-danger" href="/triviagame">Free Play</a>
-      </div>
-   </form>
-   <div id="game-screen" style="display: none;">
-      <h2 id='questionNumber'>Question :</h2>
-      <p id="questionText"></p>
-      <div id="choices">
-         <!-- The question choices will be dynamically populated here -->
-      </div>
-      <div id='guesses'><p id='guessStr'><strong>Guesses Remaining: <i id='guess1' class="fa fa-solid fa-circle"> </i> <i id='guess2' class="fa fa-solid fa-circle"></i> <i id='guess3' class="fa fa-solid fa-circle"></i></strong><p></div>
-      <button id="nextBtn" class="btn btn-danger" style="display: none;">Next Question</button>
-   </div>
-   <div id="results-screen" style="display: none;">
-      <h2>Results:</h2>
-      <div id="score"></div>
-      <button id="restartBtn" class="btn btn-outline-danger">Play Again</button>
-      <button id="shareBtn" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to clipboard" onclick="copyScore()">Share<i class="px-2 fa fa-share"></i></button>
-      <a id="freeplayres" class="btn btn-outline-danger" href="/triviagame">Free Play</a>
-   </div>
+<div class="p-3 container">
+    <form id="game-options-form" method="post">
+        <div id="start-screen">
+            <h1>BU Hockey Daily Trivia Challenge</h1>
+            <h2>Today's Category: <strong>{{topic}}</strong></h2>
+            <div class="mt-5">
+                <button id="startBtn" class="btn btn-outline-danger">Start</button>
+                <a id="freeplay" class="btn btn-outline-danger" href="/triviagame">Free Play</a>
+            </div>
+        </div>
+    </form>
+    <div id="game-screen" style="display: none;">
+        <h2 id='questionNumber'>Question :</h2>
+        <p id="questionText"></p>
+        <div id="choices">
+            <!-- The question choices will be dynamically populated here -->
+        </div>
+        <div id='guesses'><p id='guessStr'><strong>Guesses Remaining: <i id='guess1' class="fa fa-solid fa-circle"> </i> <i id='guess2' class="fa fa-solid fa-circle"></i> <i id='guess3' class="fa fa-solid fa-circle"></i></strong><p></div>
+        <button id="nextBtn" class="btn btn-danger" style="display: none;">Next Question</button>
+    </div>
+    <div id="results-screen" style="display: none;">
+        <h2>Results</h2>
+        <div id="score"></div>
+        <div class="mt-5">
+            <button id="restartBtn" class="btn btn-outline-danger">Play Again</button>
+            <button id="shareBtn" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to clipboard" onclick="copyScore()">Share<i class="px-2 fa fa-share"></i></button>
+            <a id="freeplayres" class="btn btn-outline-danger" href="/triviagame">Free Play</a>
+        </div>
+    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
