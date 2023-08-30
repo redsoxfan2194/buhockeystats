@@ -5,8 +5,7 @@ import datetime
 import numpy as np
 import pandas as pd
 import pytz
-from flask import Flask, render_template, request, jsonify, Response,redirect
-from werkzeug.middleware.proxy_fix import ProxyFix
+from flask import Flask, render_template, request, jsonify, Response
 from querystatsbot import querystatsbot, generaterandomstat
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable
 import burecordbook as burb
@@ -25,18 +24,6 @@ numOptions = 5
 easternTZ = pytz.timezone('US/Eastern')
 
 app = Flask(__name__)
-
-app.wsgi_app = ProxyFix(app.wsgi_app)  # If behind a proxy, to handle HTTPS detection correctly
-
-@app.before_request
-def redirect_to_https():
-    # don't redirect on localhost
-    if("127.0.0.1" in request.headers['Host']):
-      return
-    if request.headers.get('X-Forwarded-Proto', 'http') == 'http':
-        # Redirect to the same URL but with HTTPS scheme
-        url = request.url.replace('http://', 'https://', 1)
-        return redirect(url, code=301)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
