@@ -169,7 +169,11 @@ def players():
             sSeas = seasVals[0]
         else:
             sIdx = seasVals.index(sSeas)
-        eIdx = seasVals.index(eSeas) + 1
+        if(eSeas not in seasVals):
+            eIdx = len(seasVals)-1
+            seasVals=list(dfStat.season.unique())
+        else:
+          eIdx = seasVals.index(eSeas) + 1
         if sIdx > eIdx:
             sIdx, eIdx = eIdx, sIdx
             sSeas = seasVals[sIdx]
