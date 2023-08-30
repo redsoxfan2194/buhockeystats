@@ -1,324 +1,330 @@
 {% extends "layout.html" %}
 {% block content %}
 <aside>
-   <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasCheatSheet" aria-labelledby="offcanvasCheatSheetLabel">
-   <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasCheatSheetLabel">Stats Bot Cheatsheet</h5>
-      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-   </div>
-   <div class="accordion-flush" id="accordionCheatSheet">
-      <div class="accordion-item">
-         <h2 class="accordion-header" id="recordQueries">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#recordQueriesCollapse" aria-expanded="false" aria-controls="recordQueriesCollapse">
-            Record Queries
-            </button>
-         </h2>
-         <div id="recordQueriesCollapse" class="accordion-collapse collapse" aria-labelledby="recordQueries" data-bs-parent="#accordionCheatSheet">
-            <div class="accordion-body">
-               <p>Note: <strong>women’s</strong> can be added to any query to get women’s record info<br>
-                  Record queries require one (1) <strong><i>query type</i></strong> and one (1) or more <strong><i>options</i></strong>
-               </p>
-               <h2 class="accordion-header" id="qType">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#qTypeCollapse" aria-expanded="false" aria-controls="qTypeCollapse">
-                  Query Types
-                  </button>
-               </h2>
-               <div id="qTypeCollapse" class="accordion-collapse collapse" aria-labelledby="qType" data-bs-parent="#recordQueries">
-                  <div class="card">
-                     <div class="card-header">
-                        record
-                     </div>
-                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">returns BU's record (W-L-T) in given condition(s)</li>
-                     </ul>
-                  </div>
-                  <div class="card">
-                     <div class="card-header">
-                        wins
-                     </div>
-                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">returns BU's number of wins in given condition(s)</li>
-                     </ul>
-                  </div>
-                  <div class="card">
-                     <div class="card-header">
-                        losses
-                     </div>
-                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">returns BU's number of losses in given condition(s)</li>
-                     </ul>
-                  </div>
-                  <div class="card">
-                     <div class="card-header">
-                        ties
-                     </div>
-                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">returns BU's number of losses in given condition(s)</li>
-                     </ul>
-                  </div>
-                  <div class="card">
-                     <div class="card-header">
-                        last [win/loss/tie/game]
-                     </div>
-                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">returns last BU wins/loss/tie/game in given condition(s)</li>
-                     </ul>
-                  </div>
-                  <div class="card">
-                     <div class="card-header">
-                        last <i>N</i> [win/loss/tie/games]
-                     </div>
-                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">returns list of last <i>N</i> BU wins/loss/tie/games in given condition(s)</li>
-                     </ul>
-                  </div>
-                  <div class="card">
-                     <div class="card-header">
-                        biggest [win/loss]
-                     </div>
-                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">returns biggest win/loss in given condition(s)</li>
-                     </ul>
-                  </div>
-               </div>
-               <h2 class="accordion-header" id="options">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#opsCollapse" aria-expanded="false" aria-controls="opsCollapse">
-                  Options
-                  </button>
-               </h2>
-               <div id="opsCollapse" class="accordion-collapse collapse" aria-labelledby="options" data-bs-parent="#recordQueries">
-                  <div class="card">
-                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>at</strong> [<i>team/arena</i>/home/away/neutral]</li>
-                        <li class="list-group-item"><strong>under/with</strong> [<i>coach</i>]</li>
-                        <li class="list-group-item"><strong>since/after/before</strong> [<i>year/season/date</i>]</li>
-                        <li class="list-group-item"><strong>from/between</strong> [year/date] <strong>to/and</strong> [<i>year/date</i>]</li>
-                        <li class="list-group-item"><strong>in</strong> [<i>year/season/decade/tourney/</i>regular season/playoffs/overtime/regulation/non-conference/conference/<i>conference name</i>/first <i>n</i>/last <i>n</i>/<i>n</i> goal game]</li>
-                        <li class="list-group-item"><strong>on</strong> [<i>date (Month/Day)/day of week</i>]</li>
-                        <li class="list-group-item"><strong>when</strong> [scoring/allowing] [>/>=/</<=] [<i>number</i>][+] <strong>goals</strong></li>
-                        <li class="list-group-item"><strong>when</strong> [<i>player name</i>] <strong>has</strong> [>/>=/<\/<=] [<i>number</i>][+] [goals/assists/points/saves/ga]</li>
-                        <li class="list-group-item"><strong>when</strong> [player name] <strong>has</strong> [>/>=\/<\/<=] [<i>number</i>][+] [goals/assists/points/saves/ga]</li>
-                        <li class="list-group-item"><strong>when</strong> [player name] <strong>when</strong></li>
-                     </ul>
-                  </div>
-               </div>
-               <h2 class="accordion-header" id="examples">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exCollapse" aria-expanded="false" aria-controls="exCollapse">
-                  Examples:
-                  </button>
-               </h2>
-               <div id="exCollapse" class="accordion-collapse collapse" aria-labelledby="examples" data-bs-parent="#exCollapse">
-                  <div class="card">
-                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">record vs BC on Mondays</li>
-                        <li class="list-group-item">women’s last 3 wins at Matthews</li>
-                        <li class="list-group-item">biggest win under Parker in Beanpot before 1994</li>
-                        <li class="list-group-item">wins in 2000s in overtime</li>
-                        <li class="list-group-item">last win on 2/1</li>
-                        <li class="list-group-item">record when Drew Commesso makes 29 saves</li>
-                        <li class="list-group-item">record when Lane Hutson scores</li>
-                        <li class="list-group-item">last win when Matt Brown has 3+ pts</li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="accordion-item">
-            <h2 class="accordion-header" id="playerQueries">
-               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#playCollapse" aria-expanded="false" aria-controls="playCollapse">
-               Player Queries
-               </button>
-            </h2>
-            <div id="playCollapse" class="accordion-collapse collapse" aria-labelledby="playerQueries" data-bs-parent="#accordionCheatSheet">
-               <div class="accordion-body">
-                  <p>Note: <strong>Men’s/Women’s</strong> can be added to specified team</p>
-                  <div class="card">
-                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>[<i>Name</i>] career [<i>stat</i>]</strong></li>
-                        <li class="list-group-item">Can also add “vs [opponent]” to show stats vs specified opponent (Note: Only valid on players 2003-Present)</li>
-                        <li class="list-group-item">Ex: <i>Matt Grzelcyk career statline</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>most career [<i>stat</i>]</strong></li>
-                        <li class="list-group-item">Ex: <i>most career goals</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>most [<i>stat</i>] by #[<i>number</i>]</strong></li>
-                        <li class="list-group-item">Ex: <i>most pts by #32</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>most [<i>stat</i>] by [<i>name</i>]</strong></li>
-                        <li class="list-group-item"><i>Ex: most goals by Jack</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>most/leading/best [<i>stat</i>] in [<i>season</i>]</strong></li>
-                        <li class="list-group-item"><i>Ex: best sv% in 2017-18</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>most/leading/best [<i>stat</i>] by [<i>pos/yr</i>] in [<i>season</i>]</strong></li>
-                        <li class="list-group-item"><i>Ex: most goals by freshman in 2014-15</i></li>
-                        <li class="list-group-item"><i>Ex: most assists by defenseman in 2016-17</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>most/leading/best [<i>stat</i>] by [<i>yr</i>] [<i>pos</i>] in [<i>season</i>]</strong></li>
-                        <li class="list-group-item"><i>Ex: most pts by junior women’s forward in 2018-19</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] in [<i>season</i>]</strong></li>
-                        <li class="list-group-item">Can also add “vs [opponent]” to show stats vs specified opponent (Note: Only valid on players 2003-Present)</li>
-                        <li class="list-group-item"><i>Ex: Bobo Carpenter goals in 2016-17</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] as [<i>yr</i>]</strong></li>
-                        <li class="list-group-item">Can also add “vs [opponent]” to show stats vs specified opponent (Note: Only valid on players 2003-Present)</li>
-                        <li class="list-group-item"><i>Ex: Marie-Philip Poulin pts as senior</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>#[<i>number</i>]</strong></li>
-                        <li class="list-group-item"><i>Ex: #24</i></li>
-                        <li class="list-group-item"><strong>#[<i>number</i>] in [<i>season</i>]</strong></li>
-                        <li class="list-group-item"><i>Ex: #17 in 1994-95</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>number [<i>Name</i>]</strong></li>
-                        <li class="list-group-item"><i>Ex: number Joe Pereira </i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>[<i>Name</i>] career [<i>stat</i>] vs [<i>opponent</i>]</strong></li>
-                        <li class="list-group-item">Note: Only valid for players 2003-Present</li>
-                        <li class="list-group-item"><i>Ex: Colby Cohen career stats vs BC</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] in [<i>season</i>] vs [<i>opponent</i>]</strong></li>
-                        <li class="list-group-item">Note: Only valid for players 2003-Present</li>
-                        <li class="list-group-item"><i>Ex: Ryan Greene pts in 2022-23 vs Umass</i></li>
-                        <li class="list-group-item"></li>
-                        <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] as [<i>yr</i>] vs [<i>opponent</i>]</strong></li>
-                        <li class="list-group-item">Note: Only valid for players 2003-Present</li>
-                        <li class="list-group-item"><i>Ex: Victoria Bach goals as senior vs Vermont</i></li>
-                     </ul>
-                  </div>
-                  <h2 class="accordion-header" id="valStats">
-                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#valStatsCollapse" aria-expanded="false" aria-controls="valStatsCollapse">
-                     Valid Stats
-                     </button>
-                  </h2>
-                  <div id="valStatsCollapse" class="accordion-collapse collapse" aria-labelledby="valStats" data-bs-parent="#valStatsCollapse">
-                     <div class="card">
-                        <div class="card-header">
-                           Skaters
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasCheatSheet" aria-labelledby="offcanvasCheatSheetLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasCheatSheetLabel">Stats Bot Cheatsheet</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="accordion-flush" id="accordionCheatSheet">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="recordQueries">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#recordQueriesCollapse" aria-expanded="false" aria-controls="recordQueriesCollapse">
+                        Record Queries
+                    </button>
+                </h2>
+                <div id="recordQueriesCollapse" class="accordion-collapse collapse" aria-labelledby="recordQueries" data-bs-parent="#accordionCheatSheet">
+                    <div class="accordion-body">
+                        <p>
+                            Note: <strong>women’s</strong> can be added to any query to get women’s record info<br>
+                            Record queries require one (1) <strong><i>query type</i></strong> and one (1) or more <strong><i>options</i></strong>
+                        </p>
+                        <h2 class="accordion-header" id="qType">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#qTypeCollapse" aria-expanded="false" aria-controls="qTypeCollapse">
+                                Query Types
+                            </button>
+                        </h2>
+                        <div id="qTypeCollapse" class="accordion-collapse collapse" aria-labelledby="qType" data-bs-parent="#recordQueries">
+                            <div class="card">
+                                <div class="card-header">
+                                    record
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">returns BU's record (W-L-T) in given condition(s)</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    wins
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">returns BU's number of wins in given condition(s)</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    losses
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">returns BU's number of losses in given condition(s)</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    ties
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">returns BU's number of losses in given condition(s)</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    last [win/loss/tie/game]
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">returns last BU wins/loss/tie/game in given condition(s)</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    last <i>N</i> [win/loss/tie/games]
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">returns list of last <i>N</i> BU wins/loss/tie/games in given condition(s)</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    biggest [win/loss]
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">returns biggest win/loss in given condition(s)</li>
+                                </ul>
+                            </div>
                         </div>
-                        <ul class="list-group list-group-flush">
-                           <li class="list-group-item">goals</li>
-                           <li class="list-group-item">assists</li>
-                           <li class="list-group-item">points</li>
-                           <li class="list-group-item">stat line</li>
-                        </ul>
-                     </div>
-                     <div class="card">
-                        <div class="card-header">
-                           Goalies
+                        <h2 class="accordion-header" id="options">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#opsCollapse" aria-expanded="false" aria-controls="opsCollapse">
+                                Options
+                            </button>
+                        </h2>
+                        <div id="opsCollapse" class="accordion-collapse collapse" aria-labelledby="options" data-bs-parent="#recordQueries">
+                            <div class="card">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>at</strong> [<i>team/arena</i>/home/away/neutral]</li>
+                                    <li class="list-group-item"><strong>under/with</strong> [<i>coach</i>]</li>
+                                    <li class="list-group-item"><strong>since/after/before</strong> [<i>year/season/date</i>]</li>
+                                    <li class="list-group-item"><strong>from/between</strong> [year/date] <strong>to/and</strong> [<i>year/date</i>]</li>
+                                    <li class="list-group-item"><strong>in</strong> [<i>year/season/decade/tourney/</i>regular season/playoffs/overtime/regulation/non-conference/conference/<i>conference name</i>/first <i>n</i>/last <i>n</i>/<i>n</i> goal game]</li>
+                                    <li class="list-group-item"><strong>on</strong> [<i>date (Month/Day)/day of week</i>]</li>
+                                    <li class="list-group-item"><strong>when</strong> [scoring/allowing] [&gt;/&gt;=/&lt;/&lt;=] [<i>number</i>][+] <strong>goals</strong></li>
+                                    <li class="list-group-item"><strong>when</strong> [<i>player name</i>] <strong>has</strong> [>/>=/<\/<=] [<i>number</i>][+] [goals/assists/points/saves/ga]</li>
+                                    <li class="list-group-item"><strong>when</strong> [player name] <strong>has</strong> [>/>=\/<\/<=] [<i>number</i>][+] [goals/assists/points/saves/ga]</li>
+                                    <li class="list-group-item"><strong>when</strong> [player name] <strong>when</strong></li>
+                                </ul>
+                            </div>
                         </div>
-                        <ul class="list-group list-group-flush">
-                           <li class="list-group-item">GAA</li>
-                           <li class="list-group-item">SV%</li>
-                           <li class="list-group-item">record</li>
-                           <li class="list-group-item">stat line</li>
-                           <li class="list-group-item">shutouts (only valid for seasons)</li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
+                        <h2 class="accordion-header" id="examples">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exCollapse" aria-expanded="false" aria-controls="exCollapse">
+                                Examples:
+                            </button>
+                        </h2>
+                        <div id="exCollapse" class="accordion-collapse collapse" aria-labelledby="examples" data-bs-parent="#exCollapse">
+                            <div class="card">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">record vs BC on Mondays</li>
+                                    <li class="list-group-item">women’s last 3 wins at Matthews</li>
+                                    <li class="list-group-item">biggest win under Parker in Beanpot before 1994</li>
+                                    <li class="list-group-item">wins in 2000s in overtime</li>
+                                    <li class="list-group-item">last win on 2/1</li>
+                                    <li class="list-group-item">record when Drew Commesso makes 29 saves</li>
+                                    <li class="list-group-item">record when Lane Hutson scores</li>
+                                    <li class="list-group-item">last win when Matt Brown has 3+ pts</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="playerQueries">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#playCollapse" aria-expanded="false" aria-controls="playCollapse">
+                        Player Queries
+                    </button>
+                </h2>
+                <div id="playCollapse" class="accordion-collapse collapse" aria-labelledby="playerQueries" data-bs-parent="#accordionCheatSheet">
+                    <div class="accordion-body">
+                        <p>
+                            Note: <strong>Men’s/Women’s</strong> can be added to specified team
+                        </p>
+                        <div class="card">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><strong>[<i>Name</i>] career [<i>stat</i>]</strong></li>
+                                <li class="list-group-item">Can also add “vs [opponent]” to show stats vs specified opponent (Note: Only valid on players 2003-Present)</li>
+                                <li class="list-group-item">Ex: <i>Matt Grzelcyk career statline</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>most career [<i>stat</i>]</strong></li>
+                                <li class="list-group-item">Ex: <i>most career goals</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>most [<i>stat</i>] by #[<i>number</i>]</strong></li>
+                                <li class="list-group-item">Ex: <i>most pts by #32</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>most [<i>stat</i>] by [<i>name</i>]</strong></li>
+                                <li class="list-group-item"><i>Ex: most goals by Jack</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>most/leading/best [<i>stat</i>] in [<i>season</i>]</strong></li>
+                                <li class="list-group-item"><i>Ex: best sv% in 2017-18</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>most/leading/best [<i>stat</i>] by [<i>pos/yr</i>] in [<i>season</i>]</strong></li>
+                                <li class="list-group-item"><i>Ex: most goals by freshman in 2014-15</i></li>
+                                <li class="list-group-item"><i>Ex: most assists by defenseman in 2016-17</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>most/leading/best [<i>stat</i>] by [<i>yr</i>] [<i>pos</i>] in [<i>season</i>]</strong></li>
+                                <li class="list-group-item"><i>Ex: most pts by junior women’s forward in 2018-19</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] in [<i>season</i>]</strong></li>
+                                <li class="list-group-item">Can also add “vs [opponent]” to show stats vs specified opponent (Note: Only valid on players 2003-Present)</li>
+                                <li class="list-group-item"><i>Ex: Bobo Carpenter goals in 2016-17</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] as [<i>yr</i>]</strong></li>
+                                <li class="list-group-item">Can also add “vs [opponent]” to show stats vs specified opponent (Note: Only valid on players 2003-Present)</li>
+                                <li class="list-group-item"><i>Ex: Marie-Philip Poulin pts as senior</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>#[<i>number</i>]</strong></li>
+                                <li class="list-group-item"><i>Ex: #24</i></li>
+                                <li class="list-group-item"><strong>#[<i>number</i>] in [<i>season</i>]</strong></li>
+                                <li class="list-group-item"><i>Ex: #17 in 1994-95</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>number [<i>Name</i>]</strong></li>
+                                <li class="list-group-item"><i>Ex: number Joe Pereira </i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Name</i>] career [<i>stat</i>] vs [<i>opponent</i>]</strong></li>
+                                <li class="list-group-item">Note: Only valid for players 2003-Present</li>
+                                <li class="list-group-item"><i>Ex: Colby Cohen career stats vs BC</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] in [<i>season</i>] vs [<i>opponent</i>]</strong></li>
+                                <li class="list-group-item">Note: Only valid for players 2003-Present</li>
+                                <li class="list-group-item"><i>Ex: Ryan Greene pts in 2022-23 vs Umass</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Name</i>] [<i>stat</i>] as [<i>yr</i>] vs [<i>opponent</i>]</strong></li>
+                                <li class="list-group-item">Note: Only valid for players 2003-Present</li>
+                                <li class="list-group-item"><i>Ex: Victoria Bach goals as senior vs Vermont</i></li>
+                            </ul>
+                        </div>
+                        <h2 class="accordion-header" id="valStats">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#valStatsCollapse" aria-expanded="false" aria-controls="valStatsCollapse">
+                                Valid Stats
+                            </button>
+                        </h2>
+                        <div id="valStatsCollapse" class="accordion-collapse collapse" aria-labelledby="valStats" data-bs-parent="#valStatsCollapse">
+                            <div class="card">
+                                <div class="card-header">
+                                    Skaters
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">goals</li>
+                                    <li class="list-group-item">assists</li>
+                                    <li class="list-group-item">points</li>
+                                    <li class="list-group-item">stat line</li>
+                                </ul>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    Goalies
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">GAA</li>
+                                    <li class="list-group-item">SV%</li>
+                                    <li class="list-group-item">record</li>
+                                    <li class="list-group-item">stat line</li>
+                                    <li class="list-group-item">shutouts (only valid for seasons)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="beanpotQueries">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#beanpotCollapse" aria-expanded="false" aria-controls="beanpotCollapse">
+                            Beanpot Queries
+                        </button>
+                    </h2>
+                    <div id="beanpotCollapse" class="accordion-collapse collapse" aria-labelledby="beanpotQueries" data-bs-parent="#accordionCheatSheet">
+                        <div class="accordion-body">
+                            <ul>
+                                <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot results</strong></li>
+                                <li class="list-group-item">returns all results from given Beanpot</li>
+                                <li class="list-group-item">Ex: <i>1990 Beanpot results</i></li>
+                                <li class="list-group-item">Ex: <i>41st Women’s Beanpot results</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot [<i>round</i>] results</strong></li>
+                                <li class="list-group-item">returns results for the given round of the given Beanpot</li>
+                                <li class="list-group-item">Ex: <i>69th Beanpot semifinal results</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot finish</strong></li>
+                                <li class="list-group-item">returns final standings for given Beanpot</li>
+                                <li class="list-group-item">optional place returns only the team to finish in that place</li>
+                                <li class="list-group-item">Ex: <i>3rd Women’s Beanpot finish</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot [<i>place</i>]</strong></li>
+                                <li class="list-group-item">returns team that finished in given place in given Beanpot</li>
+                                <li class="list-group-item">Ex: <i>2019 Women’s Beanpot runnerup</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot [<i>MVP/Eberly/Bertgna</i>]</strong></li>
+                                <li class="list-group-item">returns award winner in given Beanpot</li>
+                                <li class="list-group-item">Ex: <i>1978 Beanpot MVP</i></li>
+                                <li class="list-group-item">Ex: <i>55th Beanpot Eberly</i></li>
+                                <li class="list-group-item">Ex: <i>2021 Women’s Beanpot Bertgna</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Team</i>] record in Beanpot [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>/in <i>decade</i>]</strong></li>
+                                <li class="list-group-item">returns given team's record in all rounds/games</li>
+                                <li class="list-group-item">optional see record for given team in given time frame</li>
+                                <li class="list-group-item">Ex: <i>BC record in Beanpot after 2016</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Team</i>] record in Beanpot [<i>round/game</i>]</strong></li>
+                                <li class="list-group-item">returns given team's record in given rounds/games</li>
+                                <li class="list-group-item">Ex: <i>BU record in Beanpot finals</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Team</i>] record in Beanpot [<i>round/game</i>] [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong></li>
+                                <li class="list-group-item">returns given team's record in given rounds/games</li>
+                                <li class="list-group-item">optional see record for given team in given time frame</li>
+                                <li class="list-group-item">Ex: <i>Harvard record in Beanpot semifinals since 1995</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Team</i>] Beanpot finish [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong></li>
+                                <li class="list-group-item">returns given finishes</li>
+                                <li class="list-group-item">optional see record for given team in given time frame</li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Team</i>] Beanpot finish in [<i>year</i>]</strong></li>
+                                <li class="list-group-item">returns teams finish in given year</li>
+                                <li class="list-group-item">Ex: <i>BC Beanpot finish in 2017</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Team</i>] Beanpot place [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong></li>
+                                <li class="list-group-item">returns given team's record in given rounds/games</li>
+                                <li class="list-group-item">optional see record for given team in given time frame</li>
+                                <li class="list-group-item">Ex: <i>BC Beanpot 3rd Place</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>Beanpot finish [since/after/before year/between year and year]</strong></li>
+                                <li class="list-group-item">returns finishes for all teams</li>
+                                <li class="list-group-item">optional see record for given team in given time frame</li>
+                                <li class="list-group-item">Ex: <i>Beanpot finish between 1996 and 2016</i></li>
+                                <li class="list-group-item"></li>
+                                <li class="list-group-item"><strong>[<i>Team1</i>] record vs [<i>Team2</i>] in Beanpot [<i>round/game</i>] [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong>
+                                <li class="list-group-item">returns head to head record of given teams</li>
+                                <li class="list-group-item">optional round/game shows results in given round</li>
+                                <li class="list-group-item">optional see record for given team in given time frame</li>
+                                <li class="list-group-item">Ex: <i>NU record vs Harvard in Beanpot consolation game</i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="accordion-item">
-            <h2 class="accordion-header" id="beanpotQueries">
-               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#beanpotCollapse" aria-expanded="false" aria-controls="beanpotCollapse">
-               Beanpot Queries
-               </button>
-            </h2>
-            <div id="beanpotCollapse" class="accordion-collapse collapse" aria-labelledby="beanpotQueries" data-bs-parent="#accordionCheatSheet">
-               <div class="accordion-body">
-                  <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot results</strong></li>
-                  <li class="list-group-item">returns all results from given Beanpot</li>
-                  <li class="list-group-item">Ex: <i>1990 Beanpot results</i></li>
-                  <li class="list-group-item">Ex: <i>41st Women’s Beanpot results</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot [<i>round</i>] results</strong></li>
-                  <li class="list-group-item">returns results for the given round of the given Beanpot</li>
-                  <li class="list-group-item">Ex: <i>69th Beanpot semifinal results</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot finish</strong></li>
-                  <li class="list-group-item">returns final standings for given Beanpot</li>
-                  <li class="list-group-item">optional place returns only the team to finish in that place</li>
-                  <li class="list-group-item">Ex: <i>3rd Women’s Beanpot finish</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot [<i>place</i>]</strong></li>
-                  <li class="list-group-item">returns team that finished in given place in given Beanpot</li>
-                  <li class="list-group-item">Ex: <i>2019 Women’s Beanpot runnerup</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Year or Edition</i>] Beanpot [<i>MVP/Eberly/Bertgna</i>]</strong></li>
-                  <li class="list-group-item">returns award winner in given Beanpot</li>
-                  <li class="list-group-item">Ex: <i>1978 Beanpot MVP</i></li>
-                  <li class="list-group-item">Ex: <i>55th Beanpot Eberly</i></li>
-                  <li class="list-group-item">Ex: <i>2021 Women’s Beanpot Bertgna</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Team</i>] record in Beanpot [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>/in <i>decade</i>]</strong></li>
-                  <li class="list-group-item">returns given team's record in all rounds/games</li>
-                  <li class="list-group-item">optional see record for given team in given time frame</li>
-                  <li class="list-group-item">Ex: <i>BC record in Beanpot after 2016</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Team</i>] record in Beanpot [<i>round/game</i>]</strong></li>
-                  <li class="list-group-item">returns given team's record in given rounds/games</li>
-                  <li class="list-group-item">Ex: <i>BU record in Beanpot finals</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Team</i>] record in Beanpot [<i>round/game</i>] [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong></li>
-                  <li class="list-group-item">returns given team's record in given rounds/games</li>
-                  <li class="list-group-item">optional see record for given team in given time frame</li>
-                  <li class="list-group-item">Ex: <i>Harvard record in Beanpot semifinals since 1995</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Team</i>] Beanpot finish [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong></li>
-                  <li class="list-group-item">returns given finishes</li>
-                  <li class="list-group-item">optional see record for given team in given time frame</li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Team</i>] Beanpot finish in [<i>year</i>]</strong></li>
-                  <li class="list-group-item">returns teams finish in given year</li>
-                  <li class="list-group-item">Ex: <i>BC Beanpot finish in 2017</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Team</i>] Beanpot place [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong></li>
-                  <li class="list-group-item">returns given team's record in given rounds/games</li>
-                  <li class="list-group-item">optional see record for given team in given time frame</li>
-                  <li class="list-group-item">Ex: <i>BC Beanpot 3rd Place</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>Beanpot finish [since/after/before year/between year and year]</strong></li>
-                  <li class="list-group-item">returns finishes for all teams</li>
-                  <li class="list-group-item">optional see record for given team in given time frame</li>
-                  <li class="list-group-item">Ex: <i>Beanpot finish between 1996 and 2016</i></li>
-                  <li class="list-group-item"></li>
-                  <li class="list-group-item"><strong>[<i>Team1</i>] record vs [<i>Team2</i>] in Beanpot [<i>round/game</i>] [since/after/before <i>year</i>/between <i>year</i> and <i>year</i>]</strong>
-                  <li class="list-group-item">returns head to head record of given teams</li>
-                  <li class="list-group-item">optional round/game shows results in given round</li>
-                  <li class="list-group-item">optional see record for given team in given time frame</li>
-                  <li class="list-group-item">Ex: <i>NU record vs Harvard in Beanpot consolation game</i></li>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
 </aside>
 <div class="p-3 container">
-   <h1>Stats Bot</h1>
-   <div>
-      <h2>Query</h2>
-      <p>
-         Need help? Try the <a data-bs-toggle="offcanvas" href="#offcanvasCheatSheet" role="button" class="link-no-pad" aria-controls="offcanvasCheatSheet">cheatsheet</a>
-      </p>
-      <form method='POST'>
-         <div class="input-group input-group-lg mb-3">
-            <input id="query" name="query" type="text" class="form-control" aria-label="Stats Bot query" aria-describedby="query-submit-button">
-            <button class="btn btn-outline-danger" type="submit" id="query-submit-button">Submit</button>
-         </div>
-      </form>
-   </div>
-   <div>
-   <div class="card" id="result-card">
-  <div class="card-header">Result:</div>
-  <div class="card-body">
-    <h5 class="card-title" id='card-query'>{{query}}</h5>
-    <p class="card-text">{% autoescape false %}
-      {{result}}
-      {% endautoescape %}</p>
-  </div>
-
-      <script type="text/javascript" src="{{ url_for('static', filename = 'js/statsbot.js') }}"></script>
-   </div>
+    <h1>Stats Bot</h1>
+    <div>
+        <h2>Query</h2>
+        <p>
+            Need help? Try the <a data-bs-toggle="offcanvas" href="#offcanvasCheatSheet" role="button" class="link-no-pad" aria-controls="offcanvasCheatSheet">cheatsheet</a>
+        </p>
+        <form method='POST'>
+            <div class="input-group input-group-lg mb-3">
+                <input id="query" name="query" type="text" class="form-control" aria-label="Stats Bot query" aria-describedby="query-submit-button">
+                <button class="btn btn-outline-danger" type="submit" id="query-submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div>
+        <div class="card" id="result-card">
+            <div class="card-header">Result:</div>
+            <div class="card-body">
+                <h5 class="card-title" id='card-query'>{{query}}</h5>
+                <p class="card-text">{% autoescape false %}
+                    {{result}}
+                    {% endautoescape %}</p>
+            </div>
+            <script type="text/javascript" src="{{ url_for('static', filename = 'js/statsbot.js') }}"></script>
+        </div>
+    </div>
 </div>
 {% endblock %}
