@@ -47,12 +47,17 @@ function clearFilers(event) {
         document.getElementById("seasonStart").value = "2005-06";
         document.getElementById("startYear").value = 2005;
     } else {
-        const option = document.createElement("option");
-        option.value = "1917-18";
-        option.textContent = "1917-18";
-        document.getElementById("seasonStart").appendChild(option);
         document.getElementById("seasonStart").value = "1917-18";
         document.getElementById("startYear").value = 1917;
+        if(document.getElementById("seasonStart").value==="")
+        {
+          const option = document.createElement("option");
+          option.value = "1917-18";
+          option.textContent = "1917-18";
+          document.getElementById("seasonStart").appendChild(option);
+          document.getElementById("seasonStart").value = "1917-18";
+          document.getElementById("startYear").value = 1917;
+        }
     }
 
     document.getElementById("seasonEnd").value = "2023-24";
