@@ -6,35 +6,7 @@
             <h5 class="offcanvas-title" id="offcanvasRecordsFiltersLabel">Filters and Sorts</h5>
             <button type="button" class="btn-close text-reset mobile-view" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div id="genderDiv">
-            <label for="gender" class="recLabels">Gender:</label>
-            <select class="btn dropdown-toggle custom-align" name="gender" id="gender" onchange="clearFilers(event)">
-                <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %}> Mens </option>
-                <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}> Womens </option>
-            </select>
-        </div>
-        <div id="tableTypeDiv">
-            <label for="tabletype" class="recLabels">Table Type:</label>
-            <select class="btn dropdown-toggle custom-align" name="tabletype" id="tabletype" onchange="submitForm('true')">
-                <option value="" {% if selected_tabletype == '' %} selected {% endif %}> Results </option>
-                <option value="record" {% if selected_tabletype == 'record' %} selected {% endif %}> Record </option>
-                <option value="first" {% if selected_tabletype == 'first' %} selected {% endif %}> First Game </option>
-                <option value="last" {% if selected_tabletype == 'last' %} selected {% endif %}> Last Game </option>
-            </select>
-        </div>
-        <div id="groupingDiv">
-            <label for="grouping" id='groupLabel' class="recLabels">Group by:</label>
-            <select class="btn dropdown-toggle custom-align" name="grouping" id="grouping" onchange="submitForm()">
-                <option value="Opponent" {% if selected_group == 'Opponent' %} selected {% endif %}> Opponent </option>
-                <option value="OppConference" {% if selected_group == 'OppConference' %} selected {% endif %}> Conference </option>
-                <option value="Coach" {% if selected_group == 'Coach' %} selected {% endif %}> Coach </option>
-                <option value="Arena" {% if selected_group == 'Arena' %} selected {% endif %}> Arena </option>
-                <option value="Season" {% if selected_group == 'Season' %} selected {% endif %}> Season </option>
-                <option value="Month" {% if selected_group == 'Month' %} selected {% endif %}> Month </option>
-                <option value="DOW" {% if selected_group == 'DOW' %} selected {% endif %}> DOW </option>
-            </select>
-        </div>
-        <div id='sortDiv'>
+        <div id="sortDiv" class="filter">
             <label for="sortval" class="recLabels">Sort by:</label>
             <select class="btn dropdown-toggle custom-align" name="sortval" id="sortval" onchange="submitForm()">
                 <option class="res-sort" value="date" {% if selected_sort == 'date' %} selected {% endif %}> Date </option>
@@ -51,7 +23,35 @@
             <span id="arrowDown" class="arrow-down" onclick="toggleArrow()">&#9660;</span>
             <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
         </div>
-        <div id='resDiv'>
+        <div id="genderDiv" class="filter">
+            <label for="gender" class="recLabels">Gender:</label>
+            <select class="btn dropdown-toggle custom-align" name="gender" id="gender" onchange="clearFilers(event)">
+                <option value="Mens" {% if selected_gender == 'Mens' %} selected {% endif %}> Mens </option>
+                <option value="Womens" {% if selected_gender == 'Womens' %} selected {% endif %}> Womens </option>
+            </select>
+        </div>
+        <div id="tableTypeDiv" class="filter">
+            <label for="tabletype" class="recLabels">Table Type:</label>
+            <select class="btn dropdown-toggle custom-align" name="tabletype" id="tabletype" onchange="submitForm('true')">
+                <option value="" {% if selected_tabletype == '' %} selected {% endif %}> Results </option>
+                <option value="record" {% if selected_tabletype == 'record' %} selected {% endif %}> Record </option>
+                <option value="first" {% if selected_tabletype == 'first' %} selected {% endif %}> First Game </option>
+                <option value="last" {% if selected_tabletype == 'last' %} selected {% endif %}> Last Game </option>
+            </select>
+        </div>
+        <div id="groupingDiv" class="filter">
+            <label for="grouping" id='groupLabel' class="recLabels">Group by:</label>
+            <select class="btn dropdown-toggle custom-align" name="grouping" id="grouping" onchange="submitForm()">
+                <option value="Opponent" {% if selected_group == 'Opponent' %} selected {% endif %}> Opponent </option>
+                <option value="OppConference" {% if selected_group == 'OppConference' %} selected {% endif %}> Conference </option>
+                <option value="Coach" {% if selected_group == 'Coach' %} selected {% endif %}> Coach </option>
+                <option value="Arena" {% if selected_group == 'Arena' %} selected {% endif %}> Arena </option>
+                <option value="Season" {% if selected_group == 'Season' %} selected {% endif %}> Season </option>
+                <option value="Month" {% if selected_group == 'Month' %} selected {% endif %}> Month </option>
+                <option value="DOW" {% if selected_group == 'DOW' %} selected {% endif %}> DOW </option>
+            </select>
+        </div>
+        <div id="resDiv" class="filter">
             <label for="result"  class="recLabels">Result:</label>
             <select class="btn dropdown-toggle custom-align" name="result" id="result" onchange="submitForm()">
                 <option value="all" {% if selected_result == 'all' %} selected {% endif %}> All </option>
@@ -60,7 +60,7 @@
                 <option value="T" {% if selected_result == 'T' %} selected {% endif %}> Ties </option>
             </select>
         </div>
-        <div id='opDiv'>
+        <div id="opDiv" class="filter">
             <label for="opponent"  class="recLabels">Opponent:</label>
             <select class="btn dropdown-toggle custom-align" name="opponent" id="opponent" onchange="submitForm()">
                 <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}> All </option>
@@ -71,7 +71,7 @@
                 {% endfor %}
             </select>
         </div>
-        <div id='conferenceDiv'>
+        <div id="conferenceDiv" class="filter">
             <label for="conference" class="recLabels">Conference:</label>
             <select class="btn dropdown-toggle custom-align" name="conference" id="conference" onchange="submitForm()">
                 <option value="all" {% if selected_conference == 'all' %} selected {% endif %}> All </option>
@@ -84,7 +84,7 @@
                 {% endfor %}
             </select>
         </div>
-        <div id='dowDiv'>
+        <div id="dowDiv" class="filter">
             <label for="DOW" class="recLabels">DOW:</label>
             <select class="btn dropdown-toggle custom-align" id="DOW" name="DOW" onchange="submitForm()">
                 <option value=-1 {% if selected_dow == -1 %} selected {% endif %}>All</option>
@@ -97,7 +97,7 @@
                 <option value=5 {% if selected_dow == 5 %} selected {% endif %}> Saturday </option>
             </select>
         </div>
-        <div id='monthDiv'>
+        <div id="monthDiv" class="filter">
             <label for="month" class="recLabels">Month:</label>
             <select class="btn dropdown-toggle custom-align" id="month" name="month" onchange="submitForm()">
                 <option value=0 {% if selected_month == 0%} selected {% endif %}> All </option>
@@ -115,13 +115,13 @@
                 <option value=12 {% if selected_month == 12%} selected {% endif %}> December </option>
             </select>
         </div>
-        <div id='dayDiv'>
+        <div id="dayDiv" class="filter">
             <label for="day" class="recLabels">Day:</label>
             <select class="btn dropdown-toggle custom-align" id="day" name="day" onchange="submitForm()">
                 <option value=0>All</option>
             </select>
         </div>
-        <div id='seasDiv'>
+        <div id="seasDiv" class="filter">
             <label for="season" class="recLabels">Season:</label>
             <select class="btn dropdown-toggle custom-align" name="season" id="season" onchange="submitForm()">
                 <option value="all" {% if selected_season == 'all' %} selected {% endif %}> All </option>
@@ -132,7 +132,7 @@
                 {% endfor %}
             </select>
         </div>
-        <div id='locDiv'>
+        <div id="locDiv" class="filter">
             <label for="location" class="recLabels">Location:</label>
             <select class="btn dropdown-toggle custom-align" name="location" id="location" onchange="submitForm()">
                 <option value="all" {% if selected_location == 'all' %} selected {% endif %}> All </option>
@@ -141,7 +141,7 @@
                 <option value="Neutral" {% if selected_location == 'Neutral' %} selected {% endif %}> Neutral </option>
             </select>
         </div>
-        <div id='buscorediv'>
+        <div id="buscorediv" class="filter">
             <label for="buscoreop" class="recLabels">BU Score:</label>
             <select class="btn dropdown-toggle op-drop" name="buscoreop" id="buscoreop" onchange="submitForm()">
                 <option value="==" {% if selected_buop == '==' %} selected {% endif %}> = </option>
@@ -152,7 +152,7 @@
             </select>
             <input type="number" name="buscore" id="buscore" value="{{ buscore }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
         </div>
-        <div id='oppscorediv'>
+        <div id="oppscorediv" class="filter">
             <label for="oppscoreop" class="recLabels">Opp Score:</label>
             <select class="btn dropdown-toggle op-drop" name="oppscoreop" id="oppscoreop" onchange="submitForm()">
                 <option value="==" {% if selected_oppop == '==' %} selected {% endif %}> = </option>
@@ -163,7 +163,7 @@
             </select>
             <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
         </div>
-        <div id='arenaDiv'>
+        <div id="arenaDiv" class="filter">
             <label for="arena" class="recLabels">Arena:</label>
             <select class="btn dropdown-toggle custom-align" name="arena" id="arena" onchange="submitForm()">
                 <option value="all" {% if selected_arena == 'all' %} selected {% endif %}> All </option>
@@ -174,7 +174,7 @@
                 {% endfor %}
             </select>
         </div>
-        <div id='tourneyDiv'>
+        <div id="tourneyDiv" class="filter">
             <label for="tourney" class="recLabels">Tournament:</label>
             <select class="btn dropdown-toggle custom-align" name="tourney" id="tourney" onchange="submitForm()">
                 {% for tourney in tourney_values %}
@@ -184,7 +184,7 @@
                 {% endfor %}
             </select>
         </div>
-        <div id='coachDiv'>
+        <div id="coachDiv" class="filter">
             <label for="coach" class="recLabels">Coach:</label>
             <select class="btn dropdown-toggle custom-align" name="coach" id="coach" onchange="submitForm()">
                 <option value="all" {% if selected_coach == 'all' %} selected {% endif %}> All </option>
@@ -195,10 +195,13 @@
                 {% endfor %}
             </select>
         </div>
-        <select class="btn dropdown-toggle" name="range" id="range" onchange="toggleDropdowns()">
-            <option value="year" {% if selected_range == "year" %} selected {% endif %}> Year Range: </option>
-            <option value="season" {% if selected_range == "season" %} selected {% endif %}> Season Range: </option>
-        </select>
+        <div class="filter">
+            <label for="range">Range Type:</label>
+            <select class="btn dropdown-toggle" name="range" id="range" onchange="toggleDropdowns()">
+                <option value="year" {% if selected_range == "year" %} selected {% endif %}> Year </option>
+                <option value="season" {% if selected_range == "season" %} selected {% endif %}> Season </option>
+            </select>
+        </div>
         <div id='seasRange' class='dropdown-container'>
             <input type="number" name="startYear" id="startYear" value="{{ startYear }}" placeholder="{{startYear}}" min={{minYear}} max={{maxYear}} onchange="submitForm()" style="display: none;">
             <select class="btn dropdown-toggle" name="seasonStart" id="seasonStart" onchange="submitForm()" style="display: none;">
@@ -218,12 +221,12 @@
                 {% endfor %}
             </select>
         </div>
-        <button type="submit" id='resetButton' class='btn btn-outline-danger'>Reset</button>
         <div class="checkbox-container">
             <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="submitForm()">
             <label for="hideEx" class="checkbox-label" id='check-label'> Hide Exhibitions </label>
             <input type="hidden" id="hideExStatus" name="hideExStatus" value="{{hideExStatus}}">
         </div>
+        <button type="submit" id='resetButton' class='btn btn-outline-danger'>Reset</button>
     </div>
 </form>
 <div class="page-body">

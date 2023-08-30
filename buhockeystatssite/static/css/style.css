@@ -19,8 +19,24 @@ body{
   width:300px;
 }
 
-.sidebar-buhs{
-  float:left;  
+.sidebar-buhs {
+  background: #ffffff;
+  border-right: 1px solid #212529;
+  color: #212529;
+  height: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.filter {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkbox-label {
+  text-wrap: nowrap;
 }
 
 .stat-table {
@@ -46,7 +62,8 @@ body{
 
 #content{
   background-color: #fffafa;
-  overflow:auto;
+  display: flex;
+  overflow: auto;
 }
 
 footer{
@@ -232,7 +249,7 @@ input::-webkit-inner-spin-button {
 
 }
 .dropdown-toggle{
-  width: 147px;
+  width: 160px;
 }
 
 .hidden {
