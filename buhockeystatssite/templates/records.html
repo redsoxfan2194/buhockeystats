@@ -33,7 +33,7 @@
             </div>
             <div id="tableTypeDiv" class="filter">
                 <label for="tabletype" class="recLabels">Table Type:</label>
-                <select class="btn dropdown-toggle custom-align" name="tabletype" id="tabletype" onchange="submitForm('true')">
+                <select class="btn dropdown-toggle custom-align" name="tabletype" id="tabletype" onchange="submitForm()">
                     <option value="" {% if selected_tabletype == '' %} selected {% endif %}> Results </option>
                     <option value="record" {% if selected_tabletype == 'record' %} selected {% endif %}> Record </option>
                     <option value="first" {% if selected_tabletype == 'first' %} selected {% endif %}> First Game </option>
