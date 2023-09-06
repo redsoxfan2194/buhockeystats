@@ -292,7 +292,7 @@
 1993-97 Shawn Bates
 1997-01 Scott Perry
 2001-05 Brian McConnell
-2005-09 Ryan Weston
+2005-08 Ryan Weston
 2008-09 Corey Trivino
 2009-12 Alex Chiasson
 2013-14 Sam Kurker
