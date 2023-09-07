@@ -739,7 +739,7 @@ CAPTAIN: Nadia Mattivi
 OVERALL: 0-0-0
 HOCKEY EAST: 0-0-0, 1st
 COACH: Tara Watchorn
-CAPTAIN: Nadia Mattivi
+CAPTAIN: Nadia Mattivi,Madison Cardaci
 09/30 N McConnell Arena A McGill (ex) 0-0
 10/06 N Walter Brown Arena H Northeastern * 0-0
 10/07 N Matthews Arena A Northeastern * 0-0
