@@ -3292,6 +3292,35 @@ def getBeanpotStats(dfBean, query):
             return ''
     return ''
 
+def getMaxStreak(dfGStats,name,stat):
+    dfRes=dfGStats.query(f'name == "{name}"').copy()
+    dfRes['isStat']=dfRes[stat]>=1
+    dfRes['SoS']=dfRes['isStat'].ne(dfRes['isStat'].shift())
+    dfRes['streak_id']=dfRes.SoS.cumsum()
+    dfRes['streak_counter'] = dfRes.groupby('streak_id').cumcount() + 1
+    if(not dfRes.query(f"{stat}>=1").empty):
+        maxStreak=dfRes.query(f'streak_counter=={dfRes.query(f"{stat}>=1")["streak_counter"].max()} and {stat}>=1')['streak_counter'].to_string(index=False,header=False)
+        sId=dfRes.query(f'streak_counter=={dfRes.query(f"{stat}>=1")["streak_counter"].max()} and {stat}>=1')['streak_id'].to_string(index=False,header=False)
+        maxes=maxStreak.split("\n")
+        if(len(maxes)==1):
+            if(len(dfRes.query(f'streak_id=={sId}'))==1):
+                startDate=dfRes.query(f'streak_id=={sId}')['date'].dt.strftime("%m/%d/%Y").to_string(index=False,header=False)
+                gStr="game"
+            else:
+                startDate=dfRes.query(f'streak_id=={sId}').iloc[0]['date'].strftime("%m/%d/%Y")
+                gStr="games"
+            if(len(dfRes.query(f'streak_id=={sId}'))==1):
+                endDate=''
+            else:
+                endDate=" - "+dfRes.query(f'streak_id=={sId}').iloc[-1]['date'].strftime("%m/%d/%Y")
+            return(f"{maxStreak} {gStr} ({startDate}{endDate})")
+        else:
+            if(int(maxes[0])==1):
+                gStr='game'
+            else:
+                gStr='games'
+            return (f"{maxes[0]} {gStr} ({len(maxes)} times)")
+    return 'N/A'
 
 def updateCurrentSeasonStats(gender):
     '''scrape site and return updated current season stats'''

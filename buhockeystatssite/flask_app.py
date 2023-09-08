@@ -280,7 +280,7 @@ def players():
                     'opponent',
                     'oppconference',
                     'arena',
-                        'tourney']:
+                    'tourney']:
                     vals = dfMerged.loc[(dfMerged['name'].str.contains(
                         formData['name'], case=False)) & (dfMerged[col] != '')].groupby(col).sum(
                         numeric_only=True)[['gp', 'goals', 'assists', 'pts']]
@@ -300,6 +300,20 @@ def players():
                     vals.insert(0, 'Split', ['' for i in range(len(vals))])
                     vals = pd.concat([row, vals])
                     dfStat = pd.concat([dfStat, vals]).reset_index(drop=True)
+                # add blank row
+                row = pd.DataFrame(["" if i == 0 else np.nan for i in range(
+                    len(dfStat.columns))]).transpose()
+                row.columns = dfStat.columns
+                dfStat = pd.concat([dfStat, row]).reset_index(drop=True)
+                
+                name = (dfMerged.loc[(dfMerged['name'].str.contains(
+                        formData['name'], case=False))]['name'].unique()[0])
+                row = pd.DataFrame(["Longest Point Streak" if i == 0 else np.nan for i in range(
+                    len(dfStat.columns))]).transpose()
+                row.columns = dfStat.columns
+                row['value']=burb.getMaxStreak(dfMerged,name,'pts')
+                dfStat = pd.concat([dfStat, row]).reset_index(drop=True)
+                
             else:
                 dfStat = pd.DataFrame([{"": 'No Data Available'}])
         if (formData['group'] == 'splits' and formData['name'] not in
