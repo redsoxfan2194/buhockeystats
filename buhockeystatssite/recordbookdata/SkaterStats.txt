@@ -769,7 +769,7 @@ Copeland,John 2019-23 46 0 1 1 1/2
 Driscoll,Sean 2019-23 23 1 0 1 4/8
 Doyle,Braden 2021-22 8 0 1 1 0/0
 Fensore,Domenick 2019-23 122 19 67 86 31/78
-Jarman,Thomas 2020-23 24 0 2 2 5/10
+Jarman,Thomas 2020-24 24 0 2 2 5/10
 Kaufman,Max 2020-22 49 7 12 19 8/16
 Mastrosimone,Robert 2019-22 83 21 29 50 18/44
 McCarthy,Case 2019-24 105 11 32 43 22/52

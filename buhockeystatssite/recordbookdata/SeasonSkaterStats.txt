@@ -1708,6 +1708,7 @@
 25	Sam Stevens	F	GR	0	0	0	0	0/0	2023-24
 26	Jack Gorton	F	FR	0	0	0	0	0/0	2023-24
 27	Jack Hughes	F	JR	0	0	0	0	0/0	2023-24
+28	Thomas Jarman	D	SR	0	0	0	0	0/0	2023-24
 29	Nick Howard	G	GR	0	0	0	0	0/0	2023-24
 30	Henry Graham	G	SR	0	0	0	0	0/0	2023-24
 62	Mathieu Caron	G	JR	0	0	0	0	0/0	2023-24

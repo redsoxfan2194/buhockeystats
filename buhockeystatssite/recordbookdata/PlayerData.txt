@@ -577,7 +577,8 @@
 25	Sam Stevens	GR	F	6-1	186	L 	00	Montreal, Québec / Sioux Falls Stampede (USHL)	2023-24
 26	Jack Gorton	FR	F	6-3	200	R 	02	New York, New York / Victoria Grizzlies (BCHL)	2023-24
 27	Jack Hughes	JR	F	6-0	170	L 	03	Westwood, Massachusetts / U.S. National Under-18 Team (NTDP)  Previous College: Northeastern (2021-23)	2023-24
+28	Thomas Jarman	SR	D	6-3	190	R	01	Gibsonia, Pennsylvania / Maryland Black Bears (NAHL)	2023-24
 29	Nick Howard	GR	G	6-0	210	L 	98	Burlington, Massachusetts / Northern Cyclones (USPHL Premier)  Previous College: Saint Anselm (2019-23)	2023-24
 30	Henry Graham	SR	G	6-0	185	L 	00	New York, New York / P.A.L. Junior Islanders (USPHL NCDC)  Previous College: UMass (2020-23)	2023-24
-62	Mathieu Caron	JR	G	6-0	192	L 	00	Abbotsford, British Columbia / Chilliwack Chiefs (BCHL)  Previous College: Brown (2021-23)	2023-24
+62	Mathieu Caron	JR	G	6-0	192	L 	00	Abbotsford, British Columbia / Chilliwack Chiefs 	(BCHL)  Previous College: Brown (2021-23)	2023-24
 71	Macklin Celebrini	FR	F	6-0	190	L 	06	Vancouver, British Columbia / Chicago Steel (USHL)	2023-24
