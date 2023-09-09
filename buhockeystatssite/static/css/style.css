@@ -360,3 +360,11 @@ input[type="range"]::-ms-fill-upper {
   width: 213px;
   margin-top: 5px;
 }
+
+.note-card{
+  margin-top: 10px;
+}
+
+.note-nav{
+  color: black;
+}

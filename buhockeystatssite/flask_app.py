@@ -40,7 +40,7 @@ def redirect_to_https():
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame','notables']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -806,6 +806,25 @@ def records():
         coach_values=list(
             dfOrig.coach.unique()),
         selected_day=0)
+
+
+@app.route('/notables')
+def noteables():
+    ''' Renders "Season Notables" Page
+
+    Returns:
+      Flask Template : flask template containing season_notables.html
+    '''
+    return render_template(
+    'season_notables.html',titletag=' - Notables',
+    mHatTricksCurr=burb.getHatTricks(burb.dfGameStatsMens),
+    mShutoutsCurr=burb.getShutouts(burb.dfGameStatsGoalieMens),
+    mLongPtStreak=burb.getTopStreaks(burb.dfGameStatsMens),
+    mActivePtStreak=burb.getActiveStreaks(burb.dfGameStatsMens),
+    wHatTricksCurr=burb.getHatTricks(burb.dfGameStatsWomens),
+    wShutoutsCurr=burb.getShutouts(burb.dfGameStatsGoalieWomens),
+    wLongPtStreak=burb.getTopStreaks(burb.dfGameStatsWomens),
+    wActivePtStreak=burb.getActiveStreaks(burb.dfGameStatsWomens))
 
 @app.route('/trivia', methods=['POST', 'GET'])
 def dailyTrivia():
