@@ -83,7 +83,7 @@ Michals,Madison 2021-22 3 0 0 0 0/0
 Ouimet,Maeghan 2005-06 31 1 3 4 10/20
 Hanzel,Maggie 2021-24 17 0 0 0 1/2
 Poulin,Marie-Philip 2010-15 111 81 100 181 36/72
-Kelley,Grace,Mary 2015-19 139 9 15 24 15/30
+Kelley,Mary Grace 2015-19 139 9 15 24 15/30
 Parker,Mary 2016-17 36 24 21 45 7/14
 Riggs,Meghan 2010-14 95 1 3 4 3/6
 Anderson,Melissa 2006-10 134 57 75 132 131/278
