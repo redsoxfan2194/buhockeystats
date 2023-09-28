@@ -815,16 +815,20 @@ def noteables():
     Returns:
       Flask Template : flask template containing season_notables.html
     '''
+    currSeasonM=burb.dfGameStatsMens.season.tail(1).to_string(index=False,header=False)
+    currSeasonW=burb.dfGameStatsWomens.season.tail(1).to_string(index=False,header=False)
     return render_template(
     'season_notables.html',titletag=' - Notables',
-    mHatTricksCurr=burb.getHatTricks(burb.dfGameStatsMens),
-    mShutoutsCurr=burb.getShutouts(burb.dfGameStatsGoalieMens),
-    mLongPtStreak=burb.getTopStreaks(burb.dfGameStatsMens),
-    mActivePtStreak=burb.getActiveStreaks(burb.dfGameStatsMens),
-    wHatTricksCurr=burb.getHatTricks(burb.dfGameStatsWomens),
-    wShutoutsCurr=burb.getShutouts(burb.dfGameStatsGoalieWomens),
-    wLongPtStreak=burb.getTopStreaks(burb.dfGameStatsWomens),
-    wActivePtStreak=burb.getActiveStreaks(burb.dfGameStatsWomens))
+    mHatTricksCurr=burb.getHatTricks(burb.dfGameStatsMens,currSeasonM),
+    mShutoutsCurr=burb.getShutouts(burb.dfGameStatsGoalieMens,currSeasonM),
+    mLongPtStreak=burb.getTopStreaks(burb.dfGameStatsMens,currSeasonM),
+    mActivePtStreak=burb.getActiveStreaks(burb.dfGameStatsMens,currSeasonM),
+    wHatTricksCurr=burb.getHatTricks(burb.dfGameStatsWomens,currSeasonW),
+    wShutoutsCurr=burb.getShutouts(burb.dfGameStatsGoalieWomens,currSeasonW),
+    wLongPtStreak=burb.getTopStreaks(burb.dfGameStatsWomens,currSeasonW),
+    wActivePtStreak=burb.getActiveStreaks(burb.dfGameStatsWomens,currSeasonW),
+    currSeasonM=currSeasonM,
+    currSeasonW=currSeasonW)
 
 @app.route('/trivia', methods=['POST', 'GET'])
 def dailyTrivia():
