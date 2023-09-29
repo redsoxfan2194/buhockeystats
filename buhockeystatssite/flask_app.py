@@ -1120,15 +1120,16 @@ def generateResultsQuestion(gender="Mens", seasList=burb.dfGames.season.unique()
         seasIdx = seasons.index(season)
         eIdx = seasIdx+10
         sIdx = seasIdx-5
-        if (eIdx > len(seasons)):
-            eIdx = len(seasons)
-            sIdx -= (seasIdx+5)-len(seasons)
         if ((seasIdx-5) < 0):
             sIdx = 0
             eIdx += abs(int(seasIdx)-10)
+        if (eIdx > len(seasons)):
+            eIdx = len(seasons)
+            sIdx -= (seasIdx+5)-len(seasons)
         ops = []
         while (len(set(ops)) < numOptions-1 or seasIdx in ops):
             ops = random.sample(range(sIdx, eIdx), numOptions-1)
+ 
         options = [seasons[i] for i in ops]
         options.append(season)
         question = f"BU's {qChoice} game vs {oppName} occurred during which season?"
