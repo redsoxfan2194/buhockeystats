@@ -3748,7 +3748,11 @@ def updateResults(gender):
           date=cols[0].get_text().strip().split(' (')[0]
           dStr=datetime.strptime(date, '%B %d, %Y').strftime("%m/%d")
           res=cols[8].get_text().strip().replace('\n','').replace(', SOL','').replace(', SOW','').replace('(',' (').split(',')
-          result,scoreline=res[0],res[1]
+          if(len(res)>1):
+            result,scoreline=res[0],res[1]
+          else:
+            result='N'
+            scoreline='0-0'
           gDict={'date':dStr,'result':result,'scoreline':scoreline}
           gameList.append(gDict)
     with open(recBookFileName, "r", encoding='utf-8') as sources:
