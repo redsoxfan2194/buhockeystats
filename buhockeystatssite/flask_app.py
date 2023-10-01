@@ -817,6 +817,8 @@ def noteables():
     '''
     currSeasonM=burb.dfGameStatsMens.season.tail(1).to_string(index=False,header=False)
     currSeasonW=burb.dfGameStatsWomens.season.tail(1).to_string(index=False,header=False)
+    currSeasonM='2022-23'
+    currSeasonW='2022-23'
     return render_template(
     'season_notables.html',titletag=' - Notables',
     mHatTricksCurr=burb.getHatTricks(burb.dfGameStatsMens,currSeasonM),
