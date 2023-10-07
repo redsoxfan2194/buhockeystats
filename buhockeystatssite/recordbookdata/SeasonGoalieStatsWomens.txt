@@ -48,4 +48,4 @@
 37	Callie Shanahan	JR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
 1	Alexa Matses	GR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
 33	Emily McDonald	JR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
-92	Mari Petersen	FR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
+92	Mari Pietersen	FR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24

@@ -452,4 +452,4 @@
 28	Catherine Foulem	F	SR	0	0	0	0	0/0	2023-24
 33	Emily McDonald	G	JR	0	0	0	0	0/0	2023-24
 37	Callie Shanahan	G	JR	0	0	0	0	0/0	2023-24
-92	Mari Petersen	G	FR	0	0	0	0	0/0	2023-24
+92	Mari Pietersen	G	FR	0	0	0	0	0/0	2023-24

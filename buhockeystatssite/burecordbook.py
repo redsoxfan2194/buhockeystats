@@ -3536,6 +3536,7 @@ def updateGameStats(gender):
             gameStatsList.append(gameStatDict)
     f.close()
     dfGameStats = pd.DataFrame(gameStatsList)
+    dfSeasSkate, dfSeasSkateMens, dfSeasSkateWomens = generateSeasonSkaters()
     f = urllib.request.urlopen(url)
     html = f.read()
     f.close()
@@ -3591,8 +3592,8 @@ def updateGameStats(gender):
                     pDict['name'] = name[1] + " " + name[0]
                     if 'FitzGerald' in pDict['name']:
                         pDict['name'] = pDict['name'].title()
-                    posDict = dfGameStats.loc[(dfGameStats['season'] == currSeason) & (
-                        dfGameStats['name'] == pDict['name'])].iloc[0][['pos', 'yr']].to_dict()
+                    posDict = dfSeasSkate.loc[(dfSeasSkate['season'] == currSeason) & (
+                        dfSeasSkate['name'].str.contains(pDict['name'],case=False))].iloc[0][['pos', 'yr']].to_dict()
                     pDict['pos'] = posDict['pos']
                     pDict['yr'] = posDict['yr']
                     pList.append(pDict)
@@ -3616,11 +3617,13 @@ def updateGameStats(gender):
                         gDict['so'] = 0
                     name = gDict['name'].split(', ')
                     gDict['name'] = name[1] + " " + name[0]
-                    posDict = dfGameStats.loc[(dfGameStats['season'] == currSeason) & (
-                        dfGameStats['name'] == pDict['name'])].iloc[0][['pos', 'yr']].to_dict()
+                    posDict = dfSeasSkate.loc[(dfSeasSkate['season'] == currSeason) & (
+                        dfSeasSkate['name'] == pDict['name'])].iloc[0][['pos', 'yr']].to_dict()
                     gDict['yr'] = posDict['yr']
                     if gDict['mins'] != '00:00':
                         gList.append(gDict)
+                    mins=gDict['mins'].split(':')
+                    gDict['mins']=int(mins[0])+round(int(mins[1])/60,2)
                 elif ((len(col) >= 11 and len(col) <= 13) and 'Totals' in col[1].get_text()):
                     isBUGoalie = not isBUGoalie
         dfCurrPlayStats = pd.DataFrame(pList)
@@ -3637,7 +3640,7 @@ def updateGameStats(gender):
                                   'season']].to_csv(index=False,
                                                     header=False).split('\n'):
             if i != '':
-                print("\n" + i, end='', file=f)
+                print("\n" + i.strip(), end='', file=f)
         f.close()
         f = open(gFile, 'a')
         for i in dfCurrGoalStats[['date',
@@ -3653,7 +3656,7 @@ def updateGameStats(gender):
                                   'season']].to_csv(index=False,
                                                     header=False).split('\n'):
             if i != '':
-                print("\n" + i, end='', file=f)
+                print("\n" + i.strip(), end='', file=f)
         f.close()
 
 
