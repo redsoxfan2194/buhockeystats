@@ -3750,8 +3750,12 @@ def updateResults(gender):
       if(cols!=[]):
           date=cols[0].get_text().strip().split(' (')[0]
           dStr=datetime.strptime(date, '%B %d, %Y').strftime("%m/%d")
-          res=cols[8].get_text().strip().replace('\n','').replace(', SOL','').replace(', SOW','').replace('(',' (').split(',')
+          res=cols[-2].get_text().strip().replace('\n','').replace(', SOL','').replace(', SOW','').replace('(',' (').split(',')
           if(len(res)>1):
+            match = re.findall(r'(\(*OT\))', res[1])
+            if(match != []):
+              res[1] = re.sub(r'(\(*OT\))', '', res[1]).strip()
+              res[0] += ' ' + match[0].lower()
             result,scoreline=res[0],res[1]
           else:
             result='N'
