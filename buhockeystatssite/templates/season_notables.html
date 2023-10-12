@@ -1,122 +1,328 @@
 {% extends "layout.html" %}
 {% block content %}
 <div class="p-3">
-  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <button class="nav-link active note-nav" id="mens-active-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-active" type="button" role="tab" aria-controls="mens-active" aria-selected="true">{{currSeasonM}} (Men's)</button>
-    <button class="nav-link note-nav" id="womens-active-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-active" type="button" role="tab" aria-controls="womens-active" aria-selected="false">{{currSeasonW}} (Women's)</button>
-  </div>
-  <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-mens-active" role="tabpanel" aria-labelledby="mens-active-tab">
-        <div class="card note-card" id="mactive-jersey-card">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Jersey Records</h5>
-            <p class="card-text">
-              <table>
-                <tbody>
-                <tr><td>White "Candy Canes"</td><td>14-2</td></tr>
-                <tr><td>Red "Candy Canes"</td><td>9-3</td></tr>
-                <tr><td>Red "Terrier" Throwbacks</td><td>2-0</td></tr>
-                <tr><td>White "Terrier" Throwbacks</td><td>3-3</td></tr>
-                <tr><td>"Boston University" Reds</td><td>1-3</td></tr>
-                </tbody>
-              </table>
-            </p>
-          </div>
-        </div>
-        <div class="card note-card" id="mactive-HT-card">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Hat Tricks</h5>
-            <p class="card-text">
-              {% autoescape false %}
-              {{mHatTricksCurr}}
-              {% endautoescape %}
-            </p>
-          </div>
-        </div>
-        <div class="card note-card" id="mactive-SO-card">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Shutouts</h5>
-            <p class="card-text">
-              {% autoescape false %}
-              {{mShutoutsCurr}}
-              {% endautoescape %}
-            </p>
-          </div>
-        </div>
-        <div class="card note-card" id="mactive-LongPt-card">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Longest Point Streaks</h5>
-            <p class="card-text">
-              {% autoescape false %}
-              {{mLongPtStreak}}
-              {% endautoescape %}
-            </p>
-          </div>
-        </div>
-        <div class="card note-card" id="mactive-ActivePt-card">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Active Point Streaks</h5>
-            <p class="card-text">
-              {% autoescape false %}
-              {{mActivePtStreak}}
-              {% endautoescape %}
-            </p>
-          </div>
-        </div>
-    </div>
-    <div class="tab-pane fade" id="nav-womens-active" role="tabpanel" aria-labelledby="womens-active-tab">
-            <div class="card note-card" id="wactive-HT-card">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Hat Tricks</h5>
-            <p class="card-text">
-              {% autoescape false %}
-              {{wHatTricksCurr}}
-              {% endautoescape %}
-            </p>
-          </div>
-        </div>
-        <div class="card note-card" id="wactive-SO-card">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Shutouts</h5>
-            <p class="card-text">
-              {% autoescape false %}
-              {{wShutoutsCurr}}
-              {% endautoescape %}
-            </p>
-          </div>
-        </div>
-        <div class="card note-card" id="wactive-LongPt-card">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Longest Point Streaks</h5>
-            <p class="card-text">
-              {% autoescape false %}
-              {{wLongPtStreak}}
-              {% endautoescape %}
-            </p>
-          </div>
-        </div>
-        <div class="card note-card" id="mactive-ActivePt-card">
-          <!--<img src="..." class="card-img-top" alt="...">-->
-          <div class="card-body">
-            <h5 class="card-title">Active Point Streaks</h5>
-            <p class="card-text">
-              {% autoescape false %}
-              {{wActivePtStreak}}
-              {% endautoescape %}
-            </p>
-          </div>
-        </div>
-    </div>
-    </div>
-  </div>
+   <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active note-nav" id="mens-active-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-active" type="button" role="tab" aria-controls="mens-active" aria-selected="true">{{currSeasonM}} (Men's)</button>
+      <button class="nav-link note-nav" id="womens-active-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-active" type="button" role="tab" aria-controls="womens-active" aria-selected="false">{{currSeasonW}} (Women's)</button>
+      <button class="nav-link note-nav" id="mens-2223-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-2223" type="button" role="tab" aria-controls="mens-2223" aria-selected="true">2022-23 (Men's)</button>
+      <button class="nav-link note-nav" id="womens-2223-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-2223" type="button" role="tab" aria-controls="womens-2223" aria-selected="false">2022-23 (Women's)</button>
+   </div>
+   <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-mens-active" role="tabpanel" aria-labelledby="mens-active-tab">
+         <div class="card note-card" id="mactive-jersey-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Jersey Records</h5>
+               <p class="card-text">
+               <table>
+                  <tbody>
+                     <tr>
+                        <td>Red "Candy Canes"</td>
+                        <td>1-0</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="mactive-HT-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Hat Tricks</h5>
+               <p class="card-text">
+                  {% autoescape false %}
+                  {{mHatTricksCurr}}
+                  {% endautoescape %}
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="mactive-SO-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Shutouts</h5>
+               <p class="card-text">
+                  {% autoescape false %}
+                  {{mShutoutsCurr}}
+                  {% endautoescape %}
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="mactive-LongPt-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Longest Point Streaks</h5>
+               <p class="card-text">
+                  {% autoescape false %}
+                  {{mLongPtStreak}}
+                  {% endautoescape %}
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="mactive-ActivePt-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Active Point Streaks</h5>
+               <p class="card-text">
+                  {% autoescape false %}
+                  {{mActivePtStreak}}
+                  {% endautoescape %}
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="nav-womens-active" role="tabpanel" aria-labelledby="womens-active-tab">
+         <div class="card note-card" id="wactive-HT-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Hat Tricks</h5>
+               <p class="card-text">
+                  {% autoescape false %}
+                  {{wHatTricksCurr}}
+                  {% endautoescape %}
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="wactive-SO-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Shutouts</h5>
+               <p class="card-text">
+                  {% autoescape false %}
+                  {{wShutoutsCurr}}
+                  {% endautoescape %}
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="wactive-LongPt-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Longest Point Streaks</h5>
+               <p class="card-text">
+                  {% autoescape false %}
+                  {{wLongPtStreak}}
+                  {% endautoescape %}
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="mactive-ActivePt-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Active Point Streaks</h5>
+               <p class="card-text">
+                  {% autoescape false %}
+                  {{wActivePtStreak}}
+                  {% endautoescape %}
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="tab-pane fade show" id="nav-mens-2223" role="tabpanel" aria-labelledby="mens-2223-tab">
+         <div class="card note-card" id="m2223-jersey-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Jersey Records</h5>
+               <p class="card-text">
+               <table>
+                  <tbody>
+                     <tr>
+                        <td>White "Candy Canes"</td>
+                        <td>14-2</td>
+                     </tr>
+                     <tr>
+                        <td>Red "Candy Canes"</td>
+                        <td>9-3</td>
+                     </tr>
+                     <tr>
+                        <td>Red "Terrier" Throwbacks</td>
+                        <td>2-0</td>
+                     </tr>
+                     <tr>
+                        <td>White "Terrier" Throwbacks</td>
+                        <td>3-3</td>
+                     </tr>
+                     <tr>
+                        <td>"Boston University" Reds</td>
+                        <td>1-3</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="m2223-HT-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Hat Tricks</h5>
+               <p class="card-text">
+               <table class="table-sm table-borderless table-responsive-md">
+                  <thead>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>03/11</td>
+                        <td>Nick Zabaneh</td>
+                        <td>Vermont</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="m2223-SO-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Shutouts</h5>
+               <p class="card-text">
+               <table class="table-sm table-borderless table-responsive-md">
+                  <thead>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>12/03</td>
+                        <td>Vinny Duplessis</td>
+                        <td>New Hampshire</td>
+                     </tr>
+                     <tr>
+                        <td>02/25</td>
+                        <td>Drew Commesso</td>
+                        <td>Vermont</td>
+                     </tr>
+                     <tr>
+                        <td>03/04</td>
+                        <td>Drew Commesso</td>
+                        <td>Providence</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="m2223-LongPt-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Longest Point Streaks</h5>
+               <p class="card-text">
+               <table class="table-sm table-borderless table-responsive-md">
+                  <thead>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Lane Hutson</td>
+                        <td>11 games</td>
+                        <td>(12/11/22 - 02/06/23)</td>
+                     </tr>
+                     <tr>
+                        <td>Domenick Fensore</td>
+                        <td>7 games</td>
+                        <td>(11/19/22 - 12/30/22)</td>
+                     </tr>
+                     <tr>
+                        <td>Lane Hutson</td>
+                        <td>7 games</td>
+                        <td>(02/25/23 - 03/23/23)</td>
+                     </tr>
+                     <tr>
+                        <td>Jeremy Wilmer</td>
+                        <td>6 games</td>
+                        <td>(01/14/23 - 02/03/23)</td>
+                     </tr>
+                     <tr>
+                        <td>Jay O'Brien</td>
+                        <td>6 games</td>
+                        <td>(01/07/23 - 01/27/23)</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="tab-pane fade show" id="nav-womens-2223" role="tabpanel" aria-labelledby="womens-2223-tab">
+         <div class="card note-card" id="w2223-HT-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Hat Tricks</h5>
+               <p class="card-text">
+               <table class="table-sm table-borderless table-responsive-md">
+                  <thead>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td id="T_cfd55_row0_col0" class="data row0 col0" >01/27</td>
+                        <td id="T_cfd55_row0_col1" class="data row0 col1" >Madison Cardaci</td>
+                        <td id="T_cfd55_row0_col2" class="data row0 col2" >Merrimack</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="w2223-SO-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Shutouts</h5>
+               <p class="card-text">
+               <table class="table-sm table-borderless table-responsive-md">
+                  <thead>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>10/07</td>
+                        <td>Andrea Brändli</td>
+                        <td>Rensselaer</td>
+                     </tr>
+                     <tr>
+                        <td>10/14</td>
+                        <td>Andrea Brändli</td>
+                        <td>New Hampshire</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </p>
+            </div>
+         </div>
+         <div class="card note-card" id="w2223-LongPt-card">
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+               <h5 class="card-title">Longest Point Streaks</h5>
+               <p class="card-text">
+               <table class="table-sm table-borderless table-responsive-md">
+                  <thead>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Brooke Disher</td>
+                        <td>7 games</td>
+                        <td>(01/20/23 - 02/07/23)</td>
+                     </tr>
+                     <tr>
+                        <td>Nadia Mattivi</td>
+                        <td>5 games</td>
+                        <td>(01/13/23 - 01/21/23)</td>
+                     </tr>
+                     <tr>
+                        <td>Julia Nearis</td>
+                        <td>4 games</td>
+                        <td>(10/22/22 - 11/04/22)</td>
+                     </tr>
+                     <tr>
+                        <td>Julia Nearis</td>
+                        <td>4 games</td>
+                        <td>(01/17/23 - 01/21/23)</td>
+                     </tr>
+                     <tr>
+                        <td>Lacey Martin</td>
+                        <td>4 games</td>
+                        <td>(10/22/22 - 11/04/22)</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </p>
+            </div>
+         </div>
+      </div>
+   </div>
 </div>
-
+</div>
+</div>
 {% endblock %}

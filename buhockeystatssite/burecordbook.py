@@ -3377,9 +3377,13 @@ def getActiveStreaks(dfGStats,season="2022-23",stat='pts'):
       return dfOut.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
       
 def getHatTricks(dfGStats,season="2022-23"):
+  if(dfGStats.query(f'season=="{season}" and goals>=3').empty):
+    return 'N/A'
   return dfGStats.query(f'season=="{season}" and goals>=3')[['date','name','opponent']].assign(date=dfGStats['date'].dt.strftime('%m/%d')).style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
   
 def getShutouts(dfGStats,season="2022-23"):
+  if(dfGStats.query(f'season=="{season}" and SO>0').empty):
+    return 'N/A'
   return dfGStats.query(f'season=="{season}" and SO>0')[['date','name','opponent']].assign(date=dfGStats['date'].dt.strftime('%m/%d')).style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
   
   
