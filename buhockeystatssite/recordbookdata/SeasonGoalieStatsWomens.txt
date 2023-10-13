@@ -46,6 +46,6 @@
 37	Callie Shanahan	SO	12	684:48	36	333	.902	3.15	4-6-1	0	2022-23
 40	Andrea Braendli	GR	25	1367:18	55	710	.928	2.41	7-14-2	2	2022-23
 37	Callie Shanahan	JR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
-1	Alexa Matses	GR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
+1	Alexa Matses	GR	1	58:36	1	28	.966	1.02	0-1-0	0	2023-24
 33	Emily McDonald	JR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
-92	Mari Pietersen	FR	0	00:00	0	0	.000	.00	0-0-0	0	2023-24
+92	Mari Pietersen	FR	1	59:25	3	22	.880	3.03	0-1-0	0	2023-24

@@ -856,3 +856,4 @@
 03/23/2023,Western Michigan,Drew Commesso,SR,24,1,1,0,60.00,W,2022-23
 03/25/2023,Cornell,Drew Commesso,SR,13,1,1,0,60.00,W,2022-23
 04/06/2023,Minnesota,Drew Commesso,SR,28,4,1,0,58.87,L,2022-23
+10/07/2023,Bentley,Mathieu Caron,FR,21,2,1,0,63.2,W,2023-24
