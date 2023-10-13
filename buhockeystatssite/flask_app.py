@@ -62,7 +62,12 @@ def static_favicon():
     return app.send_static_file('images/favicon.ico')
     
 if(datetime.datetime.now(easternTZ).month>=10 or datetime.datetime.now(easternTZ).month<5):
-  burb.refreshStats()
+  try:
+    burb.refreshStats()
+  except:
+    print('Failed to Refresh Stats...Initializing')
+    burb.initializeRecordBook()
+    
 else:
   print('Initializing Record Book...')
   burb.initializeRecordBook()
@@ -735,11 +740,14 @@ def records():
                 elif formData['grouping'] == 'DOW':
                   dfRes = dfRes.copy()
                   dfRes.loc[:, 'dow'] = dfRes['dow'].map(dayNames)
+            elif formData['tabletype'] ==  'streaks':
+                dfRes = generateStreaks(dfRes.copy())
+                
         if (formData['sortval'] in ["date", "GD", "BUScore", "OppoScore"]
                 and 'date' not in dfRes.columns):
             if formData['sortval'] != 'date':
                 sortType = not sortType
-            if(not dfRes.empty):
+            if(not dfRes.empty and "Longest Streak" not in dfRes.columns):
               dfRes = dfRes.sort_values(
                   formData['grouping'], ascending=sortType)
         elif (formData['sortval'] in ['Win%', 'W', 'L', 'T', 'sort']
@@ -1350,6 +1358,32 @@ def determineRecord(dfRes):
     dfStat['T'] = mergedDf.groupby(['name', 'opponent'])['T_y'].transform(sum, numeric_only=True)
 
     return dfStat
+
+def generateStreaks(dfRes):
+  streakList=[]
+  streakType={'Winning':['W'],'Unbeaten':['W','T'],'Winless':['L','T'],'Losing':['L']}
+  for sType in streakType.keys():
+      dfRes['resBool']=dfRes['result'].isin(streakType[sType])
+      dfRes['SoS']=dfRes['resBool'].ne(dfRes['resBool'].shift())
+      dfRes['streak_id']=dfRes.SoS.cumsum()
+      dfRes['streak_counter'] = dfRes.groupby('streak_id').cumcount() + 1
+      streakId=dfRes.query(f'resBool').sort_values('streak_counter')[-1:]['streak_id'].to_string(index=False,header=False)
+      startDate=dfRes.query(f'streak_id=={streakId}').iloc[0]['date'].strftime('%m/%d/%y')
+      endDate=dfRes.query(f'streak_id=={streakId}').iloc[-1]['date'].strftime('%m/%d/%y')
+      record=dfRes.query(f'streak_id=={streakId}').groupby('result')['date'].count().to_dict()
+      recVal=''
+      for i in ['W','L','T']:
+          if(i not in record):
+              val='0'
+          else:
+              val=str(record[i])
+          recVal+=val+'-'
+      recVal=recVal[:-1]
+      streakList.append({'Longest Streak':sType,'Length':dfRes.query(f'streak_id=={streakId}').iloc[-1]['streak_counter'],'Record':recVal,'Start Date':startDate,'End Date':endDate})
+  dfOut = pd.DataFrame(streakList)
+  if(dfOut.empty):
+    return ''
+  return dfOut
 
 def filterStats(formData,dfStat):
 
