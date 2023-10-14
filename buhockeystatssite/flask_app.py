@@ -1363,15 +1363,28 @@ def generateStreaks(dfRes):
   streakList=[]
   streakType={'Winning':['W'],'Unbeaten':['W','T'],'Winless':['L','T'],'Losing':['L']}
   for sType in streakType.keys():
+      dfRes=dfRes.query('result != "N" and result != "E"').copy()
       dfRes['resBool']=dfRes['result'].isin(streakType[sType])
       dfRes['SoS']=dfRes['resBool'].ne(dfRes['resBool'].shift())
       dfRes['streak_id']=dfRes.SoS.cumsum()
       dfRes['streak_counter'] = dfRes.groupby('streak_id').cumcount() + 1
       streakId=dfRes.query(f'resBool').sort_values('streak_counter')[-1:]['streak_id'].to_string(index=False,header=False)
-      startDate=dfRes.query(f'streak_id=={streakId}').iloc[0]['date'].strftime('%m/%d/%y')
-      endDate=dfRes.query(f'streak_id=={streakId}').iloc[-1]['date'].strftime('%m/%d/%y')
-      record=dfRes.query(f'streak_id=={streakId}').groupby('result')['date'].count().to_dict()
+      if(dfRes.query(f'resBool').sort_values('streak_counter')[-1:]['streak_id'].empty):
+        continue
+      if(len(dfRes.loc[dfRes['streak_id']==int(streakId)])>1):
+          startDate=dfRes.query(f'streak_id=={streakId}').iloc[0]['date'].strftime('%m/%d/%y')
+          endDate=dfRes.query(f'streak_id=={streakId}').iloc[-1]['date'].strftime('%m/%d/%y')
+          if((endDate==dfRes['date'].tail(1)).bool()):
+              endDate='Active'
+          streakLength=dfRes.query(f'streak_id=={streakId}').iloc[-1]['streak_counter']
+      else:
+          if(dfRes.query(f'resBool').empty):
+              continue
+          startDate=dfRes[dfRes['streak_id']==int(streakId)]['date'].dt.strftime('%m/%d/%y').to_string(index=False,header=False)
+          endDate=''
+          streakLength=1
       recVal=''
+      record=dfRes.query(f'streak_id=={streakId}').groupby('result')['date'].count().to_dict()
       for i in ['W','L','T']:
           if(i not in record):
               val='0'
@@ -1379,7 +1392,7 @@ def generateStreaks(dfRes):
               val=str(record[i])
           recVal+=val+'-'
       recVal=recVal[:-1]
-      streakList.append({'Longest Streak':sType,'Length':dfRes.query(f'streak_id=={streakId}').iloc[-1]['streak_counter'],'Record':recVal,'Start Date':startDate,'End Date':endDate})
+      streakList.append({'Longest Streak':sType,'Length':streakLength,'Record':recVal,'Start Date':startDate,'End Date':endDate})
   dfOut = pd.DataFrame(streakList)
   if(dfOut.empty):
     return ''
