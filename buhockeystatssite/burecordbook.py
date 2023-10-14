@@ -3367,13 +3367,15 @@ def getActiveStreaks(dfGStats,season="2022-23",stat='pts'):
         startDate=dfResTeam.query(f'name==\"{i["name"]}\" and streak_id=={i["streak_id"]}')['date'].dt.strftime("%m/%d/%y").head(1).to_string(index=False)
         streakValue=dfResTeam.query(f'name==\"{i["name"]}\" and streak_id=={i["streak_id"]}')['streak_counter'].tail(1).to_string(index=False)
         if(int(streakValue)==1):
-            row = pd.DataFrame([{'name':i["name"], 'streakVal': f'{streakValue} game', 'date': f'{startDate} - Pres.'}])
+            row = pd.DataFrame([{'name':i["name"], 'streakVal': f'{streakValue} game', 'date': f'{startDate} - Pres.','streakNum':streakValue}])
         else:
-            row = pd.DataFrame([{'name':i["name"], 'streakVal': f'{streakValue} games', 'date': f'{startDate} - Pres.'}])
+            row = pd.DataFrame([{'name':i["name"], 'streakVal': f'{streakValue} games', 'date': f'{startDate} - Pres.','streakNum':streakValue}])
         dfOut=pd.concat([dfOut,row])
     if(dfOut.empty):
       return 'N/A'
     else:
+      dfOut=dfOut.sort_values('streakNum',ascending=False)
+      dfOut=dfOut[['name','streakVal','date']]
       return dfOut.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
       
 def getHatTricks(dfGStats,season="2022-23"):
