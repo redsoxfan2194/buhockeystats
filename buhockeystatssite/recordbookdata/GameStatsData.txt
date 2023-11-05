@@ -15895,3 +15895,143 @@
 10/07/2023,Bentley,Sam Stevens,F,GR,0,0,0,2023-24
 10/07/2023,Bentley,Mathieu Caron,G,JR,0,0,0,2023-24
 10/07/2023,Bentley,Macklin Celebrini,F,FR,1,1,2,2023-24
+10/13/2023,New Hampshire,Gavin McCarthy,D,FR,0,0,0,2023-24
+10/13/2023,New Hampshire,Tristan Amonte,F,JR,0,0,0,2023-24
+10/13/2023,New Hampshire,Ty Gallagher,D,JR,0,0,0,2023-24
+10/13/2023,New Hampshire,Tom Willander,D,FR,1,1,2,2023-24
+10/13/2023,New Hampshire,Case McCarthy,D,GR,0,0,0,2023-24
+10/13/2023,New Hampshire,Cade Webber,D,SR,0,0,0,2023-24
+10/13/2023,New Hampshire,Ryan Greene,F,SO,0,0,0,2023-24
+10/13/2023,New Hampshire,Nick Zabaneh,F,SR,0,0,0,2023-24
+10/13/2023,New Hampshire,Luke Tuch,F,SR,1,0,1,2023-24
+10/13/2023,New Hampshire,Jack Harvey,F,FR,0,1,1,2023-24
+10/13/2023,New Hampshire,Dylan Peterson,F,SR,0,1,1,2023-24
+10/13/2023,New Hampshire,Jeremy Wilmer,F,SO,0,1,1,2023-24
+10/13/2023,New Hampshire,Quinn Hutson,F,SO,0,0,0,2023-24
+10/13/2023,New Hampshire,Shane Lachance,F,FR,0,0,0,2023-24
+10/13/2023,New Hampshire,Lane Hutson,D,SO,0,1,1,2023-24
+10/13/2023,New Hampshire,Devin Kaplan,F,SO,0,0,0,2023-24
+10/13/2023,New Hampshire,Aiden Celebrini,D,FR,0,2,2,2023-24
+10/13/2023,New Hampshire,Sam Stevens,F,GR,0,0,0,2023-24
+10/13/2023,New Hampshire,Mathieu Caron,G,JR,0,0,0,2023-24
+10/13/2023,New Hampshire,Macklin Celebrini,F,FR,2,0,2,2023-24
+10/20/2023,Notre Dame,Gavin McCarthy,D,FR,0,0,0,2023-24
+10/20/2023,Notre Dame,Tristan Amonte,F,JR,0,0,0,2023-24
+10/20/2023,Notre Dame,Ty Gallagher,D,JR,0,0,0,2023-24
+10/20/2023,Notre Dame,Tom Willander,D,FR,0,0,0,2023-24
+10/20/2023,Notre Dame,Case McCarthy,D,GR,0,0,0,2023-24
+10/20/2023,Notre Dame,Ryan Greene,F,SO,1,0,1,2023-24
+10/20/2023,Notre Dame,Nick Zabaneh,F,SR,0,0,0,2023-24
+10/20/2023,Notre Dame,Luke Tuch,F,SR,0,0,0,2023-24
+10/20/2023,Notre Dame,Dylan Peterson,F,SR,0,0,0,2023-24
+10/20/2023,Notre Dame,Mick Frechette,D,FR,0,0,0,2023-24
+10/20/2023,Notre Dame,Jeremy Wilmer,F,SO,0,0,0,2023-24
+10/20/2023,Notre Dame,Quinn Hutson,F,SO,0,1,1,2023-24
+10/20/2023,Notre Dame,Shane Lachance,F,FR,0,0,0,2023-24
+10/20/2023,Notre Dame,Lane Hutson,D,SO,0,0,0,2023-24
+10/20/2023,Notre Dame,Devin Kaplan,F,SO,0,0,0,2023-24
+10/20/2023,Notre Dame,Aiden Celebrini,D,FR,0,0,0,2023-24
+10/20/2023,Notre Dame,Sam Stevens,F,GR,0,0,0,2023-24
+10/20/2023,Notre Dame,Jack Hughes,F,JR,0,1,1,2023-24
+10/20/2023,Notre Dame,Mathieu Caron,G,JR,0,0,0,2023-24
+10/20/2023,Notre Dame,Macklin Celebrini,F,FR,0,0,0,2023-24
+10/21/2023,Notre Dame,Gavin McCarthy,D,FR,0,1,1,2023-24
+10/21/2023,Notre Dame,Ty Gallagher,D,JR,0,0,0,2023-24
+10/21/2023,Notre Dame,Tom Willander,D,FR,0,1,1,2023-24
+10/21/2023,Notre Dame,Case McCarthy,D,GR,0,0,0,2023-24
+10/21/2023,Notre Dame,Ryan Greene,F,SO,0,0,0,2023-24
+10/21/2023,Notre Dame,Nick Zabaneh,F,SR,0,0,0,2023-24
+10/21/2023,Notre Dame,Luke Tuch,F,SR,1,2,3,2023-24
+10/21/2023,Notre Dame,Dylan Peterson,F,SR,1,1,2,2023-24
+10/21/2023,Notre Dame,Mick Frechette,D,FR,0,0,0,2023-24
+10/21/2023,Notre Dame,Jeremy Wilmer,F,SO,0,2,2,2023-24
+10/21/2023,Notre Dame,Quinn Hutson,F,SO,1,0,1,2023-24
+10/21/2023,Notre Dame,Shane Lachance,F,FR,2,0,2,2023-24
+10/21/2023,Notre Dame,Jack Page,D,JR,0,0,0,2023-24
+10/21/2023,Notre Dame,Devin Kaplan,F,SO,0,2,2,2023-24
+10/21/2023,Notre Dame,Aiden Celebrini,D,FR,1,1,2,2023-24
+10/21/2023,Notre Dame,Doug Grimes,F,FR,0,0,0,2023-24
+10/21/2023,Notre Dame,Sam Stevens,F,GR,0,2,2,2023-24
+10/21/2023,Notre Dame,Jack Hughes,F,JR,0,0,0,2023-24
+10/21/2023,Notre Dame,Mathieu Caron,G,JR,0,0,0,2023-24
+10/21/2023,Notre Dame,Macklin Celebrini,F,FR,2,0,2,2023-24
+10/27/2023,Massachusetts,Gavin McCarthy,D,FR,0,0,0,2023-24
+10/27/2023,Massachusetts,Ty Gallagher,D,JR,0,0,0,2023-24
+10/27/2023,Massachusetts,Tom Willander,D,FR,0,0,0,2023-24
+10/27/2023,Massachusetts,Case McCarthy,D,GR,0,0,0,2023-24
+10/27/2023,Massachusetts,Cade Webber,D,SR,0,0,0,2023-24
+10/27/2023,Massachusetts,Ryan Greene,F,SO,1,1,2,2023-24
+10/27/2023,Massachusetts,Nick Zabaneh,F,SR,0,1,1,2023-24
+10/27/2023,Massachusetts,Luke Tuch,F,SR,1,0,1,2023-24
+10/27/2023,Massachusetts,Dylan Peterson,F,SR,1,0,1,2023-24
+10/27/2023,Massachusetts,Jeremy Wilmer,F,SO,0,3,3,2023-24
+10/27/2023,Massachusetts,Quinn Hutson,F,SO,0,0,0,2023-24
+10/27/2023,Massachusetts,Shane Lachance,F,FR,0,0,0,2023-24
+10/27/2023,Massachusetts,Lane Hutson,D,SO,1,2,3,2023-24
+10/27/2023,Massachusetts,Devin Kaplan,F,SO,0,1,1,2023-24
+10/27/2023,Massachusetts,Aiden Celebrini,D,FR,0,0,0,2023-24
+10/27/2023,Massachusetts,Doug Grimes,F,FR,0,0,0,2023-24
+10/27/2023,Massachusetts,Sam Stevens,F,GR,0,0,0,2023-24
+10/27/2023,Massachusetts,Jack Hughes,F,JR,0,0,0,2023-24
+10/27/2023,Massachusetts,Mathieu Caron,G,JR,0,0,0,2023-24
+10/27/2023,Massachusetts,Macklin Celebrini,F,FR,1,2,3,2023-24
+10/28/2023,Massachusetts,Gavin McCarthy,D,FR,0,0,0,2023-24
+10/28/2023,Massachusetts,Ty Gallagher,D,JR,0,0,0,2023-24
+10/28/2023,Massachusetts,Tom Willander,D,FR,0,0,0,2023-24
+10/28/2023,Massachusetts,Case McCarthy,D,GR,0,0,0,2023-24
+10/28/2023,Massachusetts,Cade Webber,D,SR,0,1,1,2023-24
+10/28/2023,Massachusetts,Ryan Greene,F,SO,0,1,1,2023-24
+10/28/2023,Massachusetts,Nick Zabaneh,F,SR,0,0,0,2023-24
+10/28/2023,Massachusetts,Luke Tuch,F,SR,0,2,2,2023-24
+10/28/2023,Massachusetts,Dylan Peterson,F,SR,0,0,0,2023-24
+10/28/2023,Massachusetts,Jeremy Wilmer,F,SO,0,1,1,2023-24
+10/28/2023,Massachusetts,Quinn Hutson,F,SO,0,0,0,2023-24
+10/28/2023,Massachusetts,Shane Lachance,F,FR,0,0,0,2023-24
+10/28/2023,Massachusetts,Lane Hutson,D,SO,0,0,0,2023-24
+10/28/2023,Massachusetts,Devin Kaplan,F,SO,1,0,1,2023-24
+10/28/2023,Massachusetts,Aiden Celebrini,D,FR,0,0,0,2023-24
+10/28/2023,Massachusetts,Doug Grimes,F,FR,0,0,0,2023-24
+10/28/2023,Massachusetts,Sam Stevens,F,GR,0,1,1,2023-24
+10/28/2023,Massachusetts,Jack Hughes,F,JR,0,0,0,2023-24
+10/28/2023,Massachusetts,Mathieu Caron,G,JR,0,0,0,2023-24
+10/28/2023,Massachusetts,Macklin Celebrini,F,FR,2,0,2,2023-24
+11/03/2023,North Dakota,Gavin McCarthy,D,FR,0,0,0,2023-24
+11/03/2023,North Dakota,Ty Gallagher,D,JR,0,1,1,2023-24
+11/03/2023,North Dakota,Tom Willander,D,FR,0,0,0,2023-24
+11/03/2023,North Dakota,Case McCarthy,D,GR,0,0,0,2023-24
+11/03/2023,North Dakota,Cade Webber,D,SR,0,0,0,2023-24
+11/03/2023,North Dakota,Ryan Greene,F,SO,0,0,0,2023-24
+11/03/2023,North Dakota,Nick Zabaneh,F,SR,0,0,0,2023-24
+11/03/2023,North Dakota,Luke Tuch,F,SR,1,0,1,2023-24
+11/03/2023,North Dakota,Dylan Peterson,F,SR,1,0,1,2023-24
+11/03/2023,North Dakota,Jeremy Wilmer,F,SO,0,1,1,2023-24
+11/03/2023,North Dakota,Quinn Hutson,F,SO,0,0,0,2023-24
+11/03/2023,North Dakota,Shane Lachance,F,FR,0,1,1,2023-24
+11/03/2023,North Dakota,Lane Hutson,D,SO,1,0,1,2023-24
+11/03/2023,North Dakota,Devin Kaplan,F,SO,0,1,1,2023-24
+11/03/2023,North Dakota,Aiden Celebrini,D,FR,0,0,0,2023-24
+11/03/2023,North Dakota,Doug Grimes,F,FR,0,0,0,2023-24
+11/03/2023,North Dakota,Sam Stevens,F,GR,0,0,0,2023-24
+11/03/2023,North Dakota,Jack Hughes,F,JR,0,1,1,2023-24
+11/03/2023,North Dakota,Mathieu Caron,G,JR,0,0,0,2023-24
+11/03/2023,North Dakota,Macklin Celebrini,F,FR,0,1,1,2023-24
+11/04/2023,North Dakota,Gavin McCarthy,D,FR,0,0,0,2023-24
+11/04/2023,North Dakota,Ty Gallagher,D,JR,0,1,1,2023-24
+11/04/2023,North Dakota,Tom Willander,D,FR,0,0,0,2023-24
+11/04/2023,North Dakota,Case McCarthy,D,GR,0,0,0,2023-24
+11/04/2023,North Dakota,Cade Webber,D,SR,0,1,1,2023-24
+11/04/2023,North Dakota,Ryan Greene,F,SO,0,1,1,2023-24
+11/04/2023,North Dakota,Nick Zabaneh,F,SR,0,0,0,2023-24
+11/04/2023,North Dakota,Luke Tuch,F,SR,0,0,0,2023-24
+11/04/2023,North Dakota,Dylan Peterson,F,SR,0,1,1,2023-24
+11/04/2023,North Dakota,Jeremy Wilmer,F,SO,0,0,0,2023-24
+11/04/2023,North Dakota,Quinn Hutson,F,SO,0,0,0,2023-24
+11/04/2023,North Dakota,Shane Lachance,F,FR,0,1,1,2023-24
+11/04/2023,North Dakota,Lane Hutson,D,SO,3,0,3,2023-24
+11/04/2023,North Dakota,Devin Kaplan,F,SO,1,1,2,2023-24
+11/04/2023,North Dakota,Aiden Celebrini,D,FR,0,0,0,2023-24
+11/04/2023,North Dakota,Doug Grimes,F,FR,0,0,0,2023-24
+11/04/2023,North Dakota,Sam Stevens,F,GR,0,0,0,2023-24
+11/04/2023,North Dakota,Jack Hughes,F,JR,0,0,0,2023-24
+11/04/2023,North Dakota,Mathieu Caron,G,JR,0,0,0,2023-24
+11/04/2023,North Dakota,Macklin Celebrini,F,FR,0,2,2,2023-24

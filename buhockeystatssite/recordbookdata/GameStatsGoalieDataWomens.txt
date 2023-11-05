@@ -662,3 +662,8 @@
 02/18/2023,Northeastern,Andrea Brändli,GR,45,4,1,0,60.00,L,2022-23
 10/06/2023,Northeastern,Mari Pietersen,FR,22,3,1,0,59.42,L,2023-24
 10/07/2023,Northeastern,Alexa Matses,SR,28,1,1,0,58.6,L,2023-24
+10/20/2023,Syracuse,Mari Pietersen,FR,16,4,1,0,65.0,T,2023-24
+10/21/2023,Syracuse,Mari Pietersen,FR,12,1,1,0,60.0,W,2023-24
+10/29/2023,Maine,Mari Pietersen,FR,15,3,1,0,60.0,W,2023-24
+11/03/2023,Merrimack,Alexa Matses,SR,16,1,1,0,61.65,W,2023-24
+11/04/2023,Merrimack,Alexa Matses,SR,12,3,1,0,61.98,W,2023-24
