@@ -743,12 +743,12 @@ CAPTAIN: Nadia Mattivi,Madison Cardaci
 09/30 W McConnell Arena A McGill (ex) 5-2
 10/06 L Walter Brown Arena H Northeastern * 1-4
 10/07 L Matthews Arena A Northeastern * 0-2
-10/20 N Walter Brown Arena H Syracuse 0-0
-10/21 N Walter Brown Arena H Syracuse 0-0
+10/20 T (ot) Walter Brown Arena H Syracuse 4-4
+10/21 W Walter Brown Arena H Syracuse 6-1
 10/27 N Alfond Arena A Maine * 0-0
-10/28 N Alfond Arena A Maine * 0-0
-11/03 N Lawler Rink A Merrimack * 0-0
-11/04 N Walter Brown Arena H Merrimack * 0-0
+10/28 W Alfond Arena A Maine * 4-3
+11/03 W (ot) Lawler Rink A Merrimack * 2-1
+11/04 W (ot) Walter Brown Arena H Merrimack * 4-3
 11/10 N Walter Brown Arena H New Hampshire * 0-0
 11/11 N Whittemore Center Arena A New Hampshire * 0-0
 11/14 N Bright-Landry Hockey Center A Harvard 0-0
@@ -780,7 +780,7 @@ BP  Beanpot Tournament
 BB  Battle at the 'Burgh
 HE  Hockey East Tournament
 NCAA  NCAA Tournament
-SS  Smashville Showcase 
+SS  Smashville Showcase
 WJ  Windjammer Classic
 WC  Nike Bauer Women’s Classic
 VS  Vegas Showcase

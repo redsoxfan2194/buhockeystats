@@ -3326,14 +3326,14 @@ HOCKEY EAST: 0-0-0, 1st
 COACH: Jay Pandolfo
 CAPTAIN: Case McCarthy
 10/07 W (ot) Bentley Arena	Bentley 3-2
-10/13 N Whittemore Center Arena	New Hampshire * 0-0
-10/14 N Agganis Arena	US Under-18 Team (ex) 0-0
-10/20 N Compton Arena	Notre Dame 0-0
-10/21 N Compton Arena	Notre Dame 0-0
-10/27 N Agganis Arena	Massachusetts * 0-0
-10/28 N Mullins Center	Massachusetts * 0-0
-11/03 N Agganis Arena	North Dakota 0-0
-11/04 N Agganis Arena	North Dakota 0-0
+10/13 L Whittemore Center Arena	New Hampshire * 4-6
+10/14 L Agganis Arena	US Under-18 Team (ex) 2-8
+10/20 L Compton Arena	Notre Dame 1-4
+10/21 W Compton Arena	Notre Dame 8-2
+10/27 W Agganis Arena	Massachusetts * 5-2
+10/28 T (ot) Mullins Center	Massachusetts * 3-3
+11/03 W Agganis Arena	North Dakota 3-2
+11/04 L (ot) Agganis Arena	North Dakota 4-5
 11/10 N Tsongas Center	UMass Lowell * 0-0
 11/11 N Agganis Arena	UMass Lowell * 0-0
 11/17 N Agganis Arena	Maine * 0-0

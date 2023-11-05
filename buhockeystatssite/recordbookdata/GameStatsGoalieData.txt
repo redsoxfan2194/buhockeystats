@@ -857,3 +857,10 @@
 03/25/2023,Cornell,Drew Commesso,SR,13,1,1,0,60.00,W,2022-23
 04/06/2023,Minnesota,Drew Commesso,SR,28,4,1,0,58.87,L,2022-23
 10/07/2023,Bentley,Mathieu Caron,FR,21,2,1,0,63.2,W,2023-24
+10/13/2023,New Hampshire,Mathieu Caron,FR,29,6,1,0,57.67,L,2023-24
+10/20/2023,Notre Dame,Mathieu Caron,FR,22,4,1,0,56.35,L,2023-24
+10/21/2023,Notre Dame,Mathieu Caron,FR,28,2,1,0,59.62,W,2023-24
+10/27/2023,Massachusetts,Mathieu Caron,FR,18,2,1,0,60.0,W,2023-24
+10/28/2023,Massachusetts,Mathieu Caron,FR,38,3,1,0,65.0,,2023-24
+11/03/2023,North Dakota,Mathieu Caron,FR,32,2,1,0,59.83,W,2023-24
+11/04/2023,North Dakota,Mathieu Caron,FR,21,5,1,0,60.18,L,2023-24
