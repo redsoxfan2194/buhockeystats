@@ -178,7 +178,7 @@ def convertToHtmlTable(inputString):
     return htmlTable
 
 
-def formatResults(dfRes):
+def formatResults(dfRes,isHeader=True):
     ''' Update formatting for results table
     Parameters:
       dfRes (DataFrame) : Record Data
@@ -222,14 +222,13 @@ def formatResults(dfRes):
         render_links=True)
     if 'Win%' in tableData:
       resTable=resTable.replace('<th ', '<th onclick=setSort(this) ')
-    
     # Parse the HTML using BeautifulSoup
     soup = BeautifulSoup(resTable, 'html.parser')
     if('result' in dfRes.columns):
       # Find the specific cell you want to convert to a <div>
       for row in soup.find_all('tr'):
         for col in range(len(row.find_all('th'))):
-          row.find_all('th')[col]['class'].append(tableData.columns[col])
+            row.find_all('th')[col]['class'].append(tableData.columns[col])
         for col in range(len(row.find_all('td'))):
           row.find_all('td')[col]['class'].append(tableData.columns[col])
       for row in soup.find_all('tr'):
@@ -245,6 +244,10 @@ def formatResults(dfRes):
         score_cell.insert(0, new_div)
         res_cell.decompose()
       soup.find('th', {'class':'Result'}).decompose()
+      if(not isHeader):
+        thead = soup.find('thead')
+        if thead:
+            thead.extract()
       resTable = str(soup)
     return resTable
 
