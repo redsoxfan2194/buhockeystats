@@ -564,7 +564,6 @@ def statsbot():
 
 @app.route('/records', methods=['POST', 'GET'])
 def records():
-    global dfRes
     ''' Loads BU Hockey Stats Record page
 
     Returns:
@@ -769,7 +768,7 @@ def records():
         else:
             dfRes = dfRes.sort_values(formData['sortval'], ascending=sortType)
         return jsonify(
-            resTable=formatResults(dfRes.head(200)),
+            resTable=formatResults(dfRes),
             result=result,
             opponents_values=getOpponentList(dfOrig),
             season_values=list(
@@ -789,7 +788,7 @@ def records():
         'records.html',titletag=' - Records',
         result=result,
         query='',
-        resTable=formatResults(dfRes.query('result != "E"').head(200)),
+        resTable=formatResults(dfRes.query('result != "E"')),
         opponents_values=getOpponentList(dfOrig),
         conference_values=sorted(
             list(
@@ -816,13 +815,6 @@ def records():
             dfOrig.coach.unique()),
         selected_day=0)
 
-@app.route('/load_more/<int:offset>')
-def load_more(offset):
-    if(offset<=len(dfRes)):
-      # Assuming `dfRes` is the dataframe containing your results
-      res_table_html = formatResults(dfRes.iloc[offset:offset+200],False)
-      return jsonify({'data': res_table_html})
-    return ''
 
 @app.route('/notables')
 def noteables():

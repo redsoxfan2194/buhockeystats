@@ -237,16 +237,11 @@
     <button class="btn btn-sort-filter mobile-view" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRecordsFilters" aria-controls="offcanvasRecordsFilters">
         Sort and Filter
     </button>
-    <div id="resultTable">
-        <!-- Initial content (HTML table) returned by Flask route -->
-        {{ resTable|safe }}
+    <div id='resultTable'>
+        {% autoescape false %}
+        {{resTable}}
+        {% endautoescape %}
     </div>
-    <div id="load-more"></div>
-    <input type="hidden" id="offset" value="0"> <!-- Keep track of current offset -->
-
-</body>
-</html>
-
 </div>
 <script type="text/javascript" src="{{ url_for('static', filename = 'js/records.js') }}"></script>
 {% endblock %}

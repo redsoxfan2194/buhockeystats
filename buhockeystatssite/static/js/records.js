@@ -1,6 +1,6 @@
 console.log("loading records.js");
+
 document.addEventListener("DOMContentLoaded", function(event) {
-  $('#offset').val("200");
   var alterClass = function() {
     var ww = document.body.clientWidth;
     if (ww < 800) {
@@ -22,25 +22,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
   //Fire it when the page first loads:
   alterClass();
-  loadMoreData(); // Load initial data
 });
-
-function loadMoreData() {
-    let offset = parseInt($('#offset').val());
-    $.ajax({
-        url: `/load_more/${offset}`,
-        success: function(response) {
-            $('#resultTable').append(response.data);
-            offset += 200;
-            $('#offset').val(offset);
-            if(response.data != null)
-            {
-              loadMoreData()
-            }
-        }
-    });
-}
-
 
 const onKeydown = function (event) {
     if (event.key === "Enter") {
@@ -230,7 +212,7 @@ function submitForm(reset = "false") {
     const formData = $("#resForm").serialize();
     var recSort = document.querySelectorAll(".rec-sort");
     var resSort = document.querySelectorAll(".res-sort");
-    $("#offset").val("200");
+
     $.ajax({
         url: $("#resForm").attr("action"),
         method: $("#resForm").attr("method"),
@@ -238,6 +220,7 @@ function submitForm(reset = "false") {
         success: function (response) {
             $("#resultTable").html(response.resTable);
             $("#record").html("Record: " + response.result);
+
             if (!document.getElementById("tabletype").value) {
                 document.getElementById("grouping").hidden = true;
                 document.getElementById("groupLabel").hidden = true;
@@ -430,7 +413,6 @@ function submitForm(reset = "false") {
                     
                 }
             }
-            loadMoreData();
         },
         error: function (xhr, status, error) {
             console.error("Error:", error);
