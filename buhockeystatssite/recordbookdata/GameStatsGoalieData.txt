@@ -865,3 +865,4 @@
 11/03/2023,North Dakota,Mathieu Caron,FR,32,2,1,0,59.83,W,2023-24
 11/04/2023,North Dakota,Mathieu Caron,FR,21,5,1,0,60.18,L,2023-24
 11/10/2023,UMass Lowell,Mathieu Caron,JR,18,2,1,0,59.53,W,2023-24
+11/11/2023,UMass Lowell,Mathieu Caron,FR,28,1,1,0,59.77,W,2023-24
