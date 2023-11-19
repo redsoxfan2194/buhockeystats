@@ -670,3 +670,7 @@
 11/10/2023,New Hampshire,Alexa Matses,FR,7,3,1,0,15.02,L,2023-24
 11/10/2023,New Hampshire,Mari Pietersen,FR,14,1,1,0,40.15,,2023-24
 11/11/2023,New Hampshire,Mari Pietersen,FR,19,3,1,0,60.0,W,2023-24
+11/14/2023,Harvard,Mari Pietersen,FR,5,2,1,0,20.0,L,2023-24
+11/14/2023,Harvard,Alexa Matses,FR,12,1,1,0,35.77,,2023-24
+11/17/2023,Boston College,Alexa Matses,SR,27,4,1,0,58.75,L,2023-24
+11/18/2023,Providence,Alexa Matses,SR,21,2,1,0,57.1,L,2023-24

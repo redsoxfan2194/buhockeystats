@@ -751,9 +751,9 @@ CAPTAIN: Nadia Mattivi,Madison Cardaci
 11/04 W (ot) Walter Brown Arena H Merrimack * 4-3
 11/10 L Walter Brown Arena H New Hampshire * 2-4
 11/11 W Whittemore Center Arena A New Hampshire * 5-3
-11/14 N Bright-Landry Hockey Center A Harvard 0-0
-11/17 N Conte Forum A Boston College * 0-0
-11/18 N Schneider Arena A Providence * 0-0
+11/14 L Bright-Landry Hockey Center A Harvard 1-3
+11/17 L Conte Forum A Boston College * 3-5
+11/18 L Schneider Arena A Providence * 1-2
 11/24 N Ford Ice Center N Robert Morris (SS) 0-0
 11/26 N Ford Ice Center N Minnesota State (SS) 0-0
 12/01 N Walter Brown Arena H Northeastern * 0-0

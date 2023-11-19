@@ -16075,3 +16075,43 @@
 11/11/2023,UMass Lowell,Jack Hughes,F,JR,1,0,1,2023-24
 11/11/2023,UMass Lowell,Mathieu Caron,G,JR,0,0,0,2023-24
 11/11/2023,UMass Lowell,Macklin Celebrini,F,FR,0,4,4,2023-24
+11/17/2023,Maine,Gavin McCarthy,D,FR,0,0,0,2023-24
+11/17/2023,Maine,Ty Gallagher,D,JR,0,0,0,2023-24
+11/17/2023,Maine,Tom Willander,D,FR,1,0,1,2023-24
+11/17/2023,Maine,Case McCarthy,D,GR,0,0,0,2023-24
+11/17/2023,Maine,Cade Webber,D,SR,0,0,0,2023-24
+11/17/2023,Maine,Ryan Greene,F,SO,1,1,2,2023-24
+11/17/2023,Maine,Nick Zabaneh,F,SR,0,0,0,2023-24
+11/17/2023,Maine,Luke Tuch,F,SR,0,0,0,2023-24
+11/17/2023,Maine,Dylan Peterson,F,SR,0,0,0,2023-24
+11/17/2023,Maine,Jeremy Wilmer,F,SO,0,1,1,2023-24
+11/17/2023,Maine,Quinn Hutson,F,SO,0,1,1,2023-24
+11/17/2023,Maine,Shane Lachance,F,FR,0,1,1,2023-24
+11/17/2023,Maine,Lane Hutson,D,SO,0,1,1,2023-24
+11/17/2023,Maine,Devin Kaplan,F,SO,0,0,0,2023-24
+11/17/2023,Maine,Aiden Celebrini,D,FR,0,0,0,2023-24
+11/17/2023,Maine,Doug Grimes,F,FR,0,0,0,2023-24
+11/17/2023,Maine,Sam Stevens,F,GR,0,0,0,2023-24
+11/17/2023,Maine,Jack Hughes,F,JR,0,1,1,2023-24
+11/17/2023,Maine,Mathieu Caron,G,JR,0,0,0,2023-24
+11/17/2023,Maine,Macklin Celebrini,F,FR,1,0,1,2023-24
+11/18/2023,Maine,Gavin McCarthy,D,FR,0,0,0,2023-24
+11/18/2023,Maine,Ty Gallagher,D,JR,0,0,0,2023-24
+11/18/2023,Maine,Tom Willander,D,FR,0,1,1,2023-24
+11/18/2023,Maine,Case McCarthy,D,GR,0,0,0,2023-24
+11/18/2023,Maine,Cade Webber,D,SR,0,0,0,2023-24
+11/18/2023,Maine,Ryan Greene,F,SO,0,1,1,2023-24
+11/18/2023,Maine,Nick Zabaneh,F,SR,0,0,0,2023-24
+11/18/2023,Maine,Luke Tuch,F,SR,1,0,1,2023-24
+11/18/2023,Maine,Dylan Peterson,F,SR,0,0,0,2023-24
+11/18/2023,Maine,Mick Frechette,D,FR,0,0,0,2023-24
+11/18/2023,Maine,Jeremy Wilmer,F,SO,0,1,1,2023-24
+11/18/2023,Maine,Quinn Hutson,F,SO,2,1,3,2023-24
+11/18/2023,Maine,Shane Lachance,F,FR,1,0,1,2023-24
+11/18/2023,Maine,Lane Hutson,D,SO,0,2,2,2023-24
+11/18/2023,Maine,Devin Kaplan,F,SO,1,0,1,2023-24
+11/18/2023,Maine,Doug Grimes,F,FR,0,0,0,2023-24
+11/18/2023,Maine,Sam Stevens,F,GR,0,0,0,2023-24
+11/18/2023,Maine,Jack Hughes,F,JR,0,0,0,2023-24
+11/18/2023,Maine,Mathieu Caron,G,JR,0,0,0,2023-24
+11/18/2023,Maine,Macklin Celebrini,F,FR,0,3,3,2023-24

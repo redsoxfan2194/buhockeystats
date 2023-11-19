@@ -12493,3 +12493,64 @@
 11/11/2023,New Hampshire,Brooke Disher,D,SO,0,0,0,2023-24
 11/11/2023,New Hampshire,Catherine Foulem,F,SR,1,0,1,2023-24
 11/11/2023,New Hampshire,Mari Pietersen,G,FR,0,0,0,2023-24
+11/14/2023,Harvard,Alexa Matses,G,GR,0,0,0,2023-24
+11/14/2023,Harvard,Ella Huntley,F,FR,0,0,0,2023-24
+11/14/2023,Harvard,Liv Haag,F,JR,0,0,0,2023-24
+11/14/2023,Harvard,Jackson Kinsler,F,FR,0,0,0,2023-24
+11/14/2023,Harvard,Nadia Mattivi,D,GR,0,0,0,2023-24
+11/14/2023,Harvard,Maggie Hanzel,D,JR,0,0,0,2023-24
+11/14/2023,Harvard,Mikayla Blomquist,F,FR,0,0,0,2023-24
+11/14/2023,Harvard,Sydney Healey,F,SO,0,0,0,2023-24
+11/14/2023,Harvard,Andi Calderone,D,SR,0,1,1,2023-24
+11/14/2023,Harvard,Luisa Welcke,F,SO,0,0,0,2023-24
+11/14/2023,Harvard,Lacey Martin,F,SR,0,1,1,2023-24
+11/14/2023,Harvard,Neely Nicholson,F,FR,0,0,0,2023-24
+11/14/2023,Harvard,Clara Yuhn,F,SO,0,0,0,2023-24
+11/14/2023,Harvard,Madison Cardaci,D,SR,1,0,1,2023-24
+11/14/2023,Harvard,Christina Vote,F,JR,0,0,0,2023-24
+11/14/2023,Harvard,Tamara Giaquinto,D,SR,0,0,0,2023-24
+11/14/2023,Harvard,Maeve Kelly,D,SO,0,0,0,2023-24
+11/14/2023,Harvard,Lilli Welcke,F,SO,0,0,0,2023-24
+11/14/2023,Harvard,Brooke Disher,D,SO,0,0,0,2023-24
+11/14/2023,Harvard,Catherine Foulem,F,SR,0,0,0,2023-24
+11/14/2023,Harvard,Mari Pietersen,G,FR,0,0,0,2023-24
+11/17/2023,Boston College,Alexa Matses,G,GR,0,0,0,2023-24
+11/17/2023,Boston College,Ella Huntley,F,FR,0,0,0,2023-24
+11/17/2023,Boston College,Liv Haag,F,JR,0,0,0,2023-24
+11/17/2023,Boston College,Jackson Kinsler,F,FR,0,0,0,2023-24
+11/17/2023,Boston College,Nadia Mattivi,D,GR,0,0,0,2023-24
+11/17/2023,Boston College,Maggie Hanzel,D,JR,0,0,0,2023-24
+11/17/2023,Boston College,Mikayla Blomquist,F,FR,0,0,0,2023-24
+11/17/2023,Boston College,Sydney Healey,F,SO,1,0,1,2023-24
+11/17/2023,Boston College,Andi Calderone,D,SR,0,1,1,2023-24
+11/17/2023,Boston College,Luisa Welcke,F,SO,0,0,0,2023-24
+11/17/2023,Boston College,Lacey Martin,F,SR,0,2,2,2023-24
+11/17/2023,Boston College,Neely Nicholson,F,FR,1,0,1,2023-24
+11/17/2023,Boston College,Clara Yuhn,F,SO,1,0,1,2023-24
+11/17/2023,Boston College,Madison Cardaci,D,SR,0,0,0,2023-24
+11/17/2023,Boston College,Christina Vote,F,JR,0,0,0,2023-24
+11/17/2023,Boston College,Tamara Giaquinto,D,SR,0,0,0,2023-24
+11/17/2023,Boston College,Maeve Kelly,D,SO,0,0,0,2023-24
+11/17/2023,Boston College,Lilli Welcke,F,SO,0,1,1,2023-24
+11/17/2023,Boston College,Brooke Disher,D,SO,0,1,1,2023-24
+11/17/2023,Boston College,Catherine Foulem,F,SR,0,0,0,2023-24
+11/18/2023,Providence,Alexa Matses,G,GR,0,0,0,2023-24
+11/18/2023,Providence,Ella Huntley,F,FR,0,0,0,2023-24
+11/18/2023,Providence,Liv Haag,F,JR,0,0,0,2023-24
+11/18/2023,Providence,Jackson Kinsler,F,FR,0,0,0,2023-24
+11/18/2023,Providence,Nadia Mattivi,D,GR,0,0,0,2023-24
+11/18/2023,Providence,Maggie Hanzel,D,JR,1,0,1,2023-24
+11/18/2023,Providence,Mikayla Blomquist,F,FR,0,0,0,2023-24
+11/18/2023,Providence,Sydney Healey,F,SO,0,0,0,2023-24
+11/18/2023,Providence,Andi Calderone,D,SR,0,0,0,2023-24
+11/18/2023,Providence,Luisa Welcke,F,SO,0,0,0,2023-24
+11/18/2023,Providence,Lacey Martin,F,SR,0,1,1,2023-24
+11/18/2023,Providence,Neely Nicholson,F,FR,0,1,1,2023-24
+11/18/2023,Providence,Clara Yuhn,F,SO,0,0,0,2023-24
+11/18/2023,Providence,Madison Cardaci,D,SR,0,0,0,2023-24
+11/18/2023,Providence,Christina Vote,F,JR,0,0,0,2023-24
+11/18/2023,Providence,Tamara Giaquinto,D,SR,0,0,0,2023-24
+11/18/2023,Providence,Maeve Kelly,D,SO,0,0,0,2023-24
+11/18/2023,Providence,Lilli Welcke,F,SO,0,0,0,2023-24
+11/18/2023,Providence,Brooke Disher,D,SO,0,0,0,2023-24
+11/18/2023,Providence,Catherine Foulem,F,SR,0,0,0,2023-24
