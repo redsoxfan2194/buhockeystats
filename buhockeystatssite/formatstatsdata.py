@@ -157,7 +157,7 @@ def convertToHtmlTable(inputString):
             htmlTable += '</tr>'
     else:
         if(len(rows)==1):
-          return rows[0]
+          return rows[0].replace('!!',' ').replace('()','')
         # Process the remaining rows as data rows
         pattern = r'\s+(?![^()]*\))'
         for row in rows:
