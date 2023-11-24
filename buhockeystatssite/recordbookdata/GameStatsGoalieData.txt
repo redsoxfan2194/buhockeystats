@@ -868,3 +868,4 @@
 11/11/2023,UMass Lowell,Mathieu Caron,FR,28,1,1,0,59.77,W,2023-24
 11/17/2023,Maine,Mathieu Caron,FR,29,2,1,0,60.0,W,2023-24
 11/18/2023,Maine,Mathieu Caron,FR,39,4,1,0,60.0,W,2023-24
+11/22/2023,Quinnipiac,Mathieu Caron,FR,27,2,1,0,59.75,W,2023-24
