@@ -674,3 +674,6 @@
 11/14/2023,Harvard,Alexa Matses,FR,12,1,1,0,35.77,,2023-24
 11/17/2023,Boston College,Alexa Matses,SR,27,4,1,0,58.75,L,2023-24
 11/18/2023,Providence,Alexa Matses,SR,21,2,1,0,57.1,L,2023-24
+11/24/2023,Robert Morris,Alexa Matses,SR,27,1,1,0,60.0,W,2023-24
+11/26/2023,Minnesota St.,Alexa Matses,FR,24,4,1,0,40.0,L,2023-24
+11/26/2023,Minnesota St.,Mari Pietersen,FR,5,3,1,0,20.0,,2023-24

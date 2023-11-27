@@ -729,9 +729,9 @@ CAPTAIN: Nadia Mattivi
 01/27 W Walter Brown Arena H Merrimack * 4-1
 01/28 W Walter Brown Arena H Vermont * 2-1
 02/03 T (ot) Walter Brown Arena H Connecticut * 2-2
-02/07 L Conte Forum L Northeastern (BP) 1-4
+02/07 L Conte Forum N Northeastern (BP) 1-4
 02/11 L Walter Brown Arena H Boston College * 1-2
-02/14 W Conte Forum W Harvard (BP) 7-4
+02/14 W Conte Forum N Harvard (BP) 7-4
 02/17 L Walter Brown Arena H Northeastern * 1-5
 02/18 L Matthews Arena A Northeastern * 0-4
 02/22 L (ot) Walter Brown Arena H Merrimack (HE) 4-5
@@ -754,8 +754,8 @@ CAPTAIN: Nadia Mattivi,Madison Cardaci
 11/14 L Bright-Landry Hockey Center A Harvard 1-3
 11/17 L Conte Forum A Boston College * 3-5
 11/18 L Schneider Arena A Providence * 1-2
-11/24 N Ford Ice Center N Robert Morris (SS) 0-0
-11/26 N Ford Ice Center N Minnesota State (SS) 0-0
+11/24 W Ford Ice Center W Robert Morris (SS) 3-1
+11/26 L Ford Ice Center L Minnesota State (SS) 2-7
 12/01 N Walter Brown Arena H Northeastern * 0-0
 12/02 N Schneider Arena A Providence * 0-0
 12/08 N Walter Brown Arena H Holy Cross * 0-0
