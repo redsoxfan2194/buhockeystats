@@ -12596,3 +12596,23 @@
 11/26/2023,Minnesota St.,Catherine Foulem,F,SR,0,0,0,2023-24
 11/26/2023,Minnesota St.,Emily McDonald,G,JR,0,0,0,2023-24
 11/26/2023,Minnesota St.,Mari Pietersen,G,FR,0,0,0,2023-24
+12/01/2023,Northeastern,Alexa Matses,G,GR,0,0,0,2023-24
+12/01/2023,Northeastern,Ella Huntley,F,FR,0,0,0,2023-24
+12/01/2023,Northeastern,Jackson Kinsler,F,FR,0,0,0,2023-24
+12/01/2023,Northeastern,Nadia Mattivi,D,GR,0,0,0,2023-24
+12/01/2023,Northeastern,Maggie Hanzel,D,JR,0,0,0,2023-24
+12/01/2023,Northeastern,Alex Law,F,FR,0,1,1,2023-24
+12/01/2023,Northeastern,Mikayla Blomquist,F,FR,0,0,0,2023-24
+12/01/2023,Northeastern,Sydney Healey,F,SO,0,0,0,2023-24
+12/01/2023,Northeastern,Andi Calderone,D,SR,0,0,0,2023-24
+12/01/2023,Northeastern,Luisa Welcke,F,SO,0,0,0,2023-24
+12/01/2023,Northeastern,Lacey Martin,F,SR,0,1,1,2023-24
+12/01/2023,Northeastern,Neely Nicholson,F,FR,0,0,0,2023-24
+12/01/2023,Northeastern,Clara Yuhn,F,SO,1,0,1,2023-24
+12/01/2023,Northeastern,Madison Cardaci,D,SR,0,0,0,2023-24
+12/01/2023,Northeastern,Christina Vote,F,JR,0,0,0,2023-24
+12/01/2023,Northeastern,Tamara Giaquinto,D,SR,0,0,0,2023-24
+12/01/2023,Northeastern,Maeve Kelly,D,SO,0,0,0,2023-24
+12/01/2023,Northeastern,Lilli Welcke,F,SO,0,0,0,2023-24
+12/01/2023,Northeastern,Brooke Disher,D,SO,0,0,0,2023-24
+12/01/2023,Northeastern,Catherine Foulem,F,SR,0,0,0,2023-24
