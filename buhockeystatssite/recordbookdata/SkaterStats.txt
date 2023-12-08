@@ -103,7 +103,7 @@ Cheremeta,Mark 2018-19 29 0 3 3 4/8
 Chiasson,Alex 2009-12 108 36 63 99 78/186
 Chilson,Chester 1936-37 1 0 0 0 0/0
 Cicoria,Tony 1951-53,1955-58 13 46 37 83 —/54
-Cissé,Yasin 2010-12 39 2 5 7 20/40
+Cissé,Yasin 2010-13 40 2 5 7 20/40
 Cleary,Don 1945-49 43 45 43 88 7/14
 Cleary,Paul 1950-53 — 31 22 43 —/27
 Clem,Carl 1929-33 35 25 8 33 1/—
@@ -136,7 +136,7 @@ Cotter,Bill 1977-81 117 30 54 84 54/143
 Cournoyea,Ray 1970-73 65 28 31 59 9/18
 Courtnall,Justin 2009-12 92 7 6 13 34/104
 Cowdery,Bud 1936-37 1 0 0 0 0/0
-Coyle,Charlie 2010-11 53 10 30 40 27/54
+Coyle,Charlie 2010-12 53 10 30 40 27/54
 Crampton,Junie 1926-27 1 0 0 0 —/—
 Crawley,John 1965-68 8 2 1 3 —/2
 Creighton,Larry 1956-59 46 43 51 94 —/89
@@ -268,7 +268,7 @@ Giandomenico,Paul 1969-72 81 20 24 44 5/24
 Gibson,Steve 1976-77 12 1 2 3 3/6
 Gibson,William 1926-29 24 5 1 6 1/—
 Gibson,William 1947-48 24 13 18 31 —/—
-Gill,Sahir 2010-12 78 18 38 56 17/45
+Gill,Sahir 2010-13 117 29 50 78 22/55
 Gillis,Nick 1997-01 144 26 53 79 54/119
 Gilmour,Brian 1964-67 95 36 87 123 —/108
 Gilroy,Kevin 2008-12 71 8 5 13 4/8
@@ -291,7 +291,7 @@ Gray,Mickey 1966-69 92 44 71 115 —/66
 Greeley,Stephen 2000-04 77 6 5 11 21/42
 Green,Richard 1962-64 39 6 24 30 —/62
 Greenway,Jordan 2015-18 112 28 64 92 84/192
-Greer,A.J. 2014-15 53 4 8 12 15/30
+Greer,A.J. 2014-16 55 4 8 12 15/30
 Gregoire,Ovila 1924-28 28 25 0 25 —/—
 Grier,Mike 1993-96 114 59 59 118 98/221
 Grodberg,Burton 1927-31 32 0 0 0 —/—
@@ -379,7 +379,7 @@ Kotkansalo,Kasper 2017-20 112 2 23 25 25/61
 Krys,Chad 2016-19 105 20 38 58 19/38
 Krys,Mark 1987-91 135 1 18 29 69/146
 Kuhn,William 1941-43 12 0 0 0 0/0
-Kurker,Sam 2012-13 47 4 2 6 28/75
+Kurker,Sam 2012-14 47 4 2 6 28/75
 Kuzyk,Ken 1972-76 121 41 46 87 47/110
 Labanara,John 1965-66 2 0 0 0 —/0
 Labrosse,Eric 1984-88 113 24 38 62 66/143
@@ -704,7 +704,7 @@ Toohey,Paul 1930-31 8 0 1 1 2/—
 Toomey,Dick 1967-70 86 51 64 115 —/10
 Toperzer,Frank 1951-53 — 10 7 17 —/6
 Trentini,Ron 1988-90 16 1 1 2 0/0
-Trivino,Corey 2008-11 112 31 42 73 17/42
+Trivino,Corey 2008-12 112 31 42 73 17/42
 Tutuny,Charles 1952-53 — 3 7 10 —/28
 Ullman,John 1931-34 26 1 0 1 —/—
 Vachon,Nick 1990-92 24 6 8 14 6/12
@@ -762,7 +762,7 @@ Zancanaro,Brad 2002-06 161 34 56 90 67/153
 Zanetti,Mario 1951-53 — 26 24 50 /20
 Brink,Alex 2019-20 34 0 3 3 9/29
 Zegras,Trevor 2019-20 33 11 25 36 12/43
-Armstrong,Jamie 2019-22 66 3 10 13 16/43
+Armstrong,Jamie 2019-23 96 8 18 26 19/49
 Boguslavsky,Markus 2019-22 39 4 2 6 6/23
 Campolieto,Joseph 2020-22 44 0 5 5 5/10
 Copeland,John 2019-23 46 0 1 1 1/2
