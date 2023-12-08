@@ -20,6 +20,7 @@
                     <option value="career" {% if selected_type == 'career' %} selected {% endif %}>Career</option>
                     <option value="season" {% if selected_type == 'season' %} selected {% endif %}>Season</option>
                     <option value="game" {% if selected_type == 'game' %} selected {% endif %}>Game</option>
+                    <option value="streak" {% if selected_type == 'streak' %} selected {% endif %}>Streaks</option>
                 </select>
             </div>
             <div id="positionDiv" class="filter">
@@ -33,7 +34,7 @@
                 <label for="name" class="recLabels">Name:</label>
                 <input type="text" name="name" id="name" onchange="submitForm()">
             </div>
-            <div id="numberDiv" class="filter">
+            <div id="numberDiv" class="filter season-stats">
                 <label for="number" class="recLabels season-stats">Number:</label>
                 <input class="season-stats" type="number" name="number" id="number" min=1 max=99 onchange="submitForm()">
             </div>
@@ -41,7 +42,7 @@
                 <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
                 <input type="hidden" id="sortval" name="sortval" value="{{sortval}}">
             </div>
-            <div id="posDiv" class="filter">
+            <div id="posDiv" class="filter season-stats game-stats skater-stats">
                 <label id="posLabel" for="pos" class="recLabels season-stats game-stats skater-stats">Pos:</label>
                 <select class="btn dropdown-toggle custom-align season-stats game-stats skater-stats" name="pos" id="pos" onchange="submitForm()">
                     <option value="all" {% if selected_pos == 'all' %} selected {% endif %}>All</option>
@@ -50,7 +51,19 @@
                     <option value="G" {% if selected_pos == 'G' %} selected {% endif %}>G</option>
                 </select>
             </div>
-            <div id="yrDiv" class="filter">
+            <div id="streakDiv" class="filter streak-stats">
+                <label id="streakLabel" for="streak" class="recLabels streak-stats">Stat:</label>
+                <select class="btn dropdown-toggle custom-align streak-stats" name="streak" id="streak" onchange="submitForm()">
+                    <option value="goals" {% if selected_streak == 'goals' %} selected {% endif %}>Goals</option>
+                    <option value="assists" {% if selected_streak == 'assists' %} selected {% endif %}>Assists</option>
+                    <option value="pts" {% if selected_streak == 'pts' %} selected {% endif %}>Points</option>
+                </select>               
+            </div>
+            <div id="streakMinDiv" class="filter">
+                  <label for="streakmin" class="recLabels">Streak Min:</label>
+                  <input type="number" name="streakmin" id="streakmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            </div>
+            <div id="yrDiv" class="filter season-stats game-stats">
                 <label for="yr" class="recLabels season-stats game-stats">YR:</label>
                 <select class="btn dropdown-toggle custom-align season-stats game-stats" name="yr" id="yr" onchange="submitForm()">
                     <option value="all" {% if selected_yr == 'all' %} selected {% endif %}>All</option>
@@ -61,7 +74,7 @@
                     <option value="GR" {% if selected_yr == 'GR' %} selected {% endif %}>GR</option>
                 </select>
             </div>
-            <div id="opponentDiv" class="filter">
+            <div id="opponentDiv" class="filter game-stats">
                 <label for="opponent" class="recLabels game-stats">Opponent:</label>
                 <select class="btn dropdown-toggle custom-align game-stats" name="opponent" id="opponent" onchange="submitForm()">
                     <option value="all" {% if selected_opponent == 'all' %} selected {% endif %}> All </option>
@@ -72,7 +85,7 @@
                     {% endfor %}
                 </select>
             </div>
-            <div id="groupDiv" class="filter">
+            <div id="groupDiv" class="filter game-stats">
                 <label for="group" class="recLabels game-stats">Stat Format:</label>
                 <select class="btn dropdown-toggle custom-align game-stats" name="group" id="group" onchange="submitForm()">
                     <option value="" {% if selected_group == 'all' %} selected {% endif %}>Individual</option>
@@ -92,7 +105,7 @@
                     {% endfor %}
                 </select>
             </div>
-            <div id="dateDiv" class="filter">
+            <div id="dateDiv" class="filter game-stats">
                 <label for="date" class="recLabels game-stats">Date:</label>
                 <input class="game-stats" type="text" name="date" id="date" onchange="submitForm()">
             </div>

@@ -279,6 +279,9 @@ def formatStats(dfRes):
         dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
         dfRes = dfRes[['date', 'name', 'opponent', 'yr',
                        'pos', 'season', 'goals', 'assists', 'pts']]
+    elif('End' in dfRes.columns):
+        dfRes['Start'] = dfRes['Start'].dt.strftime('%m/%d/%Y')
+        dfRes['End'] = dfRes['End'].dt.strftime('%m/%d/%Y')
     if 'SO' in dfRes.columns:
         style = dfRes.style.apply(
             lambda x: [

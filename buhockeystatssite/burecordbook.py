@@ -3321,7 +3321,35 @@ def getMaxStreak(dfGStats,name,stat):
                 gStr='games'
             return (f"{maxes[0]} {gStr} ({len(maxes)} times)")
     return 'N/A'
-    
+
+def getStreaks(dfGStats,stat='pts',minStr=3,sortVal='Length',ascend=False):
+    dfResTeam=pd.DataFrame()
+    if(sortVal=="Length"):
+      ascend^=True
+    for player in dfGStats.name.unique():
+        dfRes=dfGStats.query(f'name == "{player}"').copy()
+        dfRes['isStat']=dfRes[stat]>=1
+        dfRes['SoS']=dfRes['isStat'].ne(dfRes['isStat'].shift())
+        dfRes['streak_id']=dfRes.SoS.cumsum()
+        dfRes['streak_counter'] = dfRes.groupby('streak_id').cumcount() + 1
+        dfResTeam=pd.concat([dfResTeam,dfRes])
+    topStreaks=dfResTeam.query(f'isStat').groupby(['name','streak_id']).max('streak_counter').sort_values('streak_counter',ascending=False)
+    topStreaks=topStreaks.query(f'streak_counter>={minStr}')
+    dfOut=pd.DataFrame()
+    for i in range(len(topStreaks)):
+        startDate=dfResTeam.query(f'name=="{topStreaks.index[i][0]}" and streak_id=={topStreaks.index[i][1]}').iloc[0]['date'].strftime("%m/%d/%y")
+        endDate=dfResTeam.query(f'name=="{topStreaks.index[i][0]}" and streak_id=={topStreaks.index[i][1]}').iloc[-1]['date'].strftime("%m/%d/%y")
+        streakValue=dfResTeam.query(f'name=="{topStreaks.index[i][0]}" and streak_id=={topStreaks.index[i][1]}').iloc[-1]['streak_counter']
+        if(streakValue<minStr):
+            continue
+        if(int(streakValue)==1):
+            row = pd.DataFrame([{'Name':topStreaks.index[i][0], 'Length': streakValue, 'Start': pd.to_datetime(startDate),'End':''}])
+        else:
+            row = pd.DataFrame([{'Name':topStreaks.index[i][0], 'Length': streakValue, 'Start': pd.to_datetime(startDate),'End':pd.to_datetime(endDate)}])
+        dfOut=pd.concat([dfOut,row])
+        dfOut=dfOut.reset_index()[['Name','Length','Start','End']]
+    return dfOut.sort_values(sortVal,ascending=ascend)
+   
 def getTopStreaks(dfGStats,season="2022-23",stat='pts',topN=5):
     dfResTeam=pd.DataFrame()
     for player in dfGStats.name.unique():
@@ -3756,7 +3784,7 @@ def updateResults(gender):
       if(cols!=[]):
           date=cols[0].get_text().strip().split(' (')[0]
           dStr=datetime.strptime(date, '%B %d, %Y').strftime("%m/%d")
-          res=cols[-2].get_text().strip().replace('\n','').replace(', SOL','').replace(', SOW','').replace('(',' (').split(',')
+          res=cols[-2].get_text().strip().replace('\n','').replace(', SOL','OT').replace(', SOW','OT').replace('(',' (').split(',')
           if(len(res)>1):
             match = re.findall(r'(\(*OT\))', res[1])
             if(match != []):

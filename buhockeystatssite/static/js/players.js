@@ -72,7 +72,7 @@ function clearFilters(event) {
     document.getElementById("number").value = "";
     document.getElementById("date").value = "";
     document.getElementById("group").value = "";
-    
+    document.getElementById("streak").value = "pts";
     // Reset Min Filters
     document.getElementById("gpmin").value = "";
     document.getElementById("goalmin").value = "";
@@ -137,7 +137,8 @@ function initializeFilters() {
     for (let i = 0; i < gameStatsElements.length; i++) {
         gameStatsElements[i].classList.add("hidden");
     }
-    
+    document.getElementById("streakDiv").hidden = true;
+    document.getElementById("streakMinDiv").hidden = true;
     var positionSelect = document.querySelector(
         'select[name="position"]'
     );
@@ -283,15 +284,20 @@ function submitForm(reset = "false") {
             var gameStats = document.getElementsByClassName("game-stats");
 
             // Hide all season stats
-            const statsElements = document.getElementsByClassName(
-                "season-stats, game-stats"
-            );
+            const seasStatsElements = document.getElementsByClassName("season-stats");
 
             // Hide all stats elements
-            for (let i = 0; i < statsElements.length; i++) {
-                statsElements[i].classList.add("hidden");
+            for (let i = 0; i < seasStatsElements.length; i++) {
+                seasStatsElements[i].classList.add("hidden");
             }
+            
+               // Hide all season stats
+            const gameStatsElements = document.getElementsByClassName("game-stats");
 
+            // Hide all stats elements
+            for (let i = 0; i < gameStatsElements.length; i++) {
+                gameStatsElements[i].classList.add("hidden");
+            }
             // Show stats elements based on the selected type
             if (typeSelect.value === "season") {
                 for (let i = 0; i < seasonStats.length; i++) {
@@ -345,6 +351,27 @@ function submitForm(reset = "false") {
                   document.getElementById("pimDiv").hidden = true;
                 
               }
+            }
+            if(typeSelect.value === "streak")
+            {
+              document.getElementById("streakDiv").hidden = false;
+              document.getElementById("streakMinDiv").hidden = false;
+              document.getElementById("positionDiv").hidden = true;
+              document.getElementById("gpDiv").hidden = true;
+              document.getElementById("goalDiv").hidden = true;
+              document.getElementById("assistsDiv").hidden = true;
+              document.getElementById("ptsDiv").hidden = true;
+              document.getElementById("gaDiv").hidden = true;
+              document.getElementById("savesDiv").hidden = true;
+              document.getElementById("minsDiv").hidden = true;
+              document.getElementById("pensDiv").hidden = true;
+              document.getElementById("pimDiv").hidden = true;
+            }
+            else
+            {
+              document.getElementById("streakDiv").hidden = true;
+              document.getElementById("streakMinDiv").hidden = true;
+              document.getElementById("positionDiv").hidden = false;
             }
         },
         error: function (xhr, status, error) {

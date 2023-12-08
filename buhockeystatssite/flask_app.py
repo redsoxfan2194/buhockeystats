@@ -145,7 +145,7 @@ def players():
                     dfStat['W'] = rec[0].replace('', -1).astype(int)
                     dfStat['L'] = rec[1].replace('', -1).astype(int)
                     dfStat['T'] = rec[2].replace('', -1).astype(int)
-            elif formData['type'] == 'game':
+            elif formData['type'] == 'game' or formData['type']=='streak':
                 if formData['position'] == 'skater':
                     dfStat = burb.dfGameStatsMens
                 elif formData['position'] == 'goalie':
@@ -173,7 +173,7 @@ def players():
                     dfStat['W'] = rec[0].astype(int)
                     dfStat['L'] = rec[1].astype(int)
                     dfStat['T'] = rec[2].astype(int)
-            elif formData['type'] == 'game':
+            elif formData['type'] == 'game' or formData['type']=='streak':
                 if formData['position'] == 'skater':
                     dfStat = burb.dfGameStatsWomens
                 elif formData['position'] == 'goalie':
@@ -515,6 +515,20 @@ def players():
             sortType = ''
         if formData['type'] == 'game':
             dfStat = dfStat[:1000]
+        if(formData['type'] == 'streak'):
+            streakMin=3
+            if(formData['streakmin']!=''):
+              streakMin=max(int(formData['streakmin']),3)
+            if(formData['sortval']!=''):
+              sortVal=formData['sortval']
+              if(formData['isAscending']==''):
+                isAsc=True
+              else:
+                isAsc=eval(formData['isAscending'].capitalize())
+            else:
+              sortVal="Length"
+              isAsc=True
+            dfStat = burb.getStreaks(dfStat,formData['streak'],streakMin,sortVal,isAsc)
         return jsonify(statTable=formatStats(dfStat),
                        season_values=seasVals,
                        opponents_values=oppList,
