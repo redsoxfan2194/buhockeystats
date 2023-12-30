@@ -12636,3 +12636,43 @@
 12/02/2023,Providence,Lilli Welcke,F,SO,0,0,0,2023-24
 12/02/2023,Providence,Brooke Disher,D,SO,1,0,1,2023-24
 12/02/2023,Providence,Catherine Foulem,F,SR,0,1,1,2023-24
+12/08/2023,Holy Cross,Ella Huntley,F,FR,0,0,0,2023-24
+12/08/2023,Holy Cross,Nadia Mattivi,D,GR,0,0,0,2023-24
+12/08/2023,Holy Cross,Maggie Hanzel,D,JR,0,0,0,2023-24
+12/08/2023,Holy Cross,Alex Law,F,FR,0,0,0,2023-24
+12/08/2023,Holy Cross,Sydney Healey,F,SO,0,1,1,2023-24
+12/08/2023,Holy Cross,Andi Calderone,D,SR,0,1,1,2023-24
+12/08/2023,Holy Cross,Luisa Welcke,F,SO,1,0,1,2023-24
+12/08/2023,Holy Cross,Lacey Martin,F,SR,0,0,0,2023-24
+12/08/2023,Holy Cross,Neely Nicholson,F,FR,0,0,0,2023-24
+12/08/2023,Holy Cross,Clara Yuhn,F,SO,0,0,0,2023-24
+12/08/2023,Holy Cross,Julia Shaunessy,D,SR,0,0,0,2023-24
+12/08/2023,Holy Cross,Madison Cardaci,D,SR,0,0,0,2023-24
+12/08/2023,Holy Cross,Christina Vote,F,JR,0,0,0,2023-24
+12/08/2023,Holy Cross,Tamara Giaquinto,D,SR,0,1,1,2023-24
+12/08/2023,Holy Cross,Maeve Kelly,D,SO,0,0,0,2023-24
+12/08/2023,Holy Cross,Ani Fitzgerald,F,SR,1,0,1,2023-24
+12/08/2023,Holy Cross,Lilli Welcke,F,SO,0,0,0,2023-24
+12/08/2023,Holy Cross,Brooke Disher,D,SO,0,1,1,2023-24
+12/08/2023,Holy Cross,Catherine Foulem,F,SR,0,0,0,2023-24
+12/08/2023,Holy Cross,Mari Pietersen,G,FR,0,0,0,2023-24
+12/09/2023,Providence,Alexa Matses,G,GR,0,0,0,2023-24
+12/09/2023,Providence,Ella Huntley,F,FR,0,1,1,2023-24
+12/09/2023,Providence,Nadia Mattivi,D,GR,0,0,0,2023-24
+12/09/2023,Providence,Maggie Hanzel,D,JR,0,0,0,2023-24
+12/09/2023,Providence,Alex Law,F,FR,1,1,2,2023-24
+12/09/2023,Providence,Sydney Healey,F,SO,0,1,1,2023-24
+12/09/2023,Providence,Andi Calderone,D,SR,0,1,1,2023-24
+12/09/2023,Providence,Luisa Welcke,F,SO,1,0,1,2023-24
+12/09/2023,Providence,Lacey Martin,F,SR,0,0,0,2023-24
+12/09/2023,Providence,Neely Nicholson,F,FR,0,0,0,2023-24
+12/09/2023,Providence,Clara Yuhn,F,SO,1,1,2,2023-24
+12/09/2023,Providence,Julia Shaunessy,D,SR,0,0,0,2023-24
+12/09/2023,Providence,Madison Cardaci,D,SR,1,0,1,2023-24
+12/09/2023,Providence,Christina Vote,F,JR,0,1,1,2023-24
+12/09/2023,Providence,Tamara Giaquinto,D,SR,0,0,0,2023-24
+12/09/2023,Providence,Maeve Kelly,D,SO,0,1,1,2023-24
+12/09/2023,Providence,Ani Fitzgerald,F,SR,0,0,0,2023-24
+12/09/2023,Providence,Lilli Welcke,F,SO,0,1,1,2023-24
+12/09/2023,Providence,Brooke Disher,D,SO,0,0,0,2023-24
+12/09/2023,Providence,Catherine Foulem,F,SR,1,1,2,2023-24
