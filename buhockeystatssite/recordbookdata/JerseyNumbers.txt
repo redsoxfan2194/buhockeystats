@@ -902,6 +902,7 @@
 2007-09 Colin Wilson
 2018-20 Hugo Blixt
 2021-22 Ty Amonte
+2023-24 Max Lacroix
 #35
 1973-76 Pat Devlin
 1977-78 Bob Wels
