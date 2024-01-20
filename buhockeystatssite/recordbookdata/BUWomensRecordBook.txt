@@ -760,10 +760,10 @@ CAPTAIN: Nadia Mattivi,Madison Cardaci
 12/02 T (ot) Schneider Arena A Providence * 3-3
 12/08 W Walter Brown Arena H Holy Cross * 2-1
 12/09 W Walter Brown Arena H Providence * 5-1
-01/12 N Walter Brown Arena H New Hampshire * 0-0
-01/13 N Toscano Ice Forum A Connecticut * 0-0
-01/16 N Bright-Landry Hockey Center N Boston College (BP) 0-0
-01/19 N Walter Brown Arena H Vermont * 0-0
+01/12 L Walter Brown Arena H New Hampshire * 1-4
+01/13 L Toscano Ice Forum A Connecticut * 2-5
+01/16 T (ot) Bright-Landry Hockey Center N Boston College (BP) 3-3
+01/19 W Walter Brown Arena H Vermont * 6-1
 01/20 N Walter Brown Arena H Vermont * 0-0
 01/23 N TD Garden N Harvard/Northeastern (BP) 0-0
 01/26 N Walter Brown Arena H Holy Cross * 0-0

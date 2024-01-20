@@ -874,3 +874,5 @@
 12/02/2023,Merrimack,Mathieu Caron,FR,23,2,1,0,60.0,W,2023-24
 12/29/2023,Yale,Mathieu Caron,JR,23,1,1,0,60.0,W,2023-24
 01/09/2024,Northeastern,Mathieu Caron,FR,24,3,1,0,61.3,W,2023-24
+01/13/2024,New Hampshire,Mathieu Caron,FR,36,0,1,1,60.0,W,2023-24
+01/19/2024,Vermont,Mathieu Caron,FR,26,1,1,0,59.28,W,2023-24

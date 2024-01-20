@@ -3343,10 +3343,10 @@ CAPTAIN: Case McCarthy
 12/01 W Lawler Rink	Merrimack * 4-1
 12/02 W Agganis Arena	Merrimack * 5-2
 12/29 W Ingalls Rink	Yale 6-1
-01/05 T (ot) Agganis Arena	Simon Fraser (ex) 1-1 
+01/05 T (ot) Agganis Arena	Simon Fraser (ex) 1-1
 01/09 W (ot) Agganis Arena	Northeastern * 4-3
-01/13 N Agganis Arena	New Hampshire * 0-0
-01/19 N Gutterson Fieldhouse	Vermont * 0-0
+01/13 W Agganis Arena	New Hampshire * 3-0
+01/19 W Gutterson Fieldhouse	Vermont * 5-1
 01/20 N Gutterson Fieldhouse	Vermont * 0-0
 01/26 N Conte Forum	Boston College * 0-0
 01/27 N Agganis Arena	Boston College * 0-0
