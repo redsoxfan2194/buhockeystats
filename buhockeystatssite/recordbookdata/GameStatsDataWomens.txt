@@ -12696,3 +12696,83 @@
 01/08/2024,Maine,Brooke Disher,D,SO,0,1,1,2023-24
 01/08/2024,Maine,Catherine Foulem,F,SR,0,1,1,2023-24
 01/08/2024,Maine,Mari Pietersen,G,FR,0,0,0,2023-24
+01/12/2024,New Hampshire,Ella Huntley,F,FR,0,0,0,2023-24
+01/12/2024,New Hampshire,Jackson Kinsler,F,FR,0,0,0,2023-24
+01/12/2024,New Hampshire,Nadia Mattivi,D,GR,0,1,1,2023-24
+01/12/2024,New Hampshire,Maggie Hanzel,D,JR,0,0,0,2023-24
+01/12/2024,New Hampshire,Alex Law,F,FR,0,0,0,2023-24
+01/12/2024,New Hampshire,Sydney Healey,F,SO,0,0,0,2023-24
+01/12/2024,New Hampshire,Andi Calderone,D,SR,0,0,0,2023-24
+01/12/2024,New Hampshire,Luisa Welcke,F,SO,1,0,1,2023-24
+01/12/2024,New Hampshire,Lacey Martin,F,SR,0,0,0,2023-24
+01/12/2024,New Hampshire,Neely Nicholson,F,FR,0,0,0,2023-24
+01/12/2024,New Hampshire,Clara Yuhn,F,SO,0,0,0,2023-24
+01/12/2024,New Hampshire,Madison Cardaci,D,SR,0,0,0,2023-24
+01/12/2024,New Hampshire,Christina Vote,F,JR,0,0,0,2023-24
+01/12/2024,New Hampshire,Tamara Giaquinto,D,SR,0,0,0,2023-24
+01/12/2024,New Hampshire,Maeve Kelly,D,SO,0,0,0,2023-24
+01/12/2024,New Hampshire,Ani Fitzgerald,F,SR,0,0,0,2023-24
+01/12/2024,New Hampshire,Lilli Welcke,F,SO,0,0,0,2023-24
+01/12/2024,New Hampshire,Brooke Disher,D,SO,0,1,1,2023-24
+01/12/2024,New Hampshire,Catherine Foulem,F,SR,0,0,0,2023-24
+01/12/2024,New Hampshire,Callie Shanahan,G,JR,0,0,0,2023-24
+01/13/2024,Connecticut,Alexa Matses,G,GR,0,0,0,2023-24
+01/13/2024,Connecticut,Ella Huntley,F,FR,0,0,0,2023-24
+01/13/2024,Connecticut,Liv Haag,F,JR,0,0,0,2023-24
+01/13/2024,Connecticut,Nadia Mattivi,D,GR,0,1,1,2023-24
+01/13/2024,Connecticut,Maggie Hanzel,D,JR,0,0,0,2023-24
+01/13/2024,Connecticut,Alex Law,F,FR,0,0,0,2023-24
+01/13/2024,Connecticut,Sydney Healey,F,SO,1,0,1,2023-24
+01/13/2024,Connecticut,Andi Calderone,D,SR,0,0,0,2023-24
+01/13/2024,Connecticut,Luisa Welcke,F,SO,0,0,0,2023-24
+01/13/2024,Connecticut,Lacey Martin,F,SR,0,0,0,2023-24
+01/13/2024,Connecticut,Neely Nicholson,F,FR,0,0,0,2023-24
+01/13/2024,Connecticut,Clara Yuhn,F,SO,0,0,0,2023-24
+01/13/2024,Connecticut,Madison Cardaci,D,SR,0,0,0,2023-24
+01/13/2024,Connecticut,Christina Vote,F,JR,0,0,0,2023-24
+01/13/2024,Connecticut,Tamara Giaquinto,D,SR,0,2,2,2023-24
+01/13/2024,Connecticut,Maeve Kelly,D,SO,0,0,0,2023-24
+01/13/2024,Connecticut,Ani Fitzgerald,F,SR,0,0,0,2023-24
+01/13/2024,Connecticut,Lilli Welcke,F,SO,1,1,2,2023-24
+01/13/2024,Connecticut,Brooke Disher,D,SO,0,0,0,2023-24
+01/13/2024,Connecticut,Catherine Foulem,F,SR,0,0,0,2023-24
+01/16/2024,Boston College,Ella Huntley,F,FR,0,0,0,2023-24
+01/16/2024,Boston College,Nadia Mattivi,D,GR,0,0,0,2023-24
+01/16/2024,Boston College,Maggie Hanzel,D,JR,0,0,0,2023-24
+01/16/2024,Boston College,Alex Law,F,FR,0,0,0,2023-24
+01/16/2024,Boston College,Mikayla Blomquist,F,FR,0,0,0,2023-24
+01/16/2024,Boston College,Sydney Healey,F,SO,1,0,1,2023-24
+01/16/2024,Boston College,Andi Calderone,D,SR,0,0,0,2023-24
+01/16/2024,Boston College,Luisa Welcke,F,SO,1,0,1,2023-24
+01/16/2024,Boston College,Lacey Martin,F,SR,1,0,1,2023-24
+01/16/2024,Boston College,Neely Nicholson,F,FR,0,1,1,2023-24
+01/16/2024,Boston College,Clara Yuhn,F,SO,0,1,1,2023-24
+01/16/2024,Boston College,Madison Cardaci,D,SR,0,0,0,2023-24
+01/16/2024,Boston College,Christina Vote,F,JR,0,0,0,2023-24
+01/16/2024,Boston College,Tamara Giaquinto,D,SR,0,0,0,2023-24
+01/16/2024,Boston College,Maeve Kelly,D,SO,0,0,0,2023-24
+01/16/2024,Boston College,Ani Fitzgerald,F,SR,0,1,1,2023-24
+01/16/2024,Boston College,Lilli Welcke,F,SO,0,1,1,2023-24
+01/16/2024,Boston College,Brooke Disher,D,SO,0,0,0,2023-24
+01/16/2024,Boston College,Catherine Foulem,F,SR,0,0,0,2023-24
+01/16/2024,Boston College,Callie Shanahan,G,JR,0,0,0,2023-24
+01/19/2024,Vermont,Ella Huntley,F,FR,0,1,1,2023-24
+01/19/2024,Vermont,Jackson Kinsler,F,FR,0,0,0,2023-24
+01/19/2024,Vermont,Nadia Mattivi,D,GR,0,2,2,2023-24
+01/19/2024,Vermont,Maggie Hanzel,D,JR,1,0,1,2023-24
+01/19/2024,Vermont,Alex Law,F,FR,0,1,1,2023-24
+01/19/2024,Vermont,Sydney Healey,F,SO,1,0,1,2023-24
+01/19/2024,Vermont,Andi Calderone,D,SR,0,0,0,2023-24
+01/19/2024,Vermont,Luisa Welcke,F,SO,0,0,0,2023-24
+01/19/2024,Vermont,Lacey Martin,F,SR,1,0,1,2023-24
+01/19/2024,Vermont,Neely Nicholson,F,FR,0,0,0,2023-24
+01/19/2024,Vermont,Clara Yuhn,F,SO,1,2,3,2023-24
+01/19/2024,Vermont,Madison Cardaci,D,SR,0,0,0,2023-24
+01/19/2024,Vermont,Christina Vote,F,JR,0,0,0,2023-24
+01/19/2024,Vermont,Tamara Giaquinto,D,SR,0,1,1,2023-24
+01/19/2024,Vermont,Maeve Kelly,D,SO,0,1,1,2023-24
+01/19/2024,Vermont,Ani Fitzgerald,F,SR,1,0,1,2023-24
+01/19/2024,Vermont,Lilli Welcke,F,SO,0,0,0,2023-24
+01/19/2024,Vermont,Brooke Disher,D,SO,0,2,2,2023-24
+01/19/2024,Vermont,Catherine Foulem,F,SR,1,0,1,2023-24
+01/19/2024,Vermont,Callie Shanahan,G,JR,0,0,0,2023-24

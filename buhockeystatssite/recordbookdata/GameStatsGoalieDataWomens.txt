@@ -682,3 +682,7 @@
 12/08/2023,Holy Cross,Mari Pietersen,FR,21,1,1,0,59.9,W,2023-24
 12/09/2023,Providence,Alexa Matses,SR,21,1,1,0,59.87,W,2023-24
 01/08/2024,Maine,Mari Pietersen,FR,23,3,1,0,59.95,W,2023-24
+01/12/2024,New Hampshire,Callie Shanahan,JR,12,4,1,0,58.72,L,2023-24
+01/13/2024,Connecticut,Alexa Matses,SR,26,4,1,0,57.95,L,2023-24
+01/16/2024,Boston College,Callie Shanahan,JR,27,3,1,0,65.0,,2023-24
+01/19/2024,Vermont,Callie Shanahan,JR,14,1,1,0,59.95,W,2023-24
