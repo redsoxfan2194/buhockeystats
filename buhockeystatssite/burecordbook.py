@@ -3596,7 +3596,7 @@ def updateGameStats(gender):
                 'class': "text-center inline"}).find('dd').get_text()
         if (pd.to_datetime(dfGameStats.iloc[-1]
                            ['date']) >= pd.to_datetime(date)):
-            break
+            continue
         indBoxScore = soup.find('section', {'id': "individual-stats"})
         aTeam = indBoxScore.find_all('h4')[0].get_text()
         hTeam = indBoxScore.find_all('h4')[1].get_text()
