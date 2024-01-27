@@ -877,3 +877,4 @@
 01/13/2024,New Hampshire,Mathieu Caron,FR,36,0,1,1,60.0,W,2023-24
 01/19/2024,Vermont,Mathieu Caron,FR,26,1,1,0,59.28,W,2023-24
 01/20/2024,Vermont,Mathieu Caron,FR,24,2,1,0,60.0,W,2023-24
+01/26/2024,Boston College,Mathieu Caron,FR,28,2,1,0,59.05,L,2023-24

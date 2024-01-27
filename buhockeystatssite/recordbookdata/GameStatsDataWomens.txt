@@ -12795,3 +12795,43 @@
 01/20/2024,Vermont,Lilli Welcke,F,SO,0,0,0,2023-24
 01/20/2024,Vermont,Brooke Disher,D,SO,0,1,1,2023-24
 01/20/2024,Vermont,Catherine Foulem,F,SR,1,0,1,2023-24
+01/23/2024,Northeastern,Ella Huntley,F,FR,0,0,0,2023-24
+01/23/2024,Northeastern,Jackson Kinsler,F,FR,0,0,0,2023-24
+01/23/2024,Northeastern,Nadia Mattivi,D,GR,0,0,0,2023-24
+01/23/2024,Northeastern,Maggie Hanzel,D,JR,0,0,0,2023-24
+01/23/2024,Northeastern,Alex Law,F,FR,0,1,1,2023-24
+01/23/2024,Northeastern,Sydney Healey,F,SO,0,1,1,2023-24
+01/23/2024,Northeastern,Andi Calderone,D,SR,0,0,0,2023-24
+01/23/2024,Northeastern,Luisa Welcke,F,SO,0,0,0,2023-24
+01/23/2024,Northeastern,Lacey Martin,F,SR,0,0,0,2023-24
+01/23/2024,Northeastern,Neely Nicholson,F,FR,0,0,0,2023-24
+01/23/2024,Northeastern,Clara Yuhn,F,SO,0,0,0,2023-24
+01/23/2024,Northeastern,Madison Cardaci,D,SR,0,0,0,2023-24
+01/23/2024,Northeastern,Christina Vote,F,JR,0,0,0,2023-24
+01/23/2024,Northeastern,Tamara Giaquinto,D,SR,0,0,0,2023-24
+01/23/2024,Northeastern,Maeve Kelly,D,SO,0,0,0,2023-24
+01/23/2024,Northeastern,Ani Fitzgerald,F,SR,0,0,0,2023-24
+01/23/2024,Northeastern,Lilli Welcke,F,SO,0,0,0,2023-24
+01/23/2024,Northeastern,Brooke Disher,D,SO,0,0,0,2023-24
+01/23/2024,Northeastern,Catherine Foulem,F,SR,1,0,1,2023-24
+01/23/2024,Northeastern,Callie Shanahan,G,JR,0,0,0,2023-24
+01/26/2024,Holy Cross,Ella Huntley,F,FR,0,1,1,2023-24
+01/26/2024,Holy Cross,Liv Haag,F,JR,0,0,0,2023-24
+01/26/2024,Holy Cross,Jackson Kinsler,F,FR,0,0,0,2023-24
+01/26/2024,Holy Cross,Nadia Mattivi,D,GR,0,0,0,2023-24
+01/26/2024,Holy Cross,Alex Law,F,FR,0,0,0,2023-24
+01/26/2024,Holy Cross,Sydney Healey,F,SO,0,0,0,2023-24
+01/26/2024,Holy Cross,Andi Calderone,D,SR,0,0,0,2023-24
+01/26/2024,Holy Cross,Luisa Welcke,F,SO,0,0,0,2023-24
+01/26/2024,Holy Cross,Lacey Martin,F,SR,0,0,0,2023-24
+01/26/2024,Holy Cross,Neely Nicholson,F,FR,0,0,0,2023-24
+01/26/2024,Holy Cross,Clara Yuhn,F,SO,0,0,0,2023-24
+01/26/2024,Holy Cross,Madison Cardaci,D,SR,0,1,1,2023-24
+01/26/2024,Holy Cross,Christina Vote,F,JR,0,0,0,2023-24
+01/26/2024,Holy Cross,Tamara Giaquinto,D,SR,0,0,0,2023-24
+01/26/2024,Holy Cross,Maeve Kelly,D,SO,0,0,0,2023-24
+01/26/2024,Holy Cross,Ani Fitzgerald,F,SR,1,0,1,2023-24
+01/26/2024,Holy Cross,Lilli Welcke,F,SO,0,0,0,2023-24
+01/26/2024,Holy Cross,Brooke Disher,D,SO,0,0,0,2023-24
+01/26/2024,Holy Cross,Catherine Foulem,F,SR,0,0,0,2023-24
+01/26/2024,Holy Cross,Mari Pietersen,G,FR,0,0,0,2023-24

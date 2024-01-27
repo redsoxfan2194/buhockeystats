@@ -765,8 +765,8 @@ CAPTAIN: Nadia Mattivi,Madison Cardaci
 01/16 T (ot) Bright-Landry Hockey Center N Boston College (BP) 3-3
 01/19 W Walter Brown Arena H Vermont * 6-1
 01/20 W Walter Brown Arena H Vermont * 4-2
-01/23 N TD Garden N Northeastern (BP) 0-0
-01/26 N Walter Brown Arena H Holy Cross * 0-0
+01/23 L (ot) TD Garden N Northeastern (BP) 1-2
+01/26 L Walter Brown Arena H Holy Cross * 1-2
 01/27 N Hart Center A Holy Cross * 0-0
 02/02 N Walter Brown Arena H Boston College * 0-0
 02/03 N Conte Forum A Boston College * 0-0
