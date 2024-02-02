@@ -16315,3 +16315,43 @@
 01/26/2024,Boston College,Jack Hughes,F,JR,1,0,1,2023-24
 01/26/2024,Boston College,Mathieu Caron,G,JR,0,0,0,2023-24
 01/26/2024,Boston College,Macklin Celebrini,F,FR,0,0,0,2023-24
+01/27/2024,Boston College,Gavin McCarthy,D,FR,0,0,0,2023-24
+01/27/2024,Boston College,Ty Gallagher,D,JR,0,0,0,2023-24
+01/27/2024,Boston College,Tom Willander,D,FR,0,0,0,2023-24
+01/27/2024,Boston College,Case McCarthy,D,GR,0,0,0,2023-24
+01/27/2024,Boston College,Cade Webber,D,SR,0,0,0,2023-24
+01/27/2024,Boston College,Ryan Greene,F,SO,0,2,2,2023-24
+01/27/2024,Boston College,Nick Zabaneh,F,SR,0,0,0,2023-24
+01/27/2024,Boston College,Luke Tuch,F,SR,0,1,1,2023-24
+01/27/2024,Boston College,Jack Harvey,F,FR,0,0,0,2023-24
+01/27/2024,Boston College,Dylan Peterson,F,SR,0,1,1,2023-24
+01/27/2024,Boston College,Jeremy Wilmer,F,SO,0,0,0,2023-24
+01/27/2024,Boston College,Quinn Hutson,F,SO,0,1,1,2023-24
+01/27/2024,Boston College,Shane Lachance,F,FR,1,0,1,2023-24
+01/27/2024,Boston College,Lane Hutson,D,SO,0,1,1,2023-24
+01/27/2024,Boston College,Aiden Celebrini,D,FR,0,0,0,2023-24
+01/27/2024,Boston College,Doug Grimes,F,FR,0,0,0,2023-24
+01/27/2024,Boston College,Sam Stevens,F,GR,1,0,1,2023-24
+01/27/2024,Boston College,Jack Hughes,F,JR,0,0,0,2023-24
+01/27/2024,Boston College,Mathieu Caron,G,JR,0,0,0,2023-24
+01/27/2024,Boston College,Macklin Celebrini,F,FR,1,0,1,2023-24
+01/30/2024,Northeastern,Gavin McCarthy,D,FR,0,0,0,2023-24
+01/30/2024,Northeastern,Tristan Amonte,F,JR,0,0,0,2023-24
+01/30/2024,Northeastern,Ty Gallagher,D,JR,0,0,0,2023-24
+01/30/2024,Northeastern,Tom Willander,D,FR,0,0,0,2023-24
+01/30/2024,Northeastern,Case McCarthy,D,GR,0,0,0,2023-24
+01/30/2024,Northeastern,Cade Webber,D,SR,0,0,0,2023-24
+01/30/2024,Northeastern,Ryan Greene,F,SO,1,1,2,2023-24
+01/30/2024,Northeastern,Nick Zabaneh,F,SR,0,0,0,2023-24
+01/30/2024,Northeastern,Luke Tuch,F,SR,0,0,0,2023-24
+01/30/2024,Northeastern,Jack Harvey,F,FR,0,0,0,2023-24
+01/30/2024,Northeastern,Dylan Peterson,F,SR,0,0,0,2023-24
+01/30/2024,Northeastern,Jeremy Wilmer,F,SO,0,0,0,2023-24
+01/30/2024,Northeastern,Quinn Hutson,F,SO,1,2,3,2023-24
+01/30/2024,Northeastern,Shane Lachance,F,FR,0,0,0,2023-24
+01/30/2024,Northeastern,Lane Hutson,D,SO,0,2,2,2023-24
+01/30/2024,Northeastern,Aiden Celebrini,D,FR,0,0,0,2023-24
+01/30/2024,Northeastern,Sam Stevens,F,GR,0,0,0,2023-24
+01/30/2024,Northeastern,Jack Hughes,F,JR,0,0,0,2023-24
+01/30/2024,Northeastern,Mathieu Caron,G,JR,0,0,0,2023-24
+01/30/2024,Northeastern,Macklin Celebrini,F,FR,1,1,2,2023-24
