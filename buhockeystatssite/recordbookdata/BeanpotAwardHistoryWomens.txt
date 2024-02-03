@@ -42,3 +42,4 @@
 2020	Chloe Aurard	Northeastern	Aerin Frankel	Northeastern
 2022	Becca Gilmour	Harvard	Abigail Levy	Boston College
 2023	Maureeen Murphy	Northeastern	Gwyneth Philips	Northeastern
+2024	Skylar Irving	Northeastern	Gwyneth Philips	Northeastern
