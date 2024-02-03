@@ -16355,3 +16355,23 @@
 01/30/2024,Northeastern,Jack Hughes,F,JR,0,0,0,2023-24
 01/30/2024,Northeastern,Mathieu Caron,G,JR,0,0,0,2023-24
 01/30/2024,Northeastern,Macklin Celebrini,F,FR,1,1,2,2023-24
+02/02/2024,New Hampshire,Gavin McCarthy,D,FR,0,0,0,2023-24
+02/02/2024,New Hampshire,Ty Gallagher,D,JR,0,0,0,2023-24
+02/02/2024,New Hampshire,Tom Willander,D,FR,0,1,1,2023-24
+02/02/2024,New Hampshire,Case McCarthy,D,GR,0,0,0,2023-24
+02/02/2024,New Hampshire,Cade Webber,D,SR,0,1,1,2023-24
+02/02/2024,New Hampshire,Ryan Greene,F,SO,0,0,0,2023-24
+02/02/2024,New Hampshire,Nick Zabaneh,F,SR,2,0,2,2023-24
+02/02/2024,New Hampshire,Luke Tuch,F,SR,0,0,0,2023-24
+02/02/2024,New Hampshire,Jack Harvey,F,FR,0,2,2,2023-24
+02/02/2024,New Hampshire,Dylan Peterson,F,SR,0,1,1,2023-24
+02/02/2024,New Hampshire,Jeremy Wilmer,F,SO,0,1,1,2023-24
+02/02/2024,New Hampshire,Quinn Hutson,F,SO,0,1,1,2023-24
+02/02/2024,New Hampshire,Shane Lachance,F,FR,1,0,1,2023-24
+02/02/2024,New Hampshire,Lane Hutson,D,SO,0,1,1,2023-24
+02/02/2024,New Hampshire,Aiden Celebrini,D,FR,0,0,0,2023-24
+02/02/2024,New Hampshire,Doug Grimes,F,FR,0,0,0,2023-24
+02/02/2024,New Hampshire,Sam Stevens,F,GR,0,0,0,2023-24
+02/02/2024,New Hampshire,Jack Hughes,F,JR,2,1,3,2023-24
+02/02/2024,New Hampshire,Mathieu Caron,G,JR,0,0,0,2023-24
+02/02/2024,New Hampshire,Macklin Celebrini,F,FR,1,1,2,2023-24
