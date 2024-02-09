@@ -40,7 +40,7 @@ def redirect_to_https():
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame','notables']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame','notables','trio']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -851,6 +851,17 @@ def noteables():
     wActivePtStreak=burb.getActiveStreaks(burb.dfGameStatsWomens,currSeasonW),
     currSeasonM=currSeasonM,
     currSeasonW=currSeasonW)
+
+@app.route('/trio')
+def trio():
+    ''' Renders "Terrier Trio" Page
+
+    Returns:
+      Flask Template : flask template containing trio.html
+    '''
+    return render_template(
+    'trio.html',titletag=' - T. Anthony Trio Terrier Tallies"')
+
 
 @app.route('/trivia', methods=['POST', 'GET'])
 def dailyTrivia():

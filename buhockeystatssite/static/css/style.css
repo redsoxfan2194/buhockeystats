@@ -368,3 +368,21 @@ input[type="range"]::-ms-fill-upper {
 .note-nav{
   color: black;
 }
+
+.buhs-header{
+  color: #cc0000;
+}
+
+.buhs-table-odd{
+  color: #cc0000;
+  background-color: white;
+}
+
+.buhs-table-odd{
+  color: white;
+  background-color: #cc0000;
+}
+.buhs-table-even{
+  color: #cc0000;
+  background-color: white;
+}
