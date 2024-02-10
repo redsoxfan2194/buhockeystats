@@ -12895,3 +12895,22 @@
 02/03/2024,Boston College,Brooke Disher,D,SO,0,0,0,2023-24
 02/03/2024,Boston College,Catherine Foulem,F,SR,0,1,1,2023-24
 02/03/2024,Boston College,Callie Shanahan,G,JR,0,0,0,2023-24
+02/09/2024,Maine,Ella Huntley,F,FR,0,0,0,2023-24
+02/09/2024,Maine,Liv Haag,F,JR,0,0,0,2023-24
+02/09/2024,Maine,Jackson Kinsler,F,FR,0,0,0,2023-24
+02/09/2024,Maine,Maggie Hanzel,D,JR,0,0,0,2023-24
+02/09/2024,Maine,Sydney Healey,F,SO,0,0,0,2023-24
+02/09/2024,Maine,Andi Calderone,D,SR,0,0,0,2023-24
+02/09/2024,Maine,Luisa Welcke,F,SO,1,0,1,2023-24
+02/09/2024,Maine,Lacey Martin,F,SR,0,0,0,2023-24
+02/09/2024,Maine,Neely Nicholson,F,FR,0,0,0,2023-24
+02/09/2024,Maine,Clara Yuhn,F,SO,0,0,0,2023-24
+02/09/2024,Maine,Madison Cardaci,D,SR,0,0,0,2023-24
+02/09/2024,Maine,Christina Vote,F,JR,0,0,0,2023-24
+02/09/2024,Maine,Tamara Giaquinto,D,SR,0,0,0,2023-24
+02/09/2024,Maine,Maeve Kelly,D,SO,0,0,0,2023-24
+02/09/2024,Maine,Ani Fitzgerald,F,SR,0,0,0,2023-24
+02/09/2024,Maine,Lilli Welcke,F,SO,0,0,0,2023-24
+02/09/2024,Maine,Brooke Disher,D,SO,0,1,1,2023-24
+02/09/2024,Maine,Catherine Foulem,F,SR,0,0,0,2023-24
+02/09/2024,Maine,Callie Shanahan,G,JR,0,0,0,2023-24

@@ -16395,3 +16395,24 @@
 02/05/2024,Boston College,Jack Hughes,F,JR,0,0,0,2023-24
 02/05/2024,Boston College,Mathieu Caron,G,JR,0,0,0,2023-24
 02/05/2024,Boston College,Macklin Celebrini,F,FR,2,0,2,2023-24
+02/09/2024,Merrimack,Gavin McCarthy,D,FR,0,0,0,2023-24
+02/09/2024,Merrimack,Ty Gallagher,D,JR,0,1,1,2023-24
+02/09/2024,Merrimack,Tom Willander,D,FR,0,1,1,2023-24
+02/09/2024,Merrimack,Case McCarthy,D,GR,1,1,2,2023-24
+02/09/2024,Merrimack,Cade Webber,D,SR,0,0,0,2023-24
+02/09/2024,Merrimack,Ryan Greene,F,SO,0,1,1,2023-24
+02/09/2024,Merrimack,Nick Zabaneh,F,SR,0,1,1,2023-24
+02/09/2024,Merrimack,Luke Tuch,F,SR,0,0,0,2023-24
+02/09/2024,Merrimack,Jack Harvey,F,FR,2,0,2,2023-24
+02/09/2024,Merrimack,Dylan Peterson,F,SR,1,0,1,2023-24
+02/09/2024,Merrimack,Jeremy Wilmer,F,SO,1,1,2,2023-24
+02/09/2024,Merrimack,Quinn Hutson,F,SO,1,0,1,2023-24
+02/09/2024,Merrimack,Shane Lachance,F,FR,0,0,0,2023-24
+02/09/2024,Merrimack,Lane Hutson,D,SO,0,2,2,2023-24
+02/09/2024,Merrimack,Devin Kaplan,F,SO,0,1,1,2023-24
+02/09/2024,Merrimack,Aiden Celebrini,D,FR,0,0,0,2023-24
+02/09/2024,Merrimack,Sam Stevens,F,GR,0,0,0,2023-24
+02/09/2024,Merrimack,Jack Hughes,F,JR,0,2,2,2023-24
+02/09/2024,Merrimack,Max Lacroix,G,FR,0,0,0,2023-24
+02/09/2024,Merrimack,Mathieu Caron,G,JR,0,0,0,2023-24
+02/09/2024,Merrimack,Macklin Celebrini,F,FR,1,1,2,2023-24

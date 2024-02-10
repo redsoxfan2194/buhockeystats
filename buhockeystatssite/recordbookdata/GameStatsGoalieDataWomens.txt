@@ -692,3 +692,4 @@
 01/27/2024,Holy Cross,Callie Shanahan,JR,29,3,1,0,57.12,L,2023-24
 02/02/2024,Boston College,Callie Shanahan,JR,26,2,1,0,57.35,L,2023-24
 02/03/2024,Boston College,Callie Shanahan,JR,19,0,1,1,59.9,W,2023-24
+02/09/2024,Maine,Callie Shanahan,JR,28,3,1,0,56.3,L,2023-24
