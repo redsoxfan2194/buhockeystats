@@ -3458,7 +3458,19 @@ def updateCurrentSeasonStats(gender):
                              'season': currSeason}
                 currSkaters.append(skateDict)
         dfCurSkate = pd.DataFrame(currSkaters)
-
+        ### TEMP REMOVE WHEN FIXED
+        dfTemp=dfCurSkate[['name','gp','goals','assists','pts']].groupby('name').sum()
+        dfTemp.reset_index(inplace=True)
+        df=dfCurSkate[['name','pens']].copy()
+        df[['pen', 'pim']] = df['pens'].str.split('/', expand=True).astype(int)
+        sum_by_name = df.groupby('name')[['pen', 'pim']].sum().reset_index()
+        result_df = pd.merge(df, sum_by_name, on='name', suffixes=('_total', '_sum'))
+        dfTemp['pens'] = result_df['pen_sum'].astype(str) + '/' + result_df['pim_sum'].astype(str)
+        dfCurSkate=dfCurSkate.drop_duplicates(subset='name', keep='first')
+        for name in dfCurSkate.name: 
+          for stat in ['gp','goals','assists','pts','pens']:
+            dfCurSkate.query(f'name=="{name}"')[stat]=dfTemp.query(f'name=="{name}"')[stat]
+        #####
         curGoals = soup.find('section',
                              {'id': 'individual-overall-goaltenders'})
         rows = curGoals.find_all('tr')
