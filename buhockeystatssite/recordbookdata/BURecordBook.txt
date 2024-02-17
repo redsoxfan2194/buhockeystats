@@ -3354,8 +3354,8 @@ CAPTAIN: Case McCarthy
 02/02 W Whittemore Center Arena	New Hampshire * 6-3
 02/05 W TD Garden	Boston College (Pot) 4-3
 02/09 W Agganis Arena	Merrimack * 7-1
-02/12 N TD Garden	Northeastern (Pot) 0-0
-02/16 N Schneider Arena	Providence * 0-0
+02/12 L (ot) TD Garden	Northeastern (Pot) 3-4
+02/16 T (ot) Schneider Arena	Providence * 2-2
 02/17 N Agganis Arena	Providence * 0-0
 02/23 N Toscano Ice Forum	Connecticut * 0-0
 02/24 N Agganis Arena	Connecticut * 0-0
