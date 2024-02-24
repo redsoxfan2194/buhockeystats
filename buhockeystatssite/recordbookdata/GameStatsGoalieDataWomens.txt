@@ -695,3 +695,4 @@
 02/09/2024,Maine,Callie Shanahan,JR,28,3,1,0,56.3,L,2023-24
 02/16/2024,Vermont,Callie Shanahan,JR,25,1,1,0,60.0,W,2023-24
 02/17/2024,Merrimack,Callie Shanahan,JR,19,0,1,1,60.0,W,2023-24
+02/23/2024,Connecticut,Callie Shanahan,JR,26,4,1,0,58.57,L,2023-24
