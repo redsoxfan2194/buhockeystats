@@ -888,3 +888,4 @@
 02/16/2024,Providence,Mathieu Caron,FR,35,2,1,0,65.0,,2023-24
 02/17/2024,Providence,Mathieu Caron,FR,32,2,1,0,60.0,W,2023-24
 02/23/2024,Connecticut,Mathieu Caron,FR,26,1,1,0,59.88,W,2023-24
+02/24/2024,Connecticut,Mathieu Caron,FR,23,0,1,1,60.0,W,2023-24

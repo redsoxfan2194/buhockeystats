@@ -170,7 +170,7 @@
 	Carl Wennberg	F			6	10	16	—/2	1948-49
 18	Dana Hixon	F	JR			16		—/—	1948-49
 4	Ed Cahoon	F	JR		25	15	40	—/—	1948-49
-17	Jack Garrity	F	JR	21	34	23	57	—/20	1949-50
+17	Jack Garrity	F	SO	21	34	23	57	—/20	1949-50
 14	Bill Downing	F	JR		1	6	7	—/6	1950-51
 5	Bob Barrett	F	JR		0	0	0	—/2	1950-51
 19	Bob Bell	F			5	6	11	—/—	1950-51
@@ -180,7 +180,7 @@
 40	Ed Cahoon	F	SO	21	20	18	38	—/—	1950-51
 40	Ed Cahoon	F	SR		15	24	39	—/32	1950-51
 8	Irving Haynes	F			15	15	30	—/18	1950-51
-17	Jack Garrity	F	SR		51	33	84	—/37	1950-51
+17	Jack Garrity	F	JR		51	33	84	—/37	1950-51
 15	Jack Kelley	F/D	SO	21	26	17	43	—/8	1950-51
 15	Jack Kelley	F/D	SR		22	10	32	—/18	1950-51
 9	Jack Martin	F			15	17	32	—/8	1950-51
@@ -1685,32 +1685,32 @@
 28	Ethan Phillips	F	SR	29	4	7	11	7/14	2022-23
 32	Wilmer Skoog	F	SR	37	16	15	31	14/28	2022-23
 37	Matt Brown	F	SR	39	16	31	47	3/6	2022-23
-2	Gavin McCarthy	D	FR	31	0	3	3	12/24	2023-24
+2	Gavin McCarthy	D	FR	32	0	3	3	12/24	2023-24
 3	Tristan Amonte	F	JR	7	0	0	0	0/0	2023-24
 4	Ty Gallagher	D	JR	31	0	5	5	6/12	2023-24
-5	Tom Willander	D	FR	29	4	12	16	5/10	2023-24
-7	Case McCarthy	D	GR	31	2	4	6	6/12	2023-24
-8	Cade Webber	D	SR	29	0	6	6	9/26	2023-24
-9	Ryan Greene	F	SO	31	9	19	28	3/6	2023-24
-10	Nick Zabaneh	F	SR	31	5	3	8	9/18	2023-24
-11	Luke Tuch	F	SR	31	7	16	23	3/6	2023-24
-12	Jack Harvey	F	FR	12	3	6	9	1/2	2023-24
+5	Tom Willander	D	FR	30	4	14	18	5/10	2023-24
+7	Case McCarthy	D	GR	32	2	4	6	6/12	2023-24
+8	Cade Webber	D	SR	30	0	6	6	10/28	2023-24
+9	Ryan Greene	F	SO	32	9	19	28	3/6	2023-24
+10	Nick Zabaneh	F	SR	32	7	4	11	9/18	2023-24
+11	Luke Tuch	F	SR	32	8	17	25	4/8	2023-24
+12	Jack Harvey	F	FR	13	3	6	9	1/2	2023-24
 13	Dylan Peterson	F	SR	30	7	9	16	16/59	2023-24
-14	Mick Frechette	D	FR	6	0	1	1	1/2	2023-24
-16	Jeremy Wilmer	F	SO	31	5	25	30	1/2	2023-24
-17	Quinn Hutson	F	SO	31	12	15	27	11/33	2023-24
-18	Shane Lachance	F	FR	31	11	8	19	4/8	2023-24
+14	Mick Frechette	D	FR	7	0	2	2	1/2	2023-24
+16	Jeremy Wilmer	F	SO	32	6	29	35	1/2	2023-24
+17	Quinn Hutson	F	SO	32	13	15	28	11/33	2023-24
+18	Shane Lachance	F	FR	32	11	9	20	4/8	2023-24
 19	Jack Page	D	JR	1	0	0	0	0/0	2023-24
-20	Lane Hutson	D	SO	29	12	27	39	7/14	2023-24
-21	Devin Kaplan	F	SO	28	5	13	18	15/30	2023-24
-22	Aiden Celebrini	D	FR	29	1	5	6	9/18	2023-24
-23	Doug Grimes	F	FR	21	2	1	3	1/2	2023-24
-25	Sam Stevens	F	GR	31	7	6	13	15/30	2023-24
+20	Lane Hutson	D	SO	30	12	27	39	7/14	2023-24
+21	Devin Kaplan	F	SO	29	5	15	20	16/32	2023-24
+22	Aiden Celebrini	D	FR	30	1	5	6	9/18	2023-24
+23	Doug Grimes	F	FR	22	2	1	3	1/2	2023-24
+25	Sam Stevens	F	GR	32	7	6	13	15/30	2023-24
 26	Jack Gorton	F	FR	0	0	0	0	0/0	2023-24
-27	Jack Hughes	F	JR	29	7	11	18	6/12	2023-24
+27	Jack Hughes	F	JR	30	7	10	17	6/12	2023-24
 28	Thomas Jarman	D	SR	0	0	0	0	0/0	2023-24
 29	Nick Howard	G	GR	0	0	0	0	0/0	2023-24
 30	Henry Graham	G	SR	0	0	0	0	0/0	2023-24
-62	Mathieu Caron	G	JR	31	0	0	0	1/2	2023-24
-71	Macklin Celebrini	F	FR	29	25	22	47	6/12	2023-24
+62	Mathieu Caron	G	JR	32	0	0	0	1/2	2023-24
+71	Macklin Celebrini	F	FR	30	26	22	48	7/14	2023-24
 33	Max Lacroix	G	FR	1	0	0	0	0/0	2023-24
