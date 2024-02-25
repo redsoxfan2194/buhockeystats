@@ -2816,7 +2816,10 @@ def getBeanpotStats(dfBean, query):
     awardSearch = re.search("(eberly|mvp|most valuable|bert)", query)
     if 'semi3Winner' not in dfBeanpot.columns:
         dfBeanpot['semi3Winner'] = ''
+        dfBeanpot['semi3WinnerScore'] = ''
         dfBeanpot['semi3Loser'] = ''
+        dfBeanpot['semi3LoserScore'] = ''
+        dfBeanpot['note'] = ''
     tQuery = ''
     if timeSearch is not None:
         timeType = timeSearch.group(1)
@@ -2982,19 +2985,21 @@ def getBeanpotStats(dfBean, query):
                         'semi2OT']:
                     beanStr += dfBeanpot.loc[dfBeanpot[numType] ==
                                              year][i].to_string(index=False).lstrip(' ') + ' '
-                if ('semi3Winner' in dfBeanpot.columns and dfBeanpot.loc[dfBeanpot[numType] == year]['semi3Winner'].to_string(
-                        index=False).strip() != ''):
-                    beanStr += '\n'
-                    for i in [
-                        'semi3Winner',
-                        'semi3WinnerScore',
-                        'semi3Loser',
-                            'semi3LoserScore']:
-                        beanStr += dfBeanpot.loc[dfBeanpot[numType] ==
-                                                 year][i].to_string(index=False).lstrip(' ') + ' '
-                    beanStr += '\n' + \
-                        dfBeanpot.loc[dfBeanpot[numType] == year]['note'].to_string(
-                            index=False).lstrip(' ') + ' '
+                if ('semi3Winner' in dfBeanpot.columns and not dfBeanpot.loc[dfBeanpot[numType] == year]['semi3Winner'].empty):
+                  if(dfBeanpot.loc[dfBeanpot[numType] == year][i].to_string(index=False).lstrip(' ') != ''):
+                      beanStr += '\n'
+                      for i in [
+                          'semi3Winner',
+                          'semi3WinnerScore',
+                          'semi3Loser',
+                              'semi3LoserScore']:
+                          beanStr += dfBeanpot.loc[dfBeanpot[numType] ==
+                                                   year][i].to_string(index=False).lstrip(' ') + ' '
+                      beanStr += '\n' + \
+                          dfBeanpot.loc[dfBeanpot[numType] == year]['note'].to_string(
+                              index=False).lstrip(' ') + ' '
+                else:
+                  return ''
             if ((typeSearch.group(1) is None or 'cons' in typeSearch.group(
                     1)) and dfBeanpot.loc[dfBeanpot[numType] == year]['consWinner'].to_string(index=False).strip() != ''):
                 if typeSearch.group(1) is None:
