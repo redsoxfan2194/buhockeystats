@@ -745,7 +745,6 @@ CAPTAIN: Nadia Mattivi,Madison Cardaci
 10/07 L Matthews Arena A Northeastern * 0-2
 10/20 T (ot) Walter Brown Arena H Syracuse 4-4
 10/21 W Walter Brown Arena H Syracuse 6-1
-10/27 N Alfond Arena A Maine * 0-0
 10/28 W Alfond Arena A Maine * 4-3
 11/03 W (ot) Lawler Rink A Merrimack * 2-1
 11/04 W (ot) Walter Brown Arena H Merrimack * 4-3
@@ -760,6 +759,7 @@ CAPTAIN: Nadia Mattivi,Madison Cardaci
 12/02 T (ot) Schneider Arena A Providence * 3-3
 12/08 W Walter Brown Arena H Holy Cross * 2-1
 12/09 W Walter Brown Arena H Providence * 5-1
+01/08 W Alfond Arena A Maine * 4-3
 01/12 L Walter Brown Arena H New Hampshire * 1-4
 01/13 L Toscano Ice Forum A Connecticut * 2-5
 01/16 T (ot) Bright-Landry Hockey Center N Boston College (BP) 3-3
