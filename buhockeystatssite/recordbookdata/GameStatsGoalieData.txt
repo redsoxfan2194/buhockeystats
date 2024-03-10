@@ -890,3 +890,6 @@
 02/23/2024,Connecticut,Mathieu Caron,FR,26,1,1,0,59.88,W,2023-24
 02/24/2024,Connecticut,Mathieu Caron,FR,23,0,1,1,60.0,W,2023-24
 03/07/2024,Providence,Mathieu Caron,FR,24,2,1,0,59.95,W,2023-24
+03/09/2024,Vermont,Mathieu Caron,FR,18,1,1,0,54.35,W,2023-24
+03/09/2024,Vermont,Nick Howard,FR,0,0,1,0,0.1,,2023-24
+03/09/2024,Vermont,Henry Graham,FR,2,0,1,0,5.27,,2023-24
