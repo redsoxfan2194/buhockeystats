@@ -3362,7 +3362,8 @@ CAPTAIN: Case McCarthy
 03/07 W Schneider Arena	Providence * 4-2
 03/09 W Agganis Arena	Vermont * 6-1
 03/16 W Agganis Arena	Northeastern (HE) 4-2
-03/22 N TD Garden	Maine (HE) 0-0
+03/22 W TD Garden	Maine (HE) 4-1
+03/23 L TD Garden	Boston College (HE) 2-6
 Key to Tournaments
 ALS Auld Lang Syne Tournament
 B1G/HE Big Ten/Hockey East Challenge

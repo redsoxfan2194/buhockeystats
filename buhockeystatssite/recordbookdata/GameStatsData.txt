@@ -16580,3 +16580,43 @@
 03/16/2024,Northeastern,Jack Hughes,F,JR,0,1,1,2023-24
 03/16/2024,Northeastern,Mathieu Caron,G,JR,0,0,0,2023-24
 03/16/2024,Northeastern,Macklin Celebrini,F,FR,1,0,1,2023-24
+03/22/2024,Maine,Gavin McCarthy,D,FR,0,0,0,2023-24
+03/22/2024,Maine,Ty Gallagher,D,JR,0,0,0,2023-24
+03/22/2024,Maine,Tom Willander,D,FR,0,0,0,2023-24
+03/22/2024,Maine,Case McCarthy,D,GR,0,0,0,2023-24
+03/22/2024,Maine,Cade Webber,D,SR,0,0,0,2023-24
+03/22/2024,Maine,Ryan Greene,F,SO,2,0,2,2023-24
+03/22/2024,Maine,Nick Zabaneh,F,SR,0,0,0,2023-24
+03/22/2024,Maine,Luke Tuch,F,SR,0,1,1,2023-24
+03/22/2024,Maine,Jack Harvey,F,FR,0,0,0,2023-24
+03/22/2024,Maine,Dylan Peterson,F,SR,0,0,0,2023-24
+03/22/2024,Maine,Jeremy Wilmer,F,SO,0,0,0,2023-24
+03/22/2024,Maine,Quinn Hutson,F,SO,0,2,2,2023-24
+03/22/2024,Maine,Shane Lachance,F,FR,0,1,1,2023-24
+03/22/2024,Maine,Lane Hutson,D,SO,1,0,1,2023-24
+03/22/2024,Maine,Devin Kaplan,F,SO,0,0,0,2023-24
+03/22/2024,Maine,Aiden Celebrini,D,FR,0,0,0,2023-24
+03/22/2024,Maine,Sam Stevens,F,GR,1,0,1,2023-24
+03/22/2024,Maine,Jack Hughes,F,JR,0,0,0,2023-24
+03/22/2024,Maine,Mathieu Caron,G,JR,0,0,0,2023-24
+03/22/2024,Maine,Macklin Celebrini,F,FR,0,3,3,2023-24
+03/23/2024,Boston College,Gavin McCarthy,D,FR,1,0,1,2023-24
+03/23/2024,Boston College,Ty Gallagher,D,JR,0,0,0,2023-24
+03/23/2024,Boston College,Tom Willander,D,FR,0,0,0,2023-24
+03/23/2024,Boston College,Case McCarthy,D,GR,0,0,0,2023-24
+03/23/2024,Boston College,Cade Webber,D,SR,0,0,0,2023-24
+03/23/2024,Boston College,Ryan Greene,F,SO,0,2,2,2023-24
+03/23/2024,Boston College,Nick Zabaneh,F,SR,0,0,0,2023-24
+03/23/2024,Boston College,Luke Tuch,F,SR,0,0,0,2023-24
+03/23/2024,Boston College,Jack Harvey,F,FR,0,0,0,2023-24
+03/23/2024,Boston College,Dylan Peterson,F,SR,0,0,0,2023-24
+03/23/2024,Boston College,Jeremy Wilmer,F,SO,0,0,0,2023-24
+03/23/2024,Boston College,Quinn Hutson,F,SO,0,0,0,2023-24
+03/23/2024,Boston College,Shane Lachance,F,FR,0,0,0,2023-24
+03/23/2024,Boston College,Lane Hutson,D,SO,0,1,1,2023-24
+03/23/2024,Boston College,Devin Kaplan,F,SO,0,0,0,2023-24
+03/23/2024,Boston College,Aiden Celebrini,D,FR,0,0,0,2023-24
+03/23/2024,Boston College,Sam Stevens,F,GR,0,0,0,2023-24
+03/23/2024,Boston College,Jack Hughes,F,JR,0,0,0,2023-24
+03/23/2024,Boston College,Mathieu Caron,G,JR,0,0,0,2023-24
+03/23/2024,Boston College,Macklin Celebrini,F,FR,1,0,1,2023-24

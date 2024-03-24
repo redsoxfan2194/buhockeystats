@@ -894,3 +894,5 @@
 03/09/2024,Vermont,Nick Howard,FR,0,0,1,0,0.1,,2023-24
 03/09/2024,Vermont,Henry Graham,FR,2,0,1,0,5.27,,2023-24
 03/16/2024,Northeastern,Mathieu Caron,FR,21,2,1,0,60.0,W,2023-24
+03/22/2024,Maine,Mathieu Caron,FR,32,1,1,0,60.0,W,2023-24
+03/23/2024,Boston College,Mathieu Caron,FR,23,5,1,0,58.72,L,2023-24
