@@ -896,3 +896,4 @@
 03/16/2024,Northeastern,Mathieu Caron,FR,21,2,1,0,60.0,W,2023-24
 03/22/2024,Maine,Mathieu Caron,FR,32,1,1,0,60.0,W,2023-24
 03/23/2024,Boston College,Mathieu Caron,FR,23,5,1,0,58.72,L,2023-24
+03/28/2024,RIT,Mathieu Caron,FR,28,3,1,0,60.0,W,2023-24

@@ -16620,3 +16620,23 @@
 03/23/2024,Boston College,Jack Hughes,F,JR,0,0,0,2023-24
 03/23/2024,Boston College,Mathieu Caron,G,JR,0,0,0,2023-24
 03/23/2024,Boston College,Macklin Celebrini,F,FR,1,0,1,2023-24
+03/28/2024,RIT,Gavin McCarthy,D,FR,0,0,0,2023-24
+03/28/2024,RIT,Ty Gallagher,D,JR,0,0,0,2023-24
+03/28/2024,RIT,Tom Willander,D,FR,0,2,2,2023-24
+03/28/2024,RIT,Case McCarthy,D,GR,0,0,0,2023-24
+03/28/2024,RIT,Cade Webber,D,SR,0,0,0,2023-24
+03/28/2024,RIT,Ryan Greene,F,SO,1,0,1,2023-24
+03/28/2024,RIT,Nick Zabaneh,F,SR,0,2,2,2023-24
+03/28/2024,RIT,Luke Tuch,F,SR,0,0,0,2023-24
+03/28/2024,RIT,Jack Harvey,F,FR,1,0,1,2023-24
+03/28/2024,RIT,Dylan Peterson,F,SR,1,1,2,2023-24
+03/28/2024,RIT,Jeremy Wilmer,F,SO,0,0,0,2023-24
+03/28/2024,RIT,Quinn Hutson,F,SO,0,0,0,2023-24
+03/28/2024,RIT,Shane Lachance,F,FR,0,1,1,2023-24
+03/28/2024,RIT,Lane Hutson,D,SO,1,1,2,2023-24
+03/28/2024,RIT,Devin Kaplan,F,SO,0,2,2,2023-24
+03/28/2024,RIT,Aiden Celebrini,D,FR,0,0,0,2023-24
+03/28/2024,RIT,Sam Stevens,F,GR,1,0,1,2023-24
+03/28/2024,RIT,Jack Hughes,F,JR,0,0,0,2023-24
+03/28/2024,RIT,Mathieu Caron,G,JR,0,0,0,2023-24
+03/28/2024,RIT,Macklin Celebrini,F,FR,1,1,2,2023-24
