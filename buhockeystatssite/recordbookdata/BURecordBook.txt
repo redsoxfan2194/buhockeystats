@@ -3365,7 +3365,8 @@ CAPTAIN: Case McCarthy
 03/22 W TD Garden	Maine (HE) 4-1
 03/23 L TD Garden	Boston College (HE) 2-6
 03/28 W Denny Sanford Premier Center	RIT (NCAA) 6-3
-03/30 N Denny Sanford Premier Center	Minnesota (NCAA) 0-0
+03/30 W Denny Sanford Premier Center	Minnesota (NCAA) 6-3
+04/11 N Xcel Energy Center	Denver (NCAA) 0-0
 Key to Tournaments
 ALS Auld Lang Syne Tournament
 B1G/HE Big Ten/Hockey East Challenge
