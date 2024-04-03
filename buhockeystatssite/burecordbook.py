@@ -1427,7 +1427,7 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
         "^(?:\s*)?last (\\d* )?(?:win|loss|tie)?",
         query.lstrip())
     numRes = 1
-    
+
     if numStartSearch is not None:
         query = query.replace('wins', 'win')
         query = query.replace('losses', 'loss')
@@ -1839,7 +1839,7 @@ def getPlayerStats(playerDfs, query):
     dfSkate = playerDfs['careerSkaters']
     dfSkate['gp']=dfSkate['gp'].astype('Int64')
     dfSkate['pim']=dfSkate['pim'].astype('Int64')
-    
+
     dfGoalie = playerDfs['careerGoalies']
     dfGoalie['gp']=dfGoalie['gp'].astype('Int64')
     dfGoalie['ga']=dfGoalie['ga'].astype('Int64')
@@ -1847,7 +1847,7 @@ def getPlayerStats(playerDfs, query):
     dfGoalie['W']=dfGoalie['W'].astype('Int64')
     dfGoalie['L']=dfGoalie['L'].astype('Int64')
     dfGoalie['T']=dfGoalie['T'].astype('Int64')
-    
+
     dfJersey = playerDfs['jerseys']
     dfLead = playerDfs['seasonleaders']
     dfSeasSkate = playerDfs['seasonSkaters']
@@ -1855,13 +1855,13 @@ def getPlayerStats(playerDfs, query):
     dfSeasSkate['goals']=dfSeasSkate['goals'].astype('Int64')
     dfSeasSkate['assists']=dfSeasSkate['assists'].astype('Int64')
     dfSeasSkate['pts']=dfSeasSkate['pts'].astype('Int64')
-    
+
     dfSeasGoalie = playerDfs['seasonGoalies']
     dfSeasGoalie['gp']=dfSeasGoalie['gp'].astype('Int64')
     dfSeasGoalie['ga']=dfSeasGoalie['ga'].astype('Int64')
     dfSeasGoalie['saves']=dfSeasGoalie['saves'].astype('Int64')
     dfSeasGoalie['SO']=dfSeasGoalie['SO'].astype('Int64')
-    
+
     dfGameStats = playerDfs['gameStats']
     dfGameStatsGoalie = playerDfs['gameGoalieStats']
     opponent = ''
@@ -2700,7 +2700,7 @@ def getPlayerStats(playerDfs, query):
                 else:
                   resStr += "----------------------\nCareer     {} {}-{}-{}".format(
                       gStatsLine['gp'].to_string(index=False),gStatsLine['W'].to_string(index=False), gStatsLine['L'].to_string(index=False), gStatsLine['T'].to_string(index=False))
-                  
+
             elif ('so' in stat or 'shut' in stat):
                 resStr = 'Season  Yr GP  SO\n'
                 cStats = False
@@ -2932,7 +2932,7 @@ def getBeanpotStats(dfBean, query):
             dfRes = dfBeanpot.loc[dfBeanpot['edition'] == year]
             numType = 'edition'
         finStr = ''
-        
+
         if ('champ' in qType or 'winner' in qType or '1st' in qType or 'first' in qType or qType == 'finish'):
             finStr += "Champion: " + \
                 dfRes['champion'].to_string(index=False).lstrip(' ') + "\n"
@@ -3354,7 +3354,7 @@ def getStreaks(dfGStats,stat='pts',minStr=3,sortVal='Length',ascend=False):
         dfOut=pd.concat([dfOut,row])
         dfOut=dfOut.reset_index()[['Name','Length','Start','End']]
     return dfOut.sort_values(sortVal,ascending=ascend)
-   
+
 def getTopStreaks(dfGStats,season="2022-23",stat='pts',topN=5):
     dfResTeam=pd.DataFrame()
     for player in dfGStats.name.unique():
@@ -3394,7 +3394,8 @@ def getActiveStreaks(dfGStats,season="2022-23",stat='pts'):
     currPlayers=dfGStats.query(f'season=="{season}"').name.to_list()
     lastGame=dfResTeam.loc[dfResTeam['name'].isin(currPlayers)].groupby('name').last()
     lastGame.reset_index(inplace=True)
-    activeStatStreak=lastGame.query('isStat')
+    activeStatStreak=lastGame.query('isStat').sort_values('streak_counter',ascending=False)
+    activeStatStreak.reset_index(inplace=True)
     dfOut=pd.DataFrame()
     for i in activeStatStreak.iloc:
         startDate=dfResTeam.query(f'name==\"{i["name"]}\" and streak_id=={i["streak_id"]}')['date'].dt.strftime("%m/%d/%y").head(1).to_string(index=False)
@@ -3407,21 +3408,20 @@ def getActiveStreaks(dfGStats,season="2022-23",stat='pts'):
     if(dfOut.empty):
       return 'N/A'
     else:
-      dfOut=dfOut.sort_values('streakNum',ascending=False)
       dfOut=dfOut[['name','streakVal','date']]
       return dfOut.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
-      
+
 def getHatTricks(dfGStats,season="2022-23"):
   if(dfGStats.query(f'season=="{season}" and goals>=3').empty):
     return 'N/A'
   return dfGStats.query(f'season=="{season}" and goals>=3')[['date','name','opponent']].assign(date=dfGStats['date'].dt.strftime('%m/%d')).style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
-  
+
 def getShutouts(dfGStats,season="2022-23"):
   if(dfGStats.query(f'season=="{season}" and SO>0').empty):
     return 'N/A'
   return dfGStats.query(f'season=="{season}" and SO>0')[['date','name','opponent']].assign(date=dfGStats['date'].dt.strftime('%m/%d')).style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
-  
-  
+
+
 def updateCurrentSeasonStats(gender):
     '''scrape site and return updated current season stats'''
     if gender == 'Mens':
@@ -3730,7 +3730,7 @@ def updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie):
             dfSkate['seasons'].str.contains(currSeason)), 'pens'] = pen
         dfSkate.loc[(dfSkate['name'].str.contains(player,case=False)) & (
             dfSkate['seasons'].str.contains(currSeason)), 'pim'] = pim
-        
+
     for player in curGoalieList:
         dfRes = dfSeasGoalie.loc[dfSeasGoalie['name'] == player]
         if 'Brändli' in player:
@@ -3815,7 +3815,7 @@ def updateResults(gender):
                         game['scoreline']),
                         line)
             sources.write(line)
-            
+
 def initializeRecordBook():
   ''' initialize all DataFrames in record book'''
   global dfGames, dfGamesWomens, dfJersey, dfJerseyMens, dfJerseyWomens, dfSkate, dfSkateMens, dfSkateWomens, dfGoalie, dfGoalieMens, dfGoalieWomens, dfLead, dfLeadWomens, dfBeanpot, dfBeanpotWomens, dfSeasSkate, dfSeasSkateMens, dfSeasSkateWomens, dfSeasGoalie, dfSeasGoalieMens, dfSeasGoalieWomens, dfGameStats, dfGameStatsMens, dfGameStatsWomens, dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens, dfBeanpotAwards, dfBeanpotAwardsWomens
@@ -3846,7 +3846,7 @@ def refreshStats():
   updateGameStats('Womens')
   initializeRecordBook()
   print("Stats Refreshed")
-  
+
 # Awards
 awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 1984:"Cleon Daskalakis",
@@ -3933,14 +3933,16 @@ awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 2015:"Jack Eichel",
 2017:"Clayton Keller",
 2019:"Joel Farabee",
-2023:"Lane Hutson"},
-    
+2023:"Lane Hutson",
+2024:"Macklin Celebrini"},
+
 "Hockey East Player of the Year" : {1996:"Jay Pandolfo",
 1997:"Chris Drury",
 1998:"Chris Drury",
 2007:"John Curry",
-2015:"Jack Eichel"},
-    
+2015:"Jack Eichel",
+2024:"Macklin Celebrini"},
+
 "Tim Taylor Award":{2009:"Kieran Millan",
 2015:"Jack Eichel",
 2017:"Clayton Keller"},
