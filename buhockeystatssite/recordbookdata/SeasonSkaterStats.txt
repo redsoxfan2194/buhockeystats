@@ -1693,7 +1693,7 @@
 8	Cade Webber	D	SR	37	0	6	6	11/30	2023-24
 9	Ryan Greene	F	SO	39	12	24	36	3/6	2023-24
 10	Nick Zabaneh	F	SR	39	8	8	16	13/34	2023-24
-11	Luke Tuch	F	SR	38	9	19	28	5/10	2023-24
+11	Luke Tuch	F	SR	38	9	20	29	5/10	2023-24
 12	Jack Harvey	F	FR	20	7	8	15	1/2	2023-24
 13	Dylan Peterson	F	SR	35	8	12	20	18/71	2023-24
 14	Mick Frechette	D	FR	8	0	2	2	1/2	2023-24
