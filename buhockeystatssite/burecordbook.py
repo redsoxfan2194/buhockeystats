@@ -3449,7 +3449,7 @@ def updateCurrentSeasonStats(gender):
         for i in rows:
             col = i.find_all('td')
             name = i.find('span')
-            if name is not None:
+            if name is not None and name.get_text() != "Team":
                 lastName, firstName = name.get_text().split(', ')
                 skateDict = {'number': int(col[0].get_text()),
                              'last': lastName,
@@ -3472,7 +3472,7 @@ def updateCurrentSeasonStats(gender):
             col = i.find_all('td')
             name = i.find('span')
 
-            if name is not None:
+            if name is not None and name.get_text() != "Team":
                 lastName, firstName = name.get_text().split(',')
                 goalDict = {'number': int(col[0].get_text()),
                             'last': lastName,
