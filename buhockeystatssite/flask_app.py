@@ -2,6 +2,7 @@
 import re
 import random
 import datetime
+import calendar as cal
 import numpy as np
 import pandas as pd
 import pytz
@@ -40,7 +41,7 @@ def redirect_to_https():
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame','notables','trio']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'trio', 'birthdays']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -66,7 +67,7 @@ if(datetime.datetime.now(easternTZ).month>=10 or datetime.datetime.now(easternTZ
     burb.refreshStats()
   except:
     print('Failed to Refresh Stats...Initializing')
-    burb.initializeRecordBook()
+  burb.initializeRecordBook()
     
 else:
   print('Initializing Record Book...')
@@ -851,7 +852,7 @@ def noteables():
     wActivePtStreak=burb.getActiveStreaks(burb.dfGameStatsWomens,currSeasonW),
     currSeasonM=currSeasonM,
     currSeasonW=currSeasonW)
-
+    
 @app.route('/trio')
 def trio():
     ''' Renders "Terrier Trio" Page
@@ -861,6 +862,59 @@ def trio():
     '''
     return render_template(
     'trio.html',titletag=' - T. Anthony Trio Terrier Tallies"')
+
+@app.route('/birthday')
+@app.route('/birthdays',methods=['GET'])
+def birthdays():
+    d_str = request.args.get('date')  # Get the 'year' parameter from the request
+        # You can now use the 'year' variable to perform any logic you need
+    if(d_str is None):
+      today = datetime.datetime.now()
+      # Get month and year
+      year = request.args.get('year', today.year, type=int)
+      month = request.args.get('month', today.month, type=int)
+      day = request.args.get('day', today.day, type=int)
+    else:
+      today = d_str.split('-')
+      year = int(today[0])
+      month = int(today[1])
+      day = 1
+
+    # Create a date for the first day of the month
+    first_day = datetime.datetime(year, month, 1)
+
+    # Calculate the number of days in the month
+    num_days = (first_day + datetime.timedelta(days=32)).replace(day=1) - datetime.timedelta(days=1)
+    
+    birthdays = burb.getBirthdays(year,month)
+
+    # Create a calendar grid
+    calendar = [
+        [None] * 7 for _ in range((num_days.day + first_day.weekday() + 7) // 7)
+    ]
+
+    # Fill in the calendar with the days of the month
+    for day in range(1, num_days.day + 1):
+        row = (day + first_day.weekday()) // 7
+        col = (day + first_day.weekday()) % 7
+        calendar[row][col] = {
+            'day': day,
+            'birthdays': birthdays[birthdays['Day'] == day]['name_age'].tolist()
+        }
+        
+    if(not any(calendar[0])):
+      calendar.pop(0)
+      
+    return render_template(
+        'birthdays.html',
+        titletag='- Birthdays',
+        year=year,
+        month=cal.month_name[month],
+        calendar=calendar,
+        birthdays=birthdays,
+        prev_month=(first_day - datetime.timedelta(days=1)).strftime('%Y-%m'),
+        next_month=(first_day + datetime.timedelta(days=num_days.day)).strftime('%Y-%m')
+    )
 
 
 @app.route('/trivia', methods=['POST', 'GET'])
@@ -1424,7 +1478,6 @@ def generateStreaks(dfRes):
   return dfOut
 
 def filterStats(formData,dfStat):
-
     dfRes=dfStat.copy()
     if(formData['gpmin']!=''):
       dfRes=dfRes.query(f"gp{formData['gpop']} {int(formData['gpmin'])}")
@@ -1446,7 +1499,10 @@ def filterStats(formData,dfStat):
       if(formData['gamin'] != ''):
         dfRes=dfRes.query(f"ga{formData['gaop']} {int(formData['gamin'])}")
       if(formData['savesmin'] != ''):
-        dfRes=dfRes.query(f"saves{formData['savesop']} {int(formData['savesmin'])}")
+        if('sv' in dfRes.columns):
+          dfRes=dfRes.query(f"sv{formData['savesop']} {int(formData['savesmin'])}")
+        else:
+          dfRes=dfRes.query(f"saves{formData['savesop']} {int(formData['savesmin'])}")
     return dfRes
 
 if __name__ == '__main__':

@@ -3816,6 +3816,18 @@ def updateResults(gender):
                         line)
             sources.write(line)
 
+def getBirthdays(year,month):
+  ''' returns Birthdays for given month and year'''
+  dfBirthday = pd.read_csv(RECBOOK_DATA_PATH + 'birthdays.csv')
+
+  # Get birthdays for the current month
+  birthdays = dfBirthday.query(f'Month == {month}').copy()
+  birthdays['age'] = year - birthdays['Year']
+  birthdays = birthdays.query('age>=0').copy()
+  birthdays['name_age'] = birthdays['name']+ " (" + birthdays['age'].astype(str) + ")"
+  return birthdays
+     
+     
 def initializeRecordBook():
   ''' initialize all DataFrames in record book'''
   global dfGames, dfGamesWomens, dfJersey, dfJerseyMens, dfJerseyWomens, dfSkate, dfSkateMens, dfSkateWomens, dfGoalie, dfGoalieMens, dfGoalieWomens, dfLead, dfLeadWomens, dfBeanpot, dfBeanpotWomens, dfSeasSkate, dfSeasSkateMens, dfSeasSkateWomens, dfSeasGoalie, dfSeasGoalieMens, dfSeasGoalieWomens, dfGameStats, dfGameStatsMens, dfGameStatsWomens, dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens, dfBeanpotAwards, dfBeanpotAwardsWomens
@@ -3900,7 +3912,8 @@ awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 "2016-17" : ["Charlie McAvoy"],
 "2019-20" : ["David Farrance"],
 "2021-22" : ["David Farrance"],
-"2022-23" : ["Lane Hutson"]},
+"2022-23" : ["Lane Hutson"],
+"2023-24" : ["Macklin Celebrini","Lane Hutson"]},
 
 "Second Team All-American":{"1983-84" : ["T.J. Connolly"],
 "1985-86" : ["Jay Octeau","John Cullen","Clark Donatelli"],
@@ -3945,7 +3958,8 @@ awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 
 "Tim Taylor Award":{2009:"Kieran Millan",
 2015:"Jack Eichel",
-2017:"Clayton Keller"},
+2017:"Clayton Keller",
+2024:"Macklin Celebrini"},
 
 "NCAA Scoring Champion":{"Jack Garrity": [1950],
 "Herb Wakabayashi": [1967],
