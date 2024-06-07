@@ -3321,8 +3321,8 @@ CAPTAIN: Domenick Fensore
 03/25 W VW Arena	Cornell (NCAA) 2-1
 04/06 L Amalie Arena	Minnesota (NCAA) 2-6
 2023-24
-OVERALL: 0-0-0
-HOCKEY EAST: 0-0-0, 1st
+OVERALL: 28-10-2
+HOCKEY EAST: 18-4-2, 2nd
 COACH: Jay Pandolfo
 CAPTAIN: Case McCarthy
 10/07 W (ot) Bentley Arena	Bentley 3-2
@@ -3367,6 +3367,48 @@ CAPTAIN: Case McCarthy
 03/28 W Denny Sanford Premier Center	RIT (NCAA) 6-3
 03/30 W Denny Sanford Premier Center	Minnesota (NCAA) 6-3
 04/11 L (ot) Xcel Energy Center	Denver (NCAA) 1-2
+2024-25
+OVERALL: 0-0-0
+HOCKEY EAST: 0-0-0, 1st
+COACH: Jay Pandolfo
+CAPTAIN: TBD
+10/05 N Agganis Arena	Holy Cross 0-0
+10/12 N Agganis Arena	Union 0-0
+10/18 N Agganis Arena	Connecticut 0-0
+10/19 N Agganis Arena	Harvard (ex) 0-0
+10/25 N Engelstad Arena	North Dakota 0-0
+10/26 N Engelstad Arena	North Dakota 0-0
+11/01 N Agganis Arena	Michigan 0-0
+11/02 N Agganis Arena	Michigan 0-0
+11/08 N Agganis Arena	UMass Lowell * 0-0
+11/09 N Tsongas Center	UMass Lowell * 0-0
+11/15 N Alfond Arena	Maine * 0-0
+11/16 N Alfond Arena	Maine * 0-0
+11/22 N Agganis Arena	Merrimack * 0-0
+11/29 N SSE Arena	Merrimack * (FF-NI) 0-0
+11/30 N SSE Arena	Harvard/Notre Dame (FF-NI) 0-0
+12/07 N Agganis Arena	Massachusetts * 0-0
+12/11 N Mullins Center	Massachusetts * 0-0
+12/13 N Agganis Arena	U.S. Under-18 Team (ex) 0-0
+12/29 N Ingalls Rink	Yale 0-0
+01/10 N Agganis Arena	Vermont * 0-0
+01/11 N Agganis Arena	Vermont * 0-0
+01/17 N Whittemore Center Arena	New Hampshire * 0-0
+01/18 N Agganis Arena	New Hampshire * 0-0
+01/24 N Agganis Arena	Boston College * 0-0
+01/25 N Conte Forum	Boston College * 0-0
+01/31 N Agganis Arena	New Hampshire * 0-0
+02/03 N TD Garden	Harvard (Pot) 0-0
+02/07 N Lawler Rink	Merrimack * 0-0
+02/10 N TD Garden	Boston College/Northeastern (Pot) 0-0
+02/14 N Schneider Arena	Providence * 0-0
+02/15 N Agganis Arena	Providence * 0-0
+02/21 N Agganis Arena	Northeastern * 0-0
+02/22 N Matthews Arena	Northeastern * 0-0
+02/25 N Toscano Ice Forum	Connecticut * 0-0
+03/06 N Agganis Arena	Providence * 0-0
+03/08 N Gutterson Fieldhouse	Vermont * 0-0
+
 Key to Tournaments
 ALS Auld Lang Syne Tournament
 B1G/HE Big Ten/Hockey East Challenge

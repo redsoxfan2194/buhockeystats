@@ -736,8 +736,8 @@ CAPTAIN: Nadia Mattivi
 02/18 L Matthews Arena A Northeastern * 0-4
 02/22 L (ot) Walter Brown Arena H Merrimack (HE) 4-5
 2023-24
-OVERALL: 0-0-0
-HOCKEY EAST: 0-0-0, 1st
+OVERALL: 14-18-1
+HOCKEY EAST: 12-14-1, 7th
 COACH: Tara Watchorn
 CAPTAIN: Nadia Mattivi,Madison Cardaci
 09/30 W McConnell Arena A McGill (ex) 5-2
@@ -776,6 +776,46 @@ CAPTAIN: Nadia Mattivi,Madison Cardaci
 02/23 L Walter Brown Arena H Connecticut * 0-4
 02/24 L Toscano Ice Forum A Connecticut * 0-1
 02/28 L Walter Brown Arena H Holy Cross (HE) 2-4
+2024-25
+OVERALL: 0-0-0
+HOCKEY EAST: 0-0-0, 1st
+COACH: Tara Watchorn
+CAPTAIN: TBD
+10/01 N Agganis Arena H Merrimack * 0-0
+10/04 N Ridder Arena A Minnesota 0-0
+10/06 N Ridder Arena A Minnesota 0-0
+10/11 N Matthews Arena A Northeastern * 0-0
+10/12 N Agganis Arena H Northeastern * 0-0
+10/19 N Agganis Arena H Maine * 0-0
+10/20 N Agganis Arena H Maine * 0-0
+10/25 N Tennity Ice Pavilion A Syracuse 0-0
+10/26 N Tennity Ice Pavilion A Syracuse 0-0
+11/01 N Agganis Arena H Providence * 0-0
+11/02 N Schneider Arena A Providence * 0-0
+11/08 N Agganis Arena H Merrimack * 0-0
+11/09 N Lawler Rink A Merrimack * 0-0
+11/15 N Agganis Arena H Boston College * 0-0
+11/16 N Conte Forum A Boston College * 0-0
+11/27 N Agganis Arena H Princeton 0-0
+12/06 N Alfond Arena A Maine * 0-0
+01/03 N Hart Center A Holy Cross * 0-0
+01/10 N Gutterson Fieldhouse A Vermont * 0-0
+01/11 N Gutterson Fieldhouse A Vermont * 0-0
+01/14 N Walter Brown Arena H Harvard (BP) 0-0
+01/17 N Whittemore Center Arena A New Hampshire * 0-0
+01/21 N Walter Brown Arena N Boston College/Northeastern (BP) 0-0
+01/24 N Hart Center A Holy Cross * 0-0
+01/25 N Walter Brown Arena H Holy Cross * 0-0
+01/31 N Walter Brown Arena H Boston College * 0-0
+02/01 N Walter Brown Arena H Vermont * 0-0
+02/04 N Matthews Arena A Northeastern * 0-0
+02/07 N Walter Brown Arena H UConn * 0-0
+02/08 N Walter Brown Arena H Providence * 0-0
+02/14 N Whittemore Center Arena A New Hampshire * 0-0
+02/15 N Walter Brown Arena H New Hampshire * 0-0
+02/21 N Toscano Ice Forum A UConn * 0-0
+02/22 N Walter Brown Arena H UConn * 0-0
+
 Key to Tournaments
 BP  Beanpot Tournament
 BB  Battle at the 'Burgh
