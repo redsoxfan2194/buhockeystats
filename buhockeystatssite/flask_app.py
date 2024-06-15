@@ -722,8 +722,14 @@ def records():
                         recDict['Win%'] = round(
                             (recDict['W'] + recDict['T'] * .5) /
                             (recDict['W'] + recDict['L'] + recDict['T']), 3)
+                        recDict['GP']=recDict['W'] + recDict['L'] + recDict['T']
                         recsList.append(recDict)
+                
                 dfRes = pd.DataFrame(recsList)
+                recCols = dfRes.columns.tolist()
+                recCols.insert(1, recCols.pop())
+                dfRes = dfRes[recCols]
+                
                 if formData['grouping'] == 'Month':
                   dfRes = dfRes.copy()
                   dfRes.loc[:, 'Month'] = pd.to_datetime(
