@@ -15,7 +15,7 @@
 16	Gregg Johnson	JR	F	5-11	179	N/A	82	Windsor, Connecticut / Springfield (EJHL)	2002-03
 17	Frantisek Skladany	JR	F	6-0	183	N/A	82	Martin, Slovakia / Martin Jr. A	2002-03
 18	Matt Radoslovich	SO	F	5-11	160	N/A	83	Wanaque, New Jersey / Bergen Catholic	2002-03
-19	David VanderGulik	FR	F	5-11	180	N/A	83	Abbottsford, British Columbia / Chilliwack (BCHL)	2002-03
+19	David Van der Gulik	FR	F	5-11	180	N/A	83	Abbotsford, British Columbia / Chilliwack (BCHL)	2002-03
 20	Ryan Priem	SR	F/D	6-1	212	N/A	80	Minnetonka, Minnesota / Taft	2002-03
 21	Justin Maiser	SO	F	6-1	195	N/A	83	Edina, Minnesota / U.S. National Under-18 Team (NTDP)	2002-03
 22	Adam Dunlap	FR	D	6-0	185	N/A	83	Minnetonka, Minnesota / Breck School	2002-03
@@ -31,7 +31,7 @@
 4	Adam Dunlap	FR	D	6-0	185	N/A	83	Minnetonka, Minnesota / Breck School	2003-04
 5	John Laliberte	SO	F	6-2	190	N/A	83	Saco, Maine / New Hampshire (EJHL)	2003-04
 6	Kenny Roche	FR	F	6-0	190	N/A	84	South Boston, Massachusetts / St. Sebastien's	2003-04
-7	David Van der Gulik	SO	F	5-11	180	N/A	83	Abbottsford, British Columbia / Chilliwack (BCHL)	2003-04
+7	David Van der Gulik	SO	F	5-11	180	N/A	83	Abbotsford, British Columbia / Chilliwack (BCHL)	2003-04
 8	Stephen Greeley	SR	F	5-7	160	N/A	80	Scituate, Massachusetts / Thayer Academy	2003-04
 9	Brian McConnell	JR	F	6-1	190	N/A	83	Norfolk, Massachusetts / U.S. National Under-18 Team (NTDP)	2003-04
 10	E.J. Solimine	FR	F	5-11	190	N/A	82	Brookside, New Hampshire / Choate School	2003-04
@@ -56,7 +56,7 @@
 4	Sean Sullivan	SO	D	6-0	190	N/A	84	Braintree, Massachusetts / St. Sebastien's	2004-05
 5	John Laliberte	JR	F	6-2	190	N/A	83	Saco, Maine / New Hampshire (EJHL)	2004-05
 6	Kenny Roche	SO	F	6-0	190	N/A	84	South Boston, Massachusetts / St. Sebastien's	2004-05
-7	David Van der Gulik	JR	F	5-11	180	N/A	83	Abbottsford, British Columbia / Chilliwack (BCHL)	2004-05
+7	David Van der Gulik	JR	F	5-11	180	N/A	83	Abbotsford, British Columbia / Chilliwack (BCHL)	2004-05
 8	Ryan Weston	FR	F	6-2	205	N/A	84	Henniker, New Hampshire / New England (EJHL)	2004-05
 9	Brian McConnell	SR	F	6-1	190	N/A	83	Norfolk, Massachusetts / U.S. National Under-18 Team (NTDP)	2004-05
 10	Bryan Ewing	FR	F	5-9	158	N/A	85	Plymouth, Massachusetts / Cushing Academy	2004-05
@@ -82,7 +82,7 @@
 4	Sean Sullivan (PHO)	JR	D	6-0	190	L	84	Braintree, Massachusetts / St. Sebastian's	2005-06
 5	John Laliberte (VAN)	SR	F	6-2	190	L	83	Saco, Maine / New Hampshire (EJHL)	2005-06
 6	Kenny Roche (NYR)	JR	F	6-0	205	L	84	South Boston, Massachusetts / St. Sebastian's	2005-06
-7	David Van der Gulik (CAL)	SR	F	5-11	185	L	83	Abbottsford, British Columbia / Chilliwack (BCHL)	2005-06
+7	David Van der Gulik (CAL)	SR	F	5-11	185	L	83	Abbotsford, British Columbia / Chilliwack (BCHL)	2005-06
 8	Steve Smolinsky	FR	F	5-10	165	R	86	Plymouth, Massachusetts / Salisbury School	2005-06
 9	Ryan Weston	SO	F	6-2	205	R	84	Henniker, New Hampshire / New England (EJHL)	2005-06
 10	Chris Higgins	FR	F	5-11	165	L	86	Lynnfield, Massachusetts / New Hampshire (EJHL)	2005-06
@@ -327,7 +327,7 @@
 22	Tommy Kelley	SO	F	5-10	186	L	94	Natick, Massachusetts / St. Sebastian's (PREP)	2014-15
 23	J.D. Carrabino	JR	D	6-6	230	R	91	New Canaan, Connecticut / Springfield Junior Pics (EJHL)  Previous College: Clarkson (2012-13)	2014-15
 25	Brandon Fortunato	FR	D	5-10	150	L	96	North Hills, New York / U.S. National Under-18 Team (NTDP)	2014-15
-26	A.J. Greer	FR	F	6-3	205	L	96	Joliette, Québec / Kimball Union Academy (PREP)	2014-15
+26	A.J. Greer	FR	F	6-3	205	L	96	Joliette, Quebec / Kimball Union Academy (PREP)	2014-15
 27	Doyle Somerby (NYI)	SO	D	6-5	223	L	94	Marblehead, Massachusetts / Kimball Union Academy (PREP)	2014-15
 28	J.J. Piccinich (TOR)	FR	F	6-0	184	R	96	Paramus, New Jersey / Youngstown Phantoms (USHL)	2014-15
 29	Matt O'Connor	JR	G	6-6	204	L	92	Toronto, Ontario / Youngstown Phantoms (USHL)	2014-15
@@ -366,7 +366,7 @@
 7	Charlie McAvoy (BOS)	SO	D	6-1	211	R	97	Long Beach, New York / U.S. National Under-18 Team (NTDP)	2016-17
 8	Ryan Cloonan	SO	F	5-10	174	L	95	East Longmeadow, Massachusetts / Boston Jr. Bruins (USPHL)	2016-17
 9	Kieffer Bellows (NYI)	FR	F	6-1	200	L	96	Edina, Minnesota / U.S. National Under-18 Team (NTDP)	2016-17
-10	Gabriel Chabot	FR	F	5-8	180	R	95	Québec City, Québec / Rochester Jr. Americans (USPHL)	2016-17
+10	Gabriel Chabot	FR	F	5-8	180	R	95	Quebec City, Quebec / Rochester Jr. Americans (USPHL)	2016-17
 11	Patrick Curry	FR	F	5-11	185	L	96	Schaumburg, Illinois / Bloomington Thunder (USHL)	2016-17
 12	Chase Phelps	JR	F	6-1	181	L	96	Edina, Minnesota / Shattuck St. Mary's (PREP)	2016-17
 13	Nikolas Olsson	JR	F	6-0	205	L	94	Escondido, California / Sioux City Musketeers (USHL)	2016-17
@@ -393,7 +393,7 @@
 7	Chad Krys (CHI)	SO	D	6-0	185	L	98	Ridgefield, Connecticut / U.S. National Under-18 Team (NTDP)	2017-18
 8	Ryan Cloonan	JR	F	5-10	174	L	95	East Longmeadow, Massachusetts / Boston Jr. Bruins (USPHL)	2017-18
 9	Logan Cockerill (NYI)	FR	F	5-9	164	L	99	Brighton, Michigan / U.S. National Under-18 Team (NTDP)	2017-18
-10	Gabriel Chabot	SO	F	5-8	180	R	95	Québec City, Québec / Rochester Jr. Americans (USPHL)	2017-18
+10	Gabriel Chabot	SO	F	5-8	180	R	95	Quebec City, Quebec / Rochester Jr. Americans (USPHL)	2017-18
 11	Patrick Curry	SO	F	5-11	185	L	96	Schaumburg, Illinois / Bloomington Thunder (USHL)	2017-18
 12	Chase Phelps	SR	F	6-1	181	L	96	Edina, Minnesota / Shattuck St. Mary's (PREP)	2017-18
 13	Nikolas Olsson	SR	F	6-0	205	L	94	Escondido, California / Sioux City Musketeers (USHL)	2017-18
@@ -420,7 +420,7 @@
 7	Chad Krys (CHI)	JR	D	6-0	185	L	98	Ridgefield, Connecticut / U.S. National Under-18 Team (NTDP)	2018-19
 8	Ryan Cloonan	SR	F	5-10	185	L	95	East Longmeadow, Massachusetts / Boston Jr. Bruins (USPHL)	2018-19
 9	Logan Cockerill (NYI)	SO	F	5-9	175	L	99	Brighton, Michigan / U.S. National Under-18 Team (NTDP)	2018-19
-10	Gabriel Chabot	JR	F	5-8	180	R	95	Québec City, Québec / Rochester Jr. Americans (USPHL)	2018-19
+10	Gabriel Chabot	JR	F	5-8	180	R	95	Quebec City, Quebec / Rochester Jr. Americans (USPHL)	2018-19
 11	Patrick Curry	JR	F	6-0	185	L	96	Schaumburg, Illinois / Bloomington Thunder (USHL)	2018-19
 12	Jake Wise (CHI)	FR	F	5-11	190	L	00	Reading, Massachusetts / U.S. National Under-18 Team (NTDP)	2018-19
 13	Mark Cheremeta	FR	F	5-11	175	L	99	Parkland, Florida / Islanders Hockey Club (USPHL)	2018-19
@@ -445,7 +445,7 @@
 5	Cam Crotty (ARI)	JR	D	6-2	190	R	99	Greely, Ontario / Brockville Braves (CCHL)	2019-20
 7	Alex Vlasic (CHI)	FR	D	6-6	199	L	01	Wilmette, Illinois / U.S. National Under-18 Team (NTDP)	2019-20
 9	Logan Cockerill (NYI)	JR	F	5-9	175	L	99	Brighton, Michigan / U.S. National Under-18 Team (NTDP)	2019-20
-10	Gabriel Chabot	SR	F	5-8	180	R	95	Québec City, Québec / Rochester Jr. Americans (USPHL)	2019-20
+10	Gabriel Chabot	SR	F	5-8	180	R	95	Quebec City, Quebec / Rochester Jr. Americans (USPHL)	2019-20
 11	Patrick Curry	SR	F	6-0	185	L	96	Schaumburg, Illinois / Bloomington Thunder (USHL)	2019-20
 12	Jamie Armstrong	FR	F	6-2	192	L	98	Warwick, Rhode Island / Boston Jr. Bruins (USPHL)	2019-20
 13	Trevor Zegras (ANA)	FR	F	6-0	169	L	01	Bedford, New York / U.S. National Under-18 Team (NTDP)	2019-20
@@ -459,7 +459,7 @@
 21	Patrick Harper (NSH)	SR	F	5-9	160	L	98	New Canaan, Connecticut / Avon Old Farms (PREP)	2019-20
 22	Jake Witkowski	JR	F	5-10	178	R	96	Melrose, Massachusetts / Alberni Valley Bulldogs (BCHL)	2019-20
 23	Domenick Fensore (CAR)	FR	D	5-7	151	L	01	Thornwood, New York / U.S. National Under-18 Team (NTDP)	2019-20
-25	Sam Stevens	FR	F	6-1	185	L	00	Montréal, Québec / Sioux Falls Stampede (USHL)	2019-20
+25	Sam Stevens	FR	F	6-1	185	L	00	Montreal, Quebec / Sioux Falls Stampede (USHL)	2019-20
 26	Kasper Kotkansalo (DET)	JR	D	6-3	205	L	98	Espoo, Finland / Sioux Falls Stampede (USHL)	2019-20
 27	John Copeland	FR	F/D	6-6	181	R	99	Wellesley, Massachusetts / Carleton Place Canadians (CCHL)	2019-20
 28	Ethan Phillips (DET)	FR	F	5-9	155	R	01	Dartmouth, Nova Scotia / Sioux Falls Stampede (USHL)	2019-20
@@ -489,13 +489,13 @@
 21	Max Kaufman	SR	F	5-8	165	L	96	Rochester, New York / Langley Rivermen (BCHL)  Previous College: Vermont (2019-20)	2020-21
 22	Jake Witkowski	SR	F	5-10	178	R	96	Melrose, Massachusetts / Alberni Valley Bulldogs (BCHL)	2020-21
 23	Domenick Fensore (CAR)	SO	D	5-7	151	L	01	Thornwood, New York / U.S. National Under-18 Team (NTDP)	2020-21
-25	Sam Stevens	SO	F	6-1	185	L	00	Montréal, Québec / Sioux Falls Stampede (USHL)	2020-21
+25	Sam Stevens	SO	F	6-1	185	L	00	Montreal, Quebec / Sioux Falls Stampede (USHL)	2020-21
 26	Joseph Campolieto	SR	D	6-0	185	L	98	Eynon, Pennsylvania / Tri-City Storm (USHL)  Previous College: Union (2019-20)	2020-21
 27	John Copeland	SO	F/D	6-6	181	R	99	Wellesley, Massachusetts / Carleton Place Canadians (CCHL)	2020-21
 28	Ethan Phillips (DET)	SO	F	5-9	155	R	01	Dartmouth, Nova Scotia / Sioux Falls Stampede (USHL)	2020-21
 29	Drew Commesso (CHI)	FR	G	6-2	180	L	02	Norwell, Massachusetts / U.S. National Under-18 Team (NTDP)	2020-21
 30	Ashton Abel	SO	G	6-0	165	L	99	Fort McMurray, Alberta / Okotoks Oilers (AJHL)	2020-21
-31	Vinny Duplessis	FR	G	6-1	170	L	99	Quebec City, Québec / Whitecourt Wolverines (AJHL)	2020-21
+31	Vinny Duplessis	FR	G	6-1	170	L	99	Quebec City, Quebec / Whitecourt Wolverines (AJHL)	2020-21
 32	Wilmer Skoog	SO	F	6-2	197	L	99	Tyresö, Sweden / Maryland Black Bears (NAHL)	2020-21
 2	Case McCarthy (NJD)	JR	D	6-1	202	R	01	Clarence Center, New York / U.S. National Under-18 Team (NTDP)	2021-22
 3	Tristan Amonte	FR	F	6-0	177	R	00	Norwell, Massachusetts / Penticton Vees (BCHL)	2021-22
@@ -516,13 +516,13 @@
 21	Max Kaufman	GR	F	5-8	185	L	96	Rochester, New York / Langley Rivermen (BCHL)  Previous College: Vermont (2019-20)	2021-22
 22	Brian Carrabes	FR	F	5-10	170	R	01	North Andover, Massachusetts / Sioux City Musketeers (USHL)	2021-22
 23	Domenick Fensore (CAR)	JR	D	5-9	170	L	01	Thornwood, New York / U.S. National Under-18 Team (NTDP)	2021-22
-25	Sam Stevens	JR	F	6-1	186	L	00	Montreal, Québec / Sioux Falls Stampede (USHL)	2021-22
+25	Sam Stevens	JR	F	6-1	186	L	00	Montreal, Quebec / Sioux Falls Stampede (USHL)	2021-22
 26	Joseph Campolieto	SR	D	6-0	185	L	98	Eynon, Pennsylvania / Tri-City Storm (USHL)  Previous College: Union (2019-20)	2021-22
 27	John Copeland	JR	D	6-6	215	R	99	Wellesley, Massachusetts / Carleton Place Canadians (CCHL)	2021-22
 28	Ethan Phillips (DET)	JR	F	5-10	160	R	01	Dartmouth, Nova Scotia / Sioux Falls Stampede (USHL)	2021-22
 29	Drew Commesso (CHI)	SO	G	6-2	180	L	02	Norwell, Massachusetts / U.S. National Under-18 Team (NTDP)	2021-22
 30	Ashton Abel	JR	G	6-0	170	L	99	Fort McMurray, Alberta / Okotoks Oilers (AJHL)	2021-22
-31	Vinny Duplessis	SO	G	6-1	175	L	99	Quebec City, Québec / Whitecourt Wolverines (AJHL)	2021-22
+31	Vinny Duplessis	SO	G	6-1	175	L	99	Quebec City, Quebec / Whitecourt Wolverines (AJHL)	2021-22
 32	Wilmer Skoog	JR	F	6-2	200	L	99	Tyresö, Sweden / Maryland Black Bears (NAHL)	2021-22
 33	Ty Amonte	SR	F	5-11	180	R	98	Norwell, Massachusetts / Penticton Vees (BCHL)	2021-22
 37	Matt Brown	JR	F	5-9	190	L	99	Wood Ridge, New Jersey / Des Moines (USHL)  Previous College: UMass Lowell (2020-21)	2021-22
@@ -546,39 +546,40 @@
 21	Devin Kaplan (PHI)	FR	F	6-3	204	R	04	Bridgewater, New Jersey / U.S. National Under-18 Team (NTDP)	2022-23
 22	Brian Carrabes	SO	F	5-10	170	R	01	North Andover, Massachusetts / Sioux City Musketeers (USHL)	2022-23
 23	Domenick Fensore (CAR)	SR	D	5-9	170	L	01	Thornwood, New York / U.S. National Under-18 Team (NTDP)	2022-23
-25	Sam Stevens	SR	F	6-1	186	L	00	Montreal, Québec / Sioux Falls Stampede (USHL)	2022-23
+25	Sam Stevens	SR	F	6-1	186	L	00	Montreal, Quebec / Sioux Falls Stampede (USHL)	2022-23
 27	John Copeland	SR	D	6-6	215	R	99	Wellesley, Massachusetts / Carleton Place Canadians (CCHL)	2022-23
 28	Ethan Phillips (DET)	SR	F	5-10	160	R	01	Dartmouth, Nova Scotia / Sioux Falls Stampede (USHL)	2022-23
 29	Drew Commesso (CHI)	JR	G	6-2	180	L	02	Norwell, Massachusetts / U.S. National Under-18 Team (NTDP)	2022-23
 30	Patrick Schena	GR	G	6-1	220	L	98	Medford, Massachusetts / University of New England	2022-23
-31	Vinny Duplessis	JR	G	6-1	175	L	99	Quebec City, Québec / Whitecourt Wolverines (AJHL)	2022-23
+31	Vinny Duplessis	JR	G	6-1	175	L	99	Quebec City, Quebec / Whitecourt Wolverines (AJHL)	2022-23
 32	Wilmer Skoog	SR	F	6-2	200	L	99	Tyresö, Sweden / Maryland Black Bears (NAHL)	2022-23
 37	Matt Brown	SR	F	5-9	190	L	99	Wood Ridge, New Jersey / Des Moines (USHL)  Previous College: UMass Lowell (2020-21)	2022-23
-2	Gavin McCarthy	FR	D	6-2	185	R 	05	Clarence Center, New York / Muskegon Lumberjacks (USHL)	2023-24
-3	Tristan Amonte	JR	F	6-0	177	R 	00	Norwell, Massachusetts / Penticton Vees (BCHL)	2023-24
-4	Ty Gallagher	JR	D	6-0	190	R 	03	Clarkston, Michigan / U.S. National Under-18 Team (NTDP)	2023-24
-5	Tom Willander	FR	D	6-1	179	R 	05	Stockholm, Sweden / Rögle BK (J20 Nationell)	2023-24
-7	Case McCarthy	GR	D	6-1	202	R 	01	Clarence Center, New York / U.S. National Under-18 Team (NTDP)	2023-24
-8	Cade Webber	SR	D	6-7	215	L 	01	Meadville, Pennsylvania / Penticton Vees (BCHL)	2023-24
-9	Ryan Greene	SO	F	6-1	180	R 	03	Paradise, Newfoundland / Green Bay Gamblers (USHL)	2023-24
-10	Nick Zabaneh	SR	F	5-10	188	L 	01	Toronto, Ontario / Green Bay Gamblers (USHL)	2023-24
-11	Luke Tuch	SR	F	6-2	210	L 	02	Baldwinsville, New York / U.S. National Under-18 Team (NTDP)	2023-24
-12	Jack Harvey	FR	F	5-10	175	L 	03	Stacy, Minn. / Chicago Steel (USHL)	2023-24
-13	Dylan Peterson	SR	F	6-4	203	R 	02	Roseville, California / U.S. National Under-18 Team (NTDP)	2023-24
-14	Mick Frechette	FR	D	6-2	205	L 	03	Weston, Massachusetts / Dexter Southfield	2023-24
-16	Jeremy Wilmer	SO	F	5-8	155	L 	03	Rockville Centre, New York / Tri-City Storm (USHL)	2023-24
-17	Quinn Hutson	SO	F	5-11	170	R 	02	North Barrington, Illinois / Muskegon Lumberjacks (USHL)	2023-24
-18	Shane Lachance	FR	F	6-5	218	L 	03	Andover, Massachusetts / Youngstown Phantoms (USHL)	2023-24
-19	Jack Page	JR	D	6-4	194	L 	01	West Chester, Pennsylvania / New Jersey Rockets (USPHL NCDC)	2023-24
-20	Lane Hutson	SO	D	5-10	155	L 	04	North Barrington, Illinois / U.S. National Under-18 Team (NTDP)	2023-24
-21	Devin Kaplan	SO	F	6-3	204	R 	04	Bridgewater, New Jersey / U.S. National Under-18 Team (NTDP)	2023-24
-22	Aiden Celebrini	FR	D	6-1	195	R 	04	Vancouver, British Columbia / Brooks Bandits (AJHL)	2023-24
-23	Doug Grimes	FR	F	6-3	205	R 	02	Brookline, Massachusetts / Lincoln Stars (USHL)	2023-24
-25	Sam Stevens	GR	F	6-1	186	L 	00	Montreal, Québec / Sioux Falls Stampede (USHL)	2023-24
-26	Jack Gorton	FR	F	6-3	200	R 	02	New York, New York / Victoria Grizzlies (BCHL)	2023-24
-27	Jack Hughes	JR	F	6-0	170	L 	03	Westwood, Massachusetts / U.S. National Under-18 Team (NTDP)  Previous College: Northeastern (2021-23)	2023-24
+2	Gavin McCarthy	FR	D	6-2	185	R	05	Clarence Center, New York / Muskegon Lumberjacks (USHL)	2023-24
+3	Tristan Amonte	JR	F	6-0	177	R	00	Norwell, Massachusetts / Penticton Vees (BCHL)	2023-24
+4	Ty Gallagher	JR	D	6-0	190	R	03	Clarkston, Michigan / U.S. National Under-18 Team (NTDP)	2023-24
+5	Tom Willander	FR	D	6-1	179	R	05	Stockholm, Sweden / Rögle BK (J20 Nationell)	2023-24
+7	Case McCarthy	GR	D	6-1	202	R	01	Clarence Center, New York / U.S. National Under-18 Team (NTDP)	2023-24
+8	Cade Webber	SR	D	6-7	215	L	01	Meadville, Pennsylvania / Penticton Vees (BCHL)	2023-24
+9	Ryan Greene	SO	F	6-1	180	R	03	Paradise, Newfoundland / Green Bay Gamblers (USHL)	2023-24
+10	Nick Zabaneh	SR	F	5-10	188	L	01	Toronto, Ontario / Green Bay Gamblers (USHL)	2023-24
+11	Luke Tuch	SR	F	6-2	210	L	02	Baldwinsville, New York / U.S. National Under-18 Team (NTDP)	2023-24
+12	Jack Harvey	FR	F	5-10	175	L	03	Stacy, Minnesota / Chicago Steel (USHL)	2023-24
+13	Dylan Peterson	SR	F	6-4	203	R	02	Roseville, California / U.S. National Under-18 Team (NTDP)	2023-24
+14	Mick Frechette	FR	D	6-2	205	L	03	Weston, Massachusetts / Dexter Southfield	2023-24
+16	Jeremy Wilmer	SO	F	5-8	155	L	03	Rockville Centre, New York / Tri-City Storm (USHL)	2023-24
+17	Quinn Hutson	SO	F	5-11	170	R	02	North Barrington, Illinois / Muskegon Lumberjacks (USHL)	2023-24
+18	Shane Lachance	FR	F	6-5	218	L	03	Andover, Massachusetts / Youngstown Phantoms (USHL)	2023-24
+19	Jack Page	JR	D	6-4	194	L	01	West Chester, Pennsylvania / New Jersey Rockets (USPHL NCDC)	2023-24
+20	Lane Hutson	SO	D	5-10	155	L	04	North Barrington, Illinois / U.S. National Under-18 Team (NTDP)	2023-24
+21	Devin Kaplan	SO	F	6-3	204	R	04	Bridgewater, New Jersey / U.S. National Under-18 Team (NTDP)	2023-24
+22	Aiden Celebrini	FR	D	6-1	195	R	04	Vancouver, British Columbia / Brooks Bandits (AJHL)	2023-24
+23	Doug Grimes	FR	F	6-3	205	R	02	Brookline, Massachusetts / Lincoln Stars (USHL)	2023-24
+25	Sam Stevens	GR	F	6-1	186	L	00	Montreal, Quebec / Sioux Falls Stampede (USHL)	2023-24
+26	Jack Gorton	FR	F	6-3	200	R	02	New York, New York / Victoria Grizzlies (BCHL)	2023-24
+27	Jack Hughes	JR	F	6-0	170	L	03	Westwood, Massachusetts / U.S. National Under-18 Team (NTDP)  Previous College: Northeastern (2021-23)	2023-24
 28	Thomas Jarman	SR	D	6-3	190	R	01	Gibsonia, Pennsylvania / Maryland Black Bears (NAHL)	2023-24
-29	Nick Howard	GR	G	6-0	210	L 	98	Burlington, Massachusetts / Northern Cyclones (USPHL Premier)  Previous College: Saint Anselm (2019-23)	2023-24
-30	Henry Graham	SR	G	6-0	185	L 	00	New York, New York / P.A.L. Junior Islanders (USPHL NCDC)  Previous College: UMass (2020-23)	2023-24
-62	Mathieu Caron	JR	G	6-0	192	L 	00	Abbotsford, British Columbia / Chilliwack Chiefs 	(BCHL)  Previous College: Brown (2021-23)	2023-24
-71	Macklin Celebrini	FR	F	6-0	190	L 	06	Vancouver, British Columbia / Chicago Steel (USHL)	2023-24
+29	Nick Howard	GR	G	6-0	210	L	98	Burlington, Massachusetts / Northern Cyclones (USPHL Premier)  Previous College: Saint Anselm (2019-23)	2023-24
+30	Henry Graham	SR	G	6-0	185	L	00	New York, New York / P.A.L. Junior Islanders (USPHL NCDC)  Previous College: UMass (2020-23)	2023-24
+33	Max Lacroix	FR	G	6-0	180	L	03	Denver, Colorado / Colorado Grit (NAHL)	2023-24
+62	Mathieu Caron	JR	G	6-0	192	L	00	Abbotsford, British Columbia / Chilliwack Chiefs (BCHL)  Previous College: Brown (2021-23)	2023-24
+71	Macklin Celebrini	FR	F	6-0	190	L	06	Vancouver, British Columbia / Chicago Steel (USHL)	2023-24

@@ -46,7 +46,7 @@
 	Arthur Kimball	F		4	0	0	0	—/—	1926-27
 	John Carnie	F		3	0	0	0	—/0	1926-27
 6	John Lawless	F	JR		13			—/—	1926-27
-6	John Lawless	F	SR			4		—/—	1926-27
+6	John Lawless	F	SR			4		—/—	1927-28
 	Junie Crampton	F		1	0	0	0	—/—	1926-27
 	Richard Breen	F		3	0	0	0	—/—	1926-27
 	Russell MacKenzie	F		6	0	0	0	—/—	1926-27
@@ -189,7 +189,7 @@
 21	Keith Barnhill	F	JR		7	1	8	—/—	1950-51
 7	Lloyd Robinson	F			4	6	10	—/10	1950-51
 19	Mario Casali	F						—/4	1950-51
-6	Dick Kelley	F	JR		18	23	41	—/6	1950-51
+6	Dick Kelley	F	SO		18	23	41	—/6	1949-50
 20	Walt Anderson	F			3	5	8	—/12	1950-51
 11	William Jurgelevich	F			5	4	9	—/18	1950-51
 14	Bill Downing	F	SR		9	13	22	—/17	1951-52
@@ -197,15 +197,15 @@
 17	Dick Rodenhiser	F	FR	21	25	17	42	—/6	1951-52
 15	Jack Kelley	F/D	SR	21	4	16	20	—/18	1951-52
 9	Jack Martin	F			12	15	27	—/10	1951-52
-8	Jerry Denning	F	SO	21	7	17	24	—/—	1951-52
+8	Jerry Denning	F	SO	21	7	17	24	—/—	1950-51
 8	Jerry Denning	F	SR		8	8	16	—/—	1951-52
 3	Joe Folino	F			4	7	11	—/46	1951-52
-21	Keith Barnhill	F	SO	20	19	10	29	—/13	1951-52
+21	Keith Barnhill	F	SO	20	19	10	29	—/13	1950-51
 21	Keith Barnhill	F	SR		11	3	14	—/—	1951-52
 11	Mario Zanetti	F	JR	19	14	8	22	—/10	1951-52
 16	Paul Cleary	F			12	5	17	—/—	1951-52
-6	Dick Kelley	F	SO	21	20	23	43	—/6	1951-52
-6	Dick Kelley	F	SR		16	20	36	—/6	1951-52
+6	Dick Kelley	F	JR		16	20	36	—/6	1950-51
+6	Dick Kelley	F	SR	21	20	23	43	—/6	1951-52
 18	Roger Merrill	F			1	0	1	—/2	1951-52
 11	Walter Fife	D			0	2	2	—/0	1951-52
 15	Art Shannon	F			0	3	3	—/4	1952-53
