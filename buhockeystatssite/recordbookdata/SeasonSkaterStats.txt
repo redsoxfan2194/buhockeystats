@@ -186,7 +186,7 @@
 9	Jack Martin	F			15	17	32	—/8	1950-51
 10	Joe Czarnota	F/D			3	2	5	—/29	1950-51
 3	Joe Folino	F			1	3	4	—/24	1950-51
-21	Keith Barnhill	F	JR		7	1	8	—/—	1950-51
+21	Keith Barnhill	F	SO		7	1	8	—/—	1949-50
 7	Lloyd Robinson	F			4	6	10	—/10	1950-51
 19	Mario Casali	F						—/4	1950-51
 6	Dick Kelley	F	SO		18	23	41	—/6	1949-50
@@ -200,8 +200,8 @@
 8	Jerry Denning	F	SO	21	7	17	24	—/—	1950-51
 8	Jerry Denning	F	SR		8	8	16	—/—	1951-52
 3	Joe Folino	F			4	7	11	—/46	1951-52
-21	Keith Barnhill	F	SO	20	19	10	29	—/13	1950-51
-21	Keith Barnhill	F	SR		11	3	14	—/—	1951-52
+21	Keith Barnhill	F	JR		11	3	14	—/—	1950-51
+21	Keith Barnhill	F	SR	20	19	10	29	—/13	1951-52
 11	Mario Zanetti	F	JR	19	14	8	22	—/10	1951-52
 16	Paul Cleary	F			12	5	17	—/—	1951-52
 6	Dick Kelley	F	JR		16	20	36	—/6	1950-51
