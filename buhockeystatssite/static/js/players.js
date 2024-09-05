@@ -62,9 +62,9 @@ function clearFilters(event) {
         document.getElementById("seasonStart").value = "2002-03";
     }
 
-    document.getElementById("seasonEnd").value = "2023-24";
+    document.getElementById("seasonEnd").value = "2024-25";
     if(document.getElementById("seasonEnd").value===""){
-      document.getElementById("seasonEnd").value = "2022-23";
+      document.getElementById("seasonEnd").value = "2023-24";
     }
     document.getElementById("sortval").value = "";
     document.getElementById("isAscending").value = "";
