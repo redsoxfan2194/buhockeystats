@@ -22,7 +22,7 @@ Campbell,Caroline 2011-15 122 4 17 21 63/126
 Foley,Catherine 2005-07 44 2 4 6 9/18
 Foulem,Catherine 2020-24 113 21 36 57 19/46
 Ward,Catherine 2010-11 36 4 27 31 9/18
-Vote,Christina 2021-24 100 13 24 37 19/38
+Vote,Christina 2021-25 100 13 24 37 19/38
 O'Leary,Clare 2020-23 63 5 8 13 4/16
 Galway,Connor 2015-19 143 2 19 21 48/96
 Correia,Courtney 2018-22 116 32 33 65 21/42
@@ -54,7 +54,7 @@ Bloemers,Jonnie 2006-10 142 19 29 48 53/125
 Kwak,Hyung,Joo 2018-19 2 0 0 0 0/0
 Juron,Jordan 2012-16 141 15 25 40 11/22
 Nearis,Julia 2019-23 103 31 33 64 17/34
-Shaunessy,Julia 2020-24 85 10 13 23 33/66
+Shaunessy,Julia 2020-25 85 10 13 23 33/66
 Poulin,Julie 2006-08 65 7 22 29 31/73
 McLaughlin,Justine 2005-06 1 0 0 0 0/0
 Donnelly,Kaleigh 2018-22 111 7 36 43 6/12
@@ -66,14 +66,14 @@ Shannahan,Katie 2017-20 78 0 1 1 1/2
 Tutino,Kayla 2011-16 164 63 81 144 52/115
 Karnan,Kelley 2005-09 120 6 11 17 9/18
 Schuler,Kristina 2017-21 119 19 30 49 38/76
-Roberts,Kylie 2021-24 44 4 5 9 4/8
+Roberts,Kylie 2021-25 44 4 5 9 4/8
 Martin,Lacey 2020-24 110 25 33 58 14/28
 Koller,Laurel 2005-10 141 27 30 57 44/88
 Cherewyk,Lauren 2007-11 146 33 41 74 20/40
 Klein,Lauren 2017-18 19 0 0 0 2/4
 Nakamoto,Leah 2005-06 11 0 0 0 1/2
 Ribeirinha-Braga,Lillian 2012-16 142 6 48 54 31/70
-Haag,Liv 2021-24 44 1 3 4 6/12
+Haag,Liv 2021-25 44 1 3 4 6/12
 Warren,Louise 2010-14 151 55 53 108 38/76
 Hillen,Lynn 2006-07 26 1 2 3 3/6
 Parker,Mackenna 2018-22 116 32 22 54 32/64
@@ -81,7 +81,7 @@ Elia,Maddie 2013-17 145 47 65 112 101/227
 Cardaci,Madison 2020-24 92 8 8 16 20/40
 Michals,Madison 2021-22 3 0 0 0 0/0
 Ouimet,Maeghan 2005-06 31 1 3 4 10/20
-Hanzel,Maggie 2021-24 52 3 7 10 5/10
+Hanzel,Maggie 2021-25 52 3 7 10 5/10
 Poulin,Marie-Philip 2010-15 111 81 100 181 36/72
 Kelley,Mary Grace 2015-19 139 9 15 24 15/30
 Parker,Mary 2016-17 36 24 21 45 7/14
@@ -112,19 +112,27 @@ Mahoney,Shannon 2009-13 137 4 2 6 19/38
 Stoneburgh,Shannon 2011-15 148 8 25 33 73/165
 Thornton,Sophie 2005-08 74 1 1 2 8/16
 Armstrong,Stephanie 2005-08 100 8 11 19 5/10
-Giaquinto,Tamara 2020-24 106 6 20 26 9/18
+Giaquinto,Tamara 2020-25 106 6 20 26 9/18
 Watchorn,Tara 2008-12 127 21 63 84 85/173
 Holze,Taylor 2010-14 122 14 25 39 18/44
 Bach,Victoria 2014-18 145 104 94 198 32/64
-FitzGerald,Ani 2022-24 53 5 4 9 11/22
+FitzGerald,Ani 2022-25 53 5 4 9 11/22
 Disher,Brooke 2022-24 69 10 18 28 19/38
-Healey,Sydney 2022-24 68 12 14 26 7/14
-Kelly,Maeve 2022-24 66 0 9 9 8/16
-Yuhn,Clara 2022-24 69 17 18 35 13/29
+Healey,Sydney 2022-25 68 12 14 26 7/14
+Kelly,Maeve 2022-25 66 0 9 9 8/16
+Yuhn,Clara 2022-25 69 17 18 35 13/29
 Huntley,Ella 2023-24 22 1 4 5 3/6
 Kinsler,Jackson 2023-24 26 1 1 2 2/4
-Law,Alex 2023-24 26 4 9 13 11/25
+Law,Alex 2023-25 26 4 9 13 11/25
 Blomquist,Mikayla 2023-24 15 0 0 0 3/6
-Nicholson,Neely 2023-24 34 2 4 6 2/4
-Welcke,Lilli 2023-24 35 7 5 12 3/6
-Welcke,Luisa 2023-24 35 2 9 11 6/12
+Nicholson,Neely 2023-25 34 2 4 6 2/4
+Welcke,Lilli 2023-25 35 7 5 12 3/6
+Welcke,Luisa 2023-25 35 2 9 11 6/12
+Carey,Maeve 2024-25	D	0	0	0	0	0/0
+Meinert,Kate 2024-25	D	0	0	0	0	0/0
+Reid,Lola 2024-25	D	0	0	0	0	0/0
+Demain,Tessa 2024-25	D	0	0	0	0	0/0
+Healey,Keira 2024-25	D	0	0	0	0	0/0
+Quigg,Kaileigh 2024-25	F	0	0	0	0	0/0
+Bochna,Lindsay 2024-25	F	0	0	0	0	0/0
+Walsh,Riley 2024-25	F	0	0	0	0	0/0

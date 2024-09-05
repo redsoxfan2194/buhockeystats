@@ -18,7 +18,7 @@ try:
 except ImportError:
     RECBOOK_DATA_PATH = './'
 
-currSeason = '2023-24'
+currSeason = '2024-25'
 
 tourneyDict = {}
 # Get Tourneys
