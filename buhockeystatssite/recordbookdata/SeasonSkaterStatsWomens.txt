@@ -459,11 +459,11 @@
 6	Kate Meinert	FR	D	0	0	0	0	0/0	2024-25
 7	Kylie Roberts	SR	F	0	0	0	0	0/0	2024-25
 8	Maggie Hanzel	SR	D	0	0	0	0	0/0	2024-25
-9	Alex Law	SO	F	0	0	0	0	0/0	2024-25
 9	Lola Reid	FR	D	0	0	0	0	0/0	2024-25
 10	Tessa Demain	FR	D	0	0	0	0	0/0	2024-25
 11	Sydney Healey	JR	F	0	0	0	0	0/0	2024-25
 16	Luisa Welcke	JR	F	0	0	0	0	0/0	2024-25
+17	Alex Law	SO	F	0	0	0	0	0/0	2024-25
 18	Neely Nicholson	SO	F	0	0	0	0	0/0	2024-25
 19	Clara Yuhn	JR	F	0	0	0	0	0/0	2024-25
 20	Julia Shaunessy	GR	D	0	0	0	0	0/0	2024-25
