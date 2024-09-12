@@ -128,11 +128,11 @@ Blomquist,Mikayla 2023-24 15 0 0 0 3/6
 Nicholson,Neely 2023-25 34 2 4 6 2/4
 Welcke,Lilli 2023-25 35 7 5 12 3/6
 Welcke,Luisa 2023-25 35 2 9 11 6/12
-Carey,Maeve 2024-25	D	0	0	0	0	0/0
-Meinert,Kate 2024-25	D	0	0	0	0	0/0
-Reid,Lola 2024-25	D	0	0	0	0	0/0
-Demain,Tessa 2024-25	D	0	0	0	0	0/0
-Healey,Keira 2024-25	D	0	0	0	0	0/0
-Quigg,Kaileigh 2024-25	F	0	0	0	0	0/0
-Bochna,Lindsay 2024-25	F	0	0	0	0	0/0
-Walsh,Riley 2024-25	F	0	0	0	0	0/0
+Carey,Maeve 2024-25 D 0 0 0 0 0/0
+Meinert,Kate 2024-25 D 0 0 0 0 0/0
+Reid,Lola 2024-25 D 0 0 0 0 0/0
+Demain,Tessa 2024-25 D 0 0 0 0 0/0
+Healey,Keira 2024-25 D 0 0 0 0 0/0
+Quigg,Kaileigh 2024-25 F 0 0 0 0 0/0
+Bochna,Lindsay 2024-25 F 0 0 0 0 0/0
+Walsh,Riley 2024-25 F 0 0 0 0 0/0

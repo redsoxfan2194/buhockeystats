@@ -804,7 +804,6 @@ Celebrini,Aiden 2023-25 38 1 5 6 10/20
 Grimes,Doug 2023-25 24 2 1 3 1/2
 Gorton,Jack 2023-25 0 0 0 0 0/0
 Celebrini,Macklin 2023-24 38 32 32 64 9/18
-Gorton,Jack 2023-25 0 0 0 0 0/0
 Girard IV,Billy 2024-25 0 0 0 0 0/0
 Roukounakis,Nick 2024-25 0 0 0 0 0/0
 Svoboda,Brandon 2024-25 0 0 0 0 0/0
