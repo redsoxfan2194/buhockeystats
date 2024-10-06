@@ -3191,7 +3191,7 @@ CAPTAIN: Patrick Curry
 11/30 L MSG IV	Cornell (RHH) 0-2
 12/3 W Agganis Arena	Harvard 5-2
 12/7 W Agganis Arena	Northeastern * 6-3
-12/29 W Agganis Arena	Concordia (ex) * 3-0
+12/29 W Walter Brown Arena	Concordia (ex) * 3-0
 1/3 T (ot) USA Hockey Arena	US Under-18 Team (ex) * 3-3
 1/8 W (ot) Agganis Arena	Brown 3-2
 1/11 L Thompson Arena	Dartmouth 4-5
@@ -3372,7 +3372,7 @@ OVERALL: 0-0-0
 HOCKEY EAST: 0-0-0, 1st
 COACH: Jay Pandolfo
 CAPTAIN: Shane Lachance,Ryan Greene
-10/05 N Agganis Arena	Holy Cross 0-0
+10/05 W Agganis Arena	Holy Cross 5-2
 10/12 N Agganis Arena	Union 0-0
 10/18 N Agganis Arena	Connecticut 0-0
 10/19 N Agganis Arena	Harvard (ex) 0-0

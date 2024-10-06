@@ -16680,3 +16680,23 @@
 04/11/2024,Denver,Jack Hughes,F,JR,0,0,0,2023-24
 04/11/2024,Denver,Mathieu Caron,G,JR,0,0,0,2023-24
 04/11/2024,Denver,Macklin Celebrini,F,FR,0,0,0,2023-24
+10/05/2024,Holy Cross,Gavin McCarthy,D,SO,0,0,0,2024-25
+10/05/2024,Holy Cross,Jack Hughes,F,SR,0,1,1,2024-25
+10/05/2024,Holy Cross,Tom Willander,D,SO,0,1,1,2024-25
+10/05/2024,Holy Cross,Brandon Svoboda,F,FR,0,0,0,2024-25
+10/05/2024,Holy Cross,Ryan Greene,F,JR,2,1,3,2024-25
+10/05/2024,Holy Cross,Brehdan Engum,D,GR,0,0,0,2024-25
+10/05/2024,Holy Cross,Kamil Bednarik,F,FR,0,0,0,2024-25
+10/05/2024,Holy Cross,Jack Harvey,F,SO,0,0,0,2024-25
+10/05/2024,Holy Cross,Mick Frechette,D,SO,0,0,0,2024-25
+10/05/2024,Holy Cross,Matt Copponi,F,SR,0,0,0,2024-25
+10/05/2024,Holy Cross,Quinn Hutson,F,JR,0,3,3,2024-25
+10/05/2024,Holy Cross,Shane Lachance,F,SO,0,3,3,2024-25
+10/05/2024,Holy Cross,Devin Kaplan,F,JR,0,0,0,2024-25
+10/05/2024,Holy Cross,Aiden Celebrini,D,SO,0,0,0,2024-25
+10/05/2024,Holy Cross,Doug Grimes,F,SO,0,0,0,2024-25
+10/05/2024,Holy Cross,Cole Eiserman,F,FR,1,0,1,2024-25
+10/05/2024,Holy Cross,Cole Hutson,D,FR,1,0,1,2024-25
+10/05/2024,Holy Cross,Alex Zetterberg,F,FR,1,0,1,2024-25
+10/05/2024,Holy Cross,Mathieu Caron,G,SR,0,0,0,2024-25
+10/05/2024,Holy Cross,Sascha Boumedienne,D,FR,0,0,0,2024-25

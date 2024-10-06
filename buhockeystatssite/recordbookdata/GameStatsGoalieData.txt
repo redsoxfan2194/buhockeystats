@@ -899,3 +899,4 @@
 03/28/2024,RIT,Mathieu Caron,FR,28,3,1,0,60.0,W,2023-24
 03/30/2024,Minnesota,Mathieu Caron,FR,25,3,1,0,60.0,W,2023-24
 04/11/2024,Denver,Mathieu Caron,FR,27,2,1,0,71.15,L,2023-24
+10/05/2024,Holy Cross,Mathieu Caron,FR,29,2,1,0,60.0,W,2024-25

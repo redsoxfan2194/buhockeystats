@@ -49,6 +49,6 @@
 1	Alexa Matses	GR	14	755:28	32	282	.898	2.54	5-7-1	0	2023-24
 33	Emily McDonald	JR	1	00:00	0	0	.000	.00	0-0-0	0	2023-24
 92	Mari Pietersen	FR	11	561:37	26	172	.869	2.78	5-3-1	0	2023-24
-33	Emily McDonald	SR	0	00:00	0	0	.000	.00	0-0-0	0	2024-25
-37	Callie Shanahan	SR	0	00:00	0	0	.000	.00	0-0-0	0	2024-25
-92	Mari Pietersen	SO	1	59:27	1	16	.941	1.01	1-0-0	0	2024-25
+33	Emily McDonald	SR	1	00:00	0	0	.000	.00	0-0-0	0	2024-25
+37	Callie Shanahan	SR	1	60:00	1	40	.976	1.00	0-1-0	0	2024-25
+92	Mari Pietersen	SO	2	59:27	1	16	.941	1.01	1-0-0	0	2024-25

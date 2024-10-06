@@ -699,3 +699,4 @@
 02/24/2024,Connecticut,Callie Shanahan,JR,22,1,1,0,56.75,L,2023-24
 02/28/2024,Holy Cross,Callie Shanahan,JR,12,4,1,0,56.45,L,2023-24
 10/01/2024,Merrimack,Mari Pietersen,G,16,1,1,0,59.45,W,2024-25
+10/04/2024,Minnesota,Callie Shanahan,SO,40,1,1,0,60.0,L,2024-25
