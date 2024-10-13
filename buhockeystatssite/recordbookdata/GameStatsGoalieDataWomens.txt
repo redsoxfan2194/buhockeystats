@@ -700,3 +700,7 @@
 02/28/2024,Holy Cross,Callie Shanahan,JR,12,4,1,0,56.45,L,2023-24
 10/01/2024,Merrimack,Mari Pietersen,G,16,1,1,0,59.45,W,2024-25
 10/04/2024,Minnesota,Callie Shanahan,SO,40,1,1,0,60.0,L,2024-25
+10/06/2024,Minnesota,Mari Pietersen,SO,21,5,1,0,60.0,L,2024-25
+10/11/2024,Northeastern,Callie Shanahan,SO,15,3,1,0,40.0,L,2024-25
+10/11/2024,Northeastern,Mari Pietersen,SO,7,1,1,0,15.52,,2024-25
+10/12/2024,Northeastern,Callie Shanahan,SR,25,0,1,1,60.0,W,2024-25

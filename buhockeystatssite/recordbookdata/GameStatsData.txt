@@ -16700,3 +16700,23 @@
 10/05/2024,Holy Cross,Alex Zetterberg,F,FR,1,0,1,2024-25
 10/05/2024,Holy Cross,Mathieu Caron,G,SR,0,0,0,2024-25
 10/05/2024,Holy Cross,Sascha Boumedienne,D,FR,0,0,0,2024-25
+10/12/2024,Union,Gavin McCarthy,D,SO,0,1,1,2024-25
+10/12/2024,Union,Tristan Amonte,F,SR,0,0,0,2024-25
+10/12/2024,Union,Jack Hughes,F,SR,0,0,0,2024-25
+10/12/2024,Union,Tom Willander,D,SO,0,1,1,2024-25
+10/12/2024,Union,Brandon Svoboda,F,FR,0,0,0,2024-25
+10/12/2024,Union,Ryan Greene,F,JR,0,0,0,2024-25
+10/12/2024,Union,Brehdan Engum,D,GR,0,1,1,2024-25
+10/12/2024,Union,Kamil Bednarik,F,FR,0,1,1,2024-25
+10/12/2024,Union,Jack Harvey,F,SO,1,1,2,2024-25
+10/12/2024,Union,Mick Frechette,D,SO,0,0,0,2024-25
+10/12/2024,Union,Matt Copponi,F,SR,0,0,0,2024-25
+10/12/2024,Union,Quinn Hutson,F,JR,0,1,1,2024-25
+10/12/2024,Union,Shane Lachance,F,SO,1,0,1,2024-25
+10/12/2024,Union,Devin Kaplan,F,JR,0,0,0,2024-25
+10/12/2024,Union,Aiden Celebrini,D,SO,0,0,0,2024-25
+10/12/2024,Union,Cole Eiserman,F,FR,1,0,1,2024-25
+10/12/2024,Union,Cole Hutson,D,FR,0,1,1,2024-25
+10/12/2024,Union,Alex Zetterberg,F,FR,1,0,1,2024-25
+10/12/2024,Union,Mathieu Caron,G,SR,0,0,0,2024-25
+10/12/2024,Union,Sascha Boumedienne,D,FR,0,0,0,2024-25
