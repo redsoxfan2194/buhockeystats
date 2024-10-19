@@ -50,5 +50,5 @@
 33	Emily McDonald	JR	1	00:00	0	0	.000	.00	0-0-0	0	2023-24
 92	Mari Pietersen	FR	11	561:37	26	172	.869	2.78	5-3-1	0	2023-24
 33	Emily McDonald	SR	1	00:00	0	0	.000	.00	0-0-0	0	2024-25
-37	Callie Shanahan	SR	3	160:00	4	80	.952	1.50	1-2-0	1	2024-25
+37	Callie Shanahan	SR	4	219:54	5	94	.949	1.36	2-2-0	1	2024-25
 92	Mari Pietersen	SO	3	134:58	7	44	.863	3.11	1-1-0	0	2024-25

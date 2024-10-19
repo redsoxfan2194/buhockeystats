@@ -126,8 +126,8 @@ Kinsler,Jackson 2023-24 26 1 1 2 2/4
 Law,Alex 2023-25 26 4 9 13 11/25
 Blomquist,Mikayla 2023-24 15 0 0 0 3/6
 Nicholson,Neely 2023-25 34 2 4 6 2/4
-Welcke,Lilli 2023-25 35 7 5 12 3/6
-Welcke,Luisa 2023-25 35 2 9 11 6/12
+Welcke,Lilli 2023-25 35 2 9 11 6/12
+Welcke,Luisa 2023-25 35 7 5 12 3/6
 Carey,Maeve 2024-25 0 0 0 0 0/0
 Meinert,Kate 2024-25 0 0 0 0 0/0
 Reid,Lola 2024-25 0 0 0 0 0/0
