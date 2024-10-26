@@ -44,7 +44,7 @@ typing_extensions==4.6.3
 tzdata==2023.3
 tzlocal==5.0.1
 urllib3==2.2.2
-Werkzeug==3.0.3
+Werkzeug==3.0.6
 wrapt==1.15.0
 yarg==0.1.9
 zipp==3.19.1
