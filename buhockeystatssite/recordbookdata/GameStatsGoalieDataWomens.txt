@@ -706,3 +706,4 @@
 10/12/2024,Northeastern,Callie Shanahan,SR,25,0,1,1,60.0,W,2024-25
 10/18/2024,Maine,Callie Shanahan,SR,14,1,1,0,59.9,W,2024-25
 10/19/2024,Maine,Callie Shanahan,SR,23,0,1,1,60.0,W,2024-25
+10/25/2024,Syracuse,Callie Shanahan,SR,28,1,1,0,60.0,W,2024-25

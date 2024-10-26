@@ -856,49 +856,51 @@
 03/23/2023,Western Michigan,Drew Commesso,SR,24,1,1,0,60.00,W,2022-23
 03/25/2023,Cornell,Drew Commesso,SR,13,1,1,0,60.00,W,2022-23
 04/06/2023,Minnesota,Drew Commesso,SR,28,4,1,0,58.87,L,2022-23
-10/07/2023,Bentley,Mathieu Caron,FR,21,2,1,0,63.2,W,2023-24
-10/13/2023,New Hampshire,Mathieu Caron,FR,29,6,1,0,57.67,L,2023-24
-10/20/2023,Notre Dame,Mathieu Caron,FR,22,4,1,0,56.35,L,2023-24
-10/21/2023,Notre Dame,Mathieu Caron,FR,28,2,1,0,59.62,W,2023-24
-10/27/2023,Massachusetts,Mathieu Caron,FR,18,2,1,0,60.0,W,2023-24
-10/28/2023,Massachusetts,Mathieu Caron,FR,38,3,1,0,65.0,T,2023-24
-11/03/2023,North Dakota,Mathieu Caron,FR,32,2,1,0,59.83,W,2023-24
-11/04/2023,North Dakota,Mathieu Caron,FR,21,5,1,0,60.18,L,2023-24
+10/07/2023,Bentley,Mathieu Caron,JR,21,2,1,0,63.2,W,2023-24
+10/13/2023,New Hampshire,Mathieu Caron,JR,29,6,1,0,57.67,L,2023-24
+10/20/2023,Notre Dame,Mathieu Caron,JR,22,4,1,0,56.35,L,2023-24
+10/21/2023,Notre Dame,Mathieu Caron,JR,28,2,1,0,59.62,W,2023-24
+10/27/2023,Massachusetts,Mathieu Caron,JR,18,2,1,0,60.0,W,2023-24
+10/28/2023,Massachusetts,Mathieu Caron,JR,38,3,1,0,65.0,T,2023-24
+11/03/2023,North Dakota,Mathieu Caron,JR,32,2,1,0,59.83,W,2023-24
+11/04/2023,North Dakota,Mathieu Caron,JR,21,5,1,0,60.18,L,2023-24
 11/10/2023,UMass Lowell,Mathieu Caron,JR,18,2,1,0,59.53,W,2023-24
-11/11/2023,UMass Lowell,Mathieu Caron,FR,28,1,1,0,59.77,W,2023-24
-11/17/2023,Maine,Mathieu Caron,FR,29,2,1,0,60.0,W,2023-24
-11/18/2023,Maine,Mathieu Caron,FR,39,4,1,0,60.0,W,2023-24
-11/22/2023,Quinnipiac,Mathieu Caron,FR,27,2,1,0,59.75,W,2023-24
-11/25/2023,Cornell,Mathieu Caron,FR,17,2,1,0,58.33,L,2023-24
-12/01/2023,Merrimack,Mathieu Caron,FR,22,1,1,0,59.9,W,2023-24
-12/02/2023,Merrimack,Mathieu Caron,FR,23,2,1,0,60.0,W,2023-24
+11/11/2023,UMass Lowell,Mathieu Caron,JR,28,1,1,0,59.77,W,2023-24
+11/17/2023,Maine,Mathieu Caron,JR,29,2,1,0,60.0,W,2023-24
+11/18/2023,Maine,Mathieu Caron,JR,39,4,1,0,60.0,W,2023-24
+11/22/2023,Quinnipiac,Mathieu Caron,JR,27,2,1,0,59.75,W,2023-24
+11/25/2023,Cornell,Mathieu Caron,JR,17,2,1,0,58.33,L,2023-24
+12/01/2023,Merrimack,Mathieu Caron,JR,22,1,1,0,59.9,W,2023-24
+12/02/2023,Merrimack,Mathieu Caron,JR,23,2,1,0,60.0,W,2023-24
 12/29/2023,Yale,Mathieu Caron,JR,23,1,1,0,60.0,W,2023-24
-01/09/2024,Northeastern,Mathieu Caron,FR,24,3,1,0,61.3,W,2023-24
-01/13/2024,New Hampshire,Mathieu Caron,FR,36,0,1,1,60.0,W,2023-24
-01/19/2024,Vermont,Mathieu Caron,FR,26,1,1,0,59.28,W,2023-24
-01/20/2024,Vermont,Mathieu Caron,FR,24,2,1,0,60.0,W,2023-24
-01/26/2024,Boston College,Mathieu Caron,FR,28,2,1,0,59.05,L,2023-24
-01/27/2024,Boston College,Mathieu Caron,FR,21,4,1,0,57.93,L,2023-24
-01/30/2024,Northeastern,Mathieu Caron,FR,25,4,1,0,63.42,L,2023-24
-02/02/2024,New Hampshire,Mathieu Caron,FR,22,3,1,0,60.0,W,2023-24
-02/05/2024,Boston College,Mathieu Caron,FR,34,3,1,0,59.93,W,2023-24
-02/09/2024,Merrimack,Mathieu Caron,FR,15,1,1,0,48.8,W,2023-24
+01/09/2024,Northeastern,Mathieu Caron,JR,24,3,1,0,61.3,W,2023-24
+01/13/2024,New Hampshire,Mathieu Caron,JR,36,0,1,1,60.0,W,2023-24
+01/19/2024,Vermont,Mathieu Caron,JR,26,1,1,0,59.28,W,2023-24
+01/20/2024,Vermont,Mathieu Caron,JR,24,2,1,0,60.0,W,2023-24
+01/26/2024,Boston College,Mathieu Caron,JR,28,2,1,0,59.05,L,2023-24
+01/27/2024,Boston College,Mathieu Caron,JR,21,4,1,0,57.93,L,2023-24
+01/30/2024,Northeastern,Mathieu Caron,JR,25,4,1,0,63.42,L,2023-24
+02/02/2024,New Hampshire,Mathieu Caron,JR,22,3,1,0,60.0,W,2023-24
+02/05/2024,Boston College,Mathieu Caron,JR,34,3,1,0,59.93,W,2023-24
+02/09/2024,Merrimack,Mathieu Caron,JR,15,1,1,0,48.8,W,2023-24
 02/09/2024,Merrimack,Max Lacroix,FR,6,0,1,0,11.2,,2023-24
-02/12/2024,Northeastern,Mathieu Caron,FR,13,4,1,0,64.52,L,2023-24
-02/16/2024,Providence,Mathieu Caron,FR,35,2,1,0,65.0,T,2023-24
-02/17/2024,Providence,Mathieu Caron,FR,32,2,1,0,60.0,W,2023-24
-02/23/2024,Connecticut,Mathieu Caron,FR,26,1,1,0,59.88,W,2023-24
-02/24/2024,Connecticut,Mathieu Caron,FR,23,0,1,1,60.0,W,2023-24
-03/07/2024,Providence,Mathieu Caron,FR,24,2,1,0,59.95,W,2023-24
-03/09/2024,Vermont,Mathieu Caron,FR,18,1,1,0,54.35,W,2023-24
-03/09/2024,Vermont,Nick Howard,FR,0,0,1,0,0.1,,2023-24
-03/09/2024,Vermont,Henry Graham,FR,2,0,1,0,5.27,,2023-24
-03/16/2024,Northeastern,Mathieu Caron,FR,21,2,1,0,60.0,W,2023-24
-03/22/2024,Maine,Mathieu Caron,FR,32,1,1,0,60.0,W,2023-24
-03/23/2024,Boston College,Mathieu Caron,FR,23,5,1,0,58.72,L,2023-24
-03/28/2024,RIT,Mathieu Caron,FR,28,3,1,0,60.0,W,2023-24
-03/30/2024,Minnesota,Mathieu Caron,FR,25,3,1,0,60.0,W,2023-24
-04/11/2024,Denver,Mathieu Caron,FR,27,2,1,0,71.15,L,2023-24
-10/05/2024,Holy Cross,Mathieu Caron,FR,29,2,1,0,60.0,W,2024-25
-10/12/2024,Union,Mathieu Caron,FR,36,1,1,0,59.95,W,2024-25
-10/18/2024,Connecticut,Mathieu Caron,FR,24,2,1,0,60.0,W,2024-25
+02/12/2024,Northeastern,Mathieu Caron,JR,13,4,1,0,64.52,L,2023-24
+02/16/2024,Providence,Mathieu Caron,JR,35,2,1,0,65.0,T,2023-24
+02/17/2024,Providence,Mathieu Caron,JR,32,2,1,0,60.0,W,2023-24
+02/23/2024,Connecticut,Mathieu Caron,JR,26,1,1,0,59.88,W,2023-24
+02/24/2024,Connecticut,Mathieu Caron,JR,23,0,1,1,60.0,W,2023-24
+03/07/2024,Providence,Mathieu Caron,JR,24,2,1,0,59.95,W,2023-24
+03/09/2024,Vermont,Mathieu Caron,JR,18,1,1,0,54.35,W,2023-24
+03/09/2024,Vermont,Nick Howard,GR,0,0,1,0,0.1,,2023-24
+03/09/2024,Vermont,Henry Graham,GR,2,0,1,0,5.27,,2023-24
+03/16/2024,Northeastern,Mathieu Caron,JR,21,2,1,0,60.0,W,2023-24
+03/22/2024,Maine,Mathieu Caron,JR,32,1,1,0,60.0,W,2023-24
+03/23/2024,Boston College,Mathieu Caron,JR,23,5,1,0,58.72,L,2023-24
+03/28/2024,RIT,Mathieu Caron,JR,28,3,1,0,60.0,W,2023-24
+03/30/2024,Minnesota,Mathieu Caron,JR,25,3,1,0,60.0,W,2023-24
+04/11/2024,Denver,Mathieu Caron,JR,27,2,1,0,71.15,L,2023-24
+10/05/2024,Holy Cross,Mathieu Caron,SR,29,2,1,0,60.0,W,2024-25
+10/12/2024,Union,Mathieu Caron,SR,36,1,1,0,59.95,W,2024-25
+10/18/2024,Connecticut,Mathieu Caron,SR,24,2,1,0,60.0,W,2024-25
+10/25/2024,North Dakota,Mathieu Caron,SR,2,4,1,0,10.52,L,2024-25
+10/25/2024,North Dakota,Max Lacroix,SO,25,3,1,0,49.48,,2024-25
