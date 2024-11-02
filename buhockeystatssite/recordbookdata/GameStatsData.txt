@@ -16781,3 +16781,23 @@
 10/26/2024,North Dakota,Alex Zetterberg,F,FR,0,0,0,2024-25
 10/26/2024,North Dakota,Mathieu Caron,G,SR,0,0,0,2024-25
 10/26/2024,North Dakota,Sascha Boumedienne,D,FR,0,1,1,2024-25
+11/01/2024,Michigan,Gavin McCarthy,D,SO,0,0,0,2024-25
+11/01/2024,Michigan,Tristan Amonte,F,SR,0,0,0,2024-25
+11/01/2024,Michigan,Jack Hughes,F,SR,0,0,0,2024-25
+11/01/2024,Michigan,Tom Willander,D,SO,0,0,0,2024-25
+11/01/2024,Michigan,Ryan Greene,F,JR,0,0,0,2024-25
+11/01/2024,Michigan,Brehdan Engum,D,GR,0,0,0,2024-25
+11/01/2024,Michigan,Kamil Bednarik,F,FR,0,0,0,2024-25
+11/01/2024,Michigan,Jack Harvey,F,SO,0,0,0,2024-25
+11/01/2024,Michigan,Mick Frechette,D,SO,0,0,0,2024-25
+11/01/2024,Michigan,Matt Copponi,F,SR,0,0,0,2024-25
+11/01/2024,Michigan,Quinn Hutson,F,JR,0,0,0,2024-25
+11/01/2024,Michigan,Shane Lachance,F,SO,0,0,0,2024-25
+11/01/2024,Michigan,Devin Kaplan,F,JR,0,0,0,2024-25
+11/01/2024,Michigan,Aiden Celebrini,D,SO,0,0,0,2024-25
+11/01/2024,Michigan,Doug Grimes,F,SO,0,0,0,2024-25
+11/01/2024,Michigan,Cole Eiserman,F,FR,1,0,1,2024-25
+11/01/2024,Michigan,Cole Hutson,D,FR,0,1,1,2024-25
+11/01/2024,Michigan,Alex Zetterberg,F,FR,0,0,0,2024-25
+11/01/2024,Michigan,Mathieu Caron,G,SR,0,1,1,2024-25
+11/01/2024,Michigan,Sascha Boumedienne,D,FR,0,0,0,2024-25
