@@ -583,3 +583,29 @@
 33	Max Lacroix	FR	G	6-0	180	L	03	Denver, Colorado / Colorado Grit (NAHL)	2023-24
 62	Mathieu Caron	JR	G	6-0	192	L	00	Abbotsford, British Columbia / Chilliwack Chiefs (BCHL)  Previous College: Brown (2021-23)	2023-24
 71	Macklin Celebrini	FR	F	6-0	190	L	06	Vancouver, British Columbia / Chicago Steel (USHL)	2023-24
+1	Billy Girard IV	GR	G	6-1	190	L	99	Boca Raton, Florida / Connecticut Jr. Rangers (NCDC)  Previous College: University of New England (2020-24)	2024-25
+2	Gavin McCarthy	SO	D	6-2	188	R	05	Clarence Center, New York / Muskegon Lumberjacks (USHL)	2024-25
+3	Tristan Amonte	SR	F	6-0	178	R	00	Norwell, Massachusetts / Penticton Vees (BCHL)	2024-25
+4	Jack Hughes	SR	F	6-0	169	L	03	Westwood, Massachusetts / U.S. National Under-18 Team (NTDP)  Previous College: Northeastern (2021-23)	2024-25
+5	Tom Willander	SO	D	6-1	191	R	05	Stockholm, Sweden / Rögle BK (J20 Nationell)	2024-25
+7	Nick Roukounakis	FR	F	6-2	230	L	03	Pembroke, Massachusetts / Tri-City Storm (USHL)	2024-25
+8	Brandon Svoboda	FR	F	6-3	210	R	05	Pittsburgh, Pennsylvania / Fargo Force (USHL)	2024-25
+9	Ryan Greene	JR	F	6-1	195	R	03	Paradise, Newfoundland / Green Bay Gamblers (USHL)	2024-25
+10	Brehdan Engum	GR	D	6-3	215	L	00	Burnsville, Minnesota / Waterloo Black Hawks (USHL) Previous College: UMass Lowell (2020-24)	2024-25
+11	Kamil Bednarik	FR	F	6-1	188	L	06	Elmhurst, Illinois / U.S. National Under-18 Team	2024-25
+12	Jack Harvey	SO	F	5-10	173	L	03	Stacy, Minnesota / Chicago Steel (USHL)	2024-25
+14	Mick Frechette	SO	D	6-2	200	L	03	Weston, Massachusetts / Dexter Southfield	2024-25
+15	Matt Copponi	SR	F	5-11	180	L	03	Mansfield, Massachusetts / Dexter Southfield  Previous College: Merrimack (2021-24)	2024-25
+17	Quinn Hutson	JR	F	5-11	176	R	02	North Barrington, Illinois / Muskegon Lumberjacks (USHL)	2024-25
+18	Shane Lachance	SO	F	6-5	218	L	03	Andover, Massachusetts / Youngstown Phantoms (USHL)	2024-25
+19	Jack Page	SR	D	6-4	197	L	01	West Chester, Pennsylvania / New Jersey Rockets (USPHL NCDC)	2024-25
+21	Devin Kaplan	JR	F	6-3	200	R	04	Bridgewater, New Jersey / U.S. National Under-18 Team (NTDP)	2024-25
+22	Aiden Celebrini	SO	D	6-1	195	R	04	Vancouver, British Columbia / Brooks Bandits (AJHL)	2024-25
+23	Doug Grimes	SO	F	6-3	205	R	02	Brookline, Massachusetts / Lincoln Stars (USHL)	2024-25
+26	Jack Gorton	SO	F	6-3	196	R	02	New York, New York / Victoria Grizzlies (BCHL)	2024-25
+33	Max Lacroix	SO	G	6-0	180	L	03	Denver, Colorado / Colorado Grit (NAHL)	2024-25
+34	Cole Eiserman	FR	F	6-0	200	L	06	Newburyport, Massachusetts / U.S. National Under-18 Team	2024-25
+44	Cole Hutson	FR	D	5-11	171	L	06	Chicago, Illinois / U.S. National Under-18 Team (NTDP)	2024-25
+61	Alex Zetterberg	FR	F	5-8	164	R	06	Sundsvall, Sweden / Örebro HK (J20 Nationell)	2024-25
+62	Mathieu Caron	SR	G	6-0	195	L	00	Abbotsford, British Columbia / Chilliwack Chiefs (BCHL)  Previous College: Brown (2021-23)	2024-25
+78	Sascha Boumedienne	FR	D	6-2	183	L	07	Stockholm, Sweden / Youngstown Phantoms (USHL)	2024-25
