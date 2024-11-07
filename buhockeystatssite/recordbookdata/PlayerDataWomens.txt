@@ -463,3 +463,28 @@
 33	Emily McDonald	JR	G	5-5	N/A	03	Essex, Vermont / BU Club Team	2023-24
 37	Callie Shanahan	JR	G	5-10	L	03	Commerce, Michigan / HoneyBaked	2023-24
 92	Mari Petersen	FR	G	5-6	N/A	05	Goodwood, Ontario / Etobicoke Jr. Dolphins	2023-24
+2	Maeve Carey	JR	D	5-4	R	03	Gloucester, Massachusetts / Stonehill	2024-25
+3	Liv Haag	SR	F	5-1	R	03	Robbinsdale, Minnesota / Benilde-St. Margaret’s	2024-25
+4	Lindsay Bochna	GR	F	5-5	L	02	Toronto, Ontario / Providence	2024-25
+6	Kate Meinert	FR	D	5-5	R	05	Moon Township, Pennsylvania / BK Selects	2024-25
+7	Kylie Roberts	SR	F	5-8	L	03	Edina, Minnesota / Edina	2024-25
+8	Maggie Hanzel	SR	D	5-9	L	02	Rochester, Minnesota / Lourdes	2024-25
+9	Lola Reid	FR	F	6-0	R	06	Lincoln, Nebraska / Shattuck-St. Mary's	2024-25
+10	Tessa Demain	FR	D	5-7	R	02	Wolfeboro, New Hampshire / St. Paul's School	2024-25
+11	Sydney Healey	JR	F	5-7	L	04	Arthur, Ontario / Burlington Barracudas	2024-25
+16	Luisa Welcke	JR	F	5-5	R	02	Heidelberg, Germany / Maine	2024-25
+17	Alex Law	SO	F	5-8	L	05	Whitby, Ontario / Durham West Jr. Lightning	2024-25
+18	Neely Nicholson	SO	F	5-8	L	04	Pittsburgh, Pennsylvania / Shady Side Academy	2024-25
+19	Clara Yuhn	JR	F	5-9	R	04	Bloomfield Hills, Michigan / Detroit Little Caesars AAA	2024-25
+20	Julia Shaunessy	GR	D	6-1	R	02	Marshfield, Massachusetts / Tabor Academy	2024-25
+21	Riley Walsh	JR	F	5-5	R	04	Duxbury, Massachusetts / Union	2024-25
+22	Christina Vote	SR	F	5-2	L	02	Arlington, Massachusetts / Dexter Southfield	2024-25
+23	Tamara Giaquinto	GR	D	5-6	R	02	Toronto, Ontario / Appleby College	2024-25
+24	Maeve Kelly	JR	D	5-9	R	04	Victoria, Minnesota / Holy Family	2024-25
+25	Ani FitzGerald	SR	F	5-7	L	01	Shaker Heights, Ohio / Northeastern	2024-25
+26	Lilli Welcke	JR	F	5-7	R	02	Heidelberg, Germany / Maine	2024-25
+27	Keira Healey	FR	D	5-7	L	06	Arthur, Ontario / Etobicoke Jr. Dolphins	2024-25
+28	Kaileigh Quigg	FR	F	5-10	L	06	Keswick, Ontario / Durham West Jr. Lightning	2024-25
+33	Emily McDonald	SR	G	5-5	N/A	03	Essex, Vermont / BU Club Team	2024-25
+37	Callie Shanahan	SR	G	5-10	L	03	Commerce, Michigan / HoneyBaked	2024-25
+92	Mari Pietersen	SO	G	5-6	N/A	05	Goodwood, Ontario / Etobicoke Jr. Dolphins	2024-25
