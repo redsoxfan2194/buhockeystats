@@ -1,6 +1,6 @@
 @font-face {
-	font-family: college-font;
-	src: url(font/college.ttf) format('truetype');
+	font-family: yearbook-solid;
+	src: url('font/yearbooksolidcyr_regular.ttf') format('truetype');
 	font-display: swap;
 }
 
@@ -78,12 +78,12 @@ nav {
 }
 
 .navbar-brand {
-	font-family: college-font;
+	font-family: yearbook-solid;
   padding-left: 5px;
 }
 
 #homepage-title{
-  font-family: college-font;
+  font-family: yearbook-solid;
   color: #cc0000;
   text-align: center;
   font-size: 75px;
