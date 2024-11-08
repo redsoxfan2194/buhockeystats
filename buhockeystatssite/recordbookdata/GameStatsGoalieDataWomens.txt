@@ -710,3 +710,4 @@
 10/26/2024,Syracuse,Mari Pietersen,SO,16,2,1,0,60.0,W,2024-25
 11/01/2024,Providence,Callie Shanahan,SR,33,1,1,0,60.0,W,2024-25
 11/02/2024,Providence,Callie Shanahan,SR,21,2,1,0,60.0,W,2024-25
+11/07/2024,Merrimack,Callie Shanahan,SR,15,1,1,0,59.97,W,2024-25
