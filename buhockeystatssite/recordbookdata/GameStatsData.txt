@@ -16863,3 +16863,44 @@
 11/09/2024,UMass Lowell,Cole Hutson,D,FR,1,0,1,2024-25
 11/09/2024,UMass Lowell,Alex Zetterberg,F,FR,0,0,0,2024-25
 11/09/2024,UMass Lowell,Sascha Boumedienne,D,FR,0,0,0,2024-25
+11/15/2024,Maine,Billy Girard IV,G,GR,0,0,0,2024-25
+11/15/2024,Maine,Gavin McCarthy,D,SO,0,0,0,2024-25
+11/15/2024,Maine,Tristan Amonte,F,SR,0,1,1,2024-25
+11/15/2024,Maine,Jack Hughes,F,SR,0,0,0,2024-25
+11/15/2024,Maine,Tom Willander,D,SO,0,0,0,2024-25
+11/15/2024,Maine,Nick Roukounakis,F,FR,0,0,0,2024-25
+11/15/2024,Maine,Ryan Greene,F,JR,1,0,1,2024-25
+11/15/2024,Maine,Brehdan Engum,D,GR,0,0,0,2024-25
+11/15/2024,Maine,Kamil Bednarik,F,FR,0,0,0,2024-25
+11/15/2024,Maine,Jack Harvey,F,SO,0,0,0,2024-25
+11/15/2024,Maine,Mick Frechette,D,SO,0,0,0,2024-25
+11/15/2024,Maine,Matt Copponi,F,SR,0,1,1,2024-25
+11/15/2024,Maine,Quinn Hutson,F,JR,0,0,0,2024-25
+11/15/2024,Maine,Shane Lachance,F,SO,0,1,1,2024-25
+11/15/2024,Maine,Devin Kaplan,F,JR,0,0,0,2024-25
+11/15/2024,Maine,Aiden Celebrini,D,SO,0,0,0,2024-25
+11/15/2024,Maine,Doug Grimes,F,SO,1,0,1,2024-25
+11/15/2024,Maine,Max Lacroix,G,SO,0,0,0,2024-25
+11/15/2024,Maine,Cole Eiserman,F,FR,0,1,1,2024-25
+11/15/2024,Maine,Cole Hutson,D,FR,0,0,0,2024-25
+11/15/2024,Maine,Sascha Boumedienne,D,FR,0,0,0,2024-25
+11/16/2024,Maine,Gavin McCarthy,D,SO,0,0,0,2024-25
+11/16/2024,Maine,Tristan Amonte,F,SR,0,0,0,2024-25
+11/16/2024,Maine,Jack Hughes,F,SR,0,0,0,2024-25
+11/16/2024,Maine,Tom Willander,D,SO,0,2,2,2024-25
+11/16/2024,Maine,Nick Roukounakis,F,FR,0,0,0,2024-25
+11/16/2024,Maine,Ryan Greene,F,JR,0,0,0,2024-25
+11/16/2024,Maine,Brehdan Engum,D,GR,0,0,0,2024-25
+11/16/2024,Maine,Kamil Bednarik,F,FR,0,1,1,2024-25
+11/16/2024,Maine,Jack Harvey,F,SO,0,0,0,2024-25
+11/16/2024,Maine,Mick Frechette,D,SO,0,0,0,2024-25
+11/16/2024,Maine,Matt Copponi,F,SR,0,0,0,2024-25
+11/16/2024,Maine,Shane Lachance,F,SO,1,0,1,2024-25
+11/16/2024,Maine,Devin Kaplan,F,JR,0,0,0,2024-25
+11/16/2024,Maine,Aiden Celebrini,D,SO,0,0,0,2024-25
+11/16/2024,Maine,Doug Grimes,F,SO,0,0,0,2024-25
+11/16/2024,Maine,Jack Gorton,F,SO,0,0,0,2024-25
+11/16/2024,Maine,Cole Eiserman,F,FR,1,0,1,2024-25
+11/16/2024,Maine,Cole Hutson,D,FR,0,1,1,2024-25
+11/16/2024,Maine,Mathieu Caron,G,SR,0,0,0,2024-25
+11/16/2024,Maine,Sascha Boumedienne,D,FR,0,0,0,2024-25

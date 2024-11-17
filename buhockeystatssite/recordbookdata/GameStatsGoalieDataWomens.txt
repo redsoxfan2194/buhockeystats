@@ -712,3 +712,5 @@
 11/02/2024,Providence,Callie Shanahan,SR,21,2,1,0,60.0,W,2024-25
 11/07/2024,Merrimack,Callie Shanahan,SR,15,1,1,0,59.97,W,2024-25
 11/08/2024,Merrimack,Callie Shanahan,SR,5,3,1,0,64.63,,2024-25
+11/15/2024,Boston College,Callie Shanahan,SR,23,3,1,0,61.27,L,2024-25
+11/16/2024,Boston College,Callie Shanahan,SR,8,1,1,0,59.98,W,2024-25
