@@ -16924,3 +16924,43 @@
 11/22/2024,Merrimack,Alex Zetterberg,F,FR,0,0,0,2024-25
 11/22/2024,Merrimack,Mathieu Caron,G,SR,0,1,1,2024-25
 11/22/2024,Merrimack,Sascha Boumedienne,D,FR,0,0,0,2024-25
+11/29/2024,Merrimack,Gavin McCarthy,D,SO,1,0,1,2024-25
+11/29/2024,Merrimack,Tristan Amonte,F,SR,2,0,2,2024-25
+11/29/2024,Merrimack,Jack Hughes,F,SR,0,0,0,2024-25
+11/29/2024,Merrimack,Tom Willander,D,SO,0,0,0,2024-25
+11/29/2024,Merrimack,Brandon Svoboda,F,FR,0,0,0,2024-25
+11/29/2024,Merrimack,Ryan Greene,F,JR,0,2,2,2024-25
+11/29/2024,Merrimack,Brehdan Engum,D,GR,0,0,0,2024-25
+11/29/2024,Merrimack,Kamil Bednarik,F,FR,0,2,2,2024-25
+11/29/2024,Merrimack,Jack Harvey,F,SO,0,0,0,2024-25
+11/29/2024,Merrimack,Mick Frechette,D,SO,0,0,0,2024-25
+11/29/2024,Merrimack,Matt Copponi,F,SR,0,1,1,2024-25
+11/29/2024,Merrimack,Quinn Hutson,F,JR,1,0,1,2024-25
+11/29/2024,Merrimack,Shane Lachance,F,SO,1,0,1,2024-25
+11/29/2024,Merrimack,Devin Kaplan,F,JR,0,1,1,2024-25
+11/29/2024,Merrimack,Aiden Celebrini,D,SO,1,1,2,2024-25
+11/29/2024,Merrimack,Cole Eiserman,F,FR,0,0,0,2024-25
+11/29/2024,Merrimack,Cole Hutson,D,FR,0,2,2,2024-25
+11/29/2024,Merrimack,Alex Zetterberg,F,FR,0,0,0,2024-25
+11/29/2024,Merrimack,Mathieu Caron,G,SR,0,0,0,2024-25
+11/29/2024,Merrimack,Sascha Boumedienne,D,FR,0,1,1,2024-25
+11/30/2024,Notre Dame,Gavin McCarthy,D,SO,1,0,1,2024-25
+11/30/2024,Notre Dame,Tristan Amonte,F,SR,0,0,0,2024-25
+11/30/2024,Notre Dame,Jack Hughes,F,SR,0,0,0,2024-25
+11/30/2024,Notre Dame,Tom Willander,D,SO,0,0,0,2024-25
+11/30/2024,Notre Dame,Brandon Svoboda,F,FR,0,0,0,2024-25
+11/30/2024,Notre Dame,Ryan Greene,F,JR,1,0,1,2024-25
+11/30/2024,Notre Dame,Brehdan Engum,D,GR,0,0,0,2024-25
+11/30/2024,Notre Dame,Kamil Bednarik,F,FR,1,0,1,2024-25
+11/30/2024,Notre Dame,Jack Harvey,F,SO,0,0,0,2024-25
+11/30/2024,Notre Dame,Mick Frechette,D,SO,0,0,0,2024-25
+11/30/2024,Notre Dame,Matt Copponi,F,SR,0,1,1,2024-25
+11/30/2024,Notre Dame,Quinn Hutson,F,JR,0,2,2,2024-25
+11/30/2024,Notre Dame,Shane Lachance,F,SO,1,2,3,2024-25
+11/30/2024,Notre Dame,Devin Kaplan,F,JR,0,0,0,2024-25
+11/30/2024,Notre Dame,Aiden Celebrini,D,SO,0,0,0,2024-25
+11/30/2024,Notre Dame,Cole Eiserman,F,FR,0,0,0,2024-25
+11/30/2024,Notre Dame,Cole Hutson,D,FR,0,0,0,2024-25
+11/30/2024,Notre Dame,Alex Zetterberg,F,FR,0,0,0,2024-25
+11/30/2024,Notre Dame,Mathieu Caron,G,SR,0,0,0,2024-25
+11/30/2024,Notre Dame,Sascha Boumedienne,D,FR,0,0,0,2024-25

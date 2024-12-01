@@ -912,3 +912,5 @@
 11/15/2024,Maine,Max Lacroix,SO,29,4,1,0,58.58,L,2024-25
 11/16/2024,Maine,Mathieu Caron,SR,30,2,1,0,63.65,T,2024-25
 11/22/2024,Merrimack,Mathieu Caron,SR,36,3,1,0,60.0,W,2024-25
+11/29/2024,Merrimack,Mathieu Caron,SR,31,2,1,0,60.0,W,2024-25
+11/30/2024,Notre Dame,Mathieu Caron,SR,28,3,1,0,60.0,W,2024-25
