@@ -914,3 +914,4 @@
 11/22/2024,Merrimack,Mathieu Caron,SR,36,3,1,0,60.0,W,2024-25
 11/29/2024,Merrimack,Mathieu Caron,SR,31,2,1,0,60.0,W,2024-25
 11/30/2024,Notre Dame,Mathieu Caron,SR,28,3,1,0,60.0,W,2024-25
+12/07/2024,Massachusetts,Mathieu Caron,SR,33,4,1,0,60.0,L,2024-25

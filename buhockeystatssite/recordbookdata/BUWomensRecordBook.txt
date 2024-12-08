@@ -177,10 +177,10 @@ CAPTAINS: Sarah Appleton, Melissa Tetreau
 11/2 L Walter Brown Arena H Boston College * 1-2
 11/6 L Walter Brown Arena H #3 New Hampshire * 3-4
 11/7 T Whittemore Center Arena A #3 New Hampshire * 4-4
+11/8 W Conte Forum A Boston College * 4-0
 11/11 W Walter Brown Arena H Vermont * 4-0
 11/14 W Agganis Arena H Providence * 5-3
 11/15 L Schneider Arena A Providence * 2-6
-11/8 W Conte Forum A Boston College * 4-0
 11/24 T Alfond Arena A Maine * 1-1
 11/27 L Hobey Baker Rink A Princeton 1-3
 11/28 W Hobey Baker Rink A Princeton 3-2
@@ -798,7 +798,7 @@ CAPTAIN: Tamara Giaquinto
 11/15 L Agganis Arena H Boston College * 2-3
 11/16 W Conte Forum A Boston College * 3-1
 11/27 L Agganis Arena H Princeton 1-8
-12/06 N Alfond Arena A Maine * 0-0
+12/06 W Alfond Arena A Maine * 3-1
 01/03 N Hart Center A Holy Cross * 0-0
 01/10 N Gutterson Fieldhouse A Vermont * 0-0
 01/11 N Gutterson Fieldhouse A Vermont * 0-0

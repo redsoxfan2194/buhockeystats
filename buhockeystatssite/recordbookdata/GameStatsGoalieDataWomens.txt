@@ -699,9 +699,9 @@
 02/24/2024,Connecticut,Callie Shanahan,JR,22,1,1,0,56.75,L,2023-24
 02/28/2024,Holy Cross,Callie Shanahan,JR,12,4,1,0,56.45,L,2023-24
 10/01/2024,Merrimack,Mari Pietersen,G,16,1,1,0,59.45,W,2024-25
-10/04/2024,Minnesota,Callie Shanahan,SO,40,1,1,0,60.0,L,2024-25
+10/04/2024,Minnesota,Callie Shanahan,SR,40,1,1,0,60.0,L,2024-25
 10/06/2024,Minnesota,Mari Pietersen,SO,21,5,1,0,60.0,L,2024-25
-10/11/2024,Northeastern,Callie Shanahan,SO,15,3,1,0,40.0,L,2024-25
+10/11/2024,Northeastern,Callie Shanahan,SR,15,3,1,0,40.0,L,2024-25
 10/11/2024,Northeastern,Mari Pietersen,SO,7,1,1,0,15.52,,2024-25
 10/12/2024,Northeastern,Callie Shanahan,SR,25,0,1,1,60.0,W,2024-25
 10/18/2024,Maine,Callie Shanahan,SR,14,1,1,0,59.9,W,2024-25
@@ -715,3 +715,4 @@
 11/15/2024,Boston College,Callie Shanahan,SR,23,3,1,0,61.27,L,2024-25
 11/16/2024,Boston College,Callie Shanahan,SR,8,1,1,0,59.98,W,2024-25
 11/27/2024,Princeton,Callie Shanahan,SR,24,8,1,0,60.0,L,2024-25
+12/06/2024,Maine,Callie Shanahan,SR,25,1,1,0,59.9,W,2024-25

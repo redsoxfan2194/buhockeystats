@@ -16964,3 +16964,23 @@
 11/30/2024,Notre Dame,Alex Zetterberg,F,FR,0,0,0,2024-25
 11/30/2024,Notre Dame,Mathieu Caron,G,SR,0,0,0,2024-25
 11/30/2024,Notre Dame,Sascha Boumedienne,D,FR,0,0,0,2024-25
+12/07/2024,Massachusetts,Gavin McCarthy,D,SO,0,0,0,2024-25
+12/07/2024,Massachusetts,Tristan Amonte,F,SR,0,0,0,2024-25
+12/07/2024,Massachusetts,Jack Hughes,F,SR,0,0,0,2024-25
+12/07/2024,Massachusetts,Tom Willander,D,SO,0,0,0,2024-25
+12/07/2024,Massachusetts,Brandon Svoboda,F,FR,0,0,0,2024-25
+12/07/2024,Massachusetts,Ryan Greene,F,JR,0,0,0,2024-25
+12/07/2024,Massachusetts,Brehdan Engum,D,GR,0,0,0,2024-25
+12/07/2024,Massachusetts,Kamil Bednarik,F,FR,0,0,0,2024-25
+12/07/2024,Massachusetts,Jack Harvey,F,SO,0,0,0,2024-25
+12/07/2024,Massachusetts,Mick Frechette,D,SO,0,0,0,2024-25
+12/07/2024,Massachusetts,Matt Copponi,F,SR,0,0,0,2024-25
+12/07/2024,Massachusetts,Quinn Hutson,F,JR,0,0,0,2024-25
+12/07/2024,Massachusetts,Shane Lachance,F,SO,0,0,0,2024-25
+12/07/2024,Massachusetts,Devin Kaplan,F,JR,0,0,0,2024-25
+12/07/2024,Massachusetts,Aiden Celebrini,D,SO,0,0,0,2024-25
+12/07/2024,Massachusetts,Cole Eiserman,F,FR,0,0,0,2024-25
+12/07/2024,Massachusetts,Cole Hutson,D,FR,0,0,0,2024-25
+12/07/2024,Massachusetts,Alex Zetterberg,F,FR,0,0,0,2024-25
+12/07/2024,Massachusetts,Mathieu Caron,G,SR,0,0,0,2024-25
+12/07/2024,Massachusetts,Sascha Boumedienne,D,FR,0,0,0,2024-25

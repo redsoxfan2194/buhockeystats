@@ -1786,8 +1786,8 @@ CAPTAIN: Mike Kelfer
 1/28 L (ot) Walter Brown Arena	New Hampshire * 2-3
 1/31 W Walter Brown Arena	UMass Lowell * 6-1
 2/3 L Schneider Arena	Providence * 2-4
-2/13 L Boston Garden	Harvard (Pot) 6-9
 2/6 W (ot) Boston Garden	Northeastern (Pot) 5-4
+2/13 L Boston Garden	Harvard (Pot) 6-9
 2/18 L Walter Brown Arena	Providence * 4-6
 2/21 W Snively Arena	New Hampshire * 4-0
 2/24 L Alfond Arena	Maine * 4-8
@@ -3387,7 +3387,7 @@ CAPTAIN: Shane Lachance,Ryan Greene
 11/22 W Agganis Arena	Merrimack * 6-3
 11/29 W SSE Arena	Merrimack * (FF-NI) 6-2
 11/30 W SSE Arena	Notre Dame (FF-NI) 4-3
-12/07 N Agganis Arena	Massachusetts * 0-0
+12/07 L Agganis Arena	Massachusetts * 0-4
 12/11 N Mullins Center	Massachusetts * 0-0
 12/13 N Agganis Arena	US Under-18 Team (ex) 0-0
 12/29 N Ingalls Rink	Yale 0-0
