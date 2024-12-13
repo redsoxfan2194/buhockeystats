@@ -802,9 +802,9 @@ CAPTAIN: Tamara Giaquinto
 01/03 N Hart Center A Holy Cross * 0-0
 01/10 N Gutterson Fieldhouse A Vermont * 0-0
 01/11 N Gutterson Fieldhouse A Vermont * 0-0
-01/14 N Walter Brown Arena H Harvard (BP) 0-0
+01/14 N Matthews Arena H Harvard (BP) 0-0
 01/17 N Whittemore Center Arena A New Hampshire * 0-0
-01/21 N Walter Brown Arena N Boston College/Northeastern (BP) 0-0
+01/21 N TD Garden N Boston College/Northeastern (BP) 0-0
 01/24 N Hart Center A Holy Cross * 0-0
 01/25 N Walter Brown Arena H Holy Cross * 0-0
 01/31 N Walter Brown Arena H Boston College * 0-0
