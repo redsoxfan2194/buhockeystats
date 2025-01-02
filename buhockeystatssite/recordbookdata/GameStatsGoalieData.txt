@@ -666,8 +666,8 @@
 02/12/2018,Northeastern,Jake Oettinger,SO,22,4,1,0,56.11,L,2017-18
 02/16/2018,UConn,Jake Oettinger,SO,15,5,1,0,62.85,L,2017-18
 02/17/2018,Merrimack,Jake Oettinger,SO,28,1,1,0,60.00,W,2017-18
-02/23/2018,Vermont,Jake Oettinger,SO,33,0,1,0,59.69,W,2017-18
-02/24/2018,Vermont,Jake Oettinger,SO,28,1,1,1,65.00,T,2017-18
+02/23/2018,Vermont,Jake Oettinger,SO,33,0,1,1,59.69,W,2017-18
+02/24/2018,Vermont,Jake Oettinger,SO,28,1,1,0,65.00,T,2017-18
 03/09/2018,UConn,Jake Oettinger,SO,36,4,1,0,64.62,W,2017-18
 03/10/2018,UConn,Jake Oettinger,SO,36,1,1,0,60.00,W,2017-18
 03/16/2018,Boston College,Jake Oettinger,SO,36,3,1,0,75.67,W,2017-18
