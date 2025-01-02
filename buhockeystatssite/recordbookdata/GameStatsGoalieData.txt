@@ -602,7 +602,7 @@
 10/22/2016,Quinnipiac,Jake Oettinger,FR,22,0,1,1,59.93,W,2016-17
 11/04/2016,Northeastern,Jake Oettinger,FR,26,4,1,0,64.87,T,2016-17
 11/05/2016,Northeastern,Connor LaCouvee,JR,3,0,1,0,4.20,,2016-17
-11/05/2016,Northeastern,Jake Oettinger,FR,24,0,1,1,55.67,W,2016-17
+11/05/2016,Northeastern,Jake Oettinger,FR,24,0,1,0,55.67,W,2016-17
 11/11/2016,Michigan,Jake Oettinger,FR,17,3,1,0,59.33,L,2016-17
 11/12/2016,Michigan,Jake Oettinger,FR,27,2,1,0,59.95,W,2016-17
 11/18/2016,Connecticut,Connor LaCouvee,JR,28,1,1,0,60.00,W,2016-17
@@ -667,7 +667,7 @@
 02/16/2018,UConn,Jake Oettinger,SO,15,5,1,0,62.85,L,2017-18
 02/17/2018,Merrimack,Jake Oettinger,SO,28,1,1,0,60.00,W,2017-18
 02/23/2018,Vermont,Jake Oettinger,SO,33,0,1,0,59.69,W,2017-18
-02/24/2018,Vermont,Jake Oettinger,SO,28,1,1,0,65.00,T,2017-18
+02/24/2018,Vermont,Jake Oettinger,SO,28,1,1,1,65.00,T,2017-18
 03/09/2018,UConn,Jake Oettinger,SO,36,4,1,0,64.62,W,2017-18
 03/10/2018,UConn,Jake Oettinger,SO,36,1,1,0,60.00,W,2017-18
 03/16/2018,Boston College,Jake Oettinger,SO,36,3,1,0,75.67,W,2017-18
