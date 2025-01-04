@@ -716,3 +716,4 @@
 11/16/2024,Boston College,Callie Shanahan,SR,8,1,1,0,59.98,W,2024-25
 11/27/2024,Princeton,Callie Shanahan,SR,24,8,1,0,60.0,L,2024-25
 12/06/2024,Maine,Callie Shanahan,SR,25,1,1,0,59.9,W,2024-25
+01/03/2025,Holy Cross,Callie Shanahan,SR,15,0,1,1,60.0,W,2024-25
