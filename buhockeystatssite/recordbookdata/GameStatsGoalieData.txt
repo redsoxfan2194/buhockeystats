@@ -918,3 +918,4 @@
 12/11/2024,Massachusetts,Mathieu Caron,SR,22,2,1,0,59.75,W,2024-25
 12/29/2024,Yale,Mathieu Caron,SR,10,4,1,0,24.1,,2024-25
 12/29/2024,Yale,Max Lacroix,SO,11,3,1,0,33.02,L,2024-25
+01/10/2025,Vermont,Mathieu Caron,SR,27,1,1,0,60.0,W,2024-25

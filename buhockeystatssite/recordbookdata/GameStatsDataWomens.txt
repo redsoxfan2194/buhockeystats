@@ -13377,3 +13377,23 @@
 01/03/2025,Holy Cross,Kaileigh Quigg,F,FR,0,0,0,2024-25
 01/03/2025,Holy Cross,Emily McDonald,G,SR,0,0,0,2024-25
 01/03/2025,Holy Cross,Callie Shanahan,G,SR,0,0,0,2024-25
+01/10/2025,Vermont,Maeve Carey,D,SO,0,0,0,2024-25
+01/10/2025,Vermont,Liv Haag,F,SR,0,0,0,2024-25
+01/10/2025,Vermont,Lindsay Bochna,F,GR,0,0,0,2024-25
+01/10/2025,Vermont,Maggie Hanzel,D,SR,0,0,0,2024-25
+01/10/2025,Vermont,Lola Reid,F,FR,0,0,0,2024-25
+01/10/2025,Vermont,Sydney Healey,F,JR,0,0,0,2024-25
+01/10/2025,Vermont,Luisa Welcke,F,JR,1,0,1,2024-25
+01/10/2025,Vermont,Alex Law,F,SO,0,0,0,2024-25
+01/10/2025,Vermont,Neely Nicholson,F,SO,0,0,0,2024-25
+01/10/2025,Vermont,Clara Yuhn,F,JR,0,0,0,2024-25
+01/10/2025,Vermont,Julia Shaunessy,D,GR,0,0,0,2024-25
+01/10/2025,Vermont,Riley Walsh,F,JR,0,0,0,2024-25
+01/10/2025,Vermont,Christina Vote,F,SR,0,0,0,2024-25
+01/10/2025,Vermont,Tamara Giaquinto,D,GR,0,1,1,2024-25
+01/10/2025,Vermont,Maeve Kelly,D,JR,0,1,1,2024-25
+01/10/2025,Vermont,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/10/2025,Vermont,Lilli Welcke,F,JR,1,1,2,2024-25
+01/10/2025,Vermont,Keira Healey,D,FR,0,0,0,2024-25
+01/10/2025,Vermont,Kaileigh Quigg,F,FR,0,0,0,2024-25
+01/10/2025,Vermont,Callie Shanahan,G,SR,0,0,0,2024-25
