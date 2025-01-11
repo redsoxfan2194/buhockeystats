@@ -37,7 +37,7 @@ def redirect_to_https():
         # Redirect to the same URL but with HTTPS scheme
         url = request.url.replace('http://', 'https://', 1)
         return redirect(url, code=301)
-        
+
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
@@ -61,14 +61,14 @@ def static_from_root():
 @app.route('/favicon.ico')
 def static_favicon():
     return app.send_static_file('images/favicon.ico')
-    
+
 if(datetime.datetime.now(easternTZ).month>=10 or datetime.datetime.now(easternTZ).month<5):
   try:
     burb.refreshStats()
   except:
     print('Failed to Refresh Stats...Initializing')
   burb.initializeRecordBook()
-    
+
 else:
   print('Initializing Record Book...')
   burb.initializeRecordBook()
@@ -100,7 +100,7 @@ def about():
       Flask Template : flask template containing about.html
     '''
     return render_template('about.html',titletag=' - About')
-    
+
 @app.route('/feedback')
 def feedback():
     ''' Renders "Feedback" Page
@@ -311,7 +311,7 @@ def players():
                     len(dfStat.columns))]).transpose()
                 row.columns = dfStat.columns
                 dfStat = pd.concat([dfStat, row]).reset_index(drop=True)
-                
+
                 name = (dfMerged.loc[(dfMerged['name'].str.contains(
                         formData['name'], case=False))]['name'].unique()[0])
                 row = pd.DataFrame(["Longest Point Streak" if i == 0 else np.nan for i in range(
@@ -319,7 +319,7 @@ def players():
                 row.columns = dfStat.columns
                 row['value']=burb.getMaxStreak(dfMerged,name,'pts')
                 dfStat = pd.concat([dfStat, row]).reset_index(drop=True)
-                
+
             else:
                 dfStat = pd.DataFrame([{"": 'No Data Available'}])
         if (formData['group'] == 'splits' and formData['name'] not in
@@ -438,9 +438,11 @@ def players():
                     queries = [
                         'ga==0',
                         'ga>0',
+                        'ga<=1',
                         'ga==1',
                         'ga>1',
                         'ga==2',
+                        'ga<=2',
                         'ga>=3',
                         'sv>0 and sv<20',
                         'sv>=20 and sv<30',
@@ -450,9 +452,11 @@ def players():
                     qText = [
                         "Allows 0 Goals",
                         "Allows at least 1 Goal",
+                        "Allows 1 Goal or fewer",
                         "Allows exactly 1 Goal",
                         "Allows 1+ Goals",
                         "Allows Exactly 2 Goals",
+                        "Allows 2 Goals or fewer",
                         "Allows 3+ Goals",
                         'Makes 0-19 Saves',
                         'Makes 20-29 Saves',
@@ -724,12 +728,12 @@ def records():
                             (recDict['W'] + recDict['L'] + recDict['T']), 3)
                         recDict['GP']=recDict['W'] + recDict['L'] + recDict['T']
                         recsList.append(recDict)
-                
+
                 dfRes = pd.DataFrame(recsList)
                 recCols = dfRes.columns.tolist()
                 recCols.insert(1, recCols.pop())
                 dfRes = dfRes[recCols]
-                
+
                 if formData['grouping'] == 'Month':
                   dfRes = dfRes.copy()
                   dfRes.loc[:, 'Month'] = pd.to_datetime(
@@ -763,7 +767,7 @@ def records():
                   dfRes.loc[:, 'dow'] = dfRes['dow'].map(dayNames)
             elif formData['tabletype'] ==  'streaks':
                 dfRes = generateStreaks(dfRes.copy())
-                
+
         if (formData['sortval'] in ["date", "GD", "BUScore", "OppoScore"]
                 and 'date' not in dfRes.columns):
             if formData['sortval'] != 'date':
@@ -858,7 +862,7 @@ def noteables():
     wActivePtStreak=burb.getActiveStreaks(burb.dfGameStatsWomens,currSeasonW),
     currSeasonM=currSeasonM,
     currSeasonW=currSeasonW)
-    
+
 @app.route('/trio')
 def trio():
     ''' Renders "Terrier Trio" Page
@@ -891,7 +895,7 @@ def birthdays():
 
     # Calculate the number of days in the month
     num_days = (first_day + datetime.timedelta(days=32)).replace(day=1) - datetime.timedelta(days=1)
-    
+
     birthdays = burb.getBirthdays(year,month)
 
     # Create a calendar grid
@@ -907,10 +911,10 @@ def birthdays():
             'day': day,
             'birthdays': birthdays[birthdays['Day'] == day]['name_age'].tolist()
         }
-        
+
     if(not any(calendar[0])):
       calendar.pop(0)
-      
+
     return render_template(
         'birthdays.html',
         titletag='- Birthdays',
@@ -1222,7 +1226,7 @@ def generateResultsQuestion(gender="Mens", seasList=burb.dfGames.season.unique()
         ops = []
         while (len(set(ops)) < numOptions-1 or seasIdx in ops):
             ops = random.sample(range(sIdx, eIdx), numOptions-1)
- 
+
         options = [seasons[i] for i in ops]
         options.append(season)
         question = f"BU's {qChoice} game vs {oppName} occurred during which season?"
