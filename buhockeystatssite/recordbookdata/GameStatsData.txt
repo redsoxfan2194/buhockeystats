@@ -17064,3 +17064,23 @@
 01/11/2025,Vermont,Alex Zetterberg,F,FR,0,0,0,2024-25
 01/11/2025,Vermont,Mathieu Caron,G,SR,0,0,0,2024-25
 01/11/2025,Vermont,Sascha Boumedienne,D,FR,0,0,0,2024-25
+01/17/2025,New Hampshire,Gavin McCarthy,D,SO,0,0,0,2024-25
+01/17/2025,New Hampshire,Tristan Amonte,F,SR,0,0,0,2024-25
+01/17/2025,New Hampshire,Jack Hughes,F,SR,1,0,1,2024-25
+01/17/2025,New Hampshire,Tom Willander,D,SO,0,0,0,2024-25
+01/17/2025,New Hampshire,Brandon Svoboda,F,FR,0,0,0,2024-25
+01/17/2025,New Hampshire,Ryan Greene,F,JR,2,0,2,2024-25
+01/17/2025,New Hampshire,Brehdan Engum,D,GR,0,0,0,2024-25
+01/17/2025,New Hampshire,Kamil Bednarik,F,FR,0,1,1,2024-25
+01/17/2025,New Hampshire,Jack Harvey,F,SO,0,1,1,2024-25
+01/17/2025,New Hampshire,Mick Frechette,D,SO,0,0,0,2024-25
+01/17/2025,New Hampshire,Matt Copponi,F,SR,0,0,0,2024-25
+01/17/2025,New Hampshire,Quinn Hutson,F,JR,1,1,2,2024-25
+01/17/2025,New Hampshire,Shane Lachance,F,SO,0,1,1,2024-25
+01/17/2025,New Hampshire,Devin Kaplan,F,JR,1,0,1,2024-25
+01/17/2025,New Hampshire,Doug Grimes,F,SO,0,0,0,2024-25
+01/17/2025,New Hampshire,Cole Eiserman,F,FR,0,0,0,2024-25
+01/17/2025,New Hampshire,Cole Hutson,D,FR,1,1,2,2024-25
+01/17/2025,New Hampshire,Alex Zetterberg,F,FR,0,0,0,2024-25
+01/17/2025,New Hampshire,Mathieu Caron,G,SR,0,0,0,2024-25
+01/17/2025,New Hampshire,Sascha Boumedienne,D,FR,0,1,1,2024-25
