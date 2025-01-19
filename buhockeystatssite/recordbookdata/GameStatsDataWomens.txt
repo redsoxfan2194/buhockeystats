@@ -13438,3 +13438,23 @@
 01/14/2025,Harvard,Keira Healey,D,FR,0,0,0,2024-25
 01/14/2025,Harvard,Kaileigh Quigg,F,FR,0,0,0,2024-25
 01/14/2025,Harvard,Callie Shanahan,G,SR,0,0,0,2024-25
+01/18/2025,New Hampshire,Maeve Carey,D,SO,0,0,0,2024-25
+01/18/2025,New Hampshire,Liv Haag,F,SR,0,0,0,2024-25
+01/18/2025,New Hampshire,Lindsay Bochna,F,GR,0,0,0,2024-25
+01/18/2025,New Hampshire,Maggie Hanzel,D,SR,0,0,0,2024-25
+01/18/2025,New Hampshire,Lola Reid,F,FR,0,0,0,2024-25
+01/18/2025,New Hampshire,Sydney Healey,F,JR,0,0,0,2024-25
+01/18/2025,New Hampshire,Luisa Welcke,F,JR,0,0,0,2024-25
+01/18/2025,New Hampshire,Alex Law,F,SO,0,0,0,2024-25
+01/18/2025,New Hampshire,Neely Nicholson,F,SO,0,0,0,2024-25
+01/18/2025,New Hampshire,Clara Yuhn,F,JR,0,0,0,2024-25
+01/18/2025,New Hampshire,Julia Shaunessy,D,GR,0,0,0,2024-25
+01/18/2025,New Hampshire,Riley Walsh,F,JR,0,0,0,2024-25
+01/18/2025,New Hampshire,Christina Vote,F,SR,0,0,0,2024-25
+01/18/2025,New Hampshire,Tamara Giaquinto,D,GR,0,0,0,2024-25
+01/18/2025,New Hampshire,Maeve Kelly,D,JR,0,0,0,2024-25
+01/18/2025,New Hampshire,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/18/2025,New Hampshire,Lilli Welcke,F,JR,0,0,0,2024-25
+01/18/2025,New Hampshire,Keira Healey,D,FR,0,0,0,2024-25
+01/18/2025,New Hampshire,Kaileigh Quigg,F,FR,0,0,0,2024-25
+01/18/2025,New Hampshire,Callie Shanahan,G,SR,0,0,0,2024-25
