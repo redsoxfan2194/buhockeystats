@@ -148,9 +148,9 @@ def players():
                     dfStat['T'] = rec[2].replace('', -1).astype(int)
             elif formData['type'] == 'game' or formData['type']=='streak':
                 if formData['position'] == 'skater':
-                    dfStat = burb.dfGameStatsMens
+                    dfStat = pd.merge(burb.dfGameStatsMens,burb.dfGames[['date','location','arena']],on='date')
                 elif formData['position'] == 'goalie':
-                    dfStat = burb.dfGameStatsGoalieMens
+                    dfStat = pd.merge(burb.dfGameStatsGoalieMens,burb.dfGames[['date','location','arena']],on='date')
         elif formData['gender'] == 'Womens':
             mergeGames = burb.dfGamesWomens.copy()
             if formData['type'] == 'career':
@@ -176,9 +176,9 @@ def players():
                     dfStat['T'] = rec[2].astype(int)
             elif formData['type'] == 'game' or formData['type']=='streak':
                 if formData['position'] == 'skater':
-                    dfStat = burb.dfGameStatsWomens
+                    dfStat = pd.merge(burb.dfGameStatsWomens,burb.dfGamesWomens[['date','location','arena']],on='date')
                 elif formData['position'] == 'goalie':
-                    dfStat = burb.dfGameStatsGoalieWomens
+                    dfStat = pd.merge(burb.dfGameStatsGoalieWomens,burb.dfGamesWomens[['date','location','arena']],on='date')
         if seasVals == []:
             seasVals = list(dfStat.season.unique())
         sSeas = formData['seasonStart']
@@ -226,12 +226,18 @@ def players():
                 dfStat = dfStat.query(f"yr=='{formData['yr']}'")
         if formData['type'] == 'game':
             oppList = sorted(list(dfStat.opponent.unique()))
+            arenaList = sorted(list(dfStat.arena.unique()))
             if formData['opponent'] != 'all':
                 dfStat = dfStat.query(f"opponent==\"{formData['opponent']}\"")
             if formData['date'] != '':
                 dfStat = dfStat.query(f"date==\"{formData['date']}\"")
+            if formData['arena'] != 'all':
+                dfStat = dfStat.query(f"arena==\"{formData['arena']}\"")
+            if formData['location'] != 'all':
+                dfStat = dfStat.query(f"location==\"{formData['location']}\"")
         else:
             oppList = []
+            arenaList = []
         if formData['name'] != '':
             dfStat = dfStat.loc[dfStat['name'].str.contains(
                 formData['name'].strip(), case=False)]
@@ -240,19 +246,19 @@ def players():
         if (formData['group'] not in ['', 'splits', 'records']
                 and formData['position'] == 'skater'):
             dfStat = dfStat.groupby(
-                ['name', 'opponent']).sum(numeric_only=True)
+                ['name', formData['group']]).sum(numeric_only=True)
             dfStat = dfStat.reset_index()
-            dfStat = dfStat[['name', 'opponent',
+            dfStat = dfStat[['name', formData['group'],
                              'gp', 'goals', 'assists', 'pts']]
         if (formData['group'] not in ['', 'splits', 'records']
                 and formData['position'] == 'goalie'):
             dfStat = determineRecord(dfStat)
             dfStat = dfStat.groupby(
-                ['name', 'opponent']).sum(numeric_only=True)
+                ['name', formData['group']]).sum(numeric_only=True)
             dfStat = dfStat.reset_index()
             dfStat['sv%'] = dfStat['sv'] / (dfStat['sv'] + dfStat['ga'])
             dfStat['gaa'] = (dfStat['ga'] / dfStat['mins']) * 60
-            dfStat = dfStat[['name', 'opponent', 'gp', 'ga',
+            dfStat = dfStat[['name', formData['group'], 'gp', 'ga',
                              'gaa', 'sv', 'sv%', 'SO', 'W', 'L', 'T']]
         if (formData['group'] in ['splits', 'records']
                 and formData['name'] in ['', 'Name']):
@@ -537,6 +543,7 @@ def players():
         return jsonify(statTable=formatStats(dfStat),
                        season_values=seasVals,
                        opponents_values=oppList,
+                       arena_values=arenaList,
                        sortval=sortVal,
                        isAscending=formData['isAscending'])
     dfStat = burb.dfSkateMens

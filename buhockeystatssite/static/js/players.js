@@ -45,6 +45,8 @@ function clearFilters(event) {
     document.getElementById("yr").value = "all";
     document.getElementById("season").value = "all";
     document.getElementById("opponent").value = "all";
+    document.getElementById("arena").value = "all";
+    document.getElementById("location").value = "all";
 
     if (document.getElementById("gender").value === "Womens") {
         document.getElementById("seasonStart").value = "2005-06";
@@ -237,6 +239,23 @@ function submitForm(reset = "false") {
                 );
                 $.each(response.opponents_values, function (index, item) {
                     selectOppElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
+                
+                const selectArenaElement   = $("#arena");
+                selectArenaElement.empty();
+                selectArenaElement.append(
+                    $("<option>", {
+                        value: "all",
+                        text: "All",
+                    })
+                );
+                $.each(response.arena_values, function (index, item) {
+                    selectArenaElement.append(
                         $("<option>", {
                             value: item,
                             text: item,

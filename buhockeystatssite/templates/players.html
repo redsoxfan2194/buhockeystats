@@ -85,11 +85,32 @@
                     {% endfor %}
                 </select>
             </div>
+            <div id="arenaDiv" class="filter game-stats">
+                <label for="arena" class="recLabels game-stats">Arena:</label>
+                <select class="btn dropdown-toggle custom-align game-stats" name="arena" id="arena" onchange="submitForm()">
+                    <option value="all" {% if selected_arena == 'all' %} selected {% endif %}> All </option>
+                    {% for areana in opponents_values %}
+                        <option value="{{ arena }}" {% if selected_arena == arena %} selected {% endif %}>
+                            {{ arena }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div id="locDiv" class="filter game-stats">
+                <label for="location" class="recLabels game-stats">Location:</label>
+                <select class="btn dropdown-toggle custom-align game-stats" name="location" id="location" onchange="submitForm()">
+                    <option value="all" {% if selected_loc == 'all' %} selected {% endif %}>All</option>
+                    <option value="Home" {% if selected_loc == 'Home' %} selected {% endif %}>Home</option>
+                    <option value="Away" {% if selected_loc == 'Away' %} selected {% endif %}>Away</option>
+                    <option value="Neutral" {% if selected_loc == 'Neutral' %} selected {% endif %}>Neutral</option>
+                </select>
+            </div>
             <div id="groupDiv" class="filter game-stats">
                 <label for="group" class="recLabels game-stats">Stat Format:</label>
                 <select class="btn dropdown-toggle custom-align game-stats" name="group" id="group" onchange="submitForm()">
                     <option value="" {% if selected_group == 'all' %} selected {% endif %}>Individual</option>
                     <option value="opponent" {% if selected_group == "" %} selected {% endif %}>Group by: Opponent</option>
+                    <option value="arena" {% if selected_group == "" %} selected {% endif %}>Group by: Arena</option>
                     <option value="splits" {% if selected_group == "" %} selected {% endif %}>Splits</option>
                     <option value="records" {% if selected_group == "" %} selected {% endif %}>Situational Records</option>
                 </select>
