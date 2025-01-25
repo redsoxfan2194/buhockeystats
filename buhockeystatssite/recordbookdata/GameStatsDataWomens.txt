@@ -13478,3 +13478,22 @@
 01/21/2025,Northeastern,Keira Healey,D,FR,0,0,0,2024-25
 01/21/2025,Northeastern,Kaileigh Quigg,F,FR,0,0,0,2024-25
 01/21/2025,Northeastern,Callie Shanahan,G,SR,0,0,0,2024-25
+01/24/2025,Holy Cross,Maeve Carey,D,SO,0,0,0,2024-25
+01/24/2025,Holy Cross,Liv Haag,F,SR,0,0,0,2024-25
+01/24/2025,Holy Cross,Kate Meinert,D,FR,0,0,0,2024-25
+01/24/2025,Holy Cross,Maggie Hanzel,D,SR,0,0,0,2024-25
+01/24/2025,Holy Cross,Lola Reid,F,FR,1,0,1,2024-25
+01/24/2025,Holy Cross,Tessa Demain,D,FR,0,0,0,2024-25
+01/24/2025,Holy Cross,Sydney Healey,F,JR,0,0,0,2024-25
+01/24/2025,Holy Cross,Luisa Welcke,F,JR,0,1,1,2024-25
+01/24/2025,Holy Cross,Alex Law,F,SO,1,0,1,2024-25
+01/24/2025,Holy Cross,Neely Nicholson,F,SO,0,0,0,2024-25
+01/24/2025,Holy Cross,Clara Yuhn,F,JR,0,0,0,2024-25
+01/24/2025,Holy Cross,Julia Shaunessy,D,GR,0,1,1,2024-25
+01/24/2025,Holy Cross,Riley Walsh,F,JR,0,0,0,2024-25
+01/24/2025,Holy Cross,Tamara Giaquinto,D,GR,0,1,1,2024-25
+01/24/2025,Holy Cross,Maeve Kelly,D,JR,0,0,0,2024-25
+01/24/2025,Holy Cross,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/24/2025,Holy Cross,Keira Healey,D,FR,0,1,1,2024-25
+01/24/2025,Holy Cross,Kaileigh Quigg,F,FR,0,0,0,2024-25
+01/24/2025,Holy Cross,Mari Pietersen,G,SO,0,0,0,2024-25

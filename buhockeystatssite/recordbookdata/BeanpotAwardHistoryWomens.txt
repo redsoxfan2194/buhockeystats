@@ -1,24 +1,24 @@
-1979	Diane DerBogoshian	Northeastern
-1980	Diane Sorrenti	Northeastern
-1981	Lisa Whitcomb	Boston University
-1982	Cheryl Tate	Harvard
-1983	Cheryl Tate	Harvard
-1984	Stephanie Kelly	Northeastern
-1985	Tracy Hill	Northeastern
-1986	Nina Koyama	Northeastern
-1987	Fiona Rice	Northeastern
-1988	Tina Cardinale	Northeastern
-1989	Vicky Sunohara	Northeastern
-1990	Julie Piacentini	Northeastern
-1991	Sue Guay	Northeastern
-1992	Sandra Wahyte	Harvard
-1993	Kim Haman	Northeastern
-1994	Shelley Looney	Northeastern
-1995	Erin Villotte	Harvard
-1996	Jessica Wagner	Northeastern
-1997	Stephanie Acres	Northeastern
-1998	Lisa Giovanelli	Northeastern
-1999	A.J. Mleczko	Harvard
+1979	Diane DerBogoshian	Northeastern		
+1980	Diane Sorrenti	Northeastern		
+1981	Lisa Whitcomb	Boston University		
+1982	Cheryl Tate	Harvard		
+1983	Cheryl Tate	Harvard		
+1984	Stephanie Kelly	Northeastern		
+1985	Tracy Hill	Northeastern		
+1986	Nina Koyama	Northeastern		
+1987	Fiona Rice	Northeastern		
+1988	Tina Cardinale	Northeastern		
+1989	Vicky Sunohara	Northeastern		
+1990	Julie Piacentini	Northeastern		
+1991	Sue Guay	Northeastern		
+1992	Sandra Wahyte	Harvard		
+1993	Kim Haman	Northeastern		
+1994	Shelley Looney	Northeastern		
+1995	Erin Villotte	Harvard		
+1996	Jessica Wagner	Northeastern		
+1997	Stephanie Acres	Northeastern		
+1998	Lisa Giovanelli	Northeastern		
+1999	A.J. Mleczko	Harvard		
 2000	Jennifer Botterill	Harvard	Erika Silva	Northeastern
 2001	Jennifer Botterill	Harvard	Erika Silva	Northeastern
 2002	Tracy Catlin	Harvard	Alison Kuusisto	Harvard
