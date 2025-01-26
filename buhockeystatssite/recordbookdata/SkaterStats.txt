@@ -805,6 +805,7 @@ Grimes,Doug 2023-25 24 2 1 3 1/2
 Gorton,Jack 2023-25 0 0 0 0 0/0
 Celebrini,Macklin 2023-24 38 32 32 64 9/18
 Girard IV,Billy 2024-25 0 0 0 0 0/0
+Yegorov,Mikhail 2024-25 0 0 0 0 0/0
 Roukounakis,Nick 2024-25 0 0 0 0 0/0
 Svoboda,Brandon 2024-25 0 0 0 0 0/0
 Engum,Brehdan 2024-25 0 0 0 0 0/0

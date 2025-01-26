@@ -650,7 +650,7 @@ CAPTAINS: Jesse Compher, Nara Elia
 1/23 W Walter Brown Arena H Maine * 1-0
 1/24 L Walter Brown Arena H Maine * 0-2
 2/5 W Walter Brown Arena H Merrimack * 6-0
-2/6 W Lawler Rink A Merrimack * 2-0
+2/7 W Lawler Rink A Merrimack * 2-0
 2/12 L Walter Brown Arena H Vermont * 0-4
 2/13 W Walter Brown Arena H Vermont * 4-1
 2/19 W Conte Forum A Boston College * 3-2
@@ -806,7 +806,7 @@ CAPTAIN: Tamara Giaquinto
 01/18 L Whittemore Center Arena A New Hampshire * 0-2
 01/21 L TD Garden N Northeastern (BP) 0-4
 01/24 W Hart Center A Holy Cross * 2-0
-01/25 N Walter Brown Arena H Holy Cross * 0-0
+01/25 W Walter Brown Arena H Holy Cross * 3-0
 01/31 N Walter Brown Arena H Boston College * 0-0
 02/01 N Walter Brown Arena H Vermont * 0-0
 02/04 N Matthews Arena A Northeastern * 0-0
