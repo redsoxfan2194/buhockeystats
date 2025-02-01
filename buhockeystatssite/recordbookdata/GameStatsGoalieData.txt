@@ -924,3 +924,4 @@
 01/18/2025,New Hampshire,Mathieu Caron,SR,34,1,1,0,60.78,W,2024-25
 01/24/2025,Boston College,Mathieu Caron,SR,15,4,1,0,58.05,L,2024-25
 01/25/2025,Boston College,Mikhail Yegorov,FR,23,1,1,0,58.9,L,2024-25
+01/31/2025,New Hampshire,Mikhail Yegorov,FR,19,2,1,0,59.63,W,2024-25
