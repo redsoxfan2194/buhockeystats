@@ -16346,8 +16346,8 @@
 01/30/2024,Northeastern,Luke Tuch,F,SR,0,0,0,2023-24
 01/30/2024,Northeastern,Jack Harvey,F,FR,0,0,0,2023-24
 01/30/2024,Northeastern,Dylan Peterson,F,SR,0,0,0,2023-24
-01/30/2024,Northeastern,Jeremy Wilmer,F,SO,0,0,0,2023-24
-01/30/2024,Northeastern,Quinn Hutson,F,SO,1,2,3,2023-24
+01/30/2024,Northeastern,Jeremy Wilmer,F,SO,0,1,1,2023-24
+01/30/2024,Northeastern,Quinn Hutson,F,SO,1,1,2,2023-24
 01/30/2024,Northeastern,Shane Lachance,F,FR,0,0,0,2023-24
 01/30/2024,Northeastern,Lane Hutson,D,SO,0,2,2,2023-24
 01/30/2024,Northeastern,Aiden Celebrini,D,FR,0,0,0,2023-24
