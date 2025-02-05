@@ -809,13 +809,13 @@ CAPTAIN: Tamara Giaquinto
 01/25 W Walter Brown Arena H Holy Cross * 3-0
 01/31 W Walter Brown Arena H Boston College * 3-2
 02/01 W Walter Brown Arena H Vermont * 4-1
-02/04 N Matthews Arena A Northeastern * 0-0
-02/07 N Walter Brown Arena H UConn * 0-0
+02/04 W Matthews Arena A Northeastern * 3-2
+02/07 N Walter Brown Arena H Connecticut * 0-0
 02/08 N Walter Brown Arena H Providence * 0-0
 02/14 N Whittemore Center Arena A New Hampshire * 0-0
 02/15 N Walter Brown Arena H New Hampshire * 0-0
-02/21 N Toscano Ice Forum A UConn * 0-0
-02/22 N Walter Brown Arena H UConn * 0-0
+02/21 N Toscano Ice Forum A Connecticut * 0-0
+02/22 N Walter Brown Arena H Connecticut * 0-0
 
 Key to Tournaments
 BP  Beanpot Tournament

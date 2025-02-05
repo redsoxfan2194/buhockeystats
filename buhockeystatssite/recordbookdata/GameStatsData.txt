@@ -17164,3 +17164,23 @@
 01/31/2025,New Hampshire,Cole Hutson,D,FR,0,1,1,2024-25
 01/31/2025,New Hampshire,Alex Zetterberg,F,FR,0,0,0,2024-25
 01/31/2025,New Hampshire,Sascha Boumedienne,D,FR,0,0,0,2024-25
+02/03/2025,Harvard,Gavin McCarthy,D,SO,0,2,2,2024-25
+02/03/2025,Harvard,Tristan Amonte,F,SR,0,0,0,2024-25
+02/03/2025,Harvard,Jack Hughes,F,SR,0,2,2,2024-25
+02/03/2025,Harvard,Tom Willander,D,SO,0,1,1,2024-25
+02/03/2025,Harvard,Nick Roukounakis,F,FR,0,2,2,2024-25
+02/03/2025,Harvard,Brandon Svoboda,F,FR,0,1,1,2024-25
+02/03/2025,Harvard,Ryan Greene,F,JR,0,0,0,2024-25
+02/03/2025,Harvard,Brehdan Engum,D,GR,0,0,0,2024-25
+02/03/2025,Harvard,Kamil Bednarik,F,FR,0,0,0,2024-25
+02/03/2025,Harvard,Jack Harvey,F,SO,1,0,1,2024-25
+02/03/2025,Harvard,Matt Copponi,F,SR,0,0,0,2024-25
+02/03/2025,Harvard,Quinn Hutson,F,JR,1,1,2,2024-25
+02/03/2025,Harvard,Shane Lachance,F,SO,1,0,1,2024-25
+02/03/2025,Harvard,Jack Page,D,SR,0,0,0,2024-25
+02/03/2025,Harvard,Devin Kaplan,F,JR,2,0,2,2024-25
+02/03/2025,Harvard,Cole Eiserman,F,FR,0,1,1,2024-25
+02/03/2025,Harvard,Mikhail Yegorov,G,FR,0,0,0,2024-25
+02/03/2025,Harvard,Cole Hutson,D,FR,2,2,4,2024-25
+02/03/2025,Harvard,Alex Zetterberg,F,FR,0,0,0,2024-25
+02/03/2025,Harvard,Sascha Boumedienne,D,FR,0,0,0,2024-25

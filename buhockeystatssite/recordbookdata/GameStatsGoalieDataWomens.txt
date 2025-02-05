@@ -726,3 +726,4 @@
 01/25/2025,Holy Cross,Mari Pietersen,SO,15,0,1,1,60.0,W,2024-25
 01/31/2025,Boston College,Mari Pietersen,SO,24,2,1,0,60.0,W,2024-25
 02/01/2025,Vermont,Callie Shanahan,SR,17,1,1,0,60.0,W,2024-25
+02/04/2025,Northeastern,Callie Shanahan,SR,33,2,1,0,64.48,W,2024-25
