@@ -927,3 +927,4 @@
 01/31/2025,New Hampshire,Mikhail Yegorov,FR,19,2,1,0,59.63,W,2024-25
 02/03/2025,Harvard,Mikhail Yegorov,FR,26,1,1,0,59.85,W,2024-25
 02/07/2025,Merrimack,Mikhail Yegorov,FR,26,2,1,0,60.33,L,2024-25
+02/10/2025,Boston College,Mikhail Yegorov,FR,43,1,1,0,60.0,W,2024-25
