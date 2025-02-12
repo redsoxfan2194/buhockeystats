@@ -69,3 +69,4 @@
 2022	Dylan Peterson	F	Boston University	TJ Semptimphelter	Northeastern	69	2	0.972	1.01
 2023	Devon Levi	G	Northeastern	Devon Levi	Northeastern	65	3	0.956	1.50
 2024	Gunarwolfe Fontaine	F	Northeastern	Cameron Whitehead	Northeastern	54	5	0.915	2.07
+2025	Cole Hutson	D	Boston University	Mikhail Yegorov	Boston University	69	2	0.972	1.00
