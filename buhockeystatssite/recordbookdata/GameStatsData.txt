@@ -17224,3 +17224,44 @@
 02/10/2025,Boston College,Cole Hutson,D,FR,1,0,1,2024-25
 02/10/2025,Boston College,Alex Zetterberg,F,FR,0,0,0,2024-25
 02/10/2025,Boston College,Sascha Boumedienne,D,FR,0,0,0,2024-25
+02/14/2025,Providence,Gavin McCarthy,D,SO,0,1,1,2024-25
+02/14/2025,Providence,Tristan Amonte,F,SR,0,0,0,2024-25
+02/14/2025,Providence,Jack Hughes,F,SR,0,0,0,2024-25
+02/14/2025,Providence,Tom Willander,D,SO,0,2,2,2024-25
+02/14/2025,Providence,Nick Roukounakis,F,FR,0,0,0,2024-25
+02/14/2025,Providence,Brandon Svoboda,F,FR,0,0,0,2024-25
+02/14/2025,Providence,Ryan Greene,F,JR,1,0,1,2024-25
+02/14/2025,Providence,Brehdan Engum,D,GR,0,0,0,2024-25
+02/14/2025,Providence,Kamil Bednarik,F,FR,0,1,1,2024-25
+02/14/2025,Providence,Jack Harvey,F,SO,0,0,0,2024-25
+02/14/2025,Providence,Matt Copponi,F,SR,0,0,0,2024-25
+02/14/2025,Providence,Quinn Hutson,F,JR,0,2,2,2024-25
+02/14/2025,Providence,Shane Lachance,F,SO,0,0,0,2024-25
+02/14/2025,Providence,Jack Page,D,SR,0,0,0,2024-25
+02/14/2025,Providence,Devin Kaplan,F,JR,2,0,2,2024-25
+02/14/2025,Providence,Aiden Celebrini,D,SO,0,0,0,2024-25
+02/14/2025,Providence,Cole Eiserman,F,FR,0,0,0,2024-25
+02/14/2025,Providence,Mikhail Yegorov,G,FR,0,0,0,2024-25
+02/14/2025,Providence,Cole Hutson,D,FR,0,0,0,2024-25
+02/14/2025,Providence,Mathieu Caron,G,SR,0,0,0,2024-25
+02/14/2025,Providence,Sascha Boumedienne,D,FR,0,0,0,2024-25
+02/15/2025,Providence,Gavin McCarthy,D,SO,0,0,0,2024-25
+02/15/2025,Providence,Tristan Amonte,F,SR,0,0,0,2024-25
+02/15/2025,Providence,Jack Hughes,F,SR,0,0,0,2024-25
+02/15/2025,Providence,Tom Willander,D,SO,0,0,0,2024-25
+02/15/2025,Providence,Nick Roukounakis,F,FR,0,0,0,2024-25
+02/15/2025,Providence,Brandon Svoboda,F,FR,0,1,1,2024-25
+02/15/2025,Providence,Ryan Greene,F,JR,0,0,0,2024-25
+02/15/2025,Providence,Brehdan Engum,D,GR,0,0,0,2024-25
+02/15/2025,Providence,Kamil Bednarik,F,FR,0,0,0,2024-25
+02/15/2025,Providence,Jack Harvey,F,SO,1,1,2,2024-25
+02/15/2025,Providence,Matt Copponi,F,SR,0,1,1,2024-25
+02/15/2025,Providence,Quinn Hutson,F,JR,1,0,1,2024-25
+02/15/2025,Providence,Shane Lachance,F,SO,0,0,0,2024-25
+02/15/2025,Providence,Jack Page,D,SR,0,0,0,2024-25
+02/15/2025,Providence,Devin Kaplan,F,JR,0,0,0,2024-25
+02/15/2025,Providence,Aiden Celebrini,D,SO,0,0,0,2024-25
+02/15/2025,Providence,Cole Eiserman,F,FR,0,0,0,2024-25
+02/15/2025,Providence,Mikhail Yegorov,G,FR,0,1,1,2024-25
+02/15/2025,Providence,Cole Hutson,D,FR,0,1,1,2024-25
+02/15/2025,Providence,Sascha Boumedienne,D,FR,1,1,2,2024-25
