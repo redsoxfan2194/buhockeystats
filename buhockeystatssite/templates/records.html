@@ -14,6 +14,8 @@
                     <option class="res-sort" value="GD" {% if selected_sort == 'GD' %} selected {% endif %}> MOV </option>
                     <option class="res-sort" value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}> Goals Scored </option>
                     <option class="res-sort" value="OppoScore" {% if selected_sort == 'OppoScore' %} selected {% endif %}> Goals Allowed </option>
+                    <option class="res-sort" value="BURank" {% if selected_sort == 'BURank' %} selected {% endif %}> BU Rank </option>
+                    <option class="res-sort" value="OppRank" {% if selected_sort == 'OppRank' %} selected {% endif %}> Opp Rank </option>
                     <option class="rec-sort" value="sort" {% if selected_sort == 'sort' %} selected {% endif %}> Sort </option>
                     <option class="rec-sort" value="GP" {% if selected_sort == 'GP' %} selected {% endif %}> Games Played </option>
                     <option class="rec-sort" value="W" {% if selected_sort == 'W' %} selected {% endif %}> Wins </option>
@@ -166,6 +168,30 @@
                 </select>
                 <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
             </div>
+            
+            <div id="burankdiv" class="filter">
+                <label for="burankop" class="recLabels">BU Rank:</label>
+                <select class="btn dropdown-toggle op-drop" name="burankop" id="burankop" onchange="submitForm()">
+                    <option value="==" {% if selected_burankop == '==' %} selected {% endif %}> = </option>
+                    <option value=">=" {% if selected_burankop == '>=' %} selected {% endif %}> >= </option>
+                    <option value=">" {% if selected_burankop == '>' %} selected {% endif %}> > </option>
+                    <option value="<" {% if selected_burankop == '<' %} selected {% endif %}> < </option>
+                    <option value="<=" {% if selected_burankop == '<=' %} selected {% endif %}> <= </option>
+                </select>
+                <input type="number" name="burank" id="burank" value="{{ burank }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            </div>
+            <div id="opprankdiv" class="filter">
+                <label for="opprankop" class="recLabels">Opp Rank:</label>
+                <select class="btn dropdown-toggle op-drop" name="opprankop" id="opprankop" onchange="submitForm()">
+                    <option value="==" {% if selected_opprankop == '==' %} selected {% endif %}> = </option>
+                    <option value=">=" {% if selected_opprankop == '>=' %} selected {% endif %}> >= </option>
+                    <option value=">" {% if selected_opprankop == '>' %} selected {% endif %}> > </option>
+                    <option value="<" {% if selected_opprankop == '<' %} selected {% endif %}> < </option>
+                    <option value="<=" {% if selected_opprankop == '<=' %} selected {% endif %}> <= </option>
+                </select>
+                <input type="number" name="opprank" id="opprank" value="{{ opprank }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            </div>
+            
             <div id="arenaDiv" class="filter">
                 <label for="arena" class="recLabels">Arena:</label>
                 <select class="btn dropdown-toggle custom-align" name="arena" id="arena" onchange="submitForm()">

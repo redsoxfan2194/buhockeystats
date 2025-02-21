@@ -59,6 +59,10 @@ function clearFilers(event) {
     document.getElementById("buscore").value = "";
     document.getElementById("oppscoreop").value = "==";
     document.getElementById("oppscore").value = "";
+    document.getElementById("burankop").value = "==";
+    document.getElementById("burank").value = "";
+    document.getElementById("opprankop").value = "==";
+    document.getElementById("opprank").value = "";
     document.getElementById("endYear").value = "{{maxYear}}";
 
     if (document.getElementById("gender").value === "Womens") {
@@ -156,6 +160,12 @@ function initializeFilters() {
 
     const oppScoreInput = document.getElementById("oppscore");
     oppScoreInput.addEventListener("keydown", onKeydown);
+
+    const buRankInput = document.getElementById("burank");
+    buRankInput.addEventListener("keydown", onKeydown);
+
+    const oppRankInput = document.getElementById("opprank");
+    oppRankInput.addEventListener("keydown", onKeydown);
 
     const sYearInput = document.getElementById("startYear");
     sYearInput.addEventListener("keydown", onKeydown);

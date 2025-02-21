@@ -29,6 +29,8 @@ dfGamesWomens = pd.DataFrame()
 dfJersey = pd.DataFrame()
 dfJerseyMens = pd.DataFrame()
 dfJerseyWomens = pd.DataFrame()
+dfPollsMens = pd.DataFrame()
+dfPollsWomens = pd.DataFrame()
 dfSkate = pd.DataFrame()
 dfSkateMens = pd.DataFrame()
 dfSkateWomens = pd.DataFrame()
@@ -249,9 +251,47 @@ def generateRecordBook():
     dfGames['oppconference'] = dfGames.apply(
         lambda row: getConference(
             dfConf, row['opponent'], row['season']), axis=1)
+            
+    # get ranking 
+    dfGames = pd.merge_asof(
+      dfGames, 
+      dfPollsMens[['DATE']].drop_duplicates(),
+      left_on='date', 
+      right_on='DATE', 
+      direction='backward',  # Change direction to 'forward'
+      tolerance=pd.Timedelta('7 days'))
+    
+    dfGames['BURank']=100
+    dfGames['OppRank']=100
+    
+    dfGames[['BURank','OppRank']]=dfGames.apply(getMRank,axis=1)
+    
     return dfGames
 
+def getMRank(row):
+    return getRank(row,'Mens')
 
+def getWRank(row):
+    return getRank(row,'Womens')
+
+def getRank(row,gender):
+    if(gender=="Mens"):
+      dfPolls=dfPollsMens.copy()
+    elif(gender=="Womens"):
+      dfPolls=dfPollsWomens.copy()
+    poll=dfPolls.loc[dfPolls['DATE']==row['DATE']]
+    burank=poll.query('TEAM=="Boston University"')['RK']
+    opprank=poll.query(f'TEAM=="{row["opponent"]}"')['RK']
+    if(burank.empty):
+        burank=100
+    else:
+        burank=int(burank.to_string(index=False,header=False))
+    if(opprank.empty):
+        opprank=100
+    else:
+        opprank=int(opprank.to_string(index=False,header=False))
+   
+    return pd.Series([burank,opprank])
 def generateWomensRecordBook():
     '''Generate Womens Hockey Record Book'''
 
@@ -388,6 +428,20 @@ def generateWomensRecordBook():
     # set conference for opponents
     dfWomensGames['oppconference'] = dfWomensGames.apply(
         lambda row: getConference(dfConf, row['opponent'], row['season']), axis=1)
+        
+    # get ranking 
+    dfWomensGames = pd.merge_asof(
+    dfWomensGames, 
+    dfPollsWomens[['DATE']].drop_duplicates(),
+    left_on='date', 
+    right_on='DATE', 
+    direction='backward',  # Change direction to 'forward'
+    tolerance=pd.Timedelta('7 days'))
+    
+    dfWomensGames['BURank']=np.nan
+    dfWomensGames['OppRank']=np.nan
+    dfWomensGames[['BURank','OppRank']]=dfWomensGames.apply(getWRank,axis=1)
+    
     return dfWomensGames
 
 
@@ -1281,6 +1335,17 @@ def generateGameGoalieStats():
         gameStatsGoalieList + gameStatsGoalieWList)
     return dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens
 
+def generatePolls():
+
+  dfPollsMens = pd.read_csv(RECBOOK_DATA_PATH + "mpolls.csv")
+  dfPollsWomens = pd.read_csv(RECBOOK_DATA_PATH + "wpolls.csv")
+  
+  dfPollsMens['DATE'] = pd.to_datetime(dfPollsMens['DATE'])
+  dfPollsMens['RK']=dfPollsMens['RK'].astype(int)
+  
+  dfPollsWomens['DATE'] = pd.to_datetime(dfPollsWomens['DATE'])
+  dfPollsWomens['RK']=dfPollsWomens['RK'].astype(int)
+  return dfPollsMens, dfPollsWomens
 
 def determineQueryType(query):
     '''determine type of query entered'''
@@ -3815,7 +3880,44 @@ def updateResults(gender):
                         game['scoreline']),
                         line)
             sources.write(line)
-
+            
+def updatePolls(gender):
+    season=2025
+    if(gender=="Mens"):
+        url = "https://json-b.uscho.com/json/rankings/d-i-mens-poll"
+        pollFile = RECBOOK_DATA_PATH + 'mpolls.csv'
+    elif(gender=="Womens"):
+        url = "https://json-b.uscho.com/json/rankings/d-i-womens-poll"
+        pollFile = RECBOOK_DATA_PATH + 'wpolls.csv'
+    f=urllib.request.urlopen(url)
+    html = f.read()
+    f.close()
+    soup = BeautifulSoup(html, 'html.parser')
+    tsoup=html_lib.unescape(str(soup)).replace("\/", "/")
+    new_soup=BeautifulSoup(tsoup, 'html.parser')
+    title=new_soup.find('h1').get_text()
+    table_soup=new_soup.find('table')
+    dfPoll=pd.read_csv(pollFile)
+    date = title.split('-')[1].strip()
+    date = datetime.strptime(date, "%B %d, %Y").strftime("%Y-%m-%d")
+    if (date > dfPoll['DATE'].tail(1).values[0]):  # Ensure proper comparison
+        rows = []
+        for row in table_soup.find_all('tr'):
+            col = row.find_all('td')
+            if len(col) > 1:
+                rows.append([
+                    col[0].get_text(),
+                    col[1].get_text(),
+                    date,
+                    season
+                ])
+    
+        df_new = pd.DataFrame(rows, columns=dfPoll.columns)
+        dfPoll=pd.concat([dfPoll,df_new])
+        dfPoll['RK']=dfPoll['RK'].astype(int)
+        dfPoll['SEASON']=dfPoll['SEASON'].astype(int)
+        dfPoll.to_csv(pollFile,index=False)
+        
 def getBirthdays(year,month):
   ''' returns Birthdays for given month and year'''
   dfBirthday = pd.read_csv(RECBOOK_DATA_PATH + 'birthdays.csv')
@@ -3830,7 +3932,9 @@ def getBirthdays(year,month):
      
 def initializeRecordBook():
   ''' initialize all DataFrames in record book'''
-  global dfGames, dfGamesWomens, dfJersey, dfJerseyMens, dfJerseyWomens, dfSkate, dfSkateMens, dfSkateWomens, dfGoalie, dfGoalieMens, dfGoalieWomens, dfLead, dfLeadWomens, dfBeanpot, dfBeanpotWomens, dfSeasSkate, dfSeasSkateMens, dfSeasSkateWomens, dfSeasGoalie, dfSeasGoalieMens, dfSeasGoalieWomens, dfGameStats, dfGameStatsMens, dfGameStatsWomens, dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens, dfBeanpotAwards, dfBeanpotAwardsWomens
+  global dfGames, dfGamesWomens, dfJersey, dfJerseyMens, dfJerseyWomens, dfSkate, dfSkateMens, dfSkateWomens, dfGoalie, dfGoalieMens, dfGoalieWomens, dfLead, dfLeadWomens, dfBeanpot, dfBeanpotWomens, dfSeasSkate, dfSeasSkateMens, dfSeasSkateWomens, dfSeasGoalie, dfSeasGoalieMens, dfSeasGoalieWomens, dfGameStats, dfGameStatsMens, dfGameStatsWomens, dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens, dfBeanpotAwards, dfBeanpotAwardsWomens, dfPollsMens, dfPollsWomens
+  
+  dfPollsMens, dfPollsWomens = generatePolls()
   dfGames = generateRecordBook()
   dfGamesWomens = generateWomensRecordBook()
   dfJersey, dfJerseyMens, dfJerseyWomens = generateJerseys()
@@ -3856,6 +3960,8 @@ def refreshStats():
   updateCurrentSeasonStats('Womens')
   updateGameStats('Mens')
   updateGameStats('Womens')
+  updatePolls('Mens')
+  updatePolls('Womens')
   initializeRecordBook()
   print("Stats Refreshed")
 

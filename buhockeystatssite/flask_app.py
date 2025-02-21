@@ -601,6 +601,8 @@ def records():
     '''
     buscore = 'BU Score'
     oppscore = 'Opp Score'
+    burank = 'BU Rank'
+    opprank = 'Opp Rank'
     dfRes = burb.dfGames
     dfOrig = burb.dfGames
     minYear = dfRes.year.min()
@@ -703,6 +705,22 @@ def records():
         else:
             oppscore = "Opp Score"
 
+        if formData['burank'] != '':
+            burank = formData['burank']
+            burank = burank.split(' ')[0]
+            dfRes = dfRes.query(f"BURank {formData['burankop']} {burank}")
+            burank = formData['burank']
+        else:
+            burank = "BU Rank"
+        if formData['opprank'] != '':
+            opprank = formData['opprank']
+            opprank = opprank.split(' ')[0]
+            dfRes = dfRes.query(
+                f"OppRank {formData['opprankop']} {opprank}")
+            opprank = formData['opprank']
+        else:
+            opprank = "Opp Rank"
+
         for i in ['W', 'L', 'T']:
             if (dfRes['result'] == i).any():
                 res = dfRes.groupby('result').count()['date'][i]
@@ -779,7 +797,7 @@ def records():
             elif formData['tabletype'] ==  'streaks':
                 dfRes = generateStreaks(dfRes.copy())
 
-        if (formData['sortval'] in ["date", "GD", "BUScore", "OppoScore"]
+        if (formData['sortval'] in ["date", "GD", "BUScore", "OppoScore", "BURank", "OppRank"]
                 and 'date' not in dfRes.columns):
             if formData['sortval'] != 'date':
                 sortType = not sortType
@@ -836,6 +854,8 @@ def records():
                 dfOrig.arena.unique())),
         buscore=buscore,
         oppscore=oppscore,
+        burank=burank,
+        opprank=opprank,
         isAscending=True,
         selected_sort='date',
         startYear=dfOrig.year.min(),

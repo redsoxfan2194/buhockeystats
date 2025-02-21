@@ -192,16 +192,20 @@ def formatResults(dfRes):
     firstCol = dfRes.columns[0]
     if 'date' in dfRes.columns:
         tableData = dfRes[['date', 'opponent', 'result',
-                            'scoreline', 'ot', 'arena', 'tourney', 'note']].copy()
+                            'scoreline', 'ot', 'arena', 'tourney','BURank','OppRank','note']].copy()
         tableData.fillna('', inplace=True)
-
         tableData['date'] = tableData['date'].dt.strftime('%m/%d/%Y')
-
+        tableData['BURank']=tableData['BURank'].astype(str).str.replace('100','')
+        tableData['OppRank']=tableData['OppRank'].astype(str).str.replace('100','')
         tableData.loc[tableData['ot'] != '', 'scoreline'] = tableData['scoreline'] + \
             " (" + tableData.loc[tableData['ot'] != '', 'ot'] + ")"
         tableData.drop(['ot'], axis=1, inplace=True)
         if ((len(list(tableData['note'].unique())) < 1) or (len(list(tableData['note'].unique()))==1 and list(tableData['note'].unique())[0]=='')):
             tableData.drop(['note'], axis=1, inplace=True)
+        if ((len(list(tableData['BURank'].unique())) < 1) or (len(list(tableData['BURank'].unique()))==1 and list(tableData['BURank'].unique())[0]=='')):
+            tableData.drop(['BURank'], axis=1, inplace=True)
+        if ((len(list(tableData['OppRank'].unique())) < 1) or (len(list(tableData['OppRank'].unique()))==1 and list(tableData['OppRank'].unique())[0]=='')):
+            tableData.drop(['OppRank'], axis=1, inplace=True)
     else:
         tableData = dfRes
     if firstCol not in tableData.columns:
