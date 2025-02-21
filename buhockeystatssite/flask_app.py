@@ -252,7 +252,7 @@ def players():
                              'gp', 'goals', 'assists', 'pts']]
         if (formData['group'] not in ['', 'splits', 'records']
                 and formData['position'] == 'goalie'):
-            dfStat = determineRecord(dfStat)
+            dfStat = determineRecord(dfStat,formData['group'])
             dfStat = dfStat.groupby(
                 ['name', formData['group']]).sum(numeric_only=True)
             dfStat = dfStat.reset_index()
@@ -276,7 +276,9 @@ def players():
                     labels=[
                         'opponent',
                         'season',
-                        'year'],
+                        'year',
+                        'location',
+                        'arena'],
                     inplace=True)
                 dfMerged = dfStat.merge(mergeGames, on='date', how='left')
                 dfStat = pd.DataFrame(dfMerged.loc[dfMerged['name'].str.contains(
@@ -343,7 +345,9 @@ def players():
                     labels=[
                         'opponent',
                         'season',
-                        'year'],
+                        'year',
+                        'location',
+                        'arena'],
                     inplace=True)
                 dfMerged = dfStat.merge(mergeGames, on='date', how='left')
                 dfStat = pd.DataFrame(dfMerged.loc[dfMerged['name'].str.contains(
@@ -1421,7 +1425,7 @@ def getTourneyList(dfRes):
     return retList
 
 
-def determineRecord(dfRes):
+def determineRecord(dfRes,grpCol):
     ''' Generate Record for given DataFrame
 
     Parameters:
@@ -1431,27 +1435,27 @@ def determineRecord(dfRes):
       DataFrame: DataFrame containing W-L-T
 
     '''
-    dfStat = dfRes.groupby(['name', 'opponent']).sum(numeric_only=True)
+    dfStat = dfRes.groupby(['name', grpCol]).sum(numeric_only=True)
     dfStat.reset_index(inplace=True)
     dfStat['W'] = 0
     dfStat['L'] = 0
     dfStat['T'] = 0
-    dfRec = dfRes.groupby(['name', 'opponent', 'result']).count()
+    dfRec = dfRes.groupby(['name', grpCol, 'result']).count()
     dfRec.reset_index(inplace=True)
     for res in ['W', 'L', 'T']:
         dfRec[res] = dfRec.query(f'result=="{res}"')['date']
         dfRec[res] = dfRec[res].fillna(0).astype(int)
-    dfRec = dfRec.groupby(['name', 'opponent']).sum(numeric_only=True)
+    dfRec = dfRec.groupby(['name', grpCol]).sum(numeric_only=True)
     dfRec.reset_index(inplace=True)
     # Merge dfStat and dfRec based on name and opponent columns
-    mergedDf = pd.merge(dfStat, dfRec[['name', 'opponent', 'W', 'L', 'T']], on=[
-        'name', 'opponent'], how='left')
+    mergedDf = pd.merge(dfStat, dfRec[['name', grpCol, 'W', 'L', 'T']], on=[
+        'name', grpCol], how='left')
 
     # Sum the 'W', 'L', 'T' columns from dfRec and assign the values to
     # corresponding columns in dfStat
-    dfStat['W'] = mergedDf.groupby(['name', 'opponent'])['W_y'].transform(sum, numeric_only=True)
-    dfStat['L'] = mergedDf.groupby(['name', 'opponent'])['L_y'].transform(sum, numeric_only=True)
-    dfStat['T'] = mergedDf.groupby(['name', 'opponent'])['T_y'].transform(sum, numeric_only=True)
+    dfStat['W'] = mergedDf.groupby(['name', grpCol])['W_y'].transform(sum, numeric_only=True)
+    dfStat['L'] = mergedDf.groupby(['name', grpCol])['L_y'].transform(sum, numeric_only=True)
+    dfStat['T'] = mergedDf.groupby(['name', grpCol])['T_y'].transform(sum, numeric_only=True)
 
     return dfStat
 
