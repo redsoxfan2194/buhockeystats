@@ -358,6 +358,20 @@ function submitForm(reset = "false") {
                         text: "All",
                     })
                 );
+                
+                selectConferenceElement.append(
+                    $("<option>", {
+                        value: "conf",
+                        text: "Conference Games",
+                    })
+                );
+                selectConferenceElement.append(
+                    $("<option>", {
+                        value: "nc",
+                        text: "Non-Conference",
+                    })
+                );
+                
                 $.each(response.conference_values, function (index, item) {
                     selectConferenceElement.append(
                         $("<option>", {
