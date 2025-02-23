@@ -931,3 +931,5 @@
 02/14/2025,Providence,Mikhail Yegorov,FR,17,4,1,0,36.33,L,2024-25
 02/14/2025,Providence,Mathieu Caron,SR,10,1,1,0,21.55,,2024-25
 02/15/2025,Providence,Mikhail Yegorov,FR,30,0,1,1,60.0,W,2024-25
+02/21/2025,Northeastern,Mikhail Yegorov,FR,15,5,1,0,59.58,L,2024-25
+02/22/2025,Northeastern,Mikhail Yegorov,FR,28,1,1,0,59.52,W,2024-25

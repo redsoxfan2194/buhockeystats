@@ -3403,8 +3403,8 @@ CAPTAIN: Shane Lachance,Ryan Greene
 02/10 W TD Garden	Boston College (Pot) 4-1
 02/14 L Schneider Arena	Providence * 3-6
 02/15 W Agganis Arena	Providence * 3-0
-02/21 N Agganis Arena	Northeastern * 0-0
-02/22 N Matthews Arena	Northeastern * 0-0
+02/21 L Agganis Arena	Northeastern * 1-5
+02/22 W Matthews Arena	Northeastern * 3-1
 02/25 N Toscano Ice Forum	Connecticut * 0-0
 03/06 N Agganis Arena	Providence * 0-0
 03/08 N Gutterson Fieldhouse	Vermont * 0-0
