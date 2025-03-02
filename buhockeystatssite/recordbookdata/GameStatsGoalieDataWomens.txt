@@ -734,3 +734,4 @@
 02/21/2025,Connecticut,Mari Pietersen,SO,11,3,1,0,29.1,L,2024-25
 02/21/2025,Connecticut,Callie Shanahan,SO,14,1,1,0,29.63,,2024-25
 02/22/2025,Connecticut,Callie Shanahan,SR,18,2,1,0,56.98,L,2024-25
+03/01/2025,Vermont,Callie Shanahan,SR,13,3,1,0,63.98,W,2024-25
