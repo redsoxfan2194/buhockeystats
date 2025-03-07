@@ -17325,3 +17325,24 @@
 02/25/2025,Connecticut,Mikhail Yegorov,G,FR,0,0,0,2024-25
 02/25/2025,Connecticut,Cole Hutson,D,FR,1,0,1,2024-25
 02/25/2025,Connecticut,Sascha Boumedienne,D,FR,1,0,1,2024-25
+03/06/2025,Providence,Billy Girard IV,G,GR,0,0,0,2024-25
+03/06/2025,Providence,Gavin McCarthy,D,SO,0,1,1,2024-25
+03/06/2025,Providence,Tristan Amonte,F,SR,0,0,0,2024-25
+03/06/2025,Providence,Jack Hughes,F,SR,1,0,1,2024-25
+03/06/2025,Providence,Tom Willander,D,SO,0,0,0,2024-25
+03/06/2025,Providence,Nick Roukounakis,F,FR,0,1,1,2024-25
+03/06/2025,Providence,Brandon Svoboda,F,FR,2,0,2,2024-25
+03/06/2025,Providence,Ryan Greene,F,JR,1,1,2,2024-25
+03/06/2025,Providence,Kamil Bednarik,F,FR,0,0,0,2024-25
+03/06/2025,Providence,Jack Harvey,F,SO,0,0,0,2024-25
+03/06/2025,Providence,Mick Frechette,D,SO,0,0,0,2024-25
+03/06/2025,Providence,Matt Copponi,F,SR,0,1,1,2024-25
+03/06/2025,Providence,Quinn Hutson,F,JR,0,4,4,2024-25
+03/06/2025,Providence,Shane Lachance,F,SO,0,1,1,2024-25
+03/06/2025,Providence,Jack Page,D,SR,0,1,1,2024-25
+03/06/2025,Providence,Devin Kaplan,F,JR,0,0,0,2024-25
+03/06/2025,Providence,Aiden Celebrini,D,SO,0,2,2,2024-25
+03/06/2025,Providence,Cole Eiserman,F,FR,3,0,3,2024-25
+03/06/2025,Providence,Mikhail Yegorov,G,FR,0,0,0,2024-25
+03/06/2025,Providence,Cole Hutson,D,FR,1,2,3,2024-25
+03/06/2025,Providence,Sascha Boumedienne,D,FR,0,1,1,2024-25

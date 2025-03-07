@@ -933,4 +933,6 @@
 02/15/2025,Providence,Mikhail Yegorov,FR,30,0,1,1,60.0,W,2024-25
 02/21/2025,Northeastern,Mikhail Yegorov,FR,15,5,1,0,59.58,L,2024-25
 02/22/2025,Northeastern,Mikhail Yegorov,FR,28,1,1,0,59.52,W,2024-25
-02/25/2025,Connecticut,Mikhail Yegorov,FR,25,2,1,0,64.77,,2024-25
+02/25/2025,Connecticut,Mikhail Yegorov,FR,25,2,1,0,64.77,T,2024-25
+03/06/2025,Providence,Mikhail Yegorov,FR,34,1,1,0,54.47,W,2024-25
+03/06/2025,Providence,Billy Girard IV,FR,4,1,1,0,5.25,,2024-25

@@ -816,8 +816,9 @@ CAPTAIN: Tamara Giaquinto
 02/15 T (ot) Walter Brown Arena H New Hampshire * 2-2
 02/21 L Toscano Ice Forum A Connecticut * 1-4
 02/22 L Walter Brown Arena H Connecticut * 1-3
-03/01 W (ot) Walter Brown Arena H Vermont 4-3
-03/05 N Walter Brown Arena H Boston College 0-0
+03/01 W (ot) Walter Brown Arena H Vermont (HE) 4-3
+03/05 W (2ot) Walter Brown Arena H Boston College (HE) 3-2
+03/08 N Toscano Ice Forum N Northeastern (HE) 0-0
 
 Key to Tournaments
 BP  Beanpot Tournament
