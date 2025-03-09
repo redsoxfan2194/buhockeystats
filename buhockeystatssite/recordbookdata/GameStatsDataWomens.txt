@@ -13741,3 +13741,23 @@
 03/05/2025,Boston College,Keira Healey,D,FR,0,0,0,2024-25
 03/05/2025,Boston College,Kaileigh Quigg,F,FR,0,0,0,2024-25
 03/05/2025,Boston College,Callie Shanahan,G,SR,0,0,0,2024-25
+03/08/2025,Northeastern,Liv Haag,F,SR,0,0,0,2024-25
+03/08/2025,Northeastern,Lindsay Bochna,F,GR,0,0,0,2024-25
+03/08/2025,Northeastern,Maggie Hanzel,D,SR,0,0,0,2024-25
+03/08/2025,Northeastern,Lola Reid,F,FR,0,0,0,2024-25
+03/08/2025,Northeastern,Tessa Demain,D,FR,0,0,0,2024-25
+03/08/2025,Northeastern,Sydney Healey,F,JR,1,0,1,2024-25
+03/08/2025,Northeastern,Luisa Welcke,F,JR,0,1,1,2024-25
+03/08/2025,Northeastern,Alex Law,F,SO,0,0,0,2024-25
+03/08/2025,Northeastern,Neely Nicholson,F,SO,0,0,0,2024-25
+03/08/2025,Northeastern,Clara Yuhn,F,JR,1,0,1,2024-25
+03/08/2025,Northeastern,Julia Shaunessy,D,GR,0,0,0,2024-25
+03/08/2025,Northeastern,Riley Walsh,F,JR,0,0,0,2024-25
+03/08/2025,Northeastern,Christina Vote,F,SR,0,1,1,2024-25
+03/08/2025,Northeastern,Tamara Giaquinto,D,GR,1,0,1,2024-25
+03/08/2025,Northeastern,Maeve Kelly,D,JR,0,2,2,2024-25
+03/08/2025,Northeastern,Ani Fitzgerald,F,SR,0,0,0,2024-25
+03/08/2025,Northeastern,Lilli Welcke,F,JR,0,2,2,2024-25
+03/08/2025,Northeastern,Keira Healey,D,FR,0,0,0,2024-25
+03/08/2025,Northeastern,Kaileigh Quigg,F,FR,0,0,0,2024-25
+03/08/2025,Northeastern,Callie Shanahan,G,SR,0,0,0,2024-25

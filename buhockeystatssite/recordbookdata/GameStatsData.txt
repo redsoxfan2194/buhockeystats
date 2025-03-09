@@ -17346,3 +17346,25 @@
 03/06/2025,Providence,Mikhail Yegorov,G,FR,0,0,0,2024-25
 03/06/2025,Providence,Cole Hutson,D,FR,1,2,3,2024-25
 03/06/2025,Providence,Sascha Boumedienne,D,FR,0,1,1,2024-25
+03/08/2025,Vermont,Billy Girard IV,G,GR,0,0,0,2024-25
+03/08/2025,Vermont,Gavin McCarthy,D,SO,0,1,1,2024-25
+03/08/2025,Vermont,Tristan Amonte,F,SR,0,0,0,2024-25
+03/08/2025,Vermont,Jack Hughes,F,SR,1,0,1,2024-25
+03/08/2025,Vermont,Tom Willander,D,SO,0,1,1,2024-25
+03/08/2025,Vermont,Nick Roukounakis,F,FR,0,0,0,2024-25
+03/08/2025,Vermont,Brandon Svoboda,F,FR,0,0,0,2024-25
+03/08/2025,Vermont,Ryan Greene,F,JR,0,2,2,2024-25
+03/08/2025,Vermont,Kamil Bednarik,F,FR,0,0,0,2024-25
+03/08/2025,Vermont,Jack Harvey,F,SO,0,0,0,2024-25
+03/08/2025,Vermont,Mick Frechette,D,SO,0,0,0,2024-25
+03/08/2025,Vermont,Matt Copponi,F,SR,0,1,1,2024-25
+03/08/2025,Vermont,Quinn Hutson,F,JR,2,1,3,2024-25
+03/08/2025,Vermont,Shane Lachance,F,SO,0,1,1,2024-25
+03/08/2025,Vermont,Jack Page,D,SR,0,0,0,2024-25
+03/08/2025,Vermont,Devin Kaplan,F,JR,1,0,1,2024-25
+03/08/2025,Vermont,Aiden Celebrini,D,SO,0,0,0,2024-25
+03/08/2025,Vermont,Max Lacroix,G,SO,0,0,0,2024-25
+03/08/2025,Vermont,Cole Eiserman,F,FR,1,1,2,2024-25
+03/08/2025,Vermont,Mikhail Yegorov,G,FR,0,0,0,2024-25
+03/08/2025,Vermont,Cole Hutson,D,FR,1,2,3,2024-25
+03/08/2025,Vermont,Sascha Boumedienne,D,FR,0,0,0,2024-25

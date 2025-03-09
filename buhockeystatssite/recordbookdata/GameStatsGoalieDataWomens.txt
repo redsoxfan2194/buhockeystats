@@ -736,3 +736,4 @@
 02/22/2025,Connecticut,Callie Shanahan,SR,18,2,1,0,56.98,L,2024-25
 03/01/2025,Vermont,Callie Shanahan,SR,13,3,1,0,63.98,W,2024-25
 03/05/2025,Boston College,Callie Shanahan,SR,38,2,1,0,87.2,W,2024-25
+03/08/2025,Northeastern,Callie Shanahan,SR,25,2,1,0,64.72,W,2024-25
