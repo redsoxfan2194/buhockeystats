@@ -938,3 +938,4 @@
 03/06/2025,Providence,Billy Girard IV,FR,4,1,1,0,5.25,,2024-25
 03/08/2025,Vermont,Mikhail Yegorov,FR,21,1,1,0,60.0,W,2024-25
 03/15/2025,Massachusetts,Mikhail Yegorov,FR,36,2,1,0,62.98,W,2024-25
+03/20/2025,Connecticut,Mikhail Yegorov,FR,19,4,1,0,57.78,L,2024-25
