@@ -939,4 +939,5 @@
 03/08/2025,Vermont,Mikhail Yegorov,FR,21,1,1,0,60.0,W,2024-25
 03/15/2025,Massachusetts,Mikhail Yegorov,FR,36,2,1,0,62.98,W,2024-25
 03/20/2025,Connecticut,Mikhail Yegorov,FR,19,4,1,0,57.78,L,2024-25
-03/27/2025,Ohio St.,Mikhail Yegorov,FR,33,3,1,0,59.98,W,2024-25
+03/27/2025,Ohio State,Mikhail Yegorov,FR,33,3,1,0,59.98,W,2024-25
+03/29/2025,Cornell,Mikhail Yegorov,FR,37,2,1,0,66.42,W,2024-25
