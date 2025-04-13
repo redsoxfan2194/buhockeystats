@@ -3412,7 +3412,8 @@ CAPTAIN: Shane Lachance,Ryan Greene
 03/20 L TD Garden	Connecticut (HE) 2-5
 03/27 W Huntington Center	Ohio State (NCAA) 8-3
 03/29 W Huntington Center	Cornell (NCAA) 3-2
-04/10 N Enterprise Center	Penn State (NCAA) 0-0
+04/10 W Enterprise Center	Penn State (NCAA) 3-1
+04/12 L Enterprise Center	Western Michigan (NCAA) 2-6
 
 Key to Tournaments
 ALS Auld Lang Syne Tournament

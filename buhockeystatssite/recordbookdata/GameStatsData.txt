@@ -17447,3 +17447,41 @@
 03/29/2025,Cornell,Mikhail Yegorov,G,FR,0,0,0,2024-25
 03/29/2025,Cornell,Cole Hutson,D,FR,1,1,2,2024-25
 03/29/2025,Cornell,Sascha Boumedienne,D,FR,0,0,0,2024-25
+04/10/2025,Penn State,Gavin McCarthy,D,SO,0,0,0,2024-25
+04/10/2025,Penn State,Tristan Amonte,F,SR,0,0,0,2024-25
+04/10/2025,Penn State,Jack Hughes,F,SR,1,1,2,2024-25
+04/10/2025,Penn State,Tom Willander,D,SO,0,1,1,2024-25
+04/10/2025,Penn State,Nick Roukounakis,F,FR,0,0,0,2024-25
+04/10/2025,Penn State,Brandon Svoboda,F,FR,0,0,0,2024-25
+04/10/2025,Penn State,Ryan Greene,F,JR,0,0,0,2024-25
+04/10/2025,Penn State,Kamil Bednarik,F,FR,0,0,0,2024-25
+04/10/2025,Penn State,Jack Harvey,F,SO,1,0,1,2024-25
+04/10/2025,Penn State,Matt Copponi,F,SR,0,1,1,2024-25
+04/10/2025,Penn State,Quinn Hutson,F,JR,0,0,0,2024-25
+04/10/2025,Penn State,Shane Lachance,F,SO,0,0,0,2024-25
+04/10/2025,Penn State,Jack Page,D,SR,0,0,0,2024-25
+04/10/2025,Penn State,Devin Kaplan,F,JR,0,1,1,2024-25
+04/10/2025,Penn State,Aiden Celebrini,D,SO,0,0,0,2024-25
+04/10/2025,Penn State,Cole Eiserman,F,FR,1,0,1,2024-25
+04/10/2025,Penn State,Mikhail Yegorov,G,FR,0,0,0,2024-25
+04/10/2025,Penn State,Cole Hutson,D,FR,0,1,1,2024-25
+04/10/2025,Penn State,Sascha Boumedienne,D,FR,0,0,0,2024-25
+04/12/2025,Western Michigan,Gavin McCarthy,D,SO,0,0,0,2024-25
+04/12/2025,Western Michigan,Tristan Amonte,F,SR,0,0,0,2024-25
+04/12/2025,Western Michigan,Jack Hughes,F,SR,0,0,0,2024-25
+04/12/2025,Western Michigan,Tom Willander,D,SO,0,0,0,2024-25
+04/12/2025,Western Michigan,Nick Roukounakis,F,FR,0,0,0,2024-25
+04/12/2025,Western Michigan,Brandon Svoboda,F,FR,0,0,0,2024-25
+04/12/2025,Western Michigan,Ryan Greene,F,JR,0,1,1,2024-25
+04/12/2025,Western Michigan,Kamil Bednarik,F,FR,0,1,1,2024-25
+04/12/2025,Western Michigan,Jack Harvey,F,SO,0,0,0,2024-25
+04/12/2025,Western Michigan,Matt Copponi,F,SR,0,0,0,2024-25
+04/12/2025,Western Michigan,Quinn Hutson,F,JR,0,0,0,2024-25
+04/12/2025,Western Michigan,Shane Lachance,F,SO,1,0,1,2024-25
+04/12/2025,Western Michigan,Jack Page,D,SR,0,0,0,2024-25
+04/12/2025,Western Michigan,Devin Kaplan,F,JR,0,1,1,2024-25
+04/12/2025,Western Michigan,Aiden Celebrini,D,SO,0,0,0,2024-25
+04/12/2025,Western Michigan,Cole Eiserman,F,FR,1,0,1,2024-25
+04/12/2025,Western Michigan,Mikhail Yegorov,G,FR,0,0,0,2024-25
+04/12/2025,Western Michigan,Cole Hutson,D,FR,0,1,1,2024-25
+04/12/2025,Western Michigan,Sascha Boumedienne,D,FR,0,0,0,2024-25
