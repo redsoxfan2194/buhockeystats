@@ -82,7 +82,7 @@ function clearFilers(event) {
         }
     }
 
-    document.getElementById("seasonEnd").value = "2024-25";
+    document.getElementById("seasonEnd").value = "2025-26";
     document.getElementById("DOW").value = -1;
     document.getElementById("month").value = 0;
     document.getElementById("day").value = 0;
@@ -330,8 +330,8 @@ function submitForm(reset = "false") {
                     );
                 });
 
-                document.getElementById("seasonEnd").value = "2024-25";
-                document.getElementById("seasonEnd").text = "2024-25";
+                document.getElementById("seasonEnd").value = "2025-26";
+                document.getElementById("seasonEnd").text = "2025-26";
 
                 const selectArenaElement = $("#arena");
                 selectArenaElement.empty();
