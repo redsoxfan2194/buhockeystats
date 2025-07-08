@@ -3368,8 +3368,8 @@ CAPTAIN: Case McCarthy
 03/30 W Denny Sanford Premier Center	Minnesota (NCAA) 6-3
 04/11 L (ot) Xcel Energy Center	Denver (NCAA) 1-2
 2024-25
-OVERALL: 0-0-0
-HOCKEY EAST: 0-0-0, 1st
+OVERALL: 24-14-2
+HOCKEY EAST: 14-8-2, 3rd
 COACH: Jay Pandolfo
 CAPTAIN: Shane Lachance,Ryan Greene
 10/05 W Agganis Arena	Holy Cross 5-2
@@ -3414,6 +3414,47 @@ CAPTAIN: Shane Lachance,Ryan Greene
 03/29 W Huntington Center	Cornell (NCAA) 3-2
 04/10 W Enterprise Center	Penn State (NCAA) 3-1
 04/12 L Enterprise Center	Western Michigan (NCAA) 2-6
+2025-26
+OVERALL: 0-0-0
+HOCKEY EAST: 0-0-0, 1st
+COACH: Jay Pandolfo
+CAPTAIN: TBD
+10/04	N	Agganis Arena	LIU  0-0
+10/05	N	Agganis Arena	Rensselaer (ex)  0-0
+10/10	N	Agganis Arena	Colgate  0-0
+10/11	N	Agganis Arena	Colgate  0-0
+10/17 N Agganis Arena	Michigan State  0-0
+10/18 N Agganis Arena	Michigan State  0-0
+10/24 N Agganis Arena	Connecticut * 0-0
+10/25 N Toscano Ice Forum	Connecticut * 0-0
+10/31 N Alfond Arena	Maine * 0-0
+11/01 N Alfond Arena	Maine * 0-0
+11/07 N Agganis Arena	Merrimack * 0-0
+11/08 N Lawler Rink	Merrimack * 0-0
+11/15 N TD Bank Center	Quinnipiac  0-0
+11/21 N Matthews Arena	Northeastern * 0-0
+11/22 N Agganis Arena	Northeastern * 0-0
+11/29 N MSG IV	Cornell  0-0
+12/05 N Agganis Arena	Vermont * 0-0
+12/06 N Agganis Arena	Vermont * 0-0
+12/13 N Matthews Arena	Northeastern * 0-0
+01/03 N Agganis Arena	Simon Fraser (ex)  0-0
+01/09 N Mullins Center	Massachusetts * 0-0
+01/10 N Agganis Arena	Massachusetts * 0-0
+01/12 N Bright-Landry Hockey Center	Harvard  0-0
+01/16 N Agganis Arena	UMass Lowell * 0-0
+01/17 N Tsongas Center	UMass Lowell * 0-0
+01/23 N Schneider Arena	Providence * 0-0
+01/24 N Agganis Arena	Providence * 0-0
+01/30 N Agganis Arena	Boston College * 0-0
+02/02 N TD Garden	Northeastern  0-0
+02/06 N Agganis Arena	Maine * 0-0
+02/09 N TD Garden	Boston College/Harvard  0-0
+02/13 N Whittemore Center Arena	New Hampshire * 0-0
+02/14 N Agganis Arena	New Hampshire * 0-0
+02/27 N Agganis Arena	Boston College * 0-0
+02/28 N Conte Forum	Boston College * 0-0
+03/07 N Tsongas Center	UMass Lowell * 0-0
 
 Key to Tournaments
 ALS Auld Lang Syne Tournament
