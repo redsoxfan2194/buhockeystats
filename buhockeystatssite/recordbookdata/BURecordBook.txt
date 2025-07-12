@@ -3371,7 +3371,7 @@ CAPTAIN: Case McCarthy
 OVERALL: 24-14-2
 HOCKEY EAST: 14-8-2, 3rd
 COACH: Jay Pandolfo
-CAPTAIN: Shane Lachance,Ryan Greene
+CAPTAIN: Shane Lachance, Ryan Greene
 10/05 W Agganis Arena	Holy Cross 5-2
 10/12 W Agganis Arena	Union 4-1
 10/18 W Agganis Arena	Connecticut 4-2
