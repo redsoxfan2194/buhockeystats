@@ -644,12 +644,12 @@ CAPTAINS: Joe Quinn, Mike Manning
 2/1 W Boston Garden	Harvard (Pot) 5-3
 2/2 W N. Haven Arena	Yale 2-1
 2/5 L (ot) Boston Garden	Boston College (Pot) 4-5
-2/9 W Smith Rink	Army 6-5
+2/9 W (ot) Smith Rink	Army 6-5
 2/11 L Boston Garden	Boston College 1-2
 2/18 L Boston Arena	Northeastern 2-4
 2/22 L Appleton Arena	St. Lawrence 3-7
 2/23 L Walker Arena	Clarkson 1-4
-2/26 T (ot) Boston Arena	Boston College 4-4
+2/25 T (ot) Boston Arena	Boston College 4-4
 1957-58
 OVERALL: 17-5-1
 COACH: Harry Cleverly
@@ -675,7 +675,7 @@ CAPTAIN: Bob Dupuis, Sarge Kinlin
 2/19 W Boston Arena	Providence 10-1
 2/21 T (ot) Appleton Arena	St. Lawrence 7-7
 2/22 L Walker Arena	Clarkson 0-1
-2/25 L Boston Arena	Boston College 3-5
+2/26 L Boston Arena	Boston College 3-5
 3/1 W Davis Rink	Dartmouth 9-2
 1958-59
 OVERALL: 13-8-2
@@ -690,7 +690,7 @@ CAPTAINS: Larry Creighton, Ron DiVincenzo
 12/22 L Boston Arena	Rensselaer 3-5
 12/26 W Boston Arena	Brown (BAC) 8-3
 12/27 W Boston Arena	Providence (BAC) 6-4
-12/30 L Boston Arena	Michigan State (BAC) 2-3
+12/29 L Boston Arena	Michigan State (BAC) 2-3
 1/10 W RI Auditorium	Providence 9-4
 1/14 W Boston Arena	Boston College 5-1
 1/17 W Smith Rink	Army 5-1
@@ -3419,10 +3419,10 @@ OVERALL: 0-0-0
 HOCKEY EAST: 0-0-0, 1st
 COACH: Jay Pandolfo
 CAPTAIN: TBD
-10/04	N	Agganis Arena	LIU  0-0
-10/05	N	Agganis Arena	Rensselaer (ex)  0-0
-10/10	N	Agganis Arena	Colgate  0-0
-10/11	N	Agganis Arena	Colgate  0-0
+10/04 N Agganis Arena	LIU  0-0
+10/05 N Agganis Arena	Rensselaer (ex) 0-0
+10/10 N Agganis Arena	Colgate  0-0
+10/11 N Agganis Arena	Colgate  0-0
 10/17 N Agganis Arena	Michigan State  0-0
 10/18 N Agganis Arena	Michigan State  0-0
 10/24 N Agganis Arena	Connecticut * 0-0
@@ -3438,7 +3438,7 @@ CAPTAIN: TBD
 12/05 N Agganis Arena	Vermont * 0-0
 12/06 N Agganis Arena	Vermont * 0-0
 12/13 N Matthews Arena	Northeastern * 0-0
-01/03 N Agganis Arena	Simon Fraser (ex)  0-0
+01/03 N Agganis Arena	Simon Fraser (ex) 0-0
 01/09 N Mullins Center	Massachusetts * 0-0
 01/10 N Agganis Arena	Massachusetts * 0-0
 01/12 N Bright-Landry Hockey Center	Harvard  0-0
