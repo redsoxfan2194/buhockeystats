@@ -962,7 +962,7 @@ CAPTAIN: Jim Quinn, Peter McLachlan
 3/1 W Boston Arena	Dartmouth * 13-3
 3/4 W Starr Rink	Colgate * 4-1
 3/7 W Boston Arena	Harvard (ECAC) 6-2
-3/10 W Boston Garden	St. Lawrence (ECAC) 6-2
+3/9 W Boston Garden	St. Lawrence (ECAC) 6-2
 3/11 L Boston Garden	Cornell (ECAC) 3-4
 3/17 W War Mem. Aud.	Michigan State (NCAA) 4-2
 3/18 L War Mem. Aud.	Cornell (NCAA) 1-4
@@ -3371,7 +3371,7 @@ CAPTAIN: Case McCarthy
 OVERALL: 24-14-2
 HOCKEY EAST: 14-8-2, 3rd
 COACH: Jay Pandolfo
-CAPTAIN: Shane Lachance, Ryan Greene
+CAPTAIN: Shane Lachance,Ryan Greene
 10/05 W Agganis Arena	Holy Cross 5-2
 10/12 W Agganis Arena	Union 4-1
 10/18 W Agganis Arena	Connecticut 4-2
