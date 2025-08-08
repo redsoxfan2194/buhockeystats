@@ -1405,7 +1405,7 @@ CAPTAIN: Tony Meagher
 11/28 W Thompson Arena	Dartmouth * 6-4
 12/1 L Walter Brown Arena	New Hampshire * 3-4
 12/5 L (ot) Walter Brown Arena	Harvard * 3-4
-12/7 W Hobey Baker Rink	Princeton * 6-3
+12/8 W Hobey Baker Rink	Princeton * 6-3
 12/11 L (ot) Meehan Auditorium	Brown * 2-3
 12/26 L Williams Arena	Minnesota 4-5
 12/27 L Williams Arena	Minnesota 1-5
@@ -1508,8 +1508,8 @@ CAPTAINS: Jerry August, Tom O'Regan
 12/4 L Lynah Rink	Cornell * 3-5
 12/8 L Walter Brown Arena	Yale * 1-4
 12/11 W Alfond Arena	Maine * 5-2
-12/29 W War Mem. Aud.	Clarkson (SIT) 3-1
-12/30 W War Mem. Aud.	Toronto (SIT) 4-3
+12/29 W War Mem. Aud.	Toronto (SIT) 4-3
+12/30 W War Mem. Aud.	Clarkson (SIT) 3-1
 1/2 L Dane Cty. Col.	Wisconsin 0-2
 1/3 L Dane Cty. Col.	Wisconsin 2-5
 1/8 W Walter Brown Arena	Boston College * 4-3

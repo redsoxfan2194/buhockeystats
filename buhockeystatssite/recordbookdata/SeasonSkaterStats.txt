@@ -609,7 +609,7 @@
 2	Bill Whelton	D	FR	30	2	5	7	—/20	1978-79
 19	Daryl MacLeod	F	SO	30	8	8	16	—/40	1978-79
 10	Dave Silk	F	JR	23	8	12	20	—/20	1978-79
-23	Grant Goegan	F		25	6	8	14	—/10	1978-79
+23	Grant Goegan	F	JR	25	6	8	14	—/10	1978-79
 17	Jack O'Callahan	D	SR	29	6	16	22	—/72	1978-79
 9	John Bethel	F	JR	19	5	10	15	—/28	1978-79
 14	John Corriveau	F	SR	6	0	3	3	—/4	1978-79
@@ -629,9 +629,9 @@
 2	Bill Whelton	D	SO	25	4	14	18	—/39	1979-80
 9	Dan Carnevale	F	FR	2	0	0	0	—/0	1979-80
 11	Daryl MacLeod	F	JR	26	9	15	24	—/56	1979-80
-19	Don Marshall	F		28	3	8	11	—/10	1979-80
+19	Don Marshall	F	SR	28	3	8	11	—/10	1979-80
 24	George Klapes	D	FR	26	2	8	10	—/8	1979-80
-9	Grant Goegan	F		23	12	7	19	—/20	1979-80
+9	Grant Goegan	F	SR	23	12	7	19	—/20	1979-80
 22	Jerry August	F	FR	27	2	13	15	—/40	1979-80
 27	John Melanson	F	SR	28	6	7	13	—/12	1979-80
 21	Kevin Callaghan	D		16	0	0	0	—/8	1979-80
@@ -675,7 +675,7 @@
 16	Cesare Carlacci	F	SO	27	3	4	7	—/24	1981-82
 18	Chris Mays	F	SO	16	9	4	13	—/14	1981-82
 9	Dan Carnevale	F	JR	27	4	8	12	—/8	1981-82
-19	Denis LaGarde	F		24	3	5	8	—/12	1981-82
+19	Denis LaGarde	F	SO	24	3	5	8	—/12	1981-82
 14	Fred Barker	F	FR	22	4	2	6	—/14	1981-82
 4	George Klapes	D	JR	28	4	6	10	—/20	1981-82
 2	Jerry August	F	JR	28	3	13	16	—/70	1981-82
@@ -699,7 +699,7 @@
 16	Chuck Sullivan	F	SO	20	7	3	10	—/12	1982-83
 3	Dale Dunbar	D	SO	23	1	7	8	—/36	1982-83
 9	Dan Carnevale	F	SR	20	2	3	5	—/6	1982-83
-12	Denis LaGarde	F		30	7	12	19	—/30	1982-83
+12	Denis LaGarde	F	JR	30	7	12	19	—/30	1982-83
 4	George Klapes	D	SR	30	4	11	15	—/12	1982-83
 2	Jerry August	F	SR	28	3	23	26	—/23	1982-83
 25	Joe Cappellano	D	FR	29	5	12	17	—/6	1982-83
@@ -722,7 +722,7 @@
 16	Chuck Sullivan	F	JR	33	11	11	22	—/10	1983-84
 3	Dale Dunbar	D	JR	34	0	15	15	—/49	1983-84
 2	David Thiesing	D	FR	19	1	2	3	—/10	1983-84
-12	Denis LaGarde	F		39	13	18	31	—/32	1983-84
+12	Denis LaGarde	F	SR	39	13	18	31	—/32	1983-84
 9	Ed Lowney	F	FR	40	21	12	33	—/26	1983-84
 10	Jay Octeau	D	FR	27	1	6	7	—/20	1983-84
 8	Joe Cappellano	D	SO	37	10	24	34	—/26	1983-84
