@@ -110,6 +110,15 @@ def feedback():
     '''
     return render_template('feedback.html',titletag=' - Feedback')
 
+@app.route('/missingdates')
+def missingdates():
+    ''' Renders "Missing Dates" Page
+
+    Returns:
+      Flask Template : flask template containing missing_dates.html
+    '''
+    return render_template('missing_dates.html',titletag=' - Missing Dates')
+
 
 @app.route('/players', methods=['POST', 'GET'])
 def players():
