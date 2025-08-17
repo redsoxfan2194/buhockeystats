@@ -5577,14 +5577,13 @@
 12/27/1974,Minnesota Duluth,Ken Kuzyk,F,JR,0,1,1,1974-75
 12/27/1974,Minnesota Duluth,Jerry Gryp,D,JR,0,1,1,1974-75
 12/27/1974,Minnesota Duluth,Gary Fay,D,SO,0,2,2,1974-75
-12/27/1974,Minnesota Duluth,Mike Fidler,F,FR,0,2,2,1974-75
+12/27/1974,Minnesota Duluth,Mike Fidler,F,FR,1,2,3,1974-75
 12/27/1974,Minnesota Duluth,Vic Stanfield,D,SR,0,2,2,1974-75
 12/27/1974,Minnesota Duluth,Bill Robbins,F,JR,1,0,1,1974-75
 12/27/1974,Minnesota Duluth,Mike Eruzione,F,SO,1,1,2,1974-75
 12/27/1974,Minnesota Duluth,Bill Burlington,F,SR,1,1,2,1974-75
 12/27/1974,Minnesota Duluth,Terry Meagher,F,JR,1,0,1,1974-75
 12/27/1974,Minnesota Duluth,Peter Marzo,F,JR,2,1,3,1974-75
-12/27/1974,Minnesota Duluth,Mike Fidler,F,FR,1,0,1,1974-75
 12/28/1974,St. Louis,Unknown,,,5,0,5,1974-75
 01/04/1975,Rensselaer,Peter Marzo,F,JR,0,1,1,1974-75
 01/04/1975,Rensselaer,John McClellan,F,SO,0,1,1,1974-75
