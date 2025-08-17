@@ -2979,12 +2979,11 @@
 01/03/1962,Colby,Bob Smith,D,,1,0,1,1961-62
 01/03/1962,Colby,Don Goguen,D,,1,1,2,1961-62
 01/03/1962,Colby,Peter Fitzgerald,F,,0,1,1,1961-62
-01/10/1962,Rensselaer,John McBride,F,,1,0,1,1961-62
 01/10/1962,Rensselaer,Edmund Connors,F,,1,1,2,1961-62
 01/10/1962,Rensselaer,Bob Smith,D,,1,2,3,1961-62
 01/10/1962,Rensselaer,Alden Sampson,D,,1,0,1,1961-62
 01/10/1962,Rensselaer,Don Goguen,D,,0,1,1,1961-62
-01/10/1962,Rensselaer,John McBride,F,,0,1,1,1961-62
+01/10/1962,Rensselaer,John McBride,F,,1,1,2,1961-62
 01/10/1962,Rensselaer,Francis McFaun,D,,0,1,1,1961-62
 01/10/1962,Rensselaer,Leonard Holmes,D,,0,1,1,1961-62
 01/15/1962,Harvard,Bob Smith,D,JR,1,0,1,1961-62
@@ -3394,11 +3393,10 @@
 02/15/1965,Boston College,Bob Martell,F,SR,1,0,1,1964-65
 02/15/1965,Boston College,Dennis O'Connell,F,JR,2,0,2,1964-65
 02/19/1965,Colgate,Bruce Fennie,F,JR,1,0,1,1964-65
-02/19/1965,Colgate,Brian Gilmour,D,SO,1,0,1,1964-65
+02/19/1965,Colgate,Brian Gilmour,D,SO,1,1,2,1964-65
 02/19/1965,Colgate,Vic Conte,D,JR,1,0,1,1964-65
 02/19/1965,Colgate,Pete McLachlan,D,SO,1,0,1,1964-65
 02/19/1965,Colgate,Ken Ross,F,SR,0,1,1,1964-65
-02/19/1965,Colgate,Brian Gilmour,D,SO,0,1,1,1964-65
 02/19/1965,Colgate,Fred Bassi,F,SO,0,2,2,1964-65
 02/20/1965,Rensselaer,Jim Wood,F,SO,1,0,1,1964-65
 02/20/1965,Rensselaer,Bruce Fennie,F,JR,2,0,2,1964-65
@@ -3430,7 +3428,7 @@
 03/03/1965,New Hampshire,Bob Martell,F,SR,0,2,2,1964-65
 03/03/1965,New Hampshire,Dennis O'Connell,F,JR,0,1,1,1964-65
 03/06/1965,Colby,Bob Sylvia,F,SR,3,3,6,1964-65
-03/06/1965,Colby,Jim Wood,F,SO,2,0,2,1964-65
+03/06/1965,Colby,Jim Wood,F,SO,2,1,3,1964-65
 03/06/1965,Colby,Bob Martell,F,SR,2,3,5,1964-65
 03/06/1965,Colby,Bruce Fennie,F,JR,2,1,3,1964-65
 03/06/1965,Colby,Pete McLachlan,D,SO,1,0,1,1964-65
@@ -3439,7 +3437,6 @@
 03/06/1965,Colby,Jim Todaro,F,JR,1,2,3,1964-65
 03/06/1965,Colby,Ken Ross,F,SR,0,5,5,1964-65
 03/06/1965,Colby,Dennis O'Connell,F,JR,0,2,2,1964-65
-03/06/1965,Colby,Jim Wood,F,SO,0,1,1,1964-65
 03/06/1965,Colby,Tom Ross,D,JR,0,1,1,1964-65
 03/06/1965,Colby,Fred Bassi,F,SO,0,1,1,1964-65
 03/10/1965,Providence,Bruce Fennie,F,JR,0,1,1,1964-65
@@ -3730,11 +3727,10 @@
 12/03/1966,Boston College,Charlie Morgan,F,SR,1,0,1,1966-67
 12/06/1966,Providence,Serge Boily,F,SO,2,0,2,1966-67
 12/06/1966,Providence,Jim Quinn,F,SR,2,0,2,1966-67
-12/06/1966,Providence,Mickey Gray,F,SO,2,0,2,1966-67
+12/06/1966,Providence,Mickey Gray,F,SO,2,3,5,1966-67
 12/06/1966,Providence,Jim Wood,F,SR,2,0,2,1966-67
 12/06/1966,Providence,Pete McLachlan,D,SR,1,1,2,1966-67
 12/06/1966,Providence,Herb Wakabayashi,F,SO,0,5,5,1966-67
-12/06/1966,Providence,Mickey Gray,F,SO,0,2,2,1966-67
 12/06/1966,Providence,Bill Riley,F,,0,1,1,1966-67
 12/06/1966,Providence,Darrell Abbott,D,SO,0,1,1,1966-67
 12/06/1966,Providence,Bill Hinch,D,SO,0,1,1,1966-67
@@ -3758,10 +3754,9 @@
 12/17/1966,Princeton,Fred Bassi,F,SR,5,0,5,1966-67
 12/17/1966,Princeton,Mickey Gray,F,SO,4,0,4,1966-67
 12/17/1966,Princeton,Jim Quinn,F,SR,2,2,4,1966-67
-12/17/1966,Princeton,Pete McLachlan,D,SR,1,0,1,1966-67
+12/17/1966,Princeton,Pete McLachlan,D,SR,1,4,5,1966-67
 12/17/1966,Princeton,Serge Boily,F,SO,1,4,5,1966-67
 12/17/1966,Princeton,Herb Wakabayashi,F,SO,0,4,4,1966-67
-12/17/1966,Princeton,Pete McLachlan,D,SR,0,4,4,1966-67
 12/17/1966,Princeton,Brian Gilmour,D,SR,0,2,2,1966-67
 12/17/1966,Princeton,Darrell Abbott,D,SO,0,1,1,1966-67
 12/17/1966,Princeton,Mike Sobeski,F,SR,0,3,3,1966-67
@@ -4106,7 +4101,6 @@
 02/20/1968,Northeastern,Mike Hyndman,F,SO,1,1,2,1967-68
 02/20/1968,Northeastern,Jack Parker,F,SR,1,1,2,1967-68
 02/20/1968,Northeastern,Serge Boily,F,JR,0,3,3,1967-68
-02/20/1968,Northeastern,Mickey Gray,F,JR,0,2,2,1967-68
 02/20/1968,Northeastern,Wayne Decker,D,SO,0,2,2,1967-68
 02/20/1968,Northeastern,Darrell Abbott,D,JR,0,2,2,1967-68
 02/20/1968,Northeastern,Jim Dakin,D,JR,0,1,1,1967-68
@@ -4117,7 +4111,6 @@
 02/23/1968,Clarkson,Dick Toomey,F,SO,1,1,2,1967-68
 02/23/1968,Clarkson,Wayne Decker,D,SO,1,1,2,1967-68
 02/23/1968,Clarkson,Mike Hyndman,F,SO,1,1,2,1967-68
-02/23/1968,Clarkson,Wayne Decker,D,SO,0,1,1,1967-68
 02/24/1968,St. Lawrence,Mickey Gray,F,JR,1,1,2,1967-68
 02/24/1968,St. Lawrence,Herb Wakabayashi,F,JR,1,0,1,1967-68
 02/24/1968,St. Lawrence,Larry Davenport,F,SO,0,1,1,1967-68
@@ -4160,7 +4153,6 @@
 11/29/1968,New Brunswick,Eddie Wright,F,SR,1,2,3,1968-69
 11/29/1968,New Brunswick,Larry Davenport,F,JR,1,4,5,1968-69
 11/29/1968,New Brunswick,Serge Boily,F,SR,0,3,3,1968-69
-11/29/1968,New Brunswick,Eddie Wright,F,SR,0,2,2,1968-69
 11/29/1968,New Brunswick,Wayne Decker,D,JR,0,1,1,1968-69
 11/29/1968,New Brunswick,Bill Hinch,D,SR,0,1,1,1968-69
 11/30/1968,New Brunswick,Serge Boily,F,SR,2,2,4,1968-69
@@ -4499,7 +4491,7 @@
 02/28/1970,Providence,Wayne Gowing,F,,0,1,1,1969-70
 02/28/1970,Providence,Mike Hyndman,F,,0,1,1,1969-70
 03/05/1970,Clarkson,Bob Gryp,F,,1,0,1,1969-70
-03/05/1970,Clarkson,John Danby,F,,1,0,1,1969-70
+03/05/1970,Clarkson,John Danby,F,,1,1,2,1969-70
 03/05/1970,Clarkson,Dick Toomey,F,,3,0,3,1969-70
 03/05/1970,Clarkson,Larry Davenport,F,,1,1,2,1969-70
 03/05/1970,Clarkson,Don Cahoon,F,,0,1,1,1969-70
@@ -4507,7 +4499,6 @@
 03/05/1970,Clarkson,Wayne Gowing,F,,0,2,2,1969-70
 03/05/1970,Clarkson,Steve Stirling,F,,0,3,3,1969-70
 03/05/1970,Clarkson,Peter Thornton,F,,0,3,3,1969-70
-03/05/1970,Clarkson,John Danby,F,,0,1,1,1969-70
 03/10/1970,New Hampshire,Larry Davenport,F,,1,0,1,1969-70
 03/10/1970,New Hampshire,John Danby,F,,1,0,1,1969-70
 03/10/1970,New Hampshire,Mike Hyndman,F,,0,1,1,1969-70
@@ -4895,7 +4886,6 @@
 01/04/1972,Merrimack,Peter Thornton,F,SR,1,0,1,1971-72
 01/04/1972,Merrimack,Jim Connors,F,,1,0,1,1971-72
 01/04/1972,Merrimack,Ray Cournoyea,F,,0,2,2,1971-72
-01/04/1972,Merrimack,Don Cahoon,F,SR,0,2,2,1971-72
 01/04/1972,Merrimack,Bill Flynn,F,SR,0,1,1,1971-72
 01/04/1972,Merrimack,David Wisener,F,JR,1,2,3,1971-72
 01/04/1972,Merrimack,Bob Brown,D,SR,0,2,2,1971-72
@@ -5294,10 +5284,9 @@
 12/01/1973,Vermont,Bill Buckton,F,SO,2,1,3,1973-74
 12/01/1973,Vermont,Bill Burlington,F,JR,1,1,2,1973-74
 12/01/1973,Vermont,Mike Eruzione,F,FR,1,0,1,1973-74
-12/01/1973,Vermont,Vic Stanfield,D,JR,1,0,1,1973-74
+12/01/1973,Vermont,Vic Stanfield,D,JR,1,2,3,1973-74
 12/01/1973,Vermont,Bob Sunderland,D,FR,1,0,1,1973-74
 12/01/1973,Vermont,Terry Meagher,F,SO,0,2,2,1973-74
-12/01/1973,Vermont,Vic Stanfield,D,JR,0,2,2,1973-74
 12/01/1973,Vermont,Bill Robbins,F,SO,0,2,2,1973-74
 12/01/1973,Vermont,Peter Brown,D,SO,0,2,2,1973-74
 12/01/1973,Vermont,Bill Bishop,F,JR,0,1,1,1973-74
@@ -5486,13 +5475,12 @@
 02/28/1974,Merrimack,Peter Marzo,F,SO,2,2,4,1973-74
 02/28/1974,Merrimack,Bill Robbins,F,SO,3,0,3,1973-74
 02/28/1974,Merrimack,Peter Brown,D,SO,0,4,4,1973-74
-03/05/1974,Dartmouth,Peter Brown,D,SO,0,1,1,1973-74
+03/05/1974,Dartmouth,Peter Brown,D,SO,1,1,2,1973-74
 03/05/1974,Dartmouth,Chris Bannerman,D,SO,0,1,1,1973-74
 03/05/1974,Dartmouth,Peter Marzo,F,SO,0,1,1,1973-74
 03/05/1974,Dartmouth,Bill Robbins,F,SO,0,2,2,1973-74
 03/05/1974,Dartmouth,Ken Kuzyk,F,SO,0,2,2,1973-74
 03/05/1974,Dartmouth,Bill Buckton,F,SO,1,0,1,1973-74
-03/05/1974,Dartmouth,Peter Brown,D,SO,1,0,1,1973-74
 03/05/1974,Dartmouth,Bill Bishop,F,JR,1,0,1,1973-74
 03/05/1974,Dartmouth,Terry Meagher,F,SO,2,0,2,1973-74
 03/05/1974,Dartmouth,Vic Stanfield,D,JR,2,0,2,1973-74
@@ -5751,12 +5739,11 @@
 02/15/1975,Yale,Terry Meagher,F,JR,2,0,2,1974-75
 02/15/1975,Yale,Bill Robbins,F,JR,1,1,2,1974-75
 02/18/1975,Boston College,Peter Brown,D,JR,0,1,1,1974-75
-02/18/1975,Boston College,Bill Buckton,F,JR,0,1,1,1974-75
+02/18/1975,Boston College,Bill Buckton,F,JR,1,1,2,1974-75
 02/18/1975,Boston College,Mike Fidler,F,FR,0,1,1,1974-75
 02/18/1975,Boston College,Rick Meagher,F,SO,0,1,1,1974-75
 02/18/1975,Boston College,Bill Burlington,F,SR,0,2,2,1974-75
 02/18/1975,Boston College,Terry Meagher,F,JR,1,0,1,1974-75
-02/18/1975,Boston College,Bill Buckton,F,JR,1,0,1,1974-75
 02/18/1975,Boston College,Ken Kuzyk,F,JR,1,0,1,1974-75
 02/18/1975,Boston College,Mike Eruzione,F,SO,1,0,1,1974-75
 02/22/1975,Clarkson,Peter Brown,D,JR,0,1,1,1974-75
@@ -5878,7 +5865,6 @@
 12/10/1975,Harvard,Ken Kuzyk,F,SR,1,0,1,1975-76
 12/10/1975,Harvard,Terry Meagher,F,SR,1,3,4,1975-76
 12/10/1975,Harvard,Mike Eruzione,F,JR,1,1,2,1975-76
-12/10/1975,Harvard,Rick Meagher,F,JR,0,1,1,1975-76
 12/10/1975,Harvard,Peter Brown,D,SR,0,2,2,1975-76
 12/10/1975,Harvard,Gary Fay,D,JR,0,1,1,1975-76
 12/10/1975,Harvard,Bob Dudley,D,JR,0,1,1,1975-76
