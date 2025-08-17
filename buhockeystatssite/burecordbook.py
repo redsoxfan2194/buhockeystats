@@ -3917,7 +3917,19 @@ def updatePolls(gender):
         dfPoll['RK']=dfPoll['RK'].astype(int)
         dfPoll['SEASON']=dfPoll['SEASON'].astype(int)
         dfPoll.to_csv(pollFile,index=False)
-        
+
+def getShutoutList(gender):
+  ''' returns Shutout List for given gender '''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0]}Shutouts.csv")
+  dfRes['date'] = pd.to_datetime(dfRes['date'])
+  return dfRes
+
+def getHatTrickList(gender):
+  ''' returns Hat Trick List for given gender '''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0]}Hattricks.csv")
+  dfRes['date'] = pd.to_datetime(dfRes['date'])
+  return dfRes
+
 def getBirthdays(year,month):
   ''' returns Birthdays for given month and year'''
   dfBirthday = pd.read_csv(RECBOOK_DATA_PATH + 'birthdays.csv')

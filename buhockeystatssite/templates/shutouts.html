@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+<h3 class="stat-table">BU Shutouts</h3>
+<div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active note-nav" id="mens-shutouts-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-shutouts" type="button" role="tab" aria-controls="mens-shutouts" aria-selected="true">Men's</button>
+      <button class="nav-link note-nav" id="womens-shutouts-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-shutouts" type="button" role="tab" aria-controls="womens-shutouts" aria-selected="true">Women's</button>
+</div>
+   <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-mens-shutouts" role="tabpanel" aria-labelledby="mens-shutouts-tab">
+        {% autoescape false %}
+        {{mShutouts}}
+        {% endautoescape %}
+        </div>
+      <div class="tab-pane fade" id="nav-womens-shutouts" role="tabpanel" aria-labelledby="womens-shutouts-tab">
+        {% autoescape false %}
+        {{wShutouts}}
+        {% endautoescape %}
+        </div>
+    </div>
+</div>
+{% endblock %}

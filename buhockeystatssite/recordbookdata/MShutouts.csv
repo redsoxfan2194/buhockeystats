@@ -1,0 +1,188 @@
+date,opponent,arena,scoreline,goalie,saves
+1923-02-24,Bates,Bates Rink,6-0,Joe Beauchemin,
+1924-12-23,Boston College,Boston Arena,1-0,Don Martin,
+1925-12-18,Harvard,Boston Arena,3-0,Don Martin,
+1926-01-20,Bowdoin,Boston Arena,6-0,Don Martin,
+1926-01-23,Cornell,Beebe Lake,1-0,Don Martin,
+1926-02-06,Army,Stuart Rink,3-0,Don Martin,
+1926-03-01,MIT,Boston Arena,2-0,Sydney Silberberg,
+1926-03-04,Boston College,Boston Arena,3-0,Sydney Silberberg,
+1927-02-25,Providence,RI Auditorium,12-0,Sydney Silberberg,
+1928-01-25,Army,Bear Mountain,9-0,Sydney Silberberg,
+1928-02-29,Boston College,Boston Arena,5-0,Sydney Silberberg,
+1928-03-10,Brown,RI Auditorium,8-0,Sydney Silberberg,
+1928-12-08,MIT,Boston Arena,2-0,Sydney Silberberg,
+1928-12-14,Brown,Boston Arena,4-0,Sydney Silberberg/Burton Grodberg,
+1929-01-16,Holy Cross,Boston Arena,4-0,Sydney Silberberg,
+1930-02-26,New Hampshire,Boston Arena,9-0,Burton Grodberg,
+1931-12-14,Brown,Boston Arena,3-0,Russell Wight,
+1932-12-16,Brown,Boston Arena,4-0,Russell Wight,
+1933-01-14,Army,Smith Rink,7-0,Russell Wight,
+1933-03-03,Brown,RI Auditorium,2-0,Herman Nickerson,
+1933-03-09,Boston College,Boston Arena,7-2,Herman Nickerson,
+1934-02-23,New Hampshire,Boston Arena,6-0,Herman Nickerson,
+1935-02-19,Brown,Boston Arena,3-0,Herman Nickerson,
+1947-12-16,MIT,Boston Arena,7-0,Ralph Bevins,
+1948-01-07,Colby,South End Arena,5-0,Ralph Bevins,13
+1948-12-22,Colby,Boston Arena,11-0,Dick Bradley,
+1949-01-31,Mass. Devens,Skating Club,13-0,Dick Bradley,
+1949-02-01,Princeton,Boston Arena,10-0,Ralph Bevins,
+1950-02-15,MIT,Boston Arena,14-0,Dick Bradley,
+1950-02-28,Colgate,Boston Arena,12-0,Ralph Bevins,
+1951-01-20,Army,Smith Rink,5-0,Dick Bradley,6
+1951-02-08,Dartmouth,Davis Rink,7-0,Dick Bradley,
+1951-03-05,Northeastern,Boston Arena,5-0,Dick Bradley,16
+1952-02-11,MIT,Boston Arena,20-0,Paul Kelley,
+1952-02-20,Northeastern,Boston Arena,5-0,Paul Kelley,22
+1953-01-24,Army,Smith Rink,4-0,Paul Kelley,
+1953-02-13,Boston College,Boston Arena,3-0,Paul Kelley,30
+1957-12-04,Brown,RI Auditorium,9-0,Bill Tansey (9)/Henry Levin(11),
+1960-01-16,Army,Smith Rink,7-0,Barry Urbanski,19
+1960-12-27,Brown,Boston Arena,10-0,Barry Urbanski,
+1963-12-02,Yale,Boston Arena,6-0,Jack Ferreira,16
+1964-02-26,Boston College,McHugh Forum,1-0,Jack Ferreira,27
+1964-02-28,Colby,Boston Arena,5-0,Jack Ferreira,
+1964-12-09,Harvard,Watson Rink,1-0,Jack Ferreira,18
+1964-12-29,Harvard,Boston Arena,8-0,Jack Ferreira,16
+1965-01-27,Providence,RI Auditorium,5-0,Jack Ferreira,15
+1965-02-03,Yale,Ingalls Rink,4-0,Jack Ferreira,
+1965-02-20,Rensselaer,Houston Field House,8-0,Jack Ferreira,21
+1965-02-25,Clarkson,Boston Arena,2-0,Jack Ferreira,23
+1965-03-03,New Hampshire,Boston Arena,8-0,Jack Ferreira,11
+1965-03-13,Clarkson,Boston Arena,4-0,Jack Ferreira,19
+1965-11-27,New Brunswick,Beaverbrook,8-0,Wayne Ryan,
+1965-11-30,Yale,Boston Arena,7-0,Jack Ferreira,13
+1965-12-14,Rensselaer,Boston Arena,9-0,Wayne Ryan,15
+1966-01-08,Colby,Alfond (Colby),8-2,Wayne Ryan,
+1966-03-05,Providence,Boston Arena,2-0,Jack Ferreira,24
+1967-02-13,Northeastern,Boston Garden,4-0,Jim McCann,30
+1967-02-21,Northeastern,Boston Arena,2-0,Jim McCann,21
+1968-11-29,New Brunswick,Four Seasons,10-0,Jim McCann,2
+1968-11-30,New Brunswick,Boston Arena,11-0,Jim McCann,2
+1969-01-28,Princeton,Hobey Baker Rink,6-0,Jim McCann,
+1969-02-13,Providence,RI Auditorium,7-0,Jim McCann,
+1969-03-08,Clarkson,Boston Garden,5-0,Jim McCann,21
+1969-11-29,Yale,Boston Arena,5-0,Tim Regan,17
+1970-03-10,New Hampshire,Boston Arena,2-0,Tim Regan,
+1970-11-27,St. Louis,St. Louis Arena,8-0,Tim Regan,
+1970-12-12,Merrimack,Boston Arena,8-0,Tim Regan,15
+1970-12-22,Minnesota,Boston Arena,6-0,Tim Regan,23
+1971-01-04,Princeton,Boston Arena,14-0,Dan Brady,13
+1971-01-13,Northeastern,Boston Arena,9-0,Dan Brady,11
+1971-03-09,Rensselaer,Boston Arena,11-0,Dan Brady,28
+1971-12-01,Brown,Meehan Auditorium,3-0,Tim Regan/Dan Brady,14
+1971-12-22,Rensselaer,Boston Garden,4-0,Dan Brady,20
+1972-01-29,St. Louis,Walter Brown Arena,5-0,Dan Brady,
+1972-03-18,Cornell,Boston Garden,4-0,Tim Regan,39
+1972-12-13,Cornell,Lynah Rink,9-0,Ed Walsh,30
+1972-12-21,Merrimack,Walter Brown Arena,9-0,Ed Walsh/John Bresnehan,
+1973-12-08,Princeton,Hobey Baker Rink,4-0,Ed Walsh,22
+1974-02-01,Vermont,Gutterson Fieldhouse,2-0,Ed Walsh,15
+1974-03-05,Dartmouth,Walter Brown Arena,8-0,Ed Walsh,
+1978-12-09,Princeton,Walter Brown Arena,4-0,Jim Craig,23
+1979-02-21,Northeastern,Walter Brown Arena,6-0,Jeff Weisman,27
+1979-11-25,Providence,Schneider Arena,3-0,Bob Barich,22
+1981-01-21,Maine,Walter Brown Arena,3-0,Jeff Weisman,27
+1981-11-18,Merrimack,Walter Brown Arena,10-0,Cleon Daskalakis,29
+1981-12-09,Yale,Ingalls Rink,1-0,Cleon Daskalakis,37
+1982-03-03,Boston College,Walter Brown Arena,5-0,Cleon Daskalakis,40
+1983-03-01,Boston College,McHugh Forum,3-0,Cleon Daskalakis,47
+1983-10-30,Dalhousie,Walter Brown Arena,4-0,Terry Taillefer,16
+1983-11-04,UMass Lowell,Walter Brown Arena,8-0,Cleon Daskalakis,27
+1983-11-16,Merrimack,Walter Brown Arena,8-0,Cleon Daskalakis (10)/Terry Taillefer (13),
+1984-10-28,UMass Lowell,Walter Brown Arena,5-0,Terry Taillefer,28
+1985-11-22,Colorado College,Walter Brown Arena,5-0,Bob Deraney,34
+1986-02-22,Providence,Walter Brown Arena,2-0,Terry Taillefer,21
+1987-10-31,UMass Lowell,Tully Forum,5-0,Peter Fish,29
+1989-01-21,Minnesota,Walter Brown Arena,1-0,Peter Fish,17
+1989-02-21,New Hampshire,Snively Arena,4-0,Peter Fish,30
+1989-11-04,Merrimack,Lawler Rink,8-0,Scott Cashman,10
+1990-03-18,North Dakota,Walter Brown Arena,5-0,Scott Cashman,26
+1990-11-16,Denver,Walter Brown Arena,12-0,John Bradley,18
+1990-11-20,Harvard,Bright-Landry Hockey Center,4-0,John Bradley,23
+1991-01-08,Merrimack,Walter Brown Arena,4-0,John Bradley,31
+1993-02-05,New Hampshire,Walter Brown Arena,4-0,Derek Herlofsky,18
+1993-03-19,New Hampshire,Boston Garden,2-0,Derek Herlofsky,26
+1994-02-14,Northeastern,Boston Garden,8-0,Derek Herlofsky,24
+1994-02-19,Maine,Walter Brown Arena,0-0,J.P. McKersie,34
+1994-03-04,Providence,Schneider Arena,4-0,Derek Herlofsky,23
+1994-11-18,Massachusetts,Mullins Center,7-0,Derek Herlofsky,14
+1995-01-06,New Hampshire,Walter Brown Arena,5-1,Tom Noble,25
+1997-10-18,Rensselaer,Walter Brown Arena,6-0,Tom Noble,18
+1997-11-08,Maine,Alfond Arena,6-0,Michael Larocque,29
+1997-11-28,Clarkson,Walter Brown Arena,4-0,Tom Noble,32
+1998-01-10,Providence,Walter Brown Arena,1-0,Tom Noble,21
+1999-11-26,Denver,Walter Brown Arena,4-0,Jason Tapp,25
+2000-01-21,UMass Lowell,Tsongas Center,5-0,Rick DiPietro,29
+2000-02-07,Harvard,TD Garden,4-0,Rick DiPietro,21
+2000-11-04,Merrimack,Walter Brown Arena,3-0,Sean Fields,25
+2001-10-28,Merrimack,Walter Brown Arena,4-0,Sean Fields,21
+2002-11-26,Harvard,Walter Brown Arena,3-0,Sean Fields,36
+2003-01-04,Northeastern,Matthews Arena,4-0,Sean Fields,31
+2003-01-30,Merrimack,Walter Brown Arena,5-0,Sean Fields,24
+2003-02-07,Massachusetts,Mullins Center,2-0,Sean Fields,25
+2004-01-24,Maine,Walter Brown Arena,1-0,Sean Fields,27
+2005-02-18,Massachusetts,Mullins Center,3-0,John Curry,29
+2005-03-12,Providence,Agganis Arena,2-0,John Curry,20
+2005-03-13,Providence,Agganis Arena,2-0,John Curry,22
+2005-11-25,Denver,Agganis Arena,1-0,Karson Gillespie,31
+2006-01-07,Northeastern,Matthews Arena,4-0,John Curry,28
+2006-01-21,Merrimack,Agganis Arena,5-0,John Curry,20
+2006-02-10,Massachusetts,Agganis Arena,3-0,John Curry,19
+2006-11-17,Providence,Agganis Arena,1-0,John Curry,22
+2006-12-30,Dartmouth,Thompson Arena,3-0,Karson Gillespie,21
+2007-01-06,Northeastern,Agganis Arena,0-0,John Curry,20
+2007-01-13,Maine,Alfond Arena,3-0,John Curry,30
+2007-01-19,Merrimack,Lawler Rink,3-0,John Curry,19
+2007-02-02,UMass Lowell,Agganis Arena,0-0,John Curry,28
+2007-02-05,Northeastern,TD Garden,4-0,John Curry,27
+2007-03-09,Vermont,Agganis Arena,2-0,John Curry,29
+2008-02-16,Maine,Agganis Arena,1-0,Brett Bennett,17
+2008-02-29,Massachusetts,Agganis Arena,3-0,Brett Bennett,20
+2008-03-06,Providence,Schneider Arena,6-0,Brett Bennett,26
+2008-03-07,Providence,Agganis Arena,2-0,Karson Gillespie,33
+2008-11-16,Northeastern,Agganis Arena,3-0,Kieran Millan,18
+2009-01-23,New Hampshire,Agganis Arena,5-0,Kieran Millan,22
+2009-03-08,Providence,Agganis Arena,3-0,Grant Rollheiser,16
+2009-03-21,UMass Lowell,TD Garden,1-0,Kieran Millan,32
+2010-03-14,Merrimack,Agganis Arena,3-0,Kieran Millan,34
+2011-02-19,Providence,Schneider Arena,1-0,Kieran Millan,32
+2011-10-08,New Hampshire,Agganis Arena,5-0,Kieran Millan,35
+2011-11-13,Boston College,Conte Forum,5-0,Kieran Millan,21
+2012-01-21,Providence,Schneider Arena,8-0,Kieran Millan,26
+2012-02-24,Vermont,Gutterson Fieldhouse,5-0,Grant Rollheiser,18
+2012-11-24,St. Lawrence,Agganis Arena,4-0,Sean Maguire,21
+2012-12-08,Maine,Agganis Arena,1-0,Sean Maguire,28
+2013-03-09,Northeastern,Agganis Arena,5-0,Sean Maguire,25
+2013-03-15,Merrimack,Agganis Arena,3-0,Sean Maguire,30
+2014-10-24,Michigan State,Agganis Arena,1-0,Matt O'Connor,29
+2015-03-14,Merrimack,Agganis Arena,5-0,Matt O'Connor,26
+2015-11-24,Bentley,Agganis Arena,3-0,Sean Maguire,15
+2016-10-21,Sacred Heart,Agganis Arena,7-0,Jake Oettinger,24
+2016-10-22,Quinnipiac,Agganis Arena,3-0,Jake Oettinger,22
+2016-12-10,Vermont,Gutterson Fieldhouse,4-0,Jake Oettinger,28
+2017-01-16,Boston College,Conte Forum,3-0,Jake Oettinger,34
+2017-11-03,Providence,Agganis Arena,2-0,Jake Oettinger,31
+2017-11-11,New Hampshire,Agganis Arena,4-0,Max Prawdzik,29
+2017-11-18,Maine,Cross Arena,7-0,Jake Oettinger,30
+2018-01-26,Arizona State,Gila River Arena,8-0,Jake Oettinger,23
+2018-02-23,Vermont,Agganis Arena,2-0,Jake Oettinger,33
+2018-03-17,Providence,TD Garden,2-0,Jake Oettinger,30
+2018-12-01,Boston College,Conte Forum,0-0,Jake Oettinger,42
+2019-02-16,UConn,Agganis Arena,2-0,Jake Oettinger,26
+2019-02-22,Vermont,Gutterson Fieldhouse,1-0,Jake Oettinger,29
+2019-03-15,UMass Lowell,Tsongas Center,3-0,Jake Oettinger,25
+2019-10-26,New Hampshire,Agganis Arena,3-0,Sam Tucker,32
+2019-11-22,Vermont,Agganis Arena,3-0,Sam Tucker,26
+2020-01-24,UMass Lowell,Agganis Arena,5-0,Ashton Abel,17
+2020-03-06,Northeastern,Matthews Arena,3-0,Sam Tucker,16
+2021-02-12,Vermont,Gutterson Fieldhouse,1-0,Vinny Duplessis,18
+2022-01-22,Vermont,Agganis Arena,4-0,Drew Commesso,35
+2022-02-04,Maine,Agganis Arena,4-0,Vinny Duplessis,27
+2022-02-14,Northeastern,TD Garden,1-0,Vinny Duplessis,19
+2022-12-03,New Hampshire,Agganis Arena,3-0,Vinny Duplessis,22
+2023-02-25,Vermont,Gutterson Fieldhouse,3-0,Drew Commesso,23
+2023-03-04,Providence,Schneider Arena,2-0,Drew Commesso,39
+2024-01-13,New Hampshire,Agganis Arena,3-0,Mathieu Caron,36
+2024-02-24,Connecticut,Agganis Arena,6-0,Mathieu Caron,23
+2025-02-15,Providence,Agganis Arena,3-0,Mikhail Yegorov,30

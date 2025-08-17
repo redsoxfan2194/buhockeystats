@@ -422,3 +422,20 @@ def opponentcolors(opponent):
         return DEFAULT_BG_COLOR, DEFAULT_COLOR
 
     return TEAM_COLORS[opponent][0], TEAM_COLORS[opponent][1]
+
+def formatTable(dfRes):
+    ''' Format Table Data '''
+    if('saves' in dfRes):
+      dfRes['saves'] = dfRes['saves'].fillna(-1)
+      dfRes['saves'] = dfRes['saves'].astype(int)
+    dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
+    dfRes.columns = dfRes.columns.str.capitalize()
+    dfRes.columns = dfRes.columns.str.capitalize()
+    style = dfRes.style.apply(
+                lambda x: [
+                    'color:#cc0000;' if i % 2 != 0\
+                    else 'background-color: #cc0000; color:white;' for i in range(
+                        len(x))]).hide(
+        axis='index')
+    style.set_table_styles(TABLE_STYLES) 
+    return style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(index_names=False, render_links=True).replace("-1", "")

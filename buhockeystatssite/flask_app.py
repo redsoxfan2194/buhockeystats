@@ -9,7 +9,7 @@ import pytz
 from flask import Flask, render_template, request, jsonify, Response, redirect
 from werkzeug.middleware.proxy_fix import ProxyFix
 from querystatsbot import querystatsbot, generaterandomstat
-from formatstatsdata import formatResults, formatStats, convertToHtmlTable
+from formatstatsdata import formatResults, formatStats, convertToHtmlTable,formatTable
 import burecordbook as burb
 
 dayNames = {
@@ -41,7 +41,7 @@ def redirect_to_https():
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'trio', 'birthdays']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'trio', 'birthdays','shutouts','hattricks']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -914,6 +914,30 @@ def trio():
     '''
     return render_template(
     'trio.html',titletag=' - T. Anthony Trio Terrier Tallies"')
+
+@app.route('/shutouts')
+def shutouts():
+    ''' Renders "Shutouts" Page
+
+    Returns:
+      Flask Template : flask template containing shutouts.html
+    '''
+    return render_template(
+    'shutouts.html',
+    mShutouts=formatTable(burb.getShutoutList('Mens')),
+    wShutouts=formatTable(burb.getShutoutList('Womens')),titletag=' - Shutouts')
+
+@app.route('/hattricks')
+def hattricks():
+    ''' Renders "Hat Tricks" Page
+
+    Returns:
+      Flask Template : flask template containing hattricks.html
+    '''
+    return render_template(
+    'hattricks.html',
+    mHattricks=formatTable(burb.getHatTrickList('Mens')),
+    wHattricks=formatTable(burb.getHatTrickList('Womens')),titletag=' - Hat Tricks')
 
 @app.route('/birthday')
 @app.route('/birthdays',methods=['GET'])
