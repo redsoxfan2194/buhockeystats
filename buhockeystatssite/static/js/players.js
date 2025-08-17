@@ -58,15 +58,15 @@ function clearFilters(event) {
         document.getElementById("seasonStart").value = "1917-18";
     } else {
         const option = document.createElement("option");
-        option.value = "2002-03";
-        option.textContent = "2002-03";
+        option.value = "1917-18";
+        option.textContent = "1917-18";
         document.getElementById("seasonStart").appendChild(option);
-        document.getElementById("seasonStart").value = "2002-03";
+        document.getElementById("seasonStart").value = "1917-18";
     }
 
-    document.getElementById("seasonEnd").value = "2025-26";
+    document.getElementById("seasonEnd").value = "2024-25";
     if(document.getElementById("seasonEnd").value===""){
-      document.getElementById("seasonEnd").value = "2025-26";
+      document.getElementById("seasonEnd").value = "2024-25";
     }
     document.getElementById("sortval").value = "";
     document.getElementById("isAscending").value = "";

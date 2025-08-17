@@ -1,3 +1,1165 @@
+01/02/1935,Dartmouth,Herman Nickerson,,23,4,1,0,60,L,1934-35
+01/29/1935,Boston College,Herman Nickerson,,18,2,1,0,60,L,1934-35
+02/07/1942,Colby,Henry Sullivan,,29,6,1,0,60,L,1941-42
+12/18/1947,Dartmouth,Ralph Bevins,,15,6,1,0,60,L,1947-48
+01/07/1948,Colby,Ralph Bevins,,13,0,1,1,60,W,1947-48
+02/03/1948,Boston College,Ralph Bevins,,20,3,1,0,60,W,1947-48
+01/29/1949,Army,Ralph Bevins,,10,3,1,0,60,W,1948-49
+02/13/1950,Boston College,Ralph Bevins,,19,1,1,0,60,W,1949-50
+02/22/1950,Dartmouth,Ralph Bevins,,9,4,1,0,60,W,1949-50
+03/17/1950,Michigan,Ralph Bevins,,34,3,1,0,60,W,1949-50
+12/15/1950,Harvard,Dick Bradley,,23,2,1,0,60,W,1950-51
+12/27/1950,Colorado College,Dick Bradley,,37,4,1,0,60,W,1950-51
+12/29/1950,Michigan,Dick Bradley,,19,3,1,0,60,L,1950-51
+01/08/1951,Boston College,Dick Bradley,,27,4,1,0,60,L,1950-51
+01/15/1951,Northeastern,Dick Bradley,,22,4,1,0,60,W,1950-51
+01/20/1951,Army,Dick Bradley,,6,0,1,1,60,W,1950-51
+02/05/1951,Brown,Dick Bradley,,37,6,1,0,60,L,1950-51
+02/13/1951,Harvard,Dick Bradley/Paul Kelley,,21,1,1,0,60,W,1950-51
+02/14/1951,Dartmouth,Paul Kelley,,20,2,1,0,60,W,1950-51
+02/19/1951,Tufts,Paul Kelley,,17,2,1,0,60,W,1950-51
+02/26/1951,Boston College,Dick Bradley,,16,4,1,0,60,W,1950-51
+03/05/1951,Northeastern,Dick Bradley,,16,0,1,1,60,W,1950-51
+03/07/1951,Boston College,Dick Bradley,,22,1,1,0,60,W,1950-51
+03/15/1951,Michigan,Dick Bradley,,19,5,1,0,60,L,1950-51
+03/15/1951,Michigan,Paul Kelley,,5,3,1,0,60,L,1950-51
+03/17/1951,Colorado College,Paul Kelley,,28,4,1,0,60,W,1950-51
+12/17/1951,Harvard,Paul Kelley,,33,5,1,0,60,W,1951-52
+12/22/1951,Princeton,Paul Kelley,,16,3,1,0,60,W,1951-52
+01/23/1952,Dartmouth,Paul Kelley,,12,2,1,0,60,W,1951-52
+01/30/1952,Yale,Paul Kelley,,21,5,1,0,60,L,1951-52
+02/04/1952,Boston College,Paul Kelley,,21,6,1,0,60,L,1951-52
+02/18/1952,Northeastern,Paul Kelley,,6,3,1,0,60,L,1951-52
+02/20/1952,Northeastern,Paul Kelley,,22,0,1,1,60,W,1951-52
+02/27/1952,Dartmouth,Paul Kelley,,15,3,1,0,60,W,1951-52
+03/01/1952,Northeastern,Paul Kelley,,18,1,1,0,60,W,1951-52
+03/03/1952,Brown,Paul Kelley,,26,1,1,0,60,W,1951-52
+12/04/1952,Brown,Paul Kelley,,22,5,1,0,60,W,1952-53
+12/13/1952,Harvard,Paul Kelley,,31,4,1,0,60,T,1952-53
+12/26/1952,Northeastern,Paul Kelley,,17,1,1,0,60,W,1952-53
+12/27/1952,Harvard,Paul Kelley,,21,7,1,0,60,L,1952-53
+01/03/1953,Harvard,Paul Kelley,,25,6,1,0,60,L,1952-53
+01/14/1953,Boston College,Paul Kelley,,22,7,1,0,60,L,1952-53
+01/17/1953,Northeastern,Paul Kelley,,18,5,1,0,60,W,1952-53
+02/13/1953,Boston College,Paul Kelley,,30,0,1,1,60,W,1952-53
+02/18/1953,Brown,Paul Kelley,,20,4,1,0,60,W,1952-53
+02/27/1953,Dartmouth,Paul Kelley,,20,1,1,0,60,W,1952-53
+03/03/1953,Dartmouth,Paul Kelley,,24,4,1,0,60,W,1952-53
+03/06/1953,Northeastern,Paul Kelley,,21,2,1,0,60,W,1952-53
+03/13/1953,Michigan,Paul Kelley,,26,9,1,0,60,L,1952-53
+03/13/1953,Michigan,Bob Bradley,,4,5,1,0,60,L,1952-53
+03/14/1953,Rensselaer,Paul Kelley,,33,6,1,0,60,L,1952-53
+01/23/1954,Dartmouth,Bob Bradley,,33,7,1,0,60,L,1953-54
+02/09/1954,Boston College,Bob Bradley,,52,6,1,0,60,L,1953-54
+12/20/1954,St. Lawrence,John Aiken,,31,9,1,0,60,L,1954-55
+12/20/1954,St. Lawrence,Joe Tellier,,12,5,1,0,60,L,1954-55
+12/22/1954,Clarkson,John Aiken,,33,7,1,0,60,L,1954-55
+12/09/1955,Harvard,Ralph Vito,,26,3,1,0,60,W,1955-56
+01/10/1956,Boston College,Ralph Vito,,23,7,1,0,60,L,1955-56
+02/23/1956,Dartmouth,Henry Levin,,32,1,1,0,60,W,1955-56
+02/28/1956,Boston College,Henry Levin,,35,7,1,0,60,L,1955-56
+12/15/1956,Rensselaer,Henry Levin,,16,2,1,0,60,L,1956-57
+12/15/1956,Rensselaer,Dan Heffernan,,9,3,1,0,60,L,1956-57
+12/17/1956,Clarkson,Henry Levin,,36,9,1,0,60,L,1956-57
+12/20/1956,St. Lawrence,Henry Levin,,48,1,1,0,60,L,1956-57
+12/28/1956,Harvard,Henry Levin,,23,5,1,0,60,L,1956-57
+12/29/1956,Brown,Henry Levin,,21,1,1,0,60,W,1956-57
+01/05/1957,Princeton,Henry Levin,,18,3,1,0,60,W,1956-57
+01/07/1957,Harvard,Henry Levin,,20,3,1,0,60,W,1956-57
+01/25/1957,Dartmouth,Henry Levin,,32,1,1,0,60,W,1956-57
+01/30/1957,Brown,Henry Levin,,16,1,1,0,60,W,1956-57
+01/30/1957,Brown,Dan Heffernan,,10,1,1,0,60,W,1956-57
+02/01/1957,Harvard,Henry Levin,,21,3,1,0,60,W,1956-57
+02/05/1957,Boston College,Henry Levin,,32,5,1,0,60,L,1956-57
+02/09/1957,Army,Henry Levin,,30,5,1,0,60,W,1956-57
+02/18/1957,Northeastern,Henry Levin,,39,4,1,0,60,L,1956-57
+02/25/1957,Boston College,Henry Levin,,28,4,1,0,60,T,1956-57
+12/04/1957,Brown,Bill Tansey,,9,0,1,0,30,,1957-58
+12/04/1957,Brown,Henry Levin,,11,0,1,0,30,,1957-58
+12/07/1957,Harvard,Bill Tansey,,30,3,1,0,60,W,1957-58
+12/11/1957,Yale,Bill Tansey,,21,3,1,0,60,W,1957-58
+12/19/1957,Clarkson,Bill Tansey,,22,4,1,0,60,W,1957-58
+12/26/1957,Providence,Bill Tansey,,9,3,1,0,60,W,1957-58
+12/27/1957,Dartmouth,Henry Levin,,19,2,1,0,60,W,1957-58
+12/28/1957,Brown,Bill Tansey/Henry Levin,,18,3,1,0,60,W,1957-58
+01/03/1958,Princeton,Bill Tansey/Henry Levin,,17,2,1,0,60,W,1957-58
+01/07/1958,Northeastern,Bill Tansey/Henry Levin,,18,2,1,0,60,W,1957-58
+01/14/1958,Harvard,Bill Tansey,,31,5,1,0,60,L,1957-58
+02/03/1958,Boston College,Bill Tansey,,16,4,1,0,60,W,1957-58
+02/05/1958,Army,Bill Tansey,,11,3,1,0,60,W,1957-58
+02/10/1958,Northeastern,Bill Tansey/Henry Levin,,23,3,1,0,60,W,1957-58
+02/25/1958,Boston College,Bill Tansey,,28,5,1,0,60,,1957-58
+03/01/1958,Dartmouth,Bill Tansey,,12,2,1,0,60,W,1957-58
+12/02/1958,Providence,Bill Tansey,,14,1,1,0,60,T,1958-59
+12/02/1958,Providence,Henry Levin,,4,1,1,0,60,T,1958-59
+12/08/1958,Harvard,Ron Tanner,,21,5,1,0,60,T,1958-59
+12/13/1958,Princeton,Ron Tanner/Barry Urbanski,,19,2,1,0,60,W,1958-59
+12/17/1958,St. Lawrence,Ron Tanner,,28,3,1,0,60,W,1958-59
+12/18/1958,Clarkson,Ron Tanner,,29,6,1,0,60,L,1958-59
+12/22/1958,Rensselaer,Ron Tanner,,25,5,1,0,60,L,1958-59
+12/26/1958,Brown,Ron Tanner,,11,2,1,0,60,W,1958-59
+12/26/1958,Brown,Bill Tansey,,8,1,1,0,60,W,1958-59
+12/29/1958,Michigan State,Ron Tanner,,21,3,1,0,60,,1958-59
+01/29/1959,Dartmouth,Ron Tanner,,25,7,1,0,60,L,1958-59
+02/02/1959,Northeastern,Ron Tanner,,25,4,1,0,60,W,1958-59
+02/17/1959,Dartmouth,Ron Tanner,,26,2,1,0,60,W,1958-59
+02/20/1959,St. Lawrence,Ron Tanner,,31,4,1,0,60,L,1958-59
+03/02/1959,Harvard,Ron Tanner,,27,2,1,0,60,W,1958-59
+12/16/1959,St. Lawrence,Bill Tansey,,36,2,1,0,60,W,1959-60
+01/06/1960,Clarkson,Bill Tansey,,26,2,1,0,60,W,1959-60
+01/09/1960,Rensselaer,Bill Tansey,,14,9,1,0,60,L,1959-60
+01/12/1960,Providence,Barry Urbanski,,32,1,1,0,60,W,1959-60
+01/16/1960,Army,Barry Urbanski,,19,0,1,1,60,W,1959-60
+02/01/1960,Northeastern,Bill Tansey,,23,1,1,0,60,W,1959-60
+02/08/1960,Boston College,Barry Urbanski,,44,2,1,0,60,W,1959-60
+02/10/1960,Harvard,Barry Urbanski,,23,5,1,0,60,L,1959-60
+02/20/1960,Clarkson,Barry Urbanski,,28,3,1,0,60,W,1959-60
+03/04/1960,Rensselaer,Barry Urbanski,,50,3,1,0,60,W,1959-60
+03/11/1960,Dartmouth,Barry Urbanski,,22,1,1,0,60,W,1959-60
+03/18/1960,Denver,Barry Urbanski,,39,6,1,0,60,L,1959-60
+03/19/1960,St. Lawrence,Barry Urbanski,,29,6,1,0,60,W,1959-60
+12/10/1960,Princeton,Barry Urbanski,,25,2,1,0,60,W,1960-61
+01/06/1961,St. Lawrence,Barry Urbanski,,43,4,1,0,60,W,1960-61
+01/30/1961,Northeastern,Barry Urbanski,,29,4,1,0,60,W,1960-61
+02/08/1961,Yale,Barry Urbanski,,29,4,1,0,60,L,1960-61
+02/13/1961,Northeastern,Barry Urbanski,,22,6,1,0,60,L,1960-61
+02/18/1961,Clarkson,Barry Urbanski,,49,7,1,0,60,L,1960-61
+03/07/1961,Boston College,Barry Urbanski,,41,4,1,0,60,L,1960-61
+12/08/1961,St. Lawrence,Glen Eberly,JR,44,4,1,0,60,L,1961-62
+12/22/1961,Boston College,Glen Eberly,JR,38,2,1,0,60,T,1961-62
+12/28/1961,Northeastern,Bruce Plante,,23,9,1,0,60,L,1961-62
+01/03/1962,Colby,Bruce Plante,,27,4,1,0,60,L,1961-62
+01/30/1962,Boston College,Glen Eberly,JR,33,3,1,0,60,L,1961-62
+02/08/1962,Clarkson,Glen Eberly,JR,32,7,1,0,60,L,1961-62
+02/05/1962,Northeastern,Glen Eberly,JR,30,4,1,0,60,W,1961-62
+02/20/1962,Boston College,Glen Eberly,JR,37,1,1,0,60,W,1961-62
+02/28/1962,Northeastern,Glen Eberly,JR,31,5,1,0,60,L,1961-62
+11/28/1962,Rensselaer,Glen Eberly,SR,25,4,1,0,60,W,1962-63
+12/01/1962,Princeton,Glen Eberly,SR,26,2,1,0,60,W,1962-63
+12/05/1962,Northeastern,Glen Eberly,SR,30,5,1,0,60,W,1962-63
+12/08/1962,Harvard,Glen Eberly,SR,26,2,1,0,60,L,1962-63
+12/14/1962,Clarkson,Glen Eberly,SR,39,3,1,0,60,L,1962-63
+12/26/1962,Colorado College,Glen Eberly,SR,28,5,1,0,60,L,1962-63
+12/27/1962,Harvard,Glen Eberly,SR,29,3,1,0,60,L,1962-63
+12/28/1962,Northeastern,Glen Eberly,SR,28,5,1,0,60,W,1962-63
+01/04/1963,St. Lawrence,Glen Eberly,SR,31,5,1,0,60,L,1962-63
+01/05/1963,Clarkson,Glen Eberly,SR,28,7,1,0,60,L,1962-63
+01/09/1963,Boston College,Glen Eberly,SR,34,4,1,0,60,L,1962-63
+01/25/1963,St. Lawrence,Glen Eberly,SR,27,5,1,0,60,L,1962-63
+02/04/1963,Boston College,Glen Eberly,SR,27,2,1,0,60,L,1962-63
+02/11/1963,Northeastern,Glen Eberly,SR,27,2,1,0,60,L,1962-63
+02/20/1963,Dartmouth,Glen Eberly/Bruce Plante,,30,1,1,0,60,W,1962-63
+02/27/1963,Boston College,Glen Eberly,SR,27,3,1,0,60,L,1962-63
+12/02/1963,Yale,Jack Ferreira,,16,0,1,1,60,W,1963-64
+01/03/1964,Harvard,Jack Ferreira,,27,4,1,0,60,L,1963-64
+01/08/1964,Northeastern,Jack Ferreira,,23,3,1,0,60,L,1963-64
+01/11/1964,Boston College,Jack Ferreira,,20,6,1,0,60,W,1963-64
+01/31/1964,Clarkson,Jack Ferreira,,26,1,1,0,60,W,1963-64
+02/03/1964,Harvard,Jack Ferreira,,33,2,1,0,60,W,1963-64
+02/10/1964,Boston College,Jack Ferreira,,20,6,1,0,60,L,1963-64
+02/12/1964,Providence,Jack Ferreira,,31,4,1,0,60,L,1963-64
+02/26/1964,Boston College,Jack Ferreira,,27,0,1,1,60,W,1963-64
+03/07/1964,Rensselaer,Jack Ferreira,,26,3,1,0,60,L,1963-64
+12/09/1964,Harvard,Jack Ferreira,JR,18,0,1,1,60,W,1964-65
+12/15/1964,St. Lawrence,Jack Ferreira,JR,14,1,1,0,60,W,1964-65
+12/17/1964,Princeton,Jack Ferreira,JR,8,1,1,0,60,W,1964-65
+12/19/1964,Royal Military Coll.,Jack Ferreira,JR,26,3,1,0,60,W,1964-65
+12/28/1964,Northeastern,Jack Ferreira,JR,40,4,1,0,60,L,1964-65
+12/29/1964,Harvard,Jack Ferreira,JR,16,0,1,1,60,W,1964-65
+12/30/1964,Michigan,Jack Ferreira,JR,16,4,1,0,60,L,1964-65
+01/11/1965,Providence,Jack Ferreira,JR,20,1,1,0,60,W,1964-65
+01/27/1965,Providence,Jack Ferreira,JR,15,0,1,1,60,W,1964-65
+02/08/1965,Northeastern,Jack Ferreira,JR,33,4,1,0,60,W,1964-65
+02/15/1965,Boston College,Jack Ferreira,JR,24,5,1,0,60,L,1964-65
+02/19/1965,Colgate,Jack Ferreira,JR,12,3,1,0,60,W,1964-65
+02/20/1965,Rensselaer,Jack Ferreira,JR,21,0,1,1,60,W,1964-65
+02/23/1965,Boston College,Jack Ferreira,JR,23,4,1,0,60,W,1964-65
+02/25/1965,Clarkson,Jack Ferreira,JR,23,0,1,1,60,W,1964-65
+03/03/1965,New Hampshire,Jack Ferreira,JR,11,0,1,1,60,W,1964-65
+03/10/1965,Providence,Jack Ferreira,JR,20,3,1,0,60,W,1964-65
+03/12/1965,Brown,Jack Ferreira,JR,31,5,1,0,60,L,1964-65
+03/13/1965,Clarkson,Jack Ferreira,JR,19,0,1,1,60,W,1964-65
+11/30/1965,Yale,Jack Ferreira,,13,0,1,1,60,W,1965-66
+12/04/1965,Princeton,Wayne Ryan,JR,17,3,1,0,60,W,1965-66
+12/11/1965,Boston College,Jack Ferreira,,24,2,1,0,60,W,1965-66
+12/14/1965,Rensselaer,Wayne Ryan,JR,15,0,1,1,60,W,1965-66
+12/18/1965,Dartmouth,Jack Ferreira,,19,3,1,0,60,W,1965-66
+12/21/1965,Michigan Tech,Jack Ferreira,,27,4,1,0,60,L,1965-66
+12/22/1965,Colorado College,Wayne Ryan,JR,16,3,1,0,60,W,1965-66
+12/27/1965,Michigan,Jack Ferreira,,14,2,1,0,60,W,1965-66
+12/28/1965,Northeastern,Jack Ferreira,,23,1,1,0,60,W,1965-66
+12/29/1965,Michigan Tech,Jack Ferreira,,28,5,1,0,60,L,1965-66
+01/05/1966,Harvard,Wayne Ryan,JR,15,2,1,0,60,W,1965-66
+01/10/1966,Northeastern,Wayne Ryan,JR,35,1,1,0,60,W,1965-66
+01/25/1966,Colby,Wayne Ryan,JR,18,3,1,0,60,W,1965-66
+01/29/1966,Colgate,Wayne Ryan,JR,21,6,1,0,60,L,1965-66
+02/02/1966,Brown,Jack Ferreira,,20,3,1,0,60,W,1965-66
+02/07/1966,Boston College,Jack Ferreira,,29,4,1,0,60,W,1965-66
+02/14/1966,Harvard,Jack Ferreira,,22,2,1,0,60,W,1965-66
+02/18/1966,St. Lawrence,Jack Ferreira,,23,5,1,0,60,W,1965-66
+02/19/1966,Clarkson,Jack Ferreira,,34,6,1,0,60,L,1965-66
+02/26/1966,Boston College,Jack Ferreira,,26,4,1,0,60,W,1965-66
+03/02/1966,Dartmouth,Jack Ferreira,,22,4,1,0,60,W,1965-66
+03/05/1966,Providence,Jack Ferreira,,24,0,1,1,60,W,1965-66
+03/18/1966,Michigan State,Jack Ferreira,,27,2,1,0,60,L,1965-66
+12/03/1966,Boston College,Wayne Ryan,SR,33,2,1,0,60,W,1966-67
+12/13/1966,Boston College,Wayne Ryan,SR,28,3,1,0,60,W,1966-67
+12/19/1966,Minnesota,Wayne Ryan,SR,36,5,1,0,60,W,1966-67
+12/28/1966,Harvard,Wayne Ryan,SR,28,5,1,0,60,W,1966-67
+12/29/1966,Northeastern,Wayne Ryan,SR,24,1,1,0,60,W,1966-67
+12/30/1966,Cornell,Wayne Ryan,SR,32,3,1,0,60,T,1966-67
+02/09/1967,Harvard,Wayne Ryan,SR,36,3,1,0,60,W,1966-67
+02/11/1967,St. Lawrence,Jim McCann,SO,28,2,1,0,60,W,1966-67
+02/13/1967,Northeastern,Jim McCann,SO,30,0,1,1,60,W,1966-67
+02/21/1967,Northeastern,Jim McCann,SO,21,0,1,1,60,W,1966-67
+03/04/1967,Colgate,Wayne Ryan,SR,27,1,1,0,60,W,1966-67
+03/07/1967,Harvard,Wayne Ryan,SR,27,2,1,0,60,W,1966-67
+03/10/1967,St. Lawrence,Wayne Ryan,SR,23,2,1,0,60,,1966-67
+03/11/1967,Cornell,Wayne Ryan,SR,14,4,1,0,60,L,1966-67
+03/17/1967,Michigan State,Wayne Ryan,SR,27,2,1,0,60,W,1966-67
+03/18/1967,Cornell,Wayne Ryan,SR,32,4,1,0,60,L,1966-67
+11/29/1967,Yale,Jim McCann,JR,19,1,1,0,60,W,1967-68
+12/01/1967,New Hampshire,Jim McCann,JR,17,3,1,0,60,W,1967-68
+12/06/1967,Harvard,Jim McCann,JR,25,8,1,0,60,L,1967-68
+12/12/1967,Boston College,Jim McCann,JR,38,3,1,0,60,W,1967-68
+12/29/1967,Northeastern,Jim McCann,JR,24,4,1,0,60,W,1967-68
+12/30/1967,St. Francis Xavier,Jim McCann,JR,11,2,1,0,60,W,1967-68
+01/06/1968,Rensselaer,Jim McCann,JR,32,4,1,0,60,L,1967-68
+01/27/1968,Colgate,Jim McCann,JR,32,3,1,0,60,W,1967-68
+01/31/1968,Princeton,Jim McCann,JR,22,3,1,0,60,L,1967-68
+02/05/1968,Northeastern,Jim McCann,JR,16,4,1,0,60,W,1967-68
+02/12/1968,Harvard,Jim McCann,JR,25,1,1,0,60,W,1967-68
+02/28/1968,Boston College,Mark Fennie,,31,1,1,0,60,W,1967-68
+03/05/1968,Harvard,Mark Fennie,,29,3,1,0,60,W,1967-68
+03/09/1968,Clarkson,Mark Fennie,,27,4,1,0,60,L,1967-68
+11/29/1968,New Brunswick,Jim McCann,JR,2,0,1,1,60,W,1967-68
+11/30/1968,New Brunswick,Jim McCann,JR,2,0,1,1,60,W,1967-68
+12/07/1968,New Hampshire,Jim McCann,JR,19,6,1,0,60,L,1967-68
+12/11/1968,Harvard,Jim McCann,SR,29,7,1,0,60,L,1968-69
+12/27/1968,Northeastern,Jim McCann,SR,24,1,1,0,60,W,1968-69
+12/28/1968,Harvard,Jim McCann,SR,36,1,1,0,60,W,1968-69
+12/31/1968,Minnesota Duluth,Jim McCann,SR,26,4,1,0,60,W,1968-69
+01/18/1969,Clarkson,Jim McCann,SR,24,2,1,0,60,W,1968-69
+01/23/1969,Providence,Jim McCann,SR,22,1,1,0,60,W,1968-69
+02/03/1969,Boston College,Jim McCann,SR,34,2,1,0,60,W,1968-69
+02/08/1969,St. Lawrence,Jim McCann,SR,13,3,1,0,60,W,1968-69
+02/10/1969,Harvard,Jim McCann,SR,22,5,1,0,60,L,1968-69
+02/15/1969,Northeastern,Jim McCann,SR,26,3,1,0,60,W,1968-69
+02/18/1969,Cornell,Jim McCann,SR,30,1,1,0,60,L,1968-69
+02/22/1969,Colgate,Jim McCann,SR,27,5,1,0,60,L,1968-69
+02/26/1969,Boston College,Jim McCann,SR,28,7,1,0,60,L,1968-69
+03/04/1969,Rensselaer,Jim McCann,SR,22,2,1,0,60,W,1968-69
+03/08/1969,Clarkson,Jim McCann,SR,21,0,1,1,60,W,1968-69
+11/29/1969,Yale,Tim Regan,SO,17,0,1,1,60,W,1969-70
+01/17/1970,Rensselaer,Tim Regan,SO,26,2,1,0,60,W,1969-70
+02/09/1970,Boston College,Tim Regan,SO,24,4,1,0,60,W,1969-70
+02/17/1970,Merrimack,Tim Regan,SO,26,5,1,0,60,W,1969-70
+03/05/1970,Clarkson,Tim Regan,SO,14,2,1,0,60,W,1969-70
+03/13/1970,Clarkson,Tim Regan,SO,38,5,1,0,60,L,1969-70
+12/12/1970,Merrimack,Tim Regan,JR,15,0,1,1,60,W,1970-71
+12/22/1970,Minnesota,Tim Regan,JR,23,0,1,1,60,W,1970-71
+12/28/1970,Providence,Tim Regan,JR,18,1,1,0,60,W,1970-71
+01/04/1971,Princeton,Dan Brady,JR,13,0,1,1,60,W,1970-71
+01/09/1971,Boston College,Tim Regan,JR,33,3,1,0,60,W,1970-71
+01/13/1971,Northeastern,Dan Brady,JR,11,0,1,1,60,W,1970-71
+01/16/1971,Bowling Green,Tim Regan,JR,16,1,1,0,60,W,1970-71
+02/03/1971,Yale,Dan Brady,JR,23,1,1,0,60,W,1970-71
+02/05/1971,Clarkson,Dan Brady,JR,17,1,1,0,60,W,1970-71
+02/08/1971,Northeastern,Dan Brady,JR,26,3,1,0,60,W,1970-71
+02/19/1971,Rensselaer,Dan Brady,JR,28,2,1,0,60,W,1970-71
+02/22/1971,Harvard,Dan Brady,JR,26,1,1,0,60,W,1970-71
+03/09/1971,Rensselaer,Dan Brady,JR,28,0,1,1,60,W,1970-71
+03/20/1971,Minnesota,Dan Brady,JR,32,2,1,0,60,W,1970-71
+12/01/1971,Brown,Tim Regan/Dan Brady,,14,0,1,1,60,W,1971-72
+12/11/1971,Princeton,Dan Brady,SR,17,1,1,0,60,W,1971-72
+12/21/1971,Northeastern,Tim Regan,SR,11,0,1,0,30,,1971-72
+12/21/1971,Northeastern,Dan Brady,SR,12,1,1,0,30,,1971-72
+12/22/1971,Rensselaer,Dan Brady,SR,20,0,1,1,60,W,1971-72
+01/14/1972,Boston College,Dan Brady,SR,21,1,1,0,60,W,1971-72
+01/19/1972,Massachusetts,Dan Brady,SR,22,4,1,0,60,W,1971-72
+02/14/1972,Harvard,Dan Brady,SR,31,1,1,0,60,W,1971-72
+03/01/1972,Cornell,Dan Brady,SR,29,3,1,0,60,L,1971-72
+03/18/1972,Wisconsin,Tim Regan,SR,26,1,1,0,60,W,1971-72
+03/18/1972,Cornell,Tim Regan,SR,39,0,1,1,60,W,1971-72
+11/23/1972,Air Force,Ed Walsh,JR,30,4,1,0,60,L,1972-73
+12/13/1972,Cornell,Ed Walsh,JR,30,0,1,1,60,L,1972-73
+01/20/1973,Vermont,Ed Walsh,JR,40,2,1,0,60,W,1972-73
+12/08/1973,Princeton,Ed Walsh,SR,22,0,1,1,60,W,1973-74
+01/04/1974,Clarkson,Pat Devlin,,32,3,1,0,60,W,1973-74
+02/01/1974,Vermont,Ed Walsh,SR,15,0,1,1,60,W,1973-74
+12/10/1974,Harvard,Pat Devlin,,30,7,1,0,60,L,1974-75
+12/27/1974,Minnesota Duluth,Pat Devlin,,17,6,1,0,60,W,1974-75
+01/04/1975,Rensselaer,Brian Durocher,FR,24,3,1,0,60,W,1974-75
+01/08/1975,Northeastern,Brian Durocher,FR,22,2,1,0,60,W,1974-75
+01/12/1975,St. Louis,Brian Durocher,FR,24,5,1,0,60,L,1974-75
+01/18/1975,Boston College,Brian Durocher,FR,24,3,1,0,60,W,1974-75
+01/21/1975,New Hampshire,Brian Durocher,FR,33,4,1,0,60,W,1974-75
+01/24/1975,Princeton,Pat Devlin,,17,2,1,0,60,W,1974-75
+01/25/1975,St. Lawrence,Brian Durocher,FR,38,6,1,0,60,W,1974-75
+01/28/1975,Brown,Brian Durocher,FR,19,3,1,0,60,W,1974-75
+01/31/1975,Vermont,Brian Durocher,FR,22,6,1,0,60,W,1974-75
+02/08/1975,Colgate,Pat Devlin,,17,5,1,0,60,L,1974-75
+02/10/1975,Harvard,Brian Durocher,FR,33,2,1,0,60,W,1974-75
+02/18/1975,Boston College,Brian Durocher,FR,31,1,1,0,60,W,1974-75
+02/22/1975,Clarkson,Brian Durocher,FR,24,5,1,0,60,W,1974-75
+03/01/1975,Northeastern,Brian Durocher,FR,28,2,1,0,60,W,1974-75
+03/04/1975,Brown,Brian Durocher,FR,34,4,1,0,60,W,1974-75
+03/07/1975,Vermont,Brian Durocher,FR,14,3,1,0,60,W,1974-75
+03/08/1975,Harvard,Brian Durocher,FR,32,3,1,0,60,W,1974-75
+03/13/1975,Michigan Tech,Brian Durocher,FR,31,9,1,0,60,L,1974-75
+03/15/1975,Harvard,Pat Devlin,,19,5,1,0,60,W,1974-75
+11/30/1975,Providence,Brian Durocher,SO,28,3,1,0,60,W,1975-76
+12/10/1975,Harvard,Pat Devlin,,26,3,1,0,60,W,1975-76
+12/29/1975,Michigan Tech,Brian Durocher,SO,24,6,1,0,60,L,1975-76
+12/30/1975,Pennsylvania,Pat Devlin,,24,2,1,0,60,W,1975-76
+01/03/1976,Princeton,Brian Durocher,SO,27,2,1,0,60,W,1975-76
+01/06/1976,Northeastern,Pat Devlin,,21,3,1,0,60,W,1975-76
+01/09/1976,Clarkson,Brian Durocher,SO,26,2,1,0,60,W,1975-76
+01/10/1976,St. Lawrence,Pat Devlin,,19,4,1,0,60,W,1975-76
+01/13/1976,Vermont,Brian Durocher,SO,22,2,1,0,60,W,1975-76
+01/16/1976,Boston College,Pat Devlin,,25,2,1,0,60,W,1975-76
+01/20/1976,New Hampshire,Brian Durocher,SO,17,3,1,0,60,W,1975-76
+01/23/1976,Merrimack,Pat Devlin,,20,2,1,0,60,W,1975-76
+01/27/1976,Brown,Brian Durocher,SO,23,4,1,0,60,W,1975-76
+01/30/1976,Vermont,Pat Devlin,,20,5,1,0,60,L,1975-76
+02/02/1976,Harvard,Brian Durocher,SO,24,5,1,0,60,W,1975-76
+02/06/1976,Colgate,Pat Devlin,,23,3,1,0,60,W,1975-76
+02/09/1976,Boston College,Brian Durocher,SO,24,6,1,0,60,L,1975-76
+02/14/1976,Rensselaer,Pat Devlin,,29,4,1,0,60,W,1975-76
+02/18/1976,Boston College,Brian Durocher,SO,29,4,1,0,60,W,1975-76
+02/21/1976,Yale,Pat Devlin,,21,3,1,0,60,W,1975-76
+02/28/1976,Northeastern,Brian Durocher,SO,19,2,1,0,60,W,1975-76
+03/02/1976,Cornell,Pat Devlin,,31,4,1,0,60,W,1975-76
+03/05/1976,Providence,Brian Durocher,SO,15,3,1,0,60,W,1975-76
+03/09/1976,Boston College,Brian Durocher,SO,35,5,1,0,60,W,1975-76
+03/12/1976,Harvard,Brian Durocher,SO,19,4,1,0,60,W,1975-76
+03/26/1976,Minnesota,Brian Durocher,SO,36,4,1,0,60,L,1975-76
+11/19/1976,Bowling Green,Brian Durocher,JR,29,4,1,0,60,L,1976-77
+11/28/1976,Providence,Brian Durocher,JR,16,9,1,0,60,L,1976-77
+12/04/1976,New Hampshire,Jim Craig,FR,34,5,1,0,60,L,1976-77
+12/08/1976,Harvard,Jim Craig,FR,24,2,1,0,60,W,1976-77
+12/10/1976,Princeton,Jim Craig,FR,28,1,1,0,60,W,1976-77
+12/27/1976,Minnesota Duluth,Jim Craig,FR,28,3,1,0,60,W,1976-77
+12/28/1976,Minnesota Duluth,Brian Durocher,JR,26,5,1,0,60,L,1976-77
+01/02/1977,Colgate,Jim Craig,FR,29,4,1,0,60,W,1976-77
+01/03/1977,St. Lawrence,Jim Craig,FR,22,5,1,0,60,W,1976-77
+01/12/1977,New Hampshire,Jim Craig,FR,23,6,1,0,60,W,1976-77
+01/14/1977,Colgate,Brian Durocher,JR,22,7,1,0,60,L,1976-77
+01/18/1977,Vermont,Jim Craig,FR,23,3,1,0,60,W,1976-77
+01/22/1977,Boston College,Jim Craig,FR,23,6,1,0,60,T,1976-77
+01/25/1977,Rensselaer,Jim Craig,FR,29,5,1,0,60,W,1976-77
+02/03/1977,Brown,Jim Craig,FR,18,2,1,0,60,W,1976-77
+02/07/1977,Northeastern,Jim Craig,FR,35,5,1,0,60,W,1976-77
+02/09/1977,Merrimack,Brian Durocher,JR,18,3,1,0,60,W,1976-77
+02/11/1977,Rensselaer,Jim Craig,FR,36,3,1,0,60,W,1976-77
+02/14/1977,Harvard,Jim Craig,FR,28,4,1,0,60,L,1976-77
+02/19/1977,Yale,Jim Craig,FR,24,3,1,0,60,W,1976-77
+02/20/1977,Clarkson,Jim Craig,FR,27,1,1,0,60,W,1976-77
+02/24/1977,Northeastern,Jim Craig,FR,20,3,1,0,60,W,1976-77
+02/28/1977,Vermont,Jim Craig,FR,26,3,1,0,60,W,1976-77
+03/05/1977,Providence,Jim Craig,FR,28,6,1,0,60,L,1976-77
+03/08/1977,Boston College,Jim Craig,FR,24,7,1,0,60,W,1976-77
+03/24/1977,Michigan,Jim Craig,FR,20,6,1,0,60,L,1976-77
+03/26/1977,New Hampshire,Brian Durocher,JR,23,5,1,0,60,W,1976-77
+11/27/1977,Providence,Jim Craig,SO,21,2,1,0,60,W,1977-78
+11/30/1977,Dartmouth,Brian Durocher,SR,28,2,1,0,60,W,1977-78
+12/07/1977,Harvard,Brian Durocher,SR,33,3,1,0,60,W,1977-78
+12/27/1977,Air Force,Jim Craig,SO,30,7,1,0,60,W,1977-78
+12/29/1977,Michigan State,Brian Durocher,SR,26,5,1,0,60,W,1977-78
+12/30/1977,Michigan State,Jim Craig,SO,22,3,1,0,60,W,1977-78
+01/04/1978,Cornell,Brian Durocher,SR,28,5,1,0,60,W,1977-78
+01/11/1978,New Hampshire,Brian Durocher,SR,26,4,1,0,60,W,1977-78
+01/13/1978,St. Lawrence,Jim Craig,SO,28,3,1,0,60,W,1977-78
+01/17/1978,Northeastern,Jim Craig,SO,23,4,1,0,60,W,1977-78
+01/21/1978,Boston College,Brian Durocher,SR,32,3,1,0,60,W,1977-78
+01/24/1978,Rensselaer,Jim Craig,SO,41,7,1,0,60,W,1977-78
+01/28/1978,Vermont,Brian Durocher,SR,33,4,1,0,60,W,1977-78
+02/01/1978,Brown,Jim Craig,SO,23,2,1,0,60,W,1977-78
+02/04/1978,Providence,Brian Durocher,SR,17,2,1,0,60,W,1977-78
+02/06/1978,Boston College,Brian Durocher,SR,19,5,1,0,60,W,1977-78
+02/18/1978,Yale,Brian Durocher,SR,25,5,1,0,60,L,1977-78
+02/22/1978,Northeastern,Jim Craig,SO,28,4,1,0,60,W,1977-78
+03/01/1978,Harvard,Brian Durocher,SR,27,1,1,0,60,W,1977-78
+03/04/1978,Vermont,Brian Durocher,SR,28,5,1,0,60,W,1977-78
+03/07/1978,New Hampshire,Jim Craig,SO,33,5,1,0,60,W,1977-78
+03/10/1978,Providence,Brian Durocher,SR,18,5,1,0,60,L,1977-78
+03/11/1978,Brown,Jim Craig,SO,34,4,1,0,60,W,1977-78
+03/19/1978,Providence,Jim Craig,SO,18,3,1,0,60,W,1977-78
+03/23/1978,Wisconsin,Jim Craig,SO,22,2,1,0,60,W,1977-78
+03/25/1978,Boston College,Jim Craig,SO,32,3,1,0,60,W,1977-78
+11/21/1978,Rensselaer,Jim Craig,JR,38,1,1,0,60,W,1978-79
+11/26/1978,Providence,Jim Craig,JR,39,2,1,0,60,W,1978-79
+11/29/1978,Dartmouth,Jim Craig,JR,35,4,1,0,60,W,1978-79
+12/03/1978,Harvard,Jim Craig,JR,28,5,1,0,60,W,1978-79
+12/07/1978,Merrimack,Jeff Weisman,SO,26,4,1,0,60,W,1978-79
+12/09/1978,Princeton,Jim Craig,JR,23,0,1,1,60,W,1978-79
+12/30/1978,Michigan,Jeff Weisman,SO,25,2,1,0,60,W,1978-79
+01/06/1979,Cornell,Jim Craig,JR,25,5,1,0,60,L,1978-79
+01/16/1979,New Hampshire,Jim Craig,JR,40,4,1,0,60,W,1978-79
+01/20/1979,Boston College,Jim Craig,JR,28,2,1,0,60,W,1978-79
+01/24/1979,Rensselaer,Jim Craig,JR,28,3,1,0,60,W,1978-79
+01/27/1979,St. Lawrence,Jeff Weisman,SO,20,3,1,0,60,W,1978-79
+01/31/1979,Brown,Jeff Weisman,SO,26,2,1,0,60,W,1978-79
+02/02/1979,Vermont,Jeff Weisman,SO,35,4,1,0,60,W,1978-79
+02/05/1979,Harvard,Jim Craig,JR,19,2,1,0,60,W,1978-79
+02/09/1979,Providence,Jim Craig,JR,32,4,1,0,60,W,1978-79
+02/12/1979,Boston College,Jim Craig,JR,27,4,1,0,60,W,1978-79
+02/17/1979,Yale,Jim Craig,JR,39,4,1,0,60,T,1978-79
+02/18/1979,Clarkson,Jeff Weisman,SO,32,4,1,0,60,W,1978-79
+02/21/1979,Northeastern,Jeff Weisman,SO,27,0,1,1,60,W,1978-79
+02/24/1979,New Hampshire,Jim Craig,JR,40,3,1,0,60,T,1978-79
+02/27/1979,Boston College,Jim Craig,JR,35,3,1,0,60,L,1978-79
+03/03/1979,Vermont,Jim Craig,JR,34,5,1,0,60,L,1978-79
+03/06/1979,Vermont,Jim Craig,JR,23,3,1,0,60,W,1978-79
+03/09/1979,Dartmouth,Jim Craig,JR,28,5,1,0,60,L,1978-79
+03/10/1979,Cornell,Jeff Weisman,SO,40,7,1,0,60,L,1978-79
+11/20/1979,Maine,Jeff Weisman,JR,13,3,1,0,60,W,1979-80
+11/25/1979,Providence,Bob Barich,,22,0,1,1,60,W,1979-80
+11/28/1979,Dartmouth,Jeff Weisman,JR,40,4,1,0,60,W,1979-80
+12/01/1979,New Hampshire,Bob Barich,,20,3,1,0,60,L,1979-80
+12/05/1979,Harvard,Jeff Weisman,JR,30,4,1,0,60,L,1979-80
+12/07/1979,Princeton,Jeff Weisman,JR,24,3,1,0,60,,1979-80
+12/11/1979,Brown,Jeff Weisman,JR,31,3,1,0,60,L,1979-80
+12/26/1979,Minnesota,Jeff Weisman,JR,32,5,1,0,60,L,1979-80
+12/27/1979,Minnesota,Bob Barich,,44,5,1,0,60,L,1979-80
+01/04/1980,Colorado College,Jeff Weisman,JR,26,7,1,0,60,W,1979-80
+01/12/1980,Vermont,Jeff Weisman,JR,21,7,1,0,60,L,1979-80
+01/15/1980,New Hampshire,Bob Barich,,31,3,1,0,60,W,1979-80
+01/18/1980,Boston College,Bob Barich,,29,7,1,0,60,L,1979-80
+01/25/1980,Clarkson,Jeff Weisman,JR,28,12,1,0,60,L,1979-80
+01/26/1980,St. Lawrence,Bob Barich,,37,3,1,0,60,W,1979-80
+01/26/1980,St. Lawrence,Bob Barich,,37,3,1,0,60,W,1979-80
+01/31/1980,Merrimack,Bob Barich,,23,4,1,0,60,W,1979-80
+02/04/1980,Northeastern,Bob Barich,,27,6,1,0,60,L,1979-80
+02/08/1980,Providence,Bob Barich,,23,3,1,0,60,L,1979-80
+02/11/1980,Harvard,Jeff Weisman,JR,21,7,1,0,60,L,1979-80
+02/16/1980,Yale,Bob Barich,,21,3,1,0,60,W,1979-80
+02/19/1980,Maine,Jeff Weisman,JR,26,8,1,0,60,L,1979-80
+02/21/1980,Northeastern,Bob Barich,,13,3,1,0,60,W,1979-80
+02/23/1980,Colgate,Bob Barich,,30,4,1,0,60,L,1979-80
+02/26/1980,Rensselaer,Bob Barich,,28,7,1,0,60,L,1979-80
+03/01/1980,Vermont,Bob Barich,,29,2,1,0,60,L,1979-80
+03/05/1980,Boston College,Bob Barich,,21,4,1,0,60,L,1979-80
+03/08/1980,Cornell,Bob Barich,,33,6,1,0,60,L,1979-80
+11/19/1980,Merrimack,Jeff Weisman,SR,20,1,1,0,60,W,1980-81
+11/26/1980,Dartmouth,Jeff Weisman,SR,46,6,1,0,60,L,1980-81
+11/29/1980,Providence,Jeff Weisman,SR,34,1,1,0,60,W,1980-81
+12/02/1980,Harvard,Jeff Weisman,SR,22,5,1,0,60,L,1980-81
+12/10/1980,Yale,Jeff Weisman,SR,43,3,1,0,60,W,1980-81
+12/13/1980,Maine,Jeff Weisman,SR,31,5,1,0,60,L,1980-81
+12/29/1980,Denver,Jeff Weisman,SR,40,3,1,0,60,W,1980-81
+12/30/1980,Denver,Bob Barich,,49,7,1,0,60,L,1980-81
+01/03/1981,Bowling Green,Jeff Weisman,SR,36,4,1,0,60,W,1980-81
+01/04/1981,Clarkson,Jeff Weisman,SR,25,8,1,0,60,L,1980-81
+01/09/1981,Boston College,Jeff Weisman,SR,43,6,1,0,60,L,1980-81
+01/14/1981,New Hampshire,Cleon Daskalakis,FR,26,6,1,0,60,L,1980-81
+01/17/1981,Colgate,Jeff Weisman,SR,29,2,1,0,60,W,1980-81
+01/21/1981,Maine,Jeff Weisman,SR,27,0,1,1,60,W,1980-81
+01/28/1981,Northeastern,Jeff Weisman,SR,23,8,1,0,60,L,1980-81
+01/30/1981,Clarkson,Jeff Weisman,SR,32,3,1,0,60,L,1980-81
+02/02/1981,Boston College,Jeff Weisman,SR,27,5,1,0,60,L,1980-81
+02/05/1981,Brown,Cleon Daskalakis,FR,28,2,1,0,60,W,1980-81
+02/09/1981,Northeastern,Bob Barich,,40,2,1,0,60,W,1980-81
+02/12/1981,Vermont,Cleon Daskalakis,FR,36,2,1,0,60,W,1980-81
+02/15/1981,Providence,Bob Barich,,26,3,1,0,60,L,1980-81
+02/21/1981,Vermont,Cleon Daskalakis,FR,19,4,1,0,60,W,1980-81
+02/28/1981,Northeastern,Cleon Daskalakis,FR,36,4,1,0,60,W,1980-81
+03/03/1981,Princeton,Bob Barich,,31,6,1,0,60,L,1980-81
+03/07/1981,New Hampshire,Cleon Daskalakis,FR,30,5,1,0,60,L,1980-81
+11/18/1981,Merrimack,Cleon Daskalakis,SO,29,0,1,1,60,W,1981-82
+11/21/1981,Rensselaer,Cleon Daskalakis,SO,46,4,1,0,60,T,1981-82
+11/29/1981,Providence,Cleon Daskalakis,SO,32,5,1,0,60,L,1981-82
+12/09/1981,Yale,Cleon Daskalakis,SO,37,0,1,1,60,W,1981-82
+12/12/1981,Maine,Cleon Daskalakis,SO,32,6,1,0,60,L,1981-82
+12/29/1981,Denver,Bob Barich,,24,2,1,0,60,W,1981-82
+12/30/1981,Denver,Cleon Daskalakis,SO,33,4,1,0,60,W,1981-82
+01/02/1982,North Dakota,Bob Barich,,40,3,1,0,60,L,1981-82
+01/06/1982,Dartmouth,Cleon Daskalakis,SO,28,4,1,0,60,L,1981-82
+01/09/1982,Boston College,Bob Barich,,32,5,1,0,60,L,1981-82
+01/13/1982,New Hampshire,Cleon Daskalakis,SO,29,4,1,0,60,L,1981-82
+01/16/1982,Maine,Bob Barich,,21,1,1,0,60,W,1981-82
+01/22/1982,St. Lawrence,Bob Barich,,25,6,1,0,60,W,1981-82
+01/23/1982,Clarkson,Cleon Daskalakis,SO,37,3,1,0,60,T,1981-82
+01/27/1982,Northeastern,Bob Barich,,36,3,1,0,60,W,1981-82
+01/29/1982,Vermont,Cleon Daskalakis,SO,24,7,1,0,60,T,1981-82
+02/01/1982,Harvard,Bob Barich,,26,1,1,0,60,W,1981-82
+02/08/1982,Boston College,Cleon Daskalakis,SO,40,1,1,0,60,W,1981-82
+02/13/1982,New Hampshire,Bob Barich,,44,7,1,0,60,L,1981-82
+02/17/1982,Princeton,Cleon Daskalakis,SO,31,3,1,0,60,W,1981-82
+02/20/1982,Vermont,Cleon Daskalakis,SO,30,2,1,0,60,W,1981-82
+02/27/1982,Brown,Cleon Daskalakis,SO,41,2,1,0,60,W,1981-82
+03/03/1982,Boston College,Cleon Daskalakis,SO,40,0,1,1,60,W,1981-82
+11/13/1982,Merrimack,Bob Barich,,16,2,1,0,60,W,1982-83
+11/20/1982,Rensselaer,Bob Barich,,41,4,1,0,60,L,1982-83
+11/23/1982,Princeton,Bob Barich,,29,2,1,0,60,W,1982-83
+11/28/1982,Providence,Bob Barich,,25,3,1,0,60,L,1982-83
+12/04/1982,Cornell,Bob Barich,,24,5,1,0,60,L,1982-83
+12/08/1982,Yale,Cleon Daskalakis,JR,23,4,1,0,60,L,1982-83
+12/11/1982,Maine,Cleon Daskalakis,JR,31,2,1,0,60,W,1982-83
+12/29/1982,Toronto,Cleon Daskalakis,JR,33,3,1,0,60,W,1982-83
+12/30/1982,Clarkson,Cleon Daskalakis,JR,29,1,1,0,60,W,1982-83
+01/03/1983,Wisconsin,Cleon Daskalakis,JR,38,5,1,0,60,L,1982-83
+01/08/1983,Boston College,Cleon Daskalakis,JR,36,3,1,0,60,W,1982-83
+01/12/1983,New Hampshire,Cleon Daskalakis,JR,32,6,1,0,60,L,1982-83
+01/15/1983,Brown,Cleon Daskalakis,JR,20,2,1,0,60,W,1982-83
+01/19/1983,Dartmouth,Cleon Daskalakis,JR,27,5,1,0,60,W,1982-83
+01/22/1983,St. Lawrence,Cleon Daskalakis,JR,32,4,1,0,60,W,1982-83
+01/26/1983,Northeastern,Cleon Daskalakis,JR,24,5,1,0,60,L,1982-83
+01/28/1983,Clarkson,Cleon Daskalakis,JR,44,3,1,0,60,W,1982-83
+02/01/1983,Maine,Cleon Daskalakis,JR,19,2,1,0,60,W,1982-83
+02/04/1983,Colgate,Cleon Daskalakis,JR,29,4,1,0,60,W,1982-83
+02/08/1983,Northeastern,Cleon Daskalakis,JR,27,3,1,0,60,L,1982-83
+02/11/1983,New Hampshire,Cleon Daskalakis,JR,34,2,1,0,60,W,1982-83
+02/14/1983,Harvard,Bob Barich,,27,4,1,0,60,W,1982-83
+02/19/1983,Northeastern,Cleon Daskalakis,JR,32,4,1,0,60,W,1982-83
+02/23/1983,Providence,Cleon Daskalakis,JR,17,3,1,0,60,W,1982-83
+02/26/1983,Vermont,Cleon Daskalakis,JR,23,4,1,0,60,W,1982-83
+03/01/1983,Boston College,Cleon Daskalakis,JR,47,0,1,1,60,W,1982-83
+03/04/1983,New Hampshire,Cleon Daskalakis,JR,28,3,1,0,60,T,1982-83
+03/05/1983,New Hampshire,Cleon Daskalakis,JR,22,3,1,0,60,L,1982-83
+03/05/1983,New Hampshire,Cleon Daskalakis,JR,22,6,1,0,60,L,1982-83
+10/28/1983,Dalhousie,Cleon Daskalakis,SR,21,1,1,0,60,W,1983-84
+10/30/1983,Dalhousie,Terry Taillefer,FR,16,0,1,1,60,W,1983-84
+11/04/1983,UMass Lowell,Cleon Daskalakis,SR,27,0,1,1,60,W,1983-84
+11/11/1983,Minnesota Duluth,Cleon Daskalakis,SR,25,2,1,0,60,W,1983-84
+11/16/1983,Merrimack,Cleon Daskalakis,SR,10,0,1,0,30,,1983-84
+11/16/1983,Merrimack,Terry Taillefer,FR,13,0,1,0,30,,1983-84
+11/19/1983,Rensselaer,Cleon Daskalakis,SR,39,2,1,0,60,W,1983-84
+11/30/1983,Harvard,Cleon Daskalakis,SR,27,3,1,0,60,L,1983-84
+12/03/1983,Cornell,Cleon Daskalakis,SR,24,2,1,0,60,W,1983-84
+12/07/1983,Yale,Cleon Daskalakis,SR,14,3,1,0,60,W,1983-84
+12/10/1983,Maine,Cleon Daskalakis,SR,29,2,1,0,60,W,1983-84
+12/29/1983,Western Michigan,Terry Taillefer,FR,24,3,1,0,60,W,1983-84
+12/30/1983,Western Michigan,Cleon Daskalakis,SR,40,2,1,0,60,W,1983-84
+01/07/1984,Princeton,Cleon Daskalakis,SR,17,2,1,0,60,W,1983-84
+01/11/1984,Boston College,Cleon Daskalakis,SR,35,4,1,0,60,L,1983-84
+01/14/1984,Colgate,Cleon Daskalakis,SR,26,1,1,0,60,W,1983-84
+01/17/1984,Dartmouth,Cleon Daskalakis,SR,21,4,1,0,60,W,1983-84
+01/21/1984,St. Lawrence,Cleon Daskalakis,SR,24,6,1,0,60,L,1983-84
+01/26/1984,Northeastern,Cleon Daskalakis,SR,33,5,1,0,60,W,1983-84
+01/28/1984,New Hampshire,Cleon Daskalakis,SR,39,3,1,0,60,W,1983-84
+01/31/1984,Brown,Terry Taillefer,FR,15,3,1,0,60,W,1983-84
+02/06/1984,Boston College,Cleon Daskalakis,SR,42,5,1,0,60,W,1983-84
+02/10/1984,New Hampshire,Cleon Daskalakis,SR,31,2,1,0,60,W,1983-84
+02/13/1984,Northeastern,Cleon Daskalakis,SR,24,5,1,0,60,L,1983-84
+02/17/1984,UMass Lowell,Terry Taillefer,FR,32,2,1,0,60,T,1983-84
+02/21/1984,Northeastern,Cleon Daskalakis,SR,22,2,1,0,60,W,1983-84
+02/25/1984,Vermont,Cleon Daskalakis,SR,35,3,1,0,60,W,1983-84
+02/28/1984,Boston College,Cleon Daskalakis,SR,33,4,1,0,60,L,1983-84
+03/03/1984,New Hampshire,Cleon Daskalakis,SR,22,2,1,0,60,W,1983-84
+03/09/1984,Boston College,Cleon Daskalakis,SR,33,4,1,0,60,W,1983-84
+03/10/1984,Rensselaer,Cleon Daskalakis,SR,37,5,1,0,60,L,1983-84
+03/16/1984,Bowling Green,Cleon Daskalakis,SR,31,3,1,0,60,W,1983-84
+03/17/1984,Bowling Green,Cleon Daskalakis,SR,42,5,1,0,60,L,1983-84
+10/13/1984,Wisconsin,Peter Fish,FR,23,2,1,0,60,W,1984-85
+10/13/1984,Wisconsin,Peter Fish,FR,25,5,1,0,60,W,1984-85
+10/20/1984,Minnesota,Peter Fish,FR,27,4,1,0,60,W,1984-85
+10/28/1984,UMass Lowell,Terry Taillefer,SO,28,0,1,1,60,W,1984-85
+11/02/1984,Minnesota Duluth,Peter Fish,FR,15,6,1,0,60,T,1984-85
+11/03/1984,Minnesota Duluth,Terry Taillefer,SO,26,3,1,0,60,L,1984-85
+11/10/1984,New Hampshire,Terry Taillefer,SO,23,4,1,0,60,W,1984-85
+11/13/1984,Boston College,Terry Taillefer,SO,44,6,1,0,60,L,1984-85
+11/17/1984,Toronto,Peter Fish,FR,36,4,1,0,60,W,1984-85
+11/24/1984,Northeastern,Terry Taillefer,SO,22,1,1,0,60,W,1984-85
+11/27/1984,New Hampshire,Terry Taillefer,SO,28,2,1,0,60,W,1984-85
+11/30/1984,Colorado College,Terry Taillefer,SO,27,4,1,0,60,L,1984-85
+12/01/1984,Colorado College,Peter Fish,FR,48,7,1,0,60,L,1984-85
+12/08/1984,Denver,Terry Taillefer,SO,30,4,1,0,60,T,1984-85
+12/09/1984,Denver,Peter Fish,FR,27,2,1,0,60,W,1984-85
+12/11/1984,Providence,Peter Fish,FR,32,3,1,0,60,W,1984-85
+12/28/1984,Northern Michigan,Peter Fish,FR,31,4,1,0,60,L,1984-85
+12/29/1984,Northern Michigan,Peter Fish,FR,26,6,1,0,60,L,1984-85
+01/12/1985,Michigan Tech,Bob Deraney,SO,21,1,1,0,60,W,1984-85
+01/18/1985,UMass Lowell,Bob Deraney,SO,22,2,1,0,60,W,1984-85
+01/20/1985,Maine,Bob Deraney,SO,24,4,1,0,60,W,1984-85
+01/26/1985,Northeastern,Bob Deraney,SO,24,3,1,0,60,W,1984-85
+01/30/1985,New Hampshire,Bob Deraney,SO,26,7,1,0,60,W,1984-85
+02/04/1985,Harvard,Bob Deraney,SO,26,3,1,0,60,W,1984-85
+02/07/1985,Providence,Bob Deraney,SO,28,3,1,0,60,T,1984-85
+02/11/1985,Northeastern,Bob Deraney,SO,29,4,1,0,60,L,1984-85
+02/15/1985,Maine,Peter Fish,FR,31,4,1,0,60,W,1984-85
+02/16/1985,Maine,Peter Fish,FR,25,2,1,0,60,W,1984-85
+02/19/1985,Providence,Bob Deraney,SO,20,2,1,0,60,L,1984-85
+02/24/1985,Northeastern,Terry Taillefer,SO,20,2,1,0,60,W,1984-85
+02/27/1985,UMass Lowell,Terry Taillefer,SO,30,3,1,0,60,W,1984-85
+03/03/1985,Boston College,Bob Deraney,SO,40,2,1,0,60,T,1984-85
+03/09/1985,Maine,Terry Taillefer,SO,27,4,1,0,60,W,1984-85
+03/10/1985,Maine,Terry Taillefer,SO,21,2,1,0,60,W,1984-85
+03/15/1985,Providence,Terry Taillefer,SO,25,5,1,0,60,L,1984-85
+03/16/1985,UMass Lowell,Bob Deraney,SO,25,4,1,0,60,W,1984-85
+10/26/1985,Northeastern,Bob Deraney,JR,30,6,1,0,60,L,1985-86
+10/29/1985,Providence,Terry Taillefer,JR,26,3,1,0,60,W,1985-86
+11/01/1985,Maine,Bob Deraney,JR,29,1,1,0,60,W,1985-86
+11/09/1985,Michigan Tech,Bob Deraney,JR,25,3,1,0,60,W,1985-86
+11/13/1985,Boston College,Bob Deraney,JR,33,2,1,0,60,L,1985-86
+11/16/1985,UMass Lowell,Peter Fish,,37,5,1,0,60,W,1985-86
+11/19/1985,Northeastern,Bob Deraney,JR,21,5,1,0,60,L,1985-86
+11/22/1985,Colorado College,Bob Deraney,JR,34,0,1,1,60,W,1985-86
+11/23/1985,Colorado College,Bob Deraney,JR,35,3,1,0,60,T,1985-86
+11/29/1985,Minnesota Duluth,Bob Deraney,JR,24,8,1,0,60,L,1985-86
+12/04/1985,Vermont,Terry Taillefer,JR,24,2,1,0,60,L,1985-86
+12/07/1985,New Hampshire,Terry Taillefer,JR,26,3,1,0,60,W,1985-86
+12/10/1985,Providence,Terry Taillefer,JR,19,2,1,0,60,W,1985-86
+12/29/1985,Wisconsin,Terry Taillefer,JR,37,4,1,0,60,W,1985-86
+12/30/1985,Wisconsin,Bob Deraney,JR,32,6,1,0,60,L,1985-86
+01/03/1986,Denver,Terry Taillefer,JR,23,5,1,0,60,L,1985-86
+01/04/1986,Denver,Terry Taillefer,JR,29,1,1,0,60,W,1985-86
+01/10/1986,Minnesota,Terry Taillefer,JR,41,3,1,0,60,L,1985-86
+01/11/1986,Minnesota,Bob Deraney,JR,39,2,1,0,60,W,1985-86
+01/14/1986,Northeastern,Terry Taillefer,JR,27,4,1,0,60,W,1985-86
+01/17/1986,Northern Michigan,Terry Taillefer,JR,30,4,1,0,60,W,1985-86
+01/18/1986,Northern Michigan,Bob Deraney,JR,31,7,1,0,60,W,1985-86
+01/21/1986,New Hampshire,Terry Taillefer,JR,21,1,1,0,60,W,1985-86
+01/24/1986,North Dakota,Terry Taillefer,JR,34,7,1,0,60,L,1985-86
+01/29/1986,UMass Lowell,Terry Taillefer,JR,30,5,1,0,60,W,1985-86
+02/03/1986,Northeastern,Terry Taillefer,JR,15,5,1,0,60,W,1985-86
+02/06/1986,UMass Lowell,Bob Deraney,JR,38,3,1,0,60,W,1985-86
+02/10/1986,Boston College,Terry Taillefer,JR,43,1,1,0,60,W,1985-86
+02/14/1986,Maine,Terry Taillefer,JR,24,2,1,0,60,W,1985-86
+02/15/1986,Maine,Bob Deraney,JR,26,3,1,0,60,W,1985-86
+02/19/1986,Boston College,Terry Taillefer,JR,21,7,1,0,60,L,1985-86
+02/22/1986,Providence,Terry Taillefer,JR,21,0,1,1,60,W,1985-86
+02/26/1986,New Hampshire,Bob Deraney,JR,22,1,1,0,60,W,1985-86
+03/01/1986,Boston College,Terry Taillefer,JR,31,3,1,0,60,T,1985-86
+03/07/1986,New Hampshire,Terry Taillefer,JR,18,1,1,0,60,T,1985-86
+03/08/1986,New Hampshire,Terry Taillefer,JR,22,3,1,0,60,W,1985-86
+03/14/1986,Providence,Terry Taillefer,JR,20,2,1,0,60,W,1985-86
+03/15/1986,Boston College,Terry Taillefer,JR,30,4,1,0,60,W,1985-86
+03/21/1986,Minnesota,Terry Taillefer,JR,36,6,1,0,60,L,1985-86
+03/22/1986,Minnesota,Terry Taillefer,JR,34,5,1,0,60,L,1985-86
+10/31/1986,Maine,Terry Taillefer,SR,26,3,1,0,60,L,1986-87
+11/01/1986,Maine,Peter Fish,SO,17,7,1,0,60,L,1986-87
+11/05/1986,New Hampshire,Bob Deraney,SR,37,3,1,0,60,W,1986-87
+11/08/1986,New Hampshire,Terry Taillefer,SR,30,3,1,0,60,W,1986-87
+11/14/1986,Michigan Tech,Bob Deraney,SR,32,4,1,0,60,W,1986-87
+11/15/1986,Northern Michigan,Terry Taillefer,SR,29,7,1,0,60,L,1986-87
+11/19/1986,UMass Lowell,Bob Deraney,SR,25,1,1,0,60,W,1986-87
+11/22/1986,UMass Lowell,Bob Deraney,SR,22,3,1,0,60,L,1986-87
+11/25/1986,Providence,Bob Deraney,SR,18,6,1,0,60,L,1986-87
+11/29/1986,Providence,Terry Taillefer,SR,27,4,1,0,60,T,1986-87
+12/02/1986,Boston College,Terry Taillefer,SR,34,9,1,0,60,L,1986-87
+12/06/1986,Boston College,Bob Deraney,SR,25,7,1,0,60,L,1986-87
+12/10/1986,Northeastern,Terry Taillefer,SR,22,2,1,0,60,W,1986-87
+12/13/1986,Northeastern,Terry Taillefer,SR,25,1,1,0,60,W,1986-87
+01/02/1987,Wisconsin,Terry Taillefer,SR,30,7,1,0,60,L,1986-87
+01/04/1987,North Dakota,Terry Taillefer,SR,34,4,1,0,60,L,1986-87
+01/07/1987,Northeastern,Bob Deraney,SR,25,4,1,0,60,W,1986-87
+01/11/1987,Northeastern,Bob Deraney,SR,42,4,1,0,60,T,1986-87
+01/16/1987,Minnesota,Terry Taillefer,SR,36,1,1,0,60,W,1986-87
+01/17/1987,Minnesota Duluth,Bob Deraney,SR,32,3,1,0,60,W,1986-87
+01/23/1987,Boston College,Terry Taillefer,SR,50,5,1,0,60,L,1986-87
+01/27/1987,New Hampshire,Bob Deraney,SR,33,4,1,0,60,T,1986-87
+01/30/1987,New Hampshire,Peter Fish,SO,26,2,1,0,60,W,1986-87
+02/12/1987,Providence,Terry Taillefer,SR,28,2,1,0,60,W,1986-87
+02/20/1987,US International,Terry Taillefer,SR,28,4,1,0,60,W,1986-87
+02/21/1987,US International,Terry Taillefer,SR,45,1,1,0,60,W,1986-87
+02/27/1987,Maine,Terry Taillefer,SR,17,6,1,0,60,L,1986-87
+03/06/1987,UMass Lowell,Terry Taillefer,SR,34,2,1,0,60,W,1986-87
+03/10/1987,Northeastern,Terry Taillefer,SR,25,3,1,0,60,L,1986-87
+10/31/1987,UMass Lowell,Peter Fish,JR,29,0,1,1,60,W,1987-88
+11/04/1987,New Hampshire,Peter Fish,JR,30,8,1,0,60,W,1987-88
+11/07/1987,Boston College,Peter Fish,JR,35,4,1,0,60,L,1987-88
+11/10/1987,Northeastern,Peter Fish,JR,24,7,1,0,60,L,1987-88
+11/14/1987,Maine,Peter Fish,JR,26,7,1,0,60,L,1987-88
+11/17/1987,Colgate,John Bradley,FR,29,6,1,0,60,L,1987-88
+11/24/1987,Yale,John Bradley,FR,20,6,1,0,60,W,1987-88
+11/28/1987,Colorado College,Peter Fish,JR,32,1,1,0,60,W,1987-88
+11/30/1987,Denver,Peter Fish,JR,58,3,1,0,60,T,1987-88
+12/04/1987,Maine,John Bradley,FR,26,6,1,0,60,L,1987-88
+12/05/1987,Maine,Peter Fish,JR,29,7,1,0,60,L,1987-88
+12/09/1987,Boston College,Peter Fish,JR,35,4,1,0,60,T,1987-88
+12/09/1987,Boston College,Peter Fish,JR,35,4,1,0,60,T,1987-88
+12/12/1987,Vermont,Peter Fish,JR,28,3,1,0,60,L,1987-88
+01/02/1988,Minnesota,Peter Fish,JR,50,5,1,0,60,L,1987-88
+01/03/1988,Minnesota Duluth,Peter Fish,JR,42,4,1,0,60,T,1987-88
+01/08/1988,Northern Michigan,Peter Fish,JR,43,7,1,0,60,L,1987-88
+01/13/1988,Wisconsin,Peter Fish,JR,34,6,1,0,60,W,1987-88
+01/16/1988,North Dakota,Peter Fish,JR,34,2,1,0,60,W,1987-88
+01/19/1988,Northeastern,John Bradley,FR,20,2,1,0,60,L,1987-88
+01/23/1988,New Hampshire,John Bradley,FR,44,4,1,0,60,W,1987-88
+01/23/1988,New Hampshire,John Bradley,FR,35,4,1,0,60,W,1987-88
+01/29/1988,Providence,Peter Fish,JR,37,4,1,0,60,W,1987-88
+02/01/1988,Harvard,Peter Fish,JR,25,4,1,0,60,W,1987-88
+02/08/1988,Northeastern,Peter Fish,JR,25,6,1,0,60,L,1987-88
+02/14/1988,Bowdoin,John Bradley,FR,21,3,1,0,60,W,1987-88
+02/17/1988,UMass Lowell,Peter Fish,JR,38,2,1,0,60,W,1987-88
+02/20/1988,Providence,Peter Fish,JR,19,5,1,0,60,L,1987-88
+02/24/1988,Northeastern,Peter Fish,JR,22,5,1,0,60,L,1987-88
+02/27/1988,Boston College,Peter Fish,JR,29,3,1,0,60,W,1987-88
+03/04/1988,Providence,Peter Fish,JR,27,3,1,0,60,L,1987-88
+03/05/1988,Providence,Peter Fish,JR,34,6,1,0,60,L,1987-88
+10/29/1988,Northeastern,John Bradley,SO,32,7,1,0,60,L,1988-89
+11/01/1988,Boston College,John Bradley,SO,27,3,1,0,60,W,1988-89
+11/05/1988,New Hampshire,John Bradley,SO,22,4,1,0,60,W,1988-89
+11/11/1988,Denver,John Bradley,SO,31,8,1,0,60,L,1988-89
+11/13/1988,Colorado College,John Bradley,SO,43,6,1,0,60,T,1988-89
+11/18/1988,Michigan State,Bryan Lafort,,25,6,1,0,60,L,1988-89
+11/19/1988,Michigan State,John Bradley,SO,33,9,1,0,60,L,1988-89
+11/25/1988,Northern Michigan,Bryan Lafort,,23,3,1,0,60,L,1988-89
+11/26/1988,Michigan Tech,John Bradley,SO,22,4,1,0,60,W,1988-89
+11/29/1988,Maine,Bryan Lafort,,26,8,1,0,60,L,1988-89
+12/03/1988,Michigan,John Bradley,SO,27,3,1,0,60,W,1988-89
+12/07/1988,Yale,Bryan Lafort,,14,3,1,0,60,W,1988-89
+12/13/1988,UMass Lowell,Bryan Lafort,,24,3,1,0,60,W,1988-89
+12/28/1988,Colgate,Bryan Lafort,,33,6,1,0,60,L,1988-89
+12/29/1988,Cornell,Bryan Lafort,,34,2,1,0,60,W,1988-89
+01/03/1989,Northeastern,Bryan Lafort,,28,6,1,0,60,L,1988-89
+01/06/1989,Wisconsin,Peter Fish,SR,23,7,1,0,60,L,1988-89
+01/09/1989,North Dakota,Bryan Lafort,,33,7,1,0,60,L,1988-89
+01/17/1989,Northeastern,Peter Fish,SR,24,4,1,0,60,L,1988-89
+01/20/1989,Minnesota Duluth,Peter Fish,SR,24,3,1,0,60,W,1988-89
+01/21/1989,Minnesota,Peter Fish,SR,17,0,1,1,60,W,1988-89
+01/24/1989,UMass Lowell,Peter Fish,SR,21,2,1,0,60,W,1988-89
+01/28/1989,New Hampshire,Peter Fish,SR,25,3,1,0,60,L,1988-89
+01/31/1989,UMass Lowell,Peter Fish,SR,20,1,1,0,60,W,1988-89
+02/03/1989,Providence,Peter Fish,SR,33,2,1,0,60,L,1988-89
+02/06/1989,Northeastern,Peter Fish,SR,29,4,1,0,60,W,1988-89
+02/13/1989,Harvard,Peter Fish,SR,22,9,1,0,60,L,1988-89
+02/18/1989,Providence,Peter Fish,SR,34,6,1,0,60,L,1988-89
+02/21/1989,New Hampshire,Peter Fish,SR,30,0,1,1,60,W,1988-89
+02/24/1989,Maine,Peter Fish,SR,22,8,1,0,60,L,1988-89
+02/25/1989,Maine,Peter Fish,SR,21,5,1,0,60,L,1988-89
+02/28/1989,Boston College,Peter Fish,SR,33,3,1,0,60,L,1988-89
+03/03/1989,Providence,Peter Fish,SR,34,4,1,0,60,L,1988-89
+11/04/1989,Merrimack,Scott Cashman,FR,10,0,1,1,60,W,1989-90
+11/07/1989,Northeastern,John Bradley,JR,15,3,1,0,60,L,1989-90
+11/10/1989,Maine,Scott Cashman,FR,18,3,1,0,60,L,1989-90
+11/11/1989,Maine,Scott Cashman,FR,31,2,1,0,60,W,1989-90
+11/15/1989,New Hampshire,John Bradley,JR,25,4,1,0,60,T,1989-90
+11/18/1989,Michigan State,Scott Cashman,FR,18,4,1,0,60,W,1989-90
+11/25/1989,Princeton,Scott Cashman,FR,30,2,1,0,60,W,1989-90
+11/28/1989,Boston College,Scott Cashman,FR,35,4,1,0,60,W,1989-90
+12/01/1989,Michigan,John Bradley,JR,21,4,1,0,60,L,1989-90
+12/02/1989,Michigan,Scott Cashman,FR,38,6,1,0,60,L,1989-90
+12/05/1989,Providence,Scott Cashman,FR,37,3,1,0,60,L,1989-90
+12/09/1989,Vermont,Scott Cashman,FR,25,3,1,0,60,W,1989-90
+12/12/1989,New Hampshire,Scott Cashman,FR,34,5,1,0,60,L,1989-90
+12/29/1989,Denver,Scott Cashman,FR,38,2,1,0,60,L,1989-90
+01/03/1990,Boston College,Scott Cashman,FR,34,3,1,0,60,L,1989-90
+01/06/1990,Northeastern,Scott Cashman,FR,24,3,1,0,60,W,1989-90
+01/12/1990,Clarkson,Scott Cashman,FR,20,2,1,0,60,W,1989-90
+01/13/1990,St. Lawrence,John Bradley,JR,24,4,1,0,60,L,1989-90
+01/17/1990,UMass Lowell,Scott Cashman,FR,21,2,1,0,60,W,1989-90
+01/20/1990,Providence,Scott Cashman,FR,26,1,1,0,60,T,1989-90
+01/25/1990,Merrimack,Scott Cashman,FR,26,3,1,0,60,W,1989-90
+01/27/1990,New Hampshire,Scott Cashman,FR,35,2,1,0,60,W,1989-90
+02/01/1990,Northeastern,Scott Cashman,FR,20,6,1,0,60,W,1989-90
+02/05/1990,Boston College,Scott Cashman,FR,23,3,1,0,60,W,1989-90
+02/12/1990,Harvard,Scott Cashman,FR,29,2,1,0,60,W,1989-90
+02/16/1990,UMass Lowell,Scott Cashman,FR,23,2,1,0,60,W,1989-90
+02/17/1990,UMass Lowell,Scott Cashman,FR,19,2,1,0,60,W,1989-90
+02/21/1990,Providence,Scott Cashman,FR,32,3,1,0,60,L,1989-90
+02/24/1990,Maine,Scott Cashman,FR,33,5,1,0,60,L,1989-90
+03/02/1990,Northeastern,Scott Cashman,FR,19,4,1,0,60,L,1989-90
+03/03/1990,Northeastern,Scott Cashman,FR,31,2,1,0,60,W,1989-90
+03/04/1990,Northeastern,Scott Cashman,FR,38,3,1,0,60,W,1989-90
+03/09/1990,Maine,Scott Cashman,FR,19,3,1,0,60,L,1989-90
+03/17/1990,North Dakota,Scott Cashman,FR,26,3,1,0,60,W,1989-90
+03/18/1990,North Dakota,Scott Cashman,FR,26,0,1,1,60,W,1989-90
+03/23/1990,Michigan State,Scott Cashman,FR,25,6,1,0,60,L,1989-90
+03/24/1990,Michigan State,Scott Cashman,FR,20,3,1,0,60,W,1989-90
+03/25/1990,Michigan State,Scott Cashman,FR,23,3,1,0,60,W,1989-90
+03/30/1990,Colgate,Scott Cashman,FR,15,3,1,0,60,L,1989-90
+10/27/1990,Rensselaer,Scott Cashman,SO,24,7,1,0,60,W,1990-91
+11/03/1990,Colgate,John Bradley,SR,22,9,1,0,60,L,1990-91
+11/09/1990,Providence,John Bradley,SR,3,3,1,0,60,T,1990-91
+11/11/1990,Boston College,Scott Cashman,SO,19,3,1,0,60,L,1990-91
+11/16/1990,Denver,John Bradley,SR,18,0,1,1,60,W,1990-91
+11/17/1990,Denver,John Bradley,SR,12,2,1,0,60,W,1990-91
+11/20/1990,Harvard,John Bradley,SR,23,0,1,1,60,W,1990-91
+11/24/1990,Princeton,Scott Cashman,SO,13,2,1,0,60,W,1990-91
+11/27/1990,Northeastern,John Bradley,SR,27,5,1,0,60,W,1990-91
+11/30/1990,Michigan,Scott Cashman,SO,18,8,1,0,60,L,1990-91
+12/02/1990,Maine,Scott Cashman,SO,27,4,1,0,60,W,1990-91
+12/05/1990,Merrimack,John Bradley,SR,19,1,1,0,60,W,1990-91
+12/08/1990,Providence,Scott Cashman,SO,14,2,1,0,60,W,1990-91
+12/11/1990,UMass Lowell,Scott Cashman,SO,16,1,1,0,60,W,1990-91
+12/29/1990,Minnesota Duluth,Scott Cashman,SO,32,5,1,0,60,W,1990-91
+01/02/1991,UMass Lowell,Scott Cashman,SO,17,1,1,0,60,W,1990-91
+01/05/1991,New Hampshire,Scott Cashman,SO,35,3,1,0,60,T,1990-91
+01/08/1991,Merrimack,John Bradley,SR,31,0,1,1,60,W,1990-91
+01/11/1991,Clarkson,Scott Cashman,SO,16,5,1,0,60,L,1990-91
+01/12/1991,St. Lawrence,John Bradley,SR,23,3,1,0,60,W,1990-91
+01/15/1991,New Hampshire,Scott Cashman,SO,24,4,1,0,60,W,1990-91
+01/18/1991,Boston College,Scott Cashman,SO,22,5,1,0,60,L,1990-91
+01/22/1991,UMass Lowell,John Bradley,SR,20,4,1,0,60,W,1990-91
+01/25/1991,Maine,John Bradley,SR,21,4,1,0,60,L,1990-91
+01/29/1991,Northeastern,John Bradley,SR,26,3,1,0,60,W,1990-91
+02/01/1991,New Hampshire,Scott Cashman,SO,34,5,1,0,60,L,1990-91
+02/04/1991,Harvard,John Bradley,SR,28,2,1,0,60,W,1990-91
+02/08/1991,Merrimack,Scott Cashman,SO,29,2,1,0,60,W,1990-91
+02/11/1991,Boston College,John Bradley,SR,34,4,1,0,60,W,1990-91
+02/16/1991,Providence,Scott Cashman,SO,14,5,1,0,60,W,1990-91
+02/20/1991,Northeastern,John Bradley,SR,29,4,1,0,60,W,1990-91
+02/23/1991,Boston College,John Bradley,SR,24,5,1,0,60,L,1990-91
+02/28/1991,Merrimack,Scott Cashman,SO,18,1,1,0,60,W,1990-91
+03/08/1991,Providence,Scott Cashman,SO,23,5,1,0,60,W,1990-91
+03/10/1991,Maine,John Bradley,SR,24,3,1,0,60,W,1990-91
+03/22/1991,Michigan,Scott Cashman,SO,20,1,1,0,60,W,1990-91
+03/23/1991,Michigan,John Bradley,SR,21,1,1,0,60,W,1990-91
+03/28/1991,Clarkson,Scott Cashman,SO,16,3,1,0,60,W,1990-91
+10/26/1991,Rensselaer,Scott Cashman,SO,24,1,1,0,60,W,1990-91
+11/02/1991,Colgate,Scott Cashman,JR,32,3,1,0,60,W,1991-92
+11/08/1991,Minnesota Duluth,Scott Cashman,JR,26,3,1,0,60,W,1991-92
+11/15/1991,Maine,Scott Cashman,JR,40,4,1,0,60,W,1991-92
+11/22/1991,Providence,Scott Cashman,JR,31,8,1,0,60,L,1991-92
+11/23/1991,New Hampshire,Scott Cashman,JR,35,7,1,0,60,L,1991-92
+11/30/1991,Army,Derek Herlofsky,FR,31,2,1,0,60,W,1991-92
+12/06/1991,Northeastern,Scott Cashman,JR,29,7,1,0,60,W,1991-92
+12/07/1991,Boston College,J.P. McKersie,FR,29,4,1,0,60,L,1991-92
+12/10/1991,Merrimack,Scott Cashman,JR,26,5,1,0,60,W,1991-92
+12/20/1991,Dartmouth,Scott Cashman,JR,16,2,1,0,60,W,1991-92
+12/28/1991,Vermont,Derek Herlofsky,FR,34,2,1,0,60,W,1991-92
+12/29/1991,New Hampshire,Scott Cashman,JR,27,2,1,0,60,W,1991-92
+01/04/1992,Bowdoin,J.P. McKersie,FR,18,1,1,0,60,W,1991-92
+01/10/1992,Northeastern,J.P. McKersie,FR,19,4,1,0,60,W,1991-92
+01/11/1992,UMass Lowell,Scott Cashman,JR,34,2,1,0,60,W,1991-92
+01/17/1992,New Hampshire,Derek Herlofsky,FR,33,1,1,0,60,W,1991-92
+01/18/1992,UMass Lowell,Scott Cashman,JR,20,4,1,0,60,W,1991-92
+01/24/1992,Merrimack,J.P. McKersie,FR,21,5,1,0,60,L,1991-92
+01/25/1992,Boston College,Scott Cashman,JR,18,3,1,0,60,T,1991-92
+01/28/1992,Brown,Derek Herlofsky,FR,19,2,1,0,60,W,1991-92
+02/03/1992,Northeastern,Scott Cashman,JR,27,4,1,0,60,W,1991-92
+02/07/1992,Providence,Derek Herlofsky,FR,32,2,1,0,60,W,1991-92
+02/10/1992,Harvard,Scott Cashman,JR,33,2,1,0,60,W,1991-92
+02/14/1992,UMass Lowell,Scott Cashman,JR,30,2,1,0,60,T,1991-92
+02/15/1992,Northeastern,J.P. McKersie,FR,20,4,1,0,60,W,1991-92
+02/21/1992,New Hampshire,Scott Cashman,JR,29,3,1,0,60,L,1991-92
+02/22/1992,Providence,Derek Herlofsky,FR,29,3,1,0,60,T,1991-92
+02/28/1992,Boston College,Scott Cashman,JR,22,2,1,0,60,L,1991-92
+03/26/1992,Michigan State,Scott Cashman,JR,22,4,1,0,60,L,1991-92
+10/31/1992,Colgate,Derek Herlofsky,SO,21,3,1,0,60,W,1992-93
+11/13/1992,Northeastern,J.P. McKersie,SO,26,4,1,0,60,W,1992-93
+11/14/1992,Northeastern,Derek Herlofsky,SO,19,1,1,0,60,L,1992-93
+11/24/1992,Harvard,J.P. McKersie,SO,20,3,1,0,60,W,1992-93
+11/28/1992,Princeton,Scott Cashman,SR,29,3,1,0,60,L,1992-93
+12/04/1992,Merrimack,Scott Cashman,SR,21,2,1,0,60,W,1992-93
+12/05/1992,Merrimack,Scott Cashman,SR,21,2,1,0,60,W,1992-93
+12/09/1992,Boston College,Derek Herlofsky,SO,22,4,1,0,60,W,1992-93
+12/28/1992,Miami,Derek Herlofsky,SO,22,3,1,0,60,W,1992-93
+12/29/1992,Wisconsin,J.P. McKersie,SO,31,3,1,0,60,W,1992-93
+01/05/1993,UMass Lowell,Scott Cashman,SR,25,2,1,0,60,W,1992-93
+01/08/1993,Providence,J.P. McKersie,SO,26,5,1,0,60,T,1992-93
+01/09/1993,Providence,Derek Herlofsky,SO,25,2,1,0,60,W,1992-93
+01/15/1993,Boston College,Derek Herlofsky,SO,26,1,1,0,60,W,1992-93
+01/22/1993,New Hampshire,Scott Cashman,SR,37,1,1,0,60,W,1992-93
+01/23/1993,New Hampshire,Derek Herlofsky,SO,12,6,1,0,60,L,1992-93
+01/27/1993,UMass Lowell,Scott Cashman,SR,34,4,1,0,60,W,1992-93
+01/29/1993,UMass Lowell,J.P. McKersie,SO,33,5,1,0,60,W,1992-93
+02/01/1993,Boston College,Scott Cashman,SR,22,2,1,0,60,W,1992-93
+02/05/1993,New Hampshire,Derek Herlofsky,SO,18,0,1,1,60,W,1992-93
+02/08/1993,Harvard,Scott Cashman,SR,19,4,1,0,60,L,1992-93
+02/12/1993,Merrimack,J.P. McKersie,SO,19,2,1,0,60,W,1992-93
+02/20/1993,Maine,Scott Cashman,SR,25,6,1,0,60,L,1992-93
+02/26/1993,Northeastern,Derek Herlofsky,SO,30,3,1,0,60,W,1992-93
+02/27/1993,Northeastern,Scott Cashman,SR,36,3,1,0,60,W,1992-93
+03/05/1993,Providence,Derek Herlofsky,SO,30,6,1,0,60,W,1992-93
+03/12/1993,Boston College,Derek Herlofsky,SO,20,2,1,0,60,W,1992-93
+03/14/1993,Boston College,Scott Cashman,SR,29,1,1,0,60,W,1992-93
+03/19/1993,New Hampshire,Derek Herlofsky,SO,26,0,1,1,60,W,1992-93
+03/20/1993,Maine,Scott Cashman,SR,24,5,1,0,60,L,1992-93
+03/27/1993,Northern Michigan,Derek Herlofsky,SO,25,1,1,0,60,W,1992-93
+04/01/1993,Lake Superior State,Derek Herlofsky,SO,22,6,1,0,60,L,1992-93
+10/23/1993,North Dakota,Derek Herlofsky,JR,27,3,1,0,60,W,1993-94
+10/30/1993,Colgate,J.P. McKersie,JR,24,4,1,0,60,W,1993-94
+11/06/1993,Rensselaer,Derek Herlofsky,JR,19,4,1,0,60,L,1993-94
+11/12/1993,Northeastern,J.P. McKersie,JR,31,5,1,0,60,L,1993-94
+11/13/1993,Northeastern,Derek Herlofsky,JR,18,2,1,0,60,W,1993-94
+11/19/1993,Maine,J.P. McKersie,JR,22,3,1,0,60,W,1993-94
+11/20/1993,Maine,Derek Herlofsky,JR,14,5,1,0,60,W,1993-94
+11/23/1993,Cornell,J.P. McKersie,JR,18,3,1,0,60,W,1993-94
+11/28/1993,Princeton,J.P. McKersie,JR,18,3,1,0,60,W,1993-94
+12/04/1993,Merrimack,J.P. McKersie,JR,16,3,1,0,60,W,1993-94
+12/08/1993,Brown,J.P. McKersie,JR,34,1,1,0,60,W,1993-94
+12/11/1993,Boston College,J.P. McKersie,JR,20,2,1,0,60,W,1993-94
+12/29/1993,Vermont,J.P. McKersie,JR,25,2,1,0,60,W,1993-94
+12/30/1993,New Hampshire,J.P. McKersie,JR,19,3,1,0,60,L,1993-94
+01/08/1994,Providence,Derek Herlofsky,JR,21,5,1,0,60,L,1993-94
+01/14/1994,Boston College,J.P. McKersie,JR,27,2,1,0,60,W,1993-94
+01/15/1994,Boston College,Derek Herlofsky,JR,18,4,1,0,60,W,1993-94
+01/21/1994,New Hampshire,J.P. McKersie,JR,39,3,1,0,60,W,1993-94
+01/22/1994,New Hampshire,Derek Herlofsky,JR,32,1,1,0,60,W,1993-94
+01/28/1994,Merrimack,J.P. McKersie,JR,27,4,1,0,60,W,1993-94
+02/02/1994,UMass Lowell,J.P. McKersie,JR,30,4,1,0,60,L,1993-94
+02/14/1994,Northeastern,Derek Herlofsky,JR,24,0,1,1,60,W,1993-94
+02/19/1994,Maine,J.P. McKersie,JR,34,0,1,1,60,W,1993-94
+02/20/1994,Maine,Derek Herlofsky,JR,38,1,1,0,60,W,1993-94
+02/25/1994,Northeastern,J.P. McKersie,JR,21,3,1,0,60,W,1993-94
+02/26/1994,Northeastern,Derek Herlofsky,JR,20,2,1,0,60,W,1993-94
+03/01/1994,New Hampshire,J.P. McKersie,JR,20,2,1,0,60,W,1993-94
+03/04/1994,Providence,Derek Herlofsky,JR,23,0,1,1,60,W,1993-94
+03/05/1994,Providence,J.P. McKersie,JR,20,1,1,0,60,W,1993-94
+03/11/1994,Maine,Derek Herlofsky,JR,39,5,1,0,60,W,1993-94
+03/12/1994,Maine,J.P. McKersie,JR,30,3,1,0,60,W,1993-94
+03/18/1994,Northeastern,Derek Herlofsky,JR,28,2,1,0,60,W,1993-94
+03/19/1994,UMass Lowell,J.P. McKersie,JR,20,2,1,0,60,W,1993-94
+03/26/1994,Wisconsin,Derek Herlofsky,JR,13,1,1,0,60,W,1993-94
+03/31/1994,Minnesota,J.P. McKersie,JR,31,1,1,0,60,W,1993-94
+10/28/1994,Rensselaer,Derek Herlofsky,SR,15,1,1,0,60,W,1994-95
+10/30/1994,Maine,Derek Herlofsky,SR,20,3,1,0,60,T,1994-95
+11/05/1994,UMass Lowell,Derek Herlofsky,SR,17,7,1,0,60,T,1994-95
+11/11/1994,Northeastern,Derek Herlofsky,SR,13,3,1,0,60,L,1994-95
+11/12/1994,Northeastern,Derek Herlofsky,SR,26,2,1,0,60,W,1994-95
+11/18/1994,Massachusetts,Derek Herlofsky,SR,14,0,1,1,60,W,1994-95
+11/19/1994,Massachusetts,Tom Noble,FR,22,4,1,0,60,W,1994-95
+11/22/1994,Harvard,Derek Herlofsky,SR,17,1,1,0,60,W,1994-95
+12/02/1994,Maine,Tom Noble,FR,29,6,1,0,60,L,1994-95
+12/03/1994,Maine,Derek Herlofsky,SR,22,5,1,0,60,T,1994-95
+12/07/1994,Vermont,Tom Noble,FR,11,1,1,0,60,W,1994-95
+12/30/1994,Western Michigan,Tom Noble,FR,24,2,1,0,60,W,1994-95
+01/06/1995,New Hampshire,Tom Noble,FR,25,0,1,1,60,W,1994-95
+01/14/1995,Northeastern,Derek Herlofsky,SR,16,2,1,0,60,W,1994-95
+01/20/1995,Boston College,Derek Herlofsky,SR,12,4,1,0,60,W,1994-95
+01/21/1995,Boston College,Tom Noble,FR,17,1,1,0,60,W,1994-95
+01/26/1995,New Hampshire,Tom Noble,FR,36,4,1,0,60,L,1994-95
+01/28/1995,New Hampshire,Derek Herlofsky,SR,18,3,1,0,60,W,1994-95
+02/03/1995,Massachusetts,Tom Noble,FR,13,1,1,0,60,W,1994-95
+02/06/1995,Northeastern,Derek Herlofsky,SR,26,2,1,0,60,W,1994-95
+02/10/1995,UMass Lowell,Tom Noble,FR,28,6,1,0,60,W,1994-95
+02/13/1995,Boston College,Derek Herlofsky,SR,24,1,1,0,60,W,1994-95
+02/18/1995,Providence,Tom Noble,FR,21,3,1,0,60,W,1994-95
+02/24/1995,Merrimack,Derek Herlofsky,SR,20,1,1,0,60,W,1994-95
+02/25/1995,Merrimack,Tom Noble,FR,27,3,1,0,60,W,1994-95
+03/12/1995,Merrimack,Derek Herlofsky,SR,21,3,1,0,60,W,1994-95
+03/17/1995,UMass Lowell,Tom Noble,FR,30,2,1,0,60,W,1994-95
+03/18/1995,Providence,Derek Herlofsky,SR,24,2,1,0,60,W,1994-95
+03/25/1995,Lake Superior State,Tom Noble,FR,18,2,1,0,60,W,1994-95
+03/30/1995,Minnesota,Derek Herlofsky,SR,30,3,1,0,60,W,1994-95
+04/01/1995,Maine,Tom Noble,FR,21,2,1,0,60,W,1994-95
+10/20/1995,North Dakota,Tom Noble,SO,19,5,1,0,60,W,1995-96
+10/28/1995,Vermont,Tom Noble,SO,26,4,1,0,60,W,1995-96
+11/03/1995,Northeastern,Michael Larocque,,23,4,1,0,60,W,1995-96
+11/10/1995,New Hampshire,Tom Noble,SO,26,6,1,0,60,L,1995-96
+11/11/1995,New Hampshire,Michael Larocque,,25,2,1,0,60,W,1995-96
+11/14/1995,Maine,Tom Noble,SO,15,2,1,0,60,W,1995-96
+11/21/1995,Cornell,Tom Noble,SO,20,1,1,0,60,W,1995-96
+11/24/1995,St. Lawrence,Michael Larocque,,17,2,1,0,60,W,1995-96
+11/25/1995,Clarkson,Tom Noble,SO,24,4,1,0,60,T,1995-96
+12/01/1995,Massachusetts,Michael Larocque,,27,2,1,0,60,W,1995-96
+12/02/1995,Massachusetts,Tom Noble,SO,35,2,1,0,60,W,1995-96
+12/08/1995,Merrimack,Tom Noble,SO,27,1,1,0,60,W,1995-96
+12/09/1995,Merrimack,Michael Larocque,,22,6,1,0,60,W,1995-96
+01/05/1996,New Hampshire,Michael Larocque,,28,5,1,0,60,W,1995-96
+01/12/1996,Boston College,Tom Noble,SO,21,4,1,0,60,T,1995-96
+01/13/1996,Boston College,Michael Larocque,,26,3,1,0,60,W,1995-96
+01/19/1996,Maine,Tom Noble,SO,24,3,1,0,60,W,1995-96
+01/20/1996,Maine,Michael Larocque,,31,3,1,0,60,T,1995-96
+01/27/1996,UMass Lowell,Tom Noble,SO,26,5,1,0,60,L,1995-96
+02/02/1996,Providence,Tom Noble,SO,25,1,1,0,60,W,1995-96
+02/05/1996,Boston College,Tom Noble,SO,30,1,1,0,60,W,1995-96
+02/09/1996,Massachusetts,Michael Larocque,,28,1,1,0,60,W,1995-96
+02/16/1996,Providence,Tom Noble,SO,26,4,1,0,60,W,1995-96
+02/17/1996,Providence,Michael Larocque,,32,1,1,0,60,W,1995-96
+02/25/1996,UMass Lowell,Tom Noble,SO,38,3,1,0,60,W,1995-96
+03/01/1996,Northeastern,Tom Noble,SO,19,1,1,0,60,W,1995-96
+03/02/1996,Boston College,J.P. McKersie,SR,14,3,1,0,60,L,1995-96
+03/08/1996,Massachusetts,Tom Noble,SO,22,2,1,0,60,W,1995-96
+03/15/1996,Providence,Tom Noble,SO,15,5,1,0,60,L,1995-96
+03/16/1996,UMass Lowell,Tom Noble,SO,23,3,1,0,60,W,1995-96
+03/23/1996,Clarkson,Tom Noble,SO,20,2,1,0,60,W,1995-96
+10/19/1996,Rensselaer,Michael Larocque,,30,3,1,0,60,W,1996-97
+10/26/1996,Vermont,Tom Noble,JR,17,4,1,0,60,L,1996-97
+11/01/1996,Massachusetts,Michael Larocque,,19,2,1,0,60,W,1996-97
+11/02/1996,Massachusetts,Tom Noble,JR,18,3,1,0,60,W,1996-97
+11/08/1996,Providence,Tom Noble,JR,25,1,1,0,60,W,1996-97
+11/09/1996,Providence,Michael Larocque,,26,6,1,0,60,W,1996-97
+11/15/1996,Northeastern,Tom Noble,JR,33,2,1,0,60,W,1996-97
+11/16/1996,Northeastern,Michael Larocque,,26,1,1,0,60,W,1996-97
+11/23/1996,Merrimack,Michael Larocque,,24,3,1,0,60,T,1996-97
+11/26/1996,Harvard,Tom Noble,JR,17,1,1,0,60,W,1996-97
+11/30/1996,Clarkson,Tom Noble,JR,35,4,1,0,60,L,1996-97
+12/06/1996,Yale,Michael Larocque,,21,1,1,0,60,T,1996-97
+12/11/1996,Boston College,Tom Noble,JR,19,4,1,0,60,W,1996-97
+12/28/1996,North Dakota,Michael Larocque,,47,2,1,0,60,T,1996-97
+01/05/1997,New Hampshire,Michael Larocque,,30,2,1,0,60,W,1996-97
+01/11/1997,Northeastern,Michael Larocque,,23,4,1,0,60,W,1996-97
+01/17/1997,Boston College,Tom Noble,JR,29,5,1,0,60,T,1996-97
+01/18/1997,Boston College,Michael Larocque,,27,4,1,0,60,T,1996-97
+01/24/1997,UMass Lowell,Tom Noble,JR,12,3,1,0,60,L,1996-97
+01/25/1997,Maine,Michael Larocque,,18,3,1,0,60,L,1996-97
+01/31/1997,Providence,Tom Noble,JR,23,2,1,0,60,W,1996-97
+02/03/1997,Harvard,Michael Larocque,,24,1,1,0,60,W,1996-97
+02/07/1997,Massachusetts,Michael Larocque,,20,3,1,0,60,W,1996-97
+02/10/1997,Boston College,Tom Noble,JR,27,2,1,0,60,W,1996-97
+02/14/1997,UMass Lowell,Michael Larocque,,35,1,1,0,60,W,1996-97
+02/15/1997,UMass Lowell,Tom Noble,JR,25,5,1,0,60,T,1996-97
+02/22/1997,Maine,Tom Noble,JR,32,7,1,0,60,L,1996-97
+02/28/1997,Merrimack,Michael Larocque,,19,1,1,0,60,W,1996-97
+03/01/1997,New Hampshire,Michael Larocque,,29,1,1,0,60,W,1996-97
+03/14/1997,UMass Lowell,Michael Larocque,,24,2,1,0,60,W,1996-97
+03/15/1997,New Hampshire,Michael Larocque,,21,2,1,0,60,W,1996-97
+03/22/1997,Denver,Michael Larocque,,21,3,1,0,60,W,1996-97
+03/27/1997,Michigan,Michael Larocque,,18,2,1,0,60,W,1996-97
+03/29/1997,North Dakota,Michael Larocque,,24,6,1,0,60,L,1996-97
+10/18/1997,Rensselaer,Tom Noble,SR,18,0,1,1,60,W,1997-98
+10/25/1997,Vermont,Michael Larocque,,32,2,1,0,60,W,1997-98
+10/31/1997,Massachusetts,Tom Noble,SR,22,2,1,0,60,W,1997-98
+11/08/1997,Maine,Michael Larocque,,29,0,1,1,60,W,1997-98
+11/15/1997,New Hampshire,Michael Larocque,,16,2,1,0,60,W,1997-98
+11/21/1997,Brown,Tom Noble,SR,15,1,1,0,60,W,1997-98
+11/25/1997,Harvard,Michael Larocque,,17,3,1,0,60,W,1997-98
+11/28/1997,Clarkson,Tom Noble,SR,32,0,1,1,60,W,1997-98
+12/04/1997,Merrimack,Tom Noble,SR,17,2,1,0,60,W,1997-98
+12/07/1997,Boston College,Michael Larocque,,29,1,1,0,60,W,1997-98
+12/09/1997,Boston College,Tom Noble,SR,27,3,1,0,60,T,1997-98
+12/12/1997,New Hampshire,Michael Larocque,,32,4,1,0,60,T,1997-98
+12/30/1997,Princeton,Tom Noble,SR,15,3,1,0,60,L,1997-98
+01/03/1998,Niagara,Michael Larocque,,9,2,1,0,60,W,1997-98
+01/09/1998,Boston College,Michael Larocque,,25,4,1,0,60,L,1997-98
+01/10/1998,Providence,Tom Noble,SR,21,0,1,1,60,W,1997-98
+01/16/1998,Northeastern,Tom Noble,SR,26,2,1,0,60,L,1997-98
+01/17/1998,Northeastern,Michael Larocque,,15,2,1,0,60,W,1997-98
+01/23/1998,Maine,Tom Noble,SR,26,3,1,0,60,W,1997-98
+01/24/1998,Maine,Michael Larocque,,15,2,1,0,60,W,1997-98
+01/30/1998,Merrimack,Tom Noble,SR,18,3,1,0,60,W,1997-98
+02/02/1998,Northeastern,Michael Larocque,,26,1,1,0,60,W,1997-98
+02/06/1998,UMass Lowell,Michael Larocque,,25,3,1,0,60,W,1997-98
+02/09/1998,Harvard,Tom Noble,SR,17,1,1,0,60,W,1997-98
+02/13/1998,UMass Lowell,Tom Noble,SR,16,5,1,0,60,L,1997-98
+02/14/1998,UMass Lowell,Michael Larocque,,27,1,1,0,60,W,1997-98
+02/20/1998,Providence,Michael Larocque,,21,1,1,0,60,W,1997-98
+02/27/1998,Massachusetts,Michael Larocque,,26,1,1,0,60,W,1997-98
+02/28/1998,Massachusetts,Michael Larocque,,12,1,1,0,60,W,1997-98
+03/05/1998,Northeastern,Michael Larocque,,34,2,1,0,60,W,1997-98
+03/08/1998,Merrimack,Michael Larocque,,18,1,1,0,60,W,1997-98
+03/13/1998,Merrimack,Michael Larocque,,21,1,1,0,60,L,1997-98
+03/14/1998,Merrimack,Michael Larocque,,23,5,1,0,60,W,1997-98
+03/15/1998,Merrimack,Michael Larocque,,24,5,1,0,60,L,1997-98
+03/29/1998,New Hampshire,Michael Larocque,,33,4,1,0,60,L,1997-98
+10/17/1998,Rensselaer,Michael Larocque,,26,3,1,0,60,L,1998-99
+10/30/1998,Providence,Michael Larocque,,27,5,1,0,60,L,1998-99
+10/31/1998,Providence,Michael Larocque,,23,6,1,0,60,L,1998-99
+11/13/1998,New Hampshire,Michael Larocque,,28,2,1,0,60,T,1998-99
+11/14/1998,New Hampshire,Michael Larocque,,29,3,1,0,60,L,1998-99
+11/20/1998,Boston College,Michael Larocque,,25,6,1,0,60,L,1998-99
+11/21/1998,Boston College,Michael Larocque,,32,2,1,0,60,W,1998-99
+11/24/1998,Harvard,Michael Larocque,,21,5,1,0,60,L,1998-99
+11/27/1998,Clarkson,Jason Tapp,FR,30,4,1,0,60,L,1998-99
+11/28/1998,St. Lawrence,Michael Larocque,,45,1,1,0,60,W,1998-99
+12/04/1998,Massachusetts,Michael Larocque,,25,2,1,0,60,W,1998-99
+12/05/1998,Massachusetts,Michael Larocque,,36,2,1,0,60,W,1998-99
+12/12/1998,UMass Lowell,Michael Larocque,,39,3,1,0,60,W,1998-99
+12/27/1998,Ohio State,Michael Larocque,,29,1,1,0,60,W,1998-99
+01/05/1999,Maine,Michael Larocque,,23,4,1,0,60,L,1998-99
+01/08/1999,Merrimack,Michael Larocque,,26,5,1,0,60,T,1998-99
+01/10/1999,Merrimack,Jason Tapp,FR,20,4,1,0,60,L,1998-99
+01/17/1999,Northeastern,Michael Larocque,,31,3,1,0,60,L,1998-99
+01/29/1999,UMass Lowell,Michael Larocque,,32,4,1,0,60,L,1998-99
+02/05/1999,Merrimack,Michael Larocque,,20,3,1,0,60,W,1998-99
+02/08/1999,Northeastern,Michael Larocque,,36,2,1,0,60,W,1998-99
+02/12/1999,New Hampshire,Michael Larocque,,32,2,1,0,60,T,1998-99
+02/13/1999,Providence,Michael Larocque,,38,6,1,0,60,L,1998-99
+02/20/1999,Maine,Michael Larocque,,30,1,1,0,60,W,1998-99
+02/26/1999,Northeastern,Michael Larocque,,23,1,1,0,60,W,1998-99
+02/27/1999,Northeastern,Michael Larocque,,19,4,1,0,60,L,1998-99
+03/05/1999,Boston College,Michael Larocque,,37,3,1,0,60,L,1998-99
+03/13/1999,Providence,Michael Larocque,,24,2,1,0,60,W,1998-99
+03/14/1999,Providence,Michael Larocque,,27,5,1,0,60,L,1998-99
+10/09/1999,Air Force,Jason Tapp,SO,13,3,1,0,60,W,1999-00
+10/10/1999,Alaska Anchorage,Rick DiPietro,FR,14,3,1,0,60,W,1999-00
+10/15/1999,Rensselaer,Jason Tapp,SO,18,3,1,0,60,L,1999-00
+10/30/1999,Providence,Rick DiPietro,FR,25,2,1,0,60,W,1999-00
+11/05/1999,Merrimack,Rick DiPietro,FR,29,2,1,0,60,W,1999-00
+11/06/1999,Merrimack,Jason Tapp,SO,18,2,1,0,60,W,1999-00
+11/12/1999,UMass Lowell,Rick DiPietro,FR,29,3,1,0,60,W,1999-00
+11/13/1999,Northeastern,Jason Tapp,SO,29,4,1,0,60,T,1999-00
+11/19/1999,New Hampshire,Rick DiPietro,FR,26,5,1,0,60,T,1999-00
+11/23/1999,Harvard,Rick DiPietro,FR,23,1,1,0,60,W,1999-00
+11/26/1999,Denver,Jason Tapp,SO,25,0,1,1,60,W,1999-00
+11/27/1999,Colorado College,Rick DiPietro,FR,34,1,1,0,60,W,1999-00
+12/03/1999,Massachusetts,Rick DiPietro,FR,18,1,1,0,60,W,1999-00
+12/04/1999,Massachusetts,Jason Tapp,SO,19,3,1,0,60,W,1999-00
+12/10/1999,Maine,Rick DiPietro,FR,36,4,1,0,60,L,1999-00
+12/27/1999,Ferris State,Jason Tapp,SO,22,4,1,0,60,L,1999-00
+12/28/1999,Minnesota Duluth,Jason Tapp,SO,28,8,1,0,60,L,1999-00
+01/08/2000,Boston College,Rick DiPietro,FR,36,4,1,0,60,T,1999-00
+01/09/2000,Boston College,Rick DiPietro,FR,19,1,1,0,60,W,1999-00
+01/16/2000,Maine,Rick DiPietro,FR,27,3,1,0,60,T,1999-00
+01/21/2000,UMass Lowell,Rick DiPietro,FR,29,0,1,1,60,W,1999-00
+01/23/2000,Yale,Jason Tapp,SO,22,1,1,0,60,T,1999-00
+01/28/2000,New Hampshire,Rick DiPietro,FR,24,3,1,0,60,T,1999-00
+01/29/2000,New Hampshire,Rick DiPietro,FR,21,2,1,0,60,W,1999-00
+02/04/2000,Massachusetts,Rick DiPietro,FR,23,2,1,0,60,W,1999-00
+02/07/2000,Harvard,Rick DiPietro,FR,21,0,1,1,60,W,1999-00
+02/11/2000,UMass Lowell,Jason Tapp,SO,35,3,1,0,60,W,1999-00
+02/14/2000,Boston College,Rick DiPietro,FR,31,1,1,0,60,W,1999-00
+02/18/2000,Providence,Rick DiPietro,FR,26,5,1,0,60,L,1999-00
+02/25/2000,Northeastern,Jason Tapp,SO,42,1,1,0,60,W,1999-00
+02/27/2000,Northeastern,Rick DiPietro,FR,23,3,1,0,60,W,1999-00
+03/03/2000,Merrimack,Rick DiPietro,FR,31,3,1,0,60,T,1999-00
+03/05/2000,Boston College,Jason Tapp,SO,24,6,1,0,60,L,1999-00
+03/10/2000,Massachusetts,Rick DiPietro,FR,12,2,1,0,60,W,1999-00
+03/11/2000,Massachusetts,Rick DiPietro,FR,24,2,1,0,60,W,1999-00
+03/17/2000,Maine,Rick DiPietro,FR,25,4,1,0,60,L,1999-00
+03/25/2000,St. Cloud State,Rick DiPietro,FR,23,3,1,0,60,W,1999-00
+03/26/2000,St. Lawrence,Rick DiPietro,FR,77,3,1,0,60,L,1999-00
+10/14/2000,Rensselaer,Jason Tapp,JR,27,5,1,0,60,L,2000-01
+10/21/2000,Vermont,Jason Tapp,JR,23,1,1,0,60,W,2000-01
+10/28/2000,Providence,Jason Tapp,JR,31,4,1,0,60,T,2000-01
+11/03/2000,Merrimack,Jason Tapp,JR,21,5,1,0,60,L,2000-01
+11/04/2000,Merrimack,Sean Fields,FR,25,0,1,1,60,W,2000-01
+11/10/2000,UMass Lowell,Sean Fields,FR,22,4,1,0,60,L,2000-01
+11/12/2000,Northeastern,Jason Tapp,JR,22,4,1,0,60,L,2000-01
+11/17/2000,New Hampshire,Sean Fields,FR,19,2,1,0,60,L,2000-01
+11/21/2000,Harvard,Jason Tapp,JR,14,4,1,0,60,L,2000-01
+11/24/2000,Denver,Sean Fields,FR,19,5,1,0,60,L,2000-01
+11/25/2000,Colorado College,Jason Tapp,JR,35,5,1,0,60,L,2000-01
+12/01/2000,Massachusetts,Jason Tapp,JR,33,2,1,0,60,W,2000-01
+12/02/2000,Massachusetts,Sean Fields,FR,21,2,1,0,60,W,2000-01
+12/08/2000,Maine,Jason Tapp,JR,23,2,1,0,60,W,2000-01
+12/29/2000,North Dakota,Jason Tapp,JR,37,3,1,0,60,W,2000-01
+01/06/2001,Boston College,Jason Tapp,JR,32,2,1,0,60,W,2000-01
+01/12/2001,Maine,Sean Fields,FR,31,3,1,0,60,T,2000-01
+01/13/2001,Maine,Jason Tapp,JR,20,3,1,0,60,L,2000-01
+01/19/2001,UMass Lowell,Jason Tapp,JR,31,4,1,0,60,L,2000-01
+01/26/2001,New Hampshire,Sean Fields,FR,36,1,1,0,60,W,2000-01
+01/27/2001,New Hampshire,Jason Tapp,JR,32,2,1,0,60,W,2000-01
+02/02/2001,Massachusetts,Sean Fields,FR,15,1,1,0,60,W,2000-01
+02/05/2001,Northeastern,Jason Tapp,JR,34,4,1,0,60,W,2000-01
+02/09/2001,UMass Lowell,Sean Fields,FR,18,3,1,0,60,L,2000-01
+02/12/2001,Boston College,Jason Tapp,JR,26,5,1,0,60,L,2000-01
+02/16/2001,Providence,Sean Fields,FR,23,4,1,0,60,L,2000-01
+02/23/2001,Northeastern,Jason Tapp,JR,37,1,1,0,60,W,2000-01
+02/24/2001,Northeastern,Jason Tapp,JR,23,4,1,0,60,L,2000-01
+03/02/2001,Merrimack,Sean Fields,FR,17,3,1,0,60,L,2000-01
+03/04/2001,Boston College,Jason Tapp,JR,29,5,1,0,60,L,2000-01
+03/10/2001,Providence,Sean Fields,FR,36,1,1,0,60,W,2000-01
+03/11/2001,Providence,Sean Fields,FR,48,4,1,0,60,L,2000-01
+10/13/2001,Rensselaer,Sean Fields,SO,14,5,1,0,60,W,2001-02
+10/20/2001,Vermont,Sean Fields,SO,26,3,1,0,60,W,2001-02
+10/28/2001,Merrimack,Sean Fields,SO,21,0,1,1,60,W,2001-02
+11/02/2001,Northeastern,Sean Fields,SO,27,3,1,0,60,W,2001-02
+11/04/2001,New Hampshire,Sean Fields,SO,37,1,1,0,60,T,2001-02
+11/09/2001,Maine,Sean Fields,SO,24,2,1,0,60,W,2001-02
+11/13/2001,Yale,Jason Tapp,SR,23,3,1,0,60,W,2001-02
+11/17/2001,Boston College,Sean Fields,SO,28,1,1,0,60,L,2001-02
+11/20/2001,Harvard,Sean Fields,SO,30,4,1,0,60,W,2001-02
+11/24/2001,Cornell,Jason Tapp,SR,24,3,1,0,60,W,2001-02
+11/25/2001,Cornell,Sean Fields,SO,15,4,1,0,60,L,2001-02
+12/01/2001,UMass Lowell,Sean Fields,SO,23,3,1,0,60,L,2001-02
+12/07/2001,Massachusetts,Sean Fields,SO,21,2,1,0,60,W,2001-02
+12/09/2001,Massachusetts,Sean Fields,SO,25,2,1,0,60,W,2001-02
+12/20/2001,Nebraska Omaha,Sean Fields,SO,19,1,1,0,60,W,2001-02
+12/21/2001,Nebraska Omaha,Jason Tapp,SR,21,4,1,0,60,L,2001-02
+01/04/2002,Northeastern,Sean Fields,SO,19,2,1,0,60,W,2001-02
+01/11/2002,Providence,Sean Fields,SO,31,5,1,0,60,T,2001-02
+01/18/2002,Boston College,Sean Fields,SO,29,1,1,0,60,W,2001-02
+01/20/2002,Boston College,Sean Fields,SO,28,1,1,0,60,W,2001-02
+01/27/2002,New Hampshire,Sean Fields,SO,29,5,1,0,60,L,2001-02
+01/30/2002,Merrimack,Sean Fields,SO,22,1,1,0,60,W,2001-02
+02/01/2002,Merrimack,Sean Fields,SO,17,2,1,0,60,W,2001-02
+02/04/2002,Boston College,Sean Fields,SO,23,3,1,0,60,W,2001-02
+02/08/2002,Massachusetts,Jason Tapp,SR,18,2,1,0,60,W,2001-02
+02/11/2002,Northeastern,Sean Fields,SO,25,3,1,0,60,W,2001-02
+02/15/2002,UMass Lowell,Sean Fields,SO,29,1,1,0,60,W,2001-02
+02/16/2002,UMass Lowell,Sean Fields,SO,15,3,1,0,60,W,2001-02
+02/22/2002,Providence,Sean Fields,SO,24,2,1,0,60,W,2001-02
+02/23/2002,Providence,Sean Fields,SO,23,2,1,0,60,W,2001-02
+03/02/2002,Maine,Sean Fields,SO,30,4,1,0,60,T,2001-02
+03/08/2002,Providence,Sean Fields,SO,25,2,1,0,60,W,2001-02
+03/09/2002,Providence,Sean Fields,SO,25,2,1,0,60,W,2001-02
+03/15/2002,Maine,Sean Fields,SO,25,4,1,0,60,L,2001-02
+03/24/2002,Maine,Sean Fields,SO,30,4,1,0,60,L,2001-02
 10/11/2002,Northern Michigan,Sean Fields,JR,21,4,1,0,65.00,T,2002-03
 10/12/2002,Rensselaer,Sean Fields,JR,14,1,1,0,60.00,W,2002-03
 10/18/2002,Vermont,Sean Fields,JR,25,1,1,0,65.00,T,2002-03

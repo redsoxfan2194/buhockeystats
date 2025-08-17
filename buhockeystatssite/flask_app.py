@@ -74,6 +74,8 @@ else:
   burb.initializeRecordBook()
   print('Record Book Initialized')
 
+burb.dfGameStatsMens = burb.dfGameStatsMens.query('name!="Unknown"')
+
 @app.errorhandler(404)
 def page_not_found(e):
     # note that we set the 404 status explicitly
@@ -230,7 +232,7 @@ def players():
         if formData['type'] != 'career':
             if (formData['pos'] !=
                     'all' and formData['position'] != 'goalie'):
-                dfStat = dfStat.query(f"pos=='{formData['pos']}'")
+                dfStat = dfStat.loc[dfStat['pos'].str.contains(formData['pos'])]
             if formData['yr'] != 'all':
                 dfStat = dfStat.query(f"yr=='{formData['yr']}'")
         if formData['type'] == 'game':

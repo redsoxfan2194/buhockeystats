@@ -192,6 +192,7 @@
 6	Dick Kelley	F	SO		18	23	41	—/6	1949-50
 20	Walt Anderson	F			3	5	8	—/12	1950-51
 11	William Jurgelevich	F			5	4	9	—/18	1950-51
+1	Paul Kelley	G	SO	1	0	1	1	—/—	1951-52
 14	Bill Downing	F	SR		9	13	22	—/17	1951-52
 5	Bob Barrett	F	SR		0	3	3	—/0	1951-52
 17	Dick Rodenhiser	F	FR	21	25	17	42	—/6	1951-52
@@ -495,6 +496,7 @@
 10	Ray Cournoyea	F	JR	29	22	23	45	—/14	1972-73
 18	Steve Doloff	F	SR	29	16	36	52	—/26	1972-73
 3	Vic Stanfield	D	SO	29	5	39	44	—/12	1972-73
+1	Ed Walsh	G	SR	29	0	1	1	—/—	1973-74
 18	Bill Bishop	F	JR	31	12	12	24	—/6	1973-74
 19	Bill Buckton	F	SO	31	16	18	34	—/22	1973-74
 17	Bill Burlington	F	JR	31	15	30	45	—/10	1973-74
@@ -560,6 +562,7 @@
 24	Robert Boileau	D	FR	2	0	0	0	—/0	1975-76
 8	Terry Meagher	F	SR	29	30	25	55	—/20	1975-76
 22	Vince Mullins	F		1	0	1	1	—/0	1975-76
+30	Jim Craig	G	FR	27	0	1	1	—/—	1976-77
 26	Bill LeBlond	F	FR	34	5	5	10	—/8	1976-77
 27	Bill O'Neill	D	SO	34	4	19	23	—/34	1976-77
 14	Bob Dudley	D	SR	30	7	16	23	—/20	1976-77
@@ -582,6 +585,7 @@
 12	Steve Gibson	F		12	1	2	3	—/6	1976-77
 18	Tony Meagher	F	FR	27	5	12	17	—/51	1976-77
 22	Vince Mullins	F		3	1	0	1	—/2	1976-77
+30	Jim Craig	G	SO	16	0	1	1	—/—	1977-78
 3	Bill Cotter	F	FR	32	2	8	10	—/16	1977-78
 15	Bill LeBlond	F	SO	32	8	15	23	—/16	1977-78
 27	Bill O'Neill	D	JR	32	3	15	18	—/22	1977-78
@@ -603,6 +607,8 @@
 5	Tim Kimball	F	FR	11	0	3	3	—/0	1977-78
 24	Todd Johnson	F	FR	29	2	2	4	—/2	1977-78
 18	Tony Meagher	F	SO	32	17	21	38	—/26	1977-78
+1	Jeff Weisman	G	SO	10	0	1	1	—/—	1978-79
+30	Jim Craig	G	JR	22	0	2	2	—/—	1978-79
 3	Bill Cotter	F	SO	30	9	17	26	—/30	1978-79
 15	Bill LeBlond	F	JR	28	5	15	20	—/26	1978-79
 27	Bill O'Neill	D	SR	30	0	18	18	—/36	1978-79
@@ -690,6 +696,7 @@
 7	T.J. Connolly	D	SO	24	2	13	15	—/60	1981-82
 22	Tim Little	F		25	3	7	10	—/20	1981-82
 8	Tom O'Regan	F	JR	28	18	34	52	—/67	1981-82
+35	Cleon Daskalakis	G	JR	24	0	1	1	—/—	1982-83
 20	Bob Darling	F	JR	7	3	4	7	—/2	1982-83
 13	Brad MacGregor	F	FR	28	5	6	11	—/8	1982-83
 10	Carl Van Camp	F	FR	7	1	2	3	—/6	1982-83
@@ -737,6 +744,7 @@
 25	Steve Crozier	F	FR	5	0	0	0	—/2	1983-84
 7	T.J. Connolly	D	SR	40	3	20	23	—/34	1983-84
 22	Tony Majkozak	F	SO	23	3	5	8	—/14	1983-84
+35	Peter Fish	G	FR	17	0	1	1	—/—	1984-85
 12	Brad MacGregor	F	JR	41	10	10	20	—/30	1984-85
 14	Brian Foreman	F	FR	24	3	2	5	—/14	1984-85
 6	Chris Matchett	D	JR	41	9	20	29	—/69	1984-85
@@ -830,6 +838,8 @@
 5	Tom Dion	D	FR	34	8	16	24	—/40	1987-88
 11	Tom Ryan	D	SR	33	9	14	23	—/12	1987-88
 22	Ville Kentala	F	JR	32	15	19	34	—/34	1987-88
+35	Peter Fish	G	JR	27	0	1	1	—/—	1987-88
+35	Peter Fish	G	SR	17	0	1	1	—/—	1988-89
 	Chuck Beauchain	F		6	1	1	2	—/2	1988-89
 3	Chris Lappin	D	SO	27	2	6	8	—/26	1988-89
 26	Chris McCann	F	SO	12	1	1	2	—/2	1988-89
@@ -877,6 +887,9 @@
 26	Stephen Foster	D	FR	28	0	8	8	—/26	1989-90
 5	Tom Dion	D	JR	3	0	0	0	—/4	1989-90
 3	Tony Amonte	F	FR	41	25	33	58	—/52	1989-90
+1	Scott Cashman	G	FR	39	0	1	1	—/—	1989-90
+30	John Bradley	G	SR	20	0	2	2	—/—	1990-91
+1	Scott Cashman	G	SO	22	0	2	2	—/—	1990-91
 19	Alexandre Legault	D	SO	19	2	9	11	—/30	1990-91
 21	Chris McCann	F	SR	41	9	9	18	—/24	1990-91
 25	Darin MacDonald	F	SR	22	2	4	6	—/20	1990-91
@@ -923,6 +936,8 @@
 19	Steve Thornton	F	FR	29	11	16	27	—/10	1991-92
 26	Stephen Foster	D	SO	12	0	4	4	—/12	1991-92
 5	Tom Dion	D	SR	35	5	12	17	—/34	1991-92
+1	Scott Cashman	G	JR	21	0	1	1	—/—	1991-92
+35	Derek Herlofsky	G	SO	19	0	2	2	—/—	1992-93
 14	Bob Lachance	F	FR	33	4	10	14	—/24	1992-93
 3	Chris O'Sullivan	D	FR	5	0	2	2	—/4	1992-93
 4	Dan Donato	D	JR	38	3	8	11	—/56	1992-93
@@ -945,6 +960,8 @@
 7	Rich Brennan	D	SO	40	9	11	20	—/68	1992-93
 19	Steve Thornton	F	SO	40	18	19	37	—/19	1992-93
 26	Stephen Foster	D	JR	34	2	6	8	—/42	1992-93
+1	Scott Cashman	G	SR	17	0	2	2	—/—	1992-93
+29	J.P. McKersie	G	JR	24	0	2	2	—/—	1993-94
 8	Bill Pierce	F	FR	31	4	4	8	—/28	1993-94
 11	Bob Lachance	F	SO	32	13	19	32	—/42	1993-94
 3	Chris O'Sullivan	D	SO	32	5	18	23	—/25	1993-94
@@ -1012,6 +1029,9 @@
 27	Shane Johnson	D	JR	40	3	13	16	—/50	1995-96
 9	Shawn Bates	F	JR	40	28	22	50	—/54	1995-96
 24	Travis Roy	F	FR	1	0	0	0	—/0	1995-96
+35	Derek Herlofsky	G	SR	24	0	3	3	—/—	1994-95
+30	Tom Noble	G	FR	18	0	2	2	—/—	1994-95
+30	Tom Noble	G	SO	28	0	1	1	—/—	1995-96
 6	Albie O'Connell	F	SO	41	12	12	24	—/72	1996-97
 8	Bill Pierce	F	SR	40	8	21	29	—/66	1996-97
 11	Bobby Hanson	F	FR	27	0	2	2	—/19	1996-97
@@ -1099,6 +1119,8 @@
 20	Ryan Priem	F	FR	22	0	1	1	—/24	1999-00
 9	Scott Perry	F	JR	41	0	3	3	—/18	1999-00
 21	Tommi Degerman	F	SR	42	19	24	43	—/18	1999-00
+29	Rick DiPietro	G	FR	29	0	2	2	—/—	1999-00
+83	Jason Tapp	G	JR	23	0	2	2	—/—	2000-01
 14	Carl Corazzini	F	SR	35	16	20	36	—/48	2000-01
 33	John Sabo	F	SO	35	6	8	14	—/58	2000-01
 25	Ken Magowan	F	FR	34	5	1	6	—/22	2000-01
@@ -1121,6 +1143,8 @@
 10	Mike DiMella	F	SR	1	0	0	0	—/0	2000-01
 20	Ryan Priem	F	SO	24	0	1	1	—/14	2000-01
 9	Scott Perry	F	SR	23	0	3	3	—/8	2000-01
+83	Jason Tapp	G	SR	7	0	1	1	—/—	2001-02
+31	Sean Fields	G	SO	33	0	1	1	—/—	2001-02
 	Bryan Miller	D	FR	34	4	15	19	—/12	2001-02
 26	David Klema	F	FR	38	6	11	17	—/4	2001-02
 11	John Sabo	F	JR	37	10	11	21	—/82	2001-02
