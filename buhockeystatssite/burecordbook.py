@@ -3930,6 +3930,13 @@ def getHatTrickList(gender):
   dfRes['date'] = pd.to_datetime(dfRes['date'])
   return dfRes
 
+def getMissingDates():
+  ''' returns Hat Trick List for given gender '''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"missing_dates.csv")
+  dfRes['date'] = pd.to_datetime(dfRes['date'])
+  return dfRes
+
+
 def getBirthdays(year,month):
   ''' returns Birthdays for given month and year'''
   dfBirthday = pd.read_csv(RECBOOK_DATA_PATH + 'birthdays.csv')

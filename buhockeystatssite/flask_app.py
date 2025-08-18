@@ -119,7 +119,7 @@ def missingdates():
     Returns:
       Flask Template : flask template containing missing_dates.html
     '''
-    return render_template('missing_dates.html',titletag=' - Missing Dates')
+    return render_template('missing_dates.html',missingDates=formatTable(burb.getMissingDates()),titletag=' - Missing Dates')
 
 
 @app.route('/players', methods=['POST', 'GET'])
