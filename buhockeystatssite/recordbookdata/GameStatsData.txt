@@ -1690,7 +1690,6 @@
 12/22/1951,Princeton,Jack Martin,F,,1,0,1,1951-52
 12/22/1951,Princeton,Keith Barnhill,F,SR,1,0,1,1951-52
 01/07/1952,Tufts,John Burns,F,,0,1,1,1951-52
-01/07/1952,Tufts,Paul Kelley,G,,0,1,1,1951-52
 01/07/1952,Tufts,Paul Cleary,F,,1,0,1,1951-52
 01/07/1952,Tufts,Mario Zanetti,F,JR,2,0,2,1951-52
 01/07/1952,Tufts,Keith Barnhill,F,SR,1,1,2,1951-52
@@ -1698,7 +1697,7 @@
 01/07/1952,Tufts,Tony Cicoria,F,,0,1,1,1951-52
 01/07/1952,Tufts,Dick Rodenhiser,F,FR,3,2,5,1951-52
 01/07/1952,Tufts,Dick Lee,D,,1,0,1,1951-52
-01/07/1952,Tufts,Dick Kelley,F,SR,2,4,6,1951-52
+01/07/1952,Tufts,Dick Kelley,F,SR,2,5,7,1951-52
 01/07/1952,Tufts,Bob Barrett,F,SR,1,0,1,1951-52
 01/07/1952,Tufts,Bill Downing,D,SR,0,1,1,1951-52
 01/07/1952,Tufts,Jack Martin,F,,1,2,3,1951-52
