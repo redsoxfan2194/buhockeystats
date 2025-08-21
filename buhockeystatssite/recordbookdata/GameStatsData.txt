@@ -11153,7 +11153,15 @@
 11/22/1994,Harvard,Bob Lachance,F,JR,1,0,1,1994-95
 11/22/1994,Harvard,Bill Pierce,F,SO,0,1,1,1994-95
 11/22/1994,Harvard,Jacques Joubert,F,SR,0,1,1,1994-95
-11/25/1994,Princeton,Unknown,,,6,0,6,1994-95
+11/25/1994,Princeton,Chris Kelleher,D,FR,1,1,2,1994-95
+11/25/1994,Princeton,Jacques Joubert,F,SR,2,1,3,1994-95
+11/25/1994,Princeton,Mike Prendergast,F,SR,1,0,1,1994-95
+11/25/1994,Princeton,Steve Thornton,F,SR,0,1,1,1994-95
+11/25/1994,Princeton,Bill Pierce,F,SO,1,0,1,1994-95
+11/25/1994,Princeton,Chris O'Sullivan,D,JR,1,0,1,1994-95
+11/25/1994,Princeton,Jon Coleman,D,SO,0,3,3,1994-95
+11/25/1994,Princeton,Rich Brennan,D,SR,0,1,1,1994-95
+11/25/1994,Princeton,Kaj Linna,D,SR,0,2,2,1994-95
 11/27/1994,Maine,Kenny Rausch,F,SR,1,0,1,1994-95
 11/27/1994,Maine,Steve Thornton,F,SR,0,1,1,1994-95
 11/27/1994,Maine,Shawn Bates,F,SO,1,0,1,1994-95
@@ -11221,7 +11229,13 @@
 12/30/1994,Western Michigan,Doug Wood,D,JR,0,1,1,1994-95
 12/30/1994,Western Michigan,Chris O'Sullivan,D,JR,1,0,1,1994-95
 12/30/1994,Western Michigan,Bob Lachance,F,JR,1,1,2,1994-95
-12/31/1994,Minnesota,Unknown,,,4,0,4,1994-95
+12/31/1994,Minnesota,Kenny Rausch,F,SR,2,0,2,1994-95
+12/31/1994,Minnesota,Chris O'Sullivan,D,JR,1,1,2,1994-95
+12/31/1994,Minnesota,Jay Pandolfo,F,JR,1,0,1,1994-95
+12/31/1994,Minnesota,Rich Brennan,D,SR,0,1,1,1994-95
+12/31/1994,Minnesota,Matt Wright,F,SO,0,1,1,1994-95
+12/31/1994,Minnesota,Chris Drury,F,FR,0,1,1,1994-95
+12/31/1994,Minnesota,Mike Prendergast,F,SR,0,1,1,1994-95
 01/06/1995,New Hampshire,Shawn Bates,F,SO,1,0,1,1994-95
 01/06/1995,New Hampshire,Steve Thornton,F,SR,1,0,1,1994-95
 01/06/1995,New Hampshire,Mike Prendergast,F,SR,1,0,1,1994-95
