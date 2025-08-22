@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 import numpy as np
 from pandas import Timestamp
 import pandas as pd
-
+import html as html_lib
 try:
     from burecbookpath import RECBOOK_DATA_PATH
 except ImportError:
