@@ -140,7 +140,9 @@ def generateRecordBook():
             if '‡' in i:
                 note = 'Win by forfeit (ineligible player)'
                 i = i.replace('‡', '')
-
+            if '‽' in i:
+                note = 'Mini-Game'
+                i = i.replace('‽', '')
             # search for a valid line and separate out the regex
             game = re.search(
                 r"(\d*\/\d*) (\w*) (?:\((.?ot)\))? ?(.*)\t(\S*|\S* \S*|\S* \S* \S*) ?(\(.*\))? (\d*-\d*)",
@@ -360,9 +362,6 @@ def generateWomensRecordBook():
             if '‡' in i:
                 note = 'Win by forfeit (ineligible player)'
                 i = i.replace('‡', '')
-            if '‽' in i:
-                note = 'Mini-Game'
-                i = i.replace('‽', '')
 
             # separate out record book line using regex
             game = re.search(
@@ -3369,6 +3368,8 @@ def getBeanpotStats(dfBean, query):
 
 def getMaxStreak(dfGStats,name,stat):
     dfRes=dfGStats.query(f'name == "{name}"').copy()
+    if((dfRes.tail(1)['date']<"10/1/2002").bool()):
+      return 'N/A'
     dfRes['isStat']=dfRes[stat]>=1
     dfRes['SoS']=dfRes['isStat'].ne(dfRes['isStat'].shift())
     dfRes['streak_id']=dfRes.SoS.cumsum()
@@ -3398,6 +3399,7 @@ def getMaxStreak(dfGStats,name,stat):
     return 'N/A'
 
 def getStreaks(dfGStats,stat='pts',minStr=3,sortVal='Length',ascend=False):
+    dfGStats=dfGStats.query('date>"10/1/2002"')
     dfResTeam=pd.DataFrame()
     if(sortVal=="Length"):
       ascend^=True
