@@ -254,13 +254,13 @@ def generateRecordBook():
             
     # get ranking 
     dfGames = pd.merge_asof(
-      dfGames, 
+      dfGames,
       dfPollsMens[['DATE']].drop_duplicates(),
       left_on='date', 
       right_on='DATE', 
       direction='backward',  # Change direction to 'forward'
-      tolerance=pd.Timedelta('7 days'))
-    
+      tolerance=pd.Timedelta('90 days'))
+
     dfGames['BURank']=100
     dfGames['OppRank']=100
     
@@ -279,6 +279,8 @@ def getRank(row,gender):
       dfPolls=dfPollsMens.copy()
     elif(gender=="Womens"):
       dfPolls=dfPollsWomens.copy()
+    if(row['result']=="N"):
+        return pd.Series([100,100])
     poll=dfPolls.loc[dfPolls['DATE']==row['DATE']]
     burank=poll.query('TEAM=="Boston University"')['RK']
     opprank=poll.query(f'TEAM=="{row["opponent"]}"')['RK']
@@ -358,6 +360,9 @@ def generateWomensRecordBook():
             if '‡' in i:
                 note = 'Win by forfeit (ineligible player)'
                 i = i.replace('‡', '')
+            if '‽' in i:
+                note = 'Mini-Game'
+                i = i.replace('‽', '')
 
             # separate out record book line using regex
             game = re.search(
