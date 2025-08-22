@@ -130,7 +130,7 @@ def generaterandomrecordstat(recQueryList, qChoice):
   validQuery=False
   resStr=""
   while(not validQuery):
-    opsDict['opponent']['choice']=random.choice(burb.dfGames.query('result !="E" and tourney!="Non-Collegiate"').opponent.unique())
+    opsDict['opponent']['choice']=random.choice(burb.dfGames.query('result !="E" and result !="N" and tourney!="Non-Collegiate"').opponent.unique())
     opsDict['tourney']['choice']=random.choice(burb.dfGames.tourney.unique())
     opsDict['arena']['choice']=random.choice(burb.dfGames.arena.unique())
     opsDict['coach']['choice']=random.choice(burb.dfGames.coach.unique())
@@ -175,7 +175,7 @@ def generaterandomrecordstat(recQueryList, qChoice):
             resStr=f"BU has a {res} record {opsDict[opsChoice]['type']} {opsDict[opsChoice]['choice']}"
         else:
             if('last' in qChoice):
-                res=dfRes.sort_values('date',ascending=False).iloc[0]
+                res=dfRes.query('result!="N"').sort_values('date',ascending=False).iloc[0]
                 date=datetime.strptime(str(res['date'])[:10],'%Y-%m-%d').strftime('%b %d, %Y')
                 if(res['ot'] is not None):
                     otStr=f" in {res['ot'].upper()}"
