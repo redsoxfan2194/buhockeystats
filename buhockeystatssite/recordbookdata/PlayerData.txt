@@ -604,8 +604,35 @@
 23	Doug Grimes	SO	F	6-3	205	R	02	Brookline, Massachusetts / Lincoln Stars (USHL)	2024-25
 26	Jack Gorton	SO	F	6-3	196	R	02	New York, New York / Victoria Grizzlies (BCHL)	2024-25
 33	Max Lacroix	SO	G	6-0	180	L	03	Denver, Colorado / Colorado Grit (NAHL)	2024-25
+40	Mikhail Yegorov	FR	G	6-5	180	St. Petersburg, Russia /	Omaha Lancers (USHL)	2024-25
 34	Cole Eiserman	FR	F	6-0	200	L	06	Newburyport, Massachusetts / U.S. National Under-18 Team	2024-25
 44	Cole Hutson	FR	D	5-11	171	L	06	Chicago, Illinois / U.S. National Under-18 Team (NTDP)	2024-25
 61	Alex Zetterberg	FR	F	5-8	164	R	06	Sundsvall, Sweden / Örebro HK (J20 Nationell)	2024-25
 62	Mathieu Caron	SR	G	6-0	195	L	00	Abbotsford, British Columbia / Chilliwack Chiefs (BCHL)  Previous College: Brown (2021-23)	2024-25
 78	Sascha Boumedienne	FR	D	6-2	183	L	07	Stockholm, Sweden / Youngstown Phantoms (USHL)	2024-25
+1	Steven Luciano	FR	G	6-0	180	New Canaan, Connecticut / Salisbury School	2025-26
+2	Gavin McCarthy	JR	D	6-2	188	Clarence Center, New York / Muskegon Lumberjacks (USHL)	2025-26
+7	Nick Roukounakis	SO	F	6-2	230	Pembroke, Massachusetts / Tri-City Storm (USHL)	2025-26
+8	Brandon Svoboda	SO	F	6-3	210	Pittsburgh, Pennsylvania / Fargo Force (USHL)	2025-26
+9	Sacha Boisvert	SO	F	6-3	190	Trois-Rivières, Quebec / Muskegon Lumberjacks (USHL) Previous College: North Dakota (2024-25)	2025-26
+10	Jonathan Morello	FR	F	6-2	193	Toronto, Ontario / Dubuque Fighting Saints (USHL)	2025-26
+12	Jack Harvey	JR	F	5-10	173	Stacy, Minnesota / Chicago Steel (USHL)	2025-26
+14	Mick Frechette	JR	D	6-2	200	Weston, Massachusetts / Dexter Southfield	2025-26
+15	Carter Amico	FR	D	6-5	225	Westbrook, Maine / U.S. National Under-18 Team	2025-26
+16	Conrad Fondrk	FR	F	6-0	195	White Bear Lake, Minnesota / U.S. National Under-18 Team	2025-26
+18	Jay Feldberg	FR	F	6-0	185	Toronto, Ontario / Toronto JR Canadiens (OJHL)	2025-26
+19	Jack Murtagh	FR	F	6-1	195	East Greenbush, New York / U.S. National Under-18 Team	2025-26
+21	Ryder Ritchie	FR	F	6-2	190	Kelowna, British Columbia / Medicine Hat Tigers (WHL)	2025-26
+22	Aiden Celebrini	JR	D	6-1	195	Vancouver, British Columbia / Brooks Bandits (AJHL)	2025-26
+23	Owen McLaughlin	SR	F	6-0	175	Spring City, Pennsylvania / U.S. National Under-18 Team Previous College: North Dakota (2022-25)	2025-26
+25	Ben Merrill	FR	F	6-4	205	Hingham, Massachusetts / Penticton Vees (BCHL)	2025-26
+26	John McNelis	FR	F	5-10	165	Potomac, Maryland / Cedar Rapids RoughRiders (USHL)	2025-26
+27	Kyle Kim	FR	D	6-2	180	Seoul, South Korea / New Jersey JR Titans (NAHL)	2025-26
+33	Max Lacroix	JR	G	6-0	180	Denver, Colorado / Colorado Grit (NAHL)	2025-26
+34	Cole Eiserman	SO	F	6-0	200	Newburyport, Massachusetts / U.S. National Under-18 Team	2025-26
+38	Kamil Bednarik	SO	F	6-1	188	Elmhurst, Illinois / U.S. National Under-18 Team	2025-26
+40	Mikhail Yegorov	SO	G	6-5	180	St. Petersburg, Russia / Omaha Lancers (USHL)	2025-26
+44	Cole Hutson	SO	D	5-11	171	Chicago, Illinois / U.S. National Under-18 Team	2025-26
+57	Malte Vass	FR	D	6-3	193	Karlstad, Sweden / Färjestad BK (J20 Nationell)	2025-26
+78	Sascha Boumedienne	SO	D	6-2	183	Stockholm, Sweden / Youngstown Phantoms (USHL)	2025-26
+91	Charlie Trethewey	FR	D	6-2	200	Woodbine, Maryland / U.S. National Under-18 Team	2025-26

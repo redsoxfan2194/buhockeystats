@@ -35,7 +35,8 @@
 2011-15 Anthony Moccia
 2015-16 Max Prawdzik
 2017-20 Nico Lynch
-2023-25 Billy Girard IV
+2024-25 Billy Girard IV
+2025-26 Steven Luciano
 #2
 1927-28 William Gibson
 1929-30 Bob Elliott
@@ -76,7 +77,7 @@
 2013-15 Ahti Oksanen
 2015-19 Shane Switzer
 2019-23 Case McCarthy
-2023-25 Gavin McCarthy
+2023-26 Gavin McCarthy
 #3
 1927-28 Hugo Nelson
 1929-30 Richard French
@@ -237,7 +238,7 @@
 2017-19 Chad Krys
 2019-22 Alex Vlasic
 2023-24 Case McCarthy
-2024-25 Nick Roukounakis
+2024-26 Nick Roukounakis
 #8
 1927-28 Richard Lombard
 1929-30 Leo Baron
@@ -270,7 +271,7 @@
 2013-14 Brendan Collier
 2015-19 Ryan Cloonan
 2020-24 Cade Webber
-2024-25 Brandon Svoboda
+2024-26 Brandon Svoboda
 #9
 1927-28 Holmes Whitmore
 1929-30 Robert Goodale
@@ -304,6 +305,7 @@
 2016-17 Kieffer Bellows
 2017-22 Logan Cockerill
 2022-25 Ryan Greene
+2025-26 Sacha Boisvert
 #10
 1927-28 William Goodale
 1935-37 George Hoar
@@ -341,6 +343,7 @@
 2016-20 Gabriel Chabot
 2020-24 Nick Zabaneh
 2024-25 Brehdan Engum
+2025-26 Jonathan Morello
 #11
 1929-30 Paul Bergholtz
 1936-37 Harry Cleverly
@@ -412,7 +415,7 @@
 2014-18 Chase Phelps
 2018-19 Jake Wise
 2019-23 Jamie Armstrong
-2023-25 Jack Harvey
+2023-26 Jack Harvey
 #13
 1936-37 Veto Neviackas
 1939-40 Bill Shoemaker
@@ -467,7 +470,7 @@
 2014-15 Dillon Lawrence
 2015-19 Bobo Carpenter
 2019-23 Sean Driscoll
-2023-25 Mick Frechette
+2023-26 Mick Frechette
 #15
 1929-30 Carl Clem
 1936-37 Carl Engberg
@@ -502,6 +505,7 @@
 2019-22 Markus Boguslavsky
 2022-23 Lachlan Getz
 2024-25 Matt Copponi
+2025-26 Carter Amico
 #16
 1929-30 Jacob Arkin
 1936-37 Herbert Kaiser
@@ -537,6 +541,7 @@
 2018-19 Max Willman
 2019-22 Robert Mastrosimone
 2022-24 Jeremy Wilmer
+2025-26 Conrad Fondrk
 #17
 1929-30 Hugo Nelson
 1935-36 Sydney Borofsky
@@ -606,6 +611,7 @@
 2019-20 Alex Brink
 2020-23 Jay O'Brien
 2023-25 Shane Lachance
+2025-26 Jay Feldberg
 #19
 1936-37 — Boudakian
 1949-50 Bob Bell
@@ -644,6 +650,7 @@
 2017-18 Hank Crone
 2018-21 Jack DeBoer
 2021-25 Jack Page
+2025-26 Jack Murtagh
 #20
 1936-37 Robert Colburn
 1947-50 Walt Anderson
@@ -704,6 +711,7 @@
 2016-20 Patrick Harper
 2020-22 Max Kaufman
 2022-25 Devin Kaplan
+2025-26 Ryder Ritchie
 #22
 1955-56 Forbes Keith
 1956-58 Don MacLeod
@@ -727,7 +735,7 @@
 2013-17 Tommy Kelley
 2017-21 Jake Witkowski
 2021-23 Brian Carrabes
-2023-25 Aiden Celebrini
+2023-26 Aiden Celebrini
 #23
 1939-40 Bob Lind
 1955-56 Bill McDonnell
@@ -757,6 +765,7 @@
 2018-19 Dominic Vidoli
 2019-23 Domenick Fensore
 2023-25 Doug Grimes
+2025-26 Owen McLaughlin
 #24
 1955-56 Henry Levin
 1956-57 Richard Lyons
@@ -800,6 +809,7 @@
 2014-16 Brandon Fortunato
 2017-18 David Farrance
 2019-24 Sam Stevens
+2025-26 Ben Merrill
 #26
 1956-57 Paul DiGuglielmo
 1957-58 Jim MacKay
@@ -824,6 +834,7 @@
 2017-20 Kasper Kotkansalo
 2020-22 Joseph Campolieto
 2023-25 Jack Gorton
+2025-26 John McNelis
 #27
 1956-57 Dan Heffernan
 1956-57 Jim Cross
@@ -851,6 +862,7 @@
 2017-18 Brady Tkachuk
 2019-23 John Copeland
 2023-24 Jack Hughes
+2025-26 Kyle Kim
 #28
 1985-86 Ian Wood
 1989-90 Ron Trentini
@@ -909,9 +921,9 @@
 2007-09 Colin Wilson
 2018-20 Hugo Blixt
 2021-22 Ty Amonte
-2023-25 Max Lacroix
+2023-26 Max Lacroix
 #34
-2024-25 Cole Eiserman
+2024-26 Cole Eiserman
 #35
 1973-76 Pat Devlin
 1977-78 Bob Wels
@@ -924,13 +936,17 @@
 2003-07 John Curry
 #37
 2021-23 Matt Brown
+#38
+Kamil Bednarik
 #39
 1999-03 Andy Warren
 #40
 1950-51 Ed Cahoon
-2024-25 Mikhail Yegorov
+2024-26 Mikhail Yegorov
 #44
-2024-25 Cole Hutson
+2024-26 Cole Hutson
+#57
+2025-26 Malte Vass
 #61
 2024-25 Alex Zetterberg
 #62
@@ -938,8 +954,10 @@
 #71
 2023-24 Macklin Celebrini
 #78
-2024-25 Sascha Boumedienne
+2024-26 Sascha Boumedienne
 #83
 1998-02 Jason Tapp
+#91
+2025-26 Charlie Trethewey
 #97
 2005-09 Matt Gilroy
