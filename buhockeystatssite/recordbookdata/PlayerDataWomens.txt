@@ -488,3 +488,27 @@
 33	Emily McDonald	SR	G	5-5	N/A	03	Essex, Vermont / BU Club Team	2024-25
 37	Callie Shanahan	SR	G	5-10	L	03	Commerce, Michigan / HoneyBaked	2024-25
 92	Mari Pietersen	SO	G	5-6	N/A	05	Goodwood, Ontario / Etobicoke Jr. Dolphins	2024-25
+1	Michelle Pasiechnyk	GR	G	L	2002	5-9	Ottawa, Ontario / Clarkson	2025-26
+2	Maeve Carey	SR	D	R	2003	5-4	Gloucester, Massachusetts / Stonehill	2025-26
+4	Lucy Thiessen	FR	D	L	2005	5-5	Alexandria, Virginia / BK Selects	2025-26
+6	Kate Meinert	SO	D	R	2005	5-5	Moon Township, Pennsylvania / BK Selects	2025-26
+7	Ella Belfry	JR	D	L	2004	5-6	Ridgeway, Ontario / Colgate	2025-26
+8	Lola Reid	SO	F	R	2006	6-0	Lincoln, Nebraska / Shattuck-St. Mary's	2025-26
+9	Mia Vergilii	FR	F	R	2007	5-6	Brecksville, Ohio / Shattuck-St. Mary’s	2025-26
+10	Tessa Demain	SO	D	R	2005	5-7	Wolfeboro, New Hampshire / St. Paul's School	2025-26
+11	Sydney Healey	SR	F	L	2004	5-7	Arthur, Ontario / Burlington Barracudas	2025-26
+12	Avery Supryka	FR	D	L	2006	5-9	Ottawa, Ontario / Whitby Junior Wolves	2025-26
+15	Anežka Cabelová	FR	F	L	2006	5-3	Ceský Krumlov, Czechia / RINK Hockey Academy Kelowna 	2025-26
+16	Luisa Welcke	SR	F	R	2002	5-5	Heidelberg, Germany / Maine	2025-26
+18	Neely Nicholson	JR	F	L	2004	5-8	Pittsburgh, Pennsylvania / Shady Side Academy	2025-26
+19	Clara Yuhn	SR	F	R	2004	5-9	Bloomfield Hills, Michigan / Detroit Little Caesars AAA	2025-26
+21	Riley Walsh	SR	F	R	2004	5-5	Duxbury, Massachusetts / Union	2025-26
+22	Lexie Bertelsen	FR	F	L	2007	5-2	BelmOntario Ontario / Etobicoke Jr. Dolphins	2025-26
+23	Greta Henderson	JR	F	R	2005	5-6	Regina, Saskatchewan / St. Cloud State	2025-26
+24	Maeve Kelly	SR	D	R	2004	5-9	Victoria, Minnesota / Holy Family	2025-26
+26	Lilli Welcke	SR	F	R	2002	5-7	Heidelberg, Germany / Maine	2025-26
+27	Keira Healey	SO	D	L	2006	5-7	Arthur, Ontario / Etobicoke Jr. Dolphins	2025-26
+28	Kaileigh Quigg	SO	F	L	2006	5-10	Keswick, Ontario / Durham West Jr. Lightning	2025-26
+33	Sydney Fogu	FR	G	L	2006	5-9	Bayonne, New Jersey / Bayonne	2025-26
+35	Jackie Wright	FR	G	L		5-4	Walpole, Massachusetts / St. Mark's School	2025-26
+92	Mari Pietersen	JR	G	L	2004	5-6	Goodwood, Ontario / Etobicoke Jr. Dolphins	2025-26
