@@ -890,8 +890,10 @@ def noteables():
     Returns:
       Flask Template : flask template containing season_notables.html
     '''
-    currSeasonM=burb.dfGameStatsMens.season.tail(1).to_string(index=False,header=False)
-    currSeasonW=burb.dfGameStatsWomens.season.tail(1).to_string(index=False,header=False)
+    #currSeasonM=burb.dfGameStatsMens.season.tail(1).to_string(index=False,header=False)
+    #currSeasonW=burb.dfGameStatsWomens.season.tail(1).to_string(index=False,header=False)
+    currSeasonM=burb.dfSeasSkateMens.season.tail(1).to_string(index=False,header=False)
+    currSeasonW=burb.dfSeasSkateWomens.season.tail(1).to_string(index=False,header=False)
     return render_template(
     'season_notables.html',titletag=' - Notables',
     mHatTricksCurr=burb.getHatTricks(burb.dfGameStatsMens,currSeasonM),
