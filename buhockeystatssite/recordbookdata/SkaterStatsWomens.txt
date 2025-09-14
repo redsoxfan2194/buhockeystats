@@ -118,9 +118,9 @@ Holze,Taylor 2010-14 122 14 25 39 18/44
 Bach,Victoria 2014-18 145 104 94 198 32/64
 FitzGerald,Ani 2022-25 91 8 11 19 24/51
 Disher,Brooke 2022-24 69 10 18 28 19/38
-Healey,Sydney 2022-25 106 27 22 49 11/22
-Kelly,Maeve 2022-25 104 2 18 20 18/36
-Yuhn,Clara 2022-25 106 28 25 53 17/37
+Healey,Sydney 2022-26 106 27 22 49 11/22
+Kelly,Maeve 2022-26 104 2 18 20 18/36
+Yuhn,Clara 2022-26 106 28 25 53 17/37
 Huntley,Ella 2023-24 22 1 4 5 3/6
 Kinsler,Jackson 2023-24 26 1 1 2 2/4
 Law,Alex 2023-25 64 7 15 22 22/47
