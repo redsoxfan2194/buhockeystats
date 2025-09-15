@@ -440,7 +440,7 @@ def generateWomensRecordBook():
     left_on='date', 
     right_on='DATE', 
     direction='backward',  # Change direction to 'forward'
-    tolerance=pd.Timedelta('7 days'))
+    tolerance=pd.Timedelta('90 days'))
     
     dfWomensGames['BURank']=np.nan
     dfWomensGames['OppRank']=np.nan
