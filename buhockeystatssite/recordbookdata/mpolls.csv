@@ -3215,11 +3215,6 @@ RK,TEAM,DATE,SEASON
 7,Minnesota,1990-10-15,1991
 9,Lake Superior State,1990-10-15,1991
 9,Maine,1990-10-15,1991
-30,Cornell,1990-10-15,1991
-30,Clarkson,1990-10-15,1991
-30,Rensselaer,1990-10-15,1991
-30,Minnesota Duluth,1990-10-15,1991
-30,Harvard,1990-10-15,1991
 1,Boston University,1990-10-22,1991
 2,Lake Superior State,1990-10-22,1991
 3,Northern Michigan,1990-10-22,1991
@@ -3583,9 +3578,6 @@ RK,TEAM,DATE,SEASON
 8,Northern Michigan,1992-02-24,1992
 8,Wisconsin,1992-02-24,1992
 10,New Hampshire,1992-02-24,1992
-30,Clarkson,1992-02-24,1992
-30,Providence,1992-02-24,1992
-30,Western Michigan,1992-02-24,1992
 1,Maine,1992-03-02,1992
 2,Minnesota,1992-03-02,1992
 3,Michigan,1992-03-02,1992
@@ -3596,8 +3588,6 @@ RK,TEAM,DATE,SEASON
 8,Northern Michigan,1992-03-02,1992
 9,St. Lawrence,1992-03-02,1992
 10,New Hampshire,1992-03-02,1992
-30,Harvard,1992-03-02,1992
-30,Providence,1992-03-02,1992
 1,Michigan,1992-10-26,1993
 2,Maine,1992-10-26,1993
 3,Lake Superior State,1992-10-26,1993
@@ -3769,10 +3759,6 @@ RK,TEAM,DATE,SEASON
 8,Wisconsin,1993-03-01,1993
 9,Rensselaer,1993-03-01,1993
 10,Minnesota,1993-03-01,1993
-30,Brown,1993-03-01,1993
-30,Clarkson,1993-03-01,1993
-30,Michigan State,1993-03-01,1993
-30,New Hampshire,1993-03-01,1993
 1,Lake Superior State,1993-10-25,1994
 2,Wisconsin,1993-10-25,1994
 3,Maine,1993-10-25,1994
@@ -3783,13 +3769,6 @@ RK,TEAM,DATE,SEASON
 8,Michigan Tech,1993-10-25,1994
 9,Northern Michigan,1993-10-25,1994
 10,Harvard,1993-10-25,1994
-30,Colorado College,1993-10-25,1994
-30,Bowling Green State,1993-10-25,1994
-30,Clarkson,1993-10-25,1994
-30,UMass Lowell,1993-10-25,1994
-30,Miami,1993-10-25,1994
-30,St. Lawrence,1993-10-25,1994
-30,New Hampshire,1993-10-25,1994
 1,Lake Superior State,1993-11-01,1994
 2,Boston University,1993-11-01,1994
 3,Maine,1993-11-01,1994
@@ -3971,9 +3950,6 @@ RK,TEAM,DATE,SEASON
 8,UMass Lowell,1994-03-07,1994
 9,Wisconsin,1994-03-07,1994
 10,Western Michigan,1994-03-07,1994
-30,Clarkson,1994-03-07,1994
-30,New Hampshire,1994-03-07,1994
-30,Rensselaer,1994-03-07,1994
 1,Boston University,1994-10-24,1995
 2,Minnesota,1994-10-24,1995
 3,Michigan State,1994-10-24,1995
@@ -4159,15 +4135,6 @@ RK,TEAM,DATE,SEASON
 11,Bowling Green State,1995-10-16,1996
 12,Colgate,1995-10-16,1996
 13,Minnesota Duluth,1995-10-16,1996
-30,Denver,1995-10-16,1996
-30,Wisconsin,1995-10-16,1996
-30,Miami,1995-10-16,1996
-30,Clarkson,1995-10-16,1996
-30,Michigan Tech,1995-10-16,1996
-30,Harvard,1995-10-16,1996
-30,Merrimack,1995-10-16,1996
-30,Brown,1995-10-16,1996
-30,UMass Lowell,1995-10-16,1996
 1,Boston University,1995-10-23,1996
 2,Colorado College,1995-10-23,1996
 3,Maine,1995-10-23,1996
@@ -4181,12 +4148,6 @@ RK,TEAM,DATE,SEASON
 11,New Hampshire,1995-10-23,1996
 11,Denver,1995-10-23,1996
 13,Western Michigan,1995-10-23,1996
-30,Minnesota Duluth,1995-10-23,1996
-30,Colgate,1995-10-23,1996
-30,Providence,1995-10-23,1996
-30,Wisconsin,1995-10-23,1996
-30,Harvard,1995-10-23,1996
-30,Clarkson,1995-10-23,1996
 1,Boston University,1995-10-30,1996
 2,Colorado College,1995-10-30,1996
 3,Lake Superior State,1995-10-30,1996
