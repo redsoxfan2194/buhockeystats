@@ -1,8 +1,11 @@
 @font-face {
-	font-family: yearbook-solid;
-	src: url('font/yearbooksolidcyr_regular.ttf') format('truetype');
-	font-display: swap;
+  font-family: "yearbook-solid";
+  src: url("font/yearbooksolidcyr_regular.woff2") format("woff2"),
+       url("font/yearbooksolidcyr_regular.woff") format("woff"),
+       url("font/yearbooksolidcyr_regular.ttf") format("truetype");
+  font-display: swap;
 }
+
 
 body{
   font-family: 'Quicksand';
