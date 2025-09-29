@@ -23,7 +23,8 @@
 12/07/1923,MIT,Adolphus Provost,D,,1,0,1,1923-24
 12/18/1923,Harvard,Robert Blaise,F,,1,0,1,1923-24
 01/16/1924,Maple AA,Adolphus Provost,D,,1,0,1,1923-24
-02/02/1924,Maine,Unknown,,,2,0,2,1923-24
+02/02/1924,Maine,Robert Blaise,F,,1,0,1,1923-24
+02/02/1924,Maine,Adolphus Provost,D,,1,0,1,1923-24
 12/05/1924,MIT,David Goldfine,F,,1,0,1,1924-25
 12/05/1924,MIT,Morey Kontoff,D,,1,0,1,1924-25
 12/05/1924,MIT,Julian Kontoff,F,,1,0,1,1924-25
