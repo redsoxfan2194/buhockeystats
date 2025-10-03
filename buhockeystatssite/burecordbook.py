@@ -3429,7 +3429,9 @@ def getStreaks(dfGStats,stat='pts',minStr=3,sortVal='Length',ascend=False):
 
 def getTopStreaks(dfGStats,season="2022-23",stat='pts',topN=5):
     dfResTeam=pd.DataFrame()
-    for player in dfGStats.name.unique():
+    if(dfGStats.query(f'season=="{season}"').empty):
+      return "N/A"
+    for player in dfGStats.query(f'season=="{season}"').name.unique():
         dfRes=dfGStats.query(f'name == "{player}"').copy()
         stat='pts'
         dfRes['isStat']=dfRes[stat]>=1
@@ -3455,7 +3457,9 @@ def getTopStreaks(dfGStats,season="2022-23",stat='pts',topN=5):
 
 def getActiveStreaks(dfGStats,season="2022-23",stat='pts'):
     dfResTeam=pd.DataFrame()
-    for player in dfGStats.name.unique():
+    if(dfGStats.query(f'season=="{season}"').empty):
+      return "N/A"
+    for player in dfGStats.query(f'season=="{season}"').name.unique():
         dfRes=dfGStats.query(f'name == "{player}"').copy()
         stat='pts'
         dfRes['isStat']=dfRes[stat]>=1
@@ -4045,7 +4049,8 @@ awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 "2019-20" : ["David Farrance"],
 "2021-22" : ["David Farrance"],
 "2022-23" : ["Lane Hutson"],
-"2023-24" : ["Macklin Celebrini","Lane Hutson"]},
+"2023-24" : ["Macklin Celebrini","Lane Hutson"],
+"2024-25" : ['Cole Hutson']},
 
 "Second Team All-American":{"1983-84" : ["T.J. Connolly"],
 "1985-86" : ["Jay Octeau","John Cullen","Clark Donatelli"],
@@ -4079,7 +4084,8 @@ awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 2017:"Clayton Keller",
 2019:"Joel Farabee",
 2023:"Lane Hutson",
-2024:"Macklin Celebrini"},
+2024:"Macklin Celebrini",
+2025:"Cole Hutson"},
 
 "Hockey East Player of the Year" : {1996:"Jay Pandolfo",
 1997:"Chris Drury",
@@ -4091,7 +4097,8 @@ awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 "Tim Taylor Award":{2009:"Kieran Millan",
 2015:"Jack Eichel",
 2017:"Clayton Keller",
-2024:"Macklin Celebrini"},
+2024:"Macklin Celebrini",
+2025:"Cole Hutson"},
 
 "NCAA Scoring Champion":{"Jack Garrity": [1950],
 "Herb Wakabayashi": [1967],
