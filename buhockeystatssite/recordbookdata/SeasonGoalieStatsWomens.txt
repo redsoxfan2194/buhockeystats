@@ -55,4 +55,4 @@
 1	Michelle Pasiechnyk	GR	0	00:00	0	0	.000	.00	0-0-0	0	2025-26
 33	Sydney Fogu	FR	0	00:00	0	0	.000	.00	0-0-0	0	2025-26
 35	Jackie Wright	FR	0	00:00	0	0	.000	.00	0-0-0	0	2025-26
-92	Mari Pietersen	JR	0	00:00	0	0	.000	.00	0-0-0	0	2025-26
+92	Mari Pietersen	JR	1	60:00	5	44	.898	5.00	0-1-0	0	2025-26
