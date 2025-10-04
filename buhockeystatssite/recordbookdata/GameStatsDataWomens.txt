@@ -13781,3 +13781,11 @@
 03/13/2025,Clarkson,Keira Healey,D,FR,0,0,0,2024-25
 03/13/2025,Clarkson,Kaileigh Quigg,F,FR,0,0,0,2024-25
 03/13/2025,Clarkson,Callie Shanahan,G,SR,0,0,0,2024-25
+10/03/2025,Minnesota,Maeve Carey,D,SR,0,0,0,2025-26
+10/03/2025,Minnesota,Lucy Thiessen,D,FR,0,0,0,2025-26
+10/03/2025,Minnesota,Ella Belfry,D,JR,0,0,0,2025-26
+10/03/2025,Minnesota,Lola Reid,F,SO,0,0,0,2025-26
+10/03/2025,Minnesota,Mia Vergilii,F,FR,0,0,0,2025-26
+10/03/2025,Minnesota,Tessa Demain,D,SO,0,0,0,2025-26
+10/03/2025,Minnesota,Sydney Healey,F,SR,0,0,0,2025-26
+10/03/2025,Minnesota,Avery Supryka,D,FR,0,0,0,2025-26

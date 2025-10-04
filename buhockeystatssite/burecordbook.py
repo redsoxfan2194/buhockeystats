@@ -3743,7 +3743,7 @@ def updateGameStats(gender):
                     isBUGoalie = not isBUGoalie
         dfCurrPlayStats = pd.DataFrame(pList)
         dfCurrGoalStats = pd.DataFrame(gList)
-        f = open(pFile, 'a')
+        f = open(pFile, 'a', encoding="utf-8")
         for i in dfCurrPlayStats[['date',
                                   'opponent',
                                   'name',

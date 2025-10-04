@@ -488,7 +488,7 @@
 10	Tessa Demain	D	SO	1	0	0	0	0/0	2025-26
 11	Sydney Healey	F	SR	1	0	0	0	0/0	2025-26
 12	Avery Supryka	D	FR	1	0	0	0	0/0	2025-26
-15	Anežka Cabelová	F	FR	1	0	0	0	0/0	2025-26
+15	Anežka Čabelová	F	FR	1	0	0	0	0/0	2025-26
 16	Luisa Welcke	F	SR	1	0	0	0	0/0	2025-26
 18	Neely Nicholson	F	JR	1	0	0	0	0/0	2025-26
 19	Clara Yuhn	F	SR	1	0	0	0	0/0	2025-26
