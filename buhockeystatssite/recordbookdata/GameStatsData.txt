@@ -30908,3 +30908,23 @@
 04/12/2025,Western Michigan,Mikhail Yegorov,G,FR,0,0,0,2024-25
 04/12/2025,Western Michigan,Cole Hutson,D,FR,0,1,1,2024-25
 04/12/2025,Western Michigan,Sascha Boumedienne,D,FR,0,0,0,2024-25
+10/04/2025,Long Island University,Gavin McCarthy,D,JR,0,0,0,2025-26
+10/04/2025,Long Island University,Brandon Svoboda,F,SO,0,0,0,2025-26
+10/04/2025,Long Island University,Sacha Boisvert,F,SO,1,1,2,2025-26
+10/04/2025,Long Island University,Jonathan Morello,F,FR,0,0,0,2025-26
+10/04/2025,Long Island University,Jack Harvey,F,JR,0,0,0,2025-26
+10/04/2025,Long Island University,Mick Frechette,D,JR,0,0,0,2025-26
+10/04/2025,Long Island University,Carter Amico,D,FR,0,0,0,2025-26
+10/04/2025,Long Island University,Jack Murtagh,F,FR,0,0,0,2025-26
+10/04/2025,Long Island University,Ryder Ritchie,F,FR,0,2,2,2025-26
+10/04/2025,Long Island University,Aiden Celebrini,D,JR,0,0,0,2025-26
+10/04/2025,Long Island University,Owen McLaughlin,F,SR,0,2,2,2025-26
+10/04/2025,Long Island University,Ben Merrill,F,FR,0,0,0,2025-26
+10/04/2025,Long Island University,John McNelis,F,FR,0,1,1,2025-26
+10/04/2025,Long Island University,Cole Eiserman,F,SO,2,0,2,2025-26
+10/04/2025,Long Island University,Kamil Bednarik,F,SO,0,0,0,2025-26
+10/04/2025,Long Island University,Mikhail Yegorov,G,SO,0,0,0,2025-26
+10/04/2025,Long Island University,Cole Hutson,D,SO,1,1,2,2025-26
+10/04/2025,Long Island University,Malte Vass,D,FR,0,0,0,2025-26
+10/04/2025,Long Island University,Sascha Boumedienne,D,SO,0,0,0,2025-26
+10/04/2025,Long Island University,Charlie Trethewey,D,FR,0,1,1,2025-26

@@ -738,3 +738,5 @@
 03/05/2025,Boston College,Callie Shanahan,SR,38,2,1,0,87.2,W,2024-25
 03/08/2025,Northeastern,Callie Shanahan,SR,25,2,1,0,64.72,W,2024-25
 03/13/2025,Clarkson,Callie Shanahan,SR,27,2,1,0,58.25,L,2024-25
+10/03/2025,Minnesota,Mari Pietersen,JR,44,5,1,0,60.0,L,2025-26
+10/04/2025,Minnesota,Michelle Pasiechnyk,SO,31,4,1,0,57.38,L,2025-26
