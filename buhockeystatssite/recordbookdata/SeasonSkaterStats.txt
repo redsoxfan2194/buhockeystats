@@ -1771,7 +1771,7 @@
 2	Gavin McCarthy	D	JR	1	0	0	0	1/2	2025-26
 7	Nick Roukounakis	F	SO	0	0	0	0	0/0	2025-26
 8	Brandon Svoboda	F	SO	1	0	0	0	0/0	2025-26
-9	Sacha Boisvert	F	SO	1	1	1	2	0/0	2025-26
+9	Sacha Boisvert	F	SO	1	1	2	3	0/0	2025-26
 10	Jonathan Morello	F	FR	1	0	0	0	2/4	2025-26
 12	Jack Harvey	F	JR	1	0	0	0	1/2	2025-26
 14	Mick Frechette	D	JR	1	0	0	0	0/0	2025-26
@@ -1792,4 +1792,4 @@
 44	Cole Hutson	D	SO	1	1	1	2	0/0	2025-26
 57	Malte Vass	D	FR	1	0	0	0	0/0	2025-26
 78	Sascha Boumedienne	D	SO	1	0	0	0	0/0	2025-26
-91	Charlie Trethewey	D	FR	1	0	1	1	0/0	2025-26
+91	Charlie Trethewey	D	FR	1	0	0	0	0/0	2025-26
