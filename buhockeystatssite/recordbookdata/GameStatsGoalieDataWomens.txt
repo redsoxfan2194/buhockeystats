@@ -740,3 +740,4 @@
 03/13/2025,Clarkson,Callie Shanahan,SR,27,2,1,0,58.25,L,2024-25
 10/03/2025,Minnesota,Mari Pietersen,JR,44,5,1,0,60.0,L,2025-26
 10/04/2025,Minnesota,Michelle Pasiechnyk,SO,31,4,1,0,57.38,L,2025-26
+10/10/2025,Colgate,Mari Pietersen,JR,28,2,1,0,58.83,L,2025-26
