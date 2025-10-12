@@ -3435,7 +3435,7 @@ CAPTAIN: Gavin McCarthy
 11/15 N TD Bank Center	Quinnipiac  0-0
 11/21 N Matthews Arena	Northeastern * 0-0
 11/22 N Agganis Arena	Northeastern * 0-0
-11/29 N MSG IV	Cornell  0-0
+11/29 N MSG IV	Cornell (RHH) 0-0
 12/05 N Agganis Arena	Vermont * 0-0
 12/06 N Agganis Arena	Vermont * 0-0
 12/13 N Matthews Arena	Northeastern * 0-0
@@ -3448,9 +3448,9 @@ CAPTAIN: Gavin McCarthy
 01/23 N Schneider Arena	Providence * 0-0
 01/24 N Agganis Arena	Providence * 0-0
 01/30 N Agganis Arena	Boston College * 0-0
-02/02 N TD Garden	Northeastern  0-0
+02/02 N TD Garden	Northeastern (Pot) 0-0
 02/06 N Agganis Arena	Maine * 0-0
-02/09 N TD Garden	Boston College/Harvard  0-0
+02/09 N TD Garden	Boston College/Harvard (Pot) 0-0
 02/13 N Whittemore Center Arena	New Hampshire * 0-0
 02/14 N Agganis Arena	New Hampshire * 0-0
 02/27 N Agganis Arena	Boston College * 0-0
