@@ -3,14 +3,25 @@
 
 <div class="p-3">
 	<div class="nav nav-tabs" id="nav-tab" role="tablist">
-		<button class="nav-link active note-nav" id="mens-active-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-active" type="button" role="tab" aria-controls="mens-active" aria-selected="true">{{currSeasonM}} (Men's)</button>
-		<button class="nav-link note-nav" id="womens-active-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-active" type="button" role="tab" aria-controls="womens-active" aria-selected="false">{{currSeasonW}} (Women's)</button>
-		<button class="nav-link note-nav" id="mens-2425-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-2425" type="button" role="tab" aria-controls="mens-2425" aria-selected="true">2024-25 (Men's)</button>
-		<button class="nav-link note-nav" id="womens-2425-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-2425" type="button" role="tab" aria-controls="womens-2425" aria-selected="false">2024-25 (Women's)</button>
-		<button class="nav-link note-nav" id="mens-2324-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-2324" type="button" role="tab" aria-controls="mens-2324" aria-selected="true">2023-24 (Men's)</button>
-		<button class="nav-link note-nav" id="womens-2324-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-2324" type="button" role="tab" aria-controls="womens-2324" aria-selected="false">2023-24 (Women's)</button>
-		<button class="nav-link note-nav" id="mens-2223-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-2223" type="button" role="tab" aria-controls="mens-2223" aria-selected="true">2022-23 (Men's)</button>
-		<button class="nav-link note-nav" id="womens-2223-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-2223" type="button" role="tab" aria-controls="womens-2223" aria-selected="false">2022-23 (Women's)</button>
+	<select id="seasonSelect" class="form-select mb-3" aria-label="Select season">
+		<optgroup label="Current Season">
+			<option value="#nav-mens-active" selected>{{currSeasonM}} (Men's)</option>
+			<option value="#nav-womens-active">{{currSeasonW}} (Women's)</option>
+		</optgroup>
+		<optgroup label="2024–25">
+			<option value="#nav-mens-2425">2024–25 (Men's)</option>
+			<option value="#nav-womens-2425">2024–25 (Women's)</option>
+		</optgroup>
+		<optgroup label="2023–24">
+			<option value="#nav-mens-2324">2023–24 (Men's)</option>
+			<option value="#nav-womens-2324">2023–24 (Women's)</option>
+		</optgroup>
+		<optgroup label="2022–23">
+			<option value="#nav-mens-2223">2022–23 (Men's)</option>
+			<option value="#nav-womens-2223">2022–23 (Women's)</option>
+		</optgroup>
+	</select>
+
 	</div>
 	<div class="tab-content" id="nav-tabContent">
 		<div class="tab-pane fade show active" id="nav-mens-active" role="tabpanel" aria-labelledby="mens-active-tab">
@@ -782,4 +793,18 @@
 			</div>
 		</div>
 	</div>
+  <script>
+document.getElementById('seasonSelect').addEventListener('change', function() {
+	const targetId = this.value;
+	// Hide all tab panes
+	document.querySelectorAll('.tab-pane').forEach(pane => {
+		pane.classList.remove('show', 'active');
+	});
+	// Show the selected one
+	const targetPane = document.querySelector(targetId);
+	if (targetPane) {
+		targetPane.classList.add('show', 'active');
+	}
+});
+</script>
 {% endblock %}
