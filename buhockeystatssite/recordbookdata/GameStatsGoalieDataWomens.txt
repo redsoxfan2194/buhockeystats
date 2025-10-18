@@ -742,3 +742,4 @@
 10/04/2025,Minnesota,Michelle Pasiechnyk,SO,31,4,1,0,57.38,L,2025-26
 10/10/2025,Colgate,Mari Pietersen,JR,28,2,1,0,58.83,L,2025-26
 10/11/2025,Colgate,Michelle Pasiechnyk,JR,38,4,1,0,57.93,L,2025-26
+10/17/2025,Brown,Mari Pietersen,JR,16,2,1,0,57.77,L,2025-26
