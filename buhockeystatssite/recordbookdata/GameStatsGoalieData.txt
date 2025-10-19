@@ -2108,5 +2108,5 @@
 10/04/2025,Long Island University,Mikhail Yegorov,FR,36,2,1,0,59.67,W,2025-26
 10/10/2025,Colgate,Mikhail Yegorov,FR,24,2,1,0,60.0,W,2025-26
 10/11/2025,Colgate,Mikhail Yegorov,FR,23,2,1,0,64.73,T,2025-26
-10/17/2025,Michigan St.,Mikhail Yegorov,FR,30,4,1,0,58.05,L,2025-26
-10/18/2025,Michigan St.,Mikhail Yegorov,FR,30,4,1,0,63.83,L,2025-26
+10/17/2025,Michigan State,Mikhail Yegorov,FR,30,4,1,0,58.05,L,2025-26
+10/18/2025,Michigan State,Mikhail Yegorov,FR,30,4,1,0,63.83,L,2025-26
