@@ -3895,30 +3895,25 @@ def updateResults(gender):
 def updatePolls(gender):
     season=2025
     if(gender=="Mens"):
-        url = "https://json-b.uscho.com/json/rankings/d-i-mens-poll"
+        url = "https://www.uscho.com/rankings/d-i-mens-poll"
         pollFile = RECBOOK_DATA_PATH + 'mpolls.csv'
     elif(gender=="Womens"):
-        url = "https://json-b.uscho.com/json/rankings/d-i-womens-poll"
+        url = "https://www.uscho.com/rankings/d-i-womens-poll"
         pollFile = RECBOOK_DATA_PATH + 'wpolls.csv'
+    
+    dfPoll=pd.read_csv(pollFile)
     f=urllib.request.urlopen(url)
     html = f.read()
     f.close()
     soup = BeautifulSoup(html, 'html.parser')
-    tsoup=html_lib.unescape(str(soup)).replace("\/", "/")
-    new_soup=BeautifulSoup(tsoup, 'html.parser')
-    title=new_soup.find('h1').get_text()
-    table_soup=new_soup.find('table')
-    dfPoll=pd.read_csv(pollFile)
-    date = title.split('-')[1].strip()
-    date = datetime.strptime(date, "%B %d, %Y").strftime("%Y-%m-%d")
+    pollData=json.loads(soup.find('div',{'id':'app'})['data-page'])['props']['content']['data']
+    date=pollData[0]['PollDate']
     if (date > dfPoll['DATE'].tail(1).values[0]):  # Ensure proper comparison
         rows = []
-        for row in table_soup.find_all('tr'):
-            col = row.find_all('td')
-            if len(col) > 1:
+        for row in pollData:
                 rows.append([
-                    col[0].get_text(),
-                    col[1].get_text(),
+                    row['rnk'],
+                    row['shortname'],
                     date,
                     season
                 ])
