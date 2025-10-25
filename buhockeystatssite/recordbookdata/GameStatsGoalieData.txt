@@ -2110,3 +2110,5 @@
 10/11/2025,Colgate,Mikhail Yegorov,FR,23,2,1,0,64.73,T,2025-26
 10/17/2025,Michigan State,Mikhail Yegorov,FR,30,4,1,0,58.05,L,2025-26
 10/18/2025,Michigan State,Mikhail Yegorov,FR,30,4,1,0,63.83,L,2025-26
+10/24/2025,Connecticut,Mikhail Yegorov,FR,26,6,1,0,41.07,L,2025-26
+10/24/2025,Connecticut,Max Lacroix,FR,6,1,1,0,16.9,,2025-26
