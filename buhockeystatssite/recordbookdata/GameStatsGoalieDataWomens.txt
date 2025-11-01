@@ -744,3 +744,4 @@
 10/11/2025,Colgate,Michelle Pasiechnyk,JR,38,4,1,0,57.93,L,2025-26
 10/17/2025,Brown,Mari Pietersen,JR,16,2,1,0,57.77,L,2025-26
 10/24/2025,New Hampshire,Michelle Pasiechnyk,FR,27,2,1,0,60.0,W,2025-26
+10/31/2025,Northeastern,Michelle Pasiechnyk,SO,37,2,1,0,59.78,L,2025-26

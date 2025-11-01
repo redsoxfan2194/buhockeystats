@@ -13905,3 +13905,23 @@
 10/24/2025,New Hampshire,Kaileigh Quigg,F,SO,1,0,1,2025-26
 10/24/2025,New Hampshire,Mari Pietersen,G,JR,0,0,0,2025-26
 10/24/2025,New Hampshire,Jackie Wright,G,FR,0,0,0,2025-26
+10/31/2025,Northeastern,Michelle Pasiechnyk,G,GR,0,0,0,2025-26
+10/31/2025,Northeastern,Maeve Carey,D,SR,0,0,0,2025-26
+10/31/2025,Northeastern,Lucy Thiessen,D,FR,0,1,1,2025-26
+10/31/2025,Northeastern,Kate Meinert,D,SO,0,0,0,2025-26
+10/31/2025,Northeastern,Ella Belfry,D,JR,0,0,0,2025-26
+10/31/2025,Northeastern,Lola Reid,F,SO,0,0,0,2025-26
+10/31/2025,Northeastern,Mia Vergilii,F,FR,0,0,0,2025-26
+10/31/2025,Northeastern,Sydney Healey,F,SR,0,0,0,2025-26
+10/31/2025,Northeastern,Avery Supryka,D,FR,0,0,0,2025-26
+10/31/2025,Northeastern,Anežka Čabelová,F,FR,0,0,0,2025-26
+10/31/2025,Northeastern,Luisa Welcke,F,SR,0,0,0,2025-26
+10/31/2025,Northeastern,Neely Nicholson,F,JR,0,0,0,2025-26
+10/31/2025,Northeastern,Clara Yuhn,F,SR,1,0,1,2025-26
+10/31/2025,Northeastern,Riley Walsh,F,SR,0,0,0,2025-26
+10/31/2025,Northeastern,Lexie Bertelsen,F,FR,0,0,0,2025-26
+10/31/2025,Northeastern,Greta Henderson,F,JR,0,0,0,2025-26
+10/31/2025,Northeastern,Maeve Kelly,D,SR,0,0,0,2025-26
+10/31/2025,Northeastern,Lilli Welcke,F,SR,0,0,0,2025-26
+10/31/2025,Northeastern,Keira Healey,D,SO,0,0,0,2025-26
+10/31/2025,Northeastern,Kaileigh Quigg,F,SO,0,0,0,2025-26

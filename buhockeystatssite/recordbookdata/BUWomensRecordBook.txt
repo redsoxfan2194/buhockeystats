@@ -832,7 +832,7 @@ CAPTAIN: Maeve Carey
 10/11 L Class of 1965 Arena A Colgate  3-4
 10/17 L Walter Brown Arena H Brown  1-2
 10/24 W Walter Brown Arena H New Hampshire * 4-2
-10/31 N Walter Brown Arena H Northeastern * 0-0
+10/31 L Walter Brown Arena H Northeastern * 1-3
 11/01 N Matthews Arena A Northeastern * 0-0
 11/07 N Alfond Arena A Maine * 0-0
 11/08 N Alfond Arena A Maine * 0-0
@@ -855,7 +855,7 @@ CAPTAIN: Maeve Carey
 01/31 N Walter Brown Arena H Merrimack * 0-0
 02/05 N Gutterson Fieldhouse A Vermont * 0-0
 02/07 N Walter Brown Arena H Maine * 0-0
-02/13 N Matthews Arena A Northeastern * 0-0
+02/13 N Walter Brown Arena A Northeastern * 0-0
 02/14 N Walter Brown Arena H Connecticut * 0-0
 02/20 N Walter Brown Arena H Providence * 0-0
 02/21 N Conte Forum A Boston College * 0-0

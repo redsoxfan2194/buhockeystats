@@ -3428,7 +3428,7 @@ CAPTAIN: Gavin McCarthy
 10/18 L (ot) Agganis Arena	Michigan State  3-4
 10/24 L Agganis Arena	Connecticut * 4-8
 10/25 W Toscano Ice Forum	Connecticut * 3-1
-10/31 N Alfond Arena	Maine * 0-0
+10/31 L (ot) Alfond Arena	Maine * 4-5
 11/01 N Alfond Arena	Maine * 0-0
 11/07 N Agganis Arena	Merrimack * 0-0
 11/08 N Lawler Rink	Merrimack * 0-0
@@ -3461,7 +3461,7 @@ Key to Tournaments
 ALS Auld Lang Syne Tournament
 B1G/HE Big Ten/Hockey East Challenge
 BAC Boston Arena Christmas Tournament
-BHF Boston Christmas Holiday Festival
+BHF Boston Garden Christmas Hockey Festival
 BS Bank One Badger Showdown
 CB Colonial Bank Hockey Invitational
 CCN Christmas City of the North Tournament
