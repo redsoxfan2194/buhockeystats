@@ -12,6 +12,7 @@
                 <select class="btn dropdown-toggle custom-align" name="sortval" id="sortval" onchange="submitForm()">
                     <option class="res-sort" value="date" {% if selected_sort == 'date' %} selected {% endif %}> Date </option>
                     <option class="res-sort" value="GD" {% if selected_sort == 'GD' %} selected {% endif %}> MOV </option>
+                    <option class="res-sort" value="TG" {% if selected_sort == 'TG' %} selected {% endif %}> Total Goals </option>
                     <option class="res-sort" value="BUScore" {% if selected_sort == 'BUScore' %} selected {% endif %}> Goals Scored </option>
                     <option class="res-sort" value="OppoScore" {% if selected_sort == 'OppoScore' %} selected {% endif %}> Goals Allowed </option>
                     <option class="res-sort" value="BURank" {% if selected_sort == 'BURank' %} selected {% endif %}> BU Rank </option>
@@ -168,7 +169,17 @@
                 </select>
                 <input type="number" name="oppscore" id="oppscore" value="{{ oppscore }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
             </div>
-            
+            <div id="totalgoaldiv" class="filter">
+                <label for="tgop" class="recLabels">Total Goals:</label>
+                <select class="btn dropdown-toggle op-drop" name="tgop" id="tgop" onchange="submitForm()">
+                    <option value="==" {% if selected_burankop == '==' %} selected {% endif %}> = </option>
+                    <option value=">=" {% if selected_burankop == '>=' %} selected {% endif %}> >= </option>
+                    <option value=">" {% if selected_burankop == '>' %} selected {% endif %}> > </option>
+                    <option value="<" {% if selected_burankop == '<' %} selected {% endif %}> < </option>
+                    <option value="<=" {% if selected_burankop == '<=' %} selected {% endif %}> <= </option>
+                </select>
+                <input type="number" name="totalgoals" id="totalgoals" value="{{ totalgoals }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            </div>
             <div id="burankdiv" class="filter">
                 <label for="burankop" class="recLabels">BU Rank:</label>
                 <select class="btn dropdown-toggle op-drop" name="burankop" id="burankop" onchange="submitForm()">

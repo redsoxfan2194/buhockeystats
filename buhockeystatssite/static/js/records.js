@@ -57,6 +57,8 @@ function clearFilers(event) {
     document.getElementById("season").value = "all";
     document.getElementById("buscoreop").value = "==";
     document.getElementById("buscore").value = "";
+    document.getElementById("tgop").value = "==";
+    document.getElementById("totalgoals").value = "";
     document.getElementById("oppscoreop").value = "==";
     document.getElementById("oppscore").value = "";
     document.getElementById("burankop").value = "==";
@@ -160,6 +162,9 @@ function initializeFilters() {
 
     const oppScoreInput = document.getElementById("oppscore");
     oppScoreInput.addEventListener("keydown", onKeydown);
+
+    const totalGoalsInput = document.getElementById("totalgoals");
+    totalGoalsInput.addEventListener("keydown", onKeydown);
 
     const buRankInput = document.getElementById("burank");
     buRankInput.addEventListener("keydown", onKeydown);

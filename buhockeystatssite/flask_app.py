@@ -614,6 +614,7 @@ def records():
     oppscore = 'Opp Score'
     burank = 'BU Rank'
     opprank = 'Opp Rank'
+    totalgoals = 'Total Goals'
     dfRes = burb.dfGames
     dfOrig = burb.dfGames
     minYear = dfRes.year.min()
@@ -707,6 +708,13 @@ def records():
             buscore = formData['buscore']
         else:
             buscore = "BU Score"
+        if formData['totalgoals'] != '':
+            totalgoals = formData['totalgoals']
+            totalgoals = totalgoals.split(' ')[0]
+            dfRes = dfRes.query(f"TG {formData['tgop']} {totalgoals}")
+            totalgoals = formData['totalgoals']
+        else:
+            totalgoals = "Total Goals"
         if formData['oppscore'] != '':
             oppscore = formData['oppscore']
             oppscore = oppscore.split(' ')[0]
@@ -808,7 +816,7 @@ def records():
             elif formData['tabletype'] ==  'streaks':
                 dfRes = generateStreaks(dfRes.copy())
 
-        if (formData['sortval'] in ["date", "GD", "BUScore", "OppoScore", "BURank", "OppRank"]
+        if (formData['sortval'] in ["date", "GD", "BUScore", "OppoScore", "BURank", "OppRank","TG"]
                 and 'date' not in dfRes.columns):
             if formData['sortval'] != 'date':
                 sortType = not sortType
@@ -865,6 +873,7 @@ def records():
                 dfOrig.arena.unique())),
         buscore=buscore,
         oppscore=oppscore,
+        totalgoals=totalgoals,
         burank=burank,
         opprank=opprank,
         isAscending=True,

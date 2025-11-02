@@ -238,6 +238,7 @@ def generateRecordBook():
             gameDict['BUScore'], gameDict['OppoScore'] = int(
                 gameDict['scoreline'].split('-')[0]), int(gameDict['scoreline'].split('-')[1])
             gameDict['GD'] = gameDict['BUScore'] - gameDict['OppoScore']
+            gameDict['TG'] = gameDict['BUScore'] + gameDict['OppoScore']
 
             # set Jack Parker as coach for second half of 73-74 season
             if (gameDict['season'] ==
