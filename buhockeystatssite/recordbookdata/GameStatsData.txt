@@ -69,7 +69,7 @@
 02/06/1926,Army,Ovila Gregoire,F,,1,0,1,1925-26
 02/06/1926,Army,Rod Ling,D,,1,0,1,1925-26
 02/06/1926,Army,Chester Scott,F,,1,0,1,1925-26
-02/11/1926,Darmouth,Ovila Gregoire,F,,1,0,1,1925-26
+02/11/1926,Dartmouth,Ovila Gregoire,F,,1,0,1,1925-26
 03/01/1926,MIT,Chester Scott,F,,1,0,1,1925-26
 03/01/1926,MIT,Ovila Gregoire,F,,1,0,1,1925-26
 03/04/1926,Boston College,John Lawless,F,,2,0,2,1925-26
@@ -2991,16 +2991,16 @@
 01/30/1962,Boston College,Bob Smith,D,,1,0,1,1961-62
 01/30/1962,Boston College,Mike Denihan,F,,1,1,2,1961-62
 01/30/1962,Boston College,Don Goguen,D,,0,1,1,1961-62
-02/01/1962,Darmouth,Mike Denihan,F,,1,4,5,1961-62
-02/01/1962,Darmouth,Bob Smith,D,,2,3,5,1961-62
-02/01/1962,Darmouth,Ken Ross,F,,2,0,2,1961-62
-02/01/1962,Darmouth,Dave Mahoney,F,,1,0,1,1961-62
-02/01/1962,Darmouth,Don Goguen,D,,1,1,2,1961-62
-02/01/1962,Darmouth,Edmund Connors,F,,1,0,1,1961-62
-02/01/1962,Darmouth,Don Spinney,F,,0,1,1,1961-62
-02/01/1962,Darmouth,Alden Sampson,D,,0,1,1,1961-62
-02/01/1962,Darmouth,Paul Johnson,F,,0,1,1,1961-62
-02/01/1962,Darmouth,Alan Welch,F,,1,0,1,1961-62
+02/01/1962,Dartmouth,Mike Denihan,F,,1,4,5,1961-62
+02/01/1962,Dartmouth,Bob Smith,D,,2,3,5,1961-62
+02/01/1962,Dartmouth,Ken Ross,F,,2,0,2,1961-62
+02/01/1962,Dartmouth,Dave Mahoney,F,,1,0,1,1961-62
+02/01/1962,Dartmouth,Don Goguen,D,,1,1,2,1961-62
+02/01/1962,Dartmouth,Edmund Connors,F,,1,0,1,1961-62
+02/01/1962,Dartmouth,Don Spinney,F,,0,1,1,1961-62
+02/01/1962,Dartmouth,Alden Sampson,D,,0,1,1,1961-62
+02/01/1962,Dartmouth,Paul Johnson,F,,0,1,1,1961-62
+02/01/1962,Dartmouth,Alan Welch,F,,1,0,1,1961-62
 02/05/1962,Northeastern,Alan Welch,F,,1,0,1,1961-62
 02/05/1962,Northeastern,Alden Sampson,D,SO,1,2,3,1961-62
 02/05/1962,Northeastern,Bob Smith,D,JR,1,0,1,1961-62
