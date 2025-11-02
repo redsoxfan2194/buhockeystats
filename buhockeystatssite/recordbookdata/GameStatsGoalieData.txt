@@ -2114,3 +2114,5 @@
 10/24/2025,Connecticut,Max Lacroix,FR,6,1,1,0,16.9,,2025-26
 10/25/2025,Connecticut,Mikhail Yegorov,FR,24,1,1,0,60.0,W,2025-26
 10/31/2025,Maine,Mikhail Yegorov,FR,30,5,1,0,60.72,L,2025-26
+11/01/2025,Maine,Mikhail Yegorov,FR,5,3,1,0,12.35,,2025-26
+11/01/2025,Maine,Max Lacroix,FR,33,4,1,0,46.45,L,2025-26
