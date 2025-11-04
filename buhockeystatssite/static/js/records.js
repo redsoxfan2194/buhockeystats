@@ -290,7 +290,8 @@ function submitForm(reset = "false") {
                     }
                 }
             }
-            if (reset === "true") {
+            if (reset === "true") 
+            {
                 document.getElementById("startYear").value = response.minYear;
                 document.getElementById("startYear").min = response.minYear;
                 document.getElementById("startYear").placeholder =
@@ -430,8 +431,8 @@ function submitForm(reset = "false") {
                         })
                     );
                 });
-
-                if (document.getElementById("tabletype").value != "record") {
+            }
+            if (document.getElementById("tabletype").value != "record") {
                     if (resSort[0].classList.contains("hidden")) {
                         // Hide all rec-sort elements
                         for (let i = 0; i < recSort.length; i++) {
@@ -454,11 +455,10 @@ function submitForm(reset = "false") {
                     for (let i = 0; i < recSort.length; i++) {
                         recSort[i].classList.remove("hidden");
                     }
-                    document.getElementById("sortDiv").hidden = true;
+                    document.getElementById("sortDiv").hidden = false;
                     
                     
                 }
-            }
             loadMoreData();
         },
         error: function (xhr, status, error) {
