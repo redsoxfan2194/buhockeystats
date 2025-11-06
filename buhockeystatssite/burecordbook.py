@@ -13,6 +13,7 @@ import numpy as np
 from pandas import Timestamp
 import pandas as pd
 import html as html_lib
+import json
 try:
     from burecbookpath import RECBOOK_DATA_PATH
 except ImportError:
