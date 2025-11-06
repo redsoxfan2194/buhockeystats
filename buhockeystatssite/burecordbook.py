@@ -3851,34 +3851,48 @@ def updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie):
 def updateResults(gender):
     ''' update results for recently completed games'''
     if gender == 'Mens':
-        url = f"https://goterriers.com/sports/mens-ice-hockey/schedule/{currSeason}?grid=true"  # mens
+        url = "https://www.collegehockeynews.com/schedules/team/Boston-University/10"  # mens
         recBookFileName = RECBOOK_DATA_PATH + 'BURecordBook.txt'
     elif gender == 'Womens':
-        url = f"https://goterriers.com/sports/womens-ice-hockey/schedule/{currSeason}?grid=true"  # womens
+        url = f"https://www.collegehockeynews.com/women/team/Boston-University/10"  # womens
         recBookFileName = RECBOOK_DATA_PATH + "BUWomensRecordBook.txt"
     else:
         return
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    html = urllib.request.urlopen(req).read()
-    soup = BeautifulSoup(html, 'html.parser')
     gameList=[]
-    for row in soup.find('table').find_all('tr'):
-      cols=row.find_all('td')
-      if(cols!=[]):
-          date=cols[0].get_text().strip().split(' (')[0]
-          dStr=datetime.strptime(date, '%B %d, %Y').strftime("%m/%d")
-          res=cols[-2].get_text().strip().replace('\n','').replace(', SOL','OT').replace(', SOW','OT').replace('(',' (').split(',')
-          if(len(res)>1):
-            match = re.findall(r'(\(*OT\))', res[1])
-            if(match != []):
-              res[1] = re.sub(r'(\(*OT\))', '', res[1]).strip()
-              res[0] += ' ' + match[0].lower()
-            result,scoreline=res[0],res[1]
-          else:
-            result='N'
-            scoreline='0-0'
-          gDict={'date':dStr,'result':result,'scoreline':scoreline}
-          gameList.append(gDict)
+    f=urllib.request.urlopen(url)
+    html = f.read()
+    f.close()
+    soup = BeautifulSoup(html, 'html.parser')
+    table = soup.find('tbody')
+    for row in table.find_all('tr'):
+        col = row.find_all('td')
+        if(len(col)>0):
+            splits=(col[0].get_text().replace('\n\n','\t').split('\t'))
+        if(len(splits)==1):
+            month=splits[0].split(' ')[0]
+            year=splits[0].split(' ')[1]
+        else:
+            day=splits[0].split('\xa0')[0]
+            date=f"{month} {day}, {year}"
+            dStr=datetime.strptime(date, '%B %d, %Y').strftime("%m/%d")
+            result=splits[1].strip()
+            if(result==''):
+                break
+            #print(splits)
+            ot=''
+            if('at' in splits[3]):
+                spl=splits[3].split('\n')
+                ot=spl[1].strip()
+                opScore=spl[0].strip()
+            if('ot') in splits[3]:
+                ot=" ("+splits[3].split('\n')[1] + ")"
+                opScore=splits[3].split('\n')[0]
+            else:
+                opScore=splits[3]
+            scoreline=(splits[2]+opScore).replace(' ','')
+            result+=ot
+            gDict={'date':dStr,'result':result,'scoreline':scoreline}
+            gameList.append(gDict)
     with open(recBookFileName, "r", encoding='utf-8') as sources:
         lines = sources.readlines()
     with open(recBookFileName, "w", encoding='utf-8', newline='\n') as sources:
