@@ -3503,32 +3503,34 @@ def getShutouts(dfGStats,season="2022-23"):
 def updateCurrentSeasonStats(gender):
     '''scrape site and return updated current season stats'''
     if gender == 'Mens':
-        url = "https://goterriers.com/sports/mens-ice-hockey/stats?path=mhockey"
+        url = f"https://goterriers.com/sports/mens-ice-hockey/stats/{currSeason}"
+        urlG = f"https://www.uscho.com/stats/team/boston-university/mens-hockey"
         currSkateFileName = RECBOOK_DATA_PATH + "SeasonSkaterStats.txt"
         currGoalieFileName = RECBOOK_DATA_PATH + "SeasonGoalieStats.txt"
     elif gender == 'Womens':
-        url = "https://goterriers.com/sports/womens-ice-hockey/stats/?path=whockey"
+        url = f"https://goterriers.com/sports/womens-ice-hockey/stats/{currSeason}"
+        urlG = f"https://www.uscho.com/stats/team/boston-university/womens-hockey"
         currSkateFileName = RECBOOK_DATA_PATH + "SeasonSkaterStatsWomens.txt"
         currGoalieFileName = RECBOOK_DATA_PATH + "SeasonGoalieStatsWomens.txt"
     else:
         return
-
     f = urllib.request.urlopen(url)
     html = f.read()
     f.close()
     soup = BeautifulSoup(html, 'html.parser')
-    head = soup.find('h1', {'class': 'no-print'})
-    if currSeason not in head.get_text():
+    if soup is None:
         pass
     else:
-        curSkate = soup.find('section', {'id': 'individual-overall-skaters'})
+        curSkate = soup.find('table', {'class': 'w-full'})
         rows = curSkate.find_all('tr')
         currSkaters = []
         for i in rows:
             col = i.find_all('td')
-            name = i.find('span')
-            if name is not None and name.get_text() != "Team":
-                lastName, firstName = name.get_text().split(', ')
+            if(len(col)<1):
+              continue
+            name = col[1].get_text()
+            if name != "Total" and name!='Opponents' and name!=' \xa0 ':
+                lastName, firstName = name.split(', ')
                 skateDict = {'number': int(col[0].get_text()),
                              'last': lastName,
                              'first': firstName,
@@ -3541,35 +3543,44 @@ def updateCurrentSeasonStats(gender):
                              'season': currSeason}
                 currSkaters.append(skateDict)
         dfCurSkate = pd.DataFrame(currSkaters)
-
+        print(dfCurSkate)
+        f=urllib.request.urlopen(urlG)
+        html = f.read()
+        f.close()
+        soup = BeautifulSoup(html, 'html.parser')
         curGoals = soup.find('section',
                              {'id': 'individual-overall-goaltenders'})
-        rows = curGoals.find_all('tr')
+                             
+        curGoals = json.loads(soup.find('div',{'id':'app'})['data-page'])['props']['content']['data']['overall']['goaltending'] 
         currGoalies = []
-        for i in rows:
-            col = i.find_all('td')
-            name = i.find('span')
-
-            if name is not None and name.get_text() != "Team":
-                lastName, firstName = name.get_text().split(',')
-                goalDict = {'number': int(col[0].get_text()),
+        gNum={'Yegorov':40,'Lacroix':33,'Luciano':1,'Perry':30,'Pasiechnyk':1,'Fogu':33,'Wright':35,'Pietersen':92}
+        for goalie in curGoals:
+            name = goalie['player_name'].split('>')[1].replace('</a','')
+            if name is not None:
+                firstName,lastName = name.split(' ')
+                if lastName not in gNum.keys():
+                  number=''
+                else:
+                  number=gNum[lastName]
+                goalDict = {'number': number,
                             'last': lastName,
                             'first': firstName,
                             'name': firstName + ' ' + lastName,
-                            'gp': int(col[2].get_text().split('-')[0]),
-                            'mins': col[3].get_text(),
-                            'ga': col[4].get_text(),
-                            'gaa': col[5].get_text(),
-                            'saves': col[9].get_text(),
-                            'sv%': col[10].get_text(),
-                            'W': col[11].get_text(),
-                            'L': col[12].get_text(),
-                            'T': col[13].get_text(),
-                            'SO': col[14].get_text(),
+                            'gp': int(goalie['gp']),
+                            'mins': goalie['min'],
+                            'ga': goalie['ga'],
+                            'gaa': goalie['gaa'],
+                            'saves': goalie['saves'],
+                            'sv%': goalie['svp'],
+                            'W': goalie['w'],
+                            'L': goalie['l'],
+                            'T': goalie['t'],
+                            'SO': goalie['sho'],
                             'season': currSeason}
                 currGoalies.append(goalDict)
 
         dfCurGoal = pd.DataFrame(currGoalies)
+        print(dfCurGoal)
         dfCurSkateClean = dfCurSkate.drop(columns=['last', 'first'])
         with open(currSkateFileName, "r", encoding='utf-8') as sources:
             lines = sources.readlines()
