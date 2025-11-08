@@ -747,3 +747,4 @@
 10/31/2025,Northeastern,Michelle Pasiechnyk,SO,37,2,1,0,59.78,L,2025-26
 11/01/2025,Northeastern,Mari Pietersen,JR,14,4,1,0,28.98,L,2025-26
 11/01/2025,Northeastern,Michelle Pasiechnyk,JR,10,2,1,0,30.15,,2025-26
+11/07/2025,Maine,Michelle Pasiechnyk,SR,32,3,1,0,59.78,L,2025-26
