@@ -3865,9 +3865,8 @@ def updateResults(gender):
             date=f"{month} {day}, {year}"
             dStr=datetime.strptime(date, '%B %d, %Y').strftime("%m/%d")
             result=splits[1].strip()
-            if(result==''):
+            if(result=='' or result.isnumeric()):
                 break
-            #print(splits)
             ot=''
             if('at' in splits[3]):
                 spl=splits[3].split('\n')
