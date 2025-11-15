@@ -3867,6 +3867,7 @@ def updateResults(gender):
             result=splits[1].strip()
             if(result=='' or result.isnumeric()):
                 break
+            result=result.split('\n')[-1]
             ot=''
             if('at' in splits[3]):
                 spl=splits[3].split('\n')
