@@ -750,3 +750,5 @@
 11/07/2025,Maine,Michelle Pasiechnyk,SR,32,3,1,0,59.78,L,2025-26
 11/08/2025,Maine,Michelle Pasiechnyk,FR,27,1,1,0,59.97,W,2025-26
 11/13/2025,Boston College,Michelle Pasiechnyk,SR,18,5,1,0,59.95,L,2025-26
+11/14/2025,Boston College,Michelle Pasiechnyk,SO,29,3,1,0,58.78,L,2025-26
+11/14/2025,Boston College,Michelle Pasiechnyk,SO,29,3,1,0,58.78,L,2025-26
