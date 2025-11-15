@@ -2963,12 +2963,12 @@
 12/22/1961,Boston College,Bob Smith,D,,1,0,1,1961-62
 12/22/1961,Boston College,Don Spinney,F,,0,1,1,1961-62
 12/22/1961,Boston College,Dave Mahoney,F,,0,2,2,1961-62
-12/27/1961,Queen’s,Dave Mahoney,F,,2,0,2,1961-62
-12/27/1961,Queen’s,Don Spinney,F,,1,0,1,1961-62
-12/27/1961,Queen’s,Alden Sampson,D,,0,1,1,1961-62
-12/27/1961,Queen’s,Edmund Connors,F,,0,1,1,1961-62
-12/27/1961,Queen’s,Jim Higgins,D,,0,1,1,1961-62
-12/27/1961,Queen’s,Alan Fuller,F,,0,1,1,1961-62
+12/27/1961,Queen's,Dave Mahoney,F,,2,0,2,1961-62
+12/27/1961,Queen's,Don Spinney,F,,1,0,1,1961-62
+12/27/1961,Queen's,Alden Sampson,D,,0,1,1,1961-62
+12/27/1961,Queen's,Edmund Connors,F,,0,1,1,1961-62
+12/27/1961,Queen's,Jim Higgins,D,,0,1,1,1961-62
+12/27/1961,Queen's,Alan Fuller,F,,0,1,1,1961-62
 12/28/1961,Northeastern,Bob Smith,D,,2,0,2,1961-62
 12/28/1961,Northeastern,Don Goguen,D,,1,0,1,1961-62
 12/28/1961,Northeastern,Don Spinney,F,,1,0,1,1961-62
