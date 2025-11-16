@@ -2963,12 +2963,12 @@
 12/22/1961,Boston College,Bob Smith,D,,1,0,1,1961-62
 12/22/1961,Boston College,Don Spinney,F,,0,1,1,1961-62
 12/22/1961,Boston College,Dave Mahoney,F,,0,2,2,1961-62
-12/27/1961,Queen’s,Dave Mahoney,F,,2,0,2,1961-62
-12/27/1961,Queen’s,Don Spinney,F,,1,0,1,1961-62
-12/27/1961,Queen’s,Alden Sampson,D,,0,1,1,1961-62
-12/27/1961,Queen’s,Edmund Connors,F,,0,1,1,1961-62
-12/27/1961,Queen’s,Jim Higgins,D,,0,1,1,1961-62
-12/27/1961,Queen’s,Alan Fuller,F,,0,1,1,1961-62
+12/27/1961,Queen's,Dave Mahoney,F,,2,0,2,1961-62
+12/27/1961,Queen's,Don Spinney,F,,1,0,1,1961-62
+12/27/1961,Queen's,Alden Sampson,D,,0,1,1,1961-62
+12/27/1961,Queen's,Edmund Connors,F,,0,1,1,1961-62
+12/27/1961,Queen's,Jim Higgins,D,,0,1,1,1961-62
+12/27/1961,Queen's,Alan Fuller,F,,0,1,1,1961-62
 12/28/1961,Northeastern,Bob Smith,D,,2,0,2,1961-62
 12/28/1961,Northeastern,Don Goguen,D,,1,0,1,1961-62
 12/28/1961,Northeastern,Don Spinney,F,,1,0,1,1961-62
@@ -7318,7 +7318,7 @@
 12/02/1981,Harvard,Bob Darling,F,SO,1,1,2,1981-82
 12/05/1981,Cornell,Bob Darling,F,SO,1,0,1,1981-82
 12/05/1981,Cornell,Paul Fenton,F,SR,1,0,1,1981-82
-12/05/1981,Cornell,Tom O’Regan,F,JR,0,2,2,1981-82
+12/05/1981,Cornell,Tom O'Regan,F,JR,0,2,2,1981-82
 12/05/1981,Cornell,Kevin Mutch,F,FR,0,1,1,1981-82
 12/05/1981,Cornell,Mark Pierog,F,SO,0,1,1,1981-82
 12/09/1981,Yale,Bob Darling,F,SO,0,1,1,1981-82
