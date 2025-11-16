@@ -2963,12 +2963,12 @@
 12/22/1961,Boston College,Bob Smith,D,,1,0,1,1961-62
 12/22/1961,Boston College,Don Spinney,F,,0,1,1,1961-62
 12/22/1961,Boston College,Dave Mahoney,F,,0,2,2,1961-62
-12/27/1961,Queen's,Dave Mahoney,F,,2,0,2,1961-62
-12/27/1961,Queen's,Don Spinney,F,,1,0,1,1961-62
-12/27/1961,Queen's,Alden Sampson,D,,0,1,1,1961-62
-12/27/1961,Queen's,Edmund Connors,F,,0,1,1,1961-62
-12/27/1961,Queen's,Jim Higgins,D,,0,1,1,1961-62
-12/27/1961,Queen's,Alan Fuller,F,,0,1,1,1961-62
+12/27/1961,Queen’s,Dave Mahoney,F,,2,0,2,1961-62
+12/27/1961,Queen’s,Don Spinney,F,,1,0,1,1961-62
+12/27/1961,Queen’s,Alden Sampson,D,,0,1,1,1961-62
+12/27/1961,Queen’s,Edmund Connors,F,,0,1,1,1961-62
+12/27/1961,Queen’s,Jim Higgins,D,,0,1,1,1961-62
+12/27/1961,Queen’s,Alan Fuller,F,,0,1,1,1961-62
 12/28/1961,Northeastern,Bob Smith,D,,2,0,2,1961-62
 12/28/1961,Northeastern,Don Goguen,D,,1,0,1,1961-62
 12/28/1961,Northeastern,Don Spinney,F,,1,0,1,1961-62
@@ -31130,3 +31130,23 @@
 11/08/2025,Merrimack,Owen McLaughlin,F,SR,1,2,3,2025-26
 11/08/2025,Merrimack,Jack Harvey,F,JR,1,0,1,2025-26
 11/08/2025,Merrimack,Jonathan Morello,F,FR,0,0,0,2025-26
+11/15/2025,Quinnipiac,Malte Vass,D,FR,0,0,0,2025-26
+11/15/2025,Quinnipiac,Brandon Svoboda,F,SO,0,0,0,2025-26
+11/15/2025,Quinnipiac,Owen McLaughlin,F,SR,0,0,0,2025-26
+11/15/2025,Quinnipiac,Kamil Bednarik,F,SO,0,0,0,2025-26
+11/15/2025,Quinnipiac,Ben Merrill,F,FR,0,0,0,2025-26
+11/15/2025,Quinnipiac,Mikhail Yegorov,G,SO,0,0,0,2025-26
+11/15/2025,Quinnipiac,Jack Murtagh,F,FR,0,0,0,2025-26
+11/15/2025,Quinnipiac,Nick Roukounakis,F,SO,1,0,1,2025-26
+11/15/2025,Quinnipiac,Jack Harvey,F,JR,1,0,1,2025-26
+11/15/2025,Quinnipiac,Aiden Celebrini,D,JR,0,1,1,2025-26
+11/15/2025,Quinnipiac,Charlie Trethewey,D,FR,0,1,1,2025-26
+11/15/2025,Quinnipiac,Gavin McCarthy,D,JR,0,0,0,2025-26
+11/15/2025,Quinnipiac,Conrad Fondrk,F,FR,0,0,0,2025-26
+11/15/2025,Quinnipiac,Sascha Boumedienne,D,SO,0,0,0,2025-26
+11/15/2025,Quinnipiac,Jonathan Morello,F,FR,0,0,0,2025-26
+11/15/2025,Quinnipiac,Cole Hutson,D,SO,0,1,1,2025-26
+11/15/2025,Quinnipiac,Ryder Ritchie,F,FR,0,0,0,2025-26
+11/15/2025,Quinnipiac,Sacha Boisvert,F,SO,0,0,0,2025-26
+11/15/2025,Quinnipiac,Carter Amico,D,FR,0,0,0,2025-26
+11/15/2025,Quinnipiac,Cole Eiserman,F,SO,0,0,0,2025-26

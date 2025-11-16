@@ -3086,7 +3086,7 @@ COACH: David Quinn
 CAPTAIN: Brandon Hickey
 9/30 W Agganis Arena	Union 4-1
 10/1 T (ot) Agganis Arena	Prince Edward Island (ex) 5-5
-10/8 W (ot) High Point Arena	Quinnipiac 3-2
+10/8 W (ot) TD Bank Center	Quinnipiac 3-2
 10/13 L Agganis Arena	Minnesota State 3-6
 10/14 L Agganis Arena	Minnesota State 0-3
 10/20 T (ot) Agganis Arena	Connecticut * 2-2
@@ -3432,7 +3432,7 @@ CAPTAIN: Gavin McCarthy
 11/01 L Alfond Arena	Maine * 5-8
 11/07 W (ot) Agganis Arena	Merrimack * 3-2
 11/08 W Lawler Rink	Merrimack * 5-4
-11/15 N TD Bank Center	Quinnipiac  0-0
+11/15 L TD Bank Center	Quinnipiac  2-6
 11/21 N Matthews Arena	Northeastern * 0-0
 11/22 N Agganis Arena	Northeastern * 0-0
 11/29 N MSG IV	Cornell (RHH) 0-0
