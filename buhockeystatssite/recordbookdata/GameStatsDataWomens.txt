@@ -14021,9 +14021,3 @@
 11/14/2025,Boston College,Maeve Carey,D,SR,0,0,0,2025-26
 11/14/2025,Boston College,Clara Yuhn,F,SR,1,0,1,2025-26
 11/14/2025,Boston College,Mia Vergilii,F,FR,0,0,0,2025-26
-11/14/2025,Boston College,Kaileigh Quigg,F,SO,0,0,0,2025-26
-11/14/2025,Boston College,Lexie Bertelsen,F,FR,0,2,2,2025-26
-11/14/2025,Boston College,Lilli Welcke,F,SR,0,0,0,2025-26
-11/14/2025,Boston College,Lola Reid,F,SO,0,0,0,2025-26
-11/14/2025,Boston College,Maeve Kelly,D,SR,0,0,0,2025-26
-11/14/2025,Boston College,Greta Henderson,F,JR,0,0,0,2025-26
