@@ -12756,7 +12756,6 @@
 12/10/1999,Maine,Nick Gillis,F,JR,1,0,1,1999-00
 12/10/1999,Maine,Pat Aufiero,D,SO,0,1,1,1999-00
 12/27/1999,Ferris State,Tommi Degerman,F,SR,0,1,1,1999-00
-12/27/1999,Ferris State,Ryan Priem,F/D,FR,0,1,1,1999-00
 12/27/1999,Ferris State,Ryan Priem,F,FR,0,1,1,1999-00
 12/27/1999,Ferris State,Chris Dyment,D,SO,0,1,1,1999-00
 12/27/1999,Ferris State,Carl Corazzini,F,JR,3,0,3,1999-00
@@ -13718,7 +13717,7 @@
 12/06/2002,Massachusetts,Mark Mullen,F,JR,0,2,2,2002-03
 12/06/2002,Massachusetts,Matt Radoslovich,F,SO,0,0,0,2002-03
 12/06/2002,Massachusetts,Brian Collins,F,SR,0,0,0,2002-03
-12/06/2002,Massachusetts,Ryan Priem,F/D,SR,0,0,0,2002-03
+12/06/2002,Massachusetts,Ryan Priem,F,SR,0,0,0,2002-03
 12/06/2002,Massachusetts,Freddy Meyer,D,SR,1,0,1,2002-03
 12/06/2002,Massachusetts,Bryan Miller,D,SO,0,1,1,2002-03
 12/06/2002,Massachusetts,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -13759,7 +13758,7 @@
 12/10/2002,Rensselaer,Frantisek Skladany,F,JR,1,0,1,2002-03
 12/10/2002,Rensselaer,Matt Radoslovich,F,SO,1,0,1,2002-03
 12/10/2002,Rensselaer,Brian Collins,F,SR,0,1,1,2002-03
-12/10/2002,Rensselaer,Ryan Priem,F/D,SR,0,0,0,2002-03
+12/10/2002,Rensselaer,Ryan Priem,F,SR,0,0,0,2002-03
 12/10/2002,Rensselaer,Freddy Meyer,D,SR,0,0,0,2002-03
 12/10/2002,Rensselaer,Bryan Miller,D,SO,0,0,0,2002-03
 12/10/2002,Rensselaer,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -13780,7 +13779,7 @@
 12/28/2002,Michigan State,Frantisek Skladany,F,JR,2,2,4,2002-03
 12/28/2002,Michigan State,Matt Radoslovich,F,SO,0,0,0,2002-03
 12/28/2002,Michigan State,Gregg Johnson,F,JR,0,0,0,2002-03
-12/28/2002,Michigan State,Ryan Priem,F/D,SR,0,0,0,2002-03
+12/28/2002,Michigan State,Ryan Priem,F,SR,0,0,0,2002-03
 12/28/2002,Michigan State,Freddy Meyer,D,SR,0,0,0,2002-03
 12/28/2002,Michigan State,Bryan Miller,D,SO,0,1,1,2002-03
 12/28/2002,Michigan State,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -13800,7 +13799,7 @@
 12/29/2002,Michigan,Frantisek Skladany,F,JR,0,0,0,2002-03
 12/29/2002,Michigan,Matt Radoslovich,F,SO,0,1,1,2002-03
 12/29/2002,Michigan,Gregg Johnson,F,JR,0,1,1,2002-03
-12/29/2002,Michigan,Ryan Priem,F/D,SR,1,0,1,2002-03
+12/29/2002,Michigan,Ryan Priem,F,SR,1,0,1,2002-03
 12/29/2002,Michigan,Freddy Meyer,D,SR,0,1,1,2002-03
 12/29/2002,Michigan,Bryan Miller,D,SO,1,0,1,2002-03
 12/29/2002,Michigan,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -13941,7 +13940,7 @@
 01/25/2003,New Hampshire,Frantisek Skladany,F,JR,0,0,0,2002-03
 01/25/2003,New Hampshire,Matt Radoslovich,F,SO,0,0,0,2002-03
 01/25/2003,New Hampshire,David Klema,F,SO,0,0,0,2002-03
-01/25/2003,New Hampshire,Ryan Priem,F/D,SR,0,0,0,2002-03
+01/25/2003,New Hampshire,Ryan Priem,F,SR,0,0,0,2002-03
 01/25/2003,New Hampshire,Freddy Meyer,D,SR,0,0,0,2002-03
 01/25/2003,New Hampshire,Bryan Miller,D,SO,0,0,0,2002-03
 01/25/2003,New Hampshire,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -14002,7 +14001,7 @@
 02/07/2003,Massachusetts,Frantisek Skladany,F,JR,0,0,0,2002-03
 02/07/2003,Massachusetts,Matt Radoslovich,F,SO,0,0,0,2002-03
 02/07/2003,Massachusetts,David Klema,F,SO,0,0,0,2002-03
-02/07/2003,Massachusetts,Ryan Priem,F/D,SR,0,0,0,2002-03
+02/07/2003,Massachusetts,Ryan Priem,F,SR,0,0,0,2002-03
 02/07/2003,Massachusetts,Freddy Meyer,D,SR,0,1,1,2002-03
 02/07/2003,Massachusetts,Bryan Miller,D,SO,0,0,0,2002-03
 02/07/2003,Massachusetts,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -14043,7 +14042,7 @@
 02/14/2003,UMass Lowell,Frantisek Skladany,F,JR,1,2,3,2002-03
 02/14/2003,UMass Lowell,John Laliberte,F,FR,0,0,0,2002-03
 02/14/2003,UMass Lowell,David Klema,F,SO,0,0,0,2002-03
-02/14/2003,UMass Lowell,Ryan Priem,F/D,SR,0,0,0,2002-03
+02/14/2003,UMass Lowell,Ryan Priem,F,SR,0,0,0,2002-03
 02/14/2003,UMass Lowell,Freddy Meyer,D,SR,0,1,1,2002-03
 02/14/2003,UMass Lowell,Bryan Miller,D,SO,0,2,2,2002-03
 02/14/2003,UMass Lowell,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -14055,7 +14054,7 @@
 02/14/2003,UMass Lowell,Andy Warren,G,JR,0,0,0,2002-03
 02/15/2003,UMass Lowell,Mike Bussoli,D,SR,0,1,1,2002-03
 02/15/2003,UMass Lowell,Brian McConnell,F,SO,0,0,0,2002-03
-02/15/2003,UMass Lowell,Ryan Priem,F/D,SR,0,0,0,2002-03
+02/15/2003,UMass Lowell,Ryan Priem,F,SR,0,0,0,2002-03
 02/15/2003,UMass Lowell,Ryan Whitney,D,SO,0,1,1,2002-03
 02/15/2003,UMass Lowell,Brad Zancanaro,F,FR,0,0,0,2002-03
 02/15/2003,UMass Lowell,Justin Maiser,F,SO,0,0,0,2002-03
@@ -14122,7 +14121,7 @@
 02/28/2003,Maine,David Van der Gulik,F,FR,2,0,2,2002-03
 02/28/2003,Maine,Dan Spang,D,FR,0,0,0,2002-03
 02/28/2003,Maine,Jekabs Redlihs,D,FR,0,1,1,2002-03
-02/28/2003,Maine,Ryan Priem,F/D,SR,0,0,0,2002-03
+02/28/2003,Maine,Ryan Priem,F,SR,0,0,0,2002-03
 02/28/2003,Maine,Brian Collins,F,SR,0,1,1,2002-03
 02/28/2003,Maine,Ken Magowan,F,JR,0,1,1,2002-03
 02/28/2003,Maine,Justin Maiser,F,SO,0,0,0,2002-03
@@ -14142,7 +14141,7 @@
 03/01/2003,Maine,David Van der Gulik,F,FR,0,0,0,2002-03
 03/01/2003,Maine,Dan Spang,D,FR,0,0,0,2002-03
 03/01/2003,Maine,Jekabs Redlihs,D,FR,0,0,0,2002-03
-03/01/2003,Maine,Ryan Priem,F/D,SR,0,0,0,2002-03
+03/01/2003,Maine,Ryan Priem,F,SR,0,0,0,2002-03
 03/01/2003,Maine,Brian Collins,F,SR,0,0,0,2002-03
 03/01/2003,Maine,Ken Magowan,F,JR,1,0,1,2002-03
 03/01/2003,Maine,Justin Maiser,F,SO,0,0,0,2002-03
@@ -14165,7 +14164,7 @@
 03/07/2003,Providence,Frantisek Skladany,F,JR,1,0,1,2002-03
 03/07/2003,Providence,John Laliberte,F,FR,0,1,1,2002-03
 03/07/2003,Providence,Matt Radoslovich,F,SO,0,0,0,2002-03
-03/07/2003,Providence,Ryan Priem,F/D,SR,0,0,0,2002-03
+03/07/2003,Providence,Ryan Priem,F,SR,0,0,0,2002-03
 03/07/2003,Providence,Mike Bussoli,D,SR,0,0,0,2002-03
 03/07/2003,Providence,Ryan Whitney,D,SO,0,0,0,2002-03
 03/07/2003,Providence,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -14186,7 +14185,7 @@
 03/08/2003,Providence,Frantisek Skladany,F,JR,1,0,1,2002-03
 03/08/2003,Providence,John Laliberte,F,FR,1,0,1,2002-03
 03/08/2003,Providence,Matt Radoslovich,F,SO,0,0,0,2002-03
-03/08/2003,Providence,Ryan Priem,F/D,SR,0,0,0,2002-03
+03/08/2003,Providence,Ryan Priem,F,SR,0,0,0,2002-03
 03/08/2003,Providence,Mike Bussoli,D,SR,0,0,0,2002-03
 03/08/2003,Providence,Ryan Whitney,D,SO,0,0,0,2002-03
 03/08/2003,Providence,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -14207,7 +14206,7 @@
 03/14/2003,Boston College,Frantisek Skladany,F,JR,0,0,0,2002-03
 03/14/2003,Boston College,John Laliberte,F,FR,0,1,1,2002-03
 03/14/2003,Boston College,Matt Radoslovich,F,SO,0,0,0,2002-03
-03/14/2003,Boston College,Ryan Priem,F/D,SR,0,0,0,2002-03
+03/14/2003,Boston College,Ryan Priem,F,SR,0,0,0,2002-03
 03/14/2003,Boston College,Mike Bussoli,D,SR,1,1,2,2002-03
 03/14/2003,Boston College,Ryan Whitney,D,SO,0,2,2,2002-03
 03/14/2003,Boston College,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -14228,7 +14227,7 @@
 03/15/2003,New Hampshire,Frantisek Skladany,F,JR,0,0,0,2002-03
 03/15/2003,New Hampshire,John Laliberte,F,FR,0,0,0,2002-03
 03/15/2003,New Hampshire,Matt Radoslovich,F,SO,0,0,0,2002-03
-03/15/2003,New Hampshire,Ryan Priem,F/D,SR,0,0,0,2002-03
+03/15/2003,New Hampshire,Ryan Priem,F,SR,0,0,0,2002-03
 03/15/2003,New Hampshire,Mike Bussoli,D,SR,0,0,0,2002-03
 03/15/2003,New Hampshire,Ryan Whitney,D,SO,0,0,0,2002-03
 03/15/2003,New Hampshire,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -14249,7 +14248,7 @@
 03/28/2003,Harvard,Frantisek Skladany,F,JR,1,1,2,2002-03
 03/28/2003,Harvard,John Laliberte,F,FR,0,0,0,2002-03
 03/28/2003,Harvard,Matt Radoslovich,F,SO,1,0,1,2002-03
-03/28/2003,Harvard,Ryan Priem,F/D,SR,0,1,1,2002-03
+03/28/2003,Harvard,Ryan Priem,F,SR,0,1,1,2002-03
 03/28/2003,Harvard,Freddy Meyer,D,SR,0,0,0,2002-03
 03/28/2003,Harvard,Bryan Miller,D,SO,1,1,2,2002-03
 03/28/2003,Harvard,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -14270,7 +14269,7 @@
 03/29/2003,New Hampshire,Frantisek Skladany,F,JR,0,0,0,2002-03
 03/29/2003,New Hampshire,John Laliberte,F,FR,0,0,0,2002-03
 03/29/2003,New Hampshire,Matt Radoslovich,F,SO,0,0,0,2002-03
-03/29/2003,New Hampshire,Ryan Priem,F/D,SR,0,0,0,2002-03
+03/29/2003,New Hampshire,Ryan Priem,F,SR,0,0,0,2002-03
 03/29/2003,New Hampshire,Freddy Meyer,D,SR,0,0,0,2002-03
 03/29/2003,New Hampshire,Bryan Miller,D,SO,0,0,0,2002-03
 03/29/2003,New Hampshire,Stephen Siwiec,G,FR,0,0,0,2002-03
@@ -14568,7 +14567,7 @@
 01/02/2004,Minnesota,Frantisek Skladany,F,SR,0,0,0,2003-04
 01/02/2004,Minnesota,David Van der Gulik,F,SO,0,0,0,2003-04
 01/02/2004,Minnesota,Brian McConnell,F,JR,1,0,1,2003-04
-01/02/2004,Minnesota,Bryan Miller,D,JR,0,1,1,2003-04
+01/02/2004,Minnesota,Bryan Miller,F,JR,0,1,1,2003-04
 01/02/2004,Minnesota,Kenny Roche,F,FR,0,1,1,2003-04
 01/02/2004,Minnesota,David Klema,F,JR,0,0,0,2003-04
 01/02/2004,Minnesota,John Laliberte,F,SO,1,0,1,2003-04
@@ -14589,7 +14588,7 @@
 01/03/2004,Minnesota,Frantisek Skladany,F,SR,1,2,3,2003-04
 01/03/2004,Minnesota,David Van der Gulik,F,SO,0,0,0,2003-04
 01/03/2004,Minnesota,Brian McConnell,F,JR,1,0,1,2003-04
-01/03/2004,Minnesota,Bryan Miller,D,JR,0,0,0,2003-04
+01/03/2004,Minnesota,Bryan Miller,F,JR,0,0,0,2003-04
 01/03/2004,Minnesota,Kenny Roche,F,FR,0,0,0,2003-04
 01/03/2004,Minnesota,David Klema,F,JR,1,0,1,2003-04
 01/03/2004,Minnesota,John Laliberte,F,SO,0,0,0,2003-04
@@ -14727,7 +14726,7 @@
 01/24/2004,Maine,Sean Fields,G,SR,0,0,0,2003-04
 01/30/2004,UMass Lowell,David Van der Gulik,F,SO,1,0,1,2003-04
 01/30/2004,UMass Lowell,Brian McConnell,F,JR,0,1,1,2003-04
-01/30/2004,UMass Lowell,Bryan Miller,D,JR,0,0,0,2003-04
+01/30/2004,UMass Lowell,Bryan Miller,F,JR,0,0,0,2003-04
 01/30/2004,UMass Lowell,Frantisek Skladany,F,SR,0,0,0,2003-04
 01/30/2004,UMass Lowell,John Laliberte,F,SO,0,0,0,2003-04
 01/30/2004,UMass Lowell,Matt Radoslovich,F,JR,0,0,0,2003-04
@@ -14828,7 +14827,7 @@
 02/12/2004,Merrimack,Sean Fields,G,SR,0,0,0,2003-04
 02/14/2004,Providence,David Van der Gulik,F,SO,0,0,0,2003-04
 02/14/2004,Providence,Brian McConnell,F,JR,0,0,0,2003-04
-02/14/2004,Providence,Bryan Miller,D,JR,0,0,0,2003-04
+02/14/2004,Providence,Bryan Miller,F,JR,0,0,0,2003-04
 02/14/2004,Providence,Kenny Roche,F,FR,0,0,0,2003-04
 02/14/2004,Providence,Brad Zancanaro,F,SO,0,0,0,2003-04
 02/14/2004,Providence,Mark Mullen,F,SR,0,0,0,2003-04
@@ -14952,7 +14951,7 @@
 03/06/2004,New Hampshire,Matt Radoslovich,F,JR,0,0,0,2003-04
 03/06/2004,New Hampshire,Mark Mullen,F,SR,0,0,0,2003-04
 03/06/2004,New Hampshire,Brian McConnell,F,JR,0,0,0,2003-04
-03/06/2004,New Hampshire,Bryan Miller,D,JR,0,0,0,2003-04
+03/06/2004,New Hampshire,Bryan Miller,F,JR,0,0,0,2003-04
 03/06/2004,New Hampshire,Kenny Roche,F,FR,0,2,2,2003-04
 03/06/2004,New Hampshire,John Laliberte,F,SO,1,0,1,2003-04
 03/06/2004,New Hampshire,Frantisek Skladany,F,SR,1,1,2,2003-04
@@ -15159,7 +15158,7 @@
 11/05/2004,New Hampshire,Chris Bourque,F,FR,1,0,1,2004-05
 11/05/2004,New Hampshire,Pete MacArthur,F,FR,0,1,1,2004-05
 11/05/2004,New Hampshire,Matt Radoslovich,F,SR,0,0,0,2004-05
-11/05/2004,New Hampshire,Dan McGoff,D,FR,0,0,0,2004-05
+11/05/2004,New Hampshire,Dan McGoff,F,FR,0,0,0,2004-05
 11/05/2004,New Hampshire,Brian McGuirk,F,FR,0,0,0,2004-05
 11/05/2004,New Hampshire,Pat Percella,F,FR,0,0,0,2004-05
 11/05/2004,New Hampshire,Jekabs Redlihs,D,JR,0,0,0,2004-05
@@ -15202,7 +15201,7 @@
 11/13/2004,Merrimack,Matt Radoslovich,F,SR,0,0,0,2004-05
 11/13/2004,Merrimack,Ryan Monaghan,F,FR,0,0,0,2004-05
 11/13/2004,Merrimack,Brian McGuirk,F,FR,0,0,0,2004-05
-11/13/2004,Merrimack,Dan McGoff,D,FR,0,0,0,2004-05
+11/13/2004,Merrimack,Dan McGoff,F,FR,0,0,0,2004-05
 11/13/2004,Merrimack,Dan Spang,D,JR,0,1,1,2004-05
 11/13/2004,Merrimack,Kevin Schaeffer,D,SO,0,0,0,2004-05
 11/13/2004,Merrimack,Stephan Siwiec,G,JR,0,0,0,2004-05
@@ -15221,7 +15220,7 @@
 11/19/2004,UMass Lowell,Chris Bourque,F,FR,2,1,3,2004-05
 11/19/2004,UMass Lowell,Pete MacArthur,F,FR,1,2,3,2004-05
 11/19/2004,UMass Lowell,Matt Radoslovich,F,SR,0,2,2,2004-05
-11/19/2004,UMass Lowell,Dan McGoff,D,FR,0,1,1,2004-05
+11/19/2004,UMass Lowell,Dan McGoff,F,FR,0,1,1,2004-05
 11/19/2004,UMass Lowell,Brian McGuirk,F,FR,0,1,1,2004-05
 11/19/2004,UMass Lowell,Pat Percella,F,FR,1,0,1,2004-05
 11/19/2004,UMass Lowell,Dan Spang,D,JR,0,0,0,2004-05
@@ -15262,7 +15261,7 @@
 11/23/2004,Harvard,Chris Bourque,F,FR,0,0,0,2004-05
 11/23/2004,Harvard,Pete MacArthur,F,FR,0,0,0,2004-05
 11/23/2004,Harvard,Matt Radoslovich,F,SR,0,0,0,2004-05
-11/23/2004,Harvard,Dan McGoff,D,FR,0,0,0,2004-05
+11/23/2004,Harvard,Dan McGoff,F,FR,0,0,0,2004-05
 11/23/2004,Harvard,Brian McGuirk,F,FR,0,0,0,2004-05
 11/23/2004,Harvard,Ryan Monaghan,F,FR,0,0,0,2004-05
 11/23/2004,Harvard,Jekabs Redlihs,D,JR,0,0,0,2004-05
@@ -15293,7 +15292,7 @@
 11/26/2004,Denver,Sean Sullivan,D,SO,0,0,0,2004-05
 11/26/2004,Denver,John Curry,G,SO,0,0,0,2004-05
 11/26/2004,Denver,Jekabs Redlihs,D,JR,0,0,0,2004-05
-11/26/2004,Denver,Dan McGoff,D,FR,0,0,0,2004-05
+11/26/2004,Denver,Dan McGoff,F,FR,0,0,0,2004-05
 11/27/2004,Colorado College,David Van der Gulik,F,JR,0,0,0,2004-05
 11/27/2004,Colorado College,Brad Zancanaro,F,JR,0,0,0,2004-05
 11/27/2004,Colorado College,John Laliberte,F,JR,0,1,1,2004-05
@@ -16811,7 +16810,7 @@
 11/03/2006,UMass Lowell,Jason Lawrence,F,SO,0,0,0,2006-07
 11/03/2006,UMass Lowell,Ryan Weston,F,JR,0,1,1,2006-07
 11/03/2006,UMass Lowell,Chris Higgins,F,SO,0,1,1,2006-07
-11/03/2006,UMass Lowell,Matt Gilroy,D,SO,1,0,1,2006-07
+11/03/2006,UMass Lowell,Matt Gilroy,F,SO,1,0,1,2006-07
 11/03/2006,UMass Lowell,Zach Cohen,F,FR,0,0,0,2006-07
 11/03/2006,UMass Lowell,Luke Popko,F,FR,0,0,0,2006-07
 11/03/2006,UMass Lowell,Craig Sanders,F,JR,0,0,0,2006-07
@@ -16832,7 +16831,7 @@
 11/04/2006,Maine,Ryan Monaghan,F,JR,0,0,0,2006-07
 11/04/2006,Maine,Kenny Roche,F,SR,0,0,0,2006-07
 11/04/2006,Maine,Chris Higgins,F,SO,0,1,1,2006-07
-11/04/2006,Maine,Matt Gilroy,D,SO,1,0,1,2006-07
+11/04/2006,Maine,Matt Gilroy,F,SO,1,0,1,2006-07
 11/04/2006,Maine,Ryan Weston,F,JR,0,0,0,2006-07
 11/04/2006,Maine,Pete MacArthur,F,JR,0,1,1,2006-07
 11/04/2006,Maine,Jason Lawrence,F,SO,0,1,1,2006-07
@@ -16934,7 +16933,7 @@
 11/21/2006,Harvard,John Curry,G,SR,0,0,0,2006-07
 11/25/2006,Yale,Jason Lawrence,F,SO,0,1,1,2006-07
 11/25/2006,Yale,Chris Higgins,F,SO,0,1,1,2006-07
-11/25/2006,Yale,Matt Gilroy,D,SO,1,1,2,2006-07
+11/25/2006,Yale,Matt Gilroy,F,SO,1,1,2,2006-07
 11/25/2006,Yale,Kenny Roche,F,SR,0,0,0,2006-07
 11/25/2006,Yale,Pete MacArthur,F,JR,0,0,0,2006-07
 11/25/2006,Yale,Bryan Ewing,F,JR,0,0,0,2006-07
@@ -17130,7 +17129,7 @@
 01/13/2007,Maine,Ryan Weston,F,JR,0,1,1,2006-07
 01/13/2007,Maine,Brian McGuirk,F,JR,0,1,1,2006-07
 01/13/2007,Maine,John McCarthy,F,SO,0,1,1,2006-07
-01/13/2007,Maine,Dan McGoff,D,JR,1,0,1,2006-07
+01/13/2007,Maine,Dan McGoff,F,JR,1,0,1,2006-07
 01/13/2007,Maine,Sean Sullivan,D,SR,0,0,0,2006-07
 01/13/2007,Maine,Matt Gilroy,D,SO,1,0,1,2006-07
 01/13/2007,Maine,Karson Gillespie,G,JR,0,0,0,2006-07
@@ -17277,7 +17276,7 @@
 02/05/2007,Northeastern,Ryan Weston,F,JR,0,0,0,2006-07
 02/05/2007,Northeastern,Brian McGuirk,F,JR,0,1,1,2006-07
 02/05/2007,Northeastern,John McCarthy,F,SO,0,0,0,2006-07
-02/05/2007,Northeastern,Dan McGoff,D,JR,2,0,2,2006-07
+02/05/2007,Northeastern,Dan McGoff,F,JR,2,0,2,2006-07
 02/05/2007,Northeastern,Sean Sullivan,D,SR,0,1,1,2006-07
 02/05/2007,Northeastern,Matt Gilroy,D,SO,0,2,2,2006-07
 02/05/2007,Northeastern,Karson Gillespie,G,JR,0,0,0,2006-07
@@ -17573,7 +17572,7 @@
 10/13/2007,Alaska Anchorage,John McCarthy,F,JR,0,0,0,2007-08
 10/13/2007,Alaska Anchorage,Ryan Weston,F,SR,0,0,0,2007-08
 10/13/2007,Alaska Anchorage,Kevin Kielt,D,SR,0,0,0,2007-08
-10/13/2007,Alaska Anchorage,Ryan Monaghan,F,SR,1,0,1,2007-08
+10/13/2007,Alaska Anchorage,Ryan Monaghan,D,SR,1,0,1,2007-08
 10/13/2007,Alaska Anchorage,Karson Gillespie,G,SR,0,0,0,2007-08
 10/13/2007,Alaska Anchorage,Kevin Shattenkirk,D,FR,0,0,0,2007-08
 10/13/2007,Alaska Anchorage,Matt Gilroy,D,JR,1,0,1,2007-08
@@ -17609,7 +17608,7 @@
 10/26/2007,Michigan,Brandon Yip,F,JR,0,0,0,2007-08
 10/26/2007,Michigan,Brian McGuirk,F,SR,0,1,1,2007-08
 10/26/2007,Michigan,John McCarthy,F,JR,0,1,1,2007-08
-10/26/2007,Michigan,Dan McGoff,D,SR,1,0,1,2007-08
+10/26/2007,Michigan,Dan McGoff,F,SR,1,0,1,2007-08
 10/26/2007,Michigan,Joe Pereira,F,FR,0,0,0,2007-08
 10/26/2007,Michigan,Nick Bonino,F,FR,0,0,0,2007-08
 10/26/2007,Michigan,Jason Lawrence,F,JR,1,0,1,2007-08
@@ -19511,7 +19510,7 @@
 11/20/2009,New Hampshire,Sean Escobedo,D,FR,0,0,0,2009-10
 11/20/2009,New Hampshire,Max Nicastro,D,FR,0,0,0,2009-10
 11/20/2009,New Hampshire,Grant Rollheiser,G,SO,0,0,0,2009-10
-11/21/2009,New Hampshire,David Warsofsky,D,SO,1,0,1,2009-10
+11/21/2009,New Hampshire,David Warsofsky,F,SO,1,0,1,2009-10
 11/21/2009,New Hampshire,Nick Bonino,F,JR,0,1,1,2009-10
 11/21/2009,New Hampshire,Alex Chiasson,F,FR,0,1,1,2009-10
 11/21/2009,New Hampshire,Zach Cohen,F,SR,0,2,2,2009-10
@@ -20337,7 +20336,7 @@
 11/27/2010,Brown,Ross Gaudet,F,SO,0,1,1,2010-11
 11/27/2010,Brown,Wade Megan,F,SO,1,0,1,2010-11
 11/27/2010,Brown,Justin Courtnall,F,SO,0,0,0,2010-11
-11/27/2010,Brown,Ben Rosen,D,SO,1,0,1,2010-11
+11/27/2010,Brown,Ben Rosen,F,SO,1,0,1,2010-11
 11/27/2010,Brown,Ryan Santana,F,SO,0,0,0,2010-11
 11/27/2010,Brown,David Warsofsky,D,JR,0,2,2,2010-11
 11/27/2010,Brown,Ryan Ruikka,D,SO,0,0,0,2010-11
@@ -20719,7 +20718,7 @@
 02/25/2011,Vermont,Ross Gaudet,F,SO,0,0,0,2010-11
 02/25/2011,Vermont,Joe Pereira,F,SR,0,0,0,2010-11
 02/25/2011,Vermont,Justin Courtnall,F,SO,0,1,1,2010-11
-02/25/2011,Vermont,Ben Rosen,D,SO,1,0,1,2010-11
+02/25/2011,Vermont,Ben Rosen,F,SO,1,0,1,2010-11
 02/25/2011,Vermont,Kevin Gilroy,F,JR,0,1,1,2010-11
 02/25/2011,Vermont,Max Nicastro,D,SO,0,0,0,2010-11
 02/25/2011,Vermont,Ryan Ruikka,D,SO,0,0,0,2010-11
@@ -21215,7 +21214,7 @@
 01/14/2012,Harvard,Cason Hohmann,F,FR,0,0,0,2011-12
 01/14/2012,Harvard,Yasin Cissé,F,FR,0,0,0,2011-12
 01/14/2012,Harvard,Ross Gaudet,F,JR,0,0,0,2011-12
-01/14/2012,Harvard,Ben Rosen,F/D,JR,1,0,1,2011-12
+01/14/2012,Harvard,Ben Rosen,F,JR,1,0,1,2011-12
 01/14/2012,Harvard,Ryan Santana,F,JR,0,0,0,2011-12
 01/14/2012,Harvard,Garrett Noonan,D,SO,1,0,1,2011-12
 01/14/2012,Harvard,Alexx Privitera,D,FR,0,0,0,2011-12
@@ -21595,7 +21594,7 @@
 10/13/2012,Providence,Danny O'Regan,F,FR,0,0,0,2012-13
 10/13/2012,Providence,Sam Kurker,F,FR,0,0,0,2012-13
 10/13/2012,Providence,Matt Lane,F,FR,0,1,1,2012-13
-10/13/2012,Providence,Ben Rosen,F/D,SR,1,0,1,2012-13
+10/13/2012,Providence,Ben Rosen,F,SR,1,0,1,2012-13
 10/13/2012,Providence,Ryan Santana,F,SR,0,0,0,2012-13
 10/13/2012,Providence,Garrett Noonan,D,JR,1,0,1,2012-13
 10/13/2012,Providence,Ryan Ruikka,D,SR,1,0,1,2012-13
@@ -21786,7 +21785,7 @@
 11/24/2012,St. Lawrence,Wesley Myron,F,FR,0,0,0,2012-13
 11/24/2012,St. Lawrence,Sam Kurker,F,FR,1,0,1,2012-13
 11/24/2012,St. Lawrence,Matt Lane,F,FR,0,0,0,2012-13
-11/24/2012,St. Lawrence,Ben Rosen,F/D,SR,1,0,1,2012-13
+11/24/2012,St. Lawrence,Ben Rosen,F,SR,1,0,1,2012-13
 11/24/2012,St. Lawrence,Ryan Santana,F,SR,0,1,1,2012-13
 11/24/2012,St. Lawrence,Garrett Noonan,D,JR,0,1,1,2012-13
 11/24/2012,St. Lawrence,Ryan Ruikka,D,SR,0,1,1,2012-13
@@ -22011,7 +22010,7 @@
 01/26/2013,Providence,Danny O'Regan,F,FR,1,1,2,2012-13
 01/26/2013,Providence,Ryan Santana,F,SR,0,0,0,2012-13
 01/26/2013,Providence,Matt Lane,F,FR,0,1,1,2012-13
-01/26/2013,Providence,Ben Rosen,F/D,SR,1,0,1,2012-13
+01/26/2013,Providence,Ben Rosen,F,SR,1,0,1,2012-13
 01/26/2013,Providence,Sam Kurker,F,FR,0,1,1,2012-13
 01/26/2013,Providence,Mike Moran,F,FR,0,0,0,2012-13
 01/26/2013,Providence,Wesley Myron,F,FR,0,0,0,2012-13
@@ -22030,7 +22029,7 @@
 02/01/2013,Massachusetts,Danny O'Regan,F,FR,0,0,0,2012-13
 02/01/2013,Massachusetts,Evan Rodrigues,F,SO,0,0,0,2012-13
 02/01/2013,Massachusetts,Matt Lane,F,FR,0,0,0,2012-13
-02/01/2013,Massachusetts,Ben Rosen,F/D,SR,1,0,1,2012-13
+02/01/2013,Massachusetts,Ben Rosen,F,SR,1,0,1,2012-13
 02/01/2013,Massachusetts,Sam Kurker,F,FR,0,0,0,2012-13
 02/01/2013,Massachusetts,Mike Moran,F,FR,0,0,0,2012-13
 02/01/2013,Massachusetts,Ryan Santana,F,SR,0,0,0,2012-13
@@ -22224,7 +22223,7 @@
 03/08/2013,Northeastern,Sam Kurker,F,FR,0,0,0,2012-13
 03/08/2013,Northeastern,Mike Moran,F,FR,0,0,0,2012-13
 03/08/2013,Northeastern,Ryan Santana,F,SR,0,2,2,2012-13
-03/08/2013,Northeastern,Jake Moscatel,F/D,SR,1,0,1,2012-13
+03/08/2013,Northeastern,Jake Moscatel,F,SR,1,0,1,2012-13
 03/08/2013,Northeastern,Sean Escobedo,D,SR,0,0,0,2012-13
 03/08/2013,Northeastern,Ryan Ruikka,D,SR,0,1,1,2012-13
 03/08/2013,Northeastern,Garrett Noonan,D,JR,0,0,0,2012-13
@@ -22277,7 +22276,7 @@
 03/16/2013,Merrimack,Danny O'Regan,F,FR,0,1,1,2012-13
 03/16/2013,Merrimack,Evan Rodrigues,F,SO,0,0,0,2012-13
 03/16/2013,Merrimack,Matt Lane,F,FR,0,1,1,2012-13
-03/16/2013,Merrimack,Ben Rosen,F/D,SR,1,0,1,2012-13
+03/16/2013,Merrimack,Ben Rosen,F,SR,1,0,1,2012-13
 03/16/2013,Merrimack,Sam Kurker,F,FR,1,0,1,2012-13
 03/16/2013,Merrimack,Mike Moran,F,FR,0,0,0,2012-13
 03/16/2013,Merrimack,Ryan Santana,F,SR,0,0,0,2012-13
@@ -22718,7 +22717,7 @@
 01/17/2014,Boston College,Matt Lane,F,SO,0,0,0,2013-14
 01/17/2014,Boston College,Tommy Kelley,F,FR,0,0,0,2013-14
 01/17/2014,Boston College,Mike Moran,F,SO,1,1,2,2013-14
-01/17/2014,Boston College,T.J. Ryan,D,FR,1,0,1,2013-14
+01/17/2014,Boston College,T.J. Ryan,F,FR,1,0,1,2013-14
 01/17/2014,Boston College,Matt Ronan,F/D,SR,0,0,0,2013-14
 01/17/2014,Boston College,Dillon Lawrence,F,FR,0,0,0,2013-14
 01/17/2014,Boston College,Kevin Duane,F,FR,0,1,1,2013-14
@@ -22834,7 +22833,7 @@
 02/07/2014,UMass Lowell,Kevin Duane,F,FR,0,0,0,2013-14
 02/07/2014,UMass Lowell,Brendan Collier,F,FR,0,1,1,2013-14
 02/07/2014,UMass Lowell,Dillon Lawrence,F,FR,0,0,0,2013-14
-02/07/2014,UMass Lowell,Matt Ronan,F/D,SR,1,0,1,2013-14
+02/07/2014,UMass Lowell,Matt Ronan,F,SR,1,0,1,2013-14
 02/07/2014,UMass Lowell,Garrett Noonan,D,SR,0,0,0,2013-14
 02/07/2014,UMass Lowell,T.J. Ryan,D,FR,0,0,0,2013-14
 02/07/2014,UMass Lowell,Doyle Somerby,D,FR,0,0,0,2013-14
@@ -22989,7 +22988,7 @@
 03/08/2014,Notre Dame,Matt O'Connor,G,SO,0,0,0,2013-14
 03/08/2014,Notre Dame,Doyle Somerby,D,FR,0,0,0,2013-14
 03/08/2014,Notre Dame,Dalton MacAfee,D,FR,0,0,0,2013-14
-10/10/2014,Massachusetts,Ahti Oksanen,F/D,JR,0,2,2,2014-15
+10/10/2014,Massachusetts,Ahti Oksanen,F,JR,0,2,2,2014-15
 10/10/2014,Massachusetts,Jack Eichel,F,FR,2,2,4,2014-15
 10/10/2014,Massachusetts,Danny O'Regan,F,JR,2,1,3,2014-15
 10/10/2014,Massachusetts,Evan Rodrigues,F,SR,0,3,3,2014-15
@@ -23008,7 +23007,7 @@
 10/10/2014,Massachusetts,Brien Diffley,D,FR,0,0,0,2014-15
 10/10/2014,Massachusetts,Doyle Somerby,D,SO,0,0,0,2014-15
 10/10/2014,Massachusetts,Connor LaCouvee,G,FR,0,0,0,2014-15
-10/24/2014,Michigan State,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+10/24/2014,Michigan State,Ahti Oksanen,F,JR,1,0,1,2014-15
 10/24/2014,Michigan State,Jack Eichel,F,FR,0,1,1,2014-15
 10/24/2014,Michigan State,Danny O'Regan,F,JR,0,0,0,2014-15
 10/24/2014,Michigan State,Evan Rodrigues,F,SR,0,0,0,2014-15
@@ -23027,7 +23026,7 @@
 10/24/2014,Michigan State,Matt O'Connor,G,JR,0,0,0,2014-15
 10/24/2014,Michigan State,Doyle Somerby,D,SO,0,0,0,2014-15
 10/24/2014,Michigan State,Brien Diffley,D,FR,0,0,0,2014-15
-10/25/2014,Michigan,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+10/25/2014,Michigan,Ahti Oksanen,F,JR,1,0,1,2014-15
 10/25/2014,Michigan,Jack Eichel,F,FR,1,0,1,2014-15
 10/25/2014,Michigan,Danny O'Regan,F,JR,0,2,2,2014-15
 10/25/2014,Michigan,Evan Rodrigues,F,SR,0,0,0,2014-15
@@ -23049,7 +23048,7 @@
 10/31/2014,Providence,Nikolas Olsson,F,FR,0,0,0,2014-15
 10/31/2014,Providence,Matt Lane,F,JR,0,0,0,2014-15
 10/31/2014,Providence,Nick Roberto,F,SO,0,0,0,2014-15
-10/31/2014,Providence,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+10/31/2014,Providence,Ahti Oksanen,F,JR,1,0,1,2014-15
 10/31/2014,Providence,Jack Eichel,F,FR,1,1,2,2014-15
 10/31/2014,Providence,Danny O'Regan,F,JR,0,1,1,2014-15
 10/31/2014,Providence,Evan Rodrigues,F,SR,1,2,3,2014-15
@@ -23065,7 +23064,7 @@
 10/31/2014,Providence,Matt O'Connor,G,JR,0,0,0,2014-15
 10/31/2014,Providence,Doyle Somerby,D,SO,0,0,0,2014-15
 10/31/2014,Providence,Brien Diffley,D,FR,0,0,0,2014-15
-11/01/2014,Providence,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+11/01/2014,Providence,Ahti Oksanen,F,JR,0,0,0,2014-15
 11/01/2014,Providence,Jack Eichel,F,FR,0,1,1,2014-15
 11/01/2014,Providence,Danny O'Regan,F,JR,1,0,1,2014-15
 11/01/2014,Providence,Evan Rodrigues,F,SR,0,0,0,2014-15
@@ -23084,7 +23083,7 @@
 11/01/2014,Providence,Matt O'Connor,G,JR,0,0,0,2014-15
 11/01/2014,Providence,Doyle Somerby,D,SO,0,0,0,2014-15
 11/01/2014,Providence,Brien Diffley,D,FR,0,0,0,2014-15
-11/07/2014,Boston College,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+11/07/2014,Boston College,Ahti Oksanen,F,JR,0,0,0,2014-15
 11/07/2014,Boston College,Jack Eichel,F,FR,1,0,1,2014-15
 11/07/2014,Boston College,Danny O'Regan,F,JR,0,1,1,2014-15
 11/07/2014,Boston College,Evan Rodrigues,F,SR,2,0,2,2014-15
@@ -23122,7 +23121,7 @@
 11/08/2014,Connecticut,Doyle Somerby,D,SO,0,0,0,2014-15
 11/08/2014,Connecticut,Brien Diffley,D,FR,1,1,2,2014-15
 11/08/2014,Connecticut,Connor LaCouvee,G,FR,0,0,0,2014-15
-11/14/2014,Maine,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+11/14/2014,Maine,Ahti Oksanen,F,JR,1,0,1,2014-15
 11/14/2014,Maine,Jack Eichel,F,FR,1,1,2,2014-15
 11/14/2014,Maine,Danny O'Regan,F,JR,1,1,2,2014-15
 11/14/2014,Maine,Evan Rodrigues,F,SR,0,1,1,2014-15
@@ -23141,7 +23140,7 @@
 11/14/2014,Maine,Matt O'Connor,G,JR,0,0,0,2014-15
 11/14/2014,Maine,Doyle Somerby,D,SO,0,1,1,2014-15
 11/14/2014,Maine,Brien Diffley,D,FR,0,0,0,2014-15
-11/21/2014,Maine,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+11/21/2014,Maine,Ahti Oksanen,F,JR,1,0,1,2014-15
 11/21/2014,Maine,Jack Eichel,F,FR,1,1,2,2014-15
 11/21/2014,Maine,Danny O'Regan,F,JR,0,1,1,2014-15
 11/21/2014,Maine,Evan Rodrigues,F,SR,0,0,0,2014-15
@@ -23160,7 +23159,7 @@
 11/21/2014,Maine,Matt O'Connor,G,JR,0,1,1,2014-15
 11/21/2014,Maine,Doyle Somerby,D,SO,0,0,0,2014-15
 11/21/2014,Maine,Brien Diffley,D,FR,0,0,0,2014-15
-11/22/2014,Connecticut,Ahti Oksanen,F/D,JR,2,1,3,2014-15
+11/22/2014,Connecticut,Ahti Oksanen,F,JR,2,1,3,2014-15
 11/22/2014,Connecticut,Jack Eichel,F,FR,0,2,2,2014-15
 11/22/2014,Connecticut,Danny O'Regan,F,JR,1,0,1,2014-15
 11/22/2014,Connecticut,Evan Rodrigues,F,SR,0,0,0,2014-15
@@ -23179,7 +23178,7 @@
 11/22/2014,Connecticut,Matt O'Connor,G,JR,0,0,0,2014-15
 11/22/2014,Connecticut,Doyle Somerby,D,SO,0,0,0,2014-15
 11/22/2014,Connecticut,Brien Diffley,D,FR,0,1,1,2014-15
-11/25/2014,Harvard,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+11/25/2014,Harvard,Ahti Oksanen,F,JR,1,0,1,2014-15
 11/25/2014,Harvard,Jack Eichel,F,FR,0,0,0,2014-15
 11/25/2014,Harvard,Danny O'Regan,F,JR,0,1,1,2014-15
 11/25/2014,Harvard,Evan Rodrigues,F,SR,0,0,0,2014-15
@@ -23198,7 +23197,7 @@
 11/25/2014,Harvard,Matt O'Connor,G,JR,0,0,0,2014-15
 11/25/2014,Harvard,Doyle Somerby,D,SO,0,0,0,2014-15
 11/25/2014,Harvard,Brien Diffley,D,FR,0,0,0,2014-15
-11/29/2014,Colgate,Ahti Oksanen,F/D,JR,0,1,1,2014-15
+11/29/2014,Colgate,Ahti Oksanen,F,JR,0,1,1,2014-15
 11/29/2014,Colgate,Jack Eichel,F,FR,1,1,2,2014-15
 11/29/2014,Colgate,Danny O'Regan,F,JR,1,0,1,2014-15
 11/29/2014,Colgate,Evan Rodrigues,F,SR,2,0,2,2014-15
@@ -23217,7 +23216,7 @@
 11/29/2014,Colgate,Matt O'Connor,G,JR,0,0,0,2014-15
 11/29/2014,Colgate,Doyle Somerby,D,SO,0,0,0,2014-15
 11/29/2014,Colgate,John MacLeod,D,FR,0,0,0,2014-15
-11/30/2014,Dartmouth,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+11/30/2014,Dartmouth,Ahti Oksanen,F,JR,0,0,0,2014-15
 11/30/2014,Dartmouth,Jack Eichel,F,FR,0,0,0,2014-15
 11/30/2014,Dartmouth,Danny O'Regan,F,JR,0,0,0,2014-15
 11/30/2014,Dartmouth,Evan Rodrigues,F,SR,0,0,0,2014-15
@@ -23236,7 +23235,7 @@
 11/30/2014,Dartmouth,Connor LaCouvee,G,FR,0,0,0,2014-15
 11/30/2014,Dartmouth,Doyle Somerby,D,SO,0,0,0,2014-15
 11/30/2014,Dartmouth,Brien Diffley,D,FR,0,0,0,2014-15
-12/05/2014,Merrimack,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+12/05/2014,Merrimack,Ahti Oksanen,F,JR,0,0,0,2014-15
 12/05/2014,Merrimack,Jack Eichel,F,FR,0,0,0,2014-15
 12/05/2014,Merrimack,Danny O'Regan,F,JR,0,0,0,2014-15
 12/05/2014,Merrimack,Evan Rodrigues,F,SR,0,0,0,2014-15
@@ -23255,7 +23254,7 @@
 12/05/2014,Merrimack,Matt O'Connor,G,JR,0,0,0,2014-15
 12/05/2014,Merrimack,Doyle Somerby,D,SO,0,0,0,2014-15
 12/05/2014,Merrimack,Brien Diffley,D,FR,0,0,0,2014-15
-12/06/2014,Merrimack,Ahti Oksanen,F/D,JR,0,1,1,2014-15
+12/06/2014,Merrimack,Ahti Oksanen,F,JR,0,1,1,2014-15
 12/06/2014,Merrimack,Jack Eichel,F,FR,0,4,4,2014-15
 12/06/2014,Merrimack,Danny O'Regan,F,JR,3,1,4,2014-15
 12/06/2014,Merrimack,Evan Rodrigues,F,SR,0,0,0,2014-15
@@ -23274,7 +23273,7 @@
 12/06/2014,Merrimack,Matt O'Connor,G,JR,0,0,0,2014-15
 12/06/2014,Merrimack,Doyle Somerby,D,SO,0,0,0,2014-15
 12/06/2014,Merrimack,Brien Diffley,D,FR,0,0,0,2014-15
-12/13/2014,Rensselaer,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+12/13/2014,Rensselaer,Ahti Oksanen,F,JR,0,0,0,2014-15
 12/13/2014,Rensselaer,Jack Eichel,F,FR,0,2,2,2014-15
 12/13/2014,Rensselaer,Danny O'Regan,F,JR,1,0,1,2014-15
 12/13/2014,Rensselaer,Evan Rodrigues,F,SR,0,3,3,2014-15
@@ -23293,7 +23292,7 @@
 12/13/2014,Rensselaer,Brien Diffley,D,FR,0,0,0,2014-15
 12/13/2014,Rensselaer,Brandon Fortunato,D,FR,0,0,0,2014-15
 12/13/2014,Rensselaer,John MacLeod,D,FR,1,0,1,2014-15
-01/03/2015,Union,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+01/03/2015,Union,Ahti Oksanen,F,JR,0,0,0,2014-15
 01/03/2015,Union,Danny O'Regan,F,JR,0,1,1,2014-15
 01/03/2015,Union,Evan Rodrigues,F,SR,1,0,1,2014-15
 01/03/2015,Union,Nikolas Olsson,F,FR,1,0,1,2014-15
@@ -23312,7 +23311,7 @@
 01/03/2015,Union,Matt O'Connor,G,JR,0,0,0,2014-15
 01/03/2015,Union,Doyle Somerby,D,SO,0,0,0,2014-15
 01/03/2015,Union,Brien Diffley,D,FR,0,1,1,2014-15
-01/09/2015,Wisconsin,Ahti Oksanen,F/D,JR,2,0,2,2014-15
+01/09/2015,Wisconsin,Ahti Oksanen,F,JR,2,0,2,2014-15
 01/09/2015,Wisconsin,Jack Eichel,F,FR,0,0,0,2014-15
 01/09/2015,Wisconsin,Danny O'Regan,F,JR,0,0,0,2014-15
 01/09/2015,Wisconsin,Evan Rodrigues,F,SR,0,1,1,2014-15
@@ -23334,7 +23333,7 @@
 01/10/2015,Wisconsin,Evan Rodrigues,F,SR,1,2,3,2014-15
 01/10/2015,Wisconsin,Jack Eichel,F,FR,2,2,4,2014-15
 01/10/2015,Wisconsin,Danny O'Regan,F,JR,2,1,3,2014-15
-01/10/2015,Wisconsin,Ahti Oksanen,F/D,JR,0,1,1,2014-15
+01/10/2015,Wisconsin,Ahti Oksanen,F,JR,0,1,1,2014-15
 01/10/2015,Wisconsin,Robbie Baillargeon,F,SO,0,1,1,2014-15
 01/10/2015,Wisconsin,Cason Hohmann,F,SR,0,0,0,2014-15
 01/10/2015,Wisconsin,Nikolas Olsson,F,FR,1,0,1,2014-15
@@ -23353,7 +23352,7 @@
 01/16/2015,Boston College,Evan Rodrigues,F,SR,0,1,1,2014-15
 01/16/2015,Boston College,Jack Eichel,F,FR,0,1,1,2014-15
 01/16/2015,Boston College,Danny O'Regan,F,JR,1,0,1,2014-15
-01/16/2015,Boston College,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+01/16/2015,Boston College,Ahti Oksanen,F,JR,0,0,0,2014-15
 01/16/2015,Boston College,Robbie Baillargeon,F,SO,0,0,0,2014-15
 01/16/2015,Boston College,Cason Hohmann,F,SR,0,0,0,2014-15
 01/16/2015,Boston College,Nikolas Olsson,F,FR,0,1,1,2014-15
@@ -23372,7 +23371,7 @@
 01/18/2015,UMass Lowell,Evan Rodrigues,F,SR,0,2,2,2014-15
 01/18/2015,UMass Lowell,Jack Eichel,F,FR,1,1,2,2014-15
 01/18/2015,UMass Lowell,Danny O'Regan,F,JR,1,0,1,2014-15
-01/18/2015,UMass Lowell,Ahti Oksanen,F/D,JR,2,0,2,2014-15
+01/18/2015,UMass Lowell,Ahti Oksanen,F,JR,2,0,2,2014-15
 01/18/2015,UMass Lowell,Robbie Baillargeon,F,SO,0,0,0,2014-15
 01/18/2015,UMass Lowell,Nikolas Olsson,F,FR,0,0,0,2014-15
 01/18/2015,UMass Lowell,A.J. Greer,F,FR,0,0,0,2014-15
@@ -23393,7 +23392,7 @@
 01/23/2015,Vermont,Danny O'Regan,F,JR,0,0,0,2014-15
 01/23/2015,Vermont,Nikolas Olsson,F,FR,0,0,0,2014-15
 01/23/2015,Vermont,Robbie Baillargeon,F,SO,0,2,2,2014-15
-01/23/2015,Vermont,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+01/23/2015,Vermont,Ahti Oksanen,F,JR,1,0,1,2014-15
 01/23/2015,Vermont,A.J. Greer,F,FR,0,0,0,2014-15
 01/23/2015,Vermont,Matt Lane,F,JR,0,0,0,2014-15
 01/23/2015,Vermont,Cason Hohmann,F,SR,1,0,1,2014-15
@@ -23412,7 +23411,7 @@
 01/24/2015,Vermont,Danny O'Regan,F,JR,0,0,0,2014-15
 01/24/2015,Vermont,Nikolas Olsson,F,FR,0,0,0,2014-15
 01/24/2015,Vermont,Robbie Baillargeon,F,SO,0,0,0,2014-15
-01/24/2015,Vermont,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+01/24/2015,Vermont,Ahti Oksanen,F,JR,0,0,0,2014-15
 01/24/2015,Vermont,A.J. Greer,F,FR,0,0,0,2014-15
 01/24/2015,Vermont,Matt Lane,F,JR,0,0,0,2014-15
 01/24/2015,Vermont,Cason Hohmann,F,SR,0,0,0,2014-15
@@ -23429,7 +23428,7 @@
 01/30/2015,Massachusetts,Evan Rodrigues,F,SR,0,6,6,2014-15
 01/30/2015,Massachusetts,Jack Eichel,F,FR,2,2,4,2014-15
 01/30/2015,Massachusetts,Danny O'Regan,F,JR,1,0,1,2014-15
-01/30/2015,Massachusetts,Ahti Oksanen,F/D,JR,3,0,3,2014-15
+01/30/2015,Massachusetts,Ahti Oksanen,F,JR,3,0,3,2014-15
 01/30/2015,Massachusetts,Robbie Baillargeon,F,SO,0,1,1,2014-15
 01/30/2015,Massachusetts,Cason Hohmann,F,SR,0,2,2,2014-15
 01/30/2015,Massachusetts,Nikolas Olsson,F,FR,0,0,0,2014-15
@@ -23448,7 +23447,7 @@
 02/03/2015,Harvard,Evan Rodrigues,F,SR,0,2,2,2014-15
 02/03/2015,Harvard,Jack Eichel,F,FR,0,0,0,2014-15
 02/03/2015,Harvard,Danny O'Regan,F,JR,1,0,1,2014-15
-02/03/2015,Harvard,Ahti Oksanen,F/D,JR,1,1,2,2014-15
+02/03/2015,Harvard,Ahti Oksanen,F,JR,1,1,2,2014-15
 02/03/2015,Harvard,Robbie Baillargeon,F,SO,0,1,1,2014-15
 02/03/2015,Harvard,Cason Hohmann,F,SR,1,1,2,2014-15
 02/03/2015,Harvard,Nikolas Olsson,F,FR,1,0,1,2014-15
@@ -23467,7 +23466,7 @@
 02/06/2015,UMass Lowell,Evan Rodrigues,F,SR,3,1,4,2014-15
 02/06/2015,UMass Lowell,Jack Eichel,F,FR,0,3,3,2014-15
 02/06/2015,UMass Lowell,Danny O'Regan,F,JR,0,2,2,2014-15
-02/06/2015,UMass Lowell,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+02/06/2015,UMass Lowell,Ahti Oksanen,F,JR,1,0,1,2014-15
 02/06/2015,UMass Lowell,Robbie Baillargeon,F,SO,0,1,1,2014-15
 02/06/2015,UMass Lowell,Cason Hohmann,F,SR,0,1,1,2014-15
 02/06/2015,UMass Lowell,Nikolas Olsson,F,FR,0,0,0,2014-15
@@ -23486,7 +23485,7 @@
 02/13/2015,New Hampshire,Evan Rodrigues,F,SR,0,0,0,2014-15
 02/13/2015,New Hampshire,Jack Eichel,F,FR,1,2,3,2014-15
 02/13/2015,New Hampshire,Danny O'Regan,F,JR,0,2,2,2014-15
-02/13/2015,New Hampshire,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+02/13/2015,New Hampshire,Ahti Oksanen,F,JR,1,0,1,2014-15
 02/13/2015,New Hampshire,Robbie Baillargeon,F,SO,0,3,3,2014-15
 02/13/2015,New Hampshire,Cason Hohmann,F,SR,2,1,3,2014-15
 02/13/2015,New Hampshire,Nikolas Olsson,F,FR,0,0,0,2014-15
@@ -23505,7 +23504,7 @@
 02/14/2015,New Hampshire,Evan Rodrigues,F,SR,1,1,2,2014-15
 02/14/2015,New Hampshire,Jack Eichel,F,FR,0,1,1,2014-15
 02/14/2015,New Hampshire,Danny O'Regan,F,JR,0,0,0,2014-15
-02/14/2015,New Hampshire,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+02/14/2015,New Hampshire,Ahti Oksanen,F,JR,0,0,0,2014-15
 02/14/2015,New Hampshire,Robbie Baillargeon,F,SO,0,0,0,2014-15
 02/14/2015,New Hampshire,Cason Hohmann,F,SR,0,0,0,2014-15
 02/14/2015,New Hampshire,A.J. Greer,F,FR,0,0,0,2014-15
@@ -23525,7 +23524,7 @@
 02/20/2015,Notre Dame,Evan Rodrigues,F,SR,1,0,1,2014-15
 02/20/2015,Notre Dame,Jack Eichel,F,FR,0,1,1,2014-15
 02/20/2015,Notre Dame,Danny O'Regan,F,JR,0,1,1,2014-15
-02/20/2015,Notre Dame,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+02/20/2015,Notre Dame,Ahti Oksanen,F,JR,0,0,0,2014-15
 02/20/2015,Notre Dame,Robbie Baillargeon,F,SO,0,0,0,2014-15
 02/20/2015,Notre Dame,Cason Hohmann,F,SR,0,0,0,2014-15
 02/20/2015,Notre Dame,A.J. Greer,F,FR,0,0,0,2014-15
@@ -23544,7 +23543,7 @@
 02/21/2015,Notre Dame,Evan Rodrigues,F,SR,0,0,0,2014-15
 02/21/2015,Notre Dame,Jack Eichel,F,FR,0,1,1,2014-15
 02/21/2015,Notre Dame,Danny O'Regan,F,JR,0,1,1,2014-15
-02/21/2015,Notre Dame,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+02/21/2015,Notre Dame,Ahti Oksanen,F,JR,0,0,0,2014-15
 02/21/2015,Notre Dame,Cason Hohmann,F,SR,0,0,0,2014-15
 02/21/2015,Notre Dame,J.J. Piccinich,F,FR,0,0,0,2014-15
 02/21/2015,Notre Dame,Nikolas Olsson,F,FR,0,1,1,2014-15
@@ -23563,7 +23562,7 @@
 02/23/2015,Northeastern,Evan Rodrigues,F,SR,0,1,1,2014-15
 02/23/2015,Northeastern,Jack Eichel,F,FR,0,1,1,2014-15
 02/23/2015,Northeastern,Danny O'Regan,F,JR,0,0,0,2014-15
-02/23/2015,Northeastern,Ahti Oksanen,F/D,JR,0,1,1,2014-15
+02/23/2015,Northeastern,Ahti Oksanen,F,JR,0,1,1,2014-15
 02/23/2015,Northeastern,Robbie Baillargeon,F,SO,1,0,1,2014-15
 02/23/2015,Northeastern,Cason Hohmann,F,SR,0,1,1,2014-15
 02/23/2015,Northeastern,Nikolas Olsson,F,FR,0,2,2,2014-15
@@ -23582,7 +23581,7 @@
 02/27/2015,Northeastern,Evan Rodrigues,F,SR,3,0,3,2014-15
 02/27/2015,Northeastern,Jack Eichel,F,FR,0,2,2,2014-15
 02/27/2015,Northeastern,Danny O'Regan,F,JR,0,3,3,2014-15
-02/27/2015,Northeastern,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+02/27/2015,Northeastern,Ahti Oksanen,F,JR,1,0,1,2014-15
 02/27/2015,Northeastern,Robbie Baillargeon,F,SO,0,0,0,2014-15
 02/27/2015,Northeastern,Cason Hohmann,F,SR,0,0,0,2014-15
 02/27/2015,Northeastern,Nikolas Olsson,F,FR,0,0,0,2014-15
@@ -23615,14 +23614,14 @@
 02/28/2015,Northeastern,Brandon Fortunato,D,FR,0,1,1,2014-15
 02/28/2015,Northeastern,Anthony Moccia,G,SR,0,0,0,2014-15
 02/28/2015,Northeastern,Brandon Hickey,D,FR,0,0,0,2014-15
-02/28/2015,Northeastern,Ahti Oksanen,F/D,JR,2,2,4,2014-15
+02/28/2015,Northeastern,Ahti Oksanen,D,JR,2,2,4,2014-15
 02/28/2015,Northeastern,Matt O'Connor,G,JR,0,0,0,2014-15
 02/28/2015,Northeastern,Doyle Somerby,D,SO,0,0,0,2014-15
 02/28/2015,Northeastern,Brien Diffley,D,FR,0,0,0,2014-15
 03/13/2015,Merrimack,Evan Rodrigues,F,SR,1,3,4,2014-15
 03/13/2015,Merrimack,Jack Eichel,F,FR,2,1,3,2014-15
 03/13/2015,Merrimack,Danny O'Regan,F,JR,1,0,1,2014-15
-03/13/2015,Merrimack,Ahti Oksanen,F/D,JR,0,1,1,2014-15
+03/13/2015,Merrimack,Ahti Oksanen,F,JR,0,1,1,2014-15
 03/13/2015,Merrimack,Cason Hohmann,F,SR,0,0,0,2014-15
 03/13/2015,Merrimack,J.J. Piccinich,F,FR,0,0,0,2014-15
 03/13/2015,Merrimack,Nikolas Olsson,F,FR,0,0,0,2014-15
@@ -23641,7 +23640,7 @@
 03/14/2015,Merrimack,Evan Rodrigues,F,SR,0,1,1,2014-15
 03/14/2015,Merrimack,Jack Eichel,F,FR,0,3,3,2014-15
 03/14/2015,Merrimack,Danny O'Regan,F,JR,1,1,2,2014-15
-03/14/2015,Merrimack,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+03/14/2015,Merrimack,Ahti Oksanen,F,JR,1,0,1,2014-15
 03/14/2015,Merrimack,Cason Hohmann,F,SR,2,0,2,2014-15
 03/14/2015,Merrimack,J.J. Piccinich,F,FR,0,0,0,2014-15
 03/14/2015,Merrimack,Nikolas Olsson,F,FR,0,0,0,2014-15
@@ -23663,7 +23662,7 @@
 03/20/2015,New Hampshire,Danny O'Regan,F,JR,0,1,1,2014-15
 03/20/2015,New Hampshire,A.J. Greer,F,FR,0,0,0,2014-15
 03/20/2015,New Hampshire,Cason Hohmann,F,SR,1,0,1,2014-15
-03/20/2015,New Hampshire,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+03/20/2015,New Hampshire,Ahti Oksanen,F,JR,0,0,0,2014-15
 03/20/2015,New Hampshire,Nikolas Olsson,F,FR,0,0,0,2014-15
 03/20/2015,New Hampshire,Matt Lane,F,JR,0,0,0,2014-15
 03/20/2015,New Hampshire,Robbie Baillargeon,F,SO,0,0,0,2014-15
@@ -23682,7 +23681,7 @@
 03/21/2015,UMass Lowell,Danny O'Regan,F,JR,0,0,0,2014-15
 03/21/2015,UMass Lowell,A.J. Greer,F,FR,0,1,1,2014-15
 03/21/2015,UMass Lowell,Cason Hohmann,F,SR,1,0,1,2014-15
-03/21/2015,UMass Lowell,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+03/21/2015,UMass Lowell,Ahti Oksanen,F,JR,0,0,0,2014-15
 03/21/2015,UMass Lowell,Nikolas Olsson,F,FR,1,0,1,2014-15
 03/21/2015,UMass Lowell,Matt Lane,F,JR,0,1,1,2014-15
 03/21/2015,UMass Lowell,Robbie Baillargeon,F,SO,0,0,0,2014-15
@@ -23701,7 +23700,7 @@
 03/27/2015,Yale,Danny O'Regan,F,JR,1,1,2,2014-15
 03/27/2015,Yale,A.J. Greer,F,FR,0,1,1,2014-15
 03/27/2015,Yale,Cason Hohmann,F,SR,0,1,1,2014-15
-03/27/2015,Yale,Ahti Oksanen,F/D,JR,1,0,1,2014-15
+03/27/2015,Yale,Ahti Oksanen,F,JR,1,0,1,2014-15
 03/27/2015,Yale,Nikolas Olsson,F,FR,0,0,0,2014-15
 03/27/2015,Yale,Matt Lane,F,JR,0,0,0,2014-15
 03/27/2015,Yale,Robbie Baillargeon,F,SO,0,0,0,2014-15
@@ -23718,7 +23717,7 @@
 03/28/2015,Minnesota Duluth,Evan Rodrigues,F,SR,2,0,2,2014-15
 03/28/2015,Minnesota Duluth,Jack Eichel,F,FR,0,0,0,2014-15
 03/28/2015,Minnesota Duluth,Danny O'Regan,F,JR,0,1,1,2014-15
-03/28/2015,Minnesota Duluth,Ahti Oksanen,F/D,JR,0,0,0,2014-15
+03/28/2015,Minnesota Duluth,Ahti Oksanen,F,JR,0,0,0,2014-15
 03/28/2015,Minnesota Duluth,Cason Hohmann,F,SR,0,0,0,2014-15
 03/28/2015,Minnesota Duluth,Robbie Baillargeon,F,SO,0,0,0,2014-15
 03/28/2015,Minnesota Duluth,A.J. Greer,F,FR,0,0,0,2014-15
@@ -23739,7 +23738,7 @@
 04/09/2015,North Dakota,Danny O'Regan,F,JR,0,1,1,2014-15
 04/09/2015,North Dakota,A.J. Greer,F,FR,1,0,1,2014-15
 04/09/2015,North Dakota,Cason Hohmann,F,SR,0,2,2,2014-15
-04/09/2015,North Dakota,Ahti Oksanen,F/D,JR,0,1,1,2014-15
+04/09/2015,North Dakota,Ahti Oksanen,F,JR,0,1,1,2014-15
 04/09/2015,North Dakota,Nikolas Olsson,F,FR,0,0,0,2014-15
 04/09/2015,North Dakota,Matt Lane,F,JR,0,0,0,2014-15
 04/09/2015,North Dakota,Robbie Baillargeon,F,SO,0,1,1,2014-15
@@ -23758,7 +23757,7 @@
 04/11/2015,Providence,Danny O'Regan,F,JR,1,0,1,2014-15
 04/11/2015,Providence,A.J. Greer,F,FR,0,0,0,2014-15
 04/11/2015,Providence,Cason Hohmann,F,SR,1,0,1,2014-15
-04/11/2015,Providence,Ahti Oksanen,F/D,JR,1,1,2,2014-15
+04/11/2015,Providence,Ahti Oksanen,F,JR,1,1,2,2014-15
 04/11/2015,Providence,Nikolas Olsson,F,FR,0,0,0,2014-15
 04/11/2015,Providence,Matt Lane,F,JR,0,0,0,2014-15
 04/11/2015,Providence,Robbie Baillargeon,F,SO,0,0,0,2014-15
@@ -23972,7 +23971,7 @@
 11/20/2015,Michigan,A.J. Greer,F,SO,0,1,1,2015-16
 11/20/2015,Michigan,Robbie Baillargeon,F,JR,1,0,1,2015-16
 11/20/2015,Michigan,Bobo Carpenter,F,FR,0,1,1,2015-16
-11/20/2015,Michigan,Brien Diffley,D,SO,0,0,0,2015-16
+11/20/2015,Michigan,Brien Diffley,F,SO,0,0,0,2015-16
 11/20/2015,Michigan,Mike Moran,F,SR,0,0,0,2015-16
 11/20/2015,Michigan,Chase Phelps,F,SO,0,0,0,2015-16
 11/20/2015,Michigan,Matt Grzelcyk,D,SR,0,1,1,2015-16
@@ -23991,7 +23990,7 @@
 11/21/2015,Michigan,A.J. Greer,F,SO,0,0,0,2015-16
 11/21/2015,Michigan,Robbie Baillargeon,F,JR,0,0,0,2015-16
 11/21/2015,Michigan,Bobo Carpenter,F,FR,0,0,0,2015-16
-11/21/2015,Michigan,Brien Diffley,D,SO,0,0,0,2015-16
+11/21/2015,Michigan,Brien Diffley,F,SO,0,0,0,2015-16
 11/21/2015,Michigan,Mike Moran,F,SR,0,0,0,2015-16
 11/21/2015,Michigan,Chase Phelps,F,SO,0,0,0,2015-16
 11/21/2015,Michigan,Matt Grzelcyk,D,SR,0,0,0,2015-16
@@ -24181,7 +24180,7 @@
 01/16/2016,Boston College,Oskar Andrén,F,FR,0,0,0,2015-16
 01/16/2016,Boston College,Bobo Carpenter,F,FR,0,0,0,2015-16
 01/16/2016,Boston College,Robbie Baillargeon,F,JR,0,0,0,2015-16
-01/16/2016,Boston College,Brien Diffley,D,SO,0,0,0,2015-16
+01/16/2016,Boston College,Brien Diffley,F,SO,0,0,0,2015-16
 01/16/2016,Boston College,Mike Moran,F,SR,0,0,0,2015-16
 01/16/2016,Boston College,Tommy Kelley,F,JR,0,0,0,2015-16
 01/16/2016,Boston College,Matt Grzelcyk,D,SR,1,0,1,2015-16
@@ -24679,8 +24678,8 @@
 11/12/2016,Michigan,Nick Roberto,F,SR,0,0,0,2016-17
 11/12/2016,Michigan,Tommy Kelley,F,SR,0,0,0,2016-17
 11/12/2016,Michigan,Patrick Curry,F,FR,0,0,0,2016-17
-11/12/2016,Michigan,Shane Switzer,D,SO,0,0,0,2016-17
-11/12/2016,Michigan,Brien Diffley,D,JR,0,0,0,2016-17
+11/12/2016,Michigan,Shane Switzer,F,SO,0,0,0,2016-17
+11/12/2016,Michigan,Brien Diffley,F,JR,0,0,0,2016-17
 11/12/2016,Michigan,Gabriel Chabot,F,FR,0,0,0,2016-17
 11/12/2016,Michigan,Oskar Andrén,F,SO,0,0,0,2016-17
 11/12/2016,Michigan,Chad Krys,D,FR,0,0,0,2016-17
@@ -24699,7 +24698,7 @@
 11/18/2016,Connecticut,Tommy Kelley,F,SR,0,1,1,2016-17
 11/18/2016,Connecticut,Patrick Curry,F,FR,0,1,1,2016-17
 11/18/2016,Connecticut,Gabriel Chabot,F,FR,1,0,1,2016-17
-11/18/2016,Connecticut,Brien Diffley,D,JR,0,0,0,2016-17
+11/18/2016,Connecticut,Brien Diffley,F,JR,0,0,0,2016-17
 11/18/2016,Connecticut,Johnny McDermott,F,FR,0,0,0,2016-17
 11/18/2016,Connecticut,Oskar Andrén,F,SO,0,0,0,2016-17
 11/18/2016,Connecticut,Chad Krys,D,FR,0,0,0,2016-17
@@ -25097,7 +25096,7 @@
 02/17/2017,New Hampshire,Chase Phelps,F,JR,0,0,0,2016-17
 02/17/2017,New Hampshire,Ryan Cloonan,F,SO,0,0,0,2016-17
 02/17/2017,New Hampshire,Kieffer Bellows,F,FR,0,0,0,2016-17
-02/17/2017,New Hampshire,Doyle Somerby,D,SR,0,0,0,2016-17
+02/17/2017,New Hampshire,Doyle Somerby,F,SR,0,0,0,2016-17
 02/17/2017,New Hampshire,Patrick Curry,F,FR,0,0,0,2016-17
 02/17/2017,New Hampshire,Gabriel Chabot,F,FR,0,0,0,2016-17
 02/17/2017,New Hampshire,Chad Krys,D,FR,0,0,0,2016-17
@@ -25116,7 +25115,7 @@
 02/18/2017,New Hampshire,Chase Phelps,F,JR,1,1,2,2016-17
 02/18/2017,New Hampshire,Ryan Cloonan,F,SO,0,2,2,2016-17
 02/18/2017,New Hampshire,Kieffer Bellows,F,FR,1,1,2,2016-17
-02/18/2017,New Hampshire,Doyle Somerby,D,SR,0,0,0,2016-17
+02/18/2017,New Hampshire,Doyle Somerby,F,SR,0,0,0,2016-17
 02/18/2017,New Hampshire,Patrick Curry,F,FR,0,1,1,2016-17
 02/18/2017,New Hampshire,Gabriel Chabot,F,FR,0,1,1,2016-17
 02/18/2017,New Hampshire,Chad Krys,D,FR,0,0,0,2016-17
@@ -25137,7 +25136,7 @@
 02/24/2017,Notre Dame,Kieffer Bellows,F,FR,0,0,0,2016-17
 02/24/2017,Notre Dame,Patrick Curry,F,FR,0,0,0,2016-17
 02/24/2017,Notre Dame,Gabriel Chabot,F,FR,0,0,0,2016-17
-02/24/2017,Notre Dame,Shane Switzer,D,SO,0,0,0,2016-17
+02/24/2017,Notre Dame,Shane Switzer,F,SO,0,0,0,2016-17
 02/24/2017,Notre Dame,Doyle Somerby,D,SR,0,0,0,2016-17
 02/24/2017,Notre Dame,Charlie McAvoy,D,SO,0,0,0,2016-17
 02/24/2017,Notre Dame,Jake Oettinger,G,FR,0,0,0,2016-17
@@ -25589,7 +25588,7 @@
 12/08/2017,UMass Lowell,Logan Cockerill,F,FR,0,0,0,2017-18
 12/08/2017,UMass Lowell,Shane Bowers,F,FR,0,0,0,2017-18
 12/08/2017,UMass Lowell,Patrick Harper,F,SO,0,0,0,2017-18
-12/08/2017,UMass Lowell,David Farrance,D,FR,0,0,0,2017-18
+12/08/2017,UMass Lowell,David Farrance,F,FR,0,0,0,2017-18
 12/08/2017,UMass Lowell,Bobo Carpenter,F,JR,0,0,0,2017-18
 12/08/2017,UMass Lowell,Hank Crone,F,FR,0,0,0,2017-18
 12/08/2017,UMass Lowell,Ryan Cloonan,F,JR,0,0,0,2017-18
@@ -25687,7 +25686,7 @@
 01/19/2018,Merrimack,Nikolas Olsson,F,SR,0,0,0,2017-18
 01/19/2018,Merrimack,Chase Phelps,F,SR,0,0,0,2017-18
 01/19/2018,Merrimack,Gabriel Chabot,F,SO,0,0,0,2017-18
-01/19/2018,Merrimack,David Farrance,D,FR,0,0,0,2017-18
+01/19/2018,Merrimack,David Farrance,F,FR,0,0,0,2017-18
 01/19/2018,Merrimack,Ty Amonte,F,FR,0,1,1,2017-18
 01/19/2018,Merrimack,Patrick Curry,F,SO,0,1,1,2017-18
 01/19/2018,Merrimack,Chad Krys,D,SO,0,0,0,2017-18
@@ -25779,7 +25778,7 @@
 02/05/2018,Harvard,Logan Cockerill,F,FR,1,0,1,2017-18
 02/05/2018,Harvard,Shane Bowers,F,FR,0,0,0,2017-18
 02/05/2018,Harvard,Bobo Carpenter,F,JR,0,0,0,2017-18
-02/05/2018,Harvard,David Farrance,D,FR,0,0,0,2017-18
+02/05/2018,Harvard,David Farrance,F,FR,0,0,0,2017-18
 02/05/2018,Harvard,Ty Amonte,F,FR,1,0,1,2017-18
 02/05/2018,Harvard,Patrick Curry,F,SO,0,1,1,2017-18
 02/05/2018,Harvard,Nikolas Olsson,F,SR,0,0,0,2017-18
@@ -25798,7 +25797,7 @@
 02/09/2018,Massachusetts,Logan Cockerill,F,FR,0,1,1,2017-18
 02/09/2018,Massachusetts,Shane Bowers,F,FR,2,0,2,2017-18
 02/09/2018,Massachusetts,Hank Crone,F,FR,0,2,2,2017-18
-02/09/2018,Massachusetts,David Farrance,D,FR,0,0,0,2017-18
+02/09/2018,Massachusetts,David Farrance,F,FR,0,0,0,2017-18
 02/09/2018,Massachusetts,Ty Amonte,F,FR,0,0,0,2017-18
 02/09/2018,Massachusetts,Patrick Curry,F,SO,0,0,0,2017-18
 02/09/2018,Massachusetts,Gabriel Chabot,F,SO,0,0,0,2017-18
@@ -25836,7 +25835,7 @@
 02/16/2018,Connecticut,Logan Cockerill,F,FR,0,1,1,2017-18
 02/16/2018,Connecticut,Shane Bowers,F,FR,0,0,0,2017-18
 02/16/2018,Connecticut,Brady Tkachuk,F,FR,0,1,1,2017-18
-02/16/2018,Connecticut,David Farrance,D,FR,0,1,1,2017-18
+02/16/2018,Connecticut,David Farrance,F,FR,0,1,1,2017-18
 02/16/2018,Connecticut,Ty Amonte,F,FR,1,0,1,2017-18
 02/16/2018,Connecticut,Gabriel Chabot,F,SO,0,1,1,2017-18
 02/16/2018,Connecticut,Nikolas Olsson,F,SR,0,0,0,2017-18
@@ -25855,7 +25854,7 @@
 02/17/2018,Merrimack,Logan Cockerill,F,FR,1,0,1,2017-18
 02/17/2018,Merrimack,Shane Bowers,F,FR,0,1,1,2017-18
 02/17/2018,Merrimack,Brady Tkachuk,F,FR,0,1,1,2017-18
-02/17/2018,Merrimack,David Farrance,D,FR,0,1,1,2017-18
+02/17/2018,Merrimack,David Farrance,F,FR,0,1,1,2017-18
 02/17/2018,Merrimack,Ty Amonte,F,FR,0,0,0,2017-18
 02/17/2018,Merrimack,Gabriel Chabot,F,SO,1,0,1,2017-18
 02/17/2018,Merrimack,Nikolas Olsson,F,SR,0,0,0,2017-18
@@ -25874,7 +25873,7 @@
 02/23/2018,Vermont,Drew Melanson,F,SR,1,0,1,2017-18
 02/23/2018,Vermont,Shane Bowers,F,FR,0,0,0,2017-18
 02/23/2018,Vermont,Bobo Carpenter,F,JR,0,0,0,2017-18
-02/23/2018,Vermont,David Farrance,D,FR,1,0,1,2017-18
+02/23/2018,Vermont,David Farrance,F,FR,1,0,1,2017-18
 02/23/2018,Vermont,Ty Amonte,F,FR,0,0,0,2017-18
 02/23/2018,Vermont,Gabriel Chabot,F,SO,0,1,1,2017-18
 02/23/2018,Vermont,Nikolas Olsson,F,SR,0,0,0,2017-18
@@ -25889,14 +25888,14 @@
 02/23/2018,Vermont,Cam Crotty,D,FR,0,0,0,2017-18
 02/24/2018,Vermont,Nikolas Olsson,F,SR,0,0,0,2017-18
 02/24/2018,Vermont,Chase Phelps,F,SR,0,0,0,2017-18
-02/24/2018,Vermont,Brien Diffley,D,SR,0,0,0,2017-18
+02/24/2018,Vermont,Brien Diffley,F,SR,0,0,0,2017-18
 02/24/2018,Vermont,Brady Tkachuk,F,FR,0,1,1,2017-18
 02/24/2018,Vermont,Jordan Greenway,F,JR,1,0,1,2017-18
 02/24/2018,Vermont,Hank Crone,F,FR,0,0,0,2017-18
 02/24/2018,Vermont,Drew Melanson,F,SR,0,0,0,2017-18
 02/24/2018,Vermont,Shane Bowers,F,FR,0,1,1,2017-18
 02/24/2018,Vermont,Bobo Carpenter,F,JR,0,0,0,2017-18
-02/24/2018,Vermont,David Farrance,D,FR,0,0,0,2017-18
+02/24/2018,Vermont,David Farrance,F,FR,0,0,0,2017-18
 02/24/2018,Vermont,Ty Amonte,F,FR,0,0,0,2017-18
 02/24/2018,Vermont,Gabriel Chabot,F,SO,0,0,0,2017-18
 02/24/2018,Vermont,Brandon Hickey,D,SR,0,0,0,2017-18
@@ -25912,7 +25911,7 @@
 03/09/2018,Connecticut,Brady Tkachuk,F,FR,0,1,1,2017-18
 03/09/2018,Connecticut,Jordan Greenway,F,JR,2,0,2,2017-18
 03/09/2018,Connecticut,Drew Melanson,F,SR,1,1,2,2017-18
-03/09/2018,Connecticut,David Farrance,D,FR,0,0,0,2017-18
+03/09/2018,Connecticut,David Farrance,F,FR,0,0,0,2017-18
 03/09/2018,Connecticut,Ty Amonte,F,FR,0,0,0,2017-18
 03/09/2018,Connecticut,Hank Crone,F,FR,0,0,0,2017-18
 03/09/2018,Connecticut,Patrick Curry,F,SO,0,0,0,2017-18
@@ -25931,7 +25930,7 @@
 03/10/2018,Connecticut,Logan Cockerill,F,FR,1,0,1,2017-18
 03/10/2018,Connecticut,Shane Bowers,F,FR,0,1,1,2017-18
 03/10/2018,Connecticut,Bobo Carpenter,F,JR,0,0,0,2017-18
-03/10/2018,Connecticut,David Farrance,D,FR,0,0,0,2017-18
+03/10/2018,Connecticut,David Farrance,F,FR,0,0,0,2017-18
 03/10/2018,Connecticut,Ty Amonte,F,FR,0,0,0,2017-18
 03/10/2018,Connecticut,Hank Crone,F,FR,0,0,0,2017-18
 03/10/2018,Connecticut,Patrick Curry,F,SO,0,0,0,2017-18
@@ -26851,7 +26850,7 @@
 10/25/2019,UMass Lowell,Jake Wise,F,SO,0,0,0,2019-20
 10/25/2019,UMass Lowell,Ethan Phillips,F,FR,0,0,0,2019-20
 10/25/2019,UMass Lowell,Matthew Quercia,F,SO,0,0,0,2019-20
-10/25/2019,UMass Lowell,Kasper Kotkansalo,D,JR,0,0,0,2019-20
+10/25/2019,UMass Lowell,Kasper Kotkansalo,F,JR,0,0,0,2019-20
 10/25/2019,UMass Lowell,Alex Brink,F,SR,0,0,0,2019-20
 10/25/2019,UMass Lowell,Jamie Armstrong,F,FR,0,0,0,2019-20
 10/25/2019,UMass Lowell,Markus Boguslavsky,F,FR,0,0,0,2019-20
@@ -26891,7 +26890,7 @@
 11/01/2019,Maine,Jake Wise,F,SO,0,0,0,2019-20
 11/01/2019,Maine,Ethan Phillips,F,FR,0,0,0,2019-20
 11/01/2019,Maine,Jamie Armstrong,F,FR,1,0,1,2019-20
-11/01/2019,Maine,Kasper Kotkansalo,D,JR,0,0,0,2019-20
+11/01/2019,Maine,Kasper Kotkansalo,F,JR,0,0,0,2019-20
 11/01/2019,Maine,Alex Brink,F,SR,0,1,1,2019-20
 11/01/2019,Maine,Jake Witkowski,F,JR,0,0,0,2019-20
 11/01/2019,Maine,Markus Boguslavsky,F,FR,0,0,0,2019-20
@@ -26915,7 +26914,7 @@
 11/02/2019,Maine,Gabriel Chabot,F,SR,0,0,0,2019-20
 11/02/2019,Maine,Jake Witkowski,F,JR,0,0,0,2019-20
 11/02/2019,Maine,Markus Boguslavsky,F,FR,0,0,0,2019-20
-11/02/2019,Maine,John Copeland,F/D,FR,0,0,0,2019-20
+11/02/2019,Maine,John Copeland,F,FR,0,0,0,2019-20
 11/02/2019,Maine,David Farrance,D,JR,0,1,1,2019-20
 11/02/2019,Maine,Kasper Kotkansalo,D,JR,0,1,1,2019-20
 11/02/2019,Maine,Domenick Fensore,D,FR,0,0,0,2019-20
@@ -27485,7 +27484,7 @@
 01/08/2021,Providence,David Farrance,D,SR,0,2,2,2020-21
 01/08/2021,Providence,Joseph Campolieto,D,SR,0,0,0,2020-21
 01/08/2021,Providence,Ashton Abel,G,SO,0,0,0,2020-21
-01/08/2021,Providence,Jake Witkowski,F,SR,0,0,0,2020-21
+01/08/2021,Providence,Jake Witkowski,D,SR,0,0,0,2020-21
 01/08/2021,Providence,Thomas Jarman,D,FR,0,0,0,2020-21
 01/08/2021,Providence,Sean Driscoll,D,SO,1,0,1,2020-21
 01/09/2021,Providence,Logan Cockerill,F,SR,2,0,2,2020-21
@@ -30932,7 +30931,7 @@
 10/10/2025,Colgate,Brandon Svoboda,F,SO,0,0,0,2025-26
 10/10/2025,Colgate,Jonathan Morello,F,FR,1,1,2,2025-26
 10/10/2025,Colgate,Jack Harvey,F,JR,0,0,0,2025-26
-10/10/2025,Colgate,Mick Frechette,D,JR,1,0,1,2025-26
+10/10/2025,Colgate,Mick Frechette,F,JR,1,0,1,2025-26
 10/10/2025,Colgate,Carter Amico,D,FR,0,0,0,2025-26
 10/10/2025,Colgate,Conrad Fondrk,F,FR,0,1,1,2025-26
 10/10/2025,Colgate,Jack Murtagh,F,FR,0,0,0,2025-26
@@ -30953,7 +30952,7 @@
 10/11/2025,Colgate,Sacha Boisvert,F,SO,0,0,0,2025-26
 10/11/2025,Colgate,Jonathan Morello,F,FR,0,1,1,2025-26
 10/11/2025,Colgate,Jack Harvey,F,JR,0,0,0,2025-26
-10/11/2025,Colgate,Mick Frechette,D,JR,0,0,0,2025-26
+10/11/2025,Colgate,Mick Frechette,F,JR,0,0,0,2025-26
 10/11/2025,Colgate,Carter Amico,D,FR,0,0,0,2025-26
 10/11/2025,Colgate,Conrad Fondrk,F,FR,0,0,0,2025-26
 10/11/2025,Colgate,Jack Murtagh,F,FR,1,0,1,2025-26
@@ -30992,7 +30991,7 @@
 10/18/2025,Michigan State,Brandon Svoboda,F,SO,0,1,1,2025-26
 10/18/2025,Michigan State,Jonathan Morello,F,FR,0,0,0,2025-26
 10/18/2025,Michigan State,Jack Harvey,F,JR,0,0,0,2025-26
-10/18/2025,Michigan State,Mick Frechette,D,JR,0,0,0,2025-26
+10/18/2025,Michigan State,Mick Frechette,F,JR,0,0,0,2025-26
 10/18/2025,Michigan State,Carter Amico,D,FR,0,0,0,2025-26
 10/18/2025,Michigan State,Conrad Fondrk,F,FR,1,0,1,2025-26
 10/18/2025,Michigan State,Jack Murtagh,F,FR,0,0,0,2025-26
@@ -31012,7 +31011,7 @@
 10/24/2025,Connecticut,Brandon Svoboda,F,SO,0,0,0,2025-26
 10/24/2025,Connecticut,Jonathan Morello,F,FR,0,0,0,2025-26
 10/24/2025,Connecticut,Jack Harvey,F,JR,0,1,1,2025-26
-10/24/2025,Connecticut,Mick Frechette,D,JR,0,0,0,2025-26
+10/24/2025,Connecticut,Mick Frechette,F,JR,0,0,0,2025-26
 10/24/2025,Connecticut,Carter Amico,D,FR,0,0,0,2025-26
 10/24/2025,Connecticut,Conrad Fondrk,F,FR,0,0,0,2025-26
 10/24/2025,Connecticut,Jack Murtagh,F,FR,1,0,1,2025-26
@@ -31054,7 +31053,7 @@
 10/31/2025,Maine,Sacha Boisvert,F,SO,0,1,1,2025-26
 10/31/2025,Maine,Jonathan Morello,F,FR,0,0,0,2025-26
 10/31/2025,Maine,Jack Harvey,F,JR,0,1,1,2025-26
-10/31/2025,Maine,Mick Frechette,D,JR,0,1,1,2025-26
+10/31/2025,Maine,Mick Frechette,F,JR,0,1,1,2025-26
 10/31/2025,Maine,Carter Amico,D,FR,0,0,0,2025-26
 10/31/2025,Maine,Conrad Fondrk,F,FR,0,0,0,2025-26
 10/31/2025,Maine,Jack Murtagh,F,FR,0,1,1,2025-26
@@ -31074,7 +31073,7 @@
 11/01/2025,Maine,Sacha Boisvert,F,SO,0,0,0,2025-26
 11/01/2025,Maine,Jonathan Morello,F,FR,0,1,1,2025-26
 11/01/2025,Maine,Jack Harvey,F,JR,0,0,0,2025-26
-11/01/2025,Maine,Mick Frechette,D,JR,0,0,0,2025-26
+11/01/2025,Maine,Mick Frechette,F,JR,0,0,0,2025-26
 11/01/2025,Maine,Carter Amico,D,FR,0,0,0,2025-26
 11/01/2025,Maine,Conrad Fondrk,F,FR,1,0,1,2025-26
 11/01/2025,Maine,Jack Murtagh,F,FR,0,0,0,2025-26
@@ -31159,13 +31158,13 @@
 11/21/2025,Northeastern,Nick Roukounakis,F,SO,1,0,1,2025-26
 11/21/2025,Northeastern,Brandon Svoboda,F,SO,0,0,0,2025-26
 11/21/2025,Northeastern,Cole Eiserman,F,SO,0,0,0,2025-26
-11/21/2025,Northeastern,John McNelis,F,FR,0,0,0,2025-26
+11/21/2025,Northeastern,John McNelis,F,FR,1,0,1,2025-26
 11/21/2025,Northeastern,Jonathan Morello,F,FR,0,1,1,2025-26
 11/21/2025,Northeastern,Aiden Celebrini,D,JR,0,0,0,2025-26
 11/21/2025,Northeastern,Jack Harvey,F,JR,0,1,1,2025-26
 11/21/2025,Northeastern,Jay Feldberg,F,FR,0,0,0,2025-26
 11/21/2025,Northeastern,Sascha Boumedienne,D,SO,0,0,0,2025-26
-11/21/2025,Northeastern,Mick Frechette,D,JR,1,0,1,2025-26
+11/21/2025,Northeastern,Mick Frechette,D,JR,0,0,0,2025-26
 11/21/2025,Northeastern,Mikhail Yegorov,G,SO,0,0,0,2025-26
 11/21/2025,Northeastern,Jack Murtagh,F,FR,0,0,0,2025-26
 11/21/2025,Northeastern,Kamil Bednarik,F,SO,0,0,0,2025-26
