@@ -14021,3 +14021,22 @@
 11/14/2025,Boston College,Maeve Carey,D,SR,0,0,0,2025-26
 11/14/2025,Boston College,Clara Yuhn,F,SR,1,0,1,2025-26
 11/14/2025,Boston College,Mia Vergilii,F,FR,0,0,0,2025-26
+11/21/2025,Providence,Kate Meinert,D,SO,0,0,0,2025-26
+11/21/2025,Providence,Avery Supryka,D,FR,0,1,1,2025-26
+11/21/2025,Providence,Lilli Welcke,F,SR,1,0,1,2025-26
+11/21/2025,Providence,Luisa Welcke,F,SR,0,1,1,2025-26
+11/21/2025,Providence,Tessa Demain,D,SO,0,1,1,2025-26
+11/21/2025,Providence,Lexie Bertelsen,F,FR,0,0,0,2025-26
+11/21/2025,Providence,Ella Belfry,D,JR,0,0,0,2025-26
+11/21/2025,Providence,Mari Pietersen,G,JR,0,0,0,2025-26
+11/21/2025,Providence,Lola Reid,F,SO,0,0,0,2025-26
+11/21/2025,Providence,Anežka Čabelová,F,FR,0,0,0,2025-26
+11/21/2025,Providence,Neely Nicholson,F,JR,0,0,0,2025-26
+11/21/2025,Providence,Keira Healey,D,SO,0,1,1,2025-26
+11/21/2025,Providence,Maeve Kelly,D,SR,0,1,1,2025-26
+11/21/2025,Providence,Sydney Healey,F,SR,0,0,0,2025-26
+11/21/2025,Providence,Clara Yuhn,F,SR,1,0,1,2025-26
+11/21/2025,Providence,Riley Walsh,F,SR,1,1,2,2025-26
+11/21/2025,Providence,Greta Henderson,F,JR,0,0,0,2025-26
+11/21/2025,Providence,Maeve Carey,D,SR,0,0,0,2025-26
+11/21/2025,Providence,Kaileigh Quigg,F,SO,1,0,1,2025-26

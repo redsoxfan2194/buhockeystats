@@ -2119,3 +2119,4 @@
 11/07/2025,Merrimack,Mikhail Yegorov,SO,23,2,1,0,60.0,W,2025-26
 11/08/2025,Merrimack,Mikhail Yegorov,FR,27,4,1,0,60.0,W,2025-26
 11/15/2025,Quinnipiac,Mikhail Yegorov,SO,43,6,1,0,59.67,L,2025-26
+11/21/2025,Northeastern,Mikhail Yegorov,SR,22,3,1,0,59.12,L,2025-26
