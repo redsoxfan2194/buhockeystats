@@ -14059,3 +14059,22 @@
 11/22/2025,Providence,Greta Henderson,F,JR,1,0,1,2025-26
 11/22/2025,Providence,Maeve Carey,D,SR,0,0,0,2025-26
 11/22/2025,Providence,Kaileigh Quigg,F,SO,0,2,2,2025-26
+12/02/2025,Holy Cross,Kaileigh Quigg,F,SO,0,0,0,2025-26
+12/02/2025,Holy Cross,Neely Nicholson,F,JR,0,0,0,2025-26
+12/02/2025,Holy Cross,Ella Belfry,D,JR,0,0,0,2025-26
+12/02/2025,Holy Cross,Tessa Demain,D,SO,0,0,0,2025-26
+12/02/2025,Holy Cross,Keira Healey,D,SO,0,0,0,2025-26
+12/02/2025,Holy Cross,Lilli Welcke,F,SR,1,1,2,2025-26
+12/02/2025,Holy Cross,Riley Walsh,F,SR,0,1,1,2025-26
+12/02/2025,Holy Cross,Mia Vergilii,F,FR,1,0,1,2025-26
+12/02/2025,Holy Cross,Lola Reid,F,SO,0,0,0,2025-26
+12/02/2025,Holy Cross,Maeve Kelly,D,SR,0,1,1,2025-26
+12/02/2025,Holy Cross,Luisa Welcke,F,SR,1,0,1,2025-26
+12/02/2025,Holy Cross,Lucy Thiessen,D,FR,0,0,0,2025-26
+12/02/2025,Holy Cross,Maeve Carey,D,SR,0,0,0,2025-26
+12/02/2025,Holy Cross,Kate Meinert,D,SO,0,0,0,2025-26
+12/02/2025,Holy Cross,Sydney Healey,F,SR,0,1,1,2025-26
+12/02/2025,Holy Cross,Clara Yuhn,F,SR,0,1,1,2025-26
+12/02/2025,Holy Cross,Avery Supryka,D,FR,0,0,0,2025-26
+12/02/2025,Holy Cross,Mari Pietersen,G,JR,0,0,0,2025-26
+12/02/2025,Holy Cross,Greta Henderson,F,JR,0,0,0,2025-26

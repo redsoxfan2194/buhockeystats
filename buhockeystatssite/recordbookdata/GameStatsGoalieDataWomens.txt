@@ -753,3 +753,4 @@
 11/14/2025,Boston College,Michelle Pasiechnyk,SO,29,3,1,0,58.78,L,2025-26
 11/21/2025,Providence,Mari Pietersen,SO,34,1,1,0,60.0,W,2025-26
 11/22/2025,Providence,Mari Pietersen,SO,17,2,1,0,62.75,T,2025-26
+12/02/2025,Holy Cross,Mari Pietersen,JR,19,0,1,1,60.0,W,2025-26

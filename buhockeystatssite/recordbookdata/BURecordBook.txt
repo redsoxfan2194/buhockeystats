@@ -3435,7 +3435,7 @@ CAPTAIN: Gavin McCarthy
 11/15 L TD Bank Center	Quinnipiac  2-6
 11/21 L Matthews Arena	Northeastern * 2-3
 11/22 W (ot) Agganis Arena	Northeastern * 4-3
-11/29 N MSG IV	Cornell (RHH) 0-0
+11/29 W MSG IV	Cornell (RHH) 2-1
 12/05 N Agganis Arena	Vermont * 0-0
 12/06 N Agganis Arena	Vermont * 0-0
 12/13 N Matthews Arena	Northeastern * 0-0
@@ -3486,7 +3486,7 @@ MC Mariucci Classic
 NBI New Brunswick Invitational
 NCAA NCAA Tournament
 NCI North Country Invitational
-NEI New England Invitational Tournament
+NEI New England League Invitational Tournament
 NEIHL NEIHL Tournament
 NYE NYE Frontier Classic
 Oly 1932 NEAAU Olympic tryouts

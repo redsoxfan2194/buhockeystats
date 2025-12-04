@@ -2121,3 +2121,4 @@
 11/15/2025,Quinnipiac,Mikhail Yegorov,SO,43,6,1,0,59.67,L,2025-26
 11/21/2025,Northeastern,Mikhail Yegorov,SR,22,3,1,0,59.12,L,2025-26
 11/22/2025,Northeastern,Mikhail Yegorov,FR,21,3,1,0,63.57,W,2025-26
+11/29/2025,Cornell,Mikhail Yegorov,JR,28,1,1,0,60.0,W,2025-26
