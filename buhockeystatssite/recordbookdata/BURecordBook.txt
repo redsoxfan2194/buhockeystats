@@ -3412,7 +3412,7 @@ CAPTAIN: Shane Lachance,Ryan Greene
 03/15 W (ot) Agganis Arena	Massachusetts (HE) 3-2
 03/20 L TD Garden	Connecticut (HE) 2-5
 03/27 W Huntington Center	Ohio State (NCAA) 8-3
-03/29 W Huntington Center	Cornell (NCAA) 3-2
+03/29 W (ot) Huntington Center	Cornell (NCAA) 3-2
 04/10 W Enterprise Center	Penn State (NCAA) 3-1
 04/12 L Enterprise Center	Western Michigan (NCAA) 2-6
 2025-26
@@ -3436,7 +3436,7 @@ CAPTAIN: Gavin McCarthy
 11/21 L Matthews Arena	Northeastern * 2-3
 11/22 W (ot) Agganis Arena	Northeastern * 4-3
 11/29 W MSG IV	Cornell (RHH) 2-1
-12/05 N Agganis Arena	Vermont * 0-0
+12/05 W Agganis Arena	Vermont * 2-1
 12/06 N Agganis Arena	Vermont * 0-0
 12/13 N Matthews Arena	Northeastern * 0-0
 01/03 N Agganis Arena	Simon Fraser (ex) 0-0
