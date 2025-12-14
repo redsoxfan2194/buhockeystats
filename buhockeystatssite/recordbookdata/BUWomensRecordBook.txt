@@ -795,7 +795,7 @@ CAPTAIN: Tamara Giaquinto
 11/02 W Schneider Arena A Providence * 3-2
 11/07 W Lawler Rink A Merrimack * 5-1
 11/08 T (ot) Agganis Arena H Merrimack * 3-3
-11/15 L Agganis Arena H Boston College * 2-3
+11/15 L (ot) Agganis Arena H Boston College * 2-3
 11/16 W Conte Forum A Boston College * 3-1
 11/27 L Agganis Arena H Princeton 1-8
 12/06 W Alfond Arena A Maine * 3-1
@@ -809,7 +809,7 @@ CAPTAIN: Tamara Giaquinto
 01/25 W Walter Brown Arena H Holy Cross * 3-0
 01/31 W Walter Brown Arena H Boston College * 3-2
 02/01 W Walter Brown Arena H Vermont * 4-1
-02/04 W Matthews Arena A Northeastern * 3-2
+02/04 W (ot) Matthews Arena A Northeastern * 3-2
 02/07 L Walter Brown Arena H Connecticut * 1-3
 02/08 W Walter Brown Arena H Providence * 4-1
 02/14 W Whittemore Center Arena A New Hampshire * 2-1
