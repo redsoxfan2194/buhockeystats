@@ -2633,7 +2633,8 @@
 02/09/1959,Boston College,Forbes Keith,F,,1,0,1,1958-59
 02/09/1959,Boston College,Bill McCormack,F,,1,0,1,1958-59
 02/09/1959,Boston College,Larry Creighton,F,SR,1,2,3,1958-59
-02/11/1959,Yale,Unknown,,,1,0,1,1958-59
+02/11/1959,Yale,Pat Enright,D,,0,1,1,1958-59
+02/11/1959,Yale,Bob Marquis,F,JR,1,0,1,1958-59
 02/17/1959,Dartmouth,Allen Jarasitis,F,,0,1,1,1958-59
 02/17/1959,Dartmouth,Andy Giuliotti,F,,0,1,1,1958-59
 02/17/1959,Dartmouth,Bill McCormack,F,,1,2,3,1958-59
