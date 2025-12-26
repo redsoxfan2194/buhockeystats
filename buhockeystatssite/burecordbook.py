@@ -3543,7 +3543,6 @@ def updateCurrentSeasonStats(gender):
                              'season': currSeason}
                 currSkaters.append(skateDict)
         dfCurSkate = pd.DataFrame(currSkaters)
-        print(dfCurSkate)
         f=urllib.request.urlopen(urlG)
         html = f.read()
         f.close()
@@ -3580,7 +3579,6 @@ def updateCurrentSeasonStats(gender):
                 currGoalies.append(goalDict)
 
         dfCurGoal = pd.DataFrame(currGoalies)
-        print(dfCurGoal)
         dfCurSkateClean = dfCurSkate.drop(columns=['last', 'first'])
         with open(currSkateFileName, "r", encoding='utf-8') as sources:
             lines = sources.readlines()
@@ -3942,11 +3940,25 @@ def getHatTrickList(gender):
   return dfRes
 
 def getMissingDates():
-  ''' returns Hat Trick List for given gender '''
+  ''' returns Missing Dates '''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"missing_dates.csv")
   dfRes['date'] = pd.to_datetime(dfRes['date'])
   return dfRes
 
+def getSiblings():
+  ''' returns Siblings'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"siblings.csv")
+  return dfRes
+  
+def getFamily():
+  ''' returns Family'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"family.csv")
+  return dfRes
+  
+def getWJC():
+  ''' returns WJC'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"worldjuniors.csv")
+  return dfRes
 
 def getBirthdays(year,month):
   ''' returns Birthdays for given month and year'''

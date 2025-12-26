@@ -41,7 +41,7 @@ def redirect_to_https():
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'trio', 'birthdays','shutouts','hattricks']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -925,6 +925,37 @@ def trio():
     '''
     return render_template(
     'trio.html',titletag=' - T. Anthony Trio Terrier Tallies"')
+
+@app.route('/tidbits')
+def tidbits():
+    ''' Renders "Tidbits" Page
+
+    Returns:
+      Flask Template : flask template containing tidbits.html
+    '''
+    return render_template(
+    'tidbits.html',titletag=' - Tidbits"')
+    
+@app.route('/bloodlines')
+def bloodlines():
+    ''' Renders "Bloodlines" Page
+
+    Returns:
+      Flask Template : flask template containing bloodlines.html
+    '''
+    return render_template(
+    'bloodlines.html',siblings=formatTable(burb.getSiblings()),family=formatTable(burb.getFamily()),titletag=' - Bloodlines"')
+
+@app.route('/worldjuniors')
+def worldjuniors():
+    ''' Renders "worldjuniors" Page
+
+    Returns:
+      Flask Template : flask template containing worldjuniors.html
+    '''
+    return render_template(
+    'worldjuniors.html',worldjuniors=formatTable(burb.getWJC()),titletag=' - World Juniors"')
+
 
 @app.route('/shutouts')
 def shutouts():

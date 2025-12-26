@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+<h3 class="stat-table">Terrier Bloodlines</h3>
+<h4 class='stat-table'>Siblings</h4>
+<p>
+        {% autoescape false %}
+        {{siblings}}
+        {% endautoescape %}
+</p>
+<h4 class='stat-table'>Familial Connections</h4>
+<p>
+{% autoescape false %}
+{{family}}
+{% endautoescape %}
+</p>
+</div>
+{% endblock %}

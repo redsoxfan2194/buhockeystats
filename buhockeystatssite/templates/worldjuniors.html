@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+<h3 class="stat-table">World Juniors</h3>
+<p>
+        {% autoescape false %}
+        {{worldjuniors}}
+        {% endautoescape %}
+</p>
+</div>
+{% endblock %}

@@ -428,7 +428,10 @@ def formatTable(dfRes):
     if('saves' in dfRes):
       dfRes['saves'] = dfRes['saves'].fillna(-1)
       dfRes['saves'] = dfRes['saves'].astype(int)
-    dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
+    if('date' in dfRes.columns):
+      dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
+    if('Medal' in dfRes.columns):
+      dfRes['Medal'] = dfRes['Medal'].fillna('')
     dfRes.columns = dfRes.columns.str.capitalize()
     dfRes.columns = dfRes.columns.str.capitalize()
     style = dfRes.style.apply(
