@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+<h3 class="stat-table">Olympians</h3>
+<div class="p-3">
+<h4> Men's Ice Hockey </h4>
+<p>
+        {% autoescape false %}
+        {{molympians}}
+        {% endautoescape %}
+</p>
+</div>
+<div class="p-3">
+<h4> Women's Ice Hockey</h4>
+<p>
+        {% autoescape false %}
+        {{wolympians}}
+        {% endautoescape %}
+</p>
+</div>
+</div>
+{% endblock %}

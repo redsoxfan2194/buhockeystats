@@ -64,9 +64,10 @@ def static_favicon():
 
 if(datetime.datetime.now(easternTZ).month>=10 or datetime.datetime.now(easternTZ).month<5):
   try:
-    burb.refreshStats()
-  except:
-    print('Failed to Refresh Stats...Initializing')
+  #try:
+  #  burb.refreshStats()
+  #except:
+  #  print('Failed to Refresh Stats...Initializing')
   burb.initializeRecordBook()
 
 else:
@@ -944,7 +945,7 @@ def bloodlines():
       Flask Template : flask template containing bloodlines.html
     '''
     return render_template(
-    'bloodlines.html',siblings=formatTable(burb.getSiblings()),family=formatTable(burb.getFamily()),titletag=' - Bloodlines"')
+    'bloodlines.html',siblings=formatTable(burb.getSiblings()),family=formatTable(burb.getFamily()),titletag=' - Bloodlines')
 
 @app.route('/worldjuniors')
 def worldjuniors():
@@ -954,7 +955,17 @@ def worldjuniors():
       Flask Template : flask template containing worldjuniors.html
     '''
     return render_template(
-    'worldjuniors.html',worldjuniors=formatTable(burb.getWJC()),titletag=' - World Juniors"')
+    'worldjuniors.html',worldjuniors=formatTable(burb.getWJC()),titletag=' - World Junior Championship')
+
+@app.route('/olympians')
+def olympians():
+    ''' Renders "Olympians" Page
+
+    Returns:
+      Flask Template : flask template containing worldjuniors.html
+    '''
+    return render_template(
+    'olympians.html',molympians=formatTable(burb.getOlympians('Mens')),wolympians=formatTable(burb.getOlympians('Womens')),titletag=' - Olympians')
 
 
 @app.route('/shutouts')
