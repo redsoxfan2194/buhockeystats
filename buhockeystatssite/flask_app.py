@@ -934,7 +934,7 @@ def tidbits():
       Flask Template : flask template containing tidbits.html
     '''
     return render_template(
-    'tidbits.html',titletag=' - Tidbits"')
+    'tidbits.html',titletag=' - Tidbits')
     
 @app.route('/bloodlines')
 def bloodlines():
