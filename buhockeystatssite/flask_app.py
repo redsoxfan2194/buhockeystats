@@ -64,10 +64,9 @@ def static_favicon():
 
 if(datetime.datetime.now(easternTZ).month>=10 or datetime.datetime.now(easternTZ).month<5):
   try:
-  #try:
-  #  burb.refreshStats()
-  #except:
-  #  print('Failed to Refresh Stats...Initializing')
+    burb.refreshStats()
+  except:
+    print('Failed to Refresh Stats...Initializing')
   burb.initializeRecordBook()
 
 else:
