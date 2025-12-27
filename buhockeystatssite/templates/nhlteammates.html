@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="p-3">
+<h3 class="stat-table">NHL Teammates</h3>
+<p>
+        {% autoescape false %}
+        {{teammates}}
+        {% endautoescape %}
+</p>
+</div>
+{% endblock %}

@@ -41,7 +41,7 @@ def redirect_to_https():
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'olympians','worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'olympians','teammates', 'worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -965,6 +965,16 @@ def olympians():
     '''
     return render_template(
     'olympians.html',molympians=formatTable(burb.getOlympians('Mens')),wolympians=formatTable(burb.getOlympians('Womens')),titletag=' - Olympians')
+
+@app.route('/teammates')
+def teammates():
+    ''' Renders "Teammates" Page
+
+    Returns:
+      Flask Template : flask template containing worldjuniors.html
+    '''
+    return render_template(
+    'nhlteammates.html',teammates=formatTable(burb.getNHLTeammates()),titletag=' - Teammates')
 
 
 @app.route('/shutouts')

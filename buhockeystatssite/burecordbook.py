@@ -3964,6 +3964,11 @@ def getOlympians(gender):
   ''' returns Olympians'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0].lower()}olympians.csv")
   return dfRes
+  
+def getNHLTeammates():
+  ''' returns NHL Teammates'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"nhlteammates.csv")
+  return dfRes
 
 def getBirthdays(year,month):
   ''' returns Birthdays for given month and year'''
