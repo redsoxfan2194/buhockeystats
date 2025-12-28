@@ -31,7 +31,7 @@ app.wsgi_app = ProxyFix(app.wsgi_app)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'olympians', 'teammates', 'worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks','missing_dates']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'olympians', 'nhlteammates', 'pwhlteammates', 'worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks','missing_dates']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -956,15 +956,26 @@ def olympians():
     return render_template(
     'olympians.html',molympians=formatTable(burb.getOlympians('Mens')),wolympians=formatTable(burb.getOlympians('Womens')),titletag=' - Olympians')
 
-@app.route('/teammates')
-def teammates():
+@app.route('/nhlteammates')
+def nhlteammates():
     ''' Renders "Teammates" Page
 
     Returns:
-      Flask Template : flask template containing worldjuniors.html
+      Flask Template : flask template containing nhlteammates.html
     '''
     return render_template(
-    'nhlteammates.html',teammates=formatTable(burb.getNHLTeammates()),titletag=' - Teammates')
+    'nhlteammates.html',teammates=formatTable(burb.getNHLTeammates()),titletag=' - NHL Teammates')
+
+@app.route('/pwhlteammates')
+def pwhlteammates():
+    ''' Renders "Teammates" Page
+
+    Returns:
+      Flask Template : flask template containing pwhlteammates.html
+    '''
+    return render_template(
+    'pwhlteammates.html',teammates=formatTable(burb.getPWHLTeammates()),titletag=' - PWHL Teammates')
+
 
 
 @app.route('/shutouts')
