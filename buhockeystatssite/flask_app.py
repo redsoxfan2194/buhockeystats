@@ -27,28 +27,7 @@ easternTZ = pytz.timezone('US/Eastern')
 
 app = Flask(__name__)
 
-app.wsgi_app = ProxyFix(app.wsgi_app,x_for=1,x_proto=1,x_host=1,x_port=1)
-
-@app.before_request
-def enforce_https_and_www():
-    host = request.headers.get("Host", "")
-    url = request.url
-
-    # Skip local development
-    if host.startswith("localhost") or host.startswith("127.0.0.1"):
-        return
-
-    # --- Determine target scheme ---
-    scheme = "https" if not request.is_secure else "http"
-
-    # --- Determine target host ---
-    if not host.startswith("www."):
-        host = "www." + host
-
-    # --- Build redirect only if needed ---
-    if url.startswith("http://") or request.host != host:
-        return redirect(f"https://{host}{request.full_path}", code=301)
-        
+app.wsgi_app = ProxyFix(app.wsgi_app)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
