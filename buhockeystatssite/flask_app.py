@@ -27,21 +27,32 @@ easternTZ = pytz.timezone('US/Eastern')
 
 app = Flask(__name__)
 
-app.wsgi_app = ProxyFix(app.wsgi_app)  # If behind a proxy, to handle HTTPS detection correctly
+app.wsgi_app = ProxyFix(app.wsgi_app,x_for=1,x_proto=1,x_host=1,x_port=1)
 
 @app.before_request
-def redirect_to_https():
-    if("127.0.0.1" in request.headers['Host']):
-        return
-    if not request.is_secure and request.headers.get('X-Forwarded-Proto', 'http') == 'http':
-        # Redirect to the same URL but with HTTPS scheme
-        url = request.url.replace('http://', 'https://', 1)
-        return redirect(url, code=301)
+def enforce_https_and_www():
+    host = request.headers.get("Host", "")
+    url = request.url
 
+    # Skip local development
+    if host.startswith("localhost") or host.startswith("127.0.0.1"):
+        return
+
+    # --- Determine target scheme ---
+    scheme = "https" if not request.is_secure else "http"
+
+    # --- Determine target host ---
+    if not host.startswith("www."):
+        host = "www." + host
+
+    # --- Build redirect only if needed ---
+    if url.startswith("http://") or request.host != host:
+        return redirect(f"https://{host}{request.full_path}", code=301)
+        
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'olympians','teammates', 'worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'olympians', 'teammates', 'worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks','missing_dates']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
