@@ -4,6 +4,9 @@ Disallow: /api/
 User-agent: *
 Allow: /
 
+User-agent: *
+Disallow: /birthday?
+
 User-agent: anthropic-ai
 Disallow: /
 User-agent: Claude-Web
