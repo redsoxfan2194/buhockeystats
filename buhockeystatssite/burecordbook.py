@@ -3975,6 +3975,11 @@ def getPWHLTeammates():
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"pwhlteammates.csv")
   return dfRes
 
+def getWinterClassic():
+  ''' returns PWHL Teammates'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"winterclassic.csv")
+  return dfRes
+
 
 def getBirthdays(year,month):
   ''' returns Birthdays for given month and year'''
