@@ -976,6 +976,16 @@ def pwhlteammates():
     return render_template(
     'pwhlteammates.html',teammates=formatTable(burb.getPWHLTeammates()),titletag=' - PWHL Teammates')
 
+@app.route('/winterclassic')
+def winterclassic():
+    ''' Renders "Winter Classic" Page
+
+    Returns:
+      Flask Template : flask template containing winterclassic.html
+    '''
+    return render_template(
+    'winterclassic.html',stattable=formatTable(burb.getWinterClassic()),titletag=' - Terriers in the Winter Classic')
+
 
 
 @app.route('/shutouts')
