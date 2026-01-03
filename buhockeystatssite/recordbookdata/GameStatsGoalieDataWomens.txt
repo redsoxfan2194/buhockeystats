@@ -756,3 +756,4 @@
 12/02/2025,Holy Cross,Mari Pietersen,JR,19,0,1,1,60.0,W,2025-26
 12/05/2025,Connecticut,Mari Pietersen,JR,42,1,1,0,65.0,T,2025-26
 12/06/2025,Connecticut,Mari Pietersen,FR,28,3,1,0,59.87,L,2025-26
+01/02/2026,Quinnipiac,Mari Pietersen,FR,36,2,1,0,65.0,T,2025-26
