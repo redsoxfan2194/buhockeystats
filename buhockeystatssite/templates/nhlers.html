@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="p-3">
+<h3 class="stat-table">Terriers in the NHL by Date</h3>
+<p>
+        {% autoescape false %}
+        {{nhlers}}
+        {% endautoescape %}
+</p>
+</div>
+{% endblock %}
