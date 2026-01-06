@@ -1773,6 +1773,7 @@
 8	Brandon Svoboda	F	SO	18	4	5	9	3/6	2025-26
 9	Sacha Boisvert	F	SO	12	2	9	11	3/14	2025-26
 10	Jonathan Morello	F	FR	18	3	5	8	5/10	2025-26
+11	Tynan Lawrence	F	FR	0	0	0	0	0/0	2025-26
 12	Jack Harvey	F	JR	18	5	5	10	2/4	2025-26
 14	Mick Frechette	D	JR	15	1	2	3	4/8	2025-26
 15	Carter Amico	D	FR	18	0	0	0	6/12	2025-26

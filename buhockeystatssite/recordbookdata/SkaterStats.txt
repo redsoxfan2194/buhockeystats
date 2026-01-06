@@ -815,6 +815,7 @@ Hutson,Cole 2024-26 39 14 34 48 21/64
 Zetterberg,Alex 2024-25 26 5 3 8 1/2
 Boumedienne,Sascha 2024-26 40 3 10 13 11/33
 Copponi,Matt 2024-25 40 6 18 24 7/14
+Lawrence,Tynan,2025-26 0 0 0 0 0/0
 Luciano,Steven 2025-26 0 0 0 0 0/0
 Morello,Jonathan 2025-26 0 0 0 0 0/0
 Amico,Carter 2025-26 0 0 0 0 0/0

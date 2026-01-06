@@ -616,6 +616,7 @@
 8	Brandon Svoboda	SO	F	6-3	210	Pittsburgh, Pennsylvania / Fargo Force (USHL)	2025-26
 9	Sacha Boisvert	SO	F	6-3	190	Trois-Rivières, Quebec / Muskegon Lumberjacks (USHL) Previous College: North Dakota (2024-25)	2025-26
 10	Jonathan Morello	FR	F	6-2	193	Toronto, Ontario / Dubuque Fighting Saints (USHL)	2025-26
+11	Tynan Lawrence	FR	F	6-0	185	Fredericton, New Brunswick / Muskegon Lumberjacks (USHL)	2025-26
 12	Jack Harvey	JR	F	5-10	173	Stacy, Minnesota / Chicago Steel (USHL)	2025-26
 14	Mick Frechette	JR	D	6-2	200	Weston, Massachusetts / Dexter Southfield	2025-26
 15	Carter Amico	FR	D	6-5	225	Westbrook, Maine / U.S. National Under-18 Team	2025-26
