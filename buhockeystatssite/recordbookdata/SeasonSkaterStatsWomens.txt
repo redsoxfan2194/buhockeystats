@@ -498,7 +498,7 @@
 24	Maeve Kelly	D	SR	19	0	3	3	9/29	2025-26
 26	Lilli Welcke	F	SR	19	5	3	8	6/23	2025-26
 27	Keira Healey	D	SO	19	0	3	3	8/24	2025-26
-28	Kaileigh Quigg	F	SO	18	4	6	10	5/13	2025-26
+28	Kaileigh Quigg	F	SO	18	4	5	9	5/13	2025-26
 33	Sydney Fogu	G	FR	0	0	0	0	0/0	2025-26
 35	Jackie Wright	G	FR	1	0	0	0	0/0	2025-26
 92	Mari Pietersen	G	JR	4	0	0	0	0/0	2025-26

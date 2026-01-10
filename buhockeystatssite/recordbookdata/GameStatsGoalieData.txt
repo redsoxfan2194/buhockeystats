@@ -2125,3 +2125,4 @@
 12/05/2025,Vermont,Mikhail Yegorov,FR,25,1,1,0,59.97,W,2025-26
 12/06/2025,Vermont,Mikhail Yegorov,FR,17,3,1,0,59.82,L,2025-26
 12/13/2025,Northeastern,Mikhail Yegorov,FR,18,3,1,0,59.72,W,2025-26
+01/09/2026,Massachusetts,Mikhail Yegorov,SO,18,0,1,1,60.0,W,2025-26
