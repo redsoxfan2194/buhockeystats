@@ -14154,3 +14154,22 @@
 01/03/2026,Harvard,Tessa Demain,D,SO,0,0,0,2025-26
 01/03/2026,Harvard,Maeve Kelly,D,SR,0,1,1,2025-26
 01/03/2026,Harvard,Sydney Healey,F,SR,0,0,0,2025-26
+01/10/2026,New Hampshire,Lexie Bertelsen,F,FR,0,0,0,2025-26
+01/10/2026,New Hampshire,Greta Henderson,F,JR,0,0,0,2025-26
+01/10/2026,New Hampshire,Kaileigh Quigg,F,SO,0,0,0,2025-26
+01/10/2026,New Hampshire,Ella Belfry,D,JR,0,0,0,2025-26
+01/10/2026,New Hampshire,Lilli Welcke,F,SR,0,0,0,2025-26
+01/10/2026,New Hampshire,Kate Meinert,D,SO,0,0,0,2025-26
+01/10/2026,New Hampshire,Maeve Carey,D,SR,0,0,0,2025-26
+01/10/2026,New Hampshire,Lola Reid,F,SO,0,0,0,2025-26
+01/10/2026,New Hampshire,Keira Healey,D,SO,0,0,0,2025-26
+01/10/2026,New Hampshire,Riley Walsh,F,SR,0,1,1,2025-26
+01/10/2026,New Hampshire,Neely Nicholson,F,JR,0,0,0,2025-26
+01/10/2026,New Hampshire,Maeve Kelly,D,SR,0,0,0,2025-26
+01/10/2026,New Hampshire,Luisa Welcke,F,SR,1,0,1,2025-26
+01/10/2026,New Hampshire,Tessa Demain,D,SO,0,0,0,2025-26
+01/10/2026,New Hampshire,Sydney Healey,F,SR,1,0,1,2025-26
+01/10/2026,New Hampshire,Clara Yuhn,F,SR,0,0,0,2025-26
+01/10/2026,New Hampshire,Mia Vergilii,F,FR,0,0,0,2025-26
+01/10/2026,New Hampshire,Michelle Pasiechnyk,G,GR,0,0,0,2025-26
+01/10/2026,New Hampshire,Avery Supryka,D,FR,0,0,0,2025-26
