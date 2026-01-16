@@ -2127,3 +2127,4 @@
 12/13/2025,Northeastern,Mikhail Yegorov,FR,18,3,1,0,59.72,W,2025-26
 01/09/2026,Massachusetts,Mikhail Yegorov,SO,18,0,1,1,60.0,W,2025-26
 01/10/2026,Massachusetts,Mikhail Yegorov,SO,16,1,1,0,57.92,L,2025-26
+01/12/2026,Harvard,Mikhail Yegorov,JR,28,1,1,0,60.0,W,2025-26

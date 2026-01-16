@@ -14173,3 +14173,22 @@
 01/10/2026,New Hampshire,Mia Vergilii,F,FR,0,0,0,2025-26
 01/10/2026,New Hampshire,Michelle Pasiechnyk,G,GR,0,0,0,2025-26
 01/10/2026,New Hampshire,Avery Supryka,D,FR,0,0,0,2025-26
+01/13/2026,Northeastern,Kaileigh Quigg,F,SO,0,0,0,2025-26
+01/13/2026,Northeastern,Maeve Kelly,D,SR,0,0,0,2025-26
+01/13/2026,Northeastern,Avery Supryka,D,FR,0,0,0,2025-26
+01/13/2026,Northeastern,Tessa Demain,D,SO,0,0,0,2025-26
+01/13/2026,Northeastern,Lilli Welcke,F,SR,0,0,0,2025-26
+01/13/2026,Northeastern,Lola Reid,F,SO,0,0,0,2025-26
+01/13/2026,Northeastern,Neely Nicholson,F,JR,0,0,0,2025-26
+01/13/2026,Northeastern,Maeve Carey,D,SR,1,0,1,2025-26
+01/13/2026,Northeastern,Sydney Healey,F,SR,0,1,1,2025-26
+01/13/2026,Northeastern,Keira Healey,D,SO,0,1,1,2025-26
+01/13/2026,Northeastern,Luisa Welcke,F,SR,0,0,0,2025-26
+01/13/2026,Northeastern,Riley Walsh,F,SR,0,1,1,2025-26
+01/13/2026,Northeastern,Mari Pietersen,G,JR,0,0,0,2025-26
+01/13/2026,Northeastern,Mia Vergilii,F,FR,0,0,0,2025-26
+01/13/2026,Northeastern,Lexie Bertelsen,F,FR,1,0,1,2025-26
+01/13/2026,Northeastern,Clara Yuhn,F,SR,0,0,0,2025-26
+01/13/2026,Northeastern,Greta Henderson,F,JR,0,1,1,2025-26
+01/13/2026,Northeastern,Kate Meinert,D,SO,0,0,0,2025-26
+01/13/2026,Northeastern,Ella Belfry,D,JR,0,0,0,2025-26

@@ -759,3 +759,4 @@
 01/02/2026,Quinnipiac,Mari Pietersen,FR,36,2,1,0,65.0,T,2025-26
 01/03/2026,Harvard,Mari Pietersen,SR,27,2,1,0,60.0,W,2025-26
 01/10/2026,New Hampshire,Michelle Pasiechnyk,FR,25,1,1,0,59.7,W,2025-26
+01/13/2026,Northeastern,Mari Pietersen,JR,35,1,1,0,62.72,W,2025-26
