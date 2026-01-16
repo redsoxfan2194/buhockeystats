@@ -2097,34 +2097,34 @@
 02/22/2025,Northeastern,Mikhail Yegorov,FR,28,1,1,0,59.52,W,2024-25
 02/25/2025,Connecticut,Mikhail Yegorov,FR,25,2,1,0,64.77,T,2024-25
 03/06/2025,Providence,Mikhail Yegorov,FR,34,1,1,0,54.47,W,2024-25
-03/06/2025,Providence,Billy Girard IV,FR,4,1,1,0,5.25,,2024-25
-03/08/2025,Vermont,Mikhail Yegorov,FR,21,1,1,0,60.0,W,2024-25
+03/06/2025,Providence,Billy Girard IV,GR,4,1,1,0,5.25,,2024-25
+03/08/2025,Vermont,Mikhail Yegorov,FR,21,1,1,0,60,W,2024-25
 03/15/2025,Massachusetts,Mikhail Yegorov,FR,36,2,1,0,62.98,W,2024-25
 03/20/2025,Connecticut,Mikhail Yegorov,FR,19,4,1,0,57.78,L,2024-25
 03/27/2025,Ohio State,Mikhail Yegorov,FR,33,3,1,0,59.98,W,2024-25
 03/29/2025,Cornell,Mikhail Yegorov,FR,37,2,1,0,66.42,W,2024-25
-04/10/2025,Penn State,Mikhail Yegorov,FR,32,1,1,0,60.0,W,2024-25
+04/10/2025,Penn State,Mikhail Yegorov,FR,32,1,1,0,60,W,2024-25
 04/12/2025,Western Michigan,Mikhail Yegorov,FR,22,5,1,0,58.35,L,2024-25
-10/04/2025,Long Island University,Mikhail Yegorov,FR,36,2,1,0,59.67,W,2025-26
-10/10/2025,Colgate,Mikhail Yegorov,FR,24,2,1,0,60.0,W,2025-26
-10/11/2025,Colgate,Mikhail Yegorov,FR,23,2,1,0,64.73,T,2025-26
-10/17/2025,Michigan State,Mikhail Yegorov,FR,30,4,1,0,58.05,L,2025-26
-10/18/2025,Michigan State,Mikhail Yegorov,FR,30,4,1,0,63.83,L,2025-26
-10/24/2025,Connecticut,Mikhail Yegorov,FR,26,6,1,0,41.07,L,2025-26
-10/24/2025,Connecticut,Max Lacroix,FR,6,1,1,0,16.9,,2025-26
-10/25/2025,Connecticut,Mikhail Yegorov,FR,24,1,1,0,60.0,W,2025-26
-10/31/2025,Maine,Mikhail Yegorov,FR,30,5,1,0,60.72,L,2025-26
-11/01/2025,Maine,Mikhail Yegorov,FR,5,3,1,0,12.35,,2025-26
-11/01/2025,Maine,Max Lacroix,FR,33,4,1,0,46.45,L,2025-26
-11/07/2025,Merrimack,Mikhail Yegorov,SO,23,2,1,0,60.0,W,2025-26
-11/08/2025,Merrimack,Mikhail Yegorov,FR,27,4,1,0,60.0,W,2025-26
+10/04/2025,Long Island University,Mikhail Yegorov,SO,36,2,1,0,59.67,W,2025-26
+10/10/2025,Colgate,Mikhail Yegorov,SO,24,2,1,0,60,W,2025-26
+10/11/2025,Colgate,Mikhail Yegorov,SO,23,2,1,0,64.73,T,2025-26
+10/17/2025,Michigan State,Mikhail Yegorov,SO,30,4,1,0,58.05,L,2025-26
+10/18/2025,Michigan State,Mikhail Yegorov,SO,30,4,1,0,63.83,L,2025-26
+10/24/2025,Connecticut,Mikhail Yegorov,SO,26,6,1,0,41.07,L,2025-26
+10/24/2025,Connecticut,Max Lacroix,JR,6,1,1,0,16.9,,2025-26
+10/25/2025,Connecticut,Mikhail Yegorov,SO,24,1,1,0,60,W,2025-26
+10/31/2025,Maine,Mikhail Yegorov,SO,30,5,1,0,60.72,L,2025-26
+11/01/2025,Maine,Mikhail Yegorov,SO,5,3,1,0,12.35,,2025-26
+11/01/2025,Maine,Max Lacroix,JR,33,4,1,0,46.45,L,2025-26
+11/07/2025,Merrimack,Mikhail Yegorov,SO,23,2,1,0,60,W,2025-26
+11/08/2025,Merrimack,Mikhail Yegorov,SO,27,4,1,0,60,W,2025-26
 11/15/2025,Quinnipiac,Mikhail Yegorov,SO,43,6,1,0,59.67,L,2025-26
-11/21/2025,Northeastern,Mikhail Yegorov,SR,22,3,1,0,59.12,L,2025-26
-11/22/2025,Northeastern,Mikhail Yegorov,FR,21,3,1,0,63.57,W,2025-26
-11/29/2025,Cornell,Mikhail Yegorov,JR,28,1,1,0,60.0,W,2025-26
-12/05/2025,Vermont,Mikhail Yegorov,FR,25,1,1,0,59.97,W,2025-26
-12/06/2025,Vermont,Mikhail Yegorov,FR,17,3,1,0,59.82,L,2025-26
-12/13/2025,Northeastern,Mikhail Yegorov,FR,18,3,1,0,59.72,W,2025-26
-01/09/2026,Massachusetts,Mikhail Yegorov,SO,18,0,1,1,60.0,W,2025-26
+11/21/2025,Northeastern,Mikhail Yegorov,SO,22,3,1,0,59.12,L,2025-26
+11/22/2025,Northeastern,Mikhail Yegorov,SO,21,3,1,0,63.57,W,2025-26
+11/29/2025,Cornell,Mikhail Yegorov,SO,28,1,1,0,60,W,2025-26
+12/05/2025,Vermont,Mikhail Yegorov,SO,25,1,1,0,59.97,W,2025-26
+12/06/2025,Vermont,Mikhail Yegorov,SO,17,3,1,0,59.82,L,2025-26
+12/13/2025,Northeastern,Mikhail Yegorov,SO,18,3,1,0,59.72,W,2025-26
+01/09/2026,Massachusetts,Mikhail Yegorov,SO,18,0,1,1,60,W,2025-26
 01/10/2026,Massachusetts,Mikhail Yegorov,SO,16,1,1,0,57.92,L,2025-26
-01/12/2026,Harvard,Mikhail Yegorov,JR,28,1,1,0,60.0,W,2025-26
+01/12/2026,Harvard,Mikhail Yegorov,SO,28,1,1,0,60,W,2025-26
