@@ -31329,3 +31329,24 @@
 01/12/2026,Harvard,Ben Merrill,F,FR,1,0,1,2025-26
 01/12/2026,Harvard,Charlie Trethewey,D,FR,0,0,0,2025-26
 01/12/2026,Harvard,Mick Frechette,D,JR,0,0,0,2025-26
+01/16/2026,UMass Lowell,Mikhail Yegorov,G,SO,0,0,0,2025-26
+01/16/2026,UMass Lowell,Brandon Svoboda,F,SO,0,0,0,2025-26
+01/16/2026,UMass Lowell,Owen McLaughlin,F,SR,0,0,0,2025-26
+01/16/2026,UMass Lowell,Ben Merrill,F,FR,0,0,0,2025-26
+01/16/2026,UMass Lowell,Jonathan Morello,F,FR,1,0,1,2025-26
+01/16/2026,UMass Lowell,Mick Frechette,D,JR,0,0,0,2025-26
+01/16/2026,UMass Lowell,Kamil Bednarik,F,SO,0,1,1,2025-26
+01/16/2026,UMass Lowell,Max Lacroix,G,JR,0,0,0,2025-26
+01/16/2026,UMass Lowell,Cole Hutson,D,SO,0,0,0,2025-26
+01/16/2026,UMass Lowell,Ryder Ritchie,F,FR,0,2,2,2025-26
+01/16/2026,UMass Lowell,Gavin McCarthy,D,JR,0,0,0,2025-26
+01/16/2026,UMass Lowell,Jack Harvey,F,JR,2,0,2,2025-26
+01/16/2026,UMass Lowell,Conrad Fondrk,F,FR,0,1,1,2025-26
+01/16/2026,UMass Lowell,Sascha Boumedienne,D,SO,0,1,1,2025-26
+01/16/2026,UMass Lowell,Jack Murtagh,F,FR,0,0,0,2025-26
+01/16/2026,UMass Lowell,Nick Roukounakis,F,SO,0,0,0,2025-26
+01/16/2026,UMass Lowell,Cole Eiserman,F,SO,0,0,0,2025-26
+01/16/2026,UMass Lowell,Charlie Trethewey,D,FR,0,1,1,2025-26
+01/16/2026,UMass Lowell,Sacha Boisvert,F,SO,0,0,0,2025-26
+01/16/2026,UMass Lowell,Tynan Lawrence,F,FR,0,0,0,2025-26
+01/16/2026,UMass Lowell,Aiden Celebrini,D,JR,0,0,0,2025-26
