@@ -14192,3 +14192,23 @@
 01/13/2026,Northeastern,Greta Henderson,F,JR,0,1,1,2025-26
 01/13/2026,Northeastern,Kate Meinert,D,SO,0,0,0,2025-26
 01/13/2026,Northeastern,Ella Belfry,D,JR,0,0,0,2025-26
+01/17/2026,Holy Cross,Greta Henderson,F,JR,0,0,0,2025-26
+01/17/2026,Holy Cross,Kaileigh Quigg,F,SO,0,0,0,2025-26
+01/17/2026,Holy Cross,Avery Supryka,D,FR,0,0,0,2025-26
+01/17/2026,Holy Cross,Maeve Carey,D,SR,0,0,0,2025-26
+01/17/2026,Holy Cross,Clara Yuhn,F,SR,0,0,0,2025-26
+01/17/2026,Holy Cross,Kate Meinert,D,SO,0,0,0,2025-26
+01/17/2026,Holy Cross,Jackie Wright,G,FR,0,0,0,2025-26
+01/17/2026,Holy Cross,Luisa Welcke,F,SR,1,1,2,2025-26
+01/17/2026,Holy Cross,Lola Reid,F,SO,0,0,0,2025-26
+01/17/2026,Holy Cross,Riley Walsh,F,SR,0,0,0,2025-26
+01/17/2026,Holy Cross,Mia Vergilii,F,FR,0,0,0,2025-26
+01/17/2026,Holy Cross,Neely Nicholson,F,JR,1,0,1,2025-26
+01/17/2026,Holy Cross,Lexie Bertelsen,F,FR,0,0,0,2025-26
+01/17/2026,Holy Cross,Lilli Welcke,F,SR,0,1,1,2025-26
+01/17/2026,Holy Cross,Keira Healey,D,SO,0,1,1,2025-26
+01/17/2026,Holy Cross,Mari Pietersen,G,JR,0,0,0,2025-26
+01/17/2026,Holy Cross,Maeve Kelly,D,SR,0,0,0,2025-26
+01/17/2026,Holy Cross,Ella Belfry,D,JR,0,0,0,2025-26
+01/17/2026,Holy Cross,Sydney Healey,F,SR,0,0,0,2025-26
+01/17/2026,Holy Cross,Tessa Demain,D,SO,0,0,0,2025-26
