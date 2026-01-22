@@ -14211,4 +14211,25 @@
 01/17/2026,Holy Cross,Maeve Kelly,D,SR,0,0,0,2025-26
 01/17/2026,Holy Cross,Ella Belfry,D,JR,0,0,0,2025-26
 01/17/2026,Holy Cross,Sydney Healey,F,SR,0,0,0,2025-26
-01/17/2026,Holy Cross,Tessa Demain,D,SO,0,0,0,2025-26
+01/20/2026,Harv,Tessa Demain,D,SO,0,0,0,2025-26
+01/20/2026,Harv,Greta Henderson,F,JR,1,0,1,2025-26
+01/20/2026,Harv,Kaileigh Quigg,F,SO,0,0,0,2025-26
+01/20/2026,Harv,Avery Supryka,D,FR,0,0,0,2025-26
+01/20/2026,Harv,Maeve Carey,D,SR,0,0,0,2025-26
+01/20/2026,Harv,Clara Yuhn,F,SR,0,0,0,2025-26
+01/20/2026,Harv,Kate Meinert,D,SO,0,0,0,2025-26
+01/20/2026,Harv,Jackie Wright,G,FR,0,0,0,2025-26
+01/20/2026,Harv,Luisa Welcke,F,SR,0,1,1,2025-26
+01/20/2026,Harv,Lola Reid,F,SO,0,0,0,2025-26
+01/20/2026,Harv,Riley Walsh,F,SR,0,0,0,2025-26
+01/20/2026,Harv,Mia Vergilii,F,FR,0,0,0,2025-26
+01/20/2026,Harv,Neely Nicholson,F,JR,0,0,0,2025-26
+01/20/2026,Harv,Lexie Bertelsen,F,FR,0,0,0,2025-26
+01/20/2026,Harv,Lilli Welcke,F,SR,0,0,0,2025-26
+01/20/2026,Harv,Keira Healey,D,SO,0,0,0,2025-26
+01/20/2026,Harv,Mari Pietersen,G,JR,0,0,0,2025-26
+01/20/2026,Harv,Maeve Kelly,D,SR,0,1,1,2025-26
+01/20/2026,Harv,Ella Belfry,D,JR,0,0,0,2025-26
+01/20/2026,Harv,Sydney Healey,F,SR,0,0,0,2025-26
+01/20/2026,Harvard,Tessa Demain,D,SO,0,0,0,2025-26
+01/20/2026,Harvard,Anežka Čabelová,F,FR,0,0,0,2025-26

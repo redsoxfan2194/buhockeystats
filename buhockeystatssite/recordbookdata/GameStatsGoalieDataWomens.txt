@@ -762,3 +762,4 @@
 01/13/2026,Northeastern,Mari Pietersen,JR,35,1,1,0,62.72,W,2025-26
 01/17/2026,Holy Cross,Jackie Wright,SO,7,0,1,0,23.42,,2025-26
 01/17/2026,Holy Cross,Mari Pietersen,SO,14,3,1,0,35.45,L,2025-26
+01/17/2026,Harvard,Mari Pietersen,SO,13,2,1,0,61.28,L,2025-26
