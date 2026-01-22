@@ -44,3 +44,4 @@
 44	2023	Boston College	February 7		Northeastern	4	Boston University	1		Boston College	3	Harvard	0						February 14	Boston University	7	Harvard	4		Northeastern	2	Boston College	1	
 45	2024	Harvard	January 16		Boston University	3	Boston College	3	(BU wins shootout 1-0)	Northeastern	1	Harvard	0						January 23	Boston College	2	Harvard	2	(Harvard wins shootout 1-0)	Northeastern	2	Boston University	1	(OT)
 46	2025	Northeastern	January 14		Boston University	2	Harvard	1	(OT)	Northeastern	4	Boston College	2						January 21	Boston College	4	Harvard	1		Northeastern	4	Boston University	0	
+47	2026	Boston University	January 13		Harvard	2	Boston College	1		Boston University	2	Northeastern	1	(ot)					January 20	Northeastern	3	Boston College	2		Harvard	2	Boston University	1	(ot)
