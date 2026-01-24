@@ -12090,26 +12090,6 @@
 01/20/2023,Maine,Brooke Disher,D,FR,0,1,1,2022-23
 01/20/2023,Maine,Catherine Foulem,F,JR,0,0,0,2022-23
 01/20/2023,Maine,Callie Shanahan,G,SO,0,0,0,2022-23
-01/20/2023,Maine,Alex Allan,D,GR,0,0,0,2022-23
-01/20/2023,Maine,Liv Haag,F,SO,0,0,0,2022-23
-01/20/2023,Maine,Nadia Mattivi,D,SR,0,1,1,2022-23
-01/20/2023,Maine,Kylie Roberts,F,SO,0,0,0,2022-23
-01/20/2023,Maine,Clare O'Leary,F,JR,0,0,0,2022-23
-01/20/2023,Maine,Jesse DeVito,F,GR,0,0,0,2022-23
-01/20/2023,Maine,Sydney Healey,F,FR,0,1,1,2022-23
-01/20/2023,Maine,Andi Calderone,D,JR,0,0,0,2022-23
-01/20/2023,Maine,Julia Nearis,F,SR,1,0,1,2022-23
-01/20/2023,Maine,Lacey Martin,F,JR,1,0,1,2022-23
-01/20/2023,Maine,Clara Yuhn,F,FR,0,1,1,2022-23
-01/20/2023,Maine,Julia Shaunessy,D,JR,0,0,0,2022-23
-01/20/2023,Maine,Madison Cardaci,D,JR,0,0,0,2022-23
-01/20/2023,Maine,Christina Vote,F,SO,1,0,1,2022-23
-01/20/2023,Maine,Tamara Giaquinto,D,JR,0,0,0,2022-23
-01/20/2023,Maine,Maeve Kelly,D,FR,0,0,0,2022-23
-01/20/2023,Maine,Ani Fitzgerald,F,JR,0,0,0,2022-23
-01/20/2023,Maine,Brooke Disher,D,FR,0,1,1,2022-23
-01/20/2023,Maine,Catherine Foulem,F,JR,0,0,0,2022-23
-01/20/2023,Maine,Callie Shanahan,G,SO,0,0,0,2022-23
 01/21/2023,New Hampshire,Alex Allan,D,GR,0,0,0,2022-23
 01/21/2023,New Hampshire,Liv Haag,F,SO,0,0,0,2022-23
 01/21/2023,New Hampshire,Nadia Mattivi,D,SR,0,1,1,2022-23
