@@ -31410,3 +31410,23 @@
 01/24/2026,Providence,Nick Roukounakis,F,SO,0,0,0,2025-26
 01/24/2026,Providence,Tynan Lawrence,F,FR,0,0,0,2025-26
 01/24/2026,Providence,Mikhail Yegorov,G,SO,0,0,0,2025-26
+01/30/2026,Boston College,Aiden Celebrini,D,JR,0,0,0,2025-26
+01/30/2026,Boston College,Tynan Lawrence,F,FR,0,0,0,2025-26
+01/30/2026,Boston College,Jack Harvey,F,JR,1,0,1,2025-26
+01/30/2026,Boston College,Jonathan Morello,F,FR,0,0,0,2025-26
+01/30/2026,Boston College,Conrad Fondrk,F,FR,0,0,0,2025-26
+01/30/2026,Boston College,Owen McLaughlin,F,SR,0,0,0,2025-26
+01/30/2026,Boston College,Mikhail Yegorov,G,SO,0,0,0,2025-26
+01/30/2026,Boston College,Nick Roukounakis,F,SO,0,0,0,2025-26
+01/30/2026,Boston College,Brandon Svoboda,F,SO,0,0,0,2025-26
+01/30/2026,Boston College,Sacha Boisvert,F,SO,0,0,0,2025-26
+01/30/2026,Boston College,Cole Eiserman,F,SO,0,1,1,2025-26
+01/30/2026,Boston College,Sascha Boumedienne,D,SO,0,0,0,2025-26
+01/30/2026,Boston College,Cole Hutson,D,SO,0,0,0,2025-26
+01/30/2026,Boston College,Charlie Trethewey,D,FR,0,0,0,2025-26
+01/30/2026,Boston College,Kamil Bednarik,F,SO,0,0,0,2025-26
+01/30/2026,Boston College,Ryder Ritchie,F,FR,0,0,0,2025-26
+01/30/2026,Boston College,Gavin McCarthy,D,JR,0,0,0,2025-26
+01/30/2026,Boston College,Ben Merrill,F,FR,0,1,1,2025-26
+01/30/2026,Boston College,Mick Frechette,D,JR,0,0,0,2025-26
+01/30/2026,Boston College,Jack Murtagh,F,FR,0,0,0,2025-26

@@ -52,7 +52,7 @@
 33	Emily McDonald	SR	1	00:00	0	0	.000	.00	0-0-0	0	2024-25
 37	Callie Shanahan	SR	30	1787:32	54	656	.924	1.81	18-9-2	3	2024-25
 92	Mari Pietersen	SO	10	520:39	18	184	.911	2.07	6-3-0	2	2024-25
-1	Michelle Pasiechnyk	GR	12	681:08	34	332	0.907	3.00	3-8-0	0	2025-26
+1	Michelle Pasiechnyk	GR	13	741:08	34	355	0.913	2.75	4-8-0	1	2025-26
 33	Sydney Fogu	FR	0	00:00	0	0	.000	.00	0-0-0	0	2025-26
 35	Jackie Wright	FR	1	23:25	0	7	1.000	0.00	0-0-0	0	2025-26
 92	Mari Pietersen	JR	14	797:36	30	367	0.924	2.26	4-7-3	1	2025-26
