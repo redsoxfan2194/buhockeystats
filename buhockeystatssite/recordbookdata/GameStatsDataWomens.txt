@@ -14282,6 +14282,6 @@
 01/31/2026,Merrimack,Lexie Bertelsen,F,FR,1,0,1,2025-26
 01/31/2026,Merrimack,Tessa Demain,D,SO,0,0,0,2025-26
 01/31/2026,Merrimack,Ella Belfry,D,JR,0,0,0,2025-26
-01/31/2026,Merrimack,Clara Yuhn,F,SR,0,0,0,2025-26
+01/31/2026,Merrimack,Clara Yuhn,F,SR,0,1,1,2025-26
 01/31/2026,Merrimack,Lucy Thiessen,D,FR,0,0,0,2025-26
 01/31/2026,Merrimack,Keira Healey,D,SO,0,1,1,2025-26
