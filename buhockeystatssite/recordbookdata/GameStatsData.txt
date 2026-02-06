@@ -31430,3 +31430,23 @@
 01/30/2026,Boston College,Ben Merrill,F,FR,0,1,1,2025-26
 01/30/2026,Boston College,Mick Frechette,D,JR,0,0,0,2025-26
 01/30/2026,Boston College,Jack Murtagh,F,FR,0,0,0,2025-26
+02/02/2026,Northeastern,Cole Hutson,D,SO,0,1,1,2025-26
+02/02/2026,Northeastern,Sacha Boisvert,F,SO,0,0,0,2025-26
+02/02/2026,Northeastern,Gavin McCarthy,D,JR,0,0,0,2025-26
+02/02/2026,Northeastern,Charlie Trethewey,D,FR,0,1,1,2025-26
+02/02/2026,Northeastern,Jack Murtagh,F,FR,0,0,0,2025-26
+02/02/2026,Northeastern,Jack Harvey,F,JR,0,0,0,2025-26
+02/02/2026,Northeastern,Owen McLaughlin,F,SR,0,0,0,2025-26
+02/02/2026,Northeastern,Conrad Fondrk,F,FR,0,0,0,2025-26
+02/02/2026,Northeastern,Aiden Celebrini,D,JR,0,0,0,2025-26
+02/02/2026,Northeastern,Sascha Boumedienne,D,SO,0,1,1,2025-26
+02/02/2026,Northeastern,Jonathan Morello,F,FR,1,0,1,2025-26
+02/02/2026,Northeastern,Kamil Bednarik,F,SO,0,0,0,2025-26
+02/02/2026,Northeastern,Mikhail Yegorov,G,SO,0,0,0,2025-26
+02/02/2026,Northeastern,Ben Merrill,F,FR,0,0,0,2025-26
+02/02/2026,Northeastern,Brandon Svoboda,F,SO,0,0,0,2025-26
+02/02/2026,Northeastern,Tynan Lawrence,F,FR,0,0,0,2025-26
+02/02/2026,Northeastern,Ryder Ritchie,F,FR,0,0,0,2025-26
+02/02/2026,Northeastern,Mick Frechette,D,JR,0,0,0,2025-26
+02/02/2026,Northeastern,Nick Roukounakis,F,SO,1,0,1,2025-26
+02/02/2026,Northeastern,Cole Eiserman,F,SO,0,0,0,2025-26

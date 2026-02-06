@@ -2134,3 +2134,4 @@
 01/23/2026,Providence,Mikhail Yegorov,JR,36,4,1,0,59.27,L,2025-26
 01/24/2026,Providence,Mikhail Yegorov,SO,22,3,1,0,58.27,L,2025-26
 01/30/2026,Boston College,Mikhail Yegorov,FR,17,3,1,0,59.02,L,2025-26
+02/02/2026,Northeastern,Mikhail Yegorov,SO,24,2,1,0,64.97,T,2025-26
