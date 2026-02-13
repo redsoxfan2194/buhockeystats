@@ -70,3 +70,4 @@
 2023	Devon Levi	G	Northeastern	Devon Levi	Northeastern	65	3	0.956	1.50
 2024	Gunarwolfe Fontaine	F	Northeastern	Cameron Whitehead	Northeastern	54	5	0.915	2.07
 2025	Cole Hutson	D	Boston University	Mikhail Yegorov	Boston University	69	2	0.972	1.00
+2026	James Hagens	F	Boston College	Louka Cloutier	Boston College	57	3	0.950	1.50
