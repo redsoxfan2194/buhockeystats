@@ -3964,6 +3964,12 @@ def getOlympians(gender):
   ''' returns Olympians'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0].lower()}olympians.csv")
   return dfRes
+
+def getTransfers(gender,dir):
+  ''' returns Transfers'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0].lower()}transfers{dir.lower()}.csv")
+  return dfRes
+  
   
 def getNHLTeammates():
   ''' returns NHL Teammates'''

@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+<h3 class="stat-table">BU Transfers</h3>
+<div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active note-nav" id="mens-transfers-in-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-transfers-in" type="button" role="tab" aria-controls="mens-transfers-in" aria-selected="true">Men's Transfers In</button>
+      <button class="nav-link note-nav" id="mens-transfers-out-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-transfers-out" type="button" role="tab" aria-controls="mens-transfers-out" aria-selected="true">Men's Transfers Out</button>
+      <button class="nav-link note-nav" id="womens-transfers-in-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-transfers-in" type="button" role="tab" aria-controls="womens-transfers-in" aria-selected="true">Women's Transfers In</button>
+      <button class="nav-link note-nav" id="womens-transfers-out-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-transfers-out" type="button" role="tab" aria-controls="womens-transfers-out" aria-selected="true">Women's Transfers Out</button>
+</div>
+   <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-mens-transfers-in" role="tabpanel" aria-labelledby="mens-transfers-in-tab">
+        {% autoescape false %}
+        {{mtransfersin}}
+        {% endautoescape %}
+      </div>
+      <div class="tab-pane fade" id="nav-mens-transfers-out" role="tabpanel" aria-labelledby="mens-transfers-out-tab">
+        {% autoescape false %}
+        {{mtransfersout}}
+        {% endautoescape %}
+        </div>
+      <div class="tab-pane fade" id="nav-womens-transfers-in" role="tabpanel" aria-labelledby="womens-transfers-in-tab">
+        {% autoescape false %}
+        {{wtransfersin}}
+        {% endautoescape %}
+        </div>
+      <div class="tab-pane fade" id="nav-womens-transfers-out" role="tabpanel" aria-labelledby="womens-transfers-out-tab">
+        {% autoescape false %}
+        {{wtransfersout}}
+        {% endautoescape %}
+        </div>
+    </div>
+</div>
+{% endblock %}

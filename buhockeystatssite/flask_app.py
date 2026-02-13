@@ -936,6 +936,20 @@ def bloodlines():
     return render_template(
     'bloodlines.html',siblings=formatTable(burb.getSiblings()),family=formatTable(burb.getFamily()),titletag=' - Bloodlines')
 
+@app.route('/transfers')
+def transfers():
+    ''' Renders "Transfers" Page
+
+    Returns:
+      Flask Template : flask template containing transfers.html
+    '''
+    return render_template(
+    'transfers.html',mtransfersin=formatTable(burb.getTransfers('Mens','In')),
+                     mtransfersout=formatTable(burb.getTransfers('Mens','Out')),
+                     wtransfersin=formatTable(burb.getTransfers('Womens','In')),
+                     wtransfersout=formatTable(burb.getTransfers('Womens','Out')),titletag=' - Transfers')
+
+
 @app.route('/worldjuniors')
 def worldjuniors():
     ''' Renders "worldjuniors" Page
@@ -951,7 +965,7 @@ def olympians():
     ''' Renders "Olympians" Page
 
     Returns:
-      Flask Template : flask template containing worldjuniors.html
+      Flask Template : flask template containing olympians.html
     '''
     return render_template(
     'olympians.html',molympians=formatTable(burb.getOlympians('Mens')),wolympians=formatTable(burb.getOlympians('Womens')),titletag=' - Olympians')
