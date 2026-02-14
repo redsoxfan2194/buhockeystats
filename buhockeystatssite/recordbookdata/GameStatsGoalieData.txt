@@ -2137,3 +2137,4 @@
 02/02/2026,Northeastern,Mikhail Yegorov,SO,24,2,1,0,64.97,T,2025-26
 02/06/2026,Maine,Mikhail Yegorov,SO,28,2,1,0,61.7,W,2025-26
 02/09/2026,Boston College,Mikhail Yegorov,SO,32,5,1,0,58.78,L,2025-26
+02/13/2026,New Hampshire,Mikhail Yegorov,FR,20,3,1,0,59.88,L,2025-26
