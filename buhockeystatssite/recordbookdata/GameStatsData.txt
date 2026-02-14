@@ -29652,10 +29652,10 @@
 01/09/2024,Northeastern,Shane Lachance,F,FR,0,1,1,2023-24
 01/09/2024,Northeastern,Lane Hutson,D,SO,1,2,3,2023-24
 01/09/2024,Northeastern,Devin Kaplan,F,SO,0,0,0,2023-24
-01/09/2024,Northeastern,Aiden Celebrini,D,FR,0,0,0,2023-24
+01/09/2024,Northeastern,Aiden Celebrini,D,FR,0,1,1,2023-24
 01/09/2024,Northeastern,Doug Grimes,F,FR,0,0,0,2023-24
 01/09/2024,Northeastern,Sam Stevens,F,GR,1,0,1,2023-24
-01/09/2024,Northeastern,Jack Hughes,F,JR,0,1,1,2023-24
+01/09/2024,Northeastern,Jack Hughes,F,JR,0,0,0,2023-24
 01/09/2024,Northeastern,Mathieu Caron,G,JR,0,0,0,2023-24
 01/09/2024,Northeastern,Macklin Celebrini,F,FR,1,1,2,2023-24
 01/13/2024,New Hampshire,Gavin McCarthy,D,FR,0,0,0,2023-24
@@ -29906,7 +29906,7 @@
 02/23/2024,Connecticut,Cade Webber,D,SR,0,0,0,2023-24
 02/23/2024,Connecticut,Ryan Greene,F,SO,0,1,1,2023-24
 02/23/2024,Connecticut,Nick Zabaneh,F,SR,0,0,0,2023-24
-02/23/2024,Connecticut,Luke Tuch,F,SR,0,0,0,2023-24
+02/23/2024,Connecticut,Luke Tuch,F,SR,0,1,1,2023-24
 02/23/2024,Connecticut,Jack Harvey,F,FR,1,1,2,2023-24
 02/23/2024,Connecticut,Dylan Peterson,F,SR,0,0,0,2023-24
 02/23/2024,Connecticut,Jeremy Wilmer,F,SO,1,0,1,2023-24
@@ -29916,7 +29916,7 @@
 02/23/2024,Connecticut,Devin Kaplan,F,SO,0,1,1,2023-24
 02/23/2024,Connecticut,Aiden Celebrini,D,FR,0,0,0,2023-24
 02/23/2024,Connecticut,Sam Stevens,F,GR,0,0,0,2023-24
-02/23/2024,Connecticut,Jack Hughes,F,JR,1,1,2,2023-24
+02/23/2024,Connecticut,Jack Hughes,F,JR,1,0,1,2023-24
 02/23/2024,Connecticut,Mathieu Caron,G,JR,0,0,0,2023-24
 02/23/2024,Connecticut,Macklin Celebrini,F,FR,2,2,4,2023-24
 02/24/2024,Connecticut,Gavin McCarthy,D,FR,0,0,0,2023-24
@@ -30070,7 +30070,7 @@
 03/30/2024,Minnesota,Cade Webber,D,SR,0,0,0,2023-24
 03/30/2024,Minnesota,Ryan Greene,F,SO,0,0,0,2023-24
 03/30/2024,Minnesota,Nick Zabaneh,F,SR,0,1,1,2023-24
-03/30/2024,Minnesota,Luke Tuch,F,SR,0,0,0,2023-24
+03/30/2024,Minnesota,Luke Tuch,F,SR,0,1,1,2023-24
 03/30/2024,Minnesota,Jack Harvey,F,FR,1,1,2,2023-24
 03/30/2024,Minnesota,Dylan Peterson,F,SR,0,1,1,2023-24
 03/30/2024,Minnesota,Jeremy Wilmer,F,SO,0,0,0,2023-24
@@ -30377,7 +30377,7 @@
 11/30/2024,Notre Dame,Kamil Bednarik,F,FR,1,0,1,2024-25
 11/30/2024,Notre Dame,Jack Harvey,F,SO,0,0,0,2024-25
 11/30/2024,Notre Dame,Mick Frechette,D,SO,0,0,0,2024-25
-11/30/2024,Notre Dame,Matt Copponi,F,SR,0,1,1,2024-25
+11/30/2024,Notre Dame,Matt Copponi,F,SR,0,2,2,2024-25
 11/30/2024,Notre Dame,Quinn Hutson,F,JR,0,2,2,2024-25
 11/30/2024,Notre Dame,Shane Lachance,F,SO,1,2,3,2024-25
 11/30/2024,Notre Dame,Devin Kaplan,F,JR,0,0,0,2024-25
@@ -30567,7 +30567,7 @@
 01/25/2025,Boston College,Cole Hutson,D,FR,0,0,0,2024-25
 01/25/2025,Boston College,Alex Zetterberg,F,FR,0,0,0,2024-25
 01/25/2025,Boston College,Sascha Boumedienne,D,FR,0,0,0,2024-25
-01/31/2025,New Hampshire,Gavin McCarthy,D,SO,0,0,0,2024-25
+01/31/2025,New Hampshire,Gavin McCarthy,D,SO,0,1,1,2024-25
 01/31/2025,New Hampshire,Tristan Amonte,F,SR,0,0,0,2024-25
 01/31/2025,New Hampshire,Jack Hughes,F,SR,0,1,1,2024-25
 01/31/2025,New Hampshire,Tom Willander,D,SO,0,2,2,2024-25
@@ -30910,7 +30910,7 @@
 04/12/2025,Western Michigan,Sascha Boumedienne,D,FR,0,0,0,2024-25
 10/04/2025,Long Island University,Gavin McCarthy,D,JR,0,0,0,2025-26
 10/04/2025,Long Island University,Brandon Svoboda,F,SO,0,0,0,2025-26
-10/04/2025,Long Island University,Sacha Boisvert,F,SO,1,1,2,2025-26
+10/04/2025,Long Island University,Sacha Boisvert,F,SO,1,2,3,2025-26
 10/04/2025,Long Island University,Jonathan Morello,F,FR,0,0,0,2025-26
 10/04/2025,Long Island University,Jack Harvey,F,JR,0,0,0,2025-26
 10/04/2025,Long Island University,Mick Frechette,F,JR,0,0,0,2025-26
@@ -30927,7 +30927,7 @@
 10/04/2025,Long Island University,Cole Hutson,D,SO,1,1,2,2025-26
 10/04/2025,Long Island University,Malte Vass,D,FR,0,0,0,2025-26
 10/04/2025,Long Island University,Sascha Boumedienne,D,SO,0,0,0,2025-26
-10/04/2025,Long Island University,Charlie Trethewey,D,FR,0,1,1,2025-26
+10/04/2025,Long Island University,Charlie Trethewey,D,FR,0,0,0,2025-26
 10/10/2025,Colgate,Gavin McCarthy,D,JR,0,0,0,2025-26
 10/10/2025,Colgate,Brandon Svoboda,F,SO,0,0,0,2025-26
 10/10/2025,Colgate,Jonathan Morello,F,FR,1,1,2,2025-26
@@ -31160,12 +31160,12 @@
 11/21/2025,Northeastern,Brandon Svoboda,F,SO,0,0,0,2025-26
 11/21/2025,Northeastern,Cole Eiserman,F,SO,0,0,0,2025-26
 11/21/2025,Northeastern,John McNelis,F,FR,1,0,1,2025-26
-11/21/2025,Northeastern,Jonathan Morello,F,FR,0,1,1,2025-26
+11/21/2025,Northeastern,Jonathan Morello,F,FR,0,0,0,2025-26
 11/21/2025,Northeastern,Aiden Celebrini,D,JR,0,0,0,2025-26
 11/21/2025,Northeastern,Jack Harvey,F,JR,0,1,1,2025-26
 11/21/2025,Northeastern,Jay Feldberg,F,FR,0,0,0,2025-26
 11/21/2025,Northeastern,Sascha Boumedienne,D,SO,0,0,0,2025-26
-11/21/2025,Northeastern,Mick Frechette,D,JR,0,0,0,2025-26
+11/21/2025,Northeastern,Mick Frechette,D,JR,0,1,1,2025-26
 11/21/2025,Northeastern,Mikhail Yegorov,G,SO,0,0,0,2025-26
 11/21/2025,Northeastern,Jack Murtagh,F,FR,0,0,0,2025-26
 11/21/2025,Northeastern,Kamil Bednarik,F,SO,0,0,0,2025-26

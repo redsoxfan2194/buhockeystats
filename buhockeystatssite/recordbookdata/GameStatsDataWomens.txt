@@ -12165,9 +12165,9 @@
 02/03/2023,Connecticut,Madison Cardaci,D,JR,0,0,0,2022-23
 02/03/2023,Connecticut,Christina Vote,F,SO,0,2,2,2022-23
 02/03/2023,Connecticut,Tamara Giaquinto,D,JR,0,0,0,2022-23
-02/03/2023,Connecticut,Maeve Kelly,D,FR,0,1,1,2022-23
+02/03/2023,Connecticut,Maeve Kelly,D,FR,0,0,0,2022-23
 02/03/2023,Connecticut,Ani Fitzgerald,F,JR,0,0,0,2022-23
-02/03/2023,Connecticut,Brooke Disher,D,FR,1,0,1,2022-23
+02/03/2023,Connecticut,Brooke Disher,D,FR,1,1,2,2022-23
 02/03/2023,Connecticut,Catherine Foulem,F,JR,1,1,2,2022-23
 02/03/2023,Connecticut,Andrea Brändli,G,GR,0,0,0,2022-23
 02/07/2023,Northeastern,Alex Allan,D,GR,0,0,0,2022-23
@@ -13160,7 +13160,7 @@
 10/26/2024,Syracuse,Maeve Carey,D,SO,0,0,0,2024-25
 10/26/2024,Syracuse,Liv Haag,F,SR,0,0,0,2024-25
 10/26/2024,Syracuse,Lindsay Bochna,F,GR,0,1,1,2024-25
-10/26/2024,Syracuse,Maggie Hanzel,D,SR,0,0,0,2024-25
+10/26/2024,Syracuse,Maggie Hanzel,D,SR,0,1,1,2024-25
 10/26/2024,Syracuse,Lola Reid,F,FR,1,0,1,2024-25
 10/26/2024,Syracuse,Sydney Healey,F,JR,1,0,1,2024-25
 10/26/2024,Syracuse,Luisa Welcke,F,JR,0,0,0,2024-25
@@ -13175,7 +13175,7 @@
 10/26/2024,Syracuse,Ani Fitzgerald,F,SR,0,1,1,2024-25
 10/26/2024,Syracuse,Lilli Welcke,F,JR,0,0,0,2024-25
 10/26/2024,Syracuse,Keira Healey,D,FR,0,1,1,2024-25
-10/26/2024,Syracuse,Kaileigh Quigg,F,FR,0,1,1,2024-25
+10/26/2024,Syracuse,Kaileigh Quigg,F,FR,0,0,0,2024-25
 10/26/2024,Syracuse,Mari Pietersen,G,SO,0,0,0,2024-25
 11/01/2024,Providence,Maeve Carey,D,SO,0,0,0,2024-25
 11/01/2024,Providence,Liv Haag,F,SR,0,0,0,2024-25
@@ -13829,7 +13829,7 @@
 10/11/2025,Colgate,Sydney Healey,F,SR,1,0,1,2025-26
 10/11/2025,Colgate,Avery Supryka,D,FR,0,0,0,2025-26
 10/11/2025,Colgate,Anežka Čabelová,F,FR,0,0,0,2025-26
-10/11/2025,Colgate,Luisa Welcke,F,SR,0,0,0,2025-26
+10/11/2025,Colgate,Luisa Welcke,F,SR,0,1,1,2025-26
 10/11/2025,Colgate,Neely Nicholson,F,JR,0,0,0,2025-26
 10/11/2025,Colgate,Clara Yuhn,F,SR,1,0,1,2025-26
 10/11/2025,Colgate,Riley Walsh,F,SR,0,1,1,2025-26
@@ -13926,7 +13926,7 @@
 11/01/2025,Northeastern,Keira Healey,D,SO,0,0,0,2025-26
 11/01/2025,Northeastern,Kaileigh Quigg,F,SO,0,1,1,2025-26
 11/01/2025,Northeastern,Mari Pietersen,G,JR,0,0,0,2025-26
-11/07/2025,Maine,Avery Supryka,D,FR,0,0,0,2025-26
+11/07/2025,Maine,Avery Supryka,D,FR,0,1,1,2025-26
 11/07/2025,Maine,Sydney Healey,F,SR,0,0,0,2025-26
 11/07/2025,Maine,Ella Belfry,D,JR,0,0,0,2025-26
 11/07/2025,Maine,Tessa Demain,D,SO,0,0,0,2025-26
@@ -13936,7 +13936,7 @@
 11/07/2025,Maine,Lilli Welcke,F,SR,0,0,0,2025-26
 11/07/2025,Maine,Maeve Carey,D,SR,0,0,0,2025-26
 11/07/2025,Maine,Luisa Welcke,F,SR,0,0,0,2025-26
-11/07/2025,Maine,Riley Walsh,F,SR,0,1,1,2025-26
+11/07/2025,Maine,Riley Walsh,F,SR,0,0,0,2025-26
 11/07/2025,Maine,Keira Healey,D,SO,0,0,0,2025-26
 11/07/2025,Maine,Greta Henderson,F,JR,0,0,0,2025-26
 11/07/2025,Maine,Maeve Kelly,D,SR,0,0,0,2025-26
@@ -14030,7 +14030,7 @@
 11/22/2025,Providence,Mari Pietersen,G,JR,0,0,0,2025-26
 11/22/2025,Providence,Lola Reid,F,SO,0,0,0,2025-26
 11/22/2025,Providence,Anežka Čabelová,F,FR,0,0,0,2025-26
-11/22/2025,Providence,Neely Nicholson,F,JR,0,0,0,2025-26
+11/22/2025,Providence,Neely Nicholson,F,JR,0,1,1,2025-26
 11/22/2025,Providence,Keira Healey,D,SO,0,0,0,2025-26
 11/22/2025,Providence,Maeve Kelly,D,SR,0,0,0,2025-26
 11/22/2025,Providence,Sydney Healey,F,SR,1,1,2,2025-26
@@ -14038,7 +14038,7 @@
 11/22/2025,Providence,Riley Walsh,F,SR,0,0,0,2025-26
 11/22/2025,Providence,Greta Henderson,F,JR,1,0,1,2025-26
 11/22/2025,Providence,Maeve Carey,D,SR,0,0,0,2025-26
-11/22/2025,Providence,Kaileigh Quigg,F,SO,0,2,2,2025-26
+11/22/2025,Providence,Kaileigh Quigg,F,SO,0,1,1,2025-26
 12/02/2025,Holy Cross,Kaileigh Quigg,F,SO,0,0,0,2025-26
 12/02/2025,Holy Cross,Neely Nicholson,F,JR,0,0,0,2025-26
 12/02/2025,Holy Cross,Ella Belfry,D,JR,0,0,0,2025-26
@@ -14128,7 +14128,7 @@
 01/03/2026,Harvard,Ella Belfry,D,JR,0,0,0,2025-26
 01/03/2026,Harvard,Greta Henderson,F,JR,0,0,0,2025-26
 01/03/2026,Harvard,Neely Nicholson,F,JR,1,0,1,2025-26
-01/03/2026,Harvard,Kaileigh Quigg,F,SO,0,1,1,2025-26
+01/03/2026,Harvard,Kaileigh Quigg,F,SO,0,0,0,2025-26
 01/03/2026,Harvard,Lola Reid,F,SO,0,1,1,2025-26
 01/03/2026,Harvard,Kate Meinert,D,SO,0,0,0,2025-26
 01/03/2026,Harvard,Tessa Demain,D,SO,0,0,0,2025-26
@@ -14273,7 +14273,7 @@
 01/31/2026,Merrimack,Kate Meinert,D,SO,0,0,0,2025-26
 01/31/2026,Merrimack,Kaileigh Quigg,F,SO,0,1,1,2025-26
 01/31/2026,Merrimack,Neely Nicholson,F,JR,0,0,0,2025-26
-01/31/2026,Merrimack,Maeve Kelly,D,SR,0,2,2,2025-26
+01/31/2026,Merrimack,Maeve Kelly,D,SR,0,1,1,2025-26
 01/31/2026,Merrimack,Mia Vergilii,F,FR,0,0,0,2025-26
 01/31/2026,Merrimack,Lola Reid,F,SO,0,0,0,2025-26
 01/31/2026,Merrimack,Anežka Čabelová,F,FR,0,0,0,2025-26
