@@ -45,7 +45,7 @@
 01/28/1925,Army,Rod Ling,D,,1,0,1,1924-25
 01/31/1925,Briarcliff Lodge,Ovila Gregoire,F,,2,0,2,1924-25
 01/31/1925,Briarcliff Lodge,David Goldfine,F,,1,0,1,1924-25
-01/31/1925,Briarcliff Lodge,Unknown,,,1,0,1,1924-25
+01/31/1925,Briarcliff Lodge,Rod Ling,D,,1,0,1,1924-25
 02/05/1925,New Hampshire,Ovila Gregoire,F,,3,0,3,1924-25
 02/05/1925,New Hampshire,Chester Scott,F,,1,0,1,1924-25
 02/05/1925,New Hampshire,John Lawless,F,SO,1,0,1,1924-25
@@ -147,7 +147,9 @@
 02/13/1929,Boston College,Holmes Whitmore,F,,1,0,1,1928-29
 02/13/1929,Boston College,Holmes Goddard,D,,1,1,2,1928-29
 02/13/1929,Boston College,Richard Lombard,F,,0,1,1,1928-29
-02/16/1929,New Hampshire,Unknown,,,5,0,5,1928-29
+02/16/1929,New Hampshire,Richard Lombard,F,,2,1,3,1928-29
+02/16/1929,New Hampshire,Hugo Nelson,F,,2,0,2,1928-29
+02/16/1929,New Hampshire,Benjamin Currier,F,JR,1,1,2,1928-29
 02/21/1929,MIT,Holmes Whitmore,F,,2,0,2,1928-29
 02/21/1929,MIT,Paul Bergholtz,F,,1,0,1,1928-29
 02/21/1929,MIT,Richard Lombard,F,,0,3,3,1928-29
@@ -217,6 +219,9 @@
 02/28/1931,Union Boat Club,Paul Bergholtz,F,,1,0,1,1930-31
 02/28/1931,Union Boat Club,Richard Lombard,F,,1,0,1,1930-31
 03/05/1931,Brae Burn,Unknown,,,3,0,3,1930-31
+03/05/1931,Brae Burn,Carl Clem,F,,1,0,1,1930-31
+03/05/1931,Brae Burn,Paul Bergholtz,F,,1,0,1,1930-31
+03/05/1931,Brae Burn,Leo Baron,F,,1,0,1,1930-31
 12/14/1931,Brown,Carl Clem,F,,1,0,1,1930-31
 12/14/1931,Brown,Arthur Wilson,F,,1,0,1,1930-31
 12/14/1931,Brown,Richard French,F,,1,0,1,1931-32
