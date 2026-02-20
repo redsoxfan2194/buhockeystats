@@ -55,6 +55,8 @@ function clearFilers(event) {
     document.getElementById("result").value = "all";
     document.getElementById("opponent").value = "all";
     document.getElementById("season").value = "all";
+    document.getElementById("seasonType").value = "all";
+    document.getElementById("finish").value = "all";
     document.getElementById("buscoreop").value = "==";
     document.getElementById("buscore").value = "";
     document.getElementById("tgop").value = "==";

@@ -147,6 +147,22 @@
                     <option value="Neutral" {% if selected_location == 'Neutral' %} selected {% endif %}> Neutral </option>
                 </select>
             </div>
+            <div id="seasTypeDiv" class="filter">
+                <label for="location" class="recLabels">Season Type:</label>
+                <select class="btn dropdown-toggle custom-align" name="seasonType" id="seasonType" onchange="submitForm()">
+                    <option value="all" {% if selected_seasType == 'all' %} selected {% endif %}> All </option>
+                    <option value="Regular Season" {% if selected_seasType == 'Regular Season' %} selected {% endif %}> Regular Season </option>
+                    <option value="Playoffs" {% if selected_seasType == 'Playoffs' %} selected {% endif %}> Playoffs </option>
+            </select>
+            </div>
+            <div id="finishTypeDiv" class="filter">
+                <label for="finish" class="recLabels">Game Finish:</label>
+                <select class="btn dropdown-toggle custom-align" name="finish" id="finish" onchange="submitForm()">
+                    <option value="all" {% if selected_finish == 'all' %} selected {% endif %}> All </option>
+                    <option value="regulation" {% if selected_finish == 'regulation' %} selected {% endif %}> Regulation </option>
+                    <option value="ot" {% if selected_finish == 'ot' %} selected {% endif %}> OT </option>
+            </select>
+            </div>
             <div id="buscorediv" class="filter">
                 <label for="buscoreop" class="recLabels">BU Score:</label>
                 <select class="btn dropdown-toggle op-drop" name="buscoreop" id="buscoreop" onchange="submitForm()">

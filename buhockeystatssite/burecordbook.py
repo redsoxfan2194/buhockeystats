@@ -270,6 +270,9 @@ def generateRecordBook():
     
     dfGames[['BURank','OppRank']]=dfGames.apply(getMRank,axis=1)
     
+    dfGames['ot']=dfGames['ot'].fillna('')
+    dfGames['tourney']=dfGames['tourney'].fillna('')
+    
     return dfGames
 
 def getMRank(row):
