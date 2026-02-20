@@ -691,6 +691,13 @@ def records():
             dfRes = dfRes.query(f"coach==\"{formData['coach']}\"")
         if formData['arena'] != 'all':
             dfRes = dfRes.query(f"arena==\'{formData['arena']}\'")
+        if formData['seasonType'] != 'all':
+            dfRes = dfRes.query(f"seasonType==\'{formData['seasonType']}\'")
+        if formData['finish'] != 'all':
+            if(formData['finish'] == 'ot'):
+              dfRes = dfRes.loc[dfRes['ot'].str.contains('ot')]
+            else:
+              dfRes = dfRes.loc[~dfRes['ot'].str.contains('ot')]
         if formData['buscore'] != '':
             buscore = formData['buscore']
             buscore = buscore.split(' ')[0]

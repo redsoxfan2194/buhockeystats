@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
   //Fire it when the page first loads:
   alterClass();
-  loadMoreData(); // Load initial data
+  //loadMoreData(); // Load initial data
 });
 
 function loadMoreData() {
@@ -461,7 +461,7 @@ function submitForm(reset = "false") {
                     
                     
                 }
-            loadMoreData();
+            //loadMoreData();
         },
         error: function (xhr, status, error) {
             console.error("Error:", error);
