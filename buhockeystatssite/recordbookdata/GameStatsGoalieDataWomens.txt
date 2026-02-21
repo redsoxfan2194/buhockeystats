@@ -770,3 +770,4 @@
 02/07/2026,Maine,Michelle Pasiechnyk,SO,17,1,1,0,57.02,L,2025-26
 02/13/2026,Northeastern,Mari Pietersen,FR,26,4,1,0,58.1,L,2025-26
 02/14/2026,Connecticut,Michelle Pasiechnyk,SR,34,1,1,0,59.57,L,2025-26
+02/20/2026,Providence,Michelle Pasiechnyk,JR,41,1,1,0,59.27,W,2025-26
