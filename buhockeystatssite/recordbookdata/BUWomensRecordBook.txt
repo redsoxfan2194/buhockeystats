@@ -858,7 +858,8 @@ CAPTAIN: Maeve Carey
 02/13 L Walter Brown Arena H Northeastern * 2-5
 02/14 L Walter Brown Arena H Connecticut * 0-2
 02/20 W Walter Brown Arena H Providence * 3-1
-02/21 N Conte Forum A Boston College * 0-0
+02/21 L Conte Forum A Boston College * 0-4
+02/25 N Walter Brown Arena H Providence (HE) 0-0
 Key to Tournaments
 BP  Beanpot Tournament
 BB  Battle at the 'Burgh
