@@ -14384,3 +14384,21 @@
 02/21/2026,Boston College,Kaileigh Quigg,F,SO,0,0,0,2025-26
 02/21/2026,Boston College,Greta Henderson,F,JR,0,0,0,2025-26
 02/21/2026,Boston College,Maeve Carey,D,SR,0,0,0,2025-26
+02/25/2026,Providence,Anežka Čabelová,F,FR,0,0,0,2025-26
+02/25/2026,Providence,Lexie Bertelsen,F,FR,0,0,0,2025-26
+02/25/2026,Providence,Sydney Healey,F,SR,2,0,2,2025-26
+02/25/2026,Providence,Greta Henderson,F,JR,0,0,0,2025-26
+02/25/2026,Providence,Luisa Welcke,F,SR,0,1,1,2025-26
+02/25/2026,Providence,Maeve Kelly,D,SR,0,2,2,2025-26
+02/25/2026,Providence,Kate Meinert,D,SO,0,0,0,2025-26
+02/25/2026,Providence,Tessa Demain,D,SO,0,0,0,2025-26
+02/25/2026,Providence,Lola Reid,F,SO,0,0,0,2025-26
+02/25/2026,Providence,Riley Walsh,F,SR,0,0,0,2025-26
+02/25/2026,Providence,Lilli Welcke,F,SR,1,0,1,2025-26
+02/25/2026,Providence,Clara Yuhn,F,SR,0,0,0,2025-26
+02/25/2026,Providence,Maeve Carey,D,SR,0,0,0,2025-26
+02/25/2026,Providence,Kaileigh Quigg,F,SO,0,1,1,2025-26
+02/25/2026,Providence,Neely Nicholson,F,JR,0,0,0,2025-26
+02/25/2026,Providence,Mia Vergilii,F,FR,0,0,0,2025-26
+02/25/2026,Providence,Mari Pietersen,G,JR,0,0,0,2025-26
+02/25/2026,Providence,Keira Healey,D,SO,0,0,0,2025-26
