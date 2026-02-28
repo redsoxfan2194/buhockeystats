@@ -1,2 +1,3 @@
 .idea/**
 buhockeystatssite/__pycache__/**
+*.ods#
