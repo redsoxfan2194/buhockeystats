@@ -1951,7 +1951,10 @@
 12/04/1953,Brown,Jack Murphy,F,SO,2,1,3,1953-54
 12/04/1953,Brown,John Burns,F,,0,3,3,1953-54
 12/04/1953,Brown,Ray Kelley,D,,0,1,1,1953-54
-12/12/1953,Rensselaer,Unknown,,,2,0,2,1953-54
+12/12/1953,Rensselaer,Tom Dwyer,F,,0,1,1,1953-54
+12/12/1953,Rensselaer,Jack Murphy,F,SO,1,0,1,1953-54
+12/12/1953,Rensselaer,John Burns,F,,1,1,1,1953-54
+12/12/1953,Rensselaer,Warren Whiting,F,,1,0,1,1953-54
 12/15/1953,Harvard,Bob Rousseau,D,,0,1,1,1953-54
 12/15/1953,Harvard,Jack Murphy,F,SO,1,0,1,1953-54
 12/15/1953,Harvard,John Burns,F,,0,1,1,1953-54
@@ -2517,7 +2520,10 @@
 02/14/1958,Middlebury,Bill Sweeney,F,,0,2,2,1957-58
 02/14/1958,Middlebury,Bill Sullivan,F,,2,0,2,1957-58
 02/14/1958,Middlebury,Dave MacLeod,F,,1,0,1,1957-58
-02/15/1958,Rensselaer,Unknown,,,2,0,2,1957-58
+02/15/1958,Rensselaer,Larry Creighton,F,JR,1,0,1,1957-58
+02/15/1958,Rensselaer,Jack Carruthers,F,SR,0,1,1,1957-58
+02/15/1958,Rensselaer,Forbes Keith,F,,0,1,1,1957-58
+02/15/1958,Rensselaer,Bill McCormack,F,,1,0,1,1957-58
 02/19/1958,Providence,Don MacLeod,D,,1,0,1,1957-58
 02/19/1958,Providence,Ron DiVincenzo,D,,0,1,1,1957-58
 02/19/1958,Providence,Larry Creighton,F,JR,1,1,2,1957-58
