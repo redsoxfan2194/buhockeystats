@@ -773,3 +773,4 @@
 02/20/2026,Providence,Michelle Pasiechnyk,JR,41,1,1,0,59.27,W,2025-26
 02/21/2026,Boston College,Michelle Pasiechnyk,SR,20,4,1,0,60.0,L,2025-26
 02/25/2026,Providence,Mari Pietersen,SO,20,0,1,1,60.0,W,2025-26
+02/28/2026,Northeastern,Mari Pietersen,SR,34,2,1,0,81.22,L,2025-26

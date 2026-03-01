@@ -2140,3 +2140,4 @@
 02/13/2026,New Hampshire,Mikhail Yegorov,FR,20,3,1,0,59.88,L,2025-26
 02/14/2026,New Hampshire,Max Lacroix,SO,24,3,1,0,60.0,W,2025-26
 02/27/2026,Boston College,Mikhail Yegorov,SO,24,1,1,0,60.0,W,2025-26
+02/28/2026,Boston College,Mikhail Yegorov,FR,28,1,1,0,60.0,W,2025-26
