@@ -488,7 +488,7 @@
 10	Tessa Demain	D	SO	33	0	4	4	6/12	2025-26
 11	Sydney Healey	F	SR	35	18	11	29	2/4	2025-26
 12	Avery Supryka	D	FR	26	1	4	5	2/4	2025-26
-15	Anežka Čabelová	F	FR	2	0	0	0	1/2	2025-26
+15	Anežka Čabelová	F	FR	25	1	2	3	7/14	2025-26
 16	Luisa Welcke	F	SR	28	5	8	13	7/14	2025-26
 18	Neely Nicholson	F	JR	35	4	2	6	2/4	2025-26
 19	Clara Yuhn	F	SR	35	8	9	17	4/8	2025-26
