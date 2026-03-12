@@ -31592,3 +31592,43 @@
 02/28/2026,Boston College,Sascha Boumedienne,D,SO,0,0,0,2025-26
 02/28/2026,Boston College,Jack Murtagh,F,FR,0,0,0,2025-26
 02/28/2026,Boston College,Ryder Ritchie,F,FR,0,0,0,2025-26
+03/07/2026,UMass Lowell,Mick Frechette,D,JR,0,0,0,2025-26
+03/07/2026,UMass Lowell,Aiden Celebrini,D,JR,0,0,0,2025-26
+03/07/2026,UMass Lowell,Jack Harvey,F,JR,0,0,0,2025-26
+03/07/2026,UMass Lowell,Ben Merrill,F,FR,0,0,0,2025-26
+03/07/2026,UMass Lowell,Charlie Trethewey,D,FR,0,0,0,2025-26
+03/07/2026,UMass Lowell,Cole Eiserman,F,SO,1,1,2,2025-26
+03/07/2026,UMass Lowell,Nick Roukounakis,F,SO,0,0,0,2025-26
+03/07/2026,UMass Lowell,Tynan Lawrence,F,FR,0,0,0,2025-26
+03/07/2026,UMass Lowell,Ryder Ritchie,F,FR,0,0,0,2025-26
+03/07/2026,UMass Lowell,Jack Murtagh,F,FR,0,0,0,2025-26
+03/07/2026,UMass Lowell,Kamil Bednarik,F,SO,0,1,1,2025-26
+03/07/2026,UMass Lowell,Mikhail Yegorov,G,SO,0,0,0,2025-26
+03/07/2026,UMass Lowell,Cole Hutson,D,SO,0,0,0,2025-26
+03/07/2026,UMass Lowell,Brandon Svoboda,F,SO,0,1,1,2025-26
+03/07/2026,UMass Lowell,Owen McLaughlin,F,SR,1,0,1,2025-26
+03/07/2026,UMass Lowell,Malte Vass,D,FR,0,0,0,2025-26
+03/07/2026,UMass Lowell,Gavin McCarthy,D,JR,1,0,1,2025-26
+03/07/2026,UMass Lowell,Sascha Boumedienne,D,SO,0,0,0,2025-26
+03/07/2026,UMass Lowell,Sacha Boisvert,F,SO,0,1,1,2025-26
+03/07/2026,UMass Lowell,Jonathan Morello,F,FR,0,0,0,2025-26
+03/11/2026,Vermont,Aiden Celebrini,D,JR,0,0,0,2025-26
+03/11/2026,Vermont,Sascha Boumedienne,D,SO,0,0,0,2025-26
+03/11/2026,Vermont,Cole Hutson,D,SO,1,1,2,2025-26
+03/11/2026,Vermont,Charlie Trethewey,D,FR,0,0,0,2025-26
+03/11/2026,Vermont,Kamil Bednarik,F,SO,0,1,1,2025-26
+03/11/2026,Vermont,Jonathan Morello,F,FR,0,0,0,2025-26
+03/11/2026,Vermont,Tynan Lawrence,F,FR,0,1,1,2025-26
+03/11/2026,Vermont,Cole Eiserman,F,SO,2,1,3,2025-26
+03/11/2026,Vermont,Ryder Ritchie,F,FR,0,0,0,2025-26
+03/11/2026,Vermont,Jack Harvey,F,JR,1,0,1,2025-26
+03/11/2026,Vermont,Owen McLaughlin,F,SR,0,0,0,2025-26
+03/11/2026,Vermont,Jack Murtagh,F,FR,0,0,0,2025-26
+03/11/2026,Vermont,Brandon Svoboda,F,SO,0,0,0,2025-26
+03/11/2026,Vermont,Gavin McCarthy,D,JR,0,2,2,2025-26
+03/11/2026,Vermont,Ben Merrill,F,FR,0,0,0,2025-26
+03/11/2026,Vermont,Nick Roukounakis,F,SO,0,0,0,2025-26
+03/11/2026,Vermont,Malte Vass,D,FR,0,0,0,2025-26
+03/11/2026,Vermont,Mick Frechette,D,JR,0,0,0,2025-26
+03/11/2026,Vermont,Mikhail Yegorov,G,SO,0,0,0,2025-26
+03/11/2026,Vermont,John McNelis,F,FR,0,0,0,2025-26
