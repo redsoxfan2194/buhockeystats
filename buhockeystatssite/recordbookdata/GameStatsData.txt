@@ -6390,15 +6390,18 @@
 03/08/1977,Boston College,John Bethel,F,FR,0,1,1,1976-77
 03/08/1977,Boston College,Marc Hetnik,F,SO,0,1,1,1976-77
 03/08/1977,Boston College,Mike Eruzione,F,SR,1,2,3,1976-77
-03/11/1977,Clarkson,Unknown,N/A,,4,0,4,1976-77
-03/11/1977,Clarkson,Dick Lamby,D,JR,0,1,1,1976-77
-03/11/1977,Clarkson,Robert Boileau,D,SO,0,1,1,1976-77
-03/11/1977,Clarkson,John Melanson,F,SO,0,1,1,1976-77
-03/11/1977,Clarkson,Gary Fay,D,SR,0,1,1,1976-77
+03/11/1977,Clarkson,Rick Meagher,F,SR,1,1,2,1976-77
+03/11/1977,Clarkson,Marc Hetnik,F,SO,1,1,2,1976-77
+03/11/1977,Clarkson,Mickey Mullen,F,JR,1,1,2,1976-77
+03/11/1977,Clarkson,Bob Dudley,D,SR,1,1,2,1976-77
+03/11/1977,Clarkson,Mike Eruzione,F,SR,1,1,2,1976-77
+03/11/1977,Clarkson,John Bethel,F,FR,1,1,2,1976-77
+03/11/1977,Clarkson,Dave Silk,F,FR,1,1,2,1976-77
+03/11/1977,Clarkson,Tony Meagher,F,FR,0,1,1,1976-77
+03/11/1977,Clarkson,Jack O'Callahan,D,SO,0,1,1,1976-77
 03/11/1977,Clarkson,John McClellan,F,SR,0,1,1,1976-77
-03/11/1977,Clarkson,Rick Meagher,F,SR,1,0,1,1976-77
-03/11/1977,Clarkson,Marc Hetnik,F,SO,1,0,1,1976-77
-03/11/1977,Clarkson,Mickey Mullen,F,SO,1,0,1,1976-77
+03/11/1977,Clarkson,Gary Fay,D,SR,0,1,1,1976-77
+03/11/1977,Clarkson,Dick Lamby,D,JR,0,3,3,1976-77
 03/12/1977,New Hampshire,Bill O'Neill,D,SO,1,0,1,1976-77
 03/12/1977,New Hampshire,Gary Fay,D,SR,1,0,1,1976-77
 03/12/1977,New Hampshire,John Melanson,F,SO,1,0,1,1976-77
