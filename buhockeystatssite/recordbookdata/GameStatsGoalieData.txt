@@ -50,6 +50,7 @@
 03/13/1953,Michigan,Bob Bradley,,4,5,1,0,60,L,1952-53
 03/14/1953,Rensselaer,Paul Kelley,,33,6,1,0,60,L,1952-53
 01/23/1954,Dartmouth,Bob Bradley,,33,7,1,0,60,L,1953-54
+02/02/1954,Clarkson,Edward Hart,,54,4,1,9,60,L,1953-54
 02/09/1954,Boston College,Bob Bradley,,52,6,1,0,60,L,1953-54
 12/20/1954,St. Lawrence,John Aiken,,31,9,1,0,60,L,1954-55
 12/20/1954,St. Lawrence,Joe Tellier,,12,5,1,0,60,L,1954-55
