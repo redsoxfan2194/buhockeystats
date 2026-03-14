@@ -6520,7 +6520,11 @@
 01/13/1978,St. Lawrence,Dick Lamby,D,SR,1,3,4,1977-78
 01/13/1978,St. Lawrence,Bill LeBlond,F,SO,0,1,1,1977-78
 01/13/1978,St. Lawrence,John Bethel,F,SO,2,1,3,1977-78
-01/14/1978,Clarkson,Unknown,,,7,0,7,1977-78
+01/14/1978,Clarkson,Mark Fidler,F,FR,3,0,3,1977-78
+01/14/1978,Clarkson,Dick Lamby,D,SR,3,0,3,1977-78
+01/14/1978,Clarkson,Bill Cotter,F,FR,1,0,1,1977-78
+01/14/1978,Clarkson,John Bethel,F,SO,0,1,1,1977-78
+01/14/1978,Clarkson,Jack O'Callahan,D,JR,0,1,1,1977-78
 01/17/1978,Northeastern,Tony Meagher,F,SO,0,1,1,1977-78
 01/17/1978,Northeastern,Matt Marden,F,SR,0,1,1,1977-78
 01/17/1978,Northeastern,Mark Fidler,F,FR,0,3,3,1977-78
