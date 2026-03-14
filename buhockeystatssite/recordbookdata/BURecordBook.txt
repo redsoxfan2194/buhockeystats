@@ -3455,7 +3455,9 @@ CAPTAIN: Gavin McCarthy
 02/14 W Agganis Arena	New Hampshire * 5-3
 02/27 W Agganis Arena	Boston College * 3-1
 02/28 W Conte Forum	Boston College * 5-1
-03/07 N Tsongas Center	UMass Lowell * 0-0
+03/07 L Tsongas Center	UMass Lowell * 3-4
+03/11 W Agganis Arena	Vermont (HE) 4-1
+03/14 N Toscano Ice Forum	Connecticut (HE) 0-0
 
 Key to Tournaments
 ALS Auld Lang Syne Tournament
