@@ -2195,7 +2195,7 @@
 01/31/1956,Providence,Len Driscoll,D,,1,1,2,1955-56
 01/31/1956,Providence,Mike Manning,F,,0,1,1,1955-56
 01/31/1956,Providence,Tony Cicoria,F,,1,0,1,1955-56
-02/03/1956,St. Lawrence,Unknown,,,1,0,1,1955-56
+02/03/1956,St. Lawrence,Joe Quinn,F,,1,0,1,1955-56
 02/06/1956,Harvard,Russ MacLeod,F/D,,0,1,1,1955-56
 02/06/1956,Harvard,Art Carriere,F,,1,0,1,1955-56
 02/08/1956,Northeastern,Tony Cicoria,F,,2,1,3,1955-56
@@ -2365,9 +2365,9 @@
 02/22/1957,St. Lawrence,Don MacLeod,D,,0,1,1,1956-57
 02/22/1957,St. Lawrence,Jack Carruthers,F,JR,0,1,1,1956-57
 02/22/1957,St. Lawrence,Joe Quinn,F,,1,0,1,1956-57
-02/22/1957,St. Lawrence,Larry Creighton,F,SO,0,1,1,1956-57
+02/22/1957,St. Lawrence,Larry Creighton,F,SO,1,1,2,1956-57
 02/22/1957,St. Lawrence,Sarge Kinlin,F,,1,0,1,1956-57
-02/22/1957,St. Lawrence,Unknown,,,1,0,1,1956-57
+02/22/1957,St. Lawrence,Mike Manning,F,,1,0,1,1956-57
 02/23/1957,Clarkson,Bill Sweeney,F,,1,0,1,1956-57
 02/25/1957,Boston College,Larry Creighton,F,SO,2,0,2,1956-57
 02/25/1957,Boston College,Sarge Kinlin,F,,2,0,2,1956-57
@@ -2800,6 +2800,12 @@
 02/15/1960,Harvard,Bob Marquis,F,SR,0,2,2,1959-60
 02/15/1960,Harvard,Pete McCann,D,,1,0,1,1959-60
 02/19/1960,St. Lawrence,Unknown,,,3,0,3,1959-60
+02/19/1960,St. Lawrence,Don Goguen,D,,1,0,3,1959-60
+02/19/1960,St. Lawrence,Bill McCormack,F,,1,0,1,1959-60
+02/19/1960,St. Lawrence,Don Spinney,F,,1,0,1,1959-60
+02/19/1960,St. Lawrence,Paul Hughes,F,,0,1,1,1959-60
+02/19/1960,St. Lawrence,Bill Quinn,F,,0,1,1,1959-60
+02/19/1960,St. Lawrence,John Leahy,F,,0,1,1,1959-60
 02/20/1960,Clarkson,Don Spinney,F,,0,2,2,1959-60
 02/20/1960,Clarkson,Russ McCurdy,D,,0,1,1,1959-60
 02/20/1960,Clarkson,Pete McCann,D,,0,1,1,1959-60
@@ -3045,7 +3051,8 @@
 02/23/1962,Clarkson,John McBride,F,,1,0,1,1961-62
 02/23/1962,Clarkson,Francis McFaun,D,,0,1,1,1961-62
 02/23/1962,Clarkson,Bob Rowan,F,,0,1,1,1961-62
-02/24/1962,St. Lawrence,Unknown,,,2,0,2,1961-62
+02/24/1962,St. Lawrence,Unknown,,,1,0,1,1961-62
+02/24/1962,St. Lawrence,Ken Ross,F,,1,0,1,1961-62
 02/28/1962,Northeastern,Ken Ross,F,,1,1,2,1961-62
 02/28/1962,Northeastern,Mike Denihan,F,,1,1,2,1961-62
 02/28/1962,Northeastern,Bob Smith,D,,1,0,1,1961-62
@@ -3251,7 +3258,8 @@
 02/21/1964,Clarkson,Bob Martell,F,JR,1,0,1,1963-64
 02/21/1964,Clarkson,Bob Sylvia,F,JR,0,1,1,1963-64
 02/21/1964,Clarkson,Vic Conte,D,SO,0,1,1,1963-64
-02/22/1964,St. Lawrence,Unknown,,,2,0,2,1963-64
+02/22/1964,St. Lawrence,Bob McCabe,F,SR,1,0,1,1963-64
+02/22/1964,St. Lawrence,Bob Martell,F,JR,1,0,1,1963-64
 02/26/1964,Boston College,Dennis O'Connell,F,SO,0,1,1,1963-64
 02/26/1964,Boston College,Bruce Fennie,F,SO,1,0,1,1963-64
 02/28/1964,Colby,Bob Martell,F,JR,1,0,1,1963-64
@@ -4923,6 +4931,10 @@
 01/07/1972,Clarkson,Bob Gryp,F,SR,0,1,1,1971-72
 01/07/1972,Clarkson,Bob Murray,D,SR,0,1,1,1971-72
 01/08/1972,St. Lawrence,Unknown,,,5,0,5,1971-72
+01/08/1972,St. Lawrence,John Danby,F,SR,2,1,3,1971-72
+01/08/1972,St. Lawrence,Guy Burrowes,F,SR,1,0,1,1971-72
+01/08/1972,St. Lawrence,Bill Flynn,F,SR,1,0,1,1971-72
+01/08/1972,St. Lawrence,Steve Doloff,F,JR,1,0,1,1971-72
 01/14/1972,Boston College,David Wisener,F,JR,2,0,2,1971-72
 01/14/1972,Boston College,Bob Brown,D,SR,1,0,1,1971-72
 01/14/1972,Boston College,Ray Cournoyea,F,,1,1,2,1971-72
