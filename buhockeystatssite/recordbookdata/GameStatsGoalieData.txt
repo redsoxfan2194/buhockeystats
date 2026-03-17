@@ -52,9 +52,9 @@
 01/23/1954,Dartmouth,Bob Bradley,,33,7,1,0,60,L,1953-54
 02/02/1954,Clarkson,Edward Hart,,54,4,1,9,60,L,1953-54
 02/09/1954,Boston College,Bob Bradley,,52,6,1,0,60,L,1953-54
-12/20/1954,St. Lawrence,John Aiken,,31,9,1,0,60,L,1954-55
+12/20/1954,St. Lawrence,Don Aiken,,31,9,1,0,60,L,1954-55
 12/20/1954,St. Lawrence,Joe Tellier,,12,5,1,0,60,L,1954-55
-12/22/1954,Clarkson,John Aiken,,33,7,1,0,60,L,1954-55
+12/22/1954,Clarkson,Don Aiken,,33,7,1,0,60,L,1954-55
 12/09/1955,Harvard,Ralph Vito,,26,3,1,0,60,W,1955-56
 01/10/1956,Boston College,Ralph Vito,,23,7,1,0,60,L,1955-56
 02/23/1956,Dartmouth,Henry Levin,,32,1,1,0,60,W,1955-56
