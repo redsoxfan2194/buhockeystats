@@ -4,7 +4,6 @@ date,opponent,name,goals
 1955-12-02,Brown,Unknown,3
 1956-11-30,Brown,Unknown,8
 1959-01-10,Providence,Unknown,9
-1959-02-28,Colby,Unknown,5
 1960-03-02,Providence,Unknown,7
 1961-03-03,Norwich,Unknown,7
 1961-12-01,Providence,Unknown,1
@@ -12,24 +11,13 @@ date,opponent,name,goals
 1962-02-24,St. Lawrence,Unknown,1
 1963-01-12,Rensselaer,Unknown,3
 1963-02-23,Army,Unknown,3
-1963-11-15,New Brunswick,Unknown,2
-1963-11-16,New Brunswick,Unknown,2
 1963-11-30,Princeton,Unknown,2
-1964-01-29,Colby,Unknown,4
 1964-03-04,Providence,Unknown,1
-1965-01-30,Colby,Unknown,8
 1965-02-06,Army,Unknown,5
-1965-11-26,St. Francis Xavier,Unknown,1
-1965-11-27,New Brunswick,Unknown,8
 1965-12-04,Princeton,Unknown,2
-1966-01-08,Colby,Unknown,1
-1966-03-08,Northeastern,Unknown,2
 1966-03-12,Brown,Unknown,5
 1966-03-19,Denver,Unknown,1
 1967-01-28,Denver,Unknown,1
-1967-11-24,Memorial Univ.,Unknown,8
-1967-11-25,New Brunswick,Unknown,13
-1968-01-10,Loyola of Montreal,Unknown,3
 1968-02-07,Brown,Unknown,2
 1968-02-17,Army,Unknown,2
 1968-12-03,Brown,Unknown,4
@@ -64,7 +52,6 @@ date,opponent,name,goals
 1980-01-05,Denver,Unknown,5
 1981-01-24,St. Lawrence,Unknown,6
 1983-11-12,Minnesota Duluth,Unknown,4
-1984-10-12,Wisconsin,Unknown,2
 1985-11-30,Minnesota Duluth,Unknown,2
 1986-12-28,Denver,Unknown,2
 1986-12-29,Colorado College,Unknown,4
