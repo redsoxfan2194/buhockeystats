@@ -163,6 +163,7 @@ date,opponent,goalscorer,arena
 1961-02-01,Dartmouth,Mike Denihan,Boston Arena
 1961-02-01,Dartmouth,Dave MacLeod,Boston Arena
 1961-02-17,St. Lawrence,Mike Denihan,Appleton Arena
+1961-03-03,Norwich,Mike Denihan,Boston Arena
 1962-12-01,Princeton,Mike Denihan,Boston Arena
 1962-12-28,Northeastern,Mike Denihan (4),Boston Arena
 1963-01-30,Colby,Mike Denihan (4),Boston Arena
@@ -175,7 +176,7 @@ date,opponent,goalscorer,arena
 1965-03-10,Providence,Mike Sobeski,Boston Arena
 1965-12-14,Rensselaer,Bruce Fennie (4),Boston Arena
 1965-12-22,Colorado College,Fred Bassi,Olympia
-1966-01-08,Colby,Mike Sobeski (5),Alfond (Colby)
+1966-01-08,Colby,Mike Sobeski,Alfond (Colby)
 1966-02-23,Merrimack,Bruce Fennie (4),Boston Arena
 1966-02-23,Merrimack,Jim Quinn,Boston Arena
 1966-11-26,New Brunswick,Jim Quinn,Boston Arena
@@ -191,6 +192,8 @@ date,opponent,goalscorer,arena
 1967-02-24,Providence,Serge Boily,Boston Arena
 1967-02-24,Providence,John Cooke,Boston Arena
 1967-03-01,Dartmouth,Serge Boily,Boston Arena
+1967-11-24,Memorial Univ.,Serge Boily,(4),Beaverbrook
+1967-11-27,New Brunswick,Mickey Gray (4),Beaverbrook
 1967-12-28,Merrimack,Mike Hyndman,Boston Arena
 1968-01-09,Loyola of Montreal,Jack Parker,Boston Arena
 1968-01-20,Dartmouth,Dick Toomey,Davis Rink
@@ -226,6 +229,7 @@ date,opponent,goalscorer,arena
 1972-03-10,Harvard,John Danby,Boston Garden
 1972-03-16,Wisconsin,John Danby,Boston Garden
 1972-11-24,Lake Superior State,Paul O'Neil,DEC Center
+1972-11-25,Minnesota Duluth,Paul O'Neil,DEC Center
 1972-12-09,Princeton,Paul O'Neil,Walter Brown Arena
 1972-12-13,Cornell,Dick Decloe,Lynah Rink
 1972-12-21,Merrimack,Dick Decloe,Walter Brown Arena
@@ -275,6 +279,7 @@ date,opponent,goalscorer,arena
 1979-01-16,New Hampshire,Tony Meagher,Snively Arena
 1979-03-06,Vermont,John Bethel,Walter Brown Arena
 1980-01-04,Colorado College,Daryl MacLeod,N. Haven Col.
+1980-01-05,Denver,Mark Fidler,N. Haven Col.
 1980-02-04,Northeastern,Grant Goegan,Boston Garden
 1981-11-18,Merrimack,Paul Fenton,Walter Brown Arena
 1982-01-27,Northeastern,Marc Sinclair,Walter Brown Arena
