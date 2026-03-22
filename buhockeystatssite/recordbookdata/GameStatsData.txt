@@ -3769,7 +3769,7 @@
 03/18/1966,Michigan State,Pete McLachlan,D,JR,1,0,1,1965-66
 03/19/1966,Denver,Fred Bassi,F,JR,1,0,1,1965-66
 03/19/1966,Denver,Jim Quinn,F,JR,1,0,1,1965-66
-03/19/1966,Denver,Unknown,,,1,0,1,1965-66
+03/19/1966,Denver,Brian Gilmour,D,JR,1,0,1,1965-66
 11/25/1966,New Brunswick,Mike Sobeski,F,SR,2,1,3,1966-67
 11/25/1966,New Brunswick,Serge Boily,F,SO,2,2,4,1966-67
 11/25/1966,New Brunswick,Mickey Gray,F,SO,1,1,2,1966-67
@@ -3891,7 +3891,8 @@
 01/07/1967,Clarkson,BIll Riley,F,,0,3,3,1966-67
 01/07/1967,Clarkson,Herb Wakabayashi,F,SO,2,0,2,1966-67
 01/27/1967,Denver,John Cooke,F,JR,1,0,1,1966-67
-01/28/1967,Denver,Unknown,,,1,0,1,1966-67
+01/28/1967,Denver,Jack Parker,F,JR,1,0,1,1966-67
+01/28/1967,Denver,John Cooke,F,JR,0,1,1,1966-67
 02/01/1967,Brown,Fred Bassi,F,SR,2,0,2,1966-67
 02/01/1967,Brown,Mike Sobeski,F,SR,1,1,2,1966-67
 02/01/1967,Brown,Jim Wood,F,SR,1,0,1,1966-67
@@ -4481,7 +4482,11 @@
 12/30/1969,New Hampshire,Dick Toomey,F,,0,1,1,1969-70
 01/02/1970,Cornell,Don Cahoon,F,,1,0,1,1969-70
 01/02/1970,Cornell,Mike Hyndman,F,,0,1,1,1969-70
-01/03/1970,Michigan Tech,Unknown,,,3,0,3,1969-70
+01/03/70,Michigan Tech,Mike Hyndman,F,,1,1,2,1969-70
+01/03/70,Michigan Tech,Bob Gryp,F,,2,1,3,1969-70
+01/03/70,Michigan Tech,Peter Thornton,F,,0,1,1,1969-70
+01/03/70,Michigan Tech,Steve Stirling,F,,0,1,1,1969-70
+01/03/70,Michigan Tech,Joe Meehan,F,,0,1,1,1969-70
 01/09/1970,Clarkson,John Danby,F,,2,1,3,1969-70
 01/09/1970,Clarkson,Larry Davenport,F,,1,2,3,1969-70
 01/09/1970,Clarkson,Dick Toomey,F,,1,0,1,1969-70
@@ -4950,7 +4955,7 @@
 12/13/1971,Ohio University,Bob Murray,D,SR,0,2,2,1971-72
 12/13/1971,Ohio University,David Wisener,F,JR,0,1,1,1971-72
 12/13/1971,Ohio University,Ron Anderson,F,SR,0,1,1,1971-72
-12/13/1971,Ohio University,Ray Cournoyea,F,,0,1,1,1971-72
+12/13/1971,Ohio University,Ray Cournoyea,F,SO,0,1,1,1971-72
 12/13/1971,Ohio University,Bill Flynn,F,SR,0,1,1,1971-72
 12/13/1971,Ohio University,Bob Brown,D,SR,0,1,1,1971-72
 12/21/1971,Northeastern,Peter Thornton,F,SR,0,1,1,1971-72
@@ -4985,8 +4990,8 @@
 01/04/1972,Merrimack,Bob Murray,D,SR,1,1,2,1971-72
 01/04/1972,Merrimack,Ric Jordan,D,SR,1,1,2,1971-72
 01/04/1972,Merrimack,Peter Thornton,F,SR,1,0,1,1971-72
-01/04/1972,Merrimack,Jim Connors,F,,1,0,1,1971-72
-01/04/1972,Merrimack,Ray Cournoyea,F,,0,2,2,1971-72
+01/04/1972,Merrimack,Jim Connors,F,SO,1,0,1,1971-72
+01/04/1972,Merrimack,Ray Cournoyea,F,SO,0,2,2,1971-72
 01/04/1972,Merrimack,Bill Flynn,F,SR,0,1,1,1971-72
 01/04/1972,Merrimack,David Wisener,F,JR,1,2,3,1971-72
 01/04/1972,Merrimack,Bob Brown,D,SR,0,2,2,1971-72
@@ -5005,7 +5010,7 @@
 01/08/1972,St. Lawrence,Steve Doloff,F,JR,1,0,1,1971-72
 01/14/1972,Boston College,David Wisener,F,JR,2,0,2,1971-72
 01/14/1972,Boston College,Bob Brown,D,SR,1,0,1,1971-72
-01/14/1972,Boston College,Ray Cournoyea,F,,1,1,2,1971-72
+01/14/1972,Boston College,Ray Cournoyea,F,SO,1,1,2,1971-72
 01/14/1972,Boston College,Bob Gryp,F,SR,0,2,2,1971-72
 01/14/1972,Boston College,Ric Jordan,D,SR,0,2,2,1971-72
 01/14/1972,Boston College,Ron Anderson,F,SR,0,1,1,1971-72
@@ -5015,7 +5020,7 @@
 01/19/1972,Massachusetts,David Wisener,F,JR,1,1,2,1971-72
 01/19/1972,Massachusetts,Bob Brown,D,SR,1,0,1,1971-72
 01/19/1972,Massachusetts,Ric Jordan,D,SR,1,1,2,1971-72
-01/19/1972,Massachusetts,Ray Cournoyea,F,,1,1,2,1971-72
+01/19/1972,Massachusetts,Ray Cournoyea,F,SO,1,1,2,1971-72
 01/19/1972,Massachusetts,Guy Burrowes,F,SR,1,1,2,1971-72
 01/19/1972,Massachusetts,Ron Anderson,F,SR,0,1,1,1971-72
 01/19/1972,Massachusetts,Bob Gryp,F,SR,0,3,3,1971-72
@@ -5028,18 +5033,25 @@
 01/22/1972,Vermont,David Wisener,F,JR,1,0,1,1971-72
 01/22/1972,Vermont,Guy Burrowes,F,SR,0,3,3,1971-72
 01/22/1972,Vermont,Bob Murray,D,SR,0,1,1,1971-72
-01/22/1972,Vermont,Ray Cournoyea,F,,0,1,1,1971-72
+01/22/1972,Vermont,Ray Cournoyea,F,SO,0,1,1,1971-72
 01/22/1972,Vermont,Don Cahoon,F,SR,0,1,1,1971-72
 01/26/1972,Providence,Guy Burrowes,F,SR,3,1,4,1971-72
 01/26/1972,Providence,Bob Brown,D,SR,1,0,1,1971-72
 01/26/1972,Providence,Peter Thornton,F,SR,1,0,1,1971-72
 01/26/1972,Providence,Mike LaGarde,D,JR,1,1,2,1971-72
-01/26/1972,Providence,Ray Cournoyea,F,,1,0,1,1971-72
+01/26/1972,Providence,Ray Cournoyea,F,SO,1,0,1,1971-72
 01/26/1972,Providence,Bob Gryp,F,SR,0,3,3,1971-72
 01/26/1972,Providence,Ric Jordan,D,SR,0,2,2,1971-72
 01/26/1972,Providence,Ron Anderson,F,SR,0,2,2,1971-72
 01/26/1972,Providence,David Wisener,F,JR,0,1,1,1971-72
-01/29/1972,St. Louis,Unknown,,,5,0,5,1971-72
+01/29/1972,St. Louis,Bob Gryp,F,SR,1,0,1,1971-72
+01/29/1972,St. Louis,Don Cahoon,F,SR,1,2,3,1971-72
+01/29/1972,St. Louis,Paul Giandomenico,F,SR,1,0,1,1971-72
+01/29/1972,St. Louis,Ray Cournoyea,F,SO,1,1,2,1971-72
+01/29/1972,St. Louis,Ron Anderson,F,SR,1,2,3,1971-72
+01/29/1972,St. Louis,Guy Burrowes,F,SR,0,1,1,1971-72
+01/29/1972,St. Louis,Bill Flynn,F,SR,0,1,1,1971-72
+01/29/1972,St. Louis,Bob Brown,D,SR,0,1,1,1971-72
 02/03/1972,Colgate,Bob Brown,D,SR,2,0,2,1971-72
 02/03/1972,Colgate,Bob Gryp,F,SR,1,0,1,1971-72
 02/03/1972,Colgate,Paul Giandomenico,F,SR,1,0,1,1971-72
@@ -5155,11 +5167,18 @@
 11/24/1972,Lake Superior State,Paul O'Neil,F,SO,3,0,3,1972-73
 11/24/1972,Lake Superior State,Ray Cournoyea,F,JR,1,0,1,1972-73
 11/24/1972,Lake Superior State,Buddy Powers,F/D,SO,2,0,2,1972-73
-11/25/1972,Minnesota Duluth,Bill Burlington,F,SO,1,0,1,1972-73
+11/25/1972,Minnesota Duluth,Paul O'Neil,F,SO,3,0,3,1972-73
+11/25/1972,Minnesota Duluth,David Wisener,F,SR,2,1,3,1972-73
+11/25/1972,Minnesota Duluth,Bill Burlington,F,SO,1,1,2,1972-73
 11/25/1972,Minnesota Duluth,Bill Bishop,F,SO,1,0,1,1972-73
-11/25/1972,Minnesota Duluth,Unknown,,,1,0,1,1972-73
-11/25/1972,Minnesota Duluth,Paul O'Neil,F,SO,2,0,2,1972-73
-11/25/1972,Minnesota Duluth,David Wisener,F,SR,2,0,2,1972-73
+11/25/1972,Minnesota Duluth,Dave Warner,,,0,2,2,1972-73
+11/25/1972,Minnesota Duluth,Buddy Powers,F/D,SO,0,1,1,1972-73
+11/25/1972,Minnesota Duluth,Peter McCann,D,,0,1,1,1972-73
+11/25/1972,Minnesota Duluth,Ray Cournoyea,F,JR,0,1,1,1972-73
+11/25/1972,Minnesota Duluth,Steve Doloff,F,SR,0,1,1,1972-73
+11/25/1972,Minnesota Duluth,Jerry Gryp,D,FR,0,1,1,1972-73
+11/25/1972,Minnesota Duluth,Larry Abbott,D,SR,0,1,1,1972-73
+11/25/1972,Minnesota Duluth,Bill Robbins,F,FR,0,1,1,1972-73
 11/29/1972,Dartmouth,Dick Decloe,F,,2,0,2,1972-73
 11/29/1972,Dartmouth,Ray Cournoyea,F,JR,1,1,2,1972-73
 11/29/1972,Dartmouth,Steve Doloff,F,SR,1,2,3,1972-73
@@ -5689,7 +5708,16 @@
 12/27/1974,Minnesota Duluth,Bill Burlington,F,SR,1,1,2,1974-75
 12/27/1974,Minnesota Duluth,Terry Meagher,F,JR,1,0,1,1974-75
 12/27/1974,Minnesota Duluth,Peter Marzo,F,JR,2,1,3,1974-75
-12/28/1974,St. Louis,Unknown,,,5,0,5,1974-75
+12/28/1974,St. Louis,Bill Robbins,F,JR,1,0,1,1974-75
+12/28/1974,St. Louis,Mike Eruzione,F,SO,1,0,1,1974-75
+12/28/1974,St. Louis,Terry Meagher,F,JR,1,1,2,1974-75
+12/28/1974,St. Louis,Rick Meagher,F,SO,1,0,1,1974-75
+12/28/1974,St. Louis,Ken Kuzyk,F,JR,1,0,1,1974-75
+12/28/1974,St. Louis,Peter Marzo,F,JR,0,2,2,1974-75
+12/28/1974,St. Louis,Vic Stanfield,D,SR,0,1,1,1974-75
+12/28/1974,St. Louis,Mike Fidler,F,FR,0,1,1,1974-75
+12/28/1974,St. Louis,Gary Fay,D,SO,0,1,1,1974-75
+12/28/1974,St. Louis,Bill Burlington,F,SR,0,1,1,1974-75
 01/04/1975,Rensselaer,Peter Marzo,F,JR,0,1,1,1974-75
 01/04/1975,Rensselaer,John McClellan,F,SO,0,1,1,1974-75
 01/04/1975,Rensselaer,Ken Kuzyk,F,JR,0,1,1,1974-75
@@ -6307,7 +6335,15 @@
 01/03/1977,St. Lawrence,Mike Eruzione,F,SR,2,2,4,1976-77
 01/03/1977,St. Lawrence,Matt Marden,F,JR,0,2,2,1976-77
 01/03/1977,St. Lawrence,Marc Hetnik,F,SO,1,0,1,1976-77
-01/08/1977,Cornell,Unknown,,,7,0,7,1976-77
+01/08/1977,Cornell,Dave Silk,F,FR,2,1,3,1976-77
+01/08/1977,Cornell,Mike Eruzione,F,SR,2,1,3,1976-77
+01/08/1977,Cornell,Rick Meagher,F,SR,2,2,4,1976-77
+01/08/1977,Cornell,John Bethel,F,FR,1,0,1,1976-77
+01/08/1977,Cornell,John McClellan,F,SR,0,1,1,1976-77
+01/08/1977,Cornell,Gary Fay,D,SR,0,2,2,1976-77
+01/08/1977,Cornell,Bill LeBlond,F,FR,0,1,1,1976-77
+01/08/1977,Cornell,Bob Dudley,D,SR,0,1,1,1976-77
+01/08/1977,Cornell,Bill O'Neill,D,SO,0,2,2,1976-77
 01/12/1977,New Hampshire,Dick Lamby,D,JR,0,2,2,1976-77
 01/12/1977,New Hampshire,Dave Silk,F,FR,3,0,3,1976-77
 01/12/1977,New Hampshire,Tony Meagher,F,FR,0,1,1,1976-77
@@ -6813,7 +6849,14 @@
 12/09/1978,Princeton,Scott Nieland,D,JR,0,1,1,1978-79
 12/09/1978,Princeton,Todd Johnson,F,SO,1,0,1,1978-79
 12/09/1978,Princeton,Grant Goegan,F,JR,0,1,1,1978-79
-12/29/1978,Michigan Tech,Unknown,,,4,0,4,1978-79
+12/29/1978,Michigan Tech,Dave Silk,F,JR,1,0,1,1978-79
+12/29/1978,Michigan Tech,Paul Miller,F,SO,2,0,2,1978-79
+12/29/1978,Michigan Tech,Todd Johnson,F,SO,1,0,1,1978-79
+12/29/1978,Michigan Tech,Mark Fidler,F,SO,0,1,1,1978-79
+12/29/1978,Michigan Tech,Marc Hetnik,F,SR,0,2,2,1978-79
+12/29/1978,Michigan Tech,Jack O'Callahan,D,SR,0,1,1,1978-79
+12/29/1978,Michigan Tech,Tim Kimball,F,SO,0,1,1,1978-79
+12/29/1978,Michigan Tech,Bill Cotter,F,SO,0,1,1,1978-79
 12/30/1978,Michigan,Dave Silk,F,JR,3,0,3,1978-79
 12/30/1978,Michigan,Bill O'Neill,D,SR,0,2,2,1978-79
 12/30/1978,Michigan,Tony Meagher,F,JR,0,1,1,1978-79
@@ -7068,7 +7111,16 @@
 01/04/1980,Colorado College,Tom O'Regan,F,FR,0,2,2,1979-80
 01/04/1980,Colorado College,Mark Fidler,F,JR,1,0,1,1979-80
 01/04/1980,Colorado College,Tony Meagher,F,SR,0,1,1,1979-80
-01/05/1980,Denver,Unknown,,,5,0,5,1979-80
+01/05/1980,Denver,Mark Fidler,F,JR,3,0,3,1979-80
+01/05/1980,Denver,Marc Sinclair,F,FR,1,0,1,1979-80
+01/05/1980,Denver,Grant Goegan,F,SR,1,0,1,1979-80
+01/05/1980,Denver,Jerry August,F,FR,0,2,2,1979-80
+01/05/1980,Denver,Tom O'Regan,F,FR,0,1,1,1979-80
+01/05/1980,Denver,Paul Miller,F,JR,0,1,1,1979-80
+01/05/1980,Denver,Tim Kimball,F,JR,0,2,2,1979-80
+01/05/1980,Denver,Rob Davies,F,JR,0,1,1,1979-80
+01/05/1980,Denver,Bill Whelton,D,SO,0,1,1,1979-80
+01/05/1980,Denver,George Klapes,D,FR,0,1,1,1979-80
 01/12/1980,Vermont,Grant Goegan,F,SR,0,1,1,1979-80
 01/12/1980,Vermont,Marc Sinclair,F,FR,0,1,1,1979-80
 01/12/1980,Vermont,Mark Fidler,F,JR,1,0,1,1979-80
@@ -7917,7 +7969,16 @@
 11/11/1983,Minnesota Duluth,Denis LaGarde,F,SR,0,1,1,1983-84
 11/11/1983,Minnesota Duluth,Chris Mays,F,SR,0,1,1,1983-84
 11/11/1983,Minnesota Duluth,Brad MacGregor,F,SO,0,1,1,1983-84
-11/12/1983,Minnesota Duluth,Unknown,,,4,0,4,1983-84
+11/12/1983,Minnesota Duluth,Jay Octeau,D,FR,1,0,1,1983-84
+11/12/1983,Minnesota Duluth,Mark Pierog,F,SR,2,0,2,1983-84
+11/12/1983,Minnesota Duluth,Paul Gerlitz,F,SO,1,0,1,1983-84
+11/12/1983,Minnesota Duluth,Ed Lowney,F,FR,0,1,1,1983-84
+11/12/1983,Minnesota Duluth,Joe Cappellano,D,SO,0,1,1,1983-84
+11/12/1983,Minnesota Duluth,Kevin Mutch,F,JR,0,1,1,1983-84
+11/12/1983,Minnesota Duluth,John Cullen,F,FR,0,2,2,1983-84
+11/12/1983,Minnesota Duluth,T.J. Connolly,D,SR,0,1,1,1983-84
+11/12/1983,Minnesota Duluth,Scott Shaunessy,D,FR,0,1,1,1983-84
+11/12/1983,Minnesota Duluth,Dale Dunbar,D,JR,0,1,1,1983-84
 11/16/1983,Merrimack,Peter Marshall,F,SO,0,2,2,1983-84
 11/16/1983,Merrimack,Paul Gerlitz,F,SO,1,0,1,1983-84
 11/16/1983,Merrimack,Mark Pierog,F,SR,1,0,1,1983-84
@@ -8576,7 +8637,8 @@
 11/29/1985,Minnesota Duluth,Chris Matchett,D,SR,0,1,1,1985-86
 11/29/1985,Minnesota Duluth,Brian Foreman,F,SO,0,1,1,1985-86
 11/29/1985,Minnesota Duluth,John Cullen,F,JR,1,2,3,1985-86
-11/30/1985,Minnesota Duluth,Unknown,,,2,0,2,1985-86
+11/30/1985,Minnesota Duluth,Mike Kelfer,F,FR,1,0,1,1985-86
+11/30/1985,Minnesota Duluth,Scott Young,F,FR,1,0,1,1985-86
 12/04/1985,Vermont,Chris Matchett,D,SR,0,1,1,1985-86
 12/04/1985,Vermont,Ed Lowney,F,JR,1,0,1,1985-86
 12/04/1985,Vermont,Mike Kelfer,F,FR,0,1,1,1985-86
@@ -9690,7 +9752,11 @@
 12/29/1989,Denver,Joe Sacco,F,JR,0,1,1,1989-90
 12/29/1989,Denver,Mike Sullivan,F,SR,0,2,2,1989-90
 12/29/1989,Denver,Petteri Koskimäki,F,FR,1,0,1,1989-90
-12/30/1989,Denver,Unknown,,,2,0,2,1989-90
+12/30/1989,Denver,Ed Ronan,F,JR,1,0,1,1989-90
+12/30/1989,Denver,Petteri Koskimäki,F,FR,1,0,1,1989-90
+12/30/1989,Denver,Kevin O'Sullivan,D,FR,0,1,1,1989-90
+12/30/1989,Denver,Phil Von Stefenelli,D,JR,0,1,1,1989-90
+12/30/1989,Denver,Mike Sullivan,F,SR,0,1,1,1989-90
 01/03/1990,Boston College,Alexandre Legault,D,FR,0,1,1,1989-90
 01/03/1990,Boston College,Mike Bavis,F,FR,0,1,1,1989-90
 01/03/1990,Boston College,Mike Sullivan,F,SR,1,0,1,1989-90
@@ -9933,9 +9999,20 @@
 11/16/1990,Denver,David Sacco,F,SO,2,5,7,1990-91
 11/16/1990,Denver,Tony Amonte,F,SO,1,2,3,1990-91
 11/16/1990,Denver,Keith Tkachuk,F,FR,0,1,1,1990-91
-11/17/1990,Denver,Unknown,,,7,0,7,1990-91
-11/17/1990,Denver,Kevin O'Sullivan,D,SO,1,1,2,1990-91
+11/17/1990,Denver,Keith Tkachuk,F,FR,1,0,1,1990-91
+11/17/1990,Denver,Mike Bavis,F,SO,1,0,1,1990-91
 11/17/1990,Denver,Ed Ronan,F,SR,1,0,1,1990-91
+11/17/1990,Denver,Doug Friedman,F,FR,1,0,1,1990-91
+11/17/1990,Denver,Kevin O'Sullivan,D,SO,1,1,2,1990-91
+11/17/1990,Denver,David Tomlinson,F,SR,1,0,1,1990-91
+11/17/1990,Denver,Jon Pratt,F,FR,1,0,1,1990-91
+11/17/1990,Denver,Tony Amonte,F,SO,1,1,2,1990-91
+11/17/1990,Denver,Shawn McEachern,F,JR,1,1,2,1990-91
+11/17/1990,Denver,David Sacco,F,SO,0,1,1,1990-91
+11/17/1990,Denver,Petteri Koskimäki,F,SO,0,1,1,1990-91
+11/17/1990,Denver,Tom Dion,D,JR,0,2,2,1990-91
+11/17/1990,Denver,Scott Lachance,D,FR,0,2,2,1990-91
+11/17/1990,Denver,Chris McCann,F,SR,0,2,2,1990-91
 11/20/1990,Harvard,Alexandre Legault,D,SO,0,1,1,1990-91
 11/20/1990,Harvard,David Sacco,F,SO,1,0,1,1990-91
 11/20/1990,Harvard,Keith Tkachuk,F,FR,1,0,1,1990-91
@@ -10024,7 +10101,10 @@
 12/11/1990,UMass Lowell,David Sacco,F,SO,1,1,2,1990-91
 12/28/1990,Minnesota Duluth,Peter Ahola,D,SO,1,0,1,1990-91
 12/28/1990,Minnesota Duluth,Phil Von Stefenelli,D,SR,1,0,1,1990-91
-12/28/1990,Minnesota Duluth,Unknown,,,1,0,1,1990-91
+12/28/1990,Minnesota Duluth,David Tomlinson,F,SR,1,1,2,1990-91
+12/28/1990,Minnesota Duluth,Tony Amonte,F,SO,0,1,1,1990-91
+12/28/1990,Minnesota Duluth,Chris McCann,F,SR,0,1,1,1990-91
+12/28/1990,Minnesota Duluth,David Sacco,F,SO,0,1,1,1990-91
 12/29/1990,Minnesota Duluth,Peter Ahola,D,SO,1,2,3,1990-91
 12/29/1990,Minnesota Duluth,Phil Von Stefenelli,D,SR,0,1,1,1990-91
 12/29/1990,Minnesota Duluth,Shawn McEachern,F,JR,1,2,3,1990-91
