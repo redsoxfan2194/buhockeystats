@@ -218,7 +218,6 @@
 02/28/1931,Union Boat Club,Carl Clem,F,,1,0,1,1930-31
 02/28/1931,Union Boat Club,Paul Bergholtz,F,,1,0,1,1930-31
 02/28/1931,Union Boat Club,Richard Lombard,F,,1,0,1,1930-31
-03/05/1931,Brae Burn,Unknown,,,3,0,3,1930-31
 03/05/1931,Brae Burn,Carl Clem,F,,1,0,1,1930-31
 03/05/1931,Brae Burn,Paul Bergholtz,F,,1,0,1,1930-31
 03/05/1931,Brae Burn,Leo Baron,F,,1,0,1,1930-31
@@ -5240,17 +5239,16 @@
 12/27/1972,Michigan Tech,Mike LaGarde,D,SR,0,1,1,1972-73
 12/27/1972,Michigan Tech,Buddy Powers,F/D,SO,0,1,1,1972-73
 12/27/1972,Michigan Tech,Jerry Gryp,D,FR,0,1,1,1972-73
-12/28/1972,Michigan,Vic Stanfield,D,SO,0,1,1,1972-73
-12/28/1972,Michigan,Unknown,,,1,0,1,1972-73
-12/28/1972,Michigan,Ray Cournoyea,F,JR,1,1,2,1972-73
-12/28/1972,Michigan,Ken Kuzyk,F,FR,1,0,1,1972-73
+12/28/1972,Michigan,Paul O'Neil,F,SO,2,1,3,1972-73
 12/28/1972,Michigan,Steve Doloff,F,SR,1,1,2,1972-73
 12/28/1972,Michigan,Bill Robbins,F,FR,2,0,2,1972-73
-12/28/1972,Michigan,Paul O'Neil,F,SO,1,1,2,1972-73
+12/28/1972,Michigan,Ken Kuzyk,F,FR,1,0,1,1972-73
+12/28/1972,Michigan,Ray Cournoyea,F,JR,1,1,2,1972-73
+12/28/1972,Michigan,Vic Stanfield,D,SO,0,2,2,1972-73
 12/28/1972,Michigan,Jerry Gryp,D,FR,0,1,1,1972-73
-12/28/1972,Michigan,Dick Decloe,F,,0,1,1,1972-73
-12/28/1972,Michigan,Pete McCann,D,,0,2,2,1972-73
 12/28/1972,Michigan,David Wisener,F,SR,0,1,1,1972-73
+12/28/1972,Michigan,Pete McCann,D,,0,2,2,1972-73
+12/28/1972,Michigan,Dick Decloe,F,,0,1,1,1972-73
 01/03/1973,Rensselaer,Dave Warner,D,,0,1,1,1972-73
 01/03/1973,Rensselaer,Vic Stanfield,D,SO,0,1,1,1972-73
 01/03/1973,Rensselaer,Ray Cournoyea,F,JR,1,1,2,1972-73
@@ -6251,7 +6249,12 @@
 11/19/1976,Bowling Green,John Bethel,F,FR,1,0,1,1976-77
 11/19/1976,Bowling Green,Bob Dudley,D,SR,1,1,2,1976-77
 11/19/1976,Bowling Green,Steve Gibson ,F,,0,1,1,1976-77
-11/20/1976,Bowling Green,Unknown,,,2,0,2,1976-77
+11/20/1976,Bowling Green,Bill O'Neill,D,SO,1,0,1,1976-77
+11/20/1976,Bowling Green,Marc Hetnik,F,SO,1,0,1,1976-77
+11/20/1976,Bowling Green,Rick Meagher,F,SR,0,1,1,1976-77
+11/20/1976,Bowling Green,John Bethel,F,FR,0,1,1,1976-77
+11/20/1976,Bowling Green,Dave Silk,F,FR,0,1,1,1976-77
+11/20/1976,Bowling Green,Bob Dudley,D,SR,0,1,1,1976-77
 11/28/1976,Providence,Rick Meagher,F,SR,1,0,1,1976-77
 11/28/1976,Providence,Bill O'Neill,D,SO,0,1,1,1976-77
 11/28/1976,Providence,Mickey Mullen,F,SO,1,0,1,1976-77
@@ -8987,8 +8990,11 @@
 12/13/1986,Northeastern,John Cullen,F,SR,1,0,1,1986-87
 12/13/1986,Northeastern,Eric Labrosse,F,JR,1,0,1,1986-87
 12/13/1986,Northeastern,Clark Donatelli,F,JR,0,1,1,1986-87
-12/28/1986,Denver,Unknown,,,2,0,2,1986-87
-12/29/1986,Colorado College,Unknown,,,4,0,4,1986-87
+12/28/1986,Denver,Jeff Sveen,F,JR,1,0,1,1986-87
+12/28/1986,Denver,Scott Sanders,F,JR,1,0,1,1986-87
+12/29/1986,Colorado College,John Cullen,F,SR,1,0,1,1986-87
+12/29/1986,Colorado College,Ville Kentala,F,SO,1,0,1,1986-87
+12/29/1986,Colorado College,Ed Lowney,F,SR,2,0,2,1986-87
 01/02/1987,Wisconsin,Ed Lowney,F,SR,1,0,1,1986-87
 01/02/1987,Wisconsin,Jay Octeau,D,SR,0,1,1,1986-87
 01/04/1987,North Dakota,Clark Donatelli,F,JR,1,0,1,1986-87
