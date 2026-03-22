@@ -2974,7 +2974,8 @@
 02/28/1961,Providence,Don Goguen,D,,0,1,1,1960-61
 02/28/1961,Providence,Dave Carver,D,,0,1,1,1960-61
 02/28/1961,Providence,Don Spinney,F,,0,1,1,1960-61
-03/03/1961,Norwich,Unknown,,,7,0,7,1960-61
+03/03/1961,Norwich,Unknown,N/A,,4,0,4,1960-61
+03/03/1961,Norwich,Mike Denihan,F,SO,3,2,5,1960-61
 03/07/1961,Boston College,Bill Quinn,F,,0,2,2,1960-61
 03/07/1961,Boston College,Mike Denihan,F,SO,2,0,2,1960-61
 12/01/1961,Providence,Alan Fuller,F,,2,0,2,1961-62
@@ -4310,7 +4311,7 @@
 01/01/1969,Minnesota Duluth,Serge Boily,F,SR,1,0,1,1968-69
 01/01/1969,Minnesota Duluth,Mickey Gray,F,SR,1,0,1,1968-69
 01/04/1969,New Hampshire,Dick Toomey,F,JR,1,0,1,1968-69
-01/04/1969,New Hampshire,Unknown,,,1,0,1,1968-69
+01/04/1969,New Hampshire,Herb Wakabayashi,F,SR,1,0,1,1968-69
 01/08/1969,Yale,Wayne Gowing,F,SO,1,0,1,1968-69
 01/08/1969,Yale,Darrell Abbott,D,SR,1,0,1,1968-69
 01/08/1969,Yale,Larry Davenport,F,JR,1,0,1,1968-69
@@ -4467,9 +4468,10 @@
 12/29/1969,Northeastern,Don Cahoon,F,,1,0,1,1969-70
 12/29/1969,Northeastern,Steve Stirling,F,,1,0,1,1969-70
 12/29/1969,Northeastern,John Danby,F,,1,0,1,1969-70
-12/29/1969,Northeastern,Larry Davenport,F,,2,4,6,1969-70
+12/29/1969,Northeastern,Larry Davenport,F,,2,2,4,1969-70
 12/29/1969,Northeastern,Bob Gryp,F,,0,1,1,1969-70
-12/29/1969,Northeastern,Unknown,,,2,0,2,1969-70
+12/29/1969,Northeastern,Unknown,N/A,,2,0,2,1969-70
+12/29/1969,Northeastern,Mike Hyndman,F,,0,4,4,1969-70
 12/30/1969,New Hampshire,Bob Gryp,F,,2,1,3,1969-70
 12/30/1969,New Hampshire,Steve Stirling,F,,1,1,2,1969-70
 12/30/1969,New Hampshire,Wayne Gowing,F,,1,0,1,1969-70
@@ -4481,11 +4483,11 @@
 12/30/1969,New Hampshire,Dick Toomey,F,,0,1,1,1969-70
 01/02/1970,Cornell,Don Cahoon,F,,1,0,1,1969-70
 01/02/1970,Cornell,Mike Hyndman,F,,0,1,1,1969-70
-01/03/70,Michigan Tech,Mike Hyndman,F,,1,1,2,1969-70
-01/03/70,Michigan Tech,Bob Gryp,F,,2,1,3,1969-70
-01/03/70,Michigan Tech,Peter Thornton,F,,0,1,1,1969-70
-01/03/70,Michigan Tech,Steve Stirling,F,,0,1,1,1969-70
-01/03/70,Michigan Tech,Joe Meehan,F,,0,1,1,1969-70
+01/03/1970,Michigan Tech,Mike Hyndman,F,,1,1,2,1969-70
+01/03/1970,Michigan Tech,Bob Gryp,F,,2,1,3,1969-70
+01/03/1970,Michigan Tech,Peter Thornton,F,,0,1,1,1969-70
+01/03/1970,Michigan Tech,Steve Stirling,F,,0,1,1,1969-70
+01/03/1970,Michigan Tech,Joe Meehan,F,,0,1,1,1969-70
 01/09/1970,Clarkson,John Danby,F,,2,1,3,1969-70
 01/09/1970,Clarkson,Larry Davenport,F,,1,2,3,1969-70
 01/09/1970,Clarkson,Dick Toomey,F,,1,0,1,1969-70
@@ -4859,7 +4861,7 @@
 03/05/1971,Colgate,Wayne Gowing,F,SR,0,1,1,1970-71
 03/05/1971,Colgate,Steve Stirling,F,SR,1,1,2,1970-71
 03/05/1971,Colgate,Ric Jordan,D,JR,1,1,2,1970-71
-03/05/1971,Colgate,Unknown,,,1,0,1,1970-71
+03/05/1971,Colgate,Ron Anderson,F,JR,1,0,1,1970-71
 03/05/1971,Colgate,John Danby,F,JR,1,1,2,1970-71
 03/05/1971,Colgate,Don Cahoon,F,JR,0,2,2,1970-71
 03/05/1971,Colgate,Bob Gryp,F,JR,1,0,1,1970-71
@@ -5325,10 +5327,12 @@
 01/26/1973,St. Lawrence,Vic Stanfield,D,SO,1,2,3,1972-73
 01/26/1973,St. Lawrence,Paul O'Neil,F,SO,3,1,4,1972-73
 01/26/1973,St. Lawrence,Steve Doloff,F,SR,1,1,2,1972-73
-01/30/1973,Massachusetts,Ray Cournoyea,F,JR,4,1,5,1972-73
-01/30/1973,Massachusetts,David Wisener,F,SR,2,0,2,1972-73
-01/30/1973,Massachusetts,Steve Doloff,F,SR,0,5,5,1972-73
-01/30/1973,Massachusetts,Unknown,,,1,0,1,1972-73
+03/30/1973,Massachusetts,Ray Cournoyea,F,JR,4,1,5,1972-73
+03/30/1973,Massachusetts,David Wisener,F,SR,2,1,3,1972-73
+03/30/1973,Massachusetts,Steve Doloff,F,SR,0,5,5,1972-73
+03/30/1973,Massachusetts,Ken Kuzyk,F,FR,1,0,1,1972-73
+03/30/1973,Massachusetts,Bill Robbins,F,FR,0,1,1,1972-73
+03/30/1973,Massachusetts,Paul O'Neil,F,SO,0,1,1,1972-73
 02/02/1973,Clarkson,Ken Kuzyk,F,FR,0,1,1,1972-73
 02/02/1973,Clarkson,Bill Burlington,F,SO,0,1,1,1972-73
 02/02/1973,Clarkson,Bill Bishop,F,SO,0,1,1,1972-73
@@ -6521,11 +6525,17 @@
 03/11/1977,Clarkson,John McClellan,F,SR,0,1,1,1976-77
 03/11/1977,Clarkson,Gary Fay,D,SR,0,1,1,1976-77
 03/11/1977,Clarkson,Dick Lamby,D,JR,0,3,3,1976-77
-03/12/1977,New Hampshire,Bill O'Neill,D,SO,1,0,1,1976-77
-03/12/1977,New Hampshire,Gary Fay,D,SR,1,0,1,1976-77
-03/12/1977,New Hampshire,John Melanson,F,SO,1,0,1,1976-77
-03/12/1977,New Hampshire,Mike Eruzione,F,SR,1,0,1,1976-77
-03/12/1977,New Hampshire,Unknown,,,4,0,4,1976-77
+1977-03-12,New Hampshire,Bill O'Neill,D,SO,1,0,1,1976-77
+1977-03-12,New Hampshire,Gary Fay,D,SR,1,0,1,1976-77
+1977-03-12,New Hampshire,John Melanson,F,SO,1,0,1,1976-77
+1977-03-12,New Hampshire,Mike Eruzione,F,SR,2,0,1,1976-77
+1977-03-12,New Hampshire,Matt Marden,F,JR,2,1,3,1976-77
+1977-03-12,New Hampshire,Dave Silk,F,FR,1,1,2,1976-77
+1977-03-12,New Hampshire,Rick Meagher,F,SR,0,5,5,1976-77
+1977-03-12,New Hampshire,Jack O'Callahan,D,SO,0,1,1,1976-77
+1977-03-12,New Hampshire,Marc Hetnik,F,SO,0,1,1,1976-77
+1977-03-12,New Hampshire,Mickey Mullen,F,JR,0,1,1,1976-77
+1977-03-12,New Hampshire,Mike Pidgeon,F,FR,0,1,1,1976-77
 03/24/1977,Michigan,Mike Eruzione,F,SR,0,1,1,1976-77
 03/24/1977,Michigan,Rick Meagher,F,SR,1,2,3,1976-77
 03/24/1977,Michigan,Dick Lamby,D,JR,0,1,1,1976-77
@@ -6884,7 +6894,12 @@
 01/10/1979,Northeastern,Rob Davies,F,FR,1,0,1,1978-79
 01/10/1979,Northeastern,Todd Johnson,F,SO,1,0,1,1978-79
 01/10/1979,Northeastern,Grant Goegan,F,JR,2,0,2,1978-79
-01/13/1979,Colgate,Unknown,,,6,0,6,1978-79
+01/13/1979,Colgate,Unknown,N/A,,2,0,2,1978-79
+01/13/1979,Colgate,Bill Cotter,F,SO,1,0,1,1978-79
+01/13/1979,Colgate,Marc Hetnik,F,SR,0,1,1,1978-79
+01/13/1979,Colgate,Tony Meagher,F,JR,1,0,1,1978-79
+01/13/1979,Colgate,Dave Silk,F,JR,1,0,1,1978-79
+01/13/1979,Colgate,Paul Miller,F,SO,1,0,1,1978-79
 01/16/1979,New Hampshire,John Bethel,F,JR,0,3,3,1978-79
 01/16/1979,New Hampshire,Marc Hetnik,F,SR,0,1,1,1978-79
 01/16/1979,New Hampshire,Mark Fidler,F,SO,3,0,3,1978-79
@@ -9322,7 +9337,8 @@
 02/01/1988,Harvard,Ed Ronan,F,FR,1,0,1,1987-88
 02/01/1988,Harvard,David Tomlinson,F,FR,1,0,1,1987-88
 02/05/1988,New Hampshire,Mike Sullivan,F,SO,2,2,4,1987-88
-02/05/1988,New Hampshire,Unknown,,,3,0,3,1987-88
+02/05/1988,New Hampshire,Tom Ryan,D,SR,1,0,1,1987-88
+02/05/1988,New Hampshire,Mike Kelfer,F,JR,2,0,2,1987-88
 02/08/1988,Northeastern,Ville Kentala,F,JR,0,2,2,1987-88
 02/08/1988,Northeastern,Tom Ryan,D,SR,0,1,1,1987-88
 02/08/1988,Northeastern,Mike Sullivan,F,SO,1,0,1,1987-88
