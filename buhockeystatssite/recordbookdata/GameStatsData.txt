@@ -2032,7 +2032,11 @@
 03/03/1954,Dartmouth,Ray Kelley,D,,0,2,2,1953-54
 03/03/1954,Dartmouth,Jack Murphy,F,SO,1,0,1,1953-54
 03/03/1954,Dartmouth,Tom Dwyer,F,,1,1,2,1953-54
-12/03/1954,Brown,Unknown,,,3,0,3,1954-55
+12/03/1964,Brown,Len Driscoll,D,,1,0,1,1954-55
+12/03/1964,Brown,Bob Buell ,F,,1,0,1,1954-55
+12/03/1964,Brown,Jack Murphy,F,JR,0,1,1,1954-55
+12/03/1964,Brown,Mike Manning,F,,0,1,1,1954-55
+12/03/1964,Brown,John Burns,F,,1,0,1,1954-55
 12/08/1954,Yale,Jack Murphy,F,JR,2,0,2,1954-55
 12/08/1954,Yale,John McComb,F,,0,1,1,1954-55
 12/08/1954,Yale,Tom Dwyer,F,,1,1,2,1954-55
@@ -2110,7 +2114,12 @@
 03/02/1955,Northeastern,Bob Buell,F,,0,1,1,1954-55
 03/02/1955,Northeastern,Dick McAdoo,F,,0,1,1,1954-55
 03/02/1955,Northeastern,Mike Manning,F,,1,0,1,1954-55
-12/02/1955,Brown,Unknown,,,3,0,3,1955-56
+12/02/1955,Brown,Curt Ford,F,,1,0,1,1954-55
+12/02/1955,Brown,Bob Dupuis,D,,0,2,2,1954-55
+12/02/1955,Brown,Jack Murphy,F,SR,1,0,1,1954-55
+12/02/1955,Brown,Tony Cicoria,F,,0,1,1,1954-55
+12/02/1955,Brown,Jack Carruthers,F,,1,0,1,1954-55
+12/02/1955,Brown,Joe Quinn,F,,0,1,1,1954-55
 12/06/1955,Yale,Bill Sullivan,F,,1,0,1,1955-56
 12/06/1955,Yale,Forbes Keith,F,,2,0,2,1955-56
 12/06/1955,Yale,Jack Carruthers,F,SO,1,0,1,1955-56
@@ -2242,7 +2251,14 @@
 03/03/1956,Northeastern,Jack Murphy,F,SR,1,0,1,1955-56
 03/03/1956,Northeastern,Joe Quinn,F,,1,0,1,1955-56
 03/03/1956,Northeastern,Mike Manning,F,,2,0,2,1955-56
-11/30/1956,Brown,Unknown,,,8,0,8,1956-57
+11/30/1956,Brown,Don MacLeod,D,,2,2,4,1956-57
+11/30/1956,Brown,Joe Quinn,F,,2,1,3,1956-57
+11/30/1956,Brown,Bob Dupuis,D,JR,1,2,3,1956-57
+11/30/1956,Brown,Larry Creighton,F,SO,1,1,2,1956-57
+11/30/1956,Brown,Sarge Kinlin,F,,2,0,2,1956-57
+11/30/1956,Brown,Jack Carruthers,F,JR,0,3,3,1956-57
+11/30/1956,Brown,Tony Cicoria,F,,0,2,2,1956-57
+11/30/1956,Brown,Bill Sweeney,F,,0,1,1,1956-57
 12/08/1956,Tufts,Tony Cicoria,F,,3,0,3,1956-57
 12/08/1956,Tufts,Mike Manning,F,,0,2,2,1956-57
 12/08/1956,Tufts,Larry Creighton,F,SO,2,0,2,1956-57
@@ -2623,7 +2639,15 @@
 12/30/1958,Michigan State,Bob Marquis,F,JR,2,0,2,1958-59
 12/30/1958,Michigan State,Forbes Keith,F,,0,2,2,1958-59
 12/30/1958,Michigan State,Pete McCann,D,,0,1,1,1958-59
-01/10/1959,Providence,Unknown,,,9,0,9,1958-59
+01/10/1959,Providence,Forbes Keith,F,,2,0,2,1958-59
+01/10/1959,Providence,Allen Jarasitis,F,,1,0,1,1958-59
+01/10/1959,Providence,John Dooley,F,,1,0,1,1958-59
+01/10/1959,Providence,Larry Creighton,F,SR,1,1,2,1958-59
+01/10/1959,Providence,Pete McCann,D,,0,1,1,1958-59
+01/10/1959,Providence,Bob Marquis,F,JR,1,2,3,1958-59
+01/10/1959,Providence,Bill Quinn,F,,2,0,2,1958-59
+01/10/1959,Providence,Ron DiVincenzo,D,,1,0,1,1958-59
+01/10/1959,Providence,Russ McCurdy,D,,0,1,1,1958-59
 01/14/1959,Boston College,Pete McCann,D,,0,1,1,1958-59
 01/14/1959,Boston College,Russ McCurdy,D,,0,1,1,1958-59
 01/14/1959,Boston College,Forbes Keith,F,,1,0,1,1958-59
