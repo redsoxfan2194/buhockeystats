@@ -3088,7 +3088,6 @@
 02/08/1962,Clarkson,Alden Sampson,D,,1,1,2,1961-62
 02/08/1962,Clarkson,Edmund Connors,F,,0,1,1,1961-62
 02/08/1962,Clarkson,Don Goguen,D,,0,1,1,1961-62
-02/15/1962,Providence,Unknown,N/A,,1,0,1,1961-62
 02/15/1962,Providence,Alan Welch,F,,1,0,1,1961-62
 02/15/1962,Providence,Ken Ross,F,SO,2,0,2,1961-62
 02/15/1962,Providence,Dave Mahoney,F,,1,0,1,1961-62
@@ -3174,7 +3173,11 @@
 01/05/1963,Clarkson,Bob Smith,D,,0,1,1,1962-63
 01/09/1963,Boston College,Mike Denihan,F,,1,0,1,1962-63
 01/09/1963,Boston College,Allen Comeau,D,,0,1,1,1962-63
-01/12/1963,Rensselaer,Unknown,,,3,0,3,1962-63
+01/12/1963,Rensselaer,Bob McCabe,F,,1,1,2,1962-63
+01/12/1963,Rensselaer,Bob Smith,D,,1,0,1,1962-63
+01/12/1963,Rensselaer,Bob Rowan,F,,1,1,2,1962-63
+01/12/1963,Rensselaer,Mike Denihan,F,,0,1,1,1962-63
+01/12/1963,Rensselaer,Bob Martell,F,,0,1,1,1962-63
 01/25/1963,St. Lawrence,Richard Green,D,,1,0,1,1962-63
 01/25/1963,St. Lawrence,Alden Sampson,D,,0,1,1,1962-63
 01/30/1963,Colby,Mike Denihan,F,,4,1,5,1962-63
@@ -3240,8 +3243,12 @@
 11/16/1963,New Brunswick,Richard Green,F,,1,1,2,1963-64
 11/16/1963,New Brunswick,Jim Todaro,F,,0,1,1,1963-64
 11/30/1963,Princeton,Jim Todaro,F,,1,2,3,1963-64
+11/30/1963,Princeton,Bill Jackson,F,,1,0,1,1963-64
 11/30/1963,Princeton,Dennis O'Connell,F,,2,0,2,1963-64
-11/30/1963,Princeton,Unknown,,,2,0,2,1963-64
+11/30/1963,Princeton,Bob Martell,F,JR,1,0,1,1963-64
+11/30/1963,Princeton,Bruce Fennie,F,SO,0,1,1,1963-64
+11/30/1963,Princeton,Vic Conte,D,,0,1,1,1963-64
+11/30/1963,Princeton,Ken Ross,F,,0,2,2,1963-64
 12/02/1963,Yale,Allen Comeau,D,SR,0,1,1,1963-64
 12/02/1963,Yale,Bill Jackson,F,,0,2,2,1963-64
 12/02/1963,Yale,Bob Martell,F,JR,1,1,2,1963-64
@@ -3489,8 +3496,13 @@
 02/03/1965,Yale,Ken Ross,F,SR,0,1,1,1964-65
 02/03/1965,Yale,Bob Sylvia,F,SR,0,1,1,1964-65
 02/03/1965,Yale,Brian Gilmour,D,SO,0,2,2,1964-65
-02/06/1965,Army,Unknown,,,3,0,3,1964-65
-02/06/1965,Army,Bruce Fennie,F,JR,3,0,3,1964-65
+02/06/1965,Army,Dennis O'Connell,F,JR,1,1,2,1964-65
+02/06/1965,Army,Fred Bassi,F,SO,1,2,3,1964-65
+02/06/1965,Army,Bruce Fennie,F,JR,1,1,2,1964-65
+02/06/1965,Army,Bob Martell,F,SR,1,0,1,1964-65
+02/06/1965,Army,Bob Sylvia,F,SR,1,0,1,1964-65
+02/06/1965,Army,Ken Ross,F,SR,0,2,2,1964-65
+02/06/1965,Army,Brian Gilmour,D,SO,0,1,1,1964-65
 02/08/1965,Northeastern,Dennis O'Connell,F,JR,0,1,1,1964-65
 02/08/1965,Northeastern,Fred Bassi,F,SO,2,0,2,1964-65
 02/08/1965,Northeastern,Ken Ross,F,SR,0,2,2,1964-65
@@ -3816,7 +3828,9 @@
 03/11/1966,Cornell,Jim Quinn,F,JR,1,0,1,1965-66
 03/11/1966,Cornell,Vic Conte,D,SR,0,1,1,1965-66
 03/11/1966,Cornell,Tom Ross,D,SR,0,1,1,1965-66
-03/12/1966,Brown,Unknown,,,5,0,5,1965-66
+03/12/1966,Brown,Fred Bassi,F,JR,2,0,2,1965-66
+03/12/1966,Brown,Dennis O'Connell,F,SR,2,0,2,1965-66
+03/12/1966,Brown,Jim Quinn,F,JR,1,0,1,1965-66
 03/18/1966,Michigan State,Pete McLachlan,D,JR,1,0,1,1965-66
 03/19/1966,Denver,Fred Bassi,F,JR,1,0,1,1965-66
 03/19/1966,Denver,Jim Quinn,F,JR,1,0,1,1965-66
@@ -4234,9 +4248,15 @@
 02/05/1968,Northeastern,Jack Parker,F,SR,0,1,1,1967-68
 02/05/1968,Northeastern,Herb Wakabayashi,F,JR,2,2,4,1967-68
 02/05/1968,Northeastern,Eddie Wright,F,JR,1,0,1,1967-68
+02/07/1968,Brown,Darrell Abbott,D,JR,1,0,1,1967-68
+02/07/1968,Brown,Larry Davenport,F,SO,1,0,1,1967-68
 02/07/1968,Brown,Bill Hinch,D,JR,1,0,1,1967-68
 02/07/1968,Brown,Serge Boily,F,JR,1,0,1,1967-68
-02/07/1968,Brown,Unknown,,,2,0,2,1967-68
+02/07/1968,Brown,Wayne Decker,D,SO,0,1,1,1967-68
+02/07/1968,Brown,Jack Parker,F,SR,0,1,1,1967-68
+02/07/1968,Brown,Mickey Gray,F,JR,0,1,1,1967-68
+02/07/1968,Brown,Mike Hyndman,F,SO,0,2,2,1967-68
+02/07/1968,Brown,Eddie Wright,F,JR,0,1,1,1967-68
 02/12/1968,Harvard,Wayne Decker,D,SO,0,1,1,1967-68
 02/12/1968,Harvard,Serge Boily,F,JR,1,0,1,1967-68
 02/12/1968,Harvard,Mike Hyndman,F,SO,0,2,2,1967-68
@@ -4246,7 +4266,10 @@
 02/12/1968,Harvard,Eddie Wright,F,JR,0,1,1,1967-68
 02/12/1968,Harvard,Dick Toomey,F,SO,1,1,2,1967-68
 02/12/1968,Harvard,Jack Parker,F,SR,1,0,1,1967-68
-02/17/1968,Army,Unknown,,,2,0,2,1967-68
+02/17/1968,Army,Serge Boily,F,JR,1,0,1,1967-68
+02/17/1968,Army,Glen Gama,F,,1,0,1,1967-68
+02/17/1968,Army,Wayne Decker,D,SO,,1,1,1967-68
+02/17/1968,Army,Larry Davenport,F,SO,0,1,1,1967-68
 02/20/1968,Northeastern,Mickey Gray,F,JR,2,2,4,1967-68
 02/20/1968,Northeastern,Eddie Wright,F,JR,2,0,2,1967-68
 02/20/1968,Northeastern,Dick Toomey,F,SO,1,0,1,1967-68
@@ -4321,7 +4344,12 @@
 11/30/1968,New Brunswick,Dick Toomey,F,JR,0,1,1,1968-69
 11/30/1968,New Brunswick,Bill Hinch,D,SR,0,1,1,1968-69
 11/30/1968,New Brunswick,Wayne Decker,D,JR,0,1,1,1968-69
-12/03/1968,Brown,Unknown,,,4,0,4,1968-69
+12/03/1968,Brown,Mike Hyndman,F,JR,1,1,2,1968-69
+12/03/1968,Brown,Larry Davenport,F,JR,1,0,1,1968-69
+12/03/1968,Brown,Steve Stirling,F,SO,2,1,3,1968-69
+12/03/1968,Brown,Serge Boily,F,SR,0,1,1,1968-69
+12/03/1968,Brown,Dick Toomey,F,JR,0,2,2,1968-69
+12/03/1968,Brown,Eddie Wright,F,SR,0,1,1,1968-69
 12/07/1968,New Hampshire,Eddie Wright,F,SR,2,0,2,1968-69
 12/07/1968,New Hampshire,Herb Wakabayashi,F,SR,1,0,1,1968-69
 12/07/1968,New Hampshire,Mike Hyndman,F,JR,0,2,2,1968-69
@@ -4447,7 +4475,17 @@
 02/10/1969,Harvard,Mickey Gray,F,SR,0,1,1,1968-69
 02/10/1969,Harvard,Steve Stirling,F,SO,0,2,2,1968-69
 02/10/1969,Harvard,Wayne Decker,D,JR,0,1,1,1968-69
-02/13/1969,Providence,Unknown,,,7,0,7,1968-69
+02/13/1969,Providence,Mike Hyndman,F,JR,2,0,2,1968-69
+02/13/1969,Providence,Steve Stirling,F,SO,2,0,2,1968-69
+02/13/1969,Providence,Eddie Wright,F,SR,1,0,1,1968-69
+02/13/1969,Providence,Herb Wakabayashi,F,SR,1,1,2,1968-69
+02/13/1969,Providence,Bruce Hatton,F,JR,1,0,1,1968-69
+02/13/1969,Providence,Dick Toomey,F,JR,0,1,1,1968-69
+02/13/1969,Providence,Serge Boily,F,SR,0,1,1,1968-69
+02/13/1969,Providence,Darrell Abbott,D,SR,0,1,1,1968-69
+02/13/1969,Providence,Mickey Gray,F,SR,0,1,1,1968-69
+02/13/1969,Providence,Bill Hinch,D,SR,0,2,2,1968-69
+02/13/1969,Providence,Wayne Decker,D,JR,0,2,2,1968-69
 02/15/1969,Northeastern,Larry Davenport,F,JR,3,2,5,1968-69
 02/15/1969,Northeastern,Serge Boily,F,SR,1,0,1,1968-69
 02/15/1969,Northeastern,Mike Hyndman,F,JR,1,3,4,1968-69
@@ -4516,13 +4554,15 @@
 12/06/1969,Princeton,Guy Burrowes,F,,0,4,4,1969-70
 12/06/1969,Princeton,Bill Fenwick,F,,0,1,1,1969-70
 12/06/1969,Princeton,Coleman Donaldson,F,,0,1,1,1969-70
-12/29/1969,Northeastern,Don Cahoon,F,,1,0,1,1969-70
-12/29/1969,Northeastern,Steve Stirling,F,,1,0,1,1969-70
-12/29/1969,Northeastern,John Danby,F,,1,0,1,1969-70
-12/29/1969,Northeastern,Larry Davenport,F,,2,2,4,1969-70
-12/29/1969,Northeastern,Bob Gryp,F,,0,1,1,1969-70
-12/29/1969,Northeastern,Unknown,N/A,,2,0,2,1969-70
-12/29/1969,Northeastern,Mike Hyndman,F,,0,4,4,1969-70
+12/29/1969,Northeastern,Larry Davenport,F,SR,2,2,4,1969-70
+12/29/1969,Northeastern,Don Cahoon,F,SO,1,1,2,1969-70
+12/29/1969,Northeastern,Steve Stirling,F,JR,2,2,4,1969-70
+12/29/1969,Northeastern,John Danby,F,SO,1,1,2,1969-70
+12/29/1969,Northeastern,Bob Gryp,F,SO,1,1,2,1969-70
+12/29/1969,Northeastern,Guy Burrowes,F,SO,0,1,1,1969-70
+12/29/1969,Northeastern,Mike Hyndman,F,SR,0,3,3,1969-70
+12/29/1969,Northeastern,Wayne Gowing,F,JR,0,1,1,1969-70
+12/29/1969,Northeastern,Wayne Decker,D,SR,0,1,1,1969-70
 12/30/1969,New Hampshire,Bob Gryp,F,,2,1,3,1969-70
 12/30/1969,New Hampshire,Steve Stirling,F,,1,1,2,1969-70
 12/30/1969,New Hampshire,Wayne Gowing,F,,1,0,1,1969-70
