@@ -4545,13 +4545,13 @@
 12/09/1969,Cornell,Bob Murray,D,SO,0,1,1,1969-70
 12/09/1969,Cornell,Guy Burrowes,F,SO,1,0,1,1969-70
 12/09/1969,Cornell,Steve Stirling,F,JR,1,0,1,1969-70
-12/06/1969,Princeton,Steve Stirling,F,,4,1,5,1969-70
-12/06/1969,Princeton,John Danby,F,,2,2,4,1969-70
-12/06/1969,Princeton,Don Cahoon,F,,2,0,2,1969-70
-12/06/1969,Princeton,Mike Hyndman,F,,2,2,4,1969-70
-12/06/1969,Princeton,Wayne Decker,D,,0,1,1,1969-70
+12/06/1969,Princeton,Steve Stirling,F,JR,4,1,5,1969-70
+12/06/1969,Princeton,John Danby,F,SO,2,2,4,1969-70
+12/06/1969,Princeton,Don Cahoon,F,SO,2,0,2,1969-70
+12/06/1969,Princeton,Mike Hyndman,F,SR,2,2,4,1969-70
+12/06/1969,Princeton,Wayne Decker,D,SR,0,1,1,1969-70
 12/06/1969,Princeton,Joe Meehan,F,,0,1,1,1969-70
-12/06/1969,Princeton,Guy Burrowes,F,,0,4,4,1969-70
+12/06/1969,Princeton,Guy Burrowes,F,SO,0,4,4,1969-70
 12/06/1969,Princeton,Bill Fenwick,F,,0,1,1,1969-70
 12/06/1969,Princeton,Coleman Donaldson,F,,0,1,1,1969-70
 12/29/1969,Northeastern,Larry Davenport,F,SR,2,2,4,1969-70
@@ -4563,158 +4563,159 @@
 12/29/1969,Northeastern,Mike Hyndman,F,SR,0,3,3,1969-70
 12/29/1969,Northeastern,Wayne Gowing,F,JR,0,1,1,1969-70
 12/29/1969,Northeastern,Wayne Decker,D,SR,0,1,1,1969-70
-12/30/1969,New Hampshire,Bob Gryp,F,,2,1,3,1969-70
-12/30/1969,New Hampshire,Steve Stirling,F,,1,1,2,1969-70
-12/30/1969,New Hampshire,Wayne Gowing,F,,1,0,1,1969-70
-12/30/1969,New Hampshire,Don Cahoon,F,,1,3,4,1969-70
-12/30/1969,New Hampshire,John Danby,F,,1,1,2,1969-70
-12/30/1969,New Hampshire,Guy Burrowes,F,,1,2,3,1969-70
-12/30/1969,New Hampshire,Larry Davenport,F,,0,2,2,1969-70
-12/30/1969,New Hampshire,Mike Hyndman,F,,0,1,1,1969-70
-12/30/1969,New Hampshire,Dick Toomey,F,,0,1,1,1969-70
-01/02/1970,Cornell,Don Cahoon,F,,1,0,1,1969-70
-01/02/1970,Cornell,Mike Hyndman,F,,0,1,1,1969-70
-01/03/1970,Michigan Tech,Mike Hyndman,F,,1,1,2,1969-70
-01/03/1970,Michigan Tech,Bob Gryp,F,,2,1,3,1969-70
-01/03/1970,Michigan Tech,Peter Thornton,F,,0,1,1,1969-70
-01/03/1970,Michigan Tech,Steve Stirling,F,,0,1,1,1969-70
+12/30/1969,New Hampshire,Bob Gryp,F,SO,2,1,3,1969-70
+12/30/1969,New Hampshire,Steve Stirling,F,JR,1,1,2,1969-70
+12/30/1969,New Hampshire,Wayne Gowing,F,JR,1,0,1,1969-70
+12/30/1969,New Hampshire,Don Cahoon,F,SO,1,3,4,1969-70
+12/30/1969,New Hampshire,John Danby,F,SO,1,1,2,1969-70
+12/30/1969,New Hampshire,Guy Burrowes,F,SO,1,2,3,1969-70
+12/30/1969,New Hampshire,Larry Davenport,F,SR,0,2,2,1969-70
+12/30/1969,New Hampshire,Mike Hyndman,F,SR,0,1,1,1969-70
+12/30/1969,New Hampshire,Dick Toomey,F,SR,0,1,1,1969-70
+01/02/1970,Cornell,Don Cahoon,F,SO,1,0,1,1969-70
+01/02/1970,Cornell,Mike Hyndman,F,SR,0,1,1,1969-70
+01/03/1970,Michigan Tech,Mike Hyndman,F,SR,1,1,2,1969-70
+01/03/1970,Michigan Tech,Bob Gryp,F,SO,2,1,3,1969-70
+01/03/1970,Michigan Tech,Peter Thornton,F,SO,0,1,1,1969-70
+01/03/1970,Michigan Tech,Steve Stirling,F,JR,0,1,1,1969-70
 01/03/1970,Michigan Tech,Joe Meehan,F,,0,1,1,1969-70
-01/09/1970,Clarkson,John Danby,F,,2,1,3,1969-70
-01/09/1970,Clarkson,Larry Davenport,F,,1,2,3,1969-70
-01/09/1970,Clarkson,Dick Toomey,F,,1,0,1,1969-70
+01/09/1970,Clarkson,John Danby,F,SO,2,1,3,1969-70
+01/09/1970,Clarkson,Larry Davenport,F,SR,1,2,3,1969-70
+01/09/1970,Clarkson,Dick Toomey,F,SR,1,0,1,1969-70
 01/09/1970,Clarkson,Joe Meehan,F,,0,1,1,1969-70
-01/09/1970,Clarkson,Mike Hyndman,F,,0,1,1,1969-70
-01/10/1970,St. Lawrence,Don Cahoon,F,,1,0,1,1969-70
+01/09/1970,Clarkson,Mike Hyndman,F,SR,0,1,1,1969-70
+01/10/1970,St. Lawrence,Don Cahoon,F,SO,1,0,1,1969-70
 01/10/1970,St. Lawrence,Joe Meehan,F,,1,0,1,1969-70
-01/10/1970,St. Lawrence,Larry Davenport,F,,1,1,2,1969-70
-01/10/1970,St. Lawrence,Dick Toomey,F,,1,0,1,1969-70
-01/10/1970,St. Lawrence,Wayne Decker,D,,1,0,1,1969-70
-01/10/1970,St. Lawrence,John Danby,F,,1,1,2,1969-70
-01/10/1970,St. Lawrence,Guy Burrowes,F,,0,1,1,1969-70
-01/14/1970,New Hampshire,Larry Davenport,F,,2,0,2,1969-70
-01/14/1970,New Hampshire,Steve Stirling,F,,1,1,2,1969-70
-01/14/1970,New Hampshire,Bob Gryp,F,,1,0,1,1969-70
-01/14/1970,New Hampshire,Dick Toomey,F,,1,1,2,1969-70
+01/10/1970,St. Lawrence,Larry Davenport,F,SR,1,1,2,1969-70
+01/10/1970,St. Lawrence,Dick Toomey,F,SR,1,0,1,1969-70
+01/10/1970,St. Lawrence,Wayne Decker,D,SR,1,0,1,1969-70
+01/10/1970,St. Lawrence,John Danby,F,SO,1,1,2,1969-70
+01/10/1970,St. Lawrence,Guy Burrowes,F,SO,0,1,1,1969-70
+01/14/1970,New Hampshire,Larry Davenport,F,SR,2,0,2,1969-70
+01/14/1970,New Hampshire,Steve Stirling,F,JR,1,1,2,1969-70
+01/14/1970,New Hampshire,Bob Gryp,F,SO,1,0,1,1969-70
+01/14/1970,New Hampshire,Dick Toomey,F,SR,1,1,2,1969-70
 01/14/1970,New Hampshire,Joe Meehan,F,,0,1,1,1969-70
-01/14/1970,New Hampshire,Mike Hyndman,F,,0,1,1,1969-70
-01/14/1970,New Hampshire,Don Cahoon,F,,0,1,1,1969-70
-01/17/1970,Rensselaer,Don Cahoon,F,,1,1,2,1969-70
-01/17/1970,Rensselaer,Guy Burrowes,F,,1,1,2,1969-70
-01/17/1970,Rensselaer,Mike Hyndman,F,,2,3,5,1969-70
-01/17/1970,Rensselaer,Steve Stirling,F,,1,1,2,1969-70
-01/17/1970,Rensselaer,Bob Murray,D,,1,0,1,1969-70
-01/17/1970,Rensselaer,Bob Gryp,F,,0,2,2,1969-70
-01/17/1970,Rensselaer,John Danby,F,,0,1,1,1969-70
-01/17/1970,Rensselaer,Dick Toomey,F,,0,1,1,1969-70
-01/17/1970,Rensselaer,Peter Thornton,F,,0,1,1,1969-70
-01/23/1970,Colgate,Steve Stirling,F,,1,3,4,1969-70
-01/23/1970,Colgate,Mike Hyndman,F,,3,0,3,1969-70
-01/23/1970,Colgate,Dick Toomey,F,,0,1,1,1969-70
-01/23/1970,Colgate,Wayne Gowing,F,,0,1,1,1969-70
-01/23/1970,Colgate,Bob Gryp,F,,0,2,2,1969-70
-01/27/1970,Boston College,Larry Davenport,F,,2,3,5,1969-70
-01/27/1970,Boston College,Dick Toomey,F,,1,1,2,1969-70
-01/27/1970,Boston College,John Danby,F,,3,1,4,1969-70
-01/27/1970,Boston College,Steve Stirling,F,,1,2,3,1969-70
-01/27/1970,Boston College,Don Cahoon,F,,1,0,1,1969-70
-01/27/1970,Boston College,Wayne Gowing,F,,0,3,3,1969-70
-01/27/1970,Boston College,Bob Gryp,F,,0,1,1,1969-70
-01/31/1970,Dartmouth,Unknown,,,5,0,5,1969-70
-02/02/1970,Harvard,Bob Gryp,F,,1,0,1,1969-70
-02/02/1970,Harvard,Steve Stirling,F,,1,1,2,1969-70
-02/02/1970,Harvard,Larry Davenport,F,,2,0,2,1969-70
-02/02/1970,Harvard,Dick Toomey,F,,1,1,2,1969-70
-02/02/1970,Harvard,Guy Burrowes,F,,0,1,1,1969-70
-02/02/1970,Harvard,Mike Hyndman,F,,0,1,1,1969-70
-02/02/1970,Harvard,John Danby,F,,0,1,1,1969-70
-02/02/1970,Harvard,Wayne Gowing,F,,0,1,1,1969-70
-02/02/1970,Harvard,Bob Murray,D,,0,1,1,1969-70
-02/06/1970,Providence,Guy Burrowes,F,,2,0,2,1969-70
-02/06/1970,Providence,John Danby,F,,2,0,2,1969-70
-02/06/1970,Providence,Steve Stirling,F,,1,1,2,1969-70
-02/06/1970,Providence,Peter Thornton,F,,1,2,3,1969-70
-02/06/1970,Providence,Dick Toomey,F,,1,0,1,1969-70
-02/06/1970,Providence,Larry Davenport,F,,0,3,3,1969-70
-02/06/1970,Providence,Mike Hyndman,F,,0,2,2,1969-70
-02/06/1970,Providence,Wayne Gowing,F,,1,0,1,1969-70
-02/09/1970,Boston College,Wayne Gowing,F,,3,0,3,1969-70
-02/09/1970,Boston College,Peter Thornton,F,,1,0,1,1969-70
-02/09/1970,Boston College,Larry Davenport,F,,1,2,3,1969-70
-02/09/1970,Boston College,Dick Toomey,F,,0,1,1,1969-70
-02/09/1970,Boston College,Mike Hyndman,F,,0,3,3,1969-70
-02/14/1970,Northeastern,Larry Davenport,F,,3,1,4,1969-70
-02/14/1970,Northeastern,Bob Gryp,F,,1,1,2,1969-70
-02/14/1970,Northeastern,Peter Thornton,F,,1,0,1,1969-70
-02/14/1970,Northeastern,Don Cahoon,F,,1,0,1,1969-70
-02/14/1970,Northeastern,Dick Toomey,F,,1,0,1,1969-70
-02/14/1970,Northeastern,Wayne Gowing,F,,1,1,2,1969-70
-02/14/1970,Northeastern,John Danby,F,,1,0,1,1969-70
-02/14/1970,Northeastern,Mike Hyndman,F,,0,4,4,1969-70
-02/14/1970,Northeastern,Guy Burrowes,F,,0,1,1,1969-70
-02/17/1970,Merrimack,Guy Burrowes,F,,2,1,3,1969-70
-02/17/1970,Merrimack,Steve Stirling,F,,2,1,3,1969-70
-02/17/1970,Merrimack,Mike Hyndman,F,,1,1,2,1969-70
-02/17/1970,Merrimack,Bob Gryp,F,,1,1,2,1969-70
-02/17/1970,Merrimack,Don Cahoon,F,,1,3,4,1969-70
-02/17/1970,Merrimack,Peter Thornton,F,,1,1,2,1969-70
-02/17/1970,Merrimack,John Danby,F,,1,2,3,1969-70
-02/17/1970,Merrimack,Paul Giandomenico,F,,1,0,1,1969-70
+01/14/1970,New Hampshire,Mike Hyndman,F,SR,0,1,1,1969-70
+01/14/1970,New Hampshire,Don Cahoon,F,SO,0,1,1,1969-70
+01/17/1970,Rensselaer,Don Cahoon,F,SO,1,1,2,1969-70
+01/17/1970,Rensselaer,Guy Burrowes,F,SO,1,1,2,1969-70
+01/17/1970,Rensselaer,Mike Hyndman,F,SR,2,3,5,1969-70
+01/17/1970,Rensselaer,Steve Stirling,F,JR,1,1,2,1969-70
+01/17/1970,Rensselaer,Bob Murray,D,SO,1,0,1,1969-70
+01/17/1970,Rensselaer,Bob Gryp,F,SO,0,2,2,1969-70
+01/17/1970,Rensselaer,John Danby,F,SO,0,1,1,1969-70
+01/17/1970,Rensselaer,Dick Toomey,F,SR,0,1,1,1969-70
+01/17/1970,Rensselaer,Peter Thornton,F,SO,0,1,1,1969-70
+01/23/1970,Colgate,Steve Stirling,F,JR,1,3,4,1969-70
+01/23/1970,Colgate,Mike Hyndman,F,SR,3,0,3,1969-70
+01/23/1970,Colgate,Dick Toomey,F,SR,0,1,1,1969-70
+01/23/1970,Colgate,Wayne Gowing,F,JR,0,1,1,1969-70
+01/23/1970,Colgate,Bob Gryp,F,SO,0,2,2,1969-70
+01/27/1970,Boston College,Larry Davenport,F,SR,2,3,5,1969-70
+01/27/1970,Boston College,Dick Toomey,F,SR,1,1,2,1969-70
+01/27/1970,Boston College,John Danby,F,SO,3,1,4,1969-70
+01/27/1970,Boston College,Steve Stirling,F,JR,1,2,3,1969-70
+01/27/1970,Boston College,Don Cahoon,F,SO,1,0,1,1969-70
+01/27/1970,Boston College,Wayne Gowing,F,JR,0,3,3,1969-70
+01/27/1970,Boston College,Bob Gryp,F,SO,0,1,1,1969-70
+01/31/1970,Dartmouth,Unknown,N/A,,5,0,5,1969-70
+02/02/1970,Harvard,Bob Gryp,F,SO,1,0,1,1969-70
+02/02/1970,Harvard,Steve Stirling,F,JR,1,1,2,1969-70
+02/02/1970,Harvard,Larry Davenport,F,SR,2,0,2,1969-70
+02/02/1970,Harvard,Dick Toomey,F,SR,1,1,2,1969-70
+02/02/1970,Harvard,Guy Burrowes,F,SO,0,1,1,1969-70
+02/02/1970,Harvard,Mike Hyndman,F,SR,0,1,1,1969-70
+02/02/1970,Harvard,John Danby,F,SO,0,1,1,1969-70
+02/02/1970,Harvard,Wayne Gowing,F,JR,0,1,1,1969-70
+02/02/1970,Harvard,Bob Murray,D,SO,0,1,1,1969-70
+02/06/1970,Providence,Guy Burrowes,F,SO,2,0,2,1969-70
+02/06/1970,Providence,John Danby,F,SO,2,0,2,1969-70
+02/06/1970,Providence,Steve Stirling,F,JR,1,1,2,1969-70
+02/06/1970,Providence,Peter Thornton,F,SO,1,2,3,1969-70
+02/06/1970,Providence,Dick Toomey,F,SR,1,0,1,1969-70
+02/06/1970,Providence,Larry Davenport,F,SR,0,3,3,1969-70
+02/06/1970,Providence,Mike Hyndman,F,SR,0,2,2,1969-70
+02/06/1970,Providence,Wayne Gowing,F,JR,1,0,1,1969-70
+02/09/1970,Boston College,Wayne Gowing,F,JR,3,0,3,1969-70
+02/09/1970,Boston College,Peter Thornton,F,SO,1,0,1,1969-70
+02/09/1970,Boston College,Larry Davenport,F,SR,1,2,3,1969-70
+02/09/1970,Boston College,Dick Toomey,F,SR,0,1,1,1969-70
+02/09/1970,Boston College,Mike Hyndman,F,SR,0,3,3,1969-70
+02/14/1970,Northeastern,Larry Davenport,F,SR,3,1,4,1969-70
+02/14/1970,Northeastern,Bob Gryp,F,SO,1,1,2,1969-70
+02/14/1970,Northeastern,Peter Thornton,F,SO,1,0,1,1969-70
+02/14/1970,Northeastern,Don Cahoon,F,SO,1,0,1,1969-70
+02/14/1970,Northeastern,Dick Toomey,F,SR,1,0,1,1969-70
+02/14/1970,Northeastern,Wayne Gowing,F,JR,1,1,2,1969-70
+02/14/1970,Northeastern,John Danby,F,SO,1,0,1,1969-70
+02/14/1970,Northeastern,Mike Hyndman,F,SR,0,4,4,1969-70
+02/14/1970,Northeastern,Guy Burrowes,F,SO,0,1,1,1969-70
+02/17/1970,Merrimack,Guy Burrowes,F,SO,2,1,3,1969-70
+02/17/1970,Merrimack,Steve Stirling,F,JR,2,1,3,1969-70
+02/17/1970,Merrimack,Mike Hyndman,F,SR,1,1,2,1969-70
+02/17/1970,Merrimack,Bob Gryp,F,SO,1,1,2,1969-70
+02/17/1970,Merrimack,Don Cahoon,F,SO,1,3,4,1969-70
+02/17/1970,Merrimack,Peter Thornton,F,SO,1,1,2,1969-70
+02/17/1970,Merrimack,John Danby,F,SO,1,2,3,1969-70
+02/17/1970,Merrimack,Paul Giandomenico,F,SO,1,0,1,1969-70
 02/17/1970,Merrimack,Joe Meehan,F,,1,0,1,1969-70
-02/17/1970,Merrimack,Wayne Gowing,F,,1,1,2,1969-70
-02/17/1970,Merrimack,Wayne Decker,D,,0,2,2,1969-70
-02/17/1970,Merrimack,Peter Yetten,D,,0,1,1,1969-70
-02/17/1970,Merrimack,Larry Davenport,F,,0,2,2,1969-70
-02/17/1970,Merrimack,Dick Toomey,F,,0,1,1,1969-70
-02/21/1970,New Hampshire,Larry Davenport,F,,1,0,1,1969-70
-02/21/1970,New Hampshire,Bob Gryp,F,,1,0,1,1969-70
-02/21/1970,New Hampshire,Dick Toomey,F,,0,1,1,1969-70
-02/21/1970,New Hampshire,John Danby,F,,0,1,1,1969-70
-02/21/1970,New Hampshire,Mike Hyndman,F,,0,1,1,1969-70
-02/25/1970,Boston College,John Danby,F,,2,1,3,1969-70
-02/25/1970,Boston College,Wayne Gowing,F,,2,0,2,1969-70
-02/25/1970,Boston College,Peter Thornton,F,,2,0,2,1969-70
+02/17/1970,Merrimack,Wayne Gowing,F,JR,1,1,2,1969-70
+02/17/1970,Merrimack,Wayne Decker,D,SR,0,2,2,1969-70
+02/17/1970,Merrimack,Peter Yetten,D,JR,0,1,1,1969-70
+02/17/1970,Merrimack,Larry Davenport,F,SR,0,2,2,1969-70
+02/17/1970,Merrimack,Dick Toomey,F,SR,0,1,1,1969-70
+02/21/1970,New Hampshire,Larry Davenport,F,SR,1,0,1,1969-70
+02/21/1970,New Hampshire,Bob Gryp,F,SO,1,0,1,1969-70
+02/21/1970,New Hampshire,Dick Toomey,F,SR,0,1,1,1969-70
+02/21/1970,New Hampshire,John Danby,F,SO,0,1,1,1969-70
+02/21/1970,New Hampshire,Mike Hyndman,F,SR,0,1,1,1969-70
+02/25/1970,Boston College,John Danby,F,SO,2,1,3,1969-70
+02/25/1970,Boston College,Wayne Gowing,F,JR,2,0,2,1969-70
+02/25/1970,Boston College,Peter Thornton,F,SO,2,0,2,1969-70
 02/25/1970,Boston College,Joe Meehan,F,,1,0,1,1969-70
-02/25/1970,Boston College,Don Cahoon,F,,1,0,1,1969-70
-02/25/1970,Boston College,Larry Davenport,F,,0,3,3,1969-70
-02/25/1970,Boston College,Steve Stirling,F,,0,2,2,1969-70
-02/25/1970,Boston College,Wayne Decker,D,,0,1,1,1969-70
-02/25/1970,Boston College,Dick Toomey,F,,0,1,1,1969-70
-02/25/1970,Boston College,Bob Gryp,F,,0,1,1,1969-70
-02/28/1970,Providence,Larry Davenport,F,,1,0,1,1969-70
-02/28/1970,Providence,Steve Stirling,F,,1,0,1,1969-70
-02/28/1970,Providence,John Danby,F,,2,1,3,1969-70
-02/28/1970,Providence,Bob Murray,D,,1,0,1,1969-70
-02/28/1970,Providence,Dick Toomey,F,,0,2,2,1969-70
-02/28/1970,Providence,Wayne Decker,D,,0,1,1,1969-70
-02/28/1970,Providence,Wayne Gowing,F,,0,1,1,1969-70
-02/28/1970,Providence,Mike Hyndman,F,,0,1,1,1969-70
-03/05/1970,Clarkson,Bob Gryp,F,,1,0,1,1969-70
-03/05/1970,Clarkson,John Danby,F,,1,1,2,1969-70
-03/05/1970,Clarkson,Dick Toomey,F,,3,0,3,1969-70
-03/05/1970,Clarkson,Larry Davenport,F,,1,1,2,1969-70
-03/05/1970,Clarkson,Don Cahoon,F,,0,1,1,1969-70
-03/05/1970,Clarkson,Guy Burrowes,F,,0,1,1,1969-70
-03/05/1970,Clarkson,Wayne Gowing,F,,0,2,2,1969-70
-03/05/1970,Clarkson,Steve Stirling,F,,0,3,3,1969-70
-03/05/1970,Clarkson,Peter Thornton,F,,0,3,3,1969-70
-03/10/1970,New Hampshire,Larry Davenport,F,,1,0,1,1969-70
-03/10/1970,New Hampshire,John Danby,F,,1,0,1,1969-70
-03/10/1970,New Hampshire,Mike Hyndman,F,,0,1,1,1969-70
-03/10/1970,New Hampshire,Steve Stirling,F,,0,1,1,1969-70
-03/13/1970,Clarkson,Dick Toomey,F,,1,2,3,1969-70
-03/13/1970,Clarkson,Steve Stirling,F,,1,1,2,1969-70
-03/13/1970,Clarkson,John Danby,F,,2,0,2,1969-70
+02/25/1970,Boston College,Don Cahoon,F,SO,1,0,1,1969-70
+02/25/1970,Boston College,Larry Davenport,F,SR,0,3,3,1969-70
+02/25/1970,Boston College,Steve Stirling,F,JR,0,2,2,1969-70
+02/25/1970,Boston College,Wayne Decker,D,SR,0,1,1,1969-70
+02/25/1970,Boston College,Dick Toomey,F,SR,0,1,1,1969-70
+02/25/1970,Boston College,Bob Gryp,F,SO,0,1,1,1969-70
+02/28/1970,Providence,Larry Davenport,F,SR,1,0,1,1969-70
+02/28/1970,Providence,Steve Stirling,F,JR,1,0,1,1969-70
+02/28/1970,Providence,John Danby,F,SO,2,1,3,1969-70
+02/28/1970,Providence,Bob Murray,D,SO,1,0,1,1969-70
+02/28/1970,Providence,Dick Toomey,F,SR,0,2,2,1969-70
+02/28/1970,Providence,Wayne Decker,D,SR,0,1,1,1969-70
+02/28/1970,Providence,Wayne Gowing,F,JR,0,1,1,1969-70
+02/28/1970,Providence,Mike Hyndman,F,SR,0,1,1,1969-70
+03/05/1970,Clarkson,Bob Gryp,F,SO,1,0,1,1969-70
+03/05/1970,Clarkson,Dick Toomey,F,SR,3,0,3,1969-70
+03/05/1970,Clarkson,Larry Davenport,F,SR,1,1,2,1969-70
+03/05/1970,Clarkson,Don Cahoon,F,SO,0,1,1,1969-70
+03/05/1970,Clarkson,Guy Burrowes,F,SO,0,1,1,1969-70
+03/05/1970,Clarkson,Wayne Gowing,F,JR,0,2,2,1969-70
+03/05/1970,Clarkson,Steve Stirling,F,JR,0,3,3,1969-70
+03/05/1970,Clarkson,Peter Thornton,F,SO,0,3,3,1969-70
+03/05/1970,Clarkson,John Danby,F,SO,1,1,2,1969-70
+03/10/1970,New Hampshire,Larry Davenport,F,SR,1,0,1,1969-70
+03/10/1970,New Hampshire,John Danby,F,SO,1,0,1,1969-70
+03/10/1970,New Hampshire,Mike Hyndman,F,SR,0,1,1,1969-70
+03/10/1970,New Hampshire,Steve Stirling,F,JR,0,1,1,1969-70
+03/13/1970,Clarkson,Dick Toomey,F,SR,1,2,3,1969-70
+03/13/1970,Clarkson,Steve Stirling,F,JR,1,1,2,1969-70
+03/13/1970,Clarkson,John Danby,F,SO,2,0,2,1969-70
 03/13/1970,Clarkson,Ted Bryand,D,,0,1,1,1969-70
-03/13/1970,Clarkson,Bob Gryp,F,,0,1,1,1969-70
-03/14/1970,Harvard,Larry Davenport,F,,2,2,4,1969-70
-03/14/1970,Harvard,Dick Toomey,F,,3,0,3,1969-70
-03/14/1970,Harvard,Wayne Gowing,F,,1,1,2,1969-70
-03/14/1970,Harvard,John Danby,F,,1,0,1,1969-70
-03/14/1970,Harvard,Mike Hyndman,F,,0,3,3,1969-70
-03/14/1970,Harvard,Steve Stirling,F,,0,3,3,1969-70
-03/14/1970,Harvard,Peter Thornton,F,,0,1,1,1969-70
-03/14/1970,Harvard,Paul Giandomenico,F,,0,1,1,1969-70
-03/14/1970,Harvard,Guy Burrowes,F,,1,0,1,1969-70
+03/13/1970,Clarkson,Bob Gryp,F,SO,0,1,1,1969-70
+03/14/1970,Harvard,Larry Davenport,F,SR,2,2,4,1969-70
+03/14/1970,Harvard,Dick Toomey,F,SR,3,0,3,1969-70
+03/14/1970,Harvard,Wayne Gowing,F,JR,1,1,2,1969-70
+03/14/1970,Harvard,John Danby,F,SO,1,0,1,1969-70
+03/14/1970,Harvard,Mike Hyndman,F,SR,0,3,3,1969-70
+03/14/1970,Harvard,Steve Stirling,F,JR,0,3,3,1969-70
+03/14/1970,Harvard,Peter Thornton,F,SO,0,1,1,1969-70
+03/14/1970,Harvard,Paul Giandomenico,F,SO,0,1,1,1969-70
+03/14/1970,Harvard,Guy Burrowes,F,SO,1,0,1,1969-70
+
 11/27/1970,St. Louis,John Danby,F,JR,3,2,5,1970-71
 11/27/1970,St. Louis,Steve Doloff,F,SO,2,0,2,1970-71
 11/27/1970,St. Louis,Bob Gryp,F,JR,1,0,1,1970-71
@@ -6622,17 +6623,17 @@
 03/11/1977,Clarkson,John McClellan,F,SR,0,1,1,1976-77
 03/11/1977,Clarkson,Gary Fay,D,SR,0,1,1,1976-77
 03/11/1977,Clarkson,Dick Lamby,D,JR,0,3,3,1976-77
-1977-03-12,New Hampshire,Bill O'Neill,D,SO,1,0,1,1976-77
-1977-03-12,New Hampshire,Gary Fay,D,SR,1,0,1,1976-77
-1977-03-12,New Hampshire,John Melanson,F,SO,1,0,1,1976-77
-1977-03-12,New Hampshire,Mike Eruzione,F,SR,2,0,1,1976-77
-1977-03-12,New Hampshire,Matt Marden,F,JR,2,1,3,1976-77
-1977-03-12,New Hampshire,Dave Silk,F,FR,1,1,2,1976-77
-1977-03-12,New Hampshire,Rick Meagher,F,SR,0,5,5,1976-77
-1977-03-12,New Hampshire,Jack O'Callahan,D,SO,0,1,1,1976-77
-1977-03-12,New Hampshire,Marc Hetnik,F,SO,0,1,1,1976-77
-1977-03-12,New Hampshire,Mickey Mullen,F,JR,0,1,1,1976-77
-1977-03-12,New Hampshire,Mike Pidgeon,F,FR,0,1,1,1976-77
+03/12/1977,New Hampshire,Bill O'Neill,D,SO,1,0,1,1976-77
+03/12/1977,New Hampshire,Gary Fay,D,SR,1,0,1,1976-77
+03/12/1977,New Hampshire,John Melanson,F,SO,1,0,1,1976-77
+03/12/1977,New Hampshire,Mike Eruzione,F,SR,2,0,1,1976-77
+03/12/1977,New Hampshire,Matt Marden,F,JR,2,1,3,1976-77
+03/12/1977,New Hampshire,Dave Silk,F,FR,1,1,2,1976-77
+03/12/1977,New Hampshire,Rick Meagher,F,SR,0,5,5,1976-77
+03/12/1977,New Hampshire,Jack O'Callahan,D,SO,0,1,1,1976-77
+03/12/1977,New Hampshire,Marc Hetnik,F,SO,0,1,1,1976-77
+03/12/1977,New Hampshire,Mickey Mullen,F,JR,0,1,1,1976-77
+03/12/1977,New Hampshire,Mike Pidgeon,F,FR,0,1,1,1976-77
 03/24/1977,Michigan,Mike Eruzione,F,SR,0,1,1,1976-77
 03/24/1977,Michigan,Rick Meagher,F,SR,1,2,3,1976-77
 03/24/1977,Michigan,Dick Lamby,D,JR,0,1,1,1976-77
