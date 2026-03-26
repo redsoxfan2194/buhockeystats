@@ -4619,7 +4619,15 @@
 01/27/1970,Boston College,Don Cahoon,F,SO,1,0,1,1969-70
 01/27/1970,Boston College,Wayne Gowing,F,JR,0,3,3,1969-70
 01/27/1970,Boston College,Bob Gryp,F,SO,0,1,1,1969-70
-01/31/1970,Dartmouth,Unknown,N/A,,5,0,5,1969-70
+01/31/1970,Dartmouth,John Danby,F,SO,1,1,2,1969-70
+01/31/1970,Dartmouth,Mike Hyndman,F,SR,1,2,3,1969-70
+01/31/1970,Dartmouth,Guy Burrowes,F,SO,1,0,1,1969-70
+01/31/1970,Dartmouth,Don Cahoon,F,SO,1,0,1,1969-70
+01/31/1970,Dartmouth,Steve Stirling,F,JR,1,0,1,1969-70
+01/31/1970,Dartmouth,Larry Davenport,F,SR,0,2,2,1969-70
+01/31/1970,Dartmouth,Bob Gryp,F,SO,0,1,1,1969-70
+01/31/1970,Dartmouth,Dick Toomey,F,SR,0,1,1,1969-70
+01/31/1970,Dartmouth,Steve Thornton,F,JR,0,1,1,1969-70
 02/02/1970,Harvard,Bob Gryp,F,SO,1,0,1,1969-70
 02/02/1970,Harvard,Steve Stirling,F,JR,1,1,2,1969-70
 02/02/1970,Harvard,Larry Davenport,F,SR,2,0,2,1969-70
@@ -5096,7 +5104,6 @@
 01/07/1972,Clarkson,Ron Anderson,F,SR,0,1,1,1971-72
 01/07/1972,Clarkson,Bob Gryp,F,SR,0,1,1,1971-72
 01/07/1972,Clarkson,Bob Murray,D,SR,0,1,1,1971-72
-01/08/1972,St. Lawrence,Unknown,,,5,0,5,1971-72
 01/08/1972,St. Lawrence,John Danby,F,SR,2,1,3,1971-72
 01/08/1972,St. Lawrence,Guy Burrowes,F,SR,1,0,1,1971-72
 01/08/1972,St. Lawrence,Bill Flynn,F,SR,1,0,1,1971-72
@@ -5475,8 +5482,16 @@
 02/21/1973,Boston College,Bill Burlington,F,SO,0,1,1,1972-73
 02/21/1973,Boston College,David Wisener,F,SR,1,0,1,1972-73
 02/21/1973,Boston College,Bill Bishop,F,SO,1,0,1,1972-73
-02/24/1973,Colgate,Unknown,,,4,0,4,1972-73
-02/24/1973,Colgate,Ray Cournoyea,F,JR,2,1,3,1972-73
+02/24/1973,Colgate,Ray Cournoyea,F,JR,2,0,2,1972-73
+02/24/1973,Colgate,Bill Robbins,F,FR,2,1,3,1972-73
+02/24/1973,Colgate,Bill Burlington,F,JR,1,0,1,1972-73
+02/24/1973,Colgate,Ken Kuzyk,F,SO,1,1,2,1972-73
+02/24/1973,Colgate,Steve Doloff,F,SR,1,1,2,1972-73
+02/24/1973,Colgate,Paul O'Neil,F,SO,0,3,3,1972-73
+02/24/1973,Colgate,Jim Glover,F,SO,0,1,1,1972-73
+02/24/1973,Colgate,David Wisener,F,SR,0,2,2,1972-73
+02/24/1973,Colgate,Vic Stanfield,D,SO,0,1,1,1972-73
+02/24/1973,Colgate,Dave Warner,D,SR,0,1,1,1972-73
 03/06/1973,Pennsylvania,Vic Stanfield,D,SO,0,1,1,1972-73
 03/06/1973,Pennsylvania,Steve Doloff,F,SR,0,1,1,1972-73
 03/06/1973,Pennsylvania,Peter Brown,D,FR,0,2,2,1972-73
@@ -5545,7 +5560,10 @@
 12/28/1973,Ohio State,Bill Robbins,F,SO,1,1,2,1973-74
 12/28/1973,Ohio State,Terry Meagher,F,SO,1,0,1,1973-74
 12/28/1973,Ohio State,Mike Eruzione,F,FR,2,0,2,1973-74
-12/29/1973,Rensselaer,Unknown,,,2,0,2,1973-74
+12/29/1973,Rensselaer,Rick Meagher,F,FR,1,0,1,1973-74
+12/29/1973,Rensselaer,Bill Robbins,F,SO,1,1,2,1973-74
+12/29/1973,Rensselaer,Chris Bannerman,D,SO,0,2,2,1973-74
+12/29/1973,Rensselaer,Peter Marzo,F,SO,0,1,1,1973-74
 01/04/1974,Clarkson,Terry Meagher,F,SO,2,1,3,1973-74
 01/04/1974,Clarkson,Bill Robbins,F,SO,2,0,2,1973-74
 01/04/1974,Clarkson,Jim Lowell,F,JR,1,2,3,1973-74
