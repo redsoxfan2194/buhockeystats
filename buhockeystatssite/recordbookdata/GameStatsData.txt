@@ -3089,13 +3089,12 @@
 02/08/1962,Clarkson,Edmund Connors,F,,0,1,1,1961-62
 02/08/1962,Clarkson,Don Goguen,D,,0,1,1,1961-62
 02/15/1962,Providence,Alan Welch,F,,1,0,1,1961-62
-02/15/1962,Providence,Ken Ross,F,SO,2,0,2,1961-62
+02/15/1962,Providence,Ken Ross,F,SO,2,1,3,1961-62
 02/15/1962,Providence,Dave Mahoney,F,,1,0,1,1961-62
 02/15/1962,Providence,Dave Carver,D,,1,0,1,1961-62
 02/15/1962,Providence,Bob Rowan,F,,0,1,1,1961-62
 02/15/1962,Providence,Mike Denihan,F,,0,2,2,1961-62
 02/15/1962,Providence,Don Goguen,D,,0,1,1,1961-62
-02/15/1962,Providence,Ken Ross,F,,0,1,1,1961-62
 02/15/1962,Providence,Bob Smith,D,,0,1,1,1961-62
 02/15/1962,Providence,Alden Sampson,D,,0,1,1,1961-62
 02/20/1962,Boston College,Mike Denihan,F,,2,0,2,1961-62
@@ -3209,7 +3208,6 @@
 02/25/1963,Northeastern,Bob McCabe,F,,0,1,1,1962-63
 02/25/1963,Northeastern,Bob Martell,F,,0,1,1,1962-63
 02/25/1963,Northeastern,Mike Denihan,F,,0,1,1,1962-63
-12/01/1962,Princeton,Richard Green,D,,0,1,1,1962-63
 02/11/1963,Northeastern,Bob Martell,F,SO,1,0,1,1962-63
 02/11/1963,Northeastern,Bob McCabe,F,JR,0,1,1,1962-63
 02/11/1963,Northeastern,Bob Smith,D,SR,0,1,1,1962-63
@@ -4094,19 +4092,19 @@
 11/24/1967,Memorial Univ.,Larry Davenport,F,SO,0,2,2,1967-68
 11/24/1967,Memorial Univ.,BIll Riley,F,,0,1,1,1967-68
 11/24/1967,Memorial Univ.,Darrell Abbott,D,JR,0,1,1,1967-68
-11/25/67,New Brunswick,Bill Riley,F,,2,2,4,1967-68
-11/26/67,New Brunswick,John Cooke,F,SR,1,1,2,1967-68
-11/27/67,New Brunswick,Mickey Gray,F,JR,4,0,4,1967-68
-11/28/67,New Brunswick,Mike Hyndman,F,SO,2,1,3,1967-68
-11/29/67,New Brunswick,Eddie Wright,F,JR,1,0,1,1967-68
-11/30/67,New Brunswick,Serge Boily,F,JR,1,1,2,1967-68
-12/01/67,New Brunswick,Dick Toomey,F,SO,1,3,4,1967-68
-12/02/67,New Brunswick,Paul Fontas,F,,1,0,1,1967-68
-12/03/67,New Brunswick,Darrell Abbott,D,JR,0,1,1,1967-68
-12/04/67,New Brunswick,Herb Wakabayashi,F,JR,0,3,3,1967-68
-12/05/67,New Brunswick,Jack Parker,F,SR,0,1,1,1967-68
-12/06/67,New Brunswick,Larry Davenport,F,SO,0,6,6,1967-68
-11/29/1967,Yale,Bill Hinch,D,JR,0,1,1,1967-68
+11/25/1967,New Brunswick,Bill Riley,F,,2,2,4,1967-68
+11/25/1967,New Brunswick,John Cooke,F,SR,1,1,2,1967-68
+11/25/1967,New Brunswick,Mickey Gray,F,JR,4,0,4,1967-68
+11/25/1967,New Brunswick,Mike Hyndman,F,SO,2,1,3,1967-68
+11/25/1967,New Brunswick,Eddie Wright,F,JR,1,0,1,1967-68
+11/25/1967,New Brunswick,Serge Boily,F,JR,1,1,2,1967-68
+11/25/1967,New Brunswick,Dick Toomey,F,SO,1,3,4,1967-68
+11/25/1967,New Brunswick,Paul Fontas,F,,1,0,1,1967-68
+11/25/1967,New Brunswick,Darrell Abbott,D,JR,0,1,1,1967-68
+11/25/1967,New Brunswick,Herb Wakabayashi,F,JR,0,3,3,1967-68
+11/25/1967,New Brunswick,Jack Parker,F,SR,0,1,1,1967-68
+11/25/1967,New Brunswick,Larry Davenport,F,SO,0,6,6,1967-68
+11/25/1967,Yale,Bill Hinch,D,JR,0,1,1,1967-68
 11/29/1967,Yale,Darrell Abbott,D,JR,0,1,1,1967-68
 11/29/1967,Yale,Dick Toomey,F,SO,2,0,2,1967-68
 11/29/1967,Yale,Eddie Wright,F,JR,0,1,1,1967-68
@@ -4268,7 +4266,7 @@
 02/12/1968,Harvard,Jack Parker,F,SR,1,0,1,1967-68
 02/17/1968,Army,Serge Boily,F,JR,1,0,1,1967-68
 02/17/1968,Army,Glen Gama,F,,1,0,1,1967-68
-02/17/1968,Army,Wayne Decker,D,SO,,1,1,1967-68
+02/17/1968,Army,Wayne Decker,D,SO,0,1,1,1967-68
 02/17/1968,Army,Larry Davenport,F,SO,0,1,1,1967-68
 02/20/1968,Northeastern,Mickey Gray,F,JR,2,2,4,1967-68
 02/20/1968,Northeastern,Eddie Wright,F,JR,2,0,2,1967-68
@@ -4723,7 +4721,6 @@
 03/14/1970,Harvard,Peter Thornton,F,SO,0,1,1,1969-70
 03/14/1970,Harvard,Paul Giandomenico,F,SO,0,1,1,1969-70
 03/14/1970,Harvard,Guy Burrowes,F,SO,1,0,1,1969-70
-
 11/27/1970,St. Louis,John Danby,F,JR,3,2,5,1970-71
 11/27/1970,St. Louis,Steve Doloff,F,SO,2,0,2,1970-71
 11/27/1970,St. Louis,Bob Gryp,F,JR,1,0,1,1970-71
@@ -5426,11 +5423,11 @@
 01/26/1973,St. Lawrence,Vic Stanfield,D,SO,1,2,3,1972-73
 01/26/1973,St. Lawrence,Paul O'Neil,F,SO,3,1,4,1972-73
 01/26/1973,St. Lawrence,Steve Doloff,F,SR,1,1,2,1972-73
-03/30/1973,Massachusetts,Ray Cournoyea,F,JR,4,1,5,1972-73
-03/30/1973,Massachusetts,David Wisener,F,SR,2,1,3,1972-73
-03/30/1973,Massachusetts,Steve Doloff,F,SR,0,5,5,1972-73
-03/30/1973,Massachusetts,Ken Kuzyk,F,FR,1,0,1,1972-73
-03/30/1973,Massachusetts,Bill Robbins,F,FR,0,1,1,1972-73
+01/30/1973,Massachusetts,Ray Cournoyea,F,JR,4,1,5,1972-73
+01/30/1973,Massachusetts,David Wisener,F,SR,2,1,3,1972-73
+01/30/1973,Massachusetts,Steve Doloff,F,SR,0,5,5,1972-73
+01/30/1973,Massachusetts,Ken Kuzyk,F,FR,1,0,1,1972-73
+01/30/1973,Massachusetts,Bill Robbins,F,FR,0,1,1,1972-73
 03/30/1973,Massachusetts,Paul O'Neil,F,SO,0,1,1,1972-73
 02/02/1973,Clarkson,Ken Kuzyk,F,FR,0,1,1,1972-73
 02/02/1973,Clarkson,Bill Burlington,F,SO,0,1,1,1972-73
@@ -10430,7 +10427,6 @@
 02/04/1991,Harvard,David Tomlinson,F,SR,0,3,3,1990-91
 02/04/1991,Harvard,David Sacco,F,SO,2,0,2,1990-91
 02/04/1991,Harvard,Darin MacDonald,F,SR,0,1,1,1990-91
-02/08/1991,Merrimack,Tom Dion,D,JR,0,1,1,1990-91
 02/08/1991,Merrimack,Tony Amonte,F,SO,1,2,3,1990-91
 02/08/1991,Merrimack,Tom Dion,D,JR,0,1,1,1990-91
 02/08/1991,Merrimack,Shawn McEachern,F,JR,2,1,3,1990-91
@@ -11304,7 +11300,6 @@
 12/30/1993,New Hampshire,Doug Friedman,F,SR,1,0,1,1993-94
 12/30/1993,New Hampshire,Jon Pratt,F,SR,0,1,1,1993-94
 12/30/1993,New Hampshire,Dan Donato,D,SR,1,0,1,1993-94
-01/04/1994,UMass Lowell,Jacques Joubert,F,JR,1,0,1,1993-94
 01/04/1994,UMass Lowell,Rich Brennan,D,JR,1,0,1,1993-94
 01/04/1994,UMass Lowell,Jon Jenkins,F,JR,1,0,1,1993-94
 01/04/1994,UMass Lowell,Jon Pratt,F,SR,2,0,2,1993-94
