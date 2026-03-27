@@ -1520,7 +1520,7 @@
 03/17/1950,Michigan,Joe Folino,D,,0,1,1,1949-50
 03/17/1950,Michigan,Lloyd Robinson,F,,0,2,2,1949-50
 03/18/1950,Colorado College,Jack Garrity,F,SO,1,3,4,1949-50
-03/18/1950,Colorado College,Jack Kelley,F,,1,1,2,1949-50
+03/18/1950,Colorado College,Jack Kelley,F,SO,1,1,2,1949-50
 03/18/1950,Colorado College,Joe Czarnota,F,,1,0,1,1949-50
 03/18/1950,Colorado College,Bob Bell,F,,1,0,1,1949-50
 03/18/1950,Colorado College,Lloyd Robinson,F,,0,1,1,1949-50
@@ -2119,12 +2119,12 @@
 03/02/1955,Northeastern,Bob Buell,F,,0,1,1,1954-55
 03/02/1955,Northeastern,Dick McAdoo,F,,0,1,1,1954-55
 03/02/1955,Northeastern,Mike Manning,F,,1,0,1,1954-55
-12/02/1955,Brown,Curt Ford,F,,1,0,1,1954-55
-12/02/1955,Brown,Bob Dupuis,D,,0,2,2,1954-55
-12/02/1955,Brown,Jack Murphy,F,SR,1,0,1,1954-55
-12/02/1955,Brown,Tony Cicoria,F,,0,1,1,1954-55
-12/02/1955,Brown,Jack Carruthers,F,,1,0,1,1954-55
-12/02/1955,Brown,Joe Quinn,F,,0,1,1,1954-55
+12/02/1955,Brown,Curt Ford,F,,1,0,1,1955-56
+12/02/1955,Brown,Bob Dupuis,D,SO,0,2,2,1955-56
+12/02/1955,Brown,Jack Murphy,F,SR,1,0,1,1955-56
+12/02/1955,Brown,Tony Cicoria,F,,0,1,1,1955-56
+12/02/1955,Brown,Jack Carruthers,F,,1,0,1,1955-56
+12/02/1955,Brown,Joe Quinn,F,,0,1,1,1955-56
 12/06/1955,Yale,Bill Sullivan,F,,1,0,1,1955-56
 12/06/1955,Yale,Forbes Keith,F,,2,0,2,1955-56
 12/06/1955,Yale,Jack Carruthers,F,SO,1,0,1,1955-56
@@ -2392,7 +2392,7 @@
 02/25/1957,Boston College,Larry Creighton,F,SO,2,0,2,1956-57
 02/25/1957,Boston College,Sarge Kinlin,F,,2,0,2,1956-57
 02/25/1957,Boston College,Joe Quinn,F,,0,1,1,1956-57
-02/25/1957,Boston College,Bob Dupuis,D,,0,1,1,1956-57
+02/25/1957,Boston College,Bob Dupuis,D,SR,0,1,1,1956-57
 02/25/1957,Boston College,Mike Manning,F,,0,1,1,1956-57
 02/25/1957,Boston College,Tony Cicoria,F,,0,1,1,1956-57
 12/02/1957,Northeastern,Bill McCormack,F,,0,1,1,1957-58
@@ -13240,7 +13240,7 @@
 01/15/2000,Maine,Dan Cavanaugh,F,SO,0,1,1,1999-00
 01/15/2000,Maine,Tommi Degerman,F,SR,0,1,1,1999-00
 01/15/2000,Maine,Pat Aufiero,D,SO,0,1,1,1999-00
-01/15/2000,Maine,Mike Pandolfo,F,JR,0,1,1,1999-00
+01/15/2000,Maine,Mike Pandolfo,F,SO,0,1,1,1999-00
 01/16/2000,Maine,Mike DiMella,F,JR,0,1,1,1999-00
 01/16/2000,Maine,John Sabo,F,FR,1,0,1,1999-00
 01/16/2000,Maine,Chris Heron,F,SR,1,0,1,1999-00
@@ -29255,7 +29255,7 @@
 12/11/2022,Connecticut,Sam Stevens,F,SR,0,0,0,2022-23
 12/11/2022,Connecticut,Domenick Fensore,D,SR,0,1,1,2022-23
 12/11/2022,Connecticut,Ethan Phillips,F,SR,0,0,0,2022-23
-12/11/2022,Connecticut,Tristan Amonte,F,JR,0,0,0,2022-23
+12/11/2022,Connecticut,Tristan Amonte,F,SO,0,0,0,2022-23
 12/11/2022,Connecticut,Case McCarthy,D,SR,0,0,0,2022-23
 12/11/2022,Connecticut,Jamie Armstrong,F,SR,0,1,1,2022-23
 12/11/2022,Connecticut,Luke Tuch,F,JR,0,0,0,2022-23
