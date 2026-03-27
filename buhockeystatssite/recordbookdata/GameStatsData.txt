@@ -3041,7 +3041,7 @@
 12/19/1961,Princeton,Dave Mahoney,F,,1,0,1,1961-62
 12/19/1961,Princeton,Alden Sampson,D,SO,0,2,2,1961-62
 12/19/1961,Princeton,Edmund Connors,F,JR,0,3,3,1961-62
-12/19/1961,Princeton,Jim Higgins,D,,0,1,1,1961-62
+12/19/1961,Princeton,Jim Higgins,D,JR,0,1,1,1961-62
 12/22/1961,Boston College,Peter Fitzgerald,F,,1,0,1,1961-62
 12/22/1961,Boston College,Bob Smith,D,JR,1,0,1,1961-62
 12/22/1961,Boston College,Don Spinney,F,,0,1,1,1961-62
@@ -3844,7 +3844,7 @@
 03/19/1966,Denver,Fred Bassi,F,JR,1,1,2,1965-66
 03/19/1966,Denver,Jim Quinn,F,JR,1,2,3,1965-66
 03/19/1966,Denver,Brian Gilmour,D,JR,1,0,1,1965-66
-03/19/1966,Denver,Pete McLachlan,D,SR,0,1,1,1965-66
+03/19/1966,Denver,Pete McLachlan,D,JR,0,1,1,1965-66
 11/25/1966,New Brunswick,Mike Sobeski,F,SR,2,1,3,1966-67
 11/25/1966,New Brunswick,Serge Boily,F,SO,2,2,4,1966-67
 11/25/1966,New Brunswick,Mickey Gray,F,SO,1,1,2,1966-67
