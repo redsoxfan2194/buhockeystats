@@ -1956,7 +1956,7 @@
 12/04/1953,Brown,Ray Kelley,D,,0,1,1,1953-54
 12/12/1953,Rensselaer,Tom Dwyer,F,,0,1,1,1953-54
 12/12/1953,Rensselaer,Jack Murphy,F,SO,1,0,1,1953-54
-12/12/1953,Rensselaer,John Burns,F,,1,1,1,1953-54
+12/12/1953,Rensselaer,John Burns,F,,0,1,1,1953-54
 12/12/1953,Rensselaer,Warren Whiting,F,,1,0,1,1953-54
 12/15/1953,Harvard,Bob Rousseau,D,,0,1,1,1953-54
 12/15/1953,Harvard,Jack Murphy,F,SO,1,0,1,1953-54
@@ -2387,12 +2387,12 @@
 02/22/1957,St. Lawrence,Joe Quinn,F,,1,0,1,1956-57
 02/22/1957,St. Lawrence,Larry Creighton,F,SO,1,1,2,1956-57
 02/22/1957,St. Lawrence,Sarge Kinlin,F,,1,0,1,1956-57
-02/22/1957,St. Lawrence,Mike Manning,F,,1,0,1,1956-57
+02/22/1957,St. Lawrence,Mike Manning,F,,0,1,1,1956-57
 02/23/1957,Clarkson,Bill Sweeney,F,,1,0,1,1956-57
 02/25/1957,Boston College,Larry Creighton,F,SO,2,0,2,1956-57
 02/25/1957,Boston College,Sarge Kinlin,F,,2,0,2,1956-57
 02/25/1957,Boston College,Joe Quinn,F,,0,1,1,1956-57
-02/25/1957,Boston College,Bob Dupuis,D,SR,0,1,1,1956-57
+02/25/1957,Boston College,Bob Dupuis,D,JR,0,1,1,1956-57
 02/25/1957,Boston College,Mike Manning,F,,0,1,1,1956-57
 02/25/1957,Boston College,Tony Cicoria,F,,0,1,1,1956-57
 12/02/1957,Northeastern,Bill McCormack,F,,0,1,1,1957-58
@@ -2921,7 +2921,7 @@
 12/27/1960,Brown,Bill Quinn,F,,1,3,4,1960-61
 12/27/1960,Brown,Dave MacLeod,F,,1,0,1,1960-61
 12/27/1960,Brown,Bob Smith,D,SO,1,1,2,1960-61
-12/27/1960,Brown,Jim Higgins,D,,0,1,1,1960-61
+12/27/1960,Brown,Jim Higgins,D,SO,0,1,1,1960-61
 12/27/1960,Brown,Don Goguen,D,,0,1,1,1960-61
 12/27/1960,Brown,Dave Carver,D,,0,1,1,1960-61
 12/27/1960,Brown,Paul Hughes,F,,0,1,1,1960-61
@@ -2930,7 +2930,7 @@
 12/28/1960,Army,Bill Quinn,F,,1,0,1,1960-61
 12/28/1960,Army,Bob Smith,D,SO,0,2,2,1960-61
 12/28/1960,Army,Don Goguen,D,,0,1,1,1960-61
-12/28/1960,Army,Jim Higgins,D,,0,1,1,1960-61
+12/28/1960,Army,Jim Higgins,D,SO,0,1,1,1960-61
 12/29/1960,Dalhousie,Mike Denihan,F,SO,2,0,2,1960-61
 12/29/1960,Dalhousie,Bob Smith,D,SO,1,0,1,1960-61
 12/29/1960,Dalhousie,Peter Fitzgerald,F,,1,0,1,1960-61
@@ -3019,14 +3019,14 @@
 12/01/1961,Providence,Don Spinney,F,,1,0,1,1961-62
 12/01/1961,Providence,Bob Smith,D,JR,1,0,1,1961-62
 12/01/1961,Providence,Alden Sampson,D,SO,1,0,1,1961-62
-12/01/1961,Providence,Jim Higgins,D,,0,1,1,1961-62
+12/01/1961,Providence,Jim Higgins,D,JR,0,1,1,1961-62
 12/01/1961,Providence,Mike Denihan,F,JR,1,0,1,1961-62
 12/06/1961,Yale,Alden Sampson,D,SO,1,1,2,1961-62
 12/06/1961,Yale,Bob Smith,D,JR,1,2,3,1961-62
 12/06/1961,Yale,Don Goguen,D,,1,0,1,1961-62
-12/06/1961,Yale,Francis McFaun,D,,1,0,1,1961-62
+12/06/1961,Yale,Francis McFaun,D,JR,1,0,1,1961-62
 12/06/1961,Yale,Leonard Holmes,D,,0,1,1,1961-62
-12/06/1961,Yale,Jim Higgins,D,,0,1,1,1961-62
+12/06/1961,Yale,Jim Higgins,D,JR,0,1,1,1961-62
 12/06/1961,Yale,Peter Fitzgerald,F,,0,1,1,1961-62
 12/08/1961,St. Lawrence,Bob Smith,D,JR,1,0,1,1961-62
 12/08/1961,St. Lawrence,Leonard Holmes,D,,0,1,1,1961-62
@@ -3043,7 +3043,7 @@
 12/27/1961,Queen's,Don Spinney,F,,1,0,1,1961-62
 12/27/1961,Queen's,Alden Sampson,D,SO,0,1,1,1961-62
 12/27/1961,Queen's,Edmund Connors,F,JR,0,1,1,1961-62
-12/27/1961,Queen's,Jim Higgins,D,,0,1,1,1961-62
+12/27/1961,Queen's,Jim Higgins,D,JR,0,1,1,1961-62
 12/27/1961,Queen's,Alan Fuller,F,,0,1,1,1961-62
 12/28/1961,Northeastern,Bob Smith,D,JR,2,0,2,1961-62
 12/28/1961,Northeastern,Don Goguen,D,,1,0,1,1961-62
@@ -3059,7 +3059,7 @@
 01/10/1962,Rensselaer,Alden Sampson,D,SO,1,0,1,1961-62
 01/10/1962,Rensselaer,Don Goguen,D,,0,1,1,1961-62
 01/10/1962,Rensselaer,John McBride,F,JR,1,1,2,1961-62
-01/10/1962,Rensselaer,Francis McFaun,D,,0,1,1,1961-62
+01/10/1962,Rensselaer,Francis McFaun,D,JR,0,1,1,1961-62
 01/10/1962,Rensselaer,Leonard Holmes,D,,0,1,1,1961-62
 01/15/1962,Harvard,Bob Smith,D,JR,1,0,1,1961-62
 01/15/1962,Harvard,Don Goguen,D,,0,1,1,1961-62
@@ -3069,7 +3069,7 @@
 01/30/1962,Boston College,Don Goguen,D,,0,1,1,1961-62
 02/01/1962,Dartmouth,Mike Denihan,F,JR,1,4,5,1961-62
 02/01/1962,Dartmouth,Bob Smith,D,JR,2,3,5,1961-62
-02/01/1962,Dartmouth,Ken Ross,F,,2,0,2,1961-62
+02/01/1962,Dartmouth,Ken Ross,F,SO,2,0,2,1961-62
 02/01/1962,Dartmouth,Dave Mahoney,F,,1,0,1,1961-62
 02/01/1962,Dartmouth,Don Goguen,D,,1,1,2,1961-62
 02/01/1962,Dartmouth,Edmund Connors,F,JR,1,0,1,1961-62
@@ -3099,13 +3099,13 @@
 02/15/1962,Providence,Alden Sampson,D,SO,0,1,1,1961-62
 02/20/1962,Boston College,Mike Denihan,F,JR,2,0,2,1961-62
 02/20/1962,Boston College,Bob Smith,D,JR,1,0,1,1961-62
-02/20/1962,Boston College,Ken Ross,F,,1,0,1,1961-62
+02/20/1962,Boston College,Ken Ross,F,SO,1,0,1,1961-62
 02/23/1962,Clarkson,John McBride,F,JR,1,0,1,1961-62
-02/23/1962,Clarkson,Francis McFaun,D,,0,1,1,1961-62
+02/23/1962,Clarkson,Francis McFaun,D,JR,0,1,1,1961-62
 02/23/1962,Clarkson,Bob Rowan,F,JR,0,1,1,1961-62
 02/24/1962,St. Lawrence,Alan Welch,F,,1,0,1,1961-62
-02/24/1962,St. Lawrence,Ken Ross,F,,1,0,1,1961-62
-02/28/1962,Northeastern,Ken Ross,F,,1,1,2,1961-62
+02/24/1962,St. Lawrence,Ken Ross,F,SO,1,0,1,1961-62
+02/28/1962,Northeastern,Ken Ross,F,SO,1,1,2,1961-62
 02/28/1962,Northeastern,Mike Denihan,F,JR,1,1,2,1961-62
 02/28/1962,Northeastern,Bob Smith,D,JR,1,0,1,1961-62
 03/02/1962,Bowdoin,Bob Smith,D,JR,2,0,2,1961-62
@@ -3113,11 +3113,11 @@
 03/02/1962,Bowdoin,Mike Denihan,F,JR,1,3,4,1961-62
 03/02/1962,Bowdoin,Peter Fitzgerald,F,,1,1,2,1961-62
 03/02/1962,Bowdoin,Dave Carver,D,,0,1,1,1961-62
-03/02/1962,Bowdoin,Bennett McInnis,D,,0,1,1,1961-62
-03/02/1962,Bowdoin,Ken Ross,F,,0,1,1,1961-62
-11/28/1962,Rensselaer,Ken Ross,F,,2,0,2,1962-63
+03/02/1962,Bowdoin,Bennett McInnis,D,JR,0,1,1,1961-62
+03/02/1962,Bowdoin,Ken Ross,F,SO,0,1,1,1961-62
+11/28/1962,Rensselaer,Ken Ross,F,JR,2,0,2,1962-63
 11/28/1962,Rensselaer,Mike Denihan,F,SR,2,1,3,1962-63
-11/28/1962,Rensselaer,Bob Sylvia,F,,1,0,1,1962-63
+11/28/1962,Rensselaer,Bob Sylvia,F,SO,1,0,1,1962-63
 11/28/1962,Rensselaer,John McBride,F,SR,0,1,1,1962-63
 11/28/1962,Rensselaer,Bob McCabe,F,JR,0,1,1,1962-63
 11/28/1962,Rensselaer,Alden Sampson,D,JR,0,1,1,1962-63
@@ -3126,8 +3126,8 @@
 12/01/1962,Princeton,Mike Denihan,F,SR,3,1,4,1962-63
 12/01/1962,Princeton,Bob Rowan,F,SR,2,2,4,1962-63
 12/01/1962,Princeton,Edmund Connors,F,SR,1,2,3,1962-63
-12/01/1962,Princeton,Ken Ross,F,,1,1,2,1962-63
-12/01/1962,Princeton,Bob Sylvia,F,,1,0,1,1962-63
+12/01/1962,Princeton,Ken Ross,F,JR,1,1,2,1962-63
+12/01/1962,Princeton,Bob Sylvia,F,SO,1,0,1,1962-63
 12/01/1962,Princeton,Bob Smith,D,SR,0,2,2,1962-63
 12/01/1962,Princeton,John McBride,F,SR,0,2,2,1962-63
 12/01/1962,Princeton,Richard Green,D,,0,1,1,1962-63
@@ -3148,22 +3148,22 @@
 12/26/1962,Colorado College,Bob Smith,D,SR,1,0,1,1962-63
 12/26/1962,Colorado College,John McBride,F,SR,0,1,1,1962-63
 12/26/1962,Colorado College,Bob Rowan,F,SR,0,2,2,1962-63
-12/26/1962,Colorado College,Ken Ross,F,,0,1,1,1962-63
-12/26/1962,Colorado College,Francis McFaun,D,,0,1,1,1962-63
+12/26/1962,Colorado College,Ken Ross,F,JR,0,1,1,1962-63
+12/26/1962,Colorado College,Francis McFaun,D,SR,0,1,1,1962-63
 12/27/1962,Harvard,Mike Denihan,F,SR,1,0,1,1962-63
 12/27/1962,Harvard,Bob Rowan,F,SR,1,0,1,1962-63
 12/27/1962,Harvard,Bob Martell,F,SO,1,0,1,1962-63
 12/27/1962,Harvard,Bob Smith,D,SR,0,3,3,1962-63
-12/27/1962,Harvard,Bennett McInnis,D,,0,1,1,1962-63
+12/27/1962,Harvard,Bennett McInnis,D,SR,0,1,1,1962-63
 12/27/1962,Harvard,Edmund Connors,F,SR,0,1,1,1962-63
-12/27/1962,Harvard,Francis McFaun,D,,0,1,1,1962-63
-12/27/1962,Harvard,Ken Ross,F,,0,1,1,1962-63
+12/27/1962,Harvard,Francis McFaun,D,SR,0,1,1,1962-63
+12/27/1962,Harvard,Ken Ross,F,JR,0,1,1,1962-63
 12/28/1962,Northeastern,Mike Denihan,F,SR,4,2,6,1962-63
 12/28/1962,Northeastern,Bob Smith,D,SR,2,1,3,1962-63
 12/28/1962,Northeastern,Edmund Connors,F,SR,1,0,1,1962-63
 12/28/1962,Northeastern,Bob Martell,F,SO,0,3,3,1962-63
 12/28/1962,Northeastern,Bob Rowan,F,SR,0,1,1,1962-63
-12/28/1962,Northeastern,Bennett McInnis,D,,0,1,1,1962-63
+12/28/1962,Northeastern,Bennett McInnis,D,SR,0,1,1,1962-63
 12/28/1962,Northeastern,Richard Green,D,,0,1,1,1962-63
 01/04/1963,St. Lawrence,Alden Sampson,D,JR,1,0,1,1962-63
 01/04/1963,St. Lawrence,Mike Denihan,F,SR,0,1,1,1962-63
@@ -3171,7 +3171,7 @@
 01/05/1963,Clarkson,John McBride,F,SR,1,1,2,1962-63
 01/05/1963,Clarkson,Bob Smith,D,SR,0,1,1,1962-63
 01/09/1963,Boston College,Mike Denihan,F,SR,1,0,1,1962-63
-01/09/1963,Boston College,Allen Comeau,D,,0,1,1,1962-63
+01/09/1963,Boston College,Allen Comeau,D,JR,0,1,1,1962-63
 01/12/1963,Rensselaer,Bob McCabe,F,JR,1,1,2,1962-63
 01/12/1963,Rensselaer,Bob Smith,D,SR,1,0,1,1962-63
 01/12/1963,Rensselaer,Bob Rowan,F,SR,1,1,2,1962-63
@@ -3182,20 +3182,20 @@
 01/30/1963,Colby,Mike Denihan,F,SR,4,1,5,1962-63
 01/30/1963,Colby,Bob Smith,D,SR,2,3,5,1962-63
 01/30/1963,Colby,Edmund Connors,F,SR,1,0,1,1962-63
-01/30/1963,Colby,Bob Sylvia,F,,1,0,1,1962-63
-01/30/1963,Colby,Francis McFaun,D,,1,0,1,1962-63
+01/30/1963,Colby,Bob Sylvia,F,SO,1,0,1,1962-63
+01/30/1963,Colby,Francis McFaun,D,SR,1,0,1,1962-63
 01/30/1963,Colby,Richard Green,D,,1,3,4,1962-63
 01/30/1963,Colby,Alden Sampson,D,JR,0,3,3,1962-63
 01/30/1963,Colby,Bob Martell,F,SO,0,3,3,1962-63
-01/30/1963,Colby,Bennett McInnis,D,,0,1,1,1962-63
+01/30/1963,Colby,Bennett McInnis,D,SR,0,1,1,1962-63
 01/30/1963,Colby,Bob McCabe,F,JR,0,1,1,1962-63
 02/04/1963,Boston College,Bob McCabe,F,JR,1,0,1,1962-63
 02/04/1963,Boston College,Richard Green,D,,0,1,1,1962-63
 02/06/1963,Yale,Mike Denihan,F,SR,1,0,1,1962-63
 02/06/1963,Yale,Bob Rowan,F,SR,2,1,3,1962-63
-02/06/1963,Yale,Jim Higgins,D,,1,1,2,1962-63
+02/06/1963,Yale,Jim Higgins,D,SR,1,1,2,1962-63
 02/06/1963,Yale,Richard Green,D,,0,2,2,1962-63
-02/06/1963,Yale,Francis McFaun,D,,0,1,1,1962-63
+02/06/1963,Yale,Francis McFaun,D,SR,0,1,1,1962-63
 02/16/1963,Colby,Bob Smith,D,SR,2,0,2,1962-63
 02/16/1963,Colby,John McBride,F,SR,1,1,2,1962-63
 02/16/1963,Colby,Bob Martell,F,SO,0,1,1,1962-63
@@ -3203,7 +3203,7 @@
 02/16/1963,Colby,Richard Green,D,,0,1,1,1962-63
 02/25/1963,Northeastern,Bob Rowan,F,SR,2,1,3,1962-63
 02/25/1963,Northeastern,Bob Smith,D,SR,1,2,3,1962-63
-02/25/1963,Northeastern,Bob Sylvia,F,,1,0,1,1962-63
+02/25/1963,Northeastern,Bob Sylvia,F,SO,1,0,1,1962-63
 02/25/1963,Northeastern,Richard Green,D,,0,2,2,1962-63
 02/25/1963,Northeastern,Bob McCabe,F,JR,0,1,1,1962-63
 02/25/1963,Northeastern,Bob Martell,F,SO,0,1,1,1962-63
@@ -3236,7 +3236,7 @@
 11/15/1963,New Brunswick,Allen Comeau,D,SR,0,1,1,1963-64
 11/15/1963,New Brunswick,Bill Jackson,F,,0,1,1,1963-64
 11/15/1963,New Brunswick,Alden Sampson,D,SR,0,1,1,1963-64
-11/15/1963,New Brunswick,Ken Ross,F,,0,1,1,1963-64
+11/15/1963,New Brunswick,Ken Ross,F,JR,0,1,1,1963-64
 11/16/1963,New Brunswick,Lyman Carter,F,,1,0,1,1963-64
 11/16/1963,New Brunswick,Richard Green,F,,1,1,2,1963-64
 11/16/1963,New Brunswick,Jim Todaro,F,SO,0,1,1,1963-64
@@ -3246,14 +3246,14 @@
 11/30/1963,Princeton,Bob Martell,F,JR,1,0,1,1963-64
 11/30/1963,Princeton,Bruce Fennie,F,SO,0,1,1,1963-64
 11/30/1963,Princeton,Vic Conte,D,SO,0,1,1,1963-64
-11/30/1963,Princeton,Ken Ross,F,,0,2,2,1963-64
+11/30/1963,Princeton,Ken Ross,F,JR,0,2,2,1963-64
 12/02/1963,Yale,Allen Comeau,D,SR,0,1,1,1963-64
 12/02/1963,Yale,Bill Jackson,F,,0,2,2,1963-64
 12/02/1963,Yale,Bob Martell,F,JR,1,1,2,1963-64
 12/02/1963,Yale,Bob Sylvia,F,JR,1,0,1,1963-64
 12/02/1963,Yale,Bruce Fennie,F,SO,2,0,2,1963-64
 12/02/1963,Yale,Jim Todaro,F,SO,0,1,1,1963-64
-12/02/1963,Yale,Ken Ross,F,,0,2,2,1963-64
+12/02/1963,Yale,Ken Ross,F,JR,0,2,2,1963-64
 12/02/1963,Yale,Lyman Carter,F,,1,0,1,1963-64
 12/02/1963,Yale,Richard Green,D,,1,1,2,1963-64
 12/02/1963,Yale,Vic Conte,D,SO,0,1,1,1963-64
@@ -3263,9 +3263,9 @@
 12/07/1963,Dartmouth,Alden Sampson,D,SR,1,0,1,1963-64
 12/07/1963,Dartmouth,Jim Todaro,F,SO,0,2,2,1963-64
 12/07/1963,Dartmouth,Bob McCabe,F,SR,0,1,1,1963-64
-12/07/1963,Dartmouth,Ray Payne,D,,0,1,1,1963-64
+12/07/1963,Dartmouth,Ray Payne,D,SO,0,1,1,1963-64
 12/10/1963,Brown,Richard Green,D,,0,1,1,1963-64
-12/10/1963,Brown,Ken Ross,F,,1,1,2,1963-64
+12/10/1963,Brown,Ken Ross,F,JR,1,1,2,1963-64
 12/10/1963,Brown,Bruce Fennie,F,SO,1,1,2,1963-64
 12/10/1963,Brown,Bob Martell,F,JR,1,0,1,1963-64
 12/10/1963,Brown,Bill Jackson,F,,0,1,1,1963-64
@@ -3311,7 +3311,7 @@
 01/31/1964,Clarkson,Alden Sampson,D,SR,0,1,1,1963-64
 01/31/1964,Clarkson,Jim Todaro,F,SO,0,2,2,1963-64
 01/31/1964,Clarkson,Dennis O'Connell,F,SO,1,0,1,1963-64
-01/31/1964,Clarkson,Ken Ross,F,,0,1,1,1963-64
+01/31/1964,Clarkson,Ken Ross,F,JR,0,1,1,1963-64
 02/03/1964,Harvard,Allen Comeau,D,SR,0,1,1,1963-64
 02/03/1964,Harvard,Bob Martell,F,JR,0,1,1,1963-64
 02/03/1964,Harvard,Bob McCabe,F,SR,1,0,1,1963-64
@@ -3343,11 +3343,11 @@
 02/28/1964,Colby,Dennis O'Connell,F,SO,0,3,3,1963-64
 02/28/1964,Colby,Jack McGarry,F,,1,0,1,1963-64
 02/28/1964,Colby,Jim Todaro,F,SO,1,1,2,1963-64
-02/28/1964,Colby,Ken Ross,F,,0,2,2,1963-64
+02/28/1964,Colby,Ken Ross,F,JR,0,2,2,1963-64
 03/04/1964,Providence,Bill Jackson,F,,1,0,1,1963-64
 03/07/1964,Rensselaer,Bob Sylvia,F,JR,2,0,2,1963-64
 03/07/1964,Rensselaer,Bob Martell,F,JR,0,1,1,1963-64
-03/07/1964,Rensselaer,Ken Ross,F,,0,1,1,1963-64
+03/07/1964,Rensselaer,Ken Ross,F,JR,0,1,1,1963-64
 11/27/1964,New Brunswick,Dennis O'Connell,F,JR,1,0,1,1964-65
 11/27/1964,New Brunswick,Bob Martell,F,SR,1,0,1,1964-65
 11/27/1964,New Brunswick,Bruce Fennie,F,JR,1,0,1,1964-65
@@ -3613,7 +3613,7 @@
 12/04/1965,Princeton,Fred Bassi,F,JR,1,0,1,1965-66
 12/04/1965,Princeton,Jack Parker,F,SO,2,0,2,1965-66
 12/04/1965,Princeton,Mike Sobeski,F,JR,2,0,2,1965-66
-12/04/1965,Princeton,John Cooke,F,SO,2,0,2,1965-66
+12/04/1965,Princeton,John Cooke,F,SO,1,0,1,1965-66
 12/09/1965,New Hampshire,Fred Bassi,F,JR,1,1,2,1965-66
 12/09/1965,New Hampshire,Mike Sobeski,F,JR,1,0,1,1965-66
 12/09/1965,New Hampshire,Bruce Fennie,F,SR,1,2,3,1965-66
@@ -4152,7 +4152,7 @@
 12/28/1967,Merrimack,Mike Hyndman,F,SO,3,1,4,1967-68
 12/28/1967,Merrimack,Mickey Gray,F,JR,1,3,4,1967-68
 12/28/1967,Merrimack,Paul Fontas,F,,1,0,1,1967-68
-12/28/1967,Merrimack,Blaine Maus,F,,1,1,2,1967-68
+12/28/1967,Merrimack,Blaine Maus,F,JR,1,1,2,1967-68
 12/28/1967,Merrimack,Bill Hinch,D,JR,1,2,3,1967-68
 12/28/1967,Merrimack,Wayne Decker,D,SO,0,2,2,1967-68
 12/28/1967,Merrimack,Eddie Wright,F,JR,0,1,1,1967-68
@@ -4193,7 +4193,7 @@
 01/09/1968,Loyola of Montreal,Mike Hyndman,F,SO,1,2,3,1967-68
 01/09/1968,Loyola of Montreal,Bill Hinch,D,JR,0,1,1,1967-68
 01/09/1968,Loyola of Montreal,Paul Fontas,F,,0,2,2,1967-68
-01/09/1968,Loyola of Montreal,Blaine Maus,F,,0,2,2,1967-68
+01/09/1968,Loyola of Montreal,Blaine Maus,F,JR,0,2,2,1967-68
 01/09/1968,Loyola of Montreal,Wayne Decker,D,SO,0,2,2,1967-68
 01/10/1968,Loyola of Montreal,Herb Wakabayashi,F,JR,1,0,1,1967-68
 01/10/1968,Loyola of Montreal,Bill Hinch,D,JR,1,0,1,1967-68
@@ -4223,7 +4223,7 @@
 01/31/1968,Princeton,Jack Parker,F,SR,1,0,1,1967-68
 01/31/1968,Princeton,Mike Hyndman,F,SO,0,1,1,1967-68
 01/31/1968,Princeton,Wayne Decker,D,SO,0,1,1,1967-68
-01/31/1968,Princeton,Blaine Maus,F,,0,1,1,1967-68
+01/31/1968,Princeton,Blaine Maus,F,JR,0,1,1,1967-68
 01/31/1968,Princeton,Darrell Abbott,D,JR,0,1,1,1967-68
 02/02/1968,Providence,Herb Wakabayashi,F,JR,3,1,4,1967-68
 02/02/1968,Providence,Dick Toomey,F,SO,2,2,4,1967-68
@@ -4730,19 +4730,19 @@
 11/27/1970,St. Louis,Ron Anderson,F,JR,0,2,2,1970-71
 11/27/1970,St. Louis,Guy Burrowes,F,JR,0,2,2,1970-71
 11/27/1970,St. Louis,Don Cahoon,F,JR,0,1,1,1970-71
-11/27/1970,St. Louis,Peter Thornton,F,,0,1,1,1970-71
+11/27/1970,St. Louis,Peter Thornton,F,JR,0,1,1,1970-71
 11/29/1970,St. Louis,Wayne Gowing,F,SR,2,1,3,1970-71
 11/29/1970,St. Louis,Ron Anderson,F,JR,2,0,2,1970-71
 11/29/1970,St. Louis,Steve Stirling,F,SR,1,2,3,1970-71
 11/29/1970,St. Louis,Don Cahoon,F,JR,1,0,1,1970-71
 11/29/1970,St. Louis,Bob Brown,D,JR,1,0,1,1970-71
 11/29/1970,St. Louis,John Danby,F,JR,1,1,2,1970-71
-11/29/1970,St. Louis,Peter Thornton,F,,1,0,1,1970-71
+11/29/1970,St. Louis,Peter Thornton,F,JR,1,0,1,1970-71
 11/29/1970,St. Louis,Bob Gryp,F,JR,0,3,3,1970-71
 11/29/1970,St. Louis,Ric Jordan,D,JR,0,3,3,1970-71
 11/29/1970,St. Louis,Guy Burrowes,F,JR,0,2,2,1970-71
 12/02/1970,Brown,Bob Brown,D,JR,2,1,3,1970-71
-12/02/1970,Brown,Peter Thornton,F,,1,0,1,1970-71
+12/02/1970,Brown,Peter Thornton,F,JR,1,0,1,1970-71
 12/02/1970,Brown,John Danby,F,JR,1,1,2,1970-71
 12/02/1970,Brown,Ric Jordan,D,JR,1,1,2,1970-71
 12/02/1970,Brown,Wayne Gowing,F,SR,0,2,2,1970-71
@@ -4758,14 +4758,14 @@
 12/05/1970,New Hampshire,Paul Giandomenico,F,JR,1,0,1,1970-71
 12/05/1970,New Hampshire,Bob Brown,D,JR,0,2,2,1970-71
 12/05/1970,New Hampshire,Wayne Gowing,F,SR,0,1,1,1970-71
-12/05/1970,New Hampshire,Peter Thornton,F,,0,1,1,1970-71
+12/05/1970,New Hampshire,Peter Thornton,F,JR,0,1,1,1970-71
 12/05/1970,New Hampshire,Steve Doloff,F,SO,0,1,1,1970-71
 12/05/1970,New Hampshire,Larry Abbott,D,SO,0,1,1,1970-71
 12/05/1970,New Hampshire,Bob Murray,D,JR,0,1,1,1970-71
 12/09/1970,Harvard,Bob Gryp,F,JR,1,0,1,1970-71
 12/09/1970,Harvard,Don Cahoon,F,JR,1,0,1,1970-71
 12/09/1970,Harvard,Steve Stirling,F,SR,1,1,2,1970-71
-12/09/1970,Harvard,Peter Thornton,F,,1,0,1,1970-71
+12/09/1970,Harvard,Peter Thornton,F,JR,1,0,1,1970-71
 12/09/1970,Harvard,John Danby,F,JR,0,1,1,1970-71
 12/09/1970,Harvard,Wayne Gowing,F,SR,0,1,1,1970-71
 12/09/1970,Harvard,Mike LaGarde,D,SO,0,2,2,1970-71
@@ -4784,7 +4784,7 @@
 12/22/1970,Minnesota,Mike LaGarde,D,SO,0,1,1,1970-71
 12/22/1970,Minnesota,Guy Burrowes,F,JR,0,1,1,1970-71
 12/22/1970,Minnesota,Ric Jordan,D,JR,0,2,2,1970-71
-12/22/1970,Minnesota,Peter Thornton,F,,0,2,2,1970-71
+12/22/1970,Minnesota,Peter Thornton,F,JR,0,2,2,1970-71
 12/22/1970,Minnesota,Bob Brown,D,JR,0,1,1,1970-71
 12/22/1970,Minnesota,Wayne Gowing,F,SR,0,1,1,1970-71
 12/28/1970,Providence,Ron Anderson,F,JR,2,0,2,1970-71
@@ -4807,10 +4807,10 @@
 01/04/1971,Princeton,Ron Anderson,F,JR,2,4,6,1970-71
 01/04/1971,Princeton,Ric Jordan,D,JR,1,0,1,1970-71
 01/04/1971,Princeton,Don Cahoon,F,JR,1,2,3,1970-71
-01/04/1971,Princeton,Peter Thornton,F,,2,1,3,1970-71
+01/04/1971,Princeton,Peter Thornton,F,JR,2,1,3,1970-71
 01/04/1971,Princeton,Bob Brown,D,JR,0,5,5,1970-71
 01/04/1971,Princeton,Steve Stirling,F,SR,0,4,4,1970-71
-01/04/1971,Princeton,Olivier Prechac,F,,0,2,2,1970-71
+01/04/1971,Princeton,Olivier Prechac,F,SR,0,2,2,1970-71
 01/04/1971,Princeton,Bob Murray,D,JR,0,2,2,1970-71
 01/04/1971,Princeton,Wayne Gowing,F,SR,0,1,1,1970-71
 01/04/1971,Princeton,Larry Abbott,D,SO,0,1,1,1970-71
@@ -4820,7 +4820,7 @@
 01/09/1971,Boston College,John Danby,F,JR,2,1,3,1970-71
 01/09/1971,Boston College,Ron Anderson,F,JR,3,0,3,1970-71
 01/09/1971,Boston College,Mike LaGarde,D,SO,0,1,1,1970-71
-01/09/1971,Boston College,Peter Thornton,F,,0,1,1,1970-71
+01/09/1971,Boston College,Peter Thornton,F,JR,0,1,1,1970-71
 01/09/1971,Boston College,Guy Burrowes,F,JR,0,2,2,1970-71
 01/09/1971,Boston College,Peter Yetten,D,SR,0,1,1,1970-71
 01/09/1971,Boston College,Ric Jordan,D,JR,0,2,2,1970-71
@@ -5047,7 +5047,7 @@
 12/13/1971,Ohio University,Don Cahoon,F,SR,1,0,1,1971-72
 12/13/1971,Ohio University,Mike LaGarde,D,JR,1,0,1,1971-72
 12/13/1971,Ohio University,Ric Jordan,D,SR,1,1,2,1971-72
-12/13/1971,Ohio University,Larry Abbott,D,,1,0,1,1971-72
+12/13/1971,Ohio University,Larry Abbott,D,JR,1,0,1,1971-72
 12/13/1971,Ohio University,Steve Doloff,F,JR,1,1,2,1971-72
 12/13/1971,Ohio University,Bob Gryp,F,SR,0,2,2,1971-72
 12/13/1971,Ohio University,Bob Murray,D,SR,0,2,2,1971-72
@@ -5483,12 +5483,12 @@
 02/24/1973,Colgate,Bill Robbins,F,FR,2,1,3,1972-73
 02/24/1973,Colgate,Bill Burlington,F,SO,1,0,1,1972-73
 02/24/1973,Colgate,Ken Kuzyk,F,FR,1,1,2,1972-73
-02/24/1973,Colgate,Steve Doloff,F,SR,1,1,2,1972-73
+02/24/1973,Colgate,Steve Doloff,F,SR,0,2,2,1972-73
 02/24/1973,Colgate,Paul O'Neil,F,SO,0,3,3,1972-73
 02/24/1973,Colgate,Jim Glover,F,SO,0,1,1,1972-73
 02/24/1973,Colgate,David Wisener,F,SR,0,2,2,1972-73
 02/24/1973,Colgate,Vic Stanfield,D,SO,0,1,1,1972-73
-02/24/1973,Colgate,Dave Warner,D,SR,0,1,1,1972-73
+02/24/1973,Colgate,Dave Warner,F,SR,0,1,1,1972-73
 03/06/1973,Pennsylvania,Vic Stanfield,D,SO,0,1,1,1972-73
 03/06/1973,Pennsylvania,Steve Doloff,F,SR,0,1,1,1972-73
 03/06/1973,Pennsylvania,Peter Brown,D,FR,0,2,2,1972-73
@@ -7050,7 +7050,7 @@
 12/30/1978,Michigan,Tony Meagher,F,JR,0,1,1,1978-79
 12/30/1978,Michigan,Todd Johnson,F,SO,0,2,2,1978-79
 12/30/1978,Michigan,Scott Nieland,D,JR,0,1,1,1978-79
-12/30/1978,Michigan,Jeff Weisman,G,FR,0,1,1,1978-79
+12/30/1978,Michigan,Jeff Weisman,G,SO,0,1,1,1978-79
 12/30/1978,Michigan,Mark Fidler,F,SO,1,2,3,1978-79
 12/30/1978,Michigan,John Bethel,F,JR,0,2,2,1978-79
 12/30/1978,Michigan,Bill Cotter,F,SO,2,1,3,1978-79
@@ -10834,7 +10834,7 @@
 02/28/1992,Boston College,Kevin O'Sullivan,D,JR,0,1,1,1991-92
 02/29/1992,Merrimack,Mark Bavis,F,JR,2,0,2,1991-92
 02/29/1992,Merrimack,Jon Pratt,F,SO,1,0,1,1991-92
-02/29/1992,Merrimack,Kevin O'Sullivan,D,SR,1,1,2,1991-92
+02/29/1992,Merrimack,Kevin O'Sullivan,D,JR,1,1,2,1991-92
 02/29/1992,Merrimack,Petteri Koskimäki,F,JR,2,0,2,1991-92
 02/29/1992,Merrimack,Rich Brennan,D,FR,1,0,1,1991-92
 02/29/1992,Merrimack,Mike Bavis,F,JR,0,1,1,1991-92
@@ -28736,7 +28736,7 @@
 01/25/2022,Massachusetts,Logan Cockerill,F,SR,2,0,2,2021-22
 01/25/2022,Massachusetts,Ty Amonte,F,SR,0,1,1,2021-22
 01/25/2022,Massachusetts,Luke Tuch,F,SO,0,0,0,2021-22
-01/30/2022,Providence,Jack Page,D,SO,0,0,0,2021-22
+01/30/2022,Providence,Jack Page,D,FR,0,0,0,2021-22
 01/30/2022,Providence,Ty Gallagher,D,FR,0,0,0,2021-22
 01/30/2022,Providence,Tristan Amonte,F,FR,0,1,1,2021-22
 01/30/2022,Providence,Joseph Campolieto,D,SR,0,0,0,2021-22

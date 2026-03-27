@@ -35,12 +35,12 @@
 1	Brian Durocher	FR	22						--		1974-75
 35	Pat Devlin		13						--		1975-76
 1	Brian Durocher	SO	17						--		1975-76
-30	Jim Craig	FR	27						--		1976-77
+30	Jim Craig	SO	27						--		1976-77
 1	Brian Durocher	JR	10						--		1976-77
-30	Jim Craig	SO	16					3.72	--		1977-78
+30	Jim Craig	JR	16					3.72	--		1977-78
 1	Brian Durocher	SR	16						--		1977-78
 35	Bob Wels		1	15	3	6	0.667	12	0-0-0	0	1977-78
-30	Jim Craig	JR	22	1009	60			3.57	--	1	1978-79
+30	Jim Craig	SR	22	1009	60			3.57	--	1	1978-79
 1	Jeff Weisman	SO	10				0.893		--	1	1978-79
 1	Jeff Weisman	JR	12						--		1979-80
 30	Bob Barich		16						--	1	1979-80
