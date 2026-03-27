@@ -5898,7 +5898,6 @@
 01/10/1975,St. Louis,Vic Stanfield,D,SR,0,1,1,1974-75
 01/10/1975,St. Louis,Buddy Powers,F/D,SR,0,1,1,1974-75
 01/10/1975,St. Louis,Jerry Gryp,D,JR,0,1,1,1974-75
-01/10/1975,St. Louis,Rick Meagher,F,SO,1,0,1,1974-75
 01/12/1975,St. Louis,Bill Robbins,F,JR,0,1,1,1974-75
 01/12/1975,St. Louis,Bill Buckton,F,JR,1,0,1,1974-75
 01/12/1975,St. Louis,Terry Meagher,F,JR,1,0,1,1974-75
