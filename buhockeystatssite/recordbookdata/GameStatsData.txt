@@ -6534,7 +6534,15 @@
 01/25/1977,Rensselaer,Bill O'Neill,D,SO,0,1,1,1976-77
 01/25/1977,Rensselaer,Bill LeBlond,F,FR,1,0,1,1976-77
 01/25/1977,Rensselaer,Mickey Mullen,F,SO,0,1,1,1976-77
-01/29/1977,St. Lawrence,Unknown,,,6,0,6,1976-77
+01/29/1977,St. Lawrence,Mike Eruzione,F,SR,1,1,2,1976-77
+01/29/1977,St. Lawrence,Robert Boileau,D,SO,1,0,1,1976-77
+01/29/1977,St. Lawrence,Rick Meagher,F,SR,1,0,1,1976-77
+01/29/1977,St. Lawrence,Matt Marden,F,JR,1,1,2,1976-77
+01/29/1977,St. Lawrence,Gary Fay,D,SR,2,1,3,1976-77
+01/29/1977,St. Lawrence,Marc Hetnik,F,SO,0,2,2,1976-77
+01/29/1977,St. Lawrence,Dave Silk,F,FR,0,1,1,1976-77
+01/29/1977,St. Lawrence,Dick Lamby,D,JR,0,3,3,1976-77
+01/29/1977,St. Lawrence,Jack O'Callahan,D,SO,0,1,1,1976-77
 02/03/1977,Brown,Mike Pidgeon,F,FR,1,0,1,1976-77
 02/03/1977,Brown,Rick Meagher,F,SR,3,1,4,1976-77
 02/03/1977,Brown,Mike Eruzione,F,SR,1,2,3,1976-77
@@ -6724,10 +6732,14 @@
 11/30/1977,Dartmouth,Bill LeBlond,F,SO,0,1,1,1977-78
 11/30/1977,Dartmouth,Bill Cotter,F,FR,1,1,2,1977-78
 11/30/1977,Dartmouth,Dave Silk,F,SO,1,0,1,1977-78
+12/03/1977,New Hampshire,Dave Silk,F,SO,2,0,2,1977-78
+12/03/1977,New Hampshire,John Bethel,F,SO,1,0,1,1977-78
+12/03/1977,New Hampshire,Mark Fidler,F,FR,1,1,2,1977-78
 12/03/1977,New Hampshire,Daryl MacLeod,F,FR,1,0,1,1977-78
-12/03/1977,New Hampshire,Dave Silk,F,SO,1,0,1,1977-78
-12/03/1977,New Hampshire,Robert Boileau,D,JR,1,0,1,1977-78
-12/03/1977,New Hampshire,Unknown,,,3,0,3,1977-78
+12/03/1977,New Hampshire,Robert Boileau,D,JR,1,1,2,1977-78
+12/03/1977,New Hampshire,Dick Lamby,D,SR,0,3,3,1977-78
+12/03/1977,New Hampshire,Tony Meagher,F,SO,0,1,1,1977-78
+12/03/1977,New Hampshire,Jack O'Callahan,D,JR,0,1,1,1977-78
 12/07/1977,Harvard,Robert Boileau,D,JR,0,1,1,1977-78
 12/07/1977,Harvard,Marc Hetnik,F,JR,0,1,1,1977-78
 12/07/1977,Harvard,John Bethel,F,SO,2,0,2,1977-78
@@ -6774,8 +6786,14 @@
 01/04/1978,Cornell,Jack O'Callahan,D,JR,0,1,1,1977-78
 01/04/1978,Cornell,Bill LeBlond,F,SO,1,0,1,1977-78
 01/04/1978,Cornell,John Bethel,F,SO,1,3,4,1977-78
-01/07/1978,Princeton,Unknown,,,3,0,3,1977-78
 01/07/1978,Princeton,Mark Fidler,F,FR,1,0,1,1977-78
+01/07/1978,Princeton,John Melanson,F,JR,2,0,2,1977-78
+01/07/1978,Princeton,Tony Meagher,F,SO,1,0,1,1977-78
+01/07/1978,Princeton,John Bethel,F,SO,0,2,2,1977-78
+01/07/1978,Princeton,Bill LeBlond,F,SO,0,2,2,1977-78
+01/07/1978,Princeton,Tim Kimball,F,FR,0,1,1,1977-78
+01/07/1978,Princeton,Marc Hetnik,F,JR,0,2,2,1977-78
+01/07/1978,Princeton,Dick Lamby,D,SR,0,1,1,1977-78
 01/11/1978,New Hampshire,Bill O'Neill,D,JR,0,1,1,1977-78
 01/11/1978,New Hampshire,Dick Lamby,D,SR,0,2,2,1977-78
 01/11/1978,New Hampshire,John Bethel,F,SO,1,2,3,1977-78
@@ -6883,7 +6901,16 @@
 02/22/1978,Northeastern,Dave Silk,F,SO,2,1,3,1977-78
 02/22/1978,Northeastern,Bill LeBlond,F,SO,1,2,3,1977-78
 02/22/1978,Northeastern,Jack O'Callahan,D,JR,0,3,3,1977-78
-02/25/1978,Colgate,Unknown,,,6,0,6,1977-78
+02/25/1978,Colgate,Mickey Mullen,F,JR,1,1,2,1977-78
+02/25/1978,Colgate,Daryl MacLeod,F,FR,1,0,1,1977-78
+02/25/1978,Colgate,Matt Marden,F,SR,1,0,1,1977-78
+02/25/1978,Colgate,Tony Meagher,F,SO,1,1,2,1977-78
+02/25/1978,Colgate,Paul Miller,F,FR,1,2,3,1977-78
+02/25/1978,Colgate,Robert Boileau,D,JR,1,1,2,1977-78
+02/25/1978,Colgate,Marc Hetnik,F,JR,0,2,2,1977-78
+02/25/1978,Colgate,Dave Silk,F,SO,0,1,1,1977-78
+02/25/1978,Colgate,Mark Fidler,F,FR,0,3,3,1977-78
+02/25/1978,Colgate,Jack O'Callahan,D,JR,0,1,1,1977-78
 03/01/1978,Harvard,Paul Miller,F,FR,0,2,2,1977-78
 03/01/1978,Harvard,Mickey Mullen,F,JR,3,0,3,1977-78
 03/01/1978,Harvard,Marc Hetnik,F,JR,0,1,1,1977-78
@@ -6948,7 +6975,16 @@
 03/25/1978,Boston College,Marc Hetnik,F,JR,0,1,1,1977-78
 03/25/1978,Boston College,Mark Fidler,F,FR,2,0,2,1977-78
 03/25/1978,Boston College,Tony Meagher,F,SO,2,0,2,1977-78
-11/18/1978,Toronto,Unknown,,,7,0,7,1978-79
+11/18/1978,Toronto,John Fox,D,SR,1,0,1,1978-79
+11/18/1978,Toronto,Bill LeBlond,F,JR,1,1,2,1978-79
+11/18/1978,Toronto,Marc Hetnik,F,SR,2,0,2,1978-79
+11/18/1978,Toronto,Tony Meagher,F,JR,2,0,2,1978-79
+11/18/1978,Toronto,Mark Fidler,F,SO,1,1,2,1978-79
+11/18/1978,Toronto,Bill Cotter,F,SO,0,1,1,1978-79
+11/18/1978,Toronto,Paul Miller,F,SO,0,1,1,1978-79
+11/18/1978,Toronto,Grant Goegan,F,JR,0,1,1,1978-79
+11/18/1978,Toronto,Bill Whelton,D,FR,0,1,1,1978-79
+11/18/1978,Toronto,Bill O'Neill,D,SR,0,2,2,1978-79
 11/21/1978,Rensselaer,Bill O'Neill,D,SR,0,1,1,1978-79
 11/21/1978,Rensselaer,Mark Fidler,F,SO,1,1,2,1978-79
 11/21/1978,Rensselaer,Paul Miller,F,SO,2,1,3,1978-79
@@ -7035,12 +7071,18 @@
 01/10/1979,Northeastern,Rob Davies,F,FR,1,0,1,1978-79
 01/10/1979,Northeastern,Todd Johnson,F,SO,1,0,1,1978-79
 01/10/1979,Northeastern,Grant Goegan,F,JR,2,0,2,1978-79
-01/13/1979,Colgate,Unknown,N/A,,2,0,2,1978-79
-01/13/1979,Colgate,Bill Cotter,F,SO,1,0,1,1978-79
-01/13/1979,Colgate,Marc Hetnik,F,SR,0,1,1,1978-79
-01/13/1979,Colgate,Tony Meagher,F,JR,1,0,1,1978-79
-01/13/1979,Colgate,Dave Silk,F,JR,1,0,1,1978-79
+01/13/1979,Colgate,Rob Davies,F,FR,1,0,1,1978-79
+01/13/1979,Colgate,Marc Hetnik,F,SR,1,1,2,1978-79
 01/13/1979,Colgate,Paul Miller,F,SO,1,0,1,1978-79
+01/13/1979,Colgate,Tony Meagher,F,JR,1,0,1,1978-79
+01/13/1979,Colgate,Dave Silk,F,JR,1,1,2,1978-79
+01/13/1979,Colgate,Bill Cotter,F,SO,1,1,2,1978-79
+01/13/1979,Colgate,Mickey Mullen,F,SR,0,1,1,1978-79
+01/13/1979,Colgate,Bill LeBlond,F,JR,0,1,1,1978-79
+01/13/1979,Colgate,Jack O'Callahan,D,SR,0,3,3,1978-79
+01/13/1979,Colgate,Todd Johnson,F,SO,0,1,1,1978-79
+01/13/1979,Colgate,John Bethel,F,JR,0,1,1,1978-79
+01/13/1979,Colgate,Jim Craig,G,JR,0,1,1,1978-79
 01/16/1979,New Hampshire,John Bethel,F,JR,0,3,3,1978-79
 01/16/1979,New Hampshire,Marc Hetnik,F,SR,0,1,1,1978-79
 01/16/1979,New Hampshire,Mark Fidler,F,SO,3,0,3,1978-79
@@ -7520,7 +7562,17 @@
 01/21/1981,Maine,Bill Whelton,D,JR,0,1,1,1980-81
 01/21/1981,Maine,Daryl MacLeod,F,SR,1,1,2,1980-81
 01/21/1981,Maine,Bill Cotter,F,SR,0,1,1,1980-81
-01/24/1981,St. Lawrence,Unknown,,,6,0,6,1980-81
+01/24/1981,St. Lawrence,Bruce Milton,D,FR,1,0,1,1980-81
+01/24/1981,St. Lawrence,Rob Davies,F,JR,1,2,3,1980-81
+01/24/1981,St. Lawrence,Bill Cotter,F,SR,1,1,2,1980-81
+01/24/1981,St. Lawrence,Jerry August,F,SO,2,0,2,1980-81
+01/24/1981,St. Lawrence,Todd Johnson,F,SR,1,2,3,1980-81
+01/24/1981,St. Lawrence,Bill Whelton,D,JR,0,1,1,1980-81
+01/24/1981,St. Lawrence,T.J. Connolly,D,FR,0,1,1,1980-81
+01/24/1981,St. Lawrence,Chris Mays,F,FR,0,1,1,1980-81
+01/24/1981,St. Lawrence,Tom O'Regan,F,SO,0,1,1,1980-81
+01/24/1981,St. Lawrence,Jeff Weisman,G,SR,0,1,1,1980-81
+01/24/1981,St. Lawrence,Marc Sinclair,F,SO,0,1,1,1980-81
 01/28/1981,Northeastern,Tim Kimball,F,SR,1,0,1,1980-81
 01/28/1981,Northeastern,Todd Johnson,F,SR,2,1,3,1980-81
 01/28/1981,Northeastern,Mark Fidler,F,SR,0,2,2,1980-81
@@ -9272,7 +9324,17 @@
 02/28/1987,Maine,Scott Young,F,SO,1,0,1,1986-87
 02/28/1987,Maine,Ed Lowney,F,SR,1,0,1,1986-87
 02/28/1987,Maine,Mike Kelfer,F,SO,0,1,1,1986-87
-03/03/1987,UMass Lowell,Unknown,,,7,0,7,1986-87
+03/03/1987,UMass Lowell,John Cullen,F,SR,1,2,3,1986-87
+03/03/1987,UMass Lowell,Eric Labrosse,F,JR,2,0,2,1986-87
+03/03/1987,UMass Lowell,Ed Lowney,F,SR,1,1,2,1986-87
+03/03/1987,UMass Lowell,Mike Kelfer,F,SO,1,2,3,1986-87
+03/03/1987,UMass Lowell,Clark Donatelli,F,JR,2,1,3,1986-87
+03/03/1987,UMass Lowell,Scott Shaunessy,D,SR,0,1,1,1986-87
+03/03/1987,UMass Lowell,Jeff Sveen,F,SR,0,1,1,1986-87
+03/03/1987,UMass Lowell,Jim Ennis,D,SO,0,1,1,1986-87
+03/03/1987,UMass Lowell,Mike Sullivan,F,FR,0,3,3,1986-87
+03/03/1987,UMass Lowell,Scott Sanders,F,JR,0,1,1,1986-87
+03/03/1987,UMass Lowell,Scott Young,F,SO,0,1,1,1986-87
 03/06/1987,UMass Lowell,David Thiesing,D,SR,0,1,1,1986-87
 03/06/1987,UMass Lowell,Eric Labrosse,F,JR,1,1,2,1986-87
 03/06/1987,UMass Lowell,John Cullen,F,SR,0,1,1,1986-87
