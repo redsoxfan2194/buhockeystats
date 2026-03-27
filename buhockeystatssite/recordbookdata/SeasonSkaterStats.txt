@@ -562,7 +562,7 @@
 24	Robert Boileau	D	FR	2	0	0	0	—/0	1975-76
 8	Terry Meagher	F	SR	29	30	25	55	—/20	1975-76
 22	Vince Mullins	F		1	0	1	1	—/0	1975-76
-30	Jim Craig	G	FR	27	0	1	1	—/—	1976-77
+30	Jim Craig	G	SO	27	0	1	1	—/—	1976-77
 26	Bill LeBlond	F	FR	34	5	5	10	—/8	1976-77
 27	Bill O'Neill	D	SO	34	4	19	23	—/34	1976-77
 14	Bob Dudley	D	SR	30	7	16	23	—/20	1976-77
@@ -585,7 +585,7 @@
 12	Steve Gibson	F		12	1	2	3	—/6	1976-77
 18	Tony Meagher	F	FR	27	5	12	17	—/51	1976-77
 22	Vince Mullins	F		3	1	0	1	—/2	1976-77
-30	Jim Craig	G	SO	16	0	1	1	—/—	1977-78
+30	Jim Craig	G	JR	16	0	1	1	—/—	1977-78
 3	Bill Cotter	F	FR	32	2	8	10	—/16	1977-78
 15	Bill LeBlond	F	SO	32	8	15	23	—/16	1977-78
 27	Bill O'Neill	D	JR	32	3	15	18	—/22	1977-78
@@ -608,7 +608,7 @@
 24	Todd Johnson	F	FR	29	2	2	4	—/2	1977-78
 18	Tony Meagher	F	SO	32	17	21	38	—/26	1977-78
 1	Jeff Weisman	G	SO	10	0	1	1	—/—	1978-79
-30	Jim Craig	G	JR	22	0	2	2	—/—	1978-79
+30	Jim Craig	G	SR	22	0	2	2	—/—	1978-79
 3	Bill Cotter	F	SO	30	9	17	26	—/30	1978-79
 15	Bill LeBlond	F	JR	28	5	15	20	—/26	1978-79
 27	Bill O'Neill	D	SR	30	0	18	18	—/36	1978-79
