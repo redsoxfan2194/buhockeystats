@@ -5573,17 +5573,26 @@
 01/04/1974,Clarkson,Mike Eruzione,F,FR,1,0,1,1973-74
 01/04/1974,Clarkson,Peter Marzo,F,SO,0,3,3,1973-74
 01/04/1974,Clarkson,Bill Buckton,F,SO,0,2,2,1973-74
-01/05/1974,St. Lawrence,Unknown,,,4,0,4,1973-74
+01/05/1974,St. Lawrence,Peter Marzo,F,SO,1,0,1,1973-74
+01/05/1974,St. Lawrence,John McClellan,F,FR,1,0,1,1973-74
+01/05/1974,St. Lawrence,Buddy Powers,F/D,JR,1,0,1,1973-74
+01/05/1974,St. Lawrence,Mike Eruzione,F,FR,1,0,1,1973-74
+01/05/1974,St. Lawrence,Bill Robbins,F,SO,0,2,2,1973-74
+01/05/1974,St. Lawrence,Terry Meagher,F,SO,0,2,2,1973-74
+01/05/1974,St. Lawrence,Peter Brown,D,SO,0,2,2,1973-74
+01/05/1974,St. Lawrence,Bill Bishop,F,JR,0,1,1,1973-74
 01/09/1974,Yale,Rick Meagher,F,FR,1,0,1,1973-74
 01/09/1974,Yale,Peter Marzo,F,SO,1,0,1,1973-74
 01/09/1974,Yale,Terry Meagher,F,SO,0,1,1,1973-74
 01/09/1974,Yale,Chris Bannerman,D,SO,0,1,1,1973-74
 01/09/1974,Yale,Mike Eruzione,F,FR,0,1,1,1973-74
 01/09/1974,Yale,Ken Kuzyk,F,SO,0,1,1,1973-74
-01/12/1974,Brown,Peter Marzo,F,SO,1,0,1,1973-74
-01/12/1974,Brown,Bill Robbins,F,SO,2,0,2,1973-74
-01/12/1974,Brown,Terry Meagher,F,SO,0,2,2,1973-74
-01/12/1974,Brown,Unknown,,,2,0,2,1973-74
+01/12/1974,Brown,Bill Robbins,F,SO,2,2,4,1973-74
+01/12/1974,Brown,Peter Marzo,F,SO,1,2,3,1973-74
+01/12/1974,Brown,Mike Eruzione,F,FR,1,0,1,1973-74
+01/12/1974,Brown,Terry Meagher,F,SO,1,2,3,1973-74
+01/12/1974,Brown,Jim Glover,F,JR,0,1,1,1973-74
+01/12/1974,Brown,John McClellan,F,FR,0,1,1,1973-74
 01/15/1974,Northeastern,John McClellan,F,FR,0,1,1,1973-74
 01/15/1974,Northeastern,Chris Bannerman,D,SO,0,1,1,1973-74
 01/15/1974,Northeastern,Jim Glover,F,JR,0,1,1,1973-74
@@ -5668,7 +5677,17 @@
 02/11/1974,Harvard,Peter Marzo,F,SO,0,1,1,1973-74
 02/11/1974,Harvard,Chris Bannerman,D,SO,0,1,1,1973-74
 02/11/1974,Harvard,John McClellan,F,FR,0,1,1,1973-74
-02/16/1974,Rensselaer,Unknown,,,9,0,9,1973-74
+02/16/1974,Rensselaer,Bill Bishop,F,JR,2,0,2,1973-74
+02/16/1974,Rensselaer,Mike Eruzione,F,FR,1,2,3,1973-74
+02/16/1974,Rensselaer,Rick Meagher,F,FR,3,1,4,1973-74
+02/16/1974,Rensselaer,Bill Burlington,F,JR,1,1,2,1973-74
+02/16/1974,Rensselaer,Vic Stanfield,D,JR,1,1,2,1973-74
+02/16/1974,Rensselaer,Terry Meagher,F,SO,1,2,3,1973-74
+02/16/1974,Rensselaer,Bill Buckton,F,SO,0,2,2,1973-74
+02/16/1974,Rensselaer,Peter Brown,D,SO,0,2,2,1973-74
+02/16/1974,Rensselaer,Peter Marzo,F,SO,0,2,2,1973-74
+02/16/1974,Rensselaer,Jim Lowell,F,JR,0,1,1,1973-74
+02/16/1974,Rensselaer,John McClellan,F,FR,0,2,2,1973-74
 02/20/1974,Boston College,Peter Brown,D,SO,0,2,2,1973-74
 02/20/1974,Boston College,Jim Lowell,F,JR,1,0,1,1973-74
 02/20/1974,Boston College,Mike Eruzione,F,FR,1,1,2,1973-74
@@ -6098,9 +6117,15 @@
 12/02/1975,New Hampshire,Bill Buckton,F,SR,0,1,1,1975-76
 12/02/1975,New Hampshire,John Fox,D,FR,0,1,1,1975-76
 12/02/1975,New Hampshire,Peter Brown,D,SR,0,1,1,1975-76
-12/04/1975,Dartmouth,Unknown,,,2,0,2,1975-76
+12/04/1975,Dartmouth,Peter Marzo,F,SR,1,0,1,1975-76
+12/04/1975,Dartmouth,Bill Buckton,F,SR,1,0,1,1975-76
 12/04/1975,Dartmouth,Mike Eruzione,F,JR,2,0,2,1975-76
 12/04/1975,Dartmouth,Ken Kuzyk,F,SR,1,0,1,1975-76
+12/04/1975,Dartmouth,Gary Fay,D,JR,0,1,1,1975-76
+12/04/1975,Dartmouth,Rick Meagher,F,JR,0,3,3,1975-76
+12/04/1975,Dartmouth,John Fox,D,FR,0,1,1,1975-76
+12/04/1975,Dartmouth,Peter Brown,D,SR,0,2,2,1975-76
+12/04/1975,Dartmouth,John McClellan,F,JR,0,1,1,1975-76
 12/10/1975,Harvard,John Fox,D,FR,0,1,1,1975-76
 12/10/1975,Harvard,Jack O'Callahan,D,FR,2,0,2,1975-76
 12/10/1975,Harvard,Peter Marzo,F,SR,1,1,2,1975-76
