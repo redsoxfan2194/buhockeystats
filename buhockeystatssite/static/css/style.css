@@ -389,3 +389,8 @@ input[type="range"]::-ms-fill-upper {
   color: #cc0000;
   background-color: white;
 }
+
+#party-jack {
+  display: block;
+  margin: 0 auto;
+}
