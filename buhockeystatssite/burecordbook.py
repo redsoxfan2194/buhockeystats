@@ -3984,6 +3984,10 @@ def getNHLers():
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"nhlers.csv")
   return dfRes
 
+def getNHLAwards():
+  ''' returns NHL Award Winners'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"nhlawards.csv")
+  return dfRes
 
 def getPWHLTeammates():
   ''' returns PWHL Teammates'''
@@ -3993,6 +3997,11 @@ def getPWHLTeammates():
 def getPWHLers():
   ''' returns PWHLers'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"pwhlers.csv")
+  return dfRes
+
+def getPWHLAwards():
+  ''' returns PWHL Award Winners'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"pwhlawards.csv")
   return dfRes
 
 

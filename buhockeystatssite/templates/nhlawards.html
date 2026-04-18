@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="p-3">
+<h3 class="stat-table">Terrier NHL Award Winners</h3>
+<p>
+        {% autoescape false %}
+        {{nhlawardwinners}}
+        {% endautoescape %}
+</p>
+</div>
+{% endblock %}

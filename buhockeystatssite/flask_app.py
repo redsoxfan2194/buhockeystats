@@ -997,6 +997,16 @@ def nhlers():
     return render_template(
     'nhlers.html',nhlers=formatTable(burb.getNHLers()),titletag=' - NHLers')
 
+@app.route('/nhlawards')
+def nhlawards():
+    ''' Renders "NHL Awards" Page
+
+    Returns:
+      Flask Template : flask template containing nhlawards.html
+    '''
+    return render_template(
+    'nhlawards.html',nhlawardwinners=formatTable(burb.getNHLAwards()),titletag=' - NHL Awards')
+
 
 @app.route('/pwhlteammates')
 def pwhlteammates():
@@ -1017,6 +1027,16 @@ def pwhlers():
     '''
     return render_template(
     'pwhlers.html',pwhlers=formatTable(burb.getPWHLers()),titletag=' - PWHLers')
+
+@app.route('/pwhlawards')
+def pwhlawards():
+    ''' Renders "PWHL Awards" Page
+
+    Returns:
+      Flask Template : flask template containing pwhlawards.html
+    '''
+    return render_template(
+    'pwhlawards.html',pwhlawardwinners=formatTable(burb.getPWHLAwards()),titletag=' - PWHL Awards')
 
 
 @app.route('/winterclassic')
