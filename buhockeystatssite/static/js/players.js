@@ -47,6 +47,7 @@ function clearFilters(event) {
     document.getElementById("opponent").value = "all";
     document.getElementById("arena").value = "all";
     document.getElementById("location").value = "all";
+    document.getElementById("tourney").value = "all";
 
     if (document.getElementById("gender").value === "Womens") {
         document.getElementById("seasonStart").value = "2005-06";
@@ -256,6 +257,23 @@ function submitForm(reset = "false") {
                 );
                 $.each(response.arena_values, function (index, item) {
                     selectArenaElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
+                
+                const selectTourneyElement   = $("#tourney");
+                selectTourneyElement.empty();
+                selectTourneyElement.append(
+                    $("<option>", {
+                        value: "all",
+                        text: "All",
+                    })
+                );
+                $.each(response.tourney_values, function (index, item) {
+                    selectTourneyElement.append(
                         $("<option>", {
                             value: item,
                             text: item,

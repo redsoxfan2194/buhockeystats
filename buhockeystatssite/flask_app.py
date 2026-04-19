@@ -149,9 +149,9 @@ def players():
                     dfStat['T'] = rec[2].replace('', -1).astype(int)
             elif formData['type'] == 'game' or formData['type']=='streak':
                 if formData['position'] == 'skater':
-                    dfStat = pd.merge(burb.dfGameStatsMens,burb.dfGames[['date','location','arena']],on='date')
+                    dfStat = pd.merge(burb.dfGameStatsMens,burb.dfGames[['date','location','arena','tourney']],on='date')
                 elif formData['position'] == 'goalie':
-                    dfStat = pd.merge(burb.dfGameStatsGoalieMens,burb.dfGames[['date','location','arena']],on='date')
+                    dfStat = pd.merge(burb.dfGameStatsGoalieMens,burb.dfGames[['date','location','arena','tourney']],on='date')
         elif formData['gender'] == 'Womens':
             mergeGames = burb.dfGamesWomens.copy()
             if formData['type'] == 'career':
@@ -177,9 +177,9 @@ def players():
                     dfStat['T'] = rec[2].astype(int)
             elif formData['type'] == 'game' or formData['type']=='streak':
                 if formData['position'] == 'skater':
-                    dfStat = pd.merge(burb.dfGameStatsWomens,burb.dfGamesWomens[['date','location','arena']],on='date')
+                    dfStat = pd.merge(burb.dfGameStatsWomens,burb.dfGamesWomens[['date','location','arena','tourney']],on='date')
                 elif formData['position'] == 'goalie':
-                    dfStat = pd.merge(burb.dfGameStatsGoalieWomens,burb.dfGamesWomens[['date','location','arena']],on='date')
+                    dfStat = pd.merge(burb.dfGameStatsGoalieWomens,burb.dfGamesWomens[['date','location','arena','tourney']],on='date')
         if seasVals == []:
             seasVals = list(dfStat.season.unique())
         sSeas = formData['seasonStart']
@@ -228,12 +228,15 @@ def players():
         if formData['type'] == 'game':
             oppList = sorted(list(dfStat.opponent.unique()))
             arenaList = sorted(list(dfStat.arena.unique()))
+            tourneyList = getTourneyList(dfStat)
             if formData['opponent'] != 'all':
                 dfStat = dfStat.query(f"opponent==\"{formData['opponent']}\"")
             if formData['date'] != '':
                 dfStat = dfStat.query(f"date==\"{formData['date']}\"")
             if formData['arena'] != 'all':
                 dfStat = dfStat.query(f"arena==\"{formData['arena']}\"")
+            if formData['tourney'] != 'all':
+                dfStat = dfStat.query(f"tourney==\"{formData['tourney']}\"")
             if formData['location'] != 'all':
                 dfStat = dfStat.query(f"location==\"{formData['location']}\"")
         else:
@@ -246,7 +249,7 @@ def players():
             dfStat = dfStat.query(f"number == {formData['number']}")
         if (formData['group'] not in ['', 'splits', 'records']
                 and formData['position'] == 'skater'):
-            dfStat = dfStat.groupby(
+            dfStat = dfStat.query(f"{formData['group']}!=''").groupby(
                 ['name', formData['group']]).sum(numeric_only=True)
             dfStat = dfStat.reset_index()
             dfStat = dfStat[['name', formData['group'],
@@ -254,7 +257,7 @@ def players():
         if (formData['group'] not in ['', 'splits', 'records']
                 and formData['position'] == 'goalie'):
             dfStat = determineRecord(dfStat,formData['group'])
-            dfStat = dfStat.groupby(
+            dfStat = dfStat.query(f"{formData['group']}!=''").groupby(
                 ['name', formData['group']]).sum(numeric_only=True)
             dfStat = dfStat.reset_index()
             dfStat['sv%'] = dfStat['sv'] / (dfStat['sv'] + dfStat['ga'])
@@ -279,7 +282,8 @@ def players():
                         'season',
                         'year',
                         'location',
-                        'arena'],
+                        'arena',
+                        'tourney'],
                     inplace=True)
                 dfMerged = dfStat.merge(mergeGames, on='date', how='left')
                 dfStat = pd.DataFrame(dfMerged.loc[dfMerged['name'].str.contains(
@@ -348,7 +352,8 @@ def players():
                         'season',
                         'year',
                         'location',
-                        'arena'],
+                        'arena',
+                        'tourney'],
                     inplace=True)
                 dfMerged = dfStat.merge(mergeGames, on='date', how='left')
                 dfStat = pd.DataFrame(dfMerged.loc[dfMerged['name'].str.contains(
@@ -368,7 +373,7 @@ def players():
                     'opponent',
                     'oppconference',
                     'arena',
-                        'tourney']:
+                    'tourney']:
                     vals = dfMerged.loc[(dfMerged['name'].str.contains(
                         formData['name'], case=False)) & (dfMerged[col] != '')].groupby(col).sum(
                         numeric_only=True)[['gp', 'sv', 'ga', 'mins', 'SO']]
@@ -549,6 +554,7 @@ def players():
                        season_values=seasVals,
                        opponents_values=oppList,
                        arena_values=arenaList,
+                       tourney_values=tourneyList[1:],
                        sortval=sortVal,
                        isAscending=formData['isAscending'])
     dfStat = burb.dfSkateMens
@@ -1344,7 +1350,7 @@ def generateSeasonStatQuestion(gender="Mens", seasList=burb.dfGames.season.uniqu
             correctAnswer = dfStatSeas.sort_values(
                 stat, ascending=False).head(1)
         if(nameVal=='name'):
-          question = f'Who lead {quesStr} in {stat} in {season}?'
+          question = f'Who led {quesStr} in {stat} in {season}?'
           validChoices = False
           vChoiceCounter = 0
           broken = False
@@ -1370,7 +1376,7 @@ def generateSeasonStatQuestion(gender="Mens", seasList=burb.dfGames.season.uniqu
           if (validQuestion):
               break
         elif(nameVal=='value'):
-          question = f'{correctAnswer["name"].to_string(index=False, header=False)} lead {quesStr} with ____ {stat} in {season}.'
+          question = f'{correctAnswer["name"].to_string(index=False, header=False)} led {quesStr} with ____ {stat} in {season}.'
           if(correctAnswer[stat].empty or correctAnswer[stat].isnull().bool()):
             continue
           answer = int(correctAnswer[stat].astype(int).to_string(index=False, header=False))

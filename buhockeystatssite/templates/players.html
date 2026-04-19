@@ -96,6 +96,17 @@
                     {% endfor %}
                 </select>
             </div>
+            <div id="tourneyDiv" class="filter game-stats">
+                <label for="tourney" class="recLabels game-stats">Tournament:</label>
+                <select class="btn dropdown-toggle custom-align game-stats" name="tourney" id="tourney" onchange="submitForm()">
+                    <option value="all" {% if selected_tourney == 'all' %} selected {% endif %}> All </option>
+                    {% for areana in opponents_values %}
+                        <option value="{{ tourney }}" {% if selected_tourney == tourney %} selected {% endif %}>
+                            {{ tourney }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
             <div id="locDiv" class="filter game-stats">
                 <label for="location" class="recLabels game-stats">Location:</label>
                 <select class="btn dropdown-toggle custom-align game-stats" name="location" id="location" onchange="submitForm()">
@@ -111,6 +122,7 @@
                     <option value="" {% if selected_group == 'all' %} selected {% endif %}>Individual</option>
                     <option value="opponent" {% if selected_group == "" %} selected {% endif %}>Group by: Opponent</option>
                     <option value="arena" {% if selected_group == "" %} selected {% endif %}>Group by: Arena</option>
+                    <option value="tourney" {% if selected_group == "" %} selected {% endif %}>Group by: Tournament </option>
                     <option value="splits" {% if selected_group == "" %} selected {% endif %}>Splits</option>
                     <option value="records" {% if selected_group == "" %} selected {% endif %}>Situational Records</option>
                 </select>

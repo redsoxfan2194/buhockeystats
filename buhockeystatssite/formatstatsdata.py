@@ -273,7 +273,7 @@ def formatStats(dfRes):
     elif ('date' in dfRes.columns and 'ga' in dfRes.columns):
         dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
         dfRes = dfRes[['date', 'name', 'opponent', 'yr',
-                       'season', 'ga', 'gaa', 'sv', 'sv%', 'mins', 'result','arena','location']]
+                       'season', 'ga', 'gaa', 'sv', 'sv%', 'mins', 'result','arena','location','tourney']]
     elif ('number' in dfRes.columns and 'pts' in dfRes.columns):
         dfRes['number'] = dfRes['number'].fillna(-1)
         dfRes['number'] = dfRes['number'].astype(int)
@@ -282,7 +282,7 @@ def formatStats(dfRes):
     elif ('date' in dfRes.columns and 'pts' in dfRes.columns):
         dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
         dfRes = dfRes[['date', 'name', 'opponent', 'yr',
-                       'pos', 'season', 'goals', 'assists', 'pts','arena','location']]
+                       'pos', 'season', 'goals', 'assists', 'pts','arena','location','tourney']]
     elif('End' in dfRes.columns):
         dfRes['Start'] = dfRes['Start'].dt.strftime('%m/%d/%Y')
         dfRes['End'] = dfRes['End'].dt.strftime('%m/%d/%Y')
