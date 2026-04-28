@@ -1,0 +1,375 @@
+date,aTeam,hTeam,per,time,arena,goalscorer,primary,secondary
+1982-04-08,PHI,NYR,2,18:50,Madison Square Garden,Dave Silk,,
+1982-04-21,NYR,NYI,2,03:24,Nassau Veterans Memorial Coliseum,Dave Silk,Unassisted,None
+1985-04-10,DET,CHI,2,00:17,Chicago Stadium,Jack O'Callahan,,
+1985-04-18,MNS,CHI,3,04:11,Chicago Stadium,Jack O'Callahan,,None
+1985-05-09,EDM,CHI,1,05:01,Chicago Stadium,Jack O'Callahan,,
+1986-04-24,STL,TOR,3,04:28,Maple Leaf Gardens,Rick Meagher,,
+1986-04-24,STL,TOR,3,19:36,Maple Leaf Gardens,Rick Meagher,,None
+1986-05-08,CGY,STL,1,11:37,St. Louis Arena,Rick Meagher,,
+1986-05-08,CGY,STL,3,00:24,St. Louis Arena,Rick Meagher,,None
+1988-04-07,LAK,CGY,3,16:47,Olympic Saddledome,Paul Fenton,,
+1988-04-10,MTL,HFD,3,17:54,Hartford Civic Center,Scott Young,,
+1988-04-12,LAK,CGY,3,16:10,Olympic Saddledome,Paul Fenton,,
+1988-05-02,NJD,BOS,2,13:45,Boston Garden,Jack O'Callahan,,
+1989-04-05,HFD,MTL,2,16:55,Montreal Forum,Scott Young,,
+1989-04-06,HFD,MTL,3,07:03,Montreal Forum,Scott Young,,
+1989-04-06,MNS,STL,2,13:17,St. Louis Arena,Rick Meagher,Unassisted,None
+1989-04-06,MNS,STL,4,05:30,St. Louis Arena,Rick Meagher,,
+1989-04-08,PIT,NYR,1,15:25,Madison Square Garden,John Cullen,,
+1989-04-11,MNS,STL,2,16:01,St. Louis Arena,Rick Meagher,,None
+1989-04-17,PHI,PIT,2,08:17,Civic Arena,John Cullen,,
+1989-04-23,PIT,PHI,1,03:22,Spectrum,John Cullen,,
+1990-04-05,HFD,BOS,2,06:16,Boston Garden,Scott Young,,
+1990-04-06,WIN,EDM,1,18:41,Northlands Coliseum,Paul Fenton,,
+1990-04-08,EDM,WIN,2,09:35,Winnipeg Arena,Paul Fenton,,
+1990-04-15,BOS,HFD,1,06:31,Hartford Civic Center,Scott Young,,
+1990-04-18,STL,CHI,1,18:58,Chicago Stadium,Rick Meagher,,
+1991-04-03,HFD,BOS,3,15:49,Boston Garden,John Cullen,,None
+1991-04-09,BOS,HFD,1,02:40,Hartford Civic Center,John Cullen,,None
+1991-05-15,MNS,PIT,2,07:43,Civic Arena,Scott Young,,
+1992-04-20,WIN,VAN,2,01:39,Pacific Coliseum,Keith Tkachuk,,None
+1992-04-21,HFD,MTL,1,07:16,Montreal Forum,John Cullen,,
+1992-04-23,MTL,HFD,2,19:09,Hartford Civic Center,John Cullen,,None
+1992-04-28,VAN,WIN,3,00:17,Winnipeg Arena,Keith Tkachuk,,
+1992-04-28,VAN,WIN,1,05:03,Winnipeg Arena,Keith Tkachuk,,
+1992-04-29,NYR,NJD,1,17:37,Brendan Byrne Arena,Tony Amonte,,
+1992-05-03,PIT,NYR,2,10:24,Madison Square Garden,Tony Amonte,,
+1992-05-09,NYR,PIT,1,13:04,Civic Arena,Tony Amonte,,None
+1992-05-13,NYR,PIT,2,13:43,Civic Arena,Shawn McEachern,Unassisted,None
+1992-05-17,BOS,PIT,3,12:27,Civic Arena,Shawn McEachern,,None
+1993-04-18,MTL,QUE,4,16:49,Le Colisée,Scott Young,,
+1993-04-19,TOR,DET,1,10:44,Joe Louis Arena,John Cullen,,
+1993-04-20,MTL,QUE,1,11:41,Le Colisée,Scott Young,,None
+1993-04-20,NJD,PIT,2,16:56,Civic Arena,Shawn McEachern,,
+1993-04-20,MTL,QUE,1,13:56,Le Colisée,Scott Young,,
+1993-04-20,NJD,PIT,1,15:09,Civic Arena,Shawn McEachern,,
+1993-04-22,PIT,NJD,1,09:36,Brendan Byrne Arena,Shawn McEachern,,None
+1993-04-23,VAN,WIN,1,03:52,Winnipeg Arena,Keith Tkachuk,,None
+1993-04-24,QUE,MTL,1,09:25,Montreal Forum,Scott Young,,
+1993-04-25,VAN,WIN,2,08:48,Winnipeg Arena,Keith Tkachuk,,
+1993-04-27,WIN,VAN,2,11:46,Pacific Coliseum,Keith Tkachuk,,
+1993-04-28,QUE,MTL,1,06:29,Montreal Forum,Ed Ronan,,
+1993-04-29,VAN,WIN,3,06:03,Winnipeg Arena,Keith Tkachuk,,
+1993-05-03,STL,TOR,1,19:03,Maple Leaf Gardens,John Cullen,,
+1993-06-01,LAK,MTL,1,18:09,Montreal Forum,Ed Ronan,Unassisted,None
+1994-04-20,VAN,CGY,1,09:08,Olympic Saddledome,Mike Sullivan,,None
+1994-04-23,TOR,CHI,1,00:49,Chicago Stadium,Tony Amonte,,
+1994-04-23,TOR,CHI,1,02:07,Chicago Stadium,Tony Amonte,,
+1994-04-23,TOR,CHI,2,15:58,Chicago Stadium,Tony Amonte,,None
+1994-04-23,TOR,CHI,3,01:31,Chicago Stadium,Tony Amonte,,
+1994-04-23,BOS,MTL,3,03:33,Montreal Forum,Ed Ronan,,
+1994-04-25,WSH,PIT,1,01:41,Civic Arena,Shawn McEachern,,
+1995-05-06,NYR,QUE,1,17:03,Le Colisée,Scott Young,Unassisted,None
+1995-05-07,TOR,CHI,2,14:01,United Center,Tony Amonte,,
+1995-05-10,QUE,NYR,1,01:54,Madison Square Garden,Scott Young,,
+1995-05-11,CGY,SJS,3,01:02,San Jose Arena,Mike Sullivan,,
+1995-05-11,CGY,SJS,1,05:17,San Jose Arena,Mike Sullivan,,None
+1995-05-11,CGY,SJS,1,01:20,San Jose Arena,Mike Sullivan,,None
+1995-05-14,NYR,QUE,3,19:27,Le Colisée,Scott Young,,
+1995-05-15,TOR,CHI,2,09:53,United Center,Tony Amonte,,None
+1995-05-19,VAN,STL,1,08:35,Kiel Center,Adrian Aucoin,,
+1995-06-04,CHI,DET,2,11:07,Joe Louis Arena,Tony Amonte,Unassisted,None
+1996-04-16,TBL,PHI,3,04:01,Spectrum,John Cullen,,None
+1996-04-20,COL,VAN,3,11:58,General Motors Place,Scott Young,,
+1996-04-21,CHI,CGY,2,01:52,Canadian Airlines Saddledome,Tony Amonte,,
+1996-04-21,DET,WIN,1,16:03,Winnipeg Arena,Keith Tkachuk,,
+1996-04-24,FLA,BOS,2,18:40,FleetCenter,Shawn McEachern,,None
+1996-04-25,TBL,PHI,3,17:59,Spectrum,John Cullen,,None
+1996-04-25,FLA,BOS,3,16:26,FleetCenter,Shawn McEachern,,
+1996-04-27,PHI,TBL,1,09:27,Thunderdome,John Cullen,,
+1996-05-04,CHI,COL,1,04:28,McNichols Sports Arena,Tony Amonte,,
+1996-05-11,CHI,COL,3,05:19,McNichols Sports Arena,Scott Young,,
+1996-06-04,FLA,COL,2,10:32,McNichols Sports Arena,Scott Young,,
+1997-04-16,PHX,ANA,2,16:48,Arrowhead Pond,Keith Tkachuk,,
+1997-04-18,PHX,ANA,3,03:55,Arrowhead Pond,Keith Tkachuk,,
+1997-04-18,EDM,DAL,1,14:51,Reunion Arena,Mike Grier,,
+1997-04-20,ANA,PHX,1,14:01,America West Arena,Keith Tkachuk,,None
+1997-04-20,DAL,EDM,3,17:56,Edmonton Coliseum,Mike Grier,,
+1997-04-20,COL,CHI,2,13:51,United Center,Tony Amonte,,
+1997-04-22,COL,CHI,1,03:34,United Center,Tony Amonte,,None
+1997-04-22,COL,CHI,3,14:28,United Center,Tony Amonte,,None
+1997-04-24,PHX,ANA,1,14:46,Arrowhead Pond,Keith Tkachuk,,
+1997-04-24,PHX,ANA,3,19:39,Arrowhead Pond,Keith Tkachuk,,None
+1997-04-25,OTT,BUF,1,16:14,Marine Midland Arena,Shawn McEachern,,None
+1997-04-26,COL,CHI,1,17:28,United Center,Tony Amonte,Unassisted,None
+1997-04-27,DAL,EDM,1,13:25,Edmonton Coliseum,Mike Grier,,
+1997-04-27,ANA,PHX,3,17:44,America West Arena,Keith Tkachuk,,
+1997-04-29,OTT,BUF,1,10:50,Marine Midland Arena,Shawn McEachern,,
+1997-04-29,PHX,ANA,2,08:19,Arrowhead Pond,Joe Sacco,,
+1997-05-04,EDM,COL,1,13:52,McNichols Sports Arena,Scott Young,,
+1997-05-08,DET,ANA,1,03:01,Arrowhead Pond,Joe Sacco,,
+1997-05-09,BUF,PHI,4,06:24,CoreStates Center,Ed Ronan,,
+1997-05-17,DET,COL,1,18:37,McNichols Sports Arena,Scott Young,,
+1997-05-24,DET,COL,2,18:04,McNichols Sports Arena,Scott Young,,
+1997-05-26,COL,DET,3,14:48,Joe Louis Arena,Scott Young,,
+1998-04-24,PHX,DET,2,13:51,Joe Louis Arena,Keith Tkachuk,,
+1998-04-24,PHX,DET,1,11:00,Joe Louis Arena,Keith Tkachuk,,
+1998-04-30,EDM,COL,3,19:05,McNichols Sports Arena,Mike Grier,,None
+1998-04-30,EDM,COL,3,13:11,McNichols Sports Arena,Mike Grier,,
+1998-05-03,DET,PHX,2,02:02,America West Arena,Keith Tkachuk,,
+1999-04-22,PIT,NJD,3,19:29,Continental Airlines Arena,Jay Pandolfo,,None
+1999-04-23,EDM,DAL,3,08:32,Reunion Arena,Mike Grier,,
+1999-04-23,BUF,OTT,2,02:53,Corel Centre,Shawn McEachern,,
+1999-04-25,PHX,STL,1,07:19,Kiel Center,Keith Tkachuk,,
+1999-04-27,OTT,BUF,2,10:32,Marine Midland Arena,Shawn McEachern,,
+1999-04-30,STL,PHX,4,05:43,America West Arena,Scott Young,,
+1999-05-02,PHX,STL,1,08:25,Kiel Center,Scott Young,,None
+1999-05-08,STL,DAL,2,00:53,Reunion Arena,Scott Young,,None
+1999-05-11,COL,DET,2,03:42,Joe Louis Arena,Chris Drury,,
+1999-05-13,COL,DET,1,01:28,Joe Louis Arena,Chris Drury,,
+1999-05-15,STL,DAL,2,11:19,Reunion Arena,Scott Young,Unassisted,None
+1999-05-18,COL,DET,2,05:46,Joe Louis Arena,Chris Drury,,
+1999-05-28,DAL,COL,4,19:29,McNichols Sports Arena,Chris Drury,,None
+1999-05-30,COL,DAL,2,03:25,Reunion Arena,Chris Drury,Unassisted,None
+1999-05-30,COL,DAL,3,13:16,Reunion Arena,Chris Drury,,None
+2000-04-15,PHX,COL,1,03:31,Pepsi Center,Chris Drury,,
+2000-04-17,COL,PHX,2,00:49,America West Arena,Keith Tkachuk,,
+2000-04-17,STL,SJS,1,15:14,San Jose Arena,Scott Young,,
+2000-04-21,SJS,STL,3,19:26,Kiel Center,Scott Young,,
+2000-04-23,STL,SJS,2,14:22,San Jose Arena,Scott Young,,
+2000-04-23,STL,SJS,1,12:31,San Jose Arena,Scott Young,,
+2000-04-23,STL,SJS,2,00:21,San Jose Arena,Scott Young,,
+2000-04-25,SJS,STL,3,02:09,Kiel Center,Scott Young,,None
+2000-04-29,DET,COL,3,19:01,Pepsi Center,Chris Drury,,None
+2000-05-03,COL,DET,4,10:21,Joe Louis Arena,Chris Drury,,
+2000-05-25,DAL,COL,3,16:09,Pepsi Center,Chris Drury,,None
+2001-04-12,SJS,STL,3,00:38,Savvis Center,Scott Young,,
+2001-04-12,VAN,COL,3,18:53,Pepsi Center,Chris Drury,,None
+2001-04-12,VAN,COL,2,05:35,Pepsi Center,Chris Drury,,None
+2001-04-16,COL,VAN,2,08:37,General Motors Place,Chris Drury,,None
+2001-04-17,STL,SJS,1,19:59,San Jose Arena,Keith Tkachuk,,
+2001-04-18,COL,VAN,2,17:30,General Motors Place,Chris Drury,,
+2001-04-19,SJS,STL,1,07:07,Savvis Center,Scott Young,,
+2001-04-26,LAK,COL,1,15:59,Pepsi Center,Chris Drury,,
+2001-04-29,STL,DAL,1,09:32,Reunion Arena,Scott Young,,None
+2001-05-02,COL,LAK,2,18:13,STAPLES Center,Chris Drury,Unassisted,None
+2001-05-03,DAL,STL,2,14:37,Savvis Center,Keith Tkachuk,,
+2001-05-03,DAL,STL,3,18:36,Savvis Center,Scott Young,Keith Tkachuk,None
+2001-05-09,LAK,COL,3,03:03,Pepsi Center,Chris Drury,,
+2001-05-12,STL,COL,2,00:25,Pepsi Center,Scott Young,Unassisted,None
+2001-05-14,STL,COL,3,19:52,Pepsi Center,Chris Drury,,None
+2001-05-15,PIT,NJD,1,08:52,Continental Airlines Arena,Jay Pandolfo,,
+2001-05-16,COL,STL,5,10:27,Savvis Center,Scott Young,,
+2001-05-26,NJD,COL,2,09:35,Pepsi Center,Chris Drury,,
+2001-06-02,COL,NJD,2,13:54,Continental Airlines Arena,Chris Drury,,
+2001-06-07,COL,NJD,2,18:27,Continental Airlines Arena,Chris Drury,,
+2002-04-19,VAN,DET,2,13:13,Joe Louis Arena,Scott Lachance,Unassisted,None
+2002-04-20,LAK,COL,3,08:45,Pepsi Center,Chris Drury,,None
+2002-04-21,STL,CHI,2,19:10,United Center,Scott Young,Unassisted,None
+2002-04-23,TOR,NYI,3,04:07,Nassau Veterans Memorial Coliseum,Shawn Bates,,
+2002-04-24,TOR,NYI,3,17:30,Nassau Veterans Memorial Coliseum,Shawn Bates,Unassisted,None
+2002-04-25,CHI,STL,3,15:56,Savvis Center,Keith Tkachuk,,None
+2002-04-25,CHI,STL,2,14:21,Savvis Center,Scott Young,,
+2002-04-26,NYI,TOR,3,13:51,Air Canada Centre,Adrian Aucoin,Shawn Bates,
+2002-04-28,TOR,NYI,2,01:35,Nassau Veterans Memorial Coliseum,Adrian Aucoin,Shawn Bates,
+2002-04-29,LAK,COL,2,05:08,Pepsi Center,Chris Drury,,
+2002-05-01,SJS,COL,2,14:33,Pepsi Center,Chris Drury,,
+2002-05-07,DET,STL,1,05:41,Savvis Center,Keith Tkachuk,,None
+2002-05-07,DET,STL,2,17:22,Savvis Center,Keith Tkachuk,,
+2002-05-07,DET,STL,3,01:53,Savvis Center,Keith Tkachuk,,
+2002-05-09,DET,STL,3,18:30,Savvis Center,Keith Tkachuk,Unassisted,None
+2002-05-09,DET,STL,1,04:24,Savvis Center,Scott Young,,
+2002-05-20,COL,DET,4,02:17,Joe Louis Arena,Chris Drury,,
+2002-05-25,DET,COL,3,16:43,Pepsi Center,Chris Drury,,
+2003-04-09,NYI,OTT,2,09:06,Corel Centre,Shawn Bates,Adrian Aucoin,
+2003-04-10,STL,VAN,2,01:38,General Motors Place,Keith Tkachuk,,
+2003-04-11,EDM,DAL,1,14:12,American Airlines Center,Scott Young,,
+2003-04-11,EDM,DAL,1,19:10,American Airlines Center,Scott Young,,
+2003-04-12,WSH,TBL,3,19:18,St. Pete Times Forum,Mike Grier,Unassisted,None
+2003-04-13,NJD,BOS,3,12:00,FleetCenter,Jay Pandolfo,,
+2003-04-16,OTT,NYI,2,02:48,Nassau Veterans Memorial Coliseum,Adrian Aucoin,Unassisted,None
+2003-04-17,EDM,DAL,1,09:02,American Airlines Center,Scott Young,,
+2003-04-19,DAL,EDM,1,00:43,Skyreach Centre,Scott Young,,
+2003-04-25,PHI,OTT,1,01:19,Corel Centre,Tony Amonte,,
+2003-05-10,NJD,OTT,2,16:51,Corel Centre,Jay Pandolfo,,None
+2003-05-13,NJD,OTT,3,14:29,Corel Centre,Jay Pandolfo,,
+2003-05-17,OTT,NJD,2,16:43,Continental Airlines Arena,Jay Pandolfo,,
+2003-06-05,ANA,NJD,2,09:02,Continental Airlines Arena,Jay Pandolfo,,
+2003-06-07,NJD,ANA,2,02:18,Arrowhead Pond,Jay Pandolfo,,
+2004-04-12,COL,DAL,2,19:58,American Airlines Center,Scott Young,,
+2004-04-12,PHI,NJD,2,03:13,Continental Airlines Arena,Tony Amonte,,
+2004-04-22,TOR,PHI,1,07:14,Wachovia Center,Tony Amonte,,
+2004-04-28,PHI,TOR,2,18:58,Air Canada Centre,Tony Amonte,,
+2006-04-21,ANA,CGY,2,06:17,Pengrowth Saddledome,Tony Amonte,,
+2006-04-24,PHI,BUF,1,03:00,HSBC Arena,Chris Drury,,
+2006-04-28,BUF,PHI,3,19:41,Wachovia Center,Mike Grier,,Chris Drury
+2006-04-29,ANA,CGY,1,05:49,Pengrowth Saddledome,Tony Amonte,,
+2006-05-02,BUF,PHI,3,02:12,Wachovia Center,Chris Drury,Mike Grier,None
+2006-05-02,BUF,PHI,1,11:16,Wachovia Center,Mike Grier,Chris Drury,
+2006-05-02,BUF,PHI,2,19:46,Wachovia Center,Chris Drury,,Mike Grier
+2006-05-05,BUF,OTT,1,00:35,Scotiabank Place,Mike Grier,,
+2006-05-05,BUF,OTT,4,00:18,Scotiabank Place,Chris Drury,Mike Grier,None
+2006-05-10,OTT,BUF,1,09:24,HSBC Arena,Chris Drury,,
+2006-05-13,BUF,OTT,2,07:56,Scotiabank Place,Chris Drury,,
+2006-05-13,CAR,NJD,1,11:02,Continental Airlines Arena,Jay Pandolfo,,None
+2006-05-22,BUF,CAR,3,11:39,RBC Center,Chris Drury,,
+2006-05-24,CAR,BUF,1,19:30,HSBC Arena,Chris Drury,,
+2006-05-28,BUF,CAR,1,07:08,RBC Center,Chris Drury,,None
+2007-04-11,SJS,NSH,2,05:31,Nashville Arena,Mike Grier,,
+2007-04-12,NYI,BUF,3,01:08,HSBC Arena,Chris Drury,,
+2007-04-12,NYI,BUF,2,11:13,HSBC Arena,Chris Drury,,
+2007-04-14,PIT,OTT,1,03:01,Scotiabank Place,Ryan Whitney,,
+2007-04-18,BUF,NYI,2,00:39,Nassau Veterans Memorial Coliseum,Chris Drury,,
+2007-04-18,BUF,NYI,1,13:05,Nassau Veterans Memorial Coliseum,Chris Drury,,
+2007-04-18,ATL,NYR,1,06:38,Madison Square Garden,Keith Tkachuk,,
+2007-04-26,SJS,DET,1,10:09,Joe Louis Arena,Mike Grier,,
+2007-04-27,NYR,BUF,3,00:24,HSBC Arena,Chris Drury,,None
+2007-05-02,NJD,OTT,3,09:36,Scotiabank Place,Jay Pandolfo,,
+2007-05-04,NYR,BUF,3,19:52,HSBC Arena,Chris Drury,,
+2007-05-06,BUF,NYR,2,11:15,Madison Square Garden,Chris Drury,,
+2007-05-16,BUF,OTT,2,08:06,Scotiabank Place,Chris Drury,,
+2008-04-16,NJD,NYR,2,12:39,Madison Square Garden,Chris Drury,,None
+2008-04-18,NYR,NJD,2,05:35,Prudential Center,Chris Drury,,
+2008-04-25,NYR,PIT,2,01:52,Mellon Arena,Chris Drury,,
+2008-05-13,PIT,PHI,1,05:03,Wachovia Center,Ryan Whitney,,
+2009-04-18,CGY,CHI,1,16:15,United Center,Adrian Aucoin,,
+2009-04-20,WSH,NYR,3,18:35,Madison Square Garden,Tom Poti,,
+2009-04-22,WSH,NYR,2,02:23,Madison Square Garden,Chris Drury,,
+2009-04-22,CHI,CGY,2,08:10,Pengrowth Saddledome,Adrian Aucoin,,
+2009-04-26,WSH,NYR,1,17:14,Madison Square Garden,Tom Poti,,
+2009-04-28,CAR,NJD,1,13:27,Prudential Center,Jay Pandolfo,,
+2009-05-10,ANA,DET,2,15:37,Joe Louis Arena,Ryan Whitney,,
+2010-04-16,COL,SJS,2,17:30,HP Pavilion at San Jose,Brandon Yip,,None
+2010-04-19,BUF,BOS,1,06:57,TD Garden,Mike Grier,,
+2010-04-23,BOS,BUF,2,09:22,HSBC Arena,Mike Grier,,None
+2010-04-24,SJS,COL,3,04:51,Pepsi Center,Brandon Yip,,
+2011-04-13,NYR,WSH,3,01:56,Verizon Center,Matt Gilroy,,
+2012-04-27,NSH,PHX,1,14:09,Jobing.com Arena,Brandon Yip,,
+2012-05-06,STL,LAK,1,11:34,STAPLES Center,Kevin Shattenkirk,,None
+2012-05-07,NSH,PHX,3,14:01,Jobing.com Arena,Colin Wilson,,
+2013-04-30,DET,ANA,1,10:24,Honda Center,Nick Bonino,,None
+2013-05-04,ANA,DET,2,15:29,Joe Louis Arena,Nick Bonino,,
+2013-05-07,PIT,NYI,1,14:05,Nassau Veterans Memorial Coliseum,Brian Strait,,
+2013-05-08,DET,ANA,4,01:54,Honda Center,Nick Bonino,,None
+2014-04-17,MIN,COL,1,15:20,Pepsi Center,Charlie Coyle,,
+2014-04-18,DAL,ANA,1,07:40,Honda Center,Alex Chiasson,,
+2014-04-19,CHI,STL,1,19:58,Scottrade Center,Kevin Shattenkirk,,
+2014-04-19,MIN,COL,1,04:18,Pepsi Center,Charlie Coyle,,
+2014-04-22,SJS,LAK,2,09:17,STAPLES Center,Matt Nieto,,
+2014-04-24,SJS,LAK,2,08:25,STAPLES Center,Matt Nieto,,None
+2014-04-24,COL,MIN,2,12:55,Xcel Energy Center,Charlie Coyle,,None
+2014-04-25,DAL,ANA,1,05:32,Honda Center,Nick Bonino,,
+2014-04-27,ANA,DAL,4,02:47,American Airlines Center,Nick Bonino,,
+2014-04-27,ANA,DAL,3,17:50,American Airlines Center,Nick Bonino,,
+2014-05-12,LAK,ANA,1,02:15,Honda Center,Nick Bonino,,None
+2015-04-15,CHI,NSH,1,06:07,Bridgestone Arena,Colin Wilson,Unassisted,None
+2015-04-15,CHI,NSH,1,19:33,Bridgestone Arena,Colin Wilson,,
+2015-04-17,CHI,NSH,1,02:47,Bridgestone Arena,Colin Wilson,,
+2015-04-21,NSH,CHI,1,11:38,United Center,Colin Wilson,,
+2015-04-23,CGY,VAN,2,13:31,Rogers Arena,Nick Bonino,,
+2015-04-23,CHI,NSH,3,03:02,Bridgestone Arena,Colin Wilson,,
+2015-04-24,MIN,STL,3,14:50,Scottrade Center,Charlie Coyle,,
+2016-04-15,CHI,STL,3,19:58,Scottrade Center,Kevin Shattenkirk,,None
+2016-04-15,NSH,ANA,2,07:55,Honda Center,Colin Wilson,,
+2016-04-20,DAL,MIN,2,10:14,Xcel Energy Center,Charlie Coyle,,None
+2016-04-22,SJS,LAK,2,04:05,STAPLES Center,Matt Nieto,,
+2016-04-27,NSH,ANA,1,06:19,Honda Center,Colin Wilson,Unassisted,None
+2016-04-28,PIT,WSH,3,08:42,Verizon Center,Nick Bonino,,
+2016-04-29,STL,DAL,3,11:32,American Airlines Center,Kevin Shattenkirk,,
+2016-05-03,SJS,NSH,3,06:55,Bridgestone Arena,Colin Wilson,,
+2016-05-05,SJS,NSH,1,00:41,Bridgestone Arena,Colin Wilson,,
+2016-05-09,SJS,NSH,3,12:44,Bridgestone Arena,Colin Wilson,,
+2016-05-10,WSH,PIT,4,06:32,CONSOL Energy Center,Nick Bonino,,
+2016-05-24,PIT,TBL,3,19:06,Amalie Arena,Nick Bonino,,None
+2016-05-30,SJS,PIT,3,17:27,CONSOL Energy Center,Nick Bonino,,
+2017-04-12,CBJ,PIT,2,16:25,PPG Paints Arena,Nick Bonino,,
+2017-04-16,MIN,STL,2,12:59,Scottrade Center,Charlie Coyle,,
+2017-04-19,MIN,STL,1,16:50,Scottrade Center,Charlie Coyle,Unassisted,None
+2017-04-26,NSH,STL,1,11:24,Scottrade Center,Colin Wilson,,
+2017-04-27,PIT,WSH,3,12:36,Verizon Center,Nick Bonino,,
+2017-05-01,WSH,PIT,4,03:13,PPG Paints Arena,Kevin Shattenkirk,,
+2017-05-20,NSH,ANA,2,19:19,Honda Center,Colin Wilson,,
+2017-05-29,NSH,PIT,1,19:43,PPG Paints Arena,Nick Bonino,,None
+2017-05-29,NSH,PIT,3,18:58,PPG Paints Arena,Nick Bonino,,None
+2018-04-15,WPG,MIN,2,15:00,Xcel Energy Center,Jordan Greenway,,
+2018-04-20,COL,NSH,3,10:18,Bridgestone Arena,Nick Bonino,,
+2018-04-22,NSH,COL,2,08:26,Pepsi Center,Nick Bonino,,
+2018-04-30,BOS,TBL,1,18:30,Amalie Arena,Charlie McAvoy,,
+2018-05-07,WSH,PIT,2,02:13,PPG Paints Arena,Alex Chiasson,,
+2019-04-13,TOR,BOS,1,04:44,TD Garden,Charlie Coyle,,None
+2019-04-13,COL,CGY,2,07:16,Scotiabank Saddledome,Matt Nieto,Unassisted,None
+2019-04-15,BOS,TOR,2,19:22,Scotiabank Arena,Charlie Coyle,,Matt Grzelcyk
+2019-04-15,CGY,COL,2,07:51,Pepsi Center,Matt Nieto,,
+2019-04-17,BOS,TOR,1,03:03,Scotiabank Arena,Charlie McAvoy,Charlie Coyle,Matt Grzelcyk
+2019-04-19,COL,CGY,2,06:52,Scotiabank Saddledome,Colin Wilson,,None
+2019-04-19,COL,CGY,2,14:47,Scotiabank Saddledome,Colin Wilson,,
+2019-04-23,TOR,BOS,3,17:26,TD Garden,Charlie Coyle,,None
+2019-04-25,CBJ,BOS,3,15:25,TD Garden,Charlie Coyle,,
+2019-04-25,CBJ,BOS,4,05:15,TD Garden,Charlie Coyle,,
+2019-04-26,COL,SJS,2,03:56,SAP Center at San Jose,Colin Wilson,,
+2019-04-27,CBJ,BOS,1,07:50,TD Garden,Matt Grzelcyk,Charlie McAvoy,
+2019-04-28,COL,SJS,3,10:10,SAP Center at San Jose,Matt Nieto,,
+2019-04-30,SJS,COL,3,11:45,Pepsi Center,Matt Nieto,,
+2019-05-02,SJS,COL,3,03:11,Pepsi Center,Colin Wilson,,None
+2019-05-09,CAR,BOS,3,17:47,TD Garden,Charlie Coyle,,
+2019-05-12,CAR,BOS,2,17:56,TD Garden,Matt Grzelcyk,Charlie Coyle,
+2019-05-12,CAR,BOS,1,15:22,TD Garden,Matt Grzelcyk,,Charlie Coyle
+2019-05-27,STL,BOS,2,12:41,TD Garden,Charlie McAvoy,Unassisted,None
+2019-05-29,STL,BOS,1,04:44,TD Garden,Charlie Coyle,,
+2019-06-01,BOS,STL,1,17:40,Enterprise Center,Charlie Coyle,,
+2019-06-03,BOS,STL,1,13:14,Enterprise Center,Charlie Coyle,,None
+2019-06-12,STL,BOS,3,17:50,TD Garden,Matt Grzelcyk,,None
+2020-08-02,ARI,NSH,1,15:42,Rogers Place,Clayton Keller,,
+2020-08-03,CHI,EDM,3,08:05,Rogers Place,Alex Chiasson,Unassisted,None
+2020-08-04,ARI,NSH,1,07:50,Rogers Place,Nick Bonino,,
+2020-08-04,ARI,NSH,3,19:03,Rogers Place,Clayton Keller,,None
+2020-08-05,TBL,BOS,2,16:43,Scotiabank Arena,Charlie McAvoy,,
+2020-08-08,PHI,TBL,2,14:22,Scotiabank Arena,Joel Farabee,,
+2020-08-12,MTL,PHI,2,14:54,Scotiabank Arena,Joel Farabee,,None
+2020-08-12,CAR,BOS,2,04:38,Scotiabank Arena,Charlie Coyle,Unassisted,None
+2020-08-14,ARI,COL,1,16:49,Rogers Place,Clayton Keller,Unassisted,None
+2020-08-15,BOS,CAR,2,00:14,Scotiabank Arena,Charlie Coyle,,
+2020-08-17,COL,ARI,1,14:07,Rogers Place,Matt Nieto,,
+2020-08-19,CBJ,TBL,3,12:01,Scotiabank Arena,Kevin Shattenkirk,,
+2020-08-19,MTL,PHI,3,10:37,Scotiabank Arena,Joel Farabee,,
+2020-08-19,ARI,COL,3,06:51,Rogers Place,Clayton Keller,,
+2020-08-23,BOS,TBL,1,18:52,Scotiabank Arena,Charlie Coyle,,
+2020-09-21,DAL,TBL,1,15:16,Rogers Place,Kevin Shattenkirk,,
+2020-09-25,TBL,DAL,4,06:34,Rogers Place,Kevin Shattenkirk,,
+2021-05-21,WSH,BOS,3,01:03,TD Garden,Charlie Coyle,,
+2021-05-21,WSH,BOS,3,14:50,TD Garden,Matt Grzelcyk,Charlie McAvoy,
+2021-05-24,EDM,WPG,2,16:37,Bell MTS Place,Alex Chiasson,,
+2021-05-24,MIN,VGK,1,16:34,T-Mobile Arena,Jordan Greenway,,None
+2021-05-29,NYI,BOS,3,06:20,TD Garden,Charlie McAvoy,,None
+2021-05-31,NYI,BOS,1,02:38,TD Garden,Charlie Coyle,,
+2022-05-06,CAR,BOS,1,17:16,TD Garden,Charlie Coyle,,None
+2022-05-06,MIN,STL,1,00:39,Enterprise Center,Jordan Greenway,,
+2022-05-07,NYR,PIT,1,10:31,PPG Paints Arena,Evan Rodrigues,,
+2022-05-07,NYR,PIT,1,15:15,PPG Paints Arena,Evan Rodrigues,,None
+2022-05-12,CAR,BOS,2,18:04,TD Garden,Charlie Coyle,,
+2022-05-15,PIT,NYR,2,17:24,Madison Square Garden,Evan Rodrigues,Unassisted,None
+2023-04-20,WPG,VGK,2,10:25,T-Mobile Arena,Jack Eichel,,
+2023-04-21,BOS,FLA,2,06:00,FLA Live Arena,Charlie Coyle,,
+2023-04-22,VGK,WPG,2,10:46,Canada Life Centre,Jack Eichel,,
+2023-04-22,VGK,WPG,1,06:18,Canada Life Centre,Jack Eichel,,
+2023-04-26,SEA,COL,3,16:23,Ball Arena,Evan Rodrigues,,
+2023-05-03,EDM,VGK,3,19:26,T-Mobile Arena,Jack Eichel,Unassisted,None
+2023-05-08,VGK,EDM,2,12:03,Rogers Place,Jack Eichel,,None
+2023-05-12,EDM,VGK,1,03:52,T-Mobile Arena,Jack Eichel,,
+2024-04-24,VGK,DAL,3,19:26,American Airlines Center,Jack Eichel,,None
+2024-04-27,DAL,VGK,2,13:50,T-Mobile Arena,Jack Eichel,,None
+2024-04-29,TBL,FLA,3,14:16,Amerant Bank Arena,Evan Rodrigues,,
+2024-04-29,DAL,VGK,2,03:09,T-Mobile Arena,Jack Eichel,,
+2024-05-08,BOS,FLA,1,12:12,Amerant Bank Arena,Charlie Coyle,,
+2024-05-10,FLA,BOS,1,08:04,TD Garden,Evan Rodrigues,,None
+2024-05-10,FLA,BOS,3,19:09,TD Garden,Evan Rodrigues,,
+2024-05-14,BOS,FLA,2,10:25,Amerant Bank Arena,Charlie McAvoy,Charlie Coyle,
+2024-06-08,EDM,FLA,2,02:16,Amerant Bank Arena,Evan Rodrigues,,
+2024-06-10,EDM,FLA,3,03:11,Amerant Bank Arena,Evan Rodrigues,Unassisted,None
+2024-06-10,EDM,FLA,3,12:26,Amerant Bank Arena,Evan Rodrigues,,
+2024-06-18,EDM,FLA,2,12:08,Amerant Bank Arena,Evan Rodrigues,,
+2025-04-19,COL,DAL,3,17:03,American Airlines Center,Charlie Coyle,,
+2025-04-22,OTT,TOR,2,15:41,Scotiabank Arena,Brady Tkachuk,,
+2025-04-24,TOR,OTT,3,11:22,Canadian Tire Centre,Brady Tkachuk,,
+2025-04-29,OTT,TOR,3,19:13,Scotiabank Arena,Brady Tkachuk,,None
+2025-05-01,TOR,OTT,2,07:28,Canadian Tire Centre,Brady Tkachuk,,
+2025-05-01,VGK,MIN,2,16:12,Xcel Energy Center,Jack Eichel,,
+2025-05-14,FLA,TOR,3,06:23,Scotiabank Arena,A.J. Greer,,
+2025-05-20,FLA,CAR,2,03:33,Lenovo Center,A.J. Greer,,
+2025-05-28,FLA,CAR,2,07:53,Lenovo Center,Evan Rodrigues,,
+2025-06-09,EDM,FLA,3,16:10,Amerant Bank Arena,Evan Rodrigues,,
+2026-04-21,MTL,TBL,1,16:11,Benchmark International Arena,Lane Hutson,,
+2026-04-22,PIT,PHI,2,05:18,Xfinity Mobile Arena,Trevor Zegras,,
+2026-04-24,TBL,MTL,4,02:09,Centre Bell,Lane Hutson,,
+2026-04-24,VGK,UTA,2,13:20,Delta Center,Jack Eichel,,
