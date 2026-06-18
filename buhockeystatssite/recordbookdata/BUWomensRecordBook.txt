@@ -26,7 +26,7 @@ CAPTAIN: Cara Hendry
 12/4 W Walter Brown Arena H Sacred Heart 7-2
 1/7 L Walter Brown Arena H #2 New Hampshire * 1-5
 1/15 W Walter Brown Arena H Connecticut * 3-0
-1/18 T (ot) Meehan Aud. A Brown 2-2
+1/18 T (ot) Meehan Auditorium A Brown 2-2
 1/21 L Conte Forum A Boston College * 2-5
 1/22 L Walter Brown Arena H Boston College * 1-2
 1/28 L Alfond Arena A Maine * 0-7
@@ -229,7 +229,7 @@ CAPTAIN: Holly Lorms
 12/4 W Freitas Ice Forum A Connecticut * 4-0
 12/7 W Walter Brown Arena H #10 Northeastern * 3-0
 12/10 W Bright-Landry Hockey Center A Harvard 5-3
-1/2 W Meehan Aud. A Brown 4-0
+1/2 W Meehan Auditorium A Brown 4-0
 1/9 W Walter Brown Arena H #8 Providence * 4-3
 1/15 W Conte Forum A #6 Boston College * 4-0
 1/16 W Walter Brown Arena H Maine * 5-2
@@ -572,7 +572,7 @@ CAPTAINS: Sammy Davis, Reagan Rust, Natasza Tarnowski
 11/16 W Walter Brown Arena H Vermont * 3-0
 11/17 T (ot) Walter Brown Arena H Vermont * 3-3
 11/20 L Conte Forum A #4 Boston College * 3-4
-11/27 W Meehan Aud. A Brown 5-2
+11/27 W Meehan Auditorium A Brown 5-2
 11/30 W Conte Forum A #4 Boston College * 3-2
 12/1 W Walter Brown Arena H #4 Boston College * 4-2
 12/7 W Polisseni Center A RIT 3-1
@@ -861,12 +861,53 @@ CAPTAIN: Maeve Carey
 02/21 L Conte Forum A Boston College * 0-4
 02/25 W Walter Brown Arena H Providence (HE) 3-0
 02/28 L (2ot) Walter Brown Arena H Northeastern (HE) 1-2
+2026-27
+OVERALL: 0-0-0
+HOCKEY EAST: 0-0-0, 1st
+COACH: Tara Watchorn
+CAPTAIN: TBD
+09/26 N Walter Brown Arena H Long Island University (ex) 0-0
+10/01 N LaBahn Arena A Wisconsin  0-0
+10/02 N LaBahn Arena A Wisconsin  0-0
+10/09 N Whittemore Center Arena A New Hampshire * 0-0
+10/10 N Walter Brown Arena H Holy Cross * 0-0
+10/16 N Walter Brown Arena H Colgate  0-0
+10/17 N Agganis Arena H Colgate  0-0
+10/23 N Walter Brown Arena H Yale (IB) 0-0
+10/24 N Walter Brown Arena H Minnesota State/Robert Morris (IB) 0-0
+10/30 N Walter Brown Arena H Northeastern * 0-0
+10/31 N Walter Brown Arena H Northeastern * 0-0
+11/06 N Walter Brown Arena H Maine * 0-0
+11/07 N Walter Brown Arena H Maine * 0-0
+11/13 N Conte Forum A Boston College * 0-0
+11/14 N Walter Brown Arena H Boston College * 0-0
+11/20 N Schneider Arena A Providence * 0-0
+11/21 N Walter Brown Arena H Providence * 0-0
+12/04 N Walter Brown Arena H UConn * 0-0
+12/05 N Toscano Ice Forum A UConn * 0-0
+12/09 N Walter Brown Arena H Brown  0-0
+01/05 N Meehan Auditorium A Brown  0-0
+01/08 N Walter Brown Arena H New Hampshire * 0-0
+01/12 N Conte Forum A Boston College (BP) 0-0
+01/16 N Hart Center A Holy Cross * 0-0
+01/19 N TD Garden N Harvard/Northeastern (BP) 0-0
+01/22 N Gutterson Fieldhouse A Vermont * 0-0
+01/23 N Gutterson Fieldhouse A Vermont * 0-0
+01/29 N Walter Brown Arena H Merrimack * 0-0
+01/30 N Lawler Rink A Merrimack * 0-0
+02/05 N Walter Brown Arena H Boston College * 0-0
+02/06 N Schneider Arena A Providence * 0-0
+02/12 N Walter Brown Arena H Northeastern * 0-0
+02/13 N Whittemore Center Arena A New Hampshire * 0-0
+02/18 N Lawler Rink A Merrimack * 0-0
+02/20 N Walter Brown Arena H Vermont * 0-0
 Key to Tournaments
 BP  Beanpot Tournament
 BB  Battle at the 'Burgh
 HE  Hockey East Tournament
 FF  Frozen Fenway
 FS  Friendship Series
+IB Ice Breaker Invitational
 NCAA  NCAA Tournament
 SS  Smashville Showcase
 WJ  Windjammer Classic

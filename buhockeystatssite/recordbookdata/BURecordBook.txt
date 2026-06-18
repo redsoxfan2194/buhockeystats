@@ -3458,7 +3458,48 @@ CAPTAIN: Gavin McCarthy
 03/07 L Tsongas Center	UMass Lowell * 3-4
 03/11 W Agganis Arena	Vermont (HE) 4-1
 03/14 L Toscano Ice Forum	Connecticut (HE) 3-5
-
+2026-27
+OVERALL: 0-0-0
+HOCKEY EAST: 0-0-0, 1st
+COACH: Jay Pandolfo
+CAPTAIN: TBD
+10/02 N Carlson Center	Alaska 0-0
+10/03 N Carlson Center	Alaska 0-0
+10/10 N Agganis Arena	Brown (ex) 0-0
+10/16 N Gutterson Fieldhouse	Vermont * 0-0
+10/17 N Gutterson Fieldhouse	Vermont * 0-0
+10/23 N Toscano Ice Forum	Connecticut * 0-0
+10/24 N Agganis Arena	Connecticut * 0-0
+10/30 N Agganis Arena	Maine * 0-0
+10/31 N Agganis Arena	Maine * 0-0
+11/06 N Munn Ice Arena	Michigan State 0-0
+11/07 N Munn Ice Arena	Michigan State 0-0
+11/10 N Agganis Arena	Harvard 0-0
+11/18 N Agganis Arena	Quinnipiac 0-0
+11/20 N Lawler Rink	Merrimack * 0-0
+11/21 N Agganis Arena	Merrimack * 0-0
+11/27 N Agganis Arena	Denver 0-0
+11/28 N Agganis Arena	Denver 0-0
+12/04 N Lynah Rink	Cornell 0-0
+12/05 N Class of 1965 Arena	Colgate 0-0
+12/11 N Agganis Arena	Northeastern * 0-0
+12/12 N Agganis Arena	Northeastern * 0-0
+01/08 N Agganis Arena	Massachusetts * 0-0
+01/09 N Mullins Center	Massachusetts * 0-0
+01/15 N Tsongas Center	UMass Lowell * 0-0
+01/16 N Agganis Arena	UMass Lowell * 0-0
+01/22 N Agganis Arena	Providence * 0-0
+01/23 N Schneider Arena	Providence * 0-0
+01/29 N Conte Forum	Boston College * 0-0
+02/01 N TD Garden	Boston College (Pot) 0-0
+02/05 N Alfond Arena	Maine * 0-0
+02/08 N TD Garden	Harvard/Northeastern (Pot) 0-0
+02/19 N Agganis Arena	New Hampshire * 0-0
+02/20 N Whittemore Center Arena	New Hampshire * 0-0
+02/26 N Conte Forum	Boston College * 0-0
+02/27 N Agganis Arena	Boston College * 0-0
+03/05 N Agganis Arena	Northeastern * 0-0
+03/06 N Agganis Arena	UMass Lowell * 0-0
 Key to Tournaments
 ALS Auld Lang Syne Tournament
 B1G/HE Big Ten/Hockey East Challenge
