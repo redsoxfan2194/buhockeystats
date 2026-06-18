@@ -883,8 +883,8 @@ CAPTAIN: TBD
 11/14 N Walter Brown Arena H Boston College * 0-0
 11/20 N Schneider Arena A Providence * 0-0
 11/21 N Walter Brown Arena H Providence * 0-0
-12/04 N Walter Brown Arena H UConn * 0-0
-12/05 N Toscano Ice Forum A UConn * 0-0
+12/04 N Walter Brown Arena H Connecticut * 0-0
+12/05 N Toscano Ice Forum A Connecticut * 0-0
 12/09 N Walter Brown Arena H Brown  0-0
 01/05 N Meehan Auditorium A Brown  0-0
 01/08 N Walter Brown Arena H New Hampshire * 0-0
