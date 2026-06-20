@@ -31,7 +31,7 @@ app.wsgi_app = ProxyFix(app.wsgi_app)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'olympians', 'nhlteammates', 'pwhlteammates', 'worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks','missing_dates']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'olympians', 'nhlteammates', 'pwhlteammates', 'worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks','missing_dates','cupwinners']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -948,6 +948,16 @@ def bloodlines():
     '''
     return render_template(
     'bloodlines.html',siblings=formatTable(burb.getSiblings()),family=formatTable(burb.getFamily()),titletag=' - Bloodlines')
+
+@app.route('/cupwinners')
+def cupwinners():
+    ''' Renders "Cup Winners" Page
+    Returns:
+      Flask Template : flask template containing cupwinners.html
+    '''
+    return render_template(
+    'cupwinners.html',stanleycup=formatTable(burb.getCupWinners('stanley')),caldercup=formatTable(burb.getCupWinners('calder')),kellycup=formatTable(burb.getCupWinners('kelly')),waltercup=formatTable(burb.getCupWinners('walter')),clarksoncup=formatTable(burb.getCupWinners('clarkson')),isobelcup=formatTable(burb.getCupWinners('isobel')),titletag=' - Cup Winners')
+
 
 @app.route('/transfers')
 def transfers():

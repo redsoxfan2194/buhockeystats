@@ -4003,6 +4003,11 @@ def getPWHLAwards():
   ''' returns PWHL Award Winners'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"pwhlawards.csv")
   return dfRes
+  
+def getCupWinners(cup):
+  ''' returns Cup Winners'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{cup}cupwinners.csv")
+  return dfRes
 
 
 def getWinterClassic():

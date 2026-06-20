@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+<h3 class="stat-table">Cup Winners</h3>
+<div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active note-nav" id="mens-cups-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-cups" type="button" role="tab" aria-controls="mens-cups" aria-selected="true">Men's</button>
+      <button class="nav-link note-nav" id="womens-cups-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-cups" type="button" role="tab" aria-controls="womens-cups" aria-selected="true">Women's</button>
+</div>
+   <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-mens-cups" role="tabpanel" aria-labelledby="mens-cups-tab">
+      <h4 class='stat-table'>Stanley Cup Winners (NHL)</h4>
+      <p>
+              {% autoescape false %}
+              {{stanleycup}}
+              {% endautoescape %}
+      </p>
+      <h4 class='stat-table'>Calder Cup Winners (AHL)</h4>
+      <p>
+              {% autoescape false %}
+              {{caldercup}}
+              {% endautoescape %}
+      </p>
+      <h4 class='stat-table'>Kelly Cup Winners (ECHL)</h4>
+      <p>
+              {% autoescape false %}
+              {{kellycup}}
+              {% endautoescape %}
+      </p>
+      </div>
+
+      <div class="tab-pane fade" id="nav-womens-cups" role="tabpanel" aria-labelledby="womens-cups-tab">
+        <h4 class='stat-table'>Walter Cup Winners (PWHL)</h4>
+        <p>
+                {% autoescape false %}
+                {{waltercup}}
+                {% endautoescape %}
+        </p>
+      <h4 class='stat-table'>Isobel Cup Winners (NWHL/PHF)</h4>
+      <p>
+              {% autoescape false %}
+              {{isobelcup}}
+              {% endautoescape %}
+      </p>
+      <h4 class='stat-table'>Clarkson Cup Winners (CWHL)</h4>
+      <p>
+              {% autoescape false %}
+              {{clarksoncup}}
+              {% endautoescape %}
+      </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
