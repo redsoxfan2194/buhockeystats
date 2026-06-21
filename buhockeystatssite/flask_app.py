@@ -123,6 +123,7 @@ def players():
         formData = request.form
         dfStat = pd.DataFrame()
         seasVals = []
+        tourneyList = []
         sortVal = ''
         if formData['gender'] == 'Mens':
             mergeGames = burb.dfGames.copy()
