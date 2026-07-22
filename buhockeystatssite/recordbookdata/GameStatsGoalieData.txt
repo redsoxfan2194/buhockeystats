@@ -2130,18 +2130,18 @@
 01/10/2026,Massachusetts,Mikhail Yegorov,SO,16,1,1,0,57.92,L,2025-26
 01/12/2026,Harvard,Mikhail Yegorov,SO,28,1,1,0,60,W,2025-26
 01/16/2026,UMass Lowell,Max Lacroix,JR,7,1,1,0,22.0,L,2025-26
-01/16/2026,UMass Lowell,Mikhail Yegorov,JR,18,3,1,0,40.0,,2025-26
+01/16/2026,UMass Lowell,Mikhail Yegorov,SO,18,3,1,0,40.0,,2025-26
 01/17/2026,UMass Lowell,Mikhail Yegorov,SO,23,0,1,1,59.77,W,2025-26
-01/23/2026,Providence,Mikhail Yegorov,JR,36,4,1,0,59.27,L,2025-26
+01/23/2026,Providence,Mikhail Yegorov,SO,36,4,1,0,59.27,L,2025-26
 01/24/2026,Providence,Mikhail Yegorov,SO,22,3,1,0,58.27,L,2025-26
-01/30/2026,Boston College,Mikhail Yegorov,FR,17,3,1,0,59.02,L,2025-26
+01/30/2026,Boston College,Mikhail Yegorov,SO,17,3,1,0,59.02,L,2025-26
 02/02/2026,Northeastern,Mikhail Yegorov,SO,24,2,1,0,64.97,T,2025-26
 02/06/2026,Maine,Mikhail Yegorov,SO,28,2,1,0,61.7,W,2025-26
 02/09/2026,Boston College,Mikhail Yegorov,SO,32,5,1,0,58.78,L,2025-26
-02/13/2026,New Hampshire,Mikhail Yegorov,FR,20,3,1,0,59.88,L,2025-26
+02/13/2026,New Hampshire,Mikhail Yegorov,SO,20,3,1,0,59.88,L,2025-26
 02/14/2026,New Hampshire,Max Lacroix,SO,24,3,1,0,60.0,W,2025-26
 02/27/2026,Boston College,Mikhail Yegorov,SO,24,1,1,0,60.0,W,2025-26
-02/28/2026,Boston College,Mikhail Yegorov,FR,28,1,1,0,60.0,W,2025-26
-03/07/2026,UMass Lowell,Mikhail Yegorov,FR,23,3,1,0,58.42,L,2025-26
-03/11/2026,Vermont,Mikhail Yegorov,FR,25,1,1,0,60.0,W,2025-26
-03/14/2026,Connecticut,Mikhail Yegorov,FR,33,4,1,0,58.52,L,2025-26
+02/28/2026,Boston College,Mikhail Yegorov,SO,28,1,1,0,60.0,W,2025-26
+03/07/2026,UMass Lowell,Mikhail Yegorov,SO,23,3,1,0,58.42,L,2025-26
+03/11/2026,Vermont,Mikhail Yegorov,SO,25,1,1,0,60.0,W,2025-26
+03/14/2026,Connecticut,Mikhail Yegorov,SO,33,4,1,0,58.52,L,2025-26
