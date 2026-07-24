@@ -3957,7 +3957,12 @@ def getFamily():
   ''' returns Family'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"family.csv")
   return dfRes
-  
+
+def getCaptains(gender):
+  ''' returns Captains'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0].lower()}captains.csv")
+  return dfRes  
+
 def getWJC():
   ''' returns WJC'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"worldjuniors.csv")

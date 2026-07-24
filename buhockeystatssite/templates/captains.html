@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+<h3 class="stat-table">BU Captains</h3>
+<div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active note-nav" id="mens-captains-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-captains" type="button" role="tab" aria-controls="mens-captains" aria-selected="true">Men's</button>
+      <button class="nav-link note-nav" id="womens-captains-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-captains" type="button" role="tab" aria-controls="womens-captains" aria-selected="true">Women's</button>
+</div>
+   <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-mens-captains" role="tabpanel" aria-labelledby="mens-captains-tab">
+        {% autoescape false %}
+        {{mcaptains}}
+        {% endautoescape %}
+        </div>
+      <div class="tab-pane fade" id="nav-womens-captains" role="tabpanel" aria-labelledby="womens-captains-tab">
+        {% autoescape false %}
+        {{wcaptains}}
+        {% endautoescape %}
+        </div>
+    </div>
+</div>
+{% endblock %}

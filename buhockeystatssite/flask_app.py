@@ -939,7 +939,18 @@ def tidbits():
     '''
     return render_template(
     'tidbits.html',titletag=' - Tidbits')
-    
+
+@app.route('/captains')
+def captains():
+    ''' Renders "captains" Page
+
+    Returns:
+      Flask Template : flask template containing captains.html
+    '''
+    return render_template(
+    'captains.html',mcaptains=formatTable(burb.getCaptains('M')),wcaptains=formatTable(burb.getCaptains('W')),titletag=' - Captains')
+
+
 @app.route('/bloodlines')
 def bloodlines():
     ''' Renders "Bloodlines" Page

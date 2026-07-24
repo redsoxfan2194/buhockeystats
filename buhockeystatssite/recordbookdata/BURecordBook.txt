@@ -12,7 +12,7 @@ CAPTAIN: Edward Hersey
 1922-23
 OVERALL: 2-6
 COACH: John O'Hare
-CAPTAIN:
+CAPTAIN: None
 12/8 L Boston Arena	MIT 4-7
 12/13 L Boston Arena	Harvard 0-2
 1/11 W Boston Arena	Massachusetts 6-1
@@ -24,7 +24,7 @@ CAPTAIN:
 1923-24
 OVERALL: 1-8
 COACH: John O'Hare
-CAPTAIN: Ernest Almer
+CAPTAIN: Ernest Almer, Adolphus Provost
 12/7 W Boston Arena	MIT 7-1
 12/18 L Boston Arena	Harvard 1-8
 12/21 L Boston Arena	Princeton 0-4
