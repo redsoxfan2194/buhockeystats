@@ -615,7 +615,7 @@ Giuliotti,Andy,Andy Giuliotti,5-9 ,,"East Boston, Massachusetts",1957,BU,East Bo
 Jarasitis,Allen,Allen Jarasitis,6-1 ,,"Charlestown, Massachusetts",1957,BU,Charlestown,Massachusetts
 Keith,Forbes,Forbes Keith,- ,5/17/1936,"Boston, Massachusetts",1957,BU,Boston,Massachusetts
 MacKay,Jim,Jim MacKay,- ,,,1957,BU,,
-MacLeod,Dave,Dave MacLeod,6-1 ,0/0/1935,"Charlottetown, Prince Edward Island",1957,BU,Charlottetown,Prince Edward Island
+MacLeod,Dave,Dave MacLeod,6-1 ,,"Charlottetown, Prince Edward Island",1957,BU,Charlottetown,Prince Edward Island
 Marquis,Bob,Bob Marquis,5-9 ,,"Montreal, Quebec",1957,BU,Montreal,Quebec
 McCormack,Bill,Bill McCormack,5-11,,"Malden, Massachusetts",1957,BU,Malden,Massachusetts
 Sullivan,Bill,Bill Sullivan,5-11,,"East Weymouth, Massachusetts",1957,BU,East Weymouth,Massachusetts
@@ -636,7 +636,7 @@ Giuliotti,Andy,Andy Giuliotti,5-9 ,,"East Boston, Massachusetts",1958,BU,East Bo
 Jarasitis,Allen,Allen Jarasitis,6-1 ,,"Charlestown, Massachusetts",1958,BU,Charlestown,Massachusetts
 Keith,Forbes,Forbes Keith,- ,5/17/1936,"Boston, Massachusetts",1958,BU,Boston,Massachusetts
 Leahy,John,John Leahy,- ,,"Somerville, Massachusetts",1958,BU,Somerville,Massachusetts
-MacLeod,Dave,Dave MacLeod,6-1 ,0/0/1935,"Charlottetown, Prince Edward Island",1958,BU,Charlottetown,Prince Edward Island
+MacLeod,Dave,Dave MacLeod,6-1 ,,"Charlottetown, Prince Edward Island",1958,BU,Charlottetown,Prince Edward Island
 Marquis,Bob,Bob Marquis,5-9 ,,"Montreal, Quebec",1958,BU,Montreal,Quebec
 McCormack,Bill,Bill McCormack,5-11,,"Malden, Massachusetts",1958,BU,Malden,Massachusetts
 Quinn,Bill,Bill Quinn,5-10,,"Somerville, Massachusetts",1958,BU,Somerville,Massachusetts
@@ -654,7 +654,7 @@ Giuliotti,Andy,Andy Giuliotti,5-9 ,,"East Boston, Massachusetts",1959,BU,East Bo
 Hughes,Paul,Paul Hughes,6-1 ,,"Natick, Massachusetts",1959,BU,Natick,Massachusetts
 Jarasitis,Allen,Allen Jarasitis,6-1 ,,"Charlestown, Massachusetts",1959,BU,Charlestown,Massachusetts
 Leahy,John,John Leahy,- ,,"Somerville, Massachusetts",1959,BU,Somerville,Massachusetts
-MacLeod,Dave,Dave MacLeod,6-1 ,0/0/1935,"Charlottetown, Prince Edward Island",1959,BU,Charlottetown,Prince Edward Island
+MacLeod,Dave,Dave MacLeod,6-1 ,,"Charlottetown, Prince Edward Island",1959,BU,Charlottetown,Prince Edward Island
 Mahoney,David,David Mahoney,5-7 ,,"Arlington, Massachusetts",1959,BU,Arlington,Massachusetts
 Marquis,Bob,Bob Marquis,5-9 ,,"Montreal, Quebec",1959,BU,Montreal,Quebec
 McCormack,Bill,Bill McCormack,5-11,,"Malden, Massachusetts",1959,BU,Malden,Massachusetts
@@ -676,7 +676,7 @@ Fitzgerald,Peter,Peter Fitzgerald,- ,,,1960,BU,,
 Fogerty,Dick,Dick Fogerty,- ,,,1960,BU,,
 Hughes,Paul,Paul Hughes,6-1 ,,"Natick, Massachusetts",1960,BU,Natick,Massachusetts
 Leahy,John,John Leahy,- ,,"Somerville, Massachusetts",1960,BU,Somerville,Massachusetts
-MacLeod,Dave,Dave MacLeod,6-1 ,0/0/1935,"Charlottetown, Prince Edward Island",1960,BU,Charlottetown,Prince Edward Island
+MacLeod,Dave,Dave MacLeod,6-1 ,,"Charlottetown, Prince Edward Island",1960,BU,Charlottetown,Prince Edward Island
 Mahoney,David,David Mahoney,5-7 ,,"Arlington, Massachusetts",1960,BU,Arlington,Massachusetts
 McBride,John,John McBride,- ,,,1960,BU,,
 Quinn,Bill,Bill Quinn,5-10,,"Somerville, Massachusetts",1960,BU,Somerville,Massachusetts
@@ -851,7 +851,7 @@ Hyndman,Mike,Mike Hyndman,6-1 ,12/8/1945,"Quebec, Quebec",1967,BU,Quebec,Quebec
 Maus,Blaine,Blaine Maus,5-9 ,,"Westwood, Massachusetts",1967,BU,Westwood,Massachusetts
 Parker,Jack,Jack Parker,5-10,3/11/1945,"Somerville, Massachusetts",1967,BU,Somerville,Massachusetts
 Riley Jr.,Bill,Bill Riley Jr.,5-6 ,,"Medford, Massachusetts",1967,BU,Medford,Massachusetts
-Toomey,Dick,Dick Toomey,5-11,0/0/1947,"Newtonville, Massachusetts",1967,BU,Newtonville,Massachusetts
+Toomey,Dick,Dick Toomey,5-11,,"Newtonville, Massachusetts",1967,BU,Newtonville,Massachusetts
 Wakabayashi,Herb,Herb Wakabayashi,5-5 ,12/23/1944,"Neys, Ontario",1967,BU,Neys,Ontario
 Wright,Eddie,Eddie Wright,5-5 ,,"Chatham, Ontario",1967,BU,Chatham,Ontario
 Doyle,Dennis,Dennis Doyle,5-6 ,,"Westport, Connecticut",1967,BU,Westport,Connecticut
@@ -867,7 +867,7 @@ Boily,Serge,Serge Boily,5-9 ,,"LaSalle, Quebec",1968,BU,LaSalle,Quebec
 Davenport,Larry,Larry Davenport,5-8 ,,"Glencoe, Ontario",1968,BU,Glencoe,Ontario
 Fortier,Gene,Gene Fortier,- ,,"Balmertown, Onatrio",1968,BU,Balmertown,Ontario
 Gama,Glen,Glen Gama,5-7 ,,"Providence, Rhode Island",1968,BU,Providence,Rhode Island
-Gowing,Wayne,Wayne Gowing,- ,0/0/1947,"Kitchener, Ontario",1968,BU,Kitchener,Ontario
+Gowing,Wayne,Wayne Gowing,- ,,"Kitchener, Ontario",1968,BU,Kitchener,Ontario
 Gray,Maxwell,Maxwell Gray,5-9 ,,"Chatham, Ontario",1968,BU,Chatham,Ontario
 Gryp,Bob,Bob Gryp,6-1 ,5/6/1950,"Chatham, Ontario",1968,BU,Chatham,Ontario
 Hatton,Bruce,Bruce Hatton,- ,,,1968,BU,,
@@ -876,7 +876,7 @@ Hyndman,Mike,Mike Hyndman,6-1 ,12/8/1945,"Quebec, Quebec",1968,BU,Quebec,Quebec
 Johnson,Bob,Bob Johnson,- ,,,1968,BU,,
 Maus,Blaine,Blaine Maus,5-9 ,,"Westwood, Massachusetts",1968,BU,Westwood,Massachusetts
 Stirling,Steve,Steve Stirling,5-10,11/19/1949,"Clarkson, Ontario",1968,BU,Clarkson,Ontario
-Toomey,Dick,Dick Toomey,5-11,0/0/1947,"Newtonville, Massachusetts",1968,BU,Newtonville,Massachusetts
+Toomey,Dick,Dick Toomey,5-11,,"Newtonville, Massachusetts",1968,BU,Newtonville,Massachusetts
 Wakabayashi,Herb,Herb Wakabayashi,5-5 ,12/23/1944,"Neys, Ontario",1968,BU,Neys,Ontario
 Wright,Eddie,Eddie Wright,5-5 ,,"Chatham, Ontario",1968,BU,Chatham,Ontario
 Fennie,Mark,Mark Fennie,5-10,,"Buffalo, New York",1968,BU,Buffalo,New York
@@ -898,18 +898,18 @@ Davenport,Larry,Larry Davenport,5-8 ,,"Glencoe, Ontario",1969,BU,Glencoe,Ontario
 Donaldson,Coleman,Coleman Donaldson,- ,,"Princeton, New Jersey",1969,BU,Princeton,New Jersey
 Donovan,John,John Donovan,- ,,"Burbank, California",1969,BU,Burbank,California
 Giandomenico,Paul,Paul Giandomenico,5-5 ,10/30/1949,"Boston, Massachusetts",1969,BU,Boston,Massachusetts
-Gowing,Wayne,Wayne Gowing,- ,0/0/1947,"Kitchener, Ontario",1969,BU,Kitchener,Ontario
+Gowing,Wayne,Wayne Gowing,- ,,"Kitchener, Ontario",1969,BU,Kitchener,Ontario
 Gryp,Bob,Bob Gryp,6-1 ,5/6/1950,"Chatham, Ontario",1969,BU,Chatham,Ontario
 Hatton,Bruce,Bruce Hatton,- ,,,1969,BU,,
 Hyndman,Mike,Mike Hyndman,6-1 ,12/8/1945,"Quebec, Quebec",1969,BU,Quebec,Quebec
 Meehan,Joe,Joe Meehan,- ,,"Weston, Ontario",1969,BU,Weston,Ontario
 Stirling,Steve,Steve Stirling,5-10,11/19/1949,"Clarkson, Ontario",1969,BU,Clarkson,Ontario
 Thornton,Peter,Peter Thornton,5-8 ,,"Scarborough, Ontario",1969,BU,Scarborough,Ontario
-Toomey,Dick,Dick Toomey,5-11,0/0/1947,"Newtonville, Massachusetts",1969,BU,Newtonville,Massachusetts
+Toomey,Dick,Dick Toomey,5-11,,"Newtonville, Massachusetts",1969,BU,Newtonville,Massachusetts
 Brady,Dan,Dan Brady,5-11,8/25/1950,"Canton, New York",1969,BU,Canton,New York
 Brueckner,Stefan,Stefan Brueckner,- ,,"Santa Monica, California",1969,BU,Santa Monica,California
 Regan,Tim,Tim Regan,6-2 ,12/28/1949,"Providence, Rhode Island",1969,BU,Providence,Rhode Island
-Abbott,Larry,Larry Abbott,5-10,0/0/1951,"Melrose, Massachusetts",1970,BU,Melrose,Massachusetts
+Abbott,Larry,Larry Abbott,5-10,,"Melrose, Massachusetts",1970,BU,Melrose,Massachusetts
 Brown,Bob,Bob Brown,6-1 ,12/18/1950,"Toronto, Ontario",1970,BU,Toronto,Ontario
 LaGarde,Mike,Mike LaGarde,- ,,"Roxboro, Quebec",1970,BU,Roxboro,Quebec
 Murray,Bob,Bob Murray,6-0 ,7/11/1950,"Boston, Massachusetts",1970,BU,Boston,Massachusetts
@@ -921,10 +921,10 @@ Burrowes,Guy,Guy Burrowes,5-10,3/4/1948,"Niagara Falls, Ontario",1970,BU,Niagara
 Cahoon,Don,Don Cahoon,5-9 ,4/13/1949,"Lynn, Massachusetts",1970,BU,Lynn,Massachusetts
 Cournoyea,Ray,Ray Cournoyea,5-9 ,8/6/1950,"Niagara Falls, Ontario",1970,BU,Niagara Falls,Ontario
 Danby,John,John Danby,5-10,7/20/1948,"Toronto, Ontario",1970,BU,Toronto,Ontario
-Doloff,Steve,Steve Doloff,5-10,0/0/1951,"Melrose, Massachusetts",1970,BU,Melrose,Massachusetts
+Doloff,Steve,Steve Doloff,5-10,,"Melrose, Massachusetts",1970,BU,Melrose,Massachusetts
 Flynn,Bill,Bill Flynn,5-10,1/31/1951,"Everett, Massachusetts",1970,BU,Everett,Massachusetts
 Giandomenico,Paul,Paul Giandomenico,5-5 ,10/30/1949,"Boston, Massachusetts",1970,BU,Boston,Massachusetts
-Gowing,Wayne,Wayne Gowing,- ,0/0/1947,"Kitchener, Ontario",1970,BU,Kitchener,Ontario
+Gowing,Wayne,Wayne Gowing,- ,,"Kitchener, Ontario",1970,BU,Kitchener,Ontario
 Gryp,Bob,Bob Gryp,6-1 ,5/6/1950,"Chatham, Ontario",1970,BU,Chatham,Ontario
 Prechac,Olivier,Olivier Prechac,5-9 ,1/5/1945,"Versailles, France",1970,BU,Versailles,France
 Stirling,Steve,Steve Stirling,5-10,11/19/1949,"Clarkson, Ontario",1970,BU,Clarkson,Ontario
@@ -932,7 +932,7 @@ Thornton,Peter,Peter Thornton,5-8 ,,"Scarborough, Ontario",1970,BU,Scarborough,O
 Brady,Dan,Dan Brady,5-11,8/25/1950,"Canton, New York",1970,BU,Canton,New York
 Brueckner,Stefan,Stefan Brueckner,- ,,"Santa Monica, California",1970,BU,Santa Monica,California
 Regan,Tim,Tim Regan,6-2 ,12/28/1949,"Providence, Rhode Island",1970,BU,Providence,Rhode Island
-Abbott,Larry,Larry Abbott,5-10,0/0/1951,"Melrose, Massachusetts",1971,BU,Melrose,Massachusetts
+Abbott,Larry,Larry Abbott,5-10,,"Melrose, Massachusetts",1971,BU,Melrose,Massachusetts
 Brown,Bob,Bob Brown,6-1 ,12/18/1950,"Toronto, Ontario",1971,BU,Toronto,Ontario
 LaGarde,Mike,Mike LaGarde,- ,,"Roxboro, Quebec",1971,BU,Roxboro,Quebec
 Murray,Bob,Bob Murray,6-0 ,7/11/1950,"Boston, Massachusetts",1971,BU,Boston,Massachusetts
@@ -944,7 +944,7 @@ Cahoon,Don,Don Cahoon,5-9 ,4/13/1949,"Lynn, Massachusetts",1971,BU,Lynn,Massachu
 Connors,Jim,Jim Connors,- ,,"Brookline, Massachusetts",1971,BU,Brookline,Massachusetts
 Cournoyea,Ray,Ray Cournoyea,5-9 ,8/6/1950,"Niagara Falls, Ontario",1971,BU,Niagara Falls,Ontario
 Danby,John,John Danby,5-10,7/20/1948,"Toronto, Ontario",1971,BU,Toronto,Ontario
-Doloff,Steve,Steve Doloff,5-10,0/0/1951,"Melrose, Massachusetts",1971,BU,Melrose,Massachusetts
+Doloff,Steve,Steve Doloff,5-10,,"Melrose, Massachusetts",1971,BU,Melrose,Massachusetts
 Flynn,Bill,Bill Flynn,5-10,1/31/1951,"Everett, Massachusetts",1971,BU,Everett,Massachusetts
 Fowle,Ray,Ray Fowle,- ,,"Niagara Falls, Ontario",1971,BU,Niagara Falls,Ontario
 Giandomenico,Paul,Paul Giandomenico,5-5 ,10/30/1949,"Boston, Massachusetts",1971,BU,Boston,Massachusetts
@@ -958,7 +958,7 @@ Brady,Dan,Dan Brady,5-11,8/25/1950,"Canton, New York",1971,BU,Canton,New York
 Regan,Tim,Tim Regan,6-2 ,12/28/1949,"Providence, Rhode Island",1971,BU,Providence,Rhode Island
 Robillard,Joe,Joe Robillard,- ,,"Woburn, Massachusetts",1971,BU,Woburn,Massachusetts
 Walsh,Ed,Ed Walsh,5-10,8/18/1951,"Somerville, Massachusetts",1971,BU,Somerville,Massachusetts
-Abbott,Larry,Larry Abbott,5-10,0/0/1951,"Melrose, Massachusetts",1972,BU,Melrose,Massachusetts
+Abbott,Larry,Larry Abbott,5-10,,"Melrose, Massachusetts",1972,BU,Melrose,Massachusetts
 Brown,Peter,Peter Brown,6-2 ,5/21/1954,"Boston, Massachusetts",1972,BU,Boston,Massachusetts
 Gryp,Jerry,Jerry Gryp,5-10,7/27/1952,"Chatham, Ontario",1972,BU,Chatham,Ontario
 LaGarde,Mike,Mike LaGarde,- ,,"Roxboro, Quebec",1972,BU,Roxboro,Quebec
@@ -970,13 +970,13 @@ Bishop,Bill,Bill Bishop,- ,,"Owen Sound, Ontario",1972,BU,Owen Sound,Ontario
 Burlington,Bill,Bill Burlington,- ,,"Owen Sound, Ontario",1972,BU,Owen Sound,Ontario
 Cournoyea,Ray,Ray Cournoyea,5-9 ,8/6/1950,"Niagara Falls, Ontario",1972,BU,Niagara Falls,Ontario
 Decloe,Dick,Dick Decloe,6-4 ,5/20/1953,"Amsterdam, Netherlands",1972,BU,Amsterdam,Netherlands
-Doloff,Steve,Steve Doloff,5-10,0/0/1951,"Melrose, Massachusetts",1972,BU,Melrose,Massachusetts
+Doloff,Steve,Steve Doloff,5-10,,"Melrose, Massachusetts",1972,BU,Melrose,Massachusetts
 Glover,Jim,Jim Glover,- ,,"Mississauga, Ontario",1972,BU,Mississauga,Ontario
 Kuzyk,Ken,Ken Kuzyk,6-1 ,8/11/1953,"Toronto, Ontario",1972,BU,Toronto,Ontario
 Lowell,Jim,Jim Lowell,- ,,"Glen Head, New York",1972,BU,Glen Head,New York
 Marzo,Peter,Peter Marzo,- ,,"Acton, Ontario",1972,BU,Acton,Ontario
 O'Neil,Paul,Paul O'Neil,6-1 ,8/24/1953,"Boston, Massachusetts",1972,BU,Boston,Massachusetts
-Robbins,Bill,Bill Robbins,- ,11/21/52,"Belleville, Ontario",1972,BU,Belleville,Ontario
+Robbins,Bill,Bill Robbins,- ,11/21/1952,"Belleville, Ontario",1972,BU,Belleville,Ontario
 Sennett,Dana,Dana Sennett,- ,,"Waterville, Maine",1972,BU,Waterville,Maine
 Wisener,David,David Wisener,5-10,12/10/1950,"Pictou, Nova Scotia",1972,BU,Pictou,Nova Scotia
 Bresnehan,John,John Bresnehan,- ,,"Westport, Connecticut",1972,BU,Westport,Connecticut
@@ -1002,14 +1002,14 @@ McClellan,John,John McClellan,5-11,7/9/1955,"Boston, Massachusetts",1973,BU,Bost
 Meagher,Rick,Rick Meagher,5-9 ,11/2/1953,"Belleville, Ontario",1973,BU,Belleville,Ontario
 Meagher,Terry,Terry Meagher,- ,,"Belleville, Ontario",1973,BU,Belleville,Ontario
 Mescon,Stan,Stan Mescon,- ,,,1973,BU,,
-Robbins,Bill,Bill Robbins,- ,11/21/52,"Belleville, Ontario",1973,BU,Belleville,Ontario
+Robbins,Bill,Bill Robbins,- ,11/21/1952,"Belleville, Ontario",1973,BU,Belleville,Ontario
 Sennett,Dana,Dana Sennett,- ,,"Waterville, Maine",1973,BU,Waterville,Maine
 Devlin,Pat,Pat Devlin,- ,,"Milton, Ontario",1973,BU,Milton,Ontario
 Robillard,Joe,Joe Robillard,- ,,"Woburn, Massachusetts",1973,BU,Woburn,Massachusetts
 Walsh,Ed,Ed Walsh,5-10,8/18/1951,"Somerville, Massachusetts",1973,BU,Somerville,Massachusetts
 Bannerman,Chris,Chris Bannerman,- ,,"Elliot Lake, Ontario",1974,BU,Elliot Lake,Ontario
 Brown,Peter,Peter Brown,6-2 ,5/21/1954,"Boston, Massachusetts",1974,BU,Boston,Massachusetts
-Dudley,Bob,Bob Dudley,- ,10/07/55,"Belleville, Ontario",1974,BU,Belleville,Ontario
+Dudley,Bob,Bob Dudley,- ,10/07/1955,"Belleville, Ontario",1974,BU,Belleville,Ontario
 Fay,Gary,Gary Fay,- ,10/23/1955,"Brookline, Massachusetts",1974,BU,Brookline,Massachusetts
 Gryp,Jerry,Jerry Gryp,5-10,7/27/1952,"Chatham, Ontario",1974,BU,Chatham,Ontario
 Stanfield,Vic,Vic Stanfield,5-10,5/12/1951,"Mississauga, Ontario",1974,BU,Mississauga,Ontario
@@ -1028,16 +1028,16 @@ Marzo,Peter,Peter Marzo,- ,,"Acton, Ontario",1974,BU,Acton,Ontario
 McClellan,John,John McClellan,5-11,7/9/1955,"Boston, Massachusetts",1974,BU,Boston,Massachusetts
 Meagher,Terry,Terry Meagher,- ,,"Belleville, Ontario",1974,BU,Belleville,Ontario
 Meagher,Rick,Rick Meagher,5-9 ,11/2/1953,"Belleville, Ontario",1974,BU,Belleville,Ontario
-Robbins,Bill,Bill Robbins,- ,11/21/52,"Belleville, Ontario",1974,BU,Belleville,Ontario
+Robbins,Bill,Bill Robbins,- ,11/21/1952,"Belleville, Ontario",1974,BU,Belleville,Ontario
 Russell,Bill,Bill Russell,- ,,"Billerica, Massachusetts",1974,BU,Billerica,Massachusetts
 Devlin,Pat,Pat Devlin,- ,,"Milton, Ontario",1974,BU,Milton,Ontario
 Durocher,Brian,Brian Durocher,- ,10/18/1956,"Longmeadow, Massachusetts",1974,BU,Longmeadow,Massachusetts
 Bannerman,Chris,Chris Bannerman,- ,,"Elliot Lake, Ontario",1975,BU,Elliot Lake,Ontario
 Boileau,Robert,Robert Boileau,6-0 ,3/25/1957,"Pointe-Claire, Quebec",1975,BU,Pointe-Claire,Quebec
 Brown,Peter,Peter Brown,6-2 ,5/21/1954,"Boston, Massachusetts",1975,BU,Boston,Massachusetts
-Dudley,Bob,Bob Dudley,- ,10/07/55,"Belleville, Ontario",1975,BU,Belleville,Ontario
+Dudley,Bob,Bob Dudley,- ,10/07/1955,"Belleville, Ontario",1975,BU,Belleville,Ontario
 Fay,Gary,Gary Fay,- ,10/23/1955,"Brookline, Massachusetts",1975,BU,Brookline,Massachusetts
-Fox,John,John Fox,- ,03/30/56,"Willowdale, Ontario",1975,BU,Willowdale,Ontario
+Fox,John,John Fox,- ,03/30/1956,"Willowdale, Ontario",1975,BU,Willowdale,Ontario
 Gryp,Jerry,Jerry Gryp,5-10,7/27/1952,"Chatham, Ontario",1975,BU,Chatham,Ontario
 O'Callahan,Jack,Jack O'Callahan,6-1 ,6/24/1957,"Charlestown, Massachusetts",1975,BU,Charlestown,Massachusetts
 O'Neill,Bill,Bill O'Neill,- ,,"Lynn, Massachusetts",1975,BU,Lynn,Massachusetts
@@ -1047,20 +1047,20 @@ Eruzione,Mike,Mike Eruzione,5-10,10/25/1954,"Winthrop, Massachusetts",1975,BU,Wi
 Fidler,Mike,Mike Fidler,5-11,8/19/1956,"Everett, Massachusetts",1975,BU,Everett,Massachusetts
 Hetnik,Marc,Marc Hetnik,5-10,11/25/1956,"Meriden, Connecticut",1975,BU,Meriden,Connecticut
 Kuzyk,Ken,Ken Kuzyk,6-1 ,8/11/1953,"Toronto, Ontario",1975,BU,Toronto,Ontario
-Marden,Matt,Matt Marden,- ,06/24/56,"Malden, Massachusetts",1975,BU,Malden,Massachusetts
+Marden,Matt,Matt Marden,- ,06/24/1956,"Malden, Massachusetts",1975,BU,Malden,Massachusetts
 Marzo,Peter,Peter Marzo,- ,,"Acton, Ontario",1975,BU,Acton,Ontario
 McClellan,John,John McClellan,5-11,7/9/1955,"Boston, Massachusetts",1975,BU,Boston,Massachusetts
 Meagher,Terry,Terry Meagher,- ,,"Belleville, Ontario",1975,BU,Belleville,Ontario
 Meagher,Rick,Rick Meagher,5-9 ,11/2/1953,"Belleville, Ontario",1975,BU,Belleville,Ontario
-Mullen,Mickey,Mickey Mullen,- ,06/28/56,"Sarnia, Ontario",1975,BU,Sarnia,Ontario
-Mullins,Vince,Vince Mullins,- ,07/22/55,"Tecumseh, Ontario",1975,BU,Tecumseh,Ontario
-Robbins,Bill,Bill Robbins,- ,11/21/52,"Belleville, Ontario",1975,BU,Belleville,Ontario
+Mullen,Mickey,Mickey Mullen,- ,06/28/1956,"Sarnia, Ontario",1975,BU,Sarnia,Ontario
+Mullins,Vince,Vince Mullins,- ,07/22/1955,"Tecumseh, Ontario",1975,BU,Tecumseh,Ontario
+Robbins,Bill,Bill Robbins,- ,11/21/1952,"Belleville, Ontario",1975,BU,Belleville,Ontario
 Devlin,Pat,Pat Devlin,- ,,"Milton, Ontario",1975,BU,Milton,Ontario
 Durocher,Brian,Brian Durocher,- ,10/18/1956,"Longmeadow, Massachusetts",1975,BU,Longmeadow,Massachusetts
 Boileau,Robert,Robert Boileau,6-0 ,3/25/1957,"Pointe-Claire, Quebec",1976,BU,Pointe-Claire,Quebec
-Dudley,Bob,Bob Dudley,- ,10/07/55,"Belleville, Ontario",1976,BU,Belleville,Ontario
+Dudley,Bob,Bob Dudley,- ,10/07/1955,"Belleville, Ontario",1976,BU,Belleville,Ontario
 Fay,Gary,Gary Fay,- ,10/23/1955,"Brookline, Massachusetts",1976,BU,Brookline,Massachusetts
-Fox,John,John Fox,- ,03/30/56,"Willowdale, Ontario",1976,BU,Willowdale,Ontario
+Fox,John,John Fox,- ,03/30/1956,"Willowdale, Ontario",1976,BU,Willowdale,Ontario
 Lamby,Dick,Dick Lamby,6-1 ,5/3/1955,"Worcester, Massachusetts",1976,BU,Worcester,Massachusetts
 McMahon,Pat,Pat McMahon,- ,,"Winnetka, Illinois",1976,BU,Winnetka,Illinois
 Nieland,Scott,Scott Nieland,- ,,"Edina, Minnesota",1976,BU,Edina,Minnesota
@@ -1069,22 +1069,22 @@ O'Neill,Bill,Bill O'Neill,- ,,"Lynn, Massachusetts",1976,BU,Lynn,Massachusetts
 Bethel,John,John Bethel,5-11,1/15/1957,"Montreal, Quebec",1976,BU,Montreal,Quebec
 Corriveau,John,John Corriveau,6-1 ,7/1/1955,"Manchester, New Hampshire",1976,BU,Manchester,New Hampshire
 Eruzione,Mike,Mike Eruzione,5-10,10/25/1954,"Winthrop, Massachusetts",1976,BU,Winthrop,Massachusetts
-Gibson,Steve,Steve Gibson,- ,06/02/56,"Montreal, Quebec",1976,BU,Montreal,Quebec
+Gibson,Steve,Steve Gibson,- ,06/02/1956,"Montreal, Quebec",1976,BU,Montreal,Quebec
 Hetnik,Marc,Marc Hetnik,5-10,11/25/1956,"Meriden, Connecticut",1976,BU,Meriden,Connecticut
-LeBlond,Bill,Bill LeBlond,- ,01/11/57,"New Canaan, Connecticut",1976,BU,New Canaan,Connecticut
-Marden,Matt,Matt Marden,- ,06/24/56,"Malden, Massachusetts",1976,BU,Malden,Massachusetts
+LeBlond,Bill,Bill LeBlond,- ,01/11/1957,"New Canaan, Connecticut",1976,BU,New Canaan,Connecticut
+Marden,Matt,Matt Marden,- ,06/24/1956,"Malden, Massachusetts",1976,BU,Malden,Massachusetts
 McClellan,John,John McClellan,5-11,7/9/1955,"Boston, Massachusetts",1976,BU,Boston,Massachusetts
 Meagher,Tony,Tony Meagher,5-9 ,,"Belleville, Ontario",1976,BU,Belleville,Ontario
 Meagher,Rick,Rick Meagher,5-9 ,11/2/1953,"Belleville, Ontario",1976,BU,Belleville,Ontario
-Melanson,John,John Melanson,- ,03/29/57,"Wakefield, Massachusetts",1976,BU,Wakefield,Massachusetts
-Mullen,Mickey,Mickey Mullen,- ,06/28/56,"Sarnia, Ontario",1976,BU,Sarnia,Ontario
-Mullins,Vince,Vince Mullins,- ,07/22/55,"Tecumseh, Ontario",1976,BU,Tecumseh,Ontario
+Melanson,John,John Melanson,- ,03/29/1957,"Wakefield, Massachusetts",1976,BU,Wakefield,Massachusetts
+Mullen,Mickey,Mickey Mullen,- ,06/28/1956,"Sarnia, Ontario",1976,BU,Sarnia,Ontario
+Mullins,Vince,Vince Mullins,- ,07/22/1955,"Tecumseh, Ontario",1976,BU,Tecumseh,Ontario
 Pidgeon,Mike,Mike Pidgeon,6-2 ,1/27/1958,"Oshawa, Ontario",1976,BU,Oshawa,Ontario
 Silk,Dave,Dave Silk,5-11,1/1/1958,"Scituate, Massachusetts",1976,BU,Scituate,Massachusetts
 Craig,Jim,Jim Craig,6-1 ,5/31/1957,"Easton, Massachusetts",1976,BU,Easton,Massachusetts
 Durocher,Brian,Brian Durocher,- ,10/18/1956,"Longmeadow, Massachusetts",1976,BU,Longmeadow,Massachusetts
 Boileau,Robert,Robert Boileau,6-0 ,3/25/1957,"Pointe-Claire, Quebec",1977,BU,Pointe-Claire,Quebec
-Fox,John,John Fox,- ,03/30/56,"Willowdale, Ontario",1977,BU,Willowdale,Ontario
+Fox,John,John Fox,- ,03/30/1956,"Willowdale, Ontario",1977,BU,Willowdale,Ontario
 Lamby,Dick,Dick Lamby,6-1 ,5/3/1955,"Worcester, Massachusetts",1977,BU,Worcester,Massachusetts
 Nieland,Scott,Scott Nieland,- ,,"Edina, Minnesota",1977,BU,Edina,Minnesota
 O'Callahan,Jack,Jack O'Callahan,6-1 ,6/24/1957,"Charlestown, Massachusetts",1977,BU,Charlestown,Massachusetts
@@ -1097,19 +1097,19 @@ Fidler,Mark,Mark Fidler,- ,,"Charlestown, Massachusetts",1977,BU,Charlestown,Mas
 Hetnik,Marc,Marc Hetnik,5-10,11/25/1956,"Meriden, Connecticut",1977,BU,Meriden,Connecticut
 Johnson,Todd,Todd Johnson,- ,4/16/1958,"Wayland, Massachusetts",1977,BU,Wayland,Massachusetts
 Kimball,Tim,Tim Kimball,- ,,"Beverly, Massachusetts",1977,BU,Beverly,Massachusetts
-LeBlond,Bill,Bill LeBlond,- ,01/11/57,"New Canaan, Connecticut",1977,BU,New Canaan,Connecticut
+LeBlond,Bill,Bill LeBlond,- ,01/11/1957,"New Canaan, Connecticut",1977,BU,New Canaan,Connecticut
 MacLeod,Daryl,Daryl MacLeod,- ,2/10/1960,"Charleston, Massachusetts",1977,BU,Charleston,Massachusetts
-Marden,Matt,Matt Marden,- ,06/24/56,"Malden, Massachusetts",1977,BU,Malden,Massachusetts
+Marden,Matt,Matt Marden,- ,06/24/1956,"Malden, Massachusetts",1977,BU,Malden,Massachusetts
 Meagher,Tony,Tony Meagher,5-9 ,,"Belleville, Ontario",1977,BU,Belleville,Ontario
-Melanson,John,John Melanson,- ,03/29/57,"Wakefield, Massachusetts",1977,BU,Wakefield,Massachusetts
+Melanson,John,John Melanson,- ,03/29/1957,"Wakefield, Massachusetts",1977,BU,Wakefield,Massachusetts
 Miller,Paul,Paul Miller,5-10,8/21/1959,"Billerica, Massachusetts",1977,BU,Billerica,Massachusetts
-Mullen,Mickey,Mickey Mullen,- ,06/28/56,"Sarnia, Ontario",1977,BU,Sarnia,Ontario
+Mullen,Mickey,Mickey Mullen,- ,06/28/1956,"Sarnia, Ontario",1977,BU,Sarnia,Ontario
 Silk,Dave,Dave Silk,5-11,1/1/1958,"Scituate, Massachusetts",1977,BU,Scituate,Massachusetts
 Craig,Jim,Jim Craig,6-1 ,5/31/1957,"Easton, Massachusetts",1977,BU,Easton,Massachusetts
 Durocher,Brian,Brian Durocher,- ,10/18/1956,"Longmeadow, Massachusetts",1977,BU,Longmeadow,Massachusetts
 Wels,Robert,Robert Wels,- ,,,1977,BU,,
 Boileau,Robert,Robert Boileau,6-0 ,3/25/1957,"Pointe-Claire, Quebec",1978,BU,Pointe-Claire,Quebec
-Fox,John,John Fox,- ,03/30/56,"Willowdale, Ontario",1978,BU,Willowdale,Ontario
+Fox,John,John Fox,- ,03/30/1956,"Willowdale, Ontario",1978,BU,Willowdale,Ontario
 Nieland,Scott,Scott Nieland,- ,,"Edina, Minnesota",1978,BU,Edina,Minnesota
 O'Callahan,Jack,Jack O'Callahan,6-1 ,6/24/1957,"Charlestown, Massachusetts",1978,BU,Charlestown,Massachusetts
 O'Neill,Bill,Bill O'Neill,- ,,"Lynn, Massachusetts",1978,BU,Lynn,Massachusetts
@@ -1123,26 +1123,26 @@ Goegan,Grant,Grant Goegan,5-11,1/15/1955,"Victoria, British Columbia",1978,BU,Vi
 Hetnik,Marc,Marc Hetnik,5-10,11/25/1956,"Meriden, Connecticut",1978,BU,Meriden,Connecticut
 Johnson,Todd,Todd Johnson,- ,4/16/1958,"Wayland, Massachusetts",1978,BU,Wayland,Massachusetts
 Kimball,Tim,Tim Kimball,- ,,"Beverly, Massachusetts",1978,BU,Beverly,Massachusetts
-LeBlond,Bill,Bill LeBlond,- ,01/11/57,"New Canaan, Connecticut",1978,BU,New Canaan,Connecticut
+LeBlond,Bill,Bill LeBlond,- ,01/11/1957,"New Canaan, Connecticut",1978,BU,New Canaan,Connecticut
 MacLeod,Daryl,Daryl MacLeod,- ,2/10/1960,"Charleston, Massachusetts",1978,BU,Charleston,Massachusetts
 Marshall,Donald,Donald Marshall,5-8 ,,"Hull, Massachusetts",1978,BU,Hull,Massachusetts
 Meagher,Tony,Tony Meagher,5-9 ,,"Belleville, Ontario",1978,BU,Belleville,Ontario
-Melanson,John,John Melanson,- ,03/29/57,"Wakefield, Massachusetts",1978,BU,Wakefield,Massachusetts
+Melanson,John,John Melanson,- ,03/29/1957,"Wakefield, Massachusetts",1978,BU,Wakefield,Massachusetts
 Miller,Paul,Paul Miller,5-10,8/21/1959,"Billerica, Massachusetts",1978,BU,Billerica,Massachusetts
-Mullen,Mickey,Mickey Mullen,- ,06/28/56,"Sarnia, Ontario",1978,BU,Sarnia,Ontario
+Mullen,Mickey,Mickey Mullen,- ,06/28/1956,"Sarnia, Ontario",1978,BU,Sarnia,Ontario
 Silk,Dave,Dave Silk,5-11,1/1/1958,"Scituate, Massachusetts",1978,BU,Scituate,Massachusetts
 Van Luvan,Ken,Ken Van Luvan,- ,,,1978,BU,,
 Craig,Jim,Jim Craig,6-1 ,5/31/1957,"Easton, Massachusetts",1978,BU,Easton,Massachusetts
-Weisman,Jeff,Jeff Weisman,- ,06/16/59,"Clayton, Missouri",1978,BU,Clayton,Missouri
+Weisman,Jeff,Jeff Weisman,- ,06/16/1959,"Clayton, Missouri",1978,BU,Clayton,Missouri
 Wels,Robert,Robert Wels,- ,,,1978,BU,,
 O'Regan,Tom,Tom O'Regan,5-11,12/29/1961,"Cambridge, Massachusetts",1979,BU,Cambridge,Massachusetts
 Callaghan,Kevin,Kevin Callaghan,- ,,,1979,BU,,
-Klapes,George,George Klapes,- ,11/22/60,"Brookline, Massachusetts",1979,BU,Brookline,Massachusetts
+Klapes,George,George Klapes,- ,11/22/1960,"Brookline, Massachusetts",1979,BU,Brookline,Massachusetts
 Nieland,Scott,Scott Nieland,- ,,"Edina, Minnesota",1979,BU,Edina,Minnesota
-Simpson,Steve,Steve Simpson,- ,05/26/59,"Boxford, Massachusetts",1979,BU,Boxford,Massachusetts
+Simpson,Steve,Steve Simpson,- ,05/26/1959,"Boxford, Massachusetts",1979,BU,Boxford,Massachusetts
 Whelton,Bill,Bill Whelton,6-1 ,8/28/1958,"Everett, Massachusetts",1979,BU,Everett,Massachusetts
-August,Jerry,Jerry August,5-11,11/21/60,"Somerville, Massachusetts",1979,BU,Somerville,Massachusetts
-Carnevale,Dan,Dan Carnevale,- ,12/07/60,"Beverly, Massachusetts",1979,BU,Beverly,Massachusetts
+August,Jerry,Jerry August,5-11,11/21/1960,"Somerville, Massachusetts",1979,BU,Somerville,Massachusetts
+Carnevale,Dan,Dan Carnevale,- ,12/07/1960,"Beverly, Massachusetts",1979,BU,Beverly,Massachusetts
 Cotter,Bill,Bill Cotter,- ,4/22/1959,"Charlestown, Massachusetts",1979,BU,Charlestown,Massachusetts
 Davies,Rob,Rob Davies,5-9 ,12/18/1958,"Pointe-Claire, Quebec",1979,BU,Pointe-Claire,Quebec
 Fenton,Paul,Paul Fenton,5-11,12/22/1959,"Springfield, Massachusetts",1979,BU,Springfield,Massachusetts
@@ -1150,27 +1150,27 @@ Fidler,Mark,Mark Fidler,- ,,"Charlestown, Massachusetts",1979,BU,Charlestown,Mas
 Goegan,Grant,Grant Goegan,5-11,1/15/1955,"Victoria, British Columbia",1979,BU,Victoria,British Columbia
 Johnson,Todd,Todd Johnson,- ,4/16/1958,"Wayland, Massachusetts",1979,BU,Wayland,Massachusetts
 Kimball,Tim,Tim Kimball,- ,,"Beverly, Massachusetts",1979,BU,Beverly,Massachusetts
-LeBlond,Bill,Bill LeBlond,- ,01/11/57,"New Canaan, Connecticut",1979,BU,New Canaan,Connecticut
+LeBlond,Bill,Bill LeBlond,- ,01/11/1957,"New Canaan, Connecticut",1979,BU,New Canaan,Connecticut
 MacLeod,Daryl,Daryl MacLeod,- ,2/10/1960,"Charleston, Massachusetts",1979,BU,Charleston,Massachusetts
 Marshall,Donald,Donald Marshall,5-8 ,,"Hull, Massachusetts",1979,BU,Hull,Massachusetts
 Meagher,Tony,Tony Meagher,5-9 ,,"Belleville, Ontario",1979,BU,Belleville,Ontario
-Melanson,John,John Melanson,- ,03/29/57,"Wakefield, Massachusetts",1979,BU,Wakefield,Massachusetts
+Melanson,John,John Melanson,- ,03/29/1957,"Wakefield, Massachusetts",1979,BU,Wakefield,Massachusetts
 Miller,Paul,Paul Miller,5-10,8/21/1959,"Billerica, Massachusetts",1979,BU,Billerica,Massachusetts
-Sinclair,Marc,Marc Sinclair,- ,04/12/60,"Mississauga, Ontario",1979,BU,Mississauga,Ontario
-Barich,Bob,Bob Barich,- ,06/29/60,"Spring Valley, New York",1979,BU,Spring Valley,New York
-Weisman,Jeff,Jeff Weisman,- ,06/16/59,"Clayton, Missouri",1979,BU,Clayton,Missouri
+Sinclair,Marc,Marc Sinclair,- ,04/12/1960,"Mississauga, Ontario",1979,BU,Mississauga,Ontario
+Barich,Bob,Bob Barich,- ,06/29/1960,"Spring Valley, New York",1979,BU,Spring Valley,New York
+Weisman,Jeff,Jeff Weisman,- ,06/16/1959,"Clayton, Missouri",1979,BU,Clayton,Missouri
 O'Regan,Tom,Tom O'Regan,5-11,12/29/1961,"Cambridge, Massachusetts",1980,BU,Cambridge,Massachusetts
-Connolly,T.J.,T.J. Connolly,- ,01/10/62,"Quincy, Massachusetts",1980,BU,Quincy,Massachusetts
+Connolly,T.J.,T.J. Connolly,- ,01/10/1962,"Quincy, Massachusetts",1980,BU,Quincy,Massachusetts
 Dunbar,Dale,Dale Dunbar,6-0 ,10/14/1961,"Winthrop, Massachusetts",1980,BU,Winthrop,Massachusetts
-Jantzi,Mike,Mike Jantzi,- ,10/19/62,"Getzville, New York",1980,BU,Getzville,New York
-Klapes,George,George Klapes,- ,11/22/60,"Brookline, Massachusetts",1980,BU,Brookline,Massachusetts
+Jantzi,Mike,Mike Jantzi,- ,10/19/1962,"Getzville, New York",1980,BU,Getzville,New York
+Klapes,George,George Klapes,- ,11/22/1960,"Brookline, Massachusetts",1980,BU,Brookline,Massachusetts
 Milton,Bruce,Bruce Milton,6-3 ,6/24/1962,"Brookline, Massachusetts",1980,BU,Brookline,Massachusetts
-Simpson,Steve,Steve Simpson,- ,05/26/59,"Boxford, Massachusetts",1980,BU,Boxford,Massachusetts
+Simpson,Steve,Steve Simpson,- ,05/26/1959,"Boxford, Massachusetts",1980,BU,Boxford,Massachusetts
 Smith,Les,Les Smith,- ,,"Mississauga, Ontario",1980,BU,Mississauga,Ontario
 Whelton,Bill,Bill Whelton,6-1 ,8/28/1958,"Everett, Massachusetts",1980,BU,Everett,Massachusetts
-August,Jerry,Jerry August,5-11,11/21/60,"Somerville, Massachusetts",1980,BU,Somerville,Massachusetts
+August,Jerry,Jerry August,5-11,11/21/1960,"Somerville, Massachusetts",1980,BU,Somerville,Massachusetts
 Burdett,Danny,Danny Burdett,- ,,,1980,BU,,
-Carnevale,Dan,Dan Carnevale,- ,12/07/60,"Beverly, Massachusetts",1980,BU,Beverly,Massachusetts
+Carnevale,Dan,Dan Carnevale,- ,12/07/1960,"Beverly, Massachusetts",1980,BU,Beverly,Massachusetts
 Cotter,Bill,Bill Cotter,- ,4/22/1959,"Charlestown, Massachusetts",1980,BU,Charlestown,Massachusetts
 Darling,Bob,Bob Darling,5-11,,"Mississauga, Ontario",1980,BU,Mississauga,Ontario
 Davies,Rob,Rob Davies,5-9 ,12/18/1958,"Pointe-Claire, Quebec",1980,BU,Pointe-Claire,Quebec
@@ -1180,63 +1180,63 @@ Johnson,Todd,Todd Johnson,- ,4/16/1958,"Wayland, Massachusetts",1980,BU,Wayland,
 Kimball,Tim,Tim Kimball,- ,,"Beverly, Massachusetts",1980,BU,Beverly,Massachusetts
 Luimes,John,John Luimes,- ,,,1980,BU,,
 MacLeod,Daryl,Daryl MacLeod,- ,2/10/1960,"Charleston, Massachusetts",1980,BU,Charleston,Massachusetts
-Mays,Chris,Chris Mays,- ,02/04/61,"Weston, Ontario",1980,BU,Weston,Ontario
-Pierog,Mark,Mark Pierog,6-0 ,01/09/61,"Mississauga, Ontario",1980,BU,Mississauga,Ontario
-Sinclair,Marc,Marc Sinclair,- ,04/12/60,"Mississauga, Ontario",1980,BU,Mississauga,Ontario
-Barich,Bob,Bob Barich,- ,06/29/60,"Spring Valley, New York",1980,BU,Spring Valley,New York
+Mays,Chris,Chris Mays,- ,02/04/1961,"Weston, Ontario",1980,BU,Weston,Ontario
+Pierog,Mark,Mark Pierog,6-0 ,01/09/1961,"Mississauga, Ontario",1980,BU,Mississauga,Ontario
+Sinclair,Marc,Marc Sinclair,- ,04/12/1960,"Mississauga, Ontario",1980,BU,Mississauga,Ontario
+Barich,Bob,Bob Barich,- ,06/29/1960,"Spring Valley, New York",1980,BU,Spring Valley,New York
 Daskalakis,Cleon,Cleon Daskalakis,5-9 ,9/29/1962,"Boston, Massachusetts",1980,BU,Boston,Massachusetts
-Weisman,Jeff,Jeff Weisman,- ,06/16/59,"Clayton, Missouri",1980,BU,Clayton,Missouri
+Weisman,Jeff,Jeff Weisman,- ,06/16/1959,"Clayton, Missouri",1980,BU,Clayton,Missouri
 O'Regan,Tom,Tom O'Regan,5-11,12/29/1961,"Cambridge, Massachusetts",1981,BU,Cambridge,Massachusetts
-Connolly,T.J.,T.J. Connolly,- ,01/10/62,"Quincy, Massachusetts",1981,BU,Quincy,Massachusetts
+Connolly,T.J.,T.J. Connolly,- ,01/10/1962,"Quincy, Massachusetts",1981,BU,Quincy,Massachusetts
 Delorey,Joe,Joe Delorey,- ,2/9/1963,"Concord, Massachusetts",1981,BU,Concord,Massachusetts
 Dunbar,Dale,Dale Dunbar,6-0 ,10/14/1961,"Winthrop, Massachusetts",1981,BU,Winthrop,Massachusetts
-Jantzi,Mike,Mike Jantzi,- ,10/19/62,"Getzville, New York",1981,BU,Getzville,New York
-Klapes,George,George Klapes,- ,11/22/60,"Brookline, Massachusetts",1981,BU,Brookline,Massachusetts
+Jantzi,Mike,Mike Jantzi,- ,10/19/1962,"Getzville, New York",1981,BU,Getzville,New York
+Klapes,George,George Klapes,- ,11/22/1960,"Brookline, Massachusetts",1981,BU,Brookline,Massachusetts
 Milton,Bruce,Bruce Milton,6-3 ,6/24/1962,"Brookline, Massachusetts",1981,BU,Brookline,Massachusetts
-August,Jerry,Jerry August,5-11,11/21/60,"Somerville, Massachusetts",1981,BU,Somerville,Massachusetts
-Barker,Fred,Fred Barker,- ,09/17/62,"Franklin, Massachusetts",1981,BU,Franklin,Massachusetts
+August,Jerry,Jerry August,5-11,11/21/1960,"Somerville, Massachusetts",1981,BU,Somerville,Massachusetts
+Barker,Fred,Fred Barker,- ,09/17/1962,"Franklin, Massachusetts",1981,BU,Franklin,Massachusetts
 Carlacci,Cesare,Cesare Carlacci,5-5 ,7/14/1960,"Ceprano, Italy",1981,BU,Ceprano,Italy
-Carnevale,Dan,Dan Carnevale,- ,12/07/60,"Beverly, Massachusetts",1981,BU,Beverly,Massachusetts
-Darling,Bob,Bob Darling,5-11,07/03/61,"Mississauga, Ontario",1981,BU,Mississauga,Ontario
+Carnevale,Dan,Dan Carnevale,- ,12/07/1960,"Beverly, Massachusetts",1981,BU,Beverly,Massachusetts
+Darling,Bob,Bob Darling,5-11,07/03/1961,"Mississauga, Ontario",1981,BU,Mississauga,Ontario
 Davies,Rob,Rob Davies,5-9 ,12/18/1958,"Pointe-Claire, Quebec",1981,BU,Pointe-Claire,Quebec
 Fenton,Paul,Paul Fenton,5-11,12/22/1959,"Springfield, Massachusetts",1981,BU,Springfield,Massachusetts
-LaGarde,Denis,Denis LaGarde,- ,10/29/60,"Roxboro, Quebec",1981,BU,Roxboro,Quebec
-Little,Tim,Tim Little,- ,01/07/61,"Haileybury, Ontario",1981,BU,Haileybury,Ontario
-Manty,Scott,Scott Manty,- ,11/02/62,"Walpole, Massachusetts",1981,BU,Walpole,Massachusetts
-Mays,Chris,Chris Mays,- ,02/04/61,"Weston, Ontario",1981,BU,Weston,Ontario
+LaGarde,Denis,Denis LaGarde,- ,10/29/1960,"Roxboro, Quebec",1981,BU,Roxboro,Quebec
+Little,Tim,Tim Little,- ,01/07/1961,"Haileybury, Ontario",1981,BU,Haileybury,Ontario
+Manty,Scott,Scott Manty,- ,11/02/1962,"Walpole, Massachusetts",1981,BU,Walpole,Massachusetts
+Mays,Chris,Chris Mays,- ,02/04/1961,"Weston, Ontario",1981,BU,Weston,Ontario
 Mutch,Kevin,Kevin Mutch,- ,4/27/1962,"Canton, Massachusetts",1981,BU,Canton,Massachusetts
-Pierog,Mark,Mark Pierog,6-0 ,01/09/61,"Mississauga, Ontario",1981,BU,Mississauga,Ontario
-Sinclair,Marc,Marc Sinclair,- ,04/12/60,"Mississauga, Ontario",1981,BU,Mississauga,Ontario
-Barich,Bob,Bob Barich,- ,06/29/60,"Spring Valley, New York",1981,BU,Spring Valley,New York
+Pierog,Mark,Mark Pierog,6-0 ,01/09/1961,"Mississauga, Ontario",1981,BU,Mississauga,Ontario
+Sinclair,Marc,Marc Sinclair,- ,04/12/1960,"Mississauga, Ontario",1981,BU,Mississauga,Ontario
+Barich,Bob,Bob Barich,- ,06/29/1960,"Spring Valley, New York",1981,BU,Spring Valley,New York
 Daskalakis,Cleon,Cleon Daskalakis,5-9 ,9/29/1962,"Boston, Massachusetts",1981,BU,Boston,Massachusetts
 O'Regan,Tom,Tom O'Regan,5-11,12/29/1961,"Cambridge, Massachusetts",1982,BU,Cambridge,Massachusetts
-Cappellano,Joe,Joe Cappellano,- ,02/29/64,"Weymouth, Massachusetts",1982,BU,Weymouth,Massachusetts
-Connolly,T.J.,T.J. Connolly,- ,01/10/62,"Quincy, Massachusetts",1982,BU,Quincy,Massachusetts
+Cappellano,Joe,Joe Cappellano,- ,02/29/1964,"Weymouth, Massachusetts",1982,BU,Weymouth,Massachusetts
+Connolly,T.J.,T.J. Connolly,- ,01/10/1962,"Quincy, Massachusetts",1982,BU,Quincy,Massachusetts
 Delorey,Joe,Joe Delorey,- ,2/9/1963,"Concord, Massachusetts",1982,BU,Concord,Massachusetts
 Dunbar,Dale,Dale Dunbar,6-0 ,10/14/1961,"Winthrop, Massachusetts",1982,BU,Winthrop,Massachusetts
-Klapes,George,George Klapes,- ,11/22/60,"Brookline, Massachusetts",1982,BU,Brookline,Massachusetts
+Klapes,George,George Klapes,- ,11/22/1960,"Brookline, Massachusetts",1982,BU,Brookline,Massachusetts
 Matchett,Chris,Chris Matchett,5-9 ,6/9/1964,"Calgary, Alberta",1982,BU,Calgary,Alberta
-August,Jerry,Jerry August,5-11,11/21/60,"Somerville, Massachusetts",1982,BU,Somerville,Massachusetts
+August,Jerry,Jerry August,5-11,11/21/1960,"Somerville, Massachusetts",1982,BU,Somerville,Massachusetts
 Carlacci,Cesare,Cesare Carlacci,5-5 ,7/14/1960,"Ceprano, Italy",1982,BU,Ceprano,Italy
-Carnevale,Dan,Dan Carnevale,- ,12/07/60,"Beverly, Massachusetts",1982,BU,Beverly,Massachusetts
-Darling,Bob,Bob Darling,5-11,07/03/61,"Mississauga, Ontario",1982,BU,Mississauga,Ontario
+Carnevale,Dan,Dan Carnevale,- ,12/07/1960,"Beverly, Massachusetts",1982,BU,Beverly,Massachusetts
+Darling,Bob,Bob Darling,5-11,07/03/1961,"Mississauga, Ontario",1982,BU,Mississauga,Ontario
 Gerlitz,Paul,Paul Gerlitz,6-0 ,3/23/1963,"Calgary, Alberta",1982,BU,Calgary,Alberta
-LaGarde,Denis,Denis LaGarde,- ,10/29/60,"Roxboro, Quebec",1982,BU,Roxboro,Quebec
-Little,Tim,Tim Little,- ,01/07/61,"Haileybury, Ontario",1982,BU,Haileybury,Ontario
+LaGarde,Denis,Denis LaGarde,- ,10/29/1960,"Roxboro, Quebec",1982,BU,Roxboro,Quebec
+Little,Tim,Tim Little,- ,01/07/1961,"Haileybury, Ontario",1982,BU,Haileybury,Ontario
 MacGregor,Brad,Brad MacGregor,6-1 ,7/22/1964,"Edmonton, Alberta",1982,BU,Edmonton,Alberta
 Majkozak,Tony,Tony Majkozak,5-8 ,12/17/1963,"Minneapolis, Minnesota",1982,BU,Minneapolis,Minnesota
 Marshall,Peter,Peter Marshall,5-8 ,10/14/1963,"Beverly, Massachusetts",1982,BU,Beverly,Massachusetts
-Mays,Chris,Chris Mays,- ,02/04/61,"Weston, Ontario",1982,BU,Weston,Ontario
+Mays,Chris,Chris Mays,- ,02/04/1961,"Weston, Ontario",1982,BU,Weston,Ontario
 Mutch,Kevin,Kevin Mutch,- ,4/27/1962,"Canton, Massachusetts",1982,BU,Canton,Massachusetts
-Pierog,Mark,Mark Pierog,6-0 ,01/09/61,"Mississauga, Ontario",1982,BU,Mississauga,Ontario
-Sinclair,Marc,Marc Sinclair,- ,04/12/60,"Mississauga, Ontario",1982,BU,Mississauga,Ontario
-Sullivan,Chuck,Chuck Sullivan,- ,07/28/64,"Winthrop, Massachusetts",1982,BU,Winthrop,Massachusetts
-Tiano,John,John Tiano,5-11,04/25/64,"Winthrop, Massachusetts",1982,BU,Winthrop,Massachusetts
-Van Camp,Carl,Carl Van Camp,- ,02/07/63,"Melfort, Saskatchewan",1982,BU,Melfort,Saskatchewan
-Barich,Bob,Bob Barich,- ,06/29/60,"Spring Valley, New York",1982,BU,Spring Valley,New York
+Pierog,Mark,Mark Pierog,6-0 ,01/09/1961,"Mississauga, Ontario",1982,BU,Mississauga,Ontario
+Sinclair,Marc,Marc Sinclair,- ,04/12/1960,"Mississauga, Ontario",1982,BU,Mississauga,Ontario
+Sullivan,Chuck,Chuck Sullivan,- ,07/28/1964,"Winthrop, Massachusetts",1982,BU,Winthrop,Massachusetts
+Tiano,John,John Tiano,5-11,04/25/1964,"Winthrop, Massachusetts",1982,BU,Winthrop,Massachusetts
+Van Camp,Carl,Carl Van Camp,- ,02/07/1963,"Melfort, Saskatchewan",1982,BU,Melfort,Saskatchewan
+Barich,Bob,Bob Barich,- ,06/29/1960,"Spring Valley, New York",1982,BU,Spring Valley,New York
 Daskalakis,Cleon,Cleon Daskalakis,5-9 ,9/29/1962,"Boston, Massachusetts",1982,BU,Boston,Massachusetts
-Cappellano,Joe,Joe Cappellano,- ,02/29/64,"Weymouth, Massachusetts",1983,BU,Weymouth,Massachusetts
-Connolly,T.J.,T.J. Connolly,- ,01/10/62,"Quincy, Massachusetts",1983,BU,Quincy,Massachusetts
+Cappellano,Joe,Joe Cappellano,- ,02/29/1964,"Weymouth, Massachusetts",1983,BU,Weymouth,Massachusetts
+Connolly,T.J.,T.J. Connolly,- ,01/10/1962,"Quincy, Massachusetts",1983,BU,Quincy,Massachusetts
 Delorey,Joe,Joe Delorey,- ,2/9/1963,"Concord, Massachusetts",1983,BU,Concord,Massachusetts
 Dunbar,Dale,Dale Dunbar,6-0 ,10/14/1961,"Winthrop, Massachusetts",1983,BU,Winthrop,Massachusetts
 Matchett,Chris,Chris Matchett,5-9 ,6/9/1964,"Calgary, Alberta",1983,BU,Calgary,Alberta
@@ -1246,22 +1246,22 @@ Thiesing,David,David Thiesing,5-11,1/14/1965,"Westborough, Massachusetts",1983,B
 Carlacci,Cesare,Cesare Carlacci,5-5 ,7/14/1960,"Ceprano, Italy",1983,BU,Ceprano,Italy
 Crozier,Steve,Steve Crozier,- ,,"Niskayuna, New York",1983,BU,Niskayuna,New York
 Cullen,John,John Cullen,5-10,8/2/1964,"Puslinch, Ontario",1983,BU,Puslinch,Ontario
-Darling,Bob,Bob Darling,5-11,07/03/61,"Mississauga, Ontario",1983,BU,Mississauga,Ontario
+Darling,Bob,Bob Darling,5-11,07/03/1961,"Mississauga, Ontario",1983,BU,Mississauga,Ontario
 Gerlitz,Paul,Paul Gerlitz,6-0 ,3/23/1963,"Calgary, Alberta",1983,BU,Calgary,Alberta
-LaGarde,Denis,Denis LaGarde,- ,10/29/60,"Roxboro, Quebec",1983,BU,Roxboro,Quebec
+LaGarde,Denis,Denis LaGarde,- ,10/29/1960,"Roxboro, Quebec",1983,BU,Roxboro,Quebec
 Lowney,Ed,Ed Lowney,6-2 ,10/6/1965,"Revere, Massachusetts",1983,BU,Revere,Massachusetts
 MacGregor,Brad,Brad MacGregor,6-1 ,7/22/1964,"Edmonton, Alberta",1983,BU,Edmonton,Alberta
 Majkozak,Tony,Tony Majkozak,5-8 ,12/17/1963,"Minneapolis, Minnesota",1983,BU,Minneapolis,Minnesota
 Marshall,Peter,Peter Marshall,5-8 ,10/14/1963,"Beverly, Massachusetts",1983,BU,Beverly,Massachusetts
-Mays,Chris,Chris Mays,- ,02/04/61,"Weston, Ontario",1983,BU,Weston,Ontario
+Mays,Chris,Chris Mays,- ,02/04/1961,"Weston, Ontario",1983,BU,Weston,Ontario
 Mutch,Kevin,Kevin Mutch,- ,4/27/1962,"Canton, Massachusetts",1983,BU,Canton,Massachusetts
-Pierog,Mark,Mark Pierog,6-0 ,01/09/61,"Mississauga, Ontario",1983,BU,Mississauga,Ontario
-Sullivan,Chuck,Chuck Sullivan,- ,07/28/64,"Winthrop, Massachusetts",1983,BU,Winthrop,Massachusetts
-Tiano,John,John Tiano,5-11,04/25/64,"Winthrop, Massachusetts",1983,BU,Winthrop,Massachusetts
+Pierog,Mark,Mark Pierog,6-0 ,01/09/1961,"Mississauga, Ontario",1983,BU,Mississauga,Ontario
+Sullivan,Chuck,Chuck Sullivan,- ,07/28/1964,"Winthrop, Massachusetts",1983,BU,Winthrop,Massachusetts
+Tiano,John,John Tiano,5-11,04/25/1964,"Winthrop, Massachusetts",1983,BU,Winthrop,Massachusetts
 Daskalakis,Cleon,Cleon Daskalakis,5-9 ,9/29/1962,"Boston, Massachusetts",1983,BU,Boston,Massachusetts
 Deraney,Bob,Bob Deraney,6-0 ,3/7/1965,"West Roxbury, Massachusetts",1983,BU,West Roxbury,Massachusetts
 Taillefer,Terry,Terry Taillefer,6-1 ,7/23/1965,"Calgary, Alberta",1983,BU,Calgary,Alberta
-Cappellano,Joe,Joe Cappellano,- ,02/29/64,"Weymouth, Massachusetts",1984,BU,Weymouth,Massachusetts
+Cappellano,Joe,Joe Cappellano,- ,02/29/1964,"Weymouth, Massachusetts",1984,BU,Weymouth,Massachusetts
 Delorey,Joe,Joe Delorey,- ,2/9/1963,"Concord, Massachusetts",1984,BU,Concord,Massachusetts
 Dunbar,Dale,Dale Dunbar,6-0 ,10/14/1961,"Winthrop, Massachusetts",1984,BU,Winthrop,Massachusetts
 Matchett,Chris,Chris Matchett,5-9 ,6/9/1964,"Calgary, Alberta",1984,BU,Calgary,Alberta
@@ -1281,7 +1281,7 @@ Majkozak,Tony,Tony Majkozak,5-8 ,12/17/1963,"Minneapolis, Minnesota",1984,BU,Min
 Marshall,Peter,Peter Marshall,5-8 ,10/14/1963,"Beverly, Massachusetts",1984,BU,Beverly,Massachusetts
 Mutch,Kevin,Kevin Mutch,- ,4/27/1962,"Canton, Massachusetts",1984,BU,Canton,Massachusetts
 Sanders,Scott,Scott Sanders,5-11,11/3/1965,"Mississauga, Ontario",1984,BU,Mississauga,Ontario
-Sullivan,Chuck,Chuck Sullivan,- ,07/28/64,"Winthrop, Massachusetts",1984,BU,Winthrop,Massachusetts
+Sullivan,Chuck,Chuck Sullivan,- ,07/28/1964,"Winthrop, Massachusetts",1984,BU,Winthrop,Massachusetts
 Sveen,Jeff,Jeff Sveen,5-11,2/5/1966,"Sherwood Park, Alberta",1984,BU,Sherwood Park,Alberta
 Deraney,Bob,Bob Deraney,6-0 ,3/7/1965,"West Roxbury, Massachusetts",1984,BU,West Roxbury,Massachusetts
 Fish,Peter,Peter Fish,5-9 ,1/3/1966,"East Greenwich, Rhode Island",1984,BU,East Greenwich,Rhode Island
@@ -1449,7 +1449,7 @@ Aucoin,Adrian,Adrian Aucoin,6-2 ,7/3/1973,"Ottawa, Ontario",1991,BU,Ottawa,Ontar
 Brennan,Rich,Rich Brennan,6-2 ,11/26/1972,"Schenectady, New York",1991,BU,Schenectady,New York
 Brownschidle,Mark,Mark Brownschidle,6-2 ,10/26/1970,"Buffalo, New York",1991,BU,Buffalo,New York
 Dion,Tom,Tom Dion,5-11,4/22/1969,"Massena, New York",1991,BU,Massena,New York
-Donato,Dan,Dan Donato,- ,05/15/70,"Dedham, Massachusetts",1991,BU,Dedham,Massachusetts
+Donato,Dan,Dan Donato,- ,05/15/1970,"Dedham, Massachusetts",1991,BU,Dedham,Massachusetts
 Foster,Stephen,Stephen Foster,6-3 ,3/21/1971,"Brockton, Massachusetts",1991,BU,Brockton,Massachusetts
 Linna,Kaj,Kaj Linna,6-2 ,1/24/1971,"Helsinki, Finland",1991,BU,Helsinki,Finland
 O'Sullivan,Kevin,Kevin O'Sullivan,5-11,11/13/1970,"Boston, Massachusetts",1991,BU,Boston,Massachusetts
@@ -1473,7 +1473,7 @@ Cashman,Scott,Scott Cashman,6-2 ,9/20/1969,"Ottawa, Ontario",1991,BU,Ottawa,Onta
 Herlofsky,Derek,Derek Herlofsky,5-10,10/1/1971,"Minneapolis, Minnesota",1991,BU,Minneapolis,Minnesota
 McKersie,J.P.,J.P. McKersie,6-1 ,1/23/1972,"Madison, Wisconsin",1991,BU,Madison,Wisconsin
 Brennan,Rich,Rich Brennan,6-2 ,11/26/1972,"Schenectady, New York",1992,BU,Schenectady,New York
-Donato,Dan,Dan Donato,- ,05/15/70,"Dedham, Massachusetts",1992,BU,Dedham,Massachusetts
+Donato,Dan,Dan Donato,- ,05/15/1970,"Dedham, Massachusetts",1992,BU,Dedham,Massachusetts
 Foster,Stephen,Stephen Foster,6-3 ,3/21/1971,"Brockton, Massachusetts",1992,BU,Brockton,Massachusetts
 Linna,Kaj,Kaj Linna,6-2 ,1/24/1971,"Helsinki, Finland",1992,BU,Helsinki,Finland
 O'Sullivan,Kevin,Kevin O'Sullivan,5-11,11/13/1970,"Boston, Massachusetts",1992,BU,Boston,Massachusetts
@@ -1500,7 +1500,7 @@ Herlofsky,Derek,Derek Herlofsky,5-10,10/1/1971,"Minneapolis, Minnesota",1992,BU,
 McKersie,J.P.,J.P. McKersie,6-1 ,1/23/1972,"Madison, Wisconsin",1992,BU,Madison,Wisconsin
 Brennan,Rich,Rich Brennan,6-2 ,11/26/1972,"Schenectady, New York",1993,BU,Schenectady,New York
 Coleman,Jon,Jon Coleman,6-1 ,3/9/1975,"Boston, Massachusetts",1993,BU,Boston,Massachusetts
-Donato,Dan,Dan Donato,- ,05/15/70,"Dedham, Massachusetts",1993,BU,Dedham,Massachusetts
+Donato,Dan,Dan Donato,- ,05/15/1970,"Dedham, Massachusetts",1993,BU,Dedham,Massachusetts
 Foster,Stephen,Stephen Foster,6-3 ,3/21/1971,"Brockton, Massachusetts",1993,BU,Brockton,Massachusetts
 Johnson,Shane,Shane Johnson,5-10,1/1/1974,"Brandon, Manitoba",1993,BU,Brandon,Manitoba
 Linna,Kaj,Kaj Linna,6-2 ,1/24/1971,"Helsinki, Finland",1993,BU,Helsinki,Finland
@@ -1535,7 +1535,7 @@ Linna,Kaj,Kaj Linna,6-2 ,1/24/1971,"Helsinki, Finland",1994,BU,Helsinki,Finland
 O'Sullivan,Chris,Chris O'Sullivan,6-2 ,5/15/1974,"Dorchester, Massachusetts",1994,BU,Dorchester,Massachusetts
 Wood,Doug,Doug Wood,6-0 ,1/7/1974,"Waltham, Massachusetts",1994,BU,Waltham,Massachusetts
 Bates,Shawn,Shawn Bates,6-0 ,4/3/1975,"Melrose, Massachusetts",1994,BU,Melrose,Massachusetts
-Donatelli,Peter,Peter Donatelli,5-10,11/05/75,"North Providence, Rhode Island",1994,BU,North Providence,Rhode Island
+Donatelli,Peter,Peter Donatelli,5-10,11/05/1975,"North Providence, Rhode Island",1994,BU,North Providence,Rhode Island
 Drury,Chris,Chris Drury,5-10,8/20/1976,"Trumbull, Connecticut",1994,BU,Trumbull,Connecticut
 Grier,Mike,Mike Grier,6-1 ,1/5/1975,"Detroit, Michigan",1994,BU,Detroit,Michigan
 Hynes,John,John Hynes,5-9 ,2/10/1975,"Warwick, Rhode Island",1994,BU,Warwick,Rhode Island
@@ -1548,7 +1548,7 @@ Rausch,Kenny,Kenny Rausch,6-0 ,3/26/1973,"Danbury, Connecticut",1994,BU,Danbury,
 Sylvia,Mike,Mike Sylvia,- ,2/5/1976,"Newton, Massachusetts",1994,BU,Newton,Massachusetts
 Thornton,Steve,Steve Thornton,5-10,3/8/1973,"Edmonton, Alberta",1994,BU,Edmonton,Alberta
 Wright,Matt,Matt Wright,6-0 ,4/27/1973,"Belmont, Massachusetts",1994,BU,Belmont,Massachusetts
-Ferullo,Shawn,Shawn Ferullo,5-8 ,04/03/75,"Lynnfield, Massachusetts",1994,BU,Lynnfield,Massachusetts
+Ferullo,Shawn,Shawn Ferullo,5-8 ,04/03/1975,"Lynnfield, Massachusetts",1994,BU,Lynnfield,Massachusetts
 Herlofsky,Derek,Derek Herlofsky,5-10,10/1/1971,"Minneapolis, Minnesota",1994,BU,Minneapolis,Minnesota
 McKersie,J.P.,J.P. McKersie,6-1 ,1/23/1972,"Madison, Wisconsin",1994,BU,Madison,Wisconsin
 Noble,Tom,Tom Noble,5-10,3/21/1975,"Hanover, Massachusetts",1994,BU,Hanover,Massachusetts
@@ -1561,7 +1561,7 @@ O'Sullivan,Chris,Chris O'Sullivan,6-2 ,5/15/1974,"Dorchester, Massachusetts",199
 Ronan,Dan,Dan Ronan,5-11,6/18/1975,"Woburn, Massachusetts",1995,BU,Woburn,Massachusetts
 Wood,Doug,Doug Wood,6-0 ,1/7/1974,"Waltham, Massachusetts",1995,BU,Waltham,Massachusetts
 Bates,Shawn,Shawn Bates,6-0 ,4/3/1975,"Melrose, Massachusetts",1995,BU,Melrose,Massachusetts
-Donatelli,Peter,Peter Donatelli,5-10,11/05/75,"North Providence, Rhode Island",1995,BU,North Providence,Rhode Island
+Donatelli,Peter,Peter Donatelli,5-10,11/05/1975,"North Providence, Rhode Island",1995,BU,North Providence,Rhode Island
 Drury,Chris,Chris Drury,5-10,8/20/1976,"Trumbull, Connecticut",1995,BU,Trumbull,Connecticut
 Grier,Mike,Mike Grier,6-1 ,1/5/1975,"Detroit, Michigan",1995,BU,Detroit,Michigan
 Hynes,John,John Hynes,5-9 ,2/10/1975,"Warwick, Rhode Island",1995,BU,Warwick,Rhode Island
@@ -1672,7 +1672,7 @@ Priem,Ryan,Ryan Priem,6-1,6/5/1980,"Minnetonka, Minnesota",1999,BU,Minnetonka,Mi
 Quebec,Greg,Greg Quebec,6-0,2/2/1978,"Acton, Massachusetts",1999,BU,Acton,Massachusetts
 Sabo,John,John Sabo,5-8,9/4/1981,"Harding Township, New Jersey",1999,BU,Harding Township,New Jersey
 Vuori,Juha,Juha Vuori,6-1,3/21/1975,"Ulvila, Finland",1999,BU,Ulvila,Finland
-DiPietro,Ricky,Ricky DiPietro,6-0,9/19/1981,"Ann Arbor, Michigan",1999,BU,Ann Arbor,Michigan
+DiPietro,Rick,Rick DiPietro,6-0,9/19/1981,"Ann Arbor, Michigan",1999,BU,Ann Arbor,Michigan
 Tapp,Jason,Jason Tapp,5-7,4/8/1978,"Kelowna, British Columbia",1999,BU,Kelowna,British Columbia
 Warren,Andy,Andy Warren,5-11,6/22/1980,"Princeton Junction, New Jersey",1999,BU,Princeton Junction,New Jersey
 Aufiero,Pat,Pat Aufiero,6-2,7/1/1980,"Winchester, Massachusetts",2000,BU,Winchester,Massachusetts
