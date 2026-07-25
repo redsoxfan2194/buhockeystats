@@ -309,7 +309,7 @@
 01/10/1934,Harvard,John Lax,F,JR,1,0,1,1933-34
 01/10/1934,Harvard,Lawrence Lucey,D,,1,0,1,1933-34
 01/27/1934,Harvard,Russell Smith,F,,1,0,1,1933-34
-01/27/1934,Harvard,Dexton Wesson,F,,1,0,1,1933-34
+01/27/1934,Harvard,Dexter Wesson,F,,1,0,1,1933-34
 01/27/1934,Harvard,John Lax,F,JR,0,1,1,1933-34
 02/03/1934,Dartmouth,Paul Rowe,F,,2,0,2,1933-34
 02/03/1934,Dartmouth,Russell Smith,F,,1,0,1,1933-34
@@ -329,7 +329,7 @@
 02/20/1934,MIT,James Smith,F,,1,0,1,1933-34
 02/20/1934,MIT,Lawrence Lucey,D,,1,0,1,1933-34
 02/23/1934,New Hampshire,Russell Smith,F,,3,0,3,1933-34
-02/23/1934,New Hampshire,Dexton Wesson,F,,1,1,2,1933-34
+02/23/1934,New Hampshire,Dexter Wesson,F,,1,1,2,1933-34
 02/23/1934,New Hampshire,James Smith,F,,1,2,3,1933-34
 02/23/1934,New Hampshire,Tom Hartigan,F,,1,1,2,1933-34
 02/23/1934,New Hampshire,John Lax,F,JR,0,1,1,1933-34
@@ -374,14 +374,14 @@
 12/03/1935,MIT,Al Carvelli,F,SO,2,1,3,1935-36
 12/03/1935,MIT,Albert Woodward,F,,1,0,1,1935-36
 12/03/1935,MIT,Russell Lynch,F,,1,0,1,1935-36
-12/03/1935,MIT,Dexton Wesson,F,,1,0,1,1935-36
+12/03/1935,MIT,Dexter Wesson,F,,1,0,1,1935-36
 12/14/1935,Princeton,Gerry Desrosiers,F,SO,2,0,2,1935-36
 12/14/1935,Princeton,Al Carvelli,F,SO,1,0,1,1935-36
 12/14/1935,Princeton,George Hoar,D,,1,0,1,1935-36
 12/14/1935,Princeton,Albert Woodward,F,,0,1,1,1935-36
 12/17/1935,Harvard,Albert Woodward,F,,1,0,1,1935-36
 01/07/1936,Brown,Tom Hartigan,F,,0,1,1,1935-36
-01/07/1936,Brown,Dexton Wesson,F,,1,1,2,1935-36
+01/07/1936,Brown,Dexter Wesson,F,,1,1,2,1935-36
 01/07/1936,Brown,Al Carvelli,F,SO,1,1,2,1935-36
 01/07/1936,Brown,Gerry Desrosiers,F,SO,2,2,4,1935-36
 01/07/1936,Brown,Russell Lynch,F,,1,0,1,1935-36
@@ -392,13 +392,13 @@
 01/10/1936,Boston College,Albert Woodward,F,,1,0,1,1935-36
 01/10/1936,Boston College,Herbert James,D,,0,1,1,1935-36
 01/10/1936,Boston College,Tom Hartigan,F,,0,1,1,1935-36
-01/10/1936,Boston College,Dexton Wesson,F,,0,1,1,1935-36
+01/10/1936,Boston College,Dexter Wesson,F,,0,1,1,1935-36
 01/15/1936,Yale,Al Carvelli,F,SO,0,2,2,1935-36
 01/15/1936,Yale,George Hoar,D,,1,0,1,1935-36
 01/15/1936,Yale,Albert Woodward,F,,1,0,1,1935-36
 01/28/1936,New Hampshire,Tom Hartigan,F,,3,0,3,1935-36
 01/28/1936,New Hampshire,Al Carvelli,F,SO,2,3,5,1935-36
-01/28/1936,New Hampshire,Dexton Wesson,F,,1,0,1,1935-36
+01/28/1936,New Hampshire,Dexter Wesson,F,,1,0,1,1935-36
 01/28/1936,New Hampshire,Gerry Desrosiers,F,SO,0,1,1,1935-36
 02/04/1936,Boston College,George Hoar,D,,1,0,1,1935-36
 02/04/1936,Boston College,Tom Hartigan,F,,1,0,1,1935-36
@@ -408,7 +408,7 @@
 02/08/1936,Army,Tom Hartigan,F,,2,2,4,1935-36
 02/08/1936,Army,Al Carvelli,F,SO,2,2,4,1935-36
 02/08/1936,Army,Harry Cleverly,F,,1,0,1,1935-36
-02/08/1936,Army,Dexton Wesson,F,,0,1,1,1935-36
+02/08/1936,Army,Dexter Wesson,F,,0,1,1,1935-36
 02/12/1936,New Hampshire,Tom Hartigan,F,,3,2,5,1935-36
 02/12/1936,New Hampshire,Al Carvelli,F,SO,2,2,4,1935-36
 02/12/1936,New Hampshire,Gerry Desrosiers,F,SO,2,4,6,1935-36
@@ -418,14 +418,14 @@
 02/18/1936,MIT,Albert Woodward,F,,0,1,1,1935-36
 02/18/1936,MIT,Tom Hartigan,F,,1,0,1,1935-36
 02/18/1936,MIT,George Hoar,D,,1,0,1,1935-36
-02/18/1936,MIT,Dexton Wesson,F,,0,2,2,1935-36
+02/18/1936,MIT,Dexter Wesson,F,,0,2,2,1935-36
 02/18/1936,MIT,Herbert James,F,,0,1,1,1935-36
 02/22/1936,Dartmouth,Neil Powell,F,,1,0,1,1935-36
 02/22/1936,Dartmouth,Gerry Desrosiers,F,SO,1,1,2,1935-36
 02/22/1936,Dartmouth,Russell Lynch,F,,1,0,1,1935-36
 02/28/1936,Brown,Gerry Desrosiers,F,SO,0,2,2,1935-36
 02/28/1936,Brown,Tom Hartigan,F,,2,0,2,1935-36
-02/28/1936,Brown,Dexton Wesson,F,,0,1,1,1935-36
+02/28/1936,Brown,Dexter Wesson,F,,0,1,1,1935-36
 12/01/1936,MIT,Gerry Desrosiers,F,JR,4,2,6,1936-37
 12/01/1936,MIT,Russell Lynch,F,,2,0,2,1936-37
 12/01/1936,MIT,William Freeman,F,,1,0,1,1936-37

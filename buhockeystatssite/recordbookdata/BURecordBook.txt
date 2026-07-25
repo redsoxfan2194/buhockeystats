@@ -24,7 +24,7 @@ CAPTAIN: None
 1923-24
 OVERALL: 1-8
 COACH: John O'Hare
-CAPTAIN: Ernest Almer, Adolphus Provost
+CAPTAIN: Joseph Almer, Adolphus Provost
 12/7 W Boston Arena	MIT 7-1
 12/18 L Boston Arena	Harvard 1-8
 12/21 L Boston Arena	Princeton 0-4
@@ -37,7 +37,7 @@ CAPTAIN: Ernest Almer, Adolphus Provost
 1924-25
 OVERALL: 7-4-1
 COACH: George Gaw
-CAPTAIN: Morris Kontoff
+CAPTAIN: Morey Kontoff
 12/5 T (ot) Boston Arena	MIT 3-3
 12/16 L Boston Arena	Harvard 1-6
 12/23 W Boston Arena	Boston College 1-0
@@ -97,7 +97,7 @@ CAPTAIN: John Lawless
 1928-29
 OVERALL: 9-2-1
 COACH: Wayland Vaughan
-CAPTAIN: William Gibson, Syd Silberberg
+CAPTAIN: William Gibson, Sydney Silberberg
 12/8 W Boston Arena	MIT 2-0
 12/12 L N. Haven Arena	Yale 0-3
 12/14 W Boston Arena	Brown 4-0
@@ -146,7 +146,7 @@ CAPTAIN: Paul Bergholtz
 1931-32
 OVERALL: 6-4
 COACH: Wayland Vaughan
-CAPTAIN: Ronald Weaver
+CAPTAIN: Ronald Weafer
 12/14 W Boston Arena	Brown 3-0
 12/18 L (ot) Boston Arena	MIT 2-3
 1/8 W Boston Arena	MIT 4-1
@@ -174,7 +174,7 @@ CAPTAIN: Walter Bender
 1933-34
 OVERALL: 6-7
 COACH: Wayland Vaughan
-CAPTAIN: John Ulman
+CAPTAIN: John Ullman
 12/4 L Boston Arena	MIT 0-1
 12/13 L N. Haven Arena	Yale 1-3
 12/16 L (2ot) Hobey Baker Rink	Princeton 4-5
@@ -243,7 +243,7 @@ CAPTAIN: Russell Lynch
 OVERALL: 9-4-2
 NEIHL: 5-1-2, 1st
 COACH: Wayland Vaughan
-CAPTAINS: Gerald Desrosiers, George Hoar
+CAPTAINS: Gerry Desrosiers, George Hoar
 12/3 W Boston Arena	MIT * 2-1
 12/8 L N. Haven Arena	Yale 3-6
 12/11 W (ot) Hobey Baker Rink	Princeton 5-4
@@ -282,7 +282,7 @@ CAPTAIN: Albert Carvelli
 OVERALL: 4-5-3
 NEIHL: 4-2-0, 3rd
 COACH: Wayland Vaughan
-CAPTAINS: Joseph Conaty, Ed Richardson
+CAPTAINS: Joe Conaty, Ed Richardson
 12/2 W Boston Arena	MIT * 5-1
 12/9 T (ot) Hobey Baker Rink	Princeton 2-2
 12/13 L N. Haven Arena	Yale 4-5
@@ -337,7 +337,7 @@ CAPTAIN: Henry Sullivan
 OVERALL: 2-11
 NEIHL: 2-6-0, T-5th
 COACH: Wayland Vaughan
-CAPTAIN: Jim Davidson
+CAPTAIN: James Davidson
 12/5 W Boston Arena	MIT * 14-2
 12/12 L N. Haven Arena	Yale 1-19
 12/15 L Boston Arena	Harvard 2-18
@@ -362,7 +362,7 @@ CAPTAIN: Game Captains
 OVERALL: 15-5-1
 NEIHL: 11-0-1, 1st
 COACH: Harry Cleverly
-CAPTAIN: Fran Anderson
+CAPTAIN: Francis Anderson
 12/10 W Boston Arena	Boston College * 9-5
 12/11 W Boston Arena	Northeastern * 9-2
 12/16 W Boston Arena	Jr. Olympics (nc) 6-5
@@ -442,7 +442,7 @@ CAPTAIN: Bill Kirrane
 OVERALL: 19-5
 NEIHL: 8-1-0, 1st
 COACH: Harry Cleverly
-CAPTAIN: Ralph “Ike” Bevins
+CAPTAIN: Ralph Bevins
 12/5 W Boston Arena	Tufts * 12-2
 12/6 L Boston Arena	Harvard 6-7
 12/12 W Boston Arena	MIT * 11-1
@@ -496,7 +496,7 @@ CAPTAINS: Ed Cahoon, Jack Garrity
 OVERALL: 15-3-1
 NEIHL: 5-2-0, 4th
 COACH: Harry Cleverly
-CAPTAIN: Richard Kelley
+CAPTAIN: Dick Kelley
 11/30 E Boston Garden	BU Alumni (ex) 5-2
 12/3 T (ot) Boston Garden	Brown 5-5
 12/17 W Boston Arena	Harvard 9-5
@@ -549,7 +549,7 @@ CAPTAIN: Paul Kelley
 OVERALL: 4-15-1
 NEIHL: 2-4-0, T-8th
 COACH: Harry Cleverly
-CAPTAIN: Robert Rousseau
+CAPTAIN: Bob Rousseau
 12/4 L RI Auditorium	Brown 3-4
 12/8 L Boston Garden	Yale 0-7
 12/12 L Houston Field House	Rensselaer 2-8
@@ -573,7 +573,7 @@ CAPTAIN: Robert Rousseau
 1954-55
 OVERALL: 4-19
 COACH: Harry Cleverly
-CAPTAIN: Thomas Dwyer
+CAPTAIN: Tom Dwyer
 12/3 L RI Auditorium	Brown 3-4
 12/8 W (ot) N. Haven Arena	Yale 3-2
 12/11 W Hobey Baker Rink	Princeton 4-2
@@ -828,7 +828,7 @@ CAPTAIN: Mike Denihan
 OVERALL: 9-13-2
 ECAC: 9-12-0, 20th
 COACH: Jack Kelley
-CAPTAINS: Alden Sampson, Richie Green
+CAPTAINS: Alden Sampson, Richard Green
 11/15 T Beaverbrook	New Brunswick 5-5
 11/16 T Beaverbrook	New Brunswick 2-2
 11/30 W Hobey Baker Rink	Princeton * 5-3
