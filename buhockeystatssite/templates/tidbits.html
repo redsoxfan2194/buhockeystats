@@ -1,65 +1,80 @@
 {% extends "layout.html" %}
 {% block content %}
 <div class="p-3">
-<h3 class="stat-table">Terrier Tidbits</h3>
-<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    <h4>Collegiate</h4>
-    <li class="nav-item">
-       <a class="link-no-pad" href="/bloodlines">Bloodlines</a>
-    </li>
-    <li class="nav-item">
-       <a class="link-no-pad" href="/transfers">Transfers</a>
-    </li>
-    <li class="nav-item">
-       <a class="link-no-pad" href="/captains">Captains</a>
-    </li>
-    <li class="nav-item">
-       <a class="link-no-pad" href="/birthdays">Birthdays</a>
-    </li>
-    <h4>Professional</h4>
-    </li>
-        <li class="nav-item">
-       <a class="link-no-pad" href="/nhlers">NHLers</a>
-    </li>
-    </li>
-        <li class="nav-item">
-       <a class="link-no-pad" href="/nhlteammates">NHL Teammates</a>
-    </li>
-    </li>
-        <li class="nav-item">
-       <a class="link-no-pad" href="/nhlawards">NHL Awards</a>
-    </li>
-    <li class="nav-item">
-       <a class="link-no-pad" href="/trio">T. Anthony Trio @TerrierHockey Tallies</a>
-    </li>
-    <li class="nav-item">
-       <a class="link-no-pad" href="/winterclassic">Terriers in the Winter Classic</a>
-    </li>
-    </li>
-    <li class="nav-item">
-       <a class="link-no-pad" href="/pwhlers">PWHLers</a>
-    </li>
-    <li class="nav-item">
-       <a class="link-no-pad" href="/pwhlteammates">PWHL Teammates</a>
-    </li>
-    </li>
-        <li class="nav-item">
-       <a class="link-no-pad" href="/pwhlawards">PWHL Awards</a>
-    </li>
-    </li>
-        <li class="nav-item">
-       <a class="link-no-pad" href="/cupwinners">Cup Winners</a>
-    </li>
-    <h4>International</h4>
-    </li>
-    <li class="nav-item">
-       <a class="link-no-pad" href="/worldjuniors">World Junior Championship</a>
-    </li>
-    </li>
-        <li class="nav-item">
-       <a class="link-no-pad" href="/olympians">Olympians</a>
-    </li>
-    
- </ul>
+   <h3 class="stat-table">Terrier Tidbits</h3>
+   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <h4 class="tidbit-margin" >Collegiate</h4>
+      <div>
+         <li class="nav-item">
+            <a class="link-no-pad" href="/bloodlines">Bloodlines</a>
+         </li>
+         <li class="nav-item">
+            <a class="link-no-pad" href="/transfers">Transfers</a>
+         </li>
+         <li class="nav-item">
+            <a class="link-no-pad" href="/captains">Captains</a>
+         </li>
+         <li class="nav-item">
+            <a class="link-no-pad" href="/birthdays">Birthdays</a>
+         </li>
+      </div>
+      <div>
+         <h4 class="tidbit-margin">Professional</h4>
+         <li class="nav-item">
+            <a class="link-no-pad" href="/cupwinners">Cup Winners</a>
+         </li>
+         <div>
+            <h5 class="tidbit-margin">Men's</h5>
+            </li>
+            <li class="nav-item">
+               <a class="link-no-pad" href="/nhlers">NHLers</a>
+            </li>
+            </li>
+            <li class="nav-item">
+               <a class="link-no-pad" href="/nhlteammates">NHL Teammates</a>
+            </li>
+            </li>
+            <li class="nav-item">
+               <a class="link-no-pad" href="/nhlawards">NHL Awards</a>
+            </li>
+            <li class="nav-item">
+               <a class="link-no-pad" href="/trio">T. Anthony Trio @TerrierHockey Tallies</a>
+            </li>
+            <li class="nav-item">
+               <a class="link-no-pad" href="/winterclassic">Terriers in the Winter Classic</a>
+            </li>
+         </div>
+         <div>
+            <h5 class="tidbit-margin">Women's</h5>
+            </li>
+            <li class="nav-item">
+               <a class="link-no-pad" href="/pwhldraft">PWHL Draft</a>
+            </li>
+            <li class="nav-item">
+               <a class="link-no-pad" href="/pwhlers">PWHLers</a>
+            </li>
+            <li class="nav-item">
+               <a class="link-no-pad" href="/pwhlteammates">PWHL Teammates</a>
+            </li>
+            </li>
+            <li class="nav-item">
+               <a class="link-no-pad" href="/pwhlawards">PWHL Awards</a>
+            </li>
+            </li>
+            <li class="nav-item">
+               <a class="link-no-pad" href="/cupwinners">Cup Winners</a>
+            </li>
+         </div>
+      </div>
+      <h4 class="tidbit-margin">International</h4>
+      </li>
+      <li class="nav-item">
+         <a class="link-no-pad" href="/worldjuniors">World Junior Championship</a>
+      </li>
+      </li>
+      <li class="nav-item">
+         <a class="link-no-pad" href="/olympians">Olympians</a>
+      </li>
+   </ul>
 </div>
 {% endblock %}

@@ -394,3 +394,7 @@ input[type="range"]::-ms-fill-upper {
   display: block;
   margin: 0 auto;
 }
+
+.tidbit-margin{
+  margin-top: .5rem;
+}

@@ -31,7 +31,7 @@ app.wsgi_app = ProxyFix(app.wsgi_app)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'olympians', 'nhlteammates', 'pwhlteammates', 'worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks','missing_dates','cupwinners']
+    pages = ['', 'about', 'players', 'statsbot', 'records', 'trivia', 'triviagame', 'notables', 'tidbits', 'trio', 'olympians', 'nhlteammates', 'pwhlteammates', 'worldjuniors', 'bloodlines', 'birthdays','shutouts','hattricks','missing_dates','cupwinners','pwhldraft','captains']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -1041,7 +1041,7 @@ def pwhlteammates():
     ''' Renders "Teammates" Page
 
     Returns:
-      Flask Template : flask template containing pwhlteammates.html
+      Flask Template : flask template containing pwhl.html
     '''
     return render_template(
     'pwhlteammates.html',teammates=formatTable(burb.getPWHLTeammates()),titletag=' - PWHL Teammates')
@@ -1055,6 +1055,17 @@ def pwhlers():
     '''
     return render_template(
     'pwhlers.html',pwhlers=formatTable(burb.getPWHLers()),titletag=' - PWHLers')
+
+@app.route('/pwhldraft')
+def pwhldraft():
+    ''' Renders "PWHL Draft" Page
+
+    Returns:
+      Flask Template : flask template containing pwhldraft.html
+    '''
+    return render_template(
+    'pwhldraft.html',draftdata=formatTable(burb.getDraftData('pwhl')),titletag=' - PWHL Draft')
+
 
 @app.route('/pwhlawards')
 def pwhlawards():

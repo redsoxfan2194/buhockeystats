@@ -336,7 +336,7 @@ def formatStats(dfRes):
             dfRes[stat] = dfRes[stat].replace('-1', '-')
 
     if 'BU' not in dfRes.columns[0]:
-        dfRes.columns = dfRes.columns.str.capitalize()
+        dfRes.columns = dfRes.columns.str.title()
     dfRes.rename(
         columns={
             'Yr': 'YR',
@@ -432,8 +432,8 @@ def formatTable(dfRes):
       dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
     if('Medal' in dfRes.columns):
       dfRes['Medal'] = dfRes['Medal'].fillna('')
-    dfRes.columns = dfRes.columns.str.capitalize()
-    dfRes.columns = dfRes.columns.str.capitalize()
+    dfRes.columns = dfRes.columns.str.title()
+    dfRes.columns = dfRes.columns.str.title()
     style = dfRes.style.apply(
                 lambda x: [
                     'color:#cc0000;' if i % 2 != 0\

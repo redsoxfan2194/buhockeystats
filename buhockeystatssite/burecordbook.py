@@ -3994,6 +3994,12 @@ def getNHLAwards():
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"nhlawards.csv")
   return dfRes
 
+def getDraftData(draft):
+  ''' returns Draft Datas'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{draft}draftdata.csv")
+  return dfRes
+
+
 def getPWHLTeammates():
   ''' returns PWHL Teammates'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"pwhlteammates.csv")
