@@ -1005,6 +1005,18 @@ def olympians():
     return render_template(
     'olympians.html',molympians=formatTable(burb.getOlympians('Mens')),wolympians=formatTable(burb.getOlympians('Womens')),titletag=' - Olympians')
 
+@app.route('/nhldraft')
+def nhldraft():
+    ''' Renders "NHL Draft" Page
+
+    Returns:
+      Flask Template : flask template containing nhldraft.html
+    '''
+    dfDraft = burb.getDraftData('nhl')[['draftYear','roundNumber','pickInRound','overallPickNumber','triCode','playerName','position','countryCode']].sort_values(['draftYear','overallPickNumber'])
+    dfDraft = dfDraft.rename(columns={'draftYear':'draft','roundNumber':'round','pickInRound':'pick in round','triCode':'team','playerName':'name','countryCode':'country','overallPickNumber':'Pick'})
+    return render_template(
+    'nhldraft.html',draftdata=formatTable(dfDraft),titletag=' - NHL Draft')
+
 @app.route('/nhlteammates')
 def nhlteammates():
     ''' Renders "Teammates" Page
@@ -1034,7 +1046,6 @@ def nhlawards():
     '''
     return render_template(
     'nhlawards.html',nhlawardwinners=formatTable(burb.getNHLAwards()),titletag=' - NHL Awards')
-
 
 @app.route('/pwhlteammates')
 def pwhlteammates():
@@ -1087,7 +1098,6 @@ def winterclassic():
     '''
     return render_template(
     'winterclassic.html',stattable=formatTable(burb.getWinterClassic()),titletag=' - Terriers in the Winter Classic')
-
 
 
 @app.route('/shutouts')
