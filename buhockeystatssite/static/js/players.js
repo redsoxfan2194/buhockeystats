@@ -51,12 +51,6 @@ function clearFilters(event) {
 
     if (document.getElementById("gender").value === "Womens") {
         document.getElementById("seasonStart").value = "2005-06";
-    } else if (document.getElementById("type").value !== "game") {
-        const option = document.createElement("option");
-        option.value = "1917-18";
-        option.textContent = "1917-18";
-        document.getElementById("seasonStart").appendChild(option);
-        document.getElementById("seasonStart").value = "1917-18";
     } else {
         const option = document.createElement("option");
         option.value = "1917-18";
