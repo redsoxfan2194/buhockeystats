@@ -757,7 +757,7 @@ def records():
           sortType=True
         if formData['sortval'] != 'date':
             sortType = not sortType
-        if 'hideEx' in formData:
+        if 'showEx' not in formData:
             dfRes = dfRes.query("result !='E'")
         if ('grouping' in formData and formData['grouping'] != ''):
             if formData['tabletype'] == 'record':
@@ -889,7 +889,7 @@ def records():
         selected_startSeas=dfOrig.season.min(),
         selected_endSeas=dfOrig.season.max(),
         selected_range='season',
-        hideExStatus="true",
+        showExStatus="false",
         tourney_values=getTourneyList(dfOrig),
         coach_values=list(
             dfOrig.coach.unique()),

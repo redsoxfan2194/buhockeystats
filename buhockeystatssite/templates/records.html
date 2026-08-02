@@ -277,10 +277,14 @@
                     {% endfor %}
                 </select>
             </div>
-            <div class="checkbox-container">
-                <input type="checkbox" id="hideEx" name="hideEx" value="true" onchange="submitForm()">
-                <label for="hideEx" class="checkbox-label" id='check-label'> Hide Exhibitions </label>
-                <input type="hidden" id="hideExStatus" name="hideExStatus" value="{{hideExStatus}}">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="showEx" name="showEx" value="false"  onchange="submitForm()"
+                    {% if showExStatus == 'true' %}checked{% endif %}
+                >
+                <label class="form-check-label" for="hideEx">
+                    Exhibitions
+                </label>
+                <input type="hidden" id="showExStatus" name="showExStatus" value="{{ showExStatus }}">
             </div>
             <button type="submit" id='resetButton' class='btn btn-outline-danger'>Reset</button>
         </div>

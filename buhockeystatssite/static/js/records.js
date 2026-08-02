@@ -200,8 +200,8 @@ function initializeFilters() {
         arrowDown.style.display = "none";
     }
 
-    var checkbox = document.getElementById("hideEx");
-    var checkboxState = document.getElementById("hideExStatus");
+    var checkbox = document.getElementById("showEx");
+    var checkboxState = document.getElementById("showExStatus");
     checkbox.checked = checkboxState.value === "true";
 
     var selection = document.getElementById("range").value;

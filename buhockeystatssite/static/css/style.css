@@ -398,3 +398,13 @@ input[type="range"]::-ms-fill-upper {
 .tidbit-margin{
   margin-top: .5rem;
 }
+
+.form-switch .form-check-input:checked {
+    background-color: #cc0000;
+    border-color: #cc0000;
+}
+
+.form-switch .form-check-input:focus {
+    border-color: #cc0000;
+    box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25);
+}
