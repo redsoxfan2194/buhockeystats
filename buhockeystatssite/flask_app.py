@@ -1005,7 +1005,7 @@ def olympians():
     return render_template(
     'olympians.html',molympians=formatTable(burb.getOlympians('Mens')),wolympians=formatTable(burb.getOlympians('Womens')),titletag=' - Olympians')
 
-@app.route('/nhldraft')
+@app.route('/nhldraft', methods=['POST', 'GET'])
 def nhldraft():
     ''' Renders "NHL Draft" Page
 
@@ -1013,9 +1013,87 @@ def nhldraft():
       Flask Template : flask template containing nhldraft.html
     '''
     dfDraft = burb.getDraftData('nhl')[['draftYear','roundNumber','pickInRound','overallPickNumber','triCode','playerName','position','countryCode']].sort_values(['draftYear','overallPickNumber'])
-    dfDraft = dfDraft.rename(columns={'draftYear':'draft','roundNumber':'round','pickInRound':'pick in round','triCode':'team','playerName':'name','countryCode':'country','overallPickNumber':'Pick'})
-    return render_template(
-    'nhldraft.html',draftdata=formatTable(dfDraft),titletag=' - NHL Draft')
+    dfDraft = dfDraft.rename(columns={'draftYear':'draft','roundNumber':'round','pickInRound':'pick in round','triCode':'team','playerName':'name','countryCode':'country','overallPickNumber':'pick'})
+    dfDraft['draft']=dfDraft['draft'].astype(int)
+    draftList = list(set(dfDraft['draft']))
+    sDraft =  min(dfDraft.draft)
+    eDraft =  max(dfDraft.draft)
+    sortVal = ''
+    isAsc = True
+    if request.method == 'POST':
+        formData = request.form
+        dfRes=dfDraft.copy()
+        if(formData['name']!=''):
+          dfRes=dfDraft.loc[dfDraft['name'].str.contains(formData['name'],case=False)]
+        if(formData['pos']!='all'):
+          if(formData['pos']=="F"):
+            dfRes=dfDraft.loc[dfDraft['position'].isin(['LW','RW','C'])]
+          else:
+            dfRes=dfDraft.query(f"position == \'{formData['pos']}\'")
+        if(formData['team']!='all'):
+          dfRes=dfDraft.query(f"team == \'{formData['team']}\'")
+        if(formData['country']!='all'):
+          dfRes=dfDraft.query(f"country == \'{formData['country']}\'")
+        if(formData['draft']!='all'):
+          dfRes=dfDraft.query(f"draft == {formData['draft']}") 
+        if(formData['rdmin']!=''):
+          dfRes=dfRes.query(f"round{formData['rdop']} {int(formData['rdmin'])}")
+        if(formData['pickmin']!=''):
+          dfRes=dfRes.query(f"pick{formData['pickop']} {int(formData['pickmin'])}")
+        if(formData['pirmin']!=''):
+          dfRes=dfRes.query(f"`pick in round`{formData['pirop']} {int(formData['pirmin'])}")
+
+        if(formData['sortval']!=''):
+          sortVal=formData['sortval'].lower()
+          if(formData['isAscending']==''):
+            isAsc=True
+          else:
+            isAsc=eval(formData['isAscending'].capitalize())
+          if(sortVal in dfRes.columns):
+            dfRes=dfRes.sort_values(sortVal,ascending = isAsc)
+        sDraft = formData['draftStart']
+        eDraft = formData['draftEnd']
+        
+        dfRes = dfRes.query(f'draft>={sDraft} and draft<={eDraft}')
+        
+        if(formData['group']!=""):
+          dfRes =  dfRes.groupby(formData['group']).count().reset_index()
+          dfRes = dfRes[[formData['group'],'name']]
+          dfRes = dfRes.rename(columns={'name':'draftees'})
+          if(formData['sortval']!=''):
+            sortVal=formData['sortval'].lower()
+            if(formData['isAscending']==''):
+              isAsc=True
+            else:
+              isAsc^=eval(formData['isAscending'].capitalize())
+            if(sortVal in dfRes.columns):
+              dfRes=dfRes.sort_values(sortVal,ascending = isAsc)
+        
+        return jsonify(
+            draftData=formatStats(dfRes),
+            selected_pos = formData['pos'],
+            sortval = formData['sortval'],
+            isAscending = formData['isAscending'],
+            selected_country = formData['country'],
+            selected_team = formData['team'],
+            selected_draft = formData['draft'],
+            draft_values = draftList,
+            teams_values = sorted(dfDraft.team.unique()),
+            country_values = sorted(dfDraft.country.unique()),
+            draftStart = sDraft,
+            draftEnd = eDraft,
+            selected_startDraft =  sDraft,
+            selected_endDraft =  eDraft)
+            
+    return render_template('nhldraftNew.html',
+    country_values = dfDraft.country.unique(),
+    draft_values = dfDraft.draft.unique(),
+    teams_values = sorted(dfDraft.team.unique()),
+    draftStart = min(dfDraft.draft),
+    draftEnd = max(dfDraft.draft),
+    selected_startDraft =  sDraft,
+    selected_endDraft =  eDraft,
+    draftData = formatStats(dfDraft), titletag=' - NHL Draft')
 
 @app.route('/nhlteammates')
 def nhlteammates():

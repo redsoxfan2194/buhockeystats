@@ -1,11 +1,154 @@
 {% extends "layout.html" %}
 {% block content %}
-<div class="p-3">
-<h3 class="stat-table">Terriers in the NHL Draft</h3>
-<p>
+<form method="post" id="draftForm">
+    <div class="sidebar-buhs offcanvas-buhs flex-container" data-bs-scroll="false" data-bs-backdrop="true" tabindex="-1" id="offcanvasPlayersFilters" aria-labelledby="offcanvasPlayersFiltersLabel">
+        <div class="offcanvas-header sidebar-header-center" id="ocPlayerHeader">
+            <h5 class="offcanvas-title" id="offcanvasPlayersFiltersLabel">Filters and Sorts</h5>
+            <button type="button" class="btn-close text-reset mobile-view" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            
+            <div id="nameDiv" class="filter">
+                <label for="name" class="recLabels">Name:</label>
+                <input type="text" name="name" id="name" onchange="submitForm()">
+            </div>
+            <div id="sortDiv" class="filter">
+                <input type="hidden" id="isAscending" name="isAscending" value="{{isAscending}}">
+                <input type="hidden" id="sortval" name="sortval" value="{{sortval}}">
+            </div>
+            <div id="posDiv" class="filter">
+                <label id="posLabel" for="pos" class="recLabels">Position:</label>
+                <select class="btn dropdown-toggle custom-align" name="pos" id="pos" onchange="submitForm()">
+                    <option value="all" {% if selected_pos == 'all' %} selected {% endif %}>All</option>
+                    <option value="LW" {% if selected_pos == 'LW' %} selected {% endif %}>LW</option>
+                    <option value="LW" {% if selected_pos == 'RW' %} selected {% endif %}>RW</option>
+                    <option value="C" {% if selected_pos == 'C' %} selected {% endif %}>C</option>
+                    <option value="F" {% if selected_pos == 'F' %} selected {% endif %}>F</option>
+                    <option value="D" {% if selected_pos == 'D' %} selected {% endif %}>D</option>
+                    <option value="G" {% if selected_pos == 'G' %} selected {% endif %}>G</option>
+                </select>
+            </div>
+
+            <div id="teamDiv" class="filter">
+                <label for="team" class="recLabels">Team:</label>
+                <select class="btn dropdown-toggle custom-align" name="team" id="team" onchange="submitForm()">
+                    <option value="all" {% if selected_team == 'all' %} selected {% endif %}> All </option>
+                    {% for team in teams_values %}
+                        <option value="{{ team }}" {% if selected_team == team %} selected {% endif %}>
+                            {{ team }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div id="countryDiv" class="filter">
+                <label for="country" class="recLabels">Country:</label>
+                <select class="btn dropdown-toggle custom-align" name="country" id="country" onchange="submitForm()">
+                    <option value="all" {% if selected_country == 'all' %} selected {% endif %}> All </option>
+                    {% for country in country_values %}
+                        <option value="{{ country }}" {% if selected_country == country %} selected {% endif %}>
+                            {{ country }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div id="groupDiv" class="filter">
+                <label for="group" class="recLabels">Grouping:</label>
+                <select class="btn dropdown-toggle custom-align" name="group" id="group" onchange="submitForm()">
+                    <option value="" {% if selected_group == 'all' %} selected {% endif %}>Individual</option>
+                    <option value="draft" {% if selected_group == "draft" %} selected {% endif %}>Group by: Draft</option>
+                    <option value="round" {% if selected_group == "round" %} selected {% endif %}>Group by: Round</option>
+                    <option value="team" {% if selected_group == "team" %} selected {% endif %}>Group by: Team</option>
+                    <option value="country" {% if selected_group == "country" %} selected {% endif %}>Group by: Country</option>
+                    <option value="position" {% if selected_group == "position" %} selected {% endif %}>Group by: Position</option>
+                </select>
+            </div>
+            <div id="draftDiv" class="filter">
+                <label for="draft" class="recLabels">Draft:</label>
+                <select class="btn dropdown-toggle custom-align" name="draft" id="draft" onchange="submitForm()">
+                    <option value="all" {% if selected_draft == 'all' %} selected {% endif %}>All</option>
+                    {% for draft in draft_values %}
+                        <option value="{{ draft }}" {% if selected_draft == draft %} selected {% endif %}>
+                            {{ draft }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div id="rdDiv" class="filter">
+                <label for="rdop" class="recLabels">Round:</label>
+                <select class="btn dropdown-toggle custom-align op-drop" name="rdop" id="rdop" onchange="submitForm()">
+                    <option value="==" {% if selected_rdop == '==' %} selected {% endif %}> = </option>
+                    <option value=">=" {% if selected_rdop == '>=' %} selected {% endif %}> >= </option>
+                    <option value=">" {% if selected_rdop == '>' %} selected {% endif %}> > </option>
+                    <option value="<" {% if selected_rdop == '<' %} selected {% endif %}> < </option>
+                    <option value="<=" {% if selected_rdop == '<=' %} selected {% endif %}> <= </option>
+                </select>
+                <input type="number" name="rdmin" id="rdmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            </div>
+            <div id="pickDiv" class="filter">
+                <label for="pickop" class="recLabels">Pick:</label>
+                <select class="btn dropdown-toggle custom-align op-drop" name="pickop" id="pickop" onchange="submitForm()">
+                    <option value="==" {% if selected_pickop == '==' %} selected {% endif %}> = </option>
+                    <option value=">=" {% if selected_pickop == '>=' %} selected {% endif %}> >= </option>
+                    <option value=">" {% if selected_pickop == '>' %} selected {% endif %}> > </option>
+                    <option value="<" {% if selected_pickop == '<' %} selected {% endif %}> < </option>
+                    <option value="<=" {% if selected_pickop == '<=' %} selected {% endif %}> <= </option>
+                </select>
+                <input type="number" name="pickmin" id="pickmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            </div>
+            <div id="pirDiv" class="filter">
+                <label for="pirop" class="recLabels">Pick In Round:</label>
+                <select class="btn dropdown-toggle custom-align op-drop" name="pirop" id="pirop" onchange="submitForm()">
+                    <option value="==" {% if selected_pirop == '==' %} selected {% endif %}> = </option>
+                    <option value=">=" {% if selected_pirop == '>=' %} selected {% endif %}> >= </option>
+                    <option value=">" {% if selected_pirop == '>' %} selected {% endif %}> > </option>
+                    <option value="<" {% if selected_pirop == '<' %} selected {% endif %}> < </option>
+                    <option value="<=" {% if selected_pirop == '<=' %} selected {% endif %}> <= </option>
+                </select>
+                <input type="number" name="pirmin" id="pirmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            </div>
+            
+            <div id="draftRange">
+                <label for="draftStart" class="recLabels" id='draftRange'>Draft Range:</label>
+                <div class="dropdown-container filter">
+                    <select class="btn dropdown-toggle" name="draftStart" id="draftStart" onchange="submitForm()">
+
+                        {% for draftStart in draft_values %}
+
+                            <option value="{{ draftStart }}" {% if selected_startDraft == draftStart %} selected {% endif %}>
+
+                                {{ draftStart }}
+
+                            </option>
+
+                        {% endfor %}
+
+                    </select>
+                    <p id='dash'>_</p>
+                    <select class="btn dropdown-toggle" name="draftEnd" id="draftEnd" onchange="submitForm()">
+                        {% for draftEnd in draft_values %}
+                            <option value="{{ draftEnd }}" {% if selected_endDraft == draftEnd %} selected {% endif %}>
+                                {{ draftEnd }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <button type="submit" id='resetButton' class='btn btn-outline-danger'>Reset</button>
+        </div>
+    </div>
+</form>
+<div class="page-body">
+    <button class="btn btn-sort-filter mobile-view" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasPlayersFilters" aria-controls="offcanvasPlayersFilters">
+        Sort and Filter
+    </button>
+    <h3 class="stat-table">Terriers in the NHL Draft</h3>
+    <div class="p-3" id="draftTable">
         {% autoescape false %}
-        {{draftdata}}
+        {{draftData}}
         {% endautoescape %}
-</p>
+    </div>
 </div>
+
+
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/nhldraft.js') }}"></script>
 {% endblock %}
