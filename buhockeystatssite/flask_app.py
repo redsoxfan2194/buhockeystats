@@ -947,8 +947,16 @@ def captains():
     Returns:
       Flask Template : flask template containing captains.html
     '''
+    mcaps = burb.getCaptains('M')
+    mcaps['season'] = mcaps['season'].str.replace('-','–')
+    mcaps = mcaps.groupby('season').tail(5).groupby('season')['captain'].agg(', '.join).reset_index(name='captains')
+    
+    wcaps = burb.getCaptains('W')
+    wcaps['season'] = wcaps['season'].str.replace('-','–')
+    wcaps = wcaps.groupby('season').tail(5).groupby('season')['captain'].agg(', '.join).reset_index(name='captains')
+    
     return render_template(
-    'captains.html',mcaptains=formatTable(burb.getCaptains('M')),wcaptains=formatTable(burb.getCaptains('W')),titletag=' - Captains')
+    'captains.html',mcaptains=formatTable(mcaps),wcaptains=formatTable(wcaps),titletag=' - Captains')
 
 
 @app.route('/bloodlines')
