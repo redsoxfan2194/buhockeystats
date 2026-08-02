@@ -1085,7 +1085,7 @@ def nhldraft():
             selected_startDraft =  sDraft,
             selected_endDraft =  eDraft)
             
-    return render_template('nhldraftNew.html',
+    return render_template('nhldraft.html',
     country_values = dfDraft.country.unique(),
     draft_values = dfDraft.draft.unique(),
     teams_values = sorted(dfDraft.team.unique()),
