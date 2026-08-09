@@ -51,12 +51,14 @@ function clearFilters(event) {
 
     if (document.getElementById("gender").value === "Womens") {
         document.getElementById("seasonStart").value = "2005-06";
+        document.getElementById("proLabel").textContent = "PWHLers Only";
     } else {
         const option = document.createElement("option");
         option.value = "1917-18";
         option.textContent = "1917-18";
         document.getElementById("seasonStart").appendChild(option);
         document.getElementById("seasonStart").value = "1917-18";
+        document.getElementById("proLabel").textContent = "NHLers Only";
     }
 
     document.getElementById("seasonEnd").value = "2025-26";
@@ -89,6 +91,7 @@ function clearFilters(event) {
     document.getElementById("minsop").value = "==";
     document.getElementById("gaop").value = "==";
     document.getElementById("savesop").value = "==";
+    
     if(event!=null){
       event.preventDefault();
       submitForm("true");
@@ -172,7 +175,11 @@ function initializeFilters() {
     }
     var capsCheckbox = document.getElementById("showCaps");
     var capsCheckboxState = document.getElementById("showCapsStatus");
-    capsCheckbox.checked = capsCheckboxState.value === "true";
+    capsCheckbox.checked = capsCheckboxState.value === "false";
+    
+    var prosCheckbox = document.getElementById("showPros");
+    var prosCheckboxState = document.getElementById("showProsStatus");
+    prosCheckbox.checked = prosCheckboxState.value === "false";
     
     clearFilters();
 }
@@ -412,6 +419,7 @@ function submitForm(reset = "false") {
               document.getElementById("streakMinDiv").hidden = true;
               document.getElementById("positionDiv").hidden = false;
             }
+            
         },
         error: function (xhr, status, error) {
             console.error("Error:", error);

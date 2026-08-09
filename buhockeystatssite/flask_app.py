@@ -131,6 +131,8 @@ def players():
             mergeGames = burb.dfGames.copy()
             if (formData['showCapsStatus'] == 'true'):
               dfCaps = burb.getCaptains('M')
+            if (formData['showProsStatus'] == 'true'):
+              dfPros = burb.getNHLers()
             if formData['type'] == 'career':
                 if formData['position'] == 'skater':
                     dfStat = burb.dfSkateMens
@@ -161,6 +163,8 @@ def players():
             mergeGames = burb.dfGamesWomens.copy()
             if (formData['showCapsStatus'] == 'true'):
               dfCaps = burb.getCaptains('W')
+            if (formData['showProsStatus'] == 'true'):
+              dfPros = burb.getPWHLers()
             if formData['type'] == 'career':
                 if formData['position'] == 'skater':
                     dfStat = burb.dfSkateWomens
@@ -256,6 +260,9 @@ def players():
             dfStat = dfStat.loc[dfStat['name'].isin(dfCaps.captain)]
           else:
             dfStat = dfStat.merge(dfCaps, left_on=['name', 'season'],right_on=['captain', 'season'])
+            
+        if formData['showProsStatus'] == 'true':
+            dfStat = dfStat.loc[dfStat['name'].isin(dfPros.Name)]
             
         if formData['name'] != '':
             dfStat = dfStat.loc[dfStat['name'].str.contains(
