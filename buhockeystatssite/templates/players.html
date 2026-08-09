@@ -241,6 +241,15 @@
                 </select>
                 <input type="number" name="savesmin" id="savesmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
             </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="showCaps" name="showCaps" value="false"  onchange="document.getElementById('showCapsStatus').value = this.checked; submitForm()"
+                    {% if showCapsStatus == 'true' %}checked{% endif %}
+                >
+                <label class="form-check-label" for="showCaps">
+                    Captains Only
+                </label>
+            <input type="hidden" id="showCapsStatus" name="showCapsStatus" value="{{ showCapsStatus }}">
+            </div>
             <div id="seasRange">
                 <label for="seasonStart" class="recLabels" id='seasonRange'>Season Range:</label>
                 <div class="dropdown-container filter">

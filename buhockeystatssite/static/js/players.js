@@ -140,11 +140,13 @@ function initializeFilters() {
         'select[name="position"]'
     );
     var typeSelect = document.querySelector('select[name="type"]');
+    var streakOption = typeSelect.querySelector('option[value="streak"]');
         if (positionSelect.value === "goalie") {
         document.getElementById("posDiv").hidden = true;
         document.getElementById("goalDiv").hidden = true;
         document.getElementById("assistsDiv").hidden = true;
         document.getElementById("ptsDiv").hidden = true;
+        streakOption.hidden = true;
         document.getElementById("gaDiv").hidden = false;
         document.getElementById("savesDiv").hidden = false;
         document.getElementById("minsDiv").hidden = false;
@@ -153,6 +155,7 @@ function initializeFilters() {
         document.getElementById("goalDiv").hidden = false;
         document.getElementById("assistsDiv").hidden = false;
         document.getElementById("ptsDiv").hidden = false;
+        streakOption.hidden = false;
         document.getElementById("gaDiv").hidden = true;
         document.getElementById("savesDiv").hidden = true;
         document.getElementById("minsDiv").hidden = true;
@@ -167,7 +170,10 @@ function initializeFilters() {
         document.getElementById("pensDiv").hidden = false;
         document.getElementById("pimDiv").hidden = false;
     }
-
+    var capsCheckbox = document.getElementById("showCaps");
+    var capsCheckboxState = document.getElementById("showCapsStatus");
+    capsCheckbox.checked = capsCheckboxState.value === "true";
+    
     clearFilters();
 }
 
@@ -313,7 +319,7 @@ function submitForm(reset = "false") {
             var typeSelect = document.querySelector('select[name="type"]');
             var seasonStats = document.getElementsByClassName("season-stats");
             var gameStats = document.getElementsByClassName("game-stats");
-
+            var streakOption = typeSelect.querySelector('option[value="streak"]');
             // Hide all season stats
             const seasStatsElements = document.getElementsByClassName("season-stats");
 
@@ -358,6 +364,7 @@ function submitForm(reset = "false") {
                   document.getElementById("goalDiv").hidden = true;
                   document.getElementById("assistsDiv").hidden = true;
                   document.getElementById("ptsDiv").hidden = true;
+                  streakOption.hidden = true;
                   document.getElementById("gaDiv").hidden = false;
                   document.getElementById("savesDiv").hidden = false;
                   document.getElementById("minsDiv").hidden = false;
@@ -369,6 +376,7 @@ function submitForm(reset = "false") {
                   document.getElementById("goalDiv").hidden = false;
                   document.getElementById("assistsDiv").hidden = false;
                   document.getElementById("ptsDiv").hidden = false;
+                  streakOption.hidden = false;
                   document.getElementById("gaDiv").hidden = true;
                   document.getElementById("savesDiv").hidden = true;
                   document.getElementById("minsDiv").hidden = true;

@@ -122,11 +122,15 @@ def players():
     if request.method == 'POST':
         formData = request.form
         dfStat = pd.DataFrame()
+        dfCaps= pd.DataFrame()
         seasVals = []
         tourneyList = []
         sortVal = ''
+        
         if formData['gender'] == 'Mens':
             mergeGames = burb.dfGames.copy()
+            if (formData['showCapsStatus'] == 'true'):
+              dfCaps = burb.getCaptains('M')
             if formData['type'] == 'career':
                 if formData['position'] == 'skater':
                     dfStat = burb.dfSkateMens
@@ -155,6 +159,8 @@ def players():
                     dfStat = pd.merge(burb.dfGameStatsGoalieMens,burb.dfGames[['date','location','arena','tourney']],on='date')
         elif formData['gender'] == 'Womens':
             mergeGames = burb.dfGamesWomens.copy()
+            if (formData['showCapsStatus'] == 'true'):
+              dfCaps = burb.getCaptains('W')
             if formData['type'] == 'career':
                 if formData['position'] == 'skater':
                     dfStat = burb.dfSkateWomens
@@ -226,6 +232,7 @@ def players():
                 dfStat = dfStat.loc[dfStat['pos'].str.contains(formData['pos'])]
             if formData['yr'] != 'all':
                 dfStat = dfStat.query(f"yr=='{formData['yr']}'")
+                
         if formData['type'] == 'game':
             oppList = sorted(list(dfStat.opponent.unique()))
             arenaList = sorted(list(dfStat.arena.unique()))
@@ -243,6 +250,13 @@ def players():
         else:
             oppList = []
             arenaList = []
+            
+        if formData['showCapsStatus'] == 'true':
+          if formData['type'] == 'career':
+            dfStat = dfStat.loc[dfStat['name'].isin(dfCaps.captain)]
+          else:
+            dfStat = dfStat.merge(dfCaps, left_on=['name', 'season'],right_on=['captain', 'season'])
+            
         if formData['name'] != '':
             dfStat = dfStat.loc[dfStat['name'].str.contains(
                 formData['name'].strip(), case=False)]
@@ -550,6 +564,7 @@ def players():
             else:
               sortVal="Length"
               isAsc=True
+
             dfStat = burb.getStreaks(dfStat,formData['streak'],streakMin,sortVal,isAsc)
         return jsonify(statTable=formatStats(dfStat),
                        season_values=seasVals,
