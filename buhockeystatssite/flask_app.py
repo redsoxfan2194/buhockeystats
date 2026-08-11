@@ -1303,8 +1303,8 @@ def dailyTrivia():
       'Sunday':"Sunday Scores"} # score related questions
 
     # seed is Day of Year + Year
-    launchSeed=2267
-    seedVal=int(datetime.datetime.now(easternTZ).strftime('%j'))+int(datetime.datetime.now(easternTZ).strftime('%Y'))
+    launchSeed=int('244'+'2023')
+    seedVal=int(datetime.datetime.now(easternTZ).strftime('%j')+datetime.datetime.now(easternTZ).strftime('%Y'))
     random.seed(seedVal)
     np.random.seed(seedVal)
 
