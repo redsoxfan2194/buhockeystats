@@ -51,7 +51,7 @@ Lortie,Jessica 2005-07 39 1 4 5 13/34
 Cardella,Jill 2009-13 151 31 57 88 46/92
 Kirchner,Jillian 2007-11 145 35 68 103 37/85
 Bloemers,Jonnie 2006-10 142 19 29 48 53/125
-Kwak,Hyung,Joo 2018-19 2 0 0 0 0/0
+Hyung Kwak,Joo 2018-19 2 0 0 0 0/0
 Juron,Jordan 2012-16 141 15 25 40 11/22
 Nearis,Julia 2019-23 103 31 33 64 17/34
 Shaunessy,Julia 2020-25 123 12 29 41 44/88
