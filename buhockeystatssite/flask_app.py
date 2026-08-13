@@ -1348,7 +1348,12 @@ def dailyTrivia():
 
             quiz.append(ques)
             random.shuffle(quiz)
-        return jsonify(quiz=quiz,triviaNum=(seedVal-launchSeed)+1)
+        
+        firstgamedate = datetime.datetime.strptime("9/1/2023", "%m/%d/%Y").date()
+        today = datetime.datetime.now(easternTZ).date()
+        daysSinceFirstGame = (today - firstgamedate).days
+        
+        return jsonify(quiz=quiz,triviaNum=(daysSinceFirstGame+1))
     return render_template('daily_trivia.html',titletag=' - Daily Trivia', topic=titles[DOW])
 
 
