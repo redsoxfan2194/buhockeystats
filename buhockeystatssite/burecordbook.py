@@ -3963,6 +3963,11 @@ def getCaptains(gender):
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0].lower()}captains.csv")
   return dfRes  
 
+def getPlayerData(gender):
+  ''' returns Player Data'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0].lower()}playerDataFull.csv")
+  return dfRes  
+
 def getWJC():
   ''' returns WJC'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"worldjuniors.csv")

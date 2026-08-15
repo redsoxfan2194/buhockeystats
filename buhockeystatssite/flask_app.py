@@ -122,9 +122,13 @@ def players():
     if request.method == 'POST':
         formData = request.form
         dfStat = pd.DataFrame()
-        dfCaps= pd.DataFrame()
+        dfCaps = pd.DataFrame()
+        dfPlay = pd.DataFrame()
         seasVals = []
         tourneyList = []
+        cityList = []
+        stateList = []
+        countryList = []
         sortVal = ''
         
         if formData['gender'] == 'Mens':
@@ -133,6 +137,11 @@ def players():
               dfCaps = burb.getCaptains('M')
             if (formData['showProsStatus'] == 'true'):
               dfPros = burb.getNHLers()
+            if (formData['showBioDataStatus'] == 'true'):
+              dfPlay = burb.getPlayerData('M')
+              cityList = sorted(list(dfPlay.loc[dfPlay['city'].notnull()].city.unique()))
+              stateList = sorted(list(dfPlay.loc[dfPlay['state'].notnull()].state.unique()))
+              countryList = sorted(list(dfPlay.loc[dfPlay['country'].notnull()].country.unique()))
             if formData['type'] == 'career':
                 if formData['position'] == 'skater':
                     dfStat = burb.dfSkateMens
@@ -165,6 +174,11 @@ def players():
               dfCaps = burb.getCaptains('W')
             if (formData['showProsStatus'] == 'true'):
               dfPros = burb.getPWHLers()
+            if (formData['showBioDataStatus'] == 'true'):
+              dfPlay = burb.getPlayerData('W')
+              cityList = sorted(list(dfPlay.loc[dfPlay['city'].notnull()].city.unique()))
+              stateList = sorted(list(dfPlay.loc[dfPlay['state'].notnull()].state.unique()))
+              countryList = sorted(list(dfPlay.loc[dfPlay['country'].notnull()].country.unique()))
             if formData['type'] == 'career':
                 if formData['position'] == 'skater':
                     dfStat = burb.dfSkateWomens
@@ -263,7 +277,19 @@ def players():
             
         if formData['showProsStatus'] == 'true':
             dfStat = dfStat.loc[dfStat['name'].isin(dfPros.Name)]
-            
+        
+        if formData['showBioDataStatus'] == 'true':
+          if formData['type'] == 'career':
+            dfStat = dfStat.merge(dfPlay[['name','city','state','country']].drop_duplicates(),how='left')
+          else:
+            dfStat = dfStat.merge(dfPlay[['name','city','state','country','season']],how='left',on=['name','season'])
+          if formData['city'] != 'all':
+            dfStat = dfStat.query(f"city==\"{formData['city']}\"")
+          if formData['state'] != 'all':
+            dfStat = dfStat.query(f"state==\"{formData['state']}\"")
+          if formData['country'] != 'all':
+            dfStat = dfStat.query(f"country==\"{formData['country']}\"")
+  
         if formData['name'] != '':
             dfStat = dfStat.loc[dfStat['name'].str.contains(
                 formData['name'].strip(), case=False)]
@@ -556,6 +582,8 @@ def players():
         else:
             sortVal = ''
             sortType = ''
+            if formData['type']=='career':
+              dfStat=dfStat.sort_values('last')
         if formData['type'] == 'game':
             dfStat = dfStat[:1000]
         if(formData['type'] == 'streak'):
@@ -578,13 +606,19 @@ def players():
                        opponents_values=oppList,
                        arena_values=arenaList,
                        tourney_values=tourneyList[1:],
+                       city_values=cityList,
+                       state_values=stateList,
+                       country_values=countryList,
+                       selected_city=formData['city'],
+                       selected_state=formData['state'],
+                       selected_country=formData['country'],
                        sortval=sortVal,
                        isAscending=formData['isAscending'])
     dfStat = burb.dfSkateMens
     seasVals = sorted(set(dfStat['seasons'].to_string(
         index=False).replace(' ', '').replace('\n', ',').split(',')))
     return render_template('players.html',titletag=" - Players",
-                           statTable=formatStats(dfStat),
+                           statTable=formatStats(dfStat.sort_values('last')),
                            season_values=seasVals,
                            selected_startSeas=seasVals[0],
                            selected_endSeas=seasVals[-1],

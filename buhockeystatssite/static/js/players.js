@@ -48,6 +48,9 @@ function clearFilters(event) {
     document.getElementById("arena").value = "all";
     document.getElementById("location").value = "all";
     document.getElementById("tourney").value = "all";
+    document.getElementById("city").value = "all";
+    document.getElementById("state").value = "all";
+    document.getElementById("country").value = "all";
 
     if (document.getElementById("gender").value === "Womens") {
         document.getElementById("seasonStart").value = "2005-06";
@@ -181,6 +184,15 @@ function initializeFilters() {
     var prosCheckboxState = document.getElementById("showProsStatus");
     prosCheckbox.checked = prosCheckboxState.value === "false";
     
+    var bioCheckbox = document.getElementById("showBioData");
+    var bioCheckboxState = document.getElementById("showBioDataStatus");
+    bioCheckbox.checked = bioCheckboxState.value === "false";
+    
+    const showBioData = document.getElementById("showBioData").checked;
+    document.querySelectorAll(".bio-data").forEach(function(element) {
+        element.style.display = showBioData ? "" : "none";
+    });
+    
     clearFilters();
 }
 
@@ -281,6 +293,54 @@ function submitForm(reset = "false") {
                 );
                 $.each(response.tourney_values, function (index, item) {
                     selectTourneyElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
+                const selectCityElement   = $("#city");
+                selectCityElement.empty();
+                selectCityElement.append(
+                    $("<option>", {
+                        value: "all",
+                        text: "All",
+                    })
+                );
+                $.each(response.city_values, function (index, item) {
+                    selectCityElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
+                const selectStateElement   = $("#state");
+                selectStateElement.empty();
+                selectStateElement.append(
+                    $("<option>", {
+                        value: "all",
+                        text: "All",
+                    })
+                );
+                $.each(response.state_values, function (index, item) {
+                    selectStateElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
+                const selectCountryElement   = $("#country");
+                selectCountryElement.empty();
+                selectCountryElement.append(
+                    $("<option>", {
+                        value: "all",
+                        text: "All",
+                    })
+                );
+                $.each(response.country_values, function (index, item) {
+                    selectCountryElement.append(
                         $("<option>", {
                             value: item,
                             text: item,
@@ -420,6 +480,38 @@ function submitForm(reset = "false") {
               document.getElementById("positionDiv").hidden = false;
             }
             
+            const showBioData = document.getElementById("showBioData").checked;
+            document.querySelectorAll(".bio-data").forEach(function(element) {
+                element.style.display = showBioData ? "" : "none";
+            });
+            
+            const selectCityElement   = $("#city");
+                $.each(response.city_values, function (index, item) {
+                    selectCityElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
+                const selectStateElement   = $("#state");
+                $.each(response.state_values, function (index, item) {
+                    selectStateElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
+                const selectCountryElement   = $("#country");
+                $.each(response.country_values, function (index, item) {
+                    selectCountryElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
         },
         error: function (xhr, status, error) {
             console.error("Error:", error);

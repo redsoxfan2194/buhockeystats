@@ -138,6 +138,43 @@
                     {% endfor %}
                 </select>
             </div>
+            <div id="cityDiv" class="filter bio-data">
+                <label for="city" class="recLabels">City:</label>
+                <select class="btn dropdown-toggle custom-align" name="city" id="city" onchange="submitForm()">
+                    <option value="all" {% if selected_city == 'all' %} selected {% endif %}> All </option>
+                    {% for city in city_values %}
+                        <option value="{{ city }}" {% if selected_city == city %} selected {% endif %}>
+                            {{ city }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div id="stateDiv" class="filter bio-data">
+                <label for="state" class="recLabels">State:</label>
+                <select class="btn dropdown-toggle custom-align" name="state" id="state" onchange="submitForm()">
+                    <option value="all" {% if selected_state == 'all' %} selected {% endif %}> All </option>
+                    {% for state in state_values %}
+                        <option value="{{ state }}" {% if selected_state == state %} selected {% endif %}>
+                            {{ state }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div id="countryDiv" class="filter bio-data">
+                <label for="country" class="recLabels">Country:</label>
+                <select class="btn dropdown-toggle custom-align" name="country" id="country" onchange="submitForm()">
+                    <option value="all" {% if selected_country == 'all' %} selected {% endif %}> All </option>
+                    {% for country in country_values %}
+                        <option value="{{ country }}" {% if selected_country == country %} selected {% endif %}>
+                            {{ country }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            
             <div id="dateDiv" class="filter game-stats">
                 <label for="date" class="recLabels game-stats">Date:</label>
                 <input class="game-stats" type="text" name="date" id="date" onchange="submitForm()">
@@ -245,7 +282,7 @@
                 <input class="form-check-input" type="checkbox" role="switch" id="showCaps" name="showCaps" value="false"  onchange="document.getElementById('showCapsStatus').value = this.checked; submitForm()"
                     {% if showCapsStatus == 'true' %}checked{% endif %}
                 >
-                <label class="form-check-label" for="showCaps">
+                <label id='capsLabel' class="form-check-label" for="showCaps">
                     Captains Only
                 </label>
             <input type="hidden" id="showCapsStatus" name="showCapsStatus" value="{{ showCapsStatus }}">
@@ -255,11 +292,15 @@
                 <input class="form-check-input" type="checkbox" role="switch" id="showPros" name="showPros" value="false"  onchange="document.getElementById('showProsStatus').value = this.checked; submitForm()"
                     {% if showProsStatus == 'true' %}checked{% endif %}
                 >
-                <label id='proLabel' class="form-check-label" for="showPros">
-                    NHLers Only
-                </label>
+                <label id='proLabel' class="form-check-label" for="showPros">NHLers Only</label>
             <input type="hidden" id="showProsStatus" name="showProsStatus" value="{{ showProsStatus }}">
-            
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="showBioData" name="showBioData" value="false"  onchange="document.getElementById('showBioDataStatus').value = this.checked; submitForm()"
+                    {% if showBioDataStatus == 'true' %}checked{% endif %}
+                >
+                <label id='BioDataLabel' class="form-check-label" for="showBioData">Show Bio Data</label>
+            <input type="hidden" id="showBioDataStatus" name="showBioDataStatus" value="{{ showBioDataStatus }}">
             </div>
             <div id="seasRange">
                 <label for="seasonStart" class="recLabels" id='seasonRange'>Season Range:</label>

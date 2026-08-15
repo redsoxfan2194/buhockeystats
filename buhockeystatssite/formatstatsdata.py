@@ -261,28 +261,31 @@ def formatStats(dfRes):
       DataFrame : formatted Player Stats Data
     '''
     dfRes = dfRes.copy()
+    colsToAppend = []
+    if ('state' in dfRes.columns):
+      colsToAppend=['city','state','country']
     if ('career' in dfRes.columns and 'pts' in dfRes.columns):
         dfRes = dfRes[['name', 'career', 'gp',
-                       'goals', 'assists', 'pts', 'pens', 'pim']]
+                       'goals', 'assists', 'pts', 'pens', 'pim']+colsToAppend]
     elif ('career' in dfRes.columns and 'gaa' in dfRes.columns):
         dfRes = dfRes[['name', 'career', 'gp', 'mins',
-                       'ga', 'gaa', 'saves', 'sv%', 'W', 'L', 'T']]
+                       'ga', 'gaa', 'saves', 'sv%', 'W', 'L', 'T']+colsToAppend]
     elif ('number' in dfRes.columns and 'gaa' in dfRes.columns):
         dfRes = dfRes[['number', 'name', 'yr', 'season', 'gp',
-                       'min', 'ga', 'gaa', 'saves', 'sv%', 'W', 'L', 'T', 'SO']]
+                       'min', 'ga', 'gaa', 'saves', 'sv%', 'W', 'L', 'T', 'SO']+colsToAppend]
     elif ('date' in dfRes.columns and 'ga' in dfRes.columns):
         dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
         dfRes = dfRes[['date', 'name', 'opponent', 'yr',
-                       'season', 'ga', 'gaa', 'sv', 'sv%', 'mins', 'result','arena','location','tourney']]
+                       'season', 'ga', 'gaa', 'sv', 'sv%', 'mins', 'result','arena','location','tourney']+colsToAppend]
     elif ('number' in dfRes.columns and 'pts' in dfRes.columns):
         dfRes['number'] = dfRes['number'].fillna(-1)
         dfRes['number'] = dfRes['number'].astype(int)
         dfRes = dfRes[['number', 'name', 'pos', 'yr', 'season',
-                       'gp', 'goals', 'assists', 'pts', 'pen', 'pim']]
+                       'gp', 'goals', 'assists', 'pts', 'pen', 'pim']+colsToAppend]
     elif ('date' in dfRes.columns and 'pts' in dfRes.columns):
         dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
         dfRes = dfRes[['date', 'name', 'opponent', 'yr',
-                       'pos', 'season', 'goals', 'assists', 'pts','arena','location','tourney']]
+                       'pos', 'season', 'goals', 'assists', 'pts','arena','location','tourney']+colsToAppend]
     elif('End' in dfRes.columns):
         dfRes['Start'] = dfRes['Start'].dt.strftime('%m/%d/%Y')
         dfRes['End'] = dfRes['End'].dt.strftime('%m/%d/%Y')
