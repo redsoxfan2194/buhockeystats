@@ -1,0 +1,515 @@
+name,season,city,state,country
+Eden Spencer,2005-06,Cochrane,Alberta,Canada
+Sarah Russell,2005-06,Tewksbury,Massachusetts,United States
+Amanda Shaw,2005-06,St. Thomas,Ontario,Canada
+Caitlin Reddy,2005-06,Birmingham,Michigan,United States
+Jessica Lortie,2005-06,Cooper City,Florida,United States
+Maeghan Ouimet,2005-06,Portsmouth,New Hampshire,United States
+Cara Hendry,2005-06,Calgary,Alberta,Canada
+Gina Kearns,2005-06,Norwood,Pennsylvania,United States
+Erin Seman,2005-06,Ramsey,Minnesota,United States
+Emily Schwarz,2005-06,North Andover,Massachusetts,United States
+Kelley Karnan,2005-06,Center Sandwich,New Hampshire,United States
+Catherine Foley,2005-06,South Boston,Massachusetts,United States
+Caroline Bourdeau,2005-06,West Hartford,Connecticut,United States
+Amy Ley,2005-06,Las Vegas,Nevada,United States
+Laurel Koller,2005-06,St. Paul,Minnesota,United States
+Leah Nakamoto,2005-06,Winchester,Massachusetts,United States
+Genevieve Laing,2005-06,Rochester,New York,United States
+Alanna Sosenko,2005-06,Oakbrook,Illinois,United States
+Stephanie Armstrong,2005-06,Stoneham,Massachusetts,United States
+Nicki Wiart,2005-06,Queensbury,New York,United States
+Karilyn Pilch,2005-06,Salem,New Hampshire,United States
+Sophie Thornton,2005-06,St. Paul,Minnesota,United States
+Justine McLaughlin,2005-06,Quincy,Massachusetts,United States
+Allyse Wilcox,2005-06,Grand Blanc,Michigan,United States
+Sarah Russell,2006-07,Tewksbury,Massachusetts,United States
+Jessica Holt,2006-07,Woodstock,New Brunswick,Canada
+Amanda Shaw,2006-07,St. Thomas,Ontario,Canada
+Caitlin Reddy,2006-07,Birmingham,Michigan,United States
+Jessica Lortie,2006-07,Cooper City,Florida,United States
+Cara Hendry,2006-07,Calgary,Alberta,Canada
+Gina Kearns,2006-07,Norwood,Pennsylvania,United States
+Erin Seman,2006-07,Ramsey,Minnesota,United States
+Kelley Karnan,2006-07,Center Sandwich,New Hampshire,United States
+Catherine Foley,2006-07,South Boston,Massachusetts,United States
+Caroline Bourdeau,2006-07,West Hartford,Connecticut,United States
+Lynn Hillen,2006-07,Minnetonka,Minnesota,United States
+Sarah Appleton,2006-07,New Canaan,Connecticut,United States
+Laurel Koller,2006-07,St. Paul,Minnesota,United States
+Jonnie Bloemers,2006-07,Brooklyn Center,Minnesota,United States
+Genevieve Laing,2006-07,Rochester,New York,United States
+Melissa Tetreau,2006-07,Methuen,Massachusetts,United States
+Stephanie Armstrong,2006-07,Stoneham,Massachusetts,United States
+Nicki Wiart,2006-07,Queensbury,New York,United States
+Karilyn Pilch,2006-07,Salem,New Hampshire,United States
+Melissa Anderson,2006-07,Langley,British Columbia,Canada
+Jenn Arms,2006-07,Chapin,South Carolina,United States
+Julie Poulin,2006-07,Beauceville,Quebec,Canada
+Sophie Thornton,2006-07,St. Paul,Minnesota,United States
+Melissa Haber,2006-07,Toronto,Ontario,Canada
+Allyse Wilcox,2006-07,Grand Blanc,Michigan,United States
+Ashley Leichliter,2007-08,West Chester,Pennsylvania,United States
+Sarah Russell,2007-08,Tewksbury,Massachusetts,United States
+Amanda Shaw,2007-08,St. Thomas,Ontario,Canada
+Caitlin Reddy,2007-08,Birmingham,Michigan,United States
+Katie MacKinnon,2007-08,Vernon,Connecticut,United States
+Lauren Cherewyk,2007-08,St. Albert,Alberta,Canada
+Holly Lorms,2007-08,Wauwatosa,Wisconsin,United States
+Gina Kearns,2007-08,Norwood,Pennsylvania,United States
+Erin Seman,2007-08,Ramsey,Minnesota,United States
+Jonnie Bloemers,2007-08,Brooklyn Center,Minnesota,United States
+Kelley Karnan,2007-08,Center Sandwich,New Hampshire,United States
+Caroline Bourdeau,2007-08,West Hartford,Connecticut,United States
+Sarah Appleton,2007-08,New Canaan,Connecticut,United States
+Laurel Koller,2007-08,St. Paul,Minnesota,United States
+Jillian Kirchner,2007-08,Frankfort,Illinois,United States
+Melissa Tetreau,2007-08,Methuen,Massachusetts,United States
+Stephanie Armstrong,2007-08,Stoneham,Massachusetts,United States
+Nicki Wiart,2007-08,Queensbury,New York,United States
+Melissa Anderson,2007-08,Langley,British Columbia,Canada
+Jenn Arms,2007-08,Chapin,South Carolina,United States
+Julie Poulin,2007-08,Beauceville,Quebec,Canada
+Sophie Thornton,2007-08,St. Paul,Minnesota,United States
+Melissa Haber,2007-08,Toronto,Ontario,Canada
+Allyse Wilcox,2007-08,Grand Blanc,Michigan,United States
+Ashley Leichliter,2008-09,West Chester,Pennsylvania,United States
+Sarah Russell,2008-09,Tewksbury,Massachusetts,United States
+Kasey Boucher,2008-09,Lewiston,Maine,United States
+Amanda Shaw,2008-09,St. Thomas,Ontario,Canada
+Caitlin Reddy,2008-09,Birmingham,Michigan,United States
+Carly Warren,2008-09,Calgary,Alberta,Canada
+Lauren Cherewyk,2008-09,St. Albert,Alberta,Canada
+Holly Lorms,2008-09,Wauwatosa,Wisconsin,United States
+Gina Kearns,2008-09,Norwood,Pennsylvania,United States
+Erin Seman,2008-09,Ramsey,Minnesota,United States
+Jonnie Bloemers,2008-09,Brooklyn Center,Minnesota,United States
+Kelley Karnan,2008-09,Center Sandwich,New Hampshire,United States
+Caroline Bourdeau,2008-09,West Hartford,Connecticut,United States
+Sarah Appleton,2008-09,New Canaan,Connecticut,United States
+Laurel Koller,2008-09,St. Paul,Minnesota,United States
+Jillian Kirchner,2008-09,Frankfort,Illinois,United States
+Jenelle Kohanchuk,2008-09,Winnipeg,Manitoba,Canada
+Melissa Tetreau,2008-09,Methuen,Massachusetts,United States
+Nicki Wiart,2008-09,Queensbury,New York,United States
+Melissa Anderson,2008-09,Langley,British Columbia,Canada
+Jenn Arms,2008-09,Chapin,South Carolina,United States
+Tara Watchorn,2008-09,Newcastle,Ontario,Canada
+Melissa Haber,2008-09,Toronto,Ontario,Canada
+Allyse Wilcox,2008-09,Grand Blanc,Michigan,United States
+Ashley Leichliter,2009-10,West Chester,Pennsylvania,United States
+Britt Hergesheimer,2009-10,East St. Paul,Manitoba,Canada
+Kasey Boucher,2009-10,Lewiston,Maine,United States
+Kathryn Miller,2009-10,Milverton,Ontario,Canada
+Carly Warren,2009-10,Calgary,Alberta,Canada
+Lauren Cherewyk,2009-10,St. Albert,Alberta,Canada
+Holly Lorms,2009-10,Wauwatosa,Wisconsin,United States
+Jonnie Bloemers,2009-10,Brooklyn Center,Minnesota,United States
+Cristina Wiley,2009-10,Vineyard Haven,Massachusetts,United States
+Taylor Holze,2009-10,Lynnbrook,New York,United States
+Shannon Mahoney,2009-10,Carlisle,Massachusetts,United States
+Sarah Appleton,2009-10,New Canaan,Connecticut,United States
+Laurel Koller,2009-10,St. Paul,Minnesota,United States
+Jillian Kirchner,2009-10,Frankfort,Illinois,United States
+Jenelle Kohanchuk,2009-10,Winnipeg,Manitoba,Canada
+Melissa Tetreau,2009-10,Methuen,Massachusetts,United States
+Samantha Pulley,2009-10,HuntingdonValley,Pennsylvania,United States
+Jill Cardella,2009-10,Rochester,New York,United States
+Melissa Anderson,2009-10,Langley,British Columbia,Canada
+Jenn Arms,2009-10,Chapin,South Carolina,United States
+Tara Watchorn,2009-10,Newcastle,Ontario,Canada
+Alissa Fromkin,2009-10,Manhasset,New York,United States
+Melissa Haber,2009-10,Toronto,Ontario,Canada
+Kerrin Sperry,2010-11,North Reading,Massachusetts,United States
+Britt Hergesheimer,2010-11,East St. Paul,Manitoba,Canada
+Kasey Boucher,2010-11,Lewiston,Maine,United States
+Kathryn Miller,2010-11,Milverton,Ontario,Canada
+Meghan Riggs,2010-11,Eden Prairie,Minnesota,United States
+Carly Warren,2010-11,Calgary,Alberta,Canada
+Lauren Cherewyk,2010-11,St. Albert,Alberta,Canada
+Holly Lorms,2010-11,Wauwatosa,Wisconsin,United States
+Jenn Wakefield,2010-11,Pickering,Ontario,Canada
+Cristina Wiley,2010-11,Vineyard Haven,Massachusetts,United States
+Kaleigh Fratkin,2010-11,Burnaby,British Columbia,Canada
+Shannon Mahoney,2010-11,Carlisle,Massachusetts,United States
+Caroline Campbell,2010-11,St. Louis,Missouri,United States
+Catherine Ward,2010-11,Montreal,Quebec,Canada
+Jillian Kirchner,2010-11,Frankfort,Illinois,United States
+Jenelle Kohanchuk,2010-11,Winnipeg,Manitoba,Canada
+Samantha Pulley,2010-11,HuntingdonValley,Pennsylvania,United States
+Jill Cardella,2010-11,Rochester,New York,United States
+Taylor Holze,2010-11,Lynnbrook,New York,United States
+Anya Battaglino,2010-11,Waltham,Massachusetts,United States
+Tara Watchorn,2010-11,Newcastle,Ontario,Canada
+Louise Warren,2010-11,Pembroke,Ontario,Canada
+Marie-Philip Poulin,2010-11,Beauceville,Quebec,Canada
+Alissa Fromkin,2010-11,Manhasset,New York,United States
+Braly Hiller,2010-11,Marion,Massachusetts,United States
+Kerrin Sperry,2011-12,North Reading,Massachusetts,United States
+Britt Hergesheimer,2011-12,East St. Paul,Manitoba,Canada
+Kasey Boucher,2011-12,Lewiston,Maine,United States
+Kathryn Miller,2011-12,Milverton,Ontario,Canada
+Meghan Riggs,2011-12,Eden Prairie,Minnesota,United States
+Carly Warren,2011-12,Calgary,Alberta,Canada
+Shannon Stoneburgh,2011-12,Pickering,Ontario,Canada
+Kayla Tutino,2011-12,Lorraine,Quebec,Canada
+Jenn Wakefield,2011-12,Pickering,Ontario,Canada
+Cristina Wiley,2011-12,Vineyard Haven,Massachusetts,United States
+Kaleigh Fratkin,2011-12,Burnaby,British Columbia,Canada
+Shannon Mahoney,2011-12,Carlisle,Massachusetts,United States
+Caroline Campbell,2011-12,St. Louis,Missouri,United States
+Jenelle Kohanchuk,2011-12,Winnipeg,Manitoba,Canada
+Isabel Menard,2011-12,Ottawa,Ontario,Canada
+Samantha Pulley,2011-12,HuntingdonValley,Pennsylvania,United States
+Jill Cardella,2011-12,Rochester,New York,United States
+Sarah Bayersdorfer,2011-12,Short Hills,New Jersey,United States
+Taylor Holze,2011-12,Lynnbrook,New York,United States
+Anya Battaglino,2011-12,Waltham,Massachusetts,United States
+Tara Watchorn,2011-12,Newcastle,Ontario,Canada
+Louise Warren,2011-12,Pembroke,Ontario,Canada
+Marie-Philip Poulin,2011-12,Beauceville,Quebec,Canada
+Alissa Fromkin,2011-12,Manhasset,New York,United States
+Braly Hiller,2011-12,Marion,Massachusetts,United States
+Kerrin Sperry,2012-13,North Reading,Massachusetts,United States
+Britt Hergesheimer,2012-13,East St. Paul,Manitoba,Canada
+Kathryn Miller,2012-13,Milverton,Ontario,Canada
+Meghan Riggs,2012-13,Eden Prairie,Minnesota,United States
+Shannon Doyle,2012-13,Baldwin,Ontario,Canada
+Shannon Stoneburgh,2012-13,Pickering,Ontario,Canada
+Kayla Tutino,2012-13,Lorraine,Quebec,Canada
+Sarah Lefort,2012-13,Ormstown,Quebec,Canada
+Alexis Woloschuk,2012-13,Winnipeg,Manitoba,Canada
+Dakota Woodworth,2012-13,Carlisle,Massachusetts,United States
+Cristina Wiley,2012-13,Vineyard Haven,Massachusetts,United States
+Kaleigh Fratkin,2012-13,Burnaby,British Columbia,Canada
+Shannon Mahoney,2012-13,Carlisle,Massachusetts,United States
+Lillian Ribeirinha-Braga,2012-13,Winchester,Massachusetts,United States
+Caroline Campbell,2012-13,St. Louis,Missouri,United States
+Diana Bennett,2012-13,Narragansett,Rhode Island,United States
+Rebecca Russo,2012-13,Shelton,Connecticut,United States
+Jenelle Kohanchuk,2012-13,Winnipeg,Manitoba,Canada
+Isabel Menard,2012-13,Ottawa,Ontario,Canada
+Jill Cardella,2012-13,Rochester,New York,United States
+Sarah Bayersdorfer,2012-13,Short Hills,New Jersey,United States
+Taylor Holze,2012-13,Lynnbrook,New York,United States
+Jordan Juron,2012-13,Latham,New York,United States
+Louise Warren,2012-13,Pembroke,Ontario,Canada
+Marie-Philip Poulin,2012-13,Beauceville,Quebec,Canada
+Braly Hiller,2012-13,Marion,Massachusetts,United States
+Alissa Fromkin,2012-13,Manhasset,New York,United States
+Kerrin Sperry,2013-14,North Reading,Massachusetts,United States
+Sarah Steele,2013-14,Stratford,Prince Edward Island,Canada
+Meghan Riggs,2013-14,Eden Prairie,Minnesota,United States
+Shannon Doyle,2013-14,Baldwin,Ontario,Canada
+Shannon Stoneburgh,2013-14,Pickering,Ontario,Canada
+Kayla Tutino,2013-14,Lorraine,Quebec,Canada
+Sarah Lefort,2013-14,Ormstown,Quebec,Canada
+Alexis Woloschuk,2013-14,Winnipeg,Manitoba,Canada
+Dakota Woodworth,2013-14,Carlisle,Massachusetts,United States
+Kaleigh Fratkin,2013-14,Burnaby,British Columbia,Canada
+Maddie Elia,2013-14,Lewiston,New York,United States
+Lillian Ribeirinha-Braga,2013-14,Winchester,Massachusetts,United States
+Caroline Campbell,2013-14,St. Louis,Missouri,United States
+Diana Bennett,2013-14,Narragansett,Rhode Island,United States
+Rebecca Russo,2013-14,Westport,Connecticut,United States
+Samantha Sutherland,2013-14,Cochrane,Alberta,Canada
+Natalie Flynn,2013-14,Medford,Massachusetts,United States
+Sarah Bayersdorfer,2013-14,Short Hills,New Jersey,United States
+Taylor Holze,2013-14,Lynnbrook,New York,United States
+Jordan Juron,2013-14,Latham,New York,United States
+Louise Warren,2013-14,Pembroke,Ontario,Canada
+Mia Becker,2013-14,Woodbridge,Virginia,United States
+Braly Hiller,2013-14,Marion,Massachusetts,United States
+Victoria Hanson,2013-14,Stoughton,Massachusetts,United States
+Sarah Steele,2014-15,Stratford,Prince Edward Island,Canada
+Shannon Doyle,2014-15,Baldwin,Ontario,Canada
+Shannon Stoneburgh,2014-15,Pickering,Ontario,Canada
+Kayla Tutino,2014-15,Lorraine,Quebec,Canada
+Sarah Lefort,2014-15,Ormstown,Quebec,Canada
+Alexis Woloschuk,2014-15,Winnipeg,Manitoba,Canada
+Dakota Woodworth,2014-15,Carlisle,Massachusetts,United States
+Victoria Bach,2014-15,Milton,Ontario,Canada
+Maddie Elia,2014-15,Lewiston,New York,United States
+Lillian Ribeirinha-Braga,2014-15,Winchester,Massachusetts,United States
+Caroline Campbell,2014-15,St. Louis,Missouri,United States
+Diana Bennett,2014-15,Narragansett,Rhode Island,United States
+Rebecca Russo,2014-15,Westport,Connecticut,United States
+Rebecca Leslie,2014-15,Ottawa,Ontario,Canada
+Samantha Sutherland,2014-15,Cochrane,Alberta,Canada
+Natalie Flynn,2014-15,Medford,Massachusetts,United States
+Anna Streifel,2014-15,Bowie,Maryland,United States
+Sarah Bayersdorfer,2014-15,Short Hills,New Jersey,United States
+Alexis Crossley,2014-15,Cole Harbour,Nova Scotia,Canada
+Jordan Juron,2014-15,Latham,New York,United States
+Savannah Newton,2014-15,Halifax,Nova Scotia,Canada
+Marie-Philip Poulin,2014-15,Beauceville,Quebec,Canada
+Mia Becker,2014-15,Woodbridge,Virginia,United States
+Erin O'Neil,2014-15,Minnetonka,Minnesota,United States
+Victoria Hanson,2014-15,Stoughton,Massachusetts,United States
+Ashlyn Aiello,2015-16,Belmont,Massachusetts,United States
+Sarah Steele,2015-16,Stratford,Prince Edward Island,Canada
+Kayla Tutino,2015-16,Lorraine,Quebec,Canada
+Sarah Lefort,2015-16,Ormstown,Quebec,Canada
+Alexis Woloschuk,2015-16,Winnipeg,Manitoba,Canada
+Dakota Woodworth,2015-16,Carlisle,Massachusetts,United States
+Victoria Bach,2015-16,Milton,Ontario,Canada
+Maddie Elia,2015-16,Lewiston,New York,United States
+Lillian Ribeirinha-Braga,2015-16,Winchester,Massachusetts,United States
+Sammy Davis,2015-16,Pembroke,Massachusetts,United States
+Diana Bennett,2015-16,Narragansett,Rhode Island,United States
+Rebecca Russo,2015-16,Westport,Connecticut,United States
+Rebecca Leslie,2015-16,Ottawa,Ontario,Canada
+Samantha Sutherland,2015-16,Cochrane,Alberta,Canada
+Natalie Flynn,2015-16,Medford,Massachusetts,United States
+Anna Streifel,2015-16,Bowie,Maryland,United States
+Mary Grace Kelley,2015-16,Natick,Massachusetts,United States
+Alexis Crossley,2015-16,Cole Harbour,Nova Scotia,Canada
+Connor Galway,2015-16,Athens,Ontario,Canada
+Jordan Juron,2015-16,Latham,New York,United States
+Savannah Newton,2015-16,Halifax,Nova Scotia,Canada
+Erin O'Neil,2015-16,Minnetonka,Minnesota,United States
+Victoria Hanson,2015-16,Stoughton,Massachusetts,United States
+Ashlyn Aiello,2016-17,Belmont,Massachusetts,United States
+Sarah Steele,2016-17,Stratford,Prince Edward Island,Canada
+Deziray De Sousa,2016-17,Montréal,Quebec,Canada
+Abby Cook,2016-17,Kelowna,British Columbia,Canada
+Katie Shannahan,2016-17,Colorado Springs,Colorado,United States
+Alexandra Calderone,2016-17,Kirkland,Quebec,Canada
+Victoria Bach,2016-17,Milton,Ontario,Canada
+Natasza Tarnowski,2016-17,Embrun,Ontario,Canada
+Maddie Elia,2016-17,Lewiston,New York,United States
+Mary Parker,2016-17,Milton,Massachusetts,United States
+Sammy Davis,2016-17,Pembroke,Massachusetts,United States
+Breanna Scarpaci,2016-17,Washington,Michigan,United States
+Rebecca Leslie,2016-17,Ottawa,Ontario,Canada
+Samantha Sutherland,2016-17,Cochrane,Alberta,Canada
+Natalie Flynn,2016-17,Medford,Massachusetts,United States
+Anna Streifel,2016-17,Bowie,Maryland,United States
+Nina Rodgers,2016-17,Minnetonka,Minnesota,United States
+Mary Grace Kelley,2016-17,Natick,Massachusetts,United States
+Alexis Crossley,2016-17,Cole Harbour,Nova Scotia,Canada
+Connor Galway,2016-17,Athens,Ontario,Canada
+Savannah Newton,2016-17,Halifax,Nova Scotia,Canada
+Erin O'Neil,2016-17,Minnetonka,Minnesota,United States
+Victoria Hanson,2016-17,Stoughton,Massachusetts,United States
+Ashlyn Aiello,2017-18,Belmont,Massachusetts,United States
+Alexandra Calderone,2017-18,Kirkland,Quebec,Canada
+Jesse Compher,2017-18,Northbrook,Illinois,United States
+Deziray De Sousa,2017-18,Montréal,Quebec,Canada
+Abby Cook,2017-18,Kelowna,British Columbia,Canada
+Katie Shannahan,2017-18,Colorado Springs,Colorado,United States
+Victoria Bach,2017-18,Milton,Ontario,Canada
+Natasza Tarnowski,2017-18,Embrun,Ontario,Canada
+Kristina Schuler,2017-18,Webster,New York,United States
+Sammy Davis,2017-18,Pembroke,Massachusetts,United States
+Breanna Scarpaci,2017-18,Washington,Michigan,United States
+Reagan Rust,2017-18,Southaven,Mississippi,United States
+Rebecca Leslie,2017-18,Ottawa,Ontario,Canada
+Abbey Stanley,2017-18,St. Louis,Missouri,United States
+Rachel Allen,2017-18,Cary,North Carolina,United States
+Nina Rodgers,2017-18,Minnetonka,Minnesota,United States
+Mary Grace Kelley,2017-18,Natick,Massachusetts,United States
+Connor Galway,2017-18,Athens,Ontario,Canada
+Nara Elia,2017-18,Saskatoon,Saskatchewan,Canada
+Savannah Newton,2017-18,Halifax,Nova Scotia,Canada
+Corinne Schroeder,2017-18,Elm Creek,Manitoba,Canada
+Erin O'Neil,2017-18,Minnetonka,Minnesota,United States
+Kate Stuart,2018-19,Chilliwack,British Columbia,Canada
+Alex Allan,2018-19,Abbotsford,British Columbia,Canada
+Alexandra Calderone,2018-19,Kirkland,Quebec,Canada
+Courtney Correia,2018-19,Whitby,Ontario,Canada
+Jesse Compher,2018-19,Northbrook,Illinois,United States
+Deziray De Sousa,2018-19,Montréal,Quebec,Canada
+Abby Cook,2018-19,Kelowna,British Columbia,Canada
+Katie Shannahan,2018-19,Colorado Springs,Colorado,United States
+Mackenna Parker,2018-19,Cavet,Saskatchewan,Canada
+Kaleigh Donnelly,2018-19,Wellesley,Massachusetts,United States
+Natasza Tarnowski,2018-19,Embrun,Ontario,Canada
+Kristina Schuler,2018-19,Webster,New York,United States
+Sammy Davis,2018-19,Pembroke,Massachusetts,United States
+Breanna Scarpaci,2018-19,Washington,Michigan,United States
+Reagan Rust,2018-19,Southaven,Mississippi,United States
+Emma Wuthrich,2018-19,Anchorage,Alaska,United States
+Abbey Stanley,2018-19,St. Louis,Missouri,United States
+Rachel Allen,2018-19,Cary,North Carolina,United States
+Joo Hyung Kwak,2018-19,La Crescenta,California,United States
+Mary Grace Kelley,2018-19,Natick,Massachusetts,United States
+Connor Galway,2018-19,Athens,Ontario,Canada
+Nara Elia,2018-19,Saskatoon,Saskatchewan,Canada
+Corinne Schroeder,2018-19,Elm Creek,Manitoba,Canada
+Nicole McGuigan,2018-19,Huntington,New York,United States
+Kate Stuart,2019-20,Chilliwack,British Columbia,Canada
+Alex Allan,2019-20,Abbotsford,British Columbia,Canada
+Alexandra Calderone,2019-20,Kirkland,Quebec,Canada
+Courtney Correia,2019-20,Whitby,Ontario,Canada
+Nadia Mattivi,2019-20,Baselga di Piné,Trentino-Alto Adige ,Italy
+Jesse Compher,2019-20,Northbrook,Illinois,United States
+Deziray De Sousa,2019-20,Montréal,Quebec,Canada
+Abby Cook,2019-20,Kelowna,British Columbia,Canada
+Katie Shannahan,2019-20,Colorado Springs,Colorado,United States
+Mackenna Parker,2019-20,Clavet,Saskatchewan,Canada
+Kaleigh Donnelly,2019-20,Wellesley,Massachusetts,United States
+Natasza Tarnowski,2019-20,Embrun,Ontario,Canada
+Kristina Schuler,2019-20,Webster,New York,United States
+Julia Nearis,2019-20,Beverly,Massachusetts,United States
+Sammy Davis,2019-20,Pembroke,Massachusetts,United States
+Breanna Scarpaci,2019-20,Washington,Michigan,United States
+Haylee Blinkhorn,2019-20,Oakdale,Minnesota,United States
+Emma Wuthrich,2019-20,Anchorage,Alaska,United States
+Grace Parker,2019-20,Nepean,Ontario,Canada
+Abbey Stanley,2019-20,St. Louis,Missouri,United States
+Rachel Allen,2019-20,Cary,North Carolina,United States
+Brooke Ersoy,2019-20,Arlington Heights,Illinois,United States
+Nara Elia,2019-20,Saskatoon,Saskatchewan,Canada
+Corinne Schroeder,2019-20,Elm Creek,Manitoba,Canada
+Nicole McGuigan,2019-20,Huntington,New York,United States
+Kate Stuart,2020-21,Chilliwack,British Columbia,Canada
+Alex Allan,2020-21,Abbotsford,British Columbia,Canada
+Grace Parker,2020-21,Nepean,Ontario,Canada
+Courtney Correia,2020-21,Whitby,Ontario,Canada
+Nadia Mattivi,2020-21,Baselga di Piné,Trentino-Alto Adige ,Italy
+Jesse Compher,2020-21,Northbrook,Illinois,United States
+Clare O'Leary,2020-21,Hingham,Massachusetts,United States
+Mackenna Parker,2020-21,Clavet,Saskatchewan,Canada
+Kaleigh Donnelly,2020-21,Wellesley,Massachusetts,United States
+Andi Calderone,2020-21,Kirkland,Quebec,Canada
+Kristina Schuler,2020-21,Webster,New York,United States
+Julia Nearis,2020-21,Beverly,Massachusetts,United States
+Lacey Martin,2020-21,Minnetonka,Minnesota,United States
+Haylee Blinkhorn,2020-21,Oakdale,Minnesota,United States
+Emma Wuthrich,2020-21,Castle Rock,Colorado,United States
+Julia Shaunessy,2020-21,Marshfield,Massachusetts,United States
+Madison Cardaci,2020-21,Westminster,Massachusetts,United States
+Rachel Allen,2020-21,Cary,North Carolina,United States
+Tamara Giaquinto,2020-21,Toronto,Ontario,Canada
+Brooke Ersoy,2020-21,Arlington Heights,Illinois,United States
+Nara Elia,2020-21,Saskatoon,Saskatchewan,Canada
+Catherine Foulem,2020-21,Dieppe,New Brunswick,Canada
+Corinne Schroeder,2020-21,Elm Creek,Manitoba,Canada
+Nicole McGuigan,2020-21,Huntington,New York,United States
+Kate Stuart,2021-22,Chilliwack,British Columbia,Canada
+Alex Allan,2021-22,Abbotsford,British Columbia,Canada
+Liv Haag,2021-22,Robbinsdale,Minnesota,United States
+Grace Parker,2021-22,Nepean,Ontario,Canada
+Courtney Correia,2021-22,Whitby,Ontario,Canada
+Nadia Mattivi,2021-22,Baselga di Piné,Trentino-Alto Adige ,Italy
+Kylie Roberts,2021-22,Edina,Minnesota,United States
+Maggie Hanzel,2021-22,Rochester,Minnesota,United States
+Clare O'Leary,2021-22,Hingham,Massachusetts,United States
+Jesse DeVito,2021-22,Rumson,New Jersey,United States
+Mackenna Parker,2021-22,Clavet,Saskatchewan,Canada
+Kaleigh Donnelly,2021-22,Wellesley,Massachusetts,United States
+Andi Calderone,2021-22,Kirkland,Quebec,Canada
+Ellie Larson,2021-22,Hutchinson,Minnesota,United States
+Julia Nearis,2021-22,Beverly,Massachusetts,United States
+Lacey Martin,2021-22,Minnetonka,Minnesota,United States
+Haylee Blinkhorn,2021-22,Oakdale,Minnesota,United States
+Emma Wuthrich,2021-22,Castle Rock,Colorado,United States
+Julia Shaunessy,2021-22,Marshfield,Massachusetts,United States
+Madison Cardaci,2021-22,Westminster,Massachusetts,United States
+Christina Vote,2021-22,Arlington,Massachusetts,United States
+Tamara Giaquinto,2021-22,Toronto,Ontario,Canada
+Brooke Ersoy,2021-22,Arlington Heights,Illinois,United States
+Catherine Foulem,2021-22,Dieppe,New Brunswick,Canada
+Nicole McGuigan,2021-22,Huntington,New York,United States
+Callie Shanahan,2021-22,Commerce,Michigan,United States
+Liv Haag,2022-23,Robbinsdale,Minnesota,United States
+Nadia Mattivi,2022-23,Baselga di Piné,Trentino-Alto Adige ,Italy
+Kylie Roberts,2022-23,Edina,Minnesota,United States
+Maggie Hanzel,2022-23,Rochester,Minnesota,United States
+Clare O'Leary,2022-23,Hingham,Massachusetts,United States
+Jesse DeVito,2022-23,Rumson,New Jersey,United States
+Andi Calderone,2022-23,Kirkland,Quebec,Canada
+Julia Nearis,2022-23,Beverly,Massachusetts,United States
+Lacey Martin,2022-23,Minnetonka,Minnesota,United States
+Haylee Blinkhorn,2022-23,Oakdale,Minnesota,United States
+Julia Shaunessy,2022-23,Marshfield,Massachusetts,United States
+Madison Cardaci,2022-23,Westminster,Massachusetts,United States
+Christina Vote,2022-23,Arlington,Massachusetts,United States
+Tamara Giaquinto,2022-23,Toronto,Ontario,Canada
+Brooke Ersoy,2022-23,Arlington Heights,Illinois,United States
+Catherine Foulem,2022-23,Dieppe,New Brunswick,Canada
+Callie Shanahan,2022-23,Commerce,Michigan,United States
+Andrea Brändli,2022-23,Kloten,Zürich,Switzerland
+Allie Cuellar,2022-23,Saint Charles,Illinois,United States
+Brooke Disher,2022-23,Fort St. John,British Columbia,Canada
+Ani FitzGerald,2022-23,Shaker Heights,Ohio,United States
+Sydney Healey,2022-23,Arthur,Ontario,Canada
+Maeve Kelly,2022-23,Victoria,Minnesota,United States
+Clara Yuhn,2022-23,Bloomfield Hills,Michigan,United States
+Alexa Matses,2023-24,Boxford,Massachusetts,United States
+Ella Huntley,2023-24,Buffalo,New York,United States
+Liv Haag,2023-24,Robbinsdale,Minnesota,United States
+Jackson Kinsler,2023-24,Madison,Wisconsin,United States
+Nadia Mattivi,2023-24,Baselga di Piné,Trentino-Alto Adige ,Italy
+Kylie Roberts,2023-24,Edina,Minnesota,United States
+Maggie Hanzel,2023-24,Rochester,Minnesota,United States
+Alex Law,2023-24,Brooklin,Ontario,Canada
+Mikayla Blomquist,2023-24,Lake Country,British Columbia,Canada
+Sydney Healey,2023-24,Arthur,Ontario,Canada
+Andi Calderone,2023-24,Kirkland,Quebec,Canada
+Lilli Welcke,2023-24,Heidelberg,Baden-Württemberg,Germany
+Lacey Martin,2023-24,Minnetonka,Minnesota,United States
+Neely Nicholson,2023-24,Pittsburgh,Pennsylvania,United States
+Clara Yuhn,2023-24,Bloomfield Hills,Michigan,United States
+Julia Shaunessy,2023-24,Marshfield,Massachusetts,United States
+Madison Cardaci,2023-24,Westminster,Massachusetts,United States
+Christina Vote,2023-24,Arlington,Massachusetts,United States
+Tamara Giaquinto,2023-24,Toronto,Ontario,Canada
+Maeve Kelly,2023-24,Victoria,Minnesota,United States
+Ani FitzGerald,2023-24,Shaker Heights,Ohio,United States
+Luisa Welcke,2023-24,Heidelberg,Baden-Württemberg,Germany
+Brooke Disher,2023-24,Fort St. John,British Columbia,Canada
+Catherine Foulem,2023-24,Dieppe,New Brunswick,Canada
+Emily McDonald,2023-24,Essex,Vermont,United States
+Callie Shanahan,2023-24,Commerce,Michigan,United States
+Mari Petersen,2023-24,Goodwood,Ontario,Canada
+Maeve Carey,2024-25,Gloucester,Massachusetts,United States
+Liv Haag,2024-25,Robbinsdale,Minnesota,United States
+Lindsay Bochna,2024-25,Toronto,Ontario,Canada
+Kate Meinert,2024-25,Moon Township,Pennsylvania,United States
+Kylie Roberts,2024-25,Edina,Minnesota,United States
+Maggie Hanzel,2024-25,Rochester,Minnesota,United States
+Lola Reid,2024-25,Lincoln,Nebraska,United States
+Tessa Demain,2024-25,Wolfeboro,New Hampshire,United States
+Sydney Healey,2024-25,Arthur,Ontario,Canada
+Luisa Welcke,2024-25,Heidelberg,Baden-Württemberg,Germany
+Alex Law,2024-25,Whitby,Ontario,Canada
+Neely Nicholson,2024-25,Pittsburgh,Pennsylvania,United States
+Clara Yuhn,2024-25,Bloomfield Hills,Michigan,United States
+Julia Shaunessy,2024-25,Marshfield,Massachusetts,United States
+Riley Walsh,2024-25,Duxbury,Massachusetts,United States
+Christina Vote,2024-25,Arlington,Massachusetts,United States
+Tamara Giaquinto,2024-25,Toronto,Ontario,Canada
+Maeve Kelly,2024-25,Victoria,Minnesota,United States
+Ani FitzGerald,2024-25,Shaker Heights,Ohio,United States
+Lilli Welcke,2024-25,Heidelberg,Baden-Württemberg,Germany
+Keira Healey,2024-25,Arthur,Ontario,Canada
+Kaileigh Quigg,2024-25,Keswick,Ontario,Canada
+Emily McDonald,2024-25,Essex,Vermont,United States
+Callie Shanahan,2024-25,Commerce,Michigan,United States
+Mari Pietersen,2024-25,Goodwood,Ontario,Canada
+Michelle Pasiechnyk,2025-26,Ottawa,Ontario,Canada
+Maeve Carey,2025-26,Gloucester,Massachusetts,United States
+Lucy Thiessen,2025-26,Alexandria,Virginia,United States
+Kate Meinert,2025-26,Moon Township,Pennsylvania,United States
+Ella Belfry,2025-26,Ridgeway,Ontario,Canada
+Lola Reid,2025-26,Lincoln,Nebraska,United States
+Mia Vergilii,2025-26,Brecksville,Ohio,United States
+Tessa Demain,2025-26,Wolfeboro,New Hampshire,United States
+Sydney Healey,2025-26,Arthur,Ontario,Canada
+Avery Supryka,2025-26,Ottawa,Ontario,Canada
+Anežka Čabelová,2025-26,Český Krumlov,South Bohemian,Czechia
+Luisa Welcke,2025-26,Heidelberg,Baden-Württemberg,Germany
+Neely Nicholson,2025-26,Pittsburgh,Pennsylvania,United States
+Clara Yuhn,2025-26,Bloomfield Hills,Michigan,United States
+Riley Walsh,2025-26,Duxbury,Massachusetts,United States
+Lexie Bertelsen,2025-26,Belmont,Ontario,Canada
+Greta Henderson,2025-26,Regina,Saskatchewan,Canada
+Maeve Kelly,2025-26,Victoria,Minnesota,United States
+Lilli Welcke,2025-26,Heidelberg,Baden-Württemberg,Germany
+Keira Healey,2025-26,Arthur,Ontario,Canada
+Kaileigh Quigg,2025-26,Keswick,Ontario,Canada
+Sydney Fogu,2025-26,Bayonne,New Jersey,United States
+Jackie Wright,2025-26,Walpole,Massachusetts,United States
+Mari Pietersen,2025-26,Goodwood,Ontario,Canada
