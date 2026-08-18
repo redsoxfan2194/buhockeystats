@@ -184,6 +184,11 @@ function initializeFilters() {
     var prosCheckboxState = document.getElementById("showProsStatus");
     prosCheckbox.checked = prosCheckboxState.value === "false";
     
+    var transfersCheckbox = document.getElementById("showTransfers");
+    var transfersCheckboxState = document.getElementById("showTransfersStatus");
+    transfersCheckbox.checked = transfersCheckboxState.value === "false";
+    
+    
     var bioCheckbox = document.getElementById("showBioData");
     var bioCheckboxState = document.getElementById("showBioDataStatus");
     bioCheckbox.checked = bioCheckboxState.value === "false";

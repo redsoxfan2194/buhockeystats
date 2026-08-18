@@ -124,6 +124,7 @@ def players():
         dfStat = pd.DataFrame()
         dfCaps = pd.DataFrame()
         dfPlay = pd.DataFrame()
+        dfTransfers = pd.DataFrame()
         seasVals = []
         tourneyList = []
         cityList = []
@@ -137,6 +138,8 @@ def players():
               dfCaps = burb.getCaptains('M')
             if (formData['showProsStatus'] == 'true'):
               dfPros = burb.getNHLers()
+            if (formData['showTransfersStatus'] == 'true'):
+              dfTransfers = burb.getTransfers('M','in')
             if (formData['showBioDataStatus'] == 'true'):
               dfPlay = burb.getPlayerData('M')
               cityList = sorted(list(dfPlay.loc[dfPlay['city'].notnull()].city.unique()))
@@ -174,6 +177,8 @@ def players():
               dfCaps = burb.getCaptains('W')
             if (formData['showProsStatus'] == 'true'):
               dfPros = burb.getPWHLers()
+            if (formData['showTransfersStatus'] == 'true'):
+              dfTransfers = burb.getTransfers('W','in')
             if (formData['showBioDataStatus'] == 'true'):
               dfPlay = burb.getPlayerData('W')
               cityList = sorted(list(dfPlay.loc[dfPlay['city'].notnull()].city.unique()))
@@ -277,6 +282,9 @@ def players():
             
         if formData['showProsStatus'] == 'true':
             dfStat = dfStat.loc[dfStat['name'].isin(dfPros.Name)]
+            
+        if formData['showTransfersStatus'] == 'true':
+            dfStat = dfStat.loc[dfStat['name'].isin(dfTransfers.name)]
         
         if formData['showBioDataStatus'] == 'true':
           if formData['type'] == 'career':

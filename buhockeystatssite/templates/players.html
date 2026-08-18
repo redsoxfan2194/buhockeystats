@@ -289,6 +289,16 @@
             
             </div>
             <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="showTransfers" name="showTransfers" value="false"  onchange="document.getElementById('showTransfersStatus').value = this.checked; submitForm()"
+                    {% if showTransfersStatus == 'true' %}checked{% endif %}
+                >
+                <label id='transfersLabel' class="form-check-label" for="showTransfers">
+                    Transfers Only
+                </label>
+            <input type="hidden" id="showTransfersStatus" name="showTransfersStatus" value="{{ showTransfersStatus }}">
+            
+            </div>
+            <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" role="switch" id="showPros" name="showPros" value="false"  onchange="document.getElementById('showProsStatus').value = this.checked; submitForm()"
                     {% if showProsStatus == 'true' %}checked{% endif %}
                 >
