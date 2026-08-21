@@ -51,6 +51,7 @@ function clearFilters(event) {
     document.getElementById("city").value = "all";
     document.getElementById("state").value = "all";
     document.getElementById("country").value = "all";
+     document.getElementById("draftStatus").value = "all";
 
     if (document.getElementById("gender").value === "Womens") {
         document.getElementById("seasonStart").value = "2005-06";
@@ -95,6 +96,14 @@ function clearFilters(event) {
     document.getElementById("gaop").value = "==";
     document.getElementById("savesop").value = "==";
     
+    // Draft Stuff
+    document.getElementById("rdop").value = "==";
+    document.getElementById("pirop").value = "==";
+    document.getElementById("pickop").value = "==";
+    document.getElementById("rdmin").value = "==";
+    document.getElementById("pirmin").value = "";
+    document.getElementById("pickmin").value = "";
+    
     if(event!=null){
       event.preventDefault();
       submitForm("true");
@@ -120,6 +129,9 @@ function initializeFilters() {
     document.getElementById("minsmin").addEventListener("keydown", onKeydown);
     document.getElementById("gamin").addEventListener("keydown", onKeydown);
     document.getElementById("savesmin").addEventListener("keydown", onKeydown);
+    document.getElementById("rdmin").addEventListener("keydown", onKeydown);
+    document.getElementById("pirmin").addEventListener("keydown", onKeydown);
+    document.getElementById("pickmin").addEventListener("keydown", onKeydown);
 
     document
         .getElementById("resetButton")
@@ -196,6 +208,15 @@ function initializeFilters() {
     const showBioData = document.getElementById("showBioData").checked;
     document.querySelectorAll(".bio-data").forEach(function(element) {
         element.style.display = showBioData ? "" : "none";
+    });
+    
+    var draftCheckbox = document.getElementById("showDraftData");
+    var draftCheckboxState = document.getElementById("showDraftDataStatus");
+    draftCheckbox.checked = draftCheckboxState.value === "false";
+    
+    const showDraftData = document.getElementById("showDraftData").checked;
+    document.querySelectorAll(".draft-data").forEach(function(element) {
+        element.style.display = showDraftData ? "" : "none";
     });
     
     clearFilters();
@@ -352,7 +373,25 @@ function submitForm(reset = "false") {
                         })
                     );
                 });
-            }
+                
+                const selectDraftedTeamElement   = $("#draftedTeam");
+                    selectDraftedTeamElement.empty();
+                    selectDraftedTeamElement.append(
+                        $("<option>", {
+                            value: "all",
+                            text: "All",
+                        })
+                    );
+                $.each(response.drafted_teams_values, function (index, item) {
+                    selectDraftedTeamElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
+                
+                }
 
             if (document.getElementById("sortval").value) {
                 var thElements = document.getElementsByTagName("th");
@@ -517,6 +556,23 @@ function submitForm(reset = "false") {
                         })
                     );
                 });
+                
+                
+            const showDraftData = document.getElementById("showDraftData").checked;
+            document.querySelectorAll(".draft-data").forEach(function(element) {
+                element.style.display = showDraftData ? "" : "none";
+            });
+            
+            const selectDraftedTeamElement   = $("#draftedTeam");
+                $.each(response.drafted_teams_values, function (index, item) {
+                    selectDraftedTeamElement.append(
+                        $("<option>", {
+                            value: item,
+                            text: item,
+                        })
+                    );
+                });
+                
         },
         error: function (xhr, status, error) {
             console.error("Error:", error);

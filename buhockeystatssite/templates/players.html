@@ -117,14 +117,19 @@
                 </select>
             </div>
             <div id="groupDiv" class="filter game-stats">
-                <label for="group" class="recLabels game-stats">Stat Format:</label>
-                <select class="btn dropdown-toggle custom-align game-stats" name="group" id="group" onchange="submitForm()">
+                <label for="group" class="recLabels">Stat Format:</label>
+                <select class="btn dropdown-toggle custom-align" name="group" id="group" onchange="submitForm()">
                     <option value="" {% if selected_group == 'all' %} selected {% endif %}>Individual</option>
-                    <option value="opponent" {% if selected_group == "opponent" %} selected {% endif %}>Group by: Opponent</option>
-                    <option value="arena" {% if selected_group == "arena" %} selected {% endif %}>Group by: Arena</option>
-                    <option value="tourney" {% if selected_group == "tourney" %} selected {% endif %}>Group by: Tournament </option>
-                    <option value="splits" {% if selected_group == "splits" %} selected {% endif %}>Splits</option>
-                    <option value="records" {% if selected_group == "records" %} selected {% endif %}>Situational Records</option>
+                    <option value="opponent" class='game-stats' {% if selected_group == "opponent" %} selected {% endif %}>Group by: Opponent</option>
+                    <option value="arena" class='game-stats' {% if selected_group == "arena" %} selected {% endif %}>Group by: Arena</option>
+                    <option value="tourney" class='game-stats' {% if selected_group == "tourney" %} selected {% endif %}>Group by: Tournament </option>
+                   <!-- <option value="city" class="bio-data" {% if selected_group == "city" %} selected {% endif %}>Group by: City </option>
+                    <option value="state" class="bio-data" {% if selected_group == "state" %} selected {% endif %}>Group by: State </option>
+                    <option value="country" class="bio-data" {% if selected_group == "country" %} selected {% endif %}>Group by: Country </option>
+                    <option value="round" class="draft-data" {% if selected_group == "round" %} selected {% endif %}>Group by: Round </option>
+                    <option value="team" class="draft-data" {% if selected_group == "team" %} selected {% endif %}>Group by: Drafted Team </option> -->
+                    <option value="splits" class='game-stats' {% if selected_group == "splits" %} selected {% endif %}>Splits</option>
+                    <option value="records" class='game-stats' {% if selected_group == "records" %} selected {% endif %}>Situational Records</option>
                 </select>
             </div>
             <div id="seasonDiv" class="filter">
@@ -138,42 +143,6 @@
                     {% endfor %}
                 </select>
             </div>
-            <div id="cityDiv" class="filter bio-data">
-                <label for="city" class="recLabels">City:</label>
-                <select class="btn dropdown-toggle custom-align" name="city" id="city" onchange="submitForm()">
-                    <option value="all" {% if selected_city == 'all' %} selected {% endif %}> All </option>
-                    {% for city in city_values %}
-                        <option value="{{ city }}" {% if selected_city == city %} selected {% endif %}>
-                            {{ city }}
-                        </option>
-                    {% endfor %}
-                </select>
-            </div>
-            
-            <div id="stateDiv" class="filter bio-data">
-                <label for="state" class="recLabels">State:</label>
-                <select class="btn dropdown-toggle custom-align" name="state" id="state" onchange="submitForm()">
-                    <option value="all" {% if selected_state == 'all' %} selected {% endif %}> All </option>
-                    {% for state in state_values %}
-                        <option value="{{ state }}" {% if selected_state == state %} selected {% endif %}>
-                            {{ state }}
-                        </option>
-                    {% endfor %}
-                </select>
-            </div>
-            
-            <div id="countryDiv" class="filter bio-data">
-                <label for="country" class="recLabels">Country:</label>
-                <select class="btn dropdown-toggle custom-align" name="country" id="country" onchange="submitForm()">
-                    <option value="all" {% if selected_country == 'all' %} selected {% endif %}> All </option>
-                    {% for country in country_values %}
-                        <option value="{{ country }}" {% if selected_country == country %} selected {% endif %}>
-                            {{ country }}
-                        </option>
-                    {% endfor %}
-                </select>
-            </div>
-            
             
             <div id="dateDiv" class="filter game-stats">
                 <label for="date" class="recLabels game-stats">Date:</label>
@@ -278,6 +247,103 @@
                 </select>
                 <input type="number" name="savesmin" id="savesmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
             </div>
+            
+            <hr class="hr hr-blurry bio-data" />
+            
+            <div id="cityDiv" class="filter bio-data">
+                <label for="city" class="recLabels">City:</label>
+                <select class="btn dropdown-toggle custom-align" name="city" id="city" onchange="submitForm()">
+                    <option value="all" {% if selected_city == 'all' %} selected {% endif %}> All </option>
+                    {% for city in city_values %}
+                        <option value="{{ city }}" {% if selected_city == city %} selected {% endif %}>
+                            {{ city }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div id="stateDiv" class="filter bio-data">
+                <label for="state" class="recLabels">State:</label>
+                <select class="btn dropdown-toggle custom-align" name="state" id="state" onchange="submitForm()">
+                    <option value="all" {% if selected_state == 'all' %} selected {% endif %}> All </option>
+                    {% for state in state_values %}
+                        <option value="{{ state }}" {% if selected_state == state %} selected {% endif %}>
+                            {{ state }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div id="countryDiv" class="filter bio-data">
+                <label for="country" class="recLabels">Country:</label>
+                <select class="btn dropdown-toggle custom-align" name="country" id="country" onchange="submitForm()">
+                    <option value="all" {% if selected_country == 'all' %} selected {% endif %}> All </option>
+                    {% for country in country_values %}
+                        <option value="{{ country }}" {% if selected_country == country %} selected {% endif %}>
+                            {{ country }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            
+            <hr class="hr hr-blurry draft-data" />
+            
+            <div id="rdDiv" class="draft-data filter">
+                <label for="rdop" class="recLabels">Round:</label>
+                <select class="btn dropdown-toggle custom-align op-drop" name="rdop" id="rdop" onchange="submitForm()">
+                    <option value="==" {% if selected_rdop == '==' %} selected {% endif %}> = </option>
+                    <option value=">=" {% if selected_rdop == '>=' %} selected {% endif %}> >= </option>
+                    <option value=">" {% if selected_rdop == '>' %} selected {% endif %}> > </option>
+                    <option value="<" {% if selected_rdop == '<' %} selected {% endif %}> < </option>
+                    <option value="<=" {% if selected_rdop == '<=' %} selected {% endif %}> <= </option>
+                </select>
+                <input type="number" name="rdmin" id="rdmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            </div>
+            <div id="pirDiv" class="draft-data filter">
+                <label for="pirop" class="recLabels">Pick in Round:</label>
+                <select class="btn dropdown-toggle custom-align op-drop" name="pirop" id="pirop" onchange="submitForm()">
+                    <option value="==" {% if selected_pirop == '==' %} selected {% endif %}> = </option>
+                    <option value=">=" {% if selected_pirop == '>=' %} selected {% endif %}> >= </option>
+                    <option value=">" {% if selected_pirop == '>' %} selected {% endif %}> > </option>
+                    <option value="<" {% if selected_pirop == '<' %} selected {% endif %}> < </option>
+                    <option value="<=" {% if selected_pirop == '<=' %} selected {% endif %}> <= </option>
+                </select>
+                <input type="number" name="pirmin" id="pirmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            </div>
+            <div id="pickDiv" class="draft-data filter">
+                <label for="pickop" class="recLabels">Pick:</label>
+                <select class="btn dropdown-toggle custom-align op-drop" name="pickop" id="pickop" onchange="submitForm()">
+                    <option value="==" {% if selected_pickop == '==' %} selected {% endif %}> = </option>
+                    <option value=">=" {% if selected_pickop == '>=' %} selected {% endif %}> >= </option>
+                    <option value=">" {% if selected_pickop == '>' %} selected {% endif %}> > </option>
+                    <option value="<" {% if selected_pickop == '<' %} selected {% endif %}> < </option>
+                    <option value="<=" {% if selected_pickop == '<=' %} selected {% endif %}> <= </option>
+                </select>
+                <input type="number" name="pickmin" id="pickmin" min=0 onchange="submitForm()" onsubmit="submitForm()">
+            </div>
+            
+            <div id="draftTeamDiv" class="filter draft-data">
+                <label for="draftedTeam" class="recLabels">Drafted Team:</label>
+                <select class="btn dropdown-toggle custom-align" name="draftedTeam" id="draftedTeam" onchange="submitForm()">
+                    <option value="all" {% if selected_drafted_team == 'all' %} selected {% endif %}> All </option>
+                    {% for draftedTeam in drafted_team_values %}
+                        <option value="{{ draftedTeam }}" {% if selected_drafted_team == draftedTeam %} selected {% endif %}>
+                            {{ draftedTeam }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div id="draftStatusDiv" class="filter draft-data">
+                <label for="draftStatus" class="recLabels">Draft Status:</label>
+                <select class="btn dropdown-toggle custom-align" name="draftStatus" id="draftStatus" onchange="submitForm()">
+                    <option value="all" {% if selected_draft_status == 'all' %} selected {% endif %}>All</option>
+                    <option value="Drafted" {% if selected_draft_status == 'Drafted' %} selected {% endif %}>Drafted</option>
+                    <option value="Undrafted" {% if selected_draft_status == 'Undrafted' %} selected {% endif %}>Undrafted</option>
+                </select>
+            </div>
+            
             <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" role="switch" id="showCaps" name="showCaps" value="false"  onchange="document.getElementById('showCapsStatus').value = this.checked; submitForm()"
                     {% if showCapsStatus == 'true' %}checked{% endif %}
@@ -312,6 +378,15 @@
                 <label id='BioDataLabel' class="form-check-label" for="showBioData">Show Bio Data</label>
             <input type="hidden" id="showBioDataStatus" name="showBioDataStatus" value="{{ showBioDataStatus }}">
             </div>
+            
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="showDraftData" name="showDraftData" value="false"  onchange="document.getElementById('showDraftDataStatus').value = this.checked; submitForm()"
+                    {% if showDraftDataStatus == 'true' %}checked{% endif %}
+                >
+                <label id='DraftDataLabel' class="form-check-label" for="showDraftData">Show Draft Data</label>
+            <input type="hidden" id="showDraftDataStatus" name="showDraftDataStatus" value="{{ showDraftDataStatus }}">
+            </div>
+            
             <div id="seasRange">
                 <label for="seasonStart" class="recLabels" id='seasonRange'>Season Range:</label>
                 <div class="dropdown-container filter">

@@ -125,11 +125,13 @@ def players():
         dfCaps = pd.DataFrame()
         dfPlay = pd.DataFrame()
         dfTransfers = pd.DataFrame()
+        dfDraft = pd.DataFrame()
         seasVals = []
         tourneyList = []
         cityList = []
         stateList = []
         countryList = []
+        draftedTeamsList = []
         sortVal = ''
         
         if formData['gender'] == 'Mens':
@@ -145,6 +147,11 @@ def players():
               cityList = sorted(list(dfPlay.loc[dfPlay['city'].notnull()].city.unique()))
               stateList = sorted(list(dfPlay.loc[dfPlay['state'].notnull()].state.unique()))
               countryList = sorted(list(dfPlay.loc[dfPlay['country'].notnull()].country.unique()))
+            if (formData['showDraftDataStatus'] == 'true'):
+              dfDraft = burb.getDraftData('nhl')
+              dfDraft = burb.getDraftData('nhl')[['draftYear','roundNumber','pickInRound','overallPickNumber','triCode','playerName','position','countryCode']].sort_values(['draftYear','overallPickNumber'])
+              dfDraft = dfDraft.rename(columns={'draftYear':'draft','roundNumber':'round','pickInRound':'pick in round','triCode':'team','playerName':'name','countryCode':'country','overallPickNumber':'pick'})
+              draftedTeamsList = sorted(list(dfDraft.team.unique()))
             if formData['type'] == 'career':
                 if formData['position'] == 'skater':
                     dfStat = burb.dfSkateMens
@@ -184,6 +191,10 @@ def players():
               cityList = sorted(list(dfPlay.loc[dfPlay['city'].notnull()].city.unique()))
               stateList = sorted(list(dfPlay.loc[dfPlay['state'].notnull()].state.unique()))
               countryList = sorted(list(dfPlay.loc[dfPlay['country'].notnull()].country.unique()))
+            if (formData['showDraftDataStatus'] == 'true'):
+              dfDraft = burb.getDraftData('pwhl')
+              dfDraft.columns = dfDraft.columns.str.lower()
+              draftedTeamsList = sorted(list(dfDraft.team.unique()))
             if formData['type'] == 'career':
                 if formData['position'] == 'skater':
                     dfStat = burb.dfSkateWomens
@@ -297,20 +308,42 @@ def players():
             dfStat = dfStat.query(f"state==\"{formData['state']}\"")
           if formData['country'] != 'all':
             dfStat = dfStat.query(f"country==\"{formData['country']}\"")
-  
+          if formData['group'] in ['city','state','country'] and formData['type']=='career':
+            dfStat =  dfStat.groupby(formData['group']).sum(numeric_only=True).reset_index().drop('index',axis=1)
+          elif formData['group'] in ['city','state','country'] and formData['type']=='season':
+            dfStat =  dfStat.groupby([formData['group'],'season']).sum(numeric_only=True).reset_index().drop('year',axis=1)
+        if formData['showDraftDataStatus'] == 'true':
+          dfStat = dfStat.merge(dfDraft[['name','draft','round','pick','team','pick in round']],how='left')
+          if formData['draftStatus'] != 'all':
+            if(formData['draftStatus'] == 'Drafted'):
+              dfStat = dfStat.loc[dfStat['draft'].notnull()]
+            if(formData['draftStatus'] == 'Undrafted'):
+              dfStat = dfStat.loc[dfStat['draft'].isnull()]
+          if formData['draftedTeam'] != 'all':
+            dfStat = dfStat.query(f"draftedTeam==\"{formData['draftedTeam']}\"")
+          if(formData['rdmin'] != ''):
+            dfStat = dfStat.query(f"round{formData['rdop']} {int(formData['rdmin'])}")
+          if(formData['pickmin'] != ''):
+            dfStat = dfStat.query(f"pick{formData['pickop']} {int(formData['pickmin'])}")
+          if(formData['pirmin'] != ''):
+            dfStat = dfStat.query(f"`pick in round`{formData['pirop']} {int(formData['pirmin'])}")
+          if formData['group'] in ['round','team'] and formData['type']=='career':
+            dfStat =  dfStat.groupby(formData['group']).sum(numeric_only=True).reset_index().drop('index',axis=1)
+          elif formData['group'] in ['round','team'] and formData['type']=='season':
+            dfStat =  dfStat.groupby([formData['group'],'season']).sum(numeric_only=True).reset_index()
         if formData['name'] != '':
             dfStat = dfStat.loc[dfStat['name'].str.contains(
                 formData['name'].strip(), case=False)]
         if formData['number'] != '':
             dfStat = dfStat.query(f"number == {formData['number']}")
-        if (formData['group'] not in ['', 'splits', 'records']
+        if (formData['type']=='game' and formData['group'] not in ['', 'splits', 'records']
                 and formData['position'] == 'skater'):
             dfStat = dfStat.query(f"{formData['group']}!=''").groupby(
                 ['name', formData['group']]).sum(numeric_only=True)
             dfStat = dfStat.reset_index()
             dfStat = dfStat[['name', formData['group'],
                              'gp', 'goals', 'assists', 'pts']]
-        if (formData['group'] not in ['', 'splits', 'records']
+        if (formData['type']=='game' and formData['group'] not in ['', 'splits', 'records']
                 and formData['position'] == 'goalie'):
             dfStat = determineRecord(dfStat,formData['group'])
             dfStat = dfStat.query(f"{formData['group']}!=''").groupby(
@@ -590,7 +623,7 @@ def players():
         else:
             sortVal = ''
             sortType = ''
-            if formData['type']=='career':
+            if formData['type']=='career' and 'last' in dfStat.columns:
               dfStat=dfStat.sort_values('last')
         if formData['type'] == 'game':
             dfStat = dfStat[:1000]
@@ -620,6 +653,8 @@ def players():
                        selected_city=formData['city'],
                        selected_state=formData['state'],
                        selected_country=formData['country'],
+                       drafted_teams_values=draftedTeamsList,
+                       selected_drafted_team=formData['draftedTeam'],
                        sortval=sortVal,
                        isAscending=formData['isAscending'])
     dfStat = burb.dfSkateMens

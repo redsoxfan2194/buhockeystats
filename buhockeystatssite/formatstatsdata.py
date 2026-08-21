@@ -263,7 +263,9 @@ def formatStats(dfRes):
     dfRes = dfRes.copy()
     colsToAppend = []
     if ('state' in dfRes.columns):
-      colsToAppend=['city','state','country']
+      colsToAppend+=['city','state','country']
+    if ('round' in dfRes.columns):
+      colsToAppend+=['draft','round','pick','team','pick in round']
     if ('career' in dfRes.columns and 'pts' in dfRes.columns):
         dfRes = dfRes[['name', 'career', 'gp',
                        'goals', 'assists', 'pts', 'pens', 'pim']+colsToAppend]
@@ -277,7 +279,7 @@ def formatStats(dfRes):
         dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
         dfRes = dfRes[['date', 'name', 'opponent', 'yr',
                        'season', 'ga', 'gaa', 'sv', 'sv%', 'mins', 'result','arena','location','tourney']+colsToAppend]
-    elif ('number' in dfRes.columns and 'pts' in dfRes.columns):
+    elif ('number' in dfRes.columns and 'pts' in dfRes.columns and 'pos' in dfRes.columns):
         dfRes['number'] = dfRes['number'].fillna(-1)
         dfRes['number'] = dfRes['number'].astype(int)
         dfRes = dfRes[['number', 'name', 'pos', 'yr', 'season',
@@ -327,13 +329,21 @@ def formatStats(dfRes):
         'T',
         'saves',
         'number',
+        'draft',
+        'round',
+        'pick',
+        'team',
+        'pick in round',
             'SO']:
         if stat not in dfRes.columns:
             continue
+        if(stat == 'team'):
+          dfRes[stat] = dfRes[stat].fillna('')
+          continue
         dfRes[stat] = dfRes[stat].fillna(-1)
         dfRes[stat] = dfRes[stat].astype(int)
         dfRes[stat] = dfRes[stat].astype(str)
-        if 'Split' in dfRes.columns:
+        if 'Split' in dfRes.columns or stat in ['draft','round','pick','pick in round']:
             dfRes[stat] = dfRes[stat].replace('-1', '')
         else:
             dfRes[stat] = dfRes[stat].replace('-1', '-')
