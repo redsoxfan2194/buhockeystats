@@ -300,6 +300,8 @@ def players():
         if formData['showBioDataStatus'] == 'true':
           if formData['type'] == 'career':
             dfStat = dfStat.merge(dfPlay[['name','city','state','country']].drop_duplicates(),how='left')
+            dfStat = dfStat.loc[~((dfStat['name']=="David Quinn") & (dfStat['career']=="1945-46") & (dfStat['city']=="Cranston"))]
+            dfStat = dfStat.loc[~((dfStat['name']=="David Quinn") & (dfStat['career']=="1984-88") & (dfStat['city'].isnull()))]
           else:
             dfStat = dfStat.merge(dfPlay[['name','city','state','country','season']],how='left',on=['name','season'])
           if formData['city'] != 'all':
@@ -314,6 +316,18 @@ def players():
             dfStat =  dfStat.groupby([formData['group'],'season']).sum(numeric_only=True).reset_index().drop('year',axis=1)
         if formData['showDraftDataStatus'] == 'true':
           dfStat = dfStat.merge(dfDraft[['name','draft','round','pick','team','pick in round']],how='left')
+          if formData['type']=='career':
+            dfStat.loc[((dfStat['name']=="David Quinn") & (dfStat['career']=="1945-46")),'round']=np.nan
+            dfStat.loc[((dfStat['name']=="David Quinn") & (dfStat['career']=="1945-46")),'pick']=np.nan
+            dfStat.loc[((dfStat['name']=="David Quinn") & (dfStat['career']=="1945-46")),'team']=np.nan
+            dfStat.loc[((dfStat['name']=="David Quinn") & (dfStat['career']=="1945-46")),'pick in round']=np.nan
+            dfStat.loc[((dfStat['name']=="David Quinn") & (dfStat['career']=="1945-46")),'draft']=np.nan
+          else:                                                                  
+            dfStat.loc[((dfStat['name']=="David Quinn") & (dfStat['season']=="1945-46")),'round']=np.nan
+            dfStat.loc[((dfStat['name']=="David Quinn") & (dfStat['season']=="1945-46")),'pick']=np.nan
+            dfStat.loc[((dfStat['name']=="David Quinn") & (dfStat['season']=="1945-46")),'team']=np.nan
+            dfStat.loc[((dfStat['name']=="David Quinn") & (dfStat['season']=="1945-46")),'pick in round']=np.nan
+            dfStat.loc[((dfStat['name']=="David Quinn") & (dfStat['season']=="1945-46")),'draft']=np.nan
           if formData['draftStatus'] != 'all':
             if(formData['draftStatus'] == 'Drafted'):
               dfStat = dfStat.loc[dfStat['draft'].notnull()]
