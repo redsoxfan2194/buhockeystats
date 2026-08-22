@@ -1277,6 +1277,76 @@ def nhlawards():
     return render_template(
     'nhlawards.html',nhlawardwinners=formatTable(burb.getNHLAwards()),titletag=' - NHL Awards')
 
+@app.route('/prostats', methods=['POST', 'GET'])
+def prostats():
+    ''' Renders "Pro Stats" Page
+
+    Returns:
+      Flask Template : flask template containing prostats.html
+    '''
+    dfPros = burb.getProStats('nhl','skater')
+    teamList=sorted(list(dfPros.team.unique()))
+    seasList=sorted(list(dfPros.season.unique()))
+    dfStat = dfPros.groupby(['name','seasonType']).sum(numeric_only=True).reset_index().drop('+/-',axis=1,errors='ignore')
+    if request.method == 'POST':
+        formData = request.form
+        dfStat = burb.getProStats(formData['league'],formData['position'])
+        teamList=sorted(list(dfStat.team.unique()))
+        seasList=sorted(list(dfStat.season.unique()))
+        seasS = formData['seasonStart']
+        seasE = formData['seasonEnd']
+        dfStat['year']=dfStat['season'].str[:4].astype(int)+1
+        sYear = int(formData['seasonStart'][:4])+1
+        eYear = int(formData['seasonEnd'][:4])+1
+        dfStat = dfStat.query(f'year>={sYear} and year<={eYear}')
+        dfStat = dfStat.drop('year',axis=1,errors='ignore')
+        if(formData['type']=='career'):
+            dfStat = dfStat.groupby(['name','seasonType']).sum(numeric_only=True).reset_index().drop('+/-',axis=1,errors='ignore')
+            if formData['seasonType'] != 'all':
+              if(formData['seasonType'] == "Totals"):
+                dfStat = dfStat.groupby('name').sum(numeric_only=True).reset_index().drop('+/-',axis=1,errors='ignore')
+              else:
+                dfStat = dfStat.query(f"seasonType == \'{formData['seasonType']}\'")
+            if(formData['position'] == "goalie"):
+              dfStat['sv%'] = round(
+                  dfStat['saves'] / (dfStat['saves'] + dfStat['ga']), 3)
+              dfStat['gaa'] = round((dfStat['ga'] / dfStat['mins']) * 60, 2)
+        elif(formData['type']=='season'):
+          if(formData['pos'] != 'all'):
+            dfStat = dfStat.query(f"pos == \'{formData['pos']}\'")
+          if(formData['team'] != 'all'):
+            dfStat = dfStat.query(f"team == \'{formData['team']}\'")
+          if(formData['season'] != 'all'):
+            dfStat = dfStat.query(f"season == \'{formData['season']}\'")
+          if formData['seasonType'] != 'all':
+              if(formData['seasonType'] == "Totals"):
+                dfStat = dfStat.groupby(['name','season','team']).sum(numeric_only=True).reset_index().drop('+/-',axis=1,errors='ignore')
+              else:
+                dfStat = dfStat.query(f"seasonType == \'{formData['seasonType']}\'")
+          dfStat = dfStat.drop('+/-',axis=1,errors='ignore')
+          
+        dfStat = dfStat.rename(columns={'seasonType':'type'}) 
+        dfStat = filterStats(formData,dfStat)
+        
+        if(formData['sortval']!=''):
+          sortVal=formData['sortval'].lower()
+          if(formData['isAscending']==''):
+            isAsc=True
+          else:
+            isAsc=eval(formData['isAscending'].capitalize())
+          isAsc^=isAsc
+          if(sortVal in dfStat.columns):
+            dfStat=dfStat.sort_values(sortVal,ascending = isAsc)
+        
+        return jsonify(statTable=formatStats(dfStat),
+                        teams_values=teamList,
+                        seasonStart=seasS,
+                        seasonEnd=seasE,
+                        season_values=seasList)
+    dfStat = dfStat.rename(columns={'seasonType':'type'})     
+    return render_template(
+    'prostats.html',statTable=formatStats(dfStat),team_values=teamList,season_values=seasList,titletag=' - Pro Stats')
+
 @app.route('/pwhlteammates')
 def pwhlteammates():
     ''' Renders "Teammates" Page

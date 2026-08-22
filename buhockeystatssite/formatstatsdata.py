@@ -354,6 +354,7 @@ def formatStats(dfRes):
         columns={
             'Yr': 'YR',
             'Gp': 'GP',
+            'Gs': 'GS',
             'Ga': 'GA',
             'Gaa': 'GAA',
             'Sv%': 'SV%',

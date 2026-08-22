@@ -1,0 +1,42 @@
+name,seasonType,season,team,gp,gs,mins,ga,gaa,saves,sv%,W,L,T,SO
+John Aiken,Regular Season,1957-58,Montréal Canadiens,1,0,33.75,6,10.666667,12,0.666667,0,1,0,0
+Jim Craig,Regular Season,1979-80,Atlanta Flames,4,4,205.55,13,3.794697,69,0.841463,1,2,1,0
+Jim Craig,Regular Season,1980-81,Boston Bruins,23,21,1270.45,78,3.683734,484,0.86121,9,7,6,0
+Jim Craig,Regular Season,1983-84,Minnesota North Stars,3,2,109.816666666667,9,4.917286,47,0.839286,1,1,0,0
+Cleon Daskalakis,Regular Season,1984-85,Boston Bruins,8,4,289.65,24,4.971517,117,0.829787,1,2,1,0
+Cleon Daskalakis,Regular Season,1985-86,Boston Bruins,2,2,119.566666666667,10,5.018121,53,0.84127,0,2,0,0
+Cleon Daskalakis,Regular Season,1986-87,Boston Bruins,2,1,96.85,7,4.336603,44,0.862745,2,0,0,0
+Rick DiPietro,Regular Season,2000-01,New York Islanders,20,19,1083.2,63,3.48966,452,0.87767,3,15,1,0
+Michel Larocque,Regular Season,2000-01,Chicago Blackhawks,3,2,151.933333333333,9,3.55419,50,0.847458,0,2,0,0
+Rick DiPietro,Regular Season,2002-03,New York Islanders,10,9,585.316666666667,29,2.97275,244,0.893773,2,5,2,0
+Rick DiPietro,Playoffs,2002-03,New York Islanders,1,0,15.05,0,0,3,1,0,0,,0
+Rick DiPietro,Regular Season,2003-04,New York Islanders,50,47,2843.71666666667,112,2.363105,1149,0.911182,23,18,5,5
+Rick DiPietro,Playoffs,2003-04,New York Islanders,5,5,302.833333333333,11,2.179417,109,0.908333,1,4,,1
+Rick DiPietro,Regular Season,2005-06,New York Islanders,63,62,3571.58333333333,180,3.023869,1617,0.899833,30,24,,1
+Rick DiPietro,Playoffs,2006-07,New York Islanders,4,4,236.316666666667,13,3.300656,114,0.897638,1,3,,0
+Rick DiPietro,Regular Season,2006-07,New York Islanders,62,62,3626.78333333333,156,2.580799,1761,0.918623,32,19,,5
+Rick DiPietro,Regular Season,2007-08,New York Islanders,63,63,3707.08333333333,174,2.81623,1605,0.902192,26,28,,3
+John Curry,Regular Season,2008-09,Pittsburgh Penguins,3,2,149.75,6,2.404007,63,0.913043,2,1,,0
+Rick DiPietro,Regular Season,2008-09,New York Islanders,5,5,255.983333333333,15,3.515854,124,0.892086,1,3,,0
+Rick DiPietro,Regular Season,2009-10,New York Islanders,8,7,461.866666666667,20,2.598152,181,0.900498,2,5,,1
+John Curry,Regular Season,2009-10,Pittsburgh Penguins,1,1,24.4833333333333,5,12.253233,9,0.642857,0,1,,0
+Rick DiPietro,Regular Season,2010-11,New York Islanders,26,26,1533.21666666667,88,3.44374,685,0.886158,8,14,,1
+Rick DiPietro,Regular Season,2011-12,New York Islanders,8,6,353.75,22,3.731449,155,0.875706,3,2,,0
+Rick DiPietro,Regular Season,2012-13,New York Islanders,3,3,175.6,12,4.100228,71,0.855422,0,3,,0
+John Curry,Regular Season,2013-14,Minnesota Wild,2,1,79.6333333333333,4,3.013813,53,0.929825,1,0,,0
+John Curry,Regular Season,2014-15,Minnesota Wild,2,1,71.85,5,4.175365,20,0.8,0,0,,0
+Matt O'Connor,Regular Season,2015-16,Ottawa Senators,1,1,58.0333333333333,3,3.101666,31,0.911765,0,1,,0
+Jake Oettinger,Playoffs,2019-20,Dallas Stars,2,0,36.6666666666667,0,0,8,1,0,0,,0
+Jake Oettinger,Regular Season,2020-21,Dallas Stars,29,24,1604.13333333333,63,2.356413,647,0.911,11,8,,1
+Jake Oettinger,Regular Season,2021-22,Dallas Stars,48,46,2707.6,114,2.526222,1217,0.91435,30,15,,1
+Jake Oettinger,Playoffs,2021-22,Dallas Stars,7,7,429.816666666667,13,1.814727,272,0.954386,3,4,,1
+Jake Oettinger,Playoffs,2022-23,Dallas Stars,19,19,1077.76666666667,55,3.061887,470,0.895238,10,9,,1
+Jake Oettinger,Regular Season,2022-23,Dallas Stars,62,61,3644.88333333333,144,2.370446,1632,0.919482,37,11,,5
+Jake Oettinger,Playoffs,2023-24,Dallas Stars,19,19,1206.78333333333,45,2.237353,471,0.914729,10,9,,0
+Jake Oettinger,Regular Season,2023-24,Dallas Stars,54,53,3084.58333333333,140,2.72322,1336,0.905149,35,14,,3
+Drew Commesso,Regular Season,2024-25,Chicago Blackhawks,2,1,71.35,4,3.3637,22,0.846154,0,1,,0
+Jake Oettinger,Regular Season,2024-25,Dallas Stars,58,58,3410.06666666667,147,2.58646,1464,0.908752,36,18,,2
+Jake Oettinger,Playoffs,2024-25,Dallas Stars,18,18,1021.35,48,2.819797,455,0.904573,9,8,,0
+Drew Commesso,Regular Season,2025-26,Chicago Blackhawks,3,3,181.716666666667,7,2.31129,78,0.917647,2,1,,1
+Jake Oettinger,Playoffs,2025-26,Dallas Stars,6,6,403.216666666667,19,2.827264,159,0.893258,2,4,,0
+Jake Oettinger,Regular Season,2025-26,Dallas Stars,54,54,3194.18333333333,138,2.592212,1234,0.899417,35,12,,4

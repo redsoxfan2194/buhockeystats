@@ -1,0 +1,947 @@
+name,pos,seasonType,season,team,gp,goals,assists,pts,pim,+/-
+John Aiken,G,Regular Season,1957-58,Montréal Canadiens,1,0,0,0,0,
+Bob Gryp,F,Regular Season,1973-74,Boston Bruins,1,0,0,0,0,-2
+Paul O'Neil,F,Regular Season,1973-74,Vancouver Canucks,5,0,0,0,0,-2
+Ron Anderson,F,Regular Season,1974-75,Washington Capitals,28,9,7,16,8,-20
+Bob Gryp,F,Regular Season,1974-75,Washington Capitals,27,5,8,13,21,-24
+Paul O'Neil,F,Regular Season,1975-76,Boston Bruins,1,0,0,0,0,-1
+Bob Gryp,F,Regular Season,1975-76,Washington Capitals,46,6,5,11,12,-18
+Ken Kuzyk,F,Regular Season,1976-77,Cleveland Barons,13,0,5,5,2,1
+Mike Fidler,F,Regular Season,1976-77,Cleveland Barons,46,17,16,33,17,-5
+Ken Kuzyk,F,Regular Season,1977-78,Cleveland Barons,28,5,4,9,6,-1
+Mike Fidler,F,Regular Season,1977-78,Cleveland Barons,78,23,28,51,38,-12
+Dick Lamby,D,Regular Season,1978-79,St. Louis Blues,9,0,4,4,12,5
+Mike Fidler,F,Regular Season,1978-79,Minnesota North Stars,59,23,26,49,42,-25
+John Bethel,F,Regular Season,1979-80,Winnipeg Jets (1979),17,0,2,2,4,-3
+Dick Lamby,D,Regular Season,1979-80,St. Louis Blues,12,0,1,1,10,-7
+Rick Meagher,F,Regular Season,1979-80,Montréal Canadiens,2,0,0,0,0,0
+Jim Craig,G,Regular Season,1979-80,Atlanta Flames,4,0,0,0,0,
+Mike Fidler,F,Regular Season,1979-80,Minnesota North Stars,24,5,4,9,13,3
+Dave Silk,F,Regular Season,1979-80,New York Rangers,2,0,0,0,0,1
+Jim Craig,G,Regular Season,1980-81,Boston Bruins,23,0,1,0,11,
+Dave Silk,F,Regular Season,1980-81,New York Rangers,59,14,12,26,58,-24
+Dick Lamby,D,Regular Season,1980-81,St. Louis Blues,1,0,0,0,0,-1
+Bill Whelton,D,Regular Season,1980-81,Winnipeg Jets (1979),2,0,0,0,0,-1
+Rick Meagher,F,Regular Season,1980-81,Hartford Whalers,27,7,10,17,19,2
+Mike Fidler,F,Regular Season,1980-81,Hartford Whalers,38,9,9,18,4,-16
+Mike Fidler,F,Regular Season,1980-81,Minnesota North Stars,20,5,12,17,6,5
+Dave Silk,F,Regular Season,1981-82,New York Rangers,64,15,20,35,39,15
+Rick Meagher,F,Regular Season,1981-82,Hartford Whalers,65,24,19,43,51,-5
+Mike Fidler,F,Regular Season,1981-82,Hartford Whalers,2,0,1,1,0,0
+Dave Silk,F,Playoffs,1981-82,New York Rangers,9,2,4,6,4,0
+Paul Miller,F,Regular Season,1981-82,Colorado Rockies,3,0,3,3,0,2
+Jack O'Callahan,D,Regular Season,1982-83,Chicago Blackhawks,39,0,11,11,46,9
+Mike Fidler,F,Regular Season,1982-83,Chicago Blackhawks,4,2,1,3,4,-1
+Dave Silk,F,Regular Season,1982-83,New York Rangers,16,1,1,2,15,-3
+Rick Meagher,F,Regular Season,1982-83,Hartford Whalers,4,0,0,0,0,-3
+Rick Meagher,F,Regular Season,1982-83,New Jersey Devils,57,15,14,29,11,-17
+Jack O'Callahan,D,Playoffs,1982-83,Chicago Blackhawks,5,0,2,2,2,3
+Dave Silk,F,Playoffs,1983-84,Boston Bruins,3,0,0,0,7,-3
+Dave Silk,F,Regular Season,1983-84,Boston Bruins,35,13,17,30,64,11
+Tom O'Regan,F,Regular Season,1983-84,Pittsburgh Penguins,51,4,10,14,8,-19
+Jim Craig,G,Regular Season,1983-84,Minnesota North Stars,3,0,0,0,0,
+Rick Meagher,F,Regular Season,1983-84,New Jersey Devils,52,14,14,28,16,-9
+Jack O'Callahan,D,Regular Season,1983-84,Chicago Blackhawks,70,4,13,17,67,-8
+Jack O'Callahan,D,Playoffs,1983-84,Chicago Blackhawks,2,0,0,0,2,-1
+Cleon Daskalakis,G,Regular Season,1984-85,Boston Bruins,8,0,0,0,0,
+Tom O'Regan,F,Regular Season,1984-85,Pittsburgh Penguins,1,0,0,0,0,-1
+Rick Meagher,F,Regular Season,1984-85,New Jersey Devils,71,11,20,31,22,-14
+Paul Fenton,F,Regular Season,1984-85,Hartford Whalers,33,7,5,12,10,7
+Dave Silk,F,Regular Season,1984-85,Detroit Red Wings,12,2,0,2,10,-5
+Dave Silk,F,Regular Season,1984-85,Boston Bruins,29,7,5,12,22,3
+Jack O'Callahan,D,Regular Season,1984-85,Chicago Blackhawks,66,6,8,14,105,4
+Jack O'Callahan,D,Playoffs,1984-85,Chicago Blackhawks,15,3,5,8,25,0
+Rick Meagher,F,Playoffs,1985-86,St. Louis Blues,19,4,4,8,12,9
+Tom O'Regan,F,Regular Season,1985-86,Pittsburgh Penguins,9,1,2,3,2,1
+Rick Meagher,F,Regular Season,1985-86,St. Louis Blues,79,11,19,30,28,0
+Jack O'Callahan,D,Playoffs,1985-86,Chicago Blackhawks,3,0,1,1,4,-3
+Dave Silk,F,Regular Season,1985-86,Winnipeg Jets (1979),32,2,4,6,63,-6
+Dave Silk,F,Playoffs,1985-86,Winnipeg Jets (1979),1,0,0,0,2,1
+Paul Fenton,F,Regular Season,1985-86,Hartford Whalers,1,0,0,0,0,1
+Dale Dunbar,D,Regular Season,1985-86,Vancouver Canucks,1,0,0,0,2,0
+Cleon Daskalakis,G,Regular Season,1985-86,Boston Bruins,2,0,0,0,0,
+Jack O'Callahan,D,Regular Season,1985-86,Chicago Blackhawks,80,4,19,23,116,2
+Rick Meagher,F,Regular Season,1986-87,St. Louis Blues,80,18,21,39,54,-6
+Jack O'Callahan,D,Regular Season,1986-87,Chicago Blackhawks,48,1,13,14,59,14
+Paul Fenton,F,Regular Season,1986-87,New York Rangers,8,0,0,0,2,-5
+Jack O'Callahan,D,Playoffs,1986-87,Chicago Blackhawks,2,0,0,0,2,0
+Scott Shaunessy,F,Regular Season,1986-87,Quebec Nordiques,3,0,0,0,7,-1
+Cleon Daskalakis,G,Regular Season,1986-87,Boston Bruins,2,0,0,0,0,
+Rick Meagher,F,Playoffs,1986-87,St. Louis Blues,6,0,0,0,11,-4
+Scott Young,F,Regular Season,1987-88,Hartford Whalers,7,0,0,0,2,-6
+Scott Young,F,Playoffs,1987-88,Hartford Whalers,4,1,0,1,0,2
+Rick Meagher,F,Playoffs,1987-88,St. Louis Blues,10,0,0,0,8,-5
+Rick Meagher,F,Regular Season,1987-88,St. Louis Blues,76,18,16,34,76,0
+Jack O'Callahan,D,Playoffs,1987-88,New Jersey Devils,5,1,3,4,6,-2
+Jim Ennis,D,Regular Season,1987-88,Edmonton Oilers,5,1,0,1,10,0
+Jack O'Callahan,D,Regular Season,1987-88,New Jersey Devils,50,7,19,26,97,-3
+Paul Fenton,F,Playoffs,1987-88,Los Angeles Kings,5,2,1,3,2,-3
+Paul Fenton,F,Regular Season,1987-88,Los Angeles Kings,71,20,23,43,46,-14
+Scott Shaunessy,F,Regular Season,1988-89,Quebec Nordiques,4,0,0,0,16,0
+Scott Young,F,Regular Season,1988-89,Hartford Whalers,76,19,40,59,27,-21
+John Cullen,F,Playoffs,1988-89,Pittsburgh Penguins,11,3,6,9,28,4
+John Cullen,F,Regular Season,1988-89,Pittsburgh Penguins,79,12,37,49,112,-25
+Paul Fenton,F,Regular Season,1988-89,Los Angeles Kings,21,2,3,5,6,-1
+Dale Dunbar,D,Regular Season,1988-89,Boston Bruins,1,0,0,0,0,0
+Scott Young,F,Playoffs,1988-89,Hartford Whalers,4,2,0,2,4,-4
+Jack O'Callahan,D,Regular Season,1988-89,New Jersey Devils,36,5,21,26,51,0
+Paul Fenton,F,Regular Season,1988-89,Winnipeg Jets (1979),59,14,9,23,33,-15
+Rick Meagher,F,Regular Season,1988-89,St. Louis Blues,78,15,14,29,53,9
+Rick Meagher,F,Playoffs,1988-89,St. Louis Blues,10,3,2,5,6,4
+John Cullen,F,Regular Season,1989-90,Pittsburgh Penguins,72,32,60,92,138,-13
+Paul Fenton,F,Playoffs,1989-90,Winnipeg Jets (1979),7,2,0,2,23,-2
+Rick Meagher,F,Playoffs,1989-90,St. Louis Blues,8,1,0,1,2,-2
+Paul Fenton,F,Regular Season,1989-90,Winnipeg Jets (1979),80,32,18,50,40,2
+Clark Donatelli,F,Regular Season,1989-90,Minnesota North Stars,25,3,3,6,17,-11
+Scott Young,F,Regular Season,1989-90,Hartford Whalers,80,24,40,64,47,-24
+Scott Young,F,Playoffs,1989-90,Hartford Whalers,7,2,0,2,2,-2
+Rick Meagher,F,Regular Season,1989-90,St. Louis Blues,76,8,17,25,47,4
+Paul Fenton,F,Regular Season,1990-91,Toronto Maple Leafs,30,5,10,15,0,-3
+Tony Amonte,F,Playoffs,1990-91,New York Rangers,2,0,2,2,2,1
+Scott Young,F,Regular Season,1990-91,Pittsburgh Penguins,43,11,16,27,33,3
+Paul Fenton,F,Regular Season,1990-91,Winnipeg Jets (1979),17,4,4,8,18,-4
+Rick Meagher,F,Regular Season,1990-91,St. Louis Blues,24,3,1,4,6,0
+John Cullen,F,Regular Season,1990-91,Hartford Whalers,13,8,8,16,18,-6
+Joe Sacco,F,Regular Season,1990-91,Toronto Maple Leafs,20,0,5,5,2,-5
+Scott Young,F,Regular Season,1990-91,Hartford Whalers,34,6,9,15,8,-9
+John Cullen,F,Playoffs,1990-91,Hartford Whalers,6,2,7,9,10,0
+Paul Fenton,F,Playoffs,1990-91,Calgary Flames,5,0,0,0,2,-3
+Paul Fenton,F,Regular Season,1990-91,Calgary Flames,31,5,7,12,10,2
+Rick Meagher,F,Playoffs,1990-91,St. Louis Blues,9,0,1,1,2,0
+John Cullen,F,Regular Season,1990-91,Pittsburgh Penguins,65,31,63,94,83,0
+Scott Young,F,Playoffs,1990-91,Pittsburgh Penguins,17,1,6,7,2,1
+Keith Tkachuk,F,Regular Season,1991-92,Winnipeg Jets (1979),17,3,5,8,28,0
+Paul Fenton,F,Regular Season,1991-92,San Jose Sharks,60,11,4,15,33,-39
+Mike Sullivan,F,Regular Season,1991-92,San Jose Sharks,64,8,11,19,15,-18
+Tony Amonte,F,Playoffs,1991-92,New York Rangers,13,3,6,9,2,-7
+Scott Lachance,D,Regular Season,1991-92,New York Islanders,17,1,4,5,9,13
+Keith Tkachuk,F,Playoffs,1991-92,Winnipeg Jets (1979),7,3,0,3,30,-3
+Ed Ronan,F,Regular Season,1991-92,Montréal Canadiens,3,0,0,0,0,0
+Tony Amonte,F,Regular Season,1991-92,New York Rangers,79,35,34,69,55,12
+Dave Tomlinson,F,Regular Season,1991-92,Toronto Maple Leafs,3,0,0,0,2,-1
+Clark Donatelli,F,Regular Season,1991-92,Boston Bruins,10,0,1,1,22,-8
+Clark Donatelli,F,Playoffs,1991-92,Boston Bruins,2,0,0,0,0,0
+John Cullen,F,Regular Season,1991-92,Hartford Whalers,77,26,51,77,141,-28
+John Cullen,F,Playoffs,1991-92,Hartford Whalers,7,2,1,3,12,-2
+Shawn McEachern,F,Regular Season,1991-92,Pittsburgh Penguins,15,0,4,4,0,1
+Shawn McEachern,F,Playoffs,1991-92,Pittsburgh Penguins,19,2,7,9,4,6
+Joe Sacco,F,Regular Season,1991-92,Toronto Maple Leafs,17,7,4,11,4,8
+Peter Ahola,D,Playoffs,1991-92,Los Angeles Kings,6,0,0,0,2,4
+Peter Ahola,D,Regular Season,1991-92,Los Angeles Kings,71,7,12,19,101,12
+Ed Ronan,F,Playoffs,1992-93,Montréal Canadiens,14,2,3,5,10,5
+Keith Tkachuk,F,Regular Season,1992-93,Winnipeg Jets (1979),83,28,23,51,201,-13
+Keith Tkachuk,F,Playoffs,1992-93,Winnipeg Jets (1979),6,4,0,4,14,-5
+Shawn McEachern,F,Playoffs,1992-93,Pittsburgh Penguins,12,3,2,5,10,0
+Scott Lachance,D,Regular Season,1992-93,New York Islanders,75,7,17,24,67,-1
+Shawn McEachern,F,Regular Season,1992-93,Pittsburgh Penguins,84,28,33,61,46,21
+Ed Ronan,F,Regular Season,1992-93,Montréal Canadiens,53,5,7,12,20,6
+Joe Sacco,F,Regular Season,1992-93,Toronto Maple Leafs,23,4,4,8,8,-4
+John Cullen,F,Playoffs,1992-93,Toronto Maple Leafs,12,2,3,5,0,-1
+Scott Young,F,Regular Season,1992-93,Quebec Nordiques,82,30,30,60,20,5
+Scott Young,F,Playoffs,1992-93,Quebec Nordiques,6,4,1,5,0,5
+John Cullen,F,Regular Season,1992-93,Hartford Whalers,19,5,4,9,58,-15
+John Cullen,F,Regular Season,1992-93,Toronto Maple Leafs,47,13,28,41,53,-8
+Peter Ahola,D,Regular Season,1992-93,San Jose Sharks,20,2,3,5,16,-6
+Mike Sullivan,F,Regular Season,1992-93,San Jose Sharks,81,6,8,14,30,-42
+Peter Ahola,D,Regular Season,1992-93,Pittsburgh Penguins,22,0,1,1,14,-2
+Dave Tomlinson,F,Regular Season,1992-93,Toronto Maple Leafs,3,0,0,0,2,0
+Tony Amonte,F,Regular Season,1992-93,New York Rangers,83,33,43,76,49,0
+Peter Ahola,D,Regular Season,1992-93,Los Angeles Kings,8,1,1,2,6,-2
+John Lilley,F,Regular Season,1993-94,Anaheim Ducks,13,1,6,7,8,1
+Dave Tomlinson,F,Regular Season,1993-94,Winnipeg Jets (1979),31,1,3,4,24,-12
+Ed Ronan,F,Regular Season,1993-94,Montréal Canadiens,61,6,8,14,42,3
+Ed Ronan,F,Playoffs,1993-94,Montréal Canadiens,7,1,0,1,0,-1
+Mike Sullivan,F,Regular Season,1993-94,San Jose Sharks,26,2,2,4,4,-3
+Mike Sullivan,F,Regular Season,1993-94,Calgary Flames,19,2,3,5,6,2
+Tony Amonte,F,Regular Season,1993-94,New York Rangers,72,16,22,38,31,5
+Tony Amonte,F,Regular Season,1993-94,Chicago Blackhawks,7,1,3,4,6,-5
+Scott Lachance,D,Regular Season,1993-94,New York Islanders,74,3,11,14,70,-5
+Scott Lachance,D,Playoffs,1993-94,New York Islanders,3,0,0,0,0,-5
+Scott Young,F,Regular Season,1993-94,Quebec Nordiques,76,26,25,51,14,-4
+Shawn McEachern,F,Regular Season,1993-94,Los Angeles Kings,49,8,13,21,24,1
+Shawn McEachern,F,Regular Season,1993-94,Pittsburgh Penguins,27,12,9,21,10,13
+Shawn McEachern,F,Playoffs,1993-94,Pittsburgh Penguins,6,1,0,1,2,-2
+Keith Tkachuk,F,Regular Season,1993-94,Winnipeg Jets (1979),84,41,40,81,255,-12
+Tony Amonte,F,Playoffs,1993-94,Chicago Blackhawks,6,4,2,6,4,4
+Mike Sullivan,F,Playoffs,1993-94,Calgary Flames,7,1,1,2,8,0
+John Cullen,F,Playoffs,1993-94,Toronto Maple Leafs,3,0,0,0,0,0
+John Cullen,F,Regular Season,1993-94,Toronto Maple Leafs,53,13,17,30,67,-2
+David Sacco,F,Regular Season,1993-94,Toronto Maple Leafs,4,1,1,2,4,-2
+Joe Sacco,F,Regular Season,1993-94,Anaheim Ducks,84,19,18,37,61,-11
+Peter Ahola,D,Regular Season,1993-94,Calgary Flames,2,0,0,0,0,0
+Adrian Aucoin,D,Playoffs,1994-95,Vancouver Canucks,4,1,0,1,0,-1
+Scott Lachance,D,Regular Season,1994-95,New York Islanders,26,6,7,13,26,2
+Scott Young,F,Playoffs,1994-95,Quebec Nordiques,6,3,3,6,2,3
+Ed Ronan,F,Regular Season,1994-95,Montréal Canadiens,30,1,4,5,12,-7
+John Cullen,F,Regular Season,1994-95,Pittsburgh Penguins,46,13,24,37,66,-4
+Adrian Aucoin,D,Regular Season,1994-95,Vancouver Canucks,1,1,0,1,0,1
+John Lilley,F,Regular Season,1994-95,Anaheim Ducks,9,2,2,4,5,2
+John Cullen,F,Playoffs,1994-95,Pittsburgh Penguins,9,0,2,2,8,-4
+Joe Sacco,F,Regular Season,1994-95,Anaheim Ducks,41,10,8,18,23,-8
+Scott Young,F,Regular Season,1994-95,Quebec Nordiques,48,18,21,39,14,9
+Mike Sullivan,F,Playoffs,1994-95,Calgary Flames,7,3,5,8,2,5
+Keith Tkachuk,F,Regular Season,1994-95,Winnipeg Jets (1979),48,22,29,51,152,-4
+Tony Amonte,F,Regular Season,1994-95,Chicago Blackhawks,48,15,20,35,41,7
+Tony Amonte,F,Playoffs,1994-95,Chicago Blackhawks,16,3,3,6,10,3
+Shawn McEachern,F,Playoffs,1994-95,Pittsburgh Penguins,11,0,2,2,8,-2
+Mike Sullivan,F,Regular Season,1994-95,Calgary Flames,38,4,7,11,14,-2
+David Sacco,F,Regular Season,1994-95,Anaheim Ducks,8,0,2,2,0,-3
+Shawn McEachern,F,Regular Season,1994-95,Pittsburgh Penguins,44,13,13,26,22,4
+Dave Tomlinson,F,Regular Season,1994-95,Florida Panthers,5,0,0,0,0,-2
+John Cullen,F,Regular Season,1995-96,Tampa Bay Lightning,76,16,34,50,65,1
+David Sacco,F,Regular Season,1995-96,Anaheim Ducks,23,4,10,14,18,1
+Phil Von Stefenelli,D,Regular Season,1995-96,Boston Bruins,27,0,4,4,16,2
+Ed Ronan,F,Regular Season,1995-96,Winnipeg Jets (1979),17,0,0,0,16,-3
+Joe Sacco,F,Regular Season,1995-96,Anaheim Ducks,76,13,14,27,40,1
+Mike Sullivan,F,Playoffs,1995-96,Calgary Flames,4,0,0,0,0,-1
+Mike Sullivan,F,Regular Season,1995-96,Calgary Flames,81,9,12,21,24,-6
+Shawn McEachern,F,Playoffs,1995-96,Boston Bruins,5,2,1,3,8,-2
+Shawn McEachern,F,Regular Season,1995-96,Boston Bruins,82,24,29,53,34,-5
+John Cullen,F,Playoffs,1995-96,Tampa Bay Lightning,5,3,3,6,0,4
+Tony Amonte,F,Playoffs,1995-96,Chicago Blackhawks,7,2,4,6,6,2
+Tony Amonte,F,Regular Season,1995-96,Chicago Blackhawks,81,31,32,63,62,10
+John Lilley,F,Regular Season,1995-96,Anaheim Ducks,1,0,0,0,0,-1
+Adrian Aucoin,D,Playoffs,1995-96,Vancouver Canucks,6,0,0,0,2,-5
+Adrian Aucoin,D,Regular Season,1995-96,Vancouver Canucks,49,4,14,18,34,8
+Scott Lachance,D,Regular Season,1995-96,New York Islanders,55,3,10,13,54,-19
+Keith Tkachuk,F,Playoffs,1995-96,Winnipeg Jets (1979),6,1,2,3,22,0
+Scott Young,F,Playoffs,1995-96,Colorado Avalanche,22,3,12,15,10,6
+Scott Young,F,Regular Season,1995-96,Colorado Avalanche,81,21,39,60,50,2
+Keith Tkachuk,F,Regular Season,1995-96,Winnipeg Jets (1979),76,50,48,98,156,11
+Mike Grier,F,Regular Season,1996-97,Edmonton Oilers,79,15,17,32,45,7
+Keith Tkachuk,F,Regular Season,1996-97,Phoenix Coyotes,81,52,34,86,228,-1
+Shawn McEachern,F,Playoffs,1996-97,Ottawa Senators,7,2,0,2,8,-1
+Shawn McEachern,F,Regular Season,1996-97,Ottawa Senators,65,11,20,31,18,-5
+Chris O'Sullivan,D,Regular Season,1996-97,Calgary Flames,27,2,8,10,2,0
+Adrian Aucoin,D,Regular Season,1996-97,Vancouver Canucks,70,5,16,21,63,0
+Scott Young,F,Regular Season,1996-97,Colorado Avalanche,72,18,19,37,14,-5
+Jay Pandolfo,F,Playoffs,1996-97,New Jersey Devils,6,0,1,1,0,-2
+Scott Young,F,Playoffs,1996-97,Colorado Avalanche,17,4,2,6,14,-1
+Jay Pandolfo,F,Regular Season,1996-97,New Jersey Devils,46,6,8,14,6,-1
+Mike Grier,F,Playoffs,1996-97,Edmonton Oilers,12,3,1,4,4,-2
+Mike Sullivan,F,Regular Season,1996-97,Calgary Flames,67,5,6,11,10,-11
+Tony Amonte,F,Playoffs,1996-97,Chicago Blackhawks,6,4,2,6,8,2
+John Cullen,F,Regular Season,1996-97,Tampa Bay Lightning,70,18,37,55,95,-14
+Tony Amonte,F,Regular Season,1996-97,Chicago Blackhawks,81,41,36,77,64,35
+Keith Tkachuk,F,Playoffs,1996-97,Phoenix Coyotes,7,6,0,6,7,2
+Joe Sacco,F,Regular Season,1996-97,Anaheim Ducks,77,12,17,29,35,1
+Ed Ronan,F,Playoffs,1996-97,Buffalo Sabres,6,1,0,1,6,-1
+Ed Ronan,F,Regular Season,1996-97,Buffalo Sabres,18,1,4,5,11,4
+Joe Sacco,F,Playoffs,1996-97,Anaheim Ducks,11,2,0,2,2,-4
+Phil Von Stefenelli,D,Regular Season,1996-97,Ottawa Senators,6,0,1,1,7,-3
+Nick Vachon,F,Regular Season,1996-97,New York Islanders,1,0,0,0,0,-1
+Scott Lachance,D,Regular Season,1996-97,New York Islanders,81,3,11,14,47,-7
+Rich Brennan,D,Regular Season,1996-97,Colorado Avalanche,2,0,0,0,0,0
+Tony Amonte,F,Regular Season,1997-98,Chicago Blackhawks,82,31,42,73,66,21
+Scott Young,F,Regular Season,1997-98,Anaheim Ducks,73,13,20,33,22,-13
+Joe Sacco,F,Regular Season,1997-98,Anaheim Ducks,55,8,11,19,24,-1
+Mike Sullivan,F,Regular Season,1997-98,Boston Bruins,77,5,13,18,34,-1
+Adrian Aucoin,D,Regular Season,1997-98,Vancouver Canucks,35,3,3,6,21,-4
+Scott Lachance,D,Regular Season,1997-98,New York Islanders,63,2,11,13,45,-11
+Joe Sacco,F,Regular Season,1997-98,New York Islanders,25,3,3,6,10,1
+Mike Sullivan,F,Playoffs,1997-98,Boston Bruins,6,0,1,1,2,0
+Jay Pandolfo,F,Regular Season,1997-98,New Jersey Devils,23,1,3,4,4,-4
+Jay Pandolfo,F,Playoffs,1997-98,New Jersey Devils,3,0,2,2,0,0
+Chris O'Sullivan,D,Regular Season,1997-98,Calgary Flames,12,0,2,2,10,4
+Shawn McEachern,F,Regular Season,1997-98,Ottawa Senators,81,24,24,48,42,1
+Shawn McEachern,F,Playoffs,1997-98,Ottawa Senators,11,0,4,4,8,-6
+Doug Friedman,F,Regular Season,1997-98,Edmonton Oilers,16,0,0,0,20,0
+Shawn Bates,F,Regular Season,1997-98,Boston Bruins,13,2,0,2,2,-3
+Rich Brennan,D,Regular Season,1997-98,San Jose Sharks,11,1,2,3,2,-4
+Keith Tkachuk,F,Regular Season,1997-98,Phoenix Coyotes,69,40,26,66,147,9
+Keith Tkachuk,F,Playoffs,1997-98,Phoenix Coyotes,6,3,3,6,10,-1
+Mike Grier,F,Playoffs,1997-98,Edmonton Oilers,12,2,2,4,13,4
+Mike Grier,F,Regular Season,1997-98,Edmonton Oilers,66,9,6,15,73,-3
+Chris Drury,F,Regular Season,1998-99,Colorado Avalanche,79,20,24,44,62,9
+Tony Amonte,F,Regular Season,1998-99,Chicago Blackhawks,82,44,31,75,60,0
+Joe Sacco,F,Regular Season,1998-99,New York Islanders,73,3,0,3,45,-24
+Rich Brennan,D,Regular Season,1998-99,New York Rangers,24,1,3,4,23,-4
+Dan LaCouture,F,Regular Season,1998-99,Edmonton Oilers,3,0,0,0,0,1
+Keith Tkachuk,F,Playoffs,1998-99,Phoenix Coyotes,7,1,3,4,13,-4
+Scott Lachance,D,Regular Season,1998-99,Montréal Canadiens,17,1,1,2,11,-2
+Keith Tkachuk,F,Regular Season,1998-99,Phoenix Coyotes,68,36,32,68,151,22
+Adrian Aucoin,D,Regular Season,1998-99,Vancouver Canucks,82,23,11,34,77,-14
+Jay Pandolfo,F,Playoffs,1998-99,New Jersey Devils,7,1,0,1,0,-5
+Scott Young,F,Regular Season,1998-99,St. Louis Blues,75,24,28,52,27,8
+Jay Pandolfo,F,Regular Season,1998-99,New Jersey Devils,70,14,13,27,10,3
+Tom Poti,D,Playoffs,1998-99,Edmonton Oilers,4,0,1,1,2,-3
+Tom Poti,D,Regular Season,1998-99,Edmonton Oilers,73,5,16,21,42,10
+Scott Lachance,D,Regular Season,1998-99,New York Islanders,59,1,8,9,30,-19
+Shawn Bates,F,Playoffs,1998-99,Boston Bruins,12,0,0,0,4,-1
+Doug Friedman,F,Regular Season,1998-99,Nashville Predators,2,0,1,1,14,0
+Shawn Bates,F,Regular Season,1998-99,Boston Bruins,33,5,4,9,2,3
+Mike Grier,F,Regular Season,1998-99,Edmonton Oilers,82,20,24,44,54,5
+Chris O'Sullivan,D,Regular Season,1998-99,Calgary Flames,10,0,1,1,2,-1
+Mike Grier,F,Playoffs,1998-99,Edmonton Oilers,4,1,1,2,6,3
+Chris Drury,F,Playoffs,1998-99,Colorado Avalanche,19,6,2,8,4,2
+Shawn McEachern,F,Playoffs,1998-99,Ottawa Senators,4,2,0,2,6,1
+Scott Young,F,Playoffs,1998-99,St. Louis Blues,13,4,7,11,10,2
+Shawn McEachern,F,Regular Season,1998-99,Ottawa Senators,77,31,25,56,46,8
+Mike Sullivan,F,Regular Season,1998-99,Phoenix Coyotes,63,2,4,6,24,-11
+John Cullen,F,Regular Season,1998-99,Tampa Bay Lightning,4,0,0,0,2,-2
+Mike Sullivan,F,Playoffs,1998-99,Phoenix Coyotes,5,0,0,0,2,0
+Keith Tkachuk,F,Playoffs,1999-00,Phoenix Coyotes,5,1,1,2,4,-4
+Keith Tkachuk,F,Regular Season,1999-00,Phoenix Coyotes,50,22,21,43,82,7
+Mike Sullivan,F,Playoffs,1999-00,Phoenix Coyotes,5,0,1,1,0,-1
+Mike Grier,F,Regular Season,1999-00,Edmonton Oilers,65,9,22,31,68,9
+Scott Young,F,Playoffs,1999-00,St. Louis Blues,6,6,2,8,8,1
+Adrian Aucoin,D,Regular Season,1999-00,Vancouver Canucks,57,10,14,24,30,7
+Jay Pandolfo,F,Playoffs,1999-00,New Jersey Devils,23,0,5,5,0,3
+Mike Sullivan,F,Regular Season,1999-00,Phoenix Coyotes,79,5,10,15,10,-4
+Scott Lachance,D,Regular Season,1999-00,Montréal Canadiens,57,0,6,6,22,-4
+Scott Young,F,Regular Season,1999-00,St. Louis Blues,75,24,15,39,18,12
+Shawn McEachern,F,Playoffs,1999-00,Ottawa Senators,6,0,3,3,4,0
+Jay Pandolfo,F,Regular Season,1999-00,New Jersey Devils,71,7,8,15,4,0
+Dan LaCouture,F,Playoffs,1999-00,Edmonton Oilers,1,0,0,0,0,0
+Dan LaCouture,F,Regular Season,1999-00,Edmonton Oilers,5,0,0,0,10,0
+Tom Poti,D,Playoffs,1999-00,Edmonton Oilers,5,0,1,1,0,-3
+Tom Poti,D,Regular Season,1999-00,Edmonton Oilers,76,9,26,35,65,8
+Chris Drury,F,Playoffs,1999-00,Colorado Avalanche,17,4,10,14,4,7
+Chris Drury,F,Regular Season,1999-00,Colorado Avalanche,82,20,47,67,42,8
+Joe Sacco,F,Playoffs,1999-00,Washington Capitals,5,0,0,0,4,-2
+Joe Sacco,F,Regular Season,1999-00,Washington Capitals,79,7,16,23,50,7
+Chris O'Sullivan,D,Regular Season,1999-00,Vancouver Canucks,11,0,5,5,2,2
+Shawn Bates,F,Regular Season,1999-00,Boston Bruins,44,5,7,12,14,-17
+Tony Amonte,F,Regular Season,1999-00,Chicago Blackhawks,82,43,41,84,48,10
+Shawn McEachern,F,Regular Season,1999-00,Ottawa Senators,69,29,22,51,24,2
+Tom Poti,D,Regular Season,2000-01,Edmonton Oilers,81,12,20,32,60,-4
+Tom Poti,D,Playoffs,2000-01,Edmonton Oilers,6,0,2,2,2,2
+Dan LaCouture,F,Playoffs,2000-01,Pittsburgh Penguins,5,0,0,0,2,0
+Jay Pandolfo,F,Playoffs,2000-01,New Jersey Devils,25,1,4,5,4,-1
+Dan LaCouture,F,Regular Season,2000-01,Pittsburgh Penguins,11,0,0,0,14,0
+Dan LaCouture,F,Regular Season,2000-01,Edmonton Oilers,37,2,4,6,29,-2
+Shawn McEachern,F,Regular Season,2000-01,Ottawa Senators,82,32,40,72,62,10
+Rich Brennan,D,Regular Season,2000-01,Los Angeles Kings,2,0,0,0,0,-3
+Shawn McEachern,F,Playoffs,2000-01,Ottawa Senators,4,0,2,2,2,1
+Joe Sacco,F,Playoffs,2000-01,Washington Capitals,6,0,0,0,2,-1
+Shawn Bates,F,Regular Season,2000-01,Boston Bruins,45,2,3,5,26,-12
+Jay Pandolfo,F,Regular Season,2000-01,New Jersey Devils,63,4,12,16,16,3
+Joe Sacco,F,Regular Season,2000-01,Washington Capitals,69,7,7,14,48,4
+Scott Young,F,Regular Season,2000-01,St. Louis Blues,81,40,33,73,30,15
+Scott Lachance,D,Regular Season,2000-01,Vancouver Canucks,76,3,11,14,46,5
+Keith Tkachuk,F,Playoffs,2000-01,St. Louis Blues,15,2,7,9,20,0
+Rick DiPietro,G,Regular Season,2000-01,New York Islanders,20,0,2,0,6,
+Keith Tkachuk,F,Regular Season,2000-01,St. Louis Blues,12,6,2,8,14,-3
+Keith Tkachuk,F,Regular Season,2000-01,Phoenix Coyotes,64,29,42,71,108,6
+Chris Drury,F,Playoffs,2000-01,Colorado Avalanche,23,11,5,16,4,5
+Chris Drury,F,Regular Season,2000-01,Colorado Avalanche,71,24,41,65,47,6
+Michel Larocque,G,Regular Season,2000-01,Chicago Blackhawks,3,0,0,0,0,
+Mike Sullivan,F,Regular Season,2000-01,Phoenix Coyotes,72,5,4,9,16,-6
+Tony Amonte,F,Regular Season,2000-01,Chicago Blackhawks,82,35,29,64,54,-22
+Mike Grier,F,Regular Season,2000-01,Edmonton Oilers,74,20,16,36,20,11
+Scott Lachance,D,Playoffs,2000-01,Vancouver Canucks,2,0,1,1,2,0
+Adrian Aucoin,D,Regular Season,2000-01,Vancouver Canucks,47,3,13,16,20,13
+Adrian Aucoin,D,Regular Season,2000-01,Tampa Bay Lightning,26,1,11,12,25,-8
+Mike Grier,F,Playoffs,2000-01,Edmonton Oilers,6,0,0,0,8,-2
+Scott Young,F,Playoffs,2000-01,St. Louis Blues,15,6,7,13,2,9
+Adrian Aucoin,D,Regular Season,2001-02,New York Islanders,81,12,22,34,62,23
+Chris Kelleher,D,Regular Season,2001-02,Boston Bruins,1,0,0,0,0,0
+Shawn McEachern,F,Playoffs,2001-02,Ottawa Senators,12,0,4,4,2,3
+Scott Young,F,Regular Season,2001-02,St. Louis Blues,67,19,22,41,26,11
+Dan LaCouture,F,Regular Season,2001-02,Pittsburgh Penguins,82,6,11,17,71,-19
+Keith Tkachuk,F,Playoffs,2001-02,St. Louis Blues,10,5,5,10,18,1
+Chris Drury,F,Playoffs,2001-02,Colorado Avalanche,21,5,7,12,10,4
+Chris Drury,F,Regular Season,2001-02,Colorado Avalanche,82,21,25,46,38,1
+Tom Poti,D,Regular Season,2001-02,Edmonton Oilers,55,1,16,17,42,-6
+Tom Poti,D,Regular Season,2001-02,New York Rangers,11,1,7,8,2,-4
+Jay Pandolfo,F,Playoffs,2001-02,New Jersey Devils,6,0,0,0,0,0
+Scott Young,F,Playoffs,2001-02,St. Louis Blues,10,3,0,3,2,-1
+Adrian Aucoin,D,Playoffs,2001-02,New York Islanders,7,2,5,7,4,-1
+Joe Sacco,F,Regular Season,2001-02,Washington Capitals,65,0,7,7,51,-13
+Mike Sullivan,F,Regular Season,2001-02,Phoenix Coyotes,42,1,2,3,16,-3
+Jay Pandolfo,F,Regular Season,2001-02,New Jersey Devils,65,4,10,14,15,12
+Scott Lachance,D,Playoffs,2001-02,Vancouver Canucks,6,1,1,2,4,2
+Scott Lachance,D,Regular Season,2001-02,Vancouver Canucks,81,1,10,11,50,15
+Shawn Bates,F,Playoffs,2001-02,New York Islanders,7,2,4,6,11,-5
+Shawn Bates,F,Regular Season,2001-02,New York Islanders,71,17,35,52,30,18
+Mike Grier,F,Regular Season,2001-02,Edmonton Oilers,82,8,17,25,32,1
+Keith Tkachuk,F,Regular Season,2001-02,St. Louis Blues,73,38,37,75,117,21
+Shawn McEachern,F,Regular Season,2001-02,Ottawa Senators,80,15,31,46,52,9
+Rich Brennan,D,Regular Season,2001-02,Nashville Predators,4,0,0,0,2,0
+Tony Amonte,F,Playoffs,2001-02,Chicago Blackhawks,5,0,1,1,4,1
+Tony Amonte,F,Regular Season,2001-02,Chicago Blackhawks,82,27,39,66,67,11
+Jay Pandolfo,F,Playoffs,2002-03,New Jersey Devils,24,6,6,12,2,9
+Keith Tkachuk,F,Playoffs,2002-03,St. Louis Blues,7,1,3,4,14,-1
+Rich Brennan,D,Regular Season,2002-03,Boston Bruins,7,0,1,1,6,3
+Jay Pandolfo,F,Regular Season,2002-03,New Jersey Devils,68,6,11,17,23,12
+Joe DiPenta,D,Regular Season,2002-03,Atlanta Thrashers,3,1,1,2,0,3
+Shawn McEachern,F,Regular Season,2002-03,Atlanta Thrashers,46,10,16,26,28,-27
+Shawn Bates,F,Playoffs,2002-03,New York Islanders,5,1,0,1,0,-2
+Shawn Bates,F,Regular Season,2002-03,New York Islanders,74,13,29,42,52,-9
+Keith Tkachuk,F,Regular Season,2002-03,St. Louis Blues,56,31,24,55,139,1
+Chris O'Sullivan,D,Regular Season,2002-03,Anaheim Ducks,2,0,1,1,0,0
+Dan LaCouture,F,Regular Season,2002-03,Pittsburgh Penguins,44,2,2,4,72,-8
+Rick DiPietro,G,Regular Season,2002-03,New York Islanders,10,0,0,0,2,
+Adrian Aucoin,D,Regular Season,2002-03,New York Islanders,73,8,27,35,70,-5
+Tom Poti,D,Regular Season,2002-03,New York Rangers,80,11,37,48,58,-6
+Adrian Aucoin,D,Playoffs,2002-03,New York Islanders,5,1,2,3,4,-1
+Mike Grier,F,Playoffs,2002-03,Washington Capitals,6,1,1,2,2,0
+Rick DiPietro,G,Playoffs,2002-03,New York Islanders,1,0,0,0,0,
+Tony Amonte,F,Playoffs,2002-03,Philadelphia Flyers,13,1,6,7,4,2
+Scott Young,F,Playoffs,2002-03,Dallas Stars,10,4,3,7,6,5
+Tony Amonte,F,Regular Season,2002-03,Philadelphia Flyers,13,7,8,15,2,12
+Joe Sacco,F,Regular Season,2002-03,Philadelphia Flyers,34,1,5,6,20,0
+Joe Sacco,F,Playoffs,2002-03,Philadelphia Flyers,4,0,0,0,0,-2
+Scott Lachance,D,Regular Season,2002-03,Columbus Blue Jackets,61,0,1,1,46,-20
+Dan LaCouture,F,Regular Season,2002-03,New York Rangers,24,1,4,5,0,4
+Mike Grier,F,Regular Season,2002-03,Washington Capitals,82,15,17,32,36,-14
+Chris Drury,F,Regular Season,2002-03,Calgary Flames,80,23,30,53,33,-9
+Tony Amonte,F,Regular Season,2002-03,Phoenix Coyotes,59,13,23,36,26,-12
+Scott Young,F,Regular Season,2002-03,Dallas Stars,79,23,19,42,30,24
+Dan LaCouture,F,Regular Season,2003-04,New York Rangers,59,5,2,7,82,-13
+Scott Young,F,Playoffs,2003-04,Dallas Stars,4,1,0,1,2,1
+Carl Corazzini,F,Regular Season,2003-04,Boston Bruins,12,2,0,2,0,2
+Scott Young,F,Regular Season,2003-04,Dallas Stars,53,8,8,16,14,-15
+Keith Tkachuk,F,Regular Season,2003-04,St. Louis Blues,75,33,38,71,83,8
+Scott Lachance,D,Regular Season,2003-04,Columbus Blue Jackets,77,0,4,4,44,-23
+Jay Pandolfo,F,Regular Season,2003-04,New Jersey Devils,82,13,13,26,14,5
+Adrian Aucoin,D,Playoffs,2003-04,New York Islanders,5,0,0,0,6,-6
+Adrian Aucoin,D,Regular Season,2003-04,New York Islanders,81,13,31,44,54,29
+Tom Poti,D,Regular Season,2003-04,New York Rangers,67,10,14,24,47,-1
+Freddy Meyer,D,Regular Season,2003-04,Philadelphia Flyers,1,0,0,0,0,0
+Tony Amonte,F,Playoffs,2003-04,Philadelphia Flyers,18,3,5,8,6,7
+Tony Amonte,F,Regular Season,2003-04,Philadelphia Flyers,80,20,33,53,38,13
+Keith Tkachuk,F,Playoffs,2003-04,St. Louis Blues,5,0,2,2,10,-1
+Chris Drury,F,Regular Season,2003-04,Buffalo Sabres,76,18,35,53,68,8
+Mike Grier,F,Regular Season,2003-04,Buffalo Sabres,14,1,8,9,4,10
+Rick DiPietro,G,Regular Season,2003-04,New York Islanders,50,0,2,0,22,
+Mike Pandolfo,F,Regular Season,2003-04,Columbus Blue Jackets,3,0,0,0,0,-2
+Shawn McEachern,F,Regular Season,2003-04,Atlanta Thrashers,82,17,38,55,76,5
+Jay Pandolfo,F,Playoffs,2003-04,New Jersey Devils,5,0,0,0,0,0
+Mike Grier,F,Regular Season,2003-04,Washington Capitals,68,8,12,20,32,-19
+Rick DiPietro,G,Playoffs,2003-04,New York Islanders,5,0,0,0,0,
+Shawn Bates,F,Regular Season,2003-04,New York Islanders,69,9,23,32,46,-8
+Shawn Bates,F,Playoffs,2003-04,New York Islanders,5,0,0,0,4,-2
+Chris Drury,F,Regular Season,2005-06,Buffalo Sabres,81,30,37,67,32,-11
+Mike Grier,F,Playoffs,2005-06,Buffalo Sabres,18,3,5,8,2,3
+Jay Pandolfo,F,Regular Season,2005-06,New Jersey Devils,82,10,10,20,16,2
+Jay Pandolfo,F,Playoffs,2005-06,New Jersey Devils,9,1,4,5,0,1
+Tom Poti,D,Playoffs,2005-06,New York Rangers,4,0,0,0,2,-4
+Tom Poti,D,Regular Season,2005-06,New York Rangers,73,3,20,23,70,16
+Chris Drury,F,Playoffs,2005-06,Buffalo Sabres,18,9,9,18,10,5
+Mike Grier,F,Regular Season,2005-06,Buffalo Sabres,81,7,16,23,28,-7
+Shawn McEachern,F,Regular Season,2005-06,Boston Bruins,28,2,6,8,22,-12
+Freddy Meyer,D,Playoffs,2005-06,Philadelphia Flyers,6,0,1,1,8,-5
+Ryan Whitney,D,Regular Season,2005-06,Pittsburgh Penguins,68,6,32,38,85,-7
+Rick DiPietro,G,Regular Season,2005-06,New York Islanders,63,0,1,0,28,
+Scott Young,F,Regular Season,2005-06,St. Louis Blues,79,18,31,49,52,-32
+Keith Tkachuk,F,Regular Season,2005-06,St. Louis Blues,41,15,21,36,46,-15
+Joe DiPenta,D,Regular Season,2005-06,Anaheim Ducks,72,2,6,8,46,8
+Shawn Bates,F,Regular Season,2005-06,New York Islanders,66,15,19,34,60,-11
+Tony Amonte,F,Regular Season,2005-06,Calgary Flames,80,14,28,42,43,3
+Joe DiPenta,D,Playoffs,2005-06,Anaheim Ducks,16,0,0,0,13,1
+Freddy Meyer,D,Regular Season,2005-06,Philadelphia Flyers,57,6,21,27,33,10
+Dan LaCouture,F,Regular Season,2005-06,Boston Bruins,55,2,2,4,53,-6
+Adrian Aucoin,D,Regular Season,2005-06,Chicago Blackhawks,33,1,5,6,38,-13
+Tony Amonte,F,Playoffs,2005-06,Calgary Flames,7,2,1,3,10,2
+Freddy Meyer,D,Regular Season,2006-07,Philadelphia Flyers,25,2,3,5,14,-4
+Freddy Meyer,D,Regular Season,2006-07,New York Islanders,35,0,3,3,24,0
+Tom Poti,D,Playoffs,2006-07,New York Islanders,5,0,3,3,6,0
+Mike Grier,F,Playoffs,2006-07,San Jose Sharks,11,2,2,4,27,1
+Mike Grier,F,Regular Season,2006-07,San Jose Sharks,81,16,17,33,43,-5
+Tom Poti,D,Regular Season,2006-07,New York Islanders,78,6,38,44,74,-1
+Rick DiPietro,G,Playoffs,2006-07,New York Islanders,4,0,0,0,0,
+Tony Amonte,F,Regular Season,2006-07,Calgary Flames,81,10,20,30,40,-4
+Tony Amonte,F,Playoffs,2006-07,Calgary Flames,6,0,1,1,0,-1
+Keith Tkachuk,F,Regular Season,2006-07,St. Louis Blues,61,20,23,43,92,3
+Adrian Aucoin,D,Regular Season,2006-07,Chicago Blackhawks,59,4,12,16,50,-22
+Keith Tkachuk,F,Playoffs,2006-07,Atlanta Thrashers,4,1,2,3,12,2
+Chris Drury,F,Playoffs,2006-07,Buffalo Sabres,16,8,5,13,2,3
+Chris Drury,F,Regular Season,2006-07,Buffalo Sabres,77,37,32,69,30,1
+Rick DiPietro,G,Regular Season,2006-07,New York Islanders,62,0,2,0,24,
+Keith Tkachuk,F,Regular Season,2006-07,Atlanta Thrashers,18,7,8,15,34,8
+Ryan Whitney,D,Playoffs,2006-07,Pittsburgh Penguins,5,1,1,2,6,-4
+Jay Pandolfo,F,Regular Season,2006-07,New Jersey Devils,82,13,14,27,8,-5
+Joe DiPenta,D,Playoffs,2006-07,Anaheim Ducks,16,0,0,0,4,0
+Ryan Whitney,D,Regular Season,2006-07,Pittsburgh Penguins,81,14,45,59,77,9
+Joe DiPenta,D,Regular Season,2006-07,Anaheim Ducks,76,2,6,8,48,1
+Shawn Bates,F,Regular Season,2006-07,New York Islanders,48,4,6,10,34,13
+Dan LaCouture,F,Regular Season,2006-07,New Jersey Devils,6,0,0,0,7,0
+Jay Pandolfo,F,Playoffs,2006-07,New Jersey Devils,11,1,0,1,4,-8
+Carl Corazzini,F,Regular Season,2006-07,Chicago Blackhawks,7,0,1,1,2,0
+Jay Pandolfo,F,Regular Season,2007-08,New Jersey Devils,54,12,12,24,22,10
+Jay Pandolfo,F,Playoffs,2007-08,New Jersey Devils,5,0,0,0,2,-2
+Chris Drury,F,Playoffs,2007-08,New York Rangers,10,3,3,6,8,3
+Chris Drury,F,Regular Season,2007-08,New York Rangers,82,25,33,58,45,-3
+Ryan Whitney,D,Playoffs,2007-08,Pittsburgh Penguins,20,1,5,6,25,8
+Shawn Bates,F,Regular Season,2007-08,New York Islanders,2,0,0,0,0,-2
+Adrian Aucoin,D,Playoffs,2007-08,Calgary Flames,7,0,3,3,4,3
+Tom Poti,D,Playoffs,2007-08,Washington Capitals,7,0,1,1,8,-1
+Tom Poti,D,Regular Season,2007-08,Washington Capitals,71,2,27,29,46,9
+Mike Grier,F,Playoffs,2007-08,San Jose Sharks,13,0,1,1,2,-2
+Adrian Aucoin,D,Regular Season,2007-08,Calgary Flames,76,10,25,35,37,13
+Keith Tkachuk,F,Regular Season,2007-08,St. Louis Blues,79,27,31,58,69,-2
+Chris Bourque,F,Regular Season,2007-08,Washington Capitals,4,0,0,0,2,0
+Rick DiPietro,G,Regular Season,2007-08,New York Islanders,63,0,6,0,18,
+Freddy Meyer,D,Regular Season,2007-08,New York Islanders,52,3,9,12,22,6
+Freddy Meyer,D,Regular Season,2007-08,Phoenix Coyotes,5,0,0,0,0,-4
+Ryan Whitney,D,Regular Season,2007-08,Pittsburgh Penguins,76,12,28,40,45,-2
+Mike Grier,F,Regular Season,2007-08,San Jose Sharks,78,9,13,22,24,-8
+Joe DiPenta,D,Regular Season,2007-08,Anaheim Ducks,23,1,4,5,16,3
+Chris Drury,F,Regular Season,2008-09,New York Rangers,81,22,34,56,32,-8
+Chris Drury,F,Playoffs,2008-09,New York Rangers,6,1,0,1,2,-5
+Ryan Whitney,D,Regular Season,2008-09,Pittsburgh Penguins,28,2,11,13,16,-15
+Dan LaCouture,F,Regular Season,2008-09,Carolina Hurricanes,11,2,0,2,10,-1
+Chris Bourque,F,Regular Season,2008-09,Washington Capitals,8,1,0,1,0,0
+Freddy Meyer,D,Regular Season,2008-09,New York Islanders,27,4,5,9,14,-19
+John Curry,G,Regular Season,2008-09,Pittsburgh Penguins,3,0,0,0,0,
+Adrian Aucoin,D,Regular Season,2008-09,Calgary Flames,81,10,24,34,46,-8
+Tom Poti,D,Playoffs,2008-09,Washington Capitals,14,2,5,7,4,8
+David Van der Gulik,F,Regular Season,2008-09,Calgary Flames,6,0,2,2,0,-1
+Keith Tkachuk,F,Playoffs,2008-09,St. Louis Blues,4,0,0,0,2,-1
+Keith Tkachuk,F,Regular Season,2008-09,St. Louis Blues,79,25,24,49,61,-11
+Jay Pandolfo,F,Regular Season,2008-09,New Jersey Devils,61,5,5,10,10,-12
+Jay Pandolfo,F,Playoffs,2008-09,New Jersey Devils,7,1,0,1,0,-2
+Ryan Whitney,D,Regular Season,2008-09,Anaheim Ducks,20,0,10,10,12,1
+Ryan Whitney,D,Playoffs,2008-09,Anaheim Ducks,13,1,5,6,9,-1
+Rick DiPietro,G,Regular Season,2008-09,New York Islanders,5,0,2,0,2,
+Adrian Aucoin,D,Playoffs,2008-09,Calgary Flames,6,2,1,3,2,-2
+Tom Poti,D,Regular Season,2008-09,Washington Capitals,52,3,10,13,28,3
+Mike Grier,F,Regular Season,2008-09,San Jose Sharks,62,10,13,23,25,8
+Mike Grier,F,Playoffs,2008-09,San Jose Sharks,6,0,0,0,6,-2
+Keith Tkachuk,F,Regular Season,2009-10,St. Louis Blues,67,13,19,32,56,-2
+Rick DiPietro,G,Regular Season,2009-10,New York Islanders,8,0,1,0,2,
+Colin Wilson,F,Regular Season,2009-10,Nashville Predators,35,8,7,15,7,-2
+Colin Wilson,F,Playoffs,2009-10,Nashville Predators,6,0,1,1,0,-1
+Nick Bonino,F,Regular Season,2009-10,Anaheim Ducks,9,1,1,2,6,0
+Mike Grier,F,Regular Season,2009-10,Buffalo Sabres,73,10,12,22,14,-4
+Ryan Whitney,D,Regular Season,2009-10,Edmonton Oilers,19,3,8,11,22,7
+Ryan Whitney,D,Regular Season,2009-10,Anaheim Ducks,62,4,24,28,48,-6
+John Curry,G,Regular Season,2009-10,Pittsburgh Penguins,1,0,0,0,0,
+Chris Drury,F,Regular Season,2009-10,New York Rangers,77,14,18,32,31,-10
+Mike Grier,F,Playoffs,2009-10,Buffalo Sabres,6,2,0,2,2,0
+John McCarthy,F,Regular Season,2009-10,San Jose Sharks,4,0,0,0,0,-3
+Chris Bourque,F,Regular Season,2009-10,Washington Capitals,1,0,0,0,0,-2
+Chris Bourque,F,Regular Season,2009-10,Pittsburgh Penguins,20,0,3,3,10,-4
+Jay Pandolfo,F,Regular Season,2009-10,New Jersey Devils,52,4,5,9,6,-10
+Adrian Aucoin,D,Regular Season,2009-10,Phoenix Coyotes,82,8,20,28,56,2
+Adrian Aucoin,D,Playoffs,2009-10,Phoenix Coyotes,7,0,2,2,10,3
+Matt Gilroy,D,Regular Season,2009-10,New York Rangers,69,4,11,15,23,0
+Brandon Yip,F,Regular Season,2009-10,Colorado Avalanche,32,11,8,19,22,5
+Brandon Yip,F,Playoffs,2009-10,Colorado Avalanche,6,2,2,4,6,-3
+Tom Poti,D,Regular Season,2009-10,Washington Capitals,70,4,20,24,42,26
+Tom Poti,D,Playoffs,2009-10,Washington Capitals,6,0,4,4,5,9
+Freddy Meyer,D,Regular Season,2009-10,New York Islanders,64,4,11,15,40,-2
+Freddy Meyer,D,Regular Season,2010-11,Atlanta Thrashers,15,1,1,2,8,-7
+Adrian Aucoin,D,Regular Season,2010-11,Phoenix Coyotes,75,3,19,22,52,18
+Adrian Aucoin,D,Playoffs,2010-11,Phoenix Coyotes,4,0,0,0,2,-4
+Brandon Yip,F,Regular Season,2010-11,Colorado Avalanche,71,12,10,22,54,-22
+Tom Poti,D,Regular Season,2010-11,Washington Capitals,21,2,5,7,8,-4
+Mike Grier,F,Regular Season,2010-11,Buffalo Sabres,73,5,11,16,12,0
+Colin Wilson,F,Regular Season,2010-11,Nashville Predators,82,16,18,34,17,9
+Colin Wilson,F,Playoffs,2010-11,Nashville Predators,3,0,0,0,0,-1
+Chris Drury,F,Playoffs,2010-11,New York Rangers,5,0,1,1,2,0
+Rick DiPietro,G,Regular Season,2010-11,New York Islanders,26,0,1,0,25,
+Brian Strait,D,Regular Season,2010-11,Pittsburgh Penguins,3,0,0,0,0,-1
+Kevin Shattenkirk,D,Regular Season,2010-11,St. Louis Blues,26,2,15,17,16,7
+Kevin Shattenkirk,D,Regular Season,2010-11,Colorado Avalanche,46,7,19,26,20,-11
+David Van der Gulik,F,Regular Season,2010-11,Colorado Avalanche,6,1,2,3,2,4
+John McCarthy,F,Regular Season,2010-11,San Jose Sharks,37,2,2,4,8,-8
+Nick Bonino,F,Playoffs,2010-11,Anaheim Ducks,4,0,0,0,2,-1
+Nick Bonino,F,Regular Season,2010-11,Anaheim Ducks,26,0,0,0,4,-3
+Ryan Whitney,D,Regular Season,2010-11,Edmonton Oilers,35,2,25,27,33,13
+Mike Grier,F,Playoffs,2010-11,Buffalo Sabres,7,0,1,1,0,-3
+Chris Drury,F,Regular Season,2010-11,New York Rangers,24,1,4,5,8,2
+Colby Cohen,D,Regular Season,2010-11,Colorado Avalanche,3,0,0,0,4,-1
+Matt Gilroy,D,Playoffs,2010-11,New York Rangers,5,1,0,1,2,-1
+Matt Gilroy,D,Regular Season,2010-11,New York Rangers,58,3,8,11,14,5
+Colin Wilson,F,Playoffs,2011-12,Nashville Predators,4,1,0,1,0,1
+Matt Gilroy,D,Regular Season,2011-12,Ottawa Senators,14,1,2,3,2,0
+Brian Strait,D,Playoffs,2011-12,Pittsburgh Penguins,3,0,0,0,0,3
+Brandon Yip,F,Playoffs,2011-12,Nashville Predators,10,1,1,2,6,-1
+Nick Bonino,F,Regular Season,2011-12,Anaheim Ducks,50,5,13,18,8,1
+Brandon Yip,F,Regular Season,2011-12,Nashville Predators,25,3,4,7,20,0
+Brandon Yip,F,Regular Season,2011-12,Colorado Avalanche,10,0,0,0,8,1
+Kevin Shattenkirk,D,Regular Season,2011-12,St. Louis Blues,81,9,34,43,60,20
+Kevin Shattenkirk,D,Playoffs,2011-12,St. Louis Blues,9,1,1,2,6,-3
+Brian Strait,D,Regular Season,2011-12,Pittsburgh Penguins,9,0,1,1,4,-2
+Matt Gilroy,D,Playoffs,2011-12,Ottawa Senators,3,0,0,0,0,0
+Adrian Aucoin,D,Playoffs,2011-12,Phoenix Coyotes,11,0,2,2,10,4
+Ryan Whitney,D,Regular Season,2011-12,Edmonton Oilers,51,3,17,20,16,-16
+Colin Wilson,F,Regular Season,2011-12,Nashville Predators,68,15,20,35,21,5
+Matt Gilroy,D,Regular Season,2011-12,Tampa Bay Lightning,53,2,15,17,16,2
+Jay Pandolfo,F,Regular Season,2011-12,New York Islanders,62,1,2,3,8,-14
+Rick DiPietro,G,Regular Season,2011-12,New York Islanders,8,0,2,0,0,
+David Van der Gulik,F,Regular Season,2011-12,Colorado Avalanche,25,1,5,6,2,3
+John McCarthy,F,Regular Season,2011-12,San Jose Sharks,10,0,0,0,10,-2
+Adrian Aucoin,D,Regular Season,2011-12,Phoenix Coyotes,64,2,7,9,42,14
+Colin Wilson,F,Regular Season,2012-13,Nashville Predators,25,7,12,19,4,1
+Rick DiPietro,G,Regular Season,2012-13,New York Islanders,3,0,0,0,0,
+David Van der Gulik,F,Regular Season,2012-13,Colorado Avalanche,9,0,2,2,6,2
+Brian Strait,D,Playoffs,2012-13,New York Islanders,6,1,0,1,12,1
+Eric Gryba,D,Playoffs,2012-13,Ottawa Senators,4,0,0,0,17,0
+Nick Bonino,F,Playoffs,2012-13,Anaheim Ducks,7,3,1,4,4,2
+Tom Poti,D,Regular Season,2012-13,Washington Capitals,16,0,2,2,2,-2
+Charlie Coyle,F,Playoffs,2012-13,Minnesota Wild,5,0,2,2,2,-4
+Charlie Coyle,F,Regular Season,2012-13,Minnesota Wild,37,8,6,14,28,3
+Brandon Yip,F,Regular Season,2012-13,Nashville Predators,34,3,5,8,26,-3
+Kevin Shattenkirk,D,Playoffs,2012-13,St. Louis Blues,6,0,2,2,6,-1
+Chris Bourque,F,Regular Season,2012-13,Boston Bruins,18,1,3,4,6,-6
+Eric Gryba,D,Regular Season,2012-13,Ottawa Senators,33,2,4,6,26,-3
+Kevin Shattenkirk,D,Regular Season,2012-13,St. Louis Blues,48,5,18,23,20,2
+Jay Pandolfo,F,Regular Season,2012-13,Boston Bruins,18,0,0,0,2,-2
+Ryan Whitney,D,Regular Season,2012-13,Edmonton Oilers,34,4,9,13,23,-7
+Adrian Aucoin,D,Regular Season,2012-13,Columbus Blue Jackets,36,0,4,4,16,-8
+Nick Bonino,F,Regular Season,2012-13,Anaheim Ducks,27,5,8,13,8,-3
+Brian Strait,D,Regular Season,2012-13,New York Islanders,19,0,4,4,10,4
+Matt Gilroy,D,Regular Season,2012-13,New York Rangers,15,0,0,0,6,-3
+Alex Chiasson,F,Regular Season,2012-13,Dallas Stars,7,6,1,7,0,3
+Matt Nieto,F,Playoffs,2013-14,San Jose Sharks,7,2,3,5,0,3
+Charlie Coyle,F,Playoffs,2013-14,Minnesota Wild,13,3,4,7,6,-2
+David Van der Gulik,F,Regular Season,2013-14,Colorado Avalanche,2,0,0,0,0,0
+Matt Nieto,F,Regular Season,2013-14,San Jose Sharks,66,10,14,24,16,-4
+Brian Strait,D,Regular Season,2013-14,New York Islanders,47,3,6,9,14,-14
+Charlie Coyle,F,Regular Season,2013-14,Minnesota Wild,70,12,18,30,33,-7
+Kevin Shattenkirk,D,Playoffs,2013-14,St. Louis Blues,6,1,4,5,2,-1
+Brandon Yip,F,Regular Season,2013-14,Phoenix Coyotes,2,0,0,0,0,0
+John Curry,G,Regular Season,2013-14,Minnesota Wild,2,0,0,0,0,
+David Warsofsky,D,Regular Season,2013-14,Boston Bruins,6,1,1,2,0,1
+Ryan Whitney,D,Regular Season,2013-14,Florida Panthers,7,0,0,0,6,-7
+Matt Gilroy,D,Regular Season,2013-14,Florida Panthers,16,1,1,2,6,-2
+Nick Bonino,F,Regular Season,2013-14,Anaheim Ducks,77,22,27,49,22,14
+Nick Bonino,F,Playoffs,2013-14,Anaheim Ducks,13,4,4,8,8,3
+Colin Wilson,F,Regular Season,2013-14,Nashville Predators,81,11,22,33,21,-1
+Alex Chiasson,F,Regular Season,2013-14,Dallas Stars,79,13,22,35,38,-21
+Kevin Shattenkirk,D,Regular Season,2013-14,St. Louis Blues,81,10,35,45,38,1
+Eric Gryba,D,Regular Season,2013-14,Ottawa Senators,57,2,9,11,64,9
+John McCarthy,F,Regular Season,2013-14,San Jose Sharks,36,1,1,2,4,-11
+Alex Chiasson,F,Playoffs,2013-14,Dallas Stars,6,1,1,2,2,-7
+Brian Strait,D,Regular Season,2014-15,New York Islanders,52,2,5,7,32,-1
+Brian Strait,D,Playoffs,2014-15,New York Islanders,7,0,0,0,4,-3
+Nick Bonino,F,Playoffs,2014-15,Vancouver Canucks,6,1,2,3,4,-2
+David Warsofsky,D,Regular Season,2014-15,Boston Bruins,4,0,1,1,0,1
+Alex Chiasson,F,Playoffs,2014-15,Ottawa Senators,4,0,0,0,0,-3
+Alex Chiasson,F,Regular Season,2014-15,Ottawa Senators,76,11,15,26,67,-5
+Nick Bonino,F,Regular Season,2014-15,Vancouver Canucks,75,15,24,39,22,7
+David Van der Gulik,F,Regular Season,2014-15,Los Angeles Kings,1,0,0,0,0,0
+Kevin Shattenkirk,D,Regular Season,2014-15,St. Louis Blues,56,8,36,44,52,19
+Matt Nieto,F,Regular Season,2014-15,San Jose Sharks,72,10,17,27,20,-12
+Eric Gryba,D,Playoffs,2014-15,Ottawa Senators,6,0,0,0,14,-2
+Adam Clendening,D,Regular Season,2014-15,Vancouver Canucks,17,0,2,2,8,1
+Adam Clendening,D,Regular Season,2014-15,Chicago Blackhawks,4,1,1,2,2,1
+Colin Wilson,F,Playoffs,2014-15,Nashville Predators,6,5,0,5,0,-1
+Colin Wilson,F,Regular Season,2014-15,Nashville Predators,77,20,22,42,22,19
+Kevin Shattenkirk,D,Playoffs,2014-15,St. Louis Blues,6,0,8,8,2,2
+John Curry,G,Regular Season,2014-15,Minnesota Wild,2,0,0,0,0,
+Charlie Coyle,F,Playoffs,2014-15,Minnesota Wild,10,1,1,2,0,-3
+Charlie Coyle,F,Regular Season,2014-15,Minnesota Wild,82,11,24,35,39,13
+Eric Gryba,D,Regular Season,2014-15,Ottawa Senators,75,0,12,12,97,11
+John McCarthy,F,Regular Season,2015-16,San Jose Sharks,1,0,0,0,0,0
+Jack Eichel,F,Regular Season,2015-16,Buffalo Sabres,81,24,32,56,22,-16
+Alex Chiasson,F,Regular Season,2015-16,Ottawa Senators,77,8,6,14,45,2
+Adam Clendening,D,Regular Season,2015-16,Edmonton Oilers,20,1,5,6,10,3
+Matt Nieto,F,Playoffs,2015-16,San Jose Sharks,16,1,2,3,8,2
+David Warsofsky,D,Regular Season,2015-16,New Jersey Devils,10,0,1,1,2,-3
+Evan Rodrigues,F,Regular Season,2015-16,Buffalo Sabres,2,1,1,2,0,2
+David Warsofsky,D,Regular Season,2015-16,Pittsburgh Penguins,12,1,0,1,0,-6
+Adam Clendening,D,Regular Season,2015-16,Pittsburgh Penguins,9,0,1,1,10,3
+Kevin Shattenkirk,D,Regular Season,2015-16,St. Louis Blues,72,14,30,44,51,-14
+Nick Bonino,F,Regular Season,2015-16,Pittsburgh Penguins,63,9,20,29,31,13
+Kevin Shattenkirk,D,Playoffs,2015-16,St. Louis Blues,20,2,9,11,19,-8
+Charlie Coyle,F,Regular Season,2015-16,Minnesota Wild,82,21,21,42,16,1
+Colin Wilson,F,Playoffs,2015-16,Nashville Predators,14,5,8,13,0,8
+Colin Wilson,F,Regular Season,2015-16,Nashville Predators,64,6,18,24,14,-1
+Charlie Coyle,F,Playoffs,2015-16,Minnesota Wild,6,1,1,2,6,-4
+Matt Nieto,F,Regular Season,2015-16,San Jose Sharks,67,8,9,17,10,-8
+Brian Strait,D,Regular Season,2015-16,New York Islanders,52,1,5,6,31,1
+Matt O'Connor,G,Regular Season,2015-16,Ottawa Senators,1,0,0,0,0,
+Eric Gryba,D,Regular Season,2015-16,Edmonton Oilers,53,1,5,6,75,0
+Nick Bonino,F,Playoffs,2015-16,Pittsburgh Penguins,24,4,14,18,12,9
+Adam Clendening,D,Regular Season,2016-17,New York Rangers,31,2,9,11,17,3
+Danny O'Regan,F,Regular Season,2016-17,San Jose Sharks,3,1,0,1,0,-2
+Jack Eichel,F,Regular Season,2016-17,Buffalo Sabres,61,24,33,57,22,-13
+A.J. Greer,F,Regular Season,2016-17,Colorado Avalanche,5,0,1,1,4,-2
+Charlie Coyle,F,Playoffs,2016-17,Minnesota Wild,5,2,0,2,2,-1
+Charlie Coyle,F,Regular Season,2016-17,Minnesota Wild,82,18,38,56,36,13
+Wade Megan,F,Regular Season,2016-17,St. Louis Blues,3,1,0,1,0,1
+Charlie McAvoy,D,Playoffs,2016-17,Boston Bruins,6,0,3,3,2,-2
+Clayton Keller,F,Regular Season,2016-17,Arizona Coyotes,3,0,2,2,0,-3
+Nick Bonino,F,Playoffs,2016-17,Pittsburgh Penguins,21,4,3,7,2,4
+Eric Gryba,D,Regular Season,2016-17,Edmonton Oilers,40,2,4,6,65,-5
+Brian Strait,D,Regular Season,2016-17,Winnipeg Jets,5,0,2,2,0,-1
+Matt Grzelcyk,D,Regular Season,2016-17,Boston Bruins,2,0,0,0,2,0
+Eric Gryba,D,Playoffs,2016-17,Edmonton Oilers,3,0,0,0,4,-1
+Nick Bonino,F,Regular Season,2016-17,Pittsburgh Penguins,80,18,19,37,16,-5
+Evan Rodrigues,F,Regular Season,2016-17,Buffalo Sabres,30,4,2,6,4,-7
+Matt Nieto,F,Regular Season,2016-17,San Jose Sharks,16,0,2,2,4,-3
+Alex Chiasson,F,Regular Season,2016-17,Calgary Flames,81,12,12,24,46,-6
+Alex Chiasson,F,Playoffs,2016-17,Calgary Flames,4,0,0,0,2,-1
+Jakob Forsbacka Karlsson,F,Regular Season,2016-17,Boston Bruins,1,0,0,0,0,0
+Colin Wilson,F,Playoffs,2016-17,Nashville Predators,14,2,2,4,2,-1
+Colin Wilson,F,Regular Season,2016-17,Nashville Predators,70,12,23,35,18,7
+Matt Nieto,F,Regular Season,2016-17,Colorado Avalanche,43,7,4,11,4,-9
+Kevin Shattenkirk,D,Regular Season,2016-17,St. Louis Blues,61,11,31,42,37,-11
+David Warsofsky,D,Regular Season,2016-17,Pittsburgh Penguins,7,0,1,1,6,-3
+Kevin Shattenkirk,D,Playoffs,2016-17,Washington Capitals,13,1,5,6,6,-4
+Kevin Shattenkirk,D,Regular Season,2016-17,Washington Capitals,19,2,12,14,10,4
+Colin Wilson,F,Regular Season,2017-18,Colorado Avalanche,56,6,12,18,6,-5
+Eric Gryba,D,Regular Season,2017-18,Edmonton Oilers,21,0,2,2,31,4
+Colin Wilson,F,Playoffs,2017-18,Colorado Avalanche,6,0,1,1,0,-2
+Matt Nieto,F,Playoffs,2017-18,Colorado Avalanche,6,0,3,3,2,-1
+Wade Megan,F,Regular Season,2017-18,St. Louis Blues,1,0,0,0,0,0
+Matt Nieto,F,Regular Season,2017-18,Colorado Avalanche,74,15,11,26,14,6
+Charlie McAvoy,D,Regular Season,2017-18,Boston Bruins,63,7,25,32,53,20
+David Warsofsky,D,Playoffs,2017-18,Colorado Avalanche,4,0,0,0,2,1
+Charlie McAvoy,D,Playoffs,2017-18,Boston Bruins,12,1,4,5,6,2
+Evan Rodrigues,F,Regular Season,2017-18,Buffalo Sabres,48,7,18,25,14,-10
+David Warsofsky,D,Regular Season,2017-18,Colorado Avalanche,16,0,5,5,0,4
+Charlie Coyle,F,Regular Season,2017-18,Minnesota Wild,66,11,26,37,18,8
+Nick Bonino,F,Playoffs,2017-18,Nashville Predators,13,2,3,5,9,-1
+Alex Chiasson,F,Regular Season,2017-18,Washington Capitals,61,9,9,18,26,1
+Alex Chiasson,F,Playoffs,2017-18,Washington Capitals,16,1,1,2,4,0
+Jack Eichel,F,Regular Season,2017-18,Buffalo Sabres,67,25,39,64,32,-25
+Adam Clendening,D,Regular Season,2017-18,Arizona Coyotes,5,0,2,2,2,-1
+Charlie Coyle,F,Playoffs,2017-18,Minnesota Wild,5,0,0,0,2,-3
+Danny O'Regan,F,Regular Season,2017-18,Buffalo Sabres,2,0,0,0,0,1
+Clayton Keller,F,Regular Season,2017-18,Arizona Coyotes,82,23,42,65,24,-7
+Jordan Greenway,F,Playoffs,2017-18,Minnesota Wild,5,1,1,2,0,2
+Jordan Greenway,F,Regular Season,2017-18,Minnesota Wild,6,0,1,1,0,0
+Matt Grzelcyk,D,Playoffs,2017-18,Boston Bruins,11,0,1,1,4,-2
+A.J. Greer,F,Regular Season,2017-18,Colorado Avalanche,17,0,3,3,29,2
+Matt Grzelcyk,D,Regular Season,2017-18,Boston Bruins,61,3,12,15,22,21
+Danny O'Regan,F,Regular Season,2017-18,San Jose Sharks,19,0,4,4,2,-3
+Nick Bonino,F,Regular Season,2017-18,Nashville Predators,71,12,13,25,20,4
+Kevin Shattenkirk,D,Regular Season,2017-18,New York Rangers,46,5,18,23,44,-14
+Matt Grzelcyk,D,Playoffs,2018-19,Boston Bruins,20,4,4,8,6,-3
+Jakob Forsbacka Karlsson,F,Regular Season,2018-19,Boston Bruins,28,3,6,9,2,1
+Charlie Coyle,F,Regular Season,2018-19,Boston Bruins,21,2,4,6,4,-2
+Matt Grzelcyk,D,Regular Season,2018-19,Boston Bruins,66,3,15,18,68,9
+Evan Rodrigues,F,Regular Season,2018-19,Buffalo Sabres,74,9,20,29,25,-7
+Charlie McAvoy,D,Playoffs,2018-19,Boston Bruins,23,2,6,8,16,4
+Matt Nieto,F,Regular Season,2018-19,Colorado Avalanche,64,4,19,23,8,2
+Matt Nieto,F,Playoffs,2018-19,Colorado Avalanche,12,4,3,7,2,6
+Kevin Shattenkirk,D,Regular Season,2018-19,New York Rangers,73,2,26,28,20,-15
+Jack Eichel,F,Regular Season,2018-19,Buffalo Sabres,77,28,54,82,26,-11
+Brady Tkachuk,F,Regular Season,2018-19,Ottawa Senators,71,22,23,45,75,-10
+A.J. Greer,F,Regular Season,2018-19,Colorado Avalanche,15,1,1,2,14,-2
+Colin Wilson,F,Regular Season,2018-19,Colorado Avalanche,65,12,15,27,8,-6
+Colin Wilson,F,Playoffs,2018-19,Colorado Avalanche,12,4,4,8,2,0
+Dante Fabbro,D,Playoffs,2018-19,Nashville Predators,6,0,1,1,0,2
+Dante Fabbro,D,Regular Season,2018-19,Nashville Predators,4,1,0,1,0,-1
+Charlie Coyle,F,Playoffs,2018-19,Boston Bruins,24,9,7,16,12,8
+Charlie McAvoy,D,Regular Season,2018-19,Boston Bruins,54,7,21,28,45,14
+Wade Megan,F,Regular Season,2018-19,Detroit Red Wings,11,0,1,1,2,-4
+Charlie Coyle,F,Regular Season,2018-19,Minnesota Wild,60,10,18,28,16,1
+Danny O'Regan,F,Regular Season,2018-19,Buffalo Sabres,1,0,0,0,0,0
+Nick Bonino,F,Playoffs,2018-19,Nashville Predators,6,0,2,2,2,-3
+Alex Chiasson,F,Regular Season,2018-19,Edmonton Oilers,73,22,16,38,32,-1
+Clayton Keller,F,Regular Season,2018-19,Arizona Coyotes,82,14,33,47,24,-21
+Adam Clendening,D,Regular Season,2018-19,Columbus Blue Jackets,4,0,0,0,0,1
+Adam Clendening,D,Playoffs,2018-19,Columbus Blue Jackets,7,0,1,1,2,1
+Eric Gryba,D,Regular Season,2018-19,New Jersey Devils,10,0,0,0,10,-1
+Nick Bonino,F,Regular Season,2018-19,Nashville Predators,81,17,18,35,18,27
+Jordan Greenway,F,Regular Season,2018-19,Minnesota Wild,81,12,12,24,29,-12
+Charlie Coyle,F,Playoffs,2019-20,Boston Bruins,13,3,2,5,2,-4
+Joel Farabee,F,Regular Season,2019-20,Philadelphia Flyers,52,8,13,21,39,6
+Kevin Shattenkirk,D,Regular Season,2019-20,Tampa Bay Lightning,70,8,26,34,38,22
+Kevin Shattenkirk,D,Playoffs,2019-20,Tampa Bay Lightning,25,3,10,13,6,8
+Colin Wilson,F,Regular Season,2019-20,Colorado Avalanche,9,0,4,4,0,6
+Jake Oettinger,G,Playoffs,2019-20,Dallas Stars,2,0,0,0,0,
+Jack Eichel,F,Regular Season,2019-20,Buffalo Sabres,68,36,42,78,34,5
+Nick Bonino,F,Playoffs,2019-20,Nashville Predators,4,1,0,1,2,-2
+Charlie McAvoy,D,Playoffs,2019-20,Boston Bruins,13,1,3,4,24,-6
+Kieffer Bellows,F,Regular Season,2019-20,New York Islanders,8,2,1,3,2,3
+Matt Nieto,F,Playoffs,2019-20,Colorado Avalanche,14,1,2,3,4,1
+Matt Nieto,F,Regular Season,2019-20,Colorado Avalanche,70,8,13,21,6,7
+Nick Bonino,F,Regular Season,2019-20,Nashville Predators,67,18,17,35,16,17
+Charlie McAvoy,D,Regular Season,2019-20,Boston Bruins,67,5,27,32,41,24
+Jordan Greenway,F,Regular Season,2019-20,Minnesota Wild,67,8,20,28,54,2
+Matt Grzelcyk,D,Regular Season,2019-20,Boston Bruins,68,4,17,21,34,15
+Alex Chiasson,F,Regular Season,2019-20,Edmonton Oilers,65,11,13,24,42,-3
+Matt Grzelcyk,D,Playoffs,2019-20,Boston Bruins,12,0,1,1,4,-5
+Dante Fabbro,D,Playoffs,2019-20,Nashville Predators,4,0,0,0,2,-1
+Jordan Greenway,F,Playoffs,2019-20,Minnesota Wild,4,0,0,0,8,-1
+Evan Rodrigues,F,Regular Season,2019-20,Buffalo Sabres,38,5,4,9,10,-8
+Evan Rodrigues,F,Regular Season,2019-20,Pittsburgh Penguins,7,1,0,1,4,0
+Dante Fabbro,D,Regular Season,2019-20,Nashville Predators,64,5,6,11,38,-7
+Clayton Keller,F,Regular Season,2019-20,Arizona Coyotes,70,17,27,44,28,-6
+Clayton Keller,F,Playoffs,2019-20,Arizona Coyotes,9,4,3,7,0,1
+Brady Tkachuk,F,Regular Season,2019-20,Ottawa Senators,71,21,23,44,106,-14
+Alex Chiasson,F,Playoffs,2019-20,Edmonton Oilers,4,1,1,2,0,1
+Charlie Coyle,F,Regular Season,2019-20,Boston Bruins,70,16,21,37,21,9
+Joel Farabee,F,Playoffs,2019-20,Philadelphia Flyers,12,3,2,5,4,-2
+Nick Bonino,F,Playoffs,2020-21,Minnesota Wild,7,0,0,0,0,-3
+Joel Farabee,F,Regular Season,2020-21,Philadelphia Flyers,55,20,18,38,28,0
+Trevor Zegras,F,Regular Season,2020-21,Anaheim Ducks,24,3,10,13,12,6
+Kieffer Bellows,F,Regular Season,2020-21,New York Islanders,14,3,0,3,4,0
+Dante Fabbro,D,Regular Season,2020-21,Nashville Predators,40,2,10,12,23,-1
+Charlie Coyle,F,Playoffs,2020-21,Boston Bruins,11,2,1,3,6,-8
+Charlie Coyle,F,Regular Season,2020-21,Boston Bruins,51,6,10,16,20,-4
+Clayton Keller,F,Regular Season,2020-21,Arizona Coyotes,56,14,21,35,18,-5
+Jake Oettinger,G,Regular Season,2020-21,Dallas Stars,29,0,1,0,4,
+A.J. Greer,F,Regular Season,2020-21,New Jersey Devils,1,0,0,0,7,0
+David Farrance,D,Regular Season,2020-21,Nashville Predators,2,0,0,0,0,3
+Alex Chiasson,F,Playoffs,2020-21,Edmonton Oilers,3,1,0,1,0,-2
+Jordan Greenway,F,Regular Season,2020-21,Minnesota Wild,56,6,26,32,49,5
+Kevin Shattenkirk,D,Regular Season,2020-21,Anaheim Ducks,55,2,13,15,28,-8
+Jordan Greenway,F,Playoffs,2020-21,Minnesota Wild,7,1,2,3,2,0
+Matt Nieto,F,Regular Season,2020-21,San Jose Sharks,28,5,2,7,4,-4
+Evan Rodrigues,F,Regular Season,2020-21,Pittsburgh Penguins,35,7,7,14,6,-3
+Charlie McAvoy,D,Playoffs,2020-21,Boston Bruins,11,1,11,12,4,2
+Charlie McAvoy,D,Regular Season,2020-21,Boston Bruins,51,5,25,30,38,22
+Matt Grzelcyk,D,Regular Season,2020-21,Boston Bruins,37,5,15,20,22,11
+Nick Bonino,F,Regular Season,2020-21,Minnesota Wild,55,10,16,26,26,0
+Jack Eichel,F,Regular Season,2020-21,Buffalo Sabres,21,2,16,18,6,-9
+Brady Tkachuk,F,Regular Season,2020-21,Ottawa Senators,56,17,19,36,69,-17
+Alex Chiasson,F,Regular Season,2020-21,Edmonton Oilers,45,9,7,16,33,-10
+Matt Grzelcyk,D,Playoffs,2020-21,Boston Bruins,11,1,3,4,4,-2
+Evan Rodrigues,F,Playoffs,2020-21,Pittsburgh Penguins,2,0,1,1,0,1
+Matt Grzelcyk,D,Regular Season,2021-22,Boston Bruins,73,4,20,24,24,22
+Matt Grzelcyk,D,Playoffs,2021-22,Boston Bruins,5,0,0,0,6,-6
+Dante Fabbro,D,Regular Season,2021-22,Nashville Predators,66,3,21,24,24,13
+Trevor Zegras,F,Regular Season,2021-22,Anaheim Ducks,75,23,38,61,50,-21
+Dante Fabbro,D,Playoffs,2021-22,Nashville Predators,4,0,0,0,4,-4
+Charlie McAvoy,D,Regular Season,2021-22,Boston Bruins,78,10,46,56,66,31
+Charlie McAvoy,D,Playoffs,2021-22,Boston Bruins,6,0,5,5,4,2
+Jake Oettinger,G,Regular Season,2021-22,Dallas Stars,48,0,2,0,0,
+Kevin Shattenkirk,D,Regular Season,2021-22,Anaheim Ducks,82,8,27,35,36,-9
+Danny O'Regan,F,Regular Season,2021-22,Anaheim Ducks,5,0,1,1,0,-1
+Jake Oettinger,G,Playoffs,2021-22,Dallas Stars,7,0,0,0,0,
+Charlie Coyle,F,Playoffs,2021-22,Boston Bruins,7,2,4,6,2,-7
+Matt Nieto,F,Regular Season,2021-22,San Jose Sharks,70,6,11,17,19,-20
+Brady Tkachuk,F,Regular Season,2021-22,Ottawa Senators,79,30,37,67,117,-7
+Charlie Coyle,F,Regular Season,2021-22,Boston Bruins,82,16,28,44,32,-6
+Evan Rodrigues,F,Regular Season,2021-22,Pittsburgh Penguins,82,19,24,43,14,3
+Jack Eichel,F,Regular Season,2021-22,Vegas Golden Knights,34,14,11,25,10,3
+Evan Rodrigues,F,Playoffs,2021-22,Pittsburgh Penguins,7,3,2,5,4,-2
+Max Willman,F,Regular Season,2021-22,Philadelphia Flyers,41,4,2,6,16,-13
+A.J. Greer,F,Regular Season,2021-22,New Jersey Devils,9,1,1,2,2,0
+Alex Vlasic,D,Regular Season,2021-22,Chicago Blackhawks,15,1,1,2,2,-2
+Jordan Greenway,F,Regular Season,2021-22,Minnesota Wild,62,10,17,27,69,26
+Nick Bonino,F,Regular Season,2021-22,San Jose Sharks,80,16,10,26,18,-25
+Alex Chiasson,F,Regular Season,2021-22,Vancouver Canucks,67,13,9,22,24,4
+Jordan Greenway,F,Playoffs,2021-22,Minnesota Wild,6,1,1,2,6,0
+Joel Farabee,F,Regular Season,2021-22,Philadelphia Flyers,63,17,17,34,50,-11
+Kieffer Bellows,F,Regular Season,2021-22,New York Islanders,45,6,13,19,19,-1
+Clayton Keller,F,Regular Season,2021-22,Arizona Coyotes,67,28,35,63,28,3
+Matt Nieto,F,Regular Season,2022-23,San Jose Sharks,45,8,7,15,8,-22
+Joel Farabee,F,Regular Season,2022-23,Philadelphia Flyers,82,15,24,39,41,-1
+Brady Tkachuk,F,Regular Season,2022-23,Ottawa Senators,82,35,48,83,126,-10
+Clayton Keller,F,Regular Season,2022-23,Arizona Coyotes,82,37,49,86,49,-2
+Alex Chiasson,F,Regular Season,2022-23,Detroit Red Wings,20,6,3,9,6,-8
+Matt Grzelcyk,D,Playoffs,2022-23,Boston Bruins,4,0,0,0,0,-1
+Matt Grzelcyk,D,Regular Season,2022-23,Boston Bruins,75,4,22,26,28,46
+Kevin Shattenkirk,D,Regular Season,2022-23,Anaheim Ducks,75,4,23,27,56,-20
+Jordan Greenway,F,Regular Season,2022-23,Buffalo Sabres,17,4,0,4,0,-3
+Max Willman,F,Regular Season,2022-23,Philadelphia Flyers,9,0,0,0,4,-3
+Nick Bonino,F,Regular Season,2022-23,Pittsburgh Penguins,3,0,0,0,0,1
+Nick Bonino,F,Regular Season,2022-23,San Jose Sharks,59,10,9,19,28,-6
+Matt Nieto,F,Regular Season,2022-23,Colorado Avalanche,36,4,5,9,8,7
+Alex Vlasic,D,Regular Season,2022-23,Chicago Blackhawks,6,0,1,1,0,-1
+Jordan Greenway,F,Regular Season,2022-23,Minnesota Wild,45,2,5,7,26,-3
+Evan Rodrigues,F,Playoffs,2022-23,Colorado Avalanche,7,1,4,5,2,4
+Evan Rodrigues,F,Regular Season,2022-23,Colorado Avalanche,69,16,23,39,30,7
+Matt Nieto,F,Playoffs,2022-23,Colorado Avalanche,7,0,0,0,2,0
+Kieffer Bellows,F,Regular Season,2022-23,Philadelphia Flyers,27,3,0,3,6,-7
+Charlie McAvoy,D,Regular Season,2022-23,Boston Bruins,67,7,45,52,54,29
+Charlie Coyle,F,Regular Season,2022-23,Boston Bruins,82,16,29,45,30,29
+Charlie Coyle,F,Playoffs,2022-23,Boston Bruins,7,1,1,2,4,-1
+Dante Fabbro,D,Regular Season,2022-23,Nashville Predators,79,2,9,11,50,-4
+Kieffer Bellows,F,Regular Season,2022-23,New York Islanders,1,0,0,0,0,-1
+Shane Bowers,F,Regular Season,2022-23,Colorado Avalanche,1,0,0,0,0,0
+Jake Oettinger,G,Playoffs,2022-23,Dallas Stars,19,0,0,0,0,
+Trevor Zegras,F,Regular Season,2022-23,Anaheim Ducks,81,23,42,65,88,-24
+A.J. Greer,F,Regular Season,2022-23,Boston Bruins,61,5,7,12,114,9
+Jack Eichel,F,Regular Season,2022-23,Vegas Golden Knights,67,27,39,66,6,26
+Jake Oettinger,G,Regular Season,2022-23,Dallas Stars,62,0,1,0,2,
+Jack Eichel,F,Playoffs,2022-23,Vegas Golden Knights,22,6,20,26,14,14
+Charlie McAvoy,D,Playoffs,2022-23,Boston Bruins,7,0,5,5,8,-3
+Matt Grzelcyk,D,Playoffs,2023-24,Boston Bruins,3,0,0,0,2,0
+Cam Crotty,D,Regular Season,2023-24,Arizona Coyotes,1,0,0,0,0,-1
+Charlie McAvoy,D,Playoffs,2023-24,Boston Bruins,13,1,5,6,20,-4
+Dante Fabbro,D,Playoffs,2023-24,Nashville Predators,3,0,0,0,0,0
+Dante Fabbro,D,Regular Season,2023-24,Nashville Predators,56,3,10,13,24,9
+Jordan Greenway,F,Regular Season,2023-24,Buffalo Sabres,67,10,18,28,64,11
+Jack Eichel,F,Playoffs,2023-24,Vegas Golden Knights,7,3,4,7,0,0
+Charlie Coyle,F,Playoffs,2023-24,Boston Bruins,13,1,4,5,12,0
+Clayton Keller,F,Regular Season,2023-24,Arizona Coyotes,78,33,43,76,32,-20
+Charlie Coyle,F,Regular Season,2023-24,Boston Bruins,82,25,35,60,38,-2
+Lane Hutson,D,Regular Season,2023-24,Montréal Canadiens,2,0,2,2,0,-2
+Charlie McAvoy,D,Regular Season,2023-24,Boston Bruins,74,12,35,47,86,4
+Joel Farabee,F,Regular Season,2023-24,Philadelphia Flyers,82,22,28,50,37,-13
+Evan Rodrigues,F,Playoffs,2023-24,Florida Panthers,24,7,8,15,4,6
+Matt Grzelcyk,D,Regular Season,2023-24,Boston Bruins,63,2,9,11,37,13
+Kevin Shattenkirk,D,Playoffs,2023-24,Boston Bruins,6,0,1,1,0,-1
+Kevin Shattenkirk,D,Regular Season,2023-24,Boston Bruins,61,6,18,24,18,-2
+A.J. Greer,F,Regular Season,2023-24,Calgary Flames,59,6,6,12,35,-7
+Trevor Zegras,F,Regular Season,2023-24,Anaheim Ducks,31,6,9,15,30,-1
+Max Willman,F,Regular Season,2023-24,New Jersey Devils,18,3,1,4,2,1
+Jake Oettinger,G,Playoffs,2023-24,Dallas Stars,19,0,1,0,2,
+Evan Rodrigues,F,Regular Season,2023-24,Florida Panthers,80,12,27,39,34,26
+Jake Oettinger,G,Regular Season,2023-24,Dallas Stars,54,0,0,0,2,
+Matt Nieto,F,Regular Season,2023-24,Pittsburgh Penguins,22,1,3,4,4,5
+Jack Eichel,F,Regular Season,2023-24,Vegas Golden Knights,63,31,37,68,27,4
+Shane Bowers,F,Regular Season,2023-24,New Jersey Devils,8,0,0,0,0,1
+Nick Bonino,F,Regular Season,2023-24,New York Rangers,45,1,4,5,8,-12
+Alex Vlasic,D,Regular Season,2023-24,Chicago Blackhawks,76,2,14,16,45,-4
+Brady Tkachuk,F,Regular Season,2023-24,Ottawa Senators,81,37,37,74,134,1
+Brady Tkachuk,F,Regular Season,2024-25,Ottawa Senators,72,29,26,55,123,0
+Macklin Celebrini,F,Regular Season,2024-25,San Jose Sharks,70,25,38,63,28,-31
+Devin Kaplan,F,Regular Season,2024-25,Philadelphia Flyers,1,0,0,0,0,-1
+Brady Tkachuk,F,Playoffs,2024-25,Ottawa Senators,6,4,3,7,6,2
+Kieffer Bellows,F,Regular Season,2024-25,Nashville Predators,19,2,2,4,6,-6
+Trevor Zegras,F,Regular Season,2024-25,Anaheim Ducks,57,12,20,32,23,-8
+Joel Farabee,F,Regular Season,2024-25,Calgary Flames,31,3,3,6,8,-5
+Charlie McAvoy,D,Regular Season,2024-25,Boston Bruins,50,7,16,23,46,0
+Charlie Coyle,F,Regular Season,2024-25,Boston Bruins,64,15,7,22,18,-14
+Dante Fabbro,D,Regular Season,2024-25,Nashville Predators,6,0,0,0,0,-3
+Dante Fabbro,D,Regular Season,2024-25,Columbus Blue Jackets,62,9,17,26,40,23
+Drew Commesso,G,Regular Season,2024-25,Chicago Blackhawks,2,0,0,0,0,
+Jake Oettinger,G,Regular Season,2024-25,Dallas Stars,58,0,1,0,0,
+Jake Oettinger,G,Playoffs,2024-25,Dallas Stars,18,0,0,0,2,
+Ryan Greene,F,Regular Season,2024-25,Chicago Blackhawks,2,0,0,0,0,0
+Shane Bowers,F,Regular Season,2024-25,New Jersey Devils,4,0,0,0,0,-1
+Alex Vlasic,D,Regular Season,2024-25,Chicago Blackhawks,82,4,26,30,12,-23
+Evan Rodrigues,F,Regular Season,2024-25,Florida Panthers,82,15,17,32,38,-4
+Evan Rodrigues,F,Playoffs,2024-25,Florida Panthers,21,2,13,15,10,3
+A.J. Greer,F,Regular Season,2024-25,Florida Panthers,81,6,11,17,130,4
+Charlie Coyle,F,Regular Season,2024-25,Colorado Avalanche,19,2,11,13,6,5
+Charlie Coyle,F,Playoffs,2024-25,Colorado Avalanche,7,1,0,1,2,-4
+Matt Grzelcyk,D,Regular Season,2024-25,Pittsburgh Penguins,82,1,39,40,16,-6
+Quinn Hutson,F,Regular Season,2024-25,Edmonton Oilers,2,0,0,0,2,0
+A.J. Greer,F,Playoffs,2024-25,Florida Panthers,16,2,1,3,22,-2
+Matt Nieto,F,Regular Season,2024-25,Pittsburgh Penguins,32,1,2,3,4,-8
+Cam Crotty,D,Regular Season,2024-25,Minnesota Wild,1,0,0,0,0,-1
+Domenick Fensore,D,Regular Season,2024-25,Carolina Hurricanes,2,0,0,0,2,0
+Jack Eichel,F,Regular Season,2024-25,Vegas Golden Knights,77,28,66,94,8,32
+Joel Farabee,F,Regular Season,2024-25,Philadelphia Flyers,50,8,11,19,26,-12
+Clayton Keller,F,Regular Season,2024-25,Utah Hockey Club,81,30,60,90,28,-12
+Lane Hutson,D,Regular Season,2024-25,Montréal Canadiens,82,6,60,66,34,-2
+Lane Hutson,D,Playoffs,2024-25,Montréal Canadiens,5,0,5,5,0,-5
+Jack Eichel,F,Playoffs,2024-25,Vegas Golden Knights,11,1,9,10,0,-8
+Jordan Greenway,F,Regular Season,2024-25,Buffalo Sabres,34,3,5,8,45,-4
+Sacha Boisvert,F,Regular Season,2025-26,Chicago Blackhawks,7,1,1,2,9,-1
+Drew Commesso,G,Regular Season,2025-26,Chicago Blackhawks,3,0,0,0,0,
+Shane Lachance,F,Regular Season,2025-26,New Jersey Devils,1,0,0,0,0,0
+Alex Vlasic,D,Regular Season,2025-26,Chicago Blackhawks,81,2,19,21,17,-16
+Brady Tkachuk,F,Playoffs,2025-26,Ottawa Senators,4,0,0,0,13,-4
+Evan Rodrigues,F,Regular Season,2025-26,Florida Panthers,69,11,20,31,38,-16
+Jordan Greenway,F,Regular Season,2025-26,Buffalo Sabres,40,1,5,6,29,-10
+Jordan Greenway,F,Playoffs,2025-26,Buffalo Sabres,13,2,1,3,6,-1
+Macklin Celebrini,F,Regular Season,2025-26,San Jose Sharks,82,45,70,115,44,8
+Domenick Fensore,D,Regular Season,2025-26,Carolina Hurricanes,1,0,0,0,0,-2
+Tom Willander,D,Regular Season,2025-26,Vancouver Canucks,70,5,16,21,28,-23
+Ryan Greene,F,Regular Season,2025-26,Chicago Blackhawks,81,12,17,29,14,-14
+Brady Tkachuk,F,Regular Season,2025-26,Ottawa Senators,60,22,37,59,71,4
+Charlie Coyle,F,Regular Season,2025-26,Columbus Blue Jackets,82,20,38,58,14,3
+Jack Eichel,F,Regular Season,2025-26,Vegas Golden Knights,74,27,63,90,18,23
+Lane Hutson,D,Regular Season,2025-26,Montréal Canadiens,82,12,66,78,34,36
+Clayton Keller,F,Regular Season,2025-26,Utah Mammoth,82,26,62,88,38,21
+Clayton Keller,F,Playoffs,2025-26,Utah Mammoth,6,1,4,5,0,1
+Wilmer Skoog,F,Regular Season,2025-26,Florida Panthers,3,0,2,2,4,3
+Cam Crotty,D,Regular Season,2025-26,Ottawa Senators,6,0,1,1,0,0
+Cam Crotty,D,Playoffs,2025-26,Ottawa Senators,1,0,0,0,0,-1
+Quinn Hutson,F,Regular Season,2025-26,Edmonton Oilers,4,1,0,1,0,-1
+Matt Grzelcyk,D,Regular Season,2025-26,Chicago Blackhawks,69,0,12,12,32,-9
+Jack Eichel,F,Playoffs,2025-26,Vegas Golden Knights,22,2,20,22,16,4
+Charlie McAvoy,D,Regular Season,2025-26,Boston Bruins,69,11,50,61,62,13
+Jake Oettinger,G,Playoffs,2025-26,Dallas Stars,6,0,0,0,0,
+Trevor Zegras,F,Playoffs,2025-26,Philadelphia Flyers,10,2,4,6,26,1
+Trevor Zegras,F,Regular Season,2025-26,Philadelphia Flyers,81,26,41,67,62,0
+Jake Oettinger,G,Regular Season,2025-26,Dallas Stars,54,0,1,0,0,
+Joel Farabee,F,Regular Season,2025-26,Calgary Flames,82,20,18,38,28,-9
+Dante Fabbro,D,Regular Season,2025-26,Columbus Blue Jackets,74,5,6,11,33,-16
+Lane Hutson,D,Playoffs,2025-26,Montréal Canadiens,19,3,13,16,12,-3
+A.J. Greer,F,Regular Season,2025-26,Florida Panthers,78,17,15,32,113,14
+Charlie McAvoy,D,Playoffs,2025-26,Boston Bruins,6,0,2,2,19,-6
+Cole Hutson,D,Regular Season,2025-26,Washington Capitals,14,3,7,10,8,-3

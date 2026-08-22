@@ -3993,6 +3993,12 @@ def getNHLers():
   ''' returns NHLers'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"nhlers.csv")
   return dfRes
+  
+def getProStats(league,sType):
+  ''' returns ProStats'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{league.lower()}{sType.lower()}seasonstats.csv")
+  return dfRes
+
 
 def getNHLAwards():
   ''' returns NHL Award Winners'''
