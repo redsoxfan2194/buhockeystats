@@ -219,6 +219,12 @@ function initializeFilters() {
         element.style.display = showDraftData ? "" : "none";
     });
     
+    const group = document.getElementById("group");
+    const selectedOption = group.options[group.selectedIndex];
+
+    if (selectedOption && selectedOption.style.display === "none") {
+        group.value = "";
+    }
     clearFilters();
 }
 
@@ -572,6 +578,12 @@ function submitForm(reset = "false") {
                         })
                     );
                 });
+            const group = document.getElementById("group");
+            const selectedOption = group.options[group.selectedIndex];
+
+            if (selectedOption && selectedOption.style.display === "none") {
+                group.value = "";
+            }
                 
         },
         error: function (xhr, status, error) {

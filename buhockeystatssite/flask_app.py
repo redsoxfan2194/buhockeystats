@@ -310,10 +310,7 @@ def players():
             dfStat = dfStat.query(f"state==\"{formData['state']}\"")
           if formData['country'] != 'all':
             dfStat = dfStat.query(f"country==\"{formData['country']}\"")
-          if formData['group'] in ['city','state','country'] and formData['type']=='career':
-            dfStat =  dfStat.groupby(formData['group']).sum(numeric_only=True).reset_index().drop('index',axis=1)
-          elif formData['group'] in ['city','state','country'] and formData['type']=='season':
-            dfStat =  dfStat.groupby([formData['group'],'season']).sum(numeric_only=True).reset_index().drop('year',axis=1)
+
         if formData['showDraftDataStatus'] == 'true':
           dfStat = dfStat.merge(dfDraft[['name','draft','round','pick','team','pick in round']],how='left')
           if formData['type']=='career':
@@ -341,24 +338,57 @@ def players():
             dfStat = dfStat.query(f"pick{formData['pickop']} {int(formData['pickmin'])}")
           if(formData['pirmin'] != ''):
             dfStat = dfStat.query(f"`pick in round`{formData['pirop']} {int(formData['pirmin'])}")
-          if formData['group'] in ['round','team'] and formData['type']=='career':
-            dfStat =  dfStat.groupby(formData['group']).sum(numeric_only=True).reset_index().drop('index',axis=1)
-          elif formData['group'] in ['round','team'] and formData['type']=='season':
-            dfStat =  dfStat.groupby([formData['group'],'season']).sum(numeric_only=True).reset_index()
         if formData['name'] != '':
             dfStat = dfStat.loc[dfStat['name'].str.contains(
                 formData['name'].strip(), case=False)]
         if formData['number'] != '':
             dfStat = dfStat.query(f"number == {formData['number']}")
+        
+
+        if formData['group'] in ['city','state','country','draft','round','pick','team','pick in round'] and formData['group'] not in dfStat.columns:
+          groupVal = ''
+        else:
+          groupVal = formData['group']
+          if formData['type']=='career' and formData['group'] in ['city','state','country']:
+              if('round' in dfStat.columns):
+                dfStat = dfStat.drop(['draft','round','pick','team','pick in round'],axis=1)
+              dfStat =  dfStat.groupby(formData['group']).sum(numeric_only=True).reset_index().drop('index',axis=1)
+
+          elif formData['type']=='season' and formData['group'] in ['city','state','country']:
+              if('round' in dfStat.columns):
+                dfStat = dfStat.drop(['draft','round','pick','team','pick in round'],axis=1)
+              dfStat =  dfStat.groupby([formData['group'],'season']).sum(numeric_only=True).reset_index().drop(['year','number'],axis=1)
+          if formData['type']=='career' and formData['group'] in ['round','team']:
+            dfStat =  dfStat.groupby(formData['group']).sum(numeric_only=True).reset_index().drop('index',axis=1)
+            if('city' in dfStat.columns):
+                dfStat = dfStat.drop(['city','state','country'],axis=1)
+            if(formData['group']!='round'):
+              dfStat = dfStat.drop(['draft','round','pick','pick in round'],axis=1)
+            else:
+              dfStat = dfStat.drop(['draft','pick','pick in round'],axis=1)
+          elif formData['type']=='season' and formData['group'] in ['round','team']:
+            dfStat =  dfStat.groupby([formData['group'],'season']).sum(numeric_only=True).reset_index().drop(['year','number'],axis=1)
+            if('city' in dfStat.columns):
+                dfStat = dfStat.drop(['city','state','country'],axis=1)
+            if(formData['group']!='round'):
+              dfStat = dfStat.drop(['draft','round','pick','pick in round'],axis=1)
+            else:
+              dfStat = dfStat.drop(['draft','pick','pick in round'],axis=1)
+              
+          if formData['position'] == 'goalie' and formData['group'] in ['city','state','country','draft','round','pick','team','pick in round']:
+              dfStat=dfStat.rename(columns={'min':'mins'})
+              dfStat['sv%'] = round(
+                  dfStat['saves'] / (dfStat['saves'] + dfStat['ga']), 3)
+              dfStat['gaa'] = round((dfStat['ga'] / dfStat['mins']) * 60, 2)
         if (formData['type']=='game' and formData['group'] not in ['', 'splits', 'records']
-                and formData['position'] == 'skater'):
+                and formData['position'] == 'skater' and 'name' in dfStat.columns):
             dfStat = dfStat.query(f"{formData['group']}!=''").groupby(
                 ['name', formData['group']]).sum(numeric_only=True)
             dfStat = dfStat.reset_index()
             dfStat = dfStat[['name', formData['group'],
                              'gp', 'goals', 'assists', 'pts']]
         if (formData['type']=='game' and formData['group'] not in ['', 'splits', 'records']
-                and formData['position'] == 'goalie'):
+                and formData['position'] == 'goalie' and 'name' in dfStat.columns):
             dfStat = determineRecord(dfStat,formData['group'])
             dfStat = dfStat.query(f"{formData['group']}!=''").groupby(
                 ['name', formData['group']]).sum(numeric_only=True)
@@ -664,6 +694,7 @@ def players():
                        city_values=cityList,
                        state_values=stateList,
                        country_values=countryList,
+                       selected_group=groupVal,
                        selected_city=formData['city'],
                        selected_state=formData['state'],
                        selected_country=formData['country'],
