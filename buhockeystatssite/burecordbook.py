@@ -3999,6 +3999,12 @@ def getProStats(league,sType):
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{league.lower()}{sType.lower()}seasonstats.csv")
   return dfRes
 
+def getProHatTricksList(league):
+  ''' returns ProHatTricks'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{league.lower()}hattricks.csv")
+  dfRes['date'] = pd.to_datetime(dfRes['date'])
+  return dfRes
+
 
 def getNHLAwards():
   ''' returns NHL Award Winners'''

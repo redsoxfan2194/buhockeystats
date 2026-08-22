@@ -1424,6 +1424,19 @@ def hattricks():
     mHattricks=formatTable(burb.getHatTrickList('Mens')),
     wHattricks=formatTable(burb.getHatTrickList('Womens')),titletag=' - Hat Tricks')
 
+@app.route('/prohattricks')
+def prohattricks():
+    ''' Renders "Pro Hat Tricks" Page
+
+    Returns:
+      Flask Template : flask template containing prohattricks.html
+    '''
+    return render_template(
+    'prohattricks.html',
+    nhlHattricks=formatTable(burb.getProHatTricksList('nhl')),
+    pwhlHattricks=formatTable(burb.getProHatTricksList('pwhl')),titletag=' - Pro Hat Tricks')
+
+
 @app.route('/birthday')
 @app.route('/birthdays',methods=['GET'])
 def birthdays():

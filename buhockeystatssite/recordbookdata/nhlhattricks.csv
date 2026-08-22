@@ -1,0 +1,61 @@
+number,date,team,goalscorer,opponent,arena
+1,03/21/1979,MNS,Mike Fidler,PHI,Metropolitan Sports Center
+2,10/17/1981,HFD,Rick Meagher,DET,Hartford Civic Center
+3,12/26/1986,STL,Rick Meagher,CHI,Chicago Stadium
+4,02/20/1990,PIT,John Cullen,PHI,Civic Arena
+5,01/17/1991,PIT,John Cullen,TOR,Maple Leaf Gardens
+6,02/04/1992,HFD,John Cullen,SJS,Cow Palace
+7,03/14/1992,NYR,Tony Amonte,STL,St. Louis Arena
+8,12/12/1992,QUE,Scott Young,SJS,Cow Palace
+9,10/23/1993,WIN,Keith Tkachuk,PHI,Spectrum
+10,12/19/1993,QUE,Scott Young,SJS,Le Colisée
+11,04/23/1994,CHI,Tony Amonte (4),TOR,Chicago Stadium
+12,03/26/1995,QUE,Scott Young,OTT,Ottawa Civic Centre
+13,05/11/1995,CGY,Mike Sullivan,SJS,San Jose Arena
+14,02/22/1996,CHI,Tony Amonte,STL,United Center
+15,03/26/1996,WIN,Keith Tkachuk (4),DAL,Reunion Arena
+16,11/09/1996,COL,Scott Young,MTL,McNichols Sports Arena
+17,11/28/1996,PHX,Keith Tkachuk,NJD,America West Arena
+18,11/30/1996,CHI,Tony Amonte,LAK,Great Western Forum
+19,03/16/1997,CHI,Tony Amonte,NYI,United Center
+20,03/20/1997,PHX,Keith Tkachuk (4),CHI,United Center
+21,10/22/1997,OTT,Shawn McEachern,TOR,Maple Leaf Gardens
+22,12/01/1997,PHX,Keith Tkachuk,FLA,Miami Arena
+23,12/26/1997,PHX,Keith Tkachuk,SJS,San Jose Arena
+24,04/03/1998,PHX,Keith Tkachuk,ANA,America West Arena
+25,11/28/1998,CHI,Tony Amonte,CGY,Canadian Airlines Saddledome
+26,03/07/1999,PHX,Keith Tkachuk,NSH,America West Arena
+27,03/20/1999,EDM,Mike Grier,VAN,Skyreach Centre
+28,03/28/1999,CHI,Tony Amonte,STL,United Center
+29,03/12/2000,CHI,Tony Amonte,TBL,Ice Palace
+30,04/23/2000,STL,Scott Young,SJS,San Jose Arena
+31,12/20/2000,PHX,Keith Tkachuk,CGY,America West Arena
+32,05/07/2002,STL,Keith Tkachuk,DET,Savvis Center
+33,10/12/2002,ATL,Shawn McEachern,FLA,Philips Arena
+34,10/14/2006,BUF,Chris Drury,NYR,HSBC Arena
+35,10/31/2007,NJD,Jay Pandolfo,TBL,Prudential Center
+36,11/06/2008,NYR,Chris Drury,TBL,Madison Square Garden
+37,02/02/2013,ANA,Nick Bonino,LAK,Honda Center
+38,03/08/2017,PIT,Nick Bonino,WPG,MTS Centre
+39,10/24/2017,COL,Matt Nieto,DAL,Pepsi Center
+40,12/15/2017,BUF,Jack Eichel,CAR,KeyBank Center
+41,10/29/2019,NSH,Nick Bonino,CHI,Bridgestone Arena
+42,11/16/2019,BUF,Jack Eichel (4),OTT,KeyBank Center
+43,01/31/2021,PHI,Joel Farabee,NYI,Wells Fargo Center
+44,12/11/2021,OTT,Brady Tkachuk,TBL,Canadian Tire Centre
+45,01/02/2022,PIT,Evan Rodrigues,SJS,PPG Paints Arena
+46,11/10/2022,VGK,Jack Eichel,BUF,KeyBank Center
+47,12/11/2022,ARI,Clayton Keller,PHI,Mullett Arena
+48,01/22/2023,ARI,Clayton Keller,VGK,Mullett Arena
+49,03/19/2023,VGK,Jack Eichel,CBJ,T-Mobile Arena
+50,11/09/2023,BOS,Charlie Coyle,NYI,TD Garden
+51,02/13/2024,OTT,Brady Tkachuk,CBJ,Canadian Tire Centre
+52,03/16/2024,OTT,Brady Tkachuk,NYI,UBS Arena
+53,03/25/2025,VGK,Jack Eichel,MIN,Xcel Energy Center
+54,04/09/2025,SJS,Macklin Celebrini,MIN,Xcel Energy Center
+55,10/23/2025,SJS,Macklin Celebrini,NYR,Madison Square Garden
+56,10/25/2025,PHI,Trevor Zegras,NYI,Xfinity Mobile Arena
+57,11/14/2025,PHI,Trevor Zegras,STL,Enterprise Center
+58,11/18/2025,SJS,Macklin Celebrini,UTA,SAP Center at San Jose
+59,01/30/2026,CBJ,Charlie Coyle,CHI,United Center
+60,04/04/2026,UTA,Clayton Keller,VAN,Rogers Arena
