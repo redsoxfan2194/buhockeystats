@@ -4092,7 +4092,43 @@ def refreshStats():
   print("Stats Refreshed")
 
 # Awards
-awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
+awardsDict={"Hockey Hall of Fame" : {2025 : "Jack Parker",
+2026 : "Keith Tkachuck"},
+
+"Hobey Baker Memorial Award": {1998: "Chris Drury",
+2009: "Matt Gilroy",
+2015: "Jack Eichel",
+2024: "Macklin Celebrini"},
+
+"USA Hockey College Player of the Year (Jim Johannson Award)" : {1997: "Chris Drury",
+1998: "Chris Drury",
+2009: "Colin Wilson",
+2015: "Jack Eichel"},
+
+"Tim Taylor Award":{2009:"Kieran Millan",
+2015:"Jack Eichel",
+2017:"Clayton Keller",
+2024:"Macklin Celebrini",
+2025:"Cole Hutson"},
+
+"NCAA Scoring Champion":{"Jack Garrity": [1950],
+"Herb Wakabayashi": [1967],
+"Jack Eichel": [2015]},
+
+"Spencer Penrose Award Winner":{"Harry Cleverly": [1958],
+"Jack Parker": [1975, 1978, 2009]},
+
+"NCAA Tournament Most Outstanding Player":{
+"Ralph Bevins":[1950],
+"Bob Marquis":[1960],
+"Barry Urbanski":[1960],
+"Dan Brady":[1971],
+"Tim Regan":[1972],
+"Jack O'Callahan":[1978],
+"Chris O'Sullivan":[1995],
+"Colby Cohen":[2009]},
+
+"Walter Brown Award":{1973:"Ed Walsh",
 1984:"Cleon Daskalakis",
 1993:"David Sacco",
 1994:"Jacques Joubert",
@@ -4146,7 +4182,8 @@ awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 "2021-22" : ["David Farrance"],
 "2022-23" : ["Lane Hutson"],
 "2023-24" : ["Macklin Celebrini","Lane Hutson"],
-"2024-25" : ['Cole Hutson']},
+"2024-25" : ['Cole Hutson'],
+"2025-26" : ['Cole Hutson']},
 
 "Second Team All-American":{"1983-84" : ["T.J. Connolly"],
 "1985-86" : ["Jay Octeau","John Cullen","Clark Donatelli"],
@@ -4169,6 +4206,28 @@ awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 "2015-16" : ["Danny O'Regan"],
 "2022-23" : ["Matt Brown"]},
 
+"ECAC Rookie of the Year" : {1963 : "Richie Green",
+1967 : "Herb Wakabayashi",
+1968 : "Mike Hyndman",
+1971 : "Bob Brown",
+1973 : "Vic Stanfield",
+1978 : "Mark Fidler",
+1979 : "Bill Whelton",
+1984 : "John Cullen"},
+
+"ECAC Player of the Year" : {1972: "Bob Brown",
+1976: "Peter Brown",
+1984: "Cleon Daskalakis"},
+
+"ECAC Outstanding Defenseman" : {1964: "Richie Green",
+1965: "Tom Ross"},
+
+"ECAC Most Outstanding Player in Tournament" : {1972 : "John Danby",
+1974 : "Ed Walsh",
+1975 : "Rick Meagher",
+1976 : "Terry Meagher",
+1977 : "Rick Meagher"},
+
 "Hockey East Rookie of the Year":{1986:"Scott Young",
 1980:"Scott Cashman",
 2000:"Rick DiPietro",
@@ -4183,32 +4242,26 @@ awardsDict={"Walter Brown Award":{1973:"Ed Walsh",
 2024:"Macklin Celebrini",
 2025:"Cole Hutson"},
 
-"Hockey East Player of the Year" : {1996:"Jay Pandolfo",
+"Hockey East Player of the Year" : {1996: "Jay Pandolfo",
 1997:"Chris Drury",
 1998:"Chris Drury",
 2007:"John Curry",
 2015:"Jack Eichel",
 2024:"Macklin Celebrini"},
 
-"Tim Taylor Award":{2009:"Kieran Millan",
-2015:"Jack Eichel",
-2017:"Clayton Keller",
-2024:"Macklin Celebrini",
-2025:"Cole Hutson"},
+"William Flynn (HEA) Tournament Most Valuable Player": {1986 : "Peter Marshall",
+1991 : "Shawn McEachern",
+1997 : "Michel Larocque",
+2003 : "Sean Fields",
+2006 : "David Van der Gulik",
+2009 : "Kieran Millan",
+2015 : "Jack Eichel",
+2018 : "Jake Oettinger",
+2023 : "Lane Hutson"},
 
-"NCAA Scoring Champion":{"Jack Garrity": [1950],
-"Herb Wakabayashi": [1967],
-"Jack Eichel": [2015]},
+"Bob Kullen Coach of the Year":{
+    "Jack Parker": [1986, 1992, 2000, 2005, 2006],
+    "David Quinn": [2015],
+    "Jay Pandolfo": [2023]}
 
-"Spencer Penrose Award Winner":{"Harry Cleverly": [1958],
-"Jack Parker": [1975, 1978, 2009]},
-
-"NCAA Tournament Most Outstanding Player":{
-"Ralph Bevins":[1950],
-"Bob Marquis":[1960],
-"Barry Urbanski":[1960],
-"Dan Brady":[1971],
-"Tim Regan":[1972],
-"Jack O'Callahan":[1978],
-"Chris O'Sullivan":[1995],
-"Colby Cohen":[2009]}}
+}
