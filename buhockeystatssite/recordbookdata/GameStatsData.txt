@@ -3146,18 +3146,18 @@
 12/01/1962,Princeton,Bob Sylvia,F,SO,1,0,1,1962-63
 12/01/1962,Princeton,Bob Smith,D,SR,0,2,2,1962-63
 12/01/1962,Princeton,John McBride,F,SR,0,2,2,1962-63
-12/01/1962,Princeton,Richard Green,D,,0,1,1,1962-63
+12/01/1962,Princeton,Richie Green,D,,0,1,1,1962-63
 12/01/1962,Princeton,Bob McCabe,F,JR,0,1,1,1962-63
 12/01/1962,Princeton,Bob Martell,F,SO,1,1,2,1962-63
 12/05/1962,Northeastern,Mike Denihan,F,SR,1,0,1,1962-63
-12/05/1962,Northeastern,Richard Green,D,,1,0,1,1962-63
+12/05/1962,Northeastern,Richie Green,D,,1,0,1,1962-63
 12/05/1962,Northeastern,Bob McCabe,F,JR,1,0,1,1962-63
 12/05/1962,Northeastern,John McBride,F,SR,1,0,1,1962-63
 12/05/1962,Northeastern,Bob Smith,D,SR,1,2,3,1962-63
 12/05/1962,Northeastern,Edmund Connors,F,SR,1,2,3,1962-63
 12/08/1962,Harvard,Bob Smith,D,SR,1,0,1,1962-63
 12/14/1962,Clarkson,Mike Denihan,F,SR,1,0,1,1962-63
-12/14/1962,Clarkson,Richard Green,D,,0,1,1,1962-63
+12/14/1962,Clarkson,Richie Green,D,,0,1,1,1962-63
 12/14/1962,Clarkson,Bob Smith,D,SR,0,1,1,1962-63
 12/26/1962,Colorado College,Edmund Connors,F,SR,2,0,2,1962-63
 12/26/1962,Colorado College,Mike Denihan,F,SR,1,1,2,1962-63
@@ -3180,7 +3180,7 @@
 12/28/1962,Northeastern,Bob Martell,F,SO,0,3,3,1962-63
 12/28/1962,Northeastern,Bob Rowan,F,SR,0,1,1,1962-63
 12/28/1962,Northeastern,Bennett McInnis,D,SR,0,1,1,1962-63
-12/28/1962,Northeastern,Richard Green,D,,0,1,1,1962-63
+12/28/1962,Northeastern,Richie Green,D,,0,1,1,1962-63
 01/04/1963,St. Lawrence,Alden Sampson,D,JR,1,0,1,1962-63
 01/04/1963,St. Lawrence,Mike Denihan,F,SR,0,1,1,1962-63
 01/05/1963,Clarkson,Mike Denihan,F,SR,1,1,2,1962-63
@@ -3193,34 +3193,34 @@
 01/12/1963,Rensselaer,Bob Rowan,F,SR,1,1,2,1962-63
 01/12/1963,Rensselaer,Mike Denihan,F,SR,0,1,1,1962-63
 01/12/1963,Rensselaer,Bob Martell,F,SO,0,1,1,1962-63
-01/25/1963,St. Lawrence,Richard Green,D,,1,0,1,1962-63
+01/25/1963,St. Lawrence,Richie Green,D,,1,0,1,1962-63
 01/25/1963,St. Lawrence,Alden Sampson,D,JR,0,1,1,1962-63
 01/30/1963,Colby,Mike Denihan,F,SR,4,1,5,1962-63
 01/30/1963,Colby,Bob Smith,D,SR,2,3,5,1962-63
 01/30/1963,Colby,Edmund Connors,F,SR,1,0,1,1962-63
 01/30/1963,Colby,Bob Sylvia,F,SO,1,0,1,1962-63
 01/30/1963,Colby,Francis McFaun,D,SR,1,0,1,1962-63
-01/30/1963,Colby,Richard Green,D,,1,3,4,1962-63
+01/30/1963,Colby,Richie Green,D,,1,3,4,1962-63
 01/30/1963,Colby,Alden Sampson,D,JR,0,3,3,1962-63
 01/30/1963,Colby,Bob Martell,F,SO,0,3,3,1962-63
 01/30/1963,Colby,Bennett McInnis,D,SR,0,1,1,1962-63
 01/30/1963,Colby,Bob McCabe,F,JR,0,1,1,1962-63
 02/04/1963,Boston College,Bob McCabe,F,JR,1,0,1,1962-63
-02/04/1963,Boston College,Richard Green,D,,0,1,1,1962-63
+02/04/1963,Boston College,Richie Green,D,,0,1,1,1962-63
 02/06/1963,Yale,Mike Denihan,F,SR,1,0,1,1962-63
 02/06/1963,Yale,Bob Rowan,F,SR,2,1,3,1962-63
 02/06/1963,Yale,Jim Higgins,D,SR,1,1,2,1962-63
-02/06/1963,Yale,Richard Green,D,,0,2,2,1962-63
+02/06/1963,Yale,Richie Green,D,,0,2,2,1962-63
 02/06/1963,Yale,Francis McFaun,D,SR,0,1,1,1962-63
 02/16/1963,Colby,Bob Smith,D,SR,2,0,2,1962-63
 02/16/1963,Colby,John McBride,F,SR,1,1,2,1962-63
 02/16/1963,Colby,Bob Martell,F,SO,0,1,1,1962-63
 02/16/1963,Colby,Mike Denihan,F,SR,0,1,1,1962-63
-02/16/1963,Colby,Richard Green,D,,0,1,1,1962-63
+02/16/1963,Colby,Richie Green,D,,0,1,1,1962-63
 02/25/1963,Northeastern,Bob Rowan,F,SR,2,1,3,1962-63
 02/25/1963,Northeastern,Bob Smith,D,SR,1,2,3,1962-63
 02/25/1963,Northeastern,Bob Sylvia,F,SO,1,0,1,1962-63
-02/25/1963,Northeastern,Richard Green,D,,0,2,2,1962-63
+02/25/1963,Northeastern,Richie Green,D,,0,2,2,1962-63
 02/25/1963,Northeastern,Bob McCabe,F,JR,0,1,1,1962-63
 02/25/1963,Northeastern,Bob Martell,F,SO,0,1,1,1962-63
 02/25/1963,Northeastern,Mike Denihan,F,SR,0,1,1,1962-63
@@ -3254,7 +3254,7 @@
 11/15/1963,New Brunswick,Alden Sampson,D,SR,0,1,1,1963-64
 11/15/1963,New Brunswick,Ken Ross,F,JR,0,1,1,1963-64
 11/16/1963,New Brunswick,Lyman Carter,F,,1,0,1,1963-64
-11/16/1963,New Brunswick,Richard Green,F,,1,1,2,1963-64
+11/16/1963,New Brunswick,Richie Green,F,,1,1,2,1963-64
 11/16/1963,New Brunswick,Jim Todaro,F,SO,0,1,1,1963-64
 11/30/1963,Princeton,Jim Todaro,F,SO,1,2,3,1963-64
 11/30/1963,Princeton,Bill Jackson,F,,1,0,1,1963-64
@@ -3271,7 +3271,7 @@
 12/02/1963,Yale,Jim Todaro,F,SO,0,1,1,1963-64
 12/02/1963,Yale,Ken Ross,F,JR,0,2,2,1963-64
 12/02/1963,Yale,Lyman Carter,F,,1,0,1,1963-64
-12/02/1963,Yale,Richard Green,D,,1,1,2,1963-64
+12/02/1963,Yale,Richie Green,D,,1,1,2,1963-64
 12/02/1963,Yale,Vic Conte,D,SO,0,1,1,1963-64
 12/07/1963,Dartmouth,Lyman Carter,F,,1,1,2,1963-64
 12/07/1963,Dartmouth,Dennis O'Connell,F,SO,1,1,2,1963-64
@@ -3280,7 +3280,7 @@
 12/07/1963,Dartmouth,Jim Todaro,F,SO,0,2,2,1963-64
 12/07/1963,Dartmouth,Bob McCabe,F,SR,0,1,1,1963-64
 12/07/1963,Dartmouth,Ray Payne,D,SO,0,1,1,1963-64
-12/10/1963,Brown,Richard Green,D,,0,1,1,1963-64
+12/10/1963,Brown,Richie Green,D,,0,1,1,1963-64
 12/10/1963,Brown,Ken Ross,F,JR,1,1,2,1963-64
 12/10/1963,Brown,Bruce Fennie,F,SO,1,1,2,1963-64
 12/10/1963,Brown,Bob Martell,F,JR,1,0,1,1963-64
@@ -3301,12 +3301,12 @@
 01/03/1964,Harvard,Bob Martell,F,JR,0,1,1,1963-64
 01/03/1964,Harvard,Bob Sylvia,F,JR,1,0,1,1963-64
 01/03/1964,Harvard,Dennis O'Connell,F,SO,1,0,1,1963-64
-01/03/1964,Harvard,Richard Green,D,,0,2,2,1963-64
+01/03/1964,Harvard,Richie Green,D,,0,2,2,1963-64
 01/08/1964,Northeastern,Dennis O'Connell,F,SO,0,1,1,1963-64
 01/08/1964,Northeastern,Alden Sampson,D,SR,0,1,1,1963-64
 01/08/1964,Northeastern,Bob Martell,F,JR,1,0,1,1963-64
 01/08/1964,Northeastern,Bob McCabe,F,SR,1,0,1,1963-64
-01/11/1964,Boston College,Richard Green,D,,0,1,1,1963-64
+01/11/1964,Boston College,Richie Green,D,,0,1,1,1963-64
 01/11/1964,Boston College,Lyman Carter,F,,1,2,3,1963-64
 01/11/1964,Boston College,Dennis O'Connell,F,SO,1,0,1,1963-64
 01/11/1964,Boston College,Allen Comeau,D,SR,0,1,1,1963-64
@@ -3322,7 +3322,7 @@
 01/29/1964,Colby,Vic Conte,D,SO,0,2,2,1963-64
 01/29/1964,Colby,Bruce Fennie,F,SO,0,1,1,1963-64
 01/29/1964,Colby,Lyman Carter,F,,0,2,2,1963-64
-01/31/1964,Clarkson,Richard Green,D,,0,1,1,1963-64
+01/31/1964,Clarkson,Richie Green,D,,0,1,1,1963-64
 01/31/1964,Clarkson,Mike O'Connell,F,,0,1,1,1963-64
 01/31/1964,Clarkson,Vic Conte,D,SO,2,0,2,1963-64
 01/31/1964,Clarkson,Lyman Carter,F,,1,1,2,1963-64
@@ -3335,13 +3335,13 @@
 02/03/1964,Harvard,Bob McCabe,F,SR,1,0,1,1963-64
 02/03/1964,Harvard,Bruce Fennie,F,SO,1,1,2,1963-64
 02/03/1964,Harvard,Lyman Carter,F,,1,0,1,1963-64
-02/03/1964,Harvard,Richard Green,D,,0,2,2,1963-64
+02/03/1964,Harvard,Richie Green,D,,0,2,2,1963-64
 02/03/1964,Harvard,Vic Conte,D,SO,0,1,1,1963-64
 02/10/1964,Boston College,Bob Martell,F,JR,1,2,3,1963-64
 02/10/1964,Boston College,Bob McCabe,F,SR,1,2,3,1963-64
 02/10/1964,Boston College,Bob Sylvia,F,JR,2,1,3,1963-64
 02/10/1964,Boston College,Bruce Fennie,F,SO,1,0,1,1963-64
-02/10/1964,Boston College,Richard Green,D,,0,1,1,1963-64
+02/10/1964,Boston College,Richie Green,D,,0,1,1,1963-64
 02/12/1964,Providence,Jim Todaro,F,SO,0,1,1,1963-64
 02/12/1964,Providence,Lyman Carter,F,,1,1,2,1963-64
 02/12/1964,Providence,Bruce Fennie,F,SO,2,1,3,1963-64

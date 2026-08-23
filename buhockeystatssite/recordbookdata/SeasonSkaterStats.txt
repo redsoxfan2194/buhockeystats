@@ -298,7 +298,7 @@
 3	Ken Ross	F	JR	13	3	3	6	—/8	1962-63
 10	Leo Maloney	F		4	0	0	0	—/0	1962-63
 14	Mike Denihan	F	SR	23	25	14	39	—/8	1962-63
-7	Richard Green	D		23	3	13	16	—/40	1962-63
+7	Richie Green	D		23	3	13	16	—/40	1962-63
 2	Alden Sampson	D	SR	14	3	5	8	—/4	1963-64
 5	Allen Comeau	D	SR	24	0	2	2	—/14	1963-64
 12	Bill Jackson	F		21	5	6	11	—/20	1963-64
@@ -314,7 +314,7 @@
 10	Manuel Eads	F		3	0	0	0	—/0	1963-64
 8	Mike O'Connell	F		10	0	1	1	—/2	1963-64
 11	Ray Payne	D	SO	6	0	0	0	—/2	1963-64
-7	Richard Green	D		16	3	11	14	—/22	1963-64
+7	Richie Green	D		16	3	11	14	—/22	1963-64
 3	Tom Ross	D	SO	23	1	10	11	—/10	1963-64
 9	Vic Conte	D	SO	24	5	10	15	—/10	1963-64
 15	Bob Martell	F	SR	31	16	19	35	—/8	1964-65
