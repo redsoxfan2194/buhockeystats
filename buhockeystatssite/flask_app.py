@@ -1320,7 +1320,7 @@ def prostats():
             dfStat = dfStat.query(f"season == \'{formData['season']}\'")
           if formData['seasonType'] != 'all':
               if(formData['seasonType'] == "Totals"):
-                dfStat = dfStat.groupby(['name','season','team']).sum(numeric_only=True).reset_index().drop('+/-',axis=1,errors='ignore')
+                dfStat = dfStat.groupby(['name','pos','season','team']).sum(numeric_only=True).reset_index().drop('+/-',axis=1,errors='ignore')
               else:
                 dfStat = dfStat.query(f"seasonType == \'{formData['seasonType']}\'")
           dfStat = dfStat.drop('+/-',axis=1,errors='ignore')
