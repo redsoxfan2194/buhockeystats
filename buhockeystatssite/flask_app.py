@@ -11,6 +11,7 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 from querystatsbot import querystatsbot, generaterandomstat
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable,formatTable
 import burecordbook as burb
+from flask_caching import Cache
 
 dayNames = {
     0: 'Monday',
@@ -28,6 +29,11 @@ easternTZ = pytz.timezone('US/Eastern')
 app = Flask(__name__)
 
 app.wsgi_app = ProxyFix(app.wsgi_app)
+
+app.config["CACHE_TYPE"] = "SimpleCache"
+app.config["CACHE_DEFAULT_TIMEOUT"] = 300
+
+cache = Cache(app)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
@@ -1041,6 +1047,7 @@ def records():
 
 
 @app.route('/notables')
+@cache.memoize(timeout=3600)
 def noteables():
     ''' Renders "Season Notables" Page
 
