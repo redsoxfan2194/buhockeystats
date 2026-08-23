@@ -1045,7 +1045,6 @@ def records():
             dfOrig.coach.unique()),
         selected_day=0)
 
-
 @app.route('/notables')
 @cache.memoize(timeout=3600)
 def noteables():
@@ -1307,6 +1306,9 @@ def prostats():
         eYear = int(formData['seasonEnd'][:4])+1
         dfStat = dfStat.query(f'year>={sYear} and year<={eYear}')
         dfStat = dfStat.drop('year',axis=1,errors='ignore')
+        if(formData['name']!=''):
+          dfStat = dfStat.loc[dfStat['name'].str.contains(
+                formData['name'].strip(), case=False)]
         if(formData['type']=='career'):
             dfStat = dfStat.groupby(['name','seasonType']).sum(numeric_only=True).reset_index().drop('+/-',axis=1,errors='ignore')
             if formData['seasonType'] != 'all':
