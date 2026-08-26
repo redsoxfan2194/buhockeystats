@@ -416,3 +416,18 @@ input[type="range"]::-ms-fill-upper {
 .form-check-label{
   width: 130px !important;
 }
+
+.award-row-red {
+    background-color: #cc0000 !important;
+    color: white !important;
+}
+
+.award-row-white {
+    background-color: white !important;
+    color: #cc0000 !important;
+}
+
+.award-table th {
+    background-color: #cc0000 !important;
+    color: white !important;
+}

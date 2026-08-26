@@ -11,6 +11,7 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 from querystatsbot import querystatsbot, generaterandomstat
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable,formatTable
 import burecordbook as burb
+from collections import defaultdict
 from flask_caching import Cache
 
 dayNames = {
@@ -1142,7 +1143,50 @@ def transfers():
                      wtransfersin=formatTable(burb.getTransfers('Womens','In')),
                      wtransfersout=formatTable(burb.getTransfers('Womens','Out')),titletag=' - Transfers')
 
+@app.route('/awards')
+def awards():
+    ''' Renders "Awards" Page
 
+    Returns:
+      Flask Template : flask template containing awards.html
+    '''
+
+    # Men's awards
+    dfAwardsM = burb.getAwards('M')
+    mAwards = defaultdict(lambda: defaultdict(list))
+
+    for _, row in dfAwardsM.iterrows():
+        mAwards[row["Type"]][row["Award"]].append({
+            "Year": row["Year"],
+            "Winner": row["Winner"]
+        })
+
+    mAwardTypes = list(mAwards.keys())
+
+
+    # Women's awards
+    dfAwardsW = burb.getAwards('W')
+    wAwards = defaultdict(lambda: defaultdict(list))
+
+    for _, row in dfAwardsW.iterrows():
+        wAwards[row["Type"]][row["Award"]].append({
+            "Year": row["Year"],
+            "Winner": row["Winner"]
+        })
+
+    wAwardTypes = list(wAwards.keys())
+
+
+    return render_template(
+        "awards.html",
+        mAwards=mAwards,
+        wAwards=wAwards,
+        mAwardTypes=mAwardTypes,
+        wAwardTypes=wAwardTypes,
+        titletag=' - Awards'
+    )
+    
+    
 @app.route('/worldjuniors')
 def worldjuniors():
     ''' Renders "worldjuniors" Page

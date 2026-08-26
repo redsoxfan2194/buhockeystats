@@ -1,0 +1,168 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="p-3">
+
+    <!-- Men's / Women's Selector -->
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <select id="genderSelect" class="form-select mb-3" aria-label="Select team">
+            <option value="#nav-mens-awards" selected>Men's</option>
+            <option value="#nav-womens-awards">Women's</option>
+        </select>
+    </div>
+
+
+    <div class="tab-content" id="nav-tabContent">
+
+        <!-- ================= MEN'S AWARDS ================= -->
+        <div class="tab-pane fade show active"
+             id="nav-mens-awards"
+             role="tabpanel">
+
+            <div class="nav nav-tabs" id="mens-award-tabs" role="tablist">
+
+                {% for award_type in mAwardTypes %}
+                <button
+                    class="nav-link {% if loop.first %}active{% endif %} note-nav"
+                    id="mens-type-{{ loop.index }}-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#mens-type-{{ loop.index }}"
+                    type="button"
+                    role="tab"
+                    aria-controls="mens-type-{{ loop.index }}"
+                    aria-selected="{% if loop.first %}true{% else %}false{% endif %}">
+                    {{ award_type }}
+                </button>
+                {% endfor %}
+
+            </div>
+
+            <div class="tab-content">
+
+                {% for award_type in mAwardTypes %}
+
+                <div
+                    class="tab-pane fade {% if loop.first %}show active{% endif %}"
+                    id="mens-type-{{ loop.index }}"
+                    role="tabpanel">
+
+                    {% for award in mAwards[award_type] %}
+
+                    <h4 class="stat-table mt-4">{{ award }}</h4>
+
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th class="buhs-header">Year</th>
+                                <th class="buhs-header">Winner</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            {% for row in mAwards[award_type][award] %}
+                            <tr class="{% if loop.index is odd %}award-row-red{% else %}award-row-white{% endif %}">
+                                <td>{{ row.Year }}</td>
+                                <td>{{ row.Winner }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                    {% endfor %}
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+
+
+        <!-- ================= WOMEN'S AWARDS ================= -->
+        <div class="tab-pane fade"
+             id="nav-womens-awards"
+             role="tabpanel">
+
+            <div class="nav nav-tabs" id="womens-award-tabs" role="tablist">
+
+                {% for award_type in wAwardTypes %}
+                <button
+                    class="nav-link {% if loop.first %}active{% endif %} note-nav"
+                    id="womens-type-{{ loop.index }}-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#womens-type-{{ loop.index }}"
+                    type="button"
+                    role="tab"
+                    aria-controls="womens-type-{{ loop.index }}"
+                    aria-selected="{% if loop.first %}true{% else %}false{% endif %}">
+                    {{ award_type }}
+                </button>
+                {% endfor %}
+
+            </div>
+
+            <div class="tab-content">
+
+                {% for award_type in wAwardTypes %}
+
+                <div
+                    class="tab-pane fade {% if loop.first %}show active{% endif %}"
+                    id="womens-type-{{ loop.index }}"
+                    role="tabpanel">
+
+                    {% for award in wAwards[award_type] %}
+
+                    <h4 class="stat-table mt-4">{{ award }}</h4>
+
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th class="buhs-header">Year</th>
+                                <th class="buhs-header">Winner</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            {% for row in wAwards[award_type][award] %}
+                            <tr class="{% if loop.index is odd %}award-row-red{% else %}award-row-white{% endif %}">
+                                <td>{{ row.Year }}</td>
+                                <td>{{ row.Winner }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                    {% endfor %}
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+document.getElementById('genderSelect').addEventListener('change', function() {
+
+    const targetId = this.value;
+
+    // Hide both Men's and Women's sections
+    document.querySelectorAll('#nav-tabContent > .tab-pane').forEach(pane => {
+        pane.classList.remove('show', 'active');
+    });
+
+    // Show selected section
+    const targetPane = document.querySelector(targetId);
+
+    if (targetPane) {
+        targetPane.classList.add('show', 'active');
+    }
+
+});
+</script>
+
+{% endblock %}
