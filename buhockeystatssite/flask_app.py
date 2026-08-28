@@ -1186,6 +1186,21 @@ def awards():
         titletag=' - Awards'
     )
     
+@app.route('/trophies')
+def trophies():
+    ''' Renders "worldjuniors" Page
+
+    Returns:
+      Flask Template : flask template containing worldjuniors.html
+    '''
+    mTrophy=burb.getTrophies('M').drop('type',axis=1)
+    mTrophy['trophy'] = mTrophy['trophy'] + ' (' + mTrophy['years won'].str.split(',').str.len().astype(str) + ')'
+    
+    wTrophy=burb.getTrophies('W').drop('type',axis=1)
+    wTrophy['trophy'] = wTrophy['trophy'] + ' (' + wTrophy['years won'].str.split(',').str.len().astype(str) + ')'
+    return render_template(
+    'trophycase.html',mtrophies=formatTable(mTrophy),wtrophies=formatTable(wTrophy),titletag=' - Trophy Case')
+    
     
 @app.route('/worldjuniors')
 def worldjuniors():

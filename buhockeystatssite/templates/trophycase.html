@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+<h3 class="stat-table">Trophy Case</h3>
+<div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active note-nav" id="mens-trophies-tab" data-bs-toggle="tab" data-bs-target="#nav-mens-trophies" type="button" role="tab" aria-controls="mens-trophies" aria-selected="true">Men's</button>
+      <button class="nav-link note-nav" id="womens-trophies-tab" data-bs-toggle="tab" data-bs-target="#nav-womens-trophies" type="button" role="tab" aria-controls="womens-trophies" aria-selected="true">Women's</button>
+</div>
+   <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-mens-trophies" role="tabpanel" aria-labelledby="mens-trophies-tab">
+        {% autoescape false %}
+        {{mtrophies}}
+        {% endautoescape %}
+        </div>
+      <div class="tab-pane fade" id="nav-womens-trophies" role="tabpanel" aria-labelledby="womens-trophies-tab">
+        {% autoescape false %}
+        {{wtrophies}}
+        {% endautoescape %}
+        </div>
+    </div>
+</div>
+{% endblock %}
