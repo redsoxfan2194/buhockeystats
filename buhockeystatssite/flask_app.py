@@ -6,6 +6,7 @@ import calendar as cal
 import numpy as np
 import pandas as pd
 import pytz
+import os
 from flask import Flask, render_template, request, jsonify, Response, redirect
 from werkzeug.middleware.proxy_fix import ProxyFix
 from querystatsbot import querystatsbot, generaterandomstat
@@ -1558,7 +1559,52 @@ def birthdays():
         next_month=(first_day + datetime.timedelta(days=num_days.day)).strftime('%Y-%m')
     )
 
+@app.route('/jacksboxes', methods=['GET', 'POST'])
+def jacksBoxes():
 
+    dfPlayers = pd.concat([burb.dfSkateMens[['name', 'career']],
+        burb.dfGoalieMens[['name', 'career']]]).drop_duplicates()
+
+    dfPlayers['pName'] = (dfPlayers['name'].astype(str) + " (" + dfPlayers['career'].astype(str)  + ")"
+    )
+
+    gameNumber = getJacksBoxesGameNum()
+    dfGrid = getJacksBoxesGrid(gameNumber)
+    
+    if request.method == 'POST':
+        data = request.get_json()
+        
+        if data.get('type') == 'gameEnd':
+          writeJacksBoxesGameToFile(data)
+        else:
+          player = data.get('player')
+          row = int(data.get('row'))
+          col = int(data.get('col'))
+
+          possibleAnswers = dfPlayers.loc[dfPlayers['name'].isin(dfGrid.iloc[row][col].split(','))]['pName'].tolist()
+          valid = player in possibleAnswers
+          
+          return jsonify({
+              "valid": valid,
+              "player": player
+          })
+
+    possibleAnswers = [
+        dfPlayers.loc[dfPlayers['name'].isin(dfGrid.iloc[row][col].split(','))]['pName'].tolist()
+        for row in range(3)
+        for col in range(3)
+    ]
+
+    return render_template(
+        'jackboxes.html',
+        availablePlayers=dfPlayers['pName'].tolist(),
+        possibleAnswers=possibleAnswers,
+        gameNumber=gameNumber,
+        rowLabels=list(dfGrid.index),
+        columnLabels=list(dfGrid.columns),
+        titletag=" - Jack's Boxes"
+    )
+    
 @app.route('/trivia', methods=['POST', 'GET'])
 def dailyTrivia():
     ''' Renders "Trivia Challenge" Page
@@ -2151,6 +2197,23 @@ def filterStats(formData,dfStat):
         else:
           dfRes=dfRes.query(f"saves{formData['savesop']} {int(formData['savesmin'])}")
     return dfRes
+
+def getJacksBoxesGameNum():
+  df = pd.read_csv(burb.RECBOOK_DATA_PATH+"/jacksboxes_grids/jacksboxes_schedule.csv")
+  df['date'] = pd.to_datetime(df['date']) + pd.Timedelta(hours=6)
+  df['date'] = df['date'].dt.tz_localize('US/Eastern')
+  now = pd.Timestamp.now(tz='US/Eastern')
+  gameNum=int(df.loc[df['date'] < now].tail(1)['gameNum'].to_string(index=False))
+  return gameNum
+
+def getJacksBoxesGrid(gameNumber):
+  return pd.read_csv(burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/jacksboxes_{gameNumber}.csv",index_col=0)
+
+def writeJacksBoxesGameToFile(data):
+   filePath = burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/game_results/jackesboxes_{data['gameNumber']}_grids.csv"
+   file_exists = os.path.exists(filePath)
+   df=pd.DataFrame([data]).drop('type',axis=1)
+   df.to_csv(filePath, mode='a', index=False, header=not file_exists)
 
 if __name__ == '__main__':
     app.run(host='localhost', port=5000)

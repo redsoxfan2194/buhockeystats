@@ -1,0 +1,721 @@
+.jackboxes-page {
+    padding: 6px;
+}
+
+.jackboxes-title {
+    margin: 0 0 5px 0;
+    line-height: 1.1;
+    font-size: 1.5rem;
+}
+
+
+.game-container {
+    display: grid;
+    grid-template-columns: 105px repeat(3, 120px) 95px;
+    grid-template-rows: 105px repeat(3, 120px);
+    gap: 4px;
+    width: fit-content;
+    margin: 4px auto;
+}
+
+.column-label,
+.row-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+}
+
+.corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.corner img {
+    max-width: 75%;
+    max-height: 75%;
+    object-fit: contain;
+}
+
+.player-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 7px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: border-color .15s, box-shadow .15s, background .15s;
+}
+
+.player-box:hover {
+    background: #f5f5f5;
+}
+
+.player-box.filled {
+    background: #eee;
+    cursor: default;
+}
+
+.player-box.selected {
+    border-color: #cc0000;
+    box-shadow: 0 0 0 2px rgba(204, 0, 0, .2);
+    background: #fff;
+}
+
+.player-box.selected:hover {
+    background: #fff;
+}
+
+.player-search {
+    position: fixed;
+    z-index: 1000;
+    width: 280px;
+    max-width: calc(100vw - 20px);
+    padding: 8px;
+    box-sizing: border-box;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
+}
+
+.player-search input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 7px;
+    margin: 0 0 7px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.player-search input:focus {
+    outline: none;
+    border-color: #cc0000;
+}
+
+.player-list {
+    max-height: 130px;
+    overflow-y: auto;
+}
+
+.player-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+    padding: 4px 0;
+    font-size: 13px;
+}
+
+.player-option span:first-child {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+}
+
+
+/* =====================================================
+   SEARCH BUTTONS
+   ===================================================== */
+
+.select-button {
+    flex-shrink: 0;
+    padding: 4px 7px;
+    border: 0;
+    border-radius: 4px;
+    background: #cc0000;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.select-button:hover {
+    background: #a00000;
+}
+
+.already-used {
+    flex-shrink: 0;
+    color: #777;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.invalid-player {
+    color: red;
+}
+
+
+/* =====================================================
+   GAME COUNTERS
+   ===================================================== */
+
+.guesses {
+    grid-column: 5;
+    grid-row: 2 / 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    border-left: 2px solid #ddd;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.counter {
+    width: 90px;
+    text-align: center;
+}
+
+.counter + .counter {
+    margin-top: 22px;
+}
+
+#guessesLeft,
+#score {
+    display: block;
+    margin-top: 7px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+
+/* =====================================================
+   GIVE UP / SHOW SCORE
+   ===================================================== */
+
+.give-up-button,
+.show-score-button {
+    padding: 6px 13px;
+    margin-top: 22px;
+    border: 1px solid #cc0000;
+    border-radius: 5px;
+    background: white;
+    color: #cc0000;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.give-up-button:hover,
+.show-score-button:hover {
+    background: #cc0000;
+    color: white;
+}
+
+
+/* =====================================================
+   MODALS
+   ===================================================== */
+
+.game-over-modal,
+.answers-modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    inset: 0;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 15px;
+    background: rgba(0, 0, 0, .5);
+}
+
+
+/* =====================================================
+   GAME OVER
+   ===================================================== */
+
+.game-over {
+    position: relative;
+    box-sizing: border-box;
+    width: 320px;
+    max-width: 100%;
+    max-height: 90vh;
+    padding: 22px;
+    overflow-y: auto;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
+}
+
+.game-over h2 {
+    margin: 0 0 12px;
+    font-size: 1.5rem;
+}
+
+.final-score {
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#finalScore {
+    font-size: 30px;
+}
+
+
+/* =====================================================
+   CLOSE BUTTONS
+   ===================================================== */
+
+.close-game-over,
+.close-answers {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    width: 27px;
+    height: 27px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #777;
+    font-size: 25px;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.close-game-over:hover,
+.close-answers:hover {
+    color: #000;
+}
+
+
+/* =====================================================
+   RESULT GRID
+   ===================================================== */
+
+.result-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 38px);
+    grid-template-rows: repeat(3, 38px);
+    gap: 3px;
+    width: fit-content;
+    margin: 0 auto 18px;
+}
+
+.result-box {
+    box-sizing: border-box;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+.result-box.correct {
+    background: #cc0000;
+}
+
+
+/* =====================================================
+   COPY SCORE
+   ===================================================== */
+
+.copy-button {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #cc0000;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    background: #a00000;
+}
+
+
+/* =====================================================
+   POSSIBLE ANSWERS
+   ===================================================== */
+
+.possible-title {
+    margin: 18px 0 8px;
+    font-size: 14px;
+}
+
+.possible-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    gap: 3px;
+    width: fit-content;
+    margin: 0 auto 18px;
+}
+
+.possible-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f5f5f5;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.possible-box:hover {
+    background: #e5e5e5;
+}
+
+
+.answers-modal {
+    z-index: 3000;
+}
+
+.answers-popup {
+    position: relative;
+    box-sizing: border-box;
+    width: 320px;
+    max-width: 100%;
+    max-height: 80vh;
+    padding: 20px;
+    overflow-y: auto;
+    background: white;
+    border-radius: 9px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
+}
+
+.answers-popup h3 {
+    margin: 0;
+    padding-right: 25px;
+    font-size: 16px;
+}
+
+.answer-item {
+    padding: 6px 5px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    font-size: 13px;
+}
+
+.answer-item:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 700px) {
+    .jackboxes-page {
+        padding: 5px;
+    }
+
+    .jackboxes-title {
+        font-size: 1.3rem;
+        margin-bottom: 4px;
+    }
+
+    .game-container {
+        grid-template-columns: 75px repeat(3, 75px) 65px;
+        grid-template-rows: 75px repeat(3, 75px);
+        gap: 3px;
+        margin: 5px auto;
+    }
+
+    .column-label,
+    .row-label {
+        padding: 3px;
+        font-size: 10px;
+        line-height: 1.05;
+    }
+
+    .player-box {
+        padding: 3px;
+        border-width: 1px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+    .player-box.selected {
+        box-shadow: 0 0 0 2px rgba(204, 0, 0, .2);
+    }
+
+    .corner img {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    .guesses {
+        padding-left: 3px;
+        border-left-width: 1px;
+        font-size: 10px;
+    }
+
+    .counter {
+        width: 60px;
+    }
+
+    .counter + .counter {
+        margin-top: 12px;
+    }
+
+    #guessesLeft,
+    #score {
+        margin-top: 4px;
+        font-size: 22px;
+    }
+
+    .give-up-button,
+    .show-score-button {
+        padding: 4px 6px;
+        margin-top: 12px;
+        font-size: 9px;
+    }
+
+    .player-search {
+        width: calc(100vw - 20px);
+        max-width: 280px;
+        padding: 8px;
+    }
+
+    .player-search input {
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    .player-list {
+        max-height: 130px;
+    }
+
+    .player-option {
+        padding: 4px 0;
+        font-size: 13px;
+    }
+
+    .select-button {
+        padding: 4px 7px;
+        font-size: 12px;
+    }
+
+    .game-over {
+        width: calc(100vw - 30px);
+        max-width: 330px;
+        padding: 20px 12px;
+    }
+
+    .answers-popup {
+        width: calc(100vw - 30px);
+        max-width: 330px;
+        padding: 20px 15px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .game-container {
+        grid-template-columns: 60px repeat(3, 68px) 55px;
+        grid-template-rows: 68px repeat(3, 68px);
+        gap: 2px;
+        margin: 3px auto;
+    }
+
+    .column-label,
+    .row-label {
+        font-size: 9px;
+    }
+
+    .player-box {
+        font-size: 10px;
+    }
+
+    .guesses {
+        font-size: 9px;
+    }
+
+    .counter {
+        width: 50px;
+    }
+
+    #guessesLeft,
+    #score {
+        font-size: 19px;
+    }
+
+    .give-up-button,
+    .show-score-button {
+        font-size: 8px;
+        padding: 3px 4px;
+    }
+
+    .player-search {
+        width: calc(100vw - 20px);
+        max-width: 280px;
+    }
+
+    .player-option {
+        font-size: 13px;
+    }
+
+    .select-button {
+        padding: 4px 7px;
+        font-size: 12px;
+    }
+}
+
+.game-container {
+    position: relative;
+}
+
+.help-button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+    padding: 5px 10px;
+
+    border: 1px solid #cc0000;
+    border-radius: 5px;
+
+    background: white;
+    color: #cc0000;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    cursor: pointer;
+    z-index: 10;
+}
+
+.help-button:hover {
+    background: #cc0000;
+    color: white;
+}
+
+
+.help-modal {
+    display: none;
+
+    position: fixed;
+    z-index: 4000;
+    inset: 0;
+
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 15px;
+
+    background: rgba(0, 0, 0, .5);
+}
+
+.help-popup {
+    position: relative;
+
+    box-sizing: border-box;
+    width: 400px;
+    max-width: 100%;
+    max-height: 85vh;
+
+    padding: 25px;
+
+    overflow-y: auto;
+
+    background: white;
+    border-radius: 10px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
+
+    text-align: left;
+}
+
+.help-popup h2 {
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.help-popup p {
+    margin: 0 0 12px;
+    line-height: 1.5;
+}
+
+.help-popup ul {
+    margin: 10px 0 15px;
+    padding-left: 22px;
+}
+
+.help-popup li {
+    margin-bottom: 7px;
+}
+
+.close-help {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+
+    width: 30px;
+    height: 30px;
+
+    padding: 0;
+    border: none;
+
+    background: transparent;
+    color: #777;
+
+    font-size: 28px;
+    line-height: 30px;
+
+    cursor: pointer;
+}
+
+.close-help:hover {
+    color: #000;
+}
+
+.help-close-button {
+    display: block;
+
+    margin: 20px auto 0;
+    padding: 8px 20px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #cc0000;
+    color: white;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.help-close-button:hover {
+    background: #a00000;
+}
+
+
+@media (max-width: 700px) {
+    .help-button {
+        bottom: 2px;
+        right: 2px;
+        padding: 3px 6px;
+        font-size: 9px;
+    }
+}
+    .help-popup {
+        width: calc(100vw - 30px);
+        max-width: 330px;
+
+        padding: 20px 15px;
+    }
+
+}

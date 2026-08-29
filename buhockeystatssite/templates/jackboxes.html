@@ -1,0 +1,119 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jackboxes-page">
+    <h2 class="stat-table jackboxes-title">Jack's Boxes #{{ gameNumber }}</h2>
+    <div class="game-container">
+<button id="helpButton" class="help-button">
+    Help
+</button>
+        <div class="corner"><img src="{{ url_for('static', filename='images/Jack_FullBody_Red.png') }}" alt="Jack"></div>
+        {% for label in columnLabels %}
+            <div class="column-label">{{ label }}</div>
+        {% endfor %}
+        
+        <div class="corner"></div>
+
+        {% for row in range(3) %}
+            <div class="row-label">{{ rowLabels[row] }}</div>
+
+            {% for col in range(3) %}
+                <div class="player-box"
+                     data-row="{{ row }}"
+                     data-col="{{ col }}"></div>
+            {% endfor %}
+
+            {% if row == 0 %}
+                <div class="guesses">
+                    <div class="counter">
+                        <div>Shots Left</div>
+                        <span id="guessesLeft">9</span>
+                    </div>
+
+                    <div class="counter">
+                        <div>Score</div>
+                        <span id="score">0/9</span>
+                    </div>
+
+                    <button id="giveUp" class="give-up-button">
+                        Give Up
+                    </button>
+                </div>
+            {% endif %}
+        {% endfor %}
+        <div id="helpModal" class="help-modal">
+          <div class="help-popup">
+
+              <button id="closeHelp" class="close-help">&times;</button>
+
+              <h2>Jack's Boxes</h2>
+
+              <p>
+                  Jack the Stats Pup has created a grid of some of his favorite stats
+                  but he's having trouble deciding which Terrier to put in each box. 
+                  He needs YOUR help to fill out the grid in this weekly/daily(?) game.
+              </p>
+              <h3>How to Play Jack's Boxes</h3>
+              <p>
+                  Click a box to search for a player, then click
+                  <strong>Select</strong> to submit your answer.
+               </p>
+               <p>Select a player for each box that matches the
+                  criteria for that box's row and column
+                  
+                  
+              </p>
+
+              <p>You have <strong>nine (9) shots</strong> at filling out the grid</p>
+              <p>Each shot, right or wrong counts as a shot</p>
+              <p>A player cannot be used more than once and once a box is filled it cannot be changed</p>
+              <p>Click <strong>Give Up</strong> to see your score</p>
+              <p>Click a number under <strong>Possible Answers</strong> to see the answers for that box<p>
+
+              <p>
+                  You can play each Jack's Boxes game once per week/day
+              </p>
+              <hr class="hr hr-blurry" />
+                <p>Inspired by: <a class="link-no-pad" href="https://www.sports-reference.com/immaculate-grid/hockey">Immaculate Grid</a></p>
+              <hr class="hr hr-blurry" />
+                Report Issues/Bugs or to Suggest Potential Grids: <a aria-label="Email" href="mailto:buhockeystats@gmail.com" class="nav-link px-2 text-muted fa fa-regular fa-envelope"></a><a aria-label="Twitter" href="https://twitter.com/buhockeystats" class="nav-link px-2 text-muted fa fa-brands fa-twitter"></a><a aria-label="instagram" href="https://instagram.com/buhockeystats" class="nav-link px-2 text-muted fa fa-brands fa-instagram"></a>
+              
+          </div>
+      </div>
+    </div>
+
+    <div id="gameOverModal" class="game-over-modal">
+        <div class="game-over">
+            <button id="closeGameOver" class="close-game-over">&times;</button>
+
+            <h2 id="gameOverTitle">Jack's Boxes</h2>
+
+            <div class="final-score">
+                <span id="finalScore">0/9</span>
+            </div>
+
+            <div id="resultGrid" class="result-grid"></div>
+            <button id="copyScore" class="copy-button">Copy Score</button>
+            <h3 class="possible-title">Possible Answers</h3>
+            <div id="possibleGrid" class="possible-grid"></div>
+        </div>
+    </div>
+
+    <div id="answersModal" class="answers-modal">
+        <div class="answers-popup">
+            <button id="closeAnswers" class="close-answers">&times;</button>
+
+            <h3 id="answersTitle">Possible Answers</h3>
+
+            <div id="answersList"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const availablePlayers = {{ availablePlayers | tojson }};
+    const gameNumber = {{ gameNumber | tojson }};
+    const possibleAnswers = {{ possibleAnswers | tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/jackboxes.js') }}"></script>
+{% endblock %}
