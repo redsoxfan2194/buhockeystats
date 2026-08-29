@@ -170,7 +170,7 @@
 	Carl Wennberg	F			6	10	16	—/2	1948-49
 18	Dana Hixon	F	JR			16		—/—	1948-49
 4	Ed Cahoon	F	SO		25	15	40	—/—	1948-49
-40	Ed Cahoon	F	JR		15	24	39	—/32	1949-50
+4	Ed Cahoon	F	JR		15	24	39	—/32	1949-50
 17	Jack Garrity	F	SO	21	34	23	57	—/20	1949-50
 15	Jack Kelley	F/D	SO		22	10	32	—/18	1949-50
 14	Bill Downing	F	JR		1	6	7	—/6	1950-51
@@ -840,7 +840,7 @@
 22	Ville Kentala	F	JR	32	15	19	34	—/34	1987-88
 35	Peter Fish	G	JR	27	0	1	1	—/—	1987-88
 35	Peter Fish	G	SR	17	0	1	1	—/—	1988-89
-	Chuck Beauchain	F		6	1	1	2	—/2	1988-89
+27	Chuck Beauchain	F		6	1	1	2	—/2	1988-89
 3	Chris Lappin	D	SO	27	2	6	8	—/26	1988-89
 26	Chris McCann	F	SO	12	1	1	2	—/2	1988-89
 25	Darin MacDonald	F	SO	35	6	6	12	—/20	1988-89
@@ -973,7 +973,7 @@
 17	Jay Pandolfo	F	SO	37	17	25	42	—/27	1993-94
 10	Jon Jenkins	F	JR	38	12	9	21	—/27	1993-94
 18	Jon Pratt	F	SR	32	11	8	19	—/66	1993-94
-23	Jon Coleman	D	FR	29	1	14	15	—/26	1993-94
+25	Jon Coleman	D	FR	29	1	14	15	—/26	1993-94
 2	Kaj Linna	D	JR	34	4	13	17	—/26	1993-94
 20	Kenny Rausch	F	JR	31	6	9	15	—/4	1993-94
 22	Matt Wright	F	FR	3	1	0	1	—/5	1993-94
@@ -1145,7 +1145,7 @@
 9	Scott Perry	F	SR	23	0	3	3	—/8	2000-01
 83	Jason Tapp	G	SR	7	0	1	1	—/—	2001-02
 31	Sean Fields	G	SO	33	0	1	1	—/—	2001-02
-	Bryan Miller	D	FR	34	4	15	19	—/12	2001-02
+7	Bryan Miller	D	FR	34	4	15	19	—/12	2001-02
 26	David Klema	F	FR	38	6	11	17	—/4	2001-02
 11	John Sabo	F	JR	37	10	11	21	—/82	2001-02
 25	Ken Magowan	F	SO	37	6	15	21	—/28	2001-02
