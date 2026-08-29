@@ -628,7 +628,7 @@ async function copyScore()
     }
 
 
-    const text = `Jack's Boxes #${gameNumber} ${score}/9\n\n${result}\nPlay: ${window.location.origin}/jackboxes`;
+    const text = `Jack's Boxes #${gameNumber} ${score}/9\n\n${result}\nPlay: ${window.location.origin}/jacksboxes`;
 
 
     try {
