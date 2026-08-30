@@ -199,13 +199,37 @@ img {
 }
 
 .icon-link-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
 }
 
 .mobile-row {
-  display: flex;
+    display: contents;
+}
+
+.mobile-row > div {
+    width: auto;
+    text-align: center;
+}
+
+.mobile-row img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .icon-link-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .mobile-row > div {
+        width: auto;
+    }
 }
 
 .homepage-link {
@@ -395,6 +419,11 @@ input[type="range"]::-ms-fill-upper {
 }
 
 #party-jack {
+  display: block;
+  margin: 0 auto;
+}
+
+#sad-jack {
   display: block;
   margin: 0 auto;
 }

@@ -36,8 +36,32 @@ function changePlayersImage() {
   document.getElementById('players-logo').src = '../static/images/jersey_home.png';
 }
 
+function changeTidbitsImage() {
+  document.getElementById('tidbits-logo').src = '../static/images/tidbits_icon_hover.png';
+}
+
+function restoreTidbitsImage() {
+  document.getElementById('tidbits-logo').src = '../static/images/tidbits_icon.png';
+}
+
 function restorePlayersImage() {
   document.getElementById('players-logo').src = '../static/images/jersey_road.png';
+}
+
+function changeHatTricksImage() {
+  document.getElementById('hattricks-logo').src = '../static/images/hattricks_icon_hover.png';
+}
+
+function restoreHatTricksImage() {
+  document.getElementById('hattricks-logo').src = '../static/images/hattricks_icon.png';
+}
+
+function changeShutoutsImage() {
+  document.getElementById('shutouts-logo').src = '../static/images/shutouts_icon_hover.png';
+}
+
+function restoreShutoutsImage() {
+  document.getElementById('shutouts-logo').src = '../static/images/shutouts_icon.png';
 }
 
 function changeTriviaImage() {
@@ -47,3 +71,12 @@ function changeTriviaImage() {
 function restoreTriviaImage() {
   document.getElementById('trivia-logo').src = '../static/images/trivialogo.png';
 }
+
+function changeBoxImage() {
+  document.getElementById('box-logo').src = '../static/images/box_icon_hover.png';
+}
+
+function restoreBoxImage() {
+  document.getElementById('box-logo').src = '../static/images/box_icon.png';
+}
+
