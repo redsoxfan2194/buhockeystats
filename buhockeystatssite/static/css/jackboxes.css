@@ -3,13 +3,13 @@
 }
 
 .jackboxes-title {
-    margin: 0 0 5px 0;
+    margin: 0 0 5px;
     line-height: 1.1;
     font-size: 1.5rem;
 }
 
-
 .game-container {
+    position: relative;
     display: grid;
     grid-template-columns: 105px repeat(3, 120px) 95px;
     grid-template-rows: 105px repeat(3, 120px);
@@ -128,11 +128,6 @@
     text-align: left;
 }
 
-
-/* =====================================================
-   SEARCH BUTTONS
-   ===================================================== */
-
 .select-button {
     flex-shrink: 0;
     padding: 4px 7px;
@@ -158,11 +153,6 @@
 .invalid-player {
     color: red;
 }
-
-
-/* =====================================================
-   GAME COUNTERS
-   ===================================================== */
 
 .guesses {
     grid-column: 5;
@@ -194,11 +184,6 @@
     line-height: 1;
 }
 
-
-/* =====================================================
-   GIVE UP / SHOW SCORE
-   ===================================================== */
-
 .give-up-button,
 .show-score-button {
     padding: 6px 13px;
@@ -218,16 +203,11 @@
     color: white;
 }
 
-
-/* =====================================================
-   MODALS
-   ===================================================== */
-
 .game-over-modal,
-.answers-modal {
+.answers-modal,
+.help-modal {
     display: none;
     position: fixed;
-    z-index: 2000;
     inset: 0;
     align-items: center;
     justify-content: center;
@@ -236,10 +216,9 @@
     background: rgba(0, 0, 0, .5);
 }
 
-
-/* =====================================================
-   GAME OVER
-   ===================================================== */
+.game-over-modal {
+    z-index: 2000;
+}
 
 .game-over {
     position: relative;
@@ -270,36 +249,28 @@
     font-size: 30px;
 }
 
-
-/* =====================================================
-   CLOSE BUTTONS
-   ===================================================== */
-
 .close-game-over,
-.close-answers {
+.close-answers,
+.close-help {
     position: absolute;
-    top: 5px;
-    right: 8px;
-    width: 27px;
-    height: 27px;
+    top: 7px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
     padding: 0;
     border: none;
     background: transparent;
     color: #777;
-    font-size: 25px;
-    line-height: 27px;
+    font-size: 28px;
+    line-height: 30px;
     cursor: pointer;
 }
 
 .close-game-over:hover,
-.close-answers:hover {
+.close-answers:hover,
+.close-help:hover {
     color: #000;
 }
-
-
-/* =====================================================
-   RESULT GRID
-   ===================================================== */
 
 .result-grid {
     display: grid;
@@ -322,11 +293,6 @@
     background: #cc0000;
 }
 
-
-/* =====================================================
-   COPY SCORE
-   ===================================================== */
-
 .copy-button {
     padding: 7px 15px;
     border: none;
@@ -340,11 +306,6 @@
 .copy-button:hover {
     background: #a00000;
 }
-
-
-/* =====================================================
-   POSSIBLE ANSWERS
-   ===================================================== */
 
 .possible-title {
     margin: 18px 0 8px;
@@ -379,7 +340,6 @@
     background: #e5e5e5;
 }
 
-
 .answers-modal {
     z-index: 3000;
 }
@@ -412,6 +372,80 @@
 
 .answer-item:last-child {
     border-bottom: none;
+}
+
+.help-button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    border: 1px solid #cc0000;
+    border-radius: 5px;
+    background: white;
+    color: #cc0000;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.help-button:hover {
+    background: #cc0000;
+    color: white;
+}
+
+.help-modal {
+    z-index: 4000;
+}
+
+.help-popup {
+    position: relative;
+    box-sizing: border-box;
+    width: 400px;
+    max-width: 100%;
+    max-height: 85vh;
+    padding: 25px;
+    overflow-y: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
+    text-align: left;
+}
+
+.help-popup h2 {
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.help-popup p {
+    margin: 0 0 12px;
+    line-height: 1.5;
+}
+
+.help-popup ul {
+    margin: 10px 0 15px;
+    padding-left: 22px;
+}
+
+.help-popup li {
+    margin-bottom: 7px;
+}
+
+.help-close-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #cc0000;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.help-close-button:hover {
+    background: #a00000;
 }
 
 @media (max-width: 700px) {
@@ -474,6 +508,7 @@
         font-size: 22px;
     }
 
+    .help-button,
     .give-up-button,
     .show-score-button {
         padding: 4px 6px;
@@ -517,8 +552,15 @@
         max-width: 330px;
         padding: 20px 15px;
     }
-}
 
+
+    .help-popup {
+        width: calc(100vw - 30px);
+        max-width: 330px;
+        padding: 20px 15px;
+    }
+    
+}
 
 @media (max-width: 500px) {
     .game-container {
@@ -569,153 +611,4 @@
         padding: 4px 7px;
         font-size: 12px;
     }
-}
-
-.game-container {
-    position: relative;
-}
-
-.help-button {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-
-    padding: 5px 10px;
-
-    border: 1px solid #cc0000;
-    border-radius: 5px;
-
-    background: white;
-    color: #cc0000;
-
-    font-size: 12px;
-    font-weight: bold;
-
-    cursor: pointer;
-    z-index: 10;
-}
-
-.help-button:hover {
-    background: #cc0000;
-    color: white;
-}
-
-
-.help-modal {
-    display: none;
-
-    position: fixed;
-    z-index: 4000;
-    inset: 0;
-
-    align-items: center;
-    justify-content: center;
-
-    box-sizing: border-box;
-    padding: 15px;
-
-    background: rgba(0, 0, 0, .5);
-}
-
-.help-popup {
-    position: relative;
-
-    box-sizing: border-box;
-    width: 400px;
-    max-width: 100%;
-    max-height: 85vh;
-
-    padding: 25px;
-
-    overflow-y: auto;
-
-    background: white;
-    border-radius: 10px;
-
-    box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
-
-    text-align: left;
-}
-
-.help-popup h2 {
-    margin: 0 0 15px;
-    text-align: center;
-}
-
-.help-popup p {
-    margin: 0 0 12px;
-    line-height: 1.5;
-}
-
-.help-popup ul {
-    margin: 10px 0 15px;
-    padding-left: 22px;
-}
-
-.help-popup li {
-    margin-bottom: 7px;
-}
-
-.close-help {
-    position: absolute;
-    top: 7px;
-    right: 10px;
-
-    width: 30px;
-    height: 30px;
-
-    padding: 0;
-    border: none;
-
-    background: transparent;
-    color: #777;
-
-    font-size: 28px;
-    line-height: 30px;
-
-    cursor: pointer;
-}
-
-.close-help:hover {
-    color: #000;
-}
-
-.help-close-button {
-    display: block;
-
-    margin: 20px auto 0;
-    padding: 8px 20px;
-
-    border: none;
-    border-radius: 6px;
-
-    background: #cc0000;
-    color: white;
-
-    font-size: 14px;
-    font-weight: bold;
-
-    cursor: pointer;
-}
-
-.help-close-button:hover {
-    background: #a00000;
-}
-
-
-@media (max-width: 700px) {
-    .help-button {
-        bottom: 2px;
-        right: 2px;
-        padding: 3px 6px;
-        font-size: 9px;
-    }
-}
-    .help-popup {
-        width: calc(100vw - 30px);
-        max-width: 330px;
-
-        padding: 20px 15px;
-    }
-
 }

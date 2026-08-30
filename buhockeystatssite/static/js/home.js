@@ -72,11 +72,11 @@ function restoreTriviaImage() {
   document.getElementById('trivia-logo').src = '../static/images/trivialogo.png';
 }
 
-function changeBoxImage() {
-  document.getElementById('box-logo').src = '../static/images/box_icon_hover.png';
+function changeJacksBoxesImage() {
+  document.getElementById('jacks-boxes-logo').src = '../static/images/jacks_boxes_icon_hover.png';
 }
 
-function restoreBoxImage() {
-  document.getElementById('box-logo').src = '../static/images/box_icon.png';
+function restoreJacksBoxesImage() {
+  document.getElementById('jacks-boxes-logo').src = '../static/images/jacks_boxes_icon.png';
 }
 
