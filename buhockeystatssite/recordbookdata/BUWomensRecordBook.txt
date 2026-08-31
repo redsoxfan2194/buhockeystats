@@ -870,7 +870,7 @@ CAPTAIN: TBD
 10/01 N LaBahn Arena A Wisconsin  0-0
 10/02 N LaBahn Arena A Wisconsin  0-0
 10/09 N Whittemore Center Arena A New Hampshire * 0-0
-10/10 N Walter Brown Arena H Holy Cross * 0-0
+10/10 N Hart Center A Holy Cross * 0-0
 10/16 N Walter Brown Arena H Colgate  0-0
 10/17 N Agganis Arena H Colgate  0-0
 10/23 N Walter Brown Arena H Yale (IB) 0-0
@@ -889,14 +889,14 @@ CAPTAIN: TBD
 01/05 N Meehan Auditorium A Brown  0-0
 01/08 N Walter Brown Arena H New Hampshire * 0-0
 01/12 N Conte Forum A Boston College (BP) 0-0
-01/16 N Hart Center A Holy Cross * 0-0
+01/15 N Walter Brown Arena H Holy Cross * 0-0
 01/19 N TD Garden N Harvard/Northeastern (BP) 0-0
 01/22 N Gutterson Fieldhouse A Vermont * 0-0
 01/23 N Gutterson Fieldhouse A Vermont * 0-0
 01/29 N Walter Brown Arena H Merrimack * 0-0
 01/30 N Lawler Rink A Merrimack * 0-0
+02/04 N Schneider Arena A Providence * 0-0
 02/05 N Walter Brown Arena H Boston College * 0-0
-02/06 N Schneider Arena A Providence * 0-0
 02/12 N Walter Brown Arena H Northeastern * 0-0
 02/13 N Whittemore Center Arena A New Hampshire * 0-0
 02/18 N Lawler Rink A Merrimack * 0-0
