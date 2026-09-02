@@ -231,8 +231,12 @@ def players():
                     dfStat = pd.merge(burb.dfGameStatsGoalieWomens,burb.dfGamesWomens[['date','location','arena','tourney']],on='date')
         if seasVals == []:
             seasVals = list(dfStat.season.unique())
+            
         sSeas = formData['seasonStart']
-        eSeas = formData['seasonEnd']
+        if('seasonEnd' not in formData):
+          eSeas = burb.currSeason
+        else:
+          eSeas = formData['seasonEnd']
         if sSeas not in seasVals:
             sIdx = 0
             sSeas = seasVals[0]
