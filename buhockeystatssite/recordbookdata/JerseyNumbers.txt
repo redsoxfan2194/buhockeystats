@@ -36,7 +36,7 @@
 2015-16 Max Prawdzik
 2017-20 Nico Lynch
 2024-25 Billy Girard IV
-2025-26 Steven Luciano
+2025-27 Steven Luciano
 #2
 1927-28 William Gibson
 1929-30 Bob Elliott
@@ -177,6 +177,7 @@
 2017-20 Cam Crotty
 2020-23 Thomas Jarman
 2023-25 Tom Willander
+2026-27 Adam Barone
 #6
 1927-28 John Lawless
 1929-30 Ronald Weafer
@@ -238,7 +239,7 @@
 2017-19 Chad Krys
 2019-22 Alex Vlasic
 2023-24 Case McCarthy
-2024-26 Nick Roukounakis
+2024-27 Nick Roukounakis
 #8
 1927-28 Richard Lombard
 1929-30 Leo Baron
@@ -271,7 +272,7 @@
 2013-14 Brendan Collier
 2015-19 Ryan Cloonan
 2020-24 Cade Webber
-2024-26 Brandon Svoboda
+2024-27 Brandon Svoboda
 #9
 1927-28 Holmes Whitmore
 1929-30 Robert Goodale
@@ -306,6 +307,7 @@
 2017-22 Logan Cockerill
 2022-25 Ryan Greene
 2025-26 Sacha Boisvert
+2026-27 Jax Wismer
 #10
 1927-28 William Goodale
 1935-37 George Hoar
@@ -343,7 +345,7 @@
 2016-20 Gabriel Chabot
 2020-24 Nick Zabaneh
 2024-25 Brehdan Engum
-2025-26 Jonathan Morello
+2025-27 Jonathan Morello
 #11
 1929-30 Paul Bergholtz
 1936-37 Harry Cleverly
@@ -378,7 +380,7 @@
 2016-20 Patrick Curry
 2020-24 Luke Tuch
 2024-25 Kamil Bednarik
-2025-26 Tynan Lawrence
+2025-27 Tynan Lawrence
 #12
 1929-30 Isidore Borofsky
 1935-36 Neil Powell
@@ -416,7 +418,7 @@
 2014-18 Chase Phelps
 2018-19 Jake Wise
 2019-23 Jamie Armstrong
-2023-26 Jack Harvey
+2023-27 Jack Harvey
 #13
 1936-37 Veto Neviackas
 1939-40 Bill Shoemaker
@@ -431,6 +433,7 @@
 2018-19 Mark Cheremeta
 2019-20 Trevor Zegras
 2020-24 Dylan Peterson
+2026-27 Viktor Nörringer
 #14
 1929-30 Holmes Whitmore
 1936-37 Chester Chilson
@@ -471,7 +474,7 @@
 2014-15 Dillon Lawrence
 2015-19 Bobo Carpenter
 2019-23 Sean Driscoll
-2023-26 Mick Frechette
+2023-27 Mick Frechette
 #15
 1929-30 Carl Clem
 1936-37 Carl Engberg
@@ -506,7 +509,7 @@
 2019-22 Markus Boguslavsky
 2022-23 Lachlan Getz
 2024-25 Matt Copponi
-2025-26 Carter Amico
+2025-27 Carter Amico
 #16
 1929-30 Jacob Arkin
 1936-37 Herbert Kaiser
@@ -542,7 +545,7 @@
 2018-19 Max Willman
 2019-22 Robert Mastrosimone
 2022-24 Jeremy Wilmer
-2025-26 Conrad Fondrk
+2025-27 Conrad Fondrk
 #17
 1929-30 Hugo Nelson
 1935-36 Sydney Borofsky
@@ -612,7 +615,7 @@
 2019-20 Alex Brink
 2020-23 Jay O'Brien
 2023-25 Shane Lachance
-2025-26 Jay Feldberg
+2025-27 Jay Feldberg
 #19
 1936-37 — Boudakian
 1949-50 Bob Bell
@@ -651,7 +654,7 @@
 2017-18 Hank Crone
 2018-21 Jack DeBoer
 2021-25 Jack Page
-2025-26 Jack Murtagh
+2025-27 Jack Murtagh
 #20
 1936-37 Robert Colburn
 1947-50 Walt Anderson
@@ -712,7 +715,7 @@
 2016-20 Patrick Harper
 2020-22 Max Kaufman
 2022-25 Devin Kaplan
-2025-26 Ryder Ritchie
+2025-27 Ryder Ritchie
 #22
 1955-56 Forbes Keith
 1956-58 Don MacLeod
@@ -736,7 +739,7 @@
 2013-17 Tommy Kelley
 2017-21 Jake Witkowski
 2021-23 Brian Carrabes
-2023-26 Aiden Celebrini
+2023-27 Aiden Celebrini
 #23
 1939-40 Bob Lind
 1955-56 Bill McDonnell
@@ -810,7 +813,7 @@
 2014-16 Brandon Fortunato
 2017-18 David Farrance
 2019-24 Sam Stevens
-2025-26 Ben Merrill
+2025-27 Ben Merrill
 #26
 1956-57 Paul DiGuglielmo
 1957-58 Jim MacKay
@@ -864,6 +867,7 @@
 2019-23 John Copeland
 2023-24 Jack Hughes
 2025-26 Kyle Kim
+2025-26 Caleb Malhotra
 #28
 1985-86 Ian Wood
 1989-90 Ron Trentini
@@ -905,7 +909,8 @@
 2019-22 Ashton Abel
 2022-23 Patrick Schena
 2023-24 Henry Graham
-2024-25 Jack Perry
+2025-26 Jack Perry
+2026-27 Sartaj Dhami
 #31
 2000-04 Sean Fields
 2006-08 Brett Bennett
@@ -923,7 +928,7 @@
 2007-09 Colin Wilson
 2018-20 Hugo Blixt
 2021-22 Ty Amonte
-2023-26 Max Lacroix
+2023-27 Max Lacroix
 #34
 2024-26 Cole Eiserman
 #35
@@ -939,27 +944,32 @@
 #37
 2021-23 Matt Brown
 #38
-Kamil Bednarik
+2025-27 Kamil Bednarik
 #39
 1999-03 Andy Warren
 #40
 1950-51 Ed Cahoon
-2024-26 Mikhail Yegorov
+2024-27 Mikhail Yegorov
 #44
 2024-26 Cole Hutson
 #57
 2025-26 Malte Vass
 #61
 2024-25 Alex Zetterberg
+2026-27 Haoxi (Simon) Wang
 #62
 2023-24 Mathieu Caron
 #71
 2023-24 Macklin Celebrini
+#72
+2026-27 Xavier Villeneuve
 #78
 2024-26 Sascha Boumedienne
+#81
+2026-27 Niklas Aaram-Olsen
 #83
 1998-02 Jason Tapp
 #91
-2025-26 Charlie Trethewey
+2025-27 Charlie Trethewey
 #97
 2005-09 Matt Gilroy

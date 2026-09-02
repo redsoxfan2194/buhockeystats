@@ -65,9 +65,9 @@ function clearFilters(event) {
         document.getElementById("proLabel").textContent = "NHLers Only";
     }
 
-    document.getElementById("seasonEnd").value = "2025-26";
+    document.getElementById("seasonEnd").value = "2026-27";
     if(document.getElementById("seasonEnd").value===""){
-      document.getElementById("seasonEnd").value = "2025-26";
+      document.getElementById("seasonEnd").value = "2026-27";
     }
     document.getElementById("sortval").value = "";
     document.getElementById("isAscending").value = "";

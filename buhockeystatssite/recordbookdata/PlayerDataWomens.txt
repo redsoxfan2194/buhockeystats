@@ -494,7 +494,7 @@
 6	Kate Meinert	SO	D	5-5	R	05	Moon Township, Pennsylvania / BK Selects	2025-26
 7	Ella Belfry	JR	D	5-6	L	04	Ridgeway, Ontario / Colgate	2025-26
 8	Lola Reid	SO	F	6-0	R	06	Lincoln, Nebraska / Shattuck-St. Mary's	2025-26
-9	Mia Vergilii	FR	F	5-6	R	07	Brecksville, Ohio / Shattuck-St. Mary’s	2025-26
+9	Mia Vergilii	FR	F	5-6	R	07	Brecksville, Ohio / Shattuck-St. Mary's	2025-26
 10	Tessa Demain	SO	D	5-7	R	05	Wolfeboro, New Hampshire / St. Paul's School	2025-26
 11	Sydney Healey	SR	F	5-7	L	04	Arthur, Ontario / Burlington Barracudas	2025-26
 12	Avery Supryka	FR	D	5-9	L	06	Ottawa, Ontario / Whitby Junior Wolves	2025-26
@@ -512,3 +512,27 @@
 33	Sydney Fogu	FR	G	5-9	L	06	Bayonne, New Jersey / Bayonne	2025-26
 35	Jackie Wright	FR	G	5-4	L	07	Walpole, Massachusetts / St. Mark's School	2025-26
 92	Mari Pietersen	JR	G	5-6	L	04	Goodwood, Ontario / Etobicoke Jr. Dolphins	2025-26
+2	Peyton Blaney	SR	D	5-8	L	4	Millgrove, Ontario / Providence	2026-27
+6	Kate Meinert	JR	D	5-5	R	5	Moon Township, Pennsylvania / BK Selects	2026-27
+7	Kylie Hollingsworth	FR	F	5-8	R	8	Ottawa, Ontario / Nepean Wildcats	2026-27
+8	Lola Reid	JR	F	6-0	R	6	Lincoln, Nebraska / Shattuck-St. Mary's	2026-27
+9	Mia Vergilii	SO	F	5-6	R	7	Brecksville, Ohio / Shattuck-St. Mary’s	2026-27
+10	Tessa Demain	JR	D	5-7	R	5	Wolfeboro, New Hampshire / St. Paul's School	2026-27
+11	Lexie Bertelsen	SO	F	5-2	L	7	Belmont, Ontario / Etobicoke Jr. Dolphins	2026-27
+12	Avery Supryka	SO	D	5-9	L	6	Ottawa, Ontario / Whitby Junior Wolves	2026-27
+15	Anežka Cabelová	SO	F	5-3	L	6	Ceský Krumlov, Czechia / RINK Hockey Academy Kelowna	2026-27
+16	Kaileigh Quigg	JR	F	5-10	L	6	Keswick, Ontario / Durham West Jr. Lightning	2026-27
+17	Kali Maechtel	FR	D	5-9	L	8	Whitby, Ontario / Whitby Wolves	2026-27
+18	Neely Nicholson	SR	F	5-8	L	4	Pittsburgh, Pennsylvania / Shady Side Academy	2026-27
+19	Mylie Ellis	FR	D	5-5	L	8	St. Thomas, Ontario / Stoney Creek	2026-27
+20	Loelie Lachapelle	FR	F	5-7	L	8	Ste-Anne-des-Plaines, Quebec / Northwood School	2026-27
+21	Eden Bergman	FR	F	5-6		8	Toronto, Ontario / Durham West Jr. Lightning	2026-27
+22	Bronwyn Langis	FR	F	5-9	L	8	Goderich, Ontario / Mississauga Hurricanes	2026-27
+23	Greta Henderson	SR	F	5-6	R	5	Regina, Saskatchewan / St. Cloud State	2026-27
+24	Quinn Taylor	FR	F	5-7	R	7	Centerville, Massachusetts / NAHA	2026-27
+26	Ella Pukala	SO	F	5-9	R	7	Arlington Heights, Illinois / Minnesota Duluth	2026-27
+27	Keira Healey	JR	D	5-7	L	6	Arthur, Ontario / Etobicoke Jr. Dolphins	2026-27
+28	Julia Curran	FR	F	5-5	L	8	Edmonton, Alberta / Edmonton Jr. Oilers	2026-27
+33	Sydney Fogu	SO	G	5-9	L	6	Bayonne, New Jersey / Bayonne	2026-27
+35	Jackie Wright	SO	G	5-4	L	7	Walpole, Massachusetts / St. Mark's School	2026-27
+92	Mari Pietersen	SR	G	5-6	L	4	Goodwood, Ontario / Etobicoke Jr. Dolphins	2026-27
