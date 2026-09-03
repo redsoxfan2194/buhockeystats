@@ -4,7 +4,12 @@ let gaveUp = false;
 let activeBox = null;
 let validating = false;
 let gridTransmitted = false;
-
+let gamesPlayed = 0
+let avgScore = 0
+let totalScore = 0
+let currentStreak = 0
+let lastGamePlayed = 0
+let threeStarGames = 0
 const usedPlayers = new Set();
 const invalidPlayers = {};
 
@@ -14,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setupPlayerBoxes();
     setupButtons();
     setupEscapeKey();
-
+    getSavedStats();
     restoreGame();
 
     updateScore();
@@ -23,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
         showHelp();
     }
+    
 });
 
 function saveGame() 
@@ -34,25 +40,10 @@ function saveGame()
                 : null
         );
 
-    localStorage.setItem(
-        "jacksBoxesPlayed",
-        gameNumber
-    );
-
-    localStorage.setItem(
-        "jacksBoxesScore",
-        score
-    );
-
-    localStorage.setItem(
-        "jacksBoxesGuesses",
-        guessesLeft
-    );
-
-    localStorage.setItem(
-        "jacksBoxesGrid",
-        JSON.stringify(grid)
-    );
+    localStorage.setItem("jacksBoxesPlayed", gameNumber);
+    localStorage.setItem("jacksBoxesScore", score);
+    localStorage.setItem("jacksBoxesGuesses", guessesLeft);
+    localStorage.setItem("jacksBoxesGrid", JSON.stringify(grid));
 }
 function restoreGame() 
 {
@@ -80,10 +71,7 @@ function restoreGame()
         });
 
     score = parseInt(localStorage.getItem("jacksBoxesScore") || "0", 10);
-
     guessesLeft = parseInt(localStorage.getItem("jacksBoxesGuesses") || "9", 10);
-
-    
     updateScore();
     updateGuesses();
 
@@ -93,6 +81,56 @@ function restoreGame()
         disableGame();
         showGameOver();
     }
+}
+
+function getSavedStats()
+{
+    gamesPlayed = parseInt(localStorage.getItem("jacksBoxesGP") || "0", 10);
+    totalScore = parseInt(localStorage.getItem("jacksBoxesTotal") || "0", 10);
+    currentStreak  = parseInt(localStorage.getItem("jacksBoxesStreak") || "0", 10);
+    lastGamePlayed  = parseInt(localStorage.getItem("jacksBoxesLastGP") || "0", 10);
+    threeStarGames = parseInt(localStorage.getItem("jacksBoxesThreeStars") || "0", 10);
+
+    if(gamesPlayed > 0)
+    {
+      avgScore = (totalScore / gamesPlayed).toFixed(2);
+    }
+    else
+    {
+      avgScore = 0;
+    }
+}
+
+function saveStats()
+{
+    localStorage.setItem("jacksBoxesGP",gamesPlayed);
+    localStorage.setItem("jacksBoxesTotal",totalScore);
+    localStorage.setItem("jacksBoxesStreak",currentStreak);
+    localStorage.setItem("jacksBoxesLastGP",lastGamePlayed);
+    localStorage.setItem("jacksBoxesThreeStars",threeStarGames);
+  
+}
+
+function updateStats()
+{
+  gamesPlayed+=1;
+  totalScore+=score;
+  avgScore = (totalScore / gamesPlayed).toFixed(2);;
+  if(score==9)
+  {
+    threeStarGames+= 1;
+  }
+  if(gameNumber-lastGamePlayed==1)
+  {
+    currentStreak+= 1;
+  }
+  else
+  {
+    currentStreak = 1;
+  }
+  lastGamePlayed = gameNumber;
+  
+  saveStats();
 }
 
 
@@ -251,27 +289,19 @@ function updatePlayerList(input, list) {
             const name = document.createElement("span");
             name.textContent =  player;
             option.appendChild(name);
-
-            if (usedPlayers.has(player) ) {
-
+            if (usedPlayers.has(player) ) 
+            {
                 addAlreadyUsed(option);
-
             }
-
             else if (invalidPlayers[key] && invalidPlayers[key].has(player))
             {
-
                 name.classList.add("invalid-player");
 
             }
-
             else
             {
-
                 addSelectButton(option, player);
-
             }
-
             list.appendChild(option);
 
         });
@@ -516,7 +546,7 @@ function disableGame()
     {
         giveUp.disabled =  false;
 
-        giveUp.textContent = "Show Score";
+        giveUp.textContent = "Show Stats";
 
         giveUp.classList.add("show-score-button");
 
@@ -529,6 +559,7 @@ function endGame()
     closeSearch();
     disableGame();
     saveGame();
+    updateStats();
     transmitGrid();
     showGameOver();
 }
@@ -538,39 +569,53 @@ function showGameOver()
 
     saveGame();
     const title =  document.getElementById("gameOverTitle");
-
-
     if (title)
     {
         title.textContent = `Jack's Boxes #${gameNumber}`;
-
     }
 
     const finalScore =  document.getElementById("finalScore");
-
     if (finalScore)
     {
-
-        finalScore.textContent = `${score}/9`;
-
+        if(score==9)
+        {
+          finalScore.innerHTML = `${score}/9<br>⭐⭐⭐`;
+        }
+        else if(score>=6)
+        {
+          finalScore.innerHTML = `${score}/9<br>⭐⭐`;
+        }
+        else if(score>=3)
+        {
+          finalScore.innerHTML = `${score}/9<br>⭐`;
+        }
+        else
+        {
+          finalScore.innerHTML = `${score}/9`;
+        }
     }
+
+    const gpnum =  document.getElementById("gpNum");
+    gpnum.innerHTML = `${gamesPlayed}`;
+    
+    const streakNum =  document.getElementById("streakNum");
+    streakNum.innerHTML = `${currentStreak}`;
+    
+    const avgScoreNum =  document.getElementById("avgScoreNum");
+    avgScoreNum.innerHTML = `${avgScore}`;
+    
+    const threeStarsNum =  document.getElementById("threeStarsNum");
+    threeStarsNum.innerHTML = `${threeStarGames}`;
 
     updateScore();
     updateGuesses();
     buildResultGrid();
     showPossibleAnswers();
 
-    const modal =
-        document.getElementById(
-            "gameOverModal"
-        );
-
-
-    if (modal) {
-
-        modal.style.display =
-            "flex";
-
+    const modal = document.getElementById("gameOverModal");
+    if (modal)
+    {
+        modal.style.display =  "flex";
     }
 }
 
@@ -612,26 +657,25 @@ async function copyScore()
 {
 
     let result = "";
-
-
     for (let row = 0; row < 3; row++)
     {
-
         for (let col = 0; col < 3; col++)
         {
             const box =  document.querySelector(`.player-box[data-row="${row}"][data-col="${col}"]`);
             result += box?.classList.contains("filled") ? "🟥" : "⬜";
         }
-
         result += "\n";
 
     }
 
+    let text = `Jack's Boxes #${gameNumber} - ${score}/9:\n\n${result}\nPlay: ${window.location.origin}/jacksboxes`;
+    if(score==9)
+    {
+      text = `Jack's Boxes #${gameNumber} - ⭐${score}/9⭐:\n\n${result}\nPlay: ${window.location.origin}/jacksboxes`;
+    }
 
-    const text = `Jack's Boxes #${gameNumber} ${score}/9\n\n${result}\nPlay: ${window.location.origin}/jacksboxes`;
-
-
-    try {
+    try
+    {
         await navigator.clipboard.writeText(text);
         const button = document.getElementById("copyScore");
 
@@ -651,7 +695,9 @@ async function copyScore()
         }, 1500);
 
 
-    } catch (error) {
+    }
+    catch (error)
+    {
 
         console.error(
             "Could not copy score:",

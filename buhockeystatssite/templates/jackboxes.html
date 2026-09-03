@@ -60,21 +60,15 @@
                </p>
                <p>Select a player for each box that matches the
                   criteria for that box's row and column
-                  
-                  
-              </p>
+               </p>
 
-              <p>You have <strong>nine (9) shots</strong> at filling out the grid</p>
-              <p>Each shot, right or wrong counts as a shot</p>
+              <p>You have <strong>nine (9) shots</strong> at filling out the grid with each attempt, right or wrong, counting as a shot</p>
               <p>A player cannot be used more than once and once a box is filled it cannot be changed</p>
-              <p>Click <strong>Give Up</strong> to see your score</p>
-              <p>Click a number under <strong>Possible Answers</strong> to see the answers for that box<p>
-
+              <p>Click <strong>Give Up</strong> end the game, and see your score</p>
+              <p> On the Stats Screen: Click a number under <strong>Possible Answers</strong> to see the answers for that box<p>
               <p>
-                  You can play each Jack's Boxes game once per day
+                  You can play each Jack's Boxes game <strong>once</strong> per day
               </p>
-              <hr class="hr hr-blurry" />
-                <p>Inspired by: <a class="link-no-pad" href="https://www.sports-reference.com/immaculate-grid/hockey">Immaculate Grid</a></p>
               <hr class="hr hr-blurry" />
                 Report Issues/Bugs or to Suggest Potential Grids: <a aria-label="Email" href="mailto:buhockeystats@gmail.com" class="nav-link px-2 text-muted fa fa-regular fa-envelope"></a><a aria-label="Twitter" href="https://twitter.com/buhockeystats" class="nav-link px-2 text-muted fa fa-brands fa-twitter"></a><a aria-label="instagram" href="https://instagram.com/buhockeystats" class="nav-link px-2 text-muted fa fa-brands fa-instagram"></a>
               
@@ -96,9 +90,32 @@
             <button id="copyScore" class="copy-button">Copy Score</button>
             <h3 class="possible-title">Possible Answers</h3>
             <div id="possibleGrid" class="possible-grid"></div>
+            <hr class="hr hr-blurry" />
+            <h4>Stats</h4>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-title">Games Played</div>
+                    <div id="gpNum" class="stat-value">0</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-title">Current Streak</div>
+                    <div id="streakNum" class="stat-value">0</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-title">Average Score</div>
+                    <div id="avgScoreNum" class="stat-value">0</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-title">⭐⭐⭐</div>
+                    <div id="threeStarsNum" class="stat-value">0</div>
+                </div>
+            </div>
         </div>
     </div>
-
     <div id="answersModal" class="answers-modal">
         <div class="answers-popup">
             <button id="closeAnswers" class="close-answers">&times;</button>
