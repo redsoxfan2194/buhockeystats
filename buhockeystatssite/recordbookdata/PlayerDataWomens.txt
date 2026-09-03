@@ -132,7 +132,7 @@
 13	Kaleigh Fratkin	FR	D	5-8	R	92	Burnaby, British Columbia / Vancouver North West Giants	2010-11
 14	Shannon Mahoney	SO	F	5-7	L	89	Carlisle, Massachusetts / Concord-Carlisle	2010-11
 16	Caroline Campbell	FR	D	5-7	R	91	St. Louis, Missouri / Chicago Mission U19	2010-11
-17	Catherine Ward	SR	D	5-6	L	87	Montreal, Quebec / McGill University	2010-11
+17	Catherine Ward	SR	D	5-6	L	87	Montr√©al, Quebec / McGill University	2010-11
 18	Jillian Kirchner	SR	F	5-2	L	88	Frankfort, Illinois / Lincolnway East	2010-11
 19	Jenelle Kohanchuk	JR	F	5-7	L	90	Winnipeg, Manitoba / Balmoral School	2010-11
 21	Samantha Pulley	SO	F	5-3	L	90	HuntingdonValley, Pennsylvania / Springside School	2010-11
@@ -270,7 +270,7 @@
 33	Victoria Hanson	JR	G	5-9	L	94	Stoughton, Massachusetts / Lawrence Academy	2015-16
 1	Ashlyn Aiello	JR	G	5-0	L	96	Belmont, Massachusetts / Phillips Academy	2016-17
 4	Sarah Steele	SR	D	5-6	L	95	Stratford, Prince Edward Island / Appleby College	2016-17
-8	Deziray De Sousa	FR	F	5-8	L	98	MontrÈal, Quebec / Phillips Exeter (Massachusetts)	2016-17
+8	Deziray De Sousa	FR	F	5-8	L	98	Montr√©al, Quebec / Phillips Exeter (Massachusetts)	2016-17
 9	Abby Cook	FR	D	5-10	R	98	Kelowna, British Columbia / Pursuit of Excellence	2016-17
 10	Katie Shannahan	FR	D	5-7	L	98	Colorado Springs, Colorado / Detroit Little Caesars	2016-17
 11	Alexandra Calderone	FR	D	5-4	L	97	Kirkland, Quebec / Dawson College	2016-17
@@ -294,7 +294,7 @@
 1	Ashlyn Aiello	SR	G	5-0	L	96	Belmont, Massachusetts / Phillips Academy	2017-18
 4	Alexandra Calderone	SO	D	5-4	L	97	Kirkland, Quebec / Dawson College	2017-18
 7	Jesse Compher	FR	F	5-8	N/A	99	Northbrook, Illinois / Chicago Mission	2017-18
-8	Deziray De Sousa	SO	F	5-8	L	98	MontrÈal, Quebec / Phillips Exeter (Massachusetts)	2017-18
+8	Deziray De Sousa	SO	F	5-8	L	98	Montr√©al, Quebec / Phillips Exeter (Massachusetts)	2017-18
 9	Abby Cook	SO	D	5-10	R	98	Kelowna, British Columbia / Pursuit of Excellence	2017-18
 10	Katie Shannahan	SO	D	5-7	L	98	Colorado Springs, Colorado / Detroit Little Caesars	2017-18
 12	Victoria Bach	SR	F	5-4	L	96	Milton, Ontario / Mississauga Jr. Chiefs	2017-18
@@ -318,7 +318,7 @@
 4	Alexandra Calderone	JR	D	5-4	L	97	Kirkland, Quebec / Dawson College	2018-19
 5	Courtney Correia	FR	F	5-6	L	00	Whitby, Ontario / Toronto Aeros	2018-19
 7	Jesse Compher	SO	F	5-8	R	99	Northbrook, Illinois / Chicago Mission	2018-19
-8	Deziray De Sousa	JR	F	5-8	L	98	MontrÈal, Quebec / Phillips Exeter (Massachusetts)	2018-19
+8	Deziray De Sousa	JR	F	5-8	L	98	Montr√©al, Quebec / Phillips Exeter (Massachusetts)	2018-19
 9	Abby Cook	JR	D	5-10	R	98	Kelowna, British Columbia / Pursuit of Excellence	2018-19
 10	Katie Shannahan	JR	D	5-7	L	98	Colorado Springs, Colorado / Detroit Little Caesars	2018-19
 11	Mackenna Parker	FR	F	5-6	R	00	Cavet, Saskatchewan / Saskatoon Stars	2018-19
@@ -341,9 +341,9 @@
 2	Alex Allan	SO	D	5-8	L	00	Abbotsford, British Columbia / Pacific Steelers	2019-20
 4	Alexandra Calderone	SR	D	5-4	L	97	Kirkland, Quebec / Dawson College	2019-20
 5	Courtney Correia	SO	F	5-6	L	00	Whitby, Ontario / Toronto Aeros	2019-20
-6	Nadia Mattivi	FR	D	5-9	N/A	00	Baselga di PinË (Trento), Italy / Italian National Team	2019-20
+6	Nadia Mattivi	FR	D	5-9	N/A	00	Baselga di Pin√© (Trento), Italy / Italian National Team	2019-20
 7	Jesse Compher	JR	F	5-8	R	99	Northbrook, Illinois / Chicago Mission	2019-20
-8	Deziray De Sousa	SR	F	5-8	L	98	MontrÈal, Quebec / Phillips Exeter (Massachusetts)	2019-20
+8	Deziray De Sousa	SR	F	5-8	L	98	Montr√©al, Quebec / Phillips Exeter (Massachusetts)	2019-20
 9	Abby Cook	SR	D	5-10	R	98	Kelowna, British Columbia / Pursuit of Excellence	2019-20
 10	Katie Shannahan	SR	D	5-7	L	98	Colorado Springs, Colorado / Detroit Little Caesars	2019-20
 11	Mackenna Parker	SO	F	5-6	R	00	Clavet, Saskatchewan / Saskatoon Stars	2019-20
@@ -366,7 +366,7 @@
 2	Alex Allan	JR	D	5-8	L	00	Abbotsford, British Columbia / Pacific Steelers	2020-21
 4	Grace Parker	SO	D	5-8	L	01	Nepean, Ontario / Nepean Jr. Wildcats	2020-21
 5	Courtney Correia	JR	F	5-6	L	00	Whitby, Ontario / Toronto Aeros	2020-21
-6	Nadia Mattivi	SO	D	5-9	L	00	Baselga di PinË (Trento), Italy / Italian National Team	2020-21
+6	Nadia Mattivi	SO	D	5-9	L	00	Baselga di Pin√© (Trento), Italy / Italian National Team	2020-21
 7	Jesse Compher	SR	F	5-8	R	99	Northbrook, Illinois / Chicago Mission	2020-21
 9	Clare O'Leary	FR	F	5-8	R	01	Hingham, Massachusetts / Tabor Academy	2020-21
 11	Mackenna Parker	JR	F	5-6	R	00	Clavet, Saskatchewan / Saskatoon Stars	2020-21
@@ -391,7 +391,7 @@
 3	Liv Haag	FR	F	5-1	R	03	Robbinsdale, Minnesota / Benilde-St. Margaretís	2021-22
 4	Grace Parker	JR	D	5-8	L	01	Nepean, Ontario / Nepean Jr. Wildcats	2021-22
 5	Courtney Correia	SR	F	5-6	L	00	Whitby, Ontario / Toronto Aeros	2021-22
-6	Nadia Mattivi	JR	D	5-9	L	00	Baselga di PinË (Trento), Italy / Italian National Team	2021-22
+6	Nadia Mattivi	JR	D	5-9	L	00	Baselga di Pin√© (Trento), Italy / Italian National Team	2021-22
 7	Kylie Roberts	FR	F	5-8	L	03	Edina, Minnesota / Edina	2021-22
 8	Maggie Hanzel	FR	D	5-9	L	02	Rochester, Minnesota / Lourdes	2021-22
 9	Clare O'Leary	SO	F	5-8	R	01	Hingham, Massachusetts / Tabor Academy	2021-22
@@ -412,8 +412,8 @@
 28	Catherine Foulem	SO	F	5-6	L	02	Dieppe, New Brunswick / Ridley College	2021-22
 31	Nicole McGuigan	SR	G	5-8	L	00	Huntington, New York / Choate Rosemary Hall	2021-22
 37	Callie Shanahan	FR	G	5-10	L	03	Commerce, Michigan / HoneyBaked	2021-22
-3	Liv Haag	SO	F	5-1	R	03	Robbinsdale, Minnesota / Benilde-St. Margaretís	2022-23
-6	Nadia Mattivi	SR	D	5-9	L	00	Baselga di PinË (Trento), Italy / Italian National Team	2022-23
+3	Liv Haag	SO	F	5-1	R	03	Robbinsdale, Minnesota / Benilde-St. Margaret's	2022-23
+6	Nadia Mattivi	SR	D	5-9	L	00	Baselga di Pin√© (Trento), Italy / Italian National Team	2022-23
 7	Kylie Roberts	SO	F	5-8	L	03	Edina, Minnesota / Edina	2022-23
 8	Maggie Hanzel	SO	D	5-9	L	02	Rochester, Minnesota / Lourdes	2022-23
 9	Clare O'Leary	JR	F	5-8	R	01	Hingham, Massachusetts / Tabor Academy	2022-23
@@ -438,7 +438,7 @@
 19	Clara Yuhn	FR	F	5-9	R	04	Bloomfield Hills, Michigan / Detroit Little Caesars AAA	2022-23
 1	Alexa Matses	GR	G	5-8	N/A	00	Boxford, Massachusetts / Northeastern	2023-24
 2	Ella Huntley	FR	F	5-4	L	05	Buffalo, New York / Etobicoke Jr. Dolphins	2023-24
-3	Liv Haag	JR	F	5-1	R	03	Robbinsdale, Minnesota / Benilde-St. Margaretís	2023-24
+3	Liv Haag	JR	F	5-1	R	03	Robbinsdale, Minnesota / Benilde-St. Margaret's	2023-24
 4	Jackson Kinsler	FR	F	5-7	L	04	Madison, Wisconsin / Shattuck St. Mary's U19	2023-24
 6	Nadia Mattivi	GR	D	5-9	L	00	Baselga di PinË (Trento), Italy / Italian National Team	2023-24
 7	Kylie Roberts	JR	F	5-8	L	03	Edina, Minnesota / Edina	2023-24
@@ -498,7 +498,7 @@
 10	Tessa Demain	SO	D	5-7	R	05	Wolfeboro, New Hampshire / St. Paul's School	2025-26
 11	Sydney Healey	SR	F	5-7	L	04	Arthur, Ontario / Burlington Barracudas	2025-26
 12	Avery Supryka	FR	D	5-9	L	06	Ottawa, Ontario / Whitby Junior Wolves	2025-26
-15	Aneûka Cabelov·	FR	F	5-3	L	06	Cesk˝ Krumlov, Czechia / RINK Hockey Academy Kelowna 	2025-26
+15	Ane≈æka Cabelov√°	FR	F	5-3	L	06	Cesk√Ω Krumlov, Czechia / RINK Hockey Academy Kelowna 	2025-26
 16	Luisa Welcke	SR	F	5-5	R	02	Heidelberg, Germany / Maine	2025-26
 18	Neely Nicholson	JR	F	5-8	L	04	Pittsburgh, Pennsylvania / Shady Side Academy	2025-26
 19	Clara Yuhn	SR	F	5-9	R	04	Bloomfield Hills, Michigan / Detroit Little Caesars AAA	2025-26
@@ -516,11 +516,11 @@
 6	Kate Meinert	JR	D	5-5	R	5	Moon Township, Pennsylvania / BK Selects	2026-27
 7	Kylie Hollingsworth	FR	F	5-8	R	8	Ottawa, Ontario / Nepean Wildcats	2026-27
 8	Lola Reid	JR	F	6-0	R	6	Lincoln, Nebraska / Shattuck-St. Mary's	2026-27
-9	Mia Vergilii	SO	F	5-6	R	7	Brecksville, Ohio / Shattuck-St. Maryís	2026-27
+9	Mia Vergilii	SO	F	5-6	R	7	Brecksville, Ohio / Shattuck-St. Mary's	2026-27
 10	Tessa Demain	JR	D	5-7	R	5	Wolfeboro, New Hampshire / St. Paul's School	2026-27
 11	Lexie Bertelsen	SO	F	5-2	L	7	Belmont, Ontario / Etobicoke Jr. Dolphins	2026-27
 12	Avery Supryka	SO	D	5-9	L	6	Ottawa, Ontario / Whitby Junior Wolves	2026-27
-15	Aneûka Cabelov·	SO	F	5-3	L	6	Cesk˝ Krumlov, Czechia / RINK Hockey Academy Kelowna	2026-27
+15	Ane≈æka Cabelov√°	SO	F	5-3	L	6	Cesk√Ω Krumlov, Czechia / RINK Hockey Academy Kelowna	2026-27
 16	Kaileigh Quigg	JR	F	5-10	L	6	Keswick, Ontario / Durham West Jr. Lightning	2026-27
 17	Kali Maechtel	FR	D	5-9	L	8	Whitby, Ontario / Whitby Wolves	2026-27
 18	Neely Nicholson	SR	F	5-8	L	4	Pittsburgh, Pennsylvania / Shady Side Academy	2026-27
