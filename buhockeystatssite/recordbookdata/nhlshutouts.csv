@@ -1,0 +1,37 @@
+number,date,team,goalie,opponent,Scoreline,arena,saves
+1,2004-03-23,NYI,Rick DiPietro,WSH,3-0,Nassau Veterans Memorial Coliseum,17
+2,2004-03-21,NYI,Rick DiPietro,TBL,3-0,Nassau Veterans Memorial Coliseum,29
+3,2004-02-24,NYI,Rick DiPietro,BOS,0-0,Nassau Veterans Memorial Coliseum,28
+4,2004-01-24,NYI,Rick DiPietro,ATL,3-0,Philips Arena,25
+5,2003-10-11,NYI,Rick DiPietro,BUF,6-0,HSBC Arena,13
+6,2004-04-10,NYI,Rick DiPietro,TBL,3-0,St. Pete Times Forum,22
+7,2006-04-08,NYI,Rick DiPietro,WSH,5-0,Nassau Veterans Memorial Coliseum,20
+8,2007-02-07,NYI,Rick DiPietro,PHI,2-0,Nassau Veterans Memorial Coliseum,27
+9,2006-12-26,NYI,Rick DiPietro,NYR,2-0,Nassau Veterans Memorial Coliseum,28
+10,2006-12-23,NYI,Rick DiPietro,CBJ,4-0,Nassau Veterans Memorial Coliseum,26
+11,2006-12-16,NYI,Rick DiPietro,ATL,6-0,Nassau Veterans Memorial Coliseum,37
+12,2006-11-15,NYI,Rick DiPietro,DAL,3-0,American Airlines Center,35
+13,2008-02-21,NYI,Rick DiPietro,TBL,1-0,Nassau Veterans Memorial Coliseum,32
+14,2007-11-16,NYI,Rick DiPietro,NJD,1-0,Prudential Center,26
+15,2007-11-01,NYI,Rick DiPietro,TBL,4-0,Nassau Veterans Memorial Coliseum,28
+16,2010-01-18,NYI,Rick DiPietro,NJD,4-0,Nassau Veterans Memorial Coliseum,20
+17,2010-11-26,NYI,Rick DiPietro,NJD,2-0,Nassau Veterans Memorial Coliseum,29
+18,2021-03-06,DAL,Jake Oettinger,CBJ,5-0,American Airlines Center,21
+19,2022-02-18,DAL,Jake Oettinger,CHI,1-0,United Center,34
+20,2022-05-05,DAL,Jake Oettinger,CGY,2-0,Scotiabank Saddledome,29
+21,2023-04-13,DAL,Jake Oettinger,STL,1-0,American Airlines Center,25
+22,2023-01-21,DAL,Jake Oettinger,ARI,4-0,American Airlines Center,33
+23,2023-01-16,DAL,Jake Oettinger,VGK,4-0,T-Mobile Arena,27
+24,2022-12-01,DAL,Jake Oettinger,ANA,5-0,American Airlines Center,31
+25,2022-10-27,DAL,Jake Oettinger,WSH,2-0,American Airlines Center,27
+26,2023-04-25,DAL,Jake Oettinger,MIN,4-0,American Airlines Center,27
+27,2024-04-03,DAL,Jake Oettinger,EDM,5-0,American Airlines Center,35
+28,2024-03-30,DAL,Jake Oettinger,SEA,3-0,Climate Pledge Arena,17
+29,2023-11-28,DAL,Jake Oettinger,WPG,2-0,Canada Life Centre,27
+30,2025-03-24,DAL,Jake Oettinger,MIN,3-0,American Airlines Center,32
+31,2024-10-12,DAL,Jake Oettinger,NYI,3-0,American Airlines Center,34
+32,2026-01-10,CHI,Drew Commesso,NSH,3-0,Bridgestone Arena,36
+33,2026-04-11,DAL,Jake Oettinger,NYR,2-0,American Airlines Center,22
+34,2026-04-02,DAL,Jake Oettinger,WPG,3-0,American Airlines Center,22
+35,2025-12-03,DAL,Jake Oettinger,NJD,3-0,Prudential Center,30
+36,2025-10-28,DAL,Jake Oettinger,WSH,1-0,American Airlines Center,24

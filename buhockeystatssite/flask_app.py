@@ -1509,6 +1509,18 @@ def prohattricks():
     nhlHattricks=formatTable(burb.getProHatTricksList('nhl')),
     pwhlHattricks=formatTable(burb.getProHatTricksList('pwhl')),titletag=' - Pro Hat Tricks')
 
+@app.route('/proshutouts')
+def proshutouts():
+    ''' Renders "Pro Shut Outs" Page
+
+    Returns:
+      Flask Template : flask template containing proshutouts.html
+    '''
+    return render_template(
+    'proshutouts.html',
+    nhlShutouts=formatTable(burb.getProShutoutsList('nhl')),
+    pwhlShutouts=formatTable(burb.getProShutoutsList('pwhl')),titletag=' - Pro Shutouts')
+
 
 @app.route('/birthday')
 @app.route('/birthdays',methods=['GET'])

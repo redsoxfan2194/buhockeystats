@@ -4015,6 +4015,13 @@ def getProHatTricksList(league):
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{league.lower()}hattricks.csv")
   dfRes['date'] = pd.to_datetime(dfRes['date'])
   return dfRes
+  
+def getProShutoutsList(league):
+  ''' returns ProShutouts'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{league.lower()}shutouts.csv")
+  dfRes['date'] = pd.to_datetime(dfRes['date'])
+  return dfRes
+
 
 
 def getNHLAwards():
