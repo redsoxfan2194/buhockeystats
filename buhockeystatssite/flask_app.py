@@ -343,7 +343,7 @@ def players():
             if(formData['draftStatus'] == 'Undrafted'):
               dfStat = dfStat.loc[dfStat['draft'].isnull()]
           if formData['draftedTeam'] != 'all':
-            dfStat = dfStat.query(f"draftedTeam==\"{formData['draftedTeam']}\"")
+            dfStat = dfStat.query(f"team==\"{formData['draftedTeam']}\"")
           if(formData['rdmin'] != ''):
             dfStat = dfStat.query(f"round{formData['rdop']} {int(formData['rdmin'])}")
           if(formData['pickmin'] != ''):
