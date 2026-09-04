@@ -545,11 +545,8 @@ function disableGame()
     if (giveUp)
     {
         giveUp.disabled =  false;
-
         giveUp.textContent = "Show Stats";
-
         giveUp.classList.add("show-score-button");
-
     }
 }
 
@@ -927,8 +924,6 @@ function closeHelp()
 function handleGiveUp()
 {
 
-    if (confirm("Are you sure you want to Give Up?") == true)
-    {
       const button = document.getElementById("giveUp");
         
       if (button?.classList.contains("show-score-button"))
@@ -936,10 +931,13 @@ function handleGiveUp()
           showGameOver();
           return;
       }
-      gaveUp = true;
-      localStorage.setItem("jacksBoxesGaveUp", "true");
-      endGame();
-    }
+      
+      if (confirm("Are you sure you want to Give Up?") == true)
+      {
+        gaveUp = true;
+        localStorage.setItem("jacksBoxesGaveUp", "true");
+        endGame();
+      }
 }
 
 function setupEscapeKey()
