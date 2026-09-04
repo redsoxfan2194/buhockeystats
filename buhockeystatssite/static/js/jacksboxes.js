@@ -927,16 +927,19 @@ function closeHelp()
 function handleGiveUp()
 {
 
-    const button = document.getElementById("giveUp");
-
-    if (button?.classList.contains("show-score-button"))
+    if (confirm("Are you sure you want to Give Up?") == true)
     {
-        showGameOver();
-        return;
+      const button = document.getElementById("giveUp");
+        
+      if (button?.classList.contains("show-score-button"))
+      {
+          showGameOver();
+          return;
+      }
+      gaveUp = true;
+      localStorage.setItem("jacksBoxesGaveUp", "true");
+      endGame();
     }
-    gaveUp = true;
-    localStorage.setItem("jacksBoxesGaveUp", "true");
-    endGame();
 }
 
 function setupEscapeKey()
