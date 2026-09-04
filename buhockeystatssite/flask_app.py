@@ -1612,7 +1612,7 @@ def jacksBoxes():
     ]
 
     return render_template(
-        'jackboxes.html',
+        'jacksboxes.html',
         availablePlayers=dfPlayers['pName'].tolist(),
         possibleAnswers=possibleAnswers,
         gameNumber=gameNumber,
