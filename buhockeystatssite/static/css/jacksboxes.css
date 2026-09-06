@@ -766,52 +766,80 @@
 @media (max-width: 600px) {
 
     .jacks-stats-container {
-        padding: 20px 10px 30px;
+        padding: 15px 5px 25px;
+    }
+
+    .jacks-stats-header {
+        margin-bottom: 18px;
     }
 
     .jacks-stats-header h3 {
-        font-size: 24px;
+        font-size: 21px;
     }
 
+    /* Summary cards */
     .jacks-summary {
-        gap: 10px;
+        gap: 7px;
+        margin-bottom: 20px;
     }
 
     .jacks-stat-card {
         min-width: 0;
         flex: 1;
-        padding: 14px 10px;
+        padding: 10px 6px;
+        border-radius: 8px;
+    }
+
+    .jacks-stat-label {
+        font-size: 11px;
     }
 
     .jacks-stat-value {
-        font-size: 25px;
+        font-size: 21px;
     }
 
+    /* Grid card */
     .jacks-grid-card {
-        padding: 18px 8px 20px;
+        padding: 14px 4px 15px;
+        margin-bottom: 15px;
+        border-radius: 10px;
     }
 
+    .jacks-grid-card h4 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .jacks-grid-card h4::after {
+        width: 32px;
+        height: 2px;
+        margin-top: 5px;
+    }
+
+    /* Grid */
     .jacks-grid {
-        border-spacing: 4px !important;
+        border-spacing: 3px !important;
     }
 
     .jacks-grid td {
-        width: 105px;
-        min-width: 105px;
-        height: 75px;
+        width: 78px;
+        min-width: 78px;
+        height: 58px;
+        padding: 5px 3px !important;
+        border-radius: 7px;
     }
 
     .jacks-grid thead th {
-        font-size: 11px;
-        padding: 3px 4px 6px !important;
+        font-size: 9px;
+        padding: 2px 2px 4px !important;
     }
 
     .jacks-grid tbody th {
-        font-size: 11px;
-        padding-right: 6px !important;
+        font-size: 9px;
+        padding: 4px 4px 4px 1px !important;
     }
 
     .grid-value {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
