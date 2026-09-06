@@ -8,7 +8,7 @@ import pandas as pd
 import pytz
 import os
 import ast
-from flask import Flask, render_template, request, jsonify, Response, redirect
+from flask import Flask, render_template, request, jsonify, Response, redirect, url_for
 from werkzeug.middleware.proxy_fix import ProxyFix
 from querystatsbot import querystatsbot, generaterandomstat
 from formatstatsdata import formatResults, formatStats, convertToHtmlTable,formatTable
@@ -1622,42 +1622,58 @@ def jacksBoxes():
         titletag=" - Jack's Boxes"
     )
 
+@app.route('/jacksboxes/stats', defaults={'gameNumRequested': None})
+@app.route('/jacksboxes/stats/', defaults={'gameNumRequested': None})
+@app.route('/jacksboxes/stats/<int:gameNumRequested>')
+def jacksBoxesStats(gameNumRequested):
 
-@app.route('/jacksboxes/stats', methods=['GET'])
-def jacksBoxesStats():
-
-      gameNum=getJacksBoxesGameNum()
-      gameGrid=getJacksBoxesGrid(gameNum)
-      dfResults = getJacksBoxesResultGrids(gameNum)
+    currGameNum = getJacksBoxesGameNum()
+    if(gameNumRequested is None):
+      gameNum = currGameNum
+    elif ((gameNumRequested > currGameNum) or gameNumRequested < 1):
+      return redirect(url_for('jacksBoxesStats'))
+    else:
+      gameNum = gameNumRequested
       
-      numGames=len(dfResults)
-      avgScore=dfResults.score.mean().round(2)
-      
-      dfGrid = pd.DataFrame(dfResults['grid'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x).tolist(), index=dfResults.index)
-      dfGrid.columns = [f'grid_{i}' for i in range(dfGrid.shape[1])]
+    gameGrid = getJacksBoxesGrid(gameNum)
+    dfResults = getJacksBoxesResultGrids(gameNum)
 
-      successRate = dfGrid.notna().mean() * 100
+    numGames = len(dfResults)
+    avgScore = dfResults.score.mean().round(2)
 
-      popular = dfGrid.apply(getPopularValue)
-      successGrid = pd.DataFrame(
-          successRate.values.reshape(gameGrid.shape),
-          index=gameGrid.index,
-          columns=gameGrid.columns
-      ).round(1)
+    dfGrid = pd.DataFrame(dfResults['grid'].apply(
+            lambda x: ast.literal_eval(x) if isinstance(x, str) else x
+        ).tolist(), index=dfResults.index)
 
-      popularGrid = pd.DataFrame(
-          popular.values.reshape(gameGrid.shape),
-          index=gameGrid.index,
-          columns=gameGrid.columns
-      )
-      
-      return render_template(
+    dfGrid.columns = [f'grid_{i}' for i in range(dfGrid.shape[1])]
+
+    successRate = dfGrid.notna().mean() * 100
+    successGrid = pd.DataFrame(
+        successRate.values.reshape(gameGrid.shape),
+        index=gameGrid.index,
+        columns=gameGrid.columns
+    ).round(1)
+
+    popular = [getPopularValue(dfGrid[col]) for col in dfGrid.columns]
+
+    popularGrid = pd.DataFrame(
+        [popular[:3], popular[3:6], popular[6:9]],
+        index=gameGrid.index,
+        columns=gameGrid.columns
+    )
+    
+    scoreCounts = dfResults.value_counts('score').sort_index()
+
+    scoreDistribution = [{'score': int(score),'count': int(count)} for score, count in scoreCounts.items()]
+
+    return render_template(
         'jacksboxes_stats.html',
         gameNum=gameNum,
         numGames=numGames,
         avgScore=avgScore,
         successGrid=successGrid,
         mostPopularGrid=popularGrid,
+        scoreDistribution=scoreDistribution,
         titletag=" - Jack's Boxes Stats (Stats)"
     )
     
@@ -2277,8 +2293,9 @@ def getPopularValue(col):
     value = counts.index[0]
     percentage = counts.iloc[0] / len(col) * 100
 
-    return f'{value} ({percentage:.1f}%)'
-          
+    return {'player': value,
+        'percentage': round(percentage, 1)}
+    
 def writeJacksBoxesGameToFile(data):
    filePath = burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/game_results/jacksboxes_{data['gameNumber']}_grids.csv"
    file_exists = os.path.exists(filePath)

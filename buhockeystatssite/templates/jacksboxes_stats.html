@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 {% block content %}
 <div class="jacks-stats-container">
-    <!-- Header -->
+
     <div class="jacks-stats-header">
         <h3>Jack's Boxes Stats #{{ gameNum }}</h3>
     </div>
-    <!-- Summary -->
+
     <div class="jacks-summary">
         <div class="jacks-stat-card">
             <div class="jacks-stat-label">Games</div>
@@ -16,9 +16,9 @@
             <div class="jacks-stat-value">{{ avgScore }}</div>
         </div>
     </div>
-    <!-- Success Rate -->
+
     <div class="jacks-grid-card">
-        <h4>Success Rate</h4>
+        <h4>Accuracy</h4>
         <div class="jacks-grid-wrapper">
             <table class="jacks-grid">
                 <thead>
@@ -46,7 +46,7 @@
             </table>
         </div>
     </div>
-    <!-- Most Popular -->
+
     <div class="jacks-grid-card">
         <h4>Most Popular</h4>
         <div class="jacks-grid-wrapper">
@@ -64,11 +64,18 @@
                     <tr>
                         <th>{{ index }}</th>
                         {% for value in row %}
-                        <td>
-                            <span class="grid-value">
-                                {{ value }}
-                            </span>
-                        </td>
+                         <td>
+                          {% if value %}
+                              <span class="grid-player">
+                                  {{ value.player }}
+                              </span>
+                              <span class="grid-percentage">
+                                  {{ value.percentage }}%
+                              </span>
+                          {% else %}
+                              <span class="grid-empty">—</span>
+                          {% endif %}
+                      </td>
                         {% endfor %}
                     </tr>
                     {% endfor %}
@@ -76,5 +83,69 @@
             </table>
         </div>
     </div>
+    <div class="jacks-grid-card">
+
+    <h4>Score Distribution</h4>
+
+    <div class="score-chart">
+        <canvas id="scoreDistributionChart"></canvas>
+    </div>
+
 </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    Chart.defaults.font.family = 'Quicksand';
+    const scoreData = {{ scoreDistribution | tojson }};
+    const scores = scoreData.map(item => item.score);
+    const counts = scoreData.map(item => item.count);
+
+    new Chart(document.getElementById('scoreDistributionChart'), {
+        type: 'bar',
+
+        data: {
+            labels: scores,
+            datasets: [{
+                label: 'Games',
+                data: counts,
+                backgroundColor: '#cc0000',
+                borderRadius: 5
+            }]
+        },
+
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Score'
+                    },
+                    ticks: {
+                        stepSize: 1
+                    }
+                },
+
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    },
+                    title: {
+                        display: true,
+                        text: 'Games'
+                    }
+                }
+            }
+        }
+    });
+</script>
 {% endblock %}

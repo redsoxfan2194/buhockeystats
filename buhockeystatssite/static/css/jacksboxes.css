@@ -843,3 +843,53 @@
         font-size: 15px;
     }
 }
+
+.grid-player {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #cc0000;
+}
+
+.grid-percentage {
+    display: block;
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+
+.grid-empty {
+    color: #aaa;
+}
+
+@media (max-width: 600px) {
+
+    .grid-player {
+        font-size: 12px;
+    }
+
+    .grid-percentage {
+        font-size: 10px;
+        margin-top: 2px;
+    }
+}
+
+.score-chart {
+    width: 100%;
+    height: 300px;
+}
+
+@media (max-width: 600px) {
+    .jacks-grid-card {
+        padding: 14px 8px 15px;
+    }
+
+    .score-chart {
+        height: 200px;
+    }
+}
+.score-chart canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
