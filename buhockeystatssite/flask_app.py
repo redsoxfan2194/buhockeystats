@@ -1579,8 +1579,8 @@ def birthdays():
 @app.route('/jacksboxes', methods=['GET', 'POST'])
 def jacksBoxes():
 
-    dfPlayers = pd.concat([burb.dfSkateMens[['name', 'career']],
-        burb.dfGoalieMens[['name', 'career']]]).drop_duplicates()
+    dfPlayers = pd.concat([burb.dfSkate[['name', 'career']],
+        burb.dfGoalie[['name', 'career']]]).drop_duplicates()
 
     dfPlayers['pName'] = (dfPlayers['name'].astype(str) + " (" + dfPlayers['career'].astype(str)  + ")"
     )
