@@ -2226,7 +2226,7 @@ def getJacksBoxesGrid(gameNumber):
   return pd.read_csv(burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/jacksboxes_{gameNumber}.csv",index_col=0)
 
 def writeJacksBoxesGameToFile(data):
-   filePath = burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/game_results/jackesboxes_{data['gameNumber']}_grids.csv"
+   filePath = burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/game_results/jacksboxes_{data['gameNumber']}_grids.csv"
    file_exists = os.path.exists(filePath)
    df=pd.DataFrame([data]).drop('type',axis=1)
    df.to_csv(filePath, mode='a', index=False, header=not file_exists)
