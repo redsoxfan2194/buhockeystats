@@ -314,8 +314,8 @@
 
 .possible-grid {
     display: grid;
-    grid-template-columns: repeat(3, 30px);
-    grid-template-rows: repeat(3, 30px);
+    grid-template-columns: repeat(3, 35px);
+    grid-template-rows: repeat(3, 35px);
     gap: 3px;
     width: fit-content;
     margin: 0 auto 18px;
@@ -326,8 +326,8 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border: 1px solid #ccc;
     border-radius: 4px;
     background: #f5f5f5;
