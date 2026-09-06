@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import pytz
 import os
+import ast
 from flask import Flask, render_template, request, jsonify, Response, redirect
 from werkzeug.middleware.proxy_fix import ProxyFix
 from querystatsbot import querystatsbot, generaterandomstat
@@ -1620,6 +1621,45 @@ def jacksBoxes():
         columnLabels=list(dfGrid.columns),
         titletag=" - Jack's Boxes"
     )
+
+
+@app.route('/jacksboxes/stats', methods=['GET'])
+def jacksBoxesStats():
+
+      gameNum=getJacksBoxesGameNum()
+      gameGrid=getJacksBoxesGrid(gameNum)
+      dfResults = getJacksBoxesResultGrids(gameNum)
+      
+      numGames=len(dfResults)
+      avgScore=dfResults.score.mean().round(2)
+      
+      dfGrid = pd.DataFrame(dfResults['grid'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x).tolist(), index=dfResults.index)
+      dfGrid.columns = [f'grid_{i}' for i in range(dfGrid.shape[1])]
+
+      successRate = dfGrid.notna().mean() * 100
+
+      popular = dfGrid.apply(getPopularValue)
+      successGrid = pd.DataFrame(
+          successRate.values.reshape(gameGrid.shape),
+          index=gameGrid.index,
+          columns=gameGrid.columns
+      ).round(1)
+
+      popularGrid = pd.DataFrame(
+          popular.values.reshape(gameGrid.shape),
+          index=gameGrid.index,
+          columns=gameGrid.columns
+      )
+      
+      return render_template(
+        'jacksboxes_stats.html',
+        gameNum=gameNum,
+        numGames=numGames,
+        avgScore=avgScore,
+        successGrid=successGrid,
+        mostPopularGrid=popularGrid,
+        titletag=" - Jack's Boxes Stats (Stats)"
+    )
     
 @app.route('/trivia', methods=['POST', 'GET'])
 def dailyTrivia():
@@ -2225,6 +2265,20 @@ def getJacksBoxesGameNum():
 def getJacksBoxesGrid(gameNumber):
   return pd.read_csv(burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/jacksboxes_{gameNumber}.csv",index_col=0)
 
+def getJacksBoxesResultGrids(gameNumber):
+  return pd.read_csv(burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/game_results/jacksboxes_{gameNumber}_grids.csv")
+
+def getPopularValue(col):
+    counts = col.dropna().value_counts()
+
+    if counts.empty:
+        return None
+
+    value = counts.index[0]
+    percentage = counts.iloc[0] / len(col) * 100
+
+    return f'{value} ({percentage:.1f}%)'
+          
 def writeJacksBoxesGameToFile(data):
    filePath = burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/game_results/jacksboxes_{data['gameNumber']}_grids.csv"
    file_exists = os.path.exists(filePath)

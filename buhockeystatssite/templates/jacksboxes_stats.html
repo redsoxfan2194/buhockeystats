@@ -1,0 +1,80 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="jacks-stats-container">
+    <!-- Header -->
+    <div class="jacks-stats-header">
+        <h3>Jack's Boxes Stats #{{ gameNum }}</h3>
+    </div>
+    <!-- Summary -->
+    <div class="jacks-summary">
+        <div class="jacks-stat-card">
+            <div class="jacks-stat-label">Games</div>
+            <div class="jacks-stat-value">{{ numGames }}</div>
+        </div>
+        <div class="jacks-stat-card">
+            <div class="jacks-stat-label">Average Score</div>
+            <div class="jacks-stat-value">{{ avgScore }}</div>
+        </div>
+    </div>
+    <!-- Success Rate -->
+    <div class="jacks-grid-card">
+        <h4>Success Rate</h4>
+        <div class="jacks-grid-wrapper">
+            <table class="jacks-grid">
+                <thead>
+                    <tr>
+                        <th></th>
+                        {% for col in successGrid.columns %}
+                            <th>{{ col }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for index, row in successGrid.iterrows() %}
+                    <tr>
+                        <th>{{ index }}</th>
+                        {% for value in row %}
+                        <td>
+                            <span class="grid-value">
+                                {{ value }}%
+                            </span>
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Most Popular -->
+    <div class="jacks-grid-card">
+        <h4>Most Popular</h4>
+        <div class="jacks-grid-wrapper">
+            <table class="jacks-grid">
+                <thead>
+                    <tr>
+                        <th></th>
+                        {% for col in mostPopularGrid.columns %}
+                            <th>{{ col }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for index, row in mostPopularGrid.iterrows() %}
+                    <tr>
+                        <th>{{ index }}</th>
+                        {% for value in row %}
+                        <td>
+                            <span class="grid-value">
+                                {{ value }}
+                            </span>
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
