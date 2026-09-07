@@ -2261,7 +2261,7 @@ def filterStats(formData,dfStat):
 
 def getJacksBoxesGameNum():
   df = pd.read_csv(burb.RECBOOK_DATA_PATH+"/jacksboxes_grids/jacksboxes_schedule.csv")
-  df['date'] = df['date'] = pd.to_datetime(df['date'], format='%m/%d/%y') + pd.Timedelta(hours=6)
+  df['date'] = pd.to_datetime(df['date'], format='%m/%d/%y') + pd.Timedelta(hours=6)
   df['date'] = df['date'].dt.tz_localize('US/Eastern')
   now = pd.Timestamp.now(tz='US/Eastern')
   gameNum=int(df.loc[df['date'] < now].tail(1)['gameNum'].to_string(index=False))
