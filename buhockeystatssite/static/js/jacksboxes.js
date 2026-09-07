@@ -550,15 +550,20 @@ function disableGame()
     }
 }
 
-function endGame()
+async function endGame()
 {
 
     closeSearch();
     disableGame();
     saveGame();
     updateStats();
-    transmitGrid();
-    showGameOver();
+
+    const transmitted = await transmitGrid();
+
+    if (transmitted)
+    {
+        showGameOver();
+    }
 }
 
 function showGameOver()
@@ -990,6 +995,7 @@ async function transmitGrid()
     if (gridTransmitted)
     {
         return;
+        return true;
     }
 
     gridTransmitted = true;
@@ -1030,15 +1036,120 @@ async function transmitGrid()
         }
 
         console.log("Game end transmitted");
+        const statsData = await response.json();
+
+        updateGameOverStats(statsData);
+
+        return true;
     }
     catch (error)
     {
-        // Allow another attempt if the request actually failed
         gridTransmitted = false;
         console.error("Failed to transmit game end:", error);
+        return false;
     }
 }
 
+function updateGameOverStats(statsData)
+{
+    const statCards = document.querySelectorAll('.game-over-stats .jacks-stat-value');
+
+    if (statCards.length >= 2)
+    {
+        statCards[0].textContent = statsData.numGames;
+        statCards[1].textContent = statsData.avgScore;
+    }
+
+    const successTable = document.getElementById('successGrid');
+    const successGrid = statsData.successGrid;
+
+    if (successTable && successGrid)
+    {
+        const tbody = successTable.querySelector('tbody');
+        tbody.innerHTML = '';
+
+        successGrid.data.forEach((row, index) =>
+        {
+            const tr = document.createElement('tr');
+
+            const rowHeader = document.createElement('th');
+            rowHeader.textContent = successGrid.index[index];
+            tr.appendChild(rowHeader);
+
+            row.forEach(value =>
+            {
+                const td = document.createElement('td');
+
+                const span = document.createElement('span');
+                span.className = 'grid-value';
+                span.textContent = `${value}%`;
+
+                td.appendChild(span);
+                tr.appendChild(td);
+            });
+
+            tbody.appendChild(tr);
+        });
+    }
+
+    const popularTable = document.getElementById('popularGrid');
+    const popularGrid = statsData.mostPopularGrid;
+
+    if (popularTable && popularGrid)
+    {
+        const tbody = popularTable.querySelector('tbody');
+        tbody.innerHTML = '';
+
+        popularGrid.data.forEach((row, index) =>
+        {
+            const tr = document.createElement('tr');
+
+            const rowHeader = document.createElement('th');
+            rowHeader.textContent = popularGrid.index[index];
+            tr.appendChild(rowHeader);
+
+            row.forEach(value =>
+            {
+                const td = document.createElement('td');
+
+                if (value)
+                {
+                    const player = document.createElement('span');
+                    player.className = 'grid-player';
+                    player.textContent = value.player;
+
+                    const percentage = document.createElement('span');
+                    percentage.className = 'grid-percentage';
+                    percentage.textContent = `${value.percentage}%`;
+
+                    td.appendChild(player);
+                    td.appendChild(percentage);
+                }
+                else
+                {
+                    const empty = document.createElement('span');
+                    empty.className = 'grid-empty';
+                    empty.textContent = '—';
+                    td.appendChild(empty);
+                }
+
+                tr.appendChild(td);
+            });
+
+            tbody.appendChild(tr);
+        });
+    }
+
+    if (statsData.scoreDistribution && window.scoreDistributionChart)
+    {
+        const scores = statsData.scoreDistribution.map(item => item.score);
+        const counts = statsData.scoreDistribution.map(item => item.count);
+
+        window.scoreDistributionChart.data.labels = scores;
+        window.scoreDistributionChart.data.datasets[0].data = counts;
+        window.scoreDistributionChart.update('none');
+    }
+}
 
 function repositionSearch()
 {
@@ -1052,6 +1163,59 @@ function repositionSearch()
 
     }
 }
+
+
+Chart.defaults.font.family = 'Quicksand';
+
+const scores = scoreData.map(item => item.score);
+const counts = scoreData.map(item => item.count);
+
+window.scoreDistributionChart = new Chart(document.getElementById('scoreDistributionChart'), {
+    type: 'bar',
+
+    data: {
+        labels: scores,
+        datasets: [{
+            label: 'Games',
+            data: counts,
+            backgroundColor: '#cc0000',
+            borderRadius: 5
+        }]
+    },
+
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+
+        scales: {
+            x: {
+                title: {
+                    display: true,
+                    text: 'Score'
+                },
+                ticks: {
+                    stepSize: 1
+                }
+            },
+
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    stepSize: 1
+                },
+                title: {
+                    display: true,
+                    text: 'Games'
+                }
+            }
+        }
+    }
+});
 
 window.addEventListener("resize", repositionSearch);
 window.addEventListener("scroll", repositionSearch);

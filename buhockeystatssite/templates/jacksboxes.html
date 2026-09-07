@@ -120,6 +120,95 @@
                     <div id="threeStarsNum" class="stat-value">0</div>
                 </div>
             </div>
+            <h4>Today's Stats</h4>
+            <div class="jacks-stats-container game-over-stats">
+            <div class="jacks-summary">
+                <div class="jacks-stat-card">
+                    <div class="jacks-stat-label">Games</div>
+                    <div class="jacks-stat-value">{{ numGames }}</div>
+                </div>
+                <div class="jacks-stat-card">
+                    <div class="jacks-stat-label">Average Score</div>
+                    <div class="jacks-stat-value">{{ avgScore }}</div>
+                </div>
+            </div>
+
+            <div class="jacks-grid-card">
+                <h4>Accuracy</h4>
+                <div class="jacks-grid-wrapper">
+                 <table id="successGrid" class="jacks-grid">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                {% for col in successGrid.columns %}
+                                    <th>{{ col }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for index, row in successGrid.iterrows() %}
+                            <tr>
+                                <th>{{ index }}</th>
+                                {% for value in row %}
+                                <td>
+                                    <span class="grid-value">
+                                        {{ value }}%
+                                    </span>
+                                </td>
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="jacks-grid-card">
+                <h4>Most Popular</h4>
+                <div class="jacks-grid-wrapper">
+                    <table id="popularGrid" class="jacks-grid">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                {% for col in mostPopularGrid.columns %}
+                                    <th>{{ col }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for index, row in mostPopularGrid.iterrows() %}
+                            <tr>
+                                <th>{{ index }}</th>
+                                {% for value in row %}
+                                 <td>
+                                  {% if value %}
+                                      <span class="grid-player">
+                                          {{ value.player }}
+                                      </span>
+                                      <span class="grid-percentage">
+                                          {{ value.percentage }}%
+                                      </span>
+                                  {% else %}
+                                      <span class="grid-empty">—</span>
+                                  {% endif %}
+                              </td>
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="jacks-grid-card">
+
+            <h4>Score Distribution</h4>
+
+            <div class="score-chart">
+                <canvas id="scoreDistributionChart"></canvas>
+            </div>
+
+</div>
+</div>
         </div>
     </div>
     <div id="answersModal" class="answers-modal">
@@ -137,6 +226,8 @@
     const availablePlayers = {{ availablePlayers | tojson }};
     const gameNumber = {{ gameNumber | tojson }};
     const possibleAnswers = {{ possibleAnswers | tojson }};
+    const scoreData = {{ scoreDistribution | tojson }};
 </script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="{{ url_for('static', filename='js/jacksboxes.js') }}"></script>
 {% endblock %}

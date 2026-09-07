@@ -1592,7 +1592,18 @@ def jacksBoxes():
         data = request.get_json()
         
         if data.get('type') == 'gameEnd':
-          writeJacksBoxesGameToFile(data)
+            writeJacksBoxesGameToFile(data)
+
+            numGames, avgScore, successGrid, popularGrid, scoreDistribution = \
+                getJacksBoxesStatsData(gameNumber)
+
+            return jsonify({
+                "numGames": int(numGames),
+                "avgScore": float(avgScore),
+                "successGrid": successGrid.to_dict(orient='split'),
+                "mostPopularGrid": popularGrid.to_dict(orient='split'),
+                "scoreDistribution": scoreDistribution
+            })
         else:
           player = data.get('player')
           row = int(data.get('row'))
@@ -1611,6 +1622,8 @@ def jacksBoxes():
         for row in range(3)
         for col in range(3)
     ]
+  
+    numGames,avgScore,successGrid,popularGrid,scoreDistribution = getJacksBoxesStatsData(gameNumber)
 
     return render_template(
         'jacksboxes.html',
@@ -1619,6 +1632,11 @@ def jacksBoxes():
         gameNumber=gameNumber,
         rowLabels=list(dfGrid.index),
         columnLabels=list(dfGrid.columns),
+        numGames=numGames,
+        avgScore=avgScore,
+        successGrid=successGrid,
+        mostPopularGrid=popularGrid,
+        scoreDistribution=scoreDistribution,
         titletag=" - Jack's Boxes"
     )
 
@@ -1629,17 +1647,17 @@ def jacksBoxesStats(gameNumRequested):
 
     currGameNum = getJacksBoxesGameNum()
     if(gameNumRequested is None):
-      gameNum = currGameNum
+      gameNumber = currGameNum
     elif ((gameNumRequested > currGameNum) or gameNumRequested < 1):
       return redirect(url_for('jacksBoxesStats'))
     else:
-      gameNum = gameNumRequested
+      gameNumber = gameNumRequested
       
-    numGames,avgScore,successGrid,popularGrid,scoreDistribution = getStatsData(gameNum)
+    numGames,avgScore,successGrid,popularGrid,scoreDistribution = getJacksBoxesStatsData(gameNumber)
     
     return render_template(
         'jacksboxes_stats.html',
-        gameNum=gameNum,
+        gameNumber=gameNumber,
         numGames=numGames,
         avgScore=avgScore,
         successGrid=successGrid,
@@ -2279,7 +2297,7 @@ def writeJacksBoxesGameToFile(data):
    df=pd.DataFrame([data]).drop('type',axis=1)
    df.to_csv(filePath, mode='a', index=False, header=not file_exists)
 
-def getStatsData(gameNum):
+def getJacksBoxesStatsData(gameNum):
     gameGrid = getJacksBoxesGrid(gameNum)
     dfResults = getJacksBoxesResultGrids(gameNum)
     
