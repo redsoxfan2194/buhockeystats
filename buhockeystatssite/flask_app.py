@@ -15,6 +15,7 @@ from formatstatsdata import formatResults, formatStats, convertToHtmlTable,forma
 import burecordbook as burb
 from collections import defaultdict
 from flask_caching import Cache
+from markupsafe import Markup
 
 dayNames = {
     0: 'Monday',
@@ -1594,8 +1595,7 @@ def jacksBoxes():
         if data.get('type') == 'gameEnd':
             writeJacksBoxesGameToFile(data)
 
-            numGames, avgScore, successGrid, popularGrid, scoreDistribution = \
-                getJacksBoxesStatsData(gameNumber)
+            numGames, avgScore, successGrid, popularGrid, scoreDistribution, leaderboardGrid, overallLeaderboard = getJacksBoxesStatsData(gameNumber)
 
             return jsonify({
                 "numGames": int(numGames),
@@ -1623,7 +1623,7 @@ def jacksBoxes():
         for col in range(3)
     ]
   
-    numGames,avgScore,successGrid,popularGrid,scoreDistribution = getJacksBoxesStatsData(gameNumber)
+    numGames, avgScore, successGrid, popularGrid, scoreDistribution, leaderboardGrid, overallLeaderboard = getJacksBoxesStatsData(gameNumber)
 
     return render_template(
         'jacksboxes.html',
@@ -1653,7 +1653,7 @@ def jacksBoxesStats(gameNumRequested):
     else:
       gameNumber = gameNumRequested
       
-    numGames,avgScore,successGrid,popularGrid,scoreDistribution = getJacksBoxesStatsData(gameNumber)
+    numGames, avgScore, successGrid, popularGrid, scoreDistribution, leaderboardGrid, overallLeaderboard = getJacksBoxesStatsData(gameNumber)
     
     return render_template(
         'jacksboxes_stats.html',
@@ -1663,7 +1663,9 @@ def jacksBoxesStats(gameNumRequested):
         successGrid=successGrid,
         mostPopularGrid=popularGrid,
         scoreDistribution=scoreDistribution,
-        titletag=" - Jack's Boxes Stats (Stats)"
+        leaderboardGrid=leaderboardGrid,
+        overallLeaderboard=overallLeaderboard,
+        titletag=" - Jack's Boxes Stats"
     )
     
 @app.route('/trivia', methods=['POST', 'GET'])
@@ -2300,26 +2302,28 @@ def writeJacksBoxesGameToFile(data):
 def getJacksBoxesStatsData(gameNum):
     gameGrid = getJacksBoxesGrid(gameNum)
     dfResults = getJacksBoxesResultGrids(gameNum)
-    
+
     if dfResults.empty:
         numGames = 0
         avgScore = 0
         successGrid = pd.DataFrame()
-        mostPopularGrid = pd.DataFrame()
+        popularGrid = pd.DataFrame()
         scoreDistribution = []
-        
-        return numGames, avgScore, successGrid, mostPopularGrid, scoreDistribution
-    
+        leaderboardGrid = pd.DataFrame()
+        overallLeaderboard = Markup('')
+
+        return numGames, avgScore, successGrid, popularGrid, scoreDistribution, leaderboardGrid, overallLeaderboard
+
     numGames = len(dfResults)
     avgScore = dfResults.score.mean().round(2)
 
-    dfGrid = pd.DataFrame(dfResults['grid'].apply(
-            lambda x: ast.literal_eval(x) if isinstance(x, str) else x
-        ).tolist(), index=dfResults.index)
+    dfGrid = pd.DataFrame(dfResults['grid'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x).tolist(),
+        index=dfResults.index)
 
     dfGrid.columns = [f'grid_{i}' for i in range(dfGrid.shape[1])]
 
     successRate = dfGrid.notna().mean() * 100
+
     successGrid = pd.DataFrame(
         successRate.values.reshape(gameGrid.shape),
         index=gameGrid.index,
@@ -2330,15 +2334,72 @@ def getJacksBoxesStatsData(gameNum):
 
     popularGrid = pd.DataFrame(
         [popular[:3], popular[3:6], popular[6:9]],
+            popular[3:6],
+            popular[6:9]
+
+    scoreDistribution = [{'score': int(score), 'count': int(count)} for score, count in scoreCounts.items()]
+
+    # Leaderboard for each cell
+    leaderboardGrid = pd.DataFrame(
+        [
+            [
+                formatLeaderboard(
+                    dfGrid,
+                    dfGrid.columns[i * 3 + j],
+                    gameGrid.index[i],
+                    gameGrid.columns[j]
+                )
+                for j in range(3)
+            ]
+            for i in range(3)
+        ],
         index=gameGrid.index,
         columns=gameGrid.columns
     )
-    
-    scoreCounts = dfResults.value_counts('score').sort_index()
 
-    scoreDistribution = [{'score': int(score),'count': int(count)} for score, count in scoreCounts.items()]
-    return numGames,avgScore,successGrid,popularGrid,scoreDistribution
+    # Most popular answers across ALL cells
+    allGuesses = dfGrid.stack().dropna()
+    overallCounts = allGuesses.value_counts().head(10)
+
+    overallRows = []
+
+    for i, (guess, count) in enumerate(overallCounts.items()):
+        percentage = count / numGames * 100
+        topClass = " top-guess" if i == 0 else ""
+
+        overallRows.append(
+            f'<div class="overall-guess-row{topClass}">'
+            f'<span class="overall-rank">{i + 1}</span>'
+            f'<span class="overall-name">{guess}</span>'
+            f'<span class="overall-count">{count}</span>'
+            f'<span class="overall-percent">{percentage:.1f}%</span>'
+            f'</div>'
+        )
+
+    overallLeaderboard = Markup(''.join(overallRows))
+
+    return numGames, avgScore, successGrid, popularGrid, scoreDistribution, leaderboardGrid, overallLeaderboard
     
+def formatLeaderboard(dfGrid, col, rowLabel, colLabel):
+
+    counts = dfGrid[col].dropna().value_counts()
+    rows = []
+    for i, (guess, count) in enumerate(counts.items()):
+        top_class = " top-guess" if i == 0 else ""
+
+        rows.append(
+            f'<div class="guess-row{top_class}">'
+            f'<span class="guess-name">{guess}</span>'
+            f'<span class="guess-count">{count}</span>'
+            f'</div>'
+        )
+
+    return Markup(
+    f'<div class="cell-label">{rowLabel} × {colLabel}</div>'
+    f'<hr></hr>'
+    f'<div class="cell-leaderboard">{"".join(rows)}</div>'
+    )
+
 
 if __name__ == '__main__':
     app.run(host='localhost', port=5000)

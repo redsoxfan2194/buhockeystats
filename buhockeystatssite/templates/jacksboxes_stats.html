@@ -90,8 +90,31 @@
     <div class="score-chart">
         <canvas id="scoreDistributionChart"></canvas>
     </div>
-
-</div>
+    </div>
+    <div class="jacks-grid-card">
+      <h4>Responses</h4>
+      <div class="leaderboard-grid">
+        {% for row in leaderboardGrid.index %}
+            {% for col in leaderboardGrid.columns %}
+                
+        <div class="leaderboard-cell">
+                    {{ leaderboardGrid.loc[row, col] }}
+                </div>
+            {% endfor %}
+        {% endfor %}
+        
+      </div>
+    </div>
+    <div class="jacks-grid-card">
+      <div class="overall-leaderboard">
+           <h4>Most Popular Answers
+           <span class="overall-leaderboard-subtitle">(% of Games Used)</span>
+           </h4>
+        <div class="overall-leaderboard-list">
+            {{ overallLeaderboard }}
+        </div>
+      </div>
+    </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
