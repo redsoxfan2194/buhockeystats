@@ -994,7 +994,6 @@ async function transmitGrid()
 {
     if (gridTransmitted)
     {
-        return;
         return true;
     }
 
