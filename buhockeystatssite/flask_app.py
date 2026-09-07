@@ -63,10 +63,10 @@ def static_favicon():
     return app.send_static_file('images/favicon.ico')
 
 if(datetime.datetime.now(easternTZ).month>=10 or datetime.datetime.now(easternTZ).month<5):
-  try:
-    burb.refreshStats()
-  except:
-    print('Failed to Refresh Stats...Initializing')
+  #try:
+  #  burb.refreshStats()
+  #except:
+  #  print('Failed to Refresh Stats...Initializing')
   burb.initializeRecordBook()
 
 else:
@@ -2332,10 +2332,16 @@ def getJacksBoxesStatsData(gameNum):
 
     popular = [getPopularValue(dfGrid[col]) for col in dfGrid.columns]
 
-    popularGrid = pd.DataFrame(
-        [popular[:3], popular[3:6], popular[6:9]],
+    popularGrid = pd.DataFrame([
+            popular[:3],
             popular[3:6],
             popular[6:9]
+        ],
+        index=gameGrid.index,
+        columns=gameGrid.columns)
+
+    # Score distribution
+    scoreCounts = dfResults.value_counts('score').sort_index()
 
     scoreDistribution = [{'score': int(score), 'count': int(count)} for score, count in scoreCounts.items()]
 
