@@ -1191,3 +1191,20 @@
     }
 
 }
+
+.leaderboard-grid-card h4 {
+    text-align: center;
+    margin: 0 0 18px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.leaderboard-grid-card h4::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 3px;
+    background: #cc0000;
+    border-radius: 3px;
+    margin: 8px auto 0;
+}
