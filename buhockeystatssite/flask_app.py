@@ -1635,37 +1635,8 @@ def jacksBoxesStats(gameNumRequested):
     else:
       gameNum = gameNumRequested
       
-    gameGrid = getJacksBoxesGrid(gameNum)
-    dfResults = getJacksBoxesResultGrids(gameNum)
-
-    numGames = len(dfResults)
-    avgScore = dfResults.score.mean().round(2)
-
-    dfGrid = pd.DataFrame(dfResults['grid'].apply(
-            lambda x: ast.literal_eval(x) if isinstance(x, str) else x
-        ).tolist(), index=dfResults.index)
-
-    dfGrid.columns = [f'grid_{i}' for i in range(dfGrid.shape[1])]
-
-    successRate = dfGrid.notna().mean() * 100
-    successGrid = pd.DataFrame(
-        successRate.values.reshape(gameGrid.shape),
-        index=gameGrid.index,
-        columns=gameGrid.columns
-    ).round(1)
-
-    popular = [getPopularValue(dfGrid[col]) for col in dfGrid.columns]
-
-    popularGrid = pd.DataFrame(
-        [popular[:3], popular[3:6], popular[6:9]],
-        index=gameGrid.index,
-        columns=gameGrid.columns
-    )
+    numGames,avgScore,successGrid,popularGrid,scoreDistribution = getStatsData(gameNum)
     
-    scoreCounts = dfResults.value_counts('score').sort_index()
-
-    scoreDistribution = [{'score': int(score),'count': int(count)} for score, count in scoreCounts.items()]
-
     return render_template(
         'jacksboxes_stats.html',
         gameNum=gameNum,
@@ -2279,10 +2250,16 @@ def getJacksBoxesGameNum():
   return gameNum
 
 def getJacksBoxesGrid(gameNumber):
-  return pd.read_csv(burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/jacksboxes_{gameNumber}.csv",index_col=0)
+  gridPath = burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/jacksboxes_{gameNumber}.csv"
+  if(not os.path.exists(gridPath)):
+    return pd.DataFrame()
+  return pd.read_csv(gridPath,index_col=0)
 
 def getJacksBoxesResultGrids(gameNumber):
-  return pd.read_csv(burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/game_results/jacksboxes_{gameNumber}_grids.csv")
+  gridsPath = burb.RECBOOK_DATA_PATH+f"/jacksboxes_grids/game_results/jacksboxes_{gameNumber}_grids.csv"
+  if(not os.path.exists(gridsPath)):
+    return pd.DataFrame()
+  return pd.read_csv(gridsPath)
 
 def getPopularValue(col):
     counts = col.dropna().value_counts()
@@ -2301,6 +2278,49 @@ def writeJacksBoxesGameToFile(data):
    file_exists = os.path.exists(filePath)
    df=pd.DataFrame([data]).drop('type',axis=1)
    df.to_csv(filePath, mode='a', index=False, header=not file_exists)
+
+def getStatsData(gameNum):
+    gameGrid = getJacksBoxesGrid(gameNum)
+    dfResults = getJacksBoxesResultGrids(gameNum)
+    
+    if dfResults.empty:
+        numGames = 0
+        avgScore = 0
+        successGrid = pd.DataFrame()
+        mostPopularGrid = pd.DataFrame()
+        scoreDistribution = []
+        
+        return numGames, avgScore, successGrid, mostPopularGrid, scoreDistribution
+    
+    numGames = len(dfResults)
+    avgScore = dfResults.score.mean().round(2)
+
+    dfGrid = pd.DataFrame(dfResults['grid'].apply(
+            lambda x: ast.literal_eval(x) if isinstance(x, str) else x
+        ).tolist(), index=dfResults.index)
+
+    dfGrid.columns = [f'grid_{i}' for i in range(dfGrid.shape[1])]
+
+    successRate = dfGrid.notna().mean() * 100
+    successGrid = pd.DataFrame(
+        successRate.values.reshape(gameGrid.shape),
+        index=gameGrid.index,
+        columns=gameGrid.columns
+    ).round(1)
+
+    popular = [getPopularValue(dfGrid[col]) for col in dfGrid.columns]
+
+    popularGrid = pd.DataFrame(
+        [popular[:3], popular[3:6], popular[6:9]],
+        index=gameGrid.index,
+        columns=gameGrid.columns
+    )
+    
+    scoreCounts = dfResults.value_counts('score').sort_index()
+
+    scoreDistribution = [{'score': int(score),'count': int(count)} for score, count in scoreCounts.items()]
+    return numGames,avgScore,successGrid,popularGrid,scoreDistribution
+    
 
 if __name__ == '__main__':
     app.run(host='localhost', port=5000)
