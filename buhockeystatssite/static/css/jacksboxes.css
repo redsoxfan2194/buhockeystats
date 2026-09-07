@@ -894,6 +894,7 @@
     height: 100% !important;
 }
 
+.game-over-stats {
     width: 100%;
     max-width: none;
     margin: 0;
