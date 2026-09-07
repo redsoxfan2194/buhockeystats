@@ -660,7 +660,7 @@
 33	Max Lacroix	SR	G	6-0	174	L	3	Denver, Colorado / Colorado Grit (NAHL)	2026-27
 38	Kamil Bednarik	JR	F	6-1	185	L	6	Elmhurst, Illinois / U.S. National Under-18 Team	2026-27
 40	Mikhail Yegorov	JR	G	6-5	178	L	6	St. Petersburg, Russia / Omaha Lancers (USHL)	2026-27
-61	Haoxi (Simon) Wang	FR	D	6-6	230	L	7	Beijing, China / Niagara IceDogs (OHL)	2026-27
+61	Haoxi Wang	FR	D	6-6	230	L	7	Beijing, China / Niagara IceDogs (OHL)	2026-27
 72	Xavier Villeneuve	FR	D	5-11	165	L	7	Les Cèdres, Quebec / Blainville-Boisbriand Armada (QMJHL)	2026-27
 81	Niklas Aaram-Olsen	FR	F	6-1	183	L	6	Oslo, Norway / Örebro HK (J20 Nationell)	2026-27
 91	Charlie Trethewey	SO	D	6-2	194	R	7	Woodbine, Maryland / U.S. National Under-18 Team	2026-27
