@@ -63,10 +63,10 @@ def static_favicon():
     return app.send_static_file('images/favicon.ico')
 
 if(datetime.datetime.now(easternTZ).month>=10 or datetime.datetime.now(easternTZ).month<5):
-  #try:
-  #  burb.refreshStats()
-  #except:
-  #  print('Failed to Refresh Stats...Initializing')
+  try:
+    burb.refreshStats()
+  except:
+    print('Failed to Refresh Stats...Initializing')
   burb.initializeRecordBook()
 
 else:
@@ -2288,7 +2288,7 @@ def getPopularValue(col):
         return None
 
     value = counts.index[0]
-    percentage = counts.iloc[0] / len(col) * 100
+    percentage = counts.iloc[0] / len(col.dropna()) * 100
 
     return {'player': value,
         'percentage': round(percentage, 1)}
