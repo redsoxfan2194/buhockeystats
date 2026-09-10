@@ -1668,6 +1668,24 @@ def jacksBoxesStats(gameNumRequested):
         titletag=" - Jack's Boxes Stats"
     )
     
+@app.route('/jacksboxes/stats/overall')
+@app.route('/jacksboxes/stats/overall/')
+def jacksBoxesOverallStats():
+
+    dfResults = getAllJacksBoxesResultGrids()
+    latestGameNum = getJacksBoxesGameNum()
+    
+    gameCountData, averageScoreData, timestampData, playerUsageHtml = getJacksBoxesOverallStats(dfResults, latestGameNum)
+
+    return render_template(
+        'jacksboxes_stats_overall.html',
+        gameCountData=gameCountData,
+        averageScoreData=averageScoreData,
+        timestampData=timestampData,
+        playerUsageHtml=playerUsageHtml,
+        latestGameNum=latestGameNum,
+        titletag=" - Jack's Boxes Stats (Overall)"
+    )
 @app.route('/trivia', methods=['POST', 'GET'])
 def dailyTrivia():
     ''' Renders "Trivia Challenge" Page
@@ -2281,6 +2299,12 @@ def getJacksBoxesResultGrids(gameNumber):
     return pd.DataFrame()
   return pd.read_csv(gridsPath)
 
+def getAllJacksBoxesResultGrids():
+  dfResults = pd.DataFrame()
+  for game in range(1,getJacksBoxesGameNum()+1):
+    dfResults = pd.concat([dfResults,getJacksBoxesResultGrids(game)])
+  return dfResults
+  
 def getPopularValue(col):
     counts = col.dropna().value_counts()
 
@@ -2404,6 +2428,70 @@ def formatLeaderboard(dfGrid, col, rowLabel, colLabel):
     f'<div class="cell-label">{rowLabel} × {colLabel}</div>'
     f'<hr></hr>'
     f'<div class="cell-leaderboard">{"".join(rows)}</div>'
+    )
+
+def getJacksBoxesOverallStats(dfResults, latestGameNum):
+
+    dfGrid = dfResults[['gameNumber', 'grid']].copy()
+    dfGrid['grid'] = dfGrid['grid'].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
+
+    dfGrid = dfGrid.assign(cell=lambda x: x['grid'].apply(lambda grid: range(len(grid)))).explode(['grid', 'cell']).rename(columns={'grid': 'player'}).reset_index(drop=True)
+
+    dfPlayers = dfGrid[dfGrid['player'].notna()].copy()
+
+    gameCounts = (dfResults['gameNumber'].value_counts().sort_index())
+    gameCountData = [{'gameNumber': str(gameNumber), 'count': int(count)} for gameNumber, count in gameCounts.items()]
+
+    averageScores = dfResults.groupby('gameNumber')['score'].mean().sort_index().round(2)
+
+
+    averageScoreData = [
+        {
+            'gameNumber': str(gameNumber),
+            'score': float(score)
+        }
+        for gameNumber, score in averageScores.items()
+    ]
+
+    dfResults['timestamp'] = pd.to_datetime(dfResults['timestamp'],utc=True).dt.tz_convert('America/New_York')
+
+    hourCounts = (dfResults['timestamp'].dt.hour.value_counts().sort_index())
+    timestampData = [{'hour': f'{hour % 12 or 12} {"AM" if hour < 12 else "PM"}', 'count': int(hourCounts.get(hour, 0))} for hour in range(24)]
+    playerUsage = dfPlayers.groupby('player').agg(count=('player', 'size'), firstGameNumber=('gameNumber', 'min')).sort_values(['count', 'player'], ascending=[False, True])
+    playerRows = []
+
+    for player, row in playerUsage.iterrows():
+
+        latestClass = (
+            ' latest-player'
+            if row['firstGameNumber'] == latestGameNum
+            else ''
+        )
+
+        latestBadge = (
+            '<span class="latest-badge">LATEST</span>'
+            if row['firstGameNumber'] == latestGameNum
+            else ''
+        )
+
+        playerRows.append(
+            f'<div class="player-usage-row{latestClass}">'
+            f'<span class="player-name">{player}</span>'
+            f'<span class="player-count">{int(row["count"])}</span>'
+            f'<span class="first-game">'
+            f'Game #{int(row["firstGameNumber"])}'
+            f'{latestBadge}'
+            f'</span>'
+            f'</div>'
+        )
+
+    playerUsageHtml = Markup(''.join(playerRows))
+
+    return (
+        gameCountData,
+        averageScoreData,
+        timestampData,
+        playerUsageHtml
     )
 
 

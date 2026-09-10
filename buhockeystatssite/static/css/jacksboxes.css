@@ -1208,3 +1208,256 @@
     border-radius: 3px;
     margin: 8px auto 0;
 }
+
+/* =========================================
+   JACK'S BOXES USAGE PAGE
+   ========================================= */
+
+.jacks-usage-container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px 20px 40px;
+    font-family: "Quicksand", sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+
+.jacks-usage-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.jacks-usage-header h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+/* Cards */
+
+.jacks-usage-card {
+    width: 100%;
+    box-sizing: border-box;
+    background: #fffafa;
+    border-radius: 14px;
+    padding: 22px 20px 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.jacks-usage-card h4 {
+    text-align: center;
+    margin: 0 0 18px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.jacks-usage-card h4::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 3px;
+    background: #cc0000;
+    border-radius: 3px;
+    margin: 8px auto 0;
+}
+
+
+/* =========================================
+   CHARTS
+   ========================================= */
+
+.usage-chart {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.usage-chart canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.player-usage-subtitle {
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.player-usage-list {
+    width: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fffafa;
+    box-sizing: border-box;
+}
+
+.player-usage-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 55px 150px;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 10px;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.player-usage-row:last-child {
+    border-bottom: none;
+}
+
+.player-name {
+    min-width: 0;
+    font-size: 14px;
+    font-weight: 500;
+    overflow-wrap: anywhere;
+}
+
+.player-count {
+    background: #e5e5e5;
+    border-radius: 12px;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    min-width: 35px;
+}
+
+.first-game {
+    font-size: 12px;
+    color: #777;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.latest-player {
+    background: #fff1f1;
+}
+
+.latest-player .player-name {
+    color: #cc0000;
+    font-weight: 700;
+}
+
+.latest-player .first-game {
+    color: #cc0000;
+    font-weight: 600;
+}
+
+.latest-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 6px;
+    background: #cc0000;
+    color: white;
+    border-radius: 8px;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.player-usage-list::-webkit-scrollbar {
+    width: 7px;
+}
+
+.player-usage-list::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.player-usage-list::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 8px;
+}
+
+.player-usage-list::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+
+
+@media (max-width: 600px) {
+
+    .jacks-usage-container {
+        max-width: none;
+        width: 100%;
+        padding: 15px 5px 25px;
+    }
+
+    .jacks-usage-header {
+        margin-bottom: 18px;
+    }
+
+    .jacks-usage-header h3 {
+        font-size: 21px;
+    }
+
+    .jacks-usage-card {
+        padding: 14px 8px 15px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+
+    .jacks-usage-card h4 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .jacks-usage-card h4::after {
+        width: 32px;
+        height: 2px;
+        margin-top: 5px;
+    }
+
+    .usage-chart {
+        height: 200px;
+    }
+
+
+    .player-usage-subtitle {
+        font-size: 10px;
+        margin-top: -7px;
+        margin-bottom: 10px;
+    }
+
+
+    .player-usage-list {
+        max-height: 280px;
+    }
+
+    .player-usage-row {
+        grid-template-columns: minmax(0, 1fr) 38px;
+        gap: 6px;
+        padding: 6px;
+    }
+
+    .player-name {
+        font-size: 11px;
+    }
+
+
+    .player-count {
+        font-size: 9px;
+        padding: 2px 5px;
+        border-radius: 9px;
+        min-width: 20px;
+    }
+
+    .first-game {
+        grid-column: 1 / -1;
+        text-align: left;
+        font-size: 9px;
+        margin-top: -2px;
+        white-space: normal;
+    }
+
+    .latest-badge {
+        font-size: 8px;
+        padding: 2px 5px;
+    }
+}

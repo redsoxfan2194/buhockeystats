@@ -1,0 +1,171 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jacks-usage-container">
+
+    <div class="jacks-usage-header">
+        <h3>Jack's Boxes Overall Stats</h3>
+    </div>
+
+    <div class="jacks-grid-card">
+        <h4>Games Played</h4>
+
+        <div class="usage-chart">
+            <canvas id="gameCountChart"></canvas>
+        </div>
+    </div>
+
+    <div class="jacks-grid-card">
+        <h4>Average Score</h4>
+
+        <div class="usage-chart">
+            <canvas id="averageScoreChart"></canvas>
+        </div>
+    </div>
+
+    <div class="jacks-grid-card">
+        <h4>Time of Day</h4>
+
+        <div class="usage-chart">
+            <canvas id="timestampChart"></canvas>
+        </div>
+    </div>
+
+    <div class="jacks-grid-card">
+        <h4>Player Usage</h4>
+        <div class="player-usage-subtitle">
+            Number of times used and first game used
+        </div>
+
+        <div class="player-usage-list">
+            {{ playerUsageHtml }}
+        </div>
+    </div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+
+const gameCountData = {{ gameCountData | tojson }};
+const averageScoreData = {{ averageScoreData | tojson }};
+const timestampData = {{ timestampData | tojson }};
+
+
+// GAME COUNT
+
+new Chart(document.getElementById('gameCountChart'), {
+    type: 'bar',
+
+    data: {
+        labels: gameCountData.map(d => d.gameNumber),
+
+        datasets: [{
+            label: 'Games',
+            data: gameCountData.map(d => d.count),
+            backgroundColor: '#cc0000',
+            borderColor: '#cc0000',
+        }]
+    },
+
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+
+        scales: {
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
+            }
+        }
+    }
+});
+
+
+// AVERAGE SCORE
+
+new Chart(document.getElementById('averageScoreChart'), {
+    type: 'bar',
+
+    data: {
+        labels: averageScoreData.map(d => d.gameNumber),
+
+        datasets: [{
+            label: 'Average Score',
+            data: averageScoreData.map(d => d.score),
+            tension: 0.25,
+            backgroundColor: '#cc0000',
+            borderColor: '#cc0000'
+        }]
+    },
+
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+
+
+// TIME OF DAY
+
+new Chart(document.getElementById('timestampChart'), {
+    type: 'bar',
+
+    data: {
+        labels: timestampData.map(d => d.hour),
+
+        datasets: [{
+            label: 'Games',
+            data: timestampData.map(d => d.count),
+            backgroundColor: '#cc0000',
+            borderColor: '#cc0000'
+        }]
+    },
+
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+
+        plugins: {
+            legend: {
+                display: false
+            }
+        },
+
+        scales: {
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    precision: 0
+                }
+            }
+        }
+    }
+});
+
+</script>
+
+{% endblock %}
