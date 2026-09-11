@@ -2457,7 +2457,8 @@ def getJacksBoxesOverallStats(dfResults, latestGameNum):
 
     hourCounts = (dfResults['timestamp'].dt.hour.value_counts().sort_index())
     timestampData = [{'hour': f'{hour % 12 or 12} {"AM" if hour < 12 else "PM"}', 'count': int(hourCounts.get(hour, 0))} for hour in range(24)]
-    playerUsage = dfPlayers.groupby('player').agg(count=('player', 'size'), firstGameNumber=('gameNumber', 'min')).sort_values(['count', 'player'], ascending=[False, True])
+    playerUsage = dfPlayers.groupby('player').agg(count=('player', 'size'), firstGameNumber=('gameNumber', 'min')).sort_values(['count', 'firstGameNumber', 'player'], ascending=[False, True, True])
+
     playerRows = []
 
     for player, row in playerUsage.iterrows():
