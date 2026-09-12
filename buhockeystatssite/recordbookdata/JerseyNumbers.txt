@@ -17,7 +17,7 @@
 1963-64 Hugh Inglis
 1963-65 Andy Fila
 1963-66 Jack Ferreira
-1964-67 David Crisafulli
+1964-67 Dave Crisafulli
 1964-67 Wayne Ryan
 1966-69 Jim McCann
 1967-69 Mark Fennie
@@ -294,7 +294,7 @@
 1980-83 Dan Carnevale
 1983-87 Ed Lowney
 1987-89 Mike Lappin
-1989-93 Petteri Koskimaki
+1989-93 Petteri Koskimäki
 1993-97 Shawn Bates
 1997-01 Scott Perry
 2001-05 Brian McConnell
@@ -441,7 +441,7 @@
 1950-52 Bill Downing
 1952-53 Paul Whalen
 1954-55 David Maddison
-1955-56 Curtis Ford
+1955-56 Curt Ford
 1956-57 Daniel Kelly
 1956-57 Lawrence Creighton
 1958-61 Pete McCann
@@ -535,7 +535,7 @@
 1986-87 Mike Kelfer
 1986-87 John Matterazzo
 1988-93 David Sacco
-1994-95 Ken Rausch
+1994-95 Kenny Rausch
 1996-00 Chris Heron
 2000-04 Gregg Johnson
 2004-08 Pete MacArthur
@@ -675,7 +675,7 @@
 1980-84 Bob Darling
 1985-88 Kris Werner
 1989-91 Mark Bavis
-1991-94 Ken Rausch
+1991-94 Kenny Rausch
 1994-98 Jeff Kealty
 1998-99 David LoPresti
 1999-03 Ryan Priem

@@ -25,7 +25,7 @@
 28	Freddy Meyer	SR	D	5-10	187	N/A	81	Sanbornville, New Hampshire / U.S. National Under-18 Team (NTDP)	2002-03
 31	Sean Fields	JR	G	6-0	190	N/A	81	Edmonton, Alberta / Penticton (AJHL)	2002-03
 39	Andy Warren	JR	G	6-1	171	N/A	80	Princeton Junction, New Jersey / Princeton Day	2002-03
-1	Stephan Siwiec	SO	G	6-1	195	N/A	82	Calgary, Alberta / Calgary (AJHL)	2003-04
+1	Stephen Siwiec	SO	G	6-1	195	N/A	82	Calgary, Alberta / Calgary (AJHL)	2003-04
 2	Sean Sullivan	FR	D	6-0	190	N/A	84	Braintree, Massachusetts / St. Sebastien's	2003-04
 3	Kevin Schaeffer	FR	D	6-1	190	N/A	84	South Huntington, New York / New York (EJHL)	2003-04
 4	Adam Dunlap	FR	D	6-0	185	N/A	83	Minnetonka, Minnesota / Breck School	2003-04
@@ -50,7 +50,7 @@
 29	David Klema	JR	F	6-1	175	N/A	82	Roseau, Minnesota / Des Moines (USHL)	2003-04
 31	Sean Fields	SR	G	6-0	190	N/A	81	Edmonton, Alberta / Penticton (AJHL)	2003-04
 39	John Curry	FR	G	5-11	185	N/A	84	Shorewood, Minnesota / Taft School	2003-04
-1	Stephan Siwiec	JR	G	6-1	195	N/A	82	Calgary, Alberta / Calgary (AJHL)	2004-05
+1	Stephen Siwiec	JR	G	6-1	195	N/A	82	Calgary, Alberta / Calgary (AJHL)	2004-05
 2	Dan McGoff	FR	D	5-8	182	N/A	86	Winchester, Massachusetts / Noble & Greenough	2004-05
 3	Kevin Schaeffer	SO	D	6-1	190	N/A	84	South Huntington, New York / New York (EJHL)	2004-05
 4	Sean Sullivan	SO	D	6-0	190	N/A	84	Braintree, Massachusetts / St. Sebastien's	2004-05
@@ -76,7 +76,7 @@
 27	Bryan Miller	SR	D	5-10	180	N/A	83	Wayne, New Jersey / U.S. National Under-18 Team (NTDP)	2004-05
 33	Karson Gillespie	FR	G	5-9	180	N/A	81	Mankota, Saskatchewan / Bonnyville (AJHL)	2004-05
 36	John Curry	SO	G	5-11	185	N/A	84	Shorewood, Minnesota / Taft School	2004-05
-1	Stephan Siwiec	SR	G	6-1	195	L	82	Calgary, Alberta / Calgary (AJHL)	2005-06
+1	Stephen Siwiec	SR	G	6-1	195	L	82	Calgary, Alberta / Calgary (AJHL)	2005-06
 2	Kevin Kielt	SO	D	6-1	190	L	84	Brick, New Hampshire / New Hampshire (EJHL)	2005-06
 3	Kevin Schaeffer (NSH)	JR	D	6-1	200	R	84	South Huntington, New York / New York (EJHL)	2005-06
 4	Sean Sullivan (PHO)	JR	D	6-0	190	L	84	Braintree, Massachusetts / St. Sebastian's	2005-06

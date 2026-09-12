@@ -183,5 +183,5 @@
 36	Alissa Fromkin	2012-13
 37	Callie Shanahan	2021-22,2022-23,2023-24,2024-25
 39	Allyse Wilcox	2005-06,2006-07,2007-08,2008-09
-40	Andrea Braendli	2022-23
+40	Andrea Brändli	2022-23
 92	Mari Petersen	2023-24,2024-25,2026-27

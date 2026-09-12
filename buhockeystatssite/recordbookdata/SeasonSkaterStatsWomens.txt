@@ -419,7 +419,7 @@
 26	Brooke Ersoy	F	SR	15	1	2	3	3/6	2022-23
 28	Catherine Foulem	F	JR	34	5	12	17	7/22	2022-23
 37	Callie Shanahan	G	SO	12	0	1	1	0/0	2022-23
-40	Andrea Braendli	G	GR	25	0	0	0	0/0	2022-23
+40	Andrea Brändli	G	GR	25	0	0	0	0/0	2022-23
 33	Allie Cuellar	G	FR	2	0	0	0	0/0	2022-23
 27	Brooke Disher	D	FR	34	7	10	17	14/28	2022-23
 25	Ani FitzGerald	F	JR	28	0	0	0	5/10	2022-23

@@ -11,7 +11,7 @@ id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate
 8476,7319.0,14.0,20.0,Boston University,NCAA,1957-05-31,"North Easton, ME  USA",USA,,1977-06-14,15,1977,47,Jim,72.0,Craig,,72,18,8446212,Jim Craig,G,N,,4,L,N,AFM,AFM,189.0
 8500,7265.0,325.0,19.0,Boston University,NCAA,1957-07-24,"Charlestown, MA  USA",USA,,1977-06-14,15,1977,16,Jack,72.0,O'Callahan,,96,6,8449949,Jack O'Callahan,D,N,,6,R,N,CHI,CHI,187.0
 8502,7455.0,150.0,20.0,Boston University,NCAA,1957-01-15,"Montreal, QC  CAN",CAN,,1977-06-14,15,1977,3,John,71.0,Bethel,,98,8,8445454,John Bethel,LW,N,,6,L,N,NYR,NYR,185.0
-8586,7386.0,81.0,20.0,Boston University,NCAA,1957-03-25,"Pointe-Claire, QC  CAN",CAN,,1977-06-14,15,1977,8,Robert,71.0,Boileau,,182,2,8445586,Robert Boileau,LW,N,,15,L,N,MTL,MTL,180.0
+8586,7386.0,81.0,20.0,Boston University,NCAA,1957-03-25,"Pointe-Claire, QC  CAN",CAN,,1977-06-14,15,1977,8,Robert,71.0,Boileau,,182,2,8445586,Bob Boileau,LW,N,,15,L,N,MTL,MTL,180.0
 8648,7470.0,165.0,20.0,Boston University,NCAA,1958-01-01,"Situate, MA  USA",USA,,1978-06-15,16,1978,3,Dave,70.0,Silk,,59,6,8451361,Dave Silk,RW,N,,4,R,N,NYR,NYR,189.0
 8674,6700.0,125.0,18.0,Boston University,NCAA,1960-02-10,"Charlestown, MA  USA",USA,,1978-06-15,16,1978,6,Darryl,70.0,McLeod,,85,16,,Darryl McLeod,LW,N,,5,,N,BOS,BOS,185.0
 8729,,,,Boston University,NCAA,,"Belleville, ON  CAN",CAN,,1978-06-15,16,1978,19,Tony,69.0,Meagher,,140,3,8457344,Tony Meagher,RW,N,,9,R,N,STL,STL,165.0
@@ -60,7 +60,7 @@ id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate
 11390,6654.0,80.0,18.0,Malden Catholic H.S.,Mass.,1972-03-28,"Melrose, MA  USA",USA,,1990-06-16,32,1990,33,Keith,74.0,Tkachuk,,19,19,8458229,Keith Tkachuk,C,N,,1,L,N,WIN,WIN,235.0
 11409,6746.0,171.0,18.0,Boston University,NCAA,1971-12-27,"Chicoutimi, QC  CAN",CAN,,1990-06-16,32,1990,22,Alexandre,73.0,Legault,,38,17,8457039,Alexandre Legault,D,N,,2,R,N,EDM,EDM,205.0
 11511,6526.0,317.0,17.0,Cushing Academy,HIGH-MA,1972-08-03,"Wakefield, MA  USA",USA,,1990-06-16,32,1990,33,John,69.0,Lilley,,140,14,8457065,John Lilley,C,N,,7,R,N,WIN,WIN,170.0
-11523,6982.0,42.0,19.0,Boston University,NCAA,1971-05-05,"Helsinki, Finland",FIN,,1990-06-16,32,1990,5,Petteri,73.0,Koskimaki,,152,5,8456878,Petteri Koskimaki,C,N,,8,L,N,PIT,PIT,180.0
+11523,6982.0,42.0,19.0,Boston University,NCAA,1971-05-05,"Helsinki, Finland",FIN,,1990-06-16,32,1990,5,Petteri,73.0,Koskimäki,,152,5,8456878,Petteri Koskimäki,C,N,,8,L,N,PIT,PIT,180.0
 11608,6719.0,144.0,18.0,Madison West H.S.,Wisconsin,1972-01-23,"Madison, WI  USA",USA,,1990-06-16,32,1990,31,John,72.0,McKersie,,239,8,8457315,John McKersie,G,N,,12,L,N,MNS,MNS,210.0
 11610,6540.0,331.0,17.0,Governor's Academy,Mass.,1972-07-20,"Montreal, QC  CAN",CAN,,1990-06-16,32,1990,10,Nick,70.0,Vachon,,241,10,8458283,Nick Vachon,C,N,,12,L,N,TOR,TOR,190.0
 11625,6817.0,243.0,18.0,Boston University,NCAA,1972-10-22,"Charlottesville, VA  USA",USA,,1991-06-22,34,1991,2,Scott,73.0,Lachance,,4,4,8458518,Scott Lachance,D,N,,1,L,N,NYI,NYI,215.0

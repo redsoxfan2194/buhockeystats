@@ -40,7 +40,7 @@
 1992	Mike Prendergast	F	Boston University	Scott Cashman	Boston University	59	6	0.908	3
 1993	Ted Drury	F	Harvard	Scott Cashman	Boston University	41	6	0.872	3
 1994	Greg Taylor	G	Boston College	Greg Taylor	Boston College	66	5	0.93	2.11
-1995	Ken Rausch	F	Boston University	Derek Herlofsky	Boston University	51	3	0.944	1.5
+1995	Kenny Rausch	F	Boston University	Derek Herlofsky	Boston University	51	3	0.944	1.5
 1996	Chris Drury	F	Boston University	Tom Noble	Boston University	52	5	0.912	2.64
 1997	Bill Pierce	F	Boston University	Marc Robitaille	Northeastern	68	4	0.944	2
 1998	Tom Poti	D	Boston University	Marc Robitaille	Northeastern	75	7	0.915	3.51

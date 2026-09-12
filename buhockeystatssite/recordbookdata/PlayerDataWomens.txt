@@ -429,7 +429,7 @@
 26	Brooke Ersoy	SR	F	5-10	R	01	Arlington Heights, Illinois / Chicago Mission	2022-23
 28	Catherine Foulem	JR	F	5-6	L	02	Dieppe, New Brunswick / Ridley College	2022-23
 37	Callie Shanahan	SO	G	5-10	L	03	Commerce, Michigan / HoneyBaked	2022-23
-40	Andrea Braendli	GR	G	5-6	L	97	Kloten, Switzerland / United School of Sports Previous College: Ohio State (2021-22)	2022-23
+40	Andrea Brändli	GR	G	5-6	L	97	Kloten, Switzerland / United School of Sports Previous College: Ohio State (2021-22)	2022-23
 33	Allie Cuellar	FR	G	5-4	L	04	Saint Charles, Illinois / North American Hockey Academy	2022-23
 27	Brooke Disher	FR	D	5-6	L	04	Fort St. John, British Columbia / Rink Hockey Academy Kelowna	2022-23
 25	Ani FitzGerald	JR	F	5-7	L	01	Shaker Heights, Ohio / Gilmour Academy Previous College: Northeastern (2021-22)	2022-23

@@ -146,7 +146,7 @@ Cronin,John 1999-03 113 10 31 41 55/110
 Cross,Jim 1958-60 32 3 0 3 —/4
 Crotty,Cam 2017-20 102 10 17 27 33/51
 Crotty,Ed 1962-63 10 2 0 2 —/0
-Crowley,Daniel 1946-47 — 15 22 37 —/—
+Crowley,Dan 1946-47 — 15 22 37 —/—
 Crowley,Robert 1941-42 14 3 4 7 3/6
 Crozier,Steve 1983-84 5 0 0 0 0/0
 Cugini,Larry 1941-42 1 0 0 0 0/0
@@ -267,7 +267,7 @@ Gerlitz,Paul 1982-86 134 32 41 73 47/105
 Giandomenico,Paul 1969-72 81 20 24 44 5/24
 Gibson,Steve 1976-77 12 1 2 3 3/6
 Gibson,William 1926-29 24 5 1 6 1/—
-Gibson,William 1947-48 24 13 18 31 —/—
+Gibson,Bill 1947-48 24 13 18 31 —/—
 Gill,Sahir 2010-13 117 29 50 78 22/55
 Gillis,Nick 1997-01 144 26 53 79 54/119
 Gilmour,Brian 1964-67 95 36 87 123 —/108
@@ -289,7 +289,7 @@ Grant,Dick 1947-49 7 1 0 1 0/0
 Gray,Bob 1945-46 3 3 2 5 0/0
 Gray,Mickey 1966-69 92 44 71 115 —/66
 Greeley,Stephen 2000-04 77 6 5 11 21/42
-Green,Richard 1962-64 39 6 24 30 —/62
+Green,Richie 1962-64 39 6 24 30 —/62
 Greenway,Jordan 2015-18 112 28 64 92 84/192
 Greer,A.J. 2014-16 55 4 8 12 15/30
 Gregoire,Ovila 1924-28 28 25 0 25 —/—
@@ -374,7 +374,7 @@ Klema,David 2001-04 92 15 29 44 16/32
 Knight,Bob 1956-57 — 0 2 2 —/6
 Kontoff,Julian 1924-26 26 3 0 3 —/—
 Kontoff,Morey 1921-25 22 8 0 8 —/—
-Koskimaki,Petteri 1989-93 142 49 60 109 22/47
+Koskimäki,Petteri 1989-93 142 49 60 109 22/47
 Kotkansalo,Kasper 2017-20 112 2 23 25 25/61
 Krys,Chad 2016-19 105 20 38 58 19/38
 Krys,Mark 1987-91 135 1 18 29 69/146
@@ -445,7 +445,7 @@ Manning,Mike 1954-57 — 27 27 54 —/28
 Manty,Scott 1981-82 8 0 1 1 1/2
 Marden,Matt 1975-78 60 26 31 57 19/38
 Marquis,Bob 1957-60 73 98 66 164 —/82
-Marshall,Dan 1979-80 28 3 8 11 5/10
+Marshall,Don 1979-80 28 3 8 11 5/10
 Marshall,Peter 1982-86 150 42 62 104 66/143
 Martell,Bob 1962-65 76 32 40 72 —/18
 Martin,Donald 1924-26 20 0 0 0 —/—
@@ -592,7 +592,7 @@ Quinn,Joe 1954-57 — 24 27 51 —/26
 Racheotes,George 1932-35 17 0 0 0 —/—
 Radoslovich,Matt 2001-05 122 12 17 29 11/43
 Rasmussen,Paul 1917-18 1 0 0 0 —/—
-Rausch,Ken 1991-95 97 25 27 52 11/22
+Rausch,Kenny 1991-95 97 25 27 52 11/22
 Ray,John 1948-51 3 2 2 4 0/2
 Raymond,Albert 1929-31 9 0 0 0 1/—
 Redlihs,Jekabs 2002-06 130 8 21 29 52/131
@@ -649,7 +649,7 @@ Shattenkirk,Kevin 2007-10 121 18 60 78 58/116
 Shaunessy,Scott 1983-87 152 19 72 91 105/266
 Shaunessy,Steve 1986-89 52 1 7 8 53/115
 Sheen,Colin 1997-01 105 2 7 9 42/92
-Sherman,— 1934-35 2 0 0 0 —/—
+Sherman,Dick 1934-35 2 0 0 0 —/—
 Shoemaker,Bill 1939-42 33 4 6 10 14/28
 Silk,Dave 1976-79 85 70 73 143 54/127
 Simpson,Steve 1979-81 19 0 2 2 0/0
