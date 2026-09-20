@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="p-3">
+<h3 class="stat-table">Terrier NWHL/CWHL Award Winners</h3>
+<h4>CWHL</h4>
+<p>
+        {% autoescape false %}
+        {{cwhlawardwinners}}
+        {% endautoescape %}
+</p>
+<h4>NWHL/PHF</h4>
+<p>
+        {% autoescape false %}
+        {{nwhlawardwinners}}
+        {% endautoescape %}
+</p>
+</div>
+{% endblock %}

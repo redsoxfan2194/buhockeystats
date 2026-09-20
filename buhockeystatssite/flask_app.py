@@ -41,7 +41,7 @@ cache = Cache(app)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about' ,'feedback' ,'missingdates' ,'players' ,'statsbot' ,'records' ,'notables' ,'trio' ,'tidbits' ,'captains' ,'bloodlines' ,'cupwinners' ,'transfers' ,'awards' ,'trophies' ,'worldjuniors' ,'olympians' ,'nhldraft' ,'nhlteammates' ,'nhlers' ,'nhlawards' ,'prostats' ,'pwhlteammates' ,'pwhlers' ,'pwhldraft' ,'pwhlawards' ,'winterclassic' ,'shutouts' ,'hattricks' ,'prohattricks' ,'proshutouts' ,'birthday' ,'birthdays' ,'jacksboxes' ,'trivia' ,'triviagame']
+    pages = ['', 'about' ,'feedback' ,'missingdates' ,'players' ,'statsbot' ,'records' ,'notables' ,'trio' ,'tidbits' ,'captains' ,'bloodlines' ,'cupwinners' ,'transfers' ,'awards' ,'trophies' ,'worldjuniors' ,'olympians' ,'nhldraft' ,'nhlteammates' ,'nhlers' ,'nhlawards' ,'prostats' ,'pwhlteammates' ,'pwhlers' ,'pwhldraft' ,'pwhlawards' ,'winterclassic' ,'shutouts' ,'hattricks' ,'prohattricks' ,'proshutouts' ,'birthday' ,'birthdays' ,'jacksboxes' ,'trivia' , 'triviagame', 'cwhldraft', 'cwhlawrds']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -1347,7 +1347,7 @@ def nhlawards():
       Flask Template : flask template containing nhlawards.html
     '''
     return render_template(
-    'nhlawards.html',nhlawardwinners=formatTable(burb.getNHLAwards()),titletag=' - NHL Awards')
+    'nhlawards.html',nhlawardwinners=formatTable(burb.getAwards('nhl')),titletag=' - NHL Awards')
 
 @app.route('/prostats', methods=['POST', 'GET'])
 def prostats():
@@ -1461,12 +1461,24 @@ def pwhlawards():
       Flask Template : flask template containing pwhlawards.html
     '''
     return render_template(
-    'pwhlawards.html',pwhlawardwinners=formatTable(burb.getPWHLAwards()),titletag=' - PWHL Awards')
+    'pwhlawards.html',pwhlawardwinners=formatTable(burb.getAwards('pwhl')),titletag=' - PWHL Awards')
+    
+@app.route('/cwhlawards')
+@app.route('/nwhlawards')
+@app.route('/phfawards')
+def otherWProAwards():
+    ''' Renders "PWHL Awards" Page
+
+    Returns:
+      Flask Template : flask template containing pwhlawards.html
+    '''
+    return render_template(
+    'otherWProAwards.html',cwhlawardwinners=formatTable(burb.getAwards('cwhl')),nwhlawardwinners=formatTable(burb.getAwards('nwhl')),titletag=' - Other Women\'s Pro Awards')   
 
 @app.route('/phfdraft')
 @app.route('/nwhldraft')
 @app.route('/cwhldraft')
-def otherwProDraft():
+def otherWProDraft():
     ''' Renders "Other W Pro Drafts" Page
 
     Returns:

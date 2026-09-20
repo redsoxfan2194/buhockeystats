@@ -4022,18 +4022,10 @@ def getProShutoutsList(league):
   dfRes['date'] = pd.to_datetime(dfRes['date'])
   return dfRes
 
-
-
-def getNHLAwards():
-  ''' returns NHL Award Winners'''
-  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"nhlawards.csv")
-  return dfRes
-
 def getDraftData(draft):
   ''' returns Draft Datas'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{draft}draftdata.csv")
   return dfRes
-
 
 def getPWHLTeammates():
   ''' returns PWHL Teammates'''
@@ -4045,9 +4037,9 @@ def getPWHLers():
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"pwhlers.csv")
   return dfRes
 
-def getPWHLAwards():
+def getAwards(league):
   ''' returns PWHL Award Winners'''
-  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"pwhlawards.csv")
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{league.lower()}awards.csv")
   return dfRes
   
 def getCupWinners(cup):
