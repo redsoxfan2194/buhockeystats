@@ -1463,6 +1463,18 @@ def pwhlawards():
     return render_template(
     'pwhlawards.html',pwhlawardwinners=formatTable(burb.getPWHLAwards()),titletag=' - PWHL Awards')
 
+@app.route('/phfdraft')
+@app.route('/nwhldraft')
+@app.route('/cwhldraft')
+def otherwProDraft():
+    ''' Renders "Other W Pro Drafts" Page
+
+    Returns:
+      Flask Template : flask template containing otherWProDrafts.html
+    '''
+    return render_template(
+    'otherWProDrafts.html',cwhldraftdata=formatTable(burb.getDraftData('cwhl')),nwhldraftdata=formatTable(burb.getDraftData('nwhl')),titletag=' - Other Women\'s Pro Drafts')
+
 
 @app.route('/winterclassic')
 def winterclassic():

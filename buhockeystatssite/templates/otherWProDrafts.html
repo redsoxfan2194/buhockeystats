@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="p-3">
+<h3 class="stat-table">Terriers in the NWHL/CWHL Draft</h3>
+<h4>CWHL</h4>
+<p>
+        {% autoescape false %}
+        {{cwhldraftdata}}
+        {% endautoescape %}
+</p>
+<h4>NWHL/PHF</h4>
+<p>
+        {% autoescape false %}
+        {{nwhldraftdata}}
+        {% endautoescape %}
+</p>
+</div>
+{% endblock %}
