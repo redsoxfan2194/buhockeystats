@@ -3963,9 +3963,9 @@ def getCaptains(gender):
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0].lower()}captains.csv")
   return dfRes  
   
-def getAwards(gender):
+def getAwards(aType):
   ''' returns Awards'''
-  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0].lower()}Awards.csv")
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{aType.lower()}Awards.csv")
   return dfRes  
 
 def getTrophies(gender):
