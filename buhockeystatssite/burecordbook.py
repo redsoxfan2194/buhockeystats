@@ -3525,6 +3525,8 @@ def updateCurrentSeasonStats(gender):
         pass
     else:
         curSkate = soup.find('table', {'class': 'w-full'})
+        if(curSkate is None):
+          return
         rows = curSkate.find_all('tr')
         currSkaters = []
         for i in rows:
@@ -3555,7 +3557,7 @@ def updateCurrentSeasonStats(gender):
                              
         curGoals = json.loads(soup.find('div',{'id':'app'})['data-page'])['props']['content']['data']['overall']['goaltending'] 
         currGoalies = []
-        gNum={'Yegorov':40,'Lacroix':33,'Luciano':1,'Perry':30,'Pasiechnyk':1,'Fogu':33,'Wright':35,'Pietersen':92}
+        gNum={'Yegorov':40,'Lacroix':33,'Luciano':1,'Dhami':30,'Fogu':33,'Wright':35,'Pietersen':92}
         for goalie in curGoals:
             name = goalie['player_name'].split('>')[1].replace('</a','')
             if name is not None:
