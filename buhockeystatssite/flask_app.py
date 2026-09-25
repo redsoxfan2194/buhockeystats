@@ -1339,6 +1339,17 @@ def nhlers():
     return render_template(
     'nhlers.html',nhlers=formatTable(burb.getNHLers()),titletag=' - NHLers')
 
+@app.route('/nhlcaptains')
+def nhlcaptains():
+    ''' Renders "NHL Captains" Page
+
+    Returns:
+      Flask Template : flask template containing nhlers.html
+    '''
+    return render_template(
+    'nhlcaptains.html',nhlcaptains=formatTable(burb.getProCaptains('nhl')),titletag=' - NHL Captains')
+
+
 @app.route('/nhlawards')
 def nhlawards():
     ''' Renders "NHL Awards" Page
@@ -1441,6 +1452,18 @@ def pwhlers():
     '''
     return render_template(
     'pwhlers.html',pwhlers=formatTable(burb.getPWHLers()),titletag=' - PWHLers')
+
+@app.route('/pwhlcaptains')
+def pwhlcaptains():
+    ''' Renders "PWHL Captains" Page
+
+    Returns:
+      Flask Template : flask template containing pwhlcaptains.html
+    '''
+    return render_template(
+    'pwhlcaptains.html',pwhlcaptains=formatTable(burb.getProCaptains('pwhl')),titletag=' - PWHL Captains')
+
+
 
 @app.route('/pwhldraft')
 def pwhldraft():

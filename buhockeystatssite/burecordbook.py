@@ -3965,6 +3965,11 @@ def getCaptains(gender):
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0].lower()}captains.csv")
   return dfRes  
   
+def getProCaptains(league):
+  ''' returns Pro Captains'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{league.lower()}captains.csv")
+  return dfRes  
+  
 def getAwards(aType):
   ''' returns Awards'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{aType.lower()}Awards.csv")
