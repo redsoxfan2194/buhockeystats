@@ -530,8 +530,8 @@ CAPTAIN: Rebecca Leslie
 11/10 T (ot) Walter Brown Arena H Connecticut * 2-2
 11/17 W Gutterson Fieldhouse A Vermont * 7-1
 11/18 W Gutterson Fieldhouse A Vermont * 3-1
-11/24 W Kettler Iceplex N Minnesota State 5-2
-11/25 L Kettler Iceplex N #1 Wisconsin 2-4
+11/24 W Kettler Iceplex N Minnesota State (DC) 5-2
+11/25 L Kettler Iceplex N #1 Wisconsin (DC) 2-4
 11/28 W Walter Brown Arena H Brown 6-4
 12/1 T (ot) Conte Forum A #2 Boston College * 2-2
 12/2 L Walter Brown Arena H #2 Boston College * 2-4
@@ -821,8 +821,8 @@ CAPTAIN: Tamara Giaquinto
 03/08 W (ot) Toscano Ice Forum N Northeastern (HE) 3-2
 03/13 L LaBahn Arena N Clarkson (NCAA) 1-3
 2025-26
-OVERALL: 0-0-0
-HOCKEY EAST: 0-0-0, 1st
+OVERALL: 11-21-3
+HOCKEY EAST: 8-14-2, 8th
 COACH: Tara Watchorn
 CAPTAIN: Maeve Carey
 09/26 T (ot) Walter Brown Arena H Concordia (ex) 4-4
@@ -865,8 +865,7 @@ CAPTAIN: Maeve Carey
 OVERALL: 0-0-0
 HOCKEY EAST: 0-0-0, 1st
 COACH: Tara Watchorn
-CAPTAIN: TBD
-09/26 N Walter Brown Arena H Long Island University (ex) 0-0
+CAPTAIN: Neely Nicholson
 10/01 N LaBahn Arena A Wisconsin  0-0
 10/02 N LaBahn Arena A Wisconsin  0-0
 10/09 N Whittemore Center Arena A New Hampshire * 0-0
@@ -903,6 +902,7 @@ CAPTAIN: TBD
 02/20 N Walter Brown Arena H Vermont * 0-0
 Key to Tournaments
 BP  Beanpot Tournament
+DC  D1 in DC
 BB  Battle at the 'Burgh
 HE  Hockey East Tournament
 FF  Frozen Fenway

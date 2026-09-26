@@ -3417,8 +3417,8 @@ CAPTAIN: Shane Lachance,Ryan Greene
 04/10 W Enterprise Center	Penn State (NCAA) 3-1
 04/12 L Enterprise Center	Western Michigan (NCAA) 2-6
 2025-26
-OVERALL: 0-0-0
-HOCKEY EAST: 0-0-0, 1st
+OVERALL: 17-17-2
+HOCKEY EAST: 12-12-0, 6th
 COACH: Jay Pandolfo
 CAPTAIN: Gavin McCarthy
 10/04 W Agganis Arena	Long Island University  4-2
@@ -3463,7 +3463,7 @@ CAPTAIN: Gavin McCarthy
 OVERALL: 0-0-0
 HOCKEY EAST: 0-0-0, 1st
 COACH: Jay Pandolfo
-CAPTAIN: TBD
+CAPTAIN: Jack Harvey
 10/02 N Carlson Center	Alaska 0-0
 10/03 N Carlson Center	Alaska 0-0
 10/10 N Agganis Arena	Brown (ex) 0-0
