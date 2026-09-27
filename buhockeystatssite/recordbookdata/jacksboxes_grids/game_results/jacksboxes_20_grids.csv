@@ -1,0 +1,14 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+20,"['Gary Fay (1973-77)', 'Cole Hutson (2024-26)', 'Matt Grzelcyk (2012-16)', 'Mark Fidler (1977-81)', 'Rick Meagher (1973-77)', 'Macklin Celebrini (2023-24)', 'Tommi Degerman (1996-00)', None, 'Ahti Oksanen (2012-16)']",8,False,0,2026-09-25T10:11:58.088Z
+20,"[None, None, 'Lane Hutson (2022-24)', None, None, 'Macklin Celebrini (2023-24)', None, None, None]",2,False,0,2026-09-25T12:08:45.092Z
+20,"['Kaj Linna (1991-95)', 'Lane Hutson (2022-24)', 'Cole Hutson (2024-26)', 'Tony Amonte (1989-91)', None, 'Macklin Celebrini (2023-24)', None, None, None]",5,False,0,2026-09-25T12:59:28.570Z
+20,"['Domenick Fensore (2019-23)', 'Lane Hutson (2022-24)', 'Cole Hutson (2024-26)', 'Jay Pandolfo (1992-96)', None, 'Macklin Celebrini (2023-24)', 'Kaj Linna (1991-95)', 'Wilmer Skoog (2019-23)', 'Jakob Forsbacka Karlsson (2015-17)']",8,False,0,2026-09-25T13:46:03.691Z
+20,"['Reagan Rust (2017-19)', 'Charlie McAvoy (2015-17)', 'Matt Grzelcyk (2012-16)', None, 'Macklin Celebrini (2023-24)', None, 'Lilli Welcke (2023-26)', 'Wilmer Skoog (2019-23)', 'Jakob Forsbacka Karlsson (2015-17)']",7,False,0,2026-09-25T14:45:14.533Z
+20,"['Ryan Whitney (2001-04)', 'Matt Gilroy (2005-09)', 'Brian Strait (2006-09)', 'Tony Amonte (1989-91)', None, None, 'Tommi Degerman (1996-00)', 'Ahti Oksanen (2012-16)', 'Jakob Forsbacka Karlsson (2015-17)']",7,False,0,2026-09-25T14:48:57.692Z
+20,"['Domenick Fensore (2019-23)', 'Matt Grzelcyk (2012-16)', 'Cole Hutson (2024-26)', 'Jay Pandolfo (1992-96)', 'Chris Drury (1994-98)', 'Macklin Celebrini (2023-24)', 'Kaj Linna (1991-95)', 'Petteri Koskimäki (1989-93)', 'Ahti Oksanen (2012-16)']",9,False,0,2026-09-25T14:54:33.822Z
+20,"['Tamara Giaquinto (2020-25)', 'Julia Shaunessy (2020-25)', None, 'Victoria Bach (2014-18)', 'Jenn Wakefield (2010-12)', 'Jay Pandolfo (1992-96)', 'Anežka Čabelová (2025-27)', 'Nadia Mattivi (2019-24)', None]",7,False,0,2026-09-25T17:36:23.787Z
+20,"['Tamara Giaquinto (2020-25)', None, 'Gavin McCarthy (2023-26)', None, None, 'Macklin Celebrini (2023-24)', 'Lilli Welcke (2023-26)', None, None]",4,False,0,2026-09-25T19:00:24.977Z
+20,"['Reagan Rust (2017-19)', 'Matt Grzelcyk (2012-16)', 'Lane Hutson (2022-24)', 'Chris Drury (1994-98)', 'Macklin Celebrini (2023-24)', None, 'Luisa Welcke (2023-26)', None, None]",6,False,0,2026-09-25T21:08:48.302Z
+20,"[None, 'Matt Grzelcyk (2012-16)', 'Lane Hutson (2022-24)', 'Chris Drury (1994-98)', None, None, None, None, None]",3,False,0,2026-09-26T01:41:09.008Z
+20,"[None, None, None, None, None, 'Macklin Celebrini (2023-24)', None, None, None]",1,True,8,2026-09-26T02:33:39.224Z
+20,"['Tom Poti (1996-98)', None, 'Matt Grzelcyk (2012-16)', 'Tony Amonte (1989-91)', 'Jay Pandolfo (1992-96)', 'Chris Drury (1994-98)', 'Frantisek Skladany (2000-04)', None, None]",6,False,0,2026-09-26T06:46:04.517Z

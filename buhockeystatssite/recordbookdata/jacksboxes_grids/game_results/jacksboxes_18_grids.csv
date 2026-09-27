@@ -1,0 +1,13 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+18,"[None, 'Henry Graham (2023-24)', None, None, 'Case McCarthy (2019-24)', 'Cole Eiserman (2024-26)', None, 'Gavin McCarthy (2023-26)', 'Sascha Boumedienne (2024-26)']",5,False,0,2026-09-23T10:11:35.564Z
+18,"[None, None, 'Jake Oettinger (2016-19)', 'Evan Rodrigues (2011-15)', 'Gavin McCarthy (2023-26)', 'Jack Eichel (2014-15)', 'Nick Zabaneh (2020-24)', 'Case McCarthy (2019-24)', 'Lane Hutson (2022-24)']",7,False,0,2026-09-23T10:28:31.934Z
+18,"['Scott Cashman (1989-93)', 'Bob Barich (1979-83)', 'Rick DiPietro (1999-00)', 'Evan Rodrigues (2011-15)', None, 'Jack Eichel (2014-15)', 'Nick Zabaneh (2020-24)', 'Luke Tuch (2020-24)', 'Cole Eiserman (2024-26)']",8,False,0,2026-09-23T10:42:44.866Z
+18,"[None, None, 'Jake Oettinger (2016-19)', None, None, 'Cole Eiserman (2024-26)', None, None, 'Macklin Celebrini (2023-24)']",3,False,0,2026-09-23T13:04:54.256Z
+18,"[""Matt O'Connor (2012-15)"", 'Brett Bennett (2006-08)', 'Jake Oettinger (2016-19)', 'Nick Zabaneh (2020-24)', 'Gavin McCarthy (2023-26)', 'Brady Tkachuk (2017-18)', 'Jonathan Morello (2025-27)', 'Case McCarthy (2019-24)', 'Brandon Svoboda (2024-27)']",9,False,0,2026-09-23T13:56:49.560Z
+18,"[""Matt O'Connor (2012-15)"", 'Brett Bennett (2006-08)', 'Rick DiPietro (1999-00)', None, 'Case McCarthy (2019-24)', 'Chris Drury (1994-98)', 'Jonathan Morello (2025-27)', 'Domenick Fensore (2019-23)', 'Tom Willander (2023-25)']",8,False,0,2026-09-23T14:32:50.555Z
+18,"[None, None, 'Jake Oettinger (2016-19)', None, None, 'Jack Eichel (2014-15)', None, None, 'Lane Hutson (2022-24)']",3,False,0,2026-09-23T14:40:59.487Z
+18,"[None, None, 'Jake Oettinger (2016-19)', None, 'Pete MacArthur (2004-08)', 'Cole Eiserman (2024-26)', 'Jonathan Morello (2025-27)', 'Case McCarthy (2019-24)', 'Sascha Boumedienne (2024-26)']",6,False,0,2026-09-23T16:24:45.885Z
+18,"['Melissa Haber (2006-10)', 'Nicole McGuigan (2018-22)', 'Jake Oettinger (2016-19)', 'Victoria Bach (2014-18)', 'Maddie Elia (2013-17)', 'Cole Eiserman (2024-26)', 'Natasza Tarnowski (2016-20)', 'Kristina Schuler (2017-21)', 'Macklin Celebrini (2023-24)']",9,False,0,2026-09-23T16:26:36.005Z
+18,"['Mari Pietersen (2023-27)', None, None, None, None, 'Cole Eiserman (2024-26)', 'Sydney Healey (2022-26)', None, 'Cole Hutson (2024-26)']",4,True,3,2026-09-23T16:40:24.927Z
+18,"[None, None, None, None, None, 'Tony Amonte (1989-91)', None, 'David Farrance (2017-21)', 'Cole Eiserman (2024-26)']",3,False,0,2026-09-23T19:24:16.613Z
+18,"[None, None, 'Jake Oettinger (2016-19)', None, 'Jeremy Wilmer (2022-24)', 'Cole Eiserman (2024-26)', 'Jonathan Morello (2025-27)', 'Jack Murtagh (2025-27)', 'Lane Hutson (2022-24)']",6,False,0,2026-09-23T21:56:54.115Z

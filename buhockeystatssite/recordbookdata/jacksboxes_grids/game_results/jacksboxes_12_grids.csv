@@ -1,0 +1,18 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+12,"['Kieran Millan (2008-12)', None, 'Sean Fields (2000-04)', 'Sean Maguire (2012-16)', None, 'Mari Pietersen (2023-27)', None, 'Jim Craig (1976-79)', 'Drew Commesso (2020-23)']",6,False,0,2026-09-17T10:34:27.815Z
+12,"['Kieran Millan (2008-12)', 'John Curry (2003-07)', 'Sean Fields (2000-04)', 'Sean Maguire (2012-16)', 'Vinny Duplessis (2020-23)', 'Mari Pietersen (2023-27)', 'Brian Durocher (1974-78)', 'Patrick Schena (2022-23)', 'Drew Commesso (2020-23)']",9,False,0,2026-09-17T10:36:51.108Z
+12,"[None, 'Peter Fish (1984-89)', 'John Curry (2003-07)', None, None, 'Karson Gillespie (2004-08)', None, 'Jim Craig (1976-79)', 'Drew Commesso (2020-23)']",5,True,3,2026-09-17T11:54:42.264Z
+12,"[None, None, None, None, 'Mathieu Caron (2023-25)', None, None, None, None]",1,True,4,2026-09-17T12:48:36.165Z
+12,"['Derek Herlofsky (1991-95)', 'Tom Noble (1994-98)', 'Jim Craig (1976-79)', None, None, None, None, None, None]",3,True,5,2026-09-17T13:06:17.016Z
+12,"[None, 'Brian Durocher (1974-78)', 'Jim Craig (1976-79)', None, 'Kate Stuart (2018-22)', 'Corinne Schroeder (2017-21)', None, 'Ashlyn Aiello (2015-18)', 'Kerrin Sperry (2010-14)']",6,True,3,2026-09-17T13:24:53.381Z
+12,"[None, None, 'Jim Craig (1976-79)', None, 'Vinny Duplessis (2020-23)', None, None, 'Steven Luciano (2025-27)', None]",3,False,0,2026-09-17T13:49:00.578Z
+12,"['Sean Fields (2000-04)', 'Anthony Moccia (2011-15)', 'Kieran Millan (2008-12)', 'Scott Cashman (1989-93)', ""Matt O'Connor (2012-15)"", 'Sean Maguire (2012-16)', 'Brian Durocher (1974-78)', 'Jack Perry (2025-26)', 'Jim Craig (1976-79)']",9,False,0,2026-09-17T14:00:26.122Z
+12,"['Kieran Millan (2008-12)', 'Brett Bennett (2006-08)', 'John Curry (2003-07)', 'Sean Maguire (2012-16)', 'Grant Rollheiser (2008-12)', ""Matt O'Connor (2012-15)"", 'Brian Durocher (1974-78)', 'Steven Luciano (2025-27)', 'Drew Commesso (2020-23)']",9,False,0,2026-09-17T14:14:15.178Z
+12,"[None, 'Scott Cashman (1989-93)', 'Rick DiPietro (1999-00)', None, 'Kieran Millan (2008-12)', ""Matt O'Connor (2012-15)"", None, 'Shawn Ferullo (1993-97)', 'Drew Commesso (2020-23)']",6,False,0,2026-09-17T14:17:15.744Z
+12,"[None, 'Brian Durocher (1974-78)', 'Jim Craig (1976-79)', None, 'Kate Stuart (2018-22)', 'Corinne Schroeder (2017-21)', None, 'Kerrin Sperry (2010-14)', None]",5,False,0,2026-09-17T15:07:08.021Z
+12,"['Derek Herlofsky (1991-95)', 'J.P. McKersie (1991-96)', 'John Curry (2003-07)', 'Sean Fields (2000-04)', 'Terry Taillefer (1983-87)', 'Sean Maguire (2012-16)', 'Ed Walsh (1971-74)', 'Brian Durocher (1974-78)', 'Tim Regan (1969-72)']",9,False,0,2026-09-17T15:22:05.001Z
+12,"[None, None, None, None, 'Mathieu Caron (2023-25)', 'Vinny Duplessis (2020-23)', None, 'Jack Perry (2025-26)', 'Drew Commesso (2020-23)']",4,False,0,2026-09-17T15:34:26.854Z
+12,"[None, None, None, None, None, 'Mathieu Caron (2023-25)', None, None, 'Drew Commesso (2020-23)']",2,False,0,2026-09-17T16:20:28.099Z
+12,"['John Curry (2003-07)', 'Karson Gillespie (2004-08)', 'Grant Rollheiser (2008-12)', 'Kieran Millan (2008-12)', 'Connor LaCouvee (2014-17)', 'Vinny Duplessis (2020-23)', None, None, None]",6,False,0,2026-09-17T19:19:02.827Z
+12,"[None, None, None, None, None, None, None, None, None]",0,True,9,2026-09-17T22:57:19.754Z
+12,"['Tom Noble (1994-98)', 'J.P. McKersie (1991-96)', 'Derek Herlofsky (1991-95)', 'Scott Cashman (1989-93)', None, 'Mathieu Caron (2023-25)', None, None, 'Jim Craig (1976-79)']",6,False,0,2026-09-18T00:31:00.977Z
