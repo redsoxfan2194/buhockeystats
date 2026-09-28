@@ -1624,6 +1624,20 @@ def birthdays():
         next_month=(first_day + datetime.timedelta(days=num_days.day)).strftime('%Y-%m')
     )
 
+@app.route('/lastworn')
+def lastworn():
+    ''' Renders "Winter Classic" Page
+
+    Returns:
+      Flask Template : flask template containing lastwork.html
+    '''
+    dfLastWorn=burb.getLastWorn()
+    dfLastWorn['Last Worn']=pd.to_datetime(dfLastWorn['Last Worn'])
+    dfLastWorn=pd.merge(dfLastWorn,burb.dfGames,left_on='Last Worn',right_on='date').sort_values('date')
+    return render_template(
+    'lastworn.html',lastWornTable=formatResults(dfLastWorn),titletag=' - Men\'s Hockey Last Worn Jersey')
+
+
 @app.route('/jacksboxes', methods=['GET', 'POST'])
 def jacksBoxes():
 
