@@ -525,7 +525,7 @@
 17	Kali Maechtel	FR	D	5-9	L	8	Whitby, Ontario / Whitby Wolves	2026-27
 18	Neely Nicholson	SR	F	5-8	L	4	Pittsburgh, Pennsylvania / Shady Side Academy	2026-27
 19	Mylie Ellis	FR	D	5-5	L	8	St. Thomas, Ontario / Stoney Creek	2026-27
-20	Loelie Lachapelle	FR	F	5-7	L	8	Ste-Anne-des-Plaines, Quebec / Northwood School	2026-27
+20	Lo Lachapelle	FR	F	5-7	L	8	Ste-Anne-des-Plaines, Quebec / Northwood School	2026-27
 21	Eden Bergman	FR	F	5-6		8	Toronto, Ontario / Durham West Jr. Lightning	2026-27
 22	Bronwyn Langis	FR	F	5-9	L	8	Goderich, Ontario / Mississauga Hurricanes	2026-27
 23	Greta Henderson	SR	F	5-6	R	5	Regina, Saskatchewan / St. Cloud State	2026-27

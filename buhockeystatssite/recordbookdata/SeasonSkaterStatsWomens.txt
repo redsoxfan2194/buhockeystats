@@ -515,7 +515,7 @@
 17	Kali Maechtel	D	FR	0	0	0	0	0/0	2026-27
 18	Neely Nicholson	F	SR	0	0	0	0	0/0	2026-27
 19	Mylie Ellis	D	FR	0	0	0	0	0/0	2026-27
-20	Loelie Lachapelle	F	FR	0	0	0	0	0/0	2026-27
+20	Lo Lachapelle	F	FR	0	0	0	0	0/0	2026-27
 21	Eden Bergman	F	FR	0	0	0	0	0/0	2026-27
 22	Bronwyn Langis	F	FR	0	0	0	0	0/0	2026-27
 23	Greta Henderson	F	SR	0	0	0	0	0/0	2026-27
