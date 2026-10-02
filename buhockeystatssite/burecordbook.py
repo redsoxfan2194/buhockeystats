@@ -3507,12 +3507,14 @@ def updateCurrentSeasonStats(gender):
     '''scrape site and return updated current season stats'''
     if gender == 'Mens':
         url = f"https://goterriers.com/sports/mens-ice-hockey/stats/{currSeason}"
-        urlG = f"https://www.uscho.com/stats/team/boston-university/mens-hockey"
+        #urlG = f"https://www.uscho.com/stats/team/boston-university/mens-hockey"
+        urlG = "https://www.collegehockeynews.com/stats/team/Boston-University/10"
         currSkateFileName = RECBOOK_DATA_PATH + "SeasonSkaterStats.txt"
         currGoalieFileName = RECBOOK_DATA_PATH + "SeasonGoalieStats.txt"
     elif gender == 'Womens':
         url = f"https://goterriers.com/sports/womens-ice-hockey/stats/{currSeason}"
-        urlG = f"https://www.uscho.com/stats/team/boston-university/womens-hockey"
+        #urlG = f"https://www.uscho.com/stats/team/boston-university/womens-hockey"
+        urlG = f"https://www.collegehockeynews.com/women/stats/team/Boston-University/10"
         currSkateFileName = RECBOOK_DATA_PATH + "SeasonSkaterStatsWomens.txt"
         currGoalieFileName = RECBOOK_DATA_PATH + "SeasonGoalieStatsWomens.txt"
     else:
@@ -3552,12 +3554,43 @@ def updateCurrentSeasonStats(gender):
         html = f.read()
         f.close()
         soup = BeautifulSoup(html, 'html.parser')
+        currGoalies = []
+        gNum={'Yegorov':40,'Lacroix':33,'Luciano':1,'Dhami':30,'Fogu':33,'Wright':35,'Pietersen':92}
+        gTable=soup.find_all('table')[1]
+        for row in gTable.find_all('tr'):
+            col = row.find_all('td')
+            if(len(col)>5):
+                name=col[0].get_text()
+                name=name.split(',')[0].strip()
+                if('TOTAL' in name):
+                    continue
+                firstName,lastName=name.split(' ')
+                if lastName not in gNum.keys():
+                  number=''
+                else:
+                  number=gNum[lastName]
+                goalDict = {'number': number,
+                            'last': lastName,
+                            'first': firstName,
+                            'name': firstName + ' ' + lastName,
+                            'gp': int(col[1].get_text()),
+                            'mins': col[6].get_text()+":00",
+                            'ga': int(col[5].get_text()),
+                            'gaa': float(col[7].get_text()),
+                            'saves': int(col[9].get_text()),
+                            'sv%':float(col[10].get_text()),
+                            'W': int(col[2].get_text()),
+                            'L': int(col[3].get_text()),
+                            'T': int(col[4].get_text()),
+                            'SO': int(col[8].get_text()),
+                            'season': currSeason}
+                currGoalies.append(goalDict)
+        '''
         curGoals = soup.find('section',
                              {'id': 'individual-overall-goaltenders'})
                              
         curGoals = json.loads(soup.find('div',{'id':'app'})['data-page'])['props']['content']['data']['overall']['goaltending'] 
-        currGoalies = []
-        gNum={'Yegorov':40,'Lacroix':33,'Luciano':1,'Dhami':30,'Fogu':33,'Wright':35,'Pietersen':92}
+
         for goalie in curGoals:
             name = goalie['player_name'].split('>')[1].replace('</a','')
             if name is not None:
@@ -3582,7 +3615,7 @@ def updateCurrentSeasonStats(gender):
                             'SO': goalie['sho'],
                             'season': currSeason}
                 currGoalies.append(goalDict)
-
+        '''
         dfCurGoal = pd.DataFrame(currGoalies)
         dfCurSkateClean = dfCurSkate.drop(columns=['last', 'first'])
         with open(currSkateFileName, "r", encoding='utf-8') as sources:
@@ -3640,11 +3673,11 @@ def updateCurrentSeasonStats(gender):
 def updateGameStats(gender):
     '''scrape site and update game stats'''
     if gender == 'Mens':
-        url = 'https://www.uscho.com/scoreboard/boston-university/mens-hockey/2025-2026'
+        url = 'https://www.uscho.com/scoreboard/boston-university/mens-hockey/2026-2027'
         pFile = RECBOOK_DATA_PATH + 'GameStatsData.txt'
         gFile = RECBOOK_DATA_PATH + 'GameStatsGoalieData.txt'
     elif gender == 'Womens':
-        url = 'https://www.uscho.com/scoreboard/boston-university/womens-hockey/2025-2026'
+        url = 'https://www.uscho.com/scoreboard/boston-university/womens-hockey/2026-2027'
         pFile = RECBOOK_DATA_PATH + 'GameStatsDataWomens.txt'
         gFile = RECBOOK_DATA_PATH + 'GameStatsGoalieDataWomens.txt'
     gameStatsList = []
@@ -3691,28 +3724,30 @@ def updateGameStats(gender):
       html = f.read()
       f.close()
       soup = BeautifulSoup(html, 'html.parser')
-      gameStats= json.loads(soup.find('div',{'id':'app'})['data-page'])['props']['content']['game']['sum_players']
+      gameStats= json.loads(soup.find('div',{'id':'app'})['data-page'])['props']['content']['game']['livebox']['sum_players']
       
       for game in gameStats.keys():
           if(game==''):
               continue
-          if(gameStats[game]['teamcode']=='BU'):
-              pDict = {
-                  'date': datetime.strptime(date, "%Y-%m-%d").strftime("%m/%d/%Y"),
-                  'opponent': decodeTeam(opponent),
-                  'name': gameStats[game]['name'],
-                  'goals': gameStats[game]['g'],
-                  'assists': gameStats[game]['a'],
-                  'pts':gameStats[game]['pts'],
-                  'season': currSeason}
-              posDict = dfSeasSkate.loc[(dfSeasSkate['season'] == currSeason) & (
-                  dfSeasSkate['name'].str.contains(pDict['name'],case=False))].iloc[0][['pos', 'yr']].to_dict()
-              pDict['pos'] = posDict['pos']
-              pDict['yr'] = posDict['yr']
-              pList.append(pDict)
+          #if(gameStats[game]['teamcode']=='BU'):
+          if(game=='166'):
+              for player in gameStats[game].keys():
+                pDict = {
+                    'date': datetime.strptime(date, "%Y-%m-%d").strftime("%m/%d/%Y"),
+                    'opponent': decodeTeam(opponent),
+                    'name': gameStats[game][player]['name'],
+                    'goals': gameStats[game][player]['g'],
+                    'assists': gameStats[game][player]['a'],
+                    'pts':gameStats[game][player]['pts'],
+                    'season': currSeason}
+                posDict = dfSeasSkate.loc[(dfSeasSkate['season'] == currSeason) & (
+                    dfSeasSkate['name'].str.contains(pDict['name'],case=False))].iloc[0][['pos', 'yr']].to_dict()
+                pDict['pos'] = posDict['pos']
+                pDict['yr'] = posDict['yr']
+                pList.append(pDict)
           else:
             continue
-      for goalie in json.loads(soup.find('div',{'id':'app'})['data-page'])['props']['content']['game']['goalies']:
+      for goalie in json.loads(soup.find('div',{'id':'app'})['data-page'])['props']['content']['game']['livebox']['goalies']:
         if(goalie['teamcode']=='BU'):
             gDict = {'date': datetime.strptime(date, "%Y-%m-%d").strftime("%m/%d/%Y"),
              'opponent': decodeTeam(opponent),
@@ -3730,6 +3765,8 @@ def updateGameStats(gender):
             gDict['so'] = 1
         else:
             gDict['so'] = 0
+        posDict = dfSeasSkate.loc[(dfSeasSkate['season'] == currSeason) & (
+        dfSeasSkate['name'].str.contains(pDict['name'],case=False))].iloc[0][['pos', 'yr']].to_dict()
         gDict['yr'] = posDict['yr']
         if gDict['mins'] != '00:00':
             gList.append(gDict)
@@ -3855,7 +3892,7 @@ def updateResults(gender):
     html = f.read()
     f.close()
     soup = BeautifulSoup(html, 'html.parser')
-    table = soup.find('tbody')
+    table = soup.find('table')
     for row in table.find_all('tr'):
         col = row.find_all('td')
         if(len(col)>0):
