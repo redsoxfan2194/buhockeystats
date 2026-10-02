@@ -14,6 +14,7 @@ from pandas import Timestamp
 import pandas as pd
 import html as html_lib
 import json
+import requests
 try:
     from burecbookpath import RECBOOK_DATA_PATH
 except ImportError:
@@ -3969,6 +3970,66 @@ def updatePolls(gender):
         dfPoll['SEASON']=dfPoll['SEASON'].astype(int)
         dfPoll.to_csv(pollFile,index=False)
 
+def validateRequest(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response
+    elif (response.status_code == 429):
+        retry_after = int(response.headers.get("Retry-After", 1))
+        print(f'Failed...Retrying after {retry_after} sec')
+        time.sleep(retry_after)
+        for i in range(5):
+            response = requests.get(url)
+            if(response.status_code == 200):
+                return response
+            elif (response.status_code == 429):
+                retry_after = int(response.headers.get("Retry-After", 1))
+                print(f'Fail...Retrying after {retry_after} sec')
+                time.sleep(retry_after)
+    return ''
+
+
+def updateNHLStats():
+  pDict=pd.read_csv(RECBOOK_DATA_PATH+'curr_nhl_bu_players.csv').to_dict('records')
+  dfBUStats=pd.DataFrame()
+  for player in pDict:
+      url=f"https://api-web.nhle.com/v1/player/{player['pId']}/landing"
+      data=validateRequest(url).json()
+      df=pd.DataFrame(data['seasonTotals'])
+      df['teamName'] = df['teamName'].str['default']
+      df['pos']=data['position']
+      df['name']=player['name']
+      df['pId']=player['pId']
+      dfBUStats=pd.concat([dfBUStats,df])
+      #break
+  col='pId'
+  col_data = dfBUStats.pop(col)
+  dfBUStats.insert(0, col, col_data)
+  col='name'
+  col_data = dfBUStats.pop(col)
+  dfBUStats.insert(0, col, col_data)
+  dfNHL=dfBUStats.query('leagueAbbrev=="NHL" and season==20262027').sort_values('season')
+  dfNHLGoalieSeason = pd.DataFrame()
+  if not dfNHL.query('pos=="G"').empty:
+    dfNHLGoalieSeason=dfNHL.query('pos=="G"')[['name','gameTypeId','season','teamName','gamesPlayed','gamesStarted','goalsAgainst',
+           'goalsAgainstAvg', 'wins','losses', 'ties', 'shutouts','timeOnIce', 'savePctg', 'shotsAgainst']]
+    dfNHLGoalieSeason['gameTypeId'] = dfNHLGoalieSeason['gameTypeId'].replace({2: 'Regular Season', 3: 'Playoffs'})
+    dfNHLGoalieSeason.rename(columns={'gameTypeId':'seasonType','teamName':'team','gamesPlayed':'gp','gamesStarted':'gs','goalsAgainst':'ga',
+           'goalsAgainstAvg':'gaa', 'wins':'W','losses':'L', 'ties':'T', 'shutouts':"SO",'timeOnIce':'mins','savePctg':'sv%'},inplace=True)
+    dfNHLGoalieSeason=dfNHLGoalieSeason[["name", "seasonType", "season", "team", "gp", "gs", "mins", "ga", "gaa", "saves", "sv%", "W", "L", "T", "SO"]]
+  dfNHLSkateSeason=dfNHL[['name','pos','gameTypeId','season','teamName','gamesPlayed','goals','assists','points','pim','plusMinus']].copy()
+  dfNHLSkateSeason['gameTypeId'] = dfNHLSkateSeason['gameTypeId'].replace({2: 'Regular Season', 3: 'Playoffs'})
+  dfNHLSkateSeason.rename(columns={'gameTypeId':'seasonType','teamName':'team','gamesPlayed':'gp','plusMinus':"+/-",'points':'pts'},inplace=True)
+  dfNHLSkateSeason.loc[dfNHLSkateSeason['pos'].isin(["C","R","L"]),'pos']='F'
+  dfNHLSkateSeason['season']=currSeason
+  dfNHLSkate = getProStats('nhl','skater')
+  dfNHLSkate = pd.concat([dfNHLSkate.query(f'season!={currSeason}'),dfNHLSkateSeason])
+  dfNHLGoalie = getProStats('nhl','goalie')
+  dfNHLGoalie = pd.concat([dfNHLGoalie.query(f'season!={currSeason}'),dfNHLGoalieSeason])
+  
+  dfNHLSkate.to_csv(RECBOOK_DATA_PATH+"nhlskaterseasonstats.csv",index=False)
+  #dfNHLGoalie.to_csv(RECBOOK_DATA_PATH+"nhlgoalieseasonstats.csv",index=False)
+
 def getShutoutList(gender):
   ''' returns Shutout List for given gender '''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0]}Shutouts.csv")
@@ -4141,6 +4202,7 @@ def refreshStats():
   updateGameStats('Womens')
   updatePolls('Mens')
   updatePolls('Womens')
+  updateNHLStats()
   initializeRecordBook()
   print("Stats Refreshed")
 
