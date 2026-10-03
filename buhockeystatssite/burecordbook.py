@@ -3780,6 +3780,21 @@ def updateGameStats(gender):
         gDict['mins']=int(mins[0])+round(int(mins[1])/60,2)
       dfCurrPlayStats = pd.DataFrame(pList)
       dfCurrGoalStats = pd.DataFrame(gList)
+      if dfCurrGoalStats.loc[dfCurrGoalStats['name'].isin(dfCurrPlayStats.name)].empty:
+        missingGoalies= set(dfCurrGoalStats.name) - set(dfCurrPlayStats.name)
+        for goalieName in missingGoalies:
+          yr=dfCurrGoalStats.query(f'name=="{goalieName}"').iloc[0]['yr']
+          missingGDict={
+                    'date': datetime.strptime(date, "%Y-%m-%d").strftime("%m/%d/%Y"),
+                    'opponent': decodeTeam(opponent),
+                    'name': goalieName,
+                    'goals': 0,
+                    'assists': 0,
+                    'pts':0,
+                    'yr':yr,
+                    'pos':'G',
+                    'season': currSeason}
+          dfCurrPlayStats = pd.concat([dfCurrPlayStats,pd.DataFrame([missingGDict])])
       f = open(pFile, 'a', encoding="utf-8")
       for i in dfCurrPlayStats[['date',
                                 'opponent',
