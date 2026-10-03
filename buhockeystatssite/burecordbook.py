@@ -3535,9 +3535,11 @@ def updateCurrentSeasonStats(gender):
         for i in rows:
             col = i.find_all('td')
             if(len(col)<1):
-              continue
+              continue 
             name = col[1].get_text()
             if name != "Total" and name!='Opponents' and name!=' \xa0 ':
+                if 'Wang' in name:
+                  name = "Wang, Haoxi"
                 lastName, firstName = name.split(', ')
                 skateDict = {'number': int(col[0].get_text()),
                              'last': lastName,
@@ -3726,12 +3728,11 @@ def updateGameStats(gender):
       f.close()
       soup = BeautifulSoup(html, 'html.parser')
       gameStats= json.loads(soup.find('div',{'id':'app'})['data-page'])['props']['content']['game']['livebox']['sum_players']
-      
       for game in gameStats.keys():
           if(game==''):
               continue
           #if(gameStats[game]['teamcode']=='BU'):
-          if(game=='166'):
+          if(game=='166' or game=='22'):
               for player in gameStats[game].keys():
                 pDict = {
                     'date': datetime.strptime(date, "%Y-%m-%d").strftime("%m/%d/%Y"),
@@ -3741,6 +3742,10 @@ def updateGameStats(gender):
                     'assists': gameStats[game][player]['a'],
                     'pts':gameStats[game][player]['pts'],
                     'season': currSeason}
+                if pDict['name'] is None:
+                  continue
+                if 'Wang' in pDict['name']:
+                  pDict['name'] = "Haoxi Wang"
                 posDict = dfSeasSkate.loc[(dfSeasSkate['season'] == currSeason) & (
                     dfSeasSkate['name'].str.contains(pDict['name'],case=False))].iloc[0][['pos', 'yr']].to_dict()
                 pDict['pos'] = posDict['pos']
@@ -3767,7 +3772,7 @@ def updateGameStats(gender):
         else:
             gDict['so'] = 0
         posDict = dfSeasSkate.loc[(dfSeasSkate['season'] == currSeason) & (
-        dfSeasSkate['name'].str.contains(pDict['name'],case=False))].iloc[0][['pos', 'yr']].to_dict()
+        dfSeasSkate['name'].str.contains(gDict['name'],case=False))].iloc[0][['pos', 'yr']].to_dict()
         gDict['yr'] = posDict['yr']
         if gDict['mins'] != '00:00':
             gList.append(gDict)
@@ -3823,8 +3828,12 @@ def updateCareerStats(dfSkate, dfGoalie, dfSeasSkate, dfSeasGoalie):
             '/',
             expand=True).astype(int).sum(
             numeric_only=True)
-        pen = pens.iloc[0]
-        pim = pens.iloc[1]
+        if(len(pens)>1):
+          pen = pens.iloc[0]
+          pim = pens.iloc[1]
+        else:
+          pen = 0
+          pim = 0
         pSums = dfRes.sum(numeric_only=True)
         dfSkate.loc[(dfSkate['name'].str.contains(player,case=False)) & (
             dfSkate['seasons'].str.contains(currSeason)), 'gp'] = pSums['gp']
