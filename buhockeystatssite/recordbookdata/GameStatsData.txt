@@ -32167,3 +32167,4 @@
 10/02/2026,Alaska,Kamil Bednarik,F,JR,0,0,0,2026-27
 10/02/2026,Alaska,Aiden Celebrini,D,SR,0,0,0,2026-27
 10/02/2026,Alaska,Ben Merrill,F,SO,0,0,0,2026-27
+10/02/2026,Alaska,Mikhail Yegorov,G,JR,0,0,0,2026-27
