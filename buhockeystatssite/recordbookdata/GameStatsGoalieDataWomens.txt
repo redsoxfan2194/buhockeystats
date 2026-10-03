@@ -776,4 +776,4 @@
 02/28/2026,Northeastern,Mari Pietersen,SR,34,2,1,0,81.22,L,2025-26
 10/01/2026,Wisconsin,Mari Pietersen,JR,24,6,1,0,33.57,L,2026-27
 10/01/2026,Wisconsin,Sydney Fogu,JR,16,1,1,0,26.42,,2026-27
-10/02/2026,Wisconsin,Sydney Fogu,SO,37,3,1,0,57.83,,2026-27
+10/02/2026,Wisconsin,Sydney Fogu,SO,37,3,1,0,57.83,L,2026-27
