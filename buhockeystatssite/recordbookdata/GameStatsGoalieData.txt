@@ -929,28 +929,28 @@
 04/01/1995,Maine,Tom Noble,FR,21,2,1,0,60,W,1994-95
 10/20/1995,North Dakota,Tom Noble,SO,19,5,1,0,60,W,1995-96
 10/28/1995,Vermont,Tom Noble,SO,26,4,1,0,60,W,1995-96
-11/03/1995,Northeastern,Michael Larocque,,23,4,1,0,60,W,1995-96
+11/03/1995,Northeastern,Michel Larocque,,23,4,1,0,60,W,1995-96
 11/10/1995,New Hampshire,Tom Noble,SO,26,6,1,0,60,L,1995-96
-11/11/1995,New Hampshire,Michael Larocque,,25,2,1,0,60,W,1995-96
+11/11/1995,New Hampshire,Michel Larocque,,25,2,1,0,60,W,1995-96
 11/14/1995,Maine,Tom Noble,SO,15,2,1,0,60,W,1995-96
 11/21/1995,Cornell,Tom Noble,SO,20,1,1,0,60,W,1995-96
-11/24/1995,St. Lawrence,Michael Larocque,,17,2,1,0,60,W,1995-96
+11/24/1995,St. Lawrence,Michel Larocque,,17,2,1,0,60,W,1995-96
 11/25/1995,Clarkson,Tom Noble,SO,24,4,1,0,60,T,1995-96
-12/01/1995,Massachusetts,Michael Larocque,,27,2,1,0,60,W,1995-96
+12/01/1995,Massachusetts,Michel Larocque,,27,2,1,0,60,W,1995-96
 12/02/1995,Massachusetts,Tom Noble,SO,35,2,1,0,60,W,1995-96
 12/08/1995,Merrimack,Tom Noble,SO,27,1,1,0,60,W,1995-96
-12/09/1995,Merrimack,Michael Larocque,,22,6,1,0,60,W,1995-96
-01/05/1996,New Hampshire,Michael Larocque,,28,5,1,0,60,W,1995-96
+12/09/1995,Merrimack,Michel Larocque,,22,6,1,0,60,W,1995-96
+01/05/1996,New Hampshire,Michel Larocque,,28,5,1,0,60,W,1995-96
 01/12/1996,Boston College,Tom Noble,SO,21,4,1,0,60,T,1995-96
-01/13/1996,Boston College,Michael Larocque,,26,3,1,0,60,W,1995-96
+01/13/1996,Boston College,Michel Larocque,,26,3,1,0,60,W,1995-96
 01/19/1996,Maine,Tom Noble,SO,24,3,1,0,60,W,1995-96
-01/20/1996,Maine,Michael Larocque,,31,3,1,0,60,T,1995-96
+01/20/1996,Maine,Michel Larocque,,31,3,1,0,60,T,1995-96
 01/27/1996,UMass Lowell,Tom Noble,SO,26,5,1,0,60,L,1995-96
 02/02/1996,Providence,Tom Noble,SO,25,1,1,0,60,W,1995-96
 02/05/1996,Boston College,Tom Noble,SO,30,1,1,0,60,W,1995-96
-02/09/1996,Massachusetts,Michael Larocque,,28,1,1,0,60,W,1995-96
+02/09/1996,Massachusetts,Michel Larocque,,28,1,1,0,60,W,1995-96
 02/16/1996,Providence,Tom Noble,SO,26,4,1,0,60,W,1995-96
-02/17/1996,Providence,Michael Larocque,,32,1,1,0,60,W,1995-96
+02/17/1996,Providence,Michel Larocque,,32,1,1,0,60,W,1995-96
 02/25/1996,UMass Lowell,Tom Noble,SO,38,3,1,0,60,W,1995-96
 03/01/1996,Northeastern,Tom Noble,SO,19,1,1,0,60,W,1995-96
 03/02/1996,Boston College,J.P. McKersie,SR,14,3,1,0,60,L,1995-96
@@ -958,104 +958,104 @@
 03/15/1996,Providence,Tom Noble,SO,15,5,1,0,60,L,1995-96
 03/16/1996,UMass Lowell,Tom Noble,SO,23,3,1,0,60,W,1995-96
 03/23/1996,Clarkson,Tom Noble,SO,20,2,1,0,60,W,1995-96
-10/19/1996,Rensselaer,Michael Larocque,,30,3,1,0,60,W,1996-97
+10/19/1996,Rensselaer,Michel Larocque,,30,3,1,0,60,W,1996-97
 10/26/1996,Vermont,Tom Noble,JR,17,4,1,0,60,L,1996-97
-11/01/1996,Massachusetts,Michael Larocque,,19,2,1,0,60,W,1996-97
+11/01/1996,Massachusetts,Michel Larocque,,19,2,1,0,60,W,1996-97
 11/02/1996,Massachusetts,Tom Noble,JR,18,3,1,0,60,W,1996-97
 11/08/1996,Providence,Tom Noble,JR,25,1,1,0,60,W,1996-97
-11/09/1996,Providence,Michael Larocque,,26,6,1,0,60,W,1996-97
+11/09/1996,Providence,Michel Larocque,,26,6,1,0,60,W,1996-97
 11/15/1996,Northeastern,Tom Noble,JR,33,2,1,0,60,W,1996-97
-11/16/1996,Northeastern,Michael Larocque,,26,1,1,0,60,W,1996-97
-11/23/1996,Merrimack,Michael Larocque,,24,3,1,0,60,T,1996-97
+11/16/1996,Northeastern,Michel Larocque,,26,1,1,0,60,W,1996-97
+11/23/1996,Merrimack,Michel Larocque,,24,3,1,0,60,T,1996-97
 11/26/1996,Harvard,Tom Noble,JR,17,1,1,0,60,W,1996-97
 11/30/1996,Clarkson,Tom Noble,JR,35,4,1,0,60,L,1996-97
-12/06/1996,Yale,Michael Larocque,,21,1,1,0,60,T,1996-97
+12/06/1996,Yale,Michel Larocque,,21,1,1,0,60,T,1996-97
 12/11/1996,Boston College,Tom Noble,JR,19,4,1,0,60,W,1996-97
-12/28/1996,North Dakota,Michael Larocque,,47,2,1,0,60,T,1996-97
-01/05/1997,New Hampshire,Michael Larocque,,30,2,1,0,60,W,1996-97
-01/11/1997,Northeastern,Michael Larocque,,23,4,1,0,60,W,1996-97
+12/28/1996,North Dakota,Michel Larocque,,47,2,1,0,60,T,1996-97
+01/05/1997,New Hampshire,Michel Larocque,,30,2,1,0,60,W,1996-97
+01/11/1997,Northeastern,Michel Larocque,,23,4,1,0,60,W,1996-97
 01/17/1997,Boston College,Tom Noble,JR,29,5,1,0,60,T,1996-97
-01/18/1997,Boston College,Michael Larocque,,27,4,1,0,60,T,1996-97
+01/18/1997,Boston College,Michel Larocque,,27,4,1,0,60,T,1996-97
 01/24/1997,UMass Lowell,Tom Noble,JR,12,3,1,0,60,L,1996-97
-01/25/1997,Maine,Michael Larocque,,18,3,1,0,60,L,1996-97
+01/25/1997,Maine,Michel Larocque,,18,3,1,0,60,L,1996-97
 01/31/1997,Providence,Tom Noble,JR,23,2,1,0,60,W,1996-97
-02/03/1997,Harvard,Michael Larocque,,24,1,1,0,60,W,1996-97
-02/07/1997,Massachusetts,Michael Larocque,,20,3,1,0,60,W,1996-97
+02/03/1997,Harvard,Michel Larocque,,24,1,1,0,60,W,1996-97
+02/07/1997,Massachusetts,Michel Larocque,,20,3,1,0,60,W,1996-97
 02/10/1997,Boston College,Tom Noble,JR,27,2,1,0,60,W,1996-97
-02/14/1997,UMass Lowell,Michael Larocque,,35,1,1,0,60,W,1996-97
+02/14/1997,UMass Lowell,Michel Larocque,,35,1,1,0,60,W,1996-97
 02/15/1997,UMass Lowell,Tom Noble,JR,25,5,1,0,60,T,1996-97
 02/22/1997,Maine,Tom Noble,JR,32,7,1,0,60,L,1996-97
-02/28/1997,Merrimack,Michael Larocque,,19,1,1,0,60,W,1996-97
-03/01/1997,New Hampshire,Michael Larocque,,29,1,1,0,60,W,1996-97
-03/14/1997,UMass Lowell,Michael Larocque,,24,2,1,0,60,W,1996-97
-03/15/1997,New Hampshire,Michael Larocque,,21,2,1,0,60,W,1996-97
-03/22/1997,Denver,Michael Larocque,,21,3,1,0,60,W,1996-97
-03/27/1997,Michigan,Michael Larocque,,18,2,1,0,60,W,1996-97
-03/29/1997,North Dakota,Michael Larocque,,24,6,1,0,60,L,1996-97
+02/28/1997,Merrimack,Michel Larocque,,19,1,1,0,60,W,1996-97
+03/01/1997,New Hampshire,Michel Larocque,,29,1,1,0,60,W,1996-97
+03/14/1997,UMass Lowell,Michel Larocque,,24,2,1,0,60,W,1996-97
+03/15/1997,New Hampshire,Michel Larocque,,21,2,1,0,60,W,1996-97
+03/22/1997,Denver,Michel Larocque,,21,3,1,0,60,W,1996-97
+03/27/1997,Michigan,Michel Larocque,,18,2,1,0,60,W,1996-97
+03/29/1997,North Dakota,Michel Larocque,,24,6,1,0,60,L,1996-97
 10/18/1997,Rensselaer,Tom Noble,SR,18,0,1,1,60,W,1997-98
-10/25/1997,Vermont,Michael Larocque,,32,2,1,0,60,W,1997-98
+10/25/1997,Vermont,Michel Larocque,,32,2,1,0,60,W,1997-98
 10/31/1997,Massachusetts,Tom Noble,SR,22,2,1,0,60,W,1997-98
-11/08/1997,Maine,Michael Larocque,,29,0,1,1,60,W,1997-98
-11/15/1997,New Hampshire,Michael Larocque,,16,2,1,0,60,W,1997-98
+11/08/1997,Maine,Michel Larocque,,29,0,1,1,60,W,1997-98
+11/15/1997,New Hampshire,Michel Larocque,,16,2,1,0,60,W,1997-98
 11/21/1997,Brown,Tom Noble,SR,15,1,1,0,60,W,1997-98
-11/25/1997,Harvard,Michael Larocque,,17,3,1,0,60,W,1997-98
+11/25/1997,Harvard,Michel Larocque,,17,3,1,0,60,W,1997-98
 11/28/1997,Clarkson,Tom Noble,SR,32,0,1,1,60,W,1997-98
 12/04/1997,Merrimack,Tom Noble,SR,17,2,1,0,60,W,1997-98
-12/07/1997,Boston College,Michael Larocque,,29,1,1,0,60,W,1997-98
+12/07/1997,Boston College,Michel Larocque,,29,1,1,0,60,W,1997-98
 12/09/1997,Boston College,Tom Noble,SR,27,3,1,0,60,T,1997-98
-12/12/1997,New Hampshire,Michael Larocque,,32,4,1,0,60,T,1997-98
+12/12/1997,New Hampshire,Michel Larocque,,32,4,1,0,60,T,1997-98
 12/30/1997,Princeton,Tom Noble,SR,15,3,1,0,60,L,1997-98
-01/03/1998,Niagara,Michael Larocque,,9,2,1,0,60,W,1997-98
-01/09/1998,Boston College,Michael Larocque,,25,4,1,0,60,L,1997-98
+01/03/1998,Niagara,Michel Larocque,,9,2,1,0,60,W,1997-98
+01/09/1998,Boston College,Michel Larocque,,25,4,1,0,60,L,1997-98
 01/10/1998,Providence,Tom Noble,SR,21,0,1,1,60,W,1997-98
 01/16/1998,Northeastern,Tom Noble,SR,26,2,1,0,60,L,1997-98
-01/17/1998,Northeastern,Michael Larocque,,15,2,1,0,60,W,1997-98
+01/17/1998,Northeastern,Michel Larocque,,15,2,1,0,60,W,1997-98
 01/23/1998,Maine,Tom Noble,SR,26,3,1,0,60,W,1997-98
-01/24/1998,Maine,Michael Larocque,,15,2,1,0,60,W,1997-98
+01/24/1998,Maine,Michel Larocque,,15,2,1,0,60,W,1997-98
 01/30/1998,Merrimack,Tom Noble,SR,18,3,1,0,60,W,1997-98
-02/02/1998,Northeastern,Michael Larocque,,26,1,1,0,60,W,1997-98
-02/06/1998,UMass Lowell,Michael Larocque,,25,3,1,0,60,W,1997-98
+02/02/1998,Northeastern,Michel Larocque,,26,1,1,0,60,W,1997-98
+02/06/1998,UMass Lowell,Michel Larocque,,25,3,1,0,60,W,1997-98
 02/09/1998,Harvard,Tom Noble,SR,17,1,1,0,60,W,1997-98
 02/13/1998,UMass Lowell,Tom Noble,SR,16,5,1,0,60,L,1997-98
-02/14/1998,UMass Lowell,Michael Larocque,,27,1,1,0,60,W,1997-98
-02/20/1998,Providence,Michael Larocque,,21,1,1,0,60,W,1997-98
-02/27/1998,Massachusetts,Michael Larocque,,26,1,1,0,60,W,1997-98
-02/28/1998,Massachusetts,Michael Larocque,,12,1,1,0,60,W,1997-98
-03/05/1998,Northeastern,Michael Larocque,,34,2,1,0,60,W,1997-98
-03/08/1998,Merrimack,Michael Larocque,,18,1,1,0,60,W,1997-98
-03/13/1998,Merrimack,Michael Larocque,,21,1,1,0,60,L,1997-98
-03/14/1998,Merrimack,Michael Larocque,,23,5,1,0,60,W,1997-98
-03/15/1998,Merrimack,Michael Larocque,,24,5,1,0,60,L,1997-98
-03/29/1998,New Hampshire,Michael Larocque,,33,4,1,0,60,L,1997-98
-10/17/1998,Rensselaer,Michael Larocque,,26,3,1,0,60,L,1998-99
-10/30/1998,Providence,Michael Larocque,,27,5,1,0,60,L,1998-99
-10/31/1998,Providence,Michael Larocque,,23,6,1,0,60,L,1998-99
-11/13/1998,New Hampshire,Michael Larocque,,28,2,1,0,60,T,1998-99
-11/14/1998,New Hampshire,Michael Larocque,,29,3,1,0,60,L,1998-99
-11/20/1998,Boston College,Michael Larocque,,25,6,1,0,60,L,1998-99
-11/21/1998,Boston College,Michael Larocque,,32,2,1,0,60,W,1998-99
-11/24/1998,Harvard,Michael Larocque,,21,5,1,0,60,L,1998-99
+02/14/1998,UMass Lowell,Michel Larocque,,27,1,1,0,60,W,1997-98
+02/20/1998,Providence,Michel Larocque,,21,1,1,0,60,W,1997-98
+02/27/1998,Massachusetts,Michel Larocque,,26,1,1,0,60,W,1997-98
+02/28/1998,Massachusetts,Michel Larocque,,12,1,1,0,60,W,1997-98
+03/05/1998,Northeastern,Michel Larocque,,34,2,1,0,60,W,1997-98
+03/08/1998,Merrimack,Michel Larocque,,18,1,1,0,60,W,1997-98
+03/13/1998,Merrimack,Michel Larocque,,21,1,1,0,60,L,1997-98
+03/14/1998,Merrimack,Michel Larocque,,23,5,1,0,60,W,1997-98
+03/15/1998,Merrimack,Michel Larocque,,24,5,1,0,60,L,1997-98
+03/29/1998,New Hampshire,Michel Larocque,,33,4,1,0,60,L,1997-98
+10/17/1998,Rensselaer,Michel Larocque,,26,3,1,0,60,L,1998-99
+10/30/1998,Providence,Michel Larocque,,27,5,1,0,60,L,1998-99
+10/31/1998,Providence,Michel Larocque,,23,6,1,0,60,L,1998-99
+11/13/1998,New Hampshire,Michel Larocque,,28,2,1,0,60,T,1998-99
+11/14/1998,New Hampshire,Michel Larocque,,29,3,1,0,60,L,1998-99
+11/20/1998,Boston College,Michel Larocque,,25,6,1,0,60,L,1998-99
+11/21/1998,Boston College,Michel Larocque,,32,2,1,0,60,W,1998-99
+11/24/1998,Harvard,Michel Larocque,,21,5,1,0,60,L,1998-99
 11/27/1998,Clarkson,Jason Tapp,FR,30,4,1,0,60,L,1998-99
-11/28/1998,St. Lawrence,Michael Larocque,,45,1,1,0,60,W,1998-99
-12/04/1998,Massachusetts,Michael Larocque,,25,2,1,0,60,W,1998-99
-12/05/1998,Massachusetts,Michael Larocque,,36,2,1,0,60,W,1998-99
-12/12/1998,UMass Lowell,Michael Larocque,,39,3,1,0,60,W,1998-99
-12/27/1998,Ohio State,Michael Larocque,,29,1,1,0,60,W,1998-99
-01/05/1999,Maine,Michael Larocque,,23,4,1,0,60,L,1998-99
-01/08/1999,Merrimack,Michael Larocque,,26,5,1,0,60,T,1998-99
+11/28/1998,St. Lawrence,Michel Larocque,,45,1,1,0,60,W,1998-99
+12/04/1998,Massachusetts,Michel Larocque,,25,2,1,0,60,W,1998-99
+12/05/1998,Massachusetts,Michel Larocque,,36,2,1,0,60,W,1998-99
+12/12/1998,UMass Lowell,Michel Larocque,,39,3,1,0,60,W,1998-99
+12/27/1998,Ohio State,Michel Larocque,,29,1,1,0,60,W,1998-99
+01/05/1999,Maine,Michel Larocque,,23,4,1,0,60,L,1998-99
+01/08/1999,Merrimack,Michel Larocque,,26,5,1,0,60,T,1998-99
 01/10/1999,Merrimack,Jason Tapp,FR,20,4,1,0,60,L,1998-99
-01/17/1999,Northeastern,Michael Larocque,,31,3,1,0,60,L,1998-99
-01/29/1999,UMass Lowell,Michael Larocque,,32,4,1,0,60,L,1998-99
-02/05/1999,Merrimack,Michael Larocque,,20,3,1,0,60,W,1998-99
-02/08/1999,Northeastern,Michael Larocque,,36,2,1,0,60,W,1998-99
-02/12/1999,New Hampshire,Michael Larocque,,32,2,1,0,60,T,1998-99
-02/13/1999,Providence,Michael Larocque,,38,6,1,0,60,L,1998-99
-02/20/1999,Maine,Michael Larocque,,30,1,1,0,60,W,1998-99
-02/26/1999,Northeastern,Michael Larocque,,23,1,1,0,60,W,1998-99
-02/27/1999,Northeastern,Michael Larocque,,19,4,1,0,60,L,1998-99
-03/05/1999,Boston College,Michael Larocque,,37,3,1,0,60,L,1998-99
-03/13/1999,Providence,Michael Larocque,,24,2,1,0,60,W,1998-99
-03/14/1999,Providence,Michael Larocque,,27,5,1,0,60,L,1998-99
+01/17/1999,Northeastern,Michel Larocque,,31,3,1,0,60,L,1998-99
+01/29/1999,UMass Lowell,Michel Larocque,,32,4,1,0,60,L,1998-99
+02/05/1999,Merrimack,Michel Larocque,,20,3,1,0,60,W,1998-99
+02/08/1999,Northeastern,Michel Larocque,,36,2,1,0,60,W,1998-99
+02/12/1999,New Hampshire,Michel Larocque,,32,2,1,0,60,T,1998-99
+02/13/1999,Providence,Michel Larocque,,38,6,1,0,60,L,1998-99
+02/20/1999,Maine,Michel Larocque,,30,1,1,0,60,W,1998-99
+02/26/1999,Northeastern,Michel Larocque,,23,1,1,0,60,W,1998-99
+02/27/1999,Northeastern,Michel Larocque,,19,4,1,0,60,L,1998-99
+03/05/1999,Boston College,Michel Larocque,,37,3,1,0,60,L,1998-99
+03/13/1999,Providence,Michel Larocque,,24,2,1,0,60,W,1998-99
+03/14/1999,Providence,Michel Larocque,,27,5,1,0,60,L,1998-99
 10/09/1999,Air Force,Jason Tapp,SO,13,3,1,0,60,W,1999-00
 10/10/1999,Alaska Anchorage,Rick DiPietro,FR,14,3,1,0,60,W,1999-00
 10/15/1999,Rensselaer,Jason Tapp,SO,18,3,1,0,60,L,1999-00
