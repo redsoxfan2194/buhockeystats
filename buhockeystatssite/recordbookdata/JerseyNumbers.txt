@@ -265,7 +265,7 @@
 1990-93 Mike Bavis
 1993-97 Bill Pierce
 1997-99 Carl Corazzini
-2000-04 Steve Greeley
+2000-04 Stephen Greeley
 2004-05 Ryan Weston
 2005-09 Steve Smolinsky
 2009-13 Ben Rosen
@@ -861,7 +861,7 @@
 2003-05 Bryan Miller
 2005-08 Bryan Ewing
 2008-10 Vinny Saponari
-2010-12 Yasin Cisse
+2010-12 Yasin Cissé
 2013-17 Doyle Somerby
 2017-18 Brady Tkachuk
 2019-23 John Copeland

@@ -1,8 +1,8 @@
 id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate,birthPlace,countryCode,csPlayerId,draftDate,draftMasterId,draftYear,draftedByTeamId,firstName,height,lastName,notes,overallPickNumber,pickInRound,playerId,playerName,position,removedOutright,removedOutrightWhy,roundNumber,shootsCatches,supplementalDraft,teamPickHistory,triCode,weight
 7305,7341.0,36.0,20.0,Boston University,NCAA,1950-05-06,"Chatham, ON  CAN",CAN,,1970-06-11,8,1970,10,Bob,73.0,Gryp,,50,8,8446654,Bob Gryp,LW,N,,4,L,N,TOR,TOR,190.0
-7335,7115.0,175.0,19.0,Boston University,NCAA,1950-12-18,"Toronto, ON  CAN",CAN,,1970-06-11,8,1970,8,Robert,73.0,Brown,,80,10,,Robert Brown,D,N,,6,R,N,MTL,MTL,185.0
+7335,7115.0,175.0,19.0,Boston University,NCAA,1950-12-18,"Toronto, ON  CAN",CAN,,1970-06-11,8,1970,8,Robert,73.0,Brown,,80,10,,Bob Brown,D,N,,6,R,N,MTL,MTL,185.0
 7339,7470.0,165.0,20.0,Boston University,NCAA,1949-12-28,"Providence, RI  USA",USA,,1970-06-11,8,1970,7,Tim,75.0,Regan,,84,1,,Tim Regan,G,N,,7,L,N,BUF,BUF,188.0
-7360,7377.0,72.0,20.0,Boston University,NCAA,1950-03-31,"Toronto, ON  CAN",CAN,,1970-06-11,8,1970,8,Richard,75.0,Jordan,,106,10,8456752,Richard Jordan,LW,N,,8,L,N,MTL,MTL,196.0
+7360,7377.0,72.0,20.0,Boston University,NCAA,1950-03-31,"Toronto, ON  CAN",CAN,,1970-06-11,8,1970,8,Richard,75.0,Jordan,,106,10,8456752,Ric Jordan,LW,N,,8,L,N,MTL,MTL,196.0
 7706,7204.0,264.0,19.0,Boston University,NCAA,1953-08-24,"Charlestown, MA  USA",USA,,1973-05-15,11,1973,23,Paul,73.0,O'Neil,,67,3,8448059,Paul O'Neil,C,N,,5,R,N,VAN,VAN,185.0
 7925,7374.0,69.0,20.0,Boston University,NCAA,1954-03-21,"Boston, MA  USA",USA,,1974-05-29,12,1974,47,Peter,74.0,Brown,,118,10,,Peter Brown,D,N,,7,R,N,AFM,AFM,180.0
 8188,7336.0,31.0,20.0,Salem State College,NCAA,1955-05-03,"Auburn, MA  USA",USA,,1975-06-03,13,1975,19,Dick,73.0,Lamby,,135,9,8448652,Dick Lamby,D,N,,8,R,N,STL,STL,200.0
@@ -13,11 +13,11 @@ id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate
 8502,7455.0,150.0,20.0,Boston University,NCAA,1957-01-15,"Montreal, QC  CAN",CAN,,1977-06-14,15,1977,3,John,71.0,Bethel,,98,8,8445454,John Bethel,LW,N,,6,L,N,NYR,NYR,185.0
 8586,7386.0,81.0,20.0,Boston University,NCAA,1957-03-25,"Pointe-Claire, QC  CAN",CAN,,1977-06-14,15,1977,8,Robert,71.0,Boileau,,182,2,8445586,Bob Boileau,LW,N,,15,L,N,MTL,MTL,180.0
 8648,7470.0,165.0,20.0,Boston University,NCAA,1958-01-01,"Situate, MA  USA",USA,,1978-06-15,16,1978,3,Dave,70.0,Silk,,59,6,8451361,Dave Silk,RW,N,,4,R,N,NYR,NYR,189.0
-8674,6700.0,125.0,18.0,Boston University,NCAA,1960-02-10,"Charlestown, MA  USA",USA,,1978-06-15,16,1978,6,Darryl,70.0,McLeod,,85,16,,Darryl McLeod,LW,N,,5,,N,BOS,BOS,185.0
+8674,6700.0,125.0,18.0,Boston University,NCAA,1960-02-10,"Charlestown, MA  USA",USA,,1978-06-15,16,1978,6,Darryl,70.0,MacLeod,,85,16,,Daryl MacLeod,LW,N,,5,,N,BOS,BOS,185.0
 8729,,,,Boston University,NCAA,,"Belleville, ON  CAN",CAN,,1978-06-15,16,1978,19,Tony,69.0,Meagher,,140,3,8457344,Tony Meagher,RW,N,,9,R,N,STL,STL,165.0
 8800,7444.0,139.0,20.0,Oshawa Generals,OHA,1958-01-27,"Toronto, ON  CAN",CAN,,1978-06-15,16,1978,19,Mike,74.0,Pidgeon,,211,10,8457673.0,Mike Pidgeon,C,N,,13,L,N,STL,STL,188.0
 8806,7365.0,60.0,20.0,Boston University,NCAA,1958-04-16,"Newton, MA  USA",USA,,1978-06-15,16,1978,3,Todd,70.0,Johnson,,217,5,8456738,Todd Johnson,C,N,,14,L,N,NYR,NYR,175.0
-8884,7286.0,346.0,19.0,Boston University,NCAA,1959-08-28,"Everett, MA  USA",USA,,1979-08-09,17,1979,33,William,73.0,Whelton,,61,20,8452419,William Whelton,D,N,,3,L,N,WIN,WIN,185.0
+8884,7286.0,346.0,19.0,Boston University,NCAA,1959-08-28,"Everett, MA  USA",USA,,1979-08-09,17,1979,33,William,73.0,Whelton,,61,20,8452419,Bill Whelton,D,N,,3,L,N,WIN,WIN,185.0
 9278,6926.0,351.0,18.0,Boston University,NCAA,1962-06-24,"Brookline, MA  USA",USA,,1981-06-10,19,1981,6,Bruce,75.0,Milton,,119,14,8457395,Bruce Milton,D,N,,6,,N,BOS,BOS,196.0
 9517,6619.0,45.0,18.0,Winthrop H.S.,Mass.,1964-04-25,"Winthrop, MA  USA",USA,,1982-06-09,20,1982,2,John,71.0,Tiano,,147,21,8458218,John Tiano,C,N,,7,,N,NYI,NYI,185.0
 9741,6525.0,316.0,17.0,St. Albert Saints,AJHL,1965-07-27,"Edmonton, AB  CAN",CAN,,1983-06-08,21,1983,6,Terry,72.0,Taillefer,,122,20,8451842,Terry Taillefer,G,N,,6,L,N,BOS,BOS,174.0
@@ -29,11 +29,11 @@ id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate
 10043,6683.0,109.0,18.0,HIFK Helsinki,FINLAND,1966-02-21,"Alajarvi, Finland",FIN,,1984-06-09,22,1984,3,Ville,70.0,Kentala,,182,14,8456822,Ville Kentala,LW,N,,9,L,N,NYR,NYR,187.0
 10059,6939.0,365.0,18.0,Boston University,NCAA,1965-06-10,"Revere, MA  USA",USA,,1984-06-09,22,1984,23,Ed,74.0,Lowney,,199,10,8457109,Ed Lowney,RW,N,,10,R,N,VAN,VAN,182.0
 10208,6705.0,130.0,18.0,Boston University,NCAA,1967-02-05,"Sherwood Park, AB  CAN",CAN,,1985-06-15,23,1985,2,Jeff,71.0,Sveen,,97,13,8458162,Jeff Sveen,C,N,,5,R,N,NYI,NYI,170.0
-10243,6739.0,164.0,18.0,St. John's Prep,HIGH-MA,1967-01-02,"Peabody, MA  USA",USA,,1985-06-15,23,1985,31,Michael,70.0,Kelfer,,132,6,8456804,Michael Kelfer,RW,N,,7,R,N,MNS,MNS,180.0
+10243,6739.0,164.0,18.0,St. John's Prep,HIGH-MA,1967-01-02,"Peabody, MA  USA",USA,,1985-06-15,23,1985,31,Michael,70.0,Kelfer,,132,6,8456804,Mike Kelfer,RW,N,,7,R,N,MNS,MNS,180.0
 10302,6614.0,39.0,18.0,Reading H.S.,Mass.,1967-05-07,"Reading, MA  USA",USA,,1985-06-15,23,1985,5,Steve,76.0,Shaunessy,,191,2,8457997,Steve Shaunessy,D,N,,10,L,N,PIT,PIT,220.0
 10341,6723.0,148.0,18.0,Notre Dame H.S.,Sask.,1967-01-18,"Maryston, NL  CAN",CAN,,1985-06-15,23,1985,22,Peter,72.0,Headon,,230,20,8456543,Peter Headon,LW,N,,11,L,N,EDM,EDM,189.0
 10374,6838.0,263.0,18.0,Boston University,NCAA,1967-10-01,"Clinton, MA  USA",USA,,1986-06-21,24,1986,34,Scott,73.0,Young,,11,11,8452569,Scott Young,RW,N,,1,R,N,HFD,HFD,200.0
-10460,6605.0,31.0,18.0,St. Albert Saints,AJHL,1968-05-21,"Edmonton, AB  CAN",CAN,,1986-06-21,24,1986,6,Matthew,74.0,Pesklewis,,97,13,8457662,Matthew Pesklewis,LW,N,,5,,N,BOS,BOS,185.0
+10460,6605.0,31.0,18.0,St. Albert Saints,AJHL,1968-05-21,"Edmonton, AB  CAN",CAN,,1986-06-21,24,1986,6,Matthew,74.0,Pesklewis,,97,13,8457662,Matt Pesklewis,LW,N,,5,,N,BOS,BOS,185.0
 10489,6921.0,346.0,18.0,Boston University,NCAA,1967-07-10,"Edmonton, AB  CAN",CAN,,1986-06-21,24,1986,22,Jim,72.0,Ennis,,126,21,8446683,Jim Ennis,D,N,,6,L,N,EDM,EDM,200.0
 10570,6881.0,306.0,18.0,Canterbury H.S.,Conn.,1967-08-19,"St. Charles, IL  USA",USA,,1986-06-21,24,1986,32,Chris,72.0,Lappin,,207,18,8456978,Chris Lappin,D,N,,10,,N,QUE,QUE,190.0
 10684,7046.0,106.0,19.0,Boston University,NCAA,1968-02-27,"Marshfield, MA  USA",USA,,1987-06-13,26,1987,3,Mike,74.0,Sullivan,,69,6,8458155,Mike Sullivan,C,N,,4,L,N,NYR,NYR,211.0
@@ -43,9 +43,9 @@ id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate
 10788,6700.0,126.0,18.0,New Prep School,Mass.,1969-02-07,"Randolph, MA  USA",USA,,1987-06-13,26,1987,5,Jack,70.0,MacDougall,,173,5,8457137,Jack MacDougall,RW,N,,9,R,N,PIT,PIT,194.0
 10810,7009.0,70.0,19.0,Boston University,NCAA,1968-04-04,"Arlington, MA  USA",USA,,1987-06-13,26,1987,26,John,,Preston,,195,6,8457728,John Preston,C,N,,10,,N,LAK,LAK,
 10842,7023.0,84.0,19.0,Phillips Academy,Mass.,1968-03-21,"Quincy, MA  USA",USA,,1987-06-13,26,1987,8,Ed,72.0,Ronan,,227,17,8457849,Ed Ronan,RW,N,,11,R,N,MTL,MTL,197.0
-10854,6719.0,145.0,18.0,Northwood Prep,N.Y.,1969-01-19,"Chicago, IL  USA",USA,,1987-06-13,26,1987,16,Michael,70.0,Lappin,,239,8,8456979,Michael Lappin,C,N,,12,L,N,CHI,CHI,175.0
+10854,6719.0,145.0,18.0,Northwood Prep,N.Y.,1969-01-19,"Chicago, IL  USA",USA,,1987-06-13,26,1987,16,Michael,70.0,Lappin,,239,8,8456979,Mike Lappin,C,N,,12,L,N,CHI,CHI,175.0
 10935,6523.0,314.0,17.0,Thayer Academy,Mass.,1970-08-02,"Hingham, MA  USA",USA,,1988-06-11,28,1988,3,Tony,72.0,Amonte,,68,5,8455429,Tony Amonte,RW,N,,4,L,N,NYR,NYR,202.0
-10989,7002.0,62.0,19.0,Boston University,NCAA,1969-04-10,"Vancouver, BC  CAN",CAN,,1988-06-11,28,1988,23,Philip,73.0,Von Stefenelli,,122,17,8458327,Philip Von Stefenelli,D,N,,6,L,N,VAN,VAN,195.0
+10989,7002.0,62.0,19.0,Boston University,NCAA,1969-04-10,"Vancouver, BC  CAN",CAN,,1988-06-11,28,1988,23,Philip,73.0,Von Stefenelli,,122,17,8458327,Phil Von Stefenelli,D,N,,6,L,N,VAN,VAN,195.0
 11026,6556.0,347.0,17.0,Waltham H.S.,Mass.,1970-06-30,"Potsdam, NY  USA",USA,,1988-06-11,28,1988,1,Bryan,72.0,LaFort,,159,12,8456941,Bryan LaFort,G,N,,8,L,N,NJD,NJD,200.0
 11032,6953.0,13.0,19.0,Boston University,NCAA,1969-05-29,"Timmins, ON  CAN",CAN,,1988-06-11,28,1988,6,Mark,72.0,Krys,,165,18,8456904,Mark Krys,D,N,,8,R,N,BOS,BOS,185.0
 11062,6525.0,316.0,17.0,Medford H.S.,Mass.,1970-07-31,"Malden, MA  USA",USA,,1988-06-11,28,1988,10,David,73.0,Sacco,,195,6,8457905,David Sacco,LW,N,,10,R,N,TOR,TOR,190.0
@@ -54,35 +54,35 @@ id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate
 11218,6791.0,216.0,18.0,Catholic Memorial H.S.,Mass.,1970-11-13,"Dorchester, MA  USA",USA,,1989-06-17,30,1989,2,Kevin,72.0,O'Sullivan,,99,15,8457562,Kevin O'Sullivan,D,N,,5,L,N,NYI,NYI,180.0
 11231,7210.0,270.0,19.0,Kanata,COJHL,1969-09-20,"Ottawa, ON  CAN",CAN,,1989-06-17,30,1989,31,Scott,74.0,Cashman,,112,7,8455817,Scott Cashman,G,N,,6,L,N,MNS,MNS,186.0
 11241,6663.0,88.0,18.0,Catholic Memorial H.S.,Mass.,1971-03-21,"Brockton, MA  USA",USA,,1989-06-17,30,1989,6,Stephen,75.0,Foster,,122,17,8456292,Stephen Foster,LW,N,,6,R,N,BOS,BOS,210.0
-11273,6840.0,265.0,18.0,Pingree H.S.,Mass.,1970-09-25,"Danvers, MA  USA",USA,,1989-06-17,30,1989,31,Jonathan,73.0,Pratt,,154,7,8457721,Jonathan Pratt,LW,N,,8,L,N,MNS,MNS,195.0
+11273,6840.0,265.0,18.0,Pingree H.S.,Mass.,1970-09-25,"Danvers, MA  USA",USA,,1989-06-17,30,1989,31,Jonathan,73.0,Pratt,,154,7,8457721,Jon Pratt,LW,N,,8,L,N,MNS,MNS,195.0
 11300,7036.0,96.0,19.0,Cushing Academy,HIGH-MA,1970-03-13,"Roslindale, MA  USA",USA,,1989-06-17,30,1989,3,Mark,72.0,Bavis,,181,13,8455541,Mark Bavis,C,N,,9,L,N,NYR,NYR,175.0
-11364,7036.0,96.0,19.0,Cushing Academy,HIGH-MA,1970-03-13,"Roslindale, MA  USA",USA,,1989-06-17,30,1989,7,Michael,72.0,Bavis,,245,14,8455542,Michael Bavis,RW,N,,12,R,N,BUF,BUF,180.0
+11364,7036.0,96.0,19.0,Cushing Academy,HIGH-MA,1970-03-13,"Roslindale, MA  USA",USA,,1989-06-17,30,1989,7,Michael,72.0,Bavis,,245,14,8455542,Mike Bavis,RW,N,,12,R,N,BUF,BUF,180.0
 11390,6654.0,80.0,18.0,Malden Catholic H.S.,Mass.,1972-03-28,"Melrose, MA  USA",USA,,1990-06-16,32,1990,33,Keith,74.0,Tkachuk,,19,19,8458229,Keith Tkachuk,C,N,,1,L,N,WIN,WIN,235.0
 11409,6746.0,171.0,18.0,Boston University,NCAA,1971-12-27,"Chicoutimi, QC  CAN",CAN,,1990-06-16,32,1990,22,Alexandre,73.0,Legault,,38,17,8457039,Alexandre Legault,D,N,,2,R,N,EDM,EDM,205.0
 11511,6526.0,317.0,17.0,Cushing Academy,HIGH-MA,1972-08-03,"Wakefield, MA  USA",USA,,1990-06-16,32,1990,33,John,69.0,Lilley,,140,14,8457065,John Lilley,C,N,,7,R,N,WIN,WIN,170.0
 11523,6982.0,42.0,19.0,Boston University,NCAA,1971-05-05,"Helsinki, Finland",FIN,,1990-06-16,32,1990,5,Petteri,73.0,Koskimäki,,152,5,8456878,Petteri Koskimäki,C,N,,8,L,N,PIT,PIT,180.0
-11608,6719.0,144.0,18.0,Madison West H.S.,Wisconsin,1972-01-23,"Madison, WI  USA",USA,,1990-06-16,32,1990,31,John,72.0,McKersie,,239,8,8457315,John McKersie,G,N,,12,L,N,MNS,MNS,210.0
+11608,6719.0,144.0,18.0,Madison West H.S.,Wisconsin,1972-01-23,"Madison, WI  USA",USA,,1990-06-16,32,1990,31,John,72.0,McKersie,,239,8,8457315,J.P. McKersie,G,N,,12,L,N,MNS,MNS,210.0
 11610,6540.0,331.0,17.0,Governor's Academy,Mass.,1972-07-20,"Montreal, QC  CAN",CAN,,1990-06-16,32,1990,10,Nick,70.0,Vachon,,241,10,8458283,Nick Vachon,C,N,,12,L,N,TOR,TOR,190.0
 11625,6817.0,243.0,18.0,Boston University,NCAA,1972-10-22,"Charlottesville, VA  USA",USA,,1991-06-22,34,1991,2,Scott,73.0,Lachance,,4,4,8458518,Scott Lachance,D,N,,1,L,N,NYI,NYI,215.0
-11660,6494.0,285.0,17.0,Springfield Olympics,NEJHL,1973-09-10,"New Haven, CT  USA",USA,,1991-06-22,34,1991,16,Michael,73.0,Pomichter,,39,17,8458553,Michael Pomichter,C,N,,2,L,N,CHI,CHI,198.0
+11660,6494.0,285.0,17.0,Springfield Olympics,NEJHL,1973-09-10,"New Haven, CT  USA",USA,,1991-06-22,34,1991,16,Michael,73.0,Pomichter,,39,17,8458553,Mike Pomichter,C,N,,2,L,N,CHI,CHI,198.0
 11667,6782.0,208.0,18.0,Tabor Academy,Mass.,1972-11-26,"Schenectady, NY  USA",USA,2683.0,1991-06-22,34,1991,32,Rich,74.0,Brennan,,46,2,8458560,Rich Brennan,D,N,,3,R,N,QUE,QUE,212.0
 11805,7204.0,264.0,19.0,St. Paul Vulcans,USHL,1971-10-01,"Minneapolis, MN  USA",USA,,1991-06-22,34,1991,31,Derek,72.0,Herlofsky,,184,8,8458696,Derek Herlofsky,G,N,,9,L,N,MNS,MNS,160.0
 11843,7234.0,294.0,19.0,Boston University,NCAA,1971-09-01,"Cape Elizabeth, ME  USA",USA,,1991-06-22,34,1991,32,Doug,73.0,Friedman,,222,2,8458734,Doug Friedman,LW,N,,11,L,N,QUE,QUE,189.0
 11915,6611.0,36.0,18.0,Catholic Memorial H.S.,Mass.,1974-05-15,"Dorchester, MA  USA",USA,,1992-06-20,36,1992,20,Chris,74.0,O'Sullivan,,30,6,8458966,Chris O'Sullivan,D,N,,2,L,N,CGY,CGY,213.0
 12002,6927.0,353.0,18.0,Boston University,NCAA,1973-07-03,"Ottawa, ON  CAN",CAN,,1992-06-20,36,1992,23,Adrian,74.0,Aucoin,,117,21,8459053,Adrian Aucoin,D,N,,5,R,N,VAN,VAN,217.0
-12019,6714.0,140.0,18.0,Springfield Olympics,NEJHL,1974-02-01,"North Hampton, MA  USA",USA,,1992-06-20,36,1992,19,Robert,71.0,Lachance,,134,14,8459070,Robert Lachance,RW,N,,6,R,N,STL,STL,175.0
+12019,6714.0,140.0,18.0,Springfield Olympics,NEJHL,1974-02-01,"North Hampton, MA  USA",USA,,1992-06-20,36,1992,19,Robert,71.0,Lachance,,134,14,8459070,Bob Lachance,RW,N,,6,R,N,STL,STL,175.0
 12181,6756.0,181.0,18.0,Boston University,NCAA,1974-12-27,"Winchester, MA  USA",USA,,1993-06-26,38,1993,1,Jay,73.0,Pandolfo,,32,6,8459454,Jay Pandolfo,LW,N,,2,L,N,NJD,NJD,190.0
-12197,6684.0,109.0,18.0,Phillips Academy,Mass.,1975-03-09,"Boston, MA  USA",USA,,1993-06-26,38,1993,17,Jonathan,73.0,Coleman,,48,22,8459470,Jonathan Coleman,D,N,,2,R,N,DET,DET,190.0
-12224,6838.0,263.0,18.0,Lawrence H.S.,Mass.,1974-10-06,"Woburn, MA  USA",USA,,1993-06-26,38,1993,32,William,73.0,Pierce,,75,23,8459496,William Pierce,C,N,,3,L,N,QUE,QUE,190.0
+12197,6684.0,109.0,18.0,Phillips Academy,Mass.,1975-03-09,"Boston, MA  USA",USA,,1993-06-26,38,1993,17,Jonathan,73.0,Coleman,,48,22,8459470,Jon Coleman,D,N,,2,R,N,DET,DET,190.0
+12224,6838.0,263.0,18.0,Lawrence H.S.,Mass.,1974-10-06,"Woburn, MA  USA",USA,,1993-06-26,38,1993,32,William,73.0,Pierce,,75,23,8459496,Bill Pierce,C,N,,3,L,N,QUE,QUE,190.0
 12252,6659.0,84.0,18.0,Medford H.S.,Mass.,1975-04-03,"Medford, MA  USA",USA,28312.0,1993-06-26,38,1993,6,Shawn,72.0,Bates,,103,25,8459527,Shawn Bates,C,N,,4,R,N,BOS,BOS,210.0
 12279,6670.0,95.0,18.0,St. Sebastian's School,HIGH-MA,1975-03-23,"Cambridge, MA  USA",USA,12334.0,1993-06-26,38,1993,5,Chris,73.0,Kelleher,,130,26,8459553,Chris Kelleher,D,N,,5,L,N,PIT,PIT,215.0
 12368,6747.0,172.0,18.0,St. Sebastian's School,HIGH-MA,1975-01-05,"Detroit, MI  USA",USA,,1993-06-26,38,1993,19,Mike,73.0,Grier,,219,11,8459640,Mike Grier,RW,N,,9,R,N,STL,STL,224.0
 12433,6672.0,97.0,18.0,Catholic Memorial H.S.,Mass.,1975-03-21,"Quincy, MA  USA",USA,,1993-06-26,38,1993,16,Tom,70.0,Noble,,284,24,8459698,Tom Noble,G,N,,11,L,N,CHI,CHI,165.0
-12457,6654.0,80.0,18.0,Catholic Memorial H.S.,Mass.,1976-04-09,"Boston, MA  USA",USA,,1994-06-28,40,1994,32,Jeffrey,76.0,Kealty,,22,22,8460512,Jeffrey Kealty,D,N,,1,L,N,QUE,QUE,175.0
+12457,6654.0,80.0,18.0,Catholic Memorial H.S.,Mass.,1976-04-09,"Boston, MA  USA",USA,,1994-06-28,40,1994,32,Jeffrey,76.0,Kealty,,22,22,8460512,Jeff Kealty,D,N,,1,L,N,QUE,QUE,175.0
 12507,6522.0,313.0,17.0,Fairfield Prep.,Conn.,1976-08-20,"Trumbull, CT  USA",USA,,1994-06-29,40,1994,32,Chris,70.0,Drury,,72,20,8460562,Chris Drury,C,N,,3,R,N,QUE,QUE,191.0
-12551,6614.0,40.0,18.0,St. Sebastian's School,HIGH-MA,1976-05-20,"Cambridge, MA  USA",USA,,1994-06-29,40,1994,2,Albert,72.0,O'Connell,,116,12,8460604,Albert O'Connell,LW,N,,5,L,N,NYI,NYI,188.0
+12551,6614.0,40.0,18.0,St. Sebastian's School,HIGH-MA,1976-05-20,"Cambridge, MA  USA",USA,,1994-06-29,40,1994,2,Albert,72.0,O'Connell,,116,12,8460604,Albie O'Connell,LW,N,,5,L,N,NYI,NYI,188.0
 12904,8931.0,165.0,24.0,Boston University,NCAA,1971-01-24,"Helsinki, Finland",FIN,,1995-07-08,42,1995,9,Kaj,74.0,Linna,,183,1,8462214,Kaj Linna,D,N,,8,L,N,OTT,OTT,210.0
-12984,7005.0,65.0,19.0,Enfield Jr. Whalers,EJHL,1977-04-18,"Hyannis, MA  USA",USA,13324.0,1996-06-22,43,1996,2,Dan,74.0,Lacouture,,29,3,8464983,Dan Lacouture,LW,N,,2,L,N,NYI,NYI,215.0
+12984,7005.0,65.0,19.0,Enfield Jr. Whalers,EJHL,1977-04-18,"Hyannis, MA  USA",USA,13324.0,1996-06-22,43,1996,2,Dan,74.0,Lacouture,,29,3,8464983,Dan LaCouture,LW,N,,2,L,N,NYI,NYI,215.0
 13014,7032.0,92.0,19.0,Cushing Academy,HIGH-MA,1977-03-22,"Worcester, MA  USA",USA,,1996-06-22,43,1996,22,Tom,75.0,Poti,,59,7,8465012,Tom Poti,D,N,,3,L,N,EDM,EDM,197.0
 13092,7202.0,263.0,19.0,Boston University,NCAA,1976-10-03,"Lahr, Germany",DEU,,1996-06-22,43,1996,28,Michel,71.0,Larocque,,137,2,8465091,Michel Larocque,G,N,,6,L,N,SJS,SJS,198.0
 13390,7071.0,131.0,19.0,Phillips-Exeter Academy,N.H.,1978-02-10,"Windham, NH  USA",USA,,1997-06-21,44,1997,10,Russ,73.0,Bartlett,,194,4,8466319,Russ Bartlett,C,N,,8,L,N,TOR,TOR,182.0
@@ -93,7 +93,7 @@ id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate
 13642,7198.0,258.0,19.0,Boston University,NCAA,1978-10-12,"Boston, MA  USA",USA,,1998-06-27,45,1998,25,Scott,72.0,Perry,,200,27,8467508,Scott Perry,C,N,,7,L,N,DAL,DAL,180.0
 13738,7054.0,115.0,19.0,Boston University,NCAA,1980-03-03,"Springfield, MA  USA",USA,3828.0,1999-06-26,46,1999,20,Dan,73.0,Cavanaugh,,38,10,8467911,Dan Cavanaugh,C,N,,2,R,N,CGY,CGY,190.0
 13787,6860.0,286.0,18.0,St. John's H.S.,Mass.,1980-09-13,"Worcester, MA  USA",USA,4548.0,1999-06-26,46,1999,2,Brian,73.0,Collins,,87,21,8467960,Brian Collins,C,N,,3,L,N,NYI,NYI,190.0
-13790,6934.0,360.0,18.0,Boston University,NCAA,1980-07-01,"Winchester, MA  USA",USA,660.0,1999-06-26,46,1999,3,Patrick,74.0,Aufiero,,90,24,8467963,Patrick Aufiero,D,N,,3,R,N,NYR,NYR,186.0
+13790,6934.0,360.0,18.0,Boston University,NCAA,1980-07-01,"Winchester, MA  USA",USA,660.0,1999-06-26,46,1999,3,Patrick,74.0,Aufiero,,90,24,8467963,Pat Aufiero,D,N,,3,R,N,NYR,NYR,186.0
 13797,7185.0,245.0,19.0,Boston University,NCAA,1979-10-24,"Stoneham, MA  USA",USA,,1999-06-26,46,1999,8,Chris,74.0,Dyment,,97,1,8467970,Chris Dyment,D,N,,4,R,N,MTL,MTL,201.0
 13936,6995.0,56.0,19.0,Nobles Prep,Mass.,1980-05-01,"Duxbury, MA  USA",USA,5150.0,1999-06-26,46,1999,6,John,74.0,Cronin,,236,21,8468109,John Cronin,D,N,,8,R,N,BOS,BOS,200.0
 470,6853.0,279.0,18.0,Boston University,NCAA,1981-09-19,"Winthrop, MA  USA",USA,6226.0,2000-06-24,47,2000,2,Rick,73.0,DiPietro,,1,1,8468481,Rick DiPietro,G,N,,1,R,N,NYI,NYI,190.0
@@ -107,8 +107,8 @@ id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate
 828,6897.0,322.0,18.0,Jr. Monarchs,EJHL,1983-08-05,"Portland, ME  USA",USA,13430.0,2002-06-23,49,2002,23,John,73.0,Laliberte,,114,18,8470296,John Laliberte,RW,N,,4,L,N,VAN,VAN,185.0
 833,7391.0,86.0,20.0,Apple Core,EJHL,1982-03-29,"Riga, Latvia",LVA,45059.0,2002-06-23,49,2002,29,Jekabs,74.0,Redlihs,,119,23,8470161,Jekabs Redlihs,D,N,,4,L,N,CBJ (from NYI),CBJ,185.0
 914,6934.0,359.0,18.0,Boston University,H-EAST,1983-06-29,"Milwaukee, WI  USA",USA,15284.0,2002-06-23,49,2002,19,Justin,73.0,Maiser,,165,34,8470045,Justin Maiser,F,N,,5,L,N,STL (from BOS),STL,191.0
-667,7004.0,64.0,19.0,Chilliwack,BCHL,1983-04-20,"Abbotsford, BC  CAN",CAN,25046.0,2002-06-23,49,2002,20,David,70.0,Van Der Gulik,,206,9,8470189,David Van Der Gulik,RW,N,,7,L,N,CGY,CGY,173.0
-999,7110.0,170.0,19.0,St. Sebastian's School,USHSE,1984-01-02,"Boston, MA  USA",USA,20943.0,2003-06-21,50,2003,3,Ken,71.0,Roche,,75,7,8470668,Ken Roche,C,N,,3,L,N,NYR (from SJS),NYR,185.0
+667,7004.0,64.0,19.0,Chilliwack,BCHL,1983-04-20,"Abbotsford, BC  CAN",CAN,25046.0,2002-06-23,49,2002,20,David,70.0,Van Der Gulik,,206,9,8470189,David Van der Gulik,RW,N,,7,L,N,CGY,CGY,173.0
+999,7110.0,170.0,19.0,St. Sebastian's School,USHSE,1984-01-02,"Boston, MA  USA",USA,20943.0,2003-06-21,50,2003,3,Ken,71.0,Roche,,75,7,8470668,Kenny Roche,C,N,,3,L,N,NYR (from SJS),NYR,185.0
 1043,7184.0,244.0,19.0,Des Moines,USHL,1983-10-21,"St. Paul, MN  USA",USA,17490.0,2003-06-22,50,2003,7,Thomas,78.0,Morrow,,150,14,8470742,Thomas Morrow,D,N,,5,L,N,BUF (from LAK),BUF,198.0
 1202,7024.0,85.0,19.0,St. Sebastian's School,USHSE,1984-03-29,"Boston, MA  USA",USA,23799.0,2003-06-22,50,2003,27,Sean,72.0,Sullivan,,272,11,8470861,Sean Sullivan,D,N,,9,L,N,PHX,PHX,190.0
 1226,6723.0,149.0,18.0,Cushing Academy,USHSE,1986-01-29,"Boston, MA  USA",USA,2438.0,2004-06-26,51,2004,15,Chris,68.0,Bourque,,33,3,8471246,Chris Bourque,C,N,,2,L,N,WSH,WSH,178.0
@@ -134,21 +134,21 @@ id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate
 14485,7240.0,300.0,19.0,Boston University,H-EAST,1989-08-31,"Edmonton, AB  CAN",CAN,16901.0,2009-06-27,56,2009,21,Kieran,72.0,Millan,,124,4,8475272,Kieran Millan,G,N,,5,L,N,COL,COL,190.0
 14499,6915.0,340.0,18.0,South Kent School,HIGH-CT,1990-07-22,"Canton, NY  USA",USA,16649.0,2009-06-27,56,2009,13,Wade,73.0,Megan,,138,18,8475263,Wade Megan,C,N,,5,L,N,STL-LAK-FLA,FLA,185.0
 14600,6689.0,115.0,18.0,South Shore,EJHL,1992-03-02,"E. Weymouth, MA  USA",USA,5037.0,2010-06-25,57,2010,28,Charlie,74.0,Coyle,,28,28,8475745,Charlie Coyle,C/RW,N,,1,R,N,SJS,SJS,205.0
-14722,6681.0,107.0,18.0,Des Moines,USHL,1992-03-11,"Montreal, QC  CAN",CAN,4258.0,2010-06-26,57,2010,11,Yasin,75.0,Cisse,,150,30,8475858,Yasin Cisse,RW,N,,5,R,N,CHI-ATL,ATL,210.0
+14722,6681.0,107.0,18.0,Des Moines,USHL,1992-03-11,"Montreal, QC  CAN",CAN,4258.0,2010-06-26,57,2010,11,Yasin,75.0,Cisse,,150,30,8475858,Yasin Cissé,RW,N,,5,R,N,CHI-ATL,ATL,210.0
 14849,6816.0,242.0,18.0,Boston University,H-EAST,1992-10-26,"Niagara Falls, NY  USA",USA,4377.0,2011-06-25,58,2011,16,Adam,71.0,Clendening,,36,6,8476431,Adam Clendening,D,N,,2,R,N,WPG-CHI,CHI,187.0
 14860,6806.0,232.0,18.0,Boston University,H-EAST,1992-11-05,"Long Beach, CA  USA",USA,18102.0,2011-06-25,58,2011,28,Matt,71.0,Nieto,,47,17,8476442,Matt Nieto,LW,N,,2,L,N,MTL-FLA-SJS,SJS,177.0
 14925,7453.0,148.0,20.0,Boston University,H-EAST,1991-01-28,"Norfolk, MA  USA",USA,18192.0,2011-06-25,58,2011,18,Garrett,72.0,Noonan,,112,21,8476354,Garrett Noonan,D,N,,4,L,N,NSH,NSH,205.0
-15080,6651.0,76.0,18.0,St. John's Prep,HIGH-MA,1994-04-08,"Boston, MA  USA",USA,13206.0,2012-06-23,59,2012,19,Samuel,74.0,Kurker,,56,26,8476920,Samuel Kurker,RW,N,,2,R,N,STL,STL,201.0
+15080,6651.0,76.0,18.0,St. John's Prep,HIGH-MA,1994-04-08,"Boston, MA  USA",USA,13206.0,2012-06-23,59,2012,19,Samuel,74.0,Kurker,,56,26,8476920,Sam Kurker,RW,N,,2,R,N,STL,STL,201.0
 15109,6744.0,170.0,18.0,USA U-18,USHL,1994-01-05,"Charlestown, MA  USA",USA,9631.0,2012-06-23,59,2012,6,Matt,69.0,Grzelcyk,,85,24,8476891,Matt Grzelcyk,D,N,,3,L,N,BOS,BOS,171.0
 15137,7081.0,142.0,19.0,Powell River,BCHL,1993-02-02,"Edmonton, AB  CAN",CAN,53173.0,2012-06-23,59,2012,5,Sean,73.0,Maguire,,113,22,8476963,Sean Maguire,G,N,,4,L,N,PIT,PIT,203.0
 15149,6564.0,355.0,17.0,Kimball Union Academy,HIGH-NH,1994-07-04,"Marblehead, MA  USA",USA,23066.0,2012-06-23,59,2012,2,Doyle,76.0,Somerby,,125,4,8476951,Doyle Somerby,D,N,,5,L,N,NYI,NYI,232.0
-15160,6784.0,210.0,18.0,Indiana,USHL,1993-11-26,"Springfield, MA  USA",USA,799.0,2012-06-23,59,2012,9,Robert,71.0,Baillargeon,,136,15,8476940,Robert Baillargeon,C,N,,5,R,N,OTT,OTT,164.0
+15160,6784.0,210.0,18.0,Indiana,USHL,1993-11-26,"Springfield, MA  USA",USA,799.0,2012-06-23,59,2012,9,Robert,71.0,Baillargeon,,136,15,8476940,Robbie Baillargeon,C,N,,5,R,N,OTT,OTT,164.0
 15162,6719.0,145.0,18.0,St. Sebastian's School,HIGH-MA,1994-01-30,"Berlin, Germany",DEU,18398.0,2012-06-23,59,2012,28,Danny,69.0,O'Regan,,138,17,8476982,Danny O'Regan,C,N,,5,R,N,SJS,SJS,169.0
 15201,7251.0,312.0,19.0,Victoria,BCHL,1992-08-16,"Victoria, BC  CAN",CAN,53337.0,2012-06-23,59,2012,23,Wesley,73.0,Myron,,177,26,8476990,Wesley Myron,LW,N,,6,L,N,VAN,VAN,182.0
 15213,6833.0,259.0,18.0,Malden Catholic H.S.,HIGH-MA,1993-10-08,"Charlestown, MA  USA",USA,4537.0,2012-06-23,59,2012,12,Brendan,69.0,Collier,,189,8,8477049,Brendan Collier,LW,N,,7,L,N,CAR,CAR,168.0
-15503,6600.0,26.0,18.0,USA U-18,USHL,1996-06-02,"Lowell, MA  USA",USA,53806.0,2014-06-28,61,2014,14,Johnathan,73.0,MacLeod,,57,27,8477988,Johnathan MacLeod,D,N,,2,R,N,MTL-NYI-TBL,TBL,200.0
+15503,6600.0,26.0,18.0,USA U-18,USHL,1996-06-02,"Lowell, MA  USA",USA,53806.0,2014-06-28,61,2014,14,Johnathan,73.0,MacLeod,,57,27,8477988,John MacLeod,D,N,,2,R,N,MTL-NYI-TBL,TBL,200.0
 15510,6650.0,76.0,18.0,Spruce Grove,AJHL,1996-04-13,"Edmonton, AB  CAN",CAN,10658.0,2014-06-28,61,2014,20,Brandon,73.0,Hickey,,64,4,8477995,Brandon Hickey,D,N,,3,L,N,CGY,CGY,177.0
-15549,6590.0,16.0,18.0,Youngstown,USHL,1996-06-12,"Englewood, NJ  USA",USA,54884.0,2014-06-28,61,2014,10,John,71.0,Piccinich,,103,13,8478033,John Piccinich,RW,N,,4,R,N,ARI-TOR,TOR,190.0
+15549,6590.0,16.0,18.0,Youngstown,USHL,1996-06-12,"Englewood, NJ  USA",USA,54884.0,2014-06-28,61,2014,10,John,71.0,Piccinich,,103,13,8478033,J.J. Piccinich,RW,N,,4,R,N,ARI-TOR,TOR,190.0
 15567,7075.0,135.0,19.0,Williston-North Hampton,HIGH-MA,1995-02-13,"Barnstable, MA  USA",USA,61946.0,2014-06-28,61,2014,7,Max,71.0,Willman,,121,1,8478051,Max Willman,C,N,,5,L,N,BUF,BUF,181.0
 15658,6815.0,241.0,18.0,Boston University,H-EAST,1996-10-28,"North Chelmsford, MA  USA",USA,54588.0,2015-06-26,62,2015,7,Jack,74.0,Eichel,,2,2,8478403,Jack Eichel,C,N,,1,R,N,BUF,BUF,196.0
 15695,6769.0,195.0,18.0,Boston University,H-EAST,1996-12-14,"Joliette, QC  CAN",CAN,55563.0,2015-06-27,62,2015,21,A.J.,75.0,Greer,,39,9,8478421,A.J. Greer,LW,N,,2,L,N,SJS-COL,COL,204.0
@@ -163,7 +163,7 @@ id,ageInDays,ageInDaysForYear,ageInYears,amateurClubName,amateurLeague,birthDate
 17322,6762.0,187.0,18.0,Boston University,H-EAST,1998-12-18,"Lakeville, MN  USA",USA,63373.0,2017-06-23,64,2017,25,Jake,76.0,Oettinger,,26,26,8479979,Jake Oettinger,G,N,,1,L,N,CHI-DAL,DAL,218.0
 17324,6538.0,328.0,17.0,Waterloo,USHL,1999-07-30,"Halifax, NS  CAN",CAN,68665.0,2017-06-23,64,2017,9,Shane,73.0,Bowers,,28,28,8480032,Shane Bowers,C,N,,1,L,N,OTT,OTT,178.0
 17367,6795.0,220.0,18.0,Sioux Falls,USHL,1998-11-16,"Helsinki, Finland",FIN,65108.0,2017-06-24,64,2017,17,Kasper,74.0,Kotkansalo,,71,9,8480000,Kasper Kotkansalo,D,N,,3,L,N,FLA-DET,DET,196.0
-17378,6625.0,50.0,18.0,Brockville,CCHL,1999-05-05,"Ottawa, ON  CAN",CAN,68193.0,2017-06-24,64,2017,53,Cameron,74.0,Crotty,,82,20,8480075,Cameron Crotty,D,N,,3,R,N,STL-EDM-ARI,ARI,186.0
+17378,6625.0,50.0,18.0,Brockville,CCHL,1999-05-05,"Ottawa, ON  CAN",CAN,68193.0,2017-06-24,64,2017,53,Cameron,74.0,Crotty,,82,20,8480075,Cam Crotty,D,N,,3,R,N,STL-EDM-ARI,ARI,186.0
 17388,6576.0,1.0,18.0,USA U-18,NTDP,1999-06-23,"Rochester, NY  USA",USA,66799.0,2017-06-24,64,2017,18,David,71.0,Farrance,,92,30,8480063,David Farrance,D,N,,3,L,N,NSH,NSH,195.0
 17497,6688.0,113.0,18.0,USA U-18,NTDP,1999-03-03,"Detroit, MI  USA",USA,67998.0,2017-06-24,64,2017,2,Logan,68.0,Cockerill,,201,15,8480268,Logan Cockerill,LW,N,,7,L,N,NYI,NYI,165.0
 17517,6854.0,279.0,18.0,Boston University,H-EAST,1999-09-16,"Scottsdale, AZ  USA",USA,67970.0,2018-06-22,65,2018,9,Brady,75.0,Tkachuk,,4,4,8480801,Brady Tkachuk,LW,N,,1,L,N,OTT,OTT,192.0

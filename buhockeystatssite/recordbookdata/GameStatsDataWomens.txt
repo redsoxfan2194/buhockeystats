@@ -11610,7 +11610,7 @@
 02/26/2022,Connecticut,Clare O'Leary,F,SO,0,0,0,2021-22
 02/26/2022,Connecticut,Julia Shaunessy,D,SO,0,0,0,2021-22
 02/26/2022,Connecticut,Lacey Martin,F,SO,0,0,0,2021-22
-10/07/2022,Rensselaer,Ani Fitzgerald,F,JR,0,0,0,2022-23
+10/07/2022,Rensselaer,Ani FitzGerald,F,JR,0,0,0,2022-23
 10/07/2022,Rensselaer,Brooke Disher,D,FR,0,0,0,2022-23
 10/07/2022,Rensselaer,Maeve Kelly,D,FR,0,0,0,2022-23
 10/07/2022,Rensselaer,Clara Yuhn,F,FR,2,0,2,2022-23
@@ -11640,7 +11640,7 @@
 10/08/2022,Union,Brooke Ersoy,F,SR,0,0,0,2022-23
 10/08/2022,Union,Alex Allan,D,GR,0,0,0,2022-23
 10/08/2022,Union,Andi Calderone,D,JR,0,0,0,2022-23
-10/08/2022,Union,Ani Fitzgerald,F,JR,0,0,0,2022-23
+10/08/2022,Union,Ani FitzGerald,F,JR,0,0,0,2022-23
 10/08/2022,Union,Jesse DeVito,F,GR,0,0,0,2022-23
 10/08/2022,Union,Liv Haag,F,SO,0,0,0,2022-23
 10/08/2022,Union,Kylie Roberts,F,SO,0,0,0,2022-23
@@ -11661,7 +11661,7 @@
 10/14/2022,New Hampshire,Brooke Ersoy,F,SR,0,0,0,2022-23
 10/14/2022,New Hampshire,Alex Allan,D,GR,0,0,0,2022-23
 10/14/2022,New Hampshire,Andi Calderone,D,JR,0,0,0,2022-23
-10/14/2022,New Hampshire,Ani Fitzgerald,F,JR,0,0,0,2022-23
+10/14/2022,New Hampshire,Ani FitzGerald,F,JR,0,0,0,2022-23
 10/14/2022,New Hampshire,Andrea Brändli,G,GR,0,0,0,2022-23
 10/14/2022,New Hampshire,Jesse DeVito,F,GR,0,2,2,2022-23
 10/14/2022,New Hampshire,Kylie Roberts,F,SO,0,1,1,2022-23
@@ -11694,7 +11694,7 @@
 10/21/2022,Boston College,Liv Haag,F,SO,0,0,0,2022-23
 10/21/2022,Boston College,Jesse DeVito,F,GR,0,0,0,2022-23
 10/21/2022,Boston College,Andrea Brändli,G,GR,0,0,0,2022-23
-10/21/2022,Boston College,Ani Fitzgerald,F,JR,0,0,0,2022-23
+10/21/2022,Boston College,Ani FitzGerald,F,JR,0,0,0,2022-23
 10/21/2022,Boston College,Andi Calderone,D,JR,0,0,0,2022-23
 10/21/2022,Boston College,Brooke Ersoy,F,SR,0,0,0,2022-23
 10/21/2022,Boston College,Haylee Blinkhorn,F,SR,0,0,0,2022-23
@@ -11716,7 +11716,7 @@
 10/22/2022,Boston College,Callie Shanahan,G,SO,0,0,0,2022-23
 10/22/2022,Boston College,Christina Vote,F,SO,0,1,1,2022-23
 10/22/2022,Boston College,Jesse DeVito,F,GR,0,0,0,2022-23
-10/22/2022,Boston College,Ani Fitzgerald,F,JR,0,0,0,2022-23
+10/22/2022,Boston College,Ani FitzGerald,F,JR,0,0,0,2022-23
 10/22/2022,Boston College,Andi Calderone,D,JR,0,1,1,2022-23
 10/22/2022,Boston College,Alex Allan,D,GR,0,1,1,2022-23
 10/22/2022,Boston College,Brooke Ersoy,F,SR,0,1,1,2022-23
@@ -11777,7 +11777,7 @@
 11/04/2022,Providence,Kylie Roberts,F,SO,0,1,1,2022-23
 11/04/2022,Providence,Jesse DeVito,F,GR,0,0,0,2022-23
 11/04/2022,Providence,Andrea Brändli,G,GR,0,0,0,2022-23
-11/04/2022,Providence,Ani Fitzgerald,F,JR,0,0,0,2022-23
+11/04/2022,Providence,Ani FitzGerald,F,JR,0,0,0,2022-23
 11/04/2022,Providence,Andi Calderone,D,JR,0,0,0,2022-23
 11/04/2022,Providence,Alex Allan,D,GR,0,0,0,2022-23
 11/04/2022,Providence,Brooke Ersoy,F,SR,0,0,0,2022-23
@@ -11800,7 +11800,7 @@
 11/05/2022,Providence,Haylee Blinkhorn,F,SR,0,0,0,2022-23
 11/05/2022,Providence,Alex Allan,D,GR,0,0,0,2022-23
 11/05/2022,Providence,Andi Calderone,D,JR,0,1,1,2022-23
-11/05/2022,Providence,Ani Fitzgerald,F,JR,0,0,0,2022-23
+11/05/2022,Providence,Ani FitzGerald,F,JR,0,0,0,2022-23
 11/05/2022,Providence,Andrea Brändli,G,GR,0,0,0,2022-23
 11/05/2022,Providence,Jesse DeVito,F,GR,0,1,1,2022-23
 11/05/2022,Providence,Kylie Roberts,F,SO,0,0,0,2022-23
@@ -11817,7 +11817,7 @@
 11/11/2022,Vermont,Kylie Roberts,F,SO,0,0,0,2022-23
 11/11/2022,Vermont,Jesse DeVito,F,GR,0,0,0,2022-23
 11/11/2022,Vermont,Andrea Brändli,G,GR,0,0,0,2022-23
-11/11/2022,Vermont,Ani Fitzgerald,F,JR,0,0,0,2022-23
+11/11/2022,Vermont,Ani FitzGerald,F,JR,0,0,0,2022-23
 11/11/2022,Vermont,Andi Calderone,D,JR,0,0,0,2022-23
 11/11/2022,Vermont,Alex Allan,D,GR,0,0,0,2022-23
 11/11/2022,Vermont,Brooke Ersoy,F,SR,0,0,0,2022-23
@@ -11859,7 +11859,7 @@
 11/18/2022,Connecticut,Haylee Blinkhorn,F,SR,0,0,0,2022-23
 11/18/2022,Connecticut,Alex Allan,D,GR,0,0,0,2022-23
 11/18/2022,Connecticut,Andi Calderone,D,JR,0,0,0,2022-23
-11/18/2022,Connecticut,Ani Fitzgerald,F,JR,0,0,0,2022-23
+11/18/2022,Connecticut,Ani FitzGerald,F,JR,0,0,0,2022-23
 11/18/2022,Connecticut,Andrea Brändli,G,GR,0,0,0,2022-23
 11/18/2022,Connecticut,Jesse DeVito,F,GR,0,0,0,2022-23
 11/18/2022,Connecticut,Liv Haag,F,SO,0,0,0,2022-23
@@ -11877,7 +11877,7 @@
 11/19/2022,Connecticut,Christina Vote,F,SO,0,1,1,2022-23
 11/19/2022,Connecticut,Liv Haag,F,SO,0,0,0,2022-23
 11/19/2022,Connecticut,Jesse DeVito,F,GR,0,0,0,2022-23
-11/19/2022,Connecticut,Ani Fitzgerald,F,JR,0,0,0,2022-23
+11/19/2022,Connecticut,Ani FitzGerald,F,JR,0,0,0,2022-23
 11/19/2022,Connecticut,Andi Calderone,D,JR,0,1,1,2022-23
 11/19/2022,Connecticut,Alex Allan,D,GR,0,1,1,2022-23
 11/19/2022,Connecticut,Brooke Ersoy,F,SR,0,0,0,2022-23
@@ -11917,7 +11917,7 @@
 11/26/2022,Penn State,Maggie Hanzel,D,SO,0,0,0,2022-23
 11/26/2022,Penn State,Liv Haag,F,SO,0,0,0,2022-23
 11/26/2022,Penn State,Jesse DeVito,F,GR,0,0,0,2022-23
-11/26/2022,Penn State,Ani Fitzgerald,F,JR,0,0,0,2022-23
+11/26/2022,Penn State,Ani FitzGerald,F,JR,0,0,0,2022-23
 11/26/2022,Penn State,Andi Calderone,D,JR,0,0,0,2022-23
 11/26/2022,Penn State,Alex Allan,D,GR,0,0,0,2022-23
 11/26/2022,Penn State,Brooke Ersoy,F,SR,0,0,0,2022-23
@@ -11938,7 +11938,7 @@
 12/02/2022,Maine,Liv Haag,F,SO,0,0,0,2022-23
 12/02/2022,Maine,Jesse DeVito,F,GR,0,0,0,2022-23
 12/02/2022,Maine,Andrea Brändli,G,GR,0,0,0,2022-23
-12/02/2022,Maine,Ani Fitzgerald,F,JR,0,0,0,2022-23
+12/02/2022,Maine,Ani FitzGerald,F,JR,0,0,0,2022-23
 12/02/2022,Maine,Andi Calderone,D,JR,0,0,0,2022-23
 12/02/2022,Maine,Alex Allan,D,GR,0,0,0,2022-23
 12/02/2022,Maine,Haylee Blinkhorn,F,SR,0,0,0,2022-23
@@ -11958,7 +11958,7 @@
 12/03/2022,Maine,Maggie Hanzel,D,SO,0,0,0,2022-23
 12/03/2022,Maine,Kylie Roberts,F,SO,0,0,0,2022-23
 12/03/2022,Maine,Jesse DeVito,F,GR,0,0,0,2022-23
-12/03/2022,Maine,Ani Fitzgerald,F,JR,0,0,0,2022-23
+12/03/2022,Maine,Ani FitzGerald,F,JR,0,0,0,2022-23
 12/03/2022,Maine,Andi Calderone,D,JR,0,0,0,2022-23
 12/03/2022,Maine,Alex Allan,D,GR,0,0,0,2022-23
 12/03/2022,Maine,Brooke Ersoy,F,SR,0,0,0,2022-23
@@ -11979,7 +11979,7 @@
 12/09/2022,Holy Cross,Brooke Ersoy,F,SR,0,0,0,2022-23
 12/09/2022,Holy Cross,Alex Allan,D,GR,0,0,0,2022-23
 12/09/2022,Holy Cross,Andi Calderone,D,JR,0,1,1,2022-23
-12/09/2022,Holy Cross,Ani Fitzgerald,F,JR,0,0,0,2022-23
+12/09/2022,Holy Cross,Ani FitzGerald,F,JR,0,0,0,2022-23
 12/09/2022,Holy Cross,Jesse DeVito,F,GR,0,0,0,2022-23
 12/09/2022,Holy Cross,Kylie Roberts,F,SO,0,0,0,2022-23
 12/09/2022,Holy Cross,Maggie Hanzel,D,SO,0,0,0,2022-23
@@ -12005,7 +12005,7 @@
 01/06/2023,Holy Cross,Christina Vote,F,SO,0,0,0,2022-23
 01/06/2023,Holy Cross,Tamara Giaquinto,D,JR,0,0,0,2022-23
 01/06/2023,Holy Cross,Maeve Kelly,D,FR,0,0,0,2022-23
-01/06/2023,Holy Cross,Ani Fitzgerald,F,JR,0,0,0,2022-23
+01/06/2023,Holy Cross,Ani FitzGerald,F,JR,0,0,0,2022-23
 01/06/2023,Holy Cross,Brooke Disher,D,FR,0,0,0,2022-23
 01/06/2023,Holy Cross,Catherine Foulem,F,JR,0,0,0,2022-23
 01/06/2023,Holy Cross,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12025,7 +12025,7 @@
 01/08/2023,Northeastern,Christina Vote,F,SO,0,0,0,2022-23
 01/08/2023,Northeastern,Tamara Giaquinto,D,JR,0,0,0,2022-23
 01/08/2023,Northeastern,Maeve Kelly,D,FR,0,0,0,2022-23
-01/08/2023,Northeastern,Ani Fitzgerald,F,JR,0,0,0,2022-23
+01/08/2023,Northeastern,Ani FitzGerald,F,JR,0,0,0,2022-23
 01/08/2023,Northeastern,Brooke Disher,D,FR,0,0,0,2022-23
 01/08/2023,Northeastern,Catherine Foulem,F,JR,0,0,0,2022-23
 01/08/2023,Northeastern,Callie Shanahan,G,SO,0,0,0,2022-23
@@ -12046,7 +12046,7 @@
 01/13/2023,Holy Cross,Christina Vote,F,SO,0,0,0,2022-23
 01/13/2023,Holy Cross,Tamara Giaquinto,D,JR,0,0,0,2022-23
 01/13/2023,Holy Cross,Maeve Kelly,D,FR,0,0,0,2022-23
-01/13/2023,Holy Cross,Ani Fitzgerald,F,JR,0,0,0,2022-23
+01/13/2023,Holy Cross,Ani FitzGerald,F,JR,0,0,0,2022-23
 01/13/2023,Holy Cross,Brooke Disher,D,FR,0,0,0,2022-23
 01/13/2023,Holy Cross,Catherine Foulem,F,JR,0,0,0,2022-23
 01/13/2023,Holy Cross,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12066,7 +12066,7 @@
 01/17/2023,Providence,Christina Vote,F,SO,0,2,2,2022-23
 01/17/2023,Providence,Tamara Giaquinto,D,JR,0,0,0,2022-23
 01/17/2023,Providence,Maeve Kelly,D,FR,0,0,0,2022-23
-01/17/2023,Providence,Ani Fitzgerald,F,JR,0,0,0,2022-23
+01/17/2023,Providence,Ani FitzGerald,F,JR,0,0,0,2022-23
 01/17/2023,Providence,Brooke Disher,D,FR,0,0,0,2022-23
 01/17/2023,Providence,Catherine Foulem,F,JR,0,0,0,2022-23
 01/17/2023,Providence,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12086,7 +12086,7 @@
 01/20/2023,Maine,Christina Vote,F,SO,1,0,1,2022-23
 01/20/2023,Maine,Tamara Giaquinto,D,JR,0,0,0,2022-23
 01/20/2023,Maine,Maeve Kelly,D,FR,0,0,0,2022-23
-01/20/2023,Maine,Ani Fitzgerald,F,JR,0,0,0,2022-23
+01/20/2023,Maine,Ani FitzGerald,F,JR,0,0,0,2022-23
 01/20/2023,Maine,Brooke Disher,D,FR,0,1,1,2022-23
 01/20/2023,Maine,Catherine Foulem,F,JR,0,0,0,2022-23
 01/20/2023,Maine,Callie Shanahan,G,SO,0,0,0,2022-23
@@ -12106,7 +12106,7 @@
 01/21/2023,New Hampshire,Christina Vote,F,SO,0,0,0,2022-23
 01/21/2023,New Hampshire,Tamara Giaquinto,D,JR,0,0,0,2022-23
 01/21/2023,New Hampshire,Maeve Kelly,D,FR,0,0,0,2022-23
-01/21/2023,New Hampshire,Ani Fitzgerald,F,JR,0,0,0,2022-23
+01/21/2023,New Hampshire,Ani FitzGerald,F,JR,0,0,0,2022-23
 01/21/2023,New Hampshire,Brooke Disher,D,FR,1,1,2,2022-23
 01/21/2023,New Hampshire,Catherine Foulem,F,JR,0,0,0,2022-23
 01/21/2023,New Hampshire,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12126,7 +12126,7 @@
 01/27/2023,Merrimack,Christina Vote,F,SO,0,2,2,2022-23
 01/27/2023,Merrimack,Tamara Giaquinto,D,JR,0,0,0,2022-23
 01/27/2023,Merrimack,Maeve Kelly,D,FR,0,0,0,2022-23
-01/27/2023,Merrimack,Ani Fitzgerald,F,JR,0,0,0,2022-23
+01/27/2023,Merrimack,Ani FitzGerald,F,JR,0,0,0,2022-23
 01/27/2023,Merrimack,Brooke Disher,D,FR,0,2,2,2022-23
 01/27/2023,Merrimack,Catherine Foulem,F,JR,0,2,2,2022-23
 01/27/2023,Merrimack,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12146,7 +12146,7 @@
 01/28/2023,Vermont,Christina Vote,F,SO,0,1,1,2022-23
 01/28/2023,Vermont,Tamara Giaquinto,D,JR,0,0,0,2022-23
 01/28/2023,Vermont,Maeve Kelly,D,FR,0,0,0,2022-23
-01/28/2023,Vermont,Ani Fitzgerald,F,JR,0,0,0,2022-23
+01/28/2023,Vermont,Ani FitzGerald,F,JR,0,0,0,2022-23
 01/28/2023,Vermont,Brooke Disher,D,FR,0,1,1,2022-23
 01/28/2023,Vermont,Catherine Foulem,F,JR,1,0,1,2022-23
 01/28/2023,Vermont,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12166,7 +12166,7 @@
 02/03/2023,Connecticut,Christina Vote,F,SO,0,2,2,2022-23
 02/03/2023,Connecticut,Tamara Giaquinto,D,JR,0,0,0,2022-23
 02/03/2023,Connecticut,Maeve Kelly,D,FR,0,0,0,2022-23
-02/03/2023,Connecticut,Ani Fitzgerald,F,JR,0,0,0,2022-23
+02/03/2023,Connecticut,Ani FitzGerald,F,JR,0,0,0,2022-23
 02/03/2023,Connecticut,Brooke Disher,D,FR,1,1,2,2022-23
 02/03/2023,Connecticut,Catherine Foulem,F,JR,1,1,2,2022-23
 02/03/2023,Connecticut,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12186,7 +12186,7 @@
 02/07/2023,Northeastern,Christina Vote,F,SO,0,0,0,2022-23
 02/07/2023,Northeastern,Tamara Giaquinto,D,JR,0,0,0,2022-23
 02/07/2023,Northeastern,Maeve Kelly,D,FR,0,0,0,2022-23
-02/07/2023,Northeastern,Ani Fitzgerald,F,JR,0,0,0,2022-23
+02/07/2023,Northeastern,Ani FitzGerald,F,JR,0,0,0,2022-23
 02/07/2023,Northeastern,Brooke Disher,D,FR,1,0,1,2022-23
 02/07/2023,Northeastern,Catherine Foulem,F,JR,0,0,0,2022-23
 02/07/2023,Northeastern,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12206,7 +12206,7 @@
 02/11/2023,Boston College,Christina Vote,F,SO,0,0,0,2022-23
 02/11/2023,Boston College,Tamara Giaquinto,D,JR,0,0,0,2022-23
 02/11/2023,Boston College,Maeve Kelly,D,FR,0,0,0,2022-23
-02/11/2023,Boston College,Ani Fitzgerald,F,JR,0,0,0,2022-23
+02/11/2023,Boston College,Ani FitzGerald,F,JR,0,0,0,2022-23
 02/11/2023,Boston College,Brooke Disher,D,FR,0,0,0,2022-23
 02/11/2023,Boston College,Catherine Foulem,F,JR,0,0,0,2022-23
 02/11/2023,Boston College,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12226,7 +12226,7 @@
 02/14/2023,Harvard,Christina Vote,F,SO,2,1,3,2022-23
 02/14/2023,Harvard,Tamara Giaquinto,D,JR,0,1,1,2022-23
 02/14/2023,Harvard,Maeve Kelly,D,FR,0,1,1,2022-23
-02/14/2023,Harvard,Ani Fitzgerald,F,JR,0,0,0,2022-23
+02/14/2023,Harvard,Ani FitzGerald,F,JR,0,0,0,2022-23
 02/14/2023,Harvard,Brooke Disher,D,FR,1,0,1,2022-23
 02/14/2023,Harvard,Catherine Foulem,F,JR,0,3,3,2022-23
 02/14/2023,Harvard,Callie Shanahan,G,SO,0,0,0,2022-23
@@ -12246,7 +12246,7 @@
 02/17/2023,Northeastern,Christina Vote,F,SO,0,0,0,2022-23
 02/17/2023,Northeastern,Tamara Giaquinto,D,JR,0,0,0,2022-23
 02/17/2023,Northeastern,Maeve Kelly,D,FR,0,0,0,2022-23
-02/17/2023,Northeastern,Ani Fitzgerald,F,JR,0,0,0,2022-23
+02/17/2023,Northeastern,Ani FitzGerald,F,JR,0,0,0,2022-23
 02/17/2023,Northeastern,Brooke Disher,D,FR,0,1,1,2022-23
 02/17/2023,Northeastern,Catherine Foulem,F,JR,0,0,0,2022-23
 02/17/2023,Northeastern,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12266,7 +12266,7 @@
 02/18/2023,Northeastern,Christina Vote,F,SO,0,0,0,2022-23
 02/18/2023,Northeastern,Tamara Giaquinto,D,JR,0,0,0,2022-23
 02/18/2023,Northeastern,Maeve Kelly,D,FR,0,0,0,2022-23
-02/18/2023,Northeastern,Ani Fitzgerald,F,JR,0,0,0,2022-23
+02/18/2023,Northeastern,Ani FitzGerald,F,JR,0,0,0,2022-23
 02/18/2023,Northeastern,Brooke Disher,D,FR,0,0,0,2022-23
 02/18/2023,Northeastern,Catherine Foulem,F,JR,0,0,0,2022-23
 02/18/2023,Northeastern,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12286,7 +12286,7 @@
 02/22/2023,Merrimack,Christina Vote,F,SO,0,0,0,2022-23
 02/22/2023,Merrimack,Tamara Giaquinto,D,JR,0,0,0,2022-23
 02/22/2023,Merrimack,Maeve Kelly,D,FR,0,0,0,2022-23
-02/22/2023,Merrimack,Ani Fitzgerald,F,JR,0,0,0,2022-23
+02/22/2023,Merrimack,Ani FitzGerald,F,JR,0,0,0,2022-23
 02/22/2023,Merrimack,Brooke Disher,D,FR,1,0,1,2022-23
 02/22/2023,Merrimack,Catherine Foulem,F,JR,0,0,0,2022-23
 02/22/2023,Merrimack,Andrea Brändli,G,GR,0,0,0,2022-23
@@ -12305,7 +12305,7 @@
 10/06/2023,Northeastern,Christina Vote,F,JR,0,0,0,2023-24
 10/06/2023,Northeastern,Tamara Giaquinto,D,SR,0,0,0,2023-24
 10/06/2023,Northeastern,Maeve Kelly,D,SO,0,0,0,2023-24
-10/06/2023,Northeastern,Ani Fitzgerald,F,SR,0,0,0,2023-24
+10/06/2023,Northeastern,Ani FitzGerald,F,SR,0,0,0,2023-24
 10/06/2023,Northeastern,Lilli Welcke,F,SO,0,0,0,2023-24
 10/06/2023,Northeastern,Brooke Disher,D,SO,0,0,0,2023-24
 10/06/2023,Northeastern,Catherine Foulem,F,SR,1,0,1,2023-24
@@ -12326,7 +12326,7 @@
 10/07/2023,Northeastern,Christina Vote,F,JR,0,0,0,2023-24
 10/07/2023,Northeastern,Tamara Giaquinto,D,SR,0,0,0,2023-24
 10/07/2023,Northeastern,Maeve Kelly,D,SO,0,0,0,2023-24
-10/07/2023,Northeastern,Ani Fitzgerald,F,SR,0,0,0,2023-24
+10/07/2023,Northeastern,Ani FitzGerald,F,SR,0,0,0,2023-24
 10/07/2023,Northeastern,Lilli Welcke,F,SO,0,0,0,2023-24
 10/07/2023,Northeastern,Brooke Disher,D,SO,0,0,0,2023-24
 10/07/2023,Northeastern,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12408,7 +12408,7 @@
 11/03/2023,Merrimack,Christina Vote,F,JR,0,1,1,2023-24
 11/03/2023,Merrimack,Tamara Giaquinto,D,SR,0,0,0,2023-24
 11/03/2023,Merrimack,Maeve Kelly,D,SO,0,0,0,2023-24
-11/03/2023,Merrimack,Ani Fitzgerald,F,SR,0,0,0,2023-24
+11/03/2023,Merrimack,Ani FitzGerald,F,SR,0,0,0,2023-24
 11/03/2023,Merrimack,Lilli Welcke,F,SO,0,0,0,2023-24
 11/03/2023,Merrimack,Brooke Disher,D,SO,0,0,0,2023-24
 11/03/2023,Merrimack,Catherine Foulem,F,SR,1,0,1,2023-24
@@ -12428,7 +12428,7 @@
 11/04/2023,Merrimack,Christina Vote,F,JR,0,2,2,2023-24
 11/04/2023,Merrimack,Tamara Giaquinto,D,SR,1,0,1,2023-24
 11/04/2023,Merrimack,Maeve Kelly,D,SO,0,0,0,2023-24
-11/04/2023,Merrimack,Ani Fitzgerald,F,SR,0,0,0,2023-24
+11/04/2023,Merrimack,Ani FitzGerald,F,SR,0,0,0,2023-24
 11/04/2023,Merrimack,Lilli Welcke,F,SO,0,0,0,2023-24
 11/04/2023,Merrimack,Brooke Disher,D,SO,0,0,0,2023-24
 11/04/2023,Merrimack,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12570,7 +12570,7 @@
 11/26/2023,Minnesota St.,Christina Vote,F,JR,1,0,1,2023-24
 11/26/2023,Minnesota St.,Tamara Giaquinto,D,SR,0,0,0,2023-24
 11/26/2023,Minnesota St.,Maeve Kelly,D,SO,0,0,0,2023-24
-11/26/2023,Minnesota St.,Ani Fitzgerald,F,SR,0,0,0,2023-24
+11/26/2023,Minnesota St.,Ani FitzGerald,F,SR,0,0,0,2023-24
 11/26/2023,Minnesota St.,Lilli Welcke,F,SO,0,0,0,2023-24
 11/26/2023,Minnesota St.,Brooke Disher,D,SO,1,0,1,2023-24
 11/26/2023,Minnesota St.,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12612,7 +12612,7 @@
 12/02/2023,Providence,Christina Vote,F,JR,0,1,1,2023-24
 12/02/2023,Providence,Tamara Giaquinto,D,SR,1,0,1,2023-24
 12/02/2023,Providence,Maeve Kelly,D,SO,0,0,0,2023-24
-12/02/2023,Providence,Ani Fitzgerald,F,SR,0,1,1,2023-24
+12/02/2023,Providence,Ani FitzGerald,F,SR,0,1,1,2023-24
 12/02/2023,Providence,Lilli Welcke,F,SO,0,0,0,2023-24
 12/02/2023,Providence,Brooke Disher,D,SO,1,0,1,2023-24
 12/02/2023,Providence,Catherine Foulem,F,SR,0,1,1,2023-24
@@ -12631,7 +12631,7 @@
 12/08/2023,Holy Cross,Christina Vote,F,JR,0,0,0,2023-24
 12/08/2023,Holy Cross,Tamara Giaquinto,D,SR,0,1,1,2023-24
 12/08/2023,Holy Cross,Maeve Kelly,D,SO,0,0,0,2023-24
-12/08/2023,Holy Cross,Ani Fitzgerald,F,SR,1,0,1,2023-24
+12/08/2023,Holy Cross,Ani FitzGerald,F,SR,1,0,1,2023-24
 12/08/2023,Holy Cross,Lilli Welcke,F,SO,0,0,0,2023-24
 12/08/2023,Holy Cross,Brooke Disher,D,SO,0,1,1,2023-24
 12/08/2023,Holy Cross,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12652,7 +12652,7 @@
 12/09/2023,Providence,Christina Vote,F,JR,0,1,1,2023-24
 12/09/2023,Providence,Tamara Giaquinto,D,SR,0,0,0,2023-24
 12/09/2023,Providence,Maeve Kelly,D,SO,0,1,1,2023-24
-12/09/2023,Providence,Ani Fitzgerald,F,SR,0,0,0,2023-24
+12/09/2023,Providence,Ani FitzGerald,F,SR,0,0,0,2023-24
 12/09/2023,Providence,Lilli Welcke,F,SO,0,1,1,2023-24
 12/09/2023,Providence,Brooke Disher,D,SO,0,0,0,2023-24
 12/09/2023,Providence,Catherine Foulem,F,SR,1,1,2,2023-24
@@ -12671,7 +12671,7 @@
 01/08/2024,Maine,Christina Vote,F,JR,0,0,0,2023-24
 01/08/2024,Maine,Tamara Giaquinto,D,SR,0,0,0,2023-24
 01/08/2024,Maine,Maeve Kelly,D,SO,0,1,1,2023-24
-01/08/2024,Maine,Ani Fitzgerald,F,SR,0,0,0,2023-24
+01/08/2024,Maine,Ani FitzGerald,F,SR,0,0,0,2023-24
 01/08/2024,Maine,Lilli Welcke,F,SO,0,1,1,2023-24
 01/08/2024,Maine,Brooke Disher,D,SO,0,1,1,2023-24
 01/08/2024,Maine,Catherine Foulem,F,SR,0,1,1,2023-24
@@ -12691,7 +12691,7 @@
 01/12/2024,New Hampshire,Christina Vote,F,JR,0,0,0,2023-24
 01/12/2024,New Hampshire,Tamara Giaquinto,D,SR,0,0,0,2023-24
 01/12/2024,New Hampshire,Maeve Kelly,D,SO,0,0,0,2023-24
-01/12/2024,New Hampshire,Ani Fitzgerald,F,SR,0,0,0,2023-24
+01/12/2024,New Hampshire,Ani FitzGerald,F,SR,0,0,0,2023-24
 01/12/2024,New Hampshire,Lilli Welcke,F,SO,0,0,0,2023-24
 01/12/2024,New Hampshire,Brooke Disher,D,SO,0,1,1,2023-24
 01/12/2024,New Hampshire,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12712,7 +12712,7 @@
 01/13/2024,Connecticut,Christina Vote,F,JR,0,0,0,2023-24
 01/13/2024,Connecticut,Tamara Giaquinto,D,SR,0,2,2,2023-24
 01/13/2024,Connecticut,Maeve Kelly,D,SO,0,0,0,2023-24
-01/13/2024,Connecticut,Ani Fitzgerald,F,SR,0,0,0,2023-24
+01/13/2024,Connecticut,Ani FitzGerald,F,SR,0,0,0,2023-24
 01/13/2024,Connecticut,Lilli Welcke,F,SO,1,1,2,2023-24
 01/13/2024,Connecticut,Brooke Disher,D,SO,0,0,0,2023-24
 01/13/2024,Connecticut,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12731,7 +12731,7 @@
 01/16/2024,Boston College,Christina Vote,F,JR,0,0,0,2023-24
 01/16/2024,Boston College,Tamara Giaquinto,D,SR,0,0,0,2023-24
 01/16/2024,Boston College,Maeve Kelly,D,SO,0,0,0,2023-24
-01/16/2024,Boston College,Ani Fitzgerald,F,SR,0,1,1,2023-24
+01/16/2024,Boston College,Ani FitzGerald,F,SR,0,1,1,2023-24
 01/16/2024,Boston College,Lilli Welcke,F,SO,0,1,1,2023-24
 01/16/2024,Boston College,Brooke Disher,D,SO,0,0,0,2023-24
 01/16/2024,Boston College,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12751,7 +12751,7 @@
 01/19/2024,Vermont,Christina Vote,F,JR,0,0,0,2023-24
 01/19/2024,Vermont,Tamara Giaquinto,D,SR,0,1,1,2023-24
 01/19/2024,Vermont,Maeve Kelly,D,SO,0,1,1,2023-24
-01/19/2024,Vermont,Ani Fitzgerald,F,SR,1,0,1,2023-24
+01/19/2024,Vermont,Ani FitzGerald,F,SR,1,0,1,2023-24
 01/19/2024,Vermont,Lilli Welcke,F,SO,0,0,0,2023-24
 01/19/2024,Vermont,Brooke Disher,D,SO,0,2,2,2023-24
 01/19/2024,Vermont,Catherine Foulem,F,SR,1,0,1,2023-24
@@ -12771,7 +12771,7 @@
 01/20/2024,Vermont,Christina Vote,F,JR,0,1,1,2023-24
 01/20/2024,Vermont,Tamara Giaquinto,D,SR,0,2,2,2023-24
 01/20/2024,Vermont,Maeve Kelly,D,SO,0,0,0,2023-24
-01/20/2024,Vermont,Ani Fitzgerald,F,SR,1,0,1,2023-24
+01/20/2024,Vermont,Ani FitzGerald,F,SR,1,0,1,2023-24
 01/20/2024,Vermont,Lilli Welcke,F,SO,0,0,0,2023-24
 01/20/2024,Vermont,Brooke Disher,D,SO,0,1,1,2023-24
 01/20/2024,Vermont,Catherine Foulem,F,SR,1,0,1,2023-24
@@ -12790,7 +12790,7 @@
 01/23/2024,Northeastern,Christina Vote,F,JR,0,0,0,2023-24
 01/23/2024,Northeastern,Tamara Giaquinto,D,SR,0,0,0,2023-24
 01/23/2024,Northeastern,Maeve Kelly,D,SO,0,0,0,2023-24
-01/23/2024,Northeastern,Ani Fitzgerald,F,SR,0,0,0,2023-24
+01/23/2024,Northeastern,Ani FitzGerald,F,SR,0,0,0,2023-24
 01/23/2024,Northeastern,Lilli Welcke,F,SO,0,0,0,2023-24
 01/23/2024,Northeastern,Brooke Disher,D,SO,0,0,0,2023-24
 01/23/2024,Northeastern,Catherine Foulem,F,SR,1,0,1,2023-24
@@ -12810,7 +12810,7 @@
 01/26/2024,Holy Cross,Christina Vote,F,JR,0,0,0,2023-24
 01/26/2024,Holy Cross,Tamara Giaquinto,D,SR,0,0,0,2023-24
 01/26/2024,Holy Cross,Maeve Kelly,D,SO,0,0,0,2023-24
-01/26/2024,Holy Cross,Ani Fitzgerald,F,SR,1,0,1,2023-24
+01/26/2024,Holy Cross,Ani FitzGerald,F,SR,1,0,1,2023-24
 01/26/2024,Holy Cross,Lilli Welcke,F,SO,0,0,0,2023-24
 01/26/2024,Holy Cross,Brooke Disher,D,SO,0,0,0,2023-24
 01/26/2024,Holy Cross,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12830,7 +12830,7 @@
 01/27/2024,Holy Cross,Christina Vote,F,JR,0,0,0,2023-24
 01/27/2024,Holy Cross,Tamara Giaquinto,D,SR,0,0,0,2023-24
 01/27/2024,Holy Cross,Maeve Kelly,D,SO,0,1,1,2023-24
-01/27/2024,Holy Cross,Ani Fitzgerald,F,SR,0,0,0,2023-24
+01/27/2024,Holy Cross,Ani FitzGerald,F,SR,0,0,0,2023-24
 01/27/2024,Holy Cross,Lilli Welcke,F,SO,0,0,0,2023-24
 01/27/2024,Holy Cross,Brooke Disher,D,SO,0,0,0,2023-24
 01/27/2024,Holy Cross,Catherine Foulem,F,SR,0,1,1,2023-24
@@ -12850,7 +12850,7 @@
 02/02/2024,Boston College,Christina Vote,F,JR,0,0,0,2023-24
 02/02/2024,Boston College,Tamara Giaquinto,D,SR,0,0,0,2023-24
 02/02/2024,Boston College,Maeve Kelly,D,SO,0,0,0,2023-24
-02/02/2024,Boston College,Ani Fitzgerald,F,SR,0,0,0,2023-24
+02/02/2024,Boston College,Ani FitzGerald,F,SR,0,0,0,2023-24
 02/02/2024,Boston College,Lilli Welcke,F,SO,0,0,0,2023-24
 02/02/2024,Boston College,Brooke Disher,D,SO,0,0,0,2023-24
 02/02/2024,Boston College,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12870,7 +12870,7 @@
 02/03/2024,Boston College,Christina Vote,F,JR,1,0,1,2023-24
 02/03/2024,Boston College,Tamara Giaquinto,D,SR,0,0,0,2023-24
 02/03/2024,Boston College,Maeve Kelly,D,SO,0,0,0,2023-24
-02/03/2024,Boston College,Ani Fitzgerald,F,SR,0,0,0,2023-24
+02/03/2024,Boston College,Ani FitzGerald,F,SR,0,0,0,2023-24
 02/03/2024,Boston College,Lilli Welcke,F,SO,0,0,0,2023-24
 02/03/2024,Boston College,Brooke Disher,D,SO,0,0,0,2023-24
 02/03/2024,Boston College,Catherine Foulem,F,SR,0,1,1,2023-24
@@ -12889,7 +12889,7 @@
 02/09/2024,Maine,Christina Vote,F,JR,0,0,0,2023-24
 02/09/2024,Maine,Tamara Giaquinto,D,SR,0,0,0,2023-24
 02/09/2024,Maine,Maeve Kelly,D,SO,0,0,0,2023-24
-02/09/2024,Maine,Ani Fitzgerald,F,SR,0,0,0,2023-24
+02/09/2024,Maine,Ani FitzGerald,F,SR,0,0,0,2023-24
 02/09/2024,Maine,Lilli Welcke,F,SO,0,0,0,2023-24
 02/09/2024,Maine,Brooke Disher,D,SO,0,1,1,2023-24
 02/09/2024,Maine,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12909,7 +12909,7 @@
 02/16/2024,Vermont,Christina Vote,F,JR,0,0,0,2023-24
 02/16/2024,Vermont,Tamara Giaquinto,D,SR,0,0,0,2023-24
 02/16/2024,Vermont,Maeve Kelly,D,SO,0,1,1,2023-24
-02/16/2024,Vermont,Ani Fitzgerald,F,SR,1,1,2,2023-24
+02/16/2024,Vermont,Ani FitzGerald,F,SR,1,1,2,2023-24
 02/16/2024,Vermont,Lilli Welcke,F,SO,0,0,0,2023-24
 02/16/2024,Vermont,Brooke Disher,D,SO,0,0,0,2023-24
 02/16/2024,Vermont,Catherine Foulem,F,SR,1,1,2,2023-24
@@ -12929,7 +12929,7 @@
 02/17/2024,Merrimack,Christina Vote,F,JR,0,0,0,2023-24
 02/17/2024,Merrimack,Tamara Giaquinto,D,SR,2,0,2,2023-24
 02/17/2024,Merrimack,Maeve Kelly,D,SO,0,0,0,2023-24
-02/17/2024,Merrimack,Ani Fitzgerald,F,SR,0,0,0,2023-24
+02/17/2024,Merrimack,Ani FitzGerald,F,SR,0,0,0,2023-24
 02/17/2024,Merrimack,Lilli Welcke,F,SO,0,1,1,2023-24
 02/17/2024,Merrimack,Brooke Disher,D,SO,0,0,0,2023-24
 02/17/2024,Merrimack,Catherine Foulem,F,SR,0,2,2,2023-24
@@ -12949,7 +12949,7 @@
 02/23/2024,Connecticut,Christina Vote,F,JR,0,0,0,2023-24
 02/23/2024,Connecticut,Tamara Giaquinto,D,SR,0,0,0,2023-24
 02/23/2024,Connecticut,Maeve Kelly,D,SO,0,0,0,2023-24
-02/23/2024,Connecticut,Ani Fitzgerald,F,SR,0,0,0,2023-24
+02/23/2024,Connecticut,Ani FitzGerald,F,SR,0,0,0,2023-24
 02/23/2024,Connecticut,Lilli Welcke,F,SO,0,0,0,2023-24
 02/23/2024,Connecticut,Brooke Disher,D,SO,0,0,0,2023-24
 02/23/2024,Connecticut,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12969,7 +12969,7 @@
 02/24/2024,Connecticut,Christina Vote,F,JR,0,0,0,2023-24
 02/24/2024,Connecticut,Tamara Giaquinto,D,SR,0,0,0,2023-24
 02/24/2024,Connecticut,Maeve Kelly,D,SO,0,0,0,2023-24
-02/24/2024,Connecticut,Ani Fitzgerald,F,SR,0,0,0,2023-24
+02/24/2024,Connecticut,Ani FitzGerald,F,SR,0,0,0,2023-24
 02/24/2024,Connecticut,Lilli Welcke,F,SO,0,0,0,2023-24
 02/24/2024,Connecticut,Brooke Disher,D,SO,0,0,0,2023-24
 02/24/2024,Connecticut,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -12989,7 +12989,7 @@
 02/28/2024,Holy Cross,Christina Vote,F,JR,0,0,0,2023-24
 02/28/2024,Holy Cross,Tamara Giaquinto,D,SR,1,1,2,2023-24
 02/28/2024,Holy Cross,Maeve Kelly,D,SO,0,0,0,2023-24
-02/28/2024,Holy Cross,Ani Fitzgerald,F,SR,0,1,1,2023-24
+02/28/2024,Holy Cross,Ani FitzGerald,F,SR,0,1,1,2023-24
 02/28/2024,Holy Cross,Lilli Welcke,F,SO,0,1,1,2023-24
 02/28/2024,Holy Cross,Brooke Disher,D,SO,0,0,0,2023-24
 02/28/2024,Holy Cross,Catherine Foulem,F,SR,0,0,0,2023-24
@@ -13009,7 +13009,7 @@
 10/01/24,Merrimack,Christina Vote,F,SR,0,2,2,2024-25
 10/01/24,Merrimack,Tamara Giaquinto,D,GR,2,1,3,2024-25
 10/01/24,Merrimack,Maeve Kelly,D,JR,0,1,1,2024-25
-10/01/24,Merrimack,Ani Fitzgerald,F,SR,1,0,1,2024-25
+10/01/24,Merrimack,Ani FitzGerald,F,SR,1,0,1,2024-25
 10/01/24,Merrimack,Lilli Welcke,F,JR,0,2,2,2024-25
 10/01/24,Merrimack,Keira Healey,D,FR,0,1,1,2024-25
 10/01/24,Merrimack,Kaileigh Quigg,F,FR,1,0,1,2024-25
@@ -13029,7 +13029,7 @@
 10/04/2024,Minnesota,Christina Vote,F,SR,0,0,0,2024-25
 10/04/2024,Minnesota,Tamara Giaquinto,D,GR,0,0,0,2024-25
 10/04/2024,Minnesota,Maeve Kelly,D,JR,0,0,0,2024-25
-10/04/2024,Minnesota,Ani Fitzgerald,F,SR,0,0,0,2024-25
+10/04/2024,Minnesota,Ani FitzGerald,F,SR,0,0,0,2024-25
 10/04/2024,Minnesota,Lilli Welcke,F,JR,0,0,0,2024-25
 10/04/2024,Minnesota,Keira Healey,D,FR,0,0,0,2024-25
 10/04/2024,Minnesota,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13051,7 +13051,7 @@
 10/06/2024,Minnesota,Christina Vote,F,SR,0,0,0,2024-25
 10/06/2024,Minnesota,Tamara Giaquinto,D,GR,0,0,0,2024-25
 10/06/2024,Minnesota,Maeve Kelly,D,JR,0,0,0,2024-25
-10/06/2024,Minnesota,Ani Fitzgerald,F,SR,0,0,0,2024-25
+10/06/2024,Minnesota,Ani FitzGerald,F,SR,0,0,0,2024-25
 10/06/2024,Minnesota,Lilli Welcke,F,JR,1,0,1,2024-25
 10/06/2024,Minnesota,Keira Healey,D,FR,0,0,0,2024-25
 10/06/2024,Minnesota,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13071,7 +13071,7 @@
 10/11/2024,Northeastern,Christina Vote,F,SR,0,0,0,2024-25
 10/11/2024,Northeastern,Tamara Giaquinto,D,GR,0,0,0,2024-25
 10/11/2024,Northeastern,Maeve Kelly,D,JR,0,0,0,2024-25
-10/11/2024,Northeastern,Ani Fitzgerald,F,SR,0,0,0,2024-25
+10/11/2024,Northeastern,Ani FitzGerald,F,SR,0,0,0,2024-25
 10/11/2024,Northeastern,Lilli Welcke,F,JR,0,0,0,2024-25
 10/11/2024,Northeastern,Keira Healey,D,FR,0,0,0,2024-25
 10/11/2024,Northeastern,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13092,7 +13092,7 @@
 10/12/2024,Northeastern,Christina Vote,F,SR,0,0,0,2024-25
 10/12/2024,Northeastern,Tamara Giaquinto,D,GR,0,1,1,2024-25
 10/12/2024,Northeastern,Maeve Kelly,D,JR,0,1,1,2024-25
-10/12/2024,Northeastern,Ani Fitzgerald,F,SR,0,0,0,2024-25
+10/12/2024,Northeastern,Ani FitzGerald,F,SR,0,0,0,2024-25
 10/12/2024,Northeastern,Lilli Welcke,F,JR,0,0,0,2024-25
 10/12/2024,Northeastern,Keira Healey,D,FR,0,0,0,2024-25
 10/12/2024,Northeastern,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13112,7 +13112,7 @@
 10/18/2024,Maine,Christina Vote,F,SR,0,0,0,2024-25
 10/18/2024,Maine,Tamara Giaquinto,D,GR,0,0,0,2024-25
 10/18/2024,Maine,Maeve Kelly,D,JR,0,0,0,2024-25
-10/18/2024,Maine,Ani Fitzgerald,F,SR,0,0,0,2024-25
+10/18/2024,Maine,Ani FitzGerald,F,SR,0,0,0,2024-25
 10/18/2024,Maine,Lilli Welcke,F,JR,1,0,1,2024-25
 10/18/2024,Maine,Keira Healey,D,FR,0,0,0,2024-25
 10/18/2024,Maine,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13132,7 +13132,7 @@
 10/19/2024,Maine,Christina Vote,F,SR,0,0,0,2024-25
 10/19/2024,Maine,Tamara Giaquinto,D,GR,1,0,1,2024-25
 10/19/2024,Maine,Maeve Kelly,D,JR,0,0,0,2024-25
-10/19/2024,Maine,Ani Fitzgerald,F,SR,0,0,0,2024-25
+10/19/2024,Maine,Ani FitzGerald,F,SR,0,0,0,2024-25
 10/19/2024,Maine,Lilli Welcke,F,JR,0,0,0,2024-25
 10/19/2024,Maine,Keira Healey,D,FR,0,0,0,2024-25
 10/19/2024,Maine,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13152,7 +13152,7 @@
 10/25/2024,Syracuse,Christina Vote,F,SR,0,2,2,2024-25
 10/25/2024,Syracuse,Tamara Giaquinto,D,GR,0,0,0,2024-25
 10/25/2024,Syracuse,Maeve Kelly,D,JR,1,0,1,2024-25
-10/25/2024,Syracuse,Ani Fitzgerald,F,SR,0,1,1,2024-25
+10/25/2024,Syracuse,Ani FitzGerald,F,SR,0,1,1,2024-25
 10/25/2024,Syracuse,Lilli Welcke,F,JR,0,0,0,2024-25
 10/25/2024,Syracuse,Keira Healey,D,FR,0,0,0,2024-25
 10/25/2024,Syracuse,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13172,7 +13172,7 @@
 10/26/2024,Syracuse,Christina Vote,F,SR,0,1,1,2024-25
 10/26/2024,Syracuse,Tamara Giaquinto,D,GR,0,1,1,2024-25
 10/26/2024,Syracuse,Maeve Kelly,D,JR,0,1,1,2024-25
-10/26/2024,Syracuse,Ani Fitzgerald,F,SR,0,1,1,2024-25
+10/26/2024,Syracuse,Ani FitzGerald,F,SR,0,1,1,2024-25
 10/26/2024,Syracuse,Lilli Welcke,F,JR,0,0,0,2024-25
 10/26/2024,Syracuse,Keira Healey,D,FR,0,1,1,2024-25
 10/26/2024,Syracuse,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13192,7 +13192,7 @@
 11/01/2024,Providence,Christina Vote,F,SR,0,2,2,2024-25
 11/01/2024,Providence,Tamara Giaquinto,D,GR,0,0,0,2024-25
 11/01/2024,Providence,Maeve Kelly,D,JR,0,0,0,2024-25
-11/01/2024,Providence,Ani Fitzgerald,F,SR,1,2,3,2024-25
+11/01/2024,Providence,Ani FitzGerald,F,SR,1,2,3,2024-25
 11/01/2024,Providence,Lilli Welcke,F,JR,0,0,0,2024-25
 11/01/2024,Providence,Keira Healey,D,FR,0,0,0,2024-25
 11/01/2024,Providence,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13212,7 +13212,7 @@
 11/02/2024,Providence,Christina Vote,F,SR,0,1,1,2024-25
 11/02/2024,Providence,Tamara Giaquinto,D,GR,0,0,0,2024-25
 11/02/2024,Providence,Maeve Kelly,D,JR,0,0,0,2024-25
-11/02/2024,Providence,Ani Fitzgerald,F,SR,0,0,0,2024-25
+11/02/2024,Providence,Ani FitzGerald,F,SR,0,0,0,2024-25
 11/02/2024,Providence,Lilli Welcke,F,JR,0,2,2,2024-25
 11/02/2024,Providence,Keira Healey,D,FR,0,0,0,2024-25
 11/02/2024,Providence,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13232,7 +13232,7 @@
 11/07/2024,Merrimack,Christina Vote,F,SR,0,3,3,2024-25
 11/07/2024,Merrimack,Tamara Giaquinto,D,GR,0,0,0,2024-25
 11/07/2024,Merrimack,Maeve Kelly,D,JR,0,0,0,2024-25
-11/07/2024,Merrimack,Ani Fitzgerald,F,SR,0,0,0,2024-25
+11/07/2024,Merrimack,Ani FitzGerald,F,SR,0,0,0,2024-25
 11/07/2024,Merrimack,Lilli Welcke,F,JR,0,0,0,2024-25
 11/07/2024,Merrimack,Keira Healey,D,FR,0,0,0,2024-25
 11/07/2024,Merrimack,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13252,7 +13252,7 @@
 11/08/2024,Merrimack,Christina Vote,F,SR,0,1,1,2024-25
 11/08/2024,Merrimack,Tamara Giaquinto,D,GR,0,0,0,2024-25
 11/08/2024,Merrimack,Maeve Kelly,D,JR,0,0,0,2024-25
-11/08/2024,Merrimack,Ani Fitzgerald,F,SR,0,0,0,2024-25
+11/08/2024,Merrimack,Ani FitzGerald,F,SR,0,0,0,2024-25
 11/08/2024,Merrimack,Lilli Welcke,F,JR,0,0,0,2024-25
 11/08/2024,Merrimack,Keira Healey,D,FR,0,0,0,2024-25
 11/08/2024,Merrimack,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13271,7 +13271,7 @@
 11/15/2024,Boston College,Christina Vote,F,SR,0,0,0,2024-25
 11/15/2024,Boston College,Tamara Giaquinto,D,GR,0,0,0,2024-25
 11/15/2024,Boston College,Maeve Kelly,D,JR,0,0,0,2024-25
-11/15/2024,Boston College,Ani Fitzgerald,F,SR,0,0,0,2024-25
+11/15/2024,Boston College,Ani FitzGerald,F,SR,0,0,0,2024-25
 11/15/2024,Boston College,Lilli Welcke,F,JR,0,0,0,2024-25
 11/15/2024,Boston College,Keira Healey,D,FR,0,0,0,2024-25
 11/15/2024,Boston College,Kaileigh Quigg,F,FR,0,1,1,2024-25
@@ -13291,7 +13291,7 @@
 11/16/2024,Boston College,Christina Vote,F,SR,0,0,0,2024-25
 11/16/2024,Boston College,Tamara Giaquinto,D,GR,0,0,0,2024-25
 11/16/2024,Boston College,Maeve Kelly,D,JR,0,0,0,2024-25
-11/16/2024,Boston College,Ani Fitzgerald,F,SR,1,0,1,2024-25
+11/16/2024,Boston College,Ani FitzGerald,F,SR,1,0,1,2024-25
 11/16/2024,Boston College,Lilli Welcke,F,JR,0,1,1,2024-25
 11/16/2024,Boston College,Keira Healey,D,FR,0,0,0,2024-25
 11/16/2024,Boston College,Kaileigh Quigg,F,FR,0,1,1,2024-25
@@ -13311,7 +13311,7 @@
 11/27/2024,Princeton,Christina Vote,F,SR,0,0,0,2024-25
 11/27/2024,Princeton,Tamara Giaquinto,D,GR,0,0,0,2024-25
 11/27/2024,Princeton,Maeve Kelly,D,JR,0,0,0,2024-25
-11/27/2024,Princeton,Ani Fitzgerald,F,SR,0,1,1,2024-25
+11/27/2024,Princeton,Ani FitzGerald,F,SR,0,1,1,2024-25
 11/27/2024,Princeton,Lilli Welcke,F,JR,0,0,0,2024-25
 11/27/2024,Princeton,Keira Healey,D,FR,0,0,0,2024-25
 11/27/2024,Princeton,Kaileigh Quigg,F,FR,1,0,1,2024-25
@@ -13331,7 +13331,7 @@
 12/06/2024,Maine,Christina Vote,F,SR,0,0,0,2024-25
 12/06/2024,Maine,Tamara Giaquinto,D,GR,1,0,1,2024-25
 12/06/2024,Maine,Maeve Kelly,D,JR,0,0,0,2024-25
-12/06/2024,Maine,Ani Fitzgerald,F,SR,0,0,0,2024-25
+12/06/2024,Maine,Ani FitzGerald,F,SR,0,0,0,2024-25
 12/06/2024,Maine,Lilli Welcke,F,JR,0,0,0,2024-25
 12/06/2024,Maine,Keira Healey,D,FR,0,1,1,2024-25
 12/06/2024,Maine,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13351,7 +13351,7 @@
 01/03/2025,Holy Cross,Christina Vote,F,SR,1,0,1,2024-25
 01/03/2025,Holy Cross,Tamara Giaquinto,D,GR,1,1,2,2024-25
 01/03/2025,Holy Cross,Maeve Kelly,D,JR,0,0,0,2024-25
-01/03/2025,Holy Cross,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/03/2025,Holy Cross,Ani FitzGerald,F,SR,0,0,0,2024-25
 01/03/2025,Holy Cross,Lilli Welcke,F,JR,0,0,0,2024-25
 01/03/2025,Holy Cross,Keira Healey,D,FR,0,0,0,2024-25
 01/03/2025,Holy Cross,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13372,7 +13372,7 @@
 01/10/2025,Vermont,Christina Vote,F,SR,0,0,0,2024-25
 01/10/2025,Vermont,Tamara Giaquinto,D,GR,0,1,1,2024-25
 01/10/2025,Vermont,Maeve Kelly,D,JR,0,1,1,2024-25
-01/10/2025,Vermont,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/10/2025,Vermont,Ani FitzGerald,F,SR,0,0,0,2024-25
 01/10/2025,Vermont,Lilli Welcke,F,JR,1,1,2,2024-25
 01/10/2025,Vermont,Keira Healey,D,FR,0,0,0,2024-25
 01/10/2025,Vermont,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13392,7 +13392,7 @@
 01/11/2025,Vermont,Christina Vote,F,SR,0,0,0,2024-25
 01/11/2025,Vermont,Tamara Giaquinto,D,GR,0,1,1,2024-25
 01/11/2025,Vermont,Maeve Kelly,D,JR,0,0,0,2024-25
-01/11/2025,Vermont,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/11/2025,Vermont,Ani FitzGerald,F,SR,0,0,0,2024-25
 01/11/2025,Vermont,Lilli Welcke,F,JR,0,1,1,2024-25
 01/11/2025,Vermont,Keira Healey,D,FR,0,1,1,2024-25
 01/11/2025,Vermont,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13413,7 +13413,7 @@
 01/14/2025,Harvard,Christina Vote,F,SR,0,0,0,2024-25
 01/14/2025,Harvard,Tamara Giaquinto,D,GR,0,0,0,2024-25
 01/14/2025,Harvard,Maeve Kelly,D,JR,0,0,0,2024-25
-01/14/2025,Harvard,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/14/2025,Harvard,Ani FitzGerald,F,SR,0,0,0,2024-25
 01/14/2025,Harvard,Lilli Welcke,F,JR,0,0,0,2024-25
 01/14/2025,Harvard,Keira Healey,D,FR,0,0,0,2024-25
 01/14/2025,Harvard,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13433,7 +13433,7 @@
 01/18/2025,New Hampshire,Christina Vote,F,SR,0,0,0,2024-25
 01/18/2025,New Hampshire,Tamara Giaquinto,D,GR,0,0,0,2024-25
 01/18/2025,New Hampshire,Maeve Kelly,D,JR,0,0,0,2024-25
-01/18/2025,New Hampshire,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/18/2025,New Hampshire,Ani FitzGerald,F,SR,0,0,0,2024-25
 01/18/2025,New Hampshire,Lilli Welcke,F,JR,0,0,0,2024-25
 01/18/2025,New Hampshire,Keira Healey,D,FR,0,0,0,2024-25
 01/18/2025,New Hampshire,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13453,7 +13453,7 @@
 01/21/2025,Northeastern,Christina Vote,F,SR,0,0,0,2024-25
 01/21/2025,Northeastern,Tamara Giaquinto,D,GR,0,0,0,2024-25
 01/21/2025,Northeastern,Maeve Kelly,D,JR,0,0,0,2024-25
-01/21/2025,Northeastern,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/21/2025,Northeastern,Ani FitzGerald,F,SR,0,0,0,2024-25
 01/21/2025,Northeastern,Lilli Welcke,F,JR,0,0,0,2024-25
 01/21/2025,Northeastern,Keira Healey,D,FR,0,0,0,2024-25
 01/21/2025,Northeastern,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13473,7 +13473,7 @@
 01/24/2025,Holy Cross,Riley Walsh,F,JR,0,0,0,2024-25
 01/24/2025,Holy Cross,Tamara Giaquinto,D,GR,0,1,1,2024-25
 01/24/2025,Holy Cross,Maeve Kelly,D,JR,0,0,0,2024-25
-01/24/2025,Holy Cross,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/24/2025,Holy Cross,Ani FitzGerald,F,SR,0,0,0,2024-25
 01/24/2025,Holy Cross,Keira Healey,D,FR,0,1,1,2024-25
 01/24/2025,Holy Cross,Kaileigh Quigg,F,FR,0,0,0,2024-25
 01/24/2025,Holy Cross,Mari Pietersen,G,SO,0,0,0,2024-25
@@ -13492,7 +13492,7 @@
 01/25/2025,Holy Cross,Christina Vote,F,SR,0,1,1,2024-25
 01/25/2025,Holy Cross,Tamara Giaquinto,D,GR,1,1,2,2024-25
 01/25/2025,Holy Cross,Maeve Kelly,D,JR,0,0,0,2024-25
-01/25/2025,Holy Cross,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/25/2025,Holy Cross,Ani FitzGerald,F,SR,0,0,0,2024-25
 01/25/2025,Holy Cross,Lilli Welcke,F,JR,0,0,0,2024-25
 01/25/2025,Holy Cross,Keira Healey,D,FR,0,1,1,2024-25
 01/25/2025,Holy Cross,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13512,7 +13512,7 @@
 01/31/2025,Boston College,Christina Vote,F,SR,0,0,0,2024-25
 01/31/2025,Boston College,Tamara Giaquinto,D,GR,0,1,1,2024-25
 01/31/2025,Boston College,Maeve Kelly,D,JR,0,0,0,2024-25
-01/31/2025,Boston College,Ani Fitzgerald,F,SR,0,0,0,2024-25
+01/31/2025,Boston College,Ani FitzGerald,F,SR,0,0,0,2024-25
 01/31/2025,Boston College,Lilli Welcke,F,JR,1,0,1,2024-25
 01/31/2025,Boston College,Keira Healey,D,FR,0,0,0,2024-25
 01/31/2025,Boston College,Kaileigh Quigg,F,FR,1,0,1,2024-25
@@ -13532,7 +13532,7 @@
 02/01/2025,Vermont,Christina Vote,F,SR,0,0,0,2024-25
 02/01/2025,Vermont,Tamara Giaquinto,D,GR,0,0,0,2024-25
 02/01/2025,Vermont,Maeve Kelly,D,JR,0,1,1,2024-25
-02/01/2025,Vermont,Ani Fitzgerald,F,SR,0,0,0,2024-25
+02/01/2025,Vermont,Ani FitzGerald,F,SR,0,0,0,2024-25
 02/01/2025,Vermont,Lilli Welcke,F,JR,0,1,1,2024-25
 02/01/2025,Vermont,Keira Healey,D,FR,0,0,0,2024-25
 02/01/2025,Vermont,Kaileigh Quigg,F,FR,0,1,1,2024-25
@@ -13553,7 +13553,7 @@
 02/04/2025,Northeastern,Christina Vote,F,SR,0,0,0,2024-25
 02/04/2025,Northeastern,Tamara Giaquinto,D,GR,0,0,0,2024-25
 02/04/2025,Northeastern,Maeve Kelly,D,JR,0,0,0,2024-25
-02/04/2025,Northeastern,Ani Fitzgerald,F,SR,0,0,0,2024-25
+02/04/2025,Northeastern,Ani FitzGerald,F,SR,0,0,0,2024-25
 02/04/2025,Northeastern,Keira Healey,D,FR,0,0,0,2024-25
 02/04/2025,Northeastern,Kaileigh Quigg,F,FR,1,0,1,2024-25
 02/04/2025,Northeastern,Callie Shanahan,G,SR,0,0,0,2024-25
@@ -13573,7 +13573,7 @@
 02/07/2025,Connecticut,Christina Vote,F,SR,0,0,0,2024-25
 02/07/2025,Connecticut,Tamara Giaquinto,D,GR,0,0,0,2024-25
 02/07/2025,Connecticut,Maeve Kelly,D,JR,0,0,0,2024-25
-02/07/2025,Connecticut,Ani Fitzgerald,F,SR,0,1,1,2024-25
+02/07/2025,Connecticut,Ani FitzGerald,F,SR,0,1,1,2024-25
 02/07/2025,Connecticut,Keira Healey,D,FR,0,0,0,2024-25
 02/07/2025,Connecticut,Kaileigh Quigg,F,FR,0,0,0,2024-25
 02/07/2025,Connecticut,Emily McDonald,G,SR,0,0,0,2024-25
@@ -13594,7 +13594,7 @@
 02/08/2025,Providence,Christina Vote,F,SR,0,1,1,2024-25
 02/08/2025,Providence,Tamara Giaquinto,D,GR,0,0,0,2024-25
 02/08/2025,Providence,Maeve Kelly,D,JR,0,0,0,2024-25
-02/08/2025,Providence,Ani Fitzgerald,F,SR,0,0,0,2024-25
+02/08/2025,Providence,Ani FitzGerald,F,SR,0,0,0,2024-25
 02/08/2025,Providence,Keira Healey,D,FR,0,0,0,2024-25
 02/08/2025,Providence,Kaileigh Quigg,F,FR,0,1,1,2024-25
 02/08/2025,Providence,Mari Pietersen,G,SO,0,0,0,2024-25
@@ -13613,7 +13613,7 @@
 02/14/2025,New Hampshire,Christina Vote,F,SR,1,0,1,2024-25
 02/14/2025,New Hampshire,Tamara Giaquinto,D,GR,0,0,0,2024-25
 02/14/2025,New Hampshire,Maeve Kelly,D,JR,0,1,1,2024-25
-02/14/2025,New Hampshire,Ani Fitzgerald,F,SR,0,1,1,2024-25
+02/14/2025,New Hampshire,Ani FitzGerald,F,SR,0,1,1,2024-25
 02/14/2025,New Hampshire,Lilli Welcke,F,JR,0,0,0,2024-25
 02/14/2025,New Hampshire,Keira Healey,D,FR,0,0,0,2024-25
 02/14/2025,New Hampshire,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13635,7 +13635,7 @@
 02/15/2025,New Hampshire,Christina Vote,F,SR,0,1,1,2024-25
 02/15/2025,New Hampshire,Tamara Giaquinto,D,GR,2,0,2,2024-25
 02/15/2025,New Hampshire,Maeve Kelly,D,JR,0,0,0,2024-25
-02/15/2025,New Hampshire,Ani Fitzgerald,F,SR,0,0,0,2024-25
+02/15/2025,New Hampshire,Ani FitzGerald,F,SR,0,0,0,2024-25
 02/15/2025,New Hampshire,Lilli Welcke,F,JR,0,0,0,2024-25
 02/15/2025,New Hampshire,Keira Healey,D,FR,0,1,1,2024-25
 02/15/2025,New Hampshire,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13655,7 +13655,7 @@
 02/21/2025,Connecticut,Christina Vote,F,SR,0,1,1,2024-25
 02/21/2025,Connecticut,Tamara Giaquinto,D,GR,0,0,0,2024-25
 02/21/2025,Connecticut,Maeve Kelly,D,JR,0,0,0,2024-25
-02/21/2025,Connecticut,Ani Fitzgerald,F,SR,0,0,0,2024-25
+02/21/2025,Connecticut,Ani FitzGerald,F,SR,0,0,0,2024-25
 02/21/2025,Connecticut,Lilli Welcke,F,JR,0,0,0,2024-25
 02/21/2025,Connecticut,Keira Healey,D,FR,0,0,0,2024-25
 02/21/2025,Connecticut,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13676,7 +13676,7 @@
 02/22/2025,Connecticut,Christina Vote,F,SR,0,0,0,2024-25
 02/22/2025,Connecticut,Tamara Giaquinto,D,GR,0,0,0,2024-25
 02/22/2025,Connecticut,Maeve Kelly,D,JR,0,0,0,2024-25
-02/22/2025,Connecticut,Ani Fitzgerald,F,SR,0,0,0,2024-25
+02/22/2025,Connecticut,Ani FitzGerald,F,SR,0,0,0,2024-25
 02/22/2025,Connecticut,Lilli Welcke,F,JR,0,0,0,2024-25
 02/22/2025,Connecticut,Keira Healey,D,FR,0,0,0,2024-25
 02/22/2025,Connecticut,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13696,7 +13696,7 @@
 03/01/2025,Vermont,Christina Vote,F,SR,0,0,0,2024-25
 03/01/2025,Vermont,Tamara Giaquinto,D,GR,0,0,0,2024-25
 03/01/2025,Vermont,Maeve Kelly,D,JR,1,1,2,2024-25
-03/01/2025,Vermont,Ani Fitzgerald,F,SR,0,0,0,2024-25
+03/01/2025,Vermont,Ani FitzGerald,F,SR,0,0,0,2024-25
 03/01/2025,Vermont,Lilli Welcke,F,JR,1,1,2,2024-25
 03/01/2025,Vermont,Keira Healey,D,FR,0,0,0,2024-25
 03/01/2025,Vermont,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13716,7 +13716,7 @@
 03/05/2025,Boston College,Christina Vote,F,SR,0,2,2,2024-25
 03/05/2025,Boston College,Tamara Giaquinto,D,GR,0,0,0,2024-25
 03/05/2025,Boston College,Maeve Kelly,D,JR,0,0,0,2024-25
-03/05/2025,Boston College,Ani Fitzgerald,F,SR,0,0,0,2024-25
+03/05/2025,Boston College,Ani FitzGerald,F,SR,0,0,0,2024-25
 03/05/2025,Boston College,Lilli Welcke,F,JR,0,1,1,2024-25
 03/05/2025,Boston College,Keira Healey,D,FR,0,0,0,2024-25
 03/05/2025,Boston College,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13736,7 +13736,7 @@
 03/08/2025,Northeastern,Christina Vote,F,SR,0,1,1,2024-25
 03/08/2025,Northeastern,Tamara Giaquinto,D,GR,1,0,1,2024-25
 03/08/2025,Northeastern,Maeve Kelly,D,JR,0,2,2,2024-25
-03/08/2025,Northeastern,Ani Fitzgerald,F,SR,0,0,0,2024-25
+03/08/2025,Northeastern,Ani FitzGerald,F,SR,0,0,0,2024-25
 03/08/2025,Northeastern,Lilli Welcke,F,JR,0,2,2,2024-25
 03/08/2025,Northeastern,Keira Healey,D,FR,0,0,0,2024-25
 03/08/2025,Northeastern,Kaileigh Quigg,F,FR,0,0,0,2024-25
@@ -13756,7 +13756,7 @@
 03/13/2025,Clarkson,Christina Vote,F,SR,0,0,0,2024-25
 03/13/2025,Clarkson,Tamara Giaquinto,D,GR,0,0,0,2024-25
 03/13/2025,Clarkson,Maeve Kelly,D,JR,0,0,0,2024-25
-03/13/2025,Clarkson,Ani Fitzgerald,F,SR,0,0,0,2024-25
+03/13/2025,Clarkson,Ani FitzGerald,F,SR,0,0,0,2024-25
 03/13/2025,Clarkson,Lilli Welcke,F,JR,0,0,0,2024-25
 03/13/2025,Clarkson,Keira Healey,D,FR,0,0,0,2024-25
 03/13/2025,Clarkson,Kaileigh Quigg,F,FR,0,0,0,2024-25

@@ -462,7 +462,7 @@
 28	Catherine Foulem	SR	F	5-6	L	02	Dieppe, New Brunswick / Ridley College	2023-24
 33	Emily McDonald	JR	G	5-5	N/A	03	Essex, Vermont / BU Club Team	2023-24
 37	Callie Shanahan	JR	G	5-10	L	03	Commerce, Michigan / HoneyBaked	2023-24
-92	Mari Petersen	FR	G	5-6	N/A	05	Goodwood, Ontario / Etobicoke Jr. Dolphins	2023-24
+92	Mari Pietersen	FR	G	5-6	N/A	05	Goodwood, Ontario / Etobicoke Jr. Dolphins	2023-24
 2	Maeve Carey	JR	D	5-4	R	03	Gloucester, Massachusetts / Stonehill	2024-25
 3	Liv Haag	SR	F	5-1	R	03	Robbinsdale, Minnesota / Benilde-St. Margaret’s	2024-25
 4	Lindsay Bochna	GR	F	5-5	L	02	Toronto, Ontario / Providence	2024-25

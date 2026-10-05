@@ -359,7 +359,7 @@
 3	Tom Ross	D	SR	25	1	15	16	—/4	1965-66
 9	Vic Conte	D	SR	32	4	12	16	—/18	1965-66
 17	Bill Hinch	D	SO	29	4	15	19	—/44	1966-67
-10	Bill Riley Jr.	F	JR	29	8	14	22	—/31	1966-67
+10	Bill Riley Jr. Jr.	F	JR	29	8	14	22	—/31	1966-67
 4	Brian Gilmour	D	SR	29	13	41	54	—/32	1966-67
 15	Charlie Morgan	F	SR	11	3	4	7	—/2	1966-67
 16	Darrell Abbott	D	SO	31	5	7	12	—/4	1966-67
@@ -380,7 +380,7 @@
 11	Pete McLachlan	D	SR	31	10	25	35	—/34	1966-67
 12	Serge Boily	F	SO	39	29	26	55	—/21	1966-67
 17	Bill Hinch	D	JR	32	7	18	25	—/—	1967-68
-10	Bill Riley Jr.	F	SR	9	2	6	8	—/0	1967-68
+10	Bill Riley Jr. Jr.	F	SR	9	2	6	8	—/0	1967-68
 22	Blaine Maus	F	JR	12	1	4	5	—/4	1967-68
 16	Darrell Abbott	D	JR	32	8	29	37	—/22	1967-68
 5	Dick Toomey	F	SO	31	19	20	39	—/6	1967-68

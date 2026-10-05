@@ -4,7 +4,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1920-01-16,Massachusetts,John Mutty,D,,1,0,1,1919-20
 1922-12-08,MIT,Morey Kontoff,D,,1,0,1,1922-23
 1922-12-08,MIT,Adolphus Provost,F,,2,0,2,1922-23
-1922-12-08,MIT,Robert Blaise,F,,1,0,1,1922-23
+1922-12-08,MIT,Robert Blais,F,,1,0,1,1922-23
 1923-01-11,Massachusetts,Joseph Almer,F,,3,0,3,1922-23
 1923-01-11,Massachusetts,Adolphus Provost,D,,1,0,1,1922-23
 1923-01-11,Massachusetts,Morey Kontoff,D,,1,0,1,1922-23
@@ -18,11 +18,11 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1923-02-24,Bates,Morey Kontoff,D,,2,0,2,1922-23
 1923-02-24,Bates,George Sterling,F,,2,0,2,1922-23
 1923-02-24,Bates,Joseph Almer,F,,1,0,1,1922-23
-1923-02-24,Bates,Robert Blaise,F,,1,0,1,1922-23
-1923-12-07,MIT,Robert Blaise,F,,2,0,2,1923-24
+1923-02-24,Bates,Robert Blais,F,,1,0,1,1922-23
+1923-12-07,MIT,Robert Blais,F,,2,0,2,1923-24
 1923-12-07,MIT,Joseph Almer,F,,4,0,4,1923-24
 1923-12-07,MIT,Adolphus Provost,D,,1,0,1,1923-24
-1923-12-18,Harvard,Robert Blaise,F,,1,0,1,1923-24
+1923-12-18,Harvard,Robert Blais,F,,1,0,1,1923-24
 1924-01-16,Maple AA,Adolphus Provost,D,,1,0,1,1923-24
 1924-02-02,Maine,Unknown,,,2,0,2,1923-24
 1924-12-05,MIT,David Goldfine,F,,1,0,1,1924-25
@@ -299,7 +299,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1934-01-10,Harvard,John Lax,F,JR,1,0,1,1933-34
 1934-01-10,Harvard,Lawrence Lucey,D,,1,0,1,1933-34
 1934-01-27,Harvard,Russell Smith,F,,1,0,1,1933-34
-1934-01-27,Harvard,Dexton Wesson,F,,1,0,1,1933-34
+1934-01-27,Harvard,Dexter Wesson,F,,1,0,1,1933-34
 1934-01-27,Harvard,John Lax,F,JR,0,1,1,1933-34
 1934-02-03,Dartmouth,Paul Rowe,F,,2,0,2,1933-34
 1934-02-03,Dartmouth,Russell Smith,F,,1,0,1,1933-34
@@ -318,7 +318,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1934-02-20,MIT,James Smith,F,,1,0,1,1933-34
 1934-02-20,MIT,Lawrence Lucey,D,,1,0,1,1933-34
 1934-02-23,New Hampshire,Russell Smith,F,,3,0,3,1933-34
-1934-02-23,New Hampshire,Dexton Wesson,F,,1,1,2,1933-34
+1934-02-23,New Hampshire,Dexter Wesson,F,,1,1,2,1933-34
 1934-02-23,New Hampshire,James Smith,F,,1,2,3,1933-34
 1934-02-23,New Hampshire,Tom Hartigan,F,,1,1,2,1933-34
 1934-02-23,New Hampshire,John Lax,F,JR,0,1,1,1933-34
@@ -363,14 +363,14 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1935-12-03,MIT,Al Carvelli,F,SO,2,1,3,1935-36
 1935-12-03,MIT,Albert Woodward,F,,1,0,1,1935-36
 1935-12-03,MIT,Russell Lynch,F,,1,0,1,1935-36
-1935-12-03,MIT,Dexton Wesson,F,,1,0,1,1935-36
+1935-12-03,MIT,Dexter Wesson,F,,1,0,1,1935-36
 1935-12-14,Princeton,Gerry Desrosiers,F,SO,2,0,2,1935-36
 1935-12-14,Princeton,Al Carvelli,F,SO,1,0,1,1935-36
 1935-12-14,Princeton,George Hoar,D,,1,0,1,1935-36
 1935-12-14,Princeton,Albert Woodward,F,,0,1,1,1935-36
 1935-12-17,Harvard,Albert Woodward,F,,1,0,1,1935-36
 1936-01-07,Brown,Tom Hartigan,F,,0,1,1,1935-36
-1936-01-07,Brown,Dexton Wesson,F,,1,1,2,1935-36
+1936-01-07,Brown,Dexter Wesson,F,,1,1,2,1935-36
 1936-01-07,Brown,Al Carvelli,F,SO,1,1,2,1935-36
 1936-01-07,Brown,Gerry Desrosiers,F,SO,2,2,4,1935-36
 1936-01-07,Brown,Russell Lynch,F,,1,0,1,1935-36
@@ -381,13 +381,13 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1936-01-10,Boston College,Albert Woodward,F,,1,0,1,1935-36
 1936-01-10,Boston College,Herbert James,D,,0,1,1,1935-36
 1936-01-10,Boston College,Tom Hartigan,F,,0,1,1,1935-36
-1936-01-10,Boston College,Dexton Wesson,F,,0,1,1,1935-36
+1936-01-10,Boston College,Dexter Wesson,F,,0,1,1,1935-36
 1936-01-15,Yale,Al Carvelli,F,SO,0,2,2,1935-36
 1936-01-15,Yale,George Hoar,D,,1,0,1,1935-36
 1936-01-15,Yale,Albert Woodward,F,,1,0,1,1935-36
 1936-01-28,New Hampshire,Tom Hartigan,F,,3,0,3,1935-36
 1936-01-28,New Hampshire,Al Carvelli,F,SO,2,3,5,1935-36
-1936-01-28,New Hampshire,Dexton Wesson,F,,1,0,1,1935-36
+1936-01-28,New Hampshire,Dexter Wesson,F,,1,0,1,1935-36
 1936-01-28,New Hampshire,Gerry Desrosiers,F,SO,0,1,1,1935-36
 1936-02-04,Boston College,George Hoar,D,,1,0,1,1935-36
 1936-02-04,Boston College,Tom Hartigan,F,,1,0,1,1935-36
@@ -397,7 +397,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1936-02-08,Army,Tom Hartigan,F,,2,2,4,1935-36
 1936-02-08,Army,Al Carvelli,F,SO,2,2,4,1935-36
 1936-02-08,Army,Harry Cleverly,F,,1,0,1,1935-36
-1936-02-08,Army,Dexton Wesson,F,,0,1,1,1935-36
+1936-02-08,Army,Dexter Wesson,F,,0,1,1,1935-36
 1936-02-12,New Hampshire,Tom Hartigan,F,,3,2,5,1935-36
 1936-02-12,New Hampshire,Al Carvelli,F,SO,2,2,4,1935-36
 1936-02-12,New Hampshire,Gerry Desrosiers,F,SO,2,4,6,1935-36
@@ -407,14 +407,14 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1936-02-18,MIT,Albert Woodward,F,,0,1,1,1935-36
 1936-02-18,MIT,Tom Hartigan,F,,1,0,1,1935-36
 1936-02-18,MIT,George Hoar,D,,1,0,1,1935-36
-1936-02-18,MIT,Dexton Wesson,F,,0,2,2,1935-36
+1936-02-18,MIT,Dexter Wesson,F,,0,2,2,1935-36
 1936-02-18,MIT,Herbert James,F,,0,1,1,1935-36
 1936-02-22,Dartmouth,Neil Powell,F,,1,0,1,1935-36
 1936-02-22,Dartmouth,Gerry Desrosiers,F,SO,1,1,2,1935-36
 1936-02-22,Dartmouth,Russell Lynch,F,,1,0,1,1935-36
 1936-02-28,Brown,Gerry Desrosiers,F,SO,0,2,2,1935-36
 1936-02-28,Brown,Tom Hartigan,F,,2,0,2,1935-36
-1936-02-28,Brown,Dexton Wesson,F,,0,1,1,1935-36
+1936-02-28,Brown,Dexter Wesson,F,,0,1,1,1935-36
 1936-12-01,MIT,Gerry Desrosiers,F,JR,4,2,6,1936-37
 1936-12-01,MIT,Russell Lynch,F,,2,0,2,1936-37
 1936-12-01,MIT,William Freeman,F,,1,0,1,1936-37
@@ -3502,7 +3502,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1965-12-11,Boston College,Bruce Fennie,F,SR,1,1,2,1965-66
 1965-12-11,Boston College,Jim Quinn,F,JR,2,1,3,1965-66
 1965-12-14,Rensselaer,Fred Bassi,F,JR,2,1,3,1965-66
-1965-12-14,Rensselaer,Bill Riley,F,,1,0,1,1965-66
+1965-12-14,Rensselaer,Bill Riley Jr.,F,,1,0,1,1965-66
 1965-12-14,Rensselaer,Brian Gilmour,D,JR,0,2,2,1965-66
 1965-12-14,Rensselaer,Bruce Fennie,F,SR,4,0,4,1965-66
 1965-12-14,Rensselaer,Dennis O'Connell,F,SR,0,5,5,1965-66
@@ -3517,7 +3517,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1965-12-18,Dartmouth,Pete McLachlan,D,JR,2,0,2,1965-66
 1965-12-18,Dartmouth,Bruce Fennie,F,SR,1,0,1,1965-66
 1965-12-18,Dartmouth,Brian Gilmour,D,JR,1,1,2,1965-66
-1965-12-18,Dartmouth,BIll Riley,F,,0,1,1,1965-66
+1965-12-18,Dartmouth,Bill Riley Jr.,F,,0,1,1,1965-66
 1965-12-18,Dartmouth,Dennis O'Connell,F,SR,0,2,2,1965-66
 1965-12-21,Michigan Tech,Bruce Fennie,F,SR,0,1,1,1965-66
 1965-12-21,Michigan Tech,Dennis O'Connell,F,SR,0,1,1,1965-66
@@ -3536,14 +3536,14 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1965-12-22,Colorado College,Dennis O'Connell,F,SR,0,2,2,1965-66
 1965-12-22,Colorado College,Bruce Fennie,F,SR,1,1,2,1965-66
 1965-12-22,Colorado College,Brian Gilmour,D,JR,0,1,1,1965-66
-1965-12-22,Colorado College,Bill Riley,F,,2,0,2,1965-66
+1965-12-22,Colorado College,Bill Riley Jr.,F,,2,0,2,1965-66
 1965-12-22,Colorado College,Jack Parker,F,SO,0,1,1,1965-66
 1965-12-27,Michigan,Jim Wood,F,JR,1,1,2,1965-66
 1965-12-27,Michigan,Vic Conte,D,SR,0,1,1,1965-66
 1965-12-27,Michigan,Pete McLachlan,D,JR,1,0,1,1965-66
 1965-12-27,Michigan,Mike Sobeski,F,JR,0,1,1,1965-66
 1965-12-27,Michigan,Jim Quinn,F,JR,2,0,2,1965-66
-1965-12-27,Michigan,BIll Riley,F,,0,1,1,1965-66
+1965-12-27,Michigan,Bill Riley Jr.,F,,0,1,1,1965-66
 1965-12-27,Michigan,Fred Bassi,F,JR,1,0,1,1965-66
 1965-12-27,Michigan,Dennis O'Connell,F,SR,0,1,1,1965-66
 1965-12-27,Michigan,Brian Gilmour,D,JR,1,1,2,1965-66
@@ -3553,7 +3553,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1965-12-28,Northeastern,Fred Bassi,F,JR,2,0,2,1965-66
 1965-12-28,Northeastern,John Cooke,F,SO,1,1,2,1965-66
 1965-12-28,Northeastern,Brian Gilmour,D,JR,0,1,1,1965-66
-1965-12-28,Northeastern,Bill Riley,F,,0,2,2,1965-66
+1965-12-28,Northeastern,Bill Riley Jr.,F,,0,2,2,1965-66
 1965-12-28,Northeastern,Dennis O'Connell,F,SR,0,1,1,1965-66
 1965-12-29,Michigan Tech,Brian Gilmour,D,JR,1,0,1,1965-66
 1965-12-29,Michigan Tech,Bruce Fennie,F,SR,0,1,1,1965-66
@@ -3579,7 +3579,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1966-01-21,Eastern Nationals,John Cooke,F,SO,1,0,1,1965-66
 1966-01-21,Eastern Nationals,Donald Lumley,D,JR,1,0,1,1965-66
 1966-01-21,Eastern Nationals,Bruce Fennie,F,SR,2,0,2,1965-66
-1966-01-21,Eastern Nationals,Bill Riley,F,,0,1,1,1965-66
+1966-01-21,Eastern Nationals,Bill Riley Jr.,F,,0,1,1,1965-66
 1966-01-21,Eastern Nationals,Jack Parker,F,SO,0,1,1,1965-66
 1966-01-21,Eastern Nationals,Dennis O'Connell,F,SR,0,1,1,1965-66
 1966-01-21,Eastern Nationals,Vic Conte,D,SR,0,1,1,1965-66
@@ -3603,7 +3603,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1966-02-02,Brown,Brian Gilmour,D,JR,1,1,2,1965-66
 1966-02-02,Brown,Dennis O'Connell,F,SR,1,1,2,1965-66
 1966-02-02,Brown,Bruce Fennie,F,SR,0,1,1,1965-66
-1966-02-02,Brown,Bill Riley,F,,1,1,2,1965-66
+1966-02-02,Brown,Bill Riley Jr.,F,,1,1,2,1965-66
 1966-02-02,Brown,Fred Bassi,F,JR,1,0,1,1965-66
 1966-02-04,Providence,Bruce Fennie,F,SR,2,2,4,1965-66
 1966-02-04,Providence,Dennis O'Connell,F,SR,1,2,3,1965-66
@@ -3611,7 +3611,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1966-02-04,Providence,Jack Parker,F,SO,1,0,1,1965-66
 1966-02-04,Providence,John Cooke,F,SO,1,1,2,1965-66
 1966-02-04,Providence,Brian Gilmour,D,JR,0,1,1,1965-66
-1966-02-04,Providence,Bill Riley,F,,0,1,1,1965-66
+1966-02-04,Providence,Bill Riley Jr.,F,,0,1,1,1965-66
 1966-02-04,Providence,Pete McLachlan,D,JR,0,1,1,1965-66
 1966-02-07,Boston College,Pete McLachlan,D,JR,0,1,1,1965-66
 1966-02-07,Boston College,Jim Wood,F,JR,0,1,1,1965-66
@@ -3633,7 +3633,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1966-02-14,Harvard,Dennis O'Connell,F,SR,1,0,1,1965-66
 1966-02-14,Harvard,Bruce Fennie,F,SR,1,1,2,1965-66
 1966-02-14,Harvard,Brian Gilmour,D,JR,0,1,1,1965-66
-1966-02-14,Harvard,Bill Riley,F,,0,1,1,1965-66
+1966-02-14,Harvard,Bill Riley Jr.,F,,0,1,1,1965-66
 1966-02-14,Harvard,Fred Bassi,F,JR,0,1,1,1965-66
 1966-02-18,St. Lawrence,Mike Sobeski,F,JR,1,1,2,1965-66
 1966-02-18,St. Lawrence,Brian Gilmour,D,JR,1,3,4,1965-66
@@ -3654,7 +3654,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1966-02-23,Merrimack,Tom Ross,D,SR,0,1,1,1965-66
 1966-02-23,Merrimack,Pete McLachlan,D,JR,0,2,2,1965-66
 1966-02-23,Merrimack,Jim Wood,F,JR,0,1,1,1965-66
-1966-02-23,Merrimack,Bill Riley,F,,1,0,1,1965-66
+1966-02-23,Merrimack,Bill Riley Jr.,F,,1,0,1,1965-66
 1966-02-23,Merrimack,Fred Bassi,F,JR,1,2,3,1965-66
 1966-02-23,Merrimack,Donald Lumley,D,JR,0,1,1,1965-66
 1966-02-23,Merrimack,Bruce Fennie,F,SR,4,1,5,1965-66
@@ -3667,12 +3667,12 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1966-02-26,Boston College,Pete McLachlan,D,JR,1,0,1,1965-66
 1966-02-26,Boston College,Bruce Fennie,F,SR,0,1,1,1965-66
 1966-02-26,Boston College,Brian Gilmour,D,JR,1,0,1,1965-66
-1966-02-26,Boston College,Bill Riley,F,,0,2,2,1965-66
+1966-02-26,Boston College,Bill Riley Jr.,F,,0,2,2,1965-66
 1966-02-26,Boston College,Fred Bassi,F,JR,1,0,1,1965-66
 1966-03-02,Dartmouth,Dennis O'Connell,F,SR,2,1,3,1965-66
 1966-03-02,Dartmouth,Fred Bassi,F,JR,1,1,2,1965-66
 1966-03-02,Dartmouth,Pete McLachlan,D,JR,1,1,2,1965-66
-1966-03-02,Dartmouth,Bill Riley,F,,1,0,1,1965-66
+1966-03-02,Dartmouth,Bill Riley Jr.,F,,1,0,1,1965-66
 1966-03-02,Dartmouth,Mike Sobeski,F,JR,1,0,1,1965-66
 1966-03-02,Dartmouth,Jim Quinn,F,JR,1,0,1,1965-66
 1966-03-02,Dartmouth,Bruce Fennie,F,SR,0,2,2,1965-66
@@ -3726,7 +3726,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1966-12-03,Boston College,Serge Boily,F,SO,1,0,1,1966-67
 1966-12-03,Boston College,Mickey Gray,F,SO,1,1,2,1966-67
 1966-12-03,Boston College,Herb Wakabayashi,F,SO,0,2,2,1966-67
-1966-12-03,Boston College,Bill Riley,F,,1,0,1,1966-67
+1966-12-03,Boston College,Bill Riley Jr.,F,,1,0,1,1966-67
 1966-12-03,Boston College,Brian Gilmour,D,SR,0,2,2,1966-67
 1966-12-03,Boston College,Charlie Morgan,F,SR,1,0,1,1966-67
 1966-12-06,Providence,Serge Boily,F,SO,2,0,2,1966-67
@@ -3736,11 +3736,11 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1966-12-06,Providence,Pete McLachlan,D,SR,1,1,2,1966-67
 1966-12-06,Providence,Herb Wakabayashi,F,SO,0,5,5,1966-67
 1966-12-06,Providence,Mickey Gray,F,SO,0,2,2,1966-67
-1966-12-06,Providence,Bill Riley,F,,0,1,1,1966-67
+1966-12-06,Providence,Bill Riley Jr.,F,,0,1,1,1966-67
 1966-12-06,Providence,Darrell Abbott,D,SO,0,1,1,1966-67
 1966-12-06,Providence,Bill Hinch,D,SO,0,1,1,1966-67
 1966-12-06,Providence,Charlie Morgan,F,SR,0,1,1,1966-67
-1966-12-10,Eastern Nationals,Bill Riley,F,,2,0,2,1966-67
+1966-12-10,Eastern Nationals,Bill Riley Jr.,F,,2,0,2,1966-67
 1966-12-10,Eastern Nationals,Fred Bassi,F,SR,1,2,3,1966-67
 1966-12-10,Eastern Nationals,Jim Quinn,F,SR,0,2,2,1966-67
 1966-12-13,Boston College,Jim Quinn,F,SR,1,2,3,1966-67
@@ -3749,12 +3749,12 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1966-12-13,Boston College,Mike Sobeski,F,SR,1,1,2,1966-67
 1966-12-13,Boston College,Mickey Gray,F,SO,2,1,3,1966-67
 1966-12-13,Boston College,Jack Parker,F,JR,1,0,1,1966-67
-1966-12-13,Boston College,BIll Riley,F,,0,1,1,1966-67
+1966-12-13,Boston College,Bill Riley Jr.,F,,0,1,1,1966-67
 1966-12-13,Boston College,Fred Bassi,F,SR,1,2,3,1966-67
 1966-12-13,Boston College,Darrell Abbott,D,SO,1,0,1,1966-67
 1966-12-13,Boston College,Charlie Morgan,F,SR,0,1,1,1966-67
 1966-12-13,Boston College,Brian Gilmour,D,SR,0,2,2,1966-67
-1966-12-13,Boston College,Bill Riley,F,,0,1,1,1966-67
+1966-12-13,Boston College,Bill Riley Jr.,F,,0,1,1,1966-67
 1966-12-13,Boston College,Herb Wakabayashi,F,SO,1,2,3,1966-67
 1966-12-17,Princeton,Fred Bassi,F,SR,5,0,5,1966-67
 1966-12-17,Princeton,Mickey Gray,F,SO,4,0,4,1966-67
@@ -3814,7 +3814,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1967-01-07,Clarkson,Eddie Wright,F,SO,0,1,1,1966-67
 1967-01-07,Clarkson,Darrell Abbott,D,SO,1,0,1,1966-67
 1967-01-07,Clarkson,Bill Hinch,D,SO,1,1,2,1966-67
-1967-01-07,Clarkson,BIll Riley,F,,0,3,3,1966-67
+1967-01-07,Clarkson,Bill Riley Jr.,F,,0,3,3,1966-67
 1967-01-07,Clarkson,Herb Wakabayashi,F,SO,2,0,2,1966-67
 1967-01-27,Denver,John Cooke,F,JR,1,0,1,1966-67
 1967-01-28,Denver,Unknown,,,1,0,1,1966-67
@@ -3834,7 +3834,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1967-02-04,Yale,Brian Gilmour,D,SR,1,2,3,1966-67
 1967-02-04,Yale,Mickey Gray,F,SO,0,2,2,1966-67
 1967-02-04,Yale,Bill Hinch,D,SO,0,1,1,1966-67
-1967-02-04,Yale,Bill Riley,F,,0,1,1,1966-67
+1967-02-04,Yale,Bill Riley Jr.,F,,0,1,1,1966-67
 1967-02-04,Yale,Jim Quinn,F,SR,0,1,1,1966-67
 1967-02-09,Harvard,Brian Gilmour,D,SR,0,1,1,1966-67
 1967-02-09,Harvard,Herb Wakabayashi,F,SO,0,5,5,1966-67
@@ -3852,18 +3852,18 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1967-02-11,St. Lawrence,Herb Wakabayashi,F,SO,1,0,1,1966-67
 1967-02-11,St. Lawrence,Darrell Abbott,D,SO,0,1,1,1966-67
 1967-02-11,St. Lawrence,Brian Gilmour,D,SR,1,3,4,1966-67
-1967-02-11,St. Lawrence,Bill Riley,F,,1,1,2,1966-67
+1967-02-11,St. Lawrence,Bill Riley Jr.,F,,1,1,2,1966-67
 1967-02-11,St. Lawrence,James Dakin,D,,0,1,1,1966-67
 1967-02-13,Northeastern,John Cooke,F,JR,0,1,1,1966-67
 1967-02-13,Northeastern,Serge Boily,F,SO,1,0,1,1966-67
 1967-02-13,Northeastern,Pete McLachlan,D,SR,1,0,1,1966-67
 1967-02-13,Northeastern,Jim Quinn,F,SR,0,1,1,1966-67
-1967-02-13,Northeastern,BIll Riley,F,,0,1,1,1966-67
+1967-02-13,Northeastern,Bill Riley Jr.,F,,0,1,1,1966-67
 1967-02-13,Northeastern,Brian Gilmour,D,SR,1,1,2,1966-67
 1967-02-13,Northeastern,Bill Hinch,D,SO,1,0,1,1966-67
 1967-02-13,Northeastern,Herb Wakabayashi,F,SO,0,1,1,1966-67
 1967-02-18,Army,Fred Bassi,F,SR,3,2,5,1966-67
-1967-02-18,Army,Bill Riley,F,,2,0,2,1966-67
+1967-02-18,Army,Bill Riley Jr.,F,,2,0,2,1966-67
 1967-02-18,Army,Jim Quinn,F,SR,2,4,6,1966-67
 1967-02-18,Army,Serge Boily,F,SO,2,1,3,1966-67
 1967-02-18,Army,Mike Sobeski,F,SR,1,3,4,1966-67
@@ -3886,7 +3886,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1967-02-24,Providence,Mickey Gray,F,SO,1,2,3,1966-67
 1967-02-24,Providence,Brian Gilmour,D,SR,1,2,3,1966-67
 1967-02-24,Providence,Darrell Abbott,D,SO,1,0,1,1966-67
-1967-02-24,Providence,Bill Riley,F,,1,1,2,1966-67
+1967-02-24,Providence,Bill Riley Jr.,F,,1,1,2,1966-67
 1967-02-24,Providence,Herb Wakabayashi,F,SO,0,3,3,1966-67
 1967-02-24,Providence,Jack Parker,F,JR,0,3,3,1966-67
 1967-02-24,Providence,Bill Hinch,D,SO,0,1,1,1966-67
@@ -3904,7 +3904,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1967-03-01,Dartmouth,Bill Hinch,D,SO,0,3,3,1966-67
 1967-03-01,Dartmouth,Jim Wood,F,SR,0,1,1,1966-67
 1967-03-01,Dartmouth,Jack Parker,F,JR,0,1,1,1966-67
-1967-03-01,Dartmouth,Bill Riley,F,,0,1,1,1966-67
+1967-03-01,Dartmouth,Bill Riley Jr.,F,,0,1,1,1966-67
 1967-03-01,Dartmouth,Darrell Abbott,D,SO,0,1,1,1966-67
 1967-03-04,Colgate,Fred Bassi,F,SR,2,1,3,1966-67
 1967-03-04,Colgate,Jim Quinn,F,SR,1,0,1,1966-67
@@ -3917,7 +3917,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1967-03-07,Harvard,Mike Sobeski,F,SR,1,1,2,1966-67
 1967-03-07,Harvard,Mickey Gray,F,SO,0,1,1,1966-67
 1967-03-07,Harvard,Jim Quinn,F,SR,1,0,1,1966-67
-1967-03-07,Harvard,BIll Riley,F,,0,1,1,1966-67
+1967-03-07,Harvard,Bill Riley Jr.,F,,0,1,1,1966-67
 1967-03-07,Harvard,Herb Wakabayashi,F,SO,1,1,2,1966-67
 1967-03-07,Harvard,Fred Bassi,F,SR,1,1,2,1966-67
 1967-03-07,Harvard,Brian Gilmour,D,SR,0,1,1,1966-67
@@ -3930,8 +3930,8 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1967-03-09,St. Lawrence,Mike Sobeski,F,SR,1,0,1,1966-67
 1967-03-09,St. Lawrence,Herb Wakabayashi,F,SO,1,2,3,1966-67
 1967-03-09,St. Lawrence,Brian Gilmour,D,SR,2,1,3,1966-67
-1967-03-09,St. Lawrence,Bill Riley,F,,1,0,1,1966-67
-1967-03-09,St. Lawrence,BIll Riley,F,,0,1,1,1966-67
+1967-03-09,St. Lawrence,Bill Riley Jr.,F,,1,0,1,1966-67
+1967-03-09,St. Lawrence,Bill Riley Jr.,F,,0,1,1,1966-67
 1967-03-09,St. Lawrence,Jack Parker,F,JR,1,1,2,1966-67
 1967-03-11,Cornell,Mike Sobeski,F,SR,0,1,1,1966-67
 1967-03-11,Cornell,Jim Quinn,F,SR,2,0,2,1966-67
@@ -4137,7 +4137,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1968-03-02,Providence,Dick Toomey,F,SO,2,4,6,1967-68
 1968-03-02,Providence,Darrell Abbott,D,JR,1,1,2,1967-68
 1968-03-02,Providence,Bill Hinch,D,JR,0,2,2,1967-68
-1968-03-02,Providence,BIll Riley,F,,0,3,3,1967-68
+1968-03-02,Providence,Bill Riley Jr.,F,,0,3,3,1967-68
 1968-03-02,Providence,Herb Wakabayashi,F,JR,1,1,2,1967-68
 1968-03-05,Harvard,Larry Davenport,F,SO,1,2,3,1967-68
 1968-03-05,Harvard,Wayne Decker,D,SO,0,1,1,1967-68
@@ -6128,7 +6128,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1976-11-19,Bowling Green,Jack O'Callahan,D,SO,0,2,2,1976-77
 1976-11-19,Bowling Green,John Bethel,F,FR,1,0,1,1976-77
 1976-11-19,Bowling Green,Bob Dudley,D,SR,1,1,2,1976-77
-1976-11-19,Bowling Green,Steve Gibson ,F,,0,1,1,1976-77
+1976-11-19,Bowling Green,Steve Gibson,F,,0,1,1,1976-77
 1976-11-20,Bowling Green,Unknown,,,2,0,2,1976-77
 1976-11-28,Providence,Rick Meagher,F,SR,1,0,1,1976-77
 1976-11-28,Providence,Bill O'Neill,D,SO,0,1,1,1976-77
@@ -7360,7 +7360,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1981-12-30,Denver,Denis LaGarde,F,SO,0,1,1,1981-82
 1981-12-30,Denver,Dan Carnevale,F,JR,0,1,1,1981-82
 1981-12-30,Denver,Chris Mays,F,SO,1,0,1,1981-82
-1981-12-30,Denver,Fred Baker,F,FR,1,0,1,1981-82
+1981-12-30,Denver,Fred Barker,F,FR,1,0,1,1981-82
 1981-12-30,Denver,Bruce Milton,D,SO,0,1,1,1981-82
 1981-12-30,Denver,Bob Darling,F,SO,0,2,2,1981-82
 1982-01-02,North Dakota,Bob Darling,F,SO,1,0,1,1981-82
@@ -7374,9 +7374,9 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1982-01-06,Dartmouth,Dan Carnevale,F,JR,1,1,2,1981-82
 1982-01-06,Dartmouth,Chris Mays,F,SO,0,1,1,1981-82
 1982-01-06,Dartmouth,Bob Darling,F,SO,0,1,1,1981-82
-1982-01-06,Dartmouth,Fred Baker,F,FR,1,0,1,1981-82
+1982-01-06,Dartmouth,Fred Barker,F,FR,1,0,1,1981-82
 1982-01-09,Boston College,Dan Carnevale,F,JR,1,0,1,1981-82
-1982-01-09,Boston College,Fred Baker,F,FR,0,1,1,1981-82
+1982-01-09,Boston College,Fred Barker,F,FR,0,1,1,1981-82
 1982-01-09,Boston College,George Klapes,D,JR,1,0,1,1981-82
 1982-01-09,Boston College,Marc Sinclair,F,JR,1,0,1,1981-82
 1982-01-09,Boston College,Rob Davies,F,SR,0,1,1,1981-82
@@ -7448,7 +7448,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1982-02-05,Colgate,Paul Fenton,F,SR,1,0,1,1981-82
 1982-02-05,Colgate,Kevin Mutch,F,FR,0,1,1,1981-82
 1982-02-05,Colgate,Marc Sinclair,F,JR,0,1,1,1981-82
-1982-02-05,Colgate,Fred Baker,F,FR,1,0,1,1981-82
+1982-02-05,Colgate,Fred Barker,F,FR,1,0,1,1981-82
 1982-02-05,Colgate,Bruce Milton,D,SO,0,1,1,1981-82
 1982-02-05,Colgate,Bob Darling,F,SO,1,0,1,1981-82
 1982-02-05,Colgate,Joe Delorey,D,FR,0,1,1,1981-82
@@ -7464,7 +7464,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1982-02-17,Princeton,Paul Fenton,F,SR,1,0,1,1981-82
 1982-02-17,Princeton,Tom O'Regan,F,JR,2,3,5,1981-82
 1982-02-17,Princeton,Kevin Mutch,F,FR,0,2,2,1981-82
-1982-02-17,Princeton,Fred Baker,F,FR,1,0,1,1981-82
+1982-02-17,Princeton,Fred Barker,F,FR,1,0,1,1981-82
 1982-02-17,Princeton,Jerry August,F,JR,1,3,4,1981-82
 1982-02-17,Princeton,Dan Carnevale,F,JR,0,2,2,1981-82
 1982-02-17,Princeton,Bruce Milton,D,SO,0,1,1,1981-82
@@ -7490,7 +7490,7 @@ date,opponent,name,pos,yr,goals,assists,points,season
 1982-02-27,Brown,Kevin Mutch,F,FR,1,2,3,1981-82
 1982-02-27,Brown,Jerry August,F,JR,0,1,1,1981-82
 1982-02-27,Brown,Joe Delorey,D,FR,0,2,2,1981-82
-1982-02-27,Brown,Fred Baker,F,FR,0,1,1,1981-82
+1982-02-27,Brown,Fred Barker,F,FR,0,1,1,1981-82
 1982-02-27,Brown,Dan Carnevale,F,JR,1,0,1,1981-82
 1982-02-27,Brown,Chris Mays,F,SO,0,1,1,1981-82
 1982-02-27,Brown,Cesare Carlacci,F,SO,1,1,2,1981-82

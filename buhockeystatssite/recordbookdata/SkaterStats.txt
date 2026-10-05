@@ -626,6 +626,7 @@ Ross,Tom 1963-66 79 2 42 44 —/20
 Rousseau,Bob 1951-54 — 2 6 8 —/52
 Rowan,Bob 1960-63 57 21 21 42 —/50
 Rowe,Paul 1932-35 34 28 19 47 —/—
+Roy,Travis 1995-96 0 0 0 0 —/—
 Ruikka,Ryan 2008-13 97 4 15 19 28/56
 Ryan,T.J. 2013-15 27 1 2 3 2/4
 Ryan,Tom 1984-88 146 18 37 55 34/68
@@ -730,7 +731,7 @@ Welch,Alan 1961-62 10 5 2 7 —/2
 Wennberg,Carl 1948-50 15 7 12 19 1/2
 Wennerberg,William 1921-26 18 0 0 0 —/—
 Werner,Kris 1985-88 77 1 10 11 16/32
-Wesson,Dexton 1933-36 33 5 7 12 2/4
+Wesson,Dexter 1933-36 33 5 7 12 2/4
 Weston,Bob 1997-99 10 0 2 2 1/2
 Weston,Ryan 2004-08 146 9 17 26 53/133
 Whalen,Paul 1951-53 — 17 28 45 —/14

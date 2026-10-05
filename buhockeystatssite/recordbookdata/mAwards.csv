@@ -1,6 +1,6 @@
 Award,Year,Winner,Type
 Hockey Hall of Fame,2025,Jack Parker,HOF
-Hockey Hall of Fame,2026,Keith Tkachuck,HOF
+Hockey Hall of Fame,2026,Keith Tkachuk,HOF
 US Hockey Hall of Fame,1986,Jack Garrity,HOF
 US Hockey Hall of Fame,1993,Jack Kelley,HOF
 US Hockey Hall of Fame,2003,Jim Craig (1980 Olympic Team),HOF
@@ -50,7 +50,7 @@ BU Athletics Hall of Fame,1986,Jack O'Callahan,HOF
 BU Athletics Hall of Fame,1987,Fred Bassi,HOF
 BU Athletics Hall of Fame,1987,Vic Stanfield,HOF
 BU Athletics Hall of Fame,1988,John Danby,HOF
-BU Athletics Hall of Fame,1988,Johnny Lax,HOF
+BU Athletics Hall of Fame,1988,John Lax,HOF
 BU Athletics Hall of Fame,1989,Jim Craig,HOF
 BU Athletics Hall of Fame,1989,Dick Kelley,HOF
 BU Athletics Hall of Fame,1990,Al Carvelli,HOF
@@ -65,7 +65,7 @@ BU Athletics Hall of Fame,1994,Jack Parker,HOF
 BU Athletics Hall of Fame,1995,John Cullen,HOF
 BU Athletics Hall of Fame,1997,Brian Gilmour,HOF
 BU Athletics Hall of Fame,1998,Ed Walsh,HOF
-BU Athletics Hall of Fame,2001,Peter McLachlan,HOF
+BU Athletics Hall of Fame,2001,Pete McLachlan,HOF
 BU Athletics Hall of Fame,2001,Jay Pandolfo,HOF
 BU Athletics Hall of Fame,2003,Chris Drury,HOF
 BU Athletics Hall of Fame,2004,David Sacco,HOF
@@ -297,10 +297,10 @@ All-ECAC First Team,1963-64,Richie Green,Conference
 All-ECAC First Team,1964-65,Jack Ferreira,Conference
 All-ECAC First Team,1964-65,Tom Ross,Conference
 All-ECAC First Team,1965-66,Jack Ferreira,Conference
-All-ECAC First Team,1965-66,Peter McLachlan,Conference
+All-ECAC First Team,1965-66,Pete McLachlan,Conference
 All-ECAC First Team,1965-66,Bruce Fennie,Conference
 All-ECAC First Team,1965-66,Fred Bassi,Conference
-All-ECAC First Team,1966-67,Peter McLachlan,Conference
+All-ECAC First Team,1966-67,Pete McLachlan,Conference
 All-ECAC First Team,1968-69,Herb Wakabayashi,Conference
 All-ECAC First Team,1969-70,Mike Hyndman,Conference
 All-ECAC First Team,1970-71,Bob Brown,Conference
@@ -412,8 +412,6 @@ All-Hockey East Second Team,1990-91,Tony Amonte,Conference
 All-Hockey East Second Team,1991-92,Kevin O'Sullivan,Conference
 All-Hockey East Second Team,1992-93,Kaj Linna,Conference
 All-Hockey East Second Team,1993-94,Derek Herlofsky,Conference
-All-Hockey East Second Team,1993-94,Scott Malone,Conference
-All-Hockey East Second Team,1993-94,Mike Latendresse,Conference
 All-Hockey East Second Team,1997-98,Michel Larocque,Conference
 All-Hockey East Second Team,1997-98,Chris Kelleher,Conference
 All-Hockey East Second Team,1999-00,Rick DiPietro,Conference
@@ -458,7 +456,7 @@ All-Hockey East Rookie Team,1990-91,Scott Lachance,Conference
 All-Hockey East Rookie Team,1990-91,Keith Tkachuk,Conference
 All-Hockey East Rookie Team,1991-92,Rich Brennan,Conference
 All-Hockey East Rookie Team,1991-92,John Lilley,Conference
-All-Hockey East Rookie Team,1991-92,Mike Pendergast,Conference
+All-Hockey East Rookie Team,1991-92,Mike Prendergast,Conference
 All-Hockey East Rookie Team,1993-94,Shawn Bates,Conference
 All-Hockey East Rookie Team,1994-95,Chris Kelleher,Conference
 All-Hockey East Rookie Team,1995-96,Michel Larocque,Conference
@@ -485,7 +483,7 @@ All-Hockey East Rookie Team,2010-11,Charlie Coyle,Conference
 All-Hockey East Rookie Team,2011-12,Alexx Privitera,Conference
 All-Hockey East Rookie Team,2012-13,Matt Grzelcyk,Conference
 All-Hockey East Rookie Team,2012-13,Danny O'Regan,Conference
-All-Hockey East Rookie Team,2013-14,Robbie Bailargeon,Conference
+All-Hockey East Rookie Team,2013-14,Robbie Baillargeon,Conference
 All-Hockey East Rookie Team,2014-15,Jack Eichel,Conference
 All-Hockey East Rookie Team,2015-16,Charlie McAvoy,Conference
 All-Hockey East Rookie Team,2015-16,Jakob Forsbacka Karlsson,Conference
@@ -532,7 +530,7 @@ Most Valuable Player,2002,Justin Maiser,Beanpot
 Most Valuable Player,2003,Sean Fields,Beanpot
 Most Valuable Player,2004,Sean Fields,Beanpot
 Most Valuable Player,2005,Chris Bourque,Beanpot
-Most Valuable Player,2006,Peter MacArthur,Beanpot
+Most Valuable Player,2006,Pete MacArthur,Beanpot
 Most Valuable Player,2007,John Curry,Beanpot
 Most Valuable Player,2009,Nick Bonino,Beanpot
 Most Valuable Player,2015,Matt Grzelcyk,Beanpot
