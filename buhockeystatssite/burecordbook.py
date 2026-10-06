@@ -4047,12 +4047,12 @@ def updateNHLStats():
   dfNHLSkateSeason.loc[dfNHLSkateSeason['pos'].isin(["C","R","L"]),'pos']='F'
   dfNHLSkateSeason['season']=currSeason
   dfNHLSkate = getProStats('nhl','skater')
-  dfNHLSkate = pd.concat([dfNHLSkate.query(f'season!={currSeason}'),dfNHLSkateSeason])
+  dfNHLSkate = pd.concat([dfNHLSkate.query(f'season!="{currSeason}"'),dfNHLSkateSeason])
   dfNHLGoalie = getProStats('nhl','goalie')
-  dfNHLGoalie = pd.concat([dfNHLGoalie.query(f'season!={currSeason}'),dfNHLGoalieSeason])
+  dfNHLGoalie = pd.concat([dfNHLGoalie.query(f'season!="{currSeason}"'),dfNHLGoalieSeason])
   
   dfNHLSkate.to_csv(RECBOOK_DATA_PATH+"nhlskaterseasonstats.csv",index=False)
-  #dfNHLGoalie.to_csv(RECBOOK_DATA_PATH+"nhlgoalieseasonstats.csv",index=False)
+  dfNHLGoalie.to_csv(RECBOOK_DATA_PATH+"nhlgoalieseasonstats.csv",index=False)
 
 def getShutoutList(gender):
   ''' returns Shutout List for given gender '''
