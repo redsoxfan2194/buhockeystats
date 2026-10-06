@@ -7,6 +7,9 @@ Allow: /
 User-agent: *
 Disallow: /birthdays
 
+User-agent: *
+Disallow: /jackesboxes/stats
+
 User-agent: anthropic-ai
 Disallow: /
 
