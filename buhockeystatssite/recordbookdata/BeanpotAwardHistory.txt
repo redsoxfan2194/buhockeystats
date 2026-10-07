@@ -51,7 +51,7 @@
 2003	Sean Fields	G	Boston University	Sean Fields	Boston University	59	3	0.952	1.5
 2004	Sean Fields	G	Boston University	Sean Fields	Boston University	85	4	0.955	1.9
 2005	Chris Bourque	F	Boston University	Keni Gibson	Northeastern	65	4	0.942	1.54
-2006	Peter MacArthur	F	Boston University	Cory Schneider	Boston College	61	5	0.924	2.53
+2006	Pete MacArthur	F	Boston University	Cory Schneider	Boston College	61	5	0.924	2.53
 2007	John Curry	G	Boston University	John Curry	Boston University	64	1	0.985	0.48
 2008	Brian Gibbons	F	Boston College	Brad Thiessen	Northeastern	70	8	0.897	4.06
 2009	Nick Bonino	F	Boston University	Brad Thiessen	Northeastern	74	6	0.925	3
