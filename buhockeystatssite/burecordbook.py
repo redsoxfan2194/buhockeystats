@@ -4040,6 +4040,11 @@ def updateNHLStats():
     dfNHLGoalieSeason['gameTypeId'] = dfNHLGoalieSeason['gameTypeId'].replace({2: 'Regular Season', 3: 'Playoffs'})
     dfNHLGoalieSeason.rename(columns={'gameTypeId':'seasonType','teamName':'team','gamesPlayed':'gp','gamesStarted':'gs','goalsAgainst':'ga',
            'goalsAgainstAvg':'gaa', 'wins':'W','losses':'L', 'ties':'T', 'shutouts':"SO",'timeOnIce':'mins','savePctg':'sv%'},inplace=True)
+    dfNHLGoalieSeason['saves']=dfNHLGoalieSeason['shotsAgainst']-dfNHLGoalieSeason['ga']
+    dfNHLGoalieSeason[['mm','ss']]=dfNHLGoalieSeason['mins'].str.split(':',expand=True)
+    dfNHLGoalieSeason['mins']=int(dfNHLGoalieSeason['mm'])+int(dfNHLGoalieSeason['ss'])/60
+    dfNHLGoalieSeason['gs']=dfNHLGoalieSeason['gs'].astype(int)
+    dfNHLGoalieSeason['season']=currSeason
     dfNHLGoalieSeason=dfNHLGoalieSeason[["name", "seasonType", "season", "team", "gp", "gs", "mins", "ga", "gaa", "saves", "sv%", "W", "L", "T", "SO"]]
   dfNHLSkateSeason=dfNHL[['name','pos','gameTypeId','season','teamName','gamesPlayed','goals','assists','points','pim','plusMinus']].copy()
   dfNHLSkateSeason['gameTypeId'] = dfNHLSkateSeason['gameTypeId'].replace({2: 'Regular Season', 3: 'Playoffs'})

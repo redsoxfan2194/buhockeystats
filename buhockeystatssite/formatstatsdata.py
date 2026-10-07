@@ -317,6 +317,7 @@ def formatStats(dfRes):
                         'Win%': '{:.3f}'})
     for stat in [
         'gp',
+        'gs',
         'goals',
         'assists',
         'pts',
