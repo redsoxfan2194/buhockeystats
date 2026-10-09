@@ -1,0 +1,12 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+24,"['Jay Pandolfo (1992-96)', 'Joe DiPenta (1997-99)', 'Chris Drury (1994-98)', 'John Cullen (1983-87)', 'Vic Stanfield (1972-75)', 'Quinn Hutson (2022-25)', 'Mike Eruzione (1973-77)', 'Rick Meagher (1973-77)', 'Dave Silk (1976-79)']",9,False,0,2026-09-29T10:31:44.529Z
+24,"['Chris Drury (1994-98)', 'Chris Heron (1996-00)', 'Tony Amonte (1989-91)', 'David Tomlinson (1987-91)', 'Rick Meagher (1973-77)', ""Danny O'Regan (2012-16)"", 'John Cullen (1983-87)', 'John Danby (1969-72)', 'Mark Fidler (1977-81)']",9,False,0,2026-09-29T10:51:10.014Z
+24,"['Jay Pandolfo (1992-96)', None, 'Chris Drury (1994-98)', 'Rick Meagher (1973-77)', None, 'John Cullen (1983-87)', None, None, 'Marie-Philip Poulin (2010-15)']",5,False,0,2026-09-29T13:39:05.842Z
+24,"['Chris Drury (1994-98)', None, 'Mike Grier (1993-96)', None, None, 'Victoria Bach (2014-18)', 'Mike Eruzione (1973-77)', None, 'Marie-Philip Poulin (2010-15)']",5,False,0,2026-09-29T13:56:53.822Z
+24,"['Jay Pandolfo (1992-96)', None, 'Jacques Joubert (1992-95)', 'Victoria Bach (2014-18)', 'Rebecca Leslie (2014-18)', 'Kayla Tutino (2011-16)', 'Marie-Philip Poulin (2010-15)', None, 'Dave Silk (1976-79)']",7,True,1,2026-09-29T14:26:45.394Z
+24,"['Chris Drury (1994-98)', None, 'Jay Pandolfo (1992-96)', 'Mike Eruzione (1973-77)', None, 'Quinn Hutson (2022-25)', 'Bob Marquis (1957-60)', None, None]",5,False,0,2026-09-29T14:42:12.936Z
+24,"['Chris Drury (1994-98)', 'Scott Cashman (1989-93)', 'Tony Amonte (1989-91)', None, None, 'Mike Pomichter (1991-94)', 'David Sacco (1988-93)', None, 'John Cullen (1983-87)']",6,False,0,2026-09-29T14:58:04.907Z
+24,"['Jay Pandolfo (1992-96)', None, None, None, None, 'Quinn Hutson (2022-25)', 'Mike Eruzione (1973-77)', None, None]",3,False,0,2026-09-29T15:40:04.800Z
+24,"['Chris Drury (1994-98)', None, None, 'Marie-Philip Poulin (2010-15)', None, 'Quinn Hutson (2022-25)', 'Jay Pandolfo (1992-96)', None, None]",4,True,4,2026-09-29T15:44:01.331Z
+24,"['Shawn McEachern (1988-91)', 'Adrian Aucoin (1991-92)', 'Jay Pandolfo (1992-96)', 'John Cullen (1983-87)', None, 'Chris Drury (1994-98)', 'Mike Eruzione (1973-77)', 'Rick Meagher (1973-77)', 'David Sacco (1988-93)']",8,False,0,2026-09-29T16:18:58.747Z
+24,"['Chris Drury (1994-98)', None, 'Shawn Bates (1993-97)', None, 'Evan Rodrigues (2011-15)', ""Danny O'Regan (2012-16)"", None, 'John Cullen (1983-87)', 'Mike Eruzione (1973-77)']",6,False,0,2026-09-29T20:04:49.872Z

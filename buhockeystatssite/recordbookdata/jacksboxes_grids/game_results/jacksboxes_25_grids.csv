@@ -1,0 +1,10 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+25,"['Jeremy Wilmer (2022-24)', None, 'Henry Graham (2023-24)', None, None, None, None, None, None]",2,False,0,2026-09-30T10:32:32.820Z
+25,"['Jeremy Wilmer (2022-24)', 'Matt Gilroy (2005-09)', 'Henry Graham (2023-24)', 'Mike Eruzione (1973-77)', 'Jay Pandolfo (1992-96)', None, 'Tony Amonte (1989-91)', 'Kaj Linna (1991-95)', 'Jenn Wakefield (2010-12)']",8,False,0,2026-09-30T10:34:48.750Z
+25,"['Jeremy Wilmer (2022-24)', 'Matt Gilroy (2005-09)', 'Max Kaufman (2020-22)', 'Mark Fidler (1977-81)', 'Quinn Hutson (2022-25)', 'Jacques Joubert (1992-95)', 'Dick Lamby (1976-78)', 'John Bethel (1976-79)', None]",8,False,0,2026-09-30T10:49:21.762Z
+25,"[None, 'Matt Gilroy (2005-09)', None, 'Macklin Celebrini (2023-24)', 'Quinn Hutson (2022-25)', None, None, None, None]",3,False,0,2026-09-30T12:17:05.787Z
+25,"[None, None, 'Henry Graham (2023-24)', None, 'Wilmer Skoog (2019-23)', None, None, None, None]",2,False,0,2026-09-30T12:56:19.666Z
+25,"[None, 'David Farrance (2017-21)', None, None, 'Macklin Celebrini (2023-24)', None, None, 'Devin Kaplan (2022-25)', None]",3,False,0,2026-09-30T13:41:59.439Z
+25,"[None, 'Kristina Schuler (2017-21)', None, 'Jesse Compher (2017-21)', 'Marie-Philip Poulin (2010-15)', None, None, 'Maddie Elia (2013-17)', None]",4,False,0,2026-09-30T14:10:26.167Z
+25,"[None, 'Kristina Schuler (2017-21)', None, 'Jesse Compher (2017-21)', 'Victoria Bach (2014-18)', 'Isabel Menard (2011-13)', ""Albie O'Connell (1995-99)"", 'Melissa Anderson (2006-10)', 'Cara Hendry (2005-07)']",7,True,1,2026-09-30T15:13:55.699Z
+25,"[None, 'Pete MacArthur (2004-08)', 'Max Kaufman (2020-22)', 'Evan Rodrigues (2011-15)', 'Quinn Hutson (2022-25)', 'Jacques Joubert (1992-95)', ""Jack O'Callahan (1975-79)"", 'Mike Grier (1993-96)', None]",7,True,1,2026-09-30T22:37:33.537Z

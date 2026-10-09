@@ -1,0 +1,10 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+23,"[None, None, 'Sam Stevens (2019-24)', None, 'Jack Eichel (2014-15)', 'Logan Cockerill (2017-22)', 'Malte Vass (2025-26)', 'Kasper Kotkansalo (2017-20)', 'Wilmer Skoog (2019-23)']",6,False,0,2026-09-28T10:32:19.845Z
+23,"[None, 'Gabriel Chabot (2016-20)', 'Sam Stevens (2019-24)', 'Jeremy Wilmer (2022-24)', 'Evan Rodrigues (2011-15)', 'Nick Zabaneh (2020-24)', 'Hugo Blixt (2018-20)', 'Kasper Kotkansalo (2017-20)', 'Wilmer Skoog (2019-23)']",8,False,0,2026-09-28T10:56:05.932Z
+23,"[None, None, None, 'Robbie Baillargeon (2013-16)', 'Alex Chiasson (2009-12)', None, 'Alex Zetterberg (2024-25)', None, 'Wilmer Skoog (2019-23)']",4,False,0,2026-09-28T13:28:41.823Z
+23,"['Vinny Duplessis (2020-23)', 'Alex Chiasson (2009-12)', 'Gabriel Chabot (2016-20)', None, 'Jakob Forsbacka Karlsson (2015-17)', 'Logan Cockerill (2017-22)', 'Sascha Boumedienne (2024-26)', 'Ahti Oksanen (2012-16)', 'Wilmer Skoog (2019-23)']",8,False,0,2026-09-28T13:28:46.887Z
+23,"[None, 'Marie-Philip Poulin (2010-15)', None, None, 'Victoria Bach (2014-18)', 'Case McCarthy (2019-24)', None, 'Oskar Andrén (2015-17)', 'Wilmer Skoog (2019-23)']",5,False,0,2026-09-28T13:37:34.757Z
+23,"['Andi Calderone (2020-24)', 'Marie-Philip Poulin (2010-15)', 'Gabriel Chabot (2016-20)', 'Jesse Compher (2017-21)', 'Victoria Bach (2014-18)', 'Case McCarthy (2019-24)', None, 'Kasper Kotkansalo (2017-20)', 'Wilmer Skoog (2019-23)']",8,True,1,2026-09-28T14:43:56.396Z
+23,"[None, None, None, None, 'Charlie Coyle (2010-12)', 'Case McCarthy (2019-24)', None, 'Jakob Forsbacka Karlsson (2015-17)', 'Wilmer Skoog (2019-23)']",4,False,0,2026-09-28T15:07:43.726Z
+23,"[None, 'Gabriel Chabot (2016-20)', 'Sam Stevens (2019-24)', None, None, 'Wilmer Skoog (2019-23)', None, 'Jakob Forsbacka Karlsson (2015-17)', 'Kasper Kotkansalo (2017-20)']",5,False,0,2026-09-28T15:11:43.047Z
+23,"[None, 'Sam Stevens (2019-24)', 'Vinny Duplessis (2020-23)', 'Julia Nearis (2019-23)', 'Bobo Carpenter (2015-19)', 'Patrick Curry (2016-20)', 'Hugo Blixt (2018-20)', 'Kasper Kotkansalo (2017-20)', 'Wilmer Skoog (2019-23)']",8,False,0,2026-09-28T16:35:39.557Z

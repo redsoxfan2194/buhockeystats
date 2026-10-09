@@ -41,7 +41,7 @@ cache = Cache(app)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about' ,'feedback' ,'missingdates' ,'players' ,'statsbot' ,'records' ,'notables' ,'trio' ,'tidbits' ,'captains' ,'bloodlines' ,'cupwinners' ,'transfers' ,'awards' ,'trophies' ,'worldjuniors' ,'olympians' ,'nhldraft' ,'nhlteammates' ,'nhlers' ,'nhlawards' ,'prostats' ,'pwhlteammates' ,'pwhlers' ,'pwhldraft' ,'pwhlawards' ,'winterclassic' ,'shutouts' ,'hattricks' ,'prohattricks' ,'proshutouts' ,'birthday' ,'birthdays' ,'jacksboxes' ,'trivia' , 'triviagame', 'cwhldraft', 'cwhlawrds']
+    pages = ['', 'about' ,'feedback' ,'missingdates' ,'players' ,'statsbot' ,'records' ,'notables' ,'trio' ,'tidbits' ,'captains' ,'bloodlines' ,'cupwinners' ,'transfers' ,'awards' ,'trophies' ,'worldjuniors' ,'olympians' ,'nhldraft' ,'nhlteammates' ,'nhlers' ,'nhlawards' ,'prostats' ,'pwhlteammates' ,'pwhlers' ,'pwhldraft' ,'pwhlawards' ,'winterclassic' ,'shutouts' ,'hattricks' ,'prohattricks' ,'proshutouts' ,'birthday' ,'birthdays' ,'jacksboxes' ,'trivia' , 'triviagame', 'cwhldraft', 'cwhlawards']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
