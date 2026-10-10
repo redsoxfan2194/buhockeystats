@@ -132,14 +132,14 @@ CAPTAINS: Gina Kearns, Sarah Russell
 10/19 T (ot) Walter Brown Arena H #6 St. Lawrence 2-2
 10/23 W Walter Brown Arena H #4 New Hampshire * 3-2
 10/25 W Agganis Arena H Maine * 8-1
-10/30 T Whittemore Center Arena A #5 New Hampshire * 2-2
-11/1 T Walter Brown Arena H Providence * 3-3
+10/30 T (ot) Whittemore Center Arena A #5 New Hampshire * 2-2
+11/1 T (ot) Walter Brown Arena H Providence * 3-3
 11/14 W Hobey Baker Rink A Princeton 2-0
 11/15 W TDBN Sports Ctr. A Quinnipiac 5-1
 11/22 W Conte Forum A #8 Boston College * 4-1
 11/25 L Ingalls Rink A Yale 1-4
 12/5 L Gutterson Fieldhouse A Vermont * 2-3
-12/7 T Walter Brown Arena H #7 New Hampshire * 3-3
+12/7 T (ot) Walter Brown Arena H #7 New Hampshire * 3-3
 12/10 L Walter Brown Arena H #9 Boston College * 0-5
 1/2 W OSU Ice Rink A Ohio State 5-3
 1/3 T (ot) OSU Ice Rink A Ohio State 2-2
@@ -152,10 +152,10 @@ CAPTAINS: Gina Kearns, Sarah Russell
 1/30 W Walter Brown Arena H Vermont * 3-2
 1/31 W Walter Brown Arena H Vermont * 4-0
 2/3 L Matthews Arena N Harvard (BP) 0-8
-2/6 T Freitas Ice Forum A #9 Connecticut * 2-2
+2/6 T (ot) Freitas Ice Forum A #9 Connecticut * 2-2
 2/7 W Walter Brown Arena H #9 Connecticut * 3-1
 2/10 W Matthews Arena A Northeastern (BP) 2-1
-2/14 T Conte Forum A #7 Boston College * 3-3
+2/14 T (ot) Conte Forum A #7 Boston College * 3-3
 2/21 W Matthews Arena A Northeastern * 3-0
 2/22 W Walter Brown Arena H Northeastern * 8-1
 2/28 W Walter Brown Arena H Northeastern (HE) 2-1
@@ -176,27 +176,27 @@ CAPTAINS: Sarah Appleton, Melissa Tetreau
 10/31 W Schneider Arena A Providence * 3-1
 11/2 L Walter Brown Arena H Boston College * 1-2
 11/6 L Walter Brown Arena H #3 New Hampshire * 3-4
-11/7 T Whittemore Center Arena A #3 New Hampshire * 4-4
+11/7 T (ot) Whittemore Center Arena A #3 New Hampshire * 4-4
 11/8 W Conte Forum A Boston College * 4-0
 11/11 W Walter Brown Arena H Vermont * 4-0
 11/14 W Agganis Arena H Providence * 5-3
 11/15 L Schneider Arena A Providence * 2-6
-11/24 T Alfond Arena A Maine * 1-1
+11/24 T (ot) Alfond Arena A Maine * 1-1
 11/27 L Hobey Baker Rink A Princeton 1-3
 11/28 W Hobey Baker Rink A Princeton 3-2
 12/4 L Freitas Ice Forum A Connecticut * 3-4
-12/5 T Walter Brown Arena H Connecticut * 1-1
+12/5 T (ot) Walter Brown Arena H Connecticut * 1-1
 1/8 W Walter Brown Arena H Yale 4-1
-1/10 T Walter Brown Arena H Brown 5-5
+1/10 T (ot) Walter Brown Arena H Brown 5-5
 1/19 W Walter Brown Arena H Boston College * 3-1
 1/22 L (ot) Gutterson Fieldhouse A Vermont * 1-2
 1/23 W Gutterson Fieldhouse A Vermont * 3-2
-1/26 T Matthews Arena A Northeastern * 2-2
+1/26 T (ot) Matthews Arena A Northeastern * 2-2
 1/29 L Walter Brown Arena H Connecticut * 0-2
-2/2 T Bright-Landry Hockey Center N Northeastern (BP) 4-4
+2/2 T (ot) Bright-Landry Hockey Center N Northeastern (BP) 4-4
 2/6 W Whittemore Center Arena A New Hampshire * 5-2
 2/9 T (ot) Bright-Landry Hockey Center N Boston College (BP) 1-1
-2/13 T Walter Brown Arena H Northeastern * 2-2
+2/13 T (ot) Walter Brown Arena H Northeastern * 2-2
 2/14 W Matthews Arena A Northeastern * 2-1
 2/20 W Walter Brown Arena H Maine * 3-1
 2/21 W Walter Brown Arena H Maine * 2-0
@@ -588,7 +588,7 @@ CAPTAINS: Sammy Davis, Reagan Rust, Natasza Tarnowski
 1/25 W Walter Brown Arena H Merrimack * 6-3
 1/26 T (ot) Lawler Rink A Merrimack * 3-3
 2/1 W Gutterson Fieldhouse A Vermont * 7-2
-2/5 T Bright-Landry Hockey Center N #3 Northeastern (BP) 3-3
+2/5 T (ot) Bright-Landry Hockey Center N #3 Northeastern (BP) 3-3
 2/9 W Walter Brown Arena H Holy Cross * 7-1
 2/12 W (ot) Bright-Landry Hockey Center A Harvard (BP) 3-2
 2/16 T (ot) Agganis Arena H New Hampshire * 3-3
@@ -665,11 +665,11 @@ CAPTAIN: Kaleigh Donnelly
 10/01 W Whittemore Center Arena A New Hampshire * 4-2
 10/02 W Walter Brown Arena H New Hampshire * 5-0
 10/08 W Walter Brown Arena H Northeastern * 2-1
-10/09 T Whittemore Center Arena A New Hampshire * 3-3
-10/15 T Walter Brown Arena H Merrimack * 4-4
+10/09 T (ot) Whittemore Center Arena A New Hampshire * 3-3
+10/15 T (ot) Walter Brown Arena H Merrimack * 4-4
 10/22 L Houston Field House A Rensselaer 2-4
 10/23 W Messa Rink A Union 4-1
-10/29 T Walter Brown Arena H Vermont * 1-1
+10/29 T (ot) Walter Brown Arena H Vermont * 1-1
 10/31 W Schneider Arena A Providence * 2-1
 11/05 L Freitas Ice Forum A Connecticut * 1-2
 11/06 L Walter Brown Arena H Connecticut * 0-1
@@ -686,13 +686,13 @@ CAPTAIN: Kaleigh Donnelly
 01/21 L Matthews Arena A #3 Northeastern * 3-6
 01/28 W Hart Center A Holy Cross * 4-3
 02/01 L Matthews Arena N Harvard (BP) 1-4
-02/04 T Walter Brown Arena H Connecticut * 1-1
+02/04 T (ot) Walter Brown Arena H Connecticut * 1-1
 02/05 L Conte Forum A Boston College * 0-3
 02/08 L Matthews Arena A Northeastern (BP) 0-3
 02/11 W Gutterson Fieldhouse A Vermont * 4-3
 02/12 L Gutterson Fieldhouse A Vermont * 2-5
 02/15 W (ot) Walter Brown Arena H Maine * 3-2
-02/18 T Schneider Arena A Providence * 1-1
+02/18 T (ot) Schneider Arena A Providence * 1-1
 02/19 L (ot) Walter Brown Arena H Providence * 1-2
 02/26 L Freitas Ice Forum A Connecticut (HE) 1-3
 2022-23
