@@ -14456,3 +14456,20 @@
 10/02/2026,Wisconsin,Anežka Čabelová,F,SO,0,0,0,2026-27
 10/02/2026,Wisconsin,Mari Pietersen,G,SR,0,0,0,2026-27
 10/02/2026,Wisconsin,Sydney Fogu,G,SO,0,0,0,2026-27
+10/09/2026,New Hampshire,Eden Bergman,F,FR,0,0,0,2026-27
+10/09/2026,New Hampshire,Lola Reid,F,JR,0,0,0,2026-27
+10/09/2026,New Hampshire,Greta Henderson,F,SR,0,1,1,2026-27
+10/09/2026,New Hampshire,Keira Healey,D,JR,0,0,0,2026-27
+10/09/2026,New Hampshire,Lo Lachapelle,F,FR,0,1,1,2026-27
+10/09/2026,New Hampshire,Julia Curran,F,FR,1,0,1,2026-27
+10/09/2026,New Hampshire,Quinn Taylor,F,FR,1,1,2,2026-27
+10/09/2026,New Hampshire,Neely Nicholson,F,SR,0,0,0,2026-27
+10/09/2026,New Hampshire,Ella Pukala,F,SO,1,0,1,2026-27
+10/09/2026,New Hampshire,Tessa Demain,D,JR,0,0,0,2026-27
+10/09/2026,New Hampshire,Mylie Ellis,D,FR,0,0,0,2026-27
+10/09/2026,New Hampshire,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/09/2026,New Hampshire,Lexie Bertelsen,F,SO,0,2,2,2026-27
+10/09/2026,New Hampshire,Avery Supryka,D,SO,1,0,1,2026-27
+10/09/2026,New Hampshire,Anežka Čabelová,F,SO,0,1,1,2026-27
+10/09/2026,New Hampshire,Peyton Blaney,D,SR,0,0,0,2026-27
+10/09/2026,New Hampshire,Mari Pietersen,G,SR,0,0,0,2026-27
