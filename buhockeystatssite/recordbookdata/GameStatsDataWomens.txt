@@ -14433,7 +14433,7 @@
 10/01/2026,Wisconsin,Quinn Taylor,F,FR,0,0,0,2026-27
 10/01/2026,Wisconsin,Lola Reid,F,JR,0,0,0,2026-27
 10/01/2026,Wisconsin,Kylie Hollingsworth,F,FR,0,0,0,2026-27
-10/01/2026,Wisconsin,Anežka Čabelová,F,SO,0,0,0,2026-27
+10/01/2026,Wisconsin,Anežka Čabelová,D,SO,0,0,0,2026-27
 10/01/2026,Wisconsin,Greta Henderson,F,SR,0,0,0,2026-27
 10/01/2026,Wisconsin,Tessa Demain,D,JR,0,0,0,2026-27
 10/01/2026,Wisconsin,Mari Pietersen,G,SR,0,0,0,2026-27
@@ -14453,7 +14453,7 @@
 10/02/2026,Wisconsin,Greta Henderson,F,SR,0,0,0,2026-27
 10/02/2026,Wisconsin,Kylie Hollingsworth,F,FR,0,0,0,2026-27
 10/02/2026,Wisconsin,Julia Curran,F,FR,0,0,0,2026-27
-10/02/2026,Wisconsin,Anežka Čabelová,F,SO,0,0,0,2026-27
+10/02/2026,Wisconsin,Anežka Čabelová,D,SO,0,0,0,2026-27
 10/02/2026,Wisconsin,Mari Pietersen,G,SR,0,0,0,2026-27
 10/02/2026,Wisconsin,Sydney Fogu,G,SO,0,0,0,2026-27
 10/09/2026,New Hampshire,Eden Bergman,F,FR,0,0,0,2026-27
@@ -14470,6 +14470,23 @@
 10/09/2026,New Hampshire,Kylie Hollingsworth,F,FR,0,0,0,2026-27
 10/09/2026,New Hampshire,Lexie Bertelsen,F,SO,0,2,2,2026-27
 10/09/2026,New Hampshire,Avery Supryka,D,SO,1,0,1,2026-27
-10/09/2026,New Hampshire,Anežka Čabelová,F,SO,0,1,1,2026-27
+10/09/2026,New Hampshire,Anežka Čabelová,D,SO,0,1,1,2026-27
 10/09/2026,New Hampshire,Peyton Blaney,D,SR,0,0,0,2026-27
 10/09/2026,New Hampshire,Mari Pietersen,G,SR,0,0,0,2026-27
+10/10/2026,Holy Cross,Neely Nicholson,F,SR,1,1,2,2026-27
+10/10/2026,Holy Cross,Kate Meinert,D,JR,0,0,0,2026-27
+10/10/2026,Holy Cross,Mia Vergilii,F,SO,0,0,0,2026-27
+10/10/2026,Holy Cross,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/10/2026,Holy Cross,Tessa Demain,D,JR,0,0,0,2026-27
+10/10/2026,Holy Cross,Avery Supryka,D,SO,0,0,0,2026-27
+10/10/2026,Holy Cross,Mylie Ellis,D,FR,0,1,1,2026-27
+10/10/2026,Holy Cross,Keira Healey,D,JR,0,1,1,2026-27
+10/10/2026,Holy Cross,Quinn Taylor,F,FR,0,0,0,2026-27
+10/10/2026,Holy Cross,Lo Lachapelle,F,FR,1,0,1,2026-27
+10/10/2026,Holy Cross,Peyton Blaney,D,SR,0,0,0,2026-27
+10/10/2026,Holy Cross,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/10/2026,Holy Cross,Lola Reid,F,JR,0,0,0,2026-27
+10/10/2026,Holy Cross,Greta Henderson,F,SR,0,1,1,2026-27
+10/10/2026,Holy Cross,Julia Curran,F,FR,0,0,0,2026-27
+10/10/2026,Holy Cross,Ella Pukala,F,SO,0,0,0,2026-27
+10/10/2026,Holy Cross,Sydney Fogu,G,SO,0,0,0,2026-27
