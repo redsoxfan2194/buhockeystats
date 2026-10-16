@@ -32168,7 +32168,7 @@
 10/02/2026,Alaska,Aiden Celebrini,D,SR,0,0,0,2026-27
 10/02/2026,Alaska,Ben Merrill,F,SO,0,0,0,2026-27
 10/02/2026,Alaska,Mikhail Yegorov,G,JR,0,0,0,2026-27
-10/03/2026,Alaska,Tynan Lawrence,F,SO,0,0,0,2026-27
+10/03/2026,Alaska,Tynan Lawrence,F,SO,1,0,1,2026-27
 10/03/2026,Alaska,Caleb Malhotra,F,FR,1,0,1,2026-27
 10/03/2026,Alaska,Conrad Fondrk,F,SO,0,0,0,2026-27
 10/03/2026,Alaska,Jonathan Morello,F,SO,0,0,0,2026-27
