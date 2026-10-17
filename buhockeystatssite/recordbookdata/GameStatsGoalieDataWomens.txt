@@ -779,3 +779,4 @@
 10/02/2026,Wisconsin,Sydney Fogu,SO,37,3,1,0,57.83,L,2026-27
 10/09/2026,New Hampshire,Mari Pietersen,SR,27,4,1,0,65.0,T,2026-27
 10/10/2026,Holy Cross,Sydney Fogu,SO,34,1,1,0,60.0,W,2026-27
+10/16/2026,Colgate,Sydney Fogu,SO,28,1,1,0,43.0,,2026-27

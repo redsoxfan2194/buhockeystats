@@ -14490,3 +14490,21 @@
 10/10/2026,Holy Cross,Julia Curran,F,FR,0,0,0,2026-27
 10/10/2026,Holy Cross,Ella Pukala,F,SO,0,0,0,2026-27
 10/10/2026,Holy Cross,Sydney Fogu,G,SO,0,0,0,2026-27
+10/16/2026,Colgate,Keira Healey,D,JR,0,0,0,2026-27
+10/16/2026,Colgate,Peyton Blaney,D,SR,0,0,0,2026-27
+10/16/2026,Colgate,Ella Pukala,F,SO,0,0,0,2026-27
+10/16/2026,Colgate,Eden Bergman,F,FR,0,0,0,2026-27
+10/16/2026,Colgate,Neely Nicholson,F,SR,0,0,0,2026-27
+10/16/2026,Colgate,Kaileigh Quigg,F,JR,0,0,0,2026-27
+10/16/2026,Colgate,Bronwyn Langis,F,FR,0,0,0,2026-27
+10/16/2026,Colgate,Tessa Demain,D,JR,0,0,0,2026-27
+10/16/2026,Colgate,Mylie Ellis,D,FR,0,0,0,2026-27
+10/16/2026,Colgate,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/16/2026,Colgate,Lola Reid,F,JR,0,0,0,2026-27
+10/16/2026,Colgate,Quinn Taylor,F,FR,0,0,0,2026-27
+10/16/2026,Colgate,Lo Lachapelle,F,FR,0,0,0,2026-27
+10/16/2026,Colgate,Julia Curran,F,FR,0,0,0,2026-27
+10/16/2026,Colgate,Greta Henderson,F,SR,0,0,0,2026-27
+10/16/2026,Colgate,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/16/2026,Colgate,Anežka Čabelová,F,SO,0,0,0,2026-27
+10/16/2026,Colgate,Sydney Fogu,G,SO,0,0,0,2026-27

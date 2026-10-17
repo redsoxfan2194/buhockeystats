@@ -32188,3 +32188,17 @@
 10/03/2026,Alaska,Jack Harvey,F,SR,0,1,1,2026-27
 10/03/2026,Alaska,Brandon Svoboda,F,JR,0,1,1,2026-27
 10/03/2026,Alaska,Mikhail Yegorov,G,JR,0,0,0,2026-27
+10/16/2026,Vermont,Kamil Bednarik,F,JR,0,0,0,2026-27
+10/16/2026,Vermont,Nick Roukounakis,F,JR,0,0,0,2026-27
+10/16/2026,Vermont,Jonathan Morello,F,SO,0,0,0,2026-27
+10/16/2026,Vermont,Viktor Nörringer,F,FR,0,1,1,2026-27
+10/16/2026,Vermont,Aiden Celebrini,D,SR,0,0,0,2026-27
+10/16/2026,Vermont,Caleb Malhotra,F,FR,0,0,0,2026-27
+10/16/2026,Vermont,Ben Merrill,F,SO,0,0,0,2026-27
+10/16/2026,Vermont,Jack Murtagh,F,SO,1,0,1,2026-27
+10/16/2026,Vermont,Ryder Ritchie,F,SO,0,0,0,2026-27
+10/16/2026,Vermont,Brandon Svoboda,F,JR,0,0,0,2026-27
+10/16/2026,Vermont,Tynan Lawrence,F,SO,0,1,1,2026-27
+10/16/2026,Vermont,Charlie Trethewey,D,SO,0,0,0,2026-27
+10/16/2026,Vermont,Haoxi Wang,D,FR,0,0,0,2026-27
+10/16/2026,Vermont,Mikhail Yegorov,G,JR,0,0,0,2026-27
