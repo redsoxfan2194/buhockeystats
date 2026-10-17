@@ -1,4 +1,9 @@
 import os
-  
 '''Path to Record Book Data'''
-RECBOOK_DATA_PATH = f'{os.getcwd()}/recordbookdata/'
+sitepath = '/home/buhockeystats/mysite/recordbookdata/'
+
+if os.path.isdir(sitepath):
+    RECBOOK_DATA_PATH = sitepath
+
+else:
+  RECBOOK_DATA_PATH = f'{os.getcwd()}/recordbookdata/'
