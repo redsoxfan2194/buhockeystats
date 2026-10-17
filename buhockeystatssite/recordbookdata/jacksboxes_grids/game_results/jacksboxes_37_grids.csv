@@ -1,0 +1,9 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+37,"[""Jack O'Callahan (1975-79)"", 'Jay Pandolfo (1992-96)', 'Quinn Hutson (2022-25)', 'John Danby (1969-72)', 'Terry Meagher (1973-76)', 'Evan Rodrigues (2011-15)', 'Mark Fidler (1977-81)', 'Cole Eiserman (2024-26)', 'Brandon Svoboda (2024-27)']",9,False,0,2026-10-12T10:35:54.593Z
+37,"[None, 'Matt Brown (2021-23)', 'Nick Roukounakis (2024-27)', 'Fred Bassi (1964-67)', 'Rebecca Leslie (2014-18)', 'John Cullen (1983-87)', 'Mike Eruzione (1973-77)', 'Gavin McCarthy (2023-26)', 'Dave Silk (1976-79)']",8,False,0,2026-10-12T12:22:37.548Z
+37,"[None, 'Charlie McAvoy (2015-17)', 'Nara Elia (2017-21)', None, 'Victoria Bach (2014-18)', 'Rebecca Leslie (2014-18)', 'Marie-Philip Poulin (2010-15)', 'Sammy Davis (2015-20)', 'Kayla Tutino (2011-16)']",7,False,0,2026-10-12T14:06:11.859Z
+37,"[None, None, None, 'Herb Wakabayashi (1966-69)', None, None, 'Jack Parker (1965-68)', 'Gavin McCarthy (2023-26)', 'Brandon Svoboda (2024-27)']",4,False,0,2026-10-12T14:28:17.904Z
+37,"['Matt Gilroy (2005-09)', 'Jesse Compher (2017-21)', 'Alex Law (2023-25)', None, 'Natasza Tarnowski (2016-20)', 'Courtney Correia (2018-22)', 'Marie-Philip Poulin (2010-15)', 'Sammy Davis (2015-20)', 'Victoria Bach (2014-18)']",8,False,0,2026-10-12T14:40:56.957Z
+37,"['Jay Pandolfo (1992-96)', 'Mark Krys (1987-91)', 'Ahti Oksanen (2012-16)', 'Rick Meagher (1973-77)', 'Rebecca Leslie (2014-18)', None, 'Chris Drury (1994-98)', 'Cole Eiserman (2024-26)', 'Brandon Svoboda (2024-27)']",8,False,0,2026-10-12T16:21:31.592Z
+37,"['Matt Gilroy (2005-09)', 'Macklin Celebrini (2023-24)', 'Quinn Hutson (2022-25)', None, None, None, 'Matt Grzelcyk (2012-16)', 'Cole Hutson (2024-26)', 'Jay Pandolfo (1992-96)']",6,True,2,2026-10-12T16:57:13.351Z
+37,"[None, 'Quinn Hutson (2022-25)', None, None, None, None, 'Jack Parker (1965-68)', 'Luke Tuch (2020-24)', 'Macklin Celebrini (2023-24)']",4,False,0,2026-10-12T17:45:59.387Z

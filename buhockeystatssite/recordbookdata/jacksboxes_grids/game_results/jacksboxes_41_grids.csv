@@ -1,0 +1,12 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+41,"[None, 'Marie-Philip Poulin (2010-15)', None, None, 'Cole Eiserman (2024-26)', None, None, 'Lane Hutson (2022-24)', None]",3,False,0,2026-10-16T10:32:03.388Z
+41,"[None, 'Macklin Celebrini (2023-24)', 'Cole Hutson (2024-26)', None, 'Quinn Hutson (2022-25)', 'Cole Eiserman (2024-26)', None, 'Lane Hutson (2022-24)', None]",5,False,0,2026-10-16T12:05:34.077Z
+41,"['Sammy Davis (2015-20)', 'Rebecca Leslie (2014-18)', None, 'Nadia Mattivi (2019-24)', None, None, None, 'Marie-Philip Poulin (2010-15)', None]",4,False,0,2026-10-16T12:06:19.909Z
+41,"[None, 'Macklin Celebrini (2023-24)', None, 'Alexx Privitera (2011-13)', None, 'Clayton Keller (2016-17)', 'John MacLeod (2014-18)', 'Wilmer Skoog (2019-23)', 'Patrick Harper (2016-20)']",6,False,0,2026-10-16T12:25:43.702Z
+41,"['Nadia Mattivi (2019-24)', 'Quinn Hutson (2022-25)', 'Cole Hutson (2024-26)', None, 'Cole Eiserman (2024-26)', None, ""Albie O'Connell (1995-99)"", 'Lane Hutson (2022-24)', 'Jakob Forsbacka Karlsson (2015-17)']",7,False,0,2026-10-16T12:34:18.286Z
+41,"['A.J. Greer (2014-16)', 'Mike Fidler (1974-76)', 'Evan Rodrigues (2011-15)', 'Pete MacArthur (2004-08)', 'John Bethel (1976-79)', 'Jack Eichel (2014-15)', 'Jon Coleman (1993-97)', 'Mike Prendergast (1991-95)', 'Mike Pomichter (1991-94)']",9,False,0,2026-10-16T12:56:40.722Z
+41,"[None, 'Marie-Philip Poulin (2010-15)', 'Shawn McEachern (1988-91)', None, 'Macklin Celebrini (2023-24)', 'Mike Pomichter (1991-94)', None, None, None]",4,False,0,2026-10-16T13:12:29.406Z
+41,"['Sammy Davis (2015-20)', 'Jesse Compher (2017-21)', None, 'Luisa Welcke (2023-26)', 'Jenn Wakefield (2010-12)', None, 'Shannon Doyle (2012-15)', 'Marie-Philip Poulin (2010-15)', None]",6,False,0,2026-10-16T13:39:15.328Z
+41,"['Sammy Davis (2015-20)', 'Jesse Compher (2017-21)', None, 'Luisa Welcke (2023-26)', 'Jenn Wakefield (2010-12)', None, 'Shannon Doyle (2012-15)', 'Marie-Philip Poulin (2010-15)', None]",6,True,3,2026-10-16T13:40:50.005Z
+41,"['Sammy Davis (2015-20)', 'Jesse Compher (2017-21)', None, 'Luisa Welcke (2023-26)', 'Jenn Wakefield (2010-12)', None, 'Shannon Doyle (2012-15)', 'Marie-Philip Poulin (2010-15)', None]",6,True,2,2026-10-16T13:57:41.157Z
+41,"['Sammy Davis (2015-20)', 'Marie-Philip Poulin (2010-15)', None, 'Lilli Welcke (2023-26)', 'Bobo Carpenter (2015-19)', None, 'Joe Pereira (2007-11)', 'Pete MacArthur (2004-08)', None]",6,False,0,2026-10-17T02:09:27.425Z
