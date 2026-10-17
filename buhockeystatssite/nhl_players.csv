@@ -63,6 +63,7 @@ Jack Quinn,R,8482097
 Tage Thompson,C,8479420
 Louis Crevier,D,8481806
 Rasmus Dahlin,D,8480839
+Dennis Gilbert,D,8478502
 Matt Grzelcyk,D,8476891
 Zach Metsa,D,8484305
 Owen Power,D,8482671
@@ -81,10 +82,12 @@ Taylor Hall,L,8475791
 Mark Jankowski,L,8476873
 Jesperi Kotkaniemi,C,8480829
 Jordan Martinook,L,8476921
+Bradly Nadeau,L,8484203
 Eric Robinson,L,8480762
 Jordan Staal,C,8473533
 Logan Stankoven,C,8482702
 Andrei Svechnikov,R,8480830
+Felix Unger Sörum,R,8484392
 Jalen Chatfield,D,8478970
 Shayne Gostisbehere,D,8476906
 K'Andre Miller,D,8480817
@@ -149,12 +152,12 @@ Ryan Greene,C,8483450
 Jordan Greenway,L,8478413
 Patrick Kane,R,8474141
 Roman Kantserov,R,8484390
-Nick Lardis,L,8484185
 Andrew Mangiapane,L,8478233
 Oliver Moore,C,8484197
 Frank Nazar,C,8483493
 Cole Smith,R,8482062
 Teuvo Teravainen,C,8476882
+Dominic Toninato,C,8476952
 Bowen Byram,D,8481524
 Ian Cole,D,8474013
 Ethan Del Mastro,D,8482807
@@ -165,6 +168,7 @@ Sam Rinzel,D,8483506
 Alex Vlasic,D,8481568
 Spencer Knight,G,8481519
 Arvid Soderblom,G,8482821
+Gavin Brindley,C,8484149
 T.J. Hughes,R,8486171
 Nazem Kadri,C,8475172
 Parker Kelly,C,8480448
@@ -272,6 +276,7 @@ Lars Eller,C,8474189
 Jonah Gadjovich,L,8479981
 Garnet Hathaway,R,8477903
 Bokondji Imama,L,8478147
+Sam Lafferty,C,8478043
 Anton Lundell,C,8482113
 Eetu Luostarinen,C,8480185
 Brad Marchand,L,8473419
@@ -302,6 +307,7 @@ Trevor Moore,L,8479675
 Artemi Panarin,L,8478550
 Corey Perry,R,8470621
 Alex Turcotte,C,8481532
+Jared Wright,R,8483756
 Mats Zuccarello,R,8475692
 Mikey Anderson,D,8479998
 Cody Ceci,D,8476879
@@ -320,6 +326,7 @@ Marcus Foligno,L,8475220
 Nick Foligno,L,8473422
 Ryan Hartman,R,8477451
 Kirill Kaprizov,L,8478864
+Rieger Lorenz,L,8483478
 Michael McCarron,C,8477446
 Tyler Pitlick,C,8475752
 Maxim Shabanov,R,8485702
@@ -329,15 +336,17 @@ Danila Yurov,R,8483525
 Zach Bogosian,D,8474567
 Jonas Brodin,D,8476463
 Brock Faber,D,8482122
-Viking Gustafsson Nyberg,D,8486166
 Quinn Hughes,D,8480800
 Daemon Hunt,D,8482094
+Matt Kiersted,D,8482641
 Olli Maatta,D,8476874
 David Spacek,D,8483766
 Jared Spurgeon,D,8474716
+Filip Gustavsson,G,8479406
 Calvin Pickard,G,8475717
 Jesper Wallstedt,G,8482661
 Josh Anderson,R,8476981
+Owen Beck,C,8483424
 Zachary Bolduc,R,8482737
 Cole Caufield,R,8481540
 Kirby Dach,C,8481523
@@ -354,9 +363,10 @@ Florian Xhekaj,L,8484403
 Alexandre Carrier,D,8478851
 Noah Dobson,D,8480865
 Adam Engstrom,D,8483686
+Kaiden Guhle,D,8482087
 Lane Hutson,D,8483457
 Mike Matheson,D,8476875
-Jayden Struble,D,8481593
+David Reinbacher,D,8484220
 Arber Xhekaj,D,8482964
 Jakub Dobes,G,8482487
 Jacob Fowler,G,8484170
@@ -379,6 +389,7 @@ Declan Chisholm,D,8480990
 Brenden Dillon,D,8475455
 Dougie Hamilton,D,8476462
 Luke Hughes,D,8482684
+Johnathan Kovacevic,D,8480192
 Brett Pesce,D,8477488
 Jonas Siegenthaler,D,8478399
 Jake Allen,G,8474596
@@ -403,10 +414,10 @@ Roman Josi,D,8474600
 Ilya Lyubushkin,D,8480950
 Nick Perbix,D,8480246
 Brady Skjei,D,8476869
+Jayden Struble,D,8481593
 William Trudeau,D,8482806
 Adam Wilsby,D,8482482
 Justus Annunen,G,8481020
-Matt Murray,G,8483575
 Juuse Saros,G,8477424
 Casey Cizikas,C,8475231
 Anthony Duclair,L,8477407
@@ -431,16 +442,16 @@ Matthew Schaefer,D,8485366
 Logan Stanley,D,8479378
 Ilya Sorokin,G,8478009
 Semyon Varlamov,G,8473575
-Cole Beaudoin,C,8484786
 Oliver Bjorkstrand,R,8477416
-Jaroslav Chmelar,R,8482877
 Will Cuylle,L,8482157
 Pavel Dorofeyev,R,8481604
+Justin Dowling,C,8475413
 Tye Kartye,L,8481789
 Noah Laba,C,8483690
 Alexis Lafrenière,L,8482109
 J.T. Miller,C,8476468
 Gabe Perreault,R,8484210
+Taylor Raddysh,R,8479390
 Matt Rempe,C,8482460
 Adam Sykora,L,8483669
 Eeli Tolvanen,R,8480009
@@ -449,13 +460,13 @@ Mika Zibanejad,C,8476459
 Sean Durzi,D,8480434
 Adam Fox,D,8479323
 Vladislav Gavrikov,D,8478882
-Vincent Iorio,D,8482861
 Scott Morrow,D,8482666
 Marcus Pettersson,D,8477969
 Braden Schneider,D,8482073
 Alberts Smits,D,8485957
 Dylan Garand,G,8482193
 Joonas Korpisalo,G,8476914
+Spencer Martin,G,8477484
 Igor Shesterkin,G,8478048
 Michael Amadio,R,8478020
 Drake Batherson,R,8480208
@@ -478,6 +489,7 @@ Nikolas Matinpalo,D,8484321
 Jake Sanderson,D,8482105
 Jordan Spence,D,8481606
 Carter Yakemchuk,D,8484759
+Artem Zub,D,8482245
 Samuel Ersson,G,8481035
 Linus Ullmark,G,8476999
 Noel Acciari,C,8478569
@@ -488,15 +500,17 @@ Sean Couturier,C,8476461
 Christian Dvorak,C,8477989
 Tyson Foerster,R,8482159
 Nikita Grebenkin,R,8483733
-Carl Grundstrom,R,8479336
 Travis Konecny,R,8478439
 Porter Martone,R,8485406
 Matvei Michkov,R,8484387
+Jack Studnicka,C,8480021
 Owen Tippett,R,8480015
 Garrett Wilson,L,8475253
 Trevor Zegras,C,8481533
 Simon Benoit,D,8481122
+Oliver Bonk,D,8484148
 Jamie Drysdale,D,8482142
+Helge Grans,D,8482169
 David Jiricek,D,8483460
 Rasmus Ristolainen,D,8477499
 Travis Sanheim,D,8477948
@@ -521,10 +535,10 @@ Bryan Rust,R,8475810
 Elmer Soderblom,L,8481725
 Declan Carlile,D,8483398
 Samuel Girard,D,8479398
+Ryan Johnson,D,8481564
 Erik Karlsson,D,8474578
 Kaedan Korczak,D,8481527
 Kris Letang,D,8471724
-Ilya Solovyov,D,8482470
 Spencer Stastney,D,8481056
 Trevor van Riemsdyk,D,8477845
 Sergei Murashov,G,8483703
@@ -551,17 +565,16 @@ Adam Larsson,D,8476457
 Ryan Lindgren,D,8479324
 Josh Mahura,D,8479372
 Brandon Montour,D,8477986
+Ty Nelson,D,8483494
 Ville Ottavainen,D,8482866
 Joey Daccord,G,8478916
 Philipp Grubauer,G,8475831
-Alex Barré-Boulet,C,8479718
 Macklin Celebrini,C,8484801
 Igor Chernyshov,L,8484994
 Ty Dellandrea,C,8480848
 Adam Gaudette,R,8478874
 Barclay Goodrow,C,8476624
 Collin Graf,R,8484911
-Brett Leason,R,8481517
 Mason Marchment,L,8478975
 Michael Misa,C,8485402
 Zack Ostapchuk,C,8482859
@@ -589,6 +602,7 @@ Ross Johnston,L,8477527
 Connor McMichael,L,8481580
 Mason McTavish,C,8482745
 Jake Neighbours,L,8482089
+Dylan Peterson,C,8482121
 Jimmy Snuggerud,R,8483516
 Pius Suter,C,8480459
 Robert Thomas,C,8480023
@@ -641,11 +655,13 @@ Nick Paul,L,8477426
 Jack Roslovic,C,8478458
 Colton Sissons,C,8476925
 John Tavares,C,8475166
+Miles Wood,L,8477425
 Nick Blankenburg,D,8483565
 Oliver Ekman-Larsson,D,8475171
 Jake McCabe,D,8476931
 Darren Raddysh,D,8478178
 Morgan Rielly,D,8476853
+Marshall Rifai,D,8483546
 Troy Stecher,D,8479442
 Chris Tanev,D,8475690
 Sergei Bobrovsky,G,8475683
@@ -685,7 +701,6 @@ Jonathan Lekkerimäki,R,8483476
 Drew O'Connor,L,8482055
 Liam Ohgren,L,8483499
 Elias Pettersson,C,8480012
-Aatu Räty,C,8482691
 Marco Rossi,C,8482079
 Max Sasson,C,8484136
 Guillaume Brisebois,D,8478465
@@ -715,6 +730,7 @@ Mark Stone,R,8475913
 Rasmus Andersson,D,8478397
 Dylan Coghlan,D,8479639
 Noah Hanifin,D,8478396
+Ville Heinola,D,8481572
 Jeremy Lauzon,D,8478468
 Brayden McNabb,D,8475188
 Shea Theodore,D,8477447
@@ -762,6 +778,7 @@ Tom Wilson,R,8476880
 Jakob Chychrun,D,8479345
 Vincent Desharnais,D,8479576
 Martin Fehérváry,D,8480796
+Justin Holl,D,8475718
 Cole Hutson,D,8484873
 Timothy Liljegren,D,8480043
 Dylan McIlrath,D,8475795
