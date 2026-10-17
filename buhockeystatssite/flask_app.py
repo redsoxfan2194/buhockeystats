@@ -1626,7 +1626,7 @@ def birthdays():
 
 @app.route('/lastworn')
 def lastworn():
-    ''' Renders "Winter Classic" Page
+    ''' Renders "Last Worn" Page
 
     Returns:
       Flask Template : flask template containing lastwork.html
@@ -1701,6 +1701,62 @@ def jacksBoxes():
         titletag=" - Jack's Boxes"
     )
 
+INTERACTIVE_DIR = 'interactives'
+INTERACTIVE_PATTERN = re.compile(r'^(\d{8})_recap_interactive\.html$')
+
+def getInteractiveGameIds():
+    ''' Scans templates/interactives for recap files
+
+    Returns:
+      list : gameIds (mmddyyyy strings) that have an interactive page
+    '''
+    folder = os.path.join(app.root_path, app.template_folder, INTERACTIVE_DIR)
+    if not os.path.isdir(folder):
+        return []
+    return [m.group(1) for f in os.listdir(folder)
+            if (m := INTERACTIVE_PATTERN.match(f))]
+
+@app.route('/interactives')
+@app.route('/interactives/<gameId>')
+def interactives(gameId=None):
+    ''' Renders interactive recap pages
+
+    Args:
+      gameId (str, optional): game date as mmddyyyy
+
+    Returns:
+      Flask Template : list of interactives, or the requested recap page
+    '''
+    gameIds = getInteractiveGameIds()
+
+    # Single game page
+    if gameId is not None:
+        if gameId not in gameIds:
+            abort(404)
+        return render_template(f'{INTERACTIVE_DIR}/{gameId}_recap_interactive.html')
+
+    # Index page: table of games that have an interactive
+    dfInteractives = pd.DataFrame({'gameId': gameIds})
+    dfInteractives['date'] = pd.to_datetime(dfInteractives['gameId'], format='%m%d%Y')
+
+    dfInteractives = pd.merge(dfInteractives, burb.dfGames, on='date', how='left').sort_values('date')
+
+    # Format first, with date still a datetime
+    interactivesTable = formatResults(dfInteractives.drop(columns=['gameId']))
+
+    # Then wrap each formatted date cell in a link to its recap page
+    DATE_FMT = '%m/%d/%Y'   # must match how formatResults displays dates
+    for gameId, date in zip(dfInteractives['gameId'], dfInteractives['date']):
+        dateStr = date.strftime(DATE_FMT)
+        interactivesTable = interactivesTable.replace(
+            f'>{dateStr}<',
+            f'><a href="/interactives/{gameId}" class="link-no-pad">{dateStr}</a><')
+
+    return render_template(
+        'interactives.html',
+        interactivesTable=interactivesTable,
+        titletag=' - Men\'s Hockey Interactive Recaps')
+        
 @app.route('/jacksboxes/stats', defaults={'gameNumRequested': None})
 @app.route('/jacksboxes/stats/', defaults={'gameNumRequested': None})
 @app.route('/jacksboxes/stats/<int:gameNumRequested>')
