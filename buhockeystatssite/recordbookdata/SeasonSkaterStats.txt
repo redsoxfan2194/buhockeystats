@@ -1815,7 +1815,7 @@
 30	Sartaj Dhami	G	FR	0	0	0	0	0/0	2026-27
 33	Max Lacroix	G	SR	0	0	0	0	0/0	2026-27
 38	Kamil Bednarik	F	JR	4	1	1	2	0/0	2026-27
-40	Mikhail Yegorov	G	JR	0	0	0	0	0/0	2026-27
+40	Mikhail Yegorov	G	JR	4	0	1	1	0/0	2026-27
 61	Haoxi Wang	D	FR	4	1	0	1	2/4	2026-27
 72	Xavier Villeneuve	D	FR	4	0	2	2	1/2	2026-27
 81	Niklas Aaram-Olsen	F	FR	4	0	0	0	1/2	2026-27
