@@ -2614,5 +2614,13 @@ def getJacksBoxesOverallStats(dfResults, latestGameNum):
     )
 
 
+# build the records page cache at startup so the first visitor doesn't wait
+try:
+    with app.test_client() as client:
+        client.get('/records')
+except Exception as e:
+    print(f'Failed to pre-load records page: {e}')
+
+
 if __name__ == '__main__':
     app.run(host='localhost', port=5000)

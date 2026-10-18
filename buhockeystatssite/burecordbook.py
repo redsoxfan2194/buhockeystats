@@ -4051,7 +4051,7 @@ def updateNHLStats():
            'goalsAgainstAvg':'gaa', 'wins':'W','losses':'L', 'ties':'T', 'shutouts':"SO",'timeOnIce':'mins','savePctg':'sv%'},inplace=True)
     dfNHLGoalieSeason['saves']=dfNHLGoalieSeason['shotsAgainst']-dfNHLGoalieSeason['ga']
     dfNHLGoalieSeason[['mm','ss']]=dfNHLGoalieSeason['mins'].str.split(':',expand=True)
-    dfNHLGoalieSeason['mins']=int(dfNHLGoalieSeason['mm'])+int(dfNHLGoalieSeason['ss'])/60
+    dfNHLGoalieSeason['mins']=dfNHLGoalieSeason['mm'].astype(int)+dfNHLGoalieSeason['ss'].astype(int)/60
     dfNHLGoalieSeason['gs']=dfNHLGoalieSeason['gs'].astype(int)
     dfNHLGoalieSeason['season']=currSeason
     dfNHLGoalieSeason=dfNHLGoalieSeason[["name", "seasonType", "season", "team", "gp", "gs", "mins", "ga", "gaa", "saves", "sv%", "W", "L", "T", "SO"]]
