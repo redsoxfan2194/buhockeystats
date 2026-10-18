@@ -253,9 +253,7 @@ def generateRecordBook():
     f.close()
     dfGames = pd.DataFrame(gameList)
     # get conference of all opponents
-    dfGames['oppconference'] = dfGames.apply(
-        lambda row: getConference(
-            dfConf, row['opponent'], row['season']), axis=1)
+    dfGames['oppconference'] = getConferences(dfConf, dfGames)
             
     # get ranking 
     dfGames = pd.merge_asof(
@@ -269,39 +267,25 @@ def generateRecordBook():
     dfGames['BURank']=100
     dfGames['OppRank']=100
     
-    dfGames[['BURank','OppRank']]=dfGames.apply(getMRank,axis=1)
+    dfGames[['BURank','OppRank']]=getRanks(dfGames, dfPollsMens)
     
     dfGames['ot']=dfGames['ot'].fillna('')
     dfGames['tourney']=dfGames['tourney'].fillna('')
     
     return dfGames
 
-def getMRank(row):
-    return getRank(row,'Mens')
-
-def getWRank(row):
-    return getRank(row,'Womens')
-
-def getRank(row,gender):
-    if(gender=="Mens"):
-      dfPolls=dfPollsMens.copy()
-    elif(gender=="Womens"):
-      dfPolls=dfPollsWomens.copy()
-    if(row['result']=="N"):
-        return pd.Series([100,100])
-    poll=dfPolls.loc[dfPolls['DATE']==row['DATE']]
-    burank=poll.query('TEAM=="Boston University"')['RK']
-    opprank=poll.query(f'TEAM=="{row["opponent"]}"')['RK']
-    if(burank.empty):
-        burank=100
-    else:
-        burank=int(burank.to_string(index=False,header=False))
-    if(opprank.empty):
-        opprank=100
-    else:
-        opprank=int(opprank.to_string(index=False,header=False))
-   
-    return pd.Series([burank,opprank])
+def getRanks(dfGames, dfPolls):
+    '''look up BU and opponent poll rank for every game at once (100 = unranked)'''
+    rankLookup = {(date, team): rank for date, team, rank in
+                  zip(dfPolls['DATE'], dfPolls['TEAM'], dfPolls['RK'])}
+    ranks = []
+    for result, date, opponent in zip(dfGames['result'], dfGames['DATE'], dfGames['opponent']):
+        if(result=="N"):
+            ranks.append([100,100])
+            continue
+        ranks.append([int(rankLookup.get((date, 'Boston University'), 100)),
+                      int(rankLookup.get((date, opponent), 100))])
+    return pd.DataFrame(ranks, index=dfGames.index)
 def generateWomensRecordBook():
     '''Generate Womens Hockey Record Book'''
 
@@ -436,8 +420,7 @@ def generateWomensRecordBook():
     dfWomensGames = pd.DataFrame(gameList)
 
     # set conference for opponents
-    dfWomensGames['oppconference'] = dfWomensGames.apply(
-        lambda row: getConference(dfConf, row['opponent'], row['season']), axis=1)
+    dfWomensGames['oppconference'] = getConferences(dfConf, dfWomensGames)
         
     # get ranking 
     dfWomensGames = pd.merge_asof(
@@ -450,7 +433,7 @@ def generateWomensRecordBook():
     
     dfWomensGames['BURank']=np.nan
     dfWomensGames['OppRank']=np.nan
-    dfWomensGames[['BURank','OppRank']]=dfWomensGames.apply(getWRank,axis=1)
+    dfWomensGames[['BURank','OppRank']]=getRanks(dfWomensGames, dfPollsWomens)
     
     return dfWomensGames
 
@@ -517,9 +500,21 @@ def convertSeasons(season, isConf=False, strip=True):
     return seasonStr[:-1]
 
 
+def getConferences(dfConf, dfGames):
+    '''look up the opponent conference for every game (one search per opponent/season pair)'''
+    confByTeam = {team: rows for team, rows in dfConf.groupby('opponent', sort=False)}
+    found = {}
+    conferences = []
+    for team, season in zip(dfGames['opponent'], dfGames['season']):
+        if (team, season) not in found:
+            teamRows = confByTeam.get(team)
+            found[(team, season)] = '' if teamRows is None else getConference(teamRows, team, season)
+        conferences.append(found[(team, season)])
+    return conferences
+
+
 def getConference(dfConf, team, season):
     '''look up a teams conference in specified season'''
-    dfConf = dfConf.copy()
     conf = dfConf.loc[(dfConf['opponent'] == team) & (
         dfConf['season'].str.contains(season))]['OppoConference']
     if conf.empty:
@@ -1216,6 +1211,14 @@ def generateBeanpotAwards():
     return dfBeanpotAwards, dfBeanpotAwardsWomens
 
 
+def parseGameDates(dates):
+    '''parse a whole column of MM/DD/YYYY dates at once (a few rows use MM/DD/YY)'''
+    shortYear = dates.str.len() == 8
+    parsed = pd.to_datetime(dates.where(~shortYear), format='%m/%d/%Y')
+    parsed[shortYear] = pd.to_datetime(dates[shortYear], format='%m/%d/%y')
+    return parsed
+
+
 def generateGameSkaterStats():
     '''create DataFrame game stats for skaters from 2002-03 on'''
     fileName = RECBOOK_DATA_PATH + 'GameStatsData.txt'
@@ -1225,7 +1228,7 @@ def generateGameSkaterStats():
         rows = readData.split('\n')
         for i in rows:
             col = i.split(',')
-            gameStatDict = {'date': pd.to_datetime(col[0]),
+            gameStatDict = {'date': col[0],
                             'opponent': col[1],
                             'name': col[2],
                             'pos': col[3],
@@ -1239,6 +1242,7 @@ def generateGameSkaterStats():
             gameStatsList.append(gameStatDict)
     f.close()
     dfGameStatsMens = pd.DataFrame(gameStatsList)
+    dfGameStatsMens['date'] = parseGameDates(dfGameStatsMens['date'])
 
     # create DataFrame game stats for all skaters
     fileName = RECBOOK_DATA_PATH + 'GameStatsDataWomens.txt'
@@ -1248,7 +1252,7 @@ def generateGameSkaterStats():
         rows = readData.split('\n')
         for i in rows:
             col = i.split(',')
-            gameStatWDict = {'date': pd.to_datetime(col[0]),
+            gameStatWDict = {'date': col[0],
                              'opponent': col[1],
                              'name': col[2],
                              'pos': col[3],
@@ -1262,7 +1266,9 @@ def generateGameSkaterStats():
             gameStatsWList.append(gameStatWDict)
     f.close()
     dfGameStatsWomens = pd.DataFrame(gameStatsWList)
+    dfGameStatsWomens['date'] = parseGameDates(dfGameStatsWomens['date'])
     dfGameStats = pd.DataFrame(gameStatsList + gameStatsWList)
+    dfGameStats['date'] = parseGameDates(dfGameStats['date'])
 
     return dfGameStats, dfGameStatsMens, dfGameStatsWomens
 
@@ -1276,7 +1282,7 @@ def generateGameGoalieStats():
         rows = readData.split('\n')
         for i in rows:
             col = i.split(',')
-            gameStatGoalieDict = {'date': pd.to_datetime(col[0]),
+            gameStatGoalieDict = {'date': col[0],
                                   'opponent': col[1],
                                   'name': col[2],
                                   'yr': col[3],
@@ -1304,6 +1310,7 @@ def generateGameGoalieStats():
             gameStatsGoalieList.append(gameStatGoalieDict)
     f.close()
     dfGameStatsGoalieMens = pd.DataFrame(gameStatsGoalieList)
+    dfGameStatsGoalieMens['date'] = parseGameDates(dfGameStatsGoalieMens['date'])
 
     # create DataFrame containing game stats for all goalies
     fileName = RECBOOK_DATA_PATH + 'GameStatsGoalieDataWomens.txt'
@@ -1313,7 +1320,7 @@ def generateGameGoalieStats():
         rows = readData.split('\n')
         for i in rows:
             col = i.split(',')
-            gameStatGoalieWDict = {'date': pd.to_datetime(col[0]),
+            gameStatGoalieWDict = {'date': col[0],
                                    'opponent': col[1],
                                    'name': col[2],
                                    'yr': col[3],
@@ -1341,8 +1348,10 @@ def generateGameGoalieStats():
             gameStatsGoalieWList.append(gameStatGoalieWDict)
     f.close()
     dfGameStatsGoalieWomens = pd.DataFrame(gameStatsGoalieWList)
+    dfGameStatsGoalieWomens['date'] = parseGameDates(dfGameStatsGoalieWomens['date'])
     dfGameStatsGoalie = pd.DataFrame(
         gameStatsGoalieList + gameStatsGoalieWList)
+    dfGameStatsGoalie['date'] = parseGameDates(dfGameStatsGoalie['date'])
     return dfGameStatsGoalie, dfGameStatsGoalieMens, dfGameStatsGoalieWomens
 
 def generatePolls():
