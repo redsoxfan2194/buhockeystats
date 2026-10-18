@@ -759,6 +759,7 @@ def statsbot():
 
 
 @app.route('/records', methods=['POST', 'GET'])
+@cache.cached(timeout=0, unless=lambda: request.method == 'POST')
 def records():
     ''' Loads BU Hockey Stats Record page
 
