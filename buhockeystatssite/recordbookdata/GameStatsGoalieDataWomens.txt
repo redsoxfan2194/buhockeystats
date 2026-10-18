@@ -780,3 +780,4 @@
 10/09/2026,New Hampshire,Mari Pietersen,SR,27,4,1,0,65.0,T,2026-27
 10/10/2026,Holy Cross,Sydney Fogu,SO,34,1,1,0,60.0,W,2026-27
 10/16/2026,Colgate,Sydney Fogu,SO,38,1,1,0,59.62,L,2026-27
+10/17/2026,Colgate,Mari Pietersen,SR,12,0,1,0,10.97,,2026-27
