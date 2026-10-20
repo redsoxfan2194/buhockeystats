@@ -506,7 +506,7 @@ def players():
                 dfStat = pd.DataFrame(dfMerged.loc[dfMerged['name'].str.contains(
                     formData['name'], case=False)].sum(numeric_only=True)[[
                         'gp', 'sv', 'ga', 'mins', 'SO']]).transpose()
-                dfStat['sv'] = int(dfStat['sv'])
+                dfStat['sv'] = dfStat['sv'].astype(int)
                 dfStat['sv%'] = round(
                     dfStat['sv'] / (dfStat['sv'] + dfStat['ga']), 3)
                 dfStat['gaa'] = round((dfStat['ga'] / dfStat['mins']) * 60, 2)
