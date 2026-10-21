@@ -3440,6 +3440,12 @@ def getStreaks(dfGStats,stat='pts',minStr=3,sortVal='Length',ascend=False):
             row = pd.DataFrame([{'Name':topStreaks.index[i][0], 'Length': streakValue, 'Start': pd.to_datetime(startDate),'End':pd.to_datetime(endDate)}])
         dfOut=pd.concat([dfOut,row])
         dfOut=dfOut.reset_index()[['Name','Length','Start','End']]
+    if dfOut.empty:
+        # no streak reached the minimum length: return an empty streaks table instead of crashing
+        return pd.DataFrame({'Name': pd.Series(dtype=object), 'Length': pd.Series(dtype=int),
+                             'Start': pd.Series(dtype='datetime64[ns]'), 'End': pd.Series(dtype='datetime64[ns]')})
+    if sortVal not in dfOut.columns:
+        return dfOut
     return dfOut.sort_values(sortVal,ascending=ascend)
 
 def getTopStreaks(dfGStats,season="2022-23",stat='pts',topN=5):
