@@ -460,6 +460,8 @@ function submitForm(reset = "false") {
                         }
                         document.getElementById("sortval").value = "date";
                         document.getElementById("sortDiv").hidden = false;
+                        // the table is now sorted by date, so drop any leftover header arrow
+                        $("#resultTable th .arrow").remove();
                     }
                 } else {
                     // Hide all res-sort elements
@@ -469,6 +471,12 @@ function submitForm(reset = "false") {
                     // show all rec-sort elements
                     for (let i = 0; i < recSort.length; i++) {
                         recSort[i].classList.remove("hidden");
+                    }
+                    // a results-table sort (e.g. MOV) doesn't apply here; the server
+                    // sorted by the group column, which is what "Sort" means
+                    const sortSelect = document.getElementById("sortval");
+                    if (sortSelect.selectedOptions[0].classList.contains("res-sort")) {
+                        sortSelect.value = "sort";
                     }
                     document.getElementById("sortDiv").hidden = false;
                     

@@ -979,30 +979,35 @@ def records():
             elif formData['tabletype'] ==  'streaks':
                 dfRes = generateStreaks(dfRes.copy())
 
+        # Month/DOW names are already filled in at this point, so sort them in
+        # calendar order rather than alphabetically
+        dayOrder = {name: num for num, name in dayNames.items()}
+        def calendarOrder(col):
+            if col.name == 'Month':
+                return pd.to_datetime(col, format='%B').dt.month
+            if col.name == 'DOW':
+                return col.map(dayOrder)
+            return col
+
         if (formData['sortval'] in ["date", "GD", "BUScore", "OppoScore", "BURank", "OppRank","TG"]
                 and 'date' not in dfRes.columns):
             if formData['sortval'] != 'date':
                 sortType = not sortType
             if(not dfRes.empty and "Longest Streak" not in dfRes.columns):
               dfRes = dfRes.sort_values(
-                  formData['grouping'], ascending=sortType)
-        elif (formData['sortval'] in ['Win%', 'W', 'L', 'T', 'sort']
+                  formData['grouping'], ascending=sortType, key=calendarOrder)
+        elif (formData['sortval'] in ['Win%', 'W', 'L', 'T', 'GP', 'sort']
               and 'Win%' not in dfRes.columns):
+            # record-table sort on a table without those columns: fall back to date
             sortType = not sortType
-            dfRes = dfRes.sort_values('date', ascending=sortType)
+            if 'date' in dfRes.columns:
+                dfRes = dfRes.sort_values('date', ascending=sortType)
         elif formData['sortval'] == 'sort':
             sortType = not sortType
             dfRes = dfRes.sort_values(
-                formData['grouping'], ascending=sortType)
-            if formData['grouping'] == 'Month':
-                dfRes = dfRes.copy()
-                dfRes.loc[:, 'Month'] = pd.to_datetime(
-                    dfRes['Month'], format='%m').dt.strftime('%B')
-            elif formData['grouping'] == 'DOW':
-                dfRes = dfRes.copy()
-                dfRes.loc[:, 'DOW'] = dfRes['DOW'].map(dayNames)
+                formData['grouping'], ascending=sortType, key=calendarOrder)
         else:
-            dfRes = dfRes.sort_values(formData['sortval'], ascending=sortType)
+            dfRes = dfRes.sort_values(formData['sortval'], ascending=sortType, key=calendarOrder)
         return jsonify(
             resTable=formatResults(dfRes),
             result=result,
