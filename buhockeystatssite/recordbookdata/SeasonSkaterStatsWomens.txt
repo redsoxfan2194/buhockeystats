@@ -510,7 +510,7 @@
 10	Tessa Demain	D	JR	6	0	1	1	1/2	2026-27
 11	Lexie Bertelsen	F	SO	6	0	2	2	0/0	2026-27
 12	Avery Supryka	D	SO	6	0	1	1	0/0	2026-27
-15	Anežka Čabelová	F	SO	6	0	1	1	0/0	2026-27
+15	Anežka Čabelová	D	SO	6	0	1	1	0/0	2026-27
 16	Kaileigh Quigg	F	JR	2	0	0	0	0/0	2026-27
 17	Kali Maechtel	D	FR	0	0	0	0	0/0	2026-27
 18	Neely Nicholson	F	SR	6	1	1	2	1/2	2026-27
