@@ -662,7 +662,7 @@ def players():
         if formData['isAscending'] != '':
             if (formData['sortval'] != '' and formData['sortval'].lower()
                     in dfStat.columns or formData['sortval'] in ['W', 'L', 'T', 'SO']):
-                sortType = eval(formData['isAscending'].capitalize())
+                sortType = (formData['isAscending'].lower() == 'true')
                 if (formData['sortval'].lower() != 'date' and sortType != ''
                     and formData['sortval'].lower() != 'career'
                         and formData['sortval'].lower() != 'season'):
@@ -694,7 +694,7 @@ def players():
               if(formData['isAscending']==''):
                 isAsc=True
               else:
-                isAsc=eval(formData['isAscending'].capitalize())
+                isAsc=(formData['isAscending'].lower() == 'true')
             else:
               sortVal="Length"
               isAsc=True
@@ -911,7 +911,7 @@ def records():
             result += str(res) + '-'
         result = result.rstrip('-')
         if(formData['isAscending']!=''):
-          sortType = eval(formData['isAscending'].capitalize())
+          sortType = (formData['isAscending'].lower() == 'true')
         else:
           sortType=True
         if formData['sortval'] != 'date':
@@ -1278,7 +1278,7 @@ def nhldraft():
           if(formData['isAscending']==''):
             isAsc=True
           else:
-            isAsc=eval(formData['isAscending'].capitalize())
+            isAsc=(formData['isAscending'].lower() == 'true')
           if(sortVal in dfRes.columns):
             dfRes=dfRes.sort_values(sortVal,ascending = isAsc)
         sDraft = formData['draftStart']
@@ -1295,7 +1295,7 @@ def nhldraft():
             if(formData['isAscending']==''):
               isAsc=True
             else:
-              isAsc^=eval(formData['isAscending'].capitalize())
+              isAsc^=(formData['isAscending'].lower() == 'true')
             if(sortVal in dfRes.columns):
               dfRes=dfRes.sort_values(sortVal,ascending = isAsc)
         
@@ -1425,8 +1425,8 @@ def prostats():
           if(formData['isAscending']==''):
             isAsc=True
           else:
-            isAsc=eval(formData['isAscending'].capitalize())
-          isAsc^=isAsc
+            isAsc=(formData['isAscending'].lower() == 'true')
+          isAsc = not isAsc  # ▼ (isAscending=true) shows highest first, ▲ lowest first
           if(sortVal in dfStat.columns):
             dfStat=dfStat.sort_values(sortVal,ascending = isAsc)
         
