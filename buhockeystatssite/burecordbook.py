@@ -1384,8 +1384,6 @@ def determineQueryType(query):
         qType = 'last loss'
     elif 'last tie' in query:
         qType = 'last tie'
-    elif 'last' in query:
-        qType = 'last'
     elif 'biggest win' in query:
         qType = 'biggest win'
     elif 'biggest loss' in query:
@@ -1394,6 +1392,8 @@ def determineQueryType(query):
         qType = 'biggest tie'
     elif 'biggest' in query:
         qType = 'biggest'
+    elif 'last' in query:
+        qType = 'last'
     else:
         qType = 'player'
     return qType
@@ -1435,9 +1435,8 @@ def tokenizeResultsQuery(query):
     for i in keywords:
         if query.find(i + ' ') >= 0:
             finds = [m.start() for m in re.finditer(i + ' ', query)]
-            for d in range(len(finds)):
-                if (finds[d] > 0 and query[finds[d] - 1] != ' '):
-                    finds.pop(d)
+            # keep only keywords that start a word (at the start or after a space)
+            finds = [f for f in finds if f == 0 or query[f - 1] == ' ']
             if finds == []:
                 continue
             if len(finds) > 1:
@@ -1522,7 +1521,7 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
         query = query.replace('losses', 'loss')
         query = query.replace('ties', 'tie')
         if numStartSearch.group(1) is not None:
-            query = query.replace(numStartSearch.group(1), '')
+            query = query.replace(numStartSearch.group(1), '', 1)
             numRes = int(numStartSearch.group(1))
     else:
         numRes = 1
@@ -1591,11 +1590,14 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
     if 'on' in queryDict.keys():
         dateSearch = re.search('(\\w*).(\\d*)', queryDict['on'])
         if (dateSearch is not None and '' not in dateSearch.groups()):
-            for i in range(len(monthsShort)):
-                if monthsShort[i] in dateSearch.group(1):
-                    dfQueryList.append(
-                        dfGames['month'] == int(dateSearch.group(1)))
-                    break
+            if dateSearch.group(1).isdigit():
+                dfQueryList.append(
+                    dfGames['month'] == int(dateSearch.group(1)))
+            else:
+                for i in range(1, len(monthsShort)):
+                    if monthsShort[i] in dateSearch.group(1):
+                        dfQueryList.append(dfGames['month'] == i)
+                        break
             dfQueryList.append(
                 dfGames['day'] == int(dateSearch.group(2)))
         else:
@@ -1610,9 +1612,9 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
             decSearch = re.search('(\\d{2,4})s', queryDict['in'])
             seaSearch = re.search('(\\d{4}-\\d{2})', queryDict['in'])
             if queryDict['in'] in ['ot', 'overtime']:
-                dfQueryList.append(dfGames['ot'].notnull())
+                dfQueryList.append(dfGames['ot'].fillna('') != '')
             elif queryDict['in'] in ['reg', 'regulation']:
-                dfQueryList.append(dfGames['ot'].isnull())
+                dfQueryList.append(dfGames['ot'].fillna('') == '')
             elif queryDict['in'] in ['nc', 'ooc', 'non-conference']:
                 dfQueryList.append(dfGames['gameType']=='Non-Conference')
             elif queryDict['in'] == 'conference':
@@ -1849,9 +1851,9 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
                     res.iloc[i]['opponent'].lstrip(' '),
                     res.iloc[i]['scoreline'].lstrip(' '),
                     res.iloc[i]['result'].lstrip(' '))
-                if res.iloc[i]['ot'] is not None:
+                if isinstance(res.iloc[i]['ot'], str):
                     resStr += " " + res.iloc[i]['ot']
-                if res.iloc[i]['tourney'] is not None:
+                if isinstance(res.iloc[i]['tourney'], str):
                     resStr += " (" + res.iloc[i]['tourney'].lstrip(' ') + ")"
                 resStr += '\n'
         else:
