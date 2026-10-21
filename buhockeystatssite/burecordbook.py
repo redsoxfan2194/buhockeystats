@@ -3387,36 +3387,36 @@ def getMaxStreak(dfGStats,name,stat):
     return 'N/A'
 
 def getStreaks(dfGStats,stat='pts',minStr=3,sortVal='Length',ascend=False):
-    dfGStats=dfGStats.query('date>"10/1/2002"')
-    dfResTeam=pd.DataFrame()
+    # streaks must be counted in game order; the players page may have sorted the games by another column first
+    dfGStats=dfGStats.query('date>"10/1/2002"').sort_values('date', kind='stable')
     if(sortVal=="Length"):
       ascend^=True
-    for player in dfGStats.name.unique():
-        dfRes=dfGStats.query(f'name == "{player}"').copy()
-        dfRes['isStat']=dfRes[stat]>=1
-        dfRes['SoS']=dfRes['isStat'].ne(dfRes['isStat'].shift())
-        dfRes['streak_id']=dfRes.SoS.cumsum()
-        dfRes['streak_counter'] = dfRes.groupby('streak_id').cumcount() + 1
-        dfResTeam=pd.concat([dfResTeam,dfRes])
+    # number every player's streaks in one pass (no per-player loop):
+    # a new streak starts whenever "had the stat" flips compared with that player's previous game
+    players=dfGStats['name']
+    dfResTeam=dfGStats.copy()
+    dfResTeam['isStat']=dfResTeam[stat]>=1
+    dfResTeam['SoS']=dfResTeam['isStat'].ne(dfResTeam['isStat'].groupby(players, sort=False).shift())
+    dfResTeam['streak_id']=dfResTeam['SoS'].groupby(players, sort=False).cumsum()
+    dfResTeam['streak_counter']=dfResTeam.groupby([players, dfResTeam['streak_id']], sort=False).cumcount() + 1
     topStreaks=dfResTeam.query(f'isStat').groupby(['name','streak_id']).max('streak_counter').sort_values('streak_counter',ascending=False)
     topStreaks=topStreaks.query(f'streak_counter>={minStr}')
-    dfOut=pd.DataFrame()
-    for i in range(len(topStreaks)):
-        startDate=dfResTeam.query(f'name=="{topStreaks.index[i][0]}" and streak_id=={topStreaks.index[i][1]}').iloc[0]['date'].strftime("%m/%d/%y")
-        endDate=dfResTeam.query(f'name=="{topStreaks.index[i][0]}" and streak_id=={topStreaks.index[i][1]}').iloc[-1]['date'].strftime("%m/%d/%y")
-        streakValue=dfResTeam.query(f'name=="{topStreaks.index[i][0]}" and streak_id=={topStreaks.index[i][1]}').iloc[-1]['streak_counter']
-        if(streakValue<minStr):
-            continue
-        if(int(streakValue)==1):
-            row = pd.DataFrame([{'Name':topStreaks.index[i][0], 'Length': streakValue, 'Start': pd.to_datetime(startDate),'End':''}])
-        else:
-            row = pd.DataFrame([{'Name':topStreaks.index[i][0], 'Length': streakValue, 'Start': pd.to_datetime(startDate),'End':pd.to_datetime(endDate)}])
-        dfOut=pd.concat([dfOut,row])
-        dfOut=dfOut.reset_index()[['Name','Length','Start','End']]
-    if dfOut.empty:
+    if topStreaks.empty:
         # no streak reached the minimum length: return an empty streaks table instead of crashing
         return pd.DataFrame({'Name': pd.Series(dtype=object), 'Length': pd.Series(dtype=int),
                              'Start': pd.Series(dtype='datetime64[ns]'), 'End': pd.Series(dtype='datetime64[ns]')})
+    # first date, last date and length of every streak, looked up once instead of three searches per streak
+    bounds=dfResTeam.groupby(['name','streak_id']).agg(first=('date','first'), last=('date','last'),
+                                                       length=('streak_counter','last'))
+    bounds=bounds.loc[topStreaks.index]
+    dfOut=pd.DataFrame({'Name': bounds.index.get_level_values(0),
+                        'Length': bounds['length'].to_numpy(),
+                        'Start': pd.to_datetime(bounds['first'].dt.strftime("%m/%d/%y"), format="%m/%d/%y").to_numpy(),
+                        'End': pd.to_datetime(bounds['last'].dt.strftime("%m/%d/%y"), format="%m/%d/%y").to_numpy()})
+    if (dfOut['Length']==1).any():
+        dfOut['End']=dfOut['End'].astype(object)
+        dfOut.loc[dfOut['Length']==1,'End']=''
+    dfOut=dfOut[dfOut['Length']>=minStr].reset_index(drop=True)
     if sortVal not in dfOut.columns:
         return dfOut
     return dfOut.sort_values(sortVal,ascending=ascend)
