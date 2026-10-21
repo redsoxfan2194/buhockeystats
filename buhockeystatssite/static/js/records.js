@@ -243,7 +243,16 @@ function initializeFilters() {
     clearFilers();
 }
 
+// Filter requests can finish out of order (big results take longer to build),
+// so only the most recent request is allowed to update the page.
+var latestRequestId = 0;
+var resetPending = false;
+
 function submitForm(reset = "false") {
+    const requestId = ++latestRequestId;
+    if (reset === "true") {
+        resetPending = true; // keep the dropdown refresh even if a newer request replaces this one
+    }
     const formData = $("#resForm").serialize();
     var recSort = document.querySelectorAll(".rec-sort");
     var resSort = document.querySelectorAll(".res-sort");
@@ -253,6 +262,9 @@ function submitForm(reset = "false") {
         method: $("#resForm").attr("method"),
         data: formData,
         success: function (response) {
+            if (requestId !== latestRequestId) {
+                return; // a newer filter request was sent, ignore this older response
+            }
             $("#resultTable").html(response.resTable);
             $("#record").html("Record: " + response.result);
             if (!document.getElementById("tabletype").value) {
@@ -292,8 +304,9 @@ function submitForm(reset = "false") {
                     }
                 }
             }
-            if (reset === "true") 
+            if (resetPending)
             {
+                resetPending = false;
                 document.getElementById("startYear").value = response.minYear;
                 document.getElementById("startYear").min = response.minYear;
                 document.getElementById("startYear").placeholder =

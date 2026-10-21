@@ -228,7 +228,16 @@ function initializeFilters() {
     clearFilters();
 }
 
+// Filter requests can finish out of order (big results take longer to build),
+// so only the most recent request is allowed to update the page.
+var latestRequestId = 0;
+var resetPending = false;
+
 function submitForm(reset = "false") {
+    const requestId = ++latestRequestId;
+    if (reset === "true") {
+        resetPending = true; // keep the dropdown refresh even if a newer request replaces this one
+    }
     const formData = $("#playerForm").serialize();
 
     $.ajax({
@@ -236,10 +245,14 @@ function submitForm(reset = "false") {
         method: $("#playerForm").attr("method"),
         data: formData,
         success: function (response) {
+            if (requestId !== latestRequestId) {
+                return; // a newer filter request was sent, ignore this older response
+            }
             $("#statTable").html(response.statTable);
             $("#sortval").value = response.sortval;
 
-            if (reset === "true") {
+            if (resetPending) {
+                resetPending = false;
                 const selectSeasElement = $("#season");
                 selectSeasElement.empty();
                 selectSeasElement.append(
