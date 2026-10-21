@@ -1502,6 +1502,11 @@ def cleanupQuery(query, qType):
     return query.lower()
 
 
+# comparison operators a Stats Bot question can use ("3+ goals", "> 4", ...)
+COMPARE_OPS = {'==': operator.eq, '>=': operator.ge, '<=': operator.le,
+               '>': operator.gt, '<': operator.lt}
+
+
 def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
     '''return record/results for given query'''
     months = [x.lower() for x in list(calendar.month_name)]
@@ -1543,76 +1548,60 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
         if ((dfGames['opponent'] == decodeTeam(
                 queryDict['vs']).title()).any()):
             dfQueryList.append(
-                "(dfGames['opponent']=='{}')".format(
-                    decodeTeam(
-                        queryDict['vs'])))
+                dfGames['opponent'] == decodeTeam(queryDict['vs']))
         else:
             dfQueryList.append(
-                "(dfGames['opponent'].str.contains('{}',case=False))".format(
-                    decodeTeam(
-                        queryDict['vs'])))
+                dfGames['opponent'].str.contains(decodeTeam(queryDict['vs']), case=False))
     if 'against' in queryDict.keys():
         if ((dfGames['opponent'] == decodeTeam(
                 queryDict['against']).title()).any()):
             dfQueryList.append(
-                "(dfGames['opponent']=='{}')".format(
-                    decodeTeam(
-                        queryDict['against'])))
+                dfGames['opponent'] == decodeTeam(queryDict['against']))
         else:
             dfQueryList.append(
-                "(dfGames['opponent'].str.contains('{}',case=False))".format(
-                    decodeTeam(
-                        queryDict['against'])))
+                dfGames['opponent'].str.contains(decodeTeam(queryDict['against']), case=False))
     if 'under' in queryDict.keys():
         if queryDict['under'] == 'AOC'.lower():
             queryDict['under'] = "Albie O'Connell"
         dfQueryList.append(
-            "(dfGames['coach'].str.contains(\"{}\",case=False))".format(
-                queryDict['under']))
+            dfGames['coach'].str.contains(queryDict['under'], case=False))
     if 'with' in queryDict.keys():
         if queryDict['with'] == 'AOC'.lower():
             queryDict['with'] = "Albie O'Connell"
         dfQueryList.append(
-            "(dfGames['coach'].str.contains(\"{}\",case=False))".format(
-                queryDict['with']))
+            dfGames['coach'].str.contains(queryDict['with'], case=False))
     if 'at' in queryDict.keys():
         if 'neutral' in queryDict['at']:
             queryDict['at'] = 'Neutral'
         if (queryDict['at'].capitalize() in ['Home', 'Away', 'Neutral']):
             dfQueryList.append(
-                "(dfGames['location']==(\"{}\"))".format(
-                    queryDict['at'].capitalize()))
+                dfGames['location'] == queryDict['at'].capitalize())
         elif dfGames.loc[(dfGames['opponent'] == decodeTeam(queryDict['at']))]['opponent'].count() > 0:
             if ((dfGames['opponent'] == decodeTeam(
                     queryDict['at']).title()).any()):
                 dfQueryList.append(
-                    "(dfGames['opponent']=='{}')".format(
-                        decodeTeam(
-                            queryDict['at'])))
+                    dfGames['opponent'] == decodeTeam(queryDict['at']))
             else:
                 dfQueryList.append(
-                    "(dfGames['opponent'].str.contains('{}',case=False))".format(
-                        decodeTeam(
-                            queryDict['at'])))
-            dfQueryList.append("(dfGames['location']=='Away')")
+                    dfGames['opponent'].str.contains(decodeTeam(queryDict['at']), case=False))
+            dfQueryList.append(dfGames['location']=='Away')
         else:
             dfQueryList.append(
-                "(dfGames['arena'].str.contains(\"{}\",case=False))".format(
-                    queryDict['at']))
+                dfGames['arena'].str.contains(queryDict['at'], case=False))
     if 'on' in queryDict.keys():
         dateSearch = re.search('(\\w*).(\\d*)', queryDict['on'])
         if (dateSearch is not None and '' not in dateSearch.groups()):
             for i in range(len(monthsShort)):
                 if monthsShort[i] in dateSearch.group(1):
-                    dfQueryList.append("(dfGames['month']=={})".format(
-                        int(dateSearch.group(1))))
+                    dfQueryList.append(
+                        dfGames['month'] == int(dateSearch.group(1)))
                     break
-            dfQueryList.append("(dfGames['day']=={})".format(
-                int(dateSearch.group(2))))
+            dfQueryList.append(
+                dfGames['day'] == int(dateSearch.group(2)))
         else:
             for i in range(len(daysShort)):
                 if daysShort[i] in queryDict['on']:
-                    dfQueryList.append("(dfGames['dow']=={})".format(i))
+                    dfQueryList.append(dfGames['dow'] == i)
                     break
     if ('in' in queryDict.keys() or len(inList) > 1):
         for i in inList:
@@ -1621,26 +1610,26 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
             decSearch = re.search('(\\d{2,4})s', queryDict['in'])
             seaSearch = re.search('(\\d{4}-\\d{2})', queryDict['in'])
             if queryDict['in'] in ['ot', 'overtime']:
-                dfQueryList.append("(dfGames['ot'].notnull())")
+                dfQueryList.append(dfGames['ot'].notnull())
             elif queryDict['in'] in ['reg', 'regulation']:
-                dfQueryList.append("(dfGames['ot'].isnull())")
+                dfQueryList.append(dfGames['ot'].isnull())
             elif queryDict['in'] in ['nc', 'ooc', 'non-conference']:
-                dfQueryList.append("(dfGames['gameType']=='Non-Conference')")
+                dfQueryList.append(dfGames['gameType']=='Non-Conference')
             elif queryDict['in'] == 'conference':
-                dfQueryList.append("(dfGames['gameType']=='Conference')")
+                dfQueryList.append(dfGames['gameType']=='Conference')
             elif (('hockey east' in queryDict['in'] or 'hea' in queryDict['in']) and 'tourn' not in queryDict['in']):
-                dfQueryList.append("(dfGames['gameType']=='Conference')")
-                dfQueryList.append("(dfGames['conference']=='Hockey East')")
+                dfQueryList.append(dfGames['gameType']=='Conference')
+                dfQueryList.append(dfGames['conference']=='Hockey East')
             elif ('ecac' in queryDict['in'] and 'tourn' not in queryDict['in']):
-                dfQueryList.append("(dfGames['gameType']=='Conference')")
-                dfQueryList.append("(dfGames['conference']=='ECAC')")
+                dfQueryList.append(dfGames['gameType']=='Conference')
+                dfQueryList.append(dfGames['conference']=='ECAC')
             elif ('neihl' in queryDict['in'] and 'tourn' not in queryDict['in']):
-                dfQueryList.append("(dfGames['gameType']=='Conference')")
-                dfQueryList.append("(dfGames['conference']=='NEIHL')")
+                dfQueryList.append(dfGames['gameType']=='Conference')
+                dfQueryList.append(dfGames['conference']=='NEIHL')
             elif ('regular' == queryDict['in'] or 'rs' == queryDict['in'] or 'regular season' == queryDict['in']):
-                dfQueryList.append("(dfGames['seasonType']=='Regular Season')")
+                dfQueryList.append(dfGames['seasonType']=='Regular Season')
             elif 'playoff' in queryDict['in']:
-                dfQueryList.append("(dfGames['seasonType']=='Playoffs')")
+                dfQueryList.append(dfGames['seasonType']=='Playoffs')
             elif (digSearch is None and queryDict['in'] not in months and queryDict['in'] not in monthsShort):
                 queryDict['in'] = queryDict['in'].replace(
                     'tourney', 'tournament')
@@ -1653,9 +1642,8 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
                 if queryDict['in'].upper() in tourneyDict.keys():
                     queryDict['in'] = tourneyDict[queryDict['in'].upper()]
                 dfQueryList.append(
-                    "(dfGames['tourney'].str.contains(\"{}\",case=False))".format(
-                        queryDict['in']))
-                dfQueryList.append("(dfGames['tourney'].notnull())")
+                    dfGames['tourney'].str.contains(queryDict['in'], case=False))
+                dfQueryList.append(dfGames['tourney'].notnull())
             elif decSearch is not None:
                 if len(decSearch.group(1)) == 2:
                     if int(decSearch.group(1)) > 20:
@@ -1665,12 +1653,10 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
                 else:
                     decadeStart = int(decSearch.group(1))
                 dfQueryList.append(
-                    "(dfGames['date'].between('{}','{}'))".format(
-                        decadeStart, decadeStart + 9))
+                    dfGames['date'].between(str(decadeStart), str(decadeStart + 9)))
             elif seaSearch is not None:
                 dfQueryList.append(
-                    "(dfGames['season']==\"{}\")".format(
-                        queryDict['in']))
+                    dfGames['season'] == queryDict['in'])
             elif 'first' in queryDict['in']:
                 numGamesSearch = re.search('first (\\d*)', queryDict['in'])
                 if numGamesSearch is not None:
@@ -1688,24 +1674,17 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
                     else:
                         diff = '=='
                     dfQueryList.append(
-                        "(dfGames['GD']{}{})".format(
-                            diff, int(
-                                goalSearch.group(1))))
+                        COMPARE_OPS[diff](dfGames['GD'], int(goalSearch.group(1))))
             else:
                 if queryDict['in'].isdigit():
                     dfQueryList.append(
-                        "(dfGames['year']=={})".format(
-                            queryDict['in']))
+                        dfGames['year'] == int(queryDict['in']))
                 elif queryDict['in'] in months:
                     dfQueryList.append(
-                        "(dfGames['month']=={})".format(
-                            months.index(
-                                queryDict['in'])))
+                        dfGames['month'] == months.index(queryDict['in']))
                 elif queryDict['in'] in monthsShort:
                     dfQueryList.append(
-                        "(dfGames['month']=={})".format(
-                            monthsShort.index(
-                                queryDict['in'])))
+                        dfGames['month'] == monthsShort.index(queryDict['in']))
 
     if 'since' in queryDict.keys():
         timeSearch = re.search('(\\d{4})-(\\d{2})', queryDict['since'])
@@ -1713,7 +1692,7 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
             sDate = '9/1/{}'.format(timeSearch.group(1))
         else:
             sDate = queryDict['since']
-        dfQueryList.append("(dfGames['date']>='{}')".format(sDate))
+        dfQueryList.append(dfGames['date'] >= sDate)
 
     if 'before' in queryDict.keys():
         timeSearch = re.search('(\\d{4})-(\\d{2})', queryDict['before'])
@@ -1721,7 +1700,7 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
             bDate = '9/1/{}'.format(timeSearch.group(1))
         else:
             bDate = queryDict['before']
-        dfQueryList.append("(dfGames['date']<'{}')".format(bDate))
+        dfQueryList.append(dfGames['date'] < bDate)
     if 'after' in queryDict.keys():
         timeSearch = re.search('(\\d{4})-(\\d{2})', queryDict['after'])
         if timeSearch is not None:
@@ -1739,17 +1718,15 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
                     '%m/%d/%Y') +
                 timedelta(
                     days=1)).strftime('%m/%d/%Y')
-        dfQueryList.append("(dfGames['date']>'{}')".format(aDate))
+        dfQueryList.append(dfGames['date'] > aDate)
     if 'between' in queryDict.keys():
         dates = queryDict['between'].split(' and ')
         dfQueryList.append(
-            "(dfGames['date'].between('{}','{}'))".format(
-                dates[0], dates[1]))
+            dfGames['date'].between(dates[0], dates[1]))
     if 'from' in queryDict.keys():
         dates = queryDict['from'].split(' to ')
         dfQueryList.append(
-            "(dfGames['date'].between('{}','{}'))".format(
-                dates[0], dates[1]))
+            dfGames['date'].between(dates[0], dates[1]))
     if ('when' in queryDict.keys() or len(whenList) > 1):
         for i in whenList:
             queryDict['when'] = i
@@ -1799,15 +1776,15 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
                     dfRes = dfGameStatsGoalie.groupby(
                         ['date', 'name']).sum(numeric_only=True)
                     dfRes.reset_index(inplace=True)
-                    gameDays = list(set(dfRes.loc[eval("(dfRes['name'].str.contains('{}',case=False)) & (dfRes['{}']{}{})".format(
-                        pName, stat, diff, statNum))]['date'].to_list()))
+                    gameDays = list(set(dfRes.loc[(dfRes['name'].str.contains(pName, case=False)) &
+                                                  (COMPARE_OPS[diff](dfRes[stat], statNum))]['date'].to_list()))
                     dfQueryList.append(
-                        "(dfGames['date'].isin({}))".format(gameDays))
+                        dfGames['date'].isin(gameDays))
                 elif stat in ['pts', 'goals', 'assists']:
-                    gameDays = list(set(dfGameStats.loc[eval("(dfGameStats['name'].str.contains('{}',case=False)) & (dfGameStats['{}']{}{})".format(
-                        pName, stat, diff, statNum))]['date'].to_list()))
+                    gameDays = list(set(dfGameStats.loc[(dfGameStats['name'].str.contains(pName, case=False)) &
+                                                        (COMPARE_OPS[diff](dfGameStats[stat], statNum))]['date'].to_list()))
                     dfQueryList.append(
-                        "(dfGames['date'].isin({}))".format(gameDays))
+                        dfGames['date'].isin(gameDays))
             elif goalSearch is not None:
                 goals = int(goalSearch.group(2))
                 if goalSearch.group(1) is not None:
@@ -1818,27 +1795,21 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
                     diff = '=='
                 if 'allow' in queryDict['when']:
                     dfQueryList.append(
-                        "(dfGames['OppoScore']{}{})".format(
-                            diff, goals))
+                        COMPARE_OPS[diff](dfGames['OppoScore'], goals))
                 if 'scor' in queryDict['when']:
                     dfQueryList.append(
-                        "(dfGames['BUScore']{}{})".format(
-                            diff, goals))
-    dfQueryList.append("(dfGames['result']!='N')")
-    dfQueryList.append("(dfGames['result']!='E')")
-    dfQuery = ''
-    for i in dfQueryList:
-        dfQuery += i + " & "
-    dfQuery = dfQuery[:-2]
+                        COMPARE_OPS[diff](dfGames['BUScore'], goals))
+    dfQueryList.append(dfGames['result']!='N')
+    dfQueryList.append(dfGames['result']!='E')
     result = ''
-    if (dfQuery == '' and numGames != ''):
-        dfResult = eval(
-            "dfGames.sort_values('date',ascending={})[:{}]".format(
-                ascen, numGames))
-    elif dfQuery != '':
-        dfResult = eval(
-            "dfGames.loc[{}].sort_values('date',ascending={})[:{}]".format(
-                dfQuery, ascen, numGames))
+    gameLimit = None if numGames == '' else numGames
+    if (not dfQueryList and numGames != ''):
+        dfResult = dfGames.sort_values('date', ascending=ascen)[:gameLimit]
+    elif dfQueryList:
+        gameMask = dfQueryList[0]
+        for condition in dfQueryList[1:]:
+            gameMask = gameMask & condition
+        dfResult = dfGames.loc[gameMask].sort_values('date', ascending=ascen)[:gameLimit]
     else:
         return "No Results Found"
     if ('last' in qType or 'biggest' in qType):
