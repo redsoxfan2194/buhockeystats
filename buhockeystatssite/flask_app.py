@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import pytz
 import os
+import operator
 import ast
 from flask import Flask, render_template, request, jsonify, Response, redirect, url_for
 from werkzeug.middleware.proxy_fix import ProxyFix
@@ -758,6 +759,31 @@ def statsbot():
     return render_template('statsbot.html', titletag=' - Stats Bot', result='', query='')
 
 
+# comparison operators offered by the records page score/rank filters
+FILTER_OPS = {'==': operator.eq, '>=': operator.ge, '>': operator.gt,
+              '<': operator.lt, '<=': operator.le}
+
+
+def formNumber(value):
+    ''' Number typed into a filter box, or None if it is blank or not a number '''
+    try:
+        number = float(str(value).strip())
+    except ValueError:
+        return None
+    if number != number or number in (float('inf'), float('-inf')):
+        return None
+    return int(number) if number.is_integer() else number
+
+
+def compareFilter(df, column, op, value):
+    ''' Rows where column <op> value; the filter is skipped if the operator or number is not valid '''
+    compare = FILTER_OPS.get(op)
+    number = formNumber(value)
+    if compare is None or number is None:
+        return df
+    return df[compare(df[column], number)]
+
+
 @app.route('/records', methods=['POST', 'GET'])
 @cache.cached(timeout=0, unless=lambda: request.method == 'POST')
 def records():
@@ -795,17 +821,15 @@ def records():
         minYear = dfRes.year.min()
         maxYear = dfRes.year.max()
         if 'startYear' in formData:
-            if formData['startYear'] == '':
+            sYear = formNumber(formData['startYear'])
+            if sYear is None:
                 sYear = dfRes.year.min()
-            else:
-                sYear = formData['startYear']
-                if formData['gender'] == 'Womens':
-                    sYear = max(2005, int(sYear))
-            if formData['endYear'] == '':
+            elif formData['gender'] == 'Womens':
+                sYear = max(2005, int(sYear))
+            eYear = formNumber(formData['endYear'])
+            if eYear is None:
                 eYear = dfRes.year.max()
-            else:
-                eYear = formData['endYear']
-            dfRes = dfRes.query(f"year>={sYear} and year<={eYear}")
+            dfRes = dfRes[(dfRes['year'] >= sYear) & (dfRes['year'] <= eYear)]
         else:
 
             sSearch = re.search('(\\d{4})-(\\d{2})', formData['seasonStart'])
@@ -819,25 +843,25 @@ def records():
             else:
                 eDate = f'5/1/{dfRes.year.max()}'
 
-            dfRes = dfRes.query(f"date>='{sDate}' and date<='{eDate}'")
+            dfRes = dfRes[(dfRes['date'] >= sDate) & (dfRes['date'] <= eDate)]
             sYear = dfRes.year.min()
             eYear = dfRes.year.max()
 
         if formData['DOW'] != '-1':
-            dfRes = dfRes.query(f"dow == {formData['DOW']}")
+            dfRes = compareFilter(dfRes, 'dow', '==', formData['DOW'])
         if formData['month'] != '0':
-            dfRes = dfRes.query(f"month == {formData['month']}")
+            dfRes = compareFilter(dfRes, 'month', '==', formData['month'])
         if ('day' in formData and formData['day'] != '0'):
-            dfRes = dfRes.query(f"day == {formData['day']}")
+            dfRes = compareFilter(dfRes, 'day', '==', formData['day'])
         if formData['result'] != 'all':
-            dfRes = dfRes.query(f"result == \"{formData['result']}\"")
+            dfRes = dfRes[dfRes['result'] == formData['result']]
         if formData['opponent'] != 'all':
             if formData['opponent'] == 'Exhibition:':
                 dfRes = dfRes.query("result=='E'")
             elif formData['opponent'] == 'Non-Collegiate:':
                 dfRes = dfRes.query('tourney=="Non-Collegiate"')
             else:
-                dfRes = dfRes.query(f'opponent==\"{formData["opponent"]}\"')
+                dfRes = dfRes[dfRes['opponent'] == formData['opponent']]
         result = ''
         if formData['conference'] != 'all':
             if formData['conference'] == 'conf':
@@ -845,44 +869,42 @@ def records():
             elif formData['conference'] == 'nc':
                 dfRes = dfRes.query("gameType==\'Non-Conference\'")
             else:
-                dfRes = dfRes.query(
-                    f"oppconference==\'{formData['conference']}\'")
+                dfRes = dfRes[dfRes['oppconference'] == formData['conference']]
         if formData['season'] != 'all':
-            dfRes = dfRes.query(f"season==\'{formData['season']}\'")
+            dfRes = dfRes[dfRes['season'] == formData['season']]
         if formData['tourney'] != 'All':
-            dfRes = dfRes.query(f"tourney==\"{formData['tourney']}\"")
+            dfRes = dfRes[dfRes['tourney'] == formData['tourney']]
         if formData['location'] != 'all':
-            dfRes = dfRes.query(f"location==\'{formData['location']}\'")
+            dfRes = dfRes[dfRes['location'] == formData['location']]
         if formData['coach'] != 'all':
-            dfRes = dfRes.query(f"coach==\"{formData['coach']}\"")
+            dfRes = dfRes[dfRes['coach'] == formData['coach']]
         if formData['arena'] != 'all':
-            dfRes = dfRes.query(f"arena==\'{formData['arena']}\'")
+            dfRes = dfRes[dfRes['arena'] == formData['arena']]
         if formData['seasonType'] != 'all':
-            dfRes = dfRes.query(f"seasonType==\'{formData['seasonType']}\'")
+            dfRes = dfRes[dfRes['seasonType'] == formData['seasonType']]
         if formData['finish'] != 'all':
             if(formData['finish'] == 'ot'):
-              dfRes = dfRes.loc[dfRes['ot'].str.contains('ot')]
+              dfRes = dfRes.loc[dfRes['ot'].str.contains('ot', na=False)]
             else:
-              dfRes = dfRes.loc[~dfRes['ot'].str.contains('ot')]
+              dfRes = dfRes.loc[~dfRes['ot'].str.contains('ot', na=False)]
         if formData['buscore'] != '':
             buscore = formData['buscore']
             buscore = buscore.split(' ')[0]
-            dfRes = dfRes.query(f"BUScore {formData['buscoreop']} {buscore}")
+            dfRes = compareFilter(dfRes, 'BUScore', formData['buscoreop'], buscore)
             buscore = formData['buscore']
         else:
             buscore = "BU Score"
         if formData['totalgoals'] != '':
             totalgoals = formData['totalgoals']
             totalgoals = totalgoals.split(' ')[0]
-            dfRes = dfRes.query(f"TG {formData['tgop']} {totalgoals}")
+            dfRes = compareFilter(dfRes, 'TG', formData['tgop'], totalgoals)
             totalgoals = formData['totalgoals']
         else:
             totalgoals = "Total Goals"
         if formData['oppscore'] != '':
             oppscore = formData['oppscore']
             oppscore = oppscore.split(' ')[0]
-            dfRes = dfRes.query(
-                f"OppoScore {formData['oppscoreop']} {oppscore}")
+            dfRes = compareFilter(dfRes, 'OppoScore', formData['oppscoreop'], oppscore)
             oppscore = formData['oppscore']
         else:
             oppscore = "Opp Score"
@@ -890,15 +912,14 @@ def records():
         if formData['burank'] != '':
             burank = formData['burank']
             burank = burank.split(' ')[0]
-            dfRes = dfRes.query(f"BURank {formData['burankop']} {burank}")
+            dfRes = compareFilter(dfRes, 'BURank', formData['burankop'], burank)
             burank = formData['burank']
         else:
             burank = "BU Rank"
         if formData['opprank'] != '':
             opprank = formData['opprank']
             opprank = opprank.split(' ')[0]
-            dfRes = dfRes.query(
-                f"OppRank {formData['opprankop']} {opprank}")
+            dfRes = compareFilter(dfRes, 'OppRank', formData['opprankop'], opprank)
             opprank = formData['opprank']
         else:
             opprank = "Opp Rank"
