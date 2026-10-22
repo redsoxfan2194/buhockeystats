@@ -280,22 +280,22 @@ def players():
                     'all' and formData['position'] != 'goalie'):
                 dfStat = dfStat.loc[dfStat['pos'].str.contains(formData['pos'])]
             if formData['yr'] != 'all':
-                dfStat = dfStat.query(f"yr=='{formData['yr']}'")
+                dfStat = dfStat[dfStat['yr'] == formData['yr']]
                 
         if formData['type'] == 'game':
             oppList = sorted(list(dfStat.opponent.unique()))
             arenaList = sorted(list(dfStat.arena.unique()))
             tourneyList = getTourneyList(dfStat)
             if formData['opponent'] != 'all':
-                dfStat = dfStat.query(f"opponent==\"{formData['opponent']}\"")
+                dfStat = dfStat[dfStat['opponent'] == formData['opponent']]
             if formData['date'] != '':
-                dfStat = dfStat.query(f"date==\"{formData['date']}\"")
+                dfStat = dfStat[dfStat['date'] == formData['date']]
             if formData['arena'] != 'all':
-                dfStat = dfStat.query(f"arena==\"{formData['arena']}\"")
+                dfStat = dfStat[dfStat['arena'] == formData['arena']]
             if formData['tourney'] != 'all':
-                dfStat = dfStat.query(f"tourney==\"{formData['tourney']}\"")
+                dfStat = dfStat[dfStat['tourney'] == formData['tourney']]
             if formData['location'] != 'all':
-                dfStat = dfStat.query(f"location==\"{formData['location']}\"")
+                dfStat = dfStat[dfStat['location'] == formData['location']]
         else:
             oppList = []
             arenaList = []
@@ -320,11 +320,11 @@ def players():
           else:
             dfStat = dfStat.merge(dfPlay[['name','city','state','country','season']],how='left',on=['name','season'])
           if formData['city'] != 'all':
-            dfStat = dfStat.query(f"city==\"{formData['city']}\"")
+            dfStat = dfStat[dfStat['city'] == formData['city']]
           if formData['state'] != 'all':
-            dfStat = dfStat.query(f"state==\"{formData['state']}\"")
+            dfStat = dfStat[dfStat['state'] == formData['state']]
           if formData['country'] != 'all':
-            dfStat = dfStat.query(f"country==\"{formData['country']}\"")
+            dfStat = dfStat[dfStat['country'] == formData['country']]
 
         if formData['showDraftDataStatus'] == 'true':
           dfStat = dfStat.merge(dfDraft[['name','draft','round','pick','team','pick in round']],how='left')
@@ -346,18 +346,18 @@ def players():
             if(formData['draftStatus'] == 'Undrafted'):
               dfStat = dfStat.loc[dfStat['draft'].isnull()]
           if formData['draftedTeam'] != 'all':
-            dfStat = dfStat.query(f"team==\"{formData['draftedTeam']}\"")
+            dfStat = dfStat[dfStat['team'] == formData['draftedTeam']]
           if(formData['rdmin'] != ''):
-            dfStat = dfStat.query(f"round{formData['rdop']} {int(formData['rdmin'])}")
+            dfStat = compareFilter(dfStat, 'round', formData['rdop'], formData['rdmin'])
           if(formData['pickmin'] != ''):
-            dfStat = dfStat.query(f"pick{formData['pickop']} {int(formData['pickmin'])}")
+            dfStat = compareFilter(dfStat, 'pick', formData['pickop'], formData['pickmin'])
           if(formData['pirmin'] != ''):
-            dfStat = dfStat.query(f"`pick in round`{formData['pirop']} {int(formData['pirmin'])}")
+            dfStat = compareFilter(dfStat, 'pick in round', formData['pirop'], formData['pirmin'])
         if formData['name'] != '':
             dfStat = dfStat.loc[dfStat['name'].str.contains(
                 formData['name'].strip(), case=False)]
         if formData['number'] != '':
-            dfStat = dfStat.query(f"number == {formData['number']}")
+            dfStat = compareFilter(dfStat, 'number', '==', formData['number'])
         
 
         if formData['group'] in ['city','state','country','draft','round','pick','team','pick in round'] and formData['group'] not in dfStat.columns:
@@ -396,16 +396,18 @@ def players():
                   dfStat['saves'] / (dfStat['saves'] + dfStat['ga']), 3)
               dfStat['gaa'] = round((dfStat['ga'] / dfStat['mins']) * 60, 2)
         if (formData['type']=='game' and formData['group'] not in ['', 'splits', 'records']
-                and formData['position'] == 'skater' and 'name' in dfStat.columns):
-            dfStat = dfStat.query(f"{formData['group']}!=''").groupby(
+                and formData['position'] == 'skater' and 'name' in dfStat.columns
+                and formData['group'] in dfStat.columns):
+            dfStat = dfStat[dfStat[formData['group']] != ''].groupby(
                 ['name', formData['group']]).sum(numeric_only=True)
             dfStat = dfStat.reset_index()
             dfStat = dfStat[['name', formData['group'],
                              'gp', 'goals', 'assists', 'pts']]
         if (formData['type']=='game' and formData['group'] not in ['', 'splits', 'records']
-                and formData['position'] == 'goalie' and 'name' in dfStat.columns):
+                and formData['position'] == 'goalie' and 'name' in dfStat.columns
+                and formData['group'] in dfStat.columns):
             dfStat = determineRecord(dfStat,formData['group'])
-            dfStat = dfStat.query(f"{formData['group']}!=''").groupby(
+            dfStat = dfStat[dfStat[formData['group']] != ''].groupby(
                 ['name', formData['group']]).sum(numeric_only=True)
             dfStat = dfStat.reset_index()
             dfStat['sv%'] = dfStat['sv'] / (dfStat['sv'] + dfStat['ga'])
@@ -643,7 +645,7 @@ def players():
                     name = ''
                 qList = []
                 for quer in range(len(queries)):
-                    rec = dfMerged.query(f'name == "{name}" and {queries[quer]}').groupby(
+                    rec = dfMerged[dfMerged['name'] == name].query(queries[quer]).groupby(
                         'result').count()['date'].to_dict()
                     for res in ['W', 'L', 'T']:
                         if res not in rec:
@@ -779,7 +781,7 @@ def compareFilter(df, column, op, value):
     ''' Rows where column <op> value; the filter is skipped if the operator or number is not valid '''
     compare = FILTER_OPS.get(op)
     number = formNumber(value)
-    if compare is None or number is None:
+    if compare is None or number is None or column not in df.columns:
         return df
     return df[compare(df[column], number)]
 
@@ -1276,24 +1278,24 @@ def nhldraft():
         formData = request.form
         dfRes=dfDraft.copy()
         if(formData['name']!=''):
-          dfRes=dfDraft.loc[dfDraft['name'].str.contains(formData['name'],case=False)]
+          dfRes=dfRes.loc[dfRes['name'].str.contains(formData['name'],case=False)]
         if(formData['pos']!='all'):
           if(formData['pos']=="F"):
-            dfRes=dfDraft.loc[dfDraft['position'].isin(['LW','RW','C'])]
+            dfRes=dfRes.loc[dfRes['position'].isin(['LW','RW','C'])]
           else:
-            dfRes=dfDraft.query(f"position == \'{formData['pos']}\'")
+            dfRes=dfRes[dfRes['position'] == formData['pos']]
         if(formData['team']!='all'):
-          dfRes=dfDraft.query(f"team == \'{formData['team']}\'")
+          dfRes=dfRes[dfRes['team'] == formData['team']]
         if(formData['country']!='all'):
-          dfRes=dfDraft.query(f"country == \'{formData['country']}\'")
+          dfRes=dfRes[dfRes['country'] == formData['country']]
         if(formData['draft']!='all'):
-          dfRes=dfDraft.query(f"draft == {formData['draft']}") 
+          dfRes=compareFilter(dfRes, 'draft', '==', formData['draft'])
         if(formData['rdmin']!=''):
-          dfRes=dfRes.query(f"round{formData['rdop']} {int(formData['rdmin'])}")
+          dfRes=compareFilter(dfRes, 'round', formData['rdop'], formData['rdmin'])
         if(formData['pickmin']!=''):
-          dfRes=dfRes.query(f"pick{formData['pickop']} {int(formData['pickmin'])}")
+          dfRes=compareFilter(dfRes, 'pick', formData['pickop'], formData['pickmin'])
         if(formData['pirmin']!=''):
-          dfRes=dfRes.query(f"`pick in round`{formData['pirop']} {int(formData['pirmin'])}")
+          dfRes=compareFilter(dfRes, 'pick in round', formData['pirop'], formData['pirmin'])
 
         if(formData['sortval']!=''):
           sortVal=formData['sortval'].lower()
@@ -1306,9 +1308,11 @@ def nhldraft():
         sDraft = formData['draftStart']
         eDraft = formData['draftEnd']
         
-        dfRes = dfRes.query(f'draft>={sDraft} and draft<={eDraft}')
+        # draft-year range (a bound that isn't a number is ignored)
+        dfRes = compareFilter(dfRes, 'draft', '>=', sDraft)
+        dfRes = compareFilter(dfRes, 'draft', '<=', eDraft)
         
-        if(formData['group']!=""):
+        if(formData['group']!="" and formData['group'] in dfRes.columns):
           dfRes =  dfRes.groupby(formData['group']).count().reset_index()
           dfRes = dfRes[[formData['group'],'name']]
           dfRes = dfRes.rename(columns={'name':'draftees'})
@@ -1407,9 +1411,13 @@ def prostats():
         seasS = formData['seasonStart']
         seasE = formData['seasonEnd']
         dfStat['year']=dfStat['season'].str[:4].astype(int)+1
-        sYear = int(formData['seasonStart'][:4])+1
-        eYear = int(formData['seasonEnd'][:4])+1
-        dfStat = dfStat.query(f'year>={sYear} and year<={eYear}')
+        # season range (a bound that isn't a season is ignored)
+        sYear = formNumber(formData['seasonStart'][:4])
+        eYear = formNumber(formData['seasonEnd'][:4])
+        if sYear is not None:
+            dfStat = dfStat[dfStat['year'] >= sYear + 1]
+        if eYear is not None:
+            dfStat = dfStat[dfStat['year'] <= eYear + 1]
         dfStat = dfStat.drop('year',axis=1,errors='ignore')
         if(formData['name']!=''):
           dfStat = dfStat.loc[dfStat['name'].str.contains(
@@ -1420,23 +1428,23 @@ def prostats():
               if(formData['seasonType'] == "Totals"):
                 dfStat = dfStat.groupby('name').sum(numeric_only=True).reset_index().drop('+/-',axis=1,errors='ignore')
               else:
-                dfStat = dfStat.query(f"seasonType == \'{formData['seasonType']}\'")
+                dfStat = dfStat[dfStat['seasonType'] == formData['seasonType']]
             if(formData['position'] == "goalie"):
               dfStat['sv%'] = round(
                   dfStat['saves'] / (dfStat['saves'] + dfStat['ga']), 3)
               dfStat['gaa'] = round((dfStat['ga'] / dfStat['mins']) * 60, 2)
         elif(formData['type']=='season'):
-          if(formData['pos'] != 'all'):
-            dfStat = dfStat.query(f"pos == \'{formData['pos']}\'")
+          if(formData['pos'] != 'all' and 'pos' in dfStat.columns):
+            dfStat = dfStat[dfStat['pos'] == formData['pos']]
           if(formData['team'] != 'all'):
-            dfStat = dfStat.query(f"team == \'{formData['team']}\'")
+            dfStat = dfStat[dfStat['team'] == formData['team']]
           if(formData['season'] != 'all'):
-            dfStat = dfStat.query(f"season == \'{formData['season']}\'")
+            dfStat = dfStat[dfStat['season'] == formData['season']]
           if formData['seasonType'] != 'all':
               if(formData['seasonType'] == "Totals"):
-                dfStat = dfStat.groupby(['name','pos','season','team']).sum(numeric_only=True).reset_index().drop('+/-',axis=1,errors='ignore')
+                dfStat = dfStat.groupby([c for c in ['name','pos','season','team'] if c in dfStat.columns]).sum(numeric_only=True).reset_index().drop('+/-',axis=1,errors='ignore')
               else:
-                dfStat = dfStat.query(f"seasonType == \'{formData['seasonType']}\'")
+                dfStat = dfStat[dfStat['seasonType'] == formData['seasonType']]
           dfStat = dfStat.drop('+/-',axis=1,errors='ignore')
           
         dfStat = dfStat.rename(columns={'seasonType':'type'}) 
@@ -2399,29 +2407,29 @@ def generateStreaks(dfRes):
 def filterStats(formData,dfStat):
     dfRes=dfStat.copy()
     if(formData['gpmin']!=''):
-      dfRes=dfRes.query(f"gp{formData['gpop']} {int(formData['gpmin'])}")
+      dfRes=compareFilter(dfRes, 'gp', formData['gpop'], formData['gpmin'])
     if(formData['position']=='skater'):
       if(formData['goalmin'] != ''):
-        dfRes=dfRes.query(f"goals{formData['goalop']} {int(formData['goalmin'])}")
+        dfRes=compareFilter(dfRes, 'goals', formData['goalop'], formData['goalmin'])
       if(formData['assistmin'] != ''):
-        dfRes=dfRes.query(f"assists{formData['assistop']} {int(formData['assistmin'])}")
+        dfRes=compareFilter(dfRes, 'assists', formData['assistop'], formData['assistmin'])
       if(formData['ptsmin'] != ''):
-        dfRes=dfRes.query(f"pts{formData['ptsop']} {int(formData['ptsmin'])}")
+        dfRes=compareFilter(dfRes, 'pts', formData['ptsop'], formData['ptsmin'])
       if(formData['type']!='game'):
         if(formData['pensmin'] != ''):
-          dfRes=dfRes.query(f"pen{formData['pensop']} {int(formData['pensmin'])}")
+          dfRes=compareFilter(dfRes, 'pen' if 'pen' in dfRes.columns else 'pens', formData['pensop'], formData['pensmin'])
         if(formData['pimmin'] != ''):
-          dfRes=dfRes.query(f"pim{formData['pimop']} {int(formData['pimmin'])}")
+          dfRes=compareFilter(dfRes, 'pim', formData['pimop'], formData['pimmin'])
     elif(formData['position']=='goalie'):
       if(formData['minsmin'] != ''):
-        dfRes=dfRes.query(f"mins{formData['minsop']} {float(formData['minsmin'])}")
+        dfRes=compareFilter(dfRes, 'mins' if pd.api.types.is_numeric_dtype(dfRes.get('mins', pd.Series(dtype=object))) else 'min', formData['minsop'], formData['minsmin'])
       if(formData['gamin'] != ''):
-        dfRes=dfRes.query(f"ga{formData['gaop']} {int(formData['gamin'])}")
+        dfRes=compareFilter(dfRes, 'ga', formData['gaop'], formData['gamin'])
       if(formData['savesmin'] != ''):
         if('sv' in dfRes.columns):
-          dfRes=dfRes.query(f"sv{formData['savesop']} {int(formData['savesmin'])}")
+          dfRes=compareFilter(dfRes, 'sv', formData['savesop'], formData['savesmin'])
         else:
-          dfRes=dfRes.query(f"saves{formData['savesop']} {int(formData['savesmin'])}")
+          dfRes=compareFilter(dfRes, 'saves', formData['savesop'], formData['savesmin'])
     return dfRes
 
 def getJacksBoxesGameNum():
