@@ -940,7 +940,8 @@ def records():
                         recDict['GP']=recDict['W'] + recDict['L'] + recDict['T']
                         recsList.append(recDict)
 
-                dfRes = pd.DataFrame(recsList)
+                # name the columns up front so a filter with no W/L/T games gives an empty table instead of a crash
+                dfRes = pd.DataFrame(recsList, columns=[formData['grouping'], 'W', 'L', 'T', 'Win%', 'GP'])
                 recCols = dfRes.columns.tolist()
                 recCols.insert(1, recCols.pop())
                 dfRes = dfRes[recCols]

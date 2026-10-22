@@ -412,6 +412,7 @@ def generateWomensRecordBook():
             gameDict['BUScore'], gameDict['OppoScore'] = int(
                 gameDict['scoreline'].split('-')[0]), int(gameDict['scoreline'].split('-')[1])
             gameDict['GD'] = gameDict['BUScore'] - gameDict['OppoScore']
+            gameDict['TG'] = gameDict['BUScore'] + gameDict['OppoScore']
             gameDict['date'] = pd.Timestamp(gameDict['date'])
             gameDict['dow'] = gameDict['date'].weekday()
             gameList.append(gameDict)
