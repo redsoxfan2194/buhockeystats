@@ -2150,3 +2150,4 @@
 10/16/2026,Vermont,Mikhail Yegorov,JR,22,2,1,0,57.92,L,2026-27
 10/17/2026,Vermont,Mikhail Yegorov,JR,24,1,1,0,60.15,W,2026-27
 10/22/2026,Connecticut,Mikhail Yegorov,JR,25,5,1,0,63.68,L,2026-27
+10/24/2026,Connecticut,Mikhail Yegorov,JR,33,3,1,0,60.0,W,2026-27
