@@ -1,3 +1,7 @@
+/* =========================================
+   GAME PAGE
+   ========================================= */
+
 .jackboxes-page {
     padding: 6px;
 }
@@ -43,6 +47,8 @@
     object-fit: contain;
 }
 
+/* Boxes */
+
 .player-box {
     position: relative;
     display: flex;
@@ -78,6 +84,8 @@
 .player-box.selected:hover {
     background: #fff;
 }
+
+/* Player search popup */
 
 .player-search {
     position: fixed;
@@ -154,6 +162,8 @@
     color: red;
 }
 
+/* Guesses / score column */
+
 .guesses {
     grid-column: 5;
     grid-row: 2 / 5;
@@ -203,6 +213,10 @@
     color: white;
 }
 
+/* =========================================
+   POPUPS (game over / answers / help)
+   ========================================= */
+
 .game-over-modal,
 .answers-modal,
 .help-modal {
@@ -219,6 +233,39 @@
 .game-over-modal {
     z-index: 2000;
 }
+
+.answers-modal {
+    z-index: 3000;
+}
+
+.help-modal {
+    z-index: 4000;
+}
+
+.close-game-over,
+.close-answers,
+.close-help {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #777;
+    font-size: 28px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.close-game-over:hover,
+.close-answers:hover,
+.close-help:hover {
+    color: #000;
+}
+
+/* Game over */
 
 .game-over {
     position: relative;
@@ -247,29 +294,6 @@
 
 #finalScore {
     font-size: 30px;
-}
-
-.close-game-over,
-.close-answers,
-.close-help {
-    position: absolute;
-    top: 7px;
-    right: 10px;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    border: none;
-    background: transparent;
-    color: #777;
-    font-size: 28px;
-    line-height: 30px;
-    cursor: pointer;
-}
-
-.close-game-over:hover,
-.close-answers:hover,
-.close-help:hover {
-    color: #000;
 }
 
 .result-grid {
@@ -340,9 +364,20 @@
     background: #e5e5e5;
 }
 
-.answers-modal {
-    z-index: 3000;
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    text-align: center;
 }
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Answers */
 
 .answers-popup {
     position: relative;
@@ -374,6 +409,8 @@
     border-bottom: none;
 }
 
+/* Help */
+
 .help-button {
     position: absolute;
     bottom: 5px;
@@ -392,10 +429,6 @@
 .help-button:hover {
     background: #cc0000;
     color: white;
-}
-
-.help-modal {
-    z-index: 4000;
 }
 
 .help-popup {
@@ -431,22 +464,7 @@
     margin-bottom: 7px;
 }
 
-.help-close-button {
-    display: block;
-    margin: 20px auto 0;
-    padding: 8px 20px;
-    border: none;
-    border-radius: 6px;
-    background: #cc0000;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.help-close-button:hover {
-    background: #a00000;
-}
+/* Game page: small screens */
 
 @media (max-width: 700px) {
     .jackboxes-page {
@@ -477,10 +495,6 @@
         border-width: 1px;
         border-radius: 5px;
         font-size: 11px;
-    }
-
-    .player-box.selected {
-        box-shadow: 0 0 0 2px rgba(204, 0, 0, .2);
     }
 
     .corner img {
@@ -519,26 +533,6 @@
     .player-search {
         width: calc(100vw - 20px);
         max-width: 280px;
-        padding: 8px;
-    }
-
-    .player-search input {
-        padding: 7px;
-        font-size: 13px;
-    }
-
-    .player-list {
-        max-height: 130px;
-    }
-
-    .player-option {
-        padding: 4px 0;
-        font-size: 13px;
-    }
-
-    .select-button {
-        padding: 4px 7px;
-        font-size: 12px;
     }
 
     .game-over {
@@ -547,19 +541,12 @@
         padding: 20px 12px;
     }
 
-    .answers-popup {
-        width: calc(100vw - 30px);
-        max-width: 330px;
-        padding: 20px 15px;
-    }
-
-
+    .answers-popup,
     .help-popup {
         width: calc(100vw - 30px);
         max-width: 330px;
         padding: 20px 15px;
     }
-    
 }
 
 @media (max-width: 500px) {
@@ -597,33 +584,11 @@
         font-size: 8px;
         padding: 3px 4px;
     }
-
-    .player-search {
-        width: calc(100vw - 20px);
-        max-width: 280px;
-    }
-
-    .player-option {
-        font-size: 13px;
-    }
-
-    .select-button {
-        padding: 4px 7px;
-        font-size: 12px;
-    }
-}
-.stats-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px 20px;
-    text-align: center;
 }
 
-.stat-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* =========================================
+   STATS PAGES
+   ========================================= */
 
 .jacks-stats-container {
     max-width: 850px;
@@ -642,6 +607,7 @@
     font-weight: 600;
 }
 
+/* Summary cards */
 
 .jacks-summary {
     display: flex;
@@ -670,6 +636,8 @@
     color: #cc0000;
 }
 
+/* Section cards */
+
 .jacks-grid-card {
     background: #fffafa;
     border-radius: 14px;
@@ -678,14 +646,16 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
 }
 
-.jacks-grid-card h4 {
+.jacks-grid-card h4,
+.leaderboard-grid-card h4 {
     text-align: center;
     margin: 0 0 18px;
     font-size: 21px;
     font-weight: 600;
 }
 
-.jacks-grid-card h4::after {
+.jacks-grid-card h4::after,
+.leaderboard-grid-card h4::after {
     content: "";
     display: block;
     width: 45px;
@@ -694,6 +664,8 @@
     border-radius: 3px;
     margin: 8px auto 0;
 }
+
+/* Answer grid table */
 
 .jacks-grid-wrapper {
     display: flex;
@@ -707,9 +679,7 @@
     margin: 0 auto;
 }
 
-
-/* Column labels */
-
+/* column labels */
 .jacks-grid thead th {
     border: none !important;
     background: transparent !important;
@@ -720,9 +690,7 @@
     color: #333;
 }
 
-
-/* Row labels */
-
+/* row labels */
 .jacks-grid tbody th {
     border: none !important;
     background: transparent !important;
@@ -733,38 +701,331 @@
     color: #333;
 }
 
-
-/* Actual boxes */
-
+/* boxes */
 .jacks-grid td {
     width: 150px;
     height: 90px;
-
     padding: 10px !important;
-
     background: white;
-
     border: 1px solid #ddd !important;
     border-radius: 10px;
-
     text-align: center;
     vertical-align: middle;
-
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
-
-    transition:
-        transform 0.15s ease,
-        box-shadow 0.15s ease;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-/* Value */
 
 .grid-value {
     font-size: 21px;
     color: #cc0000;
 }
 
-@media (max-width: 600px) {
+.grid-player {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #cc0000;
+}
 
+.grid-percentage {
+    display: block;
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+
+.grid-empty {
+    color: #aaa;
+}
+
+/* Charts */
+
+.score-chart {
+    width: 100%;
+    height: 300px;
+}
+
+.score-chart canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Most-guessed grid */
+
+.leaderboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    width: 100%;
+}
+
+.leaderboard-cell {
+    background: #fffafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.guess-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    padding: 4px 0;
+    min-width: 0;
+}
+
+.guess-name {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    line-height: 1.2;
+}
+
+.top-guess .guess-name {
+    font-weight: 700;
+}
+
+.guess-count {
+    flex-shrink: 0;
+    background: #e5e5e5;
+    border-radius: 12px;
+    padding: 2px 7px;
+    font-size: 11px;
+    font-weight: 700;
+    min-width: 22px;
+    text-align: center;
+}
+
+/* Most popular answers list */
+
+.overall-leaderboard {
+    margin-top: 20px;
+    background: #fffafa;
+    border: 1px solid #e3e3e3;
+    border-radius: 12px;
+    padding: 18px 20px;
+}
+
+.overall-leaderboard-subtitle {
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    color: #888;
+    margin-top: 2px;
+    margin-bottom: 14px;
+}
+
+.overall-leaderboard-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.overall-guess-row {
+    display: grid;
+    grid-template-columns: 30px minmax(0, 1fr) auto auto;
+    align-items: center;
+    gap: 10px;
+    min-height: 42px;
+    padding: 7px 4px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.overall-guess-row:last-child {
+    border-bottom: none;
+}
+
+.overall-rank {
+    font-size: 12px;
+    font-weight: 600;
+    color: #999;
+    text-align: center;
+}
+
+.overall-name {
+    min-width: 0;
+    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.top-guess {
+    background: #fff1f1;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.top-guess .overall-rank,
+.top-guess .overall-name {
+    color: #cc0000;
+    font-weight: 700;
+}
+
+.overall-count {
+    min-width: 32px;
+    padding: 4px 8px;
+    background: #eeeeee;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.overall-percent {
+    min-width: 48px;
+    padding: 4px 8px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #666;
+    text-align: center;
+}
+
+/* =========================================
+   OVERALL USAGE PAGE
+   ========================================= */
+
+.jacks-usage-container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px 20px 40px;
+    font-family: "Quicksand", sans-serif;
+    box-sizing: border-box;
+}
+
+.jacks-usage-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.jacks-usage-header h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.usage-chart {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.usage-chart canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.player-usage-subtitle {
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.player-usage-list {
+    width: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fffafa;
+    box-sizing: border-box;
+}
+
+.player-usage-list::-webkit-scrollbar {
+    width: 7px;
+}
+
+.player-usage-list::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.player-usage-list::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 8px;
+}
+
+.player-usage-list::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+
+.player-usage-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 55px 150px;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 10px;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.player-usage-row:last-child {
+    border-bottom: none;
+}
+
+.player-name {
+    min-width: 0;
+    font-size: 14px;
+    font-weight: 500;
+    overflow-wrap: anywhere;
+}
+
+.player-count {
+    background: #e5e5e5;
+    border-radius: 12px;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    min-width: 35px;
+}
+
+.first-game {
+    font-size: 12px;
+    color: #777;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.latest-player {
+    background: #fff1f1;
+}
+
+.latest-player .player-name {
+    color: #cc0000;
+    font-weight: 700;
+}
+
+.latest-player .first-game {
+    color: #cc0000;
+    font-weight: 600;
+}
+
+.latest-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 6px;
+    background: #cc0000;
+    color: white;
+    border-radius: 8px;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+/* =========================================
+   STATS PAGES: small screens
+   ========================================= */
+
+@media (max-width: 600px) {
     .jacks-stats-container {
         padding: 15px 5px 25px;
     }
@@ -777,7 +1038,7 @@
         font-size: 21px;
     }
 
-    /* Summary cards */
+    /* summary cards */
     .jacks-summary {
         gap: 7px;
         margin-bottom: 20px;
@@ -798,9 +1059,9 @@
         font-size: 21px;
     }
 
-    /* Grid card */
+    /* section cards */
     .jacks-grid-card {
-        padding: 14px 4px 15px;
+        padding: 14px 8px 15px;
         margin-bottom: 15px;
         border-radius: 10px;
     }
@@ -816,7 +1077,7 @@
         margin-top: 5px;
     }
 
-    /* Grid */
+    /* answer grid table */
     .jacks-grid {
         border-spacing: 3px !important;
     }
@@ -842,28 +1103,6 @@
     .grid-value {
         font-size: 15px;
     }
-}
-
-.grid-player {
-    display: block;
-    font-size: 18px;
-    font-weight: 700;
-    color: #cc0000;
-}
-
-.grid-percentage {
-    display: block;
-    margin-top: 3px;
-    font-size: 13px;
-    font-weight: 600;
-    color: black;
-}
-
-.grid-empty {
-    color: #aaa;
-}
-
-@media (max-width: 600px) {
 
     .grid-player {
         font-size: 12px;
@@ -873,26 +1112,114 @@
         font-size: 10px;
         margin-top: 2px;
     }
-}
-
-.score-chart {
-    width: 100%;
-    height: 300px;
-}
-
-@media (max-width: 600px) {
-    .jacks-grid-card {
-        padding: 14px 8px 15px;
-    }
 
     .score-chart {
         height: 200px;
     }
+
+    /* most-guessed grid */
+    .leaderboard-grid {
+        gap: 5px;
+    }
+
+    .leaderboard-cell {
+        padding: 7px 5px;
+        border-radius: 8px;
+    }
+
+    .cell-label {
+        font-size: 10px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+
+    .guess-row {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        gap: 2px;
+        padding: 5px 0;
+    }
+
+    .guess-name {
+        font-size: 10px;
+        line-height: 1.15;
+        text-align: center;
+    }
+
+    .guess-count {
+        align-self: center;
+        min-width: 20px;
+        padding: 2px 6px;
+        font-size: 9px;
+        border-radius: 10px;
+    }
+
+    /* overall usage page */
+    .jacks-usage-container {
+        max-width: none;
+        width: 100%;
+        padding: 15px 5px 25px;
+    }
+
+    .jacks-usage-header {
+        margin-bottom: 18px;
+    }
+
+    .jacks-usage-header h3 {
+        font-size: 21px;
+    }
+
+    .usage-chart {
+        height: 200px;
+    }
+
+    .player-usage-subtitle {
+        font-size: 10px;
+        margin-top: -7px;
+        margin-bottom: 10px;
+    }
+
+    .player-usage-list {
+        max-height: 280px;
+    }
+
+    .player-usage-row {
+        grid-template-columns: minmax(0, 1fr) 38px;
+        gap: 6px;
+        padding: 6px;
+    }
+
+    .player-name {
+        font-size: 11px;
+    }
+
+    .player-count {
+        font-size: 9px;
+        padding: 2px 5px;
+        border-radius: 9px;
+        min-width: 20px;
+    }
+
+    .first-game {
+        grid-column: 1 / -1;
+        text-align: left;
+        font-size: 9px;
+        margin-top: -2px;
+        white-space: normal;
+    }
+
+    .latest-badge {
+        font-size: 8px;
+        padding: 2px 5px;
+    }
 }
-.score-chart canvas {
-    width: 100% !important;
-    height: 100% !important;
-}
+
+/* =========================================
+   STATS INSIDE THE GAME-OVER POPUP
+   (kept last so it overrides the small-screen rules above)
+   ========================================= */
 
 .game-over-stats {
     width: 100%;
@@ -903,7 +1230,6 @@
 }
 
 .game-over-stats .jacks-summary {
-    display: flex;
     gap: 8px;
     margin-bottom: 15px;
 }
@@ -993,471 +1319,4 @@
 .game-over-stats .score-chart {
     width: 100%;
     height: 170px;
-}
-
-.game-over-stats .score-chart canvas {
-    width: 100% !important;
-    height: 100% !important;
-}
-.leaderboard-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 10px;
-    width: 100%;
-}
-
-.leaderboard-cell {
-    background: #fffafa;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px;
-    min-width: 0;
-    overflow: hidden;
-}
-
-.guess-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 6px;
-    padding: 4px 0;
-    min-width: 0;
-}
-
-.guess-name {
-    min-width: 0;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    line-height: 1.2;
-}
-
-.top-guess .guess-name {
-    font-weight: 700;
-}
-
-.guess-count {
-    flex-shrink: 0;
-    background: #e5e5e5;
-    border-radius: 12px;
-    padding: 2px 7px;
-    font-size: 11px;
-    font-weight: 700;
-    min-width: 22px;
-    text-align: center;
-}
-.overall-leaderboard {
-    margin-top: 20px;
-    background: #fffafa;
-    border: 1px solid #e3e3e3;
-    border-radius: 12px;
-    padding: 18px 20px;
-}
-
-.overall-leaderboard-title {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 2px;
-}
-
-.overall-leaderboard-subtitle {
-    font-size: 12px;
-    color: #888;
-    margin-bottom: 14px;
-}
-
-.overall-leaderboard-list {
-    display: flex;
-    flex-direction: column;
-}
-
-.overall-guess-row {
-    display: grid;
-    grid-template-columns: 30px minmax(0, 1fr) auto auto;
-    align-items: center;
-    gap: 10px;
-    min-height: 42px;
-    padding: 7px 4px;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.overall-guess-row:last-child {
-    border-bottom: none;
-}
-
-.overall-rank {
-    font-size: 12px;
-    font-weight: 600;
-    color: #999;
-    text-align: center;
-}
-
-.overall-name {
-    min-width: 0;
-    font-size: 14px;
-    font-weight: 500;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.top-guess {
-    background: #fff1f1;
-    border-radius: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.top-guess .overall-rank {
-    color: #cc0000;
-    font-weight: 700;
-}
-
-.top-guess .overall-name {
-    color: #cc0000;
-    font-weight: 700;
-}
-
-.overall-count {
-    min-width: 32px;
-    padding: 4px 8px;
-    background: #eeeeee;
-    border-radius: 12px;
-    font-size: 11px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.overall-percent {
-    min-width: 48px;
-    padding: 4px 8px;
-    background: #f5f5f5;
-    border-radius: 12px;
-    font-size: 11px;
-    font-weight: 600;
-    color: #666;
-    text-align: center;
-}
-
-.overall-leaderboard-subtitle {
-    display: block;
-    font-size: 11px;
-    font-weight: 400;
-    color: #888;
-    margin-top: 2px;
-}
-
-@media (max-width: 600px) {
-
-    .leaderboard-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 5px;
-    }
-
-    .leaderboard-cell {
-        padding: 7px 5px;
-        border-radius: 8px;
-    }
-
-    .cell-label {
-        font-size: 10px;
-        line-height: 1.2;
-        margin-bottom: 5px;
-        padding-bottom: 5px;
-    }
-
-    .guess-row {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        justify-content: center;
-        gap: 2px;
-        padding: 5px 0;
-    }
-
-    .guess-name {
-        font-size: 10px;
-        line-height: 1.15;
-        text-align: center;
-        overflow-wrap: anywhere;
-        word-break: break-word;
-    }
-
-    .guess-count {
-        align-self: center;
-        min-width: 20px;
-        padding: 2px 6px;
-        font-size: 9px;
-        border-radius: 10px;
-    }
-
-}
-
-.leaderboard-grid-card h4 {
-    text-align: center;
-    margin: 0 0 18px;
-    font-size: 21px;
-    font-weight: 600;
-}
-
-.leaderboard-grid-card h4::after {
-    content: "";
-    display: block;
-    width: 45px;
-    height: 3px;
-    background: #cc0000;
-    border-radius: 3px;
-    margin: 8px auto 0;
-}
-
-/* =========================================
-   JACK'S BOXES USAGE PAGE
-   ========================================= */
-
-.jacks-usage-container {
-    max-width: 850px;
-    margin: 0 auto;
-    padding: 25px 20px 40px;
-    font-family: "Quicksand", sans-serif;
-    box-sizing: border-box;
-}
-
-
-/* Header */
-
-.jacks-usage-header {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.jacks-usage-header h3 {
-    margin: 0;
-    font-size: 28px;
-    font-weight: 600;
-}
-
-
-/* Cards */
-
-.jacks-usage-card {
-    width: 100%;
-    box-sizing: border-box;
-    background: #fffafa;
-    border-radius: 14px;
-    padding: 22px 20px 25px;
-    margin-bottom: 25px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-}
-
-.jacks-usage-card h4 {
-    text-align: center;
-    margin: 0 0 18px;
-    font-size: 21px;
-    font-weight: 600;
-}
-
-.jacks-usage-card h4::after {
-    content: "";
-    display: block;
-    width: 45px;
-    height: 3px;
-    background: #cc0000;
-    border-radius: 3px;
-    margin: 8px auto 0;
-}
-
-
-/* =========================================
-   CHARTS
-   ========================================= */
-
-.usage-chart {
-    position: relative;
-    width: 100%;
-    height: 300px;
-}
-
-.usage-chart canvas {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-.player-usage-subtitle {
-    text-align: center;
-    color: #888;
-    font-size: 12px;
-    margin-top: -10px;
-    margin-bottom: 15px;
-}
-
-.player-usage-list {
-    width: 100%;
-    max-height: 500px;
-    overflow-y: auto;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    background: #fffafa;
-    box-sizing: border-box;
-}
-
-.player-usage-row {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 55px 150px;
-    align-items: center;
-    gap: 12px;
-    padding: 9px 10px;
-    border-bottom: 1px solid #eee;
-    box-sizing: border-box;
-}
-
-.player-usage-row:last-child {
-    border-bottom: none;
-}
-
-.player-name {
-    min-width: 0;
-    font-size: 14px;
-    font-weight: 500;
-    overflow-wrap: anywhere;
-}
-
-.player-count {
-    background: #e5e5e5;
-    border-radius: 12px;
-    padding: 4px 8px;
-    font-size: 11px;
-    font-weight: 700;
-    text-align: center;
-    min-width: 35px;
-}
-
-.first-game {
-    font-size: 12px;
-    color: #777;
-    text-align: right;
-    white-space: nowrap;
-}
-
-.latest-player {
-    background: #fff1f1;
-}
-
-.latest-player .player-name {
-    color: #cc0000;
-    font-weight: 700;
-}
-
-.latest-player .first-game {
-    color: #cc0000;
-    font-weight: 600;
-}
-
-.latest-badge {
-    display: inline-block;
-    margin-left: 6px;
-    padding: 2px 6px;
-    background: #cc0000;
-    color: white;
-    border-radius: 8px;
-    font-size: 9px;
-    font-weight: 700;
-}
-
-.player-usage-list::-webkit-scrollbar {
-    width: 7px;
-}
-
-.player-usage-list::-webkit-scrollbar-track {
-    background: #f5f5f5;
-    border-radius: 8px;
-}
-
-.player-usage-list::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 8px;
-}
-
-.player-usage-list::-webkit-scrollbar-thumb:hover {
-    background: #aaa;
-}
-
-
-@media (max-width: 600px) {
-
-    .jacks-usage-container {
-        max-width: none;
-        width: 100%;
-        padding: 15px 5px 25px;
-    }
-
-    .jacks-usage-header {
-        margin-bottom: 18px;
-    }
-
-    .jacks-usage-header h3 {
-        font-size: 21px;
-    }
-
-    .jacks-usage-card {
-        padding: 14px 8px 15px;
-        margin-bottom: 15px;
-        border-radius: 10px;
-    }
-
-    .jacks-usage-card h4 {
-        font-size: 17px;
-        margin-bottom: 10px;
-    }
-
-    .jacks-usage-card h4::after {
-        width: 32px;
-        height: 2px;
-        margin-top: 5px;
-    }
-
-    .usage-chart {
-        height: 200px;
-    }
-
-
-    .player-usage-subtitle {
-        font-size: 10px;
-        margin-top: -7px;
-        margin-bottom: 10px;
-    }
-
-
-    .player-usage-list {
-        max-height: 280px;
-    }
-
-    .player-usage-row {
-        grid-template-columns: minmax(0, 1fr) 38px;
-        gap: 6px;
-        padding: 6px;
-    }
-
-    .player-name {
-        font-size: 11px;
-    }
-
-
-    .player-count {
-        font-size: 9px;
-        padding: 2px 5px;
-        border-radius: 9px;
-        min-width: 20px;
-    }
-
-    .first-game {
-        grid-column: 1 / -1;
-        text-align: left;
-        font-size: 9px;
-        margin-top: -2px;
-        white-space: normal;
-    }
-
-    .latest-badge {
-        font-size: 8px;
-        padding: 2px 5px;
-    }
 }
