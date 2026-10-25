@@ -1,0 +1,11 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+49,"['Chris Drury (1994-98)', 'Steve Stirling (1968-71)', 'Bobo Carpenter (2015-19)', 'J.D. Carrabino (2013-16)', 'Don Cahoon (1969-72)', 'Joel Farabee (2018-19)', 'Nick Bonino (2007-10)', 'Jacques Joubert (1992-95)', 'Shane Bowers (2017-19)']",9,False,0,2026-10-24T12:16:39.491Z
+49,"[None, None, None, None, None, None, None, 'Jay Pandolfo (1992-96)', None]",1,False,0,2026-10-24T14:50:35.538Z
+49,"['Sarah Appleton (2006-10)', 'Jacques Joubert (1992-95)', 'Dante Fabbro (2016-19)', None, 'Colby Cohen (2007-10)', 'Joel Farabee (2018-19)', 'Rebecca Russo (2012-16)', 'Jay Pandolfo (1992-96)', 'Bobo Carpenter (2015-19)']",8,False,0,2026-10-24T14:55:10.747Z
+49,"['Sarah Appleton (2006-10)', 'Jacques Joubert (1992-95)', 'Dante Fabbro (2016-19)', 'Patrick Harper (2016-20)', 'Colby Cohen (2007-10)', 'Victoria Bach (2014-18)', 'Rebecca Russo (2012-16)', 'Jay Pandolfo (1992-96)', 'Nina Rodgers (2016-18)']",9,False,0,2026-10-24T15:00:21.874Z
+49,"[None, 'Kevin Shattenkirk (2007-10)', None, None, None, 'Victoria Bach (2014-18)', None, 'Nick Bonino (2007-10)', 'Joel Farabee (2018-19)']",4,False,0,2026-10-24T15:14:42.908Z
+49,"['Joe Pereira (2007-11)', 'Matt Gilroy (2005-09)', 'Bobo Carpenter (2015-19)', 'Patrick Harper (2016-20)', 'Eric Gryba (2006-10)', 'Joel Farabee (2018-19)', 'Nick Bonino (2007-10)', 'Colin Wilson (2007-09)', 'Jordan Greenway (2015-18)']",9,False,0,2026-10-24T17:02:51.003Z
+49,"[None, 'Matt Gilroy (2005-09)', None, None, None, None, None, 'John McCarthy (2005-09)', None]",2,False,0,2026-10-24T19:34:45.827Z
+49,"['Chris Drury (1994-98)', 'Matt Gilroy (2005-09)', 'Bobo Carpenter (2015-19)', 'Bill LeBlond (1976-80)', 'Jason Lawrence (2005-09)', None, 'Patrick Harper (2016-20)', 'Colby Cohen (2007-10)', 'Shane Bowers (2017-19)']",8,False,0,2026-10-24T19:35:57.029Z
+49,"['Joe Pereira (2007-11)', 'John McCarthy (2005-09)', 'Patrick Curry (2016-20)', None, 'Eric Gryba (2006-10)', 'Joel Farabee (2018-19)', 'Chris Drury (1994-98)', 'Colin Wilson (2007-09)', 'Bobo Carpenter (2015-19)']",8,False,0,2026-10-24T20:23:23.925Z
+49,"['Chris Drury (1994-98)', 'Matt Gilroy (2005-09)', None, None, None, None, 'Robbie Baillargeon (2013-16)', ""Chris O'Sullivan (1992-96)"", None]",4,False,0,2026-10-24T21:36:23.157Z
