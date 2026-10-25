@@ -435,6 +435,7 @@ def generateWomensRecordBook():
     dfWomensGames['BURank']=np.nan
     dfWomensGames['OppRank']=np.nan
     dfWomensGames[['BURank','OppRank']]=getRanks(dfWomensGames, dfPollsWomens)
+    dfWomensGames['tourney']=dfWomensGames['tourney'].fillna('')
     
     return dfWomensGames
 
