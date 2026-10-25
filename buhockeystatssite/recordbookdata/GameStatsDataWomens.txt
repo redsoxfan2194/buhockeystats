@@ -14516,3 +14516,38 @@
 10/17/2026,Colgate,Neely Nicholson,F,SR,0,0,0,2026-27
 10/17/2026,Colgate,Julia Curran,F,FR,0,0,0,2026-27
 10/17/2026,Colgate,Mari Pietersen,G,SR,0,0,0,2026-27
+10/23/2026,Yale,Avery Supryka,D,SO,0,0,0,2026-27
+10/23/2026,Yale,Quinn Taylor,F,FR,0,0,0,2026-27
+10/23/2026,Yale,Greta Henderson,F,SR,0,0,0,2026-27
+10/23/2026,Yale,Mylie Ellis,D,FR,0,1,1,2026-27
+10/23/2026,Yale,Ella Pukala,F,SO,0,0,0,2026-27
+10/23/2026,Yale,Julia Curran,F,FR,0,0,0,2026-27
+10/23/2026,Yale,Eden Bergman,F,FR,0,0,0,2026-27
+10/23/2026,Yale,Lo Lachapelle,F,FR,0,0,0,2026-27
+10/23/2026,Yale,Peyton Blaney,D,SR,0,0,0,2026-27
+10/23/2026,Yale,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/23/2026,Yale,Anežka Čabelová,D,SO,0,1,1,2026-27
+10/23/2026,Yale,Kaileigh Quigg,F,JR,0,1,1,2026-27
+10/23/2026,Yale,Tessa Demain,D,JR,0,0,0,2026-27
+10/23/2026,Yale,Kate Meinert,D,JR,0,0,0,2026-27
+10/23/2026,Yale,Neely Nicholson,F,SR,0,0,0,2026-27
+10/23/2026,Yale,Keira Healey,D,JR,0,0,0,2026-27
+10/23/2026,Yale,Sydney Fogu,G,SO,0,0,0,2026-27
+10/24/2026,Robert Morris,Greta Henderson,F,SR,0,0,0,2026-27
+10/24/2026,Robert Morris,Julia Curran,F,FR,0,0,0,2026-27
+10/24/2026,Robert Morris,Neely Nicholson,F,SR,0,0,0,2026-27
+10/24/2026,Robert Morris,Kaileigh Quigg,F,JR,1,0,1,2026-27
+10/24/2026,Robert Morris,Peyton Blaney,D,SR,0,0,0,2026-27
+10/24/2026,Robert Morris,Ella Pukala,F,SO,0,0,0,2026-27
+10/24/2026,Robert Morris,Kylie Hollingsworth,F,FR,0,1,1,2026-27
+10/24/2026,Robert Morris,Keira Healey,D,JR,1,0,1,2026-27
+10/24/2026,Robert Morris,Bronwyn Langis,F,FR,0,0,0,2026-27
+10/24/2026,Robert Morris,Avery Supryka,D,SO,0,1,1,2026-27
+10/24/2026,Robert Morris,Tessa Demain,D,JR,0,0,0,2026-27
+10/24/2026,Robert Morris,Mylie Ellis,D,FR,0,1,1,2026-27
+10/24/2026,Robert Morris,Lexie Bertelsen,F,SO,0,1,1,2026-27
+10/24/2026,Robert Morris,Anežka Čabelová,D,SO,0,0,0,2026-27
+10/24/2026,Robert Morris,Quinn Taylor,F,FR,0,0,0,2026-27
+10/24/2026,Robert Morris,Lo Lachapelle,F,FR,0,0,0,2026-27
+10/24/2026,Robert Morris,Kate Meinert,D,JR,0,0,0,2026-27
+10/24/2026,Robert Morris,Mari Pietersen,G,SR,0,0,0,2026-27
