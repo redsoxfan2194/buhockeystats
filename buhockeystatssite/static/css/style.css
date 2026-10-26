@@ -1,3 +1,7 @@
+/* =========================================
+   Fonts and page basics
+   ========================================= */
+
 @font-face {
   font-family: "yearbook-solid";
   src: url("font/yearbooksolidcyr_regular.woff2") format("woff2"),
@@ -6,20 +10,175 @@
   font-display: swap;
 }
 
-
-body{
+body {
   font-family: 'Quicksand';
+  background-color: #fffafa;
 }
 
-.link-no-pad{
-  color:black;
-}
-.link{
-  color:black;
+#content {
+  background-color: #fffafa;
+  display: flex;
+  overflow: auto;
 }
 
-.offcanvas-buhs{
-  width:300px;
+footer {
+  background-color: #fffafa;
+}
+
+nav {
+  background-color: #cc0000;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+  font-family: yearbook-solid;
+  padding-left: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.link,
+.link-no-pad {
+  color: black;
+}
+
+.mobile-view {
+  display: none;
+}
+
+/* =========================================
+   Home page
+   ========================================= */
+
+#homepage-title {
+  font-family: yearbook-solid;
+  color: #cc0000;
+  text-align: center;
+  font-size: 75px;
+}
+
+.homepage-link {
+  display: inline-block;
+  margin-right: 10px; /* add spacing between items */
+  font-size: 30px;
+  color: #cc0000;
+  text-align: center;
+  max-width: 250px;
+}
+
+#dyk {
+  font-size: 30px;
+}
+
+#dyk-query {
+  font-size: 20px;
+}
+
+#randStat {
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.icon-link-container {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.mobile-row {
+  display: contents;
+}
+
+.mobile-row > div {
+  width: auto;
+  text-align: center;
+}
+
+.mobile-row img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* =========================================
+   Stats tables
+   ========================================= */
+
+.stat-table {
+  text-align: center;
+}
+
+.stat-row {
+  padding-right: 4px;
+}
+
+.stat-header {
+  font-weight: bold;
+}
+
+#no-data {
+  font-size: 20px;
+  text-align: center;
+}
+
+#record {
+  color: #cc0000;
+  font-size: 160%;
+  text-align: center;
+}
+
+.badge {
+  margin-right: 1em;
+  min-width: 3em;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#resultTable,
+#statTable,
+#draftTable {
+  overflow-y: auto;
+}
+
+.buhs-header {
+  color: #cc0000;
+}
+
+.buhs-table-odd {
+  color: white;
+  background-color: #cc0000;
+}
+
+.buhs-table-even {
+  color: #cc0000;
+  background-color: white;
+}
+
+.award-row-red {
+  background-color: #cc0000 !important;
+  color: white !important;
+}
+
+.award-row-white {
+  background-color: white !important;
+  color: #cc0000 !important;
+}
+
+/* =========================================
+   Filter sidebars (records / players / draft / pro stats)
+   ========================================= */
+
+.offcanvas-buhs {
+  width: 300px;
 }
 
 .sidebar-buhs {
@@ -29,6 +188,19 @@ body{
   height: 100%;
 }
 
+.sidebar-header-center {
+  display: block;
+  text-align: center;
+}
+
+#offcanvasRecordsFilters {
+  overflow-y: auto;
+}
+
+.accordion-flush {
+  overflow-y: auto;
+}
+
 .filter {
   align-items: center;
   display: flex;
@@ -36,154 +208,66 @@ body{
   justify-content: space-between;
 }
 
-.checkbox-label {
-  text-wrap: nowrap;
+.recLabels {
+  color: gray;
 }
 
-.stat-table {
-	text-align: center;
-}
-.stat-row {
-	padding-right: 4px;
-}
-
-.stat-header{
-  font-weight: bold;
-}
-
-.sidebar-header-center{
-  display:block;
-  text-align:center;
-}
-
-.badge {
-  margin-right: 1em;
-  min-width: 3em;
-}
-
-#content{
-  background-color: #fffafa;
+.dropdown-container {
   display: flex;
-  overflow: auto;
 }
 
-footer{
-  background-color: #fffafa;
+.dropdown-toggle {
+  width: 160px;
 }
 
-body{
-  background-color: #fffafa;
+.custom-align {
+  margin-left: 5px;
 }
 
-nav {
-	background-color: #cc0000;
-	box-shadow: 0 4px 2px -2px rgba(0,0,0,0.3);
+.op-drop {
+  width: 75px;
 }
 
-.navbar-brand {
-	font-family: yearbook-solid;
-  padding-left: 5px;
+#offcanvasRecordsFilters label {
+  width: 100px;
+  margin-left: 5px;
 }
 
-#homepage-title{
-  font-family: yearbook-solid;
-  color: #cc0000;
-  text-align: center;
-  font-size: 75px;
-}
-  
-.homepage-ul{
-  
-  list-style: none; 
-  text-align:center;
-  
+#offcanvasPlayersFilters label {
+  width: 107px;
+  margin-left: 5px;
 }
 
-#no-data{
-  
-  font-size: 20px;  
-  text-align:center;
-  
+#seasRange label {
+  width: 150px;
 }
 
-.homepage-li {
-  display: inline-block;
-  margin-right: 10px; /* add spacing between items */
+#name,
+#number,
+#date {
+  width: 130px;
 }
 
-.homepage-link {
-  display: inline-block;
-  margin-right: 10px; /* add spacing between items */
-  font-size: 30px;
-  color: #cc0000;
-  text-align: center;
+input[type=number] {
+  -moz-appearance: textfield;
+  width: 75px;
 }
 
-#dyk{
-  font-size: 30px;
+#startYear,
+#endYear {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-#dyk-query{
-  font-size: 20px;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0 0 0 5px;
+  width: 0px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.mobile-view{
-  display:none;
-}
-
-@media (max-width:800px){
-  .mobile-view{
-    display:block
-  }
-  
-  #homepage-title{
-    font-size: 45px;
-  }
-  
-  #dyk{
-  font-size: 20px;
-  }
-
-  #dyk-query{
-    font-size: 10px;
-  }
-
-  .icon-link-container {
-    flex-direction: column;
-  }
-  
-  #offcanvasPlayersFilters,
-  #offcanvasRecordsFilters{
-    display: none;
-  }
-  
-}
-#result-card{
-   display:none;
-   width: fit-content;
-}
-
-.page-body {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-#resultTable {
-  overflow-y: auto;
-}
-
-#statTable {
-  overflow-y: auto;
-}
-
-#draftTable {
-  overflow-y: auto;
+#resetButton {
+  margin-top: 5px;
 }
 
 .btn-sort-filter {
@@ -195,195 +279,43 @@ img {
 
 .btn-sort-filter:focus {
   border-color: #b02a37;
-  box-shadow: 0 0 0 .25rem rgba(225,83,97,.5);
+  box-shadow: 0 0 0 .25rem rgba(225, 83, 97, .5);
 }
 
-.icon-link-container {
-    display: grid;
-    grid-template-columns: repeat(4, 250px);
-    justify-content: center;
-    width: 100%;
-    gap: 10px;
+.form-switch .form-check-input:checked {
+  background-color: #cc0000;
+  border-color: #cc0000;
 }
 
-.mobile-row {
-    display: contents;
+.form-switch .form-check-input:focus {
+  border-color: #cc0000;
+  box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25);
 }
 
-.mobile-row > div {
-    width: auto;
-    text-align: center;
+.form-check-label {
+  width: 130px !important;
 }
 
-.mobile-row img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
+/* =========================================
+   Trivia
+   ========================================= */
 
-@media (max-width: 768px) {
-    .icon-link-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-
-    .mobile-row > div {
-        width: auto;
-    }
-}
-
-.homepage-link {
-  max-width: 250px;
-}
-
-.accordion-flush{
-  overflow-y: auto;
-}
-
-#offcanvasRecordsFilters{
-  overflow-y: auto;
-}
-
-input[type=number]{
-    -moz-appearance: textfield;
-    width:75px;
-}
-
-#startYear,
-#endYear
-{
-    margin-left:5px;
-    margin-right:5px;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-    width:0px;
-    margin-left:5px;
-}
-
-.recLabels{
-  color:gray;
-}
-.dropdown-container{
-  display: flex;
-}
-
-#record {
-	color: #cc0000;
-	font-size: 160%;
-	text-align: center;
-
-}
-.dropdown-toggle{
-  width: 160px;
-}
-
-.hidden {
-	display: none;
-}
-
-.custom-align{
-  margin-left:5px;
-}
-
-.op-drop{
-  width:75px;
-}
-
-#offcanvasRecordsFilters label{
-  width:100px;
-  margin-left: 5px;
-}
-
-#offcanvasPlayersFilters label{
-  width:107px;
-  margin-left: 5px;
-}
-
-#name{
-  width:130px;
-}
-#number{
-  width:130px;
-}
-#date{
-  width:130px;
-}
-
-#seasRange label{
-  width: 150px;
-}
-
-#resetButton{
-  margin-top:5px;
-}
-
-#randStat{
-  padding-top:5px;
-}
 [type='radio'] {
-display: none; 
+  display: none;
 }
 
-.tOps{
-display: none;
-}  
-
-.choice-btn{
-  margin-right:10px;
-  margin-bottom:10px;
-  display:block;
+.tOps {
+  display: none;
 }
 
-.btn-group{
-  margin-bottom:10px;
+.choice-btn {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: block;
 }
 
-/*Chrome*/
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    input[type='range'] {
-      overflow: hidden;
-    }
-    
-    input[type='range']::-webkit-slider-thumb {
-      background: #cc0000;
-    }
-
-}
-/** FF*/
-input[type="range"]::-moz-range-progress {
-  background-color: #cc0000; 
-}
-input[type="range"]::-moz-range-track {  
-  background-color: #a2a4a8;
-}
-/* IE*/
-input[type="range"]::-ms-fill-lower {
-  background-color: #cc0000; 
-}
-input[type="range"]::-ms-fill-upper {  
-  background-color: #a2a4a8;
-}
-
-#randStat{
-  margin-top:5px;
-}
-  
-.error-container {
-  text-align: center;
-}
-.error-code {
-  font-size: 12rem;
-  font-weight: bold;
-  color: #cc0000;
-  margin-bottom: 20px;
-}
-.error-message {
-  font-size: 2rem;
-  color: #555;
+.btn-group {
+  margin-bottom: 10px;
 }
 
 #freeplayres {
@@ -392,71 +324,104 @@ input[type="range"]::-ms-fill-upper {
   margin-top: 5px;
 }
 
-.note-card{
+#result-card {
+  display: none;
+  width: fit-content;
+}
+
+/* range sliders: Chrome/Safari */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  input[type='range'] {
+    overflow: hidden;
+  }
+
+  input[type='range']::-webkit-slider-thumb {
+    background: #cc0000;
+  }
+}
+
+/* range sliders: Firefox */
+input[type="range"]::-moz-range-progress {
+  background-color: #cc0000;
+}
+
+input[type="range"]::-moz-range-track {
+  background-color: #a2a4a8;
+}
+
+/* =========================================
+   Other pages
+   ========================================= */
+
+.error-container {
+  text-align: center;
+}
+
+.error-code {
+  font-size: 12rem;
+  font-weight: bold;
+  color: #cc0000;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  font-size: 2rem;
+  color: #555;
+}
+
+.note-card {
   margin-top: 10px;
 }
 
-.note-nav{
+.note-nav {
   color: black;
 }
 
-.buhs-header{
-  color: #cc0000;
-}
-
-.buhs-table-odd{
-  color: #cc0000;
-  background-color: white;
-}
-
-.buhs-table-odd{
-  color: white;
-  background-color: #cc0000;
-}
-.buhs-table-even{
-  color: #cc0000;
-  background-color: white;
-}
-
-#party-jack {
-  display: block;
-  margin: 0 auto;
-}
-
+#party-jack,
 #sad-jack {
   display: block;
   margin: 0 auto;
 }
 
-.tidbit-margin{
+.tidbit-margin {
   margin-top: .5rem;
 }
 
-.form-switch .form-check-input:checked {
-    background-color: #cc0000;
-    border-color: #cc0000;
+/* hides filter rows the page JS switches off; kept after .filter so it wins */
+.hidden {
+  display: none;
 }
 
-.form-switch .form-check-input:focus {
-    border-color: #cc0000;
-    box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25);
+/* =========================================
+   Small screens
+   ========================================= */
+
+@media (max-width: 800px) {
+  .mobile-view {
+    display: block;
+  }
+
+  #homepage-title {
+    font-size: 45px;
+  }
+
+  #dyk {
+    font-size: 20px;
+  }
+
+  #dyk-query {
+    font-size: 10px;
+  }
+
+  #offcanvasPlayersFilters,
+  #offcanvasRecordsFilters {
+    display: none;
+  }
 }
 
-.form-check-label{
-  width: 130px !important;
-}
-
-.award-row-red {
-    background-color: #cc0000 !important;
-    color: white !important;
-}
-
-.award-row-white {
-    background-color: white !important;
-    color: #cc0000 !important;
-}
-
-.award-table th {
-    background-color: #cc0000 !important;
-    color: white !important;
+@media (max-width: 768px) {
+  .icon-link-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
 }
