@@ -3357,36 +3357,26 @@ def getBeanpotStats(dfBean, query):
     return ''
 
 def getMaxStreak(dfGStats,name,stat):
-    dfRes=dfGStats.query(f'name == "{name}"').copy()
-    if((dfRes.tail(1)['date']<"10/1/2002").bool()):
+    '''Longest run of consecutive games with the stat for one player, e.g. "7 games (01/05/2024 - 02/02/2024)".'''
+    dfRes=dfGStats[dfGStats['name']==name]
+    # no game-by-game stats before the 2002-03 season
+    if(dfRes.empty or dfRes['date'].iloc[-1]<pd.Timestamp("10/1/2002")):
       return 'N/A'
-    dfRes['isStat']=dfRes[stat]>=1
-    dfRes['SoS']=dfRes['isStat'].ne(dfRes['isStat'].shift())
-    dfRes['streak_id']=dfRes.SoS.cumsum()
-    dfRes['streak_counter'] = dfRes.groupby('streak_id').cumcount() + 1
-    if(not dfRes.query(f"{stat}>=1").empty):
-        maxStreak=dfRes.query(f'streak_counter=={dfRes.query(f"{stat}>=1")["streak_counter"].max()} and {stat}>=1')['streak_counter'].to_string(index=False,header=False)
-        sId=dfRes.query(f'streak_counter=={dfRes.query(f"{stat}>=1")["streak_counter"].max()} and {stat}>=1')['streak_id'].to_string(index=False,header=False)
-        maxes=maxStreak.split("\n")
-        if(len(maxes)==1):
-            if(len(dfRes.query(f'streak_id=={sId}'))==1):
-                startDate=dfRes.query(f'streak_id=={sId}')['date'].dt.strftime("%m/%d/%Y").to_string(index=False,header=False)
-                gStr="game"
-            else:
-                startDate=dfRes.query(f'streak_id=={sId}').iloc[0]['date'].strftime("%m/%d/%Y")
-                gStr="games"
-            if(len(dfRes.query(f'streak_id=={sId}'))==1):
-                endDate=''
-            else:
-                endDate=" - "+dfRes.query(f'streak_id=={sId}').iloc[-1]['date'].strftime("%m/%d/%Y")
-            return(f"{maxStreak} {gStr} ({startDate}{endDate})")
-        else:
-            if(int(maxes[0])==1):
-                gStr='game'
-            else:
-                gStr='games'
-            return (f"{maxes[0]} {gStr} ({len(maxes)} times)")
-    return 'N/A'
+    isStat=dfRes[stat]>=1
+    if(not isStat.any()):
+      return 'N/A'
+    # a new streak starts whenever "had the stat" flips from the previous game
+    streakId=isStat.ne(isStat.shift()).cumsum()
+    # length, first date and last date of every streak where the player had the stat
+    streaks=dfRes['date'][isStat].groupby(streakId[isStat]).agg(['size','first','last'])
+    longest=streaks['size'].max()
+    best=streaks[streaks['size']==longest]
+    gStr='game' if longest==1 else 'games'
+    if(len(best)>1):
+        return f"{longest} {gStr} ({len(best)} times)"
+    startDate=best['first'].iloc[0].strftime("%m/%d/%Y")
+    endDate='' if longest==1 else " - "+best['last'].iloc[0].strftime("%m/%d/%Y")
+    return f"{longest} {gStr} ({startDate}{endDate})"
 
 def getStreaks(dfGStats,stat='pts',minStr=3,sortVal='Length',ascend=False):
     # streaks must be counted in game order; the players page may have sorted the games by another column first
