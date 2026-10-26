@@ -3423,65 +3423,62 @@ def getStreaks(dfGStats,stat='pts',minStr=3,sortVal='Length',ascend=False):
         return dfOut
     return dfOut.sort_values(sortVal,ascending=ascend)
 
+def seasonStreaks(dfGStats,season,stat='pts'):
+    '''Number the stat streaks of every player who played in the season, in one pass (no per-player loop).
+    Streaks run over each player's whole game log, so one that started last season keeps its full length.'''
+    players=dfGStats.loc[dfGStats['season']==season,'name'].unique()
+    dfResTeam=dfGStats[dfGStats['name'].isin(players)].copy()
+    names=dfResTeam['name']
+    dfResTeam['isStat']=dfResTeam[stat]>=1
+    # a new streak starts whenever "had the stat" flips compared with that player's previous game
+    dfResTeam['SoS']=dfResTeam['isStat'].ne(dfResTeam['isStat'].groupby(names, sort=False).shift())
+    dfResTeam['streak_id']=dfResTeam['SoS'].groupby(names, sort=False).cumsum()
+    dfResTeam['streak_counter']=dfResTeam.groupby([names, dfResTeam['streak_id']], sort=False).cumcount() + 1
+    # first date, last date and length of every streak, looked up once
+    bounds=dfResTeam.groupby(['name','streak_id']).agg(first=('date','first'), last=('date','last'),
+                                                       length=('streak_counter','last'))
+    return dfResTeam,bounds
+
 def getTopStreaks(dfGStats,season="2022-23",stat='pts',topN=5):
-    dfResTeam=pd.DataFrame()
-    if(dfGStats.query(f'season=="{season}"').empty):
+    if(not (dfGStats['season']==season).any()):
       return "N/A"
-    for player in dfGStats.query(f'season=="{season}"').name.unique():
-        dfRes=dfGStats.query(f'name == "{player}"').copy()
-        stat='pts'
-        dfRes['isStat']=dfRes[stat]>=1
-        dfRes['SoS']=dfRes['isStat'].ne(dfRes['isStat'].shift())
-        dfRes['streak_id']=dfRes.SoS.cumsum()
-        dfRes['streak_counter'] = dfRes.groupby('streak_id').cumcount() + 1
-        dfResTeam=pd.concat([dfResTeam,dfRes])
-    topStreaks=dfResTeam.query(f'season=="{season}" and isStat').groupby(['name','streak_id']).max('streak_counter').sort_values('streak_counter',ascending=False).head(topN)
-    dfOut=pd.DataFrame()
-    for i in range(len(topStreaks)):
-        startDate=dfResTeam.query(f'name=="{topStreaks.index[i][0]}" and streak_id=={topStreaks.index[i][1]}').iloc[0]['date'].strftime("%m/%d/%y")
-        endDate=dfResTeam.query(f'name=="{topStreaks.index[i][0]}" and streak_id=={topStreaks.index[i][1]}').iloc[-1]['date'].strftime("%m/%d/%y")
-        streakValue=dfResTeam.query(f'name=="{topStreaks.index[i][0]}" and streak_id=={topStreaks.index[i][1]}').iloc[-1]['streak_counter']
+    dfResTeam,bounds=seasonStreaks(dfGStats,season,stat)
+    inSeason=dfResTeam[(dfResTeam['season']==season) & dfResTeam['isStat']]
+    topStreaks=inSeason.groupby(['name','streak_id']).max(numeric_only=True).sort_values('streak_counter',ascending=False).head(topN)
+    rows=[]
+    for (name,sId) in topStreaks.index:
+        streak=bounds.loc[(name,sId)]
+        startDate=streak['first'].strftime("%m/%d/%y")
+        endDate=streak['last'].strftime("%m/%d/%y")
+        streakValue=streak['length']
         if(int(streakValue)==1):
-            row = pd.DataFrame([{'name':topStreaks.index[i][0], 'streakVal': f'{streakValue} game', 'date': f'{startDate}'}])
+            rows.append({'name':name, 'streakVal': f'{streakValue} game', 'date': f'{startDate}'})
         else:
-            row = pd.DataFrame([{'name':topStreaks.index[i][0], 'streakVal': f'{streakValue} games', 'date': f'({startDate} - {endDate})'}])
-        dfOut=pd.concat([dfOut,row])
-    if(dfOut.empty):
+            rows.append({'name':name, 'streakVal': f'{streakValue} games', 'date': f'({startDate} - {endDate})'})
+    if(not rows):
       return 'N/A'
-    else:
-      return dfOut.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
+    dfOut=pd.DataFrame(rows)
+    return dfOut.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
 
 def getActiveStreaks(dfGStats,season="2022-23",stat='pts'):
-    dfResTeam=pd.DataFrame()
-    if(dfGStats.query(f'season=="{season}"').empty):
+    if(not (dfGStats['season']==season).any()):
       return "N/A"
-    for player in dfGStats.query(f'season=="{season}"').name.unique():
-        dfRes=dfGStats.query(f'name == "{player}"').copy()
-        stat='pts'
-        dfRes['isStat']=dfRes[stat]>=1
-        dfRes['SoS']=dfRes['isStat'].ne(dfRes['isStat'].shift())
-        dfRes['streak_id']=dfRes.SoS.cumsum()
-        dfRes['streak_counter'] = dfRes.groupby('streak_id').cumcount() + 1
-        dfResTeam=pd.concat([dfResTeam,dfRes])
-    currPlayers=dfGStats.query(f'season=="{season}"').name.to_list()
-    lastGame=dfResTeam.loc[dfResTeam['name'].isin(currPlayers)].groupby('name').last()
+    dfResTeam,bounds=seasonStreaks(dfGStats,season,stat)
+    # each current player's most recent game; an active streak is one still going in that game
+    lastGame=dfResTeam.groupby('name').last()
     lastGame.reset_index(inplace=True)
     activeStatStreak=lastGame.query('isStat').sort_values('streak_counter',ascending=False)
-    activeStatStreak.reset_index(inplace=True)
-    dfOut=pd.DataFrame()
-    for i in activeStatStreak.iloc:
-        startDate=dfResTeam.query(f'name==\"{i["name"]}\" and streak_id=={i["streak_id"]}')['date'].dt.strftime("%m/%d/%y").head(1).to_string(index=False)
-        streakValue=dfResTeam.query(f'name==\"{i["name"]}\" and streak_id=={i["streak_id"]}')['streak_counter'].tail(1).to_string(index=False)
-        if(int(streakValue)==1):
-            row = pd.DataFrame([{'name':i["name"], 'streakVal': f'{streakValue} game', 'date': f'{startDate} - Pres.','streakNum':streakValue}])
-        else:
-            row = pd.DataFrame([{'name':i["name"], 'streakVal': f'{streakValue} games', 'date': f'{startDate} - Pres.','streakNum':streakValue}])
-        dfOut=pd.concat([dfOut,row])
-    if(dfOut.empty):
+    rows=[]
+    for name,sId in zip(activeStatStreak['name'],activeStatStreak['streak_id']):
+        streak=bounds.loc[(name,sId)]
+        startDate=streak['first'].strftime("%m/%d/%y")
+        streakValue=streak['length']
+        gStr='game' if int(streakValue)==1 else 'games'
+        rows.append({'name':name, 'streakVal': f'{streakValue} {gStr}', 'date': f'{startDate} - Pres.'})
+    if(not rows):
       return 'N/A'
-    else:
-      dfOut=dfOut[['name','streakVal','date']]
-      return dfOut.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
+    dfOut=pd.DataFrame(rows)
+    return dfOut.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').hide(axis='index').hide(axis='columns').to_html(index_names=False, render_links=True)
 
 def getHatTricks(dfGStats,season="2022-23"):
   if(dfGStats.query(f'season=="{season}" and goals>=3').empty):
