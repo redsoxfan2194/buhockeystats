@@ -1828,8 +1828,13 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
             res = (dfResult.loc[(dfResult['result'] == 'T')].sort_values(
                 sortType, ascending=False)[:numRes])
         elif ('tie' in qType and 'GD' in sortType):
-            res = pd.DataFrame()
-            return ''
+            # every tie has a goal differential of 0, so the biggest tie is the highest-scoring one
+            res = (dfResult.loc[(dfResult['result'] == 'T')].sort_values(
+                ['TG', 'date'], ascending=False)[:numRes])
+        elif ('loss' in qType and 'GD' in sortType):
+            # losses have a negative goal differential: the biggest loss is the most negative one
+            res = (dfResult.loc[(dfResult['result'] == 'L')].sort_values(
+                sortType, ascending=[True, False])[:numRes])
         elif 'loss' in qType:
             res = (dfResult.loc[(dfResult['result'] == 'L')].sort_values(
                 sortType, ascending=False)[:numRes])
@@ -1853,9 +1858,10 @@ def getResults(dfGames, dfGameStats, dfGameStatsGoalie, query):
                     res.iloc[i]['opponent'].lstrip(' '),
                     res.iloc[i]['scoreline'].lstrip(' '),
                     res.iloc[i]['result'].lstrip(' '))
-                if isinstance(res.iloc[i]['ot'], str):
+                # only show OT / tournament when the game has one (blank values are '' or missing)
+                if isinstance(res.iloc[i]['ot'], str) and res.iloc[i]['ot'].strip() != '':
                     resStr += " " + res.iloc[i]['ot']
-                if isinstance(res.iloc[i]['tourney'], str):
+                if isinstance(res.iloc[i]['tourney'], str) and res.iloc[i]['tourney'].strip() != '':
                     resStr += " (" + res.iloc[i]['tourney'].lstrip(' ') + ")"
                 resStr += '\n'
         else:
