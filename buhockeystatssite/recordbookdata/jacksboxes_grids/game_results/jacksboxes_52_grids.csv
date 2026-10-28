@@ -1,0 +1,11 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+52,"['Macklin Celebrini (2023-24)', 'Chris Drury (1994-98)', 'Jay Pandolfo (1992-96)', 'Lane Hutson (2022-24)', None, 'Shane Lachance (2023-25)', None, None, 'Patrick Harper (2016-20)']",6,False,0,2026-10-27T10:30:29.731Z
+52,"['Matt Gilroy (2005-09)', 'Dave Silk (1976-79)', 'Wilmer Skoog (2019-23)', 'Jack Eichel (2014-15)', 'Macklin Celebrini (2023-24)', 'Domenick Fensore (2019-23)', None, None, 'Cole Eiserman (2024-26)']",7,False,0,2026-10-27T10:43:45.166Z
+52,"['Lane Hutson (2022-24)', 'Chris Drury (1994-98)', 'Mike Eruzione (1973-77)', 'Shawn McEachern (1988-91)', 'Dave Silk (1976-79)', None, ""Danny O'Regan (2012-16)"", 'Rick Meagher (1973-77)', 'Evan Rodrigues (2011-15)']",8,False,0,2026-10-27T10:52:38.654Z
+52,"['Macklin Celebrini (2023-24)', None, 'Shane Lachance (2023-25)', 'Lane Hutson (2022-24)', None, None, None, None, None]",3,False,0,2026-10-27T12:17:19.169Z
+52,"[None, None, None, 'Lane Hutson (2022-24)', None, None, None, None, None]",1,True,7,2026-10-27T13:05:16.107Z
+52,"['Macklin Celebrini (2023-24)', 'Chris Drury (1994-98)', 'Jack Hughes (2023-25)', 'Lane Hutson (2022-24)', 'Tony Amonte (1989-91)', 'Ryan Greene (2022-25)', 'Cole Hutson (2024-26)', None, 'Cole Eiserman (2024-26)']",8,False,0,2026-10-27T13:08:26.040Z
+52,"['Macklin Celebrini (2023-24)', 'Shawn McEachern (1988-91)', 'Cole Eiserman (2024-26)', 'Lane Hutson (2022-24)', 'Jay Pandolfo (1992-96)', 'Brandon Svoboda (2024-27)', 'Cole Hutson (2024-26)', 'Rick Meagher (1973-77)', None]",8,False,0,2026-10-27T13:29:18.231Z
+52,"['Marie-Philip Poulin (2010-15)', 'Jenn Wakefield (2010-12)', 'Lilli Welcke (2023-26)', 'Jesse Compher (2017-21)', 'Victoria Bach (2014-18)', 'Sydney Healey (2022-26)', None, None, 'Clara Yuhn (2022-26)']",7,False,0,2026-10-27T17:41:05.428Z
+52,"['Victoria Bach (2014-18)', 'Sarah Lefort (2012-16)', 'Reagan Rust (2017-19)', 'Marie-Philip Poulin (2010-15)', 'Macklin Celebrini (2023-24)', 'Jesse Compher (2017-21)', None, None, 'Patrick Harper (2016-20)']",7,False,0,2026-10-27T20:22:33.340Z
+52,"['Jay Pandolfo (1992-96)', 'Chris Drury (1994-98)', 'Evan Rodrigues (2011-15)', 'Colin Wilson (2007-09)', 'Macklin Celebrini (2023-24)', 'Brandon Svoboda (2024-27)', 'Jack Eichel (2014-15)', 'Rick Meagher (1973-77)', 'Clara Yuhn (2022-26)']",9,False,0,2026-10-28T03:46:30.127Z
