@@ -1,5 +1,6 @@
 '''Module to Format Pandas Tables for HTML Site'''
 import re
+import pandas as pd
 from bs4 import BeautifulSoup
 COLUMNS = {
     'date': 'Date',
@@ -441,8 +442,8 @@ def opponentcolors(opponent):
 def formatTable(dfRes):
     ''' Format Table Data '''
     if('saves' in dfRes):
-      dfRes['saves'] = dfRes['saves'].fillna(-1)
-      dfRes['saves'] = dfRes['saves'].astype(int)
+      # whole numbers, and a blank cell when saves weren't recorded
+      dfRes['saves'] = dfRes['saves'].apply(lambda v: '' if pd.isna(v) else int(v))
     if('date' in dfRes.columns):
       dfRes['date'] = dfRes['date'].dt.strftime('%m/%d/%Y')
     if('Medal' in dfRes.columns):
@@ -456,4 +457,4 @@ def formatTable(dfRes):
                         len(x))]).hide(
         axis='index')
     style.set_table_styles(TABLE_STYLES) 
-    return style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(index_names=False, render_links=True).replace("-1", "")
+    return style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(index_names=False, render_links=True)
