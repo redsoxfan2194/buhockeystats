@@ -32272,12 +32272,12 @@
 10/30/2026,Maine,Jack Harvey,F,SR,0,1,1,2026-27
 10/30/2026,Maine,Mick Frechette,D,SR,0,0,0,2026-27
 10/30/2026,Maine,Carter Amico,D,SO,0,1,1,2026-27
-10/30/2026,Maine,Ryder Ritchie,F,SO,0,0,0,2026-27
+10/30/2026,Maine,Ryder Ritchie,F,SO,0,1,1,2026-27
 10/30/2026,Maine,Jax Wismer,D,JR,0,0,0,2026-27
 10/30/2026,Maine,Jack Murtagh,F,SO,0,1,1,2026-27
-10/30/2026,Maine,Conrad Fondrk,F,SO,1,0,1,2026-27
+10/30/2026,Maine,Conrad Fondrk,F,SO,1,1,2,2026-27
 10/30/2026,Maine,Tynan Lawrence,F,SO,1,0,1,2026-27
 10/30/2026,Maine,Aiden Celebrini,D,SR,0,0,0,2026-27
 10/30/2026,Maine,Brandon Svoboda,F,JR,1,0,1,2026-27
-10/30/2026,Maine,Caleb Malhotra,F,FR,0,2,2,2026-27
+10/30/2026,Maine,Caleb Malhotra,F,FR,0,1,1,2026-27
 10/30/2026,Maine,Mikhail Yegorov,G,JR,0,0,0,2026-27

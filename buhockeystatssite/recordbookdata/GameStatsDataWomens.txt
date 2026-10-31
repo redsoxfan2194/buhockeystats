@@ -14438,11 +14438,11 @@
 10/01/2026,Wisconsin,Tessa Demain,D,JR,0,0,0,2026-27
 10/01/2026,Wisconsin,Mari Pietersen,G,SR,0,0,0,2026-27
 10/01/2026,Wisconsin,Sydney Fogu,G,SO,0,0,0,2026-27
-10/02/2026,Wisconsin,Peyton Blaney,D,SR,0,1,1,2026-27
+10/02/2026,Wisconsin,Peyton Blaney,D,SR,0,0,0,2026-27
 10/02/2026,Wisconsin,Keira Healey,D,JR,0,0,0,2026-27
 10/02/2026,Wisconsin,Lexie Bertelsen,F,SO,0,0,0,2026-27
 10/02/2026,Wisconsin,Lola Reid,F,JR,0,0,0,2026-27
-10/02/2026,Wisconsin,Tessa Demain,D,JR,0,0,0,2026-27
+10/02/2026,Wisconsin,Tessa Demain,D,JR,0,1,1,2026-27
 10/02/2026,Wisconsin,Ella Pukala,F,SO,0,0,0,2026-27
 10/02/2026,Wisconsin,Mylie Ellis,D,FR,0,0,0,2026-27
 10/02/2026,Wisconsin,Quinn Taylor,F,FR,0,0,0,2026-27
@@ -14523,8 +14523,8 @@
 10/23/2026,Yale,Ella Pukala,F,SO,0,0,0,2026-27
 10/23/2026,Yale,Julia Curran,F,FR,0,0,0,2026-27
 10/23/2026,Yale,Eden Bergman,F,FR,0,0,0,2026-27
-10/23/2026,Yale,Lo Lachapelle,F,FR,0,0,0,2026-27
-10/23/2026,Yale,Peyton Blaney,D,SR,0,0,0,2026-27
+10/23/2026,Yale,Lo Lachapelle,F,FR,1,0,1,2026-27
+10/23/2026,Yale,Peyton Blaney,D,SR,1,0,1,2026-27
 10/23/2026,Yale,Lexie Bertelsen,F,SO,0,0,0,2026-27
 10/23/2026,Yale,Anežka Čabelová,D,SO,0,1,1,2026-27
 10/23/2026,Yale,Kaileigh Quigg,F,JR,0,1,1,2026-27
@@ -14558,9 +14558,9 @@
 10/30/2026,Northeastern,Tessa Demain,D,JR,0,0,0,2026-27
 10/30/2026,Northeastern,Mylie Ellis,D,FR,0,0,0,2026-27
 10/30/2026,Northeastern,Bronwyn Langis,F,FR,0,0,0,2026-27
-10/30/2026,Northeastern,Neely Nicholson,F,SR,1,1,2,2026-27
+10/30/2026,Northeastern,Neely Nicholson,F,SR,0,1,1,2026-27
 10/30/2026,Northeastern,Kaileigh Quigg,F,JR,0,1,1,2026-27
-10/30/2026,Northeastern,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/30/2026,Northeastern,Lexie Bertelsen,F,SO,1,0,1,2026-27
 10/30/2026,Northeastern,Greta Henderson,F,SR,0,0,0,2026-27
 10/30/2026,Northeastern,Mia Vergilii,F,SO,0,0,0,2026-27
 10/30/2026,Northeastern,Ella Pukala,F,SO,0,0,0,2026-27

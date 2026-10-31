@@ -783,4 +783,4 @@
 10/17/2026,Colgate,Mari Pietersen,SR,45,1,1,0,57.43,L,2026-27
 10/23/2026,Yale,Sydney Fogu,SO,34,3,1,0,59.43,L,2026-27
 10/24/2026,Robert Morris,Mari Pietersen,SR,28,1,1,0,60.0,W,2026-27
-10/30/2026,Northeastern,Mari Pietersen,SR,45,8,1,0,60.0,,2026-27
+10/30/2026,Northeastern,Mari Pietersen,SR,45,8,1,0,60.0,L,2026-27
