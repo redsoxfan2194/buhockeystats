@@ -14551,3 +14551,21 @@
 10/24/2026,Robert Morris,Lo Lachapelle,F,FR,0,0,0,2026-27
 10/24/2026,Robert Morris,Kate Meinert,D,JR,0,0,0,2026-27
 10/24/2026,Robert Morris,Mari Pietersen,G,SR,0,0,0,2026-27
+10/30/2026,Northeastern,Kate Meinert,D,JR,0,0,0,2026-27
+10/30/2026,Northeastern,Lo Lachapelle,F,FR,0,0,0,2026-27
+10/30/2026,Northeastern,Quinn Taylor,F,FR,0,0,0,2026-27
+10/30/2026,Northeastern,Peyton Blaney,D,SR,0,0,0,2026-27
+10/30/2026,Northeastern,Tessa Demain,D,JR,0,0,0,2026-27
+10/30/2026,Northeastern,Mylie Ellis,D,FR,0,0,0,2026-27
+10/30/2026,Northeastern,Bronwyn Langis,F,FR,0,0,0,2026-27
+10/30/2026,Northeastern,Neely Nicholson,F,SR,1,1,2,2026-27
+10/30/2026,Northeastern,Kaileigh Quigg,F,JR,0,1,1,2026-27
+10/30/2026,Northeastern,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/30/2026,Northeastern,Greta Henderson,F,SR,0,0,0,2026-27
+10/30/2026,Northeastern,Mia Vergilii,F,SO,0,0,0,2026-27
+10/30/2026,Northeastern,Ella Pukala,F,SO,0,0,0,2026-27
+10/30/2026,Northeastern,Julia Curran,F,FR,0,0,0,2026-27
+10/30/2026,Northeastern,Keira Healey,D,JR,0,0,0,2026-27
+10/30/2026,Northeastern,Avery Supryka,D,SO,0,0,0,2026-27
+10/30/2026,Northeastern,Eden Bergman,F,FR,0,0,0,2026-27
+10/30/2026,Northeastern,Mari Pietersen,G,SR,0,0,0,2026-27
