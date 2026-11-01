@@ -14583,7 +14583,7 @@
 10/31/2026,Northeastern,Ella Pukala,F,SO,0,1,1,2026-27
 10/31/2026,Northeastern,Tessa Demain,D,JR,0,0,0,2026-27
 10/31/2026,Northeastern,Kaileigh Quigg,F,JR,0,0,0,2026-27
-10/31/2026,Northeastern,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/31/2026,Northeastern,Kylie Hollingsworth,F,FR,1,0,1,2026-27
 10/31/2026,Northeastern,Avery Supryka,D,SO,0,0,0,2026-27
 10/31/2026,Northeastern,Peyton Blaney,D,SR,0,0,0,2026-27
 10/31/2026,Northeastern,Lexie Bertelsen,F,SO,1,0,1,2026-27
