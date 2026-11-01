@@ -13,6 +13,9 @@ Disallow: /jackesboxes/stats
 User-agent: anthropic-ai
 Disallow: /
 
+User-agent: ExaSearchBot
+Disallow: /
+
 User-agent: Claude-Web
 Disallow: /
 
