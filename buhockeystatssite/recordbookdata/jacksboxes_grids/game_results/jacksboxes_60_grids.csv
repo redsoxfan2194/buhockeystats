@@ -1,0 +1,7 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+60,"['Matt Gilroy (2005-09)', 'Daryl MacLeod (1977-81)', 'Bob Boileau (1975-79)', 'Kevin Shattenkirk (2007-10)', 'Tom Poti (1996-98)', 'Alexandre Legault (1989-91)', 'Jill Cardella (2009-13)', 'Cole Hutson (2024-26)', 'Marie-Philip Poulin (2010-15)']",9,False,0,2026-11-04T11:44:54.141Z
+60,"[None, 'Nick Bonino (2007-10)', 'Alexandre Legault (1989-91)', 'Gavin McCarthy (2023-26)', 'Cole Hutson (2024-26)', 'Xavier Villeneuve (2026-27)', 'Case McCarthy (2019-24)', 'Dylan Peterson (2020-24)', 'Sam Stevens (2019-24)']",8,False,0,2026-11-04T12:15:00.241Z
+60,"[None, None, 'Alex Chiasson (2009-12)', 'Charlie McAvoy (2015-17)', None, 'Xavier Villeneuve (2026-27)', None, 'Dylan Peterson (2020-24)', 'Sam Stevens (2019-24)']",5,False,0,2026-11-04T12:39:33.875Z
+60,"[None, None, None, None, 'Matt Grzelcyk (2012-16)', None, None, 'Cole Hutson (2024-26)', 'Marie-Philip Poulin (2010-15)']",3,False,0,2026-11-04T12:45:13.904Z
+60,"['Matt Gilroy (2005-09)', 'Bill Pierce (1993-97)', 'Alex Chiasson (2009-12)', 'Domenick Fensore (2019-23)', 'Matt Grzelcyk (2012-16)', 'Xavier Villeneuve (2026-27)', 'Luke Tuch (2020-24)', 'Cole Hutson (2024-26)', 'Marie-Philip Poulin (2010-15)']",9,False,0,2026-11-04T14:54:04.212Z
+60,"['Kevin Shattenkirk (2007-10)', 'Chris Drury (1994-98)', None, 'Charlie McAvoy (2015-17)', 'Cole Hutson (2024-26)', 'Alexandra Calderone (2016-20)', 'Kristina Schuler (2017-21)', 'Sammy Davis (2015-20)', 'Sarah Lefort (2012-16)']",8,True,1,2026-11-04T15:33:08.493Z
