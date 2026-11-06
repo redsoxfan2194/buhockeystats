@@ -88,7 +88,6 @@ function splitLabel(label, maxW) {
 
 function drawCard(rows, emptyMessage) {
     icCurrentRows = rows;
-    icChart.innerHTML = '';
     document.getElementById('icSaveButton').hidden = !rows.length;
     if (!rows.length) {
         icChart.innerHTML = '<p class="impact-empty">' + (emptyMessage || 'No GameScore data for this selection.') + '</p>';
@@ -180,7 +179,9 @@ function drawCard(rows, emptyMessage) {
         hit.addEventListener('click', e => showTip(e, r));
         hit.addEventListener('mouseleave', hideTip);
     });
-    icChart.appendChild(svg);
+    // swap the new chart in, in one step: emptying the box first would shrink the page for a moment,
+    // and phones then jump the scroll position back to the top
+    icChart.replaceChildren(svg);
 }
 
 function showTip(e, r) {
@@ -459,8 +460,13 @@ function initImpactCards() {
     alterImpactSidebar();
     document.addEventListener('scroll', hideTip, { passive: true });
 
+    // phones fire 'resize' while scrolling (the address bar shows / hides), so only redraw
+    // when the width really changes
     let resizeTimer;
+    let lastWidth = window.innerWidth;
     window.addEventListener('resize', function () {
+        if (window.innerWidth === lastWidth) return;
+        lastWidth = window.innerWidth;
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(function () { alterImpactSidebar(); drawCard(icCurrentRows); }, 150);
     });
