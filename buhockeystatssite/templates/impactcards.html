@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+{% block content %}
+<form id="icForm" onsubmit="return false;">
+    <div class="sidebar-buhs offcanvas-buhs flex-container" data-bs-scroll="false" data-bs-backdrop="true" tabindex="-1" id="offcanvasImpactFilters" aria-labelledby="offcanvasImpactFiltersLabel">
+        <div class="offcanvas-header sidebar-header-center" id="ocImpactHeader">
+            <h5 class="offcanvas-title" id="offcanvasImpactFiltersLabel">Filters and Sorts</h5>
+            <button type="button" class="btn-close text-reset mobile-view" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div id="icSortDiv" class="filter">
+                <label for="icSort" class="recLabels">Sort by:</label>
+                <select class="btn dropdown-toggle custom-align" id="icSort">
+                    <option class="player-sort" value="date"> Date </option>
+                    <option value="total"> Total </option>
+                    <option value="0"> Production </option>
+                    <option value="1"> Misc </option>
+                    <option value="2"> Offense </option>
+                    <option value="3"> Defense </option>
+                    <option class="game-sort" value="name"> Name </option>
+                </select>
+                <span id="icArrowUp" class="arrow-up" onclick="toggleImpactArrow()">&#9650;</span>
+                <span id="icArrowDown" class="arrow-down" onclick="toggleImpactArrow()">&#9660;</span>
+                <input type="hidden" id="icAscending" value="false">
+            </div>
+            <div id="icViewDiv" class="filter">
+                <label for="icView" class="recLabels">View:</label>
+                <select class="btn dropdown-toggle custom-align" id="icView">
+                    <option value="game"> Game </option>
+                    <option value="player"> Player </option>
+                </select>
+            </div>
+
+            <!-- Game view -->
+            <div class="filter game-filter">
+                <label for="icGameSeason" class="recLabels">Season:</label>
+                <select class="btn dropdown-toggle custom-align" id="icGameSeason"></select>
+            </div>
+            <div class="filter game-filter">
+                <label for="icGame" class="recLabels">Game:</label>
+                <select class="btn dropdown-toggle custom-align" id="icGame"></select>
+            </div>
+
+            <!-- Player view -->
+            <div class="filter player-filter" hidden>
+                <label for="icPlayer" class="recLabels">Player:</label>
+                <select class="btn dropdown-toggle custom-align" id="icPlayer"></select>
+            </div>
+            <div class="filter player-filter" hidden>
+                <label for="icPlayerSeason" class="recLabels">Season:</label>
+                <select class="btn dropdown-toggle custom-align" id="icPlayerSeason"></select>
+            </div>
+            <button type="button" id="icResetButton" class="btn btn-outline-danger">Reset</button>
+        </div>
+    </div>
+</form>
+
+<div class="page-body impact-page">
+    <button class="btn btn-sort-filter mobile-view" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasImpactFilters" aria-controls="offcanvasImpactFilters">
+        Sort and Filter
+    </button>
+    <div class="impact-card">
+        <button type="button" id="icSaveButton" class="btn btn-outline-danger btn-sm impact-save" hidden>Save as PNG</button>
+        <h4 id="icTitle"></h4>
+        <p id="icSubtitle" class="impact-subtitle"></p>
+        <div id="icChart" class="impact-chart"></div>
+        <div class="impact-legend">
+            <span><i style="background:#fdcab5"></i><b>Production:</b> Player points and individual actions</span>
+            <span><i style="background:#fc8a6a"></i><b>Misc:</b> Includes penalties drawn, faceoffs, etc.</span>
+            <span><i style="background:#f14432"></i><b>Offense:</b> Offensive impact above average</span>
+            <span><i style="background:#bc141a"></i><b>Defense:</b> Defensive impact above average</span>
+        </div>
+        <p class="impact-credit">Stat Card inspired by @hockeystatcards &nbsp;|&nbsp; GameScore: @domluszczyszyn &nbsp;|&nbsp; Data: Instat</p>
+    </div>
+    <div id="icTooltip" class="impact-tooltip" hidden></div>
+</div>
+
+<script>
+    // games: [{date, label, short, season, result}] oldest first,
+    // rows: [[gameIndex, player, production, misc, offense, defense, total], ...]
+    const IC_GAMES = {{ games | tojson }};
+    const IC_ROWS = {{ rows | tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/impactcards.js') }}"></script>
+{% endblock %}

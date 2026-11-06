@@ -393,6 +393,152 @@ input[type="range"]::-moz-range-track {
 }
 
 /* =========================================
+   Player Cards page
+   ========================================= */
+
+#offcanvasImpactFilters {
+  overflow-y: auto;
+}
+
+#offcanvasImpactFilters label {
+  width: 100px;
+  margin-left: 5px;
+}
+
+.impact-page {
+  flex: 1;
+  min-width: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.impact-card {
+  position: relative;
+  background: white;
+  border: 1px solid #cccccc;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 14px 16px 10px;
+}
+
+.impact-card h4 {
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+  color: #222222;
+}
+
+.impact-save {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.impact-subtitle {
+  text-align: center;
+  color: #666666;
+  margin: 2px 0 6px;
+}
+
+.impact-chart {
+  width: 100%;
+}
+
+.impact-svg {
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.impact-label {
+  font-size: 13px;
+  fill: #222222;
+}
+
+.impact-tick {
+  font-size: 11px;
+  fill: #555555;
+}
+
+.impact-axis {
+  font-size: 13px;
+  fill: #222222;
+}
+
+.impact-total {
+  font-size: 13px;
+  font-weight: 700;
+  fill: black;
+}
+
+.impact-total-head {
+  font-size: 11px;
+  font-weight: 700;
+  fill: #666666;
+}
+
+.impact-hit {
+  cursor: pointer;
+}
+
+.impact-hit:hover {
+  fill: rgba(0, 0, 0, 0.04);
+}
+
+.impact-empty {
+  text-align: center;
+  color: gray;
+  padding: 30px 0;
+}
+
+.impact-legend {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px 18px;
+  font-size: 12px;
+  margin: 10px 0 4px;
+}
+
+.impact-legend i,
+.impact-tooltip i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  vertical-align: -1px;
+}
+
+.impact-credit {
+  text-align: center;
+  font-size: 11px;
+  color: #777777;
+  margin: 6px 0 0;
+}
+
+.impact-tooltip {
+  position: fixed;
+  z-index: 1000;
+  pointer-events: none;
+  background: white;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.impact-tip-title {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.impact-tip-total {
+  border-top: 1px solid #eeeeee;
+  margin-top: 4px;
+  padding-top: 3px;
+}
+
+/* =========================================
    Small screens
    ========================================= */
 
@@ -414,7 +560,8 @@ input[type="range"]::-moz-range-track {
   }
 
   #offcanvasPlayersFilters,
-  #offcanvasRecordsFilters {
+  #offcanvasRecordsFilters,
+  #offcanvasImpactFilters {
     display: none;
   }
 }
@@ -423,5 +570,25 @@ input[type="range"]::-moz-range-track {
   .icon-link-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  .impact-page {
+    padding: 8px;
+  }
+
+  .impact-card {
+    padding: 10px 8px 8px;
+  }
+
+  .impact-legend {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-save {
+    position: static;
+    display: block;
+    margin: 0 0 6px auto;
   }
 }

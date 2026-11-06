@@ -42,7 +42,7 @@ cache = Cache(app)
 
 @app.route('/sitemap.xml', methods=['GET'])
 def generate_sitemap():
-    pages = ['', 'about' ,'feedback' ,'missingdates' ,'players' ,'statsbot' ,'records' ,'notables' ,'trio' ,'tidbits' ,'captains' ,'bloodlines' ,'cupwinners' ,'transfers' ,'awards' ,'trophies' ,'worldjuniors' ,'olympians' ,'nhldraft' ,'nhlteammates' ,'nhlers' ,'nhlawards' ,'prostats' ,'pwhlteammates' ,'pwhlers' ,'pwhldraft' ,'pwhlawards' ,'winterclassic' ,'shutouts' ,'hattricks' ,'prohattricks' ,'proshutouts' ,'birthday' ,'birthdays' ,'jacksboxes' ,'trivia' , 'triviagame', 'cwhldraft', 'cwhlawards']
+    pages = ['', 'about' ,'feedback' ,'missingdates' ,'players' ,'statsbot' ,'records' ,'notables' ,'trio' ,'tidbits' ,'captains' ,'bloodlines' ,'cupwinners' ,'transfers' ,'awards' ,'trophies' ,'worldjuniors' ,'olympians' ,'nhldraft' ,'nhlteammates' ,'nhlers' ,'nhlawards' ,'prostats' ,'pwhlteammates' ,'pwhlers' ,'pwhldraft' ,'pwhlawards' ,'winterclassic' ,'shutouts' ,'hattricks' ,'prohattricks' ,'proshutouts' ,'birthday' ,'birthdays' ,'jacksboxes' ,'trivia' , 'triviagame', 'cwhldraft', 'cwhlawards', 'interactives']
 
     xml_sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -1752,26 +1752,56 @@ def getInteractiveGameIds():
     return [m.group(1) for f in os.listdir(folder)
             if (m := INTERACTIVE_PATTERN.match(f))]
 
-@app.route('/interactives')
-@app.route('/interactives/<gameId>')
-def interactives(gameId=None):
-    ''' Renders interactive recap pages
-
-    Args:
-      gameId (str, optional): game date as mmddyyyy
+@app.route('/interactives/playercards')
+def playerCards():
+    ''' Renders the Player Cards page (GameScore breakdown by game or by player)
 
     Returns:
-      Flask Template : list of interactives, or the requested recap page
+      Flask Template : flask template containing playercards.html
+    '''
+    dfGS = burb.getGSBreakdown()
+    dfGameInfo = burb.dfGames[['date', 'opponent', 'location', 'result', 'scoreline', 'ot', 'season']]
+    dfDates = dfGS[['date']].drop_duplicates().merge(dfGameInfo, on='date', how='left').sort_values('date')
+
+    games = []
+    for game in dfDates.itertuples():
+        where = 'at' if game.location == 'Away' else 'vs'
+        result = ''
+        if game.result in ['W', 'L', 'T']:
+            result = f"{game.result} {game.scoreline}"
+            if isinstance(game.ot, str) and game.ot != '':
+                result += f" {game.ot.upper()}"
+        elif game.result == 'E':
+            result = 'Exhibition'
+        games.append({'date': game.date.strftime('%Y-%m-%d'),
+                      'label': f"{game.date.strftime('%m/%d/%Y')} {where} {game.opponent}",
+                      'short': f"{game.date.strftime('%m/%d')} {'@' if where == 'at' else 'vs'} {game.opponent}",
+                      'season': game.season,
+                      'result': result})
+    gameIndex = {g['date']: i for i, g in enumerate(games)}
+
+    rows = [[gameIndex[r.date.strftime('%Y-%m-%d')], r.Player, round(r.Production, 3), round(r.Misc, 3),
+             round(r.Offense, 3), round(r.Defense, 3), round(r.tot, 3)]
+            for r in dfGS.itertuples()]
+    return render_template('playercards.html', titletag=' - Player Cards', games=games, rows=rows)
+
+@app.route('/interactives')
+def interactives():
+    ''' Renders the Interactives page: links to the game recaps and the player cards
+
+    Returns:
+      Flask Template : flask template containing interactives.html
+    '''
+    return render_template('interactives.html', titletag=' - Interactives')
+
+@app.route('/interactives/gamerecaps')
+def gameRecaps():
+    ''' Renders the list of games that have an interactive recap
+
+    Returns:
+      Flask Template : flask template containing gamerecaps.html
     '''
     gameIds = getInteractiveGameIds()
-
-    # Single game page
-    if gameId is not None:
-        if gameId not in gameIds:
-            abort(404)
-        return render_template(f'{INTERACTIVE_DIR}/{gameId}_recap_interactive.html')
-
-    # Index page: table of games that have an interactive
     dfInteractives = pd.DataFrame({'gameId': gameIds})
     dfInteractives['date'] = pd.to_datetime(dfInteractives['gameId'], format='%m%d%Y')
 
@@ -1789,10 +1819,24 @@ def interactives(gameId=None):
             f'><a href="/interactives/{gameId}" class="link-no-pad">{dateStr}</a><')
 
     return render_template(
-        'interactives.html',
+        'gamerecaps.html',
         interactivesTable=interactivesTable,
         titletag=' - Men\'s Hockey Interactive Recaps')
-        
+
+@app.route('/interactives/<gameId>')
+def interactiveRecap(gameId):
+    ''' Renders one interactive recap page
+
+    Args:
+      gameId (str): game date as mmddyyyy
+
+    Returns:
+      Flask Template : the recap page for that game
+    '''
+    if gameId not in getInteractiveGameIds():
+        abort(404)
+    return render_template(f'{INTERACTIVE_DIR}/{gameId}_recap_interactive.html')
+
 @app.route('/jacksboxes/stats', defaults={'gameNumRequested': None})
 @app.route('/jacksboxes/stats/', defaults={'gameNumRequested': None})
 @app.route('/jacksboxes/stats/<int:gameNumRequested>')

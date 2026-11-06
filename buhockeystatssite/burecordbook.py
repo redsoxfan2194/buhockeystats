@@ -4117,6 +4117,18 @@ def getNHLTeammates():
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"nhlteammates.csv")
   return dfRes
 
+def getGSBreakdown():
+  ''' returns the GameScore breakdown (Production / Misc / Offense / Defense / total) for each BU player in each game '''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + "gs_breakdown.csv")
+  # game dates come from game_scoreidx.csv (game id -> date)
+  dfIdx = pd.read_csv(RECBOOK_DATA_PATH + "game_scoreidx.csv")
+  dfIdx['game'] = dfIdx['game'].str.strip()
+  dfIdx['date'] = pd.to_datetime(dfIdx['date'], format='%m/%d/%y')
+  dfRes['idx'] = dfRes['idx'].str.strip()
+  dfRes = dfRes.merge(dfIdx, left_on='idx', right_on='game')
+  dfRes = dfRes.dropna(subset=['tot'])
+  return dfRes[['date', 'Player', 'Production', 'Misc', 'Offense', 'Defense', 'tot']]
+
 def getNHLers():
   ''' returns NHLers'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"nhlers.csv")
