@@ -12,6 +12,7 @@ const icPlayerSeason = document.getElementById('icPlayerSeason');
 const icChart = document.getElementById('icChart');
 const icTooltip = document.getElementById('icTooltip');
 const icSort = document.getElementById('icSort');
+const icShowEx = document.getElementById('icShowEx');
 const icAscending = document.getElementById('icAscending');
 
 let icCurrentRows = [];      // rows of the card being shown (redrawn when the window is resized)
@@ -287,6 +288,11 @@ function cardFileName() {
     return name.replace(/[^A-Za-z0-9_\-]+/g, '_') + '.png';
 }
 
+// exhibitions only show when the Exhibitions switch is on
+function gameShown(gameIndex) {
+    return icShowEx.checked || IC_GAMES[gameIndex].result !== 'Exhibition';
+}
+
 // ---------------------------------------------------------------- sorting
 // rows marked `pinned` always stay at the bottom
 function sortRows(rows) {
@@ -353,7 +359,7 @@ function showPlayerCard() {
         drawCard([], 'Select a player to see their impact card.');
         return;
     }
-    const mine = IC_ROWS.filter(r => r[1] === player);
+    const mine = IC_ROWS.filter(r => r[1] === player && gameShown(r[0]));
     if (!mine.length) { setTitle('', ''); drawCard([]); return; }
     const career = season === 'career';
     // one bar per game: the whole career, or one season
@@ -376,7 +382,7 @@ function updateGameList(keepGame) {
     const season = icGameSeason.value;
     const options = [];
     IC_GAMES.forEach(function (game, i) {
-        if (season === 'all' || game.season === season) options.push({ value: i, text: game.label });  // oldest first
+        if ((season === 'all' || game.season === season) && gameShown(i)) options.push({ value: i, text: game.label });  // oldest first
     });
     // keep the chosen game if it's still in the list, otherwise show the most recent game
     const keep = options.some(o => String(o.value) === String(keepGame)) ? keepGame : (options.length ? options[options.length - 1].value : undefined);
@@ -390,7 +396,7 @@ function updatePlayerSeasons() {
         return;
     }
     icPlayerSeason.disabled = false;
-    const seasons = unique(IC_ROWS.filter(r => r[1] === icPlayer.value).map(r => IC_GAMES[r[0]].season)).sort();     // oldest first
+    const seasons = unique(IC_ROWS.filter(r => r[1] === icPlayer.value && gameShown(r[0])).map(r => IC_GAMES[r[0]].season)).sort();     // oldest first
     const prev = icPlayerSeason.value;
     fillSelect(icPlayerSeason, [{ value: 'career', text: 'Career' }].concat(seasons.map(s => ({ value: s, text: s }))), prev);
 }
@@ -449,6 +455,11 @@ function initImpactCards() {
     icGame.addEventListener('change', showCard);
     icPlayer.addEventListener('change', function () { updatePlayerSeasons(); showCard(); });
     icPlayerSeason.addEventListener('change', showCard);
+    icShowEx.addEventListener('change', function () {
+        updateGameList(icGame.value);
+        updatePlayerSeasons();
+        showCard();
+    });
     icSort.addEventListener('change', function () {
         // Date and Name go oldest / A first; every stat goes highest first
         icAscending.value = (icSort.value === 'date' || icSort.value === 'name') ? 'true' : 'false';

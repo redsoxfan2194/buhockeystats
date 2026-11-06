@@ -292,6 +292,11 @@ input::-webkit-inner-spin-button {
   box-shadow: 0 0 0 0.25rem rgba(204, 0, 0, 0.25);
 }
 
+/* Bootstrap turns the knob blue when a switch is clicked off; keep it in the site's red */
+.form-switch .form-check-input:focus:not(:checked) {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23e68080'/%3e%3c/svg%3e");
+}
+
 .form-check-label {
   width: 130px !important;
 }
@@ -575,25 +580,20 @@ input[type="range"]::-moz-range-track {
   }
 }
 
-@media (max-width: 520px) {
+/* phones: keep the player card full size and let the page scroll left-right instead of squeezing it */
+@media (max-width: 700px) {
   .impact-page {
+    flex: 0 0 auto;
+    width: 676px;
+    max-width: none;
+    margin: 0;
     padding: 8px;
+    overflow: visible;
   }
 
-  .impact-card {
-    padding: 10px 8px 8px;
-  }
-
-  .impact-legend {
-    grid-template-columns: 1fr;
-  }
-
-  .impact-save {
-    top: 8px;
-    right: 8px;
-  }
-
-  .impact-card h4 {
-    padding: 0 34px;
+  .impact-page > .btn-sort-filter {
+    position: sticky;
+    left: 8px;
+    width: calc(100vw - 48px);
   }
 }
