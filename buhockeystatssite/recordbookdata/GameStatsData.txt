@@ -32301,3 +32301,20 @@
 10/31/2026,Maine,Jack Murtagh,F,SO,0,1,1,2026-27
 10/31/2026,Maine,Brandon Svoboda,F,JR,0,0,0,2026-27
 10/31/2026,Maine,Mikhail Yegorov,G,JR,0,0,0,2026-27
+11/06/2026,Michigan State,Nick Roukounakis,F,JR,0,1,0,2026-27
+11/06/2026,Michigan State,Ryder Ritchie,F,SO,0,1,1,2026-27
+11/06/2026,Michigan State,Caleb Malhotra,F,FR,1,1,1,2026-27
+11/06/2026,Michigan State,Jack Murtagh,F,SO,0,0,0,2026-27
+11/06/2026,Michigan State,Aiden Celebrini,D,SR,0,0,0,2026-27
+11/06/2026,Michigan State,Jack Harvey,F,SR,0,1,0,2026-27
+11/06/2026,Michigan State,Carter Amico,D,SO,1,0,1,2026-27
+11/06/2026,Michigan State,Tynan Lawrence,F,SO,1,1,2,2026-27
+11/06/2026,Michigan State,Jonathan Morello,F,SO,0,0,0,2026-27
+11/06/2026,Michigan State,Xavier Villeneuve,D,FR,0,2,2,2026-27
+11/06/2026,Michigan State,Niklas Aaram-Olsen,F,FR,0,0,0,2026-27
+11/06/2026,Michigan State,Haoxi Wang,D,FR,0,1,1,2026-27
+11/06/2026,Michigan State,Ben Merrill,F,SO,0,1,0,2026-27
+11/06/2026,Michigan State,Brandon Svoboda,F,JR,0,0,0,2026-27
+11/06/2026,Michigan State,Kamil Bednarik,F,JR,0,0,0,2026-27
+11/06/2026,Michigan State,Charlie Trethewey,D,SO,1,1,2,2026-27
+11/06/2026,Michigan State,Mikhail Yegorov,G,JR,0,0,0,2026-27
