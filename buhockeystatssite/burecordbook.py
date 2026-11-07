@@ -1230,6 +1230,8 @@ def generateGameSkaterStats():
         rows = readData.split('\n')
         for i in rows:
             col = i.split(',')
+            if (len(col)==1):
+              break
             gameStatDict = {'date': col[0],
                             'opponent': col[1],
                             'name': col[2],
@@ -1254,6 +1256,8 @@ def generateGameSkaterStats():
         rows = readData.split('\n')
         for i in rows:
             col = i.split(',')
+            if (len(col)==1):
+              break
             gameStatWDict = {'date': col[0],
                              'opponent': col[1],
                              'name': col[2],
