@@ -224,7 +224,34 @@ function escapeXml(text) {
     return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-function saveCardPNG() {
+// The saved image is drawn from an SVG, and an SVG drawn as an image can't use the page's web fonts,
+// so the Quicksand font file (the same one layout.html loads from Google Fonts) is put inside the SVG.
+const IC_FONT_CSS_URL = 'https://fonts.googleapis.com/css2?family=Quicksand';
+let icFontFace = null;
+
+async function embeddedFontFace() {
+    if (icFontFace !== null) return icFontFace;
+    try {
+        const css = await (await fetch(IC_FONT_CSS_URL)).text();
+        // Google splits the font by character set; use the Latin part (plain letters, digits, dashes)
+        const faces = css.split('@font-face').filter(f => f.includes('url('));
+        const latin = faces.find(f => /U\+0000-00FF/.test(f)) || faces[faces.length - 1];
+        const url = latin.match(/url\(([^)]+)\)/)[1].replace(/['"]/g, '');
+        const blob = await (await fetch(url)).blob();
+        const dataUrl = await new Promise(function (resolve, reject) {
+            const reader = new FileReader();
+            reader.onload = () => resolve(reader.result);
+            reader.onerror = reject;
+            reader.readAsDataURL(blob);
+        });
+        icFontFace = "@font-face { font-family: 'Quicksand'; src: url(" + dataUrl + ") format('woff2'); }";
+    } catch (e) {
+        icFontFace = '';        // couldn't get the font: the image falls back to a standard font
+    }
+    return icFontFace;
+}
+
+async function saveCardPNG() {
     const chart = icChart.querySelector('svg');
     if (!chart) return;
     const chartW = Number(chart.getAttribute('width'));
@@ -252,12 +279,13 @@ function saveCardPNG() {
     });
     body += '<text class="t-credit" x="' + W / 2 + '" y="' + (H - 18) + '" text-anchor="middle">' +
             'Plot: @BUHockeyStats  |  Stat Card inspired by @hockeystatcards  |  GameScore: @domluszczyszyn  |  Data: Instat</text>';
+    const fontFace = await embeddedFontFace();
     const svgText = '<svg xmlns="http://www.w3.org/2000/svg" width="' + W + '" height="' + H + '"><style>' +
-                    IC_EXPORT_CSS + '</style>' + body + '</svg>';
+                    fontFace + IC_EXPORT_CSS + '</style>' + body + '</svg>';
 
     const scale = 2;                                     // sharper image
     const img = new Image();
-    img.onload = function () {
+    img.onload = () => setTimeout(function () {      // short pause so the embedded font is ready in every browser
         const canvas = document.createElement('canvas');
         canvas.width = W * scale;
         canvas.height = H * scale;
@@ -273,7 +301,7 @@ function saveCardPNG() {
             a.remove();
             setTimeout(() => URL.revokeObjectURL(a.href), 1000);
         }, 'image/png');
-    };
+    }, 60);
     img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgText);
 }
 
@@ -468,6 +496,7 @@ function initImpactCards() {
     });
     document.getElementById('icResetButton').addEventListener('click', resetImpactCards);
     document.getElementById('icSaveButton').addEventListener('click', saveCardPNG);
+    embeddedFontFace();      // fetch the font for saved images ahead of time, so the Save button responds right away
     alterImpactSidebar();
     document.addEventListener('scroll', hideTip, { passive: true });
 
