@@ -2,7 +2,9 @@
 // (career by season, or one season game by game), drawn as stacked GameScore bars.
 
 const IC_PARTS = ['Production', 'Misc', 'Offense', 'Defense'];
-const IC_COLORS = ['#fdcab5', '#fc8a6a', '#f14432', '#bc141a'];   // matplotlib Reds, same as plot_game_card
+// same colors plot_game_card gets: pandas spreads the 4 parts across ListedColormap(plt.cm.Reds(np.linspace(0.2, 1, 5))),
+// which picks the 1st, 2nd, 4th and 5th of its 5 shades
+const IC_COLORS = ['#fdcab5', '#fc8a6a', '#bc141a', '#67000d'];
 
 const icView = document.getElementById('icView');
 const icGameSeason = document.getElementById('icGameSeason');
