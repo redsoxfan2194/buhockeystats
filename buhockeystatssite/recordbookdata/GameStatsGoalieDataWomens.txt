@@ -786,3 +786,4 @@
 10/30/2026,Northeastern,Mari Pietersen,SR,45,8,1,0,60.0,L,2026-27
 10/31/2026,Northeastern,Sydney Fogu,SO,44,4,1,0,60.0,L,2026-27
 11/06/2026,Maine,Sydney Fogu,SO,37,1,1,0,64.95,T,2026-27
+11/07/2026,Maine,Sydney Fogu,SO,32,3,1,0,60.0,L,2026-27
