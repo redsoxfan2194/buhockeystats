@@ -196,6 +196,17 @@
                 </select>
                 <input type="number" name="totalgoals" id="totalgoals" value="{{ totalgoals }}" min=0 onchange="submitForm()" onsubmit="submitForm()">
             </div>
+            <div id="gddiv" class="filter">
+                <label for="gdop" class="recLabels">GD:</label>
+                <select class="btn dropdown-toggle op-drop" name="gdop" id="gdop" onchange="submitForm()">
+                    <option value="=="> = </option>
+                    <option value=">="> >= </option>
+                    <option value=">"> > </option>
+                    <option value="<"> < </option>
+                    <option value="<="> <= </option>
+                </select>
+                <input type="number" name="gd" id="gd" value="{{ gd }}" onchange="submitForm()" onsubmit="submitForm()">
+            </div>
             <div id="burankdiv" class="filter">
                 <label for="burankop" class="recLabels">BU Rank:</label>
                 <select class="btn dropdown-toggle op-drop" name="burankop" id="burankop" onchange="submitForm()">

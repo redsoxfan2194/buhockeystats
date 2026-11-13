@@ -61,6 +61,8 @@ function clearFilers(event) {
     document.getElementById("buscore").value = "";
     document.getElementById("tgop").value = "==";
     document.getElementById("totalgoals").value = "";
+    document.getElementById("gdop").value = "==";
+    document.getElementById("gd").value = "";
     document.getElementById("oppscoreop").value = "==";
     document.getElementById("oppscore").value = "";
     document.getElementById("burankop").value = "==";
@@ -167,6 +169,8 @@ function initializeFilters() {
 
     const totalGoalsInput = document.getElementById("totalgoals");
     totalGoalsInput.addEventListener("keydown", onKeydown);
+
+    document.getElementById("gd").addEventListener("keydown", onKeydown);
 
     const buRankInput = document.getElementById("burank");
     buRankInput.addEventListener("keydown", onKeydown);

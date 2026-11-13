@@ -296,6 +296,14 @@ def players():
                 dfStat = dfStat[dfStat['tourney'] == formData['tourney']]
             if formData['location'] != 'all':
                 dfStat = dfStat[dfStat['location'] == formData['location']]
+        elif formData['type'] == 'streak':
+            # streaks run over the filtered games, e.g. consecutive home games
+            oppList = []
+            arenaList = sorted(list(dfStat.arena.unique()))
+            if formData['arena'] != 'all':
+                dfStat = dfStat[dfStat['arena'] == formData['arena']]
+            if formData['location'] != 'all':
+                dfStat = dfStat[dfStat['location'] == formData['location']]
         else:
             oppList = []
             arenaList = []
@@ -799,6 +807,7 @@ def records():
     burank = 'BU Rank'
     opprank = 'Opp Rank'
     totalgoals = 'Total Goals'
+    gd = 'GD'
     dfRes = burb.dfGames
     dfOrig = burb.dfGames
     minYear = dfRes.year.min()
@@ -910,6 +919,12 @@ def records():
             oppscore = formData['oppscore']
         else:
             oppscore = "Opp Score"
+        if formData.get('gd', '') != '':
+            gd = formData['gd'].split(' ')[0]
+            dfRes = compareFilter(dfRes, 'GD', formData['gdop'], gd)
+            gd = formData['gd']
+        else:
+            gd = "GD"
 
         if formData['burank'] != '':
             burank = formData['burank']
@@ -1066,6 +1081,7 @@ def records():
         buscore=buscore,
         oppscore=oppscore,
         totalgoals=totalgoals,
+        gd=gd,
         burank=burank,
         opprank=opprank,
         isAscending=True,

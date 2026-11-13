@@ -526,6 +526,10 @@ function submitForm(reset = "false") {
               document.getElementById("streakDiv").hidden = false;
               document.getElementById("streakMinDiv").hidden = false;
               document.getElementById("positionDiv").hidden = true;
+              // streaks can be limited to a location or arena
+              document.querySelectorAll("#locDiv, #locDiv .game-stats, #arenaDiv, #arenaDiv .game-stats").forEach(function (el) {
+                  el.classList.remove("hidden");
+              });
               document.getElementById("gpDiv").hidden = true;
               document.getElementById("goalDiv").hidden = true;
               document.getElementById("assistsDiv").hidden = true;
