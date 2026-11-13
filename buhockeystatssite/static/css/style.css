@@ -597,3 +597,20 @@ input[type="range"]::-moz-range-track {
     width: calc(100vw - 48px);
   }
 }
+
+/* =========================================
+   Interactive game recaps (full-page recap inside the site layout)
+   ========================================= */
+.recap-page {
+  flex: 1;
+  min-width: 0;
+}
+
+/* let the recap's period bar stick below the navbar while scrolling */
+#content:has(.recap-page) {
+  overflow: visible;
+}
+
+.recap-page #selbar {
+  top: 56px;
+}
