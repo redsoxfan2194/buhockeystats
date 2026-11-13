@@ -14420,204 +14420,239 @@
 02/28/2026,Northeastern,Kaileigh Quigg,F,SO,0,0,0,2025-26
 02/28/2026,Northeastern,Maeve Kelly,D,SR,0,0,0,2025-26
 02/28/2026,Northeastern,Luisa Welcke,F,SR,0,0,0,2025-26
-10/01/2026,Wisconsin,Lo Lachapelle,F,FR,0,0,0,2026-27
-10/01/2026,Wisconsin,Julia Curran,F,FR,0,0,0,2026-27
-10/01/2026,Wisconsin,Neely Nicholson,F,SR,0,0,0,2026-27
-10/01/2026,Wisconsin,Mylie Ellis,D,FR,0,0,0,2026-27
-10/01/2026,Wisconsin,Ella Pukala,F,SO,0,0,0,2026-27
-10/01/2026,Wisconsin,Avery Supryka,D,SO,0,0,0,2026-27
-10/01/2026,Wisconsin,Peyton Blaney,D,SR,0,0,0,2026-27
-10/01/2026,Wisconsin,Eden Bergman,F,FR,0,0,0,2026-27
-10/01/2026,Wisconsin,Lexie Bertelsen,F,SO,0,0,0,2026-27
-10/01/2026,Wisconsin,Keira Healey,D,JR,0,0,0,2026-27
-10/01/2026,Wisconsin,Quinn Taylor,F,FR,0,0,0,2026-27
-10/01/2026,Wisconsin,Lola Reid,F,JR,0,0,0,2026-27
-10/01/2026,Wisconsin,Kylie Hollingsworth,F,FR,0,0,0,2026-27
-10/01/2026,Wisconsin,Anežka Čabelová,D,SO,0,0,0,2026-27
-10/01/2026,Wisconsin,Greta Henderson,F,SR,0,0,0,2026-27
-10/01/2026,Wisconsin,Tessa Demain,D,JR,0,0,0,2026-27
-10/01/2026,Wisconsin,Mari Pietersen,G,SR,0,0,0,2026-27
-10/01/2026,Wisconsin,Sydney Fogu,G,SO,0,0,0,2026-27
-10/02/2026,Wisconsin,Peyton Blaney,D,SR,0,0,0,2026-27
-10/02/2026,Wisconsin,Keira Healey,D,JR,0,0,0,2026-27
-10/02/2026,Wisconsin,Lexie Bertelsen,F,SO,0,0,0,2026-27
-10/02/2026,Wisconsin,Lola Reid,F,JR,0,0,0,2026-27
-10/02/2026,Wisconsin,Tessa Demain,D,JR,0,1,1,2026-27
-10/02/2026,Wisconsin,Ella Pukala,F,SO,0,0,0,2026-27
-10/02/2026,Wisconsin,Mylie Ellis,D,FR,0,0,0,2026-27
-10/02/2026,Wisconsin,Quinn Taylor,F,FR,0,0,0,2026-27
-10/02/2026,Wisconsin,Lo Lachapelle,F,FR,1,0,1,2026-27
-10/02/2026,Wisconsin,Eden Bergman,F,FR,0,1,1,2026-27
-10/02/2026,Wisconsin,Neely Nicholson,F,SR,0,0,0,2026-27
-10/02/2026,Wisconsin,Avery Supryka,D,SO,0,0,0,2026-27
-10/02/2026,Wisconsin,Greta Henderson,F,SR,0,0,0,2026-27
-10/02/2026,Wisconsin,Kylie Hollingsworth,F,FR,0,0,0,2026-27
-10/02/2026,Wisconsin,Julia Curran,F,FR,0,0,0,2026-27
-10/02/2026,Wisconsin,Anežka Čabelová,D,SO,0,0,0,2026-27
-10/02/2026,Wisconsin,Mari Pietersen,G,SR,0,0,0,2026-27
-10/02/2026,Wisconsin,Sydney Fogu,G,SO,0,0,0,2026-27
-10/09/2026,New Hampshire,Eden Bergman,F,FR,0,0,0,2026-27
-10/09/2026,New Hampshire,Lola Reid,F,JR,0,0,0,2026-27
-10/09/2026,New Hampshire,Greta Henderson,F,SR,0,1,1,2026-27
-10/09/2026,New Hampshire,Keira Healey,D,JR,0,0,0,2026-27
-10/09/2026,New Hampshire,Lo Lachapelle,F,FR,1,0,1,2026-27
-10/09/2026,New Hampshire,Julia Curran,F,FR,1,0,1,2026-27
-10/09/2026,New Hampshire,Quinn Taylor,F,FR,1,1,2,2026-27
-10/09/2026,New Hampshire,Neely Nicholson,F,SR,0,0,0,2026-27
-10/09/2026,New Hampshire,Ella Pukala,F,SO,1,0,1,2026-27
-10/09/2026,New Hampshire,Tessa Demain,D,JR,0,0,0,2026-27
-10/09/2026,New Hampshire,Mylie Ellis,D,FR,0,0,0,2026-27
-10/09/2026,New Hampshire,Kylie Hollingsworth,F,FR,0,0,0,2026-27
-10/09/2026,New Hampshire,Lexie Bertelsen,F,SO,0,2,2,2026-27
-10/09/2026,New Hampshire,Avery Supryka,D,SO,0,1,1,2026-27
-10/09/2026,New Hampshire,Anežka Čabelová,D,SO,0,1,1,2026-27
-10/09/2026,New Hampshire,Peyton Blaney,D,SR,0,0,0,2026-27
-10/09/2026,New Hampshire,Mari Pietersen,G,SR,0,0,0,2026-27
-10/10/2026,Holy Cross,Neely Nicholson,F,SR,1,1,2,2026-27
-10/10/2026,Holy Cross,Kate Meinert,D,JR,0,0,0,2026-27
-10/10/2026,Holy Cross,Mia Vergilii,F,SO,0,0,0,2026-27
-10/10/2026,Holy Cross,Lexie Bertelsen,F,SO,0,0,0,2026-27
-10/10/2026,Holy Cross,Tessa Demain,D,JR,0,0,0,2026-27
-10/10/2026,Holy Cross,Avery Supryka,D,SO,0,0,0,2026-27
-10/10/2026,Holy Cross,Mylie Ellis,D,FR,0,1,1,2026-27
-10/10/2026,Holy Cross,Keira Healey,D,JR,0,1,1,2026-27
-10/10/2026,Holy Cross,Quinn Taylor,F,FR,0,0,0,2026-27
-10/10/2026,Holy Cross,Lo Lachapelle,F,FR,1,0,1,2026-27
-10/10/2026,Holy Cross,Peyton Blaney,D,SR,0,0,0,2026-27
-10/10/2026,Holy Cross,Kylie Hollingsworth,F,FR,0,0,0,2026-27
-10/10/2026,Holy Cross,Lola Reid,F,JR,0,0,0,2026-27
-10/10/2026,Holy Cross,Greta Henderson,F,SR,0,1,1,2026-27
-10/10/2026,Holy Cross,Julia Curran,F,FR,0,0,0,2026-27
-10/10/2026,Holy Cross,Ella Pukala,F,SO,0,0,0,2026-27
-10/10/2026,Holy Cross,Sydney Fogu,G,SO,0,0,0,2026-27
-10/16/2026,Colgate,Keira Healey,D,JR,0,0,0,2026-27
-10/16/2026,Colgate,Peyton Blaney,D,SR,0,0,0,2026-27
-10/16/2026,Colgate,Ella Pukala,F,SO,0,0,0,2026-27
-10/16/2026,Colgate,Eden Bergman,F,FR,0,0,0,2026-27
-10/16/2026,Colgate,Neely Nicholson,F,SR,0,0,0,2026-27
-10/16/2026,Colgate,Kaileigh Quigg,F,JR,0,0,0,2026-27
-10/16/2026,Colgate,Bronwyn Langis,F,FR,0,0,0,2026-27
-10/16/2026,Colgate,Tessa Demain,D,JR,0,0,0,2026-27
-10/16/2026,Colgate,Mylie Ellis,D,FR,0,0,0,2026-27
-10/16/2026,Colgate,Lexie Bertelsen,F,SO,0,0,0,2026-27
-10/16/2026,Colgate,Lola Reid,F,JR,0,0,0,2026-27
-10/16/2026,Colgate,Quinn Taylor,F,FR,0,0,0,2026-27
-10/16/2026,Colgate,Lo Lachapelle,F,FR,0,0,0,2026-27
-10/16/2026,Colgate,Julia Curran,F,FR,0,0,0,2026-27
-10/16/2026,Colgate,Greta Henderson,F,SR,0,0,0,2026-27
-10/16/2026,Colgate,Kylie Hollingsworth,F,FR,0,0,0,2026-27
-10/16/2026,Colgate,Anežka Čabelová,D,SO,0,0,0,2026-27
-10/16/2026,Colgate,Sydney Fogu,G,SO,0,0,0,2026-27
-10/17/2026,Colgate,Eden Bergman,F,FR,0,0,0,2026-27
-10/17/2026,Colgate,Kaileigh Quigg,F,JR,0,0,0,2026-27
-10/17/2026,Colgate,Mylie Ellis,D,FR,0,0,0,2026-27
-10/17/2026,Colgate,Anežka Čabelová,D,SO,0,0,0,2026-27
-10/17/2026,Colgate,Lexie Bertelsen,F,SO,0,0,0,2026-27
-10/17/2026,Colgate,Neely Nicholson,F,SR,0,0,0,2026-27
-10/17/2026,Colgate,Julia Curran,F,FR,0,0,0,2026-27
-10/17/2026,Colgate,Mari Pietersen,G,SR,0,0,0,2026-27
-10/23/2026,Yale,Avery Supryka,D,SO,0,0,0,2026-27
-10/23/2026,Yale,Quinn Taylor,F,FR,0,0,0,2026-27
-10/23/2026,Yale,Greta Henderson,F,SR,0,0,0,2026-27
-10/23/2026,Yale,Mylie Ellis,D,FR,0,1,1,2026-27
-10/23/2026,Yale,Ella Pukala,F,SO,0,0,0,2026-27
-10/23/2026,Yale,Julia Curran,F,FR,0,0,0,2026-27
-10/23/2026,Yale,Eden Bergman,F,FR,0,0,0,2026-27
-10/23/2026,Yale,Lo Lachapelle,F,FR,1,0,1,2026-27
-10/23/2026,Yale,Peyton Blaney,D,SR,1,0,1,2026-27
-10/23/2026,Yale,Lexie Bertelsen,F,SO,0,0,0,2026-27
-10/23/2026,Yale,Anežka Čabelová,D,SO,0,1,1,2026-27
-10/23/2026,Yale,Kaileigh Quigg,F,JR,0,1,1,2026-27
-10/23/2026,Yale,Tessa Demain,D,JR,0,0,0,2026-27
-10/23/2026,Yale,Kate Meinert,D,JR,0,0,0,2026-27
-10/23/2026,Yale,Neely Nicholson,F,SR,0,0,0,2026-27
-10/23/2026,Yale,Keira Healey,D,JR,0,0,0,2026-27
-10/23/2026,Yale,Sydney Fogu,G,SO,0,0,0,2026-27
-10/24/2026,Robert Morris,Greta Henderson,F,SR,0,0,0,2026-27
-10/24/2026,Robert Morris,Julia Curran,F,FR,0,0,0,2026-27
-10/24/2026,Robert Morris,Neely Nicholson,F,SR,0,0,0,2026-27
-10/24/2026,Robert Morris,Kaileigh Quigg,F,JR,1,0,1,2026-27
-10/24/2026,Robert Morris,Peyton Blaney,D,SR,0,0,0,2026-27
-10/24/2026,Robert Morris,Ella Pukala,F,SO,0,0,0,2026-27
-10/24/2026,Robert Morris,Kylie Hollingsworth,F,FR,0,1,1,2026-27
-10/24/2026,Robert Morris,Keira Healey,D,JR,1,0,1,2026-27
-10/24/2026,Robert Morris,Bronwyn Langis,F,FR,0,0,0,2026-27
-10/24/2026,Robert Morris,Avery Supryka,D,SO,0,1,1,2026-27
-10/24/2026,Robert Morris,Tessa Demain,D,JR,0,0,0,2026-27
-10/24/2026,Robert Morris,Mylie Ellis,D,FR,0,1,1,2026-27
-10/24/2026,Robert Morris,Lexie Bertelsen,F,SO,0,1,1,2026-27
-10/24/2026,Robert Morris,Anežka Čabelová,D,SO,0,0,0,2026-27
-10/24/2026,Robert Morris,Quinn Taylor,F,FR,0,0,0,2026-27
-10/24/2026,Robert Morris,Lo Lachapelle,F,FR,0,0,0,2026-27
-10/24/2026,Robert Morris,Kate Meinert,D,JR,0,0,0,2026-27
-10/24/2026,Robert Morris,Mari Pietersen,G,SR,0,0,0,2026-27
-10/30/2026,Northeastern,Kate Meinert,D,JR,0,0,0,2026-27
-10/30/2026,Northeastern,Lo Lachapelle,F,FR,0,0,0,2026-27
-10/30/2026,Northeastern,Quinn Taylor,F,FR,0,0,0,2026-27
-10/30/2026,Northeastern,Peyton Blaney,D,SR,0,0,0,2026-27
-10/30/2026,Northeastern,Tessa Demain,D,JR,0,0,0,2026-27
-10/30/2026,Northeastern,Mylie Ellis,D,FR,0,0,0,2026-27
-10/30/2026,Northeastern,Bronwyn Langis,F,FR,0,0,0,2026-27
-10/30/2026,Northeastern,Neely Nicholson,F,SR,0,1,1,2026-27
-10/30/2026,Northeastern,Kaileigh Quigg,F,JR,0,1,1,2026-27
-10/30/2026,Northeastern,Lexie Bertelsen,F,SO,1,0,1,2026-27
-10/30/2026,Northeastern,Greta Henderson,F,SR,0,0,0,2026-27
-10/30/2026,Northeastern,Mia Vergilii,F,SO,0,0,0,2026-27
-10/30/2026,Northeastern,Ella Pukala,F,SO,0,0,0,2026-27
-10/30/2026,Northeastern,Julia Curran,F,FR,0,0,0,2026-27
-10/30/2026,Northeastern,Keira Healey,D,JR,0,0,0,2026-27
-10/30/2026,Northeastern,Avery Supryka,D,SO,0,0,0,2026-27
-10/30/2026,Northeastern,Eden Bergman,F,FR,0,0,0,2026-27
-10/30/2026,Northeastern,Mari Pietersen,G,SR,0,0,0,2026-27
-10/31/2026,Northeastern,Lola Reid,F,JR,0,0,0,2026-27
-10/31/2026,Northeastern,Keira Healey,D,JR,0,0,0,2026-27
-10/31/2026,Northeastern,Julia Curran,F,FR,0,0,0,2026-27
-10/31/2026,Northeastern,Kate Meinert,D,JR,0,0,0,2026-27
-10/31/2026,Northeastern,Quinn Taylor,F,FR,1,0,1,2026-27
-10/31/2026,Northeastern,Greta Henderson,F,SR,0,0,0,2026-27
-10/31/2026,Northeastern,Mia Vergilii,F,SO,0,0,0,2026-27
-10/31/2026,Northeastern,Neely Nicholson,F,SR,0,1,1,2026-27
-10/31/2026,Northeastern,Mylie Ellis,D,FR,0,1,1,2026-27
-10/31/2026,Northeastern,Eden Bergman,F,FR,0,0,0,2026-27
-10/31/2026,Northeastern,Bronwyn Langis,F,FR,0,0,0,2026-27
-10/31/2026,Northeastern,Ella Pukala,F,SO,0,1,1,2026-27
-10/31/2026,Northeastern,Tessa Demain,D,JR,0,0,0,2026-27
-10/31/2026,Northeastern,Kaileigh Quigg,F,JR,0,0,0,2026-27
-10/31/2026,Northeastern,Kylie Hollingsworth,F,FR,1,0,1,2026-27
-10/31/2026,Northeastern,Avery Supryka,D,SO,0,0,0,2026-27
-10/31/2026,Northeastern,Peyton Blaney,D,SR,0,0,0,2026-27
-10/31/2026,Northeastern,Lexie Bertelsen,F,SO,0,0,0,2026-27
-10/31/2026,Northeastern,Lo Lachapelle,F,FR,0,1,1,2026-27
-10/31/2026,Northeastern,Sydney Fogu,G,SO,0,0,0,2026-27
-11/06/2026,Maine,Keira Healey,D,JR,0,0,0,2026-27
-11/06/2026,Maine,Mylie Ellis,D,FR,0,0,0,2026-27
-11/06/2026,Maine,Greta Henderson,F,SR,0,0,0,2026-27
-11/06/2026,Maine,Ella Pukala,F,SO,0,0,0,2026-27
-11/06/2026,Maine,Lola Reid,F,JR,0,0,0,2026-27
-11/06/2026,Maine,Lexie Bertelsen,F,SO,0,1,1,2026-27
-11/06/2026,Maine,Julia Curran,F,FR,0,0,0,2026-27
-11/06/2026,Maine,Avery Supryka,D,SO,0,0,0,2026-27
-11/06/2026,Maine,Tessa Demain,D,JR,0,0,0,2026-27
-11/06/2026,Maine,Neely Nicholson,F,SR,1,0,1,2026-27
-11/06/2026,Maine,Lo Lachapelle,F,FR,0,0,0,2026-27
-11/06/2026,Maine,Bronwyn Langis,F,FR,0,0,0,2026-27
-11/06/2026,Maine,Kaileigh Quigg,F,JR,0,1,1,2026-27
-11/06/2026,Maine,Peyton Blaney,D,SR,0,0,0,2026-27
-11/06/2026,Maine,Quinn Taylor,F,FR,0,0,0,2026-27
-11/06/2026,Maine,Sydney Fogu,G,SO,0,0,0,2026-27
-11/07/2026,Maine,Greta Henderson,F,SR,0,0,0,2026-27
-11/07/2026,Maine,Mylie Ellis,D,FR,0,0,0,2026-27
-11/07/2026,Maine,Ella Pukala,F,SO,0,0,0,2026-27
-11/07/2026,Maine,Lexie Bertelsen,F,SO,0,0,0,2026-27
-11/07/2026,Maine,Mia Vergilii,F,SO,0,0,0,2026-27
-11/07/2026,Maine,Tessa Demain,D,JR,0,0,0,2026-27
-11/07/2026,Maine,Avery Supryka,D,SO,0,0,0,2026-27
-11/07/2026,Maine,Julia Curran,F,FR,0,0,0,2026-27
-11/07/2026,Maine,Eden Bergman,F,FR,0,0,0,2026-27
-11/07/2026,Maine,Kate Meinert,D,JR,0,0,0,2026-27
-11/07/2026,Maine,Lo Lachapelle,F,FR,0,0,0,2026-27
-11/07/2026,Maine,Bronwyn Langis,F,FR,0,0,0,2026-27
-11/07/2026,Maine,Neely Nicholson,F,SR,0,0,0,2026-27
-11/07/2026,Maine,Kylie Hollingsworth,F,FR,0,0,0,2026-27
-11/07/2026,Maine,Quinn Taylor,F,FR,0,0,0,2026-27
-11/07/2026,Maine,Sydney Fogu,G,SO,0,0,0,2026-27
+10/01/26,Wisconsin,Anežka Čabelová,D,SO,0,0,0,2026-27
+10/01/26,Wisconsin,Avery Supryka,D,SO,0,0,0,2026-27
+10/01/26,Wisconsin,Eden Bergman,F,FR,0,0,0,2026-27
+10/01/26,Wisconsin,Ella Pukala,F,SO,0,0,0,2026-27
+10/01/26,Wisconsin,Greta Henderson,F,SR,0,0,0,2026-27
+10/01/26,Wisconsin,Julia Curran,F,FR,0,0,0,2026-27
+10/01/26,Wisconsin,Kate Meinert,D,JR,0,0,0,2026-27
+10/01/26,Wisconsin,Keira Healey,D,JR,0,0,0,2026-27
+10/01/26,Wisconsin,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/01/26,Wisconsin,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/01/26,Wisconsin,Lo Lachapelle,F,FR,0,0,0,2026-27
+10/01/26,Wisconsin,Lola Reid,F,JR,0,0,0,2026-27
+10/01/26,Wisconsin,Mari Pietersen,G,SR,0,0,0,2026-27
+10/01/26,Wisconsin,Mia Vergilii,F,SO,0,0,0,2026-27
+10/01/26,Wisconsin,Mylie Ellis,D,FR,0,0,0,2026-27
+10/01/26,Wisconsin,Neely Nicholson,F,SR,0,0,0,2026-27
+10/01/26,Wisconsin,Peyton Blaney,D,SR,0,0,0,2026-27
+10/01/26,Wisconsin,Quinn Taylor,F,FR,0,0,0,2026-27
+10/01/26,Wisconsin,Sydney Fogu,G,SO,0,0,0,2026-27
+10/01/26,Wisconsin,Tessa Demain,D,JR,0,0,0,2026-27
+10/02/26,Wisconsin,Anežka Čabelová,D,SO,0,0,0,2026-27
+10/02/26,Wisconsin,Avery Supryka,D,SO,0,0,0,2026-27
+10/02/26,Wisconsin,Eden Bergman,F,FR,0,1,1,2026-27
+10/02/26,Wisconsin,Ella Pukala,F,SO,0,0,0,2026-27
+10/02/26,Wisconsin,Greta Henderson,F,SR,0,0,0,2026-27
+10/02/26,Wisconsin,Julia Curran,F,FR,0,0,0,2026-27
+10/02/26,Wisconsin,Kate Meinert,D,JR,0,0,0,2026-27
+10/02/26,Wisconsin,Keira Healey,D,JR,0,0,0,2026-27
+10/02/26,Wisconsin,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/02/26,Wisconsin,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/02/26,Wisconsin,Lo Lachapelle,F,FR,1,0,1,2026-27
+10/02/26,Wisconsin,Lola Reid,F,JR,0,0,0,2026-27
+10/02/26,Wisconsin,Mari Pietersen,G,SR,0,0,0,2026-27
+10/02/26,Wisconsin,Mia Vergilii,F,SO,0,0,0,2026-27
+10/02/26,Wisconsin,Mylie Ellis,D,FR,0,0,0,2026-27
+10/02/26,Wisconsin,Neely Nicholson,F,SR,0,0,0,2026-27
+10/02/26,Wisconsin,Peyton Blaney,D,SR,0,0,0,2026-27
+10/02/26,Wisconsin,Quinn Taylor,F,FR,0,0,0,2026-27
+10/02/26,Wisconsin,Sydney Fogu,G,SO,0,0,0,2026-27
+10/02/26,Wisconsin,Tessa Demain,D,JR,0,1,1,2026-27
+10/09/26,New Hampshire,Anežka Čabelová,D,SO,0,1,1,2026-27
+10/09/26,New Hampshire,Avery Supryka,D,SO,0,1,1,2026-27
+10/09/26,New Hampshire,Eden Bergman,F,FR,0,0,0,2026-27
+10/09/26,New Hampshire,Ella Pukala,F,SO,1,0,1,2026-27
+10/09/26,New Hampshire,Greta Henderson,F,SR,0,1,1,2026-27
+10/09/26,New Hampshire,Julia Curran,F,FR,1,0,1,2026-27
+10/09/26,New Hampshire,Kate Meinert,D,JR,0,0,0,2026-27
+10/09/26,New Hampshire,Keira Healey,D,JR,0,0,0,2026-27
+10/09/26,New Hampshire,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/09/26,New Hampshire,Lexie Bertelsen,F,SO,0,2,2,2026-27
+10/09/26,New Hampshire,Lo Lachapelle,F,FR,1,0,1,2026-27
+10/09/26,New Hampshire,Lola Reid,F,JR,0,0,0,2026-27
+10/09/26,New Hampshire,Mari Pietersen,G,SR,0,0,0,2026-27
+10/09/26,New Hampshire,Mia Vergilii,F,SO,0,0,0,2026-27
+10/09/26,New Hampshire,Mylie Ellis,D,FR,0,0,0,2026-27
+10/09/26,New Hampshire,Neely Nicholson,F,SR,0,0,0,2026-27
+10/09/26,New Hampshire,Peyton Blaney,D,SR,0,0,0,2026-27
+10/09/26,New Hampshire,Quinn Taylor,F,FR,1,1,2,2026-27
+10/09/26,New Hampshire,Tessa Demain,D,JR,0,0,0,2026-27
+10/10/26,Holy Cross,Anežka Čabelová,D,SO,0,0,0,2026-27
+10/10/26,Holy Cross,Avery Supryka,D,SO,0,0,0,2026-27
+10/10/26,Holy Cross,Eden Bergman,F,FR,0,0,0,2026-27
+10/10/26,Holy Cross,Ella Pukala,F,SO,0,0,0,2026-27
+10/10/26,Holy Cross,Greta Henderson,F,SR,0,1,1,2026-27
+10/10/26,Holy Cross,Julia Curran,F,FR,0,0,0,2026-27
+10/10/26,Holy Cross,Kate Meinert,D,JR,0,0,0,2026-27
+10/10/26,Holy Cross,Keira Healey,D,JR,0,1,1,2026-27
+10/10/26,Holy Cross,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/10/26,Holy Cross,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/10/26,Holy Cross,Lo Lachapelle,F,FR,1,0,1,2026-27
+10/10/26,Holy Cross,Lola Reid,F,JR,0,0,0,2026-27
+10/10/26,Holy Cross,Mia Vergilii,F,SO,0,0,0,2026-27
+10/10/26,Holy Cross,Mylie Ellis,D,FR,0,1,1,2026-27
+10/10/26,Holy Cross,Neely Nicholson,F,SR,1,1,2,2026-27
+10/10/26,Holy Cross,Peyton Blaney,D,SR,0,0,0,2026-27
+10/10/26,Holy Cross,Quinn Taylor,F,FR,0,0,0,2026-27
+10/10/26,Holy Cross,Sydney Fogu,G,SO,0,0,0,2026-27
+10/10/26,Holy Cross,Tessa Demain,D,JR,0,0,0,2026-27
+10/16/26,Colgate,Anežka Čabelová,D,SO,0,0,0,2026-27
+10/16/26,Colgate,Avery Supryka,D,SO,0,0,0,2026-27
+10/16/26,Colgate,Bronwyn Langis,F,FR,0,0,0,2026-27
+10/16/26,Colgate,Eden Bergman,F,FR,0,0,0,2026-27
+10/16/26,Colgate,Ella Pukala,F,SO,0,0,0,2026-27
+10/16/26,Colgate,Greta Henderson,F,SR,0,0,0,2026-27
+10/16/26,Colgate,Julia Curran,F,FR,0,0,0,2026-27
+10/16/26,Colgate,Kaileigh Quigg,F,JR,0,0,0,2026-27
+10/16/26,Colgate,Kate Meinert,D,JR,0,0,0,2026-27
+10/16/26,Colgate,Keira Healey,D,JR,0,0,0,2026-27
+10/16/26,Colgate,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/16/26,Colgate,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/16/26,Colgate,Lo Lachapelle,F,FR,0,0,0,2026-27
+10/16/26,Colgate,Lola Reid,F,JR,0,0,0,2026-27
+10/16/26,Colgate,Mylie Ellis,D,FR,0,0,0,2026-27
+10/16/26,Colgate,Neely Nicholson,F,SR,0,0,0,2026-27
+10/16/26,Colgate,Peyton Blaney,D,SR,0,0,0,2026-27
+10/16/26,Colgate,Quinn Taylor,F,FR,0,0,0,2026-27
+10/16/26,Colgate,Sydney Fogu,G,SO,0,0,0,2026-27
+10/16/26,Colgate,Tessa Demain,D,JR,0,0,0,2026-27
+10/17/26,Colgate,Anežka Čabelová,D,SO,0,0,0,2026-27
+10/17/26,Colgate,Avery Supryka,D,SO,0,0,0,2026-27
+10/17/26,Colgate,Bronwyn Langis,F,FR,0,0,0,2026-27
+10/17/26,Colgate,Eden Bergman,F,FR,0,0,0,2026-27
+10/17/26,Colgate,Ella Pukala,F,SO,0,0,0,2026-27
+10/17/26,Colgate,Greta Henderson,F,SR,0,0,0,2026-27
+10/17/26,Colgate,Julia Curran,F,FR,0,0,0,2026-27
+10/17/26,Colgate,Kaileigh Quigg,F,JR,0,0,0,2026-27
+10/17/26,Colgate,Kate Meinert,D,JR,0,0,0,2026-27
+10/17/26,Colgate,Keira Healey,D,JR,0,0,0,2026-27
+10/17/26,Colgate,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/17/26,Colgate,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/17/26,Colgate,Lo Lachapelle,F,FR,0,0,0,2026-27
+10/17/26,Colgate,Lola Reid,F,JR,0,0,0,2026-27
+10/17/26,Colgate,Mari Pietersen,G,SR,0,0,0,2026-27
+10/17/26,Colgate,Mylie Ellis,D,FR,0,0,0,2026-27
+10/17/26,Colgate,Neely Nicholson,F,SR,0,0,0,2026-27
+10/17/26,Colgate,Peyton Blaney,D,SR,0,0,0,2026-27
+10/17/26,Colgate,Quinn Taylor,F,FR,0,0,0,2026-27
+10/17/26,Colgate,Tessa Demain,D,JR,0,0,0,2026-27
+10/23/26,Yale,Anežka Čabelová,D,SO,0,1,1,2026-27
+10/23/26,Yale,Avery Supryka,D,SO,0,0,0,2026-27
+10/23/26,Yale,Bronwyn Langis,F,FR,0,0,0,2026-27
+10/23/26,Yale,Eden Bergman,F,FR,0,0,0,2026-27
+10/23/26,Yale,Ella Pukala,F,SO,0,0,0,2026-27
+10/23/26,Yale,Greta Henderson,F,SR,0,0,0,2026-27
+10/23/26,Yale,Julia Curran,F,FR,0,0,0,2026-27
+10/23/26,Yale,Kaileigh Quigg,F,JR,0,1,1,2026-27
+10/23/26,Yale,Kate Meinert,D,JR,0,0,0,2026-27
+10/23/26,Yale,Keira Healey,D,JR,0,0,0,2026-27
+10/23/26,Yale,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/23/26,Yale,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/23/26,Yale,Lo Lachapelle,F,FR,1,0,1,2026-27
+10/23/26,Yale,Lola Reid,F,JR,0,0,0,2026-27
+10/23/26,Yale,Mylie Ellis,D,FR,0,1,1,2026-27
+10/23/26,Yale,Neely Nicholson,F,SR,0,0,0,2026-27
+10/23/26,Yale,Peyton Blaney,D,SR,1,0,1,2026-27
+10/23/26,Yale,Quinn Taylor,F,FR,0,0,0,2026-27
+10/23/26,Yale,Sydney Fogu,G,SO,0,0,0,2026-27
+10/23/26,Yale,Tessa Demain,D,JR,0,0,0,2026-27
+10/24/26,Robert Morris,Anežka Čabelová,D,SO,0,0,0,2026-27
+10/24/26,Robert Morris,Avery Supryka,D,SO,0,1,1,2026-27
+10/24/26,Robert Morris,Bronwyn Langis,F,FR,0,0,0,2026-27
+10/24/26,Robert Morris,Eden Bergman,F,FR,0,0,0,2026-27
+10/24/26,Robert Morris,Ella Pukala,F,SO,0,0,0,2026-27
+10/24/26,Robert Morris,Greta Henderson,F,SR,0,0,0,2026-27
+10/24/26,Robert Morris,Julia Curran,F,FR,0,0,0,2026-27
+10/24/26,Robert Morris,Kaileigh Quigg,F,JR,1,0,1,2026-27
+10/24/26,Robert Morris,Kate Meinert,D,JR,0,0,0,2026-27
+10/24/26,Robert Morris,Keira Healey,D,JR,1,0,1,2026-27
+10/24/26,Robert Morris,Kylie Hollingsworth,F,FR,0,1,1,2026-27
+10/24/26,Robert Morris,Lexie Bertelsen,F,SO,0,1,1,2026-27
+10/24/26,Robert Morris,Lo Lachapelle,F,FR,0,0,0,2026-27
+10/24/26,Robert Morris,Lola Reid,F,JR,0,0,0,2026-27
+10/24/26,Robert Morris,Mari Pietersen,G,SR,0,0,0,2026-27
+10/24/26,Robert Morris,Mylie Ellis,D,FR,0,1,1,2026-27
+10/24/26,Robert Morris,Neely Nicholson,F,SR,0,0,0,2026-27
+10/24/26,Robert Morris,Peyton Blaney,D,SR,0,0,0,2026-27
+10/24/26,Robert Morris,Quinn Taylor,F,FR,0,0,0,2026-27
+10/24/26,Robert Morris,Tessa Demain,D,JR,0,0,0,2026-27
+10/30/26,Northeastern,Avery Supryka,D,SO,0,0,0,2026-27
+10/30/26,Northeastern,Bronwyn Langis,F,FR,0,0,0,2026-27
+10/30/26,Northeastern,Eden Bergman,F,FR,0,0,0,2026-27
+10/30/26,Northeastern,Ella Pukala,F,SO,0,0,0,2026-27
+10/30/26,Northeastern,Greta Henderson,F,SR,0,0,0,2026-27
+10/30/26,Northeastern,Julia Curran,F,FR,0,0,0,2026-27
+10/30/26,Northeastern,Kaileigh Quigg,F,JR,0,1,1,2026-27
+10/30/26,Northeastern,Kate Meinert,D,JR,0,0,0,2026-27
+10/30/26,Northeastern,Keira Healey,D,JR,0,0,0,2026-27
+10/30/26,Northeastern,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+10/30/26,Northeastern,Lexie Bertelsen,F,SO,1,0,1,2026-27
+10/30/26,Northeastern,Lo Lachapelle,F,FR,0,0,0,2026-27
+10/30/26,Northeastern,Lola Reid,F,JR,0,0,0,2026-27
+10/30/26,Northeastern,Mari Pietersen,G,SR,0,0,0,2026-27
+10/30/26,Northeastern,Mia Vergilii,F,SO,0,0,0,2026-27
+10/30/26,Northeastern,Mylie Ellis,D,FR,0,0,0,2026-27
+10/30/26,Northeastern,Neely Nicholson,F,SR,0,1,1,2026-27
+10/30/26,Northeastern,Peyton Blaney,D,SR,0,0,0,2026-27
+10/30/26,Northeastern,Quinn Taylor,F,FR,0,0,0,2026-27
+10/30/26,Northeastern,Tessa Demain,D,JR,0,0,0,2026-27
+10/31/26,Northeastern,Avery Supryka,D,SO,0,0,0,2026-27
+10/31/26,Northeastern,Bronwyn Langis,F,FR,0,0,0,2026-27
+10/31/26,Northeastern,Eden Bergman,F,FR,0,0,0,2026-27
+10/31/26,Northeastern,Ella Pukala,F,SO,0,1,1,2026-27
+10/31/26,Northeastern,Greta Henderson,F,SR,0,0,0,2026-27
+10/31/26,Northeastern,Julia Curran,F,FR,0,0,0,2026-27
+10/31/26,Northeastern,Kaileigh Quigg,F,JR,0,0,0,2026-27
+10/31/26,Northeastern,Kate Meinert,D,JR,0,0,0,2026-27
+10/31/26,Northeastern,Keira Healey,D,JR,0,0,0,2026-27
+10/31/26,Northeastern,Kylie Hollingsworth,F,FR,1,0,1,2026-27
+10/31/26,Northeastern,Lexie Bertelsen,F,SO,0,0,0,2026-27
+10/31/26,Northeastern,Lo Lachapelle,F,FR,0,1,1,2026-27
+10/31/26,Northeastern,Lola Reid,F,JR,0,0,0,2026-27
+10/31/26,Northeastern,Mia Vergilii,F,SO,0,0,0,2026-27
+10/31/26,Northeastern,Mylie Ellis,D,FR,0,1,1,2026-27
+10/31/26,Northeastern,Neely Nicholson,F,SR,0,1,1,2026-27
+10/31/26,Northeastern,Peyton Blaney,D,SR,0,0,0,2026-27
+10/31/26,Northeastern,Quinn Taylor,F,FR,1,0,1,2026-27
+10/31/26,Northeastern,Sydney Fogu,G,SO,0,0,0,2026-27
+10/31/26,Northeastern,Tessa Demain,D,JR,0,0,0,2026-27
+11/06/26,Maine,Avery Supryka,D,SO,0,0,0,2026-27
+11/06/26,Maine,Bronwyn Langis,F,FR,0,0,0,2026-27
+11/06/26,Maine,Eden Bergman,F,FR,0,0,0,2026-27
+11/06/26,Maine,Ella Pukala,F,SO,0,0,0,2026-27
+11/06/26,Maine,Greta Henderson,F,SR,0,0,0,2026-27
+11/06/26,Maine,Julia Curran,F,FR,0,0,0,2026-27
+11/06/26,Maine,Kaileigh Quigg,F,JR,0,1,1,2026-27
+11/06/26,Maine,Kate Meinert,D,JR,0,0,0,2026-27
+11/06/26,Maine,Keira Healey,D,JR,0,0,0,2026-27
+11/06/26,Maine,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+11/06/26,Maine,Lexie Bertelsen,F,SO,0,1,1,2026-27
+11/06/26,Maine,Lo Lachapelle,F,FR,0,0,0,2026-27
+11/06/26,Maine,Lola Reid,F,JR,0,0,0,2026-27
+11/06/26,Maine,Mia Vergilii,F,SO,0,0,0,2026-27
+11/06/26,Maine,Mylie Ellis,D,FR,0,0,0,2026-27
+11/06/26,Maine,Neely Nicholson,F,SR,1,0,1,2026-27
+11/06/26,Maine,Peyton Blaney,D,SR,0,0,0,2026-27
+11/06/26,Maine,Quinn Taylor,F,FR,0,0,0,2026-27
+11/06/26,Maine,Sydney Fogu,G,SO,0,0,0,2026-27
+11/06/26,Maine,Tessa Demain,D,JR,0,0,0,2026-27
+11/07/26,Maine,Avery Supryka,D,SO,0,0,0,2026-27
+11/07/26,Maine,Bronwyn Langis,F,FR,0,0,0,2026-27
+11/07/26,Maine,Eden Bergman,F,FR,0,0,0,2026-27
+11/07/26,Maine,Ella Pukala,F,SO,0,0,0,2026-27
+11/07/26,Maine,Greta Henderson,F,SR,0,0,0,2026-27
+11/07/26,Maine,Julia Curran,F,FR,0,0,0,2026-27
+11/07/26,Maine,Kaileigh Quigg,F,JR,0,0,0,2026-27
+11/07/26,Maine,Kate Meinert,D,JR,0,0,0,2026-27
+11/07/26,Maine,Kylie Hollingsworth,F,FR,0,0,0,2026-27
+11/07/26,Maine,Lexie Bertelsen,F,SO,0,0,0,2026-27
+11/07/26,Maine,Lo Lachapelle,F,FR,0,0,0,2026-27
+11/07/26,Maine,Lola Reid,F,JR,0,0,0,2026-27
+11/07/26,Maine,Mia Vergilii,F,SO,0,0,0,2026-27
+11/07/26,Maine,Mylie Ellis,D,FR,0,0,0,2026-27
+11/07/26,Maine,Neely Nicholson,F,SR,0,0,0,2026-27
+11/07/26,Maine,Quinn Taylor,F,FR,0,0,0,2026-27
+11/07/26,Maine,Sydney Fogu,G,SO,0,0,0,2026-27
+11/07/26,Maine,Tessa Demain,D,JR,0,0,0,2026-27

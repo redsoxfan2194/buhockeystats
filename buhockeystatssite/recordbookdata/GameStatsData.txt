@@ -32195,6 +32195,12 @@
 10/16/2026,Vermont,Aiden Celebrini,D,SR,0,0,0,2026-27
 10/16/2026,Vermont,Caleb Malhotra,F,FR,0,0,0,2026-27
 10/16/2026,Vermont,Ben Merrill,F,SO,0,0,0,2026-27
+10/16/2026,Vermont,Jack Harvey,F,SR,0,0,0,2026-27
+10/16/2026,Vermont,Jax Wismer,D,JR,0,0,0,2026-27
+10/16/2026,Vermont,Xavier Villeneuve,D,FR,0,0,0,2026-27
+10/16/2026,Vermont,Mick Frechette,D,SR,0,0,0,2026-27
+10/16/2026,Vermont,Carter Amico,D,SO,0,0,0,2026-27
+10/16/2026,Vermont,Niklas Aaram-Olsen,F,FR,0,0,0,2026-27
 10/16/2026,Vermont,Jack Murtagh,F,SO,0,1,1,2026-27
 10/16/2026,Vermont,Ryder Ritchie,F,SO,0,0,0,2026-27
 10/16/2026,Vermont,Brandon Svoboda,F,JR,0,0,0,2026-27
@@ -32260,6 +32266,7 @@
 10/24/2026,Connecticut,Kamil Bednarik,F,JR,0,2,2,2026-27
 10/24/2026,Connecticut,Aiden Celebrini,D,SR,0,1,1,2026-27
 10/24/2026,Connecticut,Ryder Ritchie,F,SO,0,1,1,2026-27
+10/24/2026,Connecticut,Niklas Aaram-Olsen,F,FR,0,0,0,2026-27
 10/24/2026,Connecticut,Mikhail Yegorov,G,JR,0,0,0,2026-27
 10/30/2026,Maine,Charlie Trethewey,D,SO,0,0,0,2026-27
 10/30/2026,Maine,Nick Roukounakis,F,JR,0,1,1,2026-27
@@ -32323,6 +32330,7 @@
 11/06/2026,Michigan State,Mikhail Yegorov,G,JR,0,0,0,2026-27
 11/07/2026,Michigan State,Charlie Trethewey,D,SO,0,0,0,2026-27
 11/07/2026,Michigan State,Niklas Aaram-Olsen,F,FR,0,0,0,2026-27
+11/07/2026,Michigan State,Haoxi Wang,D,FR,0,0,0,2026-27
 11/07/2026,Michigan State,Ryder Ritchie,F,SO,0,0,0,2026-27
 11/07/2026,Michigan State,Ben Merrill,F,SO,0,0,0,2026-27
 11/07/2026,Michigan State,Tynan Lawrence,F,SO,0,0,0,2026-27
@@ -32341,7 +32349,7 @@
 11/07/2026,Michigan State,Jay Feldberg,F,SO,0,0,0,2026-27
 11/07/2026,Michigan State,Mikhail Yegorov,G,JR,0,0,0,2026-27
 11/10/2026,Harvard,Mick Frechette,D,SR,0,0,0,2026-27
-11/10/2026,Harvard,Tynan Lawrence,F,SO,1,0,1,2026-27
+11/10/2026,Harvard,Tynan Lawrence,F,SO,1,1,2,2026-27
 11/10/2026,Harvard,Ryder Ritchie,F,SO,1,0,1,2026-27
 11/10/2026,Harvard,Nick Roukounakis,F,JR,0,1,1,2026-27
 11/10/2026,Harvard,Xavier Villeneuve,D,FR,0,2,2,2026-27
@@ -32352,10 +32360,11 @@
 11/10/2026,Harvard,Caleb Malhotra,F,FR,0,0,0,2026-
 11/10/2026,Harvard,Jay Feldberg,F,SO,0,0,0,2026-27
 11/10/2026,Harvard,Kamil Bednarik,F,JR,1,2,3,2026-27
-11/10/2026,Harvard,Carter Amico,D,SO,0,1,1,2026-27
+11/10/2026,Harvard,Carter Amico,D,SO,0,0,0,2026-27
 11/10/2026,Harvard,Jonathan Morello,F,SO,0,1,1,2026-27
 11/10/2026,Harvard,Jack Murtagh,F,SO,0,0,0,2026-27
 11/10/2026,Harvard,Adam Barone,D,JR,0,0,0,2026-27
-11/10/2026,Harvard,Jack Harvey,F,SR,1,0,1,2026-27
+11/10/2026,Harvard,Jack Harvey,F,SR,0,1,1,2026-27
 11/10/2026,Harvard,Ben Merrill,F,SO,0,0,0,2026-27
+11/10/2026,Harvard,Caleb Malhotra,F,FR,0,0,0,2026-27
 11/10/2026,Harvard,Mikhail Yegorov,G,JR,0,0,0,2026-27
