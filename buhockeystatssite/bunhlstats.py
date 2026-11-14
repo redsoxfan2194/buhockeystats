@@ -193,7 +193,7 @@ for team in ['ANA', 'BOS', 'BUF', 'CAR', 'CBJ', 'CGY', 'CHI', 'COL', 'DAL', 'DET
 f.close()
 
 dfnhl=pd.read_csv('/home/buhockeystats/mysite/nhl_players.csv',encoding='latin1')
-dfnhl=dfnhl.loc[dfnhl['name'].isin(list(burb.dfSkateMens.name.unique())+list(burb.dfGoalieMens.name.unique()))].drop_duplicates()
+dfnhl=dfnhl.loc[dfnhl['name'].isin(list(burb.dfSkateMens.name.unique())+list(burb.dfGoalieMens.name.unique()) + ["Cameron Crotty"])].drop_duplicates()
 dfnhl = dfnhl[~(dfnhl['name'] == 'Jack Hughes')]
 pIdDict=dfnhl.to_dict('records')
 pDict={}
