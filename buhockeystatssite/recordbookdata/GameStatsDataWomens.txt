@@ -14656,3 +14656,18 @@
 11/07/26,Maine,Quinn Taylor,F,FR,0,0,0,2026-27
 11/07/26,Maine,Sydney Fogu,G,SO,0,0,0,2026-27
 11/07/26,Maine,Tessa Demain,D,JR,0,0,0,2026-27
+11/13/2026,Boston College,Greta Henderson,F,SR,0,0,0,2026-27
+11/13/2026,Boston College,Kaileigh Quigg,F,JR,0,0,0,2026-27
+11/13/2026,Boston College,Mylie Ellis,D,FR,0,0,0,2026-27
+11/13/2026,Boston College,Kylie Hollingsworth,F,FR,1,0,1,2026-27
+11/13/2026,Boston College,Avery Supryka,D,SO,1,0,1,2026-27
+11/13/2026,Boston College,Mia Vergilii,F,SO,0,0,0,2026-27
+11/13/2026,Boston College,Lola Reid,F,JR,0,1,1,2026-27
+11/13/2026,Boston College,Quinn Taylor,F,FR,0,2,2,2026-27
+11/13/2026,Boston College,Kate Meinert,D,JR,0,1,1,2026-27
+11/13/2026,Boston College,Neely Nicholson,F,SR,0,0,0,2026-27
+11/13/2026,Boston College,Bronwyn Langis,F,FR,1,0,1,2026-27
+11/13/2026,Boston College,Julia Curran,F,FR,0,1,1,2026-27
+11/13/2026,Boston College,Ella Pukala,F,SO,0,0,0,2026-27
+11/13/2026,Boston College,Lexie Bertelsen,F,SO,0,1,1,2026-27
+11/13/2026,Boston College,Sydney Fogu,G,SO,0,0,0,2026-27
