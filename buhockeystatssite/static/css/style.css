@@ -153,14 +153,47 @@ img {
   color: #cc0000;
 }
 
-.buhs-table-odd {
-  color: white;
-  background-color: #cc0000;
+/* Data tables built by formatstatsdata.py */
+.buhs-table th:not(.index_name) {
+  color: #cc0000;
 }
 
-.buhs-table-even {
-  color: #cc0000;
+/* stats tables (players, draft, hat tricks, captains, ...) */
+.buhs-row-odd {
+  background-color: lightgray;
+  color: black;
+}
+
+.buhs-row-even {
+  background-color: transparent;
+  color: black;
+}
+
+/* game results tables (records, last worn, game recaps) */
+.buhs-game-row-odd {
+  background-color: lightgray;
+  color: black;
+}
+
+.buhs-game-row-even {
+  background-color: transparent;
+  color: black;
+}
+
+/* result badge; a loss uses the opponent's colors from formatstatsdata.py */
+.buhs-win {
+  background-color: #cc0000;
+  color: white;
+}
+
+.buhs-tie {
+  background-color: #808080;
+  color: black;
+}
+
+.buhs-result-default {
   background-color: white;
+  color: black;
 }
 
 .award-row-red {

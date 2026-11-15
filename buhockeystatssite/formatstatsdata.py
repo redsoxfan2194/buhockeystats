@@ -19,22 +19,21 @@ COLUMNS = {
 }
 TABLE_STYLES = [
     {
-        'selector': 'th:not(.index_name)',
-        'props': 'color: #cc0000;'
-    }, {
         'selector': 'table',
         'props': [('class', 'sortable')]
     }
 ]
 
-BU_COLOR = "#FFFFFF"
-BU_BG_COLOR = '#CC0000'
-
-DEFAULT_COLOR = '#000000'
-DEFAULT_BG_COLOR = '#FFFFFF'
-
-TIE_COLOR = '#000000'
-TIE_BG_COLOR = '#808080'
+# Table colors live in static/css/style.css ("Data tables" section).
+# Python only picks the class for each cell:
+TABLE_CLASS = 'table-sm table-borderless table-responsive-md buhs-table'
+ROW_ODD = 'buhs-row-odd'            # 1st, 3rd, ... row of a stats table
+ROW_EVEN = 'buhs-row-even'          # 2nd, 4th, ... row of a stats table
+GAME_ROW_ODD = 'buhs-game-row-odd'  # 1st, 3rd, ... row of a game results table
+GAME_ROW_EVEN = 'buhs-game-row-even'
+RESULT_WIN = 'buhs-win'             # result badge for a BU win
+RESULT_TIE = 'buhs-tie'             # result badge for a tie
+RESULT_DEFAULT = 'buhs-result-default'  # opponent without team colors, or no result
 
 TEAM_COLORS = {"Air Force": ("#003594", "#B2B4B2"),
                "Alaska Anchorage": ("#00583D", "#FFC425"),
@@ -187,7 +186,6 @@ def formatResults(dfRes):
     Returns:
       DataFrame : formatted Record Data
     '''
-    global counter
     if(dfRes.empty):
       return "<p id='no-data'>No Data Available<p>"
     firstCol = dfRes.columns[0]
@@ -216,8 +214,9 @@ def formatResults(dfRes):
             [col for col in tableData.columns if col != firstCol]
         tableData = tableData[newOrder]
     tableData.rename(columns=COLUMNS, inplace=True)
-    counter=0
-    resTable = tableData.style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').apply(
+    tableData = tableData.reset_index(drop=True)
+    resTable = tableData.style.set_table_attributes(f'class="{TABLE_CLASS}"').set_td_classes(
+        rowClasses(tableData)).apply(
         stylerow,
         axis=1).hide(
         axis='index').format(
@@ -245,7 +244,8 @@ def formatResults(dfRes):
         # Create a new <div> element
         new_div = soup.new_tag('div',id=res_cell['id'])
         new_div.string=res_cell.get_text()
-        new_div['class']='badge'
+        # keep the win/tie color class from the cell
+        new_div['class'] = ['badge'] + [c for c in res_cell['class'] if c.startswith('buhs-')]
         # Replace the <td> cell with the <div> element
         score_cell.insert(0, new_div)
         res_cell.decompose()
@@ -292,12 +292,9 @@ def formatStats(dfRes):
     elif('End' in dfRes.columns):
         dfRes['Start'] = dfRes['Start'].dt.strftime('%m/%d/%Y')
         dfRes['End'] = dfRes['End'].dt.strftime('%m/%d/%Y')
+    dfRes = dfRes.reset_index(drop=True)
     if 'SO' in dfRes.columns:
-        style = dfRes.style.apply(
-            lambda x: [
-                'color:#cc0000;' if i % 2 != 0\
-                else 'background-color: #cc0000; color:white;' for i in range(
-                    len(x))]).hide(
+        style = dfRes.style.set_td_classes(stripeClasses(dfRes)).hide(
                 axis='index').format(
                     {
                         'gaa': '{:.2f}',
@@ -305,11 +302,7 @@ def formatStats(dfRes):
                         'min': '{:.2f}',
                         'mins': '{:.2f}'})
     else:
-        style = dfRes.style.apply(
-            lambda x: [
-                'color:#cc0000;' if i % 2 != 0\
-                else 'background-color: #cc0000; color:white;' for i in range(
-                    len(x))]).hide(
+        style = dfRes.style.set_td_classes(stripeClasses(dfRes)).hide(
                 axis='index').format(
                     {
                         'gaa': '{:.2f}',
@@ -366,78 +359,95 @@ def formatStats(dfRes):
         inplace=True)
     style.set_table_styles(TABLE_STYLES)
     if 'Split' in dfRes.columns:
-        dfRes = style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(
+        dfRes = style.set_table_attributes(f'class="{TABLE_CLASS}"').to_html(
             index_names=False,
             render_links=True).replace(">nan<", "><")
     else:
-        dfRes = style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(index_names=False, render_links=True).replace(
+        dfRes = style.set_table_attributes(f'class="{TABLE_CLASS}"').to_html(index_names=False, render_links=True).replace(
             ">nan<", ">-<").replace('<th ', '<th onclick=setSort(this) ')
     return dfRes
 
 
+def stripeClasses(df):
+    '''Alternating row classes for a stats table
+    Parameters:
+      df (DataFrame) : table data (unique index)
+
+    Returns:
+      DataFrame : css class for every cell
+    '''
+    return pd.DataFrame([[ROW_ODD if i % 2 == 0 else ROW_EVEN] * len(df.columns) for i in range(len(df))],
+                        index=df.index, columns=df.columns)
+
+
+def rowClasses(tableData):
+    '''Row and result classes for a results table
+    Parameters:
+      tableData (DataFrame) : results data (unique index)
+
+    Returns:
+      DataFrame : css class for every cell
+    '''
+    classes = []
+    for i, (_, row) in enumerate(tableData.iterrows()):
+        odd = i % 2 == 0
+        if 'Location' in row:
+            rowCls = [GAME_ROW_ODD if odd else GAME_ROW_EVEN] * len(row)
+            # the result cell (shown as the badge) gets its own color class
+            rowCls[list(row.index).index('Result')] = resultclass(row['Result'], row['Opponent'])
+        elif 'Opponent' in row:
+            rowCls = [resultclass('L', row['Opponent'])] * len(row)
+        else:
+            rowCls = [ROW_ODD if odd else ROW_EVEN] * len(row)
+        classes.append(rowCls)
+    return pd.DataFrame(classes, index=tableData.index, columns=tableData.columns)
+
+
 def stylerow(row):
-    global counter
-    '''Color row based on the opponent/result
+    '''Opponent team colors, which come from TEAM_COLORS rather than the css
     Parameters:
       row (DataFrame) : row of DataFrame
-      
+
     Returns:
-      DataFrame : row formated color based on opponent
+      list : inline style for each cell ('' where the css classes apply)
     '''
-    counter+=1
+    style = [''] * len(row)
     if 'Location' in row:
-        background, font = winnercolors(row['Result'], row['Opponent'])
-        if(counter % 2 != 0):
-          bg = 'lightgray'
-        else:
-          bg =''
-        style=[f'background-color: {bg}; color: black;'] * len(row)
-        style[list(row.index).index('Result')] = f'background-color: {background}; color: {font};'
-        return style
-    elif 'Opponent' in row:
-        background, font = winnercolors('L', row['Opponent'])
-    elif counter % 2 == 0:
-        background = ''
-        font = BU_BG_COLOR
-    else:
-        background = BU_BG_COLOR
-        font = BU_COLOR
-    return [f'background-color: {background}; color: {font};'] * len(row)
+        if row['Result'] == 'L' and row['Opponent'] in TEAM_COLORS:
+            style[list(row.index).index('Result')] = opponentstyle(row['Opponent'])
+    elif 'Opponent' in row and row['Opponent'] in TEAM_COLORS:
+        style = [opponentstyle(row['Opponent'])] * len(row)
+    return style
 
 
-def winnercolors(result, opponent):
-    '''Determine the color of the row based on the game winner
+def resultclass(result, opponent):
+    '''Css class for a result based on the game winner
     Parameters:
       result (str) : "W","L","T"
       opponent (str) : name of opponent
-      
+
     Returns:
-      str: background color for winning team
-      str: text color for winning team
+      str: css class ('' when the opponent's team colors are used)
     '''
     if result == "W":
-        return BU_BG_COLOR, BU_COLOR
-    if result == "L":
-        return opponentcolors(opponent)
+        return RESULT_WIN
     if result == "T":
-        return TIE_BG_COLOR, TIE_COLOR
+        return RESULT_TIE
+    if result == "L" and opponent in TEAM_COLORS:
+        return ''
+    return RESULT_DEFAULT
 
-    return DEFAULT_BG_COLOR, DEFAULT_COLOR
 
-
-def opponentcolors(opponent):
-    '''Get opponent color
+def opponentstyle(opponent):
+    '''Inline style in the given opponent's colors
     Parameters:
-      opponent (str) : name of opponent
-      
-    Returns:
-      str: background color for given opponent
-      str: text color for given opponent
-    '''
-    if opponent not in TEAM_COLORS:
-        return DEFAULT_BG_COLOR, DEFAULT_COLOR
+      opponent (str) : name of opponent (in TEAM_COLORS)
 
-    return TEAM_COLORS[opponent][0], TEAM_COLORS[opponent][1]
+    Returns:
+      str: css background and text color
+    '''
+    background, font = TEAM_COLORS[opponent]
+    return f'background-color: {background}; color: {font};'
 
 def formatTable(dfRes):
     ''' Format Table Data '''
@@ -450,11 +460,8 @@ def formatTable(dfRes):
       dfRes['Medal'] = dfRes['Medal'].fillna('')
     dfRes.columns = dfRes.columns.str.title()
     dfRes.columns = dfRes.columns.str.title()
-    style = dfRes.style.apply(
-                lambda x: [
-                    'color:#cc0000;' if i % 2 != 0\
-                    else 'background-color: #cc0000; color:white;' for i in range(
-                        len(x))]).hide(
+    dfRes = dfRes.reset_index(drop=True)
+    style = dfRes.style.set_td_classes(stripeClasses(dfRes)).hide(
         axis='index')
     style.set_table_styles(TABLE_STYLES) 
-    return style.set_table_attributes('class="table-sm table-borderless table-responsive-md"').to_html(index_names=False, render_links=True)
+    return style.set_table_attributes(f'class="{TABLE_CLASS}"').to_html(index_names=False, render_links=True)
