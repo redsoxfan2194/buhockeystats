@@ -2956,15 +2956,28 @@ date,team,opp,type,goalscorer,primary,secondary,time,period,tScore,oScore,prevGD
 2026-10-24,BU,UConn,PP,Tynan Lawrence,Xavier Villeneuve,Ryder Ritchie,9:12,2nd Period,3,0,2,9,12,3,2026-27
 2026-10-24,BU,UConn,,Conrad Fondrk,Kamil Bednarik,Xavier Villeneuve,12:50,2nd Period,4,0,3,12,50,4,2026-27
 2026-10-24,BU,UConn,,Jack Harvey,Conrad Fondrk,Caleb Malhotra,2:34,3rd Period,5,1,3,2,34,4,2026-27
-2026-10-24,BU,UConn,EN,Brandon Svoboda,Tynan Lawrence,Haoxi (Simon) Wang,19:11,3rd Period,6,3,2,19,11,3,2026-27
+2026-10-24,BU,UConn,EN,Brandon Svoboda,Tynan Lawrence,Haoxi Wang,19:11,3rd Period,6,3,2,19,11,3,2026-27
 2026-10-30,BU,Maine,,Tynan Lawrence,Unassisted,Unassisted,0:29,1st Period,1,0,0,0,29,1,2026-27
 2026-10-30,BU,Maine,,Xavier Villeneuve,Jack Harvey,Conrad Fondrk,1:00,1st Period,2,0,1,1,0,2,2026-27
 2026-10-30,BU,Maine,,Ben Merrill,Jonathan Morello,Niklas Aaram-Olsen,1:31,1st Period,3,0,2,1,31,3,2026-27
 2026-10-30,BU,Maine,PP,Viktor Nörringer,Caleb Malhotra,Xavier Villeneuve,4:49,1st Period,4,0,3,4,49,4,2026-27
 2026-10-30,BU,Maine,,Niklas Aaram-Olsen,Carter Amico,Ben Merrill,11:30,2nd Period,5,1,3,11,30,4,2026-27
-2026-10-30,BU,Maine,,Brandon Svoboda,Haoxi (Simon) Wang,Nick Roukounakis,15:40,2nd Period,6,1,4,15,40,5,2026-27
+2026-10-30,BU,Maine,,Brandon Svoboda,Haoxi Wang,Nick Roukounakis,15:40,2nd Period,6,1,4,15,40,5,2026-27
 2026-10-30,BU,Maine,5x3,Conrad Fondrk,Jack Murtagh,Ryder Ritchie,1:19,3rd Period,7,1,5,1,19,6,2026-27
 2026-10-31,BU,Maine,PP,Tynan Lawrence,Conrad Fondrk,Unassisted,6:56,3rd Period,1,2,-2,6,56,-1,2026-27
 2026-10-31,BU,Maine,,Tynan Lawrence,Jack Harvey,Jack Murtagh,17:48,3rd Period,2,2,-1,17,48,0,2026-27
-2026-10-31,BU,Maine,3x3,Caleb Malhotra,Jack Harvey,Haoxi (Simon) Wang,1:35,Overtime,3,2,0,1,35,1,2026-27
+2026-10-31,BU,Maine,3x3,Caleb Malhotra,Jack Harvey,Haoxi Wang,1:35,Overtime,3,2,0,1,35,1,2026-27
 2026-10-30,BU,Maine,,Tynan Lawrence,Unassisted,Unassisted,0:29,1st Period,1,0,0,0,29,1,2026-27
+2026-11-06,BU,MSU,PP,Tynan Lawrence,Xavier Villeneuve,Niklas Aaram-Olsen,5:49,1st Period,1,0,0,5,49,1,2026-27
+2026-11-06,BU,MSU,,Kamil Bednarik,Nick Roukounakis,Ben Merrill,18:04,1st Period,2,0,1,18,4,2,2026-27
+2026-11-06,BU,MSU,,Carter Amico,Caleb Malhotra,Jack Harvey,11:37,2nd Period,3,0,2,11,37,3,2026-27
+2026-11-06,BU,MSU,EA,Caleb Malhotra,Tynan Lawrence,Ryder Ritchie,14:50,2nd Period,4,0,3,14,50,4,2026-27
+2026-11-06,BU,MSU,PP,Charlie Trethewey,Ryder Ritchie,Haoxi Wang,16:32,3rd Period,5,2,2,16,32,3,2026-27
+2026-11-06,BU,MSU,EN,Carter Amico,Unassisted,Unassisted,19:01,3rd Period,6,2,3,19,1,4,2026-27
+2026-11-18,BU,QU,,Jack Murtagh,Caleb Malhotra,Xavier Villeneuve,18:00,2nd Period,1,2,-2,18,0,-1,2026-27
+2026-11-18,BU,QU,EA,Jack Murtagh,Xavier Villeneuve,Caleb Malhotra,18:45,3rd Period,2,2,-1,18,45,0,2026-27
+2026-11-10,BU,Harvard,PP,Viktor Nörringer,Xavier Villeneuve,Kamil Bednarik,8:05,2nd Period,1,2,-2,8,5,-1,2026-27
+2026-11-10,BU,Harvard,,Kamil Bednarik,Nick Roukounakis,Haoxi Wang,13:14,2nd Period,2,2,-1,13,14,0,2026-27
+2026-11-10,BU,Harvard,,Tynan Lawrence,Charlie Trethewey,Xavier Villeneuve,3:30,3rd Period,3,3,-1,3,30,0,2026-27
+2026-11-10,BU,Harvard,,Haoxi Wang,Kamil Bednarik,Jack Harvey,7:38,3rd Period,4,4,-1,7,38,0,2026-27
+2026-11-10,BU,Harvard,,Ryder Ritchie,Jonathan Morello,Tynan Lawrence,8:19,3rd Period,5,4,0,8,19,1,2026-27
