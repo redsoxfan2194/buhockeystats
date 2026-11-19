@@ -251,6 +251,8 @@ function initializeFilters() {
 // so only the most recent request is allowed to update the page.
 var latestRequestId = 0;
 var resetPending = false;
+// dropdowns whose options are rebuilt from the server after a reset
+const REBUILT_DROPDOWNS = ["season", "seasonStart", "seasonEnd", "arena", "conference", "opponent", "coach", "tourney"];
 
 function submitForm(reset = "false") {
     const requestId = ++latestRequestId;
@@ -311,6 +313,14 @@ function submitForm(reset = "false") {
             if (resetPending)
             {
                 resetPending = false;
+                // Rebuilding the dropdowns below empties them. If a filter was picked
+                // while the reset was still loading, this response already includes it,
+                // so put those choices back afterwards instead of quietly showing "All"
+                // (which the next filter change would send).
+                const keptValues = {};
+                REBUILT_DROPDOWNS.forEach(function (id) {
+                    keptValues[id] = document.getElementById(id).value;
+                });
                 document.getElementById("startYear").value = response.minYear;
                 document.getElementById("startYear").min = response.minYear;
                 document.getElementById("startYear").placeholder =
@@ -449,6 +459,13 @@ function submitForm(reset = "false") {
                             text: item,
                         })
                     );
+                });
+
+                REBUILT_DROPDOWNS.forEach(function (id) {
+                    const select = document.getElementById(id);
+                    if ([...select.options].some(function (o) { return o.value === keptValues[id]; })) {
+                        select.value = keptValues[id];
+                    }
                 });
             }
             if (document.getElementById("tabletype").value != "record") {

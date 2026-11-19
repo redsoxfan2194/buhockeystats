@@ -232,6 +232,19 @@ function initializeFilters() {
 // so only the most recent request is allowed to update the page.
 var latestRequestId = 0;
 var resetPending = false;
+// dropdowns whose options are rebuilt from the server after a reset
+const REBUILT_DROPDOWNS = ["season", "seasonStart", "seasonEnd", "opponent", "arena", "tourney", "city", "state", "country", "draftedTeam"];
+
+// Replace a dropdown's choices with "All" + values, keeping the current choice if it is still there
+function refreshDropdown(id, values) {
+    const select = document.getElementById(id);
+    const current = select.value;
+    $(select).empty().append($("<option>", { value: "all", text: "All" }));
+    $.each(values, function (index, item) {
+        $(select).append($("<option>", { value: item, text: item }));
+    });
+    select.value = values.includes(current) ? current : "all";
+}
 
 function submitForm(reset = "false") {
     const requestId = ++latestRequestId;
@@ -253,6 +266,14 @@ function submitForm(reset = "false") {
 
             if (resetPending) {
                 resetPending = false;
+                // Rebuilding the dropdowns below empties them. If a filter was picked
+                // while the reset was still loading, this response already includes it,
+                // so put those choices back afterwards instead of quietly showing "All"
+                // (which the next filter change would send).
+                const keptValues = {};
+                REBUILT_DROPDOWNS.forEach(function (id) {
+                    keptValues[id] = document.getElementById(id).value;
+                });
                 const selectSeasElement = $("#season");
                 selectSeasElement.empty();
                 selectSeasElement.append(
@@ -409,8 +430,14 @@ function submitForm(reset = "false") {
                         })
                     );
                 });
-                
-                }
+
+                REBUILT_DROPDOWNS.forEach(function (id) {
+                    const select = document.getElementById(id);
+                    if ([...select.options].some(function (o) { return o.value === keptValues[id]; })) {
+                        select.value = keptValues[id];
+                    }
+                });
+            }
 
             if (document.getElementById("sortval").value) {
                 var thElements = document.getElementsByTagName("th");
@@ -552,49 +579,26 @@ function submitForm(reset = "false") {
                 element.style.display = showBioData ? "" : "none";
             });
             
-            const selectCityElement   = $("#city");
-                $.each(response.city_values, function (index, item) {
-                    selectCityElement.append(
-                        $("<option>", {
-                            value: item,
-                            text: item,
-                        })
-                    );
-                });
-                const selectStateElement   = $("#state");
-                $.each(response.state_values, function (index, item) {
-                    selectStateElement.append(
-                        $("<option>", {
-                            value: item,
-                            text: item,
-                        })
-                    );
-                });
-                const selectCountryElement   = $("#country");
-                $.each(response.country_values, function (index, item) {
-                    selectCountryElement.append(
-                        $("<option>", {
-                            value: item,
-                            text: item,
-                        })
-                    );
-                });
-                
-                
+            // the bio lists only come back while Bio Data is switched on
+            if (response.city_values && response.city_values.length) {
+                refreshDropdown("city", response.city_values);
+            }
+            if (response.state_values && response.state_values.length) {
+                refreshDropdown("state", response.state_values);
+            }
+            if (response.country_values && response.country_values.length) {
+                refreshDropdown("country", response.country_values);
+            }
+
             const showDraftData = document.getElementById("showDraftData").checked;
             document.querySelectorAll(".draft-data").forEach(function(element) {
                 element.style.display = showDraftData ? "" : "none";
             });
             
-            const selectDraftedTeamElement   = $("#draftedTeam");
-                $.each(response.drafted_teams_values, function (index, item) {
-                    selectDraftedTeamElement.append(
-                        $("<option>", {
-                            value: item,
-                            text: item,
-                        })
-                    );
-                });
+            // the drafted team list only comes back while Draft Data is switched on
+            if (response.drafted_teams_values && response.drafted_teams_values.length) {
+                refreshDropdown("draftedTeam", response.drafted_teams_values);
+            }
             const group = document.getElementById("group");
             const selectedOption = group.options[group.selectedIndex];
 
