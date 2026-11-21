@@ -47,6 +47,7 @@ function clearFilters(event) {
     document.getElementById("opponent").value = "all";
     document.getElementById("arena").value = "all";
     document.getElementById("location").value = "all";
+    document.getElementById("result").value = "all";
     document.getElementById("tourney").value = "all";
     document.getElementById("city").value = "all";
     document.getElementById("state").value = "all";
@@ -168,6 +169,7 @@ function initializeFilters() {
         document.getElementById("gaDiv").hidden = false;
         document.getElementById("savesDiv").hidden = false;
         document.getElementById("minsDiv").hidden = false;
+        document.getElementById("resultDiv").hidden = false;
     } else {
         document.getElementById("posDiv").hidden = false;
         document.getElementById("goalDiv").hidden = false;
@@ -177,6 +179,7 @@ function initializeFilters() {
         document.getElementById("gaDiv").hidden = true;
         document.getElementById("savesDiv").hidden = true;
         document.getElementById("minsDiv").hidden = true;
+        document.getElementById("resultDiv").hidden = true;
     }
     if(typeSelect.value === "game" || positionSelect.value === "goalie")
     {
@@ -548,6 +551,8 @@ function submitForm(reset = "false") {
                 
               }
             }
+            // the result (goalie decision) filter is only for goalies
+            document.getElementById("resultDiv").hidden = positionSelect.value !== "goalie";
             if(typeSelect.value === "streak")
             {
               document.getElementById("streakDiv").hidden = false;

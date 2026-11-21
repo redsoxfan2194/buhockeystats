@@ -296,6 +296,10 @@ def players():
                 dfStat = dfStat[dfStat['tourney'] == formData['tourney']]
             if formData['location'] != 'all':
                 dfStat = dfStat[dfStat['location'] == formData['location']]
+            # goalie decision: W, L, T, or ND (no decision, stored as '')
+            result = formData.get('result', 'all')
+            if formData['position'] == 'goalie' and result != 'all' and 'result' in dfStat.columns:
+                dfStat = dfStat[dfStat['result'] == ('' if result == 'ND' else result)]
         elif formData['type'] == 'streak':
             # streaks run over the filtered games, e.g. consecutive home games
             oppList = []

@@ -116,6 +116,16 @@
                     <option value="Neutral" {% if selected_loc == 'Neutral' %} selected {% endif %}>Neutral</option>
                 </select>
             </div>
+            <div id="resultDiv" class="filter game-stats">
+                <label for="result" class="recLabels game-stats">Result:</label>
+                <select class="btn dropdown-toggle custom-align game-stats" name="result" id="result" onchange="submitForm()">
+                    <option value="all">All</option>
+                    <option value="W">Win</option>
+                    <option value="L">Loss</option>
+                    <option value="T">Tie</option>
+                    <option value="ND">No Decision</option>
+                </select>
+            </div>
             <div id="groupDiv" class="filter">
                 <label for="group" class="recLabels">Stat Format:</label>
                 <select class="btn dropdown-toggle custom-align" name="group" id="group" onchange="submitForm()">
