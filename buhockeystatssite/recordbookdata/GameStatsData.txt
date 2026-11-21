@@ -32387,7 +32387,7 @@
 11/18/2026,Quinnipiac,Mikhail Yegorov,G,JR,0,0,0,2026-27
 11/20/2026,Merrimack,Jonathan Morello,F,SO,0,0,0,2026-27
 11/20/2026,Merrimack,Jack Harvey,F,SR,0,0,0,2026-27
-11/20/2026,Merrimack,Caleb Malhotra,F,FR,2,0,2,2026-27
+11/20/2026,Merrimack,Caleb Malhotra,F,FR,2,1,3,2026-27
 11/20/2026,Merrimack,Jack Murtagh,F,SO,0,0,0,2026-27
 11/20/2026,Merrimack,Kamil Bednarik,F,JR,0,0,0,2026-27
 11/20/2026,Merrimack,Ben Merrill,F,SO,1,0,1,2026-27
@@ -32401,6 +32401,6 @@
 11/20/2026,Merrimack,Mick Frechette,D,SR,0,0,0,2026-27
 11/20/2026,Merrimack,Nick Roukounakis,F,JR,0,0,0,2026-27
 11/20/2026,Merrimack,Niklas Aaram-Olsen,F,FR,0,0,0,2026-27
-11/20/2026,Merrimack,Ryder Ritchie,F,SO,0,2,2,2026-27
+11/20/2026,Merrimack,Ryder Ritchie,F,SO,0,1,1,2026-27
 11/20/2026,Merrimack,Xavier Villeneuve,D,FR,0,2,2,2026-27
 11/20/2026,Merrimack,Mikhail Yegorov,G,JR,0,0,0,2026-27
