@@ -2158,3 +2158,5 @@
 11/10/2026,Harvard,Mikhail Yegorov,JR,17,6,1,0,58.23,L,2026-27
 11/18/2026,Quinnipiac,Mikhail Yegorov,JR,36,2,1,0,64.58,T,2026-27
 11/20/2026,Merrimack,Mikhail Yegorov,JR,11,4,1,0,57.72,L,2026-27
+11/21/2026,Merrimack,Max Lacroix,SR,28,1,1,0,43.4,W,2026-27
+11/21/2026,Merrimack,Mikhail Yegorov,JR,10,0,1,0,16.57,,2026-27
