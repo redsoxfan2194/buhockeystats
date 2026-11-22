@@ -3749,7 +3749,7 @@ def updateGameStats(gender):
       dfCurrGoalStats['mins'] = round(parts[0] + parts[1] / 60,2)
       dfCurrGoalStats['so'] = (dfCurrGoalStats['result'].isin(['W', 'T']) & (dfCurrGoalStats['ga'] == 0)).astype(int)
       dfCurrGoalStats.loc[(dfCurrGoalStats['mins'] < 20) & (dfCurrGoalStats['result'] == 'W'), 'result'] = ''
-      
+      dfCurrGoalStats = dfCurrGoalStats.loc[dfCurrGoalStats['mins']>0]
       f = open(pFile, 'a', encoding="utf-8")
       for i in dfCurrPlayStats[['date',
                                 'opponent',
