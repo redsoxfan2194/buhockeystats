@@ -14693,7 +14693,7 @@
 11/20/2026,Providence,Bronwyn Langis,F,FR,0,0,0,2026-27
 11/20/2026,Providence,Peyton Blaney,D,SR,0,0,0,2026-27
 11/20/2026,Providence,Kylie Hollingsworth,F,FR,0,0,0,2026-27
-11/20/2026,Providence,Anežka Čabelová,D,SO,0,0,0,2026-27
+11/20/2026,Providence,Anežka Čabelová,F,SO,0,0,0,2026-27
 11/20/2026,Providence,Mylie Ellis,D,FR,0,0,0,2026-27
 11/20/2026,Providence,Ella Pukala,F,SO,0,0,0,2026-27
 11/20/2026,Providence,Greta Henderson,F,SR,0,0,0,2026-27
@@ -14719,5 +14719,5 @@
 11/21/2026,Providence,Quinn Taylor,F,FR,0,1,1,2026-27
 11/21/2026,Providence,Bronwyn Langis,F,FR,1,1,2,2026-27
 11/21/2026,Providence,Greta Henderson,F,SR,0,2,2,2026-27
-11/21/2026,Providence,Anežka Čabelová,D,SO,1,0,1,2026-27
+11/21/2026,Providence,Anežka Čabelová,F,SO,1,0,1,2026-27
 11/21/2026,Providence,Mari Pietersen,G,SR,0,0,0,2026-27
