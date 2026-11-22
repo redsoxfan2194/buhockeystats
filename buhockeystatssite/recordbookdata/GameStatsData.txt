@@ -32309,7 +32309,7 @@
 10/31/2026,Maine,Brandon Svoboda,F,JR,0,0,0,2026-27
 10/31/2026,Maine,Mikhail Yegorov,G,JR,0,0,0,2026-27
 11/06/2026,Michigan State,Nick Roukounakis,F,JR,0,1,1,2026-27
-11/06/2026,Michigan State,Ryder Ritchie,F,SO,0,1,1,2026-27
+11/06/2026,Michigan State,Ryder Ritchie,F,SO,0,2,2,2026-27
 11/06/2026,Michigan State,Caleb Malhotra,F,FR,1,1,2,2026-27
 11/06/2026,Michigan State,Jack Murtagh,F,SO,0,0,0,2026-27
 11/06/2026,Michigan State,Aiden Celebrini,D,SR,0,0,0,2026-27
@@ -32317,7 +32317,7 @@
 11/06/2026,Michigan State,Carter Amico,D,SO,2,0,2,2026-27
 11/06/2026,Michigan State,Tynan Lawrence,F,SO,1,1,2,2026-27
 11/06/2026,Michigan State,Jonathan Morello,F,SO,0,0,0,2026-27
-11/06/2026,Michigan State,Xavier Villeneuve,D,FR,0,2,2,2026-27
+11/06/2026,Michigan State,Xavier Villeneuve,D,FR,0,1,1,2026-27
 11/06/2026,Michigan State,Niklas Aaram-Olsen,F,FR,0,1,1,2026-27
 11/06/2026,Michigan State,Haoxi Wang,D,FR,0,1,1,2026-27
 11/06/2026,Michigan State,Ben Merrill,F,SO,0,1,1,2026-27
@@ -32377,11 +32377,14 @@
 11/18/2026,Quinnipiac,Carter Amico,D,SO,0,0,0,2026-27
 11/18/2026,Quinnipiac,Tynan Lawrence,F,SO,0,0,0,2026-27
 11/18/2026,Quinnipiac,Haoxi Wang,D,FR,0,0,0,2026-27
+11/18/2026,Quinnipiac,Adam Barone,D,JR,0,0,0,2026-27
 11/18/2026,Quinnipiac,Aiden Celebrini,D,SR,0,0,0,2026-27
 11/18/2026,Quinnipiac,Mick Frechette,D,SR,0,0,0,2026-27
 11/18/2026,Quinnipiac,Niklas Aaram-Olsen,F,FR,0,0,0,2026-27
 11/18/2026,Quinnipiac,Nick Roukounakis,F,JR,0,0,0,2026-27
 11/18/2026,Quinnipiac,Ryder Ritchie,F,SO,0,0,0,2026-27
+11/18/2026,Quinnipiac,Viktor Nörringer,F,FR,0,0,0,2026-27
+11/18/2026,Quinnipiac,Jay Feldberg,F,SO,0,0,0,2026-27
 11/18/2026,Quinnipiac,Xavier Villeneuve,D,FR,0,2,2,2026-27
 11/18/2026,Quinnipiac,Mikhail Yegorov,G,JR,0,0,0,2026-27
 11/20/2026,Merrimack,Jonathan Morello,F,SO,0,0,0,2026-27
@@ -32400,25 +32403,28 @@
 11/20/2026,Merrimack,Mick Frechette,D,SR,0,0,0,2026-27
 11/20/2026,Merrimack,Nick Roukounakis,F,JR,0,0,0,2026-27
 11/20/2026,Merrimack,Niklas Aaram-Olsen,F,FR,0,0,0,2026-27
+11/20/2026,Merrimack,Jay Feldberg,F,SO,0,0,0,2026-27
 11/20/2026,Merrimack,Ryder Ritchie,F,SO,0,1,1,2026-27
 11/20/2026,Merrimack,Xavier Villeneuve,D,FR,0,2,2,2026-27
 11/20/2026,Merrimack,Mikhail Yegorov,G,JR,0,0,0,2026-27
+11/21/2026,Merrimack,Aiden Celebrini,D,SR,0,0,0,2026-27
+11/21/2026,Merrimack,Ben Merrill,F,SO,0,0,0,2026-27
 11/21/2026,Merrimack,Caleb Malhotra,F,FR,1,0,1,2026-27
-11/21/2026,Merrimack,Jax Wismer,D,JR,0,1,1,2026-27
-11/21/2026,Merrimack,Haoxi Wang,D,FR,1,0,1,2026-27
-11/21/2026,Merrimack,Viktor Nörringer,F,FR,1,1,2,2026-27
-11/21/2026,Merrimack,Kamil Bednarik,F,JR,0,1,1,2026-27
-11/21/2026,Merrimack,Ryder Ritchie,F,SO,0,0,0,2026-27
+11/21/2026,Merrimack,Carter Amico,D,SO,1,0,1,2026-27
+11/21/2026,Merrimack,Charlie Trethewey,D,SO,0,1,1,2026-27
+11/21/2026,Merrimack,Haoxi Wang,D,FR,0,0,0,2026-27
 11/21/2026,Merrimack,Jack Harvey,F,SR,1,2,3,2026-27
 11/21/2026,Merrimack,Jack Murtagh,F,SO,1,0,1,2026-27
-11/21/2026,Merrimack,Mick Frechette,D,SR,0,0,0,2026-27
-11/21/2026,Merrimack,Carter Amico,D,SO,0,0,0,2026-27
-11/21/2026,Merrimack,Tynan Lawrence,F,SO,0,0,0,2026-27
-11/21/2026,Merrimack,Xavier Villeneuve,D,FR,0,0,0,2026-27
-11/21/2026,Merrimack,Aiden Celebrini,D,SR,0,0,0,2026-27
-11/21/2026,Merrimack,Niklas Aaram-Olsen,F,FR,0,0,0,2026-27
-11/21/2026,Merrimack,Ben Merrill,F,SO,0,0,0,2026-27
-11/21/2026,Merrimack,Charlie Trethewey,D,SO,0,1,1,2026-27
-11/21/2026,Merrimack,Nick Roukounakis,F,JR,0,0,0,2026-27
+11/21/2026,Merrimack,Jax Wismer,D,JR,0,1,1,2026-27
+11/21/2026,Merrimack,Jay Feldberg,F,SO,0,0,0,2026-27
+11/21/2026,Merrimack,Kamil Bednarik,F,JR,0,1,1,2026-27
 11/21/2026,Merrimack,Max Lacroix,G,SR,0,0,0,2026-27
+11/21/2026,Merrimack,Mick Frechette,D,SR,0,0,0,2026-27
+11/21/2026,Merrimack,Adam Barone,D,JR,0,0,0,2026-27
 11/21/2026,Merrimack,Mikhail Yegorov,G,JR,0,0,0,2026-27
+11/21/2026,Merrimack,Nick Roukounakis,F,JR,0,0,0,2026-27
+11/21/2026,Merrimack,Niklas Aaram-Olsen,F,FR,0,0,0,2026-27
+11/21/2026,Merrimack,Ryder Ritchie,F,SO,0,0,0,2026-27
+11/21/2026,Merrimack,Tynan Lawrence,F,SO,0,0,0,2026-27
+11/21/2026,Merrimack,Viktor Nörringer,F,FR,1,1,2,2026-27
+11/21/2026,Merrimack,Xavier Villeneuve,D,FR,0,0,0,2026-27
