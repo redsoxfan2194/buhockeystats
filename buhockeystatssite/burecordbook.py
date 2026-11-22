@@ -3695,6 +3695,12 @@ def updateGameStats(gender):
     dfGameSkate=pd.DataFrame()
     dfGameGoalie=pd.DataFrame()
     
+    games = dfGames if gender == 'Mens' else dfGamesWomens
+    if games.empty:
+        initializeRecordBook()
+        games = dfGames if gender == 'Mens' else dfGamesWomens
+    opponents = games.drop_duplicates('date').set_index('date')['opponent']
+    
     for player in playerList:
         url=f"https://goterriers.com/api/v2/stats/bio?rosterPlayerId={player['pId']}&sport={gender[0].lower()}hockey&year={currSeason[:4]}"
         f = urllib.request.urlopen(url)
@@ -3706,12 +3712,14 @@ def updateGameStats(gender):
         dfGame=pd.DataFrame(data['currentStats']['gameByGameStats'])[['date','goals','assists','points']]
         dfGame['name']=player['name']
         dfGame['season']=currSeason
+        dfGame['opponent']=pd.to_datetime(dfGame['date']).dt.normalize().map(opponents)
         dfGameSkate=pd.concat([dfGameSkate,dfGame])
 
         if(data['currentStats']['goalkeepingStats'] != []):
             dfG=pd.DataFrame(data['currentStats']['goalkeepingStats'])[['date','result','minutes','allGoalsAllowed','goalsAgainstAverage','saves','savePercentage']]
             dfG['name']=player['name']
             dfG['season']=currSeason
+            dfG['opponent']=pd.to_datetime(dfG['date']).dt.normalize().map(opponents)
             dfGameGoalie=pd.concat([dfGameGoalie,dfG])
     
     f = urllib.request.urlopen(url)
@@ -3726,15 +3734,14 @@ def updateGameStats(gender):
         continue
       
       dfCurrPlayStats=dfGameSkate.loc[dfGameSkate['date']==date]
-      # TODO get opponent from record book for date
-      dfCurrPlayStats['opponent']="Merrimack" #TODO get actual opponent for date
+      if dfCurrPlayStats['opponent'].isna().any():  # game not in the record book yet
+        continue
       dfCurrPlayStats=dfCurrPlayStats.rename(columns={"points":"pts"})
       dfCurrPlayStats=pd.merge(dfCurrPlayStats,dfSeasSkate[['name','season','pos','yr']])
       dfGameStats=pd.concat([dfGameStats,dfCurrPlayStats])
       
       dfCurrGoalStats=dfGameGoalie.loc[dfGameGoalie['date']==date]
       dfCurrGoalStats=dfCurrGoalStats.rename(columns={"allGoalsAllowed":"ga",'saves':'sv','savePercentage':'sv%',"goalsAgainstAverage":'gaa',"minutes":"mins"})
-      dfCurrGoalStats['opponent']="Merrimack" #TODO get actual opponent for date
       dfCurrGoalStats['gp']=1
       dfCurrGoalStats=pd.merge(dfCurrGoalStats,dfSeasSkate[['name','season','yr']])
 
