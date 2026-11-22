@@ -3712,14 +3712,14 @@ def updateGameStats(gender):
         dfGame=pd.DataFrame(data['currentStats']['gameByGameStats'])[['date','goals','assists','points']]
         dfGame['name']=player['name']
         dfGame['season']=currSeason
-        dfGame['opponent']=pd.to_datetime(dfGame['date']).dt.normalize().map(opponents)
+        dfGame['opponent']=pd.to_datetime(dfGame['date']).map(opponents)
         dfGameSkate=pd.concat([dfGameSkate,dfGame])
 
         if(data['currentStats']['goalkeepingStats'] != []):
             dfG=pd.DataFrame(data['currentStats']['goalkeepingStats'])[['date','result','minutes','allGoalsAllowed','goalsAgainstAverage','saves','savePercentage']]
             dfG['name']=player['name']
             dfG['season']=currSeason
-            dfG['opponent']=pd.to_datetime(dfG['date']).dt.normalize().map(opponents)
+            dfG['opponent']=pd.to_datetime(dfG['date']).map(opponents)
             dfGameGoalie=pd.concat([dfGameGoalie,dfG])
     
     f = urllib.request.urlopen(url)
