@@ -3690,7 +3690,7 @@ def updateGameStats(gender):
     dfGameStats = pd.DataFrame(gameStatsList)
     dfSeasSkate, dfSeasSkateMens, dfSeasSkateWomens = generateSeasonSkaters()
     
-    playerList = pd.read_csv(RECBOOK_DATA_PATH+f'{gender}pIds_{currSeason.replace("-","_")}.csv').to_dict('records')
+    playerList = pd.read_csv(RECBOOK_DATA_PATH+f'{gender.lower()}pIds_{currSeason.replace("-","_")}.csv').to_dict('records')
     
     dfGameSkate=pd.DataFrame()
     dfGameGoalie=pd.DataFrame()
