@@ -1,0 +1,9 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+75,"['John MacLeod (2014-18)', 'Alex Chiasson (2009-12)', 'Brandon Hickey (2014-18)', 'Tony Amonte (1989-91)', 'Matt Marden (1975-78)', 'Chris Higgins (2005-09)', 'Charlie McAvoy (2015-17)', 'Marie-Philip Poulin (2010-15)', 'Chris Connolly (2008-12)']",9,False,0,2026-11-19T12:59:14.882Z
+75,"[None, 'Marie-Philip Poulin (2010-15)', 'Jake Oettinger (2016-19)', None, None, None, None, None, 'Lane Hutson (2022-24)']",3,False,0,2026-11-19T13:32:34.990Z
+75,"['Alex Chiasson (2009-12)', 'Matt Nieto (2010-13)', 'Jake Oettinger (2016-19)', None, None, None, 'Freddy Meyer (1999-03)', None, 'Jack Eichel (2014-15)']",5,False,0,2026-11-19T14:16:58.345Z
+75,"['Jordan Greenway (2015-18)', 'Victoria Bach (2014-18)', 'Jack Eichel (2014-15)', None, None, None, 'Brandon Yip (2005-09)', 'Marie-Philip Poulin (2010-15)', 'Lane Hutson (2022-24)']",6,False,0,2026-11-19T14:25:20.483Z
+75,"[None, 'Trevor Zegras (2019-20)', None, None, 'Dave Silk (1976-79)', None, None, None, None]",2,False,0,2026-11-19T15:20:44.757Z
+75,"['Kaleigh Fratkin (2010-14)', 'Jesse Compher (2017-21)', 'Marie-Philip Poulin (2010-15)', None, None, None, 'Tara Watchorn (2008-12)', 'Mackenna Parker (2018-22)', 'Kerrin Sperry (2010-14)']",6,False,0,2026-11-19T15:42:41.466Z
+75,"['Maddie Elia (2013-17)', 'Victoria Bach (2014-18)', 'Marie-Philip Poulin (2010-15)', None, None, None, 'Tara Watchorn (2008-12)', 'Rebecca Leslie (2014-18)', 'Sarah Lefort (2012-16)']",6,False,0,2026-11-19T18:48:29.809Z
+75,"['Eric Gryba (2006-10)', 'Alex Vlasic (2019-22)', ""Danny O'Regan (2012-16)"", None, None, 'Kevin Shattenkirk (2007-10)', 'Cole Hutson (2024-26)', 'Trevor Zegras (2019-20)', 'Lane Hutson (2022-24)']",7,False,0,2026-11-20T03:49:27.368Z
