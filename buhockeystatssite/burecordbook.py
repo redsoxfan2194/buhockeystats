@@ -3918,7 +3918,7 @@ def updateResults(gender):
             sources.write(line)
             
 def updatePolls(gender):
-    season=2027
+    season=(currSeason[:4])+1
     if(gender=="Mens"):
         url = "https://www.uscho.com/rankings/d-i-mens-poll"
         pollFile = RECBOOK_DATA_PATH + 'mpolls.csv'
@@ -3949,6 +3949,113 @@ def updatePolls(gender):
         dfPoll['SEASON']=dfPoll['SEASON'].astype(int)
         dfPoll.to_csv(pollFile,index=False)
 
+def updateGoalTimes():
+  url = "https://www.collegehockeynews.com/schedules/?search=1&year_min=20252026&year_max=20262027&teamID=10"
+  f=urllib.request.urlopen(url)
+  html = f.read()
+  f.close()
+  soup = BeautifulSoup(html, 'html.parser')
+  table=soup.find('tbody')
+  isEx=False
+  date=''
+  gameDict={}
+  gameList=[]
+  goalList=[]
+  counter=0
+  for i in table.find_all('tr'):
+      x=i.find_all('td')
+      if(len(x)==1):
+          if(x[0].get_text()=='Exhibition'):
+              isEx=True
+              continue
+          elif(x[0].get_text().strip()==''):
+               continue
+          
+          elif('20' in x[0].get_text()):
+              date=x[0].get_text()
+              gameDict[date]=[]
+          else:
+              isEx=False
+      else:
+          aTeam=x[0].get_text().strip()
+          hTeam=x[3].get_text().strip()
+          box=x[8]
+          if(box.find('a') is None):
+              continue
+          gameDict[date].append("https://www.collegehockeynews.com"+box.find('a')['href'])
+          url="https://www.collegehockeynews.com"+box.find('a')['href']
+          if counter > 0:
+              break
+          f=urllib.request.urlopen(url)
+          html = f.read()
+          f.close()
+          soupGame = BeautifulSoup(html, 'html.parser')
+          table=soupGame.find('div',{'id':'scoring'})
+          st=''
+          period=''
+          if(table is None):
+              continue
+          scoreDict={}
+          team1=soupGame.find('div',{'id':'goals'}).find_all('tr')[1].find('td').get_text()
+          team2=soupGame.find('div',{'id':'goals'}).find_all('tr')[2].find('td').get_text()
+          scoreDict[team1]=0
+          scoreDict[team2]=0
+          for row in table.find_all('tr'):
+              col = row.find_all('td')
+              a1='Unassisted'
+              a2='Unassisted'
+              if("Per" in col[0].get_text() or 'Overtime' in col[0].get_text()):
+                  period=col[0].get_text()
+              elif(len(col)>2):
+                  team=col[0].get_text()
+                  if(team!=team1 and team!=team2):
+                      continue
+                  goal=col[3].get_text().split('(')[0].strip()
+                  assists=col[4].get_text().split(',')
+                  time=col[5].get_text()
+                  if(assists[0]!=''):
+                      a1=assists[0].strip()
+                      if(len(assists)==2):
+                          a2=assists[1].strip()
+                  type=col[1].get_text()
+                  if(team==team1):
+                      opp=team2
+                  else:
+                      opp=team1
+                  prevGD=scoreDict[team]-scoreDict[opp]
+                  scoreDict[team]+=1
+                  goalDict={'date':url,'team':team,'opp':opp,'type':type,'goalscorer':goal,'primary':a1,'secondary':a2,'time':time,'period':period,'tScore':scoreDict[team],'oScore':scoreDict[opp],'prevGD':prevGD}
+                  goalList.append(goalDict)
+          counter+=1
+  dfBU=pd.DataFrame(goalList)
+  # Function to extract date (YYYYMMDD format)
+  def extract_date(url):
+      match = re.search(r'/(\d{8})/', url)
+      return match.group(1) if match else None
+
+  # Apply function to extract the date
+  dfBU['date'] = dfBU['date'].apply(extract_date)
+
+  # Convert to a proper date format
+  dfBU['date'] = pd.to_datetime(dfBU['date'], format='%Y%m%d')
+  
+  dfBU[['mins','sec']]=dfBU['time'].str.split(':',expand=True)
+  dfBU['mins']=dfBU['mins'].astype(int)
+  dfBU['sec']=dfBU['sec'].astype(int)
+  dfBU['GD']=dfBU['tScore']-dfBU['oScore']
+  dfBU['season']=currSeason
+  # skip games whose date is already in the file
+  existingDates = set(pd.read_csv(RECBOOK_DATA_PATH+"/bu_goals_times.csv", usecols=['date'])['date'])
+  dfNew = dfBU.loc[~dfBU['date'].dt.strftime('%Y-%m-%d').isin(existingDates)].query('team=="BU"')
+  if dfNew.empty:
+      return
+  # start the new rows on their own line (the file may not end with a newline)
+  with open(RECBOOK_DATA_PATH+"/bu_goals_times.csv", 'rb+') as f:
+      f.seek(-1, 2)
+      if f.read(1) != b'\n':
+          f.write(b'\n')
+  dfNew.to_csv(RECBOOK_DATA_PATH+"/bu_goals_times.csv",mode="a", header=False, index=False)
+    
 def validateRequest(url):
     response = requests.get(url)
     if response.status_code == 200:
@@ -4196,6 +4303,7 @@ def refreshStats():
   updateCurrentSeasonStats('Womens')
   updateGameStats('Mens')
   updateGameStats('Womens')
+  updateGoalTimes()
   updatePolls('Mens')
   updatePolls('Womens')
   updateNHLStats()
