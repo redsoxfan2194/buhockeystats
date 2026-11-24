@@ -77,6 +77,13 @@ function clearFilters(event) {
     document.getElementById("date").value = "";
     document.getElementById("group").value = "";
     document.getElementById("streak").value = "pts";
+    // Goal Times
+    document.getElementById("period").value = "all";
+    document.getElementById("goaltype").value = "all";
+    document.getElementById("timeop").value = "==";
+    document.getElementById("goaltime").value = "";
+    document.getElementById("scorer").value = "";
+    document.getElementById("assister").value = "";
     // Reset Min Filters
     document.getElementById("gpmin").value = "";
     document.getElementById("goalmin").value = "";
@@ -133,6 +140,9 @@ function initializeFilters() {
     document.getElementById("rdmin").addEventListener("keydown", onKeydown);
     document.getElementById("pirmin").addEventListener("keydown", onKeydown);
     document.getElementById("pickmin").addEventListener("keydown", onKeydown);
+    document.getElementById("goaltime").addEventListener("keydown", onKeydown);
+    document.getElementById("scorer").addEventListener("keydown", onKeydown);
+    document.getElementById("assister").addEventListener("keydown", onKeydown);
 
     document
         .getElementById("resetButton")
@@ -610,6 +620,7 @@ function submitForm(reset = "false") {
             if (selectedOption && selectedOption.style.display === "none") {
                 group.value = "";
             }
+            showGoalTimesFilters();
                 
         },
         error: function (xhr, status, error) {
@@ -617,6 +628,34 @@ function submitForm(reset = "false") {
         },
     });
 }
+// Goal Times: the game filters plus period, goal type and time; no player stat filters or switches
+const GOAL_TIMES_HIDDEN = ["positionDiv", "posDiv", "yrDiv", "numberDiv", "resultDiv", "gpDiv", "goalDiv", "assistsDiv",
+                           "ptsDiv", "pensDiv", "pimDiv", "minsDiv", "gaDiv", "savesDiv", "streakDiv", "streakMinDiv"];
+function showGoalTimesFilters() {
+    const isGoalTimes = document.getElementById("type").value === "goaltimes";
+    document.querySelectorAll(".goaltimes-stats").forEach(function (el) { el.hidden = !isGoalTimes; });
+    // Stat Format: Individual (the goal list) plus the goal-time summaries
+    document.querySelectorAll("#group option").forEach(function (option) {
+        if (option.classList.contains("goaltimes-group")) {
+            option.hidden = !isGoalTimes;
+        } else if (option.value !== "") {
+            option.hidden = isGoalTimes;
+        }
+    });
+    document.querySelectorAll("#offcanvasPlayersFilters .form-switch").forEach(function (el) { el.hidden = isGoalTimes; });
+    document.getElementById("numberDiv").hidden = isGoalTimes;
+    document.getElementById("yrDiv").hidden = isGoalTimes;
+    if (!isGoalTimes) {
+        return;
+    }
+    ["opponentDiv", "arenaDiv", "tourneyDiv", "locDiv", "dateDiv"].forEach(function (id) {
+        const div = document.getElementById(id);
+        div.classList.remove("hidden");
+        div.querySelectorAll(".game-stats").forEach(function (el) { el.classList.remove("hidden"); });
+    });
+    GOAL_TIMES_HIDDEN.forEach(function (id) { document.getElementById(id).hidden = true; });
+}
+
  function setSort(header) {
             var columnName = header.innerHTML;
             if(!columnName)

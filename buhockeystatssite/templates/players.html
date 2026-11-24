@@ -20,6 +20,7 @@
                     <option value="career" {% if selected_type == 'career' %} selected {% endif %}>Career</option>
                     <option value="season" {% if selected_type == 'season' %} selected {% endif %}>Season</option>
                     <option value="game" {% if selected_type == 'game' %} selected {% endif %}>Game</option>
+                    <option value="goaltimes" {% if selected_type == 'goaltimes' %} selected {% endif %}>Goal Times</option>
                     <option value="streak" {% if selected_type == 'streak' %} selected {% endif %}>Streaks</option>
                 </select>
             </div>
@@ -140,6 +141,11 @@
                     <option value="team" class="draft-data" {% if selected_group == "team" %} selected {% endif %}>Group by: Drafted Team </option>
                     <option value="splits" class='game-stats' {% if selected_group == "splits" %} selected {% endif %}>Splits</option>
                     <option value="records" class='game-stats' {% if selected_group == "records" %} selected {% endif %}>Situational Records</option>
+                    <option value="gtplayer" class="goaltimes-group" hidden>Group by: Player</option>
+                    <option value="gtperiod" class="goaltimes-group" hidden>Group by: Period</option>
+                    <option value="gttype" class="goaltimes-group" hidden>Group by: Goal Type</option>
+                    <option value="gtopponent" class="goaltimes-group" hidden>Group by: Opponent</option>
+                    <option value="gtseason" class="goaltimes-group" hidden>Group by: Season</option>
                 </select>
             </div>
             <div id="seasonDiv" class="filter">
@@ -154,6 +160,51 @@
                 </select>
             </div>
             
+            <!-- Goal Times only -->
+            <div id="scorerDiv" class="filter goaltimes-stats" hidden>
+                <label for="scorer" class="recLabels">Scorer:</label>
+                <input type="text" name="scorer" id="scorer" onchange="submitForm()">
+            </div>
+            <div id="assisterDiv" class="filter goaltimes-stats" hidden>
+                <label for="assister" class="recLabels">Assister:</label>
+                <input type="text" name="assister" id="assister" onchange="submitForm()">
+            </div>
+            <div id="periodDiv" class="filter goaltimes-stats" hidden>
+                <label for="period" class="recLabels">Period:</label>
+                <select class="btn dropdown-toggle custom-align" name="period" id="period" onchange="submitForm()">
+                    <option value="all">All</option>
+                    <option value="1st Period">1st Period</option>
+                    <option value="2nd Period">2nd Period</option>
+                    <option value="3rd Period">3rd Period</option>
+                    <option value="Overtime">Overtime</option>
+                </select>
+            </div>
+            <div id="goalTypeDiv" class="filter goaltimes-stats" hidden>
+                <label for="goaltype" class="recLabels">Goal Type:</label>
+                <select class="btn dropdown-toggle custom-align" name="goaltype" id="goaltype" onchange="submitForm()">
+                    <option value="all">All</option>
+                    <option value="EV">Even Strength</option>
+                    <option value="PP">Power Play</option>
+                    <option value="SH">Shorthanded</option>
+                    <option value="EN">Empty Net</option>
+                    <option value="EA">Extra Attacker</option>
+                    <option value="4x4">4 on 4</option>
+                    <option value="3x3">3 on 3</option>
+                    <option value="5x3">5 on 3</option>
+                    <option value="PS">Penalty Shot</option>
+                </select>
+            </div>
+            <div id="goalTimeDiv" class="filter goaltimes-stats" hidden>
+                <label for="timeop" class="recLabels">Time:</label>
+                <select class="btn dropdown-toggle op-drop" name="timeop" id="timeop" onchange="submitForm()">
+                    <option value="=="> = </option>
+                    <option value=">="> >= </option>
+                    <option value=">"> > </option>
+                    <option value="<"> < </option>
+                    <option value="<="> <= </option>
+                </select>
+                <input type="text" name="goaltime" id="goaltime" placeholder="mm:ss" onchange="submitForm()">
+            </div>
             <div id="dateDiv" class="filter game-stats">
                 <label for="date" class="recLabels game-stats">Date:</label>
                 <input class="game-stats" type="text" name="date" id="date" onchange="submitForm()">

@@ -4149,6 +4149,12 @@ def getFamily():
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"family.csv")
   return dfRes
 
+def getGoalTimes():
+  ''' returns every BU (men's) goal with its period, time, type and assists'''
+  dfRes = pd.read_csv(RECBOOK_DATA_PATH + "bu_goals_times.csv", keep_default_na=False)
+  dfRes['date'] = pd.to_datetime(dfRes['date'])
+  return dfRes
+
 def getCaptains(gender):
   ''' returns Captains'''
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"{gender[0].lower()}captains.csv")

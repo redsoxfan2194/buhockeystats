@@ -277,8 +277,14 @@ img {
 
 #name,
 #number,
-#date {
+#date,
+#scorer,
+#assister {
   width: 130px;
+}
+
+#goaltime {
+  width: 75px;
 }
 
 input[type=number] {
