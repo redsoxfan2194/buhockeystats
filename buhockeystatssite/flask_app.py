@@ -151,127 +151,124 @@ def goalTimesTable(formData):
     Returns:
       json : same structure as the other Players page tables
     '''
-    seasVals, oppList, arenaList, tourneyList = [], [], [], ['All']
     groupVal = formData['group'] if formData['group'] in GOAL_TIME_GROUPS else ''
     sortVal = ''
-    if formData['gender'] != 'Mens':
-        dfStat = pd.DataFrame([{"": "Goal times are only available for the men's team"}])
+    dfStat = burb.getGoalTimes(formData['gender'])
+    # opponent, location, arena and tournament come from the record book
+    games = burb.dfGames if formData['gender'] == 'Mens' else burb.dfGamesWomens
+    games = games.drop_duplicates('date')[['date', 'opponent', 'location', 'arena', 'tourney']]
+    dfStat = dfStat.merge(games, on='date', how='left')
+    dfStat['opponent'] = dfStat['opponent'].fillna(dfStat['opp'])
+    dfStat[['location', 'arena', 'tourney']] = dfStat[['location', 'arena', 'tourney']].fillna('')
+    dfStat['seconds'] = dfStat['mins'] * 60 + dfStat['sec']
+    dfStat['periodOrder'] = dfStat['period'].map(PERIOD_ORDER).fillna(9)
+
+    # season range, then one season
+    seasVals = sorted(dfStat['season'].unique())
+    sSeas = formData['seasonStart'] if formData['seasonStart'] in seasVals else seasVals[0]
+    eSeas = formData.get('seasonEnd', burb.currSeason)
+    eSeas = eSeas if eSeas in seasVals else seasVals[-1]
+    if sSeas > eSeas:
+        sSeas, eSeas = eSeas, sSeas
+    dfStat = dfStat[(dfStat['season'] >= sSeas) & (dfStat['season'] <= eSeas)]
+    if formData['season'] != 'all':
+        dfStat = dfStat[dfStat['season'] == formData['season']]
+
+    # the same game filters as the Game stats
+    oppList = sorted(dfStat['opponent'].unique())
+    arenaList = sorted(a for a in dfStat['arena'].unique() if a != '')
+    tourneyList = getTourneyList(dfStat)
+    if formData['opponent'] != 'all':
+        dfStat = dfStat[dfStat['opponent'] == formData['opponent']]
+    if formData['date'] != '':
+        dfStat = dfStat[dfStat['date'] == formData['date']]
+    if formData['arena'] != 'all':
+        dfStat = dfStat[dfStat['arena'] == formData['arena']]
+    if formData['tourney'] != 'all':
+        dfStat = dfStat[dfStat['tourney'] == formData['tourney']]
+    if formData['location'] != 'all':
+        dfStat = dfStat[dfStat['location'] == formData['location']]
+
+    # period, goal type and time of the goal
+    period = formData.get('period', 'all')
+    if period != 'all':
+        dfStat = dfStat[dfStat['period'] == period]
+    goalType = formData.get('goaltype', 'all')
+    if goalType == 'EV':
+        dfStat = dfStat[dfStat['type'] == '']
+    elif goalType != 'all':
+        # a goal can carry more than one tag, e.g. "SH, EN"
+        dfStat = dfStat[dfStat['type'].str.split(', ').apply(lambda tags: goalType in tags)]
+    seconds = goalTimeSeconds(formData.get('goaltime', ''))
+    if seconds is not None:
+        dfStat = compareFilter(dfStat, 'seconds', formData.get('timeop', '=='), seconds)
+
+    # a player's goals and assists
+    name = formData['name'].strip()
+    if name != '':
+        involved = (dfStat['goalscorer'].str.contains(name, case=False, regex=False)
+                    | dfStat['primary'].str.contains(name, case=False, regex=False)
+                    | dfStat['secondary'].str.contains(name, case=False, regex=False))
+        dfStat = dfStat[involved]
+    scorer = formData.get('scorer', '').strip()
+    if scorer != '':
+        dfStat = dfStat[dfStat['goalscorer'].str.contains(scorer, case=False, regex=False)]
+    assister = formData.get('assister', '').strip()
+    if assister != '':
+        dfStat = dfStat[dfStat['primary'].str.contains(assister, case=False, regex=False)
+                        | dfStat['secondary'].str.contains(assister, case=False, regex=False)]
+
+    if groupVal == '':
+        dfStat = dfStat.sort_values(['date', 'periodOrder', 'seconds'])  # earliest goal first
+        dfStat = dfStat.assign(
+            type=dfStat['type'].replace('', 'EV'),
+            score=dfStat['tScore'].astype(str) + '-' + dfStat['oScore'].astype(str),
+            **{'assist 1': dfStat['primary'].replace('Unassisted', ''),
+               'assist 2': dfStat['secondary'].replace('Unassisted', '')})
+        dfStat = dfStat.rename(columns={'goalscorer': 'scorer'})
+        dfStat = dfStat[['date', 'opponent', 'period', 'time', 'type', 'scorer', 'assist 1', 'assist 2',
+                         'score', 'season', 'location', 'arena', 'tourney', 'seconds', 'periodOrder']]
     else:
-        dfStat = burb.getGoalTimes()
-        # opponent, location, arena and tournament come from the record book
-        games = burb.dfGames.drop_duplicates('date')[['date', 'opponent', 'location', 'arena', 'tourney']]
-        dfStat = dfStat.merge(games, on='date', how='left')
-        dfStat['opponent'] = dfStat['opponent'].fillna(dfStat['opp'])
-        dfStat[['location', 'arena', 'tourney']] = dfStat[['location', 'arena', 'tourney']].fillna('')
-        dfStat['seconds'] = dfStat['mins'] * 60 + dfStat['sec']
-        dfStat['periodOrder'] = dfStat['period'].map(PERIOD_ORDER).fillna(9)
-
-        # season range, then one season
-        seasVals = sorted(dfStat['season'].unique())
-        sSeas = formData['seasonStart'] if formData['seasonStart'] in seasVals else seasVals[0]
-        eSeas = formData.get('seasonEnd', burb.currSeason)
-        eSeas = eSeas if eSeas in seasVals else seasVals[-1]
-        if sSeas > eSeas:
-            sSeas, eSeas = eSeas, sSeas
-        dfStat = dfStat[(dfStat['season'] >= sSeas) & (dfStat['season'] <= eSeas)]
-        if formData['season'] != 'all':
-            dfStat = dfStat[dfStat['season'] == formData['season']]
-
-        # the same game filters as the Game stats
-        oppList = sorted(dfStat['opponent'].unique())
-        arenaList = sorted(a for a in dfStat['arena'].unique() if a != '')
-        tourneyList = getTourneyList(dfStat)
-        if formData['opponent'] != 'all':
-            dfStat = dfStat[dfStat['opponent'] == formData['opponent']]
-        if formData['date'] != '':
-            dfStat = dfStat[dfStat['date'] == formData['date']]
-        if formData['arena'] != 'all':
-            dfStat = dfStat[dfStat['arena'] == formData['arena']]
-        if formData['tourney'] != 'all':
-            dfStat = dfStat[dfStat['tourney'] == formData['tourney']]
-        if formData['location'] != 'all':
-            dfStat = dfStat[dfStat['location'] == formData['location']]
-
-        # period, goal type and time of the goal
-        period = formData.get('period', 'all')
-        if period != 'all':
-            dfStat = dfStat[dfStat['period'] == period]
-        goalType = formData.get('goaltype', 'all')
-        if goalType == 'EV':
-            dfStat = dfStat[dfStat['type'] == '']
-        elif goalType != 'all':
-            # a goal can carry more than one tag, e.g. "SH, EN"
-            dfStat = dfStat[dfStat['type'].str.split(', ').apply(lambda tags: goalType in tags)]
-        seconds = goalTimeSeconds(formData.get('goaltime', ''))
-        if seconds is not None:
-            dfStat = compareFilter(dfStat, 'seconds', formData.get('timeop', '=='), seconds)
-
-        # a player's goals and assists
-        name = formData['name'].strip()
+        # one row per player per goal: the scorer gets a goal, each assister an assist
+        dfStat = dfStat.assign(type=dfStat['type'].replace('', 'EV'))
+        keep = ['period', 'periodOrder', 'type', 'opponent', 'season']
+        scorers = dfStat[keep].assign(name=dfStat['goalscorer'], goals=1, assists=0)
+        primary = dfStat[keep].assign(name=dfStat['primary'], goals=0, assists=1)
+        secondary = dfStat[keep].assign(name=dfStat['secondary'], goals=0, assists=1)
+        points = pd.concat([scorers, primary, secondary])
+        points = points[points['name'] != 'Unassisted']
         if name != '':
-            involved = (dfStat['goalscorer'].str.contains(name, case=False, regex=False)
-                        | dfStat['primary'].str.contains(name, case=False, regex=False)
-                        | dfStat['secondary'].str.contains(name, case=False, regex=False))
-            dfStat = dfStat[involved]
-        scorer = formData.get('scorer', '').strip()
-        if scorer != '':
-            dfStat = dfStat[dfStat['goalscorer'].str.contains(scorer, case=False, regex=False)]
-        assister = formData.get('assister', '').strip()
-        if assister != '':
-            dfStat = dfStat[dfStat['primary'].str.contains(assister, case=False, regex=False)
-                            | dfStat['secondary'].str.contains(assister, case=False, regex=False)]
-
-        if groupVal == '':
-            dfStat = dfStat.sort_values(['date', 'periodOrder', 'seconds'])  # earliest goal first
-            dfStat = dfStat.assign(
-                type=dfStat['type'].replace('', 'EV'),
-                score=dfStat['tScore'].astype(str) + '-' + dfStat['oScore'].astype(str),
-                **{'assist 1': dfStat['primary'].replace('Unassisted', ''),
-                   'assist 2': dfStat['secondary'].replace('Unassisted', '')})
-            dfStat = dfStat.rename(columns={'goalscorer': 'scorer'})
-            dfStat = dfStat[['date', 'opponent', 'period', 'time', 'type', 'scorer', 'assist 1', 'assist 2',
-                             'score', 'season', 'location', 'arena', 'tourney', 'seconds', 'periodOrder']]
+            points = points[points['name'].str.contains(name, case=False, regex=False)]
+        groupCol = GOAL_TIME_GROUPS[groupVal]
+        keys = ['name'] if groupCol is None else ['name', groupCol]
+        if groupCol == 'period':
+            keys.append('periodOrder')
+        dfStat = points.groupby(keys).sum(numeric_only=True).reset_index()
+        dfStat['pts'] = dfStat['goals'] + dfStat['assists']
+        if groupCol is None:
+            dfStat = dfStat.sort_values(['pts', 'goals'], ascending=False)
         else:
-            # one row per player per goal: the scorer gets a goal, each assister an assist
-            dfStat = dfStat.assign(type=dfStat['type'].replace('', 'EV'))
-            keep = ['period', 'periodOrder', 'type', 'opponent', 'season']
-            scorers = dfStat[keep].assign(name=dfStat['goalscorer'], goals=1, assists=0)
-            primary = dfStat[keep].assign(name=dfStat['primary'], goals=0, assists=1)
-            secondary = dfStat[keep].assign(name=dfStat['secondary'], goals=0, assists=1)
-            points = pd.concat([scorers, primary, secondary])
-            points = points[points['name'] != 'Unassisted']
-            if name != '':
-                points = points[points['name'].str.contains(name, case=False, regex=False)]
-            groupCol = GOAL_TIME_GROUPS[groupVal]
-            keys = ['name'] if groupCol is None else ['name', groupCol]
-            if groupCol == 'period':
-                keys.append('periodOrder')
-            dfStat = points.groupby(keys).sum(numeric_only=True).reset_index()
-            dfStat['pts'] = dfStat['goals'] + dfStat['assists']
-            if groupCol is None:
-                dfStat = dfStat.sort_values(['pts', 'goals'], ascending=False)
-            else:
-                dfStat = dfStat.sort_values(['name', 'periodOrder' if groupCol == 'period' else groupCol])
-            dfStat = dfStat[keys + ['goals', 'assists', 'pts']]
+            dfStat = dfStat.sort_values(['name', 'periodOrder' if groupCol == 'period' else groupCol])
+        dfStat = dfStat[keys + ['goals', 'assists', 'pts']]
 
-        # header sort (same directions as the other tables: dates/seasons ascending first)
-        sortCol = formData['sortval'].lower()
-        if formData['isAscending'] != '' and sortCol in dfStat.columns:
-            ascending = (formData['isAscending'].lower() == 'true')
-            if sortCol not in ['date', 'season']:
-                ascending = not ascending
-            sortBy = {'time': 'seconds', 'period': 'periodOrder'}.get(sortCol, sortCol)
-            if sortBy not in dfStat.columns:
-                sortBy = sortCol
-            dfStat = dfStat.sort_values(sortBy, ascending=ascending, kind='stable')
-            sortVal = formData['sortval']
-        dfStat = dfStat.drop(columns=[c for c in ['seconds', 'periodOrder'] if c in dfStat.columns])
-        if 'date' in dfStat.columns:
-            dfStat['date'] = dfStat['date'].dt.strftime('%m/%d/%Y')
-        if groupVal == '':
-            dfStat = dfStat[:1000]
-        if dfStat.empty:
-            dfStat = pd.DataFrame([{"": 'No Data Available'}])
+    # header sort (same directions as the other tables: dates/seasons ascending first)
+    sortCol = formData['sortval'].lower()
+    if formData['isAscending'] != '' and sortCol in dfStat.columns:
+        ascending = (formData['isAscending'].lower() == 'true')
+        if sortCol not in ['date', 'season']:
+            ascending = not ascending
+        sortBy = {'time': 'seconds', 'period': 'periodOrder'}.get(sortCol, sortCol)
+        if sortBy not in dfStat.columns:
+            sortBy = sortCol
+        dfStat = dfStat.sort_values(sortBy, ascending=ascending, kind='stable')
+        sortVal = formData['sortval']
+    dfStat = dfStat.drop(columns=[c for c in ['seconds', 'periodOrder'] if c in dfStat.columns])
+    if 'date' in dfStat.columns:
+        dfStat['date'] = dfStat['date'].dt.strftime('%m/%d/%Y')
+    if groupVal == '':
+        dfStat = dfStat[:1000]
+    if dfStat.empty:
+        dfStat = pd.DataFrame([{"": 'No Data Available'}])
 
     return jsonify(statTable=formatStats(dfStat),
                    season_values=seasVals,

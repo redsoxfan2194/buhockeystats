@@ -1,0 +1,712 @@
+date,team,opp,type,goalscorer,primary,secondary,time,period,tScore,oScore,prevGD,mins,sec,GD,season
+2018-10-06,BU,Northeastern,,Jesse Compher,Courtney Correia,Unassisted,2:40,1st Period,1,0,0,2,40,1,2018-19
+2018-10-06,BU,Northeastern,,Sammy Davis,Jesse Compher,Alex Allan,10:38,1st Period,2,1,0,10,38,1,2018-19
+2018-10-06,BU,Northeastern,PP,Nara Elia,Sammy Davis,Abby Cook,18:52,1st Period,3,1,1,18,52,2,2018-19
+2018-10-12,BU,Merrimack,,Abby Cook,Alex Allan,Natasza Tarnowski,13:56,1st Period,1,1,-1,13,56,0,2018-19
+2018-10-12,BU,Merrimack,,Reagan Rust,Unassisted,Unassisted,17:26,1st Period,2,1,0,17,26,1,2018-19
+2018-10-13,BU,UNH,,Sammy Davis,Jesse Compher,Courtney Correia,3:24,1st Period,1,0,0,3,24,1,2018-19
+2018-10-13,BU,UNH,,Sammy Davis,Jesse Compher,Courtney Correia,18:30,1st Period,2,1,0,18,30,1,2018-19
+2018-10-13,BU,UNH,SH,Jesse Compher,Unassisted,Unassisted,0:55,2nd Period,3,1,1,0,55,2,2018-19
+2018-10-19,BU,UConn,,Sammy Davis,Jesse Compher,Connor Galway,14:09,1st Period,1,0,0,14,9,1,2018-19
+2018-10-20,BU,Maine,EA,Abby Cook,Abbey Stanley,Jesse Compher,18:32,3rd Period,1,2,-2,18,32,-1,2018-19
+2018-10-28,BU,Northeastern,EA,Nara Elia,Mackenna Parker,Jesse Compher,19:30,3rd Period,1,2,-2,19,30,-1,2018-19
+2018-11-09,BU,UConn,,Jesse Compher,Abby Cook,Abbey Stanley,3:37,2nd Period,1,0,0,3,37,1,2018-19
+2018-11-09,BU,UConn,,Sammy Davis,Unassisted,Unassisted,14:58,2nd Period,2,1,0,14,58,1,2018-19
+2018-11-09,BU,UConn,SH,Jesse Compher,Sammy Davis,Breanna Scarpaci,6:44,3rd Period,3,1,1,6,44,2,2018-19
+2018-11-09,BU,UConn,EN,Sammy Davis,Jesse Compher,Abbey Stanley,18:55,3rd Period,4,1,2,18,55,3,2018-19
+2018-11-16,BU,UVM,,Jesse Compher,Sammy Davis,Connor Galway,13:13,1st Period,1,0,0,13,13,1,2018-19
+2018-11-16,BU,UVM,,Mackenna Parker,Jesse Compher,Connor Galway,12:32,2nd Period,2,0,1,12,32,2,2018-19
+2018-11-16,BU,UVM,,Kristina Schuler,Breanna Scarpaci,Abbey Stanley,13:18,3rd Period,3,0,2,13,18,3,2018-19
+2018-11-17,BU,UVM,SH,Mackenna Parker,Jesse Compher,Unassisted,17:38,1st Period,1,1,-1,17,38,0,2018-19
+2018-11-17,BU,UVM,,Jesse Compher,Sammy Davis,Mackenna Parker,3:18,2nd Period,2,1,0,3,18,1,2018-19
+2018-11-17,BU,UVM,,Sammy Davis,Jesse Compher,Unassisted,8:31,3rd Period,3,2,0,8,31,1,2018-19
+2018-11-20,BU,BC,,Jesse Compher,Nara Elia,Unassisted,14:43,1st Period,1,2,-2,14,43,-1,2018-19
+2018-11-20,BU,BC,,Mackenna Parker,Sammy Davis,Jesse Compher,17:04,1st Period,2,2,-1,17,4,0,2018-19
+2018-11-20,BU,BC,PP,Abby Cook,Sammy Davis,Nara Elia,14:10,3rd Period,3,4,-2,14,10,-1,2018-19
+2018-11-27,BU,Brown,,Connor Galway,Nara Elia,Unassisted,18:07,1st Period,1,1,-1,18,7,0,2018-19
+2018-11-27,BU,Brown,,Sammy Davis,Jesse Compher,Unassisted,15:32,2nd Period,2,1,0,15,32,1,2018-19
+2018-11-27,BU,Brown,,Reagan Rust,Courtney Correia,Emma Wuthrich,11:12,3rd Period,3,2,0,11,12,1,2018-19
+2018-11-27,BU,Brown,,Nara Elia,Kristina Schuler,Unassisted,17:25,3rd Period,4,2,1,17,25,2,2018-19
+2018-11-27,BU,Brown,EN,Mackenna Parker,Sammy Davis,Connor Galway,18:35,3rd Period,5,2,2,18,35,3,2018-19
+2018-11-30,BU,BC,PP,Nara Elia,Jesse Compher,Sammy Davis,6:45,1st Period,1,0,0,6,45,1,2018-19
+2018-11-30,BU,BC,PP,Emma Wuthrich,Natasza Tarnowski,Deziray De Sousa,3:41,3rd Period,2,1,0,3,41,1,2018-19
+2018-11-30,BU,BC,PP,Jesse Compher,Sammy Davis,Unassisted,14:22,3rd Period,3,1,1,14,22,2,2018-19
+2018-12-01,BU,BC,PP,Abby Cook,Sammy Davis,Jesse Compher,4:50,2nd Period,1,1,-1,4,50,0,2018-19
+2018-12-01,BU,BC,PP,Abby Cook,Sammy Davis,Jesse Compher,11:46,2nd Period,2,1,0,11,46,1,2018-19
+2018-12-01,BU,BC,,Deziray De Sousa,Kristina Schuler,Abby Cook,17:20,2nd Period,3,1,1,17,20,2,2018-19
+2018-12-01,BU,BC,EN,Jesse Compher,Reagan Rust,Sammy Davis,19:38,3rd Period,4,2,1,19,38,2,2018-19
+2018-12-07,BU,RIT,,Natasza Tarnowski,Unassisted,Unassisted,15:29,1st Period,1,0,0,15,29,1,2018-19
+2018-12-07,BU,RIT,PP,Sammy Davis,Jesse Compher,Kaleigh Donnelly,3:57,2nd Period,2,0,1,3,57,2,2018-19
+2018-12-07,BU,RIT,PP,Jesse Compher,Abby Cook,Nara Elia,9:52,2nd Period,3,0,2,9,52,3,2018-19
+2018-12-08,BU,RIT,,Deziray De Sousa,Kristina Schuler,Alex Allan,12:55,1st Period,1,0,0,12,55,1,2018-19
+2018-12-08,BU,RIT,PP,Jesse Compher,Abby Cook,Kaleigh Donnelly,0:56,2nd Period,2,0,1,0,56,2,2018-19
+2018-12-08,BU,RIT,PP,Abby Cook,Abbey Stanley,Jesse Compher,8:18,2nd Period,3,0,2,8,18,3,2018-19
+2018-12-08,BU,RIT,PP,Sammy Davis,Jesse Compher,Abby Cook,12:33,2nd Period,4,0,3,12,33,4,2018-19
+2018-12-08,BU,RIT,,Courtney Correia,Jesse Compher,Unassisted,4:43,3rd Period,5,0,4,4,43,5,2018-19
+2018-12-08,BU,RIT,PP,Kaleigh Donnelly,Jesse Compher,Sammy Davis,10:07,3rd Period,6,0,5,10,7,6,2018-19
+2018-12-08,BU,RIT,PP,Nara Elia,Reagan Rust,Unassisted,13:20,3rd Period,7,0,6,13,20,7,2018-19
+2018-12-08,BU,RIT,5x3,Natasza Tarnowski,Courtney Correia,Emma Wuthrich,15:44,3rd Period,8,0,7,15,44,8,2018-19
+2018-12-30,BU,PSU,,Sammy Davis,Jesse Compher,Unassisted,9:25,3rd Period,1,1,-1,9,25,0,2018-19
+2019-01-06,BU,Maine,,Sammy Davis,Jesse Compher,Unassisted,3:02,2nd Period,1,0,0,3,2,1,2018-19
+2019-01-06,BU,Maine,PP,Jesse Compher,Kaleigh Donnelly,Abby Cook,7:36,2nd Period,2,0,1,7,36,2,2018-19
+2019-01-06,BU,Maine,,Natasza Tarnowski,Kaleigh Donnelly,Connor Galway,13:29,3rd Period,3,0,2,13,29,3,2018-19
+2019-01-11,BU,PC,,Sammy Davis,Jesse Compher,Unassisted,13:02,1st Period,1,0,0,13,2,1,2018-19
+2019-01-11,BU,PC,,Sammy Davis,Jesse Compher,Breanna Scarpaci,14:02,1st Period,2,0,1,14,2,2,2018-19
+2019-01-11,BU,PC,,Emma Wuthrich,Abbey Stanley,Deziray De Sousa,10:37,2nd Period,3,2,0,10,37,1,2018-19
+2019-01-11,BU,PC,,Nara Elia,Kristina Schuler,Deziray De Sousa,13:06,3rd Period,4,3,0,13,6,1,2018-19
+2019-01-11,BU,PC,EN,Deziray De Sousa,Kristina Schuler,Kaleigh Donnelly,19:47,3rd Period,5,3,1,19,47,2,2018-19
+2019-01-12,BU,PC,,Courtney Correia,Natasza Tarnowski,Kaleigh Donnelly,1:29,1st Period,1,0,0,1,29,1,2018-19
+2019-01-12,BU,PC,,Mackenna Parker,Alex Allan,Jesse Compher,18:30,1st Period,2,1,0,18,30,1,2018-19
+2019-01-12,BU,PC,,Natasza Tarnowski,Kaleigh Donnelly,Breanna Scarpaci,18:58,1st Period,3,1,1,18,58,2,2018-19
+2019-01-12,BU,PC,PP,Deziray De Sousa,Natasza Tarnowski,Abbey Stanley,12:15,3rd Period,4,2,1,12,15,2,2018-19
+2019-01-18,BU,HC,PP,Jesse Compher,Kaleigh Donnelly,Abby Cook,16:24,1st Period,1,0,0,16,24,1,2018-19
+2019-01-18,BU,HC,,Mary Grace Kelley,Connor Galway,Rachel Allen,4:34,2nd Period,2,1,0,4,34,1,2018-19
+2019-01-18,BU,HC,,Alex Allan,Unassisted,Unassisted,8:50,2nd Period,3,1,1,8,50,2,2018-19
+2019-01-18,BU,HC,,Courtney Correia,Connor Galway,Kristina Schuler,19:33,2nd Period,4,1,2,19,33,3,2018-19
+2019-01-19,BU,HC,,Natasza Tarnowski,Kaleigh Donnelly,Courtney Correia,4:04,1st Period,1,0,0,4,4,1,2018-19
+2019-01-19,BU,HC,,Courtney Correia,Abby Cook,Unassisted,4:59,1st Period,2,0,1,4,59,2,2018-19
+2019-01-19,BU,HC,,Natasza Tarnowski,Courtney Correia,Kaleigh Donnelly,11:33,1st Period,3,0,2,11,33,3,2018-19
+2019-01-19,BU,HC,,Reagan Rust,Mackenna Parker,Jesse Compher,14:05,1st Period,4,0,3,14,5,4,2018-19
+2019-01-19,BU,HC,PP,Deziray De Sousa,Reagan Rust,Abbey Stanley,2:01,2nd Period,5,0,4,2,1,5,2018-19
+2019-01-19,BU,HC,,Mackenna Parker,Sammy Davis,Jesse Compher,11:48,2nd Period,6,1,4,11,48,5,2018-19
+2019-01-19,BU,HC,,Sammy Davis,Breanna Scarpaci,Corinne Schroeder,15:21,2nd Period,7,1,5,15,21,6,2018-19
+2019-01-25,BU,Merrimack,,Kristina Schuler,Deziray De Sousa,Nara Elia,10:33,2nd Period,1,1,-1,10,33,0,2018-19
+2019-01-25,BU,Merrimack,,Mackenna Parker,Reagan Rust,Sammy Davis,11:38,2nd Period,2,1,0,11,38,1,2018-19
+2019-01-25,BU,Merrimack,,Emma Wuthrich,Nara Elia,Deziray De Sousa,17:12,2nd Period,3,1,1,17,12,2,2018-19
+2019-01-25,BU,Merrimack,,Kristina Schuler,Mackenna Parker,Unassisted,18:04,2nd Period,4,1,2,18,4,3,2018-19
+2019-01-25,BU,Merrimack,,Sammy Davis,Reagan Rust,Unassisted,19:21,3rd Period,5,3,1,19,21,2,2018-19
+2019-01-25,BU,Merrimack,EN,Mackenna Parker,Jesse Compher,Abby Cook,19:44,3rd Period,6,3,2,19,44,3,2018-19
+2019-01-26,BU,Merrimack,,Kristina Schuler,Nara Elia,Deziray De Sousa,15:34,1st Period,1,1,-1,15,34,0,2018-19
+2019-01-26,BU,Merrimack,PP,Abby Cook,Sammy Davis,Jesse Compher,18:57,1st Period,2,1,0,18,57,1,2018-19
+2019-01-26,BU,Merrimack,EA,Sammy Davis,Nara Elia,Jesse Compher,18:57,3rd Period,3,3,-1,18,57,0,2018-19
+2019-02-01,BU,UVM,PP,Deziray De Sousa,Reagan Rust,Abbey Stanley,12:01,1st Period,1,1,-1,12,1,0,2018-19
+2019-02-01,BU,UVM,,Mackenna Parker,Sammy Davis,Breanna Scarpaci,13:49,1st Period,2,1,0,13,49,1,2018-19
+2019-02-01,BU,UVM,,Sammy Davis,Jesse Compher,Abbey Stanley,16:12,1st Period,3,1,1,16,12,2,2018-19
+2019-02-01,BU,UVM,,Emma Wuthrich,Sammy Davis,Jesse Compher,3:15,2nd Period,4,1,2,3,15,3,2018-19
+2019-02-01,BU,UVM,,Jesse Compher,Abby Cook,Sammy Davis,12:51,2nd Period,5,1,3,12,51,4,2018-19
+2019-02-01,BU,UVM,,Kristina Schuler,Nara Elia,Abby Cook,3:27,3rd Period,6,2,3,3,27,4,2018-19
+2019-02-01,BU,UVM,,Emma Wuthrich,Kaleigh Donnelly,Reagan Rust,5:05,3rd Period,7,2,4,5,5,5,2018-19
+2019-02-05,BU,Northeastern,,Mackenna Parker,Breanna Scarpaci,Sammy Davis,3:41,2nd Period,1,1,-1,3,41,0,2018-19
+2019-02-05,BU,Northeastern,PP,Sammy Davis,Abby Cook,Jesse Compher,11:10,2nd Period,2,2,-1,11,10,0,2018-19
+2019-02-05,BU,Northeastern,,Jesse Compher,Sammy Davis,Unassisted,2:12,3rd Period,3,3,-1,2,12,0,2018-19
+2019-02-09,BU,HC,,Courtney Correia,Emma Wuthrich,Breanna Scarpaci,6:54,2nd Period,1,1,-1,6,54,0,2018-19
+2019-02-09,BU,HC,,Kristina Schuler,Deziray De Sousa,Mary Grace Kelley,7:46,2nd Period,2,1,0,7,46,1,2018-19
+2019-02-09,BU,HC,,Courtney Correia,Kaleigh Donnelly,Connor Galway,8:12,2nd Period,3,1,1,8,12,2,2018-19
+2019-02-09,BU,HC,,Kristina Schuler,Emma Wuthrich,Abbey Stanley,18:41,2nd Period,4,1,2,18,41,3,2018-19
+2019-02-09,BU,HC,,Sammy Davis,Alexandra Calderone,Jesse Compher,5:08,3rd Period,5,1,3,5,8,4,2018-19
+2019-02-09,BU,HC,"SH, EN",Jesse Compher,Alex Allan,Unassisted,18:41,3rd Period,6,1,4,18,41,5,2018-19
+2019-02-09,BU,HC,SH,Sammy Davis,Reagan Rust,Unassisted,19:16,3rd Period,7,1,5,19,16,6,2018-19
+2019-02-12,BU,Harvard,PP,Reagan Rust,Abbey Stanley,Natasza Tarnowski,18:28,1st Period,1,0,0,18,28,1,2018-19
+2019-02-12,BU,Harvard,,Natasza Tarnowski,Abby Cook,Unassisted,15:28,2nd Period,2,2,-1,15,28,0,2018-19
+2019-02-12,BU,Harvard,PP,Sammy Davis,Jesse Compher,Abby Cook,13:28,Overtime,3,2,0,13,28,1,2018-19
+2019-02-16,BU,UNH,,Breanna Scarpaci,Jesse Compher,Sammy Davis,8:11,1st Period,1,0,0,8,11,1,2018-19
+2019-02-16,BU,UNH,,Sammy Davis,Jesse Compher,Mackenna Parker,14:44,2nd Period,2,1,0,14,44,1,2018-19
+2019-02-16,BU,UNH,,Jesse Compher,Abby Cook,Sammy Davis,15:03,3rd Period,3,2,0,15,3,1,2018-19
+2019-02-17,BU,UNH,,Natasza Tarnowski,Kristina Schuler,Abbey Stanley,13:10,1st Period,1,0,0,13,10,1,2018-19
+2019-02-17,BU,UNH,,Mackenna Parker,Jesse Compher,Sammy Davis,5:15,2nd Period,2,0,1,5,15,2,2018-19
+2019-02-22,BU,UConn,PP,Nara Elia,Abby Cook,Kaleigh Donnelly,8:39,1st Period,1,0,0,8,39,1,2018-19
+2019-02-22,BU,UConn,,Courtney Correia,Mary Grace Kelley,Unassisted,2:59,2nd Period,2,0,1,2,59,2,2018-19
+2019-02-22,BU,UConn,,Emma Wuthrich,Mackenna Parker,Unassisted,19:20,2nd Period,3,0,2,19,20,3,2018-19
+2019-02-23,BU,PC,PP,Natasza Tarnowski,Reagan Rust,Abby Cook,7:33,1st Period,1,0,0,7,33,1,2018-19
+2019-03-01,BU,UNH,,Nara Elia,Deziray De Sousa,Unassisted,5:16,1st Period,1,0,0,5,16,1,2018-19
+2019-03-01,BU,UNH,PP,Nara Elia,Abby Cook,Sammy Davis,9:07,1st Period,2,0,1,9,7,2,2018-19
+2019-03-01,BU,UNH,,Mackenna Parker,Sammy Davis,Jesse Compher,19:06,2nd Period,3,0,2,19,6,3,2018-19
+2019-03-01,BU,UNH,,Courtney Correia,Natasza Tarnowski,Kaleigh Donnelly,4:24,3rd Period,4,0,3,4,24,4,2018-19
+2019-03-01,BU,UNH,,Mackenna Parker,Sammy Davis,Jesse Compher,8:09,3rd Period,5,1,3,8,9,4,2018-19
+2019-03-02,BU,UNH,,Sammy Davis,Abby Cook,Jesse Compher,5:00,1st Period,1,0,0,5,0,1,2018-19
+2019-03-02,BU,UNH,PP,Deziray De Sousa,Jesse Compher,Kaleigh Donnelly,10:26,1st Period,2,0,1,10,26,2,2018-19
+2019-03-02,BU,UNH,,Sammy Davis,Jesse Compher,Alex Allan,6:54,3rd Period,3,0,2,6,54,3,2018-19
+2019-03-09,BU,BC,PP,Abby Cook,Jesse Compher,Kaleigh Donnelly,14:27,2nd Period,1,3,-3,14,27,-2,2018-19
+2019-10-06,BU,Union,,Sammy Davis,Haylee Blinkhorn,Abbey Stanley,19:13,1st Period,1,0,0,19,13,1,2019-20
+2019-10-06,BU,Union,PP,Sammy Davis,Kaleigh Donnelly,Abby Cook,14:41,2nd Period,2,0,1,14,41,2,2019-20
+2019-10-11,BU,Merrimack,,Julia Nearis,Mackenna Parker,Kristina Schuler,11:38,1st Period,1,0,0,11,38,1,2019-20
+2019-10-11,BU,Merrimack,,Natasza Tarnowski,Sammy Davis,Kaleigh Donnelly,4:53,2nd Period,2,2,-1,4,53,0,2019-20
+2019-10-12,BU,UNH,PP,Abby Cook,Sammy Davis,Nara Elia,5:58,1st Period,1,0,0,5,58,1,2019-20
+2019-10-12,BU,UNH,,Sammy Davis,Courtney Correia,Nara Elia,15:46,2nd Period,2,3,-2,15,46,-1,2019-20
+2019-10-18,BU,UConn,,Deziray De Sousa,Abby Cook,Courtney Correia,19:09,2nd Period,1,0,0,19,9,1,2019-20
+2019-10-20,BU,Maine,,Kristina Schuler,Nara Elia,Breanna Scarpaci,1:06,1st Period,1,0,0,1,6,1,2019-20
+2019-10-20,BU,Maine,PP,Kaleigh Donnelly,Nara Elia,Unassisted,8:04,2nd Period,2,0,1,8,4,2,2019-20
+2019-10-20,BU,Maine,EN,Courtney Correia,Kaleigh Donnelly,Abby Cook,18:45,3rd Period,3,1,1,18,45,2,2019-20
+2019-10-25,BU,PSU,,Kristina Schuler,Nara Elia,Deziray De Sousa,0:22,1st Period,1,0,0,0,22,1,2019-20
+2019-10-25,BU,PSU,,Sammy Davis,Emma Wuthrich,Mackenna Parker,7:28,1st Period,2,0,1,7,28,2,2019-20
+2019-10-25,BU,PSU,,Abby Cook,Alex Allan,Natasza Tarnowski,1:24,3rd Period,3,1,1,1,24,2,2019-20
+2019-10-25,BU,PSU,PP,Nara Elia,Julia Nearis,Kaleigh Donnelly,15:09,3rd Period,4,2,1,15,9,2,2019-20
+2019-10-25,BU,PSU,EN,Kaleigh Donnelly,Unassisted,Unassisted,19:55,3rd Period,5,2,2,19,55,3,2019-20
+2019-10-26,BU,PSU,PP,Julia Nearis,Kaleigh Donnelly,Nara Elia,3:22,1st Period,1,0,0,3,22,1,2019-20
+2019-10-26,BU,PSU,,Deziray De Sousa,Courtney Correia,Abbey Stanley,12:46,1st Period,2,0,1,12,46,2,2019-20
+2019-10-26,BU,PSU,5x3,Julia Nearis,Abby Cook,Sammy Davis,11:35,2nd Period,3,1,1,11,35,2,2019-20
+2019-10-26,BU,PSU,,Kaleigh Donnelly,Alex Allan,Courtney Correia,1:58,3rd Period,4,1,2,1,58,3,2019-20
+2019-10-26,BU,PSU,PP,Abby Cook,Sammy Davis,Unassisted,12:38,3rd Period,5,1,3,12,38,4,2019-20
+2019-11-01,BU,Northeastern,PP,Julia Nearis,Abby Cook,Sammy Davis,5:56,2nd Period,1,0,0,5,56,1,2019-20
+2019-11-09,BU,PC,,Julia Nearis,Nadia Mattivi,Sammy Davis,9:30,2nd Period,1,0,0,9,30,1,2019-20
+2019-11-09,BU,PC,PP,Julia Nearis,Nara Elia,Sammy Davis,5:34,3rd Period,2,1,0,5,34,1,2019-20
+2019-11-12,BU,Yale,,Kristina Schuler,Nara Elia,Grace Parker,10:41,2nd Period,1,0,0,10,41,1,2019-20
+2019-11-12,BU,Yale,,Nara Elia,Deziray De Sousa,Kristina Schuler,8:54,3rd Period,2,0,1,8,54,2,2019-20
+2019-11-12,BU,Yale,EN,Jesse Compher,Sammy Davis,Unassisted,19:12,3rd Period,3,1,1,19,12,2,2019-20
+2019-11-15,BU,BC,,Kristina Schuler,Deziray De Sousa,Nara Elia,5:22,1st Period,1,0,0,5,22,1,2019-20
+2019-11-15,BU,BC,PP,Kristina Schuler,Deziray De Sousa,Julia Nearis,13:57,2nd Period,2,1,0,13,57,1,2019-20
+2019-11-19,BU,Harvard,PP,Sammy Davis,Natasza Tarnowski,Abby Cook,19:32,1st Period,1,0,0,19,32,1,2019-20
+2019-11-19,BU,Harvard,PP,Jesse Compher,Abby Cook,Nara Elia,6:39,2nd Period,2,1,0,6,39,1,2019-20
+2019-11-19,BU,Harvard,PP,Nara Elia,Jesse Compher,Abby Cook,10:42,2nd Period,3,1,1,10,42,2,2019-20
+2019-11-19,BU,Harvard,SH,Jesse Compher,Abbey Stanley,Unassisted,6:28,3rd Period,4,1,2,6,28,3,2019-20
+2019-11-19,BU,Harvard,,Kristina Schuler,Deziray De Sousa,Unassisted,11:57,3rd Period,5,2,2,11,57,3,2019-20
+2019-11-19,BU,Harvard,PP,Julia Nearis,Breanna Scarpaci,Nadia Mattivi,13:49,3rd Period,6,2,3,13,49,4,2019-20
+2019-11-23,BU,UVM,PP,Nadia Mattivi,Kristina Schuler,Deziray De Sousa,16:44,1st Period,1,0,0,16,44,1,2019-20
+2019-11-23,BU,UVM,SH,Jesse Compher,Sammy Davis,Abby Cook,5:30,2nd Period,2,0,1,5,30,2,2019-20
+2019-11-23,BU,UVM,,Nara Elia,Kristina Schuler,Deziray De Sousa,3:54,Overtime,3,2,0,3,54,1,2019-20
+2019-11-24,BU,UVM,,Julia Nearis,Jesse Compher,Unassisted,15:09,1st Period,1,1,-1,15,9,0,2019-20
+2019-11-24,BU,UVM,PP,Abby Cook,Sammy Davis,Jesse Compher,2:00,2nd Period,2,1,0,2,0,1,2019-20
+2019-11-24,BU,UVM,PP,Jesse Compher,Sammy Davis,Abby Cook,12:46,2nd Period,3,1,1,12,46,2,2019-20
+2019-11-24,BU,UVM,,Kristina Schuler,Breanna Scarpaci,Abbey Stanley,13:58,2nd Period,4,1,2,13,58,3,2019-20
+2019-11-24,BU,UVM,PP,Jesse Compher,Sammy Davis,Kaleigh Donnelly,1:18,3rd Period,5,1,3,1,18,4,2019-20
+2019-12-06,BU,BC,,Emma Wuthrich,Nadia Mattivi,Sammy Davis,6:58,1st Period,1,0,0,6,58,1,2019-20
+2019-12-06,BU,BC,,Mackenna Parker,Alexandra Calderone,Natasza Tarnowski,18:26,1st Period,2,0,1,18,26,2,2019-20
+2019-12-06,BU,BC,SH,Sammy Davis,Jesse Compher,Alexandra Calderone,6:30,2nd Period,3,0,2,6,30,3,2019-20
+2019-12-06,BU,BC,PP,Jesse Compher,Kaleigh Donnelly,Nadia Mattivi,8:10,2nd Period,4,0,3,8,10,4,2019-20
+2019-12-06,BU,BC,,Courtney Correia,Unassisted,Unassisted,14:59,2nd Period,5,0,4,14,59,5,2019-20
+2019-12-06,BU,BC,,Mackenna Parker,Natasza Tarnowski,Courtney Correia,15:50,3rd Period,6,0,5,15,50,6,2019-20
+2019-12-07,BU,BC,PP,Sammy Davis,Kaleigh Donnelly,Jesse Compher,11:23,2nd Period,1,0,0,11,23,1,2019-20
+2019-12-07,BU,BC,PP,Abby Cook,Kaleigh Donnelly,Jesse Compher,12:28,3rd Period,2,1,0,12,28,1,2019-20
+2020-01-04,BU,Maine,,Mackenna Parker,Natasza Tarnowski,Courtney Correia,4:55,1st Period,1,0,0,4,55,1,2019-20
+2020-01-04,BU,Maine,,Julia Nearis,Jesse Compher,Sammy Davis,18:43,1st Period,2,0,1,18,43,2,2019-20
+2020-01-04,BU,Maine,,Nara Elia,Nadia Mattivi,Alex Allan,2:30,Overtime,3,2,0,2,30,1,2019-20
+2020-01-05,BU,Maine,,Courtney Correia,Abby Cook,Alex Allan,15:41,1st Period,1,3,-3,15,41,-2,2019-20
+2020-01-05,BU,Maine,,Nadia Mattivi,Jesse Compher,Sammy Davis,6:41,3rd Period,2,3,-2,6,41,-1,2019-20
+2020-01-05,BU,Maine,PP,Sammy Davis,Jesse Compher,Abby Cook,9:02,3rd Period,3,3,-1,9,2,0,2019-20
+2020-01-10,BU,PC,EA,Abby Cook,Emma Wuthrich,Nara Elia,17:55,3rd Period,1,2,-2,17,55,-1,2019-20
+2020-01-11,BU,PC,,Sammy Davis,Unassisted,Unassisted,2:53,1st Period,1,0,0,2,53,1,2019-20
+2020-01-11,BU,PC,,Nara Elia,Deziray De Sousa,Kristina Schuler,16:49,1st Period,2,1,0,16,49,1,2019-20
+2020-01-11,BU,PC,,Nadia Mattivi,Julia Nearis,Grace Parker,13:20,2nd Period,3,1,1,13,20,2,2019-20
+2020-01-11,BU,PC,"4x4, EN",Courtney Correia,Unassisted,Unassisted,19:35,3rd Period,4,1,2,19,35,3,2019-20
+2020-01-17,BU,HC,,Mackenna Parker,Courtney Correia,Unassisted,11:28,1st Period,1,0,0,11,28,1,2019-20
+2020-01-17,BU,HC,,Deziray De Sousa,Nara Elia,Jesse Compher,10:31,2nd Period,2,0,1,10,31,2,2019-20
+2020-01-17,BU,HC,,Mackenna Parker,Grace Parker,Nadia Mattivi,11:55,2nd Period,3,1,1,11,55,2,2019-20
+2020-01-17,BU,HC,,Deziray De Sousa,Kristina Schuler,Unassisted,14:22,2nd Period,4,1,2,14,22,3,2019-20
+2020-01-18,BU,HC,,Courtney Correia,Mackenna Parker,Natasza Tarnowski,16:38,1st Period,1,0,0,16,38,1,2019-20
+2020-01-18,BU,HC,,Sammy Davis,Alex Allan,Unassisted,1:21,2nd Period,2,0,1,1,21,2,2019-20
+2020-01-18,BU,HC,,Emma Wuthrich,Kaleigh Donnelly,Haylee Blinkhorn,3:51,2nd Period,3,0,2,3,51,3,2019-20
+2020-01-18,BU,HC,PP,Sammy Davis,Jesse Compher,Abby Cook,18:21,2nd Period,4,0,3,18,21,4,2019-20
+2020-01-24,BU,Merrimack,,Abbey Stanley,Deziray De Sousa,Breanna Scarpaci,12:22,1st Period,1,0,0,12,22,1,2019-20
+2020-01-25,BU,Merrimack,,Julia Nearis,Deziray De Sousa,Unassisted,8:33,1st Period,1,0,0,8,33,1,2019-20
+2020-01-25,BU,Merrimack,SH,Natasza Tarnowski,Unassisted,Unassisted,1:11,2nd Period,2,1,0,1,11,1,2019-20
+2020-01-25,BU,Merrimack,PP,Nara Elia,Sammy Davis,Abby Cook,7:22,2nd Period,3,1,1,7,22,2,2019-20
+2020-01-25,BU,Merrimack,,Deziray De Sousa,Kristina Schuler,Unassisted,1:23,3rd Period,4,1,2,1,23,3,2019-20
+2020-01-25,BU,Merrimack,,Nadia Mattivi,Nara Elia,Sammy Davis,5:56,3rd Period,5,2,2,5,56,3,2019-20
+2020-01-25,BU,Merrimack,PP,Abby Cook,Sammy Davis,Jesse Compher,16:42,3rd Period,6,3,2,16,42,3,2019-20
+2020-01-28,BU,Northeastern,,Deziray De Sousa,Kristina Schuler,Julia Nearis,7:54,1st Period,1,0,0,7,54,1,2019-20
+2020-01-31,BU,UVM,,Deziray De Sousa,Alexandra Calderone,Kristina Schuler,11:49,1st Period,1,0,0,11,49,1,2019-20
+2020-01-31,BU,UVM,PP,Sammy Davis,Kaleigh Donnelly,Nara Elia,19:42,1st Period,2,1,0,19,42,1,2019-20
+2020-01-31,BU,UVM,4x4,Emma Wuthrich,Nadia Mattivi,Unassisted,7:27,3rd Period,3,1,1,7,27,2,2019-20
+2020-01-31,BU,UVM,,Courtney Correia,Jesse Compher,Mackenna Parker,18:24,3rd Period,4,2,1,18,24,2,2019-20
+2020-02-04,BU,BC,,Abby Cook,Sammy Davis,Natasza Tarnowski,6:19,1st Period,1,0,0,6,19,1,2019-20
+2020-02-04,BU,BC,,Jesse Compher,Nara Elia,Courtney Correia,0:53,3rd Period,2,0,1,0,53,2,2019-20
+2020-02-04,BU,BC,,Jesse Compher,Unassisted,Unassisted,3:18,3rd Period,3,0,2,3,18,3,2019-20
+2020-02-04,BU,BC,EN,Deziray De Sousa,Kristina Schuler,Unassisted,18:07,3rd Period,4,0,3,18,7,4,2019-20
+2020-02-08,BU,HC,PP,Jesse Compher,Abby Cook,Kaleigh Donnelly,13:48,1st Period,1,1,-1,13,48,0,2019-20
+2020-02-08,BU,HC,,Nadia Mattivi,Kristina Schuler,Deziray De Sousa,14:01,1st Period,2,1,0,14,1,1,2019-20
+2020-02-08,BU,HC,PP,Sammy Davis,Abby Cook,Jesse Compher,16:52,1st Period,3,1,1,16,52,2,2019-20
+2020-02-08,BU,HC,PP,Sammy Davis,Abby Cook,Jesse Compher,4:55,2nd Period,4,1,2,4,55,3,2019-20
+2020-02-08,BU,HC,,Courtney Correia,Haylee Blinkhorn,Unassisted,13:39,2nd Period,5,2,2,13,39,3,2019-20
+2020-02-11,BU,Northeastern,SH,Kristina Schuler,Unassisted,Unassisted,4:55,1st Period,1,0,0,4,55,1,2019-20
+2020-02-11,BU,Northeastern,PP,Abby Cook,Sammy Davis,Kaleigh Donnelly,12:02,2nd Period,2,2,-1,12,2,0,2019-20
+2020-02-11,BU,Northeastern,EA,Sammy Davis,Abby Cook,Nadia Mattivi,19:37,3rd Period,3,3,-1,19,37,0,2019-20
+2020-02-15,BU,UNH,PP,Kaleigh Donnelly,Sammy Davis,Nara Elia,10:08,1st Period,1,0,0,10,8,1,2019-20
+2020-02-16,BU,UNH,,Jesse Compher,Courtney Correia,Nara Elia,15:21,1st Period,1,0,0,15,21,1,2019-20
+2020-02-16,BU,UNH,EN,Sammy Davis,Nara Elia,Abbey Stanley,18:52,3rd Period,2,0,1,18,52,2,2019-20
+2020-02-21,BU,UConn,,Julia Nearis,Deziray De Sousa,Kristina Schuler,8:06,1st Period,1,0,0,8,6,1,2019-20
+2020-02-21,BU,UConn,,Jesse Compher,Sammy Davis,Abby Cook,9:06,1st Period,2,0,1,9,6,2,2019-20
+2020-02-21,BU,UConn,,Courtney Correia,Alexandra Calderone,Mackenna Parker,14:02,1st Period,3,0,2,14,2,3,2019-20
+2020-02-21,BU,UConn,,Jesse Compher,Mackenna Parker,Alexandra Calderone,5:19,2nd Period,4,1,2,5,19,3,2019-20
+2020-02-21,BU,UConn,,Sammy Davis,Abbey Stanley,Natasza Tarnowski,8:39,2nd Period,5,1,3,8,39,4,2019-20
+2020-02-21,BU,UConn,,Nara Elia,Sammy Davis,Natasza Tarnowski,16:55,3rd Period,6,2,3,16,55,4,2019-20
+2020-02-22,BU,UConn,,Nara Elia,Natasza Tarnowski,Alex Allan,0:34,1st Period,1,0,0,0,34,1,2019-20
+2020-02-22,BU,UConn,,Abby Cook,Alexandra Calderone,Kristina Schuler,1:24,1st Period,2,0,1,1,24,2,2019-20
+2020-02-22,BU,UConn,,Natasza Tarnowski,Nara Elia,Sammy Davis,18:51,1st Period,3,0,2,18,51,3,2019-20
+2020-02-28,BU,Maine,PP,Nara Elia,Jesse Compher,Abby Cook,5:15,2nd Period,1,2,-2,5,15,-1,2019-20
+2020-02-28,BU,Maine,,Nara Elia,Emma Wuthrich,Abbey Stanley,16:52,3rd Period,2,2,-1,16,52,0,2019-20
+2020-02-29,BU,Maine,,Julia Nearis,Abbey Stanley,Alex Allan,14:02,3rd Period,1,2,-2,14,2,-1,2019-20
+2020-12-04,BU,UNH,,Jesse Compher,Courtney Correia,Mackenna Parker,17:04,1st Period,1,0,0,17,4,1,2020-21
+2020-12-04,BU,UNH,,Julia Nearis,Brooke Ersoy,Andi Calderone,7:07,2nd Period,2,0,1,7,7,2,2020-21
+2020-12-05,BU,UNH,,Clare O'Leary,Kaleigh Donnelly,Kristina Schuler,18:35,1st Period,1,0,0,18,35,1,2020-21
+2020-12-05,BU,UNH,,Jesse Compher,Courtney Correia,Clare O'Leary,19:18,1st Period,2,0,1,19,18,2,2020-21
+2020-12-05,BU,UNH,PP,Julia Nearis,Kristina Schuler,Courtney Correia,6:43,3rd Period,3,3,-1,6,43,0,2020-21
+2020-12-11,BU,UConn,,Mackenna Parker,Courtney Correia,Julia Nearis,17:12,3rd Period,1,4,-4,17,12,-3,2020-21
+2021-01-23,BU,Maine,,Nara Elia,Andi Calderone,Kaleigh Donnelly,3:12,2nd Period,1,0,0,3,12,1,2020-21
+2021-02-05,BU,Merrimack,,Courtney Correia,Kaleigh Donnelly,Emma Wuthrich,11:19,1st Period,1,0,0,11,19,1,2020-21
+2021-02-05,BU,Merrimack,,Lacey Martin,Nara Elia,Andi Calderone,2:43,2nd Period,2,0,1,2,43,2,2020-21
+2021-02-05,BU,Merrimack,SH,Kaleigh Donnelly,Courtney Correia,Unassisted,11:47,2nd Period,3,0,2,11,47,3,2020-21
+2021-02-05,BU,Merrimack,PP,Courtney Correia,Emma Wuthrich,Julia Shaunessy,18:58,2nd Period,4,0,3,18,58,4,2020-21
+2021-02-05,BU,Merrimack,SH,Jesse Compher,Alex Allan,Unassisted,0:11,3rd Period,5,0,4,0,11,5,2020-21
+2021-02-05,BU,Merrimack,,Mackenna Parker,Jesse Compher,Catherine Foulem,13:46,3rd Period,6,0,5,13,46,6,2020-21
+2021-02-07,BU,Merrimack,,Emma Wuthrich,Courtney Correia,Andi Calderone,4:44,1st Period,1,0,0,4,44,1,2020-21
+2021-02-07,BU,Merrimack,EN,Catherine Foulem,Jesse Compher,Nadia Mattivi,18:25,3rd Period,2,0,1,18,25,2,2020-21
+2021-02-13,BU,UVM,,Mackenna Parker,Jesse Compher,Tamara Giaquinto,1:31,2nd Period,1,1,-1,1,31,0,2020-21
+2021-02-13,BU,UVM,,Jesse Compher,Catherine Foulem,Nadia Mattivi,12:44,2nd Period,2,1,0,12,44,1,2020-21
+2021-02-13,BU,UVM,PP,Nara Elia,Mackenna Parker,Unassisted,0:10,3rd Period,3,1,1,0,10,2,2020-21
+2021-02-13,BU,UVM,EN,Jesse Compher,Nadia Mattivi,Unassisted,19:51,3rd Period,4,1,2,19,51,3,2020-21
+2021-02-19,BU,BC,PP,Jesse Compher,Nadia Mattivi,Tamara Giaquinto,3:42,2nd Period,1,2,-2,3,42,-1,2020-21
+2021-02-19,BU,BC,,Mackenna Parker,Jesse Compher,Catherine Foulem,2:59,3rd Period,2,2,-1,2,59,0,2020-21
+2021-02-19,BU,BC,,Jesse Compher,Catherine Foulem,Alex Allan,19:19,3rd Period,3,2,0,19,19,1,2020-21
+2021-02-28,BU,PC,,Julia Shaunessy,Catherine Foulem,Alex Allan,17:44,2nd Period,1,3,-3,17,44,-2,2020-21
+2021-02-28,BU,PC,,Kristina Schuler,Kaleigh Donnelly,Clare O'Leary,1:49,3rd Period,2,4,-3,1,49,-2,2020-21
+2021-02-28,BU,PC,"4x4, EA",Julia Shaunessy,Unassisted,Unassisted,19:49,3rd Period,3,4,-2,19,49,-1,2020-21
+2021-10-01,BU,UNH,,Mackenna Parker,Nadia Mattivi,Catherine Foulem,3:40,1st Period,1,1,-1,3,40,0,2021-22
+2021-10-01,BU,UNH,,Courtney Correia,Andi Calderone,Unassisted,2:01,2nd Period,2,2,-1,2,1,0,2021-22
+2021-10-01,BU,UNH,PP,Julia Nearis,Courtney Correia,Andi Calderone,12:07,2nd Period,3,2,0,12,7,1,2021-22
+2021-10-01,BU,UNH,EN,Alex Allan,Madison Cardaci,Courtney Correia,18:45,3rd Period,4,2,1,18,45,2,2021-22
+2021-10-02,BU,UNH,,Emma Wuthrich,Mackenna Parker,Julia Nearis,17:38,1st Period,1,0,0,17,38,1,2021-22
+2021-10-02,BU,UNH,,Kylie Roberts,Julia Nearis,Andi Calderone,6:38,2nd Period,2,0,1,6,38,2,2021-22
+2021-10-02,BU,UNH,,Julia Shaunessy,Mackenna Parker,Courtney Correia,7:40,2nd Period,3,0,2,7,40,3,2021-22
+2021-10-02,BU,UNH,,Mackenna Parker,Unassisted,Unassisted,14:25,2nd Period,4,0,3,14,25,4,2021-22
+2021-10-02,BU,UNH,4x4,Julia Nearis,Alex Allan,Catherine Foulem,6:07,3rd Period,5,0,4,6,7,5,2021-22
+2021-10-08,BU,Northeastern,PP,Julia Shaunessy,Jesse DeVito,Courtney Correia,10:12,2nd Period,1,0,0,10,12,1,2021-22
+2021-10-08,BU,Northeastern,PP,Christina Vote,Julia Nearis,Brooke Ersoy,15:38,2nd Period,2,0,1,15,38,2,2021-22
+2021-10-09,BU,UNH,,Christina Vote,Alex Allan,Julia Nearis,5:53,1st Period,1,1,-1,5,53,0,2021-22
+2021-10-09,BU,UNH,,Kylie Roberts,Courtney Correia,Mackenna Parker,3:06,2nd Period,2,1,0,3,6,1,2021-22
+2021-10-09,BU,UNH,,Courtney Correia,Mackenna Parker,Madison Cardaci,3:22,3rd Period,3,2,0,3,22,1,2021-22
+2021-10-15,BU,Merrimack,,Haylee Blinkhorn,Kaleigh Donnelly,Jesse DeVito,15:17,2nd Period,1,2,-2,15,17,-1,2021-22
+2021-10-15,BU,Merrimack,,Courtney Correia,Kylie Roberts,Unassisted,19:46,2nd Period,2,3,-2,19,46,-1,2021-22
+2021-10-15,BU,Merrimack,4x4,Courtney Correia,Madison Cardaci,Unassisted,12:42,3rd Period,3,4,-2,12,42,-1,2021-22
+2021-10-15,BU,Merrimack,PP,Julia Nearis,Christina Vote,Nadia Mattivi,16:39,3rd Period,4,4,-1,16,39,0,2021-22
+2021-10-22,BU,RPI,,Courtney Correia,Mackenna Parker,Madison Cardaci,16:21,1st Period,1,1,-1,16,21,0,2021-22
+2021-10-22,BU,RPI,,Julia Nearis,Julia Shaunessy,Unassisted,17:38,2nd Period,2,2,-1,17,38,0,2021-22
+2021-10-23,BU,Union,,Emma Wuthrich,Alex Allan,Julia Nearis,16:28,1st Period,1,1,-1,16,28,0,2021-22
+2021-10-23,BU,Union,SH,Courtney Correia,Mackenna Parker,Nadia Mattivi,19:35,2nd Period,2,1,0,19,35,1,2021-22
+2021-10-23,BU,Union,,Catherine Foulem,Julia Nearis,Andi Calderone,10:42,3rd Period,3,1,1,10,42,2,2021-22
+2021-10-23,BU,Union,EN,Ellie Larson,Unassisted,Unassisted,17:50,3rd Period,4,1,2,17,50,3,2021-22
+2021-10-29,BU,UVM,,Emma Wuthrich,Julia Shaunessy,Haylee Blinkhorn,4:00,3rd Period,1,1,-1,4,0,0,2021-22
+2021-10-31,BU,PC,,Catherine Foulem,Clare O'Leary,Unassisted,4:08,1st Period,1,0,0,4,8,1,2021-22
+2021-10-31,BU,PC,,Christina Vote,Clare O'Leary,Catherine Foulem,19:53,1st Period,2,0,1,19,53,2,2021-22
+2021-11-05,BU,UConn,EA,Courtney Correia,Tamara Giaquinto,Julia Nearis,18:02,3rd Period,1,2,-2,18,2,-1,2021-22
+2021-11-12,BU,HC,PP,Mackenna Parker,Courtney Correia,Ellie Larson,2:57,3rd Period,1,1,-1,2,57,0,2021-22
+2021-11-12,BU,HC,"PP, EA",Catherine Foulem,Julia Nearis,Andi Calderone,6:00,3rd Period,2,1,0,6,0,1,2021-22
+2021-11-12,BU,HC,EN,Mackenna Parker,Emma Wuthrich,Unassisted,19:30,3rd Period,3,1,1,19,30,2,2021-22
+2021-11-19,BU,Maine,,Emma Wuthrich,Ellie Larson,Tamara Giaquinto,19:48,1st Period,1,1,-1,19,48,0,2021-22
+2021-11-21,BU,BC,PP,Nadia Mattivi,Julia Shaunessy,Brooke Ersoy,1:52,1st Period,1,0,0,1,52,1,2021-22
+2021-11-21,BU,BC,,Emma Wuthrich,Julia Shaunessy,Courtney Correia,4:08,1st Period,2,0,1,4,8,2,2021-22
+2021-11-21,BU,BC,,Mackenna Parker,Julia Shaunessy,Emma Wuthrich,14:35,2nd Period,3,2,0,14,35,1,2021-22
+2021-11-21,BU,BC,,Christina Vote,Julia Shaunessy,Julia Nearis,4:32,3rd Period,4,3,0,4,32,1,2021-22
+2021-11-21,BU,BC,,Courtney Correia,Julia Nearis,Unassisted,16:13,3rd Period,5,4,0,16,13,1,2021-22
+2021-12-03,BU,Merrimack,,Courtney Correia,Ellie Larson,Christina Vote,16:01,3rd Period,1,1,-1,16,1,0,2021-22
+2021-12-03,BU,Merrimack,PP,Julia Shaunessy,Nadia Mattivi,Courtney Correia,0:41,Overtime,2,1,0,0,41,1,2021-22
+2021-12-04,BU,Merrimack,,Alex Allan,Ellie Larson,Lacey Martin,7:12,1st Period,1,0,0,7,12,1,2021-22
+2021-12-04,BU,Merrimack,,Mackenna Parker,Emma Wuthrich,Tamara Giaquinto,8:55,1st Period,2,0,1,8,55,2,2021-22
+2021-12-04,BU,Merrimack,,Courtney Correia,Nadia Mattivi,Mackenna Parker,1:16,3rd Period,3,1,1,1,16,2,2021-22
+2021-12-04,BU,Merrimack,,Haylee Blinkhorn,Ellie Larson,Lacey Martin,5:06,3rd Period,4,1,2,5,6,3,2021-22
+2021-12-08,BU,Yale,,Emma Wuthrich,Courtney Correia,Tamara Giaquinto,6:49,2nd Period,1,1,-1,6,49,0,2021-22
+2021-12-08,BU,Yale,,Mackenna Parker,Courtney Correia,Julia Shaunessy,6:03,3rd Period,2,3,-2,6,3,-1,2021-22
+2022-01-01,BU,Syracuse,,Mackenna Parker,Lacey Martin,Unassisted,12:10,1st Period,1,1,-1,12,10,0,2021-22
+2022-01-01,BU,Syracuse,SH,Haylee Blinkhorn,Kaleigh Donnelly,Unassisted,3:48,3rd Period,2,3,-2,3,48,-1,2021-22
+2022-01-01,BU,Syracuse,,Lacey Martin,Jesse DeVito,Tamara Giaquinto,13:56,3rd Period,3,3,-1,13,56,0,2021-22
+2022-01-15,BU,Northeastern,,Lacey Martin,Julia Shaunessy,Catherine Foulem,15:44,1st Period,1,1,-1,15,44,0,2021-22
+2022-01-21,BU,Northeastern,,Courtney Correia,Emma Wuthrich,Unassisted,0:21,1st Period,1,0,0,0,21,1,2021-22
+2022-01-21,BU,Northeastern,,Catherine Foulem,Julia Nearis,Lacey Martin,1:08,1st Period,2,0,1,1,8,2,2021-22
+2022-01-21,BU,Northeastern,,Kaleigh Donnelly,Unassisted,Unassisted,18:46,1st Period,3,1,1,18,46,2,2021-22
+2022-01-28,BU,HC,,Julia Shaunessy,Clare O'Leary,Kylie Roberts,13:52,1st Period,1,0,0,13,52,1,2021-22
+2022-01-28,BU,HC,,Kylie Roberts,Tamara Giaquinto,Jesse DeVito,2:32,2nd Period,2,0,1,2,32,2,2021-22
+2022-01-28,BU,HC,,Christina Vote,Catherine Foulem,Nadia Mattivi,6:50,3rd Period,3,0,2,6,50,3,2021-22
+2022-01-28,BU,HC,,Kylie Roberts,Jesse DeVito,Unassisted,10:02,3rd Period,4,0,3,10,2,4,2021-22
+2022-02-01,BU,Harvard,,Lacey Martin,Haylee Blinkhorn,Julia Nearis,16:07,2nd Period,1,1,-1,16,7,0,2021-22
+2022-02-04,BU,UConn,SH,Mackenna Parker,Unassisted,Unassisted,13:13,2nd Period,1,1,-1,13,13,0,2021-22
+2022-02-11,BU,UVM,,Nadia Mattivi,Haylee Blinkhorn,Lacey Martin,11:12,1st Period,1,0,0,11,12,1,2021-22
+2022-02-11,BU,UVM,,Courtney Correia,Clare O'Leary,Catherine Foulem,19:36,1st Period,2,1,0,19,36,1,2021-22
+2022-02-11,BU,UVM,PP,Lacey Martin,Nadia Mattivi,Julia Nearis,4:25,2nd Period,3,1,1,4,25,2,2021-22
+2022-02-11,BU,UVM,,Julia Nearis,Andi Calderone,Haylee Blinkhorn,12:05,3rd Period,4,2,1,12,5,2,2021-22
+2022-02-12,BU,UVM,,Nadia Mattivi,Lacey Martin,Julia Nearis,18:23,3rd Period,1,4,-4,18,23,-3,2021-22
+2022-02-12,BU,UVM,,Mackenna Parker,Catherine Foulem,Courtney Correia,19:44,3rd Period,2,5,-4,19,44,-3,2021-22
+2022-02-15,BU,Maine,,Clare O'Leary,Lacey Martin,Alex Allan,4:35,3rd Period,1,2,-2,4,35,-1,2021-22
+2022-02-15,BU,Maine,,Courtney Correia,Mackenna Parker,Unassisted,18:05,3rd Period,2,2,-1,18,5,0,2021-22
+2022-02-15,BU,Maine,3x3,Lacey Martin,Julia Nearis,Nadia Mattivi,1:03,Overtime,3,2,0,1,3,1,2021-22
+2022-02-18,BU,PC,,Alex Allan,Haylee Blinkhorn,Julia Nearis,0:57,1st Period,1,0,0,0,57,1,2021-22
+2022-02-19,BU,PC,,Ellie Larson,Kaleigh Donnelly,Unassisted,8:49,2nd Period,1,1,-1,8,49,0,2021-22
+2022-02-26,BU,UConn,,Courtney Correia,Catherine Foulem,Nadia Mattivi,0:43,1st Period,1,0,0,0,43,1,2021-22
+2022-10-07,BU,RPI,,Sydney Healey,Unassisted,Unassisted,0:55,3rd Period,1,0,0,0,55,1,2022-23
+2022-10-07,BU,RPI,,Clara Yuhn,Alex Allan,Brooke Ersoy,13:15,3rd Period,2,0,1,13,15,2,2022-23
+2022-10-07,BU,RPI,,Brooke Ersoy,Liv Haag,Kylie Roberts,13:53,3rd Period,3,0,2,13,53,3,2022-23
+2022-10-07,BU,RPI,,Clara Yuhn,Christina Vote,Jesse DeVito,19:46,3rd Period,4,0,3,19,46,4,2022-23
+2022-10-08,BU,Union,,Nadia Mattivi,Sydney Healey,Julia Nearis,8:54,1st Period,1,1,-1,8,54,0,2022-23
+2022-10-14,BU,UNH,,Tamara Giaquinto,Kylie Roberts,Jesse DeVito,9:40,1st Period,1,0,0,9,40,1,2022-23
+2022-10-14,BU,UNH,,Christina Vote,Clara Yuhn,Jesse DeVito,10:30,3rd Period,2,0,1,10,30,2,2022-23
+2022-10-15,BU,UNH,,Andi Calderone,Liv Haag,Julia Nearis,3:43,2nd Period,1,1,-1,3,43,0,2022-23
+2022-10-15,BU,UNH,,Julia Nearis,Lacey Martin,Nadia Mattivi,18:25,2nd Period,2,2,-1,18,25,0,2022-23
+2022-10-22,BU,BC,4x4,Julia Nearis,Brooke Disher,Lacey Martin,15:44,1st Period,1,2,-2,15,44,-1,2022-23
+2022-10-22,BU,BC,,Nadia Mattivi,Brooke Ersoy,Catherine Foulem,10:10,3rd Period,2,5,-4,10,10,-3,2022-23
+2022-10-22,BU,BC,PP,Julia Shaunessy,Andi Calderone,Unassisted,11:02,3rd Period,3,5,-3,11,2,-2,2022-23
+2022-10-22,BU,BC,,Clara Yuhn,Alex Allan,Christina Vote,13:03,3rd Period,4,5,-2,13,3,-1,2022-23
+2022-10-28,BU,Merrimack,PP,Sydney Healey,Christina Vote,Lacey Martin,10:55,1st Period,1,0,0,10,55,1,2022-23
+2022-10-28,BU,Merrimack,,Madison Cardaci,Lacey Martin,Julia Nearis,18:39,1st Period,2,1,0,18,39,1,2022-23
+2022-10-29,BU,Merrimack,PP,Julia Nearis,Christina Vote,Lacey Martin,7:46,1st Period,1,1,-1,7,46,0,2022-23
+2022-10-29,BU,Merrimack,4x4,Andi Calderone,Clara Yuhn,Unassisted,2:38,2nd Period,2,1,0,2,38,1,2022-23
+2022-10-29,BU,Merrimack,,Sydney Healey,Catherine Foulem,Jesse DeVito,7:17,2nd Period,3,1,1,7,17,2,2022-23
+2022-10-29,BU,Merrimack,"PP, EA",Julia Nearis,Catherine Foulem,Lacey Martin,17:00,3rd Period,4,2,1,17,0,2,2022-23
+2022-10-29,BU,Merrimack,EN,Jesse DeVito,Maeve Kelly,Alex Allan,19:48,3rd Period,5,2,2,19,48,3,2022-23
+2022-11-04,BU,PC,,Catherine Foulem,Kylie Roberts,Unassisted,14:35,1st Period,1,0,0,14,35,1,2022-23
+2022-11-04,BU,PC,5x3,Lacey Martin,Nadia Mattivi,Julia Nearis,13:06,3rd Period,2,2,-1,13,6,0,2022-23
+2022-11-05,BU,PC,,Catherine Foulem,Jesse DeVito,Andi Calderone,8:02,1st Period,1,1,-1,8,2,0,2022-23
+2022-11-11,BU,UVM,PP,Sydney Healey,Julia Nearis,Nadia Mattivi,13:45,2nd Period,1,1,-1,13,45,0,2022-23
+2022-11-12,BU,UVM,PP,Julia Nearis,Nadia Mattivi,Sydney Healey,16:28,1st Period,1,1,-1,16,28,0,2022-23
+2022-11-12,BU,UVM,PP,Lacey Martin,Unassisted,Unassisted,18:27,1st Period,2,1,0,18,27,1,2022-23
+2022-11-12,BU,UVM,,Madison Cardaci,Julia Nearis,Lacey Martin,15:25,3rd Period,3,3,-1,15,25,0,2022-23
+2022-11-12,BU,UVM,3x3,Lacey Martin,Julia Nearis,Brooke Disher,0:19,Overtime,4,3,0,0,19,1,2022-23
+2022-11-18,BU,UConn,,Christina Vote,Catherine Foulem,Unassisted,14:26,1st Period,1,1,-1,14,26,0,2022-23
+2022-11-18,BU,UConn,,Brooke Disher,Nadia Mattivi,Catherine Foulem,7:17,2nd Period,2,1,0,7,17,1,2022-23
+2022-11-19,BU,UConn,,Catherine Foulem,Clara Yuhn,Christina Vote,13:21,1st Period,1,0,0,13,21,1,2022-23
+2022-11-19,BU,UConn,PP,Nadia Mattivi,Julia Nearis,Lacey Martin,9:34,2nd Period,2,1,0,9,34,1,2022-23
+2022-11-19,BU,UConn,,Haylee Blinkhorn,Andi Calderone,Maeve Kelly,18:37,2nd Period,3,2,0,18,37,1,2022-23
+2022-11-19,BU,UConn,,Haylee Blinkhorn,Sydney Healey,Brooke Disher,16:37,3rd Period,4,2,1,16,37,2,2022-23
+2022-11-19,BU,UConn,EN,Julia Nearis,Alex Allan,Unassisted,17:32,3rd Period,5,2,2,17,32,3,2022-23
+2022-12-03,BU,Maine,,Madison Cardaci,Unassisted,Unassisted,2:58,2nd Period,1,2,-2,2,58,-1,2022-23
+2022-12-03,BU,Maine,,Julia Nearis,Haylee Blinkhorn,Tamara Giaquinto,9:08,3rd Period,2,3,-2,9,8,-1,2022-23
+2022-12-09,BU,HC,,Brooke Disher,Christina Vote,Catherine Foulem,18:15,1st Period,1,0,0,18,15,1,2022-23
+2022-12-09,BU,HC,,Lacey Martin,Andi Calderone,Haylee Blinkhorn,15:40,2nd Period,2,2,-1,15,40,0,2022-23
+2022-12-09,BU,HC,3x3,Nadia Mattivi,Callie Shanahan,Unassisted,0:50,Overtime,3,2,0,0,50,1,2022-23
+2023-01-06,BU,HC,,Clara Yuhn,Sydney Healey,Unassisted,12:04,2nd Period,1,1,-1,12,4,0,2022-23
+2023-01-06,BU,HC,EA,Clare O'Leary,Lacey Martin,Nadia Mattivi,18:55,3rd Period,2,3,-2,18,55,-1,2022-23
+2023-01-13,BU,HC,"PP, EA",Clare O'Leary,Nadia Mattivi,Sydney Healey,18:01,3rd Period,1,1,-1,18,1,0,2022-23
+2023-01-17,BU,PC,,Julia Shaunessy,Christina Vote,Madison Cardaci,7:04,1st Period,1,0,0,7,4,1,2022-23
+2023-01-17,BU,PC,PP,Julia Nearis,Christina Vote,Nadia Mattivi,10:25,1st Period,2,0,1,10,25,2,2022-23
+2023-01-20,BU,Maine,,Christina Vote,Unassisted,Unassisted,6:53,1st Period,1,1,-1,6,53,0,2022-23
+2023-01-20,BU,Maine,,Lacey Martin,Brooke Disher,Clara Yuhn,7:59,1st Period,2,1,0,7,59,1,2022-23
+2023-01-20,BU,Maine,PP,Julia Nearis,Sydney Healey,Nadia Mattivi,3:55,3rd Period,3,3,-1,3,55,0,2022-23
+2023-01-21,BU,UNH,5x3,Brooke Disher,Clara Yuhn,Julia Shaunessy,17:46,1st Period,1,1,-1,17,46,0,2022-23
+2023-01-21,BU,UNH,PP,Clare O'Leary,Nadia Mattivi,Julia Nearis,18:12,1st Period,2,1,0,18,12,1,2022-23
+2023-01-21,BU,UNH,EN,Clara Yuhn,Brooke Disher,Unassisted,19:16,3rd Period,3,1,1,19,16,2,2022-23
+2023-01-27,BU,Merrimack,,Madison Cardaci,Catherine Foulem,Christina Vote,5:50,1st Period,1,0,0,5,50,1,2022-23
+2023-01-27,BU,Merrimack,,Madison Cardaci,Catherine Foulem,Brooke Disher,1:09,3rd Period,2,0,1,1,9,2,2022-23
+2023-01-27,BU,Merrimack,,Madison Cardaci,Christina Vote,Brooke Disher,4:40,3rd Period,3,0,2,4,40,3,2022-23
+2023-01-27,BU,Merrimack,EN,Clara Yuhn,Lacey Martin,Unassisted,20:00,3rd Period,4,1,2,20,0,3,2022-23
+2023-01-28,BU,UVM,,Catherine Foulem,Christina Vote,Nadia Mattivi,2:53,1st Period,1,0,0,2,53,1,2022-23
+2023-01-28,BU,UVM,3x3,Julia Nearis,Brooke Disher,Unassisted,0:19,Overtime,2,1,0,0,19,1,2022-23
+2023-02-03,BU,UConn,,Brooke Disher,Catherine Foulem,Christina Vote,16:07,3rd Period,1,2,-2,16,7,-1,2022-23
+2023-02-03,BU,UConn,EA,Catherine Foulem,Christina Vote,Brooke Disher,18:35,3rd Period,2,2,-1,18,35,0,2022-23
+2023-02-07,BU,Northeastern,,Brooke Disher,Lacey Martin,Julia Nearis,2:01,2nd Period,1,1,-1,2,1,0,2022-23
+2023-02-11,BU,BC,,Haylee Blinkhorn,Lacey Martin,Maggie Hanzel,14:41,2nd Period,1,2,-2,14,41,-1,2022-23
+2023-02-14,BU,Harvard,,Sydney Healey,Tamara Giaquinto,Unassisted,13:21,1st Period,1,1,-1,13,21,0,2022-23
+2023-02-14,BU,Harvard,,Julia Nearis,Clare O'Leary,Alex Allan,3:55,2nd Period,2,3,-2,3,55,-1,2022-23
+2023-02-14,BU,Harvard,,Brooke Disher,Catherine Foulem,Maeve Kelly,11:16,2nd Period,3,4,-2,11,16,-1,2022-23
+2023-02-14,BU,Harvard,PP,Nadia Mattivi,Julia Nearis,Christina Vote,19:07,2nd Period,4,4,-1,19,7,0,2022-23
+2023-02-14,BU,Harvard,,Christina Vote,Catherine Foulem,Madison Cardaci,11:51,3rd Period,5,4,0,11,51,1,2022-23
+2023-02-14,BU,Harvard,,Clara Yuhn,Unassisted,Unassisted,13:37,3rd Period,6,4,1,13,37,2,2022-23
+2023-02-14,BU,Harvard,EN,Christina Vote,Madison Cardaci,Catherine Foulem,18:30,3rd Period,7,4,2,18,30,3,2022-23
+2023-02-17,BU,Northeastern,PP,Nadia Mattivi,Julia Nearis,Brooke Disher,8:30,2nd Period,1,2,-2,8,30,-1,2022-23
+2023-02-22,BU,Merrimack,,Julia Nearis,Clare O'Leary,Unassisted,13:51,1st Period,1,1,-1,13,51,0,2022-23
+2023-02-22,BU,Merrimack,,Brooke Disher,Unassisted,Unassisted,7:05,2nd Period,2,1,0,7,5,1,2022-23
+2023-02-22,BU,Merrimack,,Clara Yuhn,Sydney Healey,Jesse DeVito,8:51,2nd Period,3,2,0,8,51,1,2022-23
+2023-02-22,BU,Merrimack,PP,Julia Shaunessy,Andi Calderone,Lacey Martin,19:34,2nd Period,4,4,-1,19,34,0,2022-23
+2023-10-06,BU,Northeastern,,Catherine Foulem,Sydney Healey,Clara Yuhn,15:25,1st Period,1,1,-1,15,25,0,2023-24
+2023-10-20,BU,Syracuse,,Maggie Hanzel,Alex Law,Unassisted,9:29,1st Period,1,2,-2,9,29,-1,2023-24
+2023-10-20,BU,Syracuse,,Nadia Mattivi,Catherine Foulem,Unassisted,1:24,2nd Period,2,2,-1,1,24,0,2023-24
+2023-10-20,BU,Syracuse,,Brooke Disher,Luisa Welcke,Sydney Healey,17:40,2nd Period,3,2,0,17,40,1,2023-24
+2023-10-20,BU,Syracuse,,Lacey Martin,Clara Yuhn,Nadia Mattivi,4:25,3rd Period,4,3,0,4,25,1,2023-24
+2023-10-21,BU,Syracuse,,Sydney Healey,Unassisted,Unassisted,13:39,1st Period,1,0,0,13,39,1,2023-24
+2023-10-21,BU,Syracuse,PP,Luisa Welcke,Lilli Welcke,Julia Shaunessy,11:04,2nd Period,2,1,0,11,4,1,2023-24
+2023-10-21,BU,Syracuse,,Alex Law,Clara Yuhn,Unassisted,13:08,2nd Period,3,1,1,13,8,2,2023-24
+2023-10-21,BU,Syracuse,,Lacey Martin,Maggie Hanzel,Tamara Giaquinto,1:16,3rd Period,4,1,2,1,16,3,2023-24
+2023-10-21,BU,Syracuse,PP,Sydney Healey,Nadia Mattivi,Clara Yuhn,16:03,3rd Period,5,1,3,16,3,4,2023-24
+2023-10-21,BU,Syracuse,,Catherine Foulem,Nadia Mattivi,Sydney Healey,18:36,3rd Period,6,1,4,18,36,5,2023-24
+2023-10-28,BU,Maine,,Andi Calderone,Lacey Martin,Unassisted,15:55,1st Period,1,0,0,15,55,1,2023-24
+2023-10-28,BU,Maine,,Lacey Martin,Maggie Hanzel,Unassisted,11:32,2nd Period,2,1,0,11,32,1,2023-24
+2023-10-28,BU,Maine,,Sydney Healey,Catherine Foulem,Unassisted,12:35,2nd Period,3,1,1,12,35,2,2023-24
+2023-10-28,BU,Maine,PP,Clara Yuhn,Nadia Mattivi,Tamara Giaquinto,11:46,3rd Period,4,3,0,11,46,1,2023-24
+2023-11-03,BU,Merrimack,"PP, EA",Neely Nicholson,Christina Vote,Julia Shaunessy,19:04,3rd Period,1,1,-1,19,4,0,2023-24
+2023-11-03,BU,Merrimack,3x3,Catherine Foulem,Nadia Mattivi,Unassisted,2:58,Overtime,2,1,0,2,58,1,2023-24
+2023-11-04,BU,Merrimack,,Lacey Martin,Alex Law,Clara Yuhn,9:17,2nd Period,1,1,-1,9,17,0,2023-24
+2023-11-04,BU,Merrimack,PP,Lacey Martin,Christina Vote,Andi Calderone,13:15,2nd Period,2,1,0,13,15,1,2023-24
+2023-11-04,BU,Merrimack,,Lacey Martin,Clara Yuhn,Alex Law,7:56,3rd Period,3,2,0,7,56,1,2023-24
+2023-11-04,BU,Merrimack,3x3,Tamara Giaquinto,Christina Vote,Unassisted,1:59,Overtime,4,3,0,1,59,1,2023-24
+2023-11-10,BU,UNH,,Lilli Welcke,Tamara Giaquinto,Neely Nicholson,18:13,1st Period,1,4,-4,18,13,-3,2023-24
+2023-11-10,BU,UNH,,Catherine Foulem,Christina Vote,Maggie Hanzel,19:09,2nd Period,2,4,-3,19,9,-2,2023-24
+2023-11-11,BU,UNH,SH,Catherine Foulem,Unassisted,Unassisted,1:03,1st Period,1,0,0,1,3,1,2023-24
+2023-11-11,BU,UNH,,Lacey Martin,Maggie Hanzel,Andi Calderone,11:49,1st Period,2,0,1,11,49,2,2023-24
+2023-11-11,BU,UNH,PP,Andi Calderone,Lacey Martin,Unassisted,5:11,2nd Period,3,1,1,5,11,2,2023-24
+2023-11-11,BU,UNH,PP,Andi Calderone,Christina Vote,Maggie Hanzel,9:39,2nd Period,4,1,2,9,39,3,2023-24
+2023-11-11,BU,UNH,,Clara Yuhn,Unassisted,Unassisted,17:20,3rd Period,5,3,1,17,20,2,2023-24
+2023-11-14,BU,Harvard,,Madison Cardaci,Lacey Martin,Andi Calderone,19:44,2nd Period,1,3,-3,19,44,-2,2023-24
+2023-11-17,BU,BC,,Sydney Healey,Lilli Welcke,Unassisted,13:27,1st Period,1,0,0,13,27,1,2023-24
+2023-11-17,BU,BC,,Clara Yuhn,Lacey Martin,Brooke Disher,3:45,2nd Period,2,1,0,3,45,1,2023-24
+2023-11-17,BU,BC,PP,Neely Nicholson,Lacey Martin,Andi Calderone,8:31,3rd Period,3,3,-1,8,31,0,2023-24
+2023-11-18,BU,PC,PP,Maggie Hanzel,Neely Nicholson,Lacey Martin,15:05,2nd Period,1,1,-1,15,5,0,2023-24
+2023-11-24,BU,RMU,SH,Catherine Foulem,Luisa Welcke,Maeve Kelly,9:22,1st Period,1,0,0,9,22,1,2023-24
+2023-11-24,BU,RMU,,Christina Vote,Catherine Foulem,Lacey Martin,16:13,1st Period,2,0,1,16,13,2,2023-24
+2023-11-24,BU,RMU,,Ella Huntley,Lilli Welcke,Luisa Welcke,16:40,1st Period,3,0,2,16,40,3,2023-24
+2023-11-26,BU,MnSU,PP,Christina Vote,Lacey Martin,Maggie Hanzel,5:53,2nd Period,1,0,0,5,53,1,2023-24
+2023-11-26,BU,MnSU,,Brooke Disher,Liv Haag,Jackson Kinsler,4:20,3rd Period,2,6,-5,4,20,-4,2023-24
+2023-12-01,BU,Northeastern,,Clara Yuhn,Lacey Martin,Alex Law,8:13,2nd Period,1,0,0,8,13,1,2023-24
+2023-12-02,BU,PC,,Tamara Giaquinto,Catherine Foulem,Alex Law,10:27,1st Period,1,0,0,10,27,1,2023-24
+2023-12-02,BU,PC,,Nadia Mattivi,Alex Law,Ani Fitzgerald,15:27,1st Period,2,0,1,15,27,2,2023-24
+2023-12-02,BU,PC,SH,Brooke Disher,Nadia Mattivi,Christina Vote,9:27,2nd Period,3,1,1,9,27,2,2023-24
+2023-12-08,BU,HC,,Ani Fitzgerald,Sydney Healey,Brooke Disher,3:14,1st Period,1,0,0,3,14,1,2023-24
+2023-12-08,BU,HC,PP,Luisa Welcke,Tamara Giaquinto,Andi Calderone,15:13,3rd Period,2,1,0,15,13,1,2023-24
+2023-12-09,BU,PC,,Clara Yuhn,Ella Huntley,Maeve Kelly,1:28,1st Period,1,0,0,1,28,1,2023-24
+2023-12-09,BU,PC,,Catherine Foulem,Alex Law,Christina Vote,3:13,2nd Period,2,1,0,3,13,1,2023-24
+2023-12-09,BU,PC,,Alex Law,Clara Yuhn,Catherine Foulem,6:01,2nd Period,3,1,1,6,1,2,2023-24
+2023-12-09,BU,PC,PP,Luisa Welcke,Lilli Welcke,Andi Calderone,16:11,3rd Period,4,1,2,16,11,3,2023-24
+2023-12-09,BU,PC,EN,Madison Cardaci,Sydney Healey,Unassisted,19:44,3rd Period,5,1,3,19,44,4,2023-24
+2024-01-08,BU,Maine,PP,Luisa Welcke,Lilli Welcke,Andi Calderone,15:23,1st Period,1,0,0,15,23,1,2023-24
+2024-01-08,BU,Maine,,Alex Law,Catherine Foulem,Unassisted,7:49,2nd Period,2,1,0,7,49,1,2023-24
+2024-01-08,BU,Maine,PP,Lacey Martin,Brooke Disher,Neely Nicholson,18:19,2nd Period,3,1,1,18,19,2,2023-24
+2024-01-08,BU,Maine,,Lacey Martin,Maeve Kelly,Unassisted,17:34,3rd Period,4,3,0,17,34,1,2023-24
+2024-01-12,BU,UNH,,Luisa Welcke,Nadia Mattivi,Brooke Disher,13:10,3rd Period,1,4,-4,13,10,-3,2023-24
+2024-01-13,BU,UConn,PP,Sydney Healey,Tamara Giaquinto,Lilli Welcke,13:11,1st Period,1,2,-2,13,11,-1,2023-24
+2024-01-13,BU,UConn,,Lilli Welcke,Tamara Giaquinto,Nadia Mattivi,7:58,2nd Period,2,2,-1,7,58,0,2023-24
+2024-01-16,BU,BC,,Sydney Healey,Ani Fitzgerald,Unassisted,2:16,1st Period,1,0,0,2,16,1,2023-24
+2024-01-16,BU,BC,,Luisa Welcke,Neely Nicholson,Lilli Welcke,10:02,1st Period,2,1,0,10,2,1,2023-24
+2024-01-16,BU,BC,,Lacey Martin,Clara Yuhn,Unassisted,1:36,3rd Period,3,2,0,1,36,1,2023-24
+2024-01-19,BU,UVM,,Ani Fitzgerald,Unassisted,Unassisted,2:18,1st Period,1,0,0,2,18,1,2023-24
+2024-01-19,BU,UVM,,Catherine Foulem,Alex Law,Maeve Kelly,16:45,1st Period,2,0,1,16,45,2,2023-24
+2024-01-19,BU,UVM,PP,Clara Yuhn,Nadia Mattivi,Brooke Disher,20:00,1st Period,3,0,2,20,0,3,2023-24
+2024-01-19,BU,UVM,,Sydney Healey,Nadia Mattivi,Tamara Giaquinto,7:39,2nd Period,4,0,3,7,39,4,2023-24
+2024-01-19,BU,UVM,,Lacey Martin,Ella Huntley,Clara Yuhn,16:20,2nd Period,5,0,4,16,20,5,2023-24
+2024-01-19,BU,UVM,,Maggie Hanzel,Brooke Disher,Clara Yuhn,6:58,3rd Period,6,0,5,6,58,6,2023-24
+2024-01-20,BU,UVM,,Catherine Foulem,Christina Vote,Tamara Giaquinto,16:49,1st Period,1,1,-1,16,49,0,2023-24
+2024-01-20,BU,UVM,,Ani Fitzgerald,Sydney Healey,Brooke Disher,17:59,1st Period,2,1,0,17,59,1,2023-24
+2024-01-20,BU,UVM,,Lacey Martin,Clara Yuhn,Ella Huntley,1:01,3rd Period,3,2,0,1,1,1,2023-24
+2024-01-20,BU,UVM,EN,Nadia Mattivi,Tamara Giaquinto,Unassisted,18:33,3rd Period,4,2,1,18,33,2,2023-24
+2024-01-23,BU,Northeastern,EA,Catherine Foulem,Sydney Healey,Alex Law,19:03,3rd Period,1,1,-1,19,3,0,2023-24
+2024-01-26,BU,HC,,Ani Fitzgerald,Ella Huntley,Madison Cardaci,5:00,1st Period,1,0,0,5,0,1,2023-24
+2024-01-27,BU,HC,,Clara Yuhn,Catherine Foulem,Nadia Mattivi,5:51,2nd Period,1,1,-1,5,51,0,2023-24
+2024-01-27,BU,HC,,Alex Law,Lacey Martin,Maeve Kelly,14:52,2nd Period,2,2,-1,14,52,0,2023-24
+2024-02-03,BU,BC,SH,Liv Haag,Unassisted,Unassisted,18:34,1st Period,1,0,0,18,34,1,2023-24
+2024-02-03,BU,BC,,Christina Vote,Nadia Mattivi,Unassisted,4:06,3rd Period,2,0,1,4,6,2,2023-24
+2024-02-03,BU,BC,PP,Lacey Martin,Nadia Mattivi,Catherine Foulem,8:05,3rd Period,3,0,2,8,5,3,2023-24
+2024-02-09,BU,Maine,,Luisa Welcke,Brooke Disher,Unassisted,17:36,2nd Period,1,2,-2,17,36,-1,2023-24
+2024-02-16,BU,UVM,,Ani Fitzgerald,Maeve Kelly,Callie Shanahan,9:07,1st Period,1,1,-1,9,7,0,2023-24
+2024-02-16,BU,UVM,,Lacey Martin,Catherine Foulem,Clara Yuhn,0:29,2nd Period,2,1,0,0,29,1,2023-24
+2024-02-16,BU,UVM,,Catherine Foulem,Clara Yuhn,Lacey Martin,8:11,2nd Period,3,1,1,8,11,2,2023-24
+2024-02-16,BU,UVM,,Jackson Kinsler,Ani Fitzgerald,Julia Shaunessy,7:28,3rd Period,4,1,2,7,28,3,2023-24
+2024-02-17,BU,Merrimack,,Clara Yuhn,Catherine Foulem,Lacey Martin,13:50,2nd Period,1,0,0,13,50,1,2023-24
+2024-02-17,BU,Merrimack,PP,Tamara Giaquinto,Andi Calderone,Catherine Foulem,19:57,2nd Period,2,0,1,19,57,2,2023-24
+2024-02-17,BU,Merrimack,,Clara Yuhn,Lacey Martin,Nadia Mattivi,9:28,3rd Period,3,0,2,9,28,3,2023-24
+2024-02-17,BU,Merrimack,5x3,Tamara Giaquinto,Lilli Welcke,Luisa Welcke,17:03,3rd Period,4,0,3,17,3,4,2023-24
+2024-02-28,BU,HC,PP,Tamara Giaquinto,Lilli Welcke,Luisa Welcke,7:02,1st Period,1,1,-1,7,2,0,2023-24
+2024-02-28,BU,HC,,Julia Shaunessy,Ani Fitzgerald,Tamara Giaquinto,18:05,1st Period,2,1,0,18,5,1,2023-24
+2024-10-01,BU,Merrimack,5x3,Tamara Giaquinto,Luisa Welcke,Lilli Welcke,8:11,1st Period,1,0,0,8,11,1,2024-25
+2024-10-01,BU,Merrimack,,Lola Reid,Tamara Giaquinto,Unassisted,3:23,2nd Period,2,1,0,3,23,1,2024-25
+2024-10-01,BU,Merrimack,PP,Lindsay Bochna,Christina Vote,Julia Shaunessy,7:23,2nd Period,3,1,1,7,23,2,2024-25
+2024-10-01,BU,Merrimack,PP,Tamara Giaquinto,Keira Healey,Lilli Welcke,8:39,2nd Period,4,1,2,8,39,3,2024-25
+2024-10-01,BU,Merrimack,,Clara Yuhn,Christina Vote,Maeve Carey,15:56,3rd Period,5,1,3,15,56,4,2024-25
+2024-10-01,BU,Merrimack,,Ani Fitzgerald,Lola Reid,Maeve Kelly,17:30,3rd Period,6,1,4,17,30,5,2024-25
+2024-10-01,BU,Merrimack,,Kaileigh Quigg,Lola Reid,Unassisted,19:32,3rd Period,7,1,5,19,32,6,2024-25
+2024-10-06,BU,Minnesota,,Lilli Welcke,Lola Reid,Maggie Hanzel,13:05,2nd Period,1,1,-1,13,5,0,2024-25
+2024-10-06,BU,Minnesota,,Riley Walsh,Unassisted,Unassisted,2:12,3rd Period,2,4,-3,2,12,-2,2024-25
+2024-10-12,BU,Northeastern,,Lola Reid,Unassisted,Unassisted,4:26,1st Period,1,0,0,4,26,1,2024-25
+2024-10-12,BU,Northeastern,,Riley Walsh,Sydney Healey,Maeve Carey,7:34,3rd Period,2,0,1,7,34,2,2024-25
+2024-10-12,BU,Northeastern,EN,Sydney Healey,Maggie Hanzel,Maeve Kelly,17:54,3rd Period,3,0,2,17,54,3,2024-25
+2024-10-12,BU,Northeastern,EN,Clara Yuhn,Tamara Giaquinto,Unassisted,18:54,3rd Period,4,0,3,18,54,4,2024-25
+2024-10-18,BU,Maine,,Lola Reid,Julia Shaunessy,Unassisted,12:14,1st Period,1,0,0,12,14,1,2024-25
+2024-10-18,BU,Maine,,Lilli Welcke,Luisa Welcke,Riley Walsh,13:09,1st Period,2,0,1,13,9,2,2024-25
+2024-10-19,BU,Maine,,Sydney Healey,Lola Reid,Alex Law,13:44,1st Period,1,0,0,13,44,1,2024-25
+2024-10-19,BU,Maine,PP,Tamara Giaquinto,Lola Reid,Unassisted,17:05,3rd Period,2,0,1,17,5,2,2024-25
+2024-10-25,BU,Syracuse,PP,Clara Yuhn,Christina Vote,Julia Shaunessy,16:28,2nd Period,1,1,-1,16,28,0,2024-25
+2024-10-25,BU,Syracuse,,Lola Reid,Riley Walsh,Ani Fitzgerald,18:09,2nd Period,2,1,0,18,9,1,2024-25
+2024-10-25,BU,Syracuse,,Lola Reid,Luisa Welcke,Maggie Hanzel,2:01,3rd Period,3,1,1,2,1,2,2024-25
+2024-10-25,BU,Syracuse,,Maeve Kelly,Christina Vote,Unassisted,12:16,3rd Period,4,1,2,12,16,3,2024-25
+2024-10-26,BU,Syracuse,PP,Sydney Healey,Christina Vote,Lindsay Bochna,15:22,2nd Period,1,0,0,15,22,1,2024-25
+2024-10-26,BU,Syracuse,,Riley Walsh,Ani Fitzgerald,Maeve Kelly,3:52,3rd Period,2,1,0,3,52,1,2024-25
+2024-10-26,BU,Syracuse,,Lola Reid,Keira Healey,Tamara Giaquinto,12:35,3rd Period,3,1,1,12,35,2,2024-25
+2024-11-01,BU,PC,SH,Neely Nicholson,Alex Law,Unassisted,3:26,1st Period,1,0,0,3,26,1,2024-25
+2024-11-01,BU,PC,,Riley Walsh,Ani Fitzgerald,Lola Reid,8:17,1st Period,2,0,1,8,17,2,2024-25
+2024-11-01,BU,PC,,Clara Yuhn,Julia Shaunessy,Christina Vote,13:42,2nd Period,3,0,2,13,42,3,2024-25
+2024-11-01,BU,PC,EN,Ani Fitzgerald,Christina Vote,Unassisted,16:38,3rd Period,4,1,2,16,38,3,2024-25
+2024-11-01,BU,PC,EN,Lola Reid,Ani Fitzgerald,Julia Shaunessy,19:18,3rd Period,5,1,3,19,18,4,2024-25
+2024-11-02,BU,PC,PP,Clara Yuhn,Christina Vote,Lindsay Bochna,6:32,1st Period,1,0,0,6,32,1,2024-25
+2024-11-02,BU,PC,,Luisa Welcke,Lindsay Bochna,Lilli Welcke,18:11,2nd Period,2,1,0,18,11,1,2024-25
+2024-11-02,BU,PC,EN,Luisa Welcke,Lilli Welcke,Unassisted,18:45,3rd Period,3,1,1,18,45,2,2024-25
+2024-11-07,BU,Merrimack,PP,Sydney Healey,Christina Vote,Julia Shaunessy,9:22,1st Period,1,0,0,9,22,1,2024-25
+2024-11-07,BU,Merrimack,,Clara Yuhn,Lindsay Bochna,Christina Vote,17:02,1st Period,2,0,1,17,2,2,2024-25
+2024-11-07,BU,Merrimack,,Clara Yuhn,Christina Vote,Unassisted,19:13,1st Period,3,0,2,19,13,3,2024-25
+2024-11-07,BU,Merrimack,,Sydney Healey,Unassisted,Unassisted,9:05,3rd Period,4,0,3,9,5,4,2024-25
+2024-11-07,BU,Merrimack,,Neely Nicholson,Riley Walsh,Unassisted,18:21,3rd Period,5,1,3,18,21,4,2024-25
+2024-11-08,BU,Merrimack,,Lindsay Bochna,Christina Vote,Clara Yuhn,13:52,1st Period,1,0,0,13,52,1,2024-25
+2024-11-08,BU,Merrimack,4x4,Luisa Welcke,Unassisted,Unassisted,15:43,1st Period,2,0,1,15,43,2,2024-25
+2024-11-08,BU,Merrimack,,Neely Nicholson,Julia Shaunessy,Unassisted,6:23,3rd Period,3,2,0,6,23,1,2024-25
+2024-11-15,BU,BC,PP,Sydney Healey,Julia Shaunessy,Lindsay Bochna,1:15,2nd Period,1,1,-1,1,15,0,2024-25
+2024-11-15,BU,BC,,Julia Shaunessy,Kaileigh Quigg,Clara Yuhn,3:47,2nd Period,2,2,-1,3,47,0,2024-25
+2024-11-16,BU,BC,,Ani Fitzgerald,Kaileigh Quigg,Riley Walsh,3:19,2nd Period,1,1,-1,3,19,0,2024-25
+2024-11-16,BU,BC,,Lindsay Bochna,Julia Shaunessy,Clara Yuhn,4:44,2nd Period,2,1,0,4,44,1,2024-25
+2024-11-16,BU,BC,,Sydney Healey,Julia Shaunessy,Lilli Welcke,14:21,3rd Period,3,1,1,14,21,2,2024-25
+2024-11-27,BU,Princeton,,Kaileigh Quigg,Julia Shaunessy,Ani Fitzgerald,3:04,3rd Period,1,5,-5,3,4,-4,2024-25
+2024-12-06,BU,Maine,PP,Tamara Giaquinto,Maggie Hanzel,Keira Healey,11:38,2nd Period,1,0,0,11,38,1,2024-25
+2024-12-06,BU,Maine,,Riley Walsh,Maeve Carey,Unassisted,7:38,3rd Period,2,1,0,7,38,1,2024-25
+2024-12-06,BU,Maine,"SH, EN",Lindsay Bochna,Unassisted,Unassisted,18:22,3rd Period,3,1,1,18,22,2,2024-25
+2025-01-03,BU,HC,PP,Christina Vote,Clara Yuhn,Sydney Healey,2:52,2nd Period,1,0,0,2,52,1,2024-25
+2025-01-03,BU,HC,,Riley Walsh,Luisa Welcke,Tamara Giaquinto,9:30,2nd Period,2,0,1,9,30,2,2024-25
+2025-01-03,BU,HC,PP,Tamara Giaquinto,Neely Nicholson,Maggie Hanzel,5:47,3rd Period,3,0,2,5,47,3,2024-25
+2025-01-10,BU,UVM,,Lilli Welcke,Maeve Kelly,Unassisted,1:01,1st Period,1,0,0,1,1,1,2024-25
+2025-01-10,BU,UVM,SH,Luisa Welcke,Tamara Giaquinto,Lilli Welcke,13:17,2nd Period,2,0,1,13,17,2,2024-25
+2025-01-11,BU,UVM,,Sydney Healey,Lilli Welcke,Lindsay Bochna,0:19,1st Period,1,0,0,0,19,1,2024-25
+2025-01-11,BU,UVM,PP,Maggie Hanzel,Keira Healey,Tamara Giaquinto,10:42,1st Period,2,1,0,10,42,1,2024-25
+2025-01-14,BU,Harvard,EA,Sydney Healey,Riley Walsh,Julia Shaunessy,19:05,3rd Period,1,1,-1,19,5,0,2024-25
+2025-01-14,BU,Harvard,3x3,Lindsay Bochna,Julia Shaunessy,Unassisted,3:43,Overtime,2,1,0,3,43,1,2024-25
+2025-01-24,BU,HC,,Alex Law,Julia Shaunessy,Luisa Welcke,4:26,1st Period,1,0,0,4,26,1,2024-25
+2025-01-24,BU,HC,,Lola Reid,Tamara Giaquinto,Keira Healey,17:54,2nd Period,2,0,1,17,54,2,2024-25
+2025-01-25,BU,HC,PP,Tamara Giaquinto,Maggie Hanzel,Keira Healey,15:18,1st Period,1,0,0,15,18,1,2024-25
+2025-01-25,BU,HC,,Clara Yuhn,Alex Law,Tamara Giaquinto,17:32,1st Period,2,0,1,17,32,2,2024-25
+2025-01-25,BU,HC,PP,Lindsay Bochna,Christina Vote,Sydney Healey,11:24,2nd Period,3,0,2,11,24,3,2024-25
+2025-01-31,BU,BC,,Lilli Welcke,Unassisted,Unassisted,12:53,1st Period,1,1,-1,12,53,0,2024-25
+2025-01-31,BU,BC,4x4,Kaileigh Quigg,Maggie Hanzel,Unassisted,5:59,2nd Period,2,1,0,5,59,1,2024-25
+2025-01-31,BU,BC,,Riley Walsh,Tamara Giaquinto,Luisa Welcke,10:40,3rd Period,3,2,0,10,40,1,2024-25
+2025-02-01,BU,UVM,,Sydney Healey,Lilli Welcke,Maggie Hanzel,10:24,1st Period,1,0,0,10,24,1,2024-25
+2025-02-01,BU,UVM,5x3,Julia Shaunessy,Clara Yuhn,Lindsay Bochna,7:37,2nd Period,2,1,0,7,37,1,2024-25
+2025-02-01,BU,UVM,PP,Luisa Welcke,Maeve Carey,Maeve Kelly,11:13,3rd Period,3,1,1,11,13,2,2024-25
+2025-02-01,BU,UVM,EN,Sydney Healey,Kaileigh Quigg,Lindsay Bochna,19:11,3rd Period,4,1,2,19,11,3,2024-25
+2025-02-04,BU,Northeastern,,Kaileigh Quigg,Lindsay Bochna,Sydney Healey,12:43,1st Period,1,0,0,12,43,1,2024-25
+2025-02-04,BU,Northeastern,PP,Clara Yuhn,Sydney Healey,Julia Shaunessy,17:33,2nd Period,2,0,1,17,33,2,2024-25
+2025-02-04,BU,Northeastern,3x3,Alex Law,Sydney Healey,Maggie Hanzel,4:30,Overtime,3,2,0,4,30,1,2024-25
+2025-02-07,BU,UConn,,Neely Nicholson,Ani Fitzgerald,Liv Haag,16:28,2nd Period,1,2,-2,16,28,-1,2024-25
+2025-02-08,BU,PC,,Sydney Healey,Christina Vote,Lindsay Bochna,7:48,3rd Period,1,1,-1,7,48,0,2024-25
+2025-02-08,BU,PC,,Maeve Carey,Alex Law,Kaileigh Quigg,9:16,3rd Period,2,1,0,9,16,1,2024-25
+2025-02-08,BU,PC,SH,Alex Law,Unassisted,Unassisted,10:55,3rd Period,3,1,1,10,55,2,2024-25
+2025-02-08,BU,PC,EN,Sydney Healey,Maeve Carey,Unassisted,17:08,3rd Period,4,1,2,17,8,3,2024-25
+2025-02-14,BU,UNH,,Christina Vote,Lindsay Bochna,Maeve Kelly,17:43,1st Period,1,0,0,17,43,1,2024-25
+2025-02-14,BU,UNH,,Maggie Hanzel,Ani Fitzgerald,Neely Nicholson,11:30,2nd Period,2,0,1,11,30,2,2024-25
+2025-02-15,BU,UNH,,Tamara Giaquinto,Keira Healey,Sydney Healey,10:02,1st Period,1,0,0,10,2,1,2024-25
+2025-02-15,BU,UNH,,Tamara Giaquinto,Sydney Healey,Christina Vote,18:18,1st Period,2,1,0,18,18,1,2024-25
+2025-02-21,BU,UConn,PP,Lindsay Bochna,Christina Vote,Clara Yuhn,3:53,3rd Period,1,4,-4,3,53,-3,2024-25
+2025-02-22,BU,UConn,,Luisa Welcke,Riley Walsh,Unassisted,18:47,2nd Period,1,1,-1,18,47,0,2024-25
+2025-03-01,BU,UVM,,Maeve Kelly,Riley Walsh,Lilli Welcke,8:28,1st Period,1,1,-1,8,28,0,2024-25
+2025-03-01,BU,UVM,,Lilli Welcke,Riley Walsh,Luisa Welcke,19:28,1st Period,2,2,-1,19,28,0,2024-25
+2025-03-01,BU,UVM,,Sydney Healey,Maeve Kelly,Luisa Welcke,9:59,3rd Period,3,3,-1,9,59,0,2024-25
+2025-03-01,BU,UVM,,Riley Walsh,Maggie Hanzel,Alex Law,3:59,Overtime,4,3,0,3,59,1,2024-25
+2025-03-05,BU,BC,,Clara Yuhn,Christina Vote,Maggie Hanzel,2:48,2nd Period,1,1,-1,2,48,0,2024-25
+2025-03-05,BU,BC,,Riley Walsh,Lilli Welcke,Luisa Welcke,5:10,3rd Period,2,2,-1,5,10,0,2024-25
+2025-03-05,BU,BC,,Lindsay Bochna,Christina Vote,Clara Yuhn,7:12,Overtime,3,2,0,7,12,1,2024-25
+2025-03-08,BU,Northeastern,,Tamara Giaquinto,Lilli Welcke,Luisa Welcke,4:54,1st Period,1,0,0,4,54,1,2024-25
+2025-03-08,BU,Northeastern,,Clara Yuhn,Christina Vote,Maeve Kelly,5:00,3rd Period,2,2,-1,5,0,0,2024-25
+2025-03-08,BU,Northeastern,,Sydney Healey,Lilli Welcke,Maeve Kelly,4:43,Overtime,3,2,0,4,43,1,2024-25
+2025-03-13,BU,Clarkson,EA,Lindsay Bochna,Julia Shaunessy,Alex Law,15:59,3rd Period,1,2,-2,15,59,-1,2024-25
+2025-10-04,BU,Minnesota,,Sydney Healey,Unassisted,Unassisted,10:21,1st Period,1,1,-1,10,21,0,2025-26
+2025-10-04,BU,Minnesota,,Anežka Čabelová,Clara Yuhn,Sydney Healey,10:38,2nd Period,2,1,0,10,38,1,2025-26
+2025-10-10,BU,Colgate,,Lexie Bertelsen,Riley Walsh,Unassisted,7:40,1st Period,1,0,0,7,40,1,2025-26
+2025-10-11,BU,Colgate,,Kaileigh Quigg,Greta Henderson,Lexie Bertelsen,2:12,3rd Period,1,2,-2,2,12,-1,2025-26
+2025-10-11,BU,Colgate,,Clara Yuhn,Riley Walsh,Kate Meinert,7:48,3rd Period,2,2,-1,7,48,0,2025-26
+2025-10-11,BU,Colgate,,Lilli Welcke,Luisa Welcke,Sydney Healey,13:24,3rd Period,3,3,-1,13,24,0,2025-26
+2025-10-17,BU,Brown,,Luisa Welcke,Lilli Welcke,Sydney Healey,2:59,2nd Period,1,0,0,2,59,1,2025-26
+2025-10-24,BU,UNH,SH,Kaileigh Quigg,Unassisted,Unassisted,17:58,1st Period,1,0,0,17,58,1,2025-26
+2025-10-24,BU,UNH,PP,Lucy Thiessen,Lexie Bertelsen,Sydney Healey,14:37,2nd Period,2,2,-1,14,37,0,2025-26
+2025-10-24,BU,UNH,,Sydney Healey,Luisa Welcke,Unassisted,3:53,3rd Period,3,2,0,3,53,1,2025-26
+2025-10-24,BU,UNH,"4x4, EN",Sydney Healey,Unassisted,Unassisted,19:34,3rd Period,4,2,1,19,34,2,2025-26
+2025-10-31,BU,Northeastern,,Clara Yuhn,Lucy Thiessen,Unassisted,2:59,1st Period,1,0,0,2,59,1,2025-26
+2025-11-01,BU,Northeastern,4x4,Sydney Healey,Michelle Pasiechnyk,Unassisted,11:24,2nd Period,1,4,-4,11,24,-3,2025-26
+2025-11-01,BU,Northeastern,,Greta Henderson,Kaileigh Quigg,Riley Walsh,14:18,2nd Period,2,4,-3,14,18,-2,2025-26
+2025-11-01,BU,Northeastern,,Clara Yuhn,Lilli Welcke,Unassisted,18:22,3rd Period,3,6,-4,18,22,-3,2025-26
+2025-11-07,BU,Maine,SH,Neely Nicholson,Avery Supryka,Unassisted,1:06,2nd Period,1,1,-1,1,6,0,2025-26
+2025-11-08,BU,Maine,,Clara Yuhn,Sydney Healey,Tessa Demain,19:29,2nd Period,1,1,-1,19,29,0,2025-26
+2025-11-08,BU,Maine,,Sydney Healey,Clara Yuhn,Kaileigh Quigg,9:34,3rd Period,2,1,0,9,34,1,2025-26
+2025-11-13,BU,BC,,Kaileigh Quigg,Lucy Thiessen,Clara Yuhn,9:03,1st Period,1,0,0,9,3,1,2025-26
+2025-11-13,BU,BC,PP,Lola Reid,Riley Walsh,Greta Henderson,15:42,2nd Period,2,2,-1,15,42,0,2025-26
+2025-11-14,BU,BC,PP,Sydney Healey,Neely Nicholson,Lexie Bertelsen,16:41,1st Period,1,1,-1,16,41,0,2025-26
+2025-11-14,BU,BC,,Clara Yuhn,Keira Healey,Lexie Bertelsen,5:44,3rd Period,2,2,-1,5,44,0,2025-26
+2025-11-21,BU,PC,,Lilli Welcke,Luisa Welcke,Tessa Demain,12:03,1st Period,1,1,-1,12,3,0,2025-26
+2025-11-21,BU,PC,,Clara Yuhn,Unassisted,Unassisted,14:15,1st Period,2,1,0,14,15,1,2025-26
+2025-11-21,BU,PC,,Kaileigh Quigg,Maeve Kelly,Riley Walsh,16:08,3rd Period,3,1,1,16,8,2,2025-26
+2025-11-21,BU,PC,EN,Riley Walsh,Keira Healey,Avery Supryka,17:29,3rd Period,4,1,2,17,29,3,2025-26
+2025-11-22,BU,PC,,Greta Henderson,Kaileigh Quigg,Sydney Healey,17:26,2nd Period,1,2,-2,17,26,-1,2025-26
+2025-11-22,BU,PC,EA,Sydney Healey,Neely Nicholson,Clara Yuhn,19:31,3rd Period,2,2,-1,19,31,0,2025-26
+2025-12-02,BU,HC,,Luisa Welcke,Lilli Welcke,Riley Walsh,8:47,1st Period,1,0,0,8,47,1,2025-26
+2025-12-02,BU,HC,,Lilli Welcke,Sydney Healey,Unassisted,2:20,2nd Period,2,0,1,2,20,2,2025-26
+2025-12-02,BU,HC,,Mia Vergilii,Clara Yuhn,Maeve Kelly,11:15,3rd Period,3,0,2,11,15,3,2025-26
+2025-12-05,BU,UConn,SH,Sydney Healey,Unassisted,Unassisted,10:02,2nd Period,1,0,0,10,2,1,2025-26
+2025-12-06,BU,UConn,,Lilli Welcke,Luisa Welcke,Avery Supryka,4:17,2nd Period,1,0,0,4,17,1,2025-26
+2025-12-06,BU,UConn,EA,Avery Supryka,Keira Healey,Kaileigh Quigg,15:53,3rd Period,2,2,-1,15,53,0,2025-26
+2026-01-02,BU,QU,,Sydney Healey,Kaileigh Quigg,Clara Yuhn,11:48,2nd Period,1,2,-2,11,48,-1,2025-26
+2026-01-02,BU,QU,,Sydney Healey,Tessa Demain,Clara Yuhn,11:37,3rd Period,2,2,-1,11,37,0,2025-26
+2026-01-03,BU,Harvard,,Riley Walsh,Lexie Bertelsen,Unassisted,17:55,1st Period,1,0,0,17,55,1,2025-26
+2026-01-03,BU,Harvard,,Lilli Welcke,Lola Reid,Unassisted,4:54,2nd Period,2,1,0,4,54,1,2025-26
+2026-01-03,BU,Harvard,,Neely Nicholson,Maeve Kelly,Unassisted,12:46,3rd Period,3,2,0,12,46,1,2025-26
+2026-01-10,BU,UNH,,Luisa Welcke,Riley Walsh,Unassisted,19:13,1st Period,1,1,-1,19,13,0,2025-26
+2026-01-10,BU,UNH,,Sydney Healey,Unassisted,Unassisted,10:06,2nd Period,2,1,0,10,6,1,2025-26
+2026-01-13,BU,Northeastern,,Lexie Bertelsen,Greta Henderson,Riley Walsh,4:29,1st Period,1,0,0,4,29,1,2025-26
+2026-01-13,BU,Northeastern,PP,Maeve Carey,Keira Healey,Sydney Healey,3:00,Overtime,2,1,0,3,0,1,2025-26
+2026-01-17,BU,HC,,Neely Nicholson,Luisa Welcke,Lilli Welcke,1:54,1st Period,1,1,-1,1,54,0,2025-26
+2026-01-17,BU,HC,EA,Luisa Welcke,Keira Healey,Unassisted,17:16,3rd Period,2,4,-3,17,16,-2,2025-26
+2026-01-20,BU,Harvard,PP,Greta Henderson,Maeve Kelly,Luisa Welcke,10:27,1st Period,1,1,-1,10,27,0,2025-26
+2026-01-23,BU,UVM,PP,Keira Healey,Maeve Carey,Sydney Healey,10:45,3rd Period,1,4,-4,10,45,-3,2025-26
+2026-01-23,BU,UVM,,Sydney Healey,Unassisted,Unassisted,19:12,3rd Period,2,5,-4,19,12,-3,2025-26
+2026-01-24,BU,UVM,,Sydney Healey,Clara Yuhn,Kaileigh Quigg,0:20,1st Period,1,0,0,0,20,1,2025-26
+2026-01-30,BU,Merrimack,,Lola Reid,Lucy Thiessen,Anežka Čabelová,11:02,1st Period,1,0,0,11,2,1,2025-26
+2026-01-30,BU,Merrimack,SH,Greta Henderson,Unassisted,Unassisted,16:53,1st Period,2,0,1,16,53,2,2025-26
+2026-01-30,BU,Merrimack,EN,Clara Yuhn,Avery Supryka,Unassisted,18:38,3rd Period,3,0,2,18,38,3,2025-26
+2026-01-31,BU,Merrimack,,Sydney Healey,Kaileigh Quigg,Clara Yuhn,4:59,1st Period,1,0,0,4,59,1,2025-26
+2026-01-31,BU,Merrimack,,Lexie Bertelsen,Greta Henderson,Maeve Kelly,3:45,2nd Period,2,1,0,3,45,1,2025-26
+2026-01-31,BU,Merrimack,PP,Sydney Healey,Maeve Carey,Keira Healey,10:31,3rd Period,3,1,1,10,31,2,2025-26
+2026-02-13,BU,Northeastern,,Clara Yuhn,Unassisted,Unassisted,3:45,2nd Period,1,2,-2,3,45,-1,2025-26
+2026-02-13,BU,Northeastern,,Neely Nicholson,Sydney Healey,Tessa Demain,13:53,3rd Period,2,4,-3,13,53,-2,2025-26
+2026-02-20,BU,PC,,Lexie Bertelsen,Lilli Welcke,Luisa Welcke,17:22,2nd Period,1,1,-1,17,22,0,2025-26
+2026-02-20,BU,PC,PP,Maeve Kelly,Anežka Čabelová,Sydney Healey,12:01,3rd Period,2,1,0,12,1,1,2025-26
+2026-02-20,BU,PC,EN,Luisa Welcke,Maeve Kelly,Greta Henderson,19:20,3rd Period,3,1,1,19,20,2,2025-26
+2026-02-25,BU,PC,SH,Sydney Healey,Kaileigh Quigg,Maeve Kelly,0:41,2nd Period,1,0,0,0,41,1,2025-26
+2026-02-25,BU,PC,EN,Sydney Healey,Maeve Kelly,Luisa Welcke,18:01,3rd Period,2,0,1,18,1,2,2025-26
+2026-02-25,BU,PC,EN,Lilli Welcke,Unassisted,Unassisted,18:21,3rd Period,3,0,2,18,21,3,2025-26
+2026-02-28,BU,Northeastern,SH,Sydney Healey,Unassisted,Unassisted,8:34,2nd Period,1,1,-1,8,34,0,2025-26
+2026-10-02,BU,Wisconsin,PP,Lo Lachapelle,Eden Bergman,Tessa Demain,15:18,1st Period,1,0,0,15,18,1,2026-27
+2026-10-09,BU,UNH,PP,Ella Pukala,Quinn Taylor,Lexie Bertelsen,5:23,1st Period,1,2,-2,5,23,-1,2026-27
+2026-10-09,BU,UNH,,Julia Curran,Unassisted,Unassisted,5:56,1st Period,2,2,-1,5,56,0,2026-27
+2026-10-09,BU,UNH,,Quinn Taylor,Anežka Čabelová,Lexie Bertelsen,8:17,3rd Period,3,4,-2,8,17,-1,2026-27
+2026-10-09,BU,UNH,,Lo Lachapelle,Avery Supryka,Greta Henderson,11:51,3rd Period,4,4,-1,11,51,0,2026-27
+2026-10-10,BU,HC,,Lo Lachapelle,Neely Nicholson,Mylie Ellis,2:28,3rd Period,1,1,-1,2,28,0,2026-27
+2026-10-10,BU,HC,PP,Neely Nicholson,Greta Henderson,Keira Healey,15:20,3rd Period,2,1,0,15,20,1,2026-27
+2026-10-23,BU,Yale,,Peyton Blaney,Anežka Čabelová,Unassisted,19:30,1st Period,1,1,-1,19,30,0,2026-27
+2026-10-23,BU,Yale,,Lo Lachapelle,Kaileigh Quigg,Mylie Ellis,18:02,2nd Period,2,2,-1,18,2,0,2026-27
+2026-10-24,BU,RMU,,Kaileigh Quigg,Avery Supryka,Lexie Bertelsen,18:14,1st Period,1,0,0,18,14,1,2026-27
+2026-10-24,BU,RMU,,Keira Healey,Mylie Ellis,Kylie Hollingsworth,0:15,2nd Period,2,0,1,0,15,2,2026-27
+2026-10-30,BU,Northeastern,PP,Lexie Bertelsen,Neely Nicholson,Kaileigh Quigg,7:27,2nd Period,1,2,-2,7,27,-1,2026-27
+2026-10-31,BU,Northeastern,,Quinn Taylor,Lo Lachapelle,Mylie Ellis,7:58,1st Period,1,2,-2,7,58,-1,2026-27
+2026-10-31,BU,Northeastern,,Kylie Hollingsworth,Ella Pukala,Neely Nicholson,8:43,1st Period,2,2,-1,8,43,0,2026-27
+2026-11-06,BU,Maine,PP,Neely Nicholson,Kaileigh Quigg,Lexie Bertelsen,9:33,3rd Period,1,1,-1,9,33,0,2026-27
+2026-11-13,BU,BC,,Kylie Hollingsworth,Lola Reid,Julia Curran,3:12,2nd Period,1,0,0,3,12,1,2026-27
+2026-11-13,BU,BC,,Avery Supryka,Quinn Taylor,Kate Meinert,16:01,3rd Period,2,1,0,16,1,1,2026-27
+2026-11-13,BU,BC,,Bronwyn Langis,Quinn Taylor,Lexie Bertelsen,17:11,3rd Period,3,1,1,17,11,2,2026-27
+2026-11-14,BU,BC,,Lola Reid,Julia Curran,Unassisted,1:33,1st Period,1,0,0,1,33,1,2026-27
+2026-11-14,BU,BC,,Quinn Taylor,Kaileigh Quigg,Unassisted,6:43,2nd Period,2,1,0,6,43,1,2026-27
+2026-11-14,BU,BC,,Avery Supryka,Ella Pukala,Unassisted,1:31,3rd Period,3,2,0,1,31,1,2026-27
+2026-11-21,BU,PC,,Ella Pukala,Peyton Blaney,Bronwyn Langis,9:11,1st Period,1,0,0,9,11,1,2026-27
+2026-11-21,BU,PC,,Bronwyn Langis,Greta Henderson,Neely Nicholson,10:47,1st Period,2,0,1,10,47,2,2026-27
+2026-11-21,BU,PC,,Anežka Čabelová,Kaileigh Quigg,Quinn Taylor,13:19,1st Period,3,0,2,13,19,3,2026-27
+2026-11-21,BU,PC,PP,Lexie Bertelsen,Greta Henderson,Keira Healey,19:00,2nd Period,4,0,3,19,0,4,2026-27
+2026-10-02,BU,Wisconsin,PP,Lo Lachapelle,Eden Bergman,Tessa Demain,15:18,1st Period,1,0,0,15,18,1,2026-27
+2026-10-09,BU,UNH,PP,Ella Pukala,Quinn Taylor,Lexie Bertelsen,5:23,1st Period,1,2,-2,5,23,-1,2026-27
+2026-10-09,BU,UNH,,Julia Curran,Unassisted,Unassisted,5:56,1st Period,2,2,-1,5,56,0,2026-27
+2026-10-09,BU,UNH,,Quinn Taylor,Anežka Čabelová,Lexie Bertelsen,8:17,3rd Period,3,4,-2,8,17,-1,2026-27
+2026-10-09,BU,UNH,,Lo Lachapelle,Avery Supryka,Greta Henderson,11:51,3rd Period,4,4,-1,11,51,0,2026-27
+2026-10-10,BU,HC,,Lo Lachapelle,Neely Nicholson,Mylie Ellis,2:28,3rd Period,1,1,-1,2,28,0,2026-27
+2026-10-10,BU,HC,PP,Neely Nicholson,Greta Henderson,Keira Healey,15:20,3rd Period,2,1,0,15,20,1,2026-27
+2026-10-23,BU,Yale,,Peyton Blaney,Anežka Čabelová,Unassisted,19:30,1st Period,1,1,-1,19,30,0,2026-27
+2026-10-23,BU,Yale,,Lo Lachapelle,Kaileigh Quigg,Mylie Ellis,18:02,2nd Period,2,2,-1,18,2,0,2026-27
+2026-10-24,BU,RMU,,Kaileigh Quigg,Avery Supryka,Lexie Bertelsen,18:14,1st Period,1,0,0,18,14,1,2026-27
+2026-10-24,BU,RMU,,Keira Healey,Mylie Ellis,Kylie Hollingsworth,0:15,2nd Period,2,0,1,0,15,2,2026-27
+2026-10-30,BU,Northeastern,PP,Lexie Bertelsen,Neely Nicholson,Kaileigh Quigg,7:27,2nd Period,1,2,-2,7,27,-1,2026-27
+2026-10-31,BU,Northeastern,,Quinn Taylor,Lo Lachapelle,Mylie Ellis,7:58,1st Period,1,2,-2,7,58,-1,2026-27
+2026-10-31,BU,Northeastern,,Kylie Hollingsworth,Ella Pukala,Neely Nicholson,8:43,1st Period,2,2,-1,8,43,0,2026-27
+2026-11-06,BU,Maine,PP,Neely Nicholson,Kaileigh Quigg,Lexie Bertelsen,9:33,3rd Period,1,1,-1,9,33,0,2026-27
+2026-11-13,BU,BC,,Kylie Hollingsworth,Lola Reid,Julia Curran,3:12,2nd Period,1,0,0,3,12,1,2026-27
+2026-11-13,BU,BC,,Avery Supryka,Quinn Taylor,Kate Meinert,16:01,3rd Period,2,1,0,16,1,1,2026-27
+2026-11-13,BU,BC,,Bronwyn Langis,Quinn Taylor,Lexie Bertelsen,17:11,3rd Period,3,1,1,17,11,2,2026-27
+2026-11-14,BU,BC,,Lola Reid,Julia Curran,Unassisted,1:33,1st Period,1,0,0,1,33,1,2026-27
+2026-11-14,BU,BC,,Quinn Taylor,Kaileigh Quigg,Unassisted,6:43,2nd Period,2,1,0,6,43,1,2026-27
+2026-11-14,BU,BC,,Avery Supryka,Ella Pukala,Unassisted,1:31,3rd Period,3,2,0,1,31,1,2026-27
+2026-10-02,BU,Wisconsin,PP,Lo Lachapelle,Eden Bergman,Tessa Demain,15:18,1st Period,1,0,0,15,18,1,2026-27
+2026-10-09,BU,UNH,PP,Ella Pukala,Quinn Taylor,Lexie Bertelsen,5:23,1st Period,1,2,-2,5,23,-1,2026-27
+2026-10-09,BU,UNH,,Julia Curran,Unassisted,Unassisted,5:56,1st Period,2,2,-1,5,56,0,2026-27
+2026-10-09,BU,UNH,,Quinn Taylor,Anežka Čabelová,Lexie Bertelsen,8:17,3rd Period,3,4,-2,8,17,-1,2026-27
+2026-10-09,BU,UNH,,Lo Lachapelle,Avery Supryka,Greta Henderson,11:51,3rd Period,4,4,-1,11,51,0,2026-27
+2026-10-10,BU,HC,,Lo Lachapelle,Neely Nicholson,Mylie Ellis,2:28,3rd Period,1,1,-1,2,28,0,2026-27
+2026-10-10,BU,HC,PP,Neely Nicholson,Greta Henderson,Keira Healey,15:20,3rd Period,2,1,0,15,20,1,2026-27
+2026-10-23,BU,Yale,,Peyton Blaney,Anežka Čabelová,Unassisted,19:30,1st Period,1,1,-1,19,30,0,2026-27
+2026-10-23,BU,Yale,,Lo Lachapelle,Kaileigh Quigg,Mylie Ellis,18:02,2nd Period,2,2,-1,18,2,0,2026-27
+2026-10-24,BU,RMU,,Kaileigh Quigg,Avery Supryka,Lexie Bertelsen,18:14,1st Period,1,0,0,18,14,1,2026-27
+2026-10-24,BU,RMU,,Keira Healey,Mylie Ellis,Kylie Hollingsworth,0:15,2nd Period,2,0,1,0,15,2,2026-27
+2026-10-30,BU,Northeastern,PP,Lexie Bertelsen,Neely Nicholson,Kaileigh Quigg,7:27,2nd Period,1,2,-2,7,27,-1,2026-27
+2026-10-31,BU,Northeastern,,Quinn Taylor,Lo Lachapelle,Mylie Ellis,7:58,1st Period,1,2,-2,7,58,-1,2026-27
+2026-10-31,BU,Northeastern,,Kylie Hollingsworth,Ella Pukala,Neely Nicholson,8:43,1st Period,2,2,-1,8,43,0,2026-27
+2026-11-06,BU,Maine,PP,Neely Nicholson,Kaileigh Quigg,Lexie Bertelsen,9:33,3rd Period,1,1,-1,9,33,0,2026-27
+2026-11-13,BU,BC,,Kylie Hollingsworth,Lola Reid,Julia Curran,3:12,2nd Period,1,0,0,3,12,1,2026-27
+2026-11-13,BU,BC,,Avery Supryka,Quinn Taylor,Kate Meinert,16:01,3rd Period,2,1,0,16,1,1,2026-27
+2026-11-13,BU,BC,,Bronwyn Langis,Quinn Taylor,Lexie Bertelsen,17:11,3rd Period,3,1,1,17,11,2,2026-27
+2026-11-14,BU,BC,,Lola Reid,Julia Curran,Unassisted,1:33,1st Period,1,0,0,1,33,1,2026-27
+2026-11-14,BU,BC,,Quinn Taylor,Kaileigh Quigg,Unassisted,6:43,2nd Period,2,1,0,6,43,1,2026-27
+2026-11-14,BU,BC,,Avery Supryka,Ella Pukala,Unassisted,1:31,3rd Period,3,2,0,1,31,1,2026-27
+2026-11-21,BU,PC,,Ella Pukala,Peyton Blaney,Bronwyn Langis,9:11,1st Period,1,0,0,9,11,1,2026-27
+2026-11-21,BU,PC,,Bronwyn Langis,Greta Henderson,Neely Nicholson,10:47,1st Period,2,0,1,10,47,2,2026-27
+2026-11-21,BU,PC,,Anežka Čabelová,Kaileigh Quigg,Quinn Taylor,13:19,1st Period,3,0,2,13,19,3,2026-27
+2026-11-21,BU,PC,PP,Lexie Bertelsen,Greta Henderson,Keira Healey,19:00,2nd Period,4,0,3,19,0,4,2026-27

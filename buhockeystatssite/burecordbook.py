@@ -3949,8 +3949,18 @@ def updatePolls(gender):
         dfPoll['SEASON']=dfPoll['SEASON'].astype(int)
         dfPoll.to_csv(pollFile,index=False)
 
-def updateGoalTimes():
-  url = "https://www.collegehockeynews.com/schedules/?search=1&year_min=20252026&year_max=20262027&teamID=10"
+def goalTimesFile(gender):
+  ''' the goal times file for a team: mbu_goals_times.csv or wbu_goals_times.csv'''
+  return RECBOOK_DATA_PATH + gender[0].lower() + "bu_goals_times.csv"
+
+def updateGoalTimes(gender):
+  if(gender=="Mens"):
+    url = "https://www.collegehockeynews.com/schedules/?search=1&year_min=20252026&year_max=20262027&teamID=10"
+    boxIdx = 8
+  elif(gender=="Womens"):
+    url = "https://www.collegehockeynews.com/women/team/Boston-University/10/20262027"
+    boxIdx = 9 
+    
   f=urllib.request.urlopen(url)
   html = f.read()
   f.close()
@@ -3979,7 +3989,7 @@ def updateGoalTimes():
       else:
           aTeam=x[0].get_text().strip()
           hTeam=x[3].get_text().strip()
-          box=x[8]
+          box=x[boxIdx]
           if(box.find('a') is None):
               continue
           gameDict[date].append("https://www.collegehockeynews.com"+box.find('a')['href'])
@@ -4045,16 +4055,16 @@ def updateGoalTimes():
   dfBU['GD']=dfBU['tScore']-dfBU['oScore']
   dfBU['season']=currSeason
   # skip games whose date is already in the file
-  existingDates = set(pd.read_csv(RECBOOK_DATA_PATH+"/bu_goals_times.csv", usecols=['date'])['date'])
+  existingDates = set(pd.read_csv(goalTimesFile(gender), usecols=['date'])['date'])
   dfNew = dfBU.loc[~dfBU['date'].dt.strftime('%Y-%m-%d').isin(existingDates)].query('team=="BU"')
   if dfNew.empty:
       return
   # start the new rows on their own line (the file may not end with a newline)
-  with open(RECBOOK_DATA_PATH+"/bu_goals_times.csv", 'rb+') as f:
+  with open(goalTimesFile(gender), 'rb+') as f:
       f.seek(-1, 2)
       if f.read(1) != b'\n':
           f.write(b'\n')
-  dfNew.to_csv(RECBOOK_DATA_PATH+"/bu_goals_times.csv",mode="a", header=False, index=False)
+  dfNew.to_csv(goalTimesFile(gender),mode="a", header=False, index=False)
     
 def validateRequest(url):
     response = requests.get(url)
@@ -4149,9 +4159,9 @@ def getFamily():
   dfRes = pd.read_csv(RECBOOK_DATA_PATH + f"family.csv")
   return dfRes
 
-def getGoalTimes():
-  ''' returns every BU (men's) goal with its period, time, type and assists'''
-  dfRes = pd.read_csv(RECBOOK_DATA_PATH + "bu_goals_times.csv", keep_default_na=False)
+def getGoalTimes(gender):
+  ''' returns every BU goal for a team with its period, time, type and assists'''
+  dfRes = pd.read_csv(goalTimesFile(gender), keep_default_na=False)
   dfRes['date'] = pd.to_datetime(dfRes['date'])
   return dfRes
 
@@ -4309,7 +4319,8 @@ def refreshStats():
   updateCurrentSeasonStats('Womens')
   updateGameStats('Mens')
   updateGameStats('Womens')
-  updateGoalTimes()
+  updateGoalTimes('Mens')
+  updateGoalTimes('Womens')
   updatePolls('Mens')
   updatePolls('Womens')
   updateNHLStats()
