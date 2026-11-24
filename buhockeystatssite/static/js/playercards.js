@@ -10,6 +10,13 @@ const icView = document.getElementById('icView');
 const icGameSeason = document.getElementById('icGameSeason');
 const icGame = document.getElementById('icGame');
 const icPlayer = document.getElementById('icPlayer');
+let icPlayerNames = [];
+
+// the player whose name is typed in the Player box (any capitalization), or '' if none matches yet
+function chosenPlayer() {
+    const typed = icPlayer.value.trim().toLowerCase();
+    return icPlayerNames.find(p => p.toLowerCase() === typed) || '';
+}
 const icPlayerSeason = document.getElementById('icPlayerSeason');
 const icChart = document.getElementById('icChart');
 const icTooltip = document.getElementById('icTooltip');
@@ -313,7 +320,7 @@ function cardFileName() {
         const g = IC_GAMES[Number(icGame.value)];
         name = 'BU_ImpactCard_' + g.date + '_' + g.short.slice(6);
     } else {
-        name = icPlayer.value + '_' + (icPlayerSeason.value === 'career' ? 'Career' : icPlayerSeason.value) + '_ImpactCard';
+        name = chosenPlayer() + '_' + (icPlayerSeason.value === 'career' ? 'Career' : icPlayerSeason.value) + '_ImpactCard';
     }
     return name.replace(/[^A-Za-z0-9_\-]+/g, '_') + '.png';
 }
@@ -382,11 +389,14 @@ function showGameCard() {
 }
 
 function showPlayerCard() {
-    const player = icPlayer.value;
+    const player = chosenPlayer();
     const season = icPlayerSeason.value;
     if (!player) {
         setTitle('', '');
-        drawCard([], 'Select a player to see their impact card.');
+        const typed = icPlayer.value.trim().toLowerCase();
+        drawCard([], !typed ? 'Type a player\'s name to see their impact card.'
+            : icPlayerNames.some(p => p.toLowerCase().includes(typed)) ? 'Keep typing, or pick a name from the list.'
+            : 'No player found with that name.');
         return;
     }
     const mine = IC_ROWS.filter(r => r[1] === player && gameShown(r[0]));
@@ -420,13 +430,13 @@ function updateGameList(keepGame) {
 }
 
 function updatePlayerSeasons() {
-    if (!icPlayer.value) {                      // no player chosen yet: nothing to pick a season for
+    if (!chosenPlayer()) {                      // no player chosen yet: nothing to pick a season for
         fillSelect(icPlayerSeason, []);
         icPlayerSeason.disabled = true;
         return;
     }
     icPlayerSeason.disabled = false;
-    const seasons = unique(IC_ROWS.filter(r => r[1] === icPlayer.value && gameShown(r[0])).map(r => IC_GAMES[r[0]].season)).sort();     // oldest first
+    const seasons = unique(IC_ROWS.filter(r => r[1] === chosenPlayer() && gameShown(r[0])).map(r => IC_GAMES[r[0]].season)).sort();     // oldest first
     const prev = icPlayerSeason.value;
     fillSelect(icPlayerSeason, [{ value: 'career', text: 'Career' }].concat(seasons.map(s => ({ value: s, text: s }))), prev);
 }
@@ -477,13 +487,15 @@ function initImpactCards() {
         const la = a.split(' ').slice(-1)[0], lb = b.split(' ').slice(-1)[0];       // by last name
         return la === lb ? a.localeCompare(b) : la.localeCompare(lb);
     });
-    fillSelect(icPlayer, [{ value: '', text: 'Select a player' }].concat(players.map(p => ({ value: p, text: p }))));
+    // suggestions for the Player box
+    icPlayerNames = players;
+    document.getElementById('icPlayerList').replaceChildren(...players.map(p => new Option(p)));
     updatePlayerSeasons();
 
     icView.addEventListener('change', showView);
     icGameSeason.addEventListener('change', function () { updateGameList(icGame.value); showCard(); });
     icGame.addEventListener('change', showCard);
-    icPlayer.addEventListener('change', function () { updatePlayerSeasons(); showCard(); });
+    icPlayer.addEventListener('input', function () { updatePlayerSeasons(); showCard(); });
     icPlayerSeason.addEventListener('change', showCard);
     icShowEx.addEventListener('change', function () {
         updateGameList(icGame.value);

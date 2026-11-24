@@ -443,6 +443,10 @@ input[type="range"]::-moz-range-track {
   margin-left: 5px;
 }
 
+#icPlayer {
+  width: 170px;
+}
+
 .impact-page {
   flex: 1;
   min-width: 0;

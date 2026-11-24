@@ -43,7 +43,8 @@
             <!-- Player view -->
             <div class="filter player-filter" hidden>
                 <label for="icPlayer" class="recLabels">Player:</label>
-                <select class="btn dropdown-toggle custom-align" id="icPlayer"></select>
+                <input type="text" id="icPlayer" list="icPlayerList" placeholder="Type a name" autocomplete="off">
+                <datalist id="icPlayerList"></datalist>
             </div>
             <div class="filter player-filter" hidden>
                 <label for="icPlayerSeason" class="recLabels">Season:</label>
