@@ -177,10 +177,10 @@ CAPTAINS: Sarah Appleton, Melissa Tetreau
 11/2 L Walter Brown Arena H Boston College * 1-2
 11/6 L Walter Brown Arena H #3 New Hampshire * 3-4
 11/7 T (ot) Whittemore Center Arena A #3 New Hampshire * 4-4
-11/8 W Conte Forum A Boston College * 4-0
 11/11 W Walter Brown Arena H Vermont * 4-0
 11/14 W Agganis Arena H Providence * 5-3
 11/15 L Schneider Arena A Providence * 2-6
+11/18 W Conte Forum A Boston College * 4-0
 11/24 T (ot) Alfond Arena A Maine * 1-1
 11/27 L Hobey Baker Rink A Princeton 1-3
 11/28 W Hobey Baker Rink A Princeton 3-2
@@ -210,7 +210,7 @@ HOCKEY EAST: 15-3-3, 1st
 COACH: Brian Durocher
 CAPTAIN: Holly Lorms
 9/25 E Walter Brown Arena H Windsor (ex) 4-1
-10/2 L Englestad Arena A North Dakota 3-4
+10/2 L Englestad Arena A North Dakota 4-5
 10/3 W Englestad Arena A North Dakota 6-4
 10/9 W Messa Rink A Union 6-2
 10/15 W Walter Brown Arena H Wayne State 7-2
@@ -274,7 +274,7 @@ CAPTAIN: Jenn Wakefield
 12/3 L Schneider Arena A Providence * 3-4
 12/4 W Walter Brown Arena H Providence * 2-1
 12/7 L Matthews Arena A #9 Northeastern * 1-4
-1/6 W Alfond Arena A Maine * 2-1
+1/8 W Alfond Arena A Maine * 2-1
 1/14 L Walter Brown Arena H Maine * 2-3
 1/15 L Walter Brown Arena H Maine * 2-5
 1/19 L Whittemore Center Arena A New Hampshire * 2-4
@@ -561,7 +561,7 @@ HOCKEY EAST: 15-6-6, 3rd
 COACH: Brian Durocher
 CAPTAINS: Sammy Davis, Reagan Rust, Natasza Tarnowski
 9/28 E Walter Brown Arena H Durham West (ex) 7-0
-10/5 L Walter Brown Arena H #9 Northeastern * 1-5
+10/5 L Walter Brown Arena H #9 Northeastern * 0-5
 10/6 T (ot) Walter Brown Arena H #9 Northeastern * 3-3
 10/12 T (ot) Lawler Rink A Merrimack * 2-2
 10/13 W Walter Brown Arena H New Hampshire * 3-2
