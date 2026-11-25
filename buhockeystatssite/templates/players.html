@@ -209,6 +209,11 @@
                 <label for="date" class="recLabels game-stats">Date:</label>
                 <input class="game-stats" type="text" name="date" id="date" onchange="submitForm()">
             </div>
+            <div id="clutchDiv" class="form-check form-switch goaltimes-stats" hidden>
+                <input class="form-check-input" type="checkbox" role="switch" id="clutch" onchange="document.getElementById('clutchStatus').value = this.checked; submitForm()">
+                <label class="form-check-label" for="clutch">Clutch Goals</label>
+                <input type="hidden" id="clutchStatus" name="clutchStatus" value="false">
+            </div>
             <div id="gpDiv" class="filter">
                 <label for="gpop" class="recLabels">GP:</label>
                 <select class="btn dropdown-toggle custom-align op-drop" name="gpop" id="gpop" onchange="submitForm()">

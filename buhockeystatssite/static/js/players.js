@@ -84,6 +84,8 @@ function clearFilters(event) {
     document.getElementById("goaltime").value = "";
     document.getElementById("scorer").value = "";
     document.getElementById("assister").value = "";
+    document.getElementById("clutch").checked = false;
+    document.getElementById("clutchStatus").value = "false";
     // Reset Min Filters
     document.getElementById("gpmin").value = "";
     document.getElementById("goalmin").value = "";
@@ -642,7 +644,7 @@ function showGoalTimesFilters() {
             option.hidden = isGoalTimes;
         }
     });
-    document.querySelectorAll("#offcanvasPlayersFilters .form-switch").forEach(function (el) { el.hidden = isGoalTimes; });
+    document.querySelectorAll("#offcanvasPlayersFilters .form-switch:not(.goaltimes-stats)").forEach(function (el) { el.hidden = isGoalTimes; });
     document.getElementById("numberDiv").hidden = isGoalTimes;
     document.getElementById("yrDiv").hidden = isGoalTimes;
     if (!isGoalTimes) {

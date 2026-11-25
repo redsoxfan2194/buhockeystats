@@ -202,6 +202,9 @@ def goalTimesTable(formData):
     seconds = goalTimeSeconds(formData.get('goaltime', ''))
     if seconds is not None:
         dfStat = compareFilter(dfStat, 'seconds', formData.get('timeop', '=='), seconds)
+    # clutch goals: tying or go-ahead goals in the last 3 minutes of the 3rd, or overtime goals
+    if formData.get('clutchStatus', 'false') == 'true':
+        dfStat = dfStat.query('((period=="3rd Period" and mins>=17 and (GD==1 or GD==0)) or period=="Overtime" and GD>prevGD)')
 
     # a player's goals and assists
     name = formData['name'].strip()
