@@ -3965,13 +3965,14 @@ def updateGoalTimes(gender):
   html = f.read()
   f.close()
   soup = BeautifulSoup(html, 'html.parser')
-  table=soup.find('tbody')
+  table=soup.find('table',{'class':'data schedule full'})
   isEx=False
   date=''
   gameDict={}
   gameList=[]
   goalList=[]
-  counter=0
+  # games already in the goal times file are skipped
+  existingDates = set(pd.read_csv(goalTimesFile(gender), usecols=['date'])['date'])
   for i in table.find_all('tr'):
       x=i.find_all('td')
       if(len(x)==1):
@@ -3994,8 +3995,10 @@ def updateGoalTimes(gender):
               continue
           gameDict[date].append("https://www.collegehockeynews.com"+box.find('a')['href'])
           url="https://www.collegehockeynews.com"+box.find('a')['href']
-          if counter > 0:
-              break
+          
+          gameDate=re.search(r'/(\d{8})/', url)
+          if gameDate and pd.to_datetime(gameDate.group(1), format='%Y%m%d').strftime('%Y-%m-%d') in existingDates:
+              continue
           f=urllib.request.urlopen(url)
           html = f.read()
           f.close()
@@ -4036,7 +4039,9 @@ def updateGoalTimes(gender):
                   scoreDict[team]+=1
                   goalDict={'date':url,'team':team,'opp':opp,'type':type,'goalscorer':goal,'primary':a1,'secondary':a2,'time':time,'period':period,'tScore':scoreDict[team],'oScore':scoreDict[opp],'prevGD':prevGD}
                   goalList.append(goalDict)
-          counter+=1
+  if not goalList:
+      return  # no new games
+  #print(goalList)
   dfBU=pd.DataFrame(goalList)
   # Function to extract date (YYYYMMDD format)
   def extract_date(url):
@@ -4054,9 +4059,8 @@ def updateGoalTimes(gender):
   dfBU['sec']=dfBU['sec'].astype(int)
   dfBU['GD']=dfBU['tScore']-dfBU['oScore']
   dfBU['season']=currSeason
-  # skip games whose date is already in the file
-  existingDates = set(pd.read_csv(goalTimesFile(gender), usecols=['date'])['date'])
-  dfNew = dfBU.loc[~dfBU['date'].dt.strftime('%Y-%m-%d').isin(existingDates)].query('team=="BU"')
+  dfNew = dfBU.query('team=="BU"')
+  
   if dfNew.empty:
       return
   # start the new rows on their own line (the file may not end with a newline)
