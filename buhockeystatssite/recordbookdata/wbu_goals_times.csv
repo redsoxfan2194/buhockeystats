@@ -1,4 +1,1501 @@
-date,team,opp,type,goalscorer,primary,secondary,time,period,tScore,oScore,prevGD,mins,sec,GD,season
+date,team,opp,type,goalscorer,primary,secondary,period,time,tScore,oScore,prevGD,mins,sec,GD,season
+2005-10-07,BU,Northeastern,,Caroline Bourdeau,Maeghan Ouimet,Unassisted,1st Period,11:32,1,0,0,11,32.0,1,2005-06
+2005-10-07,BU,Northeastern,PP,Genevieve Laing,Caitlin Reddy,Unassisted,2nd Period,19:10,2,3,-2,19,10.0,-1,2005-06
+2005-10-07,BU,Northeastern,SH,Gina Kearns,Unassisted,Unassisted,3rd Period,16:53,3,4,-2,16,53.0,-1,2005-06
+2005-10-11,BU,Quinnipiac,,Nicki Wiart,Laurel Koller,Unassisted,1st Period,14:00,1,0,0,14,0.0,1,2005-06
+2005-10-11,BU,Quinnipiac,PP,Caroline Bourdeau,Gina Kearns,Laurel Koller,2nd Period,7:34,2,1,0,7,34.0,1,2005-06
+2005-10-14,BU,Union,,Genevieve Laing,Jessica Lortie,Emily Schwarz,1st Period,1:58,1,0,0,1,58.0,1,2005-06
+2005-10-14,BU,Union,PP,Cara Hendry,Erin Seman,Unassisted,2nd Period,1:16,2,0,1,1,16.0,2,2005-06
+2005-10-14,BU,Union,PP,Amanda Shaw,Cara Hendry,Gina Kearns,2nd Period,10:44,3,1,1,10,44.0,2,2005-06
+2005-10-14,BU,Union,PP,Gina Kearns,Cara Hendry,Amanda Shaw,3rd Period,17:41,4,1,2,17,41.0,3,2005-06
+2005-10-15,BU,Union,,Kelley Karnan,Maeghan Ouimet,Unassisted,1st Period,13:07,1,0,0,13,7.0,1,2005-06
+2005-10-15,BU,Union,,Laurel Koller,Nicki Wiart,Unassisted,2nd Period,11:32,2,1,0,11,32.0,1,2005-06
+2005-10-15,BU,Union,,Gina Kearns,Erin Seman,Unassisted,2nd Period,12:35,3,1,1,12,35.0,2,2005-06
+2005-10-15,BU,Union,,Erin Seman,Stephanie Armstrong,Unassisted,3rd Period,1:13,4,1,2,1,13.0,3,2005-06
+2005-10-15,BU,Union,,Nicki Wiart,Laurel Koller,Cara Hendry,3rd Period,18:02,5,2,2,18,2.0,3,2005-06
+2005-10-15,BU,Union,,Gina Kearns,Erin Seman,Unassisted,3rd Period,19:00,6,2,3,19,0.0,4,2005-06
+2005-10-18,BU,Boston College,,Laurel Koller,Cara Hendry,Amanda Shaw,2nd Period,16:01,1,3,-3,16,1.0,-2,2005-06
+2005-10-18,BU,Boston College,,Kelley Karnan,Maeghan Ouimet,Erica Christensen,2nd Period,18:35,2,3,-2,18,35.0,-1,2005-06
+2005-10-18,BU,Boston College,PP,Laurel Koller,Cara Hendry,Caroline Bourdeau,3rd Period,10:28,3,3,-1,10,28.0,0,2005-06
+2005-10-22,BU,Vermont,PP,Jessica Lortie,Sarah Russell,Unassisted,2nd Period,15:50,1,3,-3,15,50.0,-2,2005-06
+2005-10-22,BU,Vermont,EA,Laurel Koller,Unassisted,Unassisted,3rd Period,18:13,2,3,-2,18,13.0,-1,2005-06
+2005-10-22,BU,Vermont,EA,Genevieve Laing,Sarah Russell,Nicki Wiart,3rd Period,19:48,3,3,-1,19,48.0,0,2005-06
+2005-10-23,BU,Vermont,PP,Laurel Koller,Amanda Shaw,Unassisted,2nd Period,7:21,1,0,0,7,21.0,1,2005-06
+2005-10-23,BU,Vermont,3x3,Erin Seman,Amanda Shaw,Gina Kearns,2nd Period,12:31,2,0,1,12,31.0,2,2005-06
+2005-10-23,BU,Vermont,,Stephanie Armstrong,Amanda Shaw,Caitlin Reddy,3rd Period,17:01,3,1,1,17,1.0,2,2005-06
+2005-10-23,BU,Vermont,EN,Nicki Wiart,Laurel Koller,Catherine Foley,3rd Period,18:57,4,1,2,18,57.0,3,2005-06
+2005-10-26,BU,Northeastern,,Nicki Wiart,Laurel Koller,Unassisted,1st Period,3:58,1,0,0,3,58.0,1,2005-06
+2005-10-26,BU,Northeastern,PP,Erin Seman,Gina Kearns,Unassisted,1st Period,7:46,2,0,1,7,46.0,2,2005-06
+2005-10-26,BU,Northeastern,,Amanda Shaw,Nicki Wiart,Laurel Koller,2nd Period,8:18,3,1,1,8,18.0,2,2005-06
+2005-10-26,BU,Northeastern,PP,Amanda Shaw,Erin Seman,Unassisted,3rd Period,9:28,4,1,2,9,28.0,3,2005-06
+2005-10-29,BU,Dartmouth,,Caroline Bourdeau,Catherine Foley,Jessica Lortie,2nd Period,5:02,1,3,-3,5,2.0,-2,2005-06
+2005-10-29,BU,Dartmouth,,Genevieve Laing,Caroline Bourdeau,Unassisted,3rd Period,9:51,2,4,-3,9,51.0,-2,2005-06
+2005-10-29,BU,Dartmouth,"PP, EA",Caroline Bourdeau,Stephanie Armstrong,Kelley Karnan,3rd Period,17:17,3,4,-2,17,17.0,-1,2005-06
+2005-11-04,BU,Rensselaer,,Nicki Wiart,Cara Hendry,Laurel Koller,1st Period,5:25,1,0,0,5,25.0,1,2005-06
+2005-11-04,BU,Rensselaer,PP,Sarah Russell,Unassisted,Unassisted,1st Period,12:46,2,0,1,12,46.0,2,2005-06
+2005-11-04,BU,Rensselaer,PP,Erin Seman,Nicki Wiart,Unassisted,2nd Period,19:19,3,5,-3,19,19.0,-2,2005-06
+2005-11-05,BU,Rensselaer,,Maeghan Ouimet,Unassisted,Unassisted,3rd Period,15:23,1,4,-4,15,23.0,-3,2005-06
+2005-11-05,BU,Rensselaer,,Kelley Karnan,Nicki Wiart,Unassisted,3rd Period,17:43,2,4,-3,17,43.0,-2,2005-06
+2005-11-05,BU,Rensselaer,"PP, EA",Genevieve Laing,Laurel Koller,Gina Kearns,3rd Period,19:44,3,4,-2,19,44.0,-1,2005-06
+2005-11-13,BU,Vermont,,Cara Hendry,Gina Kearns,Erin Seman,2nd Period,10:47,1,1,-1,10,47.0,0,2005-06
+2005-11-13,BU,Vermont,,Laurel Koller,Stephanie Armstrong,Nicki Wiart,2nd Period,11:09,2,1,0,11,9.0,1,2005-06
+2005-11-13,BU,Vermont,PP,Laurel Koller,Gina Kearns,Amanda Shaw,2nd Period,15:17,3,1,1,15,17.0,2,2005-06
+2005-11-26,BU,Robert Morris,,Gina Kearns,Erin Seman,Genevieve Laing,1st Period,11:19,1,0,0,11,19.0,1,2005-06
+2005-11-26,BU,Robert Morris,PP,Erin Seman,Gina Kearns,Cara Hendry,2nd Period,0:48,2,0,1,0,48.0,2,2005-06
+2005-11-26,BU,Robert Morris,5x3,Cara Hendry,Gina Kearns,Laurel Koller,3rd Period,11:42,3,0,2,11,42.0,3,2005-06
+2005-11-27,BU,Robert Morris,PP,Genevieve Laing,Jessica Lortie,Nicki Wiart,1st Period,6:47,1,0,0,6,47.0,1,2005-06
+2005-11-27,BU,Robert Morris,PP,Cara Hendry,Amanda Shaw,Unassisted,2nd Period,7:52,2,0,1,7,52.0,2,2005-06
+2005-11-27,BU,Robert Morris,PP,Cara Hendry,Erin Seman,Unassisted,2nd Period,9:54,3,0,2,9,54.0,3,2005-06
+2005-11-27,BU,Robert Morris,PP,Gina Kearns,Cara Hendry,Unassisted,2nd Period,13:43,4,0,3,13,43.0,4,2005-06
+2005-11-27,BU,Robert Morris,SH,Nicki Wiart,Laurel Koller,Unassisted,3rd Period,5:31,5,1,3,5,31.0,4,2005-06
+2005-12-03,BU,Providence,,Gina Kearns,Nicki Wiart,Cara Hendry,2nd Period,6:10,1,1,-1,6,10.0,0,2005-06
+2005-12-03,BU,Providence,SH,Nicki Wiart,Cara Hendry,Unassisted,3rd Period,10:23,2,1,0,10,23.0,1,2005-06
+2005-12-04,BU,Sacred Heart,,Cara Hendry,Gina Kearns,Nicki Wiart,1st Period,0:39,1,0,0,0,39.0,1,2005-06
+2005-12-04,BU,Sacred Heart,,Laurel Koller,Erin Seman,Stephanie Armstrong,1st Period,9:03,2,0,1,9,3.0,2,2005-06
+2005-12-04,BU,Sacred Heart,PP,Erin Seman,Cara Hendry,Laurel Koller,1st Period,18:57,3,1,1,18,57.0,2,2005-06
+2005-12-04,BU,Sacred Heart,PP,Stephanie Armstrong,Gina Kearns,Nicki Wiart,2nd Period,19:01,4,2,1,19,1.0,2,2005-06
+2005-12-04,BU,Sacred Heart,,Stephanie Armstrong,Erin Seman,Unassisted,3rd Period,4:12,5,2,2,4,12.0,3,2005-06
+2005-12-04,BU,Sacred Heart,3x3,Erin Seman,Emily Schwarz,Unassisted,3rd Period,13:07,6,2,3,13,7.0,4,2005-06
+2005-12-04,BU,Sacred Heart,,Laurel Koller,Erin Seman,Stephanie Armstrong,3rd Period,17:45,7,2,4,17,45.0,5,2005-06
+2006-01-07,BU,New Hampshire,,Gina Kearns,Sarah Russell,Unassisted,1st Period,18:08,1,1,-1,18,8.0,0,2005-06
+2006-01-15,BU,Connecticut,,Laurel Koller,Unassisted,Unassisted,1st Period,14:11,1,0,0,14,11.0,1,2005-06
+2006-01-15,BU,Connecticut,,Sophie Thornton,Caroline Bourdeau,Unassisted,2nd Period,12:14,2,0,1,12,14.0,2,2005-06
+2006-01-15,BU,Connecticut,PP,Gina Kearns,Laurel Koller,Unassisted,3rd Period,1:15,3,0,2,1,15.0,3,2005-06
+2006-01-18,BU,Brown,,Gina Kearns,Cara Hendry,Unassisted,1st Period,15:49,1,1,-1,15,49.0,0,2005-06
+2006-01-18,BU,Brown,,Gina Kearns,Unassisted,Unassisted,3rd Period,0:31,2,1,0,0,31.0,1,2005-06
+2006-01-21,BU,Boston College,PP,Cara Hendry,Laurel Koller,Unassisted,1st Period,10:29,1,2,-2,10,29.0,-1,2005-06
+2006-01-21,BU,Boston College,5x3,Laurel Koller,Caitlin Reddy,Amanda Shaw,3rd Period,15:23,2,5,-4,15,23.0,-3,2005-06
+2006-01-22,BU,Boston College,3x3,Nicki Wiart,Gina Kearns,Unassisted,3rd Period,14:32,1,2,-2,14,32.0,-1,2005-06
+2006-02-04,BU,Northeastern,PP,Nicki Wiart,Amanda Shaw,Erin Seman,1st Period,1:44,1,0,0,1,44.0,1,2005-06
+2006-02-04,BU,Northeastern,PP,Kelley Karnan,Gina Kearns,Unassisted,3rd Period,10:09,2,2,-1,10,9.0,0,2005-06
+2006-02-04,BU,Northeastern,EA,Catherine Foley,Nicki Wiart,Unassisted,3rd Period,19:09,3,4,-2,19,9.0,-1,2005-06
+2006-02-07,BU,Harvard,PP,Laurel Koller,Cara Hendry,Gina Kearns,3rd Period,11:11,1,1,-1,11,11.0,0,2005-06
+2006-02-11,BU,Providence,PP,Nicki Wiart,Sarah Russell,Caitlin Reddy,2nd Period,11:15,1,3,-3,11,15.0,-2,2005-06
+2006-02-14,BU,Northeastern,,Laurel Koller,Nicki Wiart,Jessica Lortie,2nd Period,19:16,1,0,0,19,16.0,1,2005-06
+2006-02-14,BU,Northeastern,,Gina Kearns,Caroline Bourdeau,Unassisted,3rd Period,7:53,2,1,0,7,53.0,1,2005-06
+2006-02-14,BU,Northeastern,,Nicki Wiart,Laurel Koller,Unassisted,3rd Period,8:49,3,1,1,8,49.0,2,2005-06
+2006-02-18,BU,Maine,,Gina Kearns,Cara Hendry,Unassisted,2nd Period,17:59,1,1,-1,17,59.0,0,2005-06
+2006-02-18,BU,Maine,,Stephanie Armstrong,Nicki Wiart,Laurel Koller,3rd Period,4:27,2,1,0,4,27.0,1,2005-06
+2006-02-19,BU,Maine,PP,Nicki Wiart,Genevieve Laing,Unassisted,2nd Period,17:44,1,1,-1,17,44.0,0,2005-06
+2006-10-06,BU,Robert Morris,,Caroline Bourdeau,Melissa Anderson,Unassisted,2nd Period,3:07,1,1,-1,3,7.0,0,2006-07
+2006-10-06,BU,Robert Morris,PP,Julie Poulin,Gina Kearns,Melissa Anderson,3rd Period,8:50,2,1,0,8,50.0,1,2006-07
+2006-10-06,BU,Robert Morris,,Erin Seman,Melissa Anderson,Unassisted,3rd Period,10:19,3,1,1,10,19.0,2,2006-07
+2006-10-06,BU,Robert Morris,,Nicki Wiart,Cara Hendry,Gina Kearns,3rd Period,18:35,4,1,2,18,35.0,3,2006-07
+2006-10-07,BU,Robert Morris,3x3,Gina Kearns,Catherine Foley,Unassisted,2nd Period,9:31,1,2,-2,9,31.0,-1,2006-07
+2006-10-07,BU,Robert Morris,PP,Gina Kearns,Nicki Wiart,Melissa Anderson,3rd Period,11:10,2,2,-1,11,10.0,0,2006-07
+2006-10-07,BU,Robert Morris,"4x3, PP",Nicki Wiart,Unassisted,Unassisted,3rd Period,17:34,3,2,0,17,34.0,1,2006-07
+2006-10-13,BU,Rensselaer,PP,Sarah Appleton,Melissa Anderson,Erin Seman,1st Period,1:41,1,0,0,1,41.0,1,2006-07
+2006-10-13,BU,Rensselaer,,Melissa Anderson,Erin Seman,Unassisted,2nd Period,19:57,2,1,0,19,57.0,1,2006-07
+2006-10-13,BU,Rensselaer,,Erin Seman,Genevieve Laing,Sarah Appleton,Overtime (2:12),2:12,3,2,0,2,12.0,1,2006-07
+2006-10-14,BU,Rensselaer,,Nicki Wiart,Melissa Anderson,Gina Kearns,1st Period,18:20,1,0,0,18,20.0,1,2006-07
+2006-10-14,BU,Rensselaer,,Erin Seman,Cara Hendry,Catherine Foley,2nd Period,17:15,2,1,0,17,15.0,1,2006-07
+2006-10-21,BU,Vermont,,Sarah Appleton,Unassisted,Unassisted,1st Period,4:58,1,0,0,4,58.0,1,2006-07
+2006-10-21,BU,Vermont,,Jenn Arms,Stephanie Armstrong,Unassisted,1st Period,17:18,2,0,1,17,18.0,2,2006-07
+2006-10-21,BU,Vermont,,Genevieve Laing,Erin Seman,Unassisted,3rd Period,4:41,3,0,2,4,41.0,3,2006-07
+2006-10-22,BU,Vermont,PP,Melissa Anderson,Amanda Shaw,Unassisted,2nd Period,2:14,1,0,0,2,14.0,1,2006-07
+2006-10-22,BU,Vermont,SH,Gina Kearns,Julie Poulin,Unassisted,2nd Period,7:21,2,0,1,7,21.0,2,2006-07
+2006-10-22,BU,Vermont,,Cara Hendry,Melissa Anderson,Unassisted,2nd Period,8:17,3,0,2,8,17.0,3,2006-07
+2006-10-22,BU,Vermont,PP,Amanda Shaw,Melissa Anderson,Julie Poulin,2nd Period,11:13,4,0,3,11,13.0,4,2006-07
+2006-11-04,BU,Boston College,,Melissa Anderson,Erin Seman,Sarah Appleton,1st Period,18:43,1,1,-1,18,43.0,0,2006-07
+2006-11-04,BU,Boston College,,Jonnie Bloemers,Melissa Anderson,Erin Seman,2nd Period,11:18,2,3,-2,11,18.0,-1,2006-07
+2006-11-12,BU,Vermont,,Erin Seman,Unassisted,Unassisted,2nd Period,0:59,1,0,0,0,59.0,1,2006-07
+2006-11-12,BU,Vermont,,Kelley Karnan,Stephanie Armstrong,Unassisted,2nd Period,8:05,2,0,1,8,5.0,2,2006-07
+2006-11-12,BU,Vermont,EN,Julie Poulin,Unassisted,Unassisted,3rd Period,19:23,3,0,2,19,23.0,3,2006-07
+2006-11-18,BU,Providence,PP,Gina Kearns,Cara Hendry,Unassisted,1st Period,7:56,1,0,0,7,56.0,1,2006-07
+2006-11-18,BU,Providence,,Nicki Wiart,Jonnie Bloemers,Melissa Anderson,1st Period,11:27,2,0,1,11,27.0,2,2006-07
+2006-11-18,BU,Providence,,Jonnie Bloemers,Amanda Shaw,Unassisted,3rd Period,12:03,3,4,-2,12,3.0,-1,2006-07
+2006-11-19,BU,Connecticut,,Caroline Bourdeau,Julie Poulin,Unassisted,2nd Period,12:21,1,1,-1,12,21.0,0,2006-07
+2006-11-19,BU,Connecticut,PP,Cara Hendry,Jonnie Bloemers,Sarah Russell,2nd Period,18:15,2,1,0,18,15.0,1,2006-07
+2006-11-25,BU,Union,,Genevieve Laing,Stephanie Armstrong,Sarah Appleton,1st Period,13:47,1,1,-1,13,47.0,0,2006-07
+2006-11-25,BU,Union,,Melissa Anderson,Cara Hendry,Erin Seman,2nd Period,0:15,2,1,0,0,15.0,1,2006-07
+2006-11-25,BU,Union,,Cara Hendry,Sarah Appleton,Unassisted,2nd Period,19:40,3,1,1,19,40.0,2,2006-07
+2006-11-25,BU,Union,5x3,Nicki Wiart,Cara Hendry,Unassisted,3rd Period,14:56,4,1,2,14,56.0,3,2006-07
+2006-11-26,BU,Union,PP,Erin Seman,Melissa Anderson,Gina Kearns,2nd Period,18:26,1,1,-1,18,26.0,0,2006-07
+2006-11-26,BU,Union,3x3,Gina Kearns,Julie Poulin,Unassisted,3rd Period,0:48,2,2,-1,0,48.0,0,2006-07
+2006-11-26,BU,Union,,Nicki Wiart,Jonnie Bloemers,Unassisted,3rd Period,11:15,3,2,0,11,15.0,1,2006-07
+2006-11-26,BU,Union,EN,Erin Seman,Cara Hendry,Unassisted,3rd Period,19:32,4,2,1,19,32.0,2,2006-07
+2006-11-29,BU,Quinnipiac,,Cara Hendry,Caroline Bourdeau,Sarah Russell,1st Period,14:33,1,0,0,14,33.0,1,2006-07
+2006-11-29,BU,Quinnipiac,SH,Melissa Anderson,Unassisted,Unassisted,2nd Period,9:27,2,1,0,9,27.0,1,2006-07
+2006-11-29,BU,Quinnipiac,,Cara Hendry,Erin Seman,Melissa Anderson,3rd Period,3:34,3,1,1,3,34.0,2,2006-07
+2006-11-29,BU,Quinnipiac,PP,Gina Kearns,Erin Seman,Melissa Anderson,3rd Period,14:47,4,3,0,14,47.0,1,2006-07
+2006-12-02,BU,Providence,,Melissa Anderson,Nicki Wiart,Cara Hendry,1st Period,10:58,1,0,0,10,58.0,1,2006-07
+2006-12-02,BU,Providence,PP,Erin Seman,Gina Kearns,Melissa Anderson,2nd Period,3:09,2,0,1,3,9.0,2,2006-07
+2006-12-05,BU,Brown,,Melissa Anderson,Cara Hendry,Erin Seman,2nd Period,17:53,1,2,-2,17,53.0,-1,2006-07
+2006-12-09,BU,Sacred Heart,PP,Erin Seman,Julie Poulin,Unassisted,1st Period,4:18,1,0,0,4,18.0,1,2006-07
+2006-12-09,BU,Sacred Heart,PP,Erin Seman,Melissa Anderson,Gina Kearns,1st Period,12:11,2,0,1,12,11.0,2,2006-07
+2006-12-09,BU,Sacred Heart,,Stephanie Armstrong,Caroline Bourdeau,Lynn Hillen,2nd Period,4:12,3,0,2,4,12.0,3,2006-07
+2006-12-09,BU,Sacred Heart,,Amanda Shaw,Jonnie Bloemers,Unassisted,2nd Period,6:21,4,0,3,6,21.0,4,2006-07
+2006-12-09,BU,Sacred Heart,,Melissa Anderson,Cara Hendry,Unassisted,2nd Period,6:42,5,0,4,6,42.0,5,2006-07
+2006-12-09,BU,Sacred Heart,,Gina Kearns,Caroline Bourdeau,Unassisted,3rd Period,9:10,6,0,5,9,10.0,6,2006-07
+2006-12-09,BU,Sacred Heart,,Lynn Hillen,Genevieve Laing,Caroline Bourdeau,3rd Period,10:30,7,0,6,10,30.0,7,2006-07
+2006-12-09,BU,Sacred Heart,PP,Caroline Bourdeau,Lynn Hillen,Unassisted,3rd Period,18:34,8,0,7,18,34.0,8,2006-07
+2007-01-05,BU,St. Cloud State,PP,Gina Kearns,Erin Seman,Unassisted,2nd Period,16:10,1,1,-1,16,10.0,0,2006-07
+2007-01-05,BU,St. Cloud State,PP,Cara Hendry,Sarah Appleton,Nicki Wiart,3rd Period,8:24,2,2,-1,8,24.0,0,2006-07
+2007-01-06,BU,St. Cloud State,PP,Melissa Anderson,Kelley Karnan,Genevieve Laing,1st Period,10:01,1,0,0,10,1.0,1,2006-07
+2007-01-11,BU,Connecticut,PP,Erin Seman,Genevieve Laing,Unassisted,3rd Period,7:05,1,2,-2,7,5.0,-1,2006-07
+2007-01-11,BU,Connecticut,PP,Jonnie Bloemers,Cara Hendry,Gina Kearns,3rd Period,17:26,2,2,-1,17,26.0,0,2006-07
+2007-01-11,BU,Connecticut,,Gina Kearns,Unassisted,Unassisted,Overtime (2:13),2:13,3,2,0,2,13.0,1,2006-07
+2007-01-13,BU,Northeastern,,Jonnie Bloemers,Julie Poulin,Unassisted,1st Period,1:06,1,0,0,1,6.0,1,2006-07
+2007-01-13,BU,Northeastern,PP,Erin Seman,Cara Hendry,Julie Poulin,1st Period,11:33,2,0,1,11,33.0,2,2006-07
+2007-01-13,BU,Northeastern,PP,Cara Hendry,Erin Seman,Sarah Appleton,3rd Period,6:14,3,1,1,6,14.0,2,2006-07
+2007-01-13,BU,Northeastern,EN,Nicki Wiart,Gina Kearns,Unassisted,3rd Period,18:51,4,2,1,18,51.0,2,2006-07
+2007-01-19,BU,Boston College,PP,Nicki Wiart,Sarah Russell,Sarah Appleton,1st Period,9:01,1,0,0,9,1.0,1,2006-07
+2007-01-19,BU,Boston College,,Cara Hendry,Erin Seman,Unassisted,3rd Period,18:34,2,1,0,18,34.0,1,2006-07
+2007-01-19,BU,Boston College,EN,Erin Seman,Julie Poulin,Unassisted,3rd Period,19:25,3,1,1,19,25.0,2,2006-07
+2007-01-27,BU,Maine,,Sarah Russell,Genevieve Laing,Unassisted,3rd Period,11:57,1,0,0,11,57.0,1,2006-07
+2007-01-27,BU,Maine,,Erin Seman,Melissa Anderson,Gina Kearns,3rd Period,17:22,2,0,1,17,22.0,2,2006-07
+2007-01-27,BU,Maine,EN,Amanda Shaw,Unassisted,Unassisted,3rd Period,18:24,3,0,2,18,24.0,3,2006-07
+2007-01-31,BU,New Hampshire,,Erin Seman,Cara Hendry,Unassisted,1st Period,17:32,1,0,0,17,32.0,1,2006-07
+2007-02-03,BU,Northeastern,PP,Cara Hendry,Sarah Russell,Nicki Wiart,3rd Period,1:46,1,3,-3,1,46.0,-2,2006-07
+2007-02-03,BU,Northeastern,,Gina Kearns,Unassisted,Unassisted,3rd Period,7:53,2,3,-2,7,53.0,-1,2006-07
+2007-02-03,BU,Northeastern,PP,Melissa Anderson,Amanda Shaw,Unassisted,3rd Period,14:59,3,3,-1,14,59.0,0,2006-07
+2007-02-03,BU,Northeastern,,Nicki Wiart,Cara Hendry,Sarah Russell,3rd Period,15:14,4,3,0,15,14.0,1,2006-07
+2007-02-06,BU,Northeastern,PP,Cara Hendry,Jonnie Bloemers,Sarah Appleton,2nd Period,8:03,1,2,-2,8,3.0,-1,2006-07
+2007-02-06,BU,Northeastern,3x3,Gina Kearns,Melissa Anderson,Unassisted,3rd Period,1:20,2,2,-1,1,20.0,0,2006-07
+2007-02-06,BU,Northeastern,,Erin Seman,Sarah Appleton,Melissa Anderson,3rd Period,14:13,3,2,0,14,13.0,1,2006-07
+2007-02-06,BU,Northeastern,"SH, EN",Julie Poulin,Unassisted,Unassisted,3rd Period,18:53,4,2,1,18,53.0,2,2006-07
+2007-02-10,BU,Providence,PP,Nicki Wiart,Sarah Russell,Unassisted,1st Period,9:52,1,0,0,9,52.0,1,2006-07
+2007-02-10,BU,Providence,,Gina Kearns,Jonnie Bloemers,Unassisted,1st Period,17:24,2,0,1,17,24.0,2,2006-07
+2007-02-10,BU,Providence,"3x3, EN",Gina Kearns,Unassisted,Unassisted,3rd Period,19:59,3,1,1,19,59.0,2,2006-07
+2007-02-13,BU,Boston College,,Nicki Wiart,Jonnie Bloemers,Unassisted,3rd Period,16:28,1,5,-5,16,28.0,-4,2006-07
+2007-02-17,BU,Maine,,Nicki Wiart,Jonnie Bloemers,Amanda Shaw,1st Period,1:11,1,0,0,1,11.0,1,2006-07
+2007-02-17,BU,Maine,,Gina Kearns,Nicki Wiart,Sarah Appleton,1st Period,13:56,2,0,1,13,56.0,2,2006-07
+2007-02-18,BU,Maine,PP,Erin Seman,Gina Kearns,Melissa Anderson,1st Period,11:12,1,1,-1,11,12.0,0,2006-07
+2007-02-18,BU,Maine,,Melissa Anderson,Unassisted,Unassisted,2nd Period,3:30,2,1,0,3,30.0,1,2006-07
+2007-02-21,BU,New Hampshire,,Melissa Anderson,Stephanie Armstrong,Kelley Karnan,2nd Period,13:52,1,1,-1,13,52.0,0,2006-07
+2007-02-21,BU,New Hampshire,PP,Sarah Appleton,Jonnie Bloemers,Unassisted,3rd Period,14:42,2,3,-2,14,42.0,-1,2006-07
+2007-02-24,BU,Northeastern,,Cara Hendry,Gina Kearns,Unassisted,1st Period,11:00,1,2,-2,11,0.0,-1,2006-07
+2007-02-24,BU,Northeastern,,Catherine Foley,Nicki Wiart,Julie Poulin,1st Period,17:54,2,2,-1,17,54.0,0,2006-07
+2007-02-24,BU,Northeastern,PP,Erin Seman,Gina Kearns,Melissa Anderson,2nd Period,3:09,3,2,0,3,9.0,1,2006-07
+2007-02-24,BU,Northeastern,,Erin Seman,Melissa Anderson,Unassisted,2nd Period,4:56,4,2,1,4,56.0,2,2006-07
+2007-02-24,BU,Northeastern,,Kelley Karnan,Jonnie Bloemers,Caroline Bourdeau,2nd Period,6:08,5,2,2,6,8.0,3,2006-07
+2007-02-24,BU,Northeastern,3x3,Erin Seman,Melissa Anderson,Unassisted,3rd Period,18:12,6,2,3,18,12.0,4,2006-07
+2007-10-05,BU,North Dakota,PP,Erin Seman,Julie Poulin,Gina Kearns,1st Period,9:26,1,0,0,9,26.0,1,2007-08
+2007-10-05,BU,North Dakota,,Laurel Koller,Unassisted,Unassisted,2nd Period,9:40,2,1,0,9,40.0,1,2007-08
+2007-10-06,BU,Minnesota,,Jillian Kirchner,Lauren Cherewyk,Holly Lorms,1st Period,4:55,1,0,0,4,55.0,1,2007-08
+2007-10-06,BU,Minnesota,PP,Holly Lorms,Laurel Koller,Julie Poulin,2nd Period,10:27,2,1,0,10,27.0,1,2007-08
+2007-10-12,BU,Mercyhurst,PP,Melissa Anderson,Amanda Shaw,Erin Seman,1st Period,4:01,1,0,0,4,1.0,1,2007-08
+2007-10-12,BU,Mercyhurst,PP,Erin Seman,Julie Poulin,Unassisted,2nd Period,12:04,2,4,-3,12,4.0,-2,2007-08
+2007-10-12,BU,Mercyhurst,PP,Sarah Appleton,Erin Seman,Gina Kearns,2nd Period,13:11,3,4,-2,13,11.0,-1,2007-08
+2007-10-12,BU,Mercyhurst,PP,Amanda Shaw,Jillian Kirchner,Julie Poulin,2nd Period,19:35,4,4,-1,19,35.0,0,2007-08
+2007-10-12,BU,Mercyhurst,,Gina Kearns,Erin Seman,Sarah Appleton,3rd Period,4:40,5,4,0,4,40.0,1,2007-08
+2007-10-13,BU,Mercyhurst,,Lauren Cherewyk,Amanda Shaw,Stephanie Armstrong,2nd Period,9:38,1,2,-2,9,38.0,-1,2007-08
+2007-10-21,BU,New Hampshire,,Sarah Appleton,Unassisted,Unassisted,2nd Period,9:11,1,2,-2,9,11.0,-1,2007-08
+2007-10-28,BU,Dartmouth,PP,Melissa Anderson,Erin Seman,Gina Kearns,1st Period,6:21,1,0,0,6,21.0,1,2007-08
+2007-10-28,BU,Dartmouth,PP,Melissa Anderson,Amanda Shaw,Unassisted,1st Period,10:30,2,0,1,10,30.0,2,2007-08
+2007-10-28,BU,Dartmouth,3x3,Amanda Shaw,Melissa Anderson,Gina Kearns,2nd Period,15:38,3,2,0,15,38.0,1,2007-08
+2007-10-28,BU,Dartmouth,,Laurel Koller,Unassisted,Unassisted,3rd Period,5:19,4,2,1,5,19.0,2,2007-08
+2007-10-28,BU,Dartmouth,PP,Julie Poulin,Gina Kearns,Melissa Anderson,3rd Period,11:14,5,4,0,11,14.0,1,2007-08
+2007-11-01,BU,New Hampshire,,Nicki Wiart,Caroline Bourdeau,Unassisted,3rd Period,16:54,1,3,-3,16,54.0,-2,2007-08
+2007-11-03,BU,Union,,Sarah Russell,Julie Poulin,Unassisted,1st Period,7:48,1,0,0,7,48.0,1,2007-08
+2007-11-03,BU,Union,,Sarah Russell,Lauren Cherewyk,Unassisted,2nd Period,14:28,2,0,1,14,28.0,2,2007-08
+2007-11-03,BU,Union,,Caroline Bourdeau,Jonnie Bloemers,Jillian Kirchner,2nd Period,15:09,3,0,2,15,9.0,3,2007-08
+2007-11-03,BU,Union,,Stephanie Armstrong,Melissa Tetreau,Jenn Arms,2nd Period,15:57,4,0,3,15,57.0,4,2007-08
+2007-11-03,BU,Union,,Melissa Anderson,Sarah Appleton,Erin Seman,2nd Period,16:57,5,0,4,16,57.0,5,2007-08
+2007-11-03,BU,Union,,Sarah Appleton,Jillian Kirchner,Jonnie Bloemers,2nd Period,19:14,6,0,5,19,14.0,6,2007-08
+2007-11-07,BU,Quinnipiac,,Holly Lorms,Sarah Appleton,Lauren Cherewyk,2nd Period,4:49,1,1,-1,4,49.0,0,2007-08
+2007-11-07,BU,Quinnipiac,,Melissa Anderson,Gina Kearns,Erin Seman,2nd Period,6:16,2,1,0,6,16.0,1,2007-08
+2007-11-07,BU,Quinnipiac,,Holly Lorms,Lauren Cherewyk,Laurel Koller,2nd Period,8:28,3,1,1,8,28.0,2,2007-08
+2007-11-07,BU,Quinnipiac,,Julie Poulin,Gina Kearns,Melissa Anderson,3rd Period,10:14,4,1,2,10,14.0,3,2007-08
+2007-11-07,BU,Quinnipiac,EN,Jonnie Bloemers,Sarah Appleton,Unassisted,3rd Period,18:55,5,1,3,18,55.0,4,2007-08
+2007-11-07,BU,Quinnipiac,,Jillian Kirchner,Gina Kearns,Julie Poulin,3rd Period,19:15,6,1,4,19,15.0,5,2007-08
+2007-11-10,BU,Princeton,,Melissa Tetreau,Jonnie Bloemers,Unassisted,2nd Period,1:25,1,1,-1,1,25.0,0,2007-08
+2007-11-10,BU,Princeton,,Amanda Shaw,Nicki Wiart,Jonnie Bloemers,2nd Period,13:00,2,2,-1,13,0.0,0,2007-08
+2007-11-17,BU,St. Cloud State,PP,Gina Kearns,Amanda Shaw,Julie Poulin,1st Period,14:19,1,0,0,14,19.0,1,2007-08
+2007-11-20,BU,Maine,PP,Nicki Wiart,Kelley Karnan,Unassisted,1st Period,18:57,1,0,0,18,57.0,1,2007-08
+2007-11-20,BU,Maine,PP,Sarah Appleton,Lauren Cherewyk,Unassisted,2nd Period,8:18,2,0,1,8,18.0,2,2007-08
+2007-11-20,BU,Maine,,Erin Seman,Melissa Anderson,Amanda Shaw,3rd Period,12:56,3,2,0,12,56.0,1,2007-08
+2007-12-01,BU,New Hampshire,,Laurel Koller,Gina Kearns,Jenn Arms,1st Period,11:38,1,0,0,11,38.0,1,2007-08
+2007-12-01,BU,New Hampshire,,Lauren Cherewyk,Jillian Kirchner,Unassisted,2nd Period,18:09,2,1,0,18,9.0,1,2007-08
+2007-12-02,BU,Vermont,SH,Gina Kearns,Jillian Kirchner,Unassisted,1st Period,7:58,1,0,0,7,58.0,1,2007-08
+2007-12-02,BU,Vermont,,Jillian Kirchner,Caroline Bourdeau,Unassisted,3rd Period,10:14,2,0,1,10,14.0,2,2007-08
+2007-12-02,BU,Vermont,,Stephanie Armstrong,Erin Seman,Sophie Thornton,3rd Period,19:06.3,3,0,2,19,6.3,3,2007-08
+2007-12-06,BU,Boston College,PP,Sarah Russell,Laurel Koller,Unassisted,2nd Period,5:15,1,0,0,5,15.0,1,2007-08
+2007-12-06,BU,Boston College,PP,Amanda Shaw,Jillian Kirchner,Unassisted,3rd Period,8:12,2,1,0,8,12.0,1,2007-08
+2007-12-06,BU,Boston College,,Jonnie Bloemers,Melissa Anderson,Unassisted,Overtime (2:43),2:43,3,2,0,2,43.0,1,2007-08
+2007-12-08,BU,Sacred Heart,,Caroline Bourdeau,Jillian Kirchner,Unassisted,1st Period,1:46,1,0,0,1,46.0,1,2007-08
+2007-12-08,BU,Sacred Heart,,Stephanie Armstrong,Jillian Kirchner,Caitlin Reddy,1st Period,10:28,2,0,1,10,28.0,2,2007-08
+2007-12-08,BU,Sacred Heart,,Gina Kearns,Amanda Shaw,Unassisted,1st Period,11:15,3,0,2,11,15.0,3,2007-08
+2007-12-08,BU,Sacred Heart,,Jonnie Bloemers,Caroline Bourdeau,Jillian Kirchner,1st Period,12:38,4,0,3,12,38.0,4,2007-08
+2007-12-08,BU,Sacred Heart,,Laurel Koller,Melissa Tetreau,Unassisted,1st Period,17:16,5,0,4,17,16.0,5,2007-08
+2007-12-08,BU,Sacred Heart,SH,Caroline Bourdeau,Unassisted,Unassisted,2nd Period,12:06,6,1,4,12,6.0,5,2007-08
+2007-12-08,BU,Sacred Heart,,Erin Seman,Kelley Karnan,Stephanie Armstrong,2nd Period,19:49,7,1,5,19,49.0,6,2007-08
+2007-12-08,BU,Sacred Heart,PP,Erin Seman,Melissa Anderson,Unassisted,3rd Period,5:51,8,1,6,5,51.0,7,2007-08
+2007-12-08,BU,Sacred Heart,,Melissa Anderson,Kelley Karnan,Erin Seman,3rd Period,6:22,9,1,7,6,22.0,8,2007-08
+2007-12-08,BU,Sacred Heart,,Melissa Tetreau,Julie Poulin,Unassisted,3rd Period,15:24,10,1,8,15,24.0,9,2007-08
+2007-12-08,BU,Sacred Heart,,Jonnie Bloemers,Sarah Russell,Jillian Kirchner,3rd Period,18:11,11,1,9,18,11.0,10,2007-08
+2008-01-13,BU,Northeastern,,Melissa Anderson,Julie Poulin,Sarah Russell,1st Period,4:58,1,0,0,4,58.0,1,2007-08
+2008-01-13,BU,Northeastern,,Lauren Cherewyk,Erin Seman,Melissa Anderson,1st Period,13:22,2,0,1,13,22.0,2,2007-08
+2008-01-13,BU,Northeastern,,Caroline Bourdeau,Jillian Kirchner,Unassisted,3rd Period,1:14,3,1,1,1,14.0,2,2007-08
+2008-01-19,BU,Connecticut,,Gina Kearns,Sarah Appleton,Unassisted,3rd Period,3:54,1,2,-2,3,54.0,-1,2007-08
+2008-01-19,BU,Connecticut,PP,Laurel Koller,Sarah Appleton,Unassisted,3rd Period,10:10,2,2,-1,10,10.0,0,2007-08
+2008-01-20,BU,Providence,,Jillian Kirchner,Caroline Bourdeau,Unassisted,1st Period,17:15,1,1,-1,17,15.0,0,2007-08
+2008-01-26,BU,Maine,PP,Jillian Kirchner,Sarah Russell,Sarah Appleton,1st Period,6:42,1,0,0,6,42.0,1,2007-08
+2008-01-27,BU,Maine,PP,Laurel Koller,Melissa Anderson,Sarah Appleton,1st Period,19:23,1,0,0,19,23.0,1,2007-08
+2008-01-27,BU,Maine,,Gina Kearns,Kelley Karnan,Melissa Tetreau,2nd Period,7:13,2,0,1,7,13.0,2,2007-08
+2008-01-27,BU,Maine,,Lauren Cherewyk,Gina Kearns,Jillian Kirchner,2nd Period,9:57,3,0,2,9,57.0,3,2007-08
+2008-01-27,BU,Maine,EN,Caroline Bourdeau,Unassisted,Unassisted,3rd Period,19:28,4,2,1,19,28.0,2,2007-08
+2008-01-31,BU,Providence,,Holly Lorms,Amanda Shaw,Laurel Koller,1st Period,8:56,1,0,0,8,56.0,1,2007-08
+2008-01-31,BU,Providence,,Sarah Appleton,Kelley Karnan,Melissa Anderson,1st Period,9:48,2,0,1,9,48.0,2,2007-08
+2008-01-31,BU,Providence,PP,Jillian Kirchner,Lauren Cherewyk,Sarah Appleton,3rd Period,6:42,3,3,-1,6,42.0,0,2007-08
+2008-02-02,BU,Providence,PP,Melissa Anderson,Sarah Appleton,Unassisted,2nd Period,11:06,1,0,0,11,6.0,1,2007-08
+2008-02-02,BU,Providence,5x3,Sarah Appleton,Melissa Anderson,Gina Kearns,2nd Period,14:21,2,0,1,14,21.0,2,2007-08
+2008-02-02,BU,Providence,PP,Melissa Anderson,Gina Kearns,Unassisted,3rd Period,2:58,3,0,2,2,58.0,3,2007-08
+2008-02-05,BU,Boston College,,Gina Kearns,Jillian Kirchner,Lauren Cherewyk,1st Period,13:19,1,0,0,13,19.0,1,2007-08
+2008-02-05,BU,Boston College,PP,Jonnie Bloemers,Julie Poulin,Jillian Kirchner,3rd Period,8:18,2,1,0,8,18.0,1,2007-08
+2008-02-05,BU,Boston College,PP,Julie Poulin,Amanda Shaw,Gina Kearns,3rd Period,9:02,3,1,1,9,2.0,2,2007-08
+2008-02-08,BU,Vermont,,Melissa Anderson,Holly Lorms,Unassisted,1st Period,0:25,1,0,0,0,25.0,1,2007-08
+2008-02-08,BU,Vermont,,Caroline Bourdeau,Jonnie Bloemers,Unassisted,1st Period,1:30,2,0,1,1,30.0,2,2007-08
+2008-02-08,BU,Vermont,,Melissa Anderson,Unassisted,Unassisted,3rd Period,15:44,3,1,1,15,44.0,2,2007-08
+2008-02-09,BU,Vermont,,Holly Lorms,Jonnie Bloemers,Laurel Koller,2nd Period,14:43,1,0,0,14,43.0,1,2007-08
+2008-02-09,BU,Vermont,,Caroline Bourdeau,Julie Poulin,Unassisted,2nd Period,17:58,2,0,1,17,58.0,2,2007-08
+2008-02-12,BU,Harvard,PP,Jonnie Bloemers,Jillian Kirchner,Lauren Cherewyk,2nd Period,3:34,1,2,-2,3,34.0,-1,2007-08
+2008-02-16,BU,Connecticut,PP,Laurel Koller,Amanda Shaw,Julie Poulin,3rd Period,9:44,1,1,-1,9,44.0,0,2007-08
+2008-02-17,BU,Connecticut,PP,Gina Kearns,Melissa Anderson,Unassisted,1st Period,17:38,1,2,-2,17,38.0,-1,2007-08
+2008-02-17,BU,Connecticut,PP,Lauren Cherewyk,Jillian Kirchner,Sarah Russell,2nd Period,8:11,2,2,-1,8,11.0,0,2007-08
+2008-02-23,BU,Boston College,PP,Melissa Anderson,Amanda Shaw,Gina Kearns,1st Period,10:22,1,0,0,10,22.0,1,2007-08
+2008-02-23,BU,Boston College,PP,Melissa Anderson,Gina Kearns,Julie Poulin,2nd Period,16:44,2,1,0,16,44.0,1,2007-08
+2008-02-23,BU,Boston College,,Melissa Anderson,Unassisted,Unassisted,3rd Period,13:18,3,1,1,13,18.0,2,2007-08
+2008-02-23,BU,Boston College,,Erin Seman,Melissa Anderson,Unassisted,3rd Period,17:18,4,1,2,17,18.0,3,2007-08
+2008-03-01,BU,Northeastern,,Lauren Cherewyk,Melissa Anderson,Sarah Appleton,1st Period,12:48,1,0,0,12,48.0,1,2007-08
+2008-03-01,BU,Northeastern,,Melissa Anderson,Holly Lorms,Unassisted,3rd Period,4:24,2,0,1,4,24.0,2,2007-08
+2008-03-02,BU,Northeastern,,Melissa Anderson,Lauren Cherewyk,Kelley Karnan,2nd Period,4:53,1,1,-1,4,53.0,0,2007-08
+2008-03-02,BU,Northeastern,3x3,Julie Poulin,Caroline Bourdeau,Jonnie Bloemers,3rd Period,15:00,2,2,-1,15,0.0,0,2007-08
+2008-03-02,BU,Northeastern,,Laurel Koller,Gina Kearns,Unassisted,3rd Period,17:33,3,2,0,17,33.0,1,2007-08
+2008-10-03,BU,Union,,Sarah Appleton,Jenelle Kohanchuk,Jillian Kirchner,1st Period,18:34,1,0,0,18,34.0,1,2008-09
+2008-10-03,BU,Union,,Jillian Kirchner,Gina Kearns,Jenelle Kohanchuk,2nd Period,14:24,2,0,1,14,24.0,2,2008-09
+2008-10-03,BU,Union,,Jenelle Kohanchuk,Gina Kearns,Unassisted,3rd Period,12:38,3,1,1,12,38.0,2,2008-09
+2008-10-10,BU,Mercyhurst,PP,Gina Kearns,Holly Lorms,Jillian Kirchner,2nd Period,0:56,1,0,0,0,56.0,1,2008-09
+2008-10-10,BU,Mercyhurst,SH,Gina Kearns,Unassisted,Unassisted,2nd Period,3:21,2,0,1,3,21.0,2,2008-09
+2008-10-11,BU,Mercyhurst,,Jillian Kirchner,Jenelle Kohanchuk,Gina Kearns,3rd Period,2:55,1,2,-2,2,55.0,-1,2008-09
+2008-10-11,BU,Mercyhurst,,Erin Seman,Melissa Anderson,Unassisted,3rd Period,3:45,2,2,-1,3,45.0,0,2008-09
+2008-10-11,BU,Mercyhurst,,Jonnie Bloemers,Jenelle Kohanchuk,Erin Seman,3rd Period,17:22,3,2,0,17,22.0,1,2008-09
+2008-10-18,BU,Clarkson,,Gina Kearns,Sarah Russell,Unassisted,1st Period,0:28,1,0,0,0,28.0,1,2008-09
+2008-10-18,BU,Clarkson,PP,Gina Kearns,Sarah Appleton,Sarah Russell,1st Period,16:39,2,0,1,16,39.0,2,2008-09
+2008-10-19,BU,St. Lawrence,,Melissa Anderson,Erin Seman,Unassisted,1st Period,7:15,1,0,0,7,15.0,1,2008-09
+2008-10-19,BU,St. Lawrence,PP,Jenelle Kohanchuk,Melissa Anderson,Lauren Cherewyk,2nd Period,13:18,2,0,1,13,18.0,2,2008-09
+2008-10-23,BU,New Hampshire,,Tara Watchorn,Kasey Boucher,Unassisted,1st Period,1:54,1,0,0,1,54.0,1,2008-09
+2008-10-23,BU,New Hampshire,PP,Lauren Cherewyk,Melissa Anderson,Jillian Kirchner,1st Period,12:44,2,0,1,12,44.0,2,2008-09
+2008-10-23,BU,New Hampshire,PP,Lauren Cherewyk,Erin Seman,Jenelle Kohanchuk,3rd Period,11:55,3,2,0,11,55.0,1,2008-09
+2008-10-25,BU,Maine,PP,Lauren Cherewyk,Amanda Shaw,Melissa Anderson,1st Period,10:45,1,0,0,10,45.0,1,2008-09
+2008-10-25,BU,Maine,,Jenelle Kohanchuk,Gina Kearns,Jillian Kirchner,2nd Period,0:09,2,0,1,0,9.0,2,2008-09
+2008-10-25,BU,Maine,,Erin Seman,Melissa Anderson,Tara Watchorn,2nd Period,6:35,3,1,1,6,35.0,2,2008-09
+2008-10-25,BU,Maine,,Lauren Cherewyk,Erin Seman,Tara Watchorn,3rd Period,7:28,4,1,2,7,28.0,3,2008-09
+2008-10-25,BU,Maine,PP,Erin Seman,Amanda Shaw,Tara Watchorn,3rd Period,9:28,5,1,3,9,28.0,4,2008-09
+2008-10-25,BU,Maine,PP,Lauren Cherewyk,Melissa Anderson,Melissa Tetreau,3rd Period,12:26,6,1,4,12,26.0,5,2008-09
+2008-10-25,BU,Maine,,Melissa Anderson,Caroline Bourdeau,Kelley Karnan,3rd Period,14:55,7,1,5,14,55.0,6,2008-09
+2008-10-25,BU,Maine,PP,Carly Warren,Gina Kearns,Jillian Kirchner,3rd Period,17:36,8,1,6,17,36.0,7,2008-09
+2008-10-30,BU,New Hampshire,,Caroline Bourdeau,Lauren Cherewyk,Unassisted,1st Period,4:17,1,0,0,4,17.0,1,2008-09
+2008-10-30,BU,New Hampshire,PP,Jenelle Kohanchuk,Sarah Russell,Unassisted,1st Period,16:47,2,1,0,16,47.0,1,2008-09
+2008-11-01,BU,Providence,PP,Jillian Kirchner,Sarah Russell,Gina Kearns,2nd Period,13:43,1,1,-1,13,43.0,0,2008-09
+2008-11-01,BU,Providence,,Lauren Cherewyk,Melissa Anderson,Unassisted,2nd Period,14:41,2,1,0,14,41.0,1,2008-09
+2008-11-01,BU,Providence,"PP, EA",Gina Kearns,Melissa Anderson,Tara Watchorn,3rd Period,19:49,3,3,-1,19,49.0,0,2008-09
+2008-11-14,BU,Princeton,,Erin Seman,Melissa Anderson,Unassisted,1st Period,14:11,1,0,0,14,11.0,1,2008-09
+2008-11-14,BU,Princeton,,Jillian Kirchner,Jenelle Kohanchuk,Unassisted,3rd Period,0:06,2,0,1,0,6.0,2,2008-09
+2008-11-15,BU,Quinnipiac,,Gina Kearns,Jenelle Kohanchuk,Jillian Kirchner,1st Period,11:48,1,0,0,11,48.0,1,2008-09
+2008-11-15,BU,Quinnipiac,,Lauren Cherewyk,Melissa Anderson,Unassisted,1st Period,19:59,2,1,0,19,59.0,1,2008-09
+2008-11-15,BU,Quinnipiac,,Erin Seman,Melissa Anderson,Unassisted,2nd Period,0:26,3,1,1,0,26.0,2,2008-09
+2008-11-15,BU,Quinnipiac,,Erin Seman,Melissa Anderson,Unassisted,2nd Period,16:05,4,1,2,16,5.0,3,2008-09
+2008-11-15,BU,Quinnipiac,,Tara Watchorn,Unassisted,Unassisted,3rd Period,5:08,5,1,3,5,8.0,4,2008-09
+2008-11-22,BU,Boston College,,Gina Kearns,Jenelle Kohanchuk,Unassisted,1st Period,1:19,1,0,0,1,19.0,1,2008-09
+2008-11-22,BU,Boston College,PP,Jillian Kirchner,Holly Lorms,Sarah Russell,1st Period,11:24,2,0,1,11,24.0,2,2008-09
+2008-11-22,BU,Boston College,,Jenelle Kohanchuk,Sarah Russell,Jonnie Bloemers,3rd Period,8:13,3,1,1,8,13.0,2,2008-09
+2008-11-22,BU,Boston College,3x3,Melissa Anderson,Jenelle Kohanchuk,Unassisted,3rd Period,15:18,4,1,2,15,18.0,3,2008-09
+2008-11-25,BU,Yale,EA,Jenelle Kohanchuk,Lauren Cherewyk,Melissa Anderson,2nd Period,9:24,1,2,-2,9,24.0,-1,2008-09
+2008-12-05,BU,Vermont,PP,Amanda Shaw,Carly Warren,Jillian Kirchner,3rd Period,5:41,1,3,-3,5,41.0,-2,2008-09
+2008-12-05,BU,Vermont,3x3,Gina Kearns,Unassisted,Unassisted,3rd Period,18:48,2,3,-2,18,48.0,-1,2008-09
+2008-12-07,BU,New Hampshire,,Jenelle Kohanchuk,Sarah Appleton,Unassisted,1st Period,2:36,1,0,0,2,36.0,1,2008-09
+2008-12-07,BU,New Hampshire,PP,Tara Watchorn,Jenelle Kohanchuk,Melissa Anderson,3rd Period,10:53,2,3,-2,10,53.0,-1,2008-09
+2008-12-07,BU,New Hampshire,,Melissa Anderson,Jenelle Kohanchuk,Lauren Cherewyk,3rd Period,18:18,3,3,-1,18,18.0,0,2008-09
+2009-01-02,BU,Ohio State,PP,Sarah Russell,Jillian Kirchner,Sarah Appleton,1st Period,2:15,1,0,0,2,15.0,1,2008-09
+2009-01-02,BU,Ohio State,,Jillian Kirchner,Unassisted,Unassisted,1st Period,9:14,2,0,1,9,14.0,2,2008-09
+2009-01-02,BU,Ohio State,PP,Jenelle Kohanchuk,Sarah Russell,Jillian Kirchner,1st Period,11:21,3,0,2,11,21.0,3,2008-09
+2009-01-02,BU,Ohio State,,Melissa Anderson,Caroline Bourdeau,Unassisted,1st Period,19:59,4,1,2,19,59.0,3,2008-09
+2009-01-02,BU,Ohio State,,Lauren Cherewyk,Melissa Anderson,Erin Seman,2nd Period,12:10,5,2,2,12,10.0,3,2008-09
+2009-01-03,BU,Ohio State,,Erin Seman,Kasey Boucher,Lauren Cherewyk,2nd Period,16:42,1,1,-1,16,42.0,0,2008-09
+2009-01-03,BU,Ohio State,,Holly Lorms,Jillian Kirchner,Sarah Russell,3rd Period,18:29,2,2,-1,18,29.0,0,2008-09
+2009-01-17,BU,Maine,,Gina Kearns,Laurel Koller,Amanda Shaw,1st Period,1:39,1,0,0,1,39.0,1,2008-09
+2009-01-17,BU,Maine,,Jonnie Bloemers,Holly Lorms,Unassisted,2nd Period,10:12,2,0,1,10,12.0,2,2008-09
+2009-01-17,BU,Maine,,Melissa Anderson,Jillian Kirchner,Unassisted,2nd Period,13:33,3,0,2,13,33.0,3,2008-09
+2009-01-17,BU,Maine,,Holly Lorms,Unassisted,Unassisted,2nd Period,16:51,4,0,3,16,51.0,4,2008-09
+2009-01-17,BU,Maine,,Jonnie Bloemers,Holly Lorms,Erin Seman,3rd Period,14:49,5,2,2,14,49.0,3,2008-09
+2009-01-18,BU,Maine,5x3,Gina Kearns,Jillian Kirchner,Sarah Appleton,1st Period,16:48,1,0,0,16,48.0,1,2008-09
+2009-01-18,BU,Maine,PP,Sarah Russell,Sarah Appleton,Unassisted,2nd Period,2:53,2,0,1,2,53.0,2,2008-09
+2009-01-18,BU,Maine,,Lauren Cherewyk,Melissa Anderson,Amanda Shaw,2nd Period,6:36,3,1,1,6,36.0,2,2008-09
+2009-01-18,BU,Maine,PP,Jenelle Kohanchuk,Sarah Appleton,Sarah Russell,3rd Period,7:55,4,1,2,7,55.0,3,2008-09
+2009-01-18,BU,Maine,SH,Gina Kearns,Holly Lorms,Unassisted,3rd Period,18:51,5,1,3,18,51.0,4,2008-09
+2009-01-25,BU,Providence,,Erin Seman,Caroline Bourdeau,Jonnie Bloemers,1st Period,7:51,1,0,0,7,51.0,1,2008-09
+2009-01-30,BU,Vermont,PP,Jillian Kirchner,Gina Kearns,Sarah Russell,1st Period,10:24,1,0,0,10,24.0,1,2008-09
+2009-01-30,BU,Vermont,,Jonnie Bloemers,Laurel Koller,Unassisted,2nd Period,2:41,2,1,0,2,41.0,1,2008-09
+2009-01-30,BU,Vermont,,Gina Kearns,Tara Watchorn,Holly Lorms,3rd Period,17:02,3,2,0,17,2.0,1,2008-09
+2009-01-31,BU,Vermont,,Lauren Cherewyk,Melissa Anderson,Tara Watchorn,1st Period,19:37,1,0,0,19,37.0,1,2008-09
+2009-01-31,BU,Vermont,PP,Tara Watchorn,Sarah Russell,Erin Seman,2nd Period,13:21,2,0,1,13,21.0,2,2008-09
+2009-01-31,BU,Vermont,,Erin Seman,Lauren Cherewyk,Unassisted,2nd Period,18:20,3,0,2,18,20.0,3,2008-09
+2009-01-31,BU,Vermont,,Jenn Arms,Jillian Kirchner,Sarah Appleton,3rd Period,3:46,4,0,3,3,46.0,4,2008-09
+2009-02-06,BU,Connecticut,,Lauren Cherewyk,Melissa Anderson,Sarah Russell,1st Period,8:15,1,0,0,8,15.0,1,2008-09
+2009-02-06,BU,Connecticut,5x3,Jillian Kirchner,Sarah Appleton,Sarah Russell,2nd Period,8:54,2,0,1,8,54.0,2,2008-09
+2009-02-07,BU,Connecticut,,Jonnie Bloemers,Laurel Koller,Caroline Bourdeau,2nd Period,2:21,1,0,0,2,21.0,1,2008-09
+2009-02-07,BU,Connecticut,PP,Amanda Shaw,Tara Watchorn,Kasey Boucher,2nd Period,19:30,2,1,0,19,30.0,1,2008-09
+2009-02-07,BU,Connecticut,,Tara Watchorn,Caroline Bourdeau,Jonnie Bloemers,3rd Period,4:47,3,1,1,4,47.0,2,2008-09
+2009-02-10,BU,Northeastern,,Jenelle Kohanchuk,Gina Kearns,Tara Watchorn,1st Period,14:41,1,1,-1,14,41.0,0,2008-09
+2009-02-10,BU,Northeastern,,Sarah Russell,Jenelle Kohanchuk,Unassisted,3rd Period,19:03,2,1,0,19,3.0,1,2008-09
+2009-02-14,BU,Boston College,,Jenelle Kohanchuk,Gina Kearns,Tara Watchorn,1st Period,16:36,1,1,-1,16,36.0,0,2008-09
+2009-02-14,BU,Boston College,PP,Melissa Anderson,Kasey Boucher,Tara Watchorn,2nd Period,0:54,2,1,0,0,54.0,1,2008-09
+2009-02-14,BU,Boston College,,Jenelle Kohanchuk,Lauren Cherewyk,Unassisted,3rd Period,7:24,3,3,-1,7,24.0,0,2008-09
+2009-02-21,BU,Northeastern,,Gina Kearns,Kasey Boucher,Jenelle Kohanchuk,1st Period,9:46,1,0,0,9,46.0,1,2008-09
+2009-02-21,BU,Northeastern,,Jenelle Kohanchuk,Erin Seman,Unassisted,3rd Period,10:03,2,0,1,10,3.0,2,2008-09
+2009-02-21,BU,Northeastern,"SH, EN",Holly Lorms,Unassisted,Unassisted,3rd Period,19:19,3,0,2,19,19.0,3,2008-09
+2009-02-22,BU,Northeastern,,Jillian Kirchner,Jenelle Kohanchuk,Gina Kearns,1st Period,3:48,1,0,0,3,48.0,1,2008-09
+2009-02-22,BU,Northeastern,SH,Gina Kearns,Jenelle Kohanchuk,Unassisted,1st Period,7:45,2,0,1,7,45.0,2,2008-09
+2009-02-22,BU,Northeastern,,Tara Watchorn,Lauren Cherewyk,Erin Seman,1st Period,19:14,3,1,1,19,14.0,2,2008-09
+2009-02-22,BU,Northeastern,PP,Melissa Anderson,Kasey Boucher,Erin Seman,1st Period,19:57,4,1,2,19,57.0,3,2008-09
+2009-02-22,BU,Northeastern,,Erin Seman,Amanda Shaw,Melissa Anderson,2nd Period,17:23,5,1,3,17,23.0,4,2008-09
+2009-02-22,BU,Northeastern,3x3,Lauren Cherewyk,Melissa Anderson,Unassisted,2nd Period,18:53,6,1,4,18,53.0,5,2008-09
+2009-02-22,BU,Northeastern,3x3,Nicki Wiart,Kelley Karnan,Unassisted,3rd Period,0:21,7,1,5,0,21.0,6,2008-09
+2009-02-22,BU,Northeastern,PP,Sarah Russell,Amanda Shaw,Caroline Bourdeau,3rd Period,3:11,8,1,6,3,11.0,7,2008-09
+2009-02-28,BU,Northeastern,PP,Gina Kearns,Jillian Kirchner,Sarah Russell,1st Period,17:49,1,0,0,17,49.0,1,2008-09
+2009-02-28,BU,Northeastern,,Jenelle Kohanchuk,Unassisted,Unassisted,3rd Period,12:47,2,1,0,12,47.0,1,2008-09
+2009-03-07,BU,Boston College,,Lauren Cherewyk,Melissa Anderson,Jenelle Kohanchuk,1st Period,3:01,1,0,0,3,1.0,1,2008-09
+2009-03-07,BU,Boston College,,Jenelle Kohanchuk,Jonnie Bloemers,Melissa Anderson,3rd Period,11:33,2,3,-2,11,33.0,-1,2008-09
+2009-10-02,BU,Ohio State,,Lauren Cherewyk,Jillian Kirchner,Carly Warren,2nd Period,4:26,1,0,0,4,26.0,1,2009-10
+2009-10-03,BU,Ohio State,PP,Jillian Kirchner,Jill Cardella,Sarah Appleton,1st Period,9:34,1,1,-1,9,34.0,0,2009-10
+2009-10-03,BU,Ohio State,,Jill Cardella,Lauren Cherewyk,Unassisted,1st Period,17:06,2,1,0,17,6.0,1,2009-10
+2009-10-03,BU,Ohio State,,Cristina Wiley,Holly Lorms,Unassisted,2nd Period,12:40,3,2,0,12,40.0,1,2009-10
+2009-10-03,BU,Ohio State,,Jenelle Kohanchuk,Jillian Kirchner,Melissa Anderson,2nd Period,18:10,4,2,1,18,10.0,2,2009-10
+2009-10-09,BU,Robert Morris,,Sarah Appleton,Holly Lorms,Unassisted,1st Period,13:53,1,0,0,13,53.0,1,2009-10
+2009-10-09,BU,Robert Morris,,Kasey Boucher,Jill Cardella,Unassisted,1st Period,18:40,2,0,1,18,40.0,2,2009-10
+2009-10-09,BU,Robert Morris,,Kasey Boucher,Laurel Koller,Unassisted,2nd Period,3:29,3,0,2,3,29.0,3,2009-10
+2009-10-09,BU,Robert Morris,PP,Lauren Cherewyk,Kasey Boucher,Unassisted,Overtime (4:37),4:37,4,3,0,4,37.0,1,2009-10
+2009-10-16,BU,Wayne State,PP,Jill Cardella,Sarah Appleton,Kasey Boucher,2nd Period,6:25,1,1,-1,6,25.0,0,2009-10
+2009-10-16,BU,Wayne State,,Jill Cardella,Lauren Cherewyk,Jillian Kirchner,2nd Period,17:37,2,3,-2,17,37.0,-1,2009-10
+2009-10-16,BU,Wayne State,EA,Melissa Anderson,Lauren Cherewyk,Unassisted,3rd Period,18:37,3,4,-2,18,37.0,-1,2009-10
+2009-10-16,BU,Wayne State,"3x3, EA",Tara Watchorn,Melissa Anderson,Unassisted,3rd Period,19:58,4,4,-1,19,58.0,0,2009-10
+2009-10-17,BU,Wayne State,,Jenelle Kohanchuk,Melissa Anderson,Unassisted,1st Period,0:16,1,0,0,0,16.0,1,2009-10
+2009-10-17,BU,Wayne State,,Jenelle Kohanchuk,Unassisted,Unassisted,2nd Period,5:56,2,0,1,5,56.0,2,2009-10
+2009-10-17,BU,Wayne State,PP,Jenelle Kohanchuk,Tara Watchorn,Melissa Anderson,2nd Period,15:20,3,2,0,15,20.0,1,2009-10
+2009-10-17,BU,Wayne State,PP,Jenelle Kohanchuk,Jonnie Bloemers,Tara Watchorn,3rd Period,5:07,4,2,1,5,7.0,2,2009-10
+2009-10-23,BU,St. Lawrence,PP,Jonnie Bloemers,Melissa Anderson,Jenelle Kohanchuk,1st Period,12:34,1,0,0,12,34.0,1,2009-10
+2009-10-23,BU,St. Lawrence,,Carly Warren,Unassisted,Unassisted,2nd Period,17:45,2,1,0,17,45.0,1,2009-10
+2009-10-24,BU,Clarkson,PP,Jenelle Kohanchuk,Tara Watchorn,Unassisted,2nd Period,8:49,1,4,-4,8,49.0,-3,2009-10
+2009-10-24,BU,Clarkson,,Jillian Kirchner,Lauren Cherewyk,Unassisted,3rd Period,1:16,2,7,-6,1,16.0,-5,2009-10
+2009-10-31,BU,Providence,,Britt Hergesheimer,Holly Lorms,Cristina Wiley,2nd Period,2:27,1,0,0,2,27.0,1,2009-10
+2009-10-31,BU,Providence,,Jenelle Kohanchuk,Jillian Kirchner,Unassisted,3rd Period,12:33,2,1,0,12,33.0,1,2009-10
+2009-10-31,BU,Providence,EN,Jenelle Kohanchuk,Kasey Boucher,Unassisted,3rd Period,19:57,3,1,1,19,57.0,2,2009-10
+2009-11-02,BU,Boston College,,Jill Cardella,Melissa Anderson,Unassisted,2nd Period,8:24,1,1,-1,8,24.0,0,2009-10
+2009-11-06,BU,New Hampshire,,Jill Cardella,Melissa Anderson,Jonnie Bloemers,1st Period,14:27,1,0,0,14,27.0,1,2009-10
+2009-11-06,BU,New Hampshire,,Jonnie Bloemers,Jill Cardella,Melissa Anderson,2nd Period,7:51,2,2,-1,7,51.0,0,2009-10
+2009-11-06,BU,New Hampshire,PP,Jenelle Kohanchuk,Carly Warren,Holly Lorms,3rd Period,13:54,3,4,-2,13,54.0,-1,2009-10
+2009-11-07,BU,New Hampshire,,Shannon Mahoney,Laurel Koller,Holly Lorms,2nd Period,5:01,1,3,-3,5,1.0,-2,2009-10
+2009-11-07,BU,New Hampshire,,Kathryn Miller,Jillian Kirchner,Unassisted,2nd Period,6:21,2,3,-2,6,21.0,-1,2009-10
+2009-11-07,BU,New Hampshire,5x3,Kasey Boucher,Sarah Appleton,Unassisted,3rd Period,10:54,3,3,-1,10,54.0,0,2009-10
+2009-11-07,BU,New Hampshire,,Jill Cardella,Carly Warren,Tara Watchorn,3rd Period,18:22,4,3,0,18,22.0,1,2009-10
+2009-11-11,BU,Vermont,,Jill Cardella,Jonnie Bloemers,Unassisted,1st Period,9:25,1,0,0,9,25.0,1,2009-10
+2009-11-11,BU,Vermont,,Lauren Cherewyk,Jillian Kirchner,Jenelle Kohanchuk,1st Period,19:52,2,0,1,19,52.0,2,2009-10
+2009-11-11,BU,Vermont,PP,Jillian Kirchner,Jenelle Kohanchuk,Lauren Cherewyk,2nd Period,8:30,3,0,2,8,30.0,3,2009-10
+2009-11-11,BU,Vermont,,Melissa Anderson,Kathryn Miller,Unassisted,3rd Period,6:34,4,0,3,6,34.0,4,2009-10
+2009-11-14,BU,Providence,PP,Jenelle Kohanchuk,Jillian Kirchner,Unassisted,1st Period,9:14,1,0,0,9,14.0,1,2009-10
+2009-11-14,BU,Providence,PP,Melissa Anderson,Tara Watchorn,Jill Cardella,1st Period,12:29,2,0,1,12,29.0,2,2009-10
+2009-11-14,BU,Providence,PP,Melissa Anderson,Carly Warren,Tara Watchorn,2nd Period,1:58,3,0,2,1,58.0,3,2009-10
+2009-11-14,BU,Providence,PP,Jillian Kirchner,Jenelle Kohanchuk,Carly Warren,2nd Period,6:48,4,1,2,6,48.0,3,2009-10
+2009-11-14,BU,Providence,,Laurel Koller,Tara Watchorn,Cristina Wiley,2nd Period,11:50,5,1,3,11,50.0,4,2009-10
+2009-11-15,BU,Providence,,Jonnie Bloemers,Melissa Anderson,Tara Watchorn,1st Period,9:22,1,0,0,9,22.0,1,2009-10
+2009-11-15,BU,Providence,,Melissa Tetreau,Kasey Boucher,Jonnie Bloemers,3rd Period,4:07,2,2,-1,4,7.0,0,2009-10
+2009-11-18,BU,Boston College,,Lauren Cherewyk,Jenelle Kohanchuk,Jillian Kirchner,1st Period,10:41,1,0,0,10,41.0,1,2009-10
+2009-11-18,BU,Boston College,,Jill Cardella,Melissa Anderson,Sarah Appleton,1st Period,15:44,2,0,1,15,44.0,2,2009-10
+2009-11-18,BU,Boston College,PP,Carly Warren,Tara Watchorn,Holly Lorms,2nd Period,16:23,3,0,2,16,23.0,3,2009-10
+2009-11-18,BU,Boston College,,Sarah Appleton,Jonnie Bloemers,Jill Cardella,2nd Period,18:46,4,0,3,18,46.0,4,2009-10
+2009-11-24,BU,Maine,,Jill Cardella,Melissa Anderson,Unassisted,2nd Period,5:47,1,0,0,5,47.0,1,2009-10
+2009-11-27,BU,Princeton,,Jenelle Kohanchuk,Unassisted,Unassisted,2nd Period,16:45,1,2,-2,16,45.0,-1,2009-10
+2009-11-28,BU,Princeton,,Melissa Anderson,Sarah Appleton,Unassisted,1st Period,18:41,1,0,0,18,41.0,1,2009-10
+2009-11-28,BU,Princeton,,Sarah Appleton,Unassisted,Unassisted,2nd Period,1:37,2,1,0,1,37.0,1,2009-10
+2009-11-28,BU,Princeton,,Lauren Cherewyk,Jenelle Kohanchuk,Jillian Kirchner,3rd Period,13:27,3,2,0,13,27.0,1,2009-10
+2009-12-04,BU,Connecticut,,Kasey Boucher,Jillian Kirchner,Lauren Cherewyk,1st Period,15:11,1,0,0,15,11.0,1,2009-10
+2009-12-04,BU,Connecticut,,Jenelle Kohanchuk,Melissa Anderson,Lauren Cherewyk,2nd Period,0:22,2,0,1,0,22.0,2,2009-10
+2009-12-04,BU,Connecticut,,Jillian Kirchner,Lauren Cherewyk,Unassisted,3rd Period,3:14,3,4,-2,3,14.0,-1,2009-10
+2009-12-05,BU,Connecticut,,Laurel Koller,Shannon Mahoney,Unassisted,1st Period,14:14,1,0,0,14,14.0,1,2009-10
+2010-01-08,BU,Yale,PP,Melissa Anderson,Laurel Koller,Carly Warren,1st Period,14:41,1,0,0,14,41.0,1,2009-10
+2010-01-08,BU,Yale,,Melissa Anderson,Cristina Wiley,Lauren Cherewyk,2nd Period,12:47,2,0,1,12,47.0,2,2009-10
+2010-01-08,BU,Yale,5x3,Jillian Kirchner,Laurel Koller,Melissa Anderson,2nd Period,17:10,3,0,2,17,10.0,3,2009-10
+2010-01-08,BU,Yale,,Jill Cardella,Laurel Koller,Kasey Boucher,3rd Period,9:55,4,1,2,9,55.0,3,2009-10
+2010-01-10,BU,Brown,PP,Melissa Anderson,Lauren Cherewyk,Carly Warren,2nd Period,5:55,1,1,-1,5,55.0,0,2009-10
+2010-01-10,BU,Brown,,Lauren Cherewyk,Jillian Kirchner,Kasey Boucher,2nd Period,9:19,2,1,0,9,19.0,1,2009-10
+2010-01-10,BU,Brown,,Holly Lorms,Sarah Appleton,Kathryn Miller,2nd Period,15:16,3,1,1,15,16.0,2,2009-10
+2010-01-10,BU,Brown,,Holly Lorms,Melissa Anderson,Unassisted,3rd Period,13:26,4,5,-2,13,26.0,-1,2009-10
+2010-01-10,BU,Brown,,Melissa Anderson,Jillian Kirchner,Lauren Cherewyk,3rd Period,17:15,5,5,-1,17,15.0,0,2009-10
+2010-01-19,BU,Boston College,,Melissa Anderson,Tara Watchorn,Unassisted,1st Period,19:16,1,0,0,19,16.0,1,2009-10
+2010-01-19,BU,Boston College,PP,Laurel Koller,Jillian Kirchner,Carly Warren,2nd Period,5:50,2,0,1,5,50.0,2,2009-10
+2010-01-19,BU,Boston College,EN,Holly Lorms,Unassisted,Unassisted,3rd Period,19:12,3,1,1,19,12.0,2,2009-10
+2010-01-22,BU,Vermont,3x3,Melissa Anderson,Unassisted,Unassisted,2nd Period,16:53,1,1,-1,16,53.0,0,2009-10
+2010-01-23,BU,Vermont,SH,Holly Lorms,Unassisted,Unassisted,1st Period,2:15,1,0,0,2,15.0,1,2009-10
+2010-01-23,BU,Vermont,SH,Jillian Kirchner,Unassisted,Unassisted,1st Period,11:30,2,0,1,11,30.0,2,2009-10
+2010-01-23,BU,Vermont,,Laurel Koller,Lauren Cherewyk,Jillian Kirchner,3rd Period,12:11,3,1,1,12,11.0,2,2009-10
+2010-01-26,BU,Northeastern,,Jill Cardella,Tara Watchorn,Kathryn Miller,2nd Period,5:56,1,0,0,5,56.0,1,2009-10
+2010-01-26,BU,Northeastern,PP,Melissa Anderson,Tara Watchorn,Unassisted,3rd Period,5:26,2,1,0,5,26.0,1,2009-10
+2010-02-02,BU,Northeastern,,Holly Lorms,Laurel Koller,Unassisted,2nd Period,11:31,1,4,-4,11,31.0,-3,2009-10
+2010-02-02,BU,Northeastern,,Lauren Cherewyk,Melissa Anderson,Unassisted,3rd Period,2:58,2,4,-3,2,58.0,-2,2009-10
+2010-02-02,BU,Northeastern,,Holly Lorms,Jill Cardella,Unassisted,3rd Period,3:31,3,4,-2,3,31.0,-1,2009-10
+2010-02-02,BU,Northeastern,,Melissa Anderson,Jill Cardella,Lauren Cherewyk,3rd Period,10:38,4,4,-1,10,38.0,0,2009-10
+2010-02-06,BU,New Hampshire,,Holly Lorms,Tara Watchorn,Unassisted,1st Period,4:27,1,0,0,4,27.0,1,2009-10
+2010-02-06,BU,New Hampshire,3x3,Laurel Koller,Holly Lorms,Unassisted,2nd Period,15:11,2,2,-1,15,11.0,0,2009-10
+2010-02-06,BU,New Hampshire,,Melissa Anderson,Jill Cardella,Unassisted,3rd Period,2:51,3,2,0,2,51.0,1,2009-10
+2010-02-06,BU,New Hampshire,,Lauren Cherewyk,Sarah Appleton,Jillian Kirchner,3rd Period,7:12,4,2,1,7,12.0,2,2009-10
+2010-02-06,BU,New Hampshire,"SH, EN",Melissa Anderson,Unassisted,Unassisted,3rd Period,17:33,5,2,2,17,33.0,3,2009-10
+2010-02-09,BU,Boston College,PP,Kasey Boucher,Jillian Kirchner,Laurel Koller,3rd Period,12:44,1,1,-1,12,44.0,0,2009-10
+2010-02-13,BU,Northeastern,,Lauren Cherewyk,Jill Cardella,Unassisted,2nd Period,8:42,1,1,-1,8,42.0,0,2009-10
+2010-02-13,BU,Northeastern,,Melissa Anderson,Lauren Cherewyk,Jill Cardella,2nd Period,14:19,2,1,0,14,19.0,1,2009-10
+2010-02-14,BU,Northeastern,PP,Carly Warren,Kasey Boucher,Jonnie Bloemers,2nd Period,10:26,1,1,-1,10,26.0,0,2009-10
+2010-02-14,BU,Northeastern,,Melissa Anderson,Jill Cardella,Unassisted,2nd Period,16:37,2,1,0,16,37.0,1,2009-10
+2010-02-20,BU,Maine,PP,Melissa Anderson,Jill Cardella,Tara Watchorn,2nd Period,13:18,1,1,-1,13,18.0,0,2009-10
+2010-02-20,BU,Maine,,Melissa Anderson,Jill Cardella,Lauren Cherewyk,2nd Period,18:07,2,1,0,18,7.0,1,2009-10
+2010-02-20,BU,Maine,PP,Lauren Cherewyk,Melissa Anderson,Carly Warren,3rd Period,7:59,3,1,1,7,59.0,2,2009-10
+2010-02-21,BU,Maine,3x3,Lauren Cherewyk,Melissa Anderson,Unassisted,2nd Period,10:11,1,0,0,10,11.0,1,2009-10
+2010-02-21,BU,Maine,PP,Jonnie Bloemers,Melissa Tetreau,Jillian Kirchner,3rd Period,6:42,2,0,1,6,42.0,2,2009-10
+2010-02-28,BU,Boston College,PP,Jillian Kirchner,Jenelle Kohanchuk,Jonnie Bloemers,1st Period,6:16,1,0,0,6,16.0,1,2009-10
+2010-02-28,BU,Boston College,3x3,Lauren Cherewyk,Jill Cardella,Unassisted,2nd Period,17:34,2,1,0,17,34.0,1,2009-10
+2010-02-28,BU,Boston College,,Jill Cardella,Melissa Anderson,Lauren Cherewyk,3rd Period,10:23,3,1,1,10,23.0,2,2009-10
+2010-03-06,BU,New Hampshire,SH,Laurel Koller,Unassisted,Unassisted,2nd Period,0:58,1,0,0,0,58.0,1,2009-10
+2010-03-06,BU,New Hampshire,,Jillian Kirchner,Jenelle Kohanchuk,Carly Warren,3rd Period,13:44,2,0,1,13,44.0,2,2009-10
+2010-03-06,BU,New Hampshire,,Melissa Anderson,Lauren Cherewyk,Carly Warren,3rd Period,16:11,3,0,2,16,11.0,3,2009-10
+2010-03-06,BU,New Hampshire,"SH, EN",Melissa Anderson,Unassisted,Unassisted,3rd Period,19:28,4,0,3,19,28.0,4,2009-10
+2010-03-07,BU,Connecticut,PP,Kathryn Miller,Jenelle Kohanchuk,Jonnie Bloemers,1st Period,13:33,1,0,0,13,33.0,1,2009-10
+2010-03-07,BU,Connecticut,,Tara Watchorn,Unassisted,Unassisted,Overtime (9:52),9:52,2,1,0,9,52.0,1,2009-10
+2010-03-13,BU,Mercyhurst,"PP, EA",Tara Watchorn,Jill Cardella,Unassisted,3rd Period,13:38,1,3,-3,13,38.0,-2,2009-10
+2010-10-02,BU,North Dakota,,Jillian Kirchner,Carly Warren,Kaleigh Fratkin,1st Period,7:46,1,1,-1,7,46.0,0,2010-11
+2010-10-02,BU,North Dakota,,Louise Warren,Taylor Holze,Kasey Boucher,2nd Period,7:32,2,2,-1,7,32.0,0,2010-11
+2010-10-02,BU,North Dakota,,Jenn Wakefield,Kaleigh Fratkin,Unassisted,2nd Period,9:01,3,2,0,9,1.0,1,2010-11
+2010-10-02,BU,North Dakota,EA,Marie-Philip Poulin,Jenelle Kohanchuk,Jill Cardella,3rd Period,19:54,4,5,-2,19,54.0,-1,2010-11
+2010-10-03,BU,North Dakota,,Jenn Wakefield,Lauren Cherewyk,Tara Watchorn,1st Period,6:11,1,1,-1,6,11.0,0,2010-11
+2010-10-03,BU,North Dakota,,Jenelle Kohanchuk,Marie-Philip Poulin,Tara Watchorn,1st Period,8:18,2,1,0,8,18.0,1,2010-11
+2010-10-03,BU,North Dakota,SH,Jenn Wakefield,Jillian Kirchner,Unassisted,1st Period,9:36,3,1,1,9,36.0,2,2010-11
+2010-10-03,BU,North Dakota,SH,Marie-Philip Poulin,Jenn Wakefield,Kasey Boucher,2nd Period,11:28,4,1,2,11,28.0,3,2010-11
+2010-10-03,BU,North Dakota,"SH, EN",Marie-Philip Poulin,Carly Warren,Unassisted,3rd Period,18:02,5,2,2,18,2.0,3,2010-11
+2010-10-03,BU,North Dakota,EN,Jillian Kirchner,Lauren Cherewyk,Jenn Wakefield,3rd Period,19:45,6,2,3,19,45.0,4,2010-11
+2010-10-09,BU,Union,,Marie-Philip Poulin,Jenelle Kohanchuk,Kasey Boucher,1st Period,1:12,1,0,0,1,12.0,1,2010-11
+2010-10-09,BU,Union,SH,Tara Watchorn,Holly Lorms,Marie-Philip Poulin,1st Period,14:33,2,0,1,14,33.0,2,2010-11
+2010-10-09,BU,Union,PP,Carly Warren,Jillian Kirchner,Jill Cardella,2nd Period,4:45,3,1,1,4,45.0,2,2010-11
+2010-10-09,BU,Union,PP,Jenelle Kohanchuk,Marie-Philip Poulin,Jenn Wakefield,2nd Period,14:13,4,1,2,14,13.0,3,2010-11
+2010-10-09,BU,Union,,Jenn Wakefield,Jillian Kirchner,Unassisted,2nd Period,17:25,5,2,2,17,25.0,3,2010-11
+2010-10-09,BU,Union,PP,Jenn Wakefield,Tara Watchorn,Jenelle Kohanchuk,3rd Period,12:59,6,2,3,12,59.0,4,2010-11
+2010-10-15,BU,Wayne State,SH,Marie-Philip Poulin,Jill Cardella,Unassisted,1st Period,13:22,1,0,0,13,22.0,1,2010-11
+2010-10-15,BU,Wayne State,PP,Jenn Wakefield,Tara Watchorn,Catherine Ward,1st Period,14:34,2,0,1,14,34.0,2,2010-11
+2010-10-15,BU,Wayne State,5x3,Kasey Boucher,Jillian Kirchner,Carly Warren,1st Period,17:46,3,1,1,17,46.0,2,2010-11
+2010-10-15,BU,Wayne State,,Marie-Philip Poulin,Catherine Ward,Jenelle Kohanchuk,1st Period,19:03,4,1,2,19,3.0,3,2010-11
+2010-10-15,BU,Wayne State,,Marie-Philip Poulin,Jill Cardella,Unassisted,2nd Period,15:28,5,2,2,15,28.0,3,2010-11
+2010-10-15,BU,Wayne State,PP,Marie-Philip Poulin,Jenn Wakefield,Catherine Ward,3rd Period,9:39,6,2,3,9,39.0,4,2010-11
+2010-10-15,BU,Wayne State,,Tara Watchorn,Unassisted,Unassisted,3rd Period,12:07,7,2,4,12,7.0,5,2010-11
+2010-10-16,BU,Wayne State,,Holly Lorms,Taylor Holze,Carly Warren,2nd Period,11:27,1,1,-1,11,27.0,0,2010-11
+2010-10-16,BU,Wayne State,,Jenn Wakefield,Jillian Kirchner,Carly Warren,2nd Period,17:56,2,1,0,17,56.0,1,2010-11
+2010-10-16,BU,Wayne State,,Jenelle Kohanchuk,Marie-Philip Poulin,Unassisted,2nd Period,18:02,3,1,1,18,2.0,2,2010-11
+2010-10-16,BU,Wayne State,,Jill Cardella,Jenelle Kohanchuk,Marie-Philip Poulin,3rd Period,15:25,4,1,2,15,25.0,3,2010-11
+2010-10-22,BU,St. Lawrence,,Louise Warren,Marie-Philip Poulin,Tara Watchorn,1st Period,9:57,1,0,0,9,57.0,1,2010-11
+2010-10-22,BU,St. Lawrence,SH,Jenn Wakefield,Jillian Kirchner,Tara Watchorn,3rd Period,3:03,2,0,1,3,3.0,2,2010-11
+2010-10-23,BU,Clarkson,,Tara Watchorn,Marie-Philip Poulin,Jenelle Kohanchuk,2nd Period,5:29,1,1,-1,5,29.0,0,2010-11
+2010-10-23,BU,Clarkson,,Taylor Holze,Louise Warren,Tara Watchorn,2nd Period,19:00,2,1,0,19,0.0,1,2010-11
+2010-10-23,BU,Clarkson,PP,Marie-Philip Poulin,Jenn Wakefield,Tara Watchorn,3rd Period,1:13,3,1,1,1,13.0,2,2010-11
+2010-10-29,BU,Providence,PP,Jenn Wakefield,Catherine Ward,Tara Watchorn,2nd Period,18:57,1,1,-1,18,57.0,0,2010-11
+2010-10-29,BU,Providence,,Jenn Wakefield,Catherine Ward,Unassisted,3rd Period,3:59,2,1,0,3,59.0,1,2010-11
+2010-11-06,BU,Providence,,Holly Lorms,Meghan Riggs,Unassisted,2nd Period,8:03,1,1,-1,8,3.0,0,2010-11
+2010-11-06,BU,Providence,3x3,Louise Warren,Kathryn Miller,Unassisted,2nd Period,16:41,2,1,0,16,41.0,1,2010-11
+2010-11-06,BU,Providence,"4x3, PP",Catherine Ward,Kathryn Miller,Unassisted,2nd Period,17:56,3,1,1,17,56.0,2,2010-11
+2010-11-06,BU,Providence,,Kathryn Miller,Jenelle Kohanchuk,Unassisted,2nd Period,19:55,4,1,2,19,55.0,3,2010-11
+2010-11-07,BU,New Hampshire,,Jenelle Kohanchuk,Lauren Cherewyk,Kaleigh Fratkin,2nd Period,6:15,1,1,-1,6,15.0,0,2010-11
+2010-11-07,BU,New Hampshire,,Kathryn Miller,Unassisted,Unassisted,3rd Period,8:32,2,1,0,8,32.0,1,2010-11
+2010-11-07,BU,New Hampshire,,Jenelle Kohanchuk,Jillian Kirchner,Unassisted,3rd Period,8:45,3,1,1,8,45.0,2,2010-11
+2010-11-07,BU,New Hampshire,PP,Jillian Kirchner,Jenelle Kohanchuk,Kathryn Miller,3rd Period,10:58,4,1,2,10,58.0,3,2010-11
+2010-11-07,BU,New Hampshire,,Jillian Kirchner,Holly Lorms,Taylor Holze,3rd Period,18:19,5,2,2,18,19.0,3,2010-11
+2010-11-12,BU,Vermont,,Holly Lorms,Catherine Ward,Jillian Kirchner,2nd Period,11:32,1,1,-1,11,32.0,0,2010-11
+2010-11-13,BU,Vermont,,Holly Lorms,Catherine Ward,Unassisted,2nd Period,16:36,1,1,-1,16,36.0,0,2010-11
+2010-11-13,BU,Vermont,,Jill Cardella,Jenelle Kohanchuk,Kaleigh Fratkin,3rd Period,9:45,2,2,-1,9,45.0,0,2010-11
+2010-11-20,BU,Boston College,,Marie-Philip Poulin,Jenn Wakefield,Catherine Ward,2nd Period,15:23,1,5,-5,15,23.0,-4,2010-11
+2010-11-20,BU,Boston College,PP,Jillian Kirchner,Jenn Wakefield,Marie-Philip Poulin,3rd Period,8:06,2,5,-4,8,6.0,-3,2010-11
+2010-11-20,BU,Boston College,,Marie-Philip Poulin,Jenn Wakefield,Jenelle Kohanchuk,3rd Period,11:38,3,5,-3,11,38.0,-2,2010-11
+2010-11-21,BU,Boston College,,Jenn Wakefield,Unassisted,Unassisted,1st Period,12:29,1,0,0,12,29.0,1,2010-11
+2010-11-26,BU,Princeton,,Meghan Riggs,Jenelle Kohanchuk,Unassisted,1st Period,8:55,1,1,-1,8,55.0,0,2010-11
+2010-11-26,BU,Princeton,,Holly Lorms,Lauren Cherewyk,Tara Watchorn,1st Period,15:29,2,1,0,15,29.0,1,2010-11
+2010-11-26,BU,Princeton,,Jillian Kirchner,Jenn Wakefield,Taylor Holze,1st Period,17:34,3,1,1,17,34.0,2,2010-11
+2010-11-26,BU,Princeton,,Kasey Boucher,Lauren Cherewyk,Holly Lorms,2nd Period,6:34,4,2,1,6,34.0,2,2010-11
+2010-11-26,BU,Princeton,5x3,Jenelle Kohanchuk,Marie-Philip Poulin,Catherine Ward,2nd Period,16:50,5,2,2,16,50.0,3,2010-11
+2010-11-26,BU,Princeton,3x3,Jillian Kirchner,Jenn Wakefield,Kathryn Miller,3rd Period,13:26,6,2,3,13,26.0,4,2010-11
+2010-11-26,BU,Princeton,PP,Carly Warren,Tara Watchorn,Jenelle Kohanchuk,3rd Period,14:06,7,2,4,14,6.0,5,2010-11
+2010-11-26,BU,Princeton,,Kathryn Miller,Marie-Philip Poulin,Unassisted,3rd Period,15:50,8,2,5,15,50.0,6,2010-11
+2010-11-27,BU,Princeton,PP,Tara Watchorn,Jenelle Kohanchuk,Marie-Philip Poulin,1st Period,15:09,1,0,0,15,9.0,1,2010-11
+2010-11-27,BU,Princeton,,Jill Cardella,Marie-Philip Poulin,Unassisted,2nd Period,6:06,2,0,1,6,6.0,2,2010-11
+2010-12-04,BU,Connecticut,,Jenn Wakefield,Taylor Holze,Unassisted,1st Period,3:02,1,0,0,3,2.0,1,2010-11
+2010-12-04,BU,Connecticut,PP,Marie-Philip Poulin,Jenn Wakefield,Tara Watchorn,2nd Period,16:07,2,0,1,16,7.0,2,2010-11
+2010-12-04,BU,Connecticut,PP,Jenn Wakefield,Marie-Philip Poulin,Tara Watchorn,3rd Period,1:10,3,0,2,1,10.0,3,2010-11
+2010-12-04,BU,Connecticut,,Tara Watchorn,Carly Warren,Unassisted,3rd Period,11:04,4,0,3,11,4.0,4,2010-11
+2010-12-07,BU,Northeastern,PP,Holly Lorms,Kasey Boucher,Jillian Kirchner,2nd Period,13:19,1,0,0,13,19.0,1,2010-11
+2010-12-07,BU,Northeastern,,Marie-Philip Poulin,Jill Cardella,Catherine Ward,3rd Period,4:03,2,0,1,4,3.0,2,2010-11
+2010-12-07,BU,Northeastern,,Jenn Wakefield,Taylor Holze,Jillian Kirchner,3rd Period,16:11,3,0,2,16,11.0,3,2010-11
+2010-12-10,BU,Harvard,PP,Marie-Philip Poulin,Jenn Wakefield,Jenelle Kohanchuk,1st Period,4:19,1,0,0,4,19.0,1,2010-11
+2010-12-10,BU,Harvard,,Jillian Kirchner,Jenn Wakefield,Unassisted,2nd Period,2:46,2,0,1,2,46.0,2,2010-11
+2010-12-10,BU,Harvard,,Jenn Wakefield,Kaleigh Fratkin,Unassisted,3rd Period,3:41,3,2,0,3,41.0,1,2010-11
+2010-12-10,BU,Harvard,,Jill Cardella,Jenelle Kohanchuk,Catherine Ward,3rd Period,4:09,4,2,1,4,9.0,2,2010-11
+2010-12-10,BU,Harvard,,Marie-Philip Poulin,Jenelle Kohanchuk,Unassisted,3rd Period,13:51,5,2,2,13,51.0,3,2010-11
+2011-01-02,BU,Brown,,Jill Cardella,Marie-Philip Poulin,Unassisted,1st Period,6:25,1,0,0,6,25.0,1,2010-11
+2011-01-02,BU,Brown,,Marie-Philip Poulin,Catherine Ward,Carly Warren,1st Period,12:29,2,0,1,12,29.0,2,2010-11
+2011-01-02,BU,Brown,PP,Jenn Wakefield,Kathryn Miller,Marie-Philip Poulin,2nd Period,9:42,3,0,2,9,42.0,3,2010-11
+2011-01-02,BU,Brown,,Taylor Holze,Jenn Wakefield,Jillian Kirchner,2nd Period,10:46,4,0,3,10,46.0,4,2010-11
+2011-01-09,BU,Providence,,Jenn Wakefield,Louise Warren,Unassisted,1st Period,15:01,1,0,0,15,1.0,1,2010-11
+2011-01-09,BU,Providence,3x3,Kathryn Miller,Jillian Kirchner,Marie-Philip Poulin,1st Period,17:32,2,1,0,17,32.0,1,2010-11
+2011-01-09,BU,Providence,,Holly Lorms,Marie-Philip Poulin,Unassisted,2nd Period,18:38,3,2,0,18,38.0,1,2010-11
+2011-01-09,BU,Providence,,Holly Lorms,Louise Warren,Kasey Boucher,3rd Period,19:05,4,3,0,19,5.0,1,2010-11
+2011-01-15,BU,Boston College,,Jillian Kirchner,Jenn Wakefield,Kathryn Miller,2nd Period,5:54,1,0,0,5,54.0,1,2010-11
+2011-01-15,BU,Boston College,PP,Marie-Philip Poulin,Jenn Wakefield,Catherine Ward,3rd Period,10:41,2,0,1,10,41.0,2,2010-11
+2011-01-15,BU,Boston College,EN,Jenn Wakefield,Holly Lorms,Marie-Philip Poulin,3rd Period,19:08,3,0,2,19,8.0,3,2010-11
+2011-01-15,BU,Boston College,,Jenn Wakefield,Marie-Philip Poulin,Holly Lorms,3rd Period,19:40,4,0,3,19,40.0,4,2010-11
+2011-01-16,BU,Maine,,Catherine Ward,Jillian Kirchner,Jenn Wakefield,1st Period,0:31,1,0,0,0,31.0,1,2010-11
+2011-01-16,BU,Maine,,Jenn Wakefield,Tara Watchorn,Carly Warren,1st Period,3:09,2,0,1,3,9.0,2,2010-11
+2011-01-16,BU,Maine,PP,Jenelle Kohanchuk,Tara Watchorn,Marie-Philip Poulin,1st Period,6:40,3,1,1,6,40.0,2,2010-11
+2011-01-16,BU,Maine,,Marie-Philip Poulin,Catherine Ward,Unassisted,2nd Period,12:54,4,2,1,12,54.0,2,2010-11
+2011-01-16,BU,Maine,,Taylor Holze,Jillian Kirchner,Kathryn Miller,3rd Period,0:36,5,2,2,0,36.0,3,2010-11
+2011-01-22,BU,Vermont,,Marie-Philip Poulin,Kasey Boucher,Unassisted,1st Period,3:04,1,0,0,3,4.0,1,2010-11
+2011-01-22,BU,Vermont,PP,Marie-Philip Poulin,Jenn Wakefield,Catherine Ward,1st Period,14:08,2,0,1,14,8.0,2,2010-11
+2011-01-22,BU,Vermont,,Louise Warren,Holly Lorms,Lauren Cherewyk,3rd Period,9:14,3,0,2,9,14.0,3,2010-11
+2011-01-22,BU,Vermont,PP,Marie-Philip Poulin,Tara Watchorn,Catherine Ward,3rd Period,15:29,4,0,3,15,29.0,4,2010-11
+2011-01-28,BU,Connecticut,,Catherine Ward,Holly Lorms,Jenelle Kohanchuk,3rd Period,3:41,1,1,-1,3,41.0,0,2010-11
+2011-01-28,BU,Connecticut,,Marie-Philip Poulin,Holly Lorms,Catherine Ward,3rd Period,10:30,2,1,0,10,30.0,1,2010-11
+2011-01-29,BU,Connecticut,PP,Lauren Cherewyk,Jill Cardella,Jillian Kirchner,1st Period,8:47,1,0,0,8,47.0,1,2010-11
+2011-01-29,BU,Connecticut,,Taylor Holze,Jenn Wakefield,Kasey Boucher,1st Period,16:43,2,0,1,16,43.0,2,2010-11
+2011-01-29,BU,Connecticut,PP,Kasey Boucher,Jillian Kirchner,Carly Warren,3rd Period,4:34,3,0,2,4,34.0,3,2010-11
+2011-01-29,BU,Connecticut,,Jenelle Kohanchuk,Catherine Ward,Marie-Philip Poulin,3rd Period,13:12,4,0,3,13,12.0,4,2010-11
+2011-02-03,BU,New Hampshire,,Jenelle Kohanchuk,Marie-Philip Poulin,Catherine Ward,3rd Period,0:21,1,3,-3,0,21.0,-2,2010-11
+2011-02-03,BU,New Hampshire,,Jillian Kirchner,Carly Warren,Jenn Wakefield,3rd Period,16:06,2,4,-3,16,6.0,-2,2010-11
+2011-02-05,BU,New Hampshire,,Kasey Boucher,Jill Cardella,Jillian Kirchner,1st Period,11:43,1,0,0,11,43.0,1,2010-11
+2011-02-05,BU,New Hampshire,,Louise Warren,Unassisted,Unassisted,2nd Period,2:33,2,0,1,2,33.0,2,2010-11
+2011-02-05,BU,New Hampshire,EN,Jenn Wakefield,Tara Watchorn,Unassisted,3rd Period,19:54,3,1,1,19,54.0,2,2010-11
+2011-02-08,BU,Boston College,,Holly Lorms,Kasey Boucher,Unassisted,3rd Period,6:13,1,2,-2,6,13.0,-1,2010-11
+2011-02-11,BU,Northeastern,,Holly Lorms,Unassisted,Unassisted,1st Period,5:05,1,0,0,5,5.0,1,2010-11
+2011-02-11,BU,Northeastern,,Jenn Wakefield,Jillian Kirchner,Unassisted,2nd Period,1:40,2,0,1,1,40.0,2,2010-11
+2011-02-11,BU,Northeastern,,Kaleigh Fratkin,Jillian Kirchner,Catherine Ward,2nd Period,9:09,3,0,2,9,9.0,3,2010-11
+2011-02-11,BU,Northeastern,SH,Lauren Cherewyk,Catherine Ward,Holly Lorms,3rd Period,6:40,4,3,0,6,40.0,1,2010-11
+2011-02-12,BU,Northeastern,,Holly Lorms,Louise Warren,Unassisted,1st Period,4:10,1,0,0,4,10.0,1,2010-11
+2011-02-12,BU,Northeastern,,Carly Warren,Unassisted,Unassisted,2nd Period,9:57,2,0,1,9,57.0,2,2010-11
+2011-02-12,BU,Northeastern,,Holly Lorms,Jenelle Kohanchuk,Catherine Ward,3rd Period,1:13,3,0,2,1,13.0,3,2010-11
+2011-02-12,BU,Northeastern,,Jenn Wakefield,Unassisted,Unassisted,3rd Period,6:00,4,0,3,6,0.0,4,2010-11
+2011-02-12,BU,Northeastern,PP,Jenn Wakefield,Kaleigh Fratkin,Carly Warren,3rd Period,12:47,5,0,4,12,47.0,5,2010-11
+2011-02-15,BU,Northeastern,,Britt Hergesheimer,Lauren Cherewyk,Unassisted,2nd Period,10:17,1,0,0,10,17.0,1,2010-11
+2011-02-15,BU,Northeastern,,Jenn Wakefield,Britt Hergesheimer,Catherine Ward,2nd Period,14:49,2,0,1,14,49.0,2,2010-11
+2011-02-15,BU,Northeastern,PP,Holly Lorms,Catherine Ward,Jenn Wakefield,3rd Period,0:39,3,0,2,0,39.0,3,2010-11
+2011-02-18,BU,Maine,PP,Jenn Wakefield,Tara Watchorn,Jenelle Kohanchuk,2nd Period,4:41,1,0,0,4,41.0,1,2010-11
+2011-02-18,BU,Maine,,Jenn Wakefield,Kaleigh Fratkin,Jillian Kirchner,2nd Period,12:39,2,0,1,12,39.0,2,2010-11
+2011-02-19,BU,Maine,3x3,Jenn Wakefield,Kaleigh Fratkin,Catherine Ward,1st Period,17:55,1,0,0,17,55.0,1,2010-11
+2011-02-19,BU,Maine,"PP, EA",Tara Watchorn,Catherine Ward,Unassisted,3rd Period,19:18,2,2,-1,19,18.0,0,2010-11
+2011-03-05,BU,Northeastern,,Jenn Wakefield,Louise Warren,Unassisted,1st Period,15:56,1,0,0,15,56.0,1,2010-11
+2011-03-05,BU,Northeastern,,Jenn Wakefield,Catherine Ward,Kaleigh Fratkin,2nd Period,17:50,2,2,-1,17,50.0,0,2010-11
+2011-03-12,BU,Mercyhurst,,Jenn Wakefield,Jillian Kirchner,Kasey Boucher,1st Period,11:52,1,0,0,11,52.0,1,2010-11
+2011-03-12,BU,Mercyhurst,,Marie-Philip Poulin,Jenelle Kohanchuk,Jill Cardella,2nd Period,8:16,2,1,0,8,16.0,1,2010-11
+2011-03-12,BU,Mercyhurst,,Jill Cardella,Tara Watchorn,Kathryn Miller,3rd Period,10:56,3,2,0,10,56.0,1,2010-11
+2011-03-12,BU,Mercyhurst,EN,Jenn Wakefield,Unassisted,Unassisted,3rd Period,19:48,4,2,1,19,48.0,2,2010-11
+2011-03-18,BU,Cornell,,Catherine Ward,Marie-Philip Poulin,Kathryn Miller,1st Period,10:37,1,1,-1,10,37.0,0,2010-11
+2011-03-18,BU,Cornell,,Jillian Kirchner,Kathryn Miller,Taylor Holze,2nd Period,17:47,2,1,0,17,47.0,1,2010-11
+2011-03-18,BU,Cornell,,Jenelle Kohanchuk,Jenn Wakefield,Unassisted,2nd Period,18:37,3,1,1,18,37.0,2,2010-11
+2011-03-18,BU,Cornell,EN,Holly Lorms,Jenelle Kohanchuk,Kasey Boucher,3rd Period,17:20,4,1,2,17,20.0,3,2010-11
+2011-03-20,BU,Wisconsin,,Marie-Philip Poulin,Unassisted,Unassisted,2nd Period,16:00,1,2,-2,16,0.0,-1,2010-11
+2011-09-30,BU,North Dakota,PP,Jenelle Kohanchuk,Isabel Menard,Jenn Wakefield,2nd Period,5:56,1,1,-1,5,56.0,0,2011-12
+2011-09-30,BU,North Dakota,,Louise Warren,Carly Warren,Isabel Menard,2nd Period,12:14,2,1,0,12,14.0,1,2011-12
+2011-09-30,BU,North Dakota,PP,Jenn Wakefield,Jenelle Kohanchuk,Isabel Menard,2nd Period,15:02,3,1,1,15,2.0,2,2011-12
+2011-09-30,BU,North Dakota,SH,Jenn Wakefield,Jill Cardella,Unassisted,3rd Period,1:05,4,1,2,1,5.0,3,2011-12
+2011-10-01,BU,North Dakota,3x3,Isabel Menard,Taylor Holze,Kasey Boucher,3rd Period,13:51,1,4,-4,13,51.0,-3,2011-12
+2011-10-07,BU,Niagara,PP,Jenn Wakefield,Kathryn Miller,Kayla Tutino,2nd Period,14:12,1,1,-1,14,12.0,0,2011-12
+2011-10-07,BU,Niagara,PP,Jenelle Kohanchuk,Jenn Wakefield,Kathryn Miller,3rd Period,14:57,2,1,0,14,57.0,1,2011-12
+2011-10-07,BU,Niagara,SH,Kayla Tutino,Isabel Menard,Unassisted,3rd Period,16:17,3,1,1,16,17.0,2,2011-12
+2011-10-08,BU,Niagara,SH,Jenelle Kohanchuk,Jenn Wakefield,Unassisted,1st Period,12:37,1,0,0,12,37.0,1,2011-12
+2011-10-08,BU,Niagara,PP,Jenn Wakefield,Kathryn Miller,Isabel Menard,2nd Period,12:13,2,2,-1,12,13.0,0,2011-12
+2011-10-08,BU,Niagara,,Jenelle Kohanchuk,Unassisted,Unassisted,2nd Period,13:48,3,2,0,13,48.0,1,2011-12
+2011-10-08,BU,Niagara,,Isabel Menard,Jenn Wakefield,Kathryn Miller,2nd Period,19:59,4,2,1,19,59.0,2,2011-12
+2011-10-08,BU,Niagara,,Jenn Wakefield,Kasey Boucher,Taylor Holze,3rd Period,5:14,5,2,2,5,14.0,3,2011-12
+2011-10-15,BU,Union,PP,Jenn Wakefield,Jenelle Kohanchuk,Kaleigh Fratkin,1st Period,3:12,1,0,0,3,12.0,1,2011-12
+2011-10-15,BU,Union,,Kayla Tutino,Jill Cardella,Kathryn Miller,1st Period,19:52,2,1,0,19,52.0,1,2011-12
+2011-10-15,BU,Union,,Kasey Boucher,Louise Warren,Sarah Bayersdorfer,2nd Period,3:55,3,1,1,3,55.0,2,2011-12
+2011-10-15,BU,Union,PP,Jenn Wakefield,Kaleigh Fratkin,Jenelle Kohanchuk,2nd Period,12:45,4,2,1,12,45.0,2,2011-12
+2011-10-15,BU,Union,SH,Kayla Tutino,Jill Cardella,Unassisted,3rd Period,2:17,5,2,2,2,17.0,3,2011-12
+2011-10-15,BU,Union,,Kayla Tutino,Shannon Mahoney,Jenelle Kohanchuk,3rd Period,4:43,6,2,3,4,43.0,4,2011-12
+2011-10-21,BU,Clarkson,,Taylor Holze,Jenn Wakefield,Unassisted,1st Period,5:33,1,0,0,5,33.0,1,2011-12
+2011-10-21,BU,Clarkson,,Kayla Tutino,Unassisted,Unassisted,3rd Period,14:39,2,2,-1,14,39.0,0,2011-12
+2011-10-22,BU,St. Lawrence,,Kayla Tutino,Cristina Wiley,Jenelle Kohanchuk,1st Period,4:21,1,0,0,4,21.0,1,2011-12
+2011-10-22,BU,St. Lawrence,,Shannon Mahoney,Kayla Tutino,Unassisted,2nd Period,1:33,2,0,1,1,33.0,2,2011-12
+2011-10-22,BU,St. Lawrence,,Jenn Wakefield,Kaleigh Fratkin,Unassisted,2nd Period,8:49,3,0,2,8,49.0,3,2011-12
+2011-10-29,BU,Wisconsin,,Taylor Holze,Kasey Boucher,Jill Cardella,2nd Period,3:36,1,1,-1,3,36.0,0,2011-12
+2011-11-02,BU,Boston College,,Jenn Wakefield,Carly Warren,Unassisted,1st Period,12:04,1,0,0,12,4.0,1,2011-12
+2011-11-02,BU,Boston College,,Kathryn Miller,Jenn Wakefield,Unassisted,1st Period,18:57,2,0,1,18,57.0,2,2011-12
+2011-11-02,BU,Boston College,,Louise Warren,Britt Hergesheimer,Isabel Menard,3rd Period,7:40,3,1,1,7,40.0,2,2011-12
+2011-11-02,BU,Boston College,PP,Isabel Menard,Jenn Wakefield,Unassisted,3rd Period,11:03,4,1,2,11,3.0,3,2011-12
+2011-11-05,BU,Boston College,,Jill Cardella,Taylor Holze,Unassisted,3rd Period,15:28,1,3,-3,15,28.0,-2,2011-12
+2011-11-12,BU,New Hampshire,SH,Jill Cardella,Kayla Tutino,Kasey Boucher,2nd Period,1:39,1,1,-1,1,39.0,0,2011-12
+2011-11-12,BU,New Hampshire,PP,Kaleigh Fratkin,Kasey Boucher,Isabel Menard,2nd Period,8:40,2,1,0,8,40.0,1,2011-12
+2011-11-12,BU,New Hampshire,,Isabel Menard,Louise Warren,Unassisted,2nd Period,18:47,3,1,1,18,47.0,2,2011-12
+2011-11-12,BU,New Hampshire,,Caroline Campbell,Cristina Wiley,Kathryn Miller,3rd Period,14:26,4,2,1,14,26.0,2,2011-12
+2011-11-12,BU,New Hampshire,EN,Isabel Menard,Tara Watchorn,Unassisted,3rd Period,19:11,5,2,2,19,11.0,3,2011-12
+2011-11-19,BU,Connecticut,PP,Tara Watchorn,Kathryn Miller,Unassisted,3rd Period,5:59,1,1,-1,5,59.0,0,2011-12
+2011-11-19,BU,Connecticut,PP,Isabel Menard,Tara Watchorn,Kayla Tutino,3rd Period,9:03,2,2,-1,9,3.0,0,2011-12
+2011-11-19,BU,Connecticut,SH,Kayla Tutino,Jenn Wakefield,Unassisted,3rd Period,11:56,3,2,0,11,56.0,1,2011-12
+2011-11-19,BU,Connecticut,EN,Isabel Menard,Tara Watchorn,Kasey Boucher,3rd Period,19:35,4,2,1,19,35.0,2,2011-12
+2011-11-20,BU,Providence,,Jenn Wakefield,Kayla Tutino,Tara Watchorn,2nd Period,1:21,1,1,-1,1,21.0,0,2011-12
+2011-11-20,BU,Providence,,Kayla Tutino,Caroline Campbell,Jenn Wakefield,2nd Period,11:32,2,1,0,11,32.0,1,2011-12
+2011-11-20,BU,Providence,PP,Kayla Tutino,Tara Watchorn,Isabel Menard,3rd Period,12:43,3,2,0,12,43.0,1,2011-12
+2011-11-25,BU,Cornell,,Jill Cardella,Unassisted,Unassisted,2nd Period,10:36,1,2,-2,10,36.0,-1,2011-12
+2011-11-26,BU,Cornell,PP,Tara Watchorn,Jenn Wakefield,Unassisted,3rd Period,14:26,1,6,-6,14,26.0,-5,2011-12
+2011-12-03,BU,Providence,PP,Kathryn Miller,Louise Warren,Jill Cardella,1st Period,11:40,1,2,-2,11,40.0,-1,2011-12
+2011-12-03,BU,Providence,,Isabel Menard,Louise Warren,Unassisted,3rd Period,5:38,2,3,-2,5,38.0,-1,2011-12
+2011-12-03,BU,Providence,"PP, EA",Isabel Menard,Tara Watchorn,Jenn Wakefield,3rd Period,18:56,3,4,-2,18,56.0,-1,2011-12
+2011-12-04,BU,Providence,PP,Kayla Tutino,Tara Watchorn,Isabel Menard,3rd Period,15:21,1,1,-1,15,21.0,0,2011-12
+2011-12-04,BU,Providence,PP,Jill Cardella,Kasey Boucher,Jenn Wakefield,3rd Period,18:18,2,1,0,18,18.0,1,2011-12
+2011-12-07,BU,Northeastern,,Kayla Tutino,Jenn Wakefield,Unassisted,3rd Period,6:36,1,3,-3,6,36.0,-2,2011-12
+2012-01-08,BU,Maine,,Jenn Wakefield,Kayla Tutino,Kasey Boucher,1st Period,0:41,1,0,0,0,41.0,1,2011-12
+2012-01-08,BU,Maine,PP,Kayla Tutino,Marie-Philip Poulin,Jenn Wakefield,1st Period,8:16,2,0,1,8,16.0,2,2011-12
+2012-01-14,BU,Maine,PP,Marie-Philip Poulin,Jenn Wakefield,Kayla Tutino,1st Period,17:20,1,0,0,17,20.0,1,2011-12
+2012-01-14,BU,Maine,,Marie-Philip Poulin,Tara Watchorn,Louise Warren,2nd Period,15:36,2,1,0,15,36.0,1,2011-12
+2012-01-15,BU,Maine,,Taylor Holze,Cristina Wiley,Jenn Wakefield,1st Period,4:17,1,0,0,4,17.0,1,2011-12
+2012-01-15,BU,Maine,,Jill Cardella,Carly Warren,Tara Watchorn,3rd Period,15:21,2,3,-2,15,21.0,-1,2011-12
+2012-01-19,BU,New Hampshire,,Kaleigh Fratkin,Cristina Wiley,Jill Cardella,1st Period,4:40,1,0,0,4,40.0,1,2011-12
+2012-01-19,BU,New Hampshire,PP,Jenn Wakefield,Kasey Boucher,Kayla Tutino,2nd Period,13:07,2,2,-1,13,7.0,0,2011-12
+2012-01-21,BU,Vermont,3x3,Jenn Wakefield,Kayla Tutino,Kasey Boucher,1st Period,1:33,1,0,0,1,33.0,1,2011-12
+2012-01-21,BU,Vermont,3x3,Jill Cardella,Jenn Wakefield,Kasey Boucher,1st Period,3:03,2,0,1,3,3.0,2,2011-12
+2012-01-21,BU,Vermont,PP,Jenn Wakefield,Carly Warren,Tara Watchorn,2nd Period,11:18,3,2,0,11,18.0,1,2011-12
+2012-01-21,BU,Vermont,3x3,Kayla Tutino,Jenn Wakefield,Unassisted,2nd Period,12:46,4,2,1,12,46.0,2,2011-12
+2012-01-21,BU,Vermont,PP,Isabel Menard,Tara Watchorn,Jenn Wakefield,3rd Period,7:42,5,2,2,7,42.0,3,2011-12
+2012-01-21,BU,Vermont,,Jenn Wakefield,Sarah Bayersdorfer,Jill Cardella,3rd Period,9:41,6,2,3,9,41.0,4,2011-12
+2012-01-25,BU,Boston College,,Taylor Holze,Louise Warren,Kaleigh Fratkin,1st Period,19:49,1,0,0,19,49.0,1,2011-12
+2012-01-25,BU,Boston College,,Caroline Campbell,Taylor Holze,Unassisted,2nd Period,15:06,2,0,1,15,6.0,2,2011-12
+2012-01-25,BU,Boston College,,Marie-Philip Poulin,Kaleigh Fratkin,Isabel Menard,2nd Period,18:29,3,0,2,18,29.0,3,2011-12
+2012-01-25,BU,Boston College,PP,Tara Watchorn,Isabel Menard,Unassisted,3rd Period,8:56,4,0,3,8,56.0,4,2011-12
+2012-01-25,BU,Boston College,PP,Louise Warren,Taylor Holze,Unassisted,3rd Period,12:40,5,0,4,12,40.0,5,2011-12
+2012-01-25,BU,Boston College,SH,Jenn Wakefield,Unassisted,Unassisted,3rd Period,16:32,6,0,5,16,32.0,6,2011-12
+2012-01-28,BU,Northeastern,,Jill Cardella,Kathryn Miller,Kayla Tutino,3rd Period,4:27,1,1,-1,4,27.0,0,2011-12
+2012-01-28,BU,Northeastern,,Isabel Menard,Jenn Wakefield,Taylor Holze,3rd Period,14:05,2,2,-1,14,5.0,0,2011-12
+2012-01-28,BU,Northeastern,,Jenn Wakefield,Louise Warren,Marie-Philip Poulin,3rd Period,18:11,3,2,0,18,11.0,1,2011-12
+2012-01-31,BU,Harvard,SH,Jill Cardella,Tara Watchorn,Unassisted,1st Period,6:30,1,0,0,6,30.0,1,2011-12
+2012-01-31,BU,Harvard,5x3,Kaleigh Fratkin,Kasey Boucher,Taylor Holze,1st Period,12:36,2,0,1,12,36.0,2,2011-12
+2012-01-31,BU,Harvard,,Marie-Philip Poulin,Isabel Menard,Louise Warren,2nd Period,4:37,3,0,2,4,37.0,3,2011-12
+2012-01-31,BU,Harvard,,Isabel Menard,Kayla Tutino,Taylor Holze,2nd Period,18:06,4,0,3,18,6.0,4,2011-12
+2012-01-31,BU,Harvard,,Jenn Wakefield,Caroline Campbell,Kayla Tutino,2nd Period,19:55,5,0,4,19,55.0,5,2011-12
+2012-02-04,BU,New Hampshire,,Isabel Menard,Tara Watchorn,Unassisted,1st Period,1:15,1,0,0,1,15.0,1,2011-12
+2012-02-04,BU,New Hampshire,PP,Tara Watchorn,Isabel Menard,Jenn Wakefield,2nd Period,3:12,2,1,0,3,12.0,1,2011-12
+2012-02-04,BU,New Hampshire,,Kayla Tutino,Isabel Menard,Jenn Wakefield,2nd Period,18:45,3,1,1,18,45.0,2,2011-12
+2012-02-04,BU,New Hampshire,SH,Louise Warren,Isabel Menard,Unassisted,3rd Period,4:40,4,1,2,4,40.0,3,2011-12
+2012-02-04,BU,New Hampshire,PP,Jenn Wakefield,Isabel Menard,Kerrin Sperry,3rd Period,12:38,5,1,3,12,38.0,4,2011-12
+2012-02-07,BU,Northeastern,,Shannon Stoneburgh,Marie-Philip Poulin,Isabel Menard,2nd Period,16:00,1,2,-2,16,0.0,-1,2011-12
+2012-02-07,BU,Northeastern,5x3,Kayla Tutino,Isabel Menard,Tara Watchorn,2nd Period,18:35,2,2,-1,18,35.0,0,2011-12
+2012-02-07,BU,Northeastern,PP,Kayla Tutino,Jenn Wakefield,Unassisted,3rd Period,14:30,3,2,0,14,30.0,1,2011-12
+2012-02-11,BU,Vermont,,Isabel Menard,Marie-Philip Poulin,Carly Warren,1st Period,7:03,1,0,0,7,3.0,1,2011-12
+2012-02-11,BU,Vermont,PP,Isabel Menard,Marie-Philip Poulin,Tara Watchorn,1st Period,17:26,2,0,1,17,26.0,2,2011-12
+2012-02-11,BU,Vermont,,Shannon Mahoney,Caroline Campbell,Tara Watchorn,1st Period,17:50,3,0,2,17,50.0,3,2011-12
+2012-02-11,BU,Vermont,,Jenn Wakefield,Kayla Tutino,Britt Hergesheimer,2nd Period,13:12,4,2,1,13,12.0,2,2011-12
+2012-02-11,BU,Vermont,3x3,Jill Cardella,Isabel Menard,Unassisted,3rd Period,4:36,5,3,1,4,36.0,2,2011-12
+2012-02-11,BU,Vermont,,Taylor Holze,Shannon Stoneburgh,Unassisted,3rd Period,6:20,6,3,2,6,20.0,3,2011-12
+2012-02-11,BU,Vermont,PP,Louise Warren,Kathryn Miller,Kasey Boucher,3rd Period,8:22,7,3,3,8,22.0,4,2011-12
+2012-02-11,BU,Vermont,EN,Jenn Wakefield,Kathryn Miller,Kayla Tutino,3rd Period,18:05,8,4,3,18,5.0,4,2011-12
+2012-02-12,BU,Vermont,,Tara Watchorn,Taylor Holze,Unassisted,1st Period,2:32,1,0,0,2,32.0,1,2011-12
+2012-02-12,BU,Vermont,,Jenn Wakefield,Unassisted,Unassisted,2nd Period,7:35,2,0,1,7,35.0,2,2011-12
+2012-02-12,BU,Vermont,,Shannon Mahoney,Taylor Holze,Caroline Campbell,3rd Period,17:16,3,1,1,17,16.0,2,2011-12
+2012-02-12,BU,Vermont,EN,Jenn Wakefield,Unassisted,Unassisted,3rd Period,19:55.3,4,1,2,19,55.3,3,2011-12
+2012-02-18,BU,Connecticut,,Marie-Philip Poulin,Isabel Menard,Carly Warren,1st Period,11:37,1,1,-1,11,37.0,0,2011-12
+2012-02-18,BU,Connecticut,,Isabel Menard,Marie-Philip Poulin,Unassisted,3rd Period,14:27,2,2,-1,14,27.0,0,2011-12
+2012-02-18,BU,Connecticut,,Marie-Philip Poulin,Jenn Wakefield,Unassisted,Overtime (2:13),2:13,3,2,0,2,13.0,1,2011-12
+2012-02-19,BU,Connecticut,,Louise Warren,Carly Warren,Jill Cardella,1st Period,9:32,1,1,-1,9,32.0,0,2011-12
+2012-02-19,BU,Connecticut,,Tara Watchorn,Marie-Philip Poulin,Isabel Menard,2nd Period,11:54,2,1,0,11,54.0,1,2011-12
+2012-02-26,BU,New Hampshire,,Jill Cardella,Jenn Wakefield,Unassisted,1st Period,9:02,1,0,0,9,2.0,1,2011-12
+2012-02-26,BU,New Hampshire,,Shannon Stoneburgh,Taylor Holze,Isabel Menard,1st Period,9:57,2,0,1,9,57.0,2,2011-12
+2012-02-26,BU,New Hampshire,,Jenn Wakefield,Kayla Tutino,Kathryn Miller,1st Period,10:53,3,0,2,10,53.0,3,2011-12
+2012-02-26,BU,New Hampshire,PP,Jenn Wakefield,Marie-Philip Poulin,Isabel Menard,1st Period,14:54,4,0,3,14,54.0,4,2011-12
+2012-02-26,BU,New Hampshire,,Isabel Menard,Carly Warren,Marie-Philip Poulin,2nd Period,1:23,5,0,4,1,23.0,5,2011-12
+2012-02-26,BU,New Hampshire,SH,Jenn Wakefield,Kayla Tutino,Kasey Boucher,3rd Period,11:58,6,1,4,11,58.0,5,2011-12
+2012-02-26,BU,New Hampshire,SH,Marie-Philip Poulin,Louise Warren,Kathryn Miller,3rd Period,14:50,7,1,5,14,50.0,6,2011-12
+2012-02-26,BU,New Hampshire,SH,Carly Warren,Isabel Menard,Tara Watchorn,3rd Period,15:20,8,1,6,15,20.0,7,2011-12
+2012-02-26,BU,New Hampshire,,Louise Warren,Kayla Tutino,Kerrin Sperry,3rd Period,18:12,9,1,7,18,12.0,8,2011-12
+2012-03-03,BU,Boston College,,Louise Warren,Isabel Menard,Unassisted,1st Period,3:10,1,0,0,3,10.0,1,2011-12
+2012-03-03,BU,Boston College,,Jill Cardella,Jenn Wakefield,Kayla Tutino,1st Period,4:52,2,0,1,4,52.0,2,2011-12
+2012-03-03,BU,Boston College,,Marie-Philip Poulin,Isabel Menard,Kathryn Miller,2nd Period,1:25,3,1,1,1,25.0,2,2011-12
+2012-03-03,BU,Boston College,SH,Marie-Philip Poulin,Jill Cardella,Kathryn Miller,2nd Period,16:40,4,1,2,16,40.0,3,2011-12
+2012-03-03,BU,Boston College,PP,Kayla Tutino,Marie-Philip Poulin,Isabel Menard,3rd Period,0:41,5,1,3,0,41.0,4,2011-12
+2012-03-04,BU,Providence,"3x3, EA",Jenn Wakefield,Marie-Philip Poulin,Kaleigh Fratkin,3rd Period,19:52,1,1,-1,19,52.0,0,2011-12
+2012-03-04,BU,Providence,,Jenn Wakefield,Marie-Philip Poulin,Isabel Menard,2nd Overtime (2:15),2:15,2,1,0,2,15.0,1,2011-12
+2012-03-10,BU,Cornell,,Marie-Philip Poulin,Isabel Menard,Kayla Tutino,1st Period,4:35,1,0,0,4,35.0,1,2011-12
+2012-03-10,BU,Cornell,,Kayla Tutino,Jenn Wakefield,Jill Cardella,1st Period,5:09,2,0,1,5,9.0,2,2011-12
+2012-03-10,BU,Cornell,,Kasey Boucher,Marie-Philip Poulin,Kayla Tutino,1st Period,16:45,3,0,2,16,45.0,3,2011-12
+2012-03-10,BU,Cornell,,Marie-Philip Poulin,Louise Warren,Unassisted,2nd Period,15:01,4,4,-1,15,1.0,0,2011-12
+2012-03-10,BU,Cornell,"PP, EA",Isabel Menard,Tara Watchorn,Jenn Wakefield,3rd Period,9:12,5,7,-3,9,12.0,-2,2011-12
+2012-03-10,BU,Cornell,PP,Jenn Wakefield,Tara Watchorn,Isabel Menard,3rd Period,11:06,6,7,-2,11,6.0,-1,2011-12
+2012-03-10,BU,Cornell,PP,Kayla Tutino,Tara Watchorn,Marie-Philip Poulin,3rd Period,18:03,7,7,-1,18,3.0,0,2011-12
+2012-10-05,BU,Boston College,,Shannon Stoneburgh,Rebecca Russo,Jenelle Kohanchuk,1st Period,2:28,1,0,0,2,28.0,1,2012-13
+2012-10-05,BU,Boston College,,Sarah Lefort,Marie-Philip Poulin,Caroline Campbell,2nd Period,9:05,2,2,-1,9,5.0,0,2012-13
+2012-10-05,BU,Boston College,,Sarah Lefort,Jill Cardella,Marie-Philip Poulin,3rd Period,6:17,3,2,0,6,17.0,1,2012-13
+2012-10-05,BU,Boston College,,Jordan Juron,Louise Warren,Isabel Menard,3rd Period,6:58,4,2,1,6,58.0,2,2012-13
+2012-10-12,BU,Rensselaer,PP,Jenelle Kohanchuk,Isabel Menard,Kathryn Miller,1st Period,4:09,1,0,0,4,9.0,1,2012-13
+2012-10-12,BU,Rensselaer,,Sarah Lefort,Jill Cardella,Marie-Philip Poulin,1st Period,9:40,2,0,1,9,40.0,2,2012-13
+2012-10-12,BU,Rensselaer,,Dakota Woodworth,Jill Cardella,Kathryn Miller,1st Period,17:53,3,0,2,17,53.0,3,2012-13
+2012-10-13,BU,Union,,Sarah Lefort,Marie-Philip Poulin,Jill Cardella,1st Period,9:39,1,0,0,9,39.0,1,2012-13
+2012-10-13,BU,Union,,Kayla Tutino,Rebecca Russo,Jenelle Kohanchuk,2nd Period,3:03,2,0,1,3,3.0,2,2012-13
+2012-10-13,BU,Union,,Sarah Lefort,Marie-Philip Poulin,Shannon Doyle,2nd Period,3:58,3,0,2,3,58.0,3,2012-13
+2012-10-13,BU,Union,,Dakota Woodworth,Isabel Menard,Kaleigh Fratkin,2nd Period,15:17,4,1,2,15,17.0,3,2012-13
+2012-10-13,BU,Union,,Isabel Menard,Unassisted,Unassisted,2nd Period,16:06,5,1,3,16,6.0,4,2012-13
+2012-10-13,BU,Union,PP,Kayla Tutino,Rebecca Russo,Jenelle Kohanchuk,3rd Period,10:36,6,1,4,10,36.0,5,2012-13
+2012-10-16,BU,Northeastern,PP,Kayla Tutino,Marie-Philip Poulin,Kathryn Miller,2nd Period,19:24,1,0,0,19,24.0,1,2012-13
+2012-10-16,BU,Northeastern,,Sarah Lefort,Jill Cardella,Unassisted,3rd Period,0:47,2,0,1,0,47.0,2,2012-13
+2012-10-16,BU,Northeastern,,Jill Cardella,Marie-Philip Poulin,Kathryn Miller,3rd Period,9:23,3,0,2,9,23.0,3,2012-13
+2012-10-16,BU,Northeastern,,Taylor Holze,Louise Warren,Isabel Menard,3rd Period,17:03,4,1,2,17,3.0,3,2012-13
+2012-10-20,BU,Cornell,,Marie-Philip Poulin,Jill Cardella,Unassisted,2nd Period,3:29,1,0,0,3,29.0,1,2012-13
+2012-10-20,BU,Cornell,,Jill Cardella,Sarah Lefort,Kaleigh Fratkin,2nd Period,6:11,2,1,0,6,11.0,1,2012-13
+2012-10-21,BU,Cornell,,Isabel Menard,Louise Warren,Shannon Doyle,2nd Period,6:16,1,1,-1,6,16.0,0,2012-13
+2012-10-21,BU,Cornell,,Marie-Philip Poulin,Isabel Menard,Kaleigh Fratkin,2nd Period,19:40,2,1,0,19,40.0,1,2012-13
+2012-10-21,BU,Cornell,PP,Jenelle Kohanchuk,Isabel Menard,Marie-Philip Poulin,3rd Period,2:53,3,1,1,2,53.0,2,2012-13
+2012-10-21,BU,Cornell,,Isabel Menard,Unassisted,Unassisted,3rd Period,18:01,4,1,2,18,1.0,3,2012-13
+2012-10-21,BU,Cornell,,Marie-Philip Poulin,Unassisted,Unassisted,3rd Period,18:26,5,1,3,18,26.0,4,2012-13
+2012-10-26,BU,Maine,3x3,Shannon Doyle,Isabel Menard,Louise Warren,1st Period,11:53,1,0,0,11,53.0,1,2012-13
+2012-10-26,BU,Maine,PP,Kayla Tutino,Kathryn Miller,Marie-Philip Poulin,2nd Period,8:00,2,0,1,8,0.0,2,2012-13
+2012-10-26,BU,Maine,PP,Jenelle Kohanchuk,Marie-Philip Poulin,Isabel Menard,3rd Period,7:09,3,1,1,7,9.0,2,2012-13
+2012-10-26,BU,Maine,,Kayla Tutino,Jenelle Kohanchuk,Rebecca Russo,3rd Period,12:49,4,1,2,12,49.0,3,2012-13
+2012-10-27,BU,Robert Morris,,Kayla Tutino,Jenelle Kohanchuk,Unassisted,1st Period,2:28,1,0,0,2,28.0,1,2012-13
+2012-10-27,BU,Robert Morris,,Sarah Lefort,Marie-Philip Poulin,Jill Cardella,1st Period,16:37,2,0,1,16,37.0,2,2012-13
+2012-10-27,BU,Robert Morris,,Sarah Lefort,Jill Cardella,Marie-Philip Poulin,3rd Period,15:18,3,0,2,15,18.0,3,2012-13
+2012-10-31,BU,Boston College,,Marie-Philip Poulin,Shannon Stoneburgh,Sarah Lefort,2nd Period,17:25,1,4,-4,17,25.0,-3,2012-13
+2012-11-03,BU,Boston College,,Louise Warren,Lillian Ribeirinha-Braga,Unassisted,1st Period,9:51,1,1,-1,9,51.0,0,2012-13
+2012-11-03,BU,Boston College,,Louise Warren,Isabel Menard,Lillian Ribeirinha-Braga,1st Period,12:14,2,1,0,12,14.0,1,2012-13
+2012-11-03,BU,Boston College,PP,Isabel Menard,Shannon Doyle,Kathryn Miller,2nd Period,16:12,3,3,-1,16,12.0,0,2012-13
+2012-11-03,BU,Boston College,,Shannon Stoneburgh,Sarah Lefort,Jordan Juron,3rd Period,6:49,4,4,-1,6,49.0,0,2012-13
+2012-11-03,BU,Boston College,,Louise Warren,Isabel Menard,Unassisted,3rd Period,7:21,5,4,0,7,21.0,1,2012-13
+2012-11-09,BU,New Hampshire,3x3,Kaleigh Fratkin,Jenelle Kohanchuk,Kayla Tutino,2nd Period,9:20,1,3,-3,9,20.0,-2,2012-13
+2012-11-09,BU,New Hampshire,,Louise Warren,Isabel Menard,Shannon Stoneburgh,2nd Period,13:17,2,3,-2,13,17.0,-1,2012-13
+2012-11-16,BU,Providence,,Jenelle Kohanchuk,Marie-Philip Poulin,Sarah Lefort,1st Period,6:12,1,0,0,6,12.0,1,2012-13
+2012-11-16,BU,Providence,,Sarah Lefort,Marie-Philip Poulin,Jenelle Kohanchuk,2nd Period,3:37,2,0,1,3,37.0,2,2012-13
+2012-11-16,BU,Providence,,Marie-Philip Poulin,Jenelle Kohanchuk,Unassisted,2nd Period,7:43,3,0,2,7,43.0,3,2012-13
+2012-11-16,BU,Providence,SH,Marie-Philip Poulin,Jenelle Kohanchuk,Unassisted,2nd Period,15:07,4,0,3,15,7.0,4,2012-13
+2012-11-16,BU,Providence,,Kayla Tutino,Louise Warren,Isabel Menard,2nd Period,17:49,5,1,3,17,49.0,4,2012-13
+2012-11-16,BU,Providence,,Shannon Stoneburgh,Kayla Tutino,Louise Warren,3rd Period,1:50,6,1,4,1,50.0,5,2012-13
+2012-11-16,BU,Providence,,Jenelle Kohanchuk,Sarah Lefort,Shannon Stoneburgh,3rd Period,18:02,7,1,5,18,2.0,6,2012-13
+2012-11-18,BU,Harvard,SH,Jenelle Kohanchuk,Marie-Philip Poulin,Unassisted,1st Period,19:09,1,0,0,19,9.0,1,2012-13
+2012-11-18,BU,Harvard,,Louise Warren,Isabel Menard,Unassisted,2nd Period,9:45,2,0,1,9,45.0,2,2012-13
+2012-11-30,BU,Providence,,Jenelle Kohanchuk,Sarah Lefort,Unassisted,1st Period,15:48,1,1,-1,15,48.0,0,2012-13
+2012-11-30,BU,Providence,PP,Jenelle Kohanchuk,Shannon Doyle,Isabel Menard,3rd Period,4:52,2,2,-1,4,52.0,0,2012-13
+2012-11-30,BU,Providence,,Shannon Doyle,Marie-Philip Poulin,Sarah Lefort,3rd Period,14:47,3,3,-1,14,47.0,0,2012-13
+2012-11-30,BU,Providence,,Isabel Menard,Louise Warren,Unassisted,3rd Period,15:27,4,3,0,15,27.0,1,2012-13
+2012-12-01,BU,Providence,PP,Marie-Philip Poulin,Jill Cardella,Sarah Lefort,1st Period,3:57,1,0,0,3,57.0,1,2012-13
+2012-12-01,BU,Providence,,Marie-Philip Poulin,Sarah Lefort,Jenelle Kohanchuk,1st Period,18:56,2,1,0,18,56.0,1,2012-13
+2012-12-01,BU,Providence,SH,Jenelle Kohanchuk,Marie-Philip Poulin,Unassisted,2nd Period,11:40,3,2,0,11,40.0,1,2012-13
+2012-12-01,BU,Providence,PP,Marie-Philip Poulin,Sarah Lefort,Jill Cardella,3rd Period,8:14,4,3,0,8,14.0,1,2012-13
+2012-12-01,BU,Providence,PP,Isabel Menard,Jill Cardella,Shannon Doyle,3rd Period,18:33,5,4,0,18,33.0,1,2012-13
+2012-12-01,BU,Providence,,Kayla Tutino,Isabel Menard,Louise Warren,3rd Period,19:02,6,4,1,19,2.0,2,2012-13
+2012-12-08,BU,Minnesota Duluth,,Jenelle Kohanchuk,Marie-Philip Poulin,Sarah Lefort,1st Period,10:56,1,0,0,10,56.0,1,2012-13
+2012-12-08,BU,Minnesota Duluth,,Kathryn Miller,Marie-Philip Poulin,Jill Cardella,3rd Period,17:51,2,2,-1,17,51.0,0,2012-13
+2013-01-08,BU,Connecticut,PP,Louise Warren,Isabel Menard,Kayla Tutino,2nd Period,1:31,1,1,-1,1,31.0,0,2012-13
+2013-01-08,BU,Connecticut,,Sarah Lefort,Marie-Philip Poulin,Unassisted,2nd Period,17:13,2,2,-1,17,13.0,0,2012-13
+2013-01-08,BU,Connecticut,,Kayla Tutino,Louise Warren,Isabel Menard,3rd Period,0:36,3,2,0,0,36.0,1,2012-13
+2013-01-08,BU,Connecticut,,Isabel Menard,Shannon Doyle,Kayla Tutino,3rd Period,6:56,4,2,1,6,56.0,2,2012-13
+2013-01-12,BU,Maine,,Jenelle Kohanchuk,Unassisted,Unassisted,1st Period,12:28,1,0,0,12,28.0,1,2012-13
+2013-01-12,BU,Maine,,Louise Warren,Isabel Menard,Kayla Tutino,1st Period,13:01,2,0,1,13,1.0,2,2012-13
+2013-01-12,BU,Maine,,Isabel Menard,Kayla Tutino,Louise Warren,2nd Period,1:21,3,0,2,1,21.0,3,2012-13
+2013-01-12,BU,Maine,PP,Marie-Philip Poulin,Jenelle Kohanchuk,Sarah Lefort,2nd Period,14:24,4,0,3,14,24.0,4,2012-13
+2013-01-12,BU,Maine,PP,Jenelle Kohanchuk,Jill Cardella,Shannon Doyle,3rd Period,12:52,5,1,3,12,52.0,4,2012-13
+2013-01-13,BU,Maine,PP,Shannon Doyle,Jill Cardella,Marie-Philip Poulin,1st Period,19:25,1,0,0,19,25.0,1,2012-13
+2013-01-13,BU,Maine,PS,Louise Warren,Unassisted,Unassisted,2nd Period,10:57,2,1,0,10,57.0,1,2012-13
+2013-01-13,BU,Maine,,Kayla Tutino,Shannon Stoneburgh,Louise Warren,3rd Period,2:52,3,2,0,2,52.0,1,2012-13
+2013-01-13,BU,Maine,,Marie-Philip Poulin,Sarah Lefort,Shannon Doyle,3rd Period,12:12,4,2,1,12,12.0,2,2012-13
+2013-01-16,BU,Northeastern,PP,Sarah Lefort,Jenelle Kohanchuk,Marie-Philip Poulin,1st Period,5:59,1,0,0,5,59.0,1,2012-13
+2013-01-16,BU,Northeastern,,Louise Warren,Jill Cardella,Kathryn Miller,1st Period,10:51,2,0,1,10,51.0,2,2012-13
+2013-01-16,BU,Northeastern,PP,Sarah Lefort,Shannon Doyle,Jill Cardella,2nd Period,0:56,3,1,1,0,56.0,2,2012-13
+2013-01-16,BU,Northeastern,,Isabel Menard,Louise Warren,Dakota Woodworth,2nd Period,9:30,4,1,2,9,30.0,3,2012-13
+2013-01-16,BU,Northeastern,,Sarah Lefort,Jenelle Kohanchuk,Unassisted,3rd Period,9:46,5,2,2,9,46.0,3,2012-13
+2013-01-25,BU,Vermont,PP,Jordan Juron,Shannon Doyle,Jill Cardella,1st Period,15:05,1,0,0,15,5.0,1,2012-13
+2013-01-25,BU,Vermont,,Sarah Lefort,Jordan Juron,Marie-Philip Poulin,2nd Period,0:54,2,1,0,0,54.0,1,2012-13
+2013-01-25,BU,Vermont,,Marie-Philip Poulin,Sarah Lefort,Shannon Stoneburgh,2nd Period,7:52,3,1,1,7,52.0,2,2012-13
+2013-01-25,BU,Vermont,,Kayla Tutino,Caroline Campbell,Lillian Ribeirinha-Braga,2nd Period,17:18,4,2,1,17,18.0,2,2012-13
+2013-01-25,BU,Vermont,PP,Jordan Juron,Isabel Menard,Kaleigh Fratkin,3rd Period,6:28,5,2,2,6,28.0,3,2012-13
+2013-01-27,BU,New Hampshire,,Shannon Stoneburgh,Unassisted,Unassisted,1st Period,13:41,1,0,0,13,41.0,1,2012-13
+2013-01-27,BU,New Hampshire,PP,Shannon Doyle,Jenelle Kohanchuk,Jill Cardella,1st Period,17:23,2,1,0,17,23.0,1,2012-13
+2013-01-27,BU,New Hampshire,PP,Isabel Menard,Louise Warren,Kaleigh Fratkin,2nd Period,11:06,3,2,0,11,6.0,1,2012-13
+2013-02-02,BU,Northeastern,,Louise Warren,Kayla Tutino,Isabel Menard,1st Period,0:45,1,0,0,0,45.0,1,2012-13
+2013-02-02,BU,Northeastern,PP,Sarah Lefort,Shannon Doyle,Jill Cardella,1st Period,8:24,2,0,1,8,24.0,2,2012-13
+2013-02-02,BU,Northeastern,,Kayla Tutino,Louise Warren,Isabel Menard,2nd Period,13:26,3,1,1,13,26.0,2,2012-13
+2013-02-02,BU,Northeastern,,Jenelle Kohanchuk,Isabel Menard,Kaleigh Fratkin,2nd Period,14:03,4,1,2,14,3.0,3,2012-13
+2013-02-05,BU,Northeastern,,Jordan Juron,Caroline Campbell,Sarah Lefort,3rd Period,7:02,1,3,-3,7,2.0,-2,2012-13
+2013-02-16,BU,Vermont,,Marie-Philip Poulin,Jenelle Kohanchuk,Jill Cardella,2nd Period,7:48,1,1,-1,7,48.0,0,2012-13
+2013-02-16,BU,Vermont,,Marie-Philip Poulin,Kathryn Miller,Kaleigh Fratkin,3rd Period,18:30,2,1,0,18,30.0,1,2012-13
+2013-02-17,BU,Vermont,,Louise Warren,Kayla Tutino,Kaleigh Fratkin,1st Period,18:03,1,0,0,18,3.0,1,2012-13
+2013-02-17,BU,Vermont,,Isabel Menard,Kayla Tutino,Unassisted,2nd Period,7:33,2,0,1,7,33.0,2,2012-13
+2013-02-17,BU,Vermont,PP,Isabel Menard,Kayla Tutino,Kaleigh Fratkin,2nd Period,14:08,3,0,2,14,8.0,3,2012-13
+2013-02-20,BU,New Hampshire,,Jenelle Kohanchuk,Shannon Stoneburgh,Marie-Philip Poulin,1st Period,10:51,1,0,0,10,51.0,1,2012-13
+2013-02-20,BU,New Hampshire,,Isabel Menard,Jill Cardella,Unassisted,2nd Period,5:09,2,0,1,5,9.0,2,2012-13
+2013-02-20,BU,New Hampshire,,Rebecca Russo,Jill Cardella,Jordan Juron,2nd Period,9:22,3,0,2,9,22.0,3,2012-13
+2013-02-20,BU,New Hampshire,3x3,Jenelle Kohanchuk,Marie-Philip Poulin,Kathryn Miller,3rd Period,7:20,4,0,3,7,20.0,4,2012-13
+2013-02-20,BU,New Hampshire,,Dakota Woodworth,Shannon Doyle,Jordan Juron,3rd Period,11:06,5,0,4,11,6.0,5,2012-13
+2013-02-20,BU,New Hampshire,3x3,Shannon Doyle,Jenelle Kohanchuk,Marie-Philip Poulin,3rd Period,14:33,6,0,5,14,33.0,6,2012-13
+2013-02-23,BU,Connecticut,,Jenelle Kohanchuk,Marie-Philip Poulin,Sarah Lefort,1st Period,13:59,1,1,-1,13,59.0,0,2012-13
+2013-02-23,BU,Connecticut,PP,Sarah Lefort,Jenelle Kohanchuk,Marie-Philip Poulin,2nd Period,4:35,2,5,-4,4,35.0,-3,2012-13
+2013-02-23,BU,Connecticut,,Sarah Lefort,Kaleigh Fratkin,Marie-Philip Poulin,2nd Period,15:10,3,5,-3,15,10.0,-2,2012-13
+2013-02-23,BU,Connecticut,,Isabel Menard,Kayla Tutino,Louise Warren,2nd Period,15:48,4,5,-2,15,48.0,-1,2012-13
+2013-02-23,BU,Connecticut,,Shannon Doyle,Isabel Menard,Louise Warren,2nd Period,19:48,5,5,-1,19,48.0,0,2012-13
+2013-02-23,BU,Connecticut,,Kayla Tutino,Louise Warren,Shannon Doyle,3rd Period,4:43,6,5,0,4,43.0,1,2012-13
+2013-02-23,BU,Connecticut,,Jenelle Kohanchuk,Isabel Menard,Lillian Ribeirinha-Braga,3rd Period,17:58,7,5,1,17,58.0,2,2012-13
+2013-02-24,BU,Connecticut,,Louise Warren,Kayla Tutino,Shannon Stoneburgh,1st Period,2:29,1,0,0,2,29.0,1,2012-13
+2013-02-24,BU,Connecticut,PP,Jenelle Kohanchuk,Sarah Lefort,Marie-Philip Poulin,1st Period,17:00,2,1,0,17,0.0,1,2012-13
+2013-02-24,BU,Connecticut,,Sarah Lefort,Marie-Philip Poulin,Jenelle Kohanchuk,2nd Period,10:12,3,1,1,10,12.0,2,2012-13
+2013-02-24,BU,Connecticut,,Sarah Lefort,Jenelle Kohanchuk,Kaleigh Fratkin,3rd Period,1:32,4,1,2,1,32.0,3,2012-13
+2013-03-02,BU,Connecticut,,Marie-Philip Poulin,Shannon Doyle,Sarah Lefort,2nd Period,6:30,1,0,0,6,30.0,1,2012-13
+2013-03-02,BU,Connecticut,,Kayla Tutino,Isabel Menard,Unassisted,2nd Period,7:30,2,0,1,7,30.0,2,2012-13
+2013-03-02,BU,Connecticut,,Jenelle Kohanchuk,Kaleigh Fratkin,Kerrin Sperry,3rd Period,5:39,3,1,1,5,39.0,2,2012-13
+2013-03-02,BU,Connecticut,EA,Jenelle Kohanchuk,Jill Cardella,Unassisted,3rd Period,10:18,4,1,2,10,18.0,3,2012-13
+2013-03-02,BU,Connecticut,EN,Caroline Campbell,Unassisted,Unassisted,3rd Period,15:12,5,1,3,15,12.0,4,2012-13
+2013-03-09,BU,Providence,PP,Sarah Lefort,Marie-Philip Poulin,Shannon Doyle,1st Period,14:15,1,0,0,14,15.0,1,2012-13
+2013-03-09,BU,Providence,SH,Marie-Philip Poulin,Unassisted,Unassisted,2nd Period,0:19,2,0,1,0,19.0,2,2012-13
+2013-03-09,BU,Providence,,Louise Warren,Isabel Menard,Caroline Campbell,2nd Period,6:10,3,0,2,6,10.0,3,2012-13
+2013-03-09,BU,Providence,,Louise Warren,Isabel Menard,Kathryn Miller,2nd Period,19:03,4,0,3,19,3.0,4,2012-13
+2013-03-10,BU,Northeastern,,Isabel Menard,Louise Warren,Shannon Doyle,1st Period,4:06,1,0,0,4,6.0,1,2012-13
+2013-03-10,BU,Northeastern,,Sarah Lefort,Unassisted,Unassisted,1st Period,12:16,2,0,1,12,16.0,2,2012-13
+2013-03-10,BU,Northeastern,,Jenelle Kohanchuk,Marie-Philip Poulin,Unassisted,3rd Period,2:37,3,1,1,2,37.0,2,2012-13
+2013-03-10,BU,Northeastern,,Jenelle Kohanchuk,Sarah Lefort,Caroline Campbell,3rd Period,12:36,4,2,1,12,36.0,2,2012-13
+2013-03-10,BU,Northeastern,PP,Kayla Tutino,Kaleigh Fratkin,Isabel Menard,3rd Period,15:02,5,2,2,15,2.0,3,2012-13
+2013-03-16,BU,Clarkson,,Marie-Philip Poulin,Jenelle Kohanchuk,Shannon Doyle,1st Period,4:49,1,0,0,4,49.0,1,2012-13
+2013-03-16,BU,Clarkson,,Jenelle Kohanchuk,Marie-Philip Poulin,Kaleigh Fratkin,2nd Period,17:09,2,1,0,17,9.0,1,2012-13
+2013-03-16,BU,Clarkson,,Sarah Lefort,Unassisted,Unassisted,3rd Period,9:22,3,1,1,9,22.0,2,2012-13
+2013-03-16,BU,Clarkson,,Louise Warren,Isabel Menard,Kayla Tutino,3rd Period,9:48,4,1,2,9,48.0,3,2012-13
+2013-03-16,BU,Clarkson,EN,Sarah Lefort,Unassisted,Unassisted,3rd Period,19:01,5,3,1,19,1.0,2,2012-13
+2013-03-22,BU,Mercyhurst,,Jenelle Kohanchuk,Marie-Philip Poulin,Kaleigh Fratkin,1st Period,0:13,1,0,0,0,13.0,1,2012-13
+2013-03-22,BU,Mercyhurst,,Isabel Menard,Louise Warren,Unassisted,2nd Period,1:00,2,0,1,1,0.0,2,2012-13
+2013-03-22,BU,Mercyhurst,,Kathryn Miller,Jenelle Kohanchuk,Unassisted,3rd Period,3:02,3,0,2,3,2.0,3,2012-13
+2013-03-22,BU,Mercyhurst,,Marie-Philip Poulin,Unassisted,Unassisted,3rd Period,9:57,4,0,3,9,57.0,4,2012-13
+2013-03-24,BU,Minnesota,PP,Sarah Lefort,Shannon Stoneburgh,Marie-Philip Poulin,1st Period,18:48,1,2,-2,18,48.0,-1,2012-13
+2013-03-24,BU,Minnesota,PP,Marie-Philip Poulin,Shannon Doyle,Jill Cardella,3rd Period,1:48,2,4,-3,1,48.0,-2,2012-13
+2013-03-24,BU,Minnesota,EA,Jenelle Kohanchuk,Kaleigh Fratkin,Kathryn Miller,3rd Period,17:08,3,5,-3,17,8.0,-2,2012-13
+2013-10-11,BU,Rensselaer,,Jordan Juron,Rebecca Russo,Unassisted,1st Period,2:42,1,0,0,2,42.0,1,2013-14
+2013-10-11,BU,Rensselaer,PP,Rebecca Russo,Jordan Juron,Kaleigh Fratkin,2nd Period,0:34,2,1,0,0,34.0,1,2013-14
+2013-10-12,BU,Union,PP,Rebecca Russo,Jordan Juron,Caroline Campbell,1st Period,10:59,1,0,0,10,59.0,1,2013-14
+2013-10-12,BU,Union,EA,Louise Warren,Kaleigh Fratkin,Samantha Sutherland,3rd Period,19:28,2,2,-1,19,28.0,0,2013-14
+2013-10-12,BU,Union,,Rebecca Russo,Jordan Juron,Unassisted,Overtime (3:13),3:13,3,2,0,3,13.0,1,2013-14
+2013-10-18,BU,Robert Morris,PP,Sarah Lefort,Sarah Steele,Kayla Tutino,1st Period,12:30,1,0,0,12,30.0,1,2013-14
+2013-10-18,BU,Robert Morris,,Louise Warren,Maddie Elia,Taylor Holze,1st Period,15:24,2,0,1,15,24.0,2,2013-14
+2013-10-18,BU,Robert Morris,,Sarah Lefort,Kayla Tutino,Samantha Sutherland,2nd Period,13:19,3,2,0,13,19.0,1,2013-14
+2013-10-18,BU,Robert Morris,,Samantha Sutherland,Maddie Elia,Lillian Ribeirinha-Braga,2nd Period,16:00,4,2,1,16,0.0,2,2013-14
+2013-10-18,BU,Robert Morris,,Taylor Holze,Louise Warren,Kaleigh Fratkin,3rd Period,19:05,5,2,2,19,5.0,3,2013-14
+2013-10-26,BU,Yale,,Maddie Elia,Samantha Sutherland,Sarah Lefort,2nd Period,6:48,1,0,0,6,48.0,1,2013-14
+2013-10-26,BU,Yale,,Sarah Lefort,Unassisted,Unassisted,3rd Period,6:08,2,1,0,6,8.0,1,2013-14
+2013-10-29,BU,Northeastern,,Sarah Lefort,Kayla Tutino,Samantha Sutherland,1st Period,1:13,1,0,0,1,13.0,1,2013-14
+2013-10-29,BU,Northeastern,EA,Kayla Tutino,Louise Warren,Maddie Elia,2nd Period,13:22,2,1,0,13,22.0,1,2013-14
+2013-10-29,BU,Northeastern,,Louise Warren,Alexis Woloschuk,Unassisted,Overtime (3:13),3:13,3,2,0,3,13.0,1,2013-14
+2013-11-01,BU,New Hampshire,,Sarah Lefort,Kayla Tutino,Samantha Sutherland,2nd Period,12:12,1,1,-1,12,12.0,0,2013-14
+2013-11-01,BU,New Hampshire,,Louise Warren,Maddie Elia,Sarah Steele,3rd Period,14:32,2,1,0,14,32.0,1,2013-14
+2013-11-01,BU,New Hampshire,EN,Louise Warren,Sarah Lefort,Unassisted,3rd Period,19:45,3,1,1,19,45.0,2,2013-14
+2013-11-02,BU,Vermont,PP,Dakota Woodworth,Jordan Juron,Shannon Stoneburgh,1st Period,5:49,1,0,0,5,49.0,1,2013-14
+2013-11-02,BU,Vermont,,Sarah Bayersdorfer,Natalie Flynn,Meghan Riggs,2nd Period,12:19,2,0,1,12,19.0,2,2013-14
+2013-11-02,BU,Vermont,,Louise Warren,Taylor Holze,Unassisted,3rd Period,1:13,3,0,2,1,13.0,3,2013-14
+2013-11-02,BU,Vermont,,Louise Warren,Unassisted,Unassisted,3rd Period,4:16,4,0,3,4,16.0,4,2013-14
+2013-11-02,BU,Vermont,PP,Diana Bennett,Jordan Juron,Rebecca Russo,3rd Period,6:50,5,0,4,6,50.0,5,2013-14
+2013-11-02,BU,Vermont,,Kayla Tutino,Sarah Lefort,Lillian Ribeirinha-Braga,3rd Period,16:17,6,0,5,16,17.0,6,2013-14
+2013-11-06,BU,Connecticut,,Kaleigh Fratkin,Lillian Ribeirinha-Braga,Samantha Sutherland,1st Period,7:24,1,0,0,7,24.0,1,2013-14
+2013-11-06,BU,Connecticut,,Dakota Woodworth,Rebecca Russo,Alexis Woloschuk,1st Period,8:07,2,0,1,8,7.0,2,2013-14
+2013-11-06,BU,Connecticut,,Alexis Woloschuk,Louise Warren,Maddie Elia,2nd Period,2:45,3,0,2,2,45.0,3,2013-14
+2013-11-06,BU,Connecticut,,Sarah Lefort,Sarah Steele,Kayla Tutino,2nd Period,13:14,4,0,3,13,14.0,4,2013-14
+2013-11-06,BU,Connecticut,,Kayla Tutino,Samantha Sutherland,Sarah Lefort,3rd Period,1:18,5,1,3,1,18.0,4,2013-14
+2013-11-06,BU,Connecticut,SH,Rebecca Russo,Kaleigh Fratkin,Dakota Woodworth,3rd Period,15:03,6,2,3,15,3.0,4,2013-14
+2013-11-09,BU,Maine,,Maddie Elia,Taylor Holze,Louise Warren,2nd Period,3:18,1,1,-1,3,18.0,0,2013-14
+2013-11-09,BU,Maine,,Sarah Lefort,Sarah Steele,Maddie Elia,2nd Period,5:22,2,1,0,5,22.0,1,2013-14
+2013-11-09,BU,Maine,PP,Maddie Elia,Kaleigh Fratkin,Sarah Lefort,2nd Period,16:01,3,1,1,16,1.0,2,2013-14
+2013-11-09,BU,Maine,,Jordan Juron,Rebecca Russo,Dakota Woodworth,3rd Period,1:36,4,1,2,1,36.0,3,2013-14
+2013-11-09,BU,Maine,,Louise Warren,Maddie Elia,Lillian Ribeirinha-Braga,3rd Period,16:43,5,1,3,16,43.0,4,2013-14
+2013-11-10,BU,Maine,,Jordan Juron,Rebecca Russo,Unassisted,1st Period,4:29,1,0,0,4,29.0,1,2013-14
+2013-11-10,BU,Maine,SH,Rebecca Russo,Sarah Steele,Unassisted,1st Period,17:15,2,0,1,17,15.0,2,2013-14
+2013-11-10,BU,Maine,,Kaleigh Fratkin,Maddie Elia,Louise Warren,3rd Period,11:51,3,1,1,11,51.0,2,2013-14
+2013-11-10,BU,Maine,PP,Samantha Sutherland,Sarah Lefort,Kaleigh Fratkin,3rd Period,18:02,4,2,1,18,2.0,2,2013-14
+2013-11-15,BU,St. Cloud State,,Samantha Sutherland,Unassisted,Unassisted,1st Period,6:04,1,0,0,6,4.0,1,2013-14
+2013-11-15,BU,St. Cloud State,,Sarah Bayersdorfer,Meghan Riggs,Unassisted,2nd Period,4:35,2,0,1,4,35.0,2,2013-14
+2013-11-22,BU,Harvard,,Rebecca Russo,Dakota Woodworth,Kaleigh Fratkin,3rd Period,15:57,1,3,-3,15,57.0,-2,2013-14
+2013-11-24,BU,New Hampshire,,Sarah Lefort,Kayla Tutino,Samantha Sutherland,1st Period,8:01,1,0,0,8,1.0,1,2013-14
+2013-11-24,BU,New Hampshire,,Kayla Tutino,Unassisted,Unassisted,3rd Period,11:14,2,1,0,11,14.0,1,2013-14
+2013-12-03,BU,Northeastern,,Louise Warren,Samantha Sutherland,Kaleigh Fratkin,1st Period,8:26,1,0,0,8,26.0,1,2013-14
+2013-12-03,BU,Northeastern,,Sarah Lefort,Louise Warren,Lillian Ribeirinha-Braga,2nd Period,4:53,2,0,1,4,53.0,2,2013-14
+2013-12-03,BU,Northeastern,SH,Louise Warren,Sarah Lefort,Sarah Steele,3rd Period,8:40,3,2,0,8,40.0,1,2013-14
+2013-12-03,BU,Northeastern,,Sarah Lefort,Louise Warren,Shannon Stoneburgh,3rd Period,11:52,4,2,1,11,52.0,2,2013-14
+2013-12-03,BU,Northeastern,EN,Sarah Lefort,Taylor Holze,Unassisted,3rd Period,19:21,5,2,2,19,21.0,3,2013-14
+2013-12-06,BU,Minnesota Duluth,,Sarah Lefort,Samantha Sutherland,Unassisted,1st Period,4:50,1,0,0,4,50.0,1,2013-14
+2013-12-06,BU,Minnesota Duluth,PP,Rebecca Russo,Shannon Stoneburgh,Jordan Juron,2nd Period,2:50,2,2,-1,2,50.0,0,2013-14
+2013-12-06,BU,Minnesota Duluth,,Louise Warren,Sarah Lefort,Unassisted,2nd Period,10:07,3,2,0,10,7.0,1,2013-14
+2013-12-06,BU,Minnesota Duluth,,Maddie Elia,Rebecca Russo,Kaleigh Fratkin,3rd Period,0:55,4,2,1,0,55.0,2,2013-14
+2013-12-06,BU,Minnesota Duluth,,Samantha Sutherland,Louise Warren,Sarah Steele,3rd Period,2:00,5,2,2,2,0.0,3,2013-14
+2013-12-06,BU,Minnesota Duluth,,Sarah Lefort,Unassisted,Unassisted,3rd Period,12:08,6,3,2,12,8.0,3,2013-14
+2013-12-07,BU,Minnesota Duluth,,Sarah Lefort,Samantha Sutherland,Louise Warren,1st Period,12:35,1,0,0,12,35.0,1,2013-14
+2013-12-07,BU,Minnesota Duluth,,Louise Warren,Sarah Lefort,Unassisted,2nd Period,0:22,2,0,1,0,22.0,2,2013-14
+2013-12-07,BU,Minnesota Duluth,SH,Louise Warren,Shannon Stoneburgh,Sarah Lefort,2nd Period,17:49,3,0,2,17,49.0,3,2013-14
+2013-12-07,BU,Minnesota Duluth,,Sarah Lefort,Natalie Flynn,Caroline Campbell,3rd Period,7:18,4,0,3,7,18.0,4,2013-14
+2014-01-04,BU,Dartmouth,,Rebecca Russo,Louise Warren,Caroline Campbell,1st Period,3:05,1,0,0,3,5.0,1,2013-14
+2014-01-04,BU,Dartmouth,,Maddie Elia,Sarah Steele,Unassisted,1st Period,14:53,2,1,0,14,53.0,1,2013-14
+2014-01-04,BU,Dartmouth,PP,Sarah Lefort,Maddie Elia,Kaleigh Fratkin,2nd Period,8:18,3,2,0,8,18.0,1,2013-14
+2014-01-08,BU,Boston College,,Samantha Sutherland,Louise Warren,Sarah Lefort,2nd Period,15:02,1,3,-3,15,2.0,-2,2013-14
+2014-01-11,BU,Maine,,Maddie Elia,Taylor Holze,Unassisted,2nd Period,1:09,1,2,-2,1,9.0,-1,2013-14
+2014-01-11,BU,Maine,,Louise Warren,Sarah Lefort,Samantha Sutherland,2nd Period,2:54,2,2,-1,2,54.0,0,2013-14
+2014-01-11,BU,Maine,,Taylor Holze,Kaleigh Fratkin,Maddie Elia,2nd Period,3:52,3,2,0,3,52.0,1,2013-14
+2014-01-11,BU,Maine,,Sarah Lefort,Sarah Bayersdorfer,Jordan Juron,3rd Period,2:07,4,3,0,2,7.0,1,2013-14
+2014-01-11,BU,Maine,PP,Louise Warren,Sarah Lefort,Maddie Elia,3rd Period,16:57,5,3,1,16,57.0,2,2013-14
+2014-01-17,BU,Providence,PP,Maddie Elia,Kaleigh Fratkin,Sarah Lefort,1st Period,2:09,1,0,0,2,9.0,1,2013-14
+2014-01-17,BU,Providence,,Maddie Elia,Lillian Ribeirinha-Braga,Unassisted,1st Period,16:17,2,0,1,16,17.0,2,2013-14
+2014-01-17,BU,Providence,PP,Sarah Lefort,Lillian Ribeirinha-Braga,Kaleigh Fratkin,2nd Period,3:14,3,1,1,3,14.0,2,2013-14
+2014-01-19,BU,Northeastern,,Louise Warren,Caroline Campbell,Sarah Lefort,3rd Period,4:50,1,2,-2,4,50.0,-1,2013-14
+2014-01-19,BU,Northeastern,,Sarah Lefort,Shannon Stoneburgh,Sarah Steele,3rd Period,14:36,2,3,-2,14,36.0,-1,2013-14
+2014-01-24,BU,Vermont,,Kaleigh Fratkin,Sarah Lefort,Unassisted,2nd Period,12:25,1,1,-1,12,25.0,0,2013-14
+2014-01-24,BU,Vermont,,Louise Warren,Sarah Lefort,Lillian Ribeirinha-Braga,3rd Period,5:51,2,2,-1,5,51.0,0,2013-14
+2014-01-25,BU,Vermont,,Kaleigh Fratkin,Lillian Ribeirinha-Braga,Louise Warren,1st Period,19:12,1,1,-1,19,12.0,0,2013-14
+2014-01-31,BU,Connecticut,PP,Lillian Ribeirinha-Braga,Kaleigh Fratkin,Louise Warren,2nd Period,12:19,1,0,0,12,19.0,1,2013-14
+2014-01-31,BU,Connecticut,,Taylor Holze,Kaleigh Fratkin,Rebecca Russo,3rd Period,13:11,2,0,1,13,11.0,2,2013-14
+2014-02-01,BU,Connecticut,PP,Louise Warren,Kaleigh Fratkin,Lillian Ribeirinha-Braga,1st Period,18:01,1,0,0,18,1.0,1,2013-14
+2014-02-01,BU,Connecticut,,Louise Warren,Sarah Lefort,Samantha Sutherland,2nd Period,7:26,2,1,0,7,26.0,1,2013-14
+2014-02-01,BU,Connecticut,,Sarah Lefort,Samantha Sutherland,Louise Warren,2nd Period,18:02,3,2,0,18,2.0,1,2013-14
+2014-02-01,BU,Connecticut,,Louise Warren,Samantha Sutherland,Sarah Steele,3rd Period,10:11,4,2,1,10,11.0,2,2013-14
+2014-02-01,BU,Connecticut,EN,Sarah Lefort,Lillian Ribeirinha-Braga,Unassisted,3rd Period,18:12,5,2,2,18,12.0,3,2013-14
+2014-02-04,BU,Boston College,,Sarah Lefort,Caroline Campbell,Unassisted,2nd Period,8:40,1,3,-3,8,40.0,-2,2013-14
+2014-02-08,BU,New Hampshire,,Jordan Juron,Natalie Flynn,Taylor Holze,1st Period,12:40,1,0,0,12,40.0,1,2013-14
+2014-02-08,BU,New Hampshire,,Sarah Lefort,Unassisted,Unassisted,1st Period,17:15,2,0,1,17,15.0,2,2013-14
+2014-02-08,BU,New Hampshire,SH,Louise Warren,Sarah Lefort,Unassisted,2nd Period,2:53,3,0,2,2,53.0,3,2013-14
+2014-02-08,BU,New Hampshire,,Maddie Elia,Rebecca Russo,Alexis Woloschuk,2nd Period,11:36,4,2,1,11,36.0,2,2013-14
+2014-02-08,BU,New Hampshire,,Sarah Lefort,Caroline Campbell,Kerrin Sperry,2nd Period,19:17,5,2,2,19,17.0,3,2013-14
+2014-02-08,BU,New Hampshire,,Sarah Lefort,Louise Warren,Kaleigh Fratkin,3rd Period,4:35,6,2,3,4,35.0,4,2013-14
+2014-02-08,BU,New Hampshire,EN,Sarah Lefort,Samantha Sutherland,Unassisted,3rd Period,18:40,7,4,2,18,40.0,3,2013-14
+2014-02-11,BU,Harvard,,Sarah Lefort,Samantha Sutherland,Shannon Stoneburgh,2nd Period,3:30,1,1,-1,3,30.0,0,2013-14
+2014-02-11,BU,Harvard,PP,Louise Warren,Maddie Elia,Sarah Lefort,3rd Period,9:56,2,1,0,9,56.0,1,2013-14
+2014-02-15,BU,Providence,PP,Maddie Elia,Louise Warren,Kaleigh Fratkin,1st Period,11:56,1,0,0,11,56.0,1,2013-14
+2014-02-15,BU,Providence,,Sarah Lefort,Unassisted,Unassisted,2nd Period,17:19,2,1,0,17,19.0,1,2013-14
+2014-02-15,BU,Providence,,Rebecca Russo,Louise Warren,Unassisted,3rd Period,11:57,3,2,0,11,57.0,1,2013-14
+2014-02-15,BU,Providence,,Taylor Holze,Sarah Lefort,Unassisted,3rd Period,15:40,4,2,1,15,40.0,2,2013-14
+2014-02-16,BU,Providence,PP,Sarah Lefort,Kaleigh Fratkin,Louise Warren,1st Period,9:50,1,0,0,9,50.0,1,2013-14
+2014-02-16,BU,Providence,,Jordan Juron,Taylor Holze,Sarah Bayersdorfer,2nd Period,8:44,2,1,0,8,44.0,1,2013-14
+2014-02-16,BU,Providence,PP,Louise Warren,Maddie Elia,Kaleigh Fratkin,2nd Period,13:21,3,1,1,13,21.0,2,2013-14
+2014-02-22,BU,Boston College,,Lillian Ribeirinha-Braga,Louise Warren,Dakota Woodworth,1st Period,3:56,1,0,0,3,56.0,1,2013-14
+2014-02-22,BU,Boston College,PP,Louise Warren,Kaleigh Fratkin,Lillian Ribeirinha-Braga,2nd Period,19:09,2,1,0,19,9.0,1,2013-14
+2014-02-23,BU,Boston College,,Maddie Elia,Sarah Lefort,Samantha Sutherland,2nd Period,9:52,1,3,-3,9,52.0,-2,2013-14
+2014-03-01,BU,Providence,,Louise Warren,Samantha Sutherland,Kaleigh Fratkin,2nd Period,9:06,1,1,-1,9,6.0,0,2013-14
+2014-03-01,BU,Providence,,Sarah Lefort,Kaleigh Fratkin,Lillian Ribeirinha-Braga,2nd Period,9:51,2,1,0,9,51.0,1,2013-14
+2014-03-01,BU,Providence,PP,Louise Warren,Maddie Elia,Sarah Lefort,3rd Period,5:08,3,2,0,5,8.0,1,2013-14
+2014-03-08,BU,Northeastern,PP,Sarah Lefort,Kaleigh Fratkin,Lillian Ribeirinha-Braga,2nd Period,5:57,1,0,0,5,57.0,1,2013-14
+2014-03-08,BU,Northeastern,PP,Rebecca Russo,Jordan Juron,Sarah Steele,2nd Period,8:38,2,0,1,8,38.0,2,2013-14
+2014-03-08,BU,Northeastern,,Maddie Elia,Kaleigh Fratkin,Rebecca Russo,2nd Period,18:54,3,1,1,18,54.0,2,2013-14
+2014-03-09,BU,Boston College,PP,Rebecca Russo,Shannon Stoneburgh,Unassisted,1st Period,8:04,1,1,-1,8,4.0,0,2013-14
+2014-03-09,BU,Boston College,PP,Louise Warren,Kaleigh Fratkin,Maddie Elia,3rd Period,2:50,2,2,-1,2,50.0,0,2013-14
+2014-03-09,BU,Boston College,,Maddie Elia,Rebecca Russo,Unassisted,3rd Period,8:12,3,2,0,8,12.0,1,2013-14
+2014-03-15,BU,Minnesota,,Sarah Lefort,Lillian Ribeirinha-Braga,Unassisted,1st Period,13:17,1,1,-1,13,17.0,0,2013-14
+2014-10-03,BU,St. Cloud State,PP,Sarah Lefort,Shannon Doyle,Samantha Sutherland,1st Period,9:06,1,0,0,9,6.0,1,2014-15
+2014-10-03,BU,St. Cloud State,PP,Maddie Elia,Sarah Lefort,Unassisted,3rd Period,2:30,2,1,0,2,30.0,1,2014-15
+2014-10-03,BU,St. Cloud State,,Rebecca Russo,Rebecca Leslie,Unassisted,3rd Period,15:51,3,2,0,15,51.0,1,2014-15
+2014-10-03,BU,St. Cloud State,,Marie-Philip Poulin,Sarah Lefort,Unassisted,3rd Period,16:17,4,2,1,16,17.0,2,2014-15
+2014-10-03,BU,St. Cloud State,PP,Victoria Bach,Maddie Elia,Unassisted,3rd Period,18:58,5,2,2,18,58.0,3,2014-15
+2014-10-04,BU,Minnesota,,Rebecca Leslie,Maddie Elia,Rebecca Russo,2nd Period,1:17,1,1,-1,1,17.0,0,2014-15
+2014-10-04,BU,Minnesota,,Rebecca Leslie,Rebecca Russo,Maddie Elia,2nd Period,14:50,2,4,-3,14,50.0,-2,2014-15
+2014-10-17,BU,Clarkson,,Dakota Woodworth,Victoria Bach,Kayla Tutino,2nd Period,8:48,1,0,0,8,48.0,1,2014-15
+2014-10-17,BU,Clarkson,,Marie-Philip Poulin,Sarah Lefort,Unassisted,2nd Period,10:15,2,0,1,10,15.0,2,2014-15
+2014-10-17,BU,Clarkson,,Sarah Lefort,Unassisted,Unassisted,3rd Period,2:49,3,1,1,2,49.0,2,2014-15
+2014-10-18,BU,Clarkson,,Marie-Philip Poulin,Sarah Lefort,Shannon Doyle,1st Period,0:50,1,0,0,0,50.0,1,2014-15
+2014-10-18,BU,Clarkson,,Rebecca Leslie,Rebecca Russo,Lillian Ribeirinha-Braga,1st Period,3:50,2,0,1,3,50.0,2,2014-15
+2014-10-18,BU,Clarkson,,Victoria Bach,Jordan Juron,Alexis Woloschuk,1st Period,18:47,3,0,2,18,47.0,3,2014-15
+2014-10-18,BU,Clarkson,,Jordan Juron,Marie-Philip Poulin,Samantha Sutherland,2nd Period,15:21,4,1,2,15,21.0,3,2014-15
+2014-10-18,BU,Clarkson,EN,Marie-Philip Poulin,Kayla Tutino,Sarah Lefort,3rd Period,18:50,5,2,2,18,50.0,3,2014-15
+2014-10-24,BU,Maine,,Marie-Philip Poulin,Sarah Lefort,Shannon Doyle,2nd Period,0:28,1,0,0,0,28.0,1,2014-15
+2014-10-24,BU,Maine,,Victoria Bach,Lillian Ribeirinha-Braga,Sarah Steele,2nd Period,12:54,2,0,1,12,54.0,2,2014-15
+2014-10-24,BU,Maine,,Sarah Lefort,Unassisted,Unassisted,3rd Period,8:30,3,0,2,8,30.0,3,2014-15
+2014-10-25,BU,Maine,,Rebecca Russo,Rebecca Leslie,Unassisted,1st Period,3:55,1,0,0,3,55.0,1,2014-15
+2014-10-25,BU,Maine,,Sarah Bayersdorfer,Shannon Doyle,Natalie Flynn,3rd Period,19:58,2,4,-3,19,58.0,-2,2014-15
+2014-10-28,BU,Northeastern,PP,Shannon Doyle,Kayla Tutino,Samantha Sutherland,1st Period,13:29,1,1,-1,13,29.0,0,2014-15
+2014-10-28,BU,Northeastern,,Rebecca Russo,Rebecca Leslie,Maddie Elia,1st Period,17:23,2,1,0,17,23.0,1,2014-15
+2014-10-28,BU,Northeastern,,Rebecca Russo,Rebecca Leslie,Caroline Campbell,2nd Period,10:54,3,2,0,10,54.0,1,2014-15
+2014-11-02,BU,New Hampshire,,Rebecca Leslie,Sarah Steele,Lillian Ribeirinha-Braga,2nd Period,4:03,1,0,0,4,3.0,1,2014-15
+2014-11-02,BU,New Hampshire,,Sarah Lefort,Kayla Tutino,Victoria Bach,3rd Period,13:05,2,2,-1,13,5.0,0,2014-15
+2014-11-02,BU,New Hampshire,,Rebecca Russo,Shannon Stoneburgh,Shannon Doyle,3rd Period,15:38,3,2,0,15,38.0,1,2014-15
+2014-11-02,BU,New Hampshire,EN,Sarah Lefort,Kayla Tutino,Unassisted,3rd Period,18:41,4,2,1,18,41.0,2,2014-15
+2014-11-08,BU,Yale,SH,Rebecca Russo,Rebecca Leslie,Unassisted,1st Period,8:33,1,0,0,8,33.0,1,2014-15
+2014-11-08,BU,Yale,SH,Kayla Tutino,Sarah Lefort,Unassisted,2nd Period,18:41,2,2,-1,18,41.0,0,2014-15
+2014-11-08,BU,Yale,PP,Victoria Bach,Shannon Doyle,Kayla Tutino,3rd Period,1:39,3,3,-1,1,39.0,0,2014-15
+2014-11-08,BU,Yale,PP,Sarah Lefort,Shannon Doyle,Maddie Elia,3rd Period,16:02,4,3,0,16,2.0,1,2014-15
+2014-11-11,BU,Northeastern,,Sarah Lefort,Alexis Woloschuk,Jordan Juron,1st Period,13:22,1,1,-1,13,22.0,0,2014-15
+2014-11-11,BU,Northeastern,,Kayla Tutino,Shannon Doyle,Dakota Woodworth,3rd Period,7:28,2,5,-4,7,28.0,-3,2014-15
+2014-11-11,BU,Northeastern,PP,Victoria Bach,Kayla Tutino,Samantha Sutherland,3rd Period,12:14,3,5,-3,12,14.0,-2,2014-15
+2014-11-15,BU,Connecticut,,Maddie Elia,Rebecca Leslie,Unassisted,2nd Period,8:24,1,0,0,8,24.0,1,2014-15
+2014-11-15,BU,Connecticut,,Victoria Bach,Kayla Tutino,Unassisted,2nd Period,19:34,2,0,1,19,34.0,2,2014-15
+2014-11-15,BU,Connecticut,,Maddie Elia,Rebecca Russo,Unassisted,3rd Period,19:30,3,2,0,19,30.0,1,2014-15
+2014-11-16,BU,Connecticut,,Marie-Philip Poulin,Sarah Lefort,Shannon Doyle,1st Period,2:51,1,0,0,2,51.0,1,2014-15
+2014-11-16,BU,Connecticut,PP,Sarah Steele,Rebecca Russo,Lillian Ribeirinha-Braga,1st Period,9:56,2,0,1,9,56.0,2,2014-15
+2014-11-16,BU,Connecticut,SH,Marie-Philip Poulin,Sarah Lefort,Unassisted,1st Period,17:18,3,1,1,17,18.0,2,2014-15
+2014-11-16,BU,Connecticut,,Victoria Bach,Shannon Stoneburgh,Unassisted,2nd Period,4:50,4,1,2,4,50.0,3,2014-15
+2014-11-21,BU,Harvard,PP,Samantha Sutherland,Victoria Bach,Sarah Lefort,2nd Period,10:27,1,1,-1,10,27.0,0,2014-15
+2014-11-23,BU,New Hampshire,,Victoria Bach,Dakota Woodworth,Shannon Stoneburgh,1st Period,3:54,1,0,0,3,54.0,1,2014-15
+2014-11-23,BU,New Hampshire,PP,Sarah Lefort,Kayla Tutino,Marie-Philip Poulin,2nd Period,4:11,2,0,1,4,11.0,2,2014-15
+2014-11-23,BU,New Hampshire,5x3,Caroline Campbell,Rebecca Russo,Lillian Ribeirinha-Braga,3rd Period,8:16,3,1,1,8,16.0,2,2014-15
+2014-11-23,BU,New Hampshire,PP,Sarah Lefort,Shannon Doyle,Marie-Philip Poulin,3rd Period,8:37,4,1,2,8,37.0,3,2014-15
+2014-11-23,BU,New Hampshire,PP,Victoria Bach,Marie-Philip Poulin,Sarah Lefort,3rd Period,13:44,5,2,2,13,44.0,3,2014-15
+2014-11-23,BU,New Hampshire,PP,Sarah Lefort,Samantha Sutherland,Kayla Tutino,3rd Period,16:36,6,2,3,16,36.0,4,2014-15
+2014-11-29,BU,Dartmouth,,Marie-Philip Poulin,Sarah Lefort,Lillian Ribeirinha-Braga,1st Period,5:36,1,0,0,5,36.0,1,2014-15
+2014-11-29,BU,Dartmouth,,Lillian Ribeirinha-Braga,Rebecca Leslie,Unassisted,1st Period,10:04,2,0,1,10,4.0,2,2014-15
+2014-11-29,BU,Dartmouth,,Sarah Lefort,Marie-Philip Poulin,Samantha Sutherland,2nd Period,11:19,3,0,2,11,19.0,3,2014-15
+2014-11-29,BU,Dartmouth,PP,Marie-Philip Poulin,Victoria Bach,Kayla Tutino,3rd Period,1:09,4,0,3,1,9.0,4,2014-15
+2014-12-06,BU,Vermont,,Sarah Lefort,Unassisted,Unassisted,1st Period,16:46,1,0,0,16,46.0,1,2014-15
+2014-12-06,BU,Vermont,,Rebecca Leslie,Lillian Ribeirinha-Braga,Sarah Steele,2nd Period,1:04,2,0,1,1,4.0,2,2014-15
+2014-12-06,BU,Vermont,,Samantha Sutherland,Marie-Philip Poulin,Alexis Woloschuk,2nd Period,19:59.4,3,1,1,19,59.4,2,2014-15
+2014-12-06,BU,Vermont,SH,Sarah Lefort,Unassisted,Unassisted,3rd Period,2:55,4,1,2,2,55.0,3,2014-15
+2014-12-08,BU,Providence,,Shannon Stoneburgh,Kayla Tutino,Dakota Woodworth,1st Period,2:37,1,0,0,2,37.0,1,2014-15
+2014-12-08,BU,Providence,3x3,Shannon Doyle,Rebecca Russo,Maddie Elia,2nd Period,18:49,2,1,0,18,49.0,1,2014-15
+2014-12-08,BU,Providence,"SH, EN",Marie-Philip Poulin,Erin O'Neil,Unassisted,3rd Period,19:56,3,1,1,19,56.0,2,2014-15
+2015-01-07,BU,Boston College,,Marie-Philip Poulin,Unassisted,Unassisted,1st Period,6:13,1,0,0,6,13.0,1,2014-15
+2015-01-07,BU,Boston College,,Kayla Tutino,Unassisted,Unassisted,1st Period,6:26,2,0,1,6,26.0,2,2014-15
+2015-01-07,BU,Boston College,,Sarah Lefort,Marie-Philip Poulin,Unassisted,1st Period,19:31,3,2,0,19,31.0,1,2014-15
+2015-01-10,BU,Maine,,Victoria Bach,Rebecca Leslie,Shannon Doyle,1st Period,10:24,1,0,0,10,24.0,1,2014-15
+2015-01-10,BU,Maine,,Dakota Woodworth,Shannon Doyle,Victoria Bach,2nd Period,2:33,2,0,1,2,33.0,2,2014-15
+2015-01-10,BU,Maine,,Rebecca Leslie,Victoria Bach,Unassisted,2nd Period,4:43,3,0,2,4,43.0,3,2014-15
+2015-01-10,BU,Maine,,Marie-Philip Poulin,Sarah Lefort,Sarah Bayersdorfer,2nd Period,13:03,4,1,2,13,3.0,3,2014-15
+2015-01-10,BU,Maine,PP,Rebecca Russo,Lillian Ribeirinha-Braga,Maddie Elia,3rd Period,13:58,5,3,1,13,58.0,2,2014-15
+2015-01-13,BU,Cornell,,Kayla Tutino,Caroline Campbell,Sarah Lefort,3rd Period,15:40,1,6,-6,15,40.0,-5,2014-15
+2015-01-13,BU,Cornell,,Marie-Philip Poulin,Unassisted,Unassisted,3rd Period,17:56,2,6,-5,17,56.0,-4,2014-15
+2015-01-18,BU,Northeastern,,Kayla Tutino,Shannon Stoneburgh,Shannon Doyle,1st Period,19:25,1,1,-1,19,25.0,0,2014-15
+2015-01-18,BU,Northeastern,,Marie-Philip Poulin,Kayla Tutino,Shannon Doyle,2nd Period,3:04,2,1,0,3,4.0,1,2014-15
+2015-01-18,BU,Northeastern,,Marie-Philip Poulin,Unassisted,Unassisted,2nd Period,8:33,3,1,1,8,33.0,2,2014-15
+2015-01-18,BU,Northeastern,SH,Rebecca Leslie,Lillian Ribeirinha-Braga,Unassisted,2nd Period,12:13,4,1,2,12,13.0,3,2014-15
+2015-01-21,BU,Quinnipiac,,Victoria Bach,Rebecca Leslie,Jordan Juron,1st Period,5:26,1,0,0,5,26.0,1,2014-15
+2015-01-21,BU,Quinnipiac,"4x3, PP",Kayla Tutino,Marie-Philip Poulin,Shannon Doyle,1st Period,13:27,2,0,1,13,27.0,2,2014-15
+2015-01-21,BU,Quinnipiac,,Sarah Lefort,Marie-Philip Poulin,Kayla Tutino,3rd Period,0:37,3,0,2,0,37.0,3,2014-15
+2015-01-21,BU,Quinnipiac,,Marie-Philip Poulin,Kayla Tutino,Alexis Woloschuk,3rd Period,8:28,4,1,2,8,28.0,3,2014-15
+2015-01-25,BU,Vermont,,Lillian Ribeirinha-Braga,Samantha Sutherland,Maddie Elia,1st Period,0:55,1,0,0,0,55.0,1,2014-15
+2015-01-25,BU,Vermont,,Victoria Bach,Lillian Ribeirinha-Braga,Shannon Doyle,1st Period,8:04,2,0,1,8,4.0,2,2014-15
+2015-01-25,BU,Vermont,,Diana Bennett,Kayla Tutino,Sarah Lefort,1st Period,8:47,3,0,2,8,47.0,3,2014-15
+2015-01-25,BU,Vermont,,Rebecca Leslie,Alexis Woloschuk,Unassisted,1st Period,10:54,4,0,3,10,54.0,4,2014-15
+2015-01-25,BU,Vermont,PP,Rebecca Russo,Maddie Elia,Marie-Philip Poulin,1st Period,15:09,5,0,4,15,9.0,5,2014-15
+2015-01-25,BU,Vermont,,Victoria Bach,Rebecca Leslie,Unassisted,2nd Period,2:28,6,0,5,2,28.0,6,2014-15
+2015-01-25,BU,Vermont,,Marie-Philip Poulin,Victoria Hanson,Unassisted,2nd Period,5:08,7,0,6,5,8.0,7,2014-15
+2015-01-25,BU,Vermont,,Samantha Sutherland,Unassisted,Unassisted,2nd Period,18:47,8,0,7,18,47.0,8,2014-15
+2015-01-25,BU,Vermont,,Rebecca Leslie,Victoria Bach,Unassisted,3rd Period,7:30,9,1,7,7,30.0,8,2014-15
+2015-01-31,BU,Connecticut,,Samantha Sutherland,Rebecca Russo,Lillian Ribeirinha-Braga,1st Period,12:43,1,1,-1,12,43.0,0,2014-15
+2015-01-31,BU,Connecticut,,Shannon Doyle,Kayla Tutino,Marie-Philip Poulin,2nd Period,10:32,2,2,-1,10,32.0,0,2014-15
+2015-01-31,BU,Connecticut,PP,Victoria Bach,Marie-Philip Poulin,Sarah Lefort,2nd Period,19:16,3,3,-1,19,16.0,0,2014-15
+2015-01-31,BU,Connecticut,,Kayla Tutino,Marie-Philip Poulin,Sarah Lefort,3rd Period,14:03,4,3,0,14,3.0,1,2014-15
+2015-01-31,BU,Connecticut,EN,Rebecca Russo,Shannon Doyle,Shannon Stoneburgh,3rd Period,19:39,5,3,1,19,39.0,2,2014-15
+2015-02-03,BU,Harvard,,Sarah Lefort,Marie-Philip Poulin,Unassisted,2nd Period,12:40,1,5,-5,12,40.0,-4,2014-15
+2015-02-03,BU,Harvard,PP,Victoria Bach,Sarah Lefort,Marie-Philip Poulin,3rd Period,11:40,2,8,-7,11,40.0,-6,2014-15
+2015-02-07,BU,New Hampshire,,Marie-Philip Poulin,Rebecca Leslie,Unassisted,1st Period,8:19,1,0,0,8,19.0,1,2014-15
+2015-02-07,BU,New Hampshire,,Dakota Woodworth,Samantha Sutherland,Diana Bennett,1st Period,9:43,2,0,1,9,43.0,2,2014-15
+2015-02-07,BU,New Hampshire,,Victoria Bach,Rebecca Leslie,Maddie Elia,1st Period,11:22,3,1,1,11,22.0,2,2014-15
+2015-02-07,BU,New Hampshire,,Maddie Elia,Rebecca Leslie,Victoria Bach,3rd Period,5:22,4,2,1,5,22.0,2,2014-15
+2015-02-10,BU,Northeastern,,Marie-Philip Poulin,Unassisted,Unassisted,1st Period,2:38,1,0,0,2,38.0,1,2014-15
+2015-02-10,BU,Northeastern,,Kayla Tutino,Sarah Lefort,Shannon Stoneburgh,1st Period,19:39,2,0,1,19,39.0,2,2014-15
+2015-02-10,BU,Northeastern,EN,Marie-Philip Poulin,Unassisted,Unassisted,3rd Period,19:10,3,1,1,19,10.0,2,2014-15
+2015-02-14,BU,Providence,,Rebecca Leslie,Alexis Woloschuk,Unassisted,1st Period,7:08,1,0,0,7,8.0,1,2014-15
+2015-02-14,BU,Providence,,Victoria Bach,Rebecca Leslie,Unassisted,1st Period,10:32,2,0,1,10,32.0,2,2014-15
+2015-02-14,BU,Providence,,Sarah Lefort,Unassisted,Unassisted,2nd Period,3:15,3,0,2,3,15.0,3,2014-15
+2015-02-14,BU,Providence,,Sarah Lefort,Marie-Philip Poulin,Kayla Tutino,3rd Period,2:41,4,1,2,2,41.0,3,2014-15
+2015-02-14,BU,Providence,PP,Sarah Lefort,Victoria Bach,Marie-Philip Poulin,3rd Period,4:04,5,1,3,4,4.0,4,2014-15
+2015-02-14,BU,Providence,,Marie-Philip Poulin,Sarah Lefort,Erin O'Neil,3rd Period,5:50,6,1,4,5,50.0,5,2014-15
+2015-02-16,BU,Providence,,Sarah Lefort,Kayla Tutino,Jordan Juron,1st Period,5:48,1,0,0,5,48.0,1,2014-15
+2015-02-16,BU,Providence,PP,Sarah Lefort,Marie-Philip Poulin,Shannon Doyle,1st Period,16:16,2,0,1,16,16.0,2,2014-15
+2015-02-16,BU,Providence,EA,Samantha Sutherland,Shannon Stoneburgh,Dakota Woodworth,2nd Period,3:23,3,0,2,3,23.0,3,2014-15
+2015-02-16,BU,Providence,PP,Kayla Tutino,Sarah Lefort,Marie-Philip Poulin,2nd Period,19:52,4,0,3,19,52.0,4,2014-15
+2015-02-16,BU,Providence,EA,Sarah Lefort,Marie-Philip Poulin,Samantha Sutherland,3rd Period,7:29,5,0,4,7,29.0,5,2014-15
+2015-02-16,BU,Providence,,Victoria Bach,Lillian Ribeirinha-Braga,Marie-Philip Poulin,3rd Period,13:50,6,0,5,13,50.0,6,2014-15
+2015-02-16,BU,Providence,,Rebecca Leslie,Shannon Stoneburgh,Kayla Tutino,3rd Period,16:34,7,1,5,16,34.0,6,2014-15
+2015-02-21,BU,Boston College,PP,Samantha Sutherland,Sarah Steele,Lillian Ribeirinha-Braga,1st Period,18:44,1,0,0,18,44.0,1,2014-15
+2015-02-21,BU,Boston College,,Maddie Elia,Alexis Woloschuk,Samantha Sutherland,3rd Period,13:01,2,1,0,13,1.0,1,2014-15
+2015-02-27,BU,Vermont,,Kayla Tutino,Victoria Bach,Marie-Philip Poulin,1st Period,4:23,1,0,0,4,23.0,1,2014-15
+2015-02-27,BU,Vermont,,Kayla Tutino,Sarah Lefort,Marie-Philip Poulin,1st Period,6:55,2,0,1,6,55.0,2,2014-15
+2015-02-27,BU,Vermont,,Rebecca Leslie,Victoria Bach,Maddie Elia,1st Period,10:07,3,0,2,10,7.0,3,2014-15
+2015-02-27,BU,Vermont,PP,Kayla Tutino,Shannon Doyle,Marie-Philip Poulin,1st Period,15:19,4,0,3,15,19.0,4,2014-15
+2015-02-27,BU,Vermont,,Rebecca Leslie,Maddie Elia,Victoria Hanson,1st Period,16:06,5,0,4,16,6.0,5,2014-15
+2015-02-27,BU,Vermont,,Kayla Tutino,Marie-Philip Poulin,Unassisted,2nd Period,3:23,6,1,4,3,23.0,5,2014-15
+2015-02-27,BU,Vermont,,Rebecca Russo,Shannon Doyle,Unassisted,2nd Period,15:31,7,1,5,15,31.0,6,2014-15
+2015-02-27,BU,Vermont,,Dakota Woodworth,Victoria Bach,Rebecca Russo,3rd Period,19:11,8,1,6,19,11.0,7,2014-15
+2015-02-28,BU,Vermont,,Victoria Bach,Unassisted,Unassisted,1st Period,1:08,1,0,0,1,8.0,1,2014-15
+2015-02-28,BU,Vermont,,Marie-Philip Poulin,Sarah Lefort,Kayla Tutino,1st Period,2:28,2,0,1,2,28.0,2,2014-15
+2015-02-28,BU,Vermont,PP,Kayla Tutino,Victoria Bach,Sarah Lefort,1st Period,15:17,3,0,2,15,17.0,3,2014-15
+2015-02-28,BU,Vermont,,Rebecca Leslie,Victoria Bach,Unassisted,2nd Period,1:17,4,0,3,1,17.0,4,2014-15
+2015-02-28,BU,Vermont,,Samantha Sutherland,Rebecca Russo,Unassisted,3rd Period,9:54,5,1,3,9,54.0,4,2014-15
+2015-02-28,BU,Vermont,3x3,Samantha Sutherland,Rebecca Russo,Shannon Doyle,3rd Period,13:16,6,1,4,13,16.0,5,2014-15
+2015-02-28,BU,Vermont,"4x3, PP",Shannon Stoneburgh,Shannon Doyle,Rebecca Leslie,3rd Period,19:02,7,2,4,19,2.0,5,2014-15
+2015-03-07,BU,Northeastern,,Marie-Philip Poulin,Kayla Tutino,Lillian Ribeirinha-Braga,1st Period,15:15,1,0,0,15,15.0,1,2014-15
+2015-03-07,BU,Northeastern,,Marie-Philip Poulin,Sarah Lefort,Shannon Doyle,2nd Period,5:08,2,0,1,5,8.0,2,2014-15
+2015-03-07,BU,Northeastern,,Shannon Doyle,Samantha Sutherland,Unassisted,2nd Period,19:03,3,0,2,19,3.0,3,2014-15
+2015-03-07,BU,Northeastern,,Maddie Elia,Shannon Stoneburgh,Rebecca Leslie,2nd Period,19:48,4,0,3,19,48.0,4,2014-15
+2015-03-07,BU,Northeastern,,Marie-Philip Poulin,Sarah Lefort,Shannon Doyle,3rd Period,7:52,5,0,4,7,52.0,5,2014-15
+2015-03-07,BU,Northeastern,,Natalie Flynn,Sarah Bayersdorfer,Marie-Philip Poulin,3rd Period,14:18,6,1,4,14,18.0,5,2014-15
+2015-03-08,BU,Boston College,,Marie-Philip Poulin,Sarah Lefort,Lillian Ribeirinha-Braga,1st Period,4:56,1,0,0,4,56.0,1,2014-15
+2015-03-08,BU,Boston College,,Marie-Philip Poulin,Kayla Tutino,Unassisted,3rd Period,2:40,2,1,0,2,40.0,1,2014-15
+2015-03-08,BU,Boston College,PP,Maddie Elia,Sarah Steele,Shannon Doyle,3rd Period,12:31,3,1,1,12,31.0,2,2014-15
+2015-03-08,BU,Boston College,EN,Sarah Lefort,Marie-Philip Poulin,Unassisted,3rd Period,18:36,4,1,2,18,36.0,3,2014-15
+2015-03-14,BU,Wisconsin,,Victoria Bach,Rebecca Leslie,Unassisted,3rd Period,17:07,1,5,-5,17,7.0,-4,2014-15
+2015-10-02,BU,Connecticut,,Sammy Davis,Lillian Ribeirinha-Braga,Unassisted,3rd Period,8:53,1,1,-1,8,53.0,0,2015-16
+2015-10-02,BU,Connecticut,,Rebecca Russo,Rebecca Leslie,Victoria Bach,3rd Period,19:59.7,2,1,0,19,59.7,1,2015-16
+2015-10-04,BU,Maine,,Sammy Davis,Sarah Steele,Samantha Sutherland,2nd Period,2:55,1,2,-2,2,55.0,-1,2015-16
+2015-10-04,BU,Maine,,Rebecca Russo,Connor Galway,Savannah Newton,2nd Period,10:32,2,2,-1,10,32.0,0,2015-16
+2015-10-04,BU,Maine,PP,Sammy Davis,Rebecca Leslie,Rebecca Russo,3rd Period,16:56,3,2,0,16,56.0,1,2015-16
+2015-10-04,BU,Maine,"SH, EN",Rebecca Leslie,Victoria Bach,Unassisted,3rd Period,18:26,4,2,1,18,26.0,2,2015-16
+2015-10-09,BU,Penn State,,Sarah Lefort,Unassisted,Unassisted,1st Period,15:44,1,3,-3,15,44.0,-2,2015-16
+2015-10-09,BU,Penn State,,Victoria Bach,Rebecca Leslie,Unassisted,2nd Period,14:14,2,3,-2,14,14.0,-1,2015-16
+2015-10-09,BU,Penn State,,Rebecca Russo,Victoria Bach,Rebecca Leslie,3rd Period,15:11,3,5,-3,15,11.0,-2,2015-16
+2015-10-10,BU,Penn State,,Samantha Sutherland,Rebecca Leslie,Lillian Ribeirinha-Braga,2nd Period,15:13,1,1,-1,15,13.0,0,2015-16
+2015-10-10,BU,Penn State,,Rebecca Leslie,Rebecca Russo,Victoria Bach,2nd Period,16:37,2,1,0,16,37.0,1,2015-16
+2015-10-10,BU,Penn State,PP,Sammy Davis,Rebecca Leslie,Rebecca Russo,3rd Period,15:31,3,1,1,15,31.0,2,2015-16
+2015-10-16,BU,Clarkson,PP,Kayla Tutino,Sarah Lefort,Victoria Bach,1st Period,18:16,1,0,0,18,16.0,1,2015-16
+2015-10-16,BU,Clarkson,3x3,Maddie Elia,Sarah Lefort,Victoria Hanson,2nd Period,0:37,2,0,1,0,37.0,2,2015-16
+2015-10-17,BU,Clarkson,,Sammy Davis,Dakota Woodworth,Unassisted,2nd Period,18:34,1,2,-2,18,34.0,-1,2015-16
+2015-10-24,BU,Northeastern,,Jordan Juron,Mary Grace Kelley,Maddie Elia,3rd Period,13:06,1,7,-7,13,6.0,-6,2015-16
+2015-10-25,BU,Vermont,,Victoria Bach,Sarah Lefort,Kayla Tutino,1st Period,1:14,1,0,0,1,14.0,1,2015-16
+2015-10-25,BU,Vermont,,Sarah Steele,Alexis Woloschuk,Sammy Davis,1st Period,2:13,2,0,1,2,13.0,2,2015-16
+2015-10-25,BU,Vermont,,Rebecca Russo,Maddie Elia,Sarah Steele,1st Period,17:08,3,0,2,17,8.0,3,2015-16
+2015-10-25,BU,Vermont,,Maddie Elia,Rebecca Russo,Rebecca Leslie,2nd Period,19:03,4,1,2,19,3.0,3,2015-16
+2015-10-25,BU,Vermont,,Maddie Elia,Alexis Crossley,Sammy Davis,3rd Period,10:21,5,1,3,10,21.0,4,2015-16
+2015-11-01,BU,New Hampshire,,Kayla Tutino,Lillian Ribeirinha-Braga,Victoria Bach,2nd Period,5:05,1,2,-2,5,5.0,-1,2015-16
+2015-11-01,BU,New Hampshire,,Sammy Davis,Sarah Steele,Lillian Ribeirinha-Braga,2nd Period,12:37,2,3,-2,12,37.0,-1,2015-16
+2015-11-01,BU,New Hampshire,,Sammy Davis,Kayla Tutino,Victoria Bach,3rd Period,3:46,3,3,-1,3,46.0,0,2015-16
+2015-11-01,BU,New Hampshire,,Victoria Bach,Lillian Ribeirinha-Braga,Kayla Tutino,3rd Period,6:36,4,3,0,6,36.0,1,2015-16
+2015-11-01,BU,New Hampshire,,Maddie Elia,Rebecca Leslie,Rebecca Russo,3rd Period,11:07,5,3,1,11,7.0,2,2015-16
+2015-11-03,BU,Yale,,Sarah Steele,Rebecca Russo,Alexis Woloschuk,1st Period,13:44,1,0,0,13,44.0,1,2015-16
+2015-11-03,BU,Yale,,Maddie Elia,Rebecca Leslie,Rebecca Russo,1st Period,16:55,2,0,1,16,55.0,2,2015-16
+2015-11-03,BU,Yale,,Jordan Juron,Samantha Sutherland,Dakota Woodworth,2nd Period,18:00,3,1,1,18,0.0,2,2015-16
+2015-11-03,BU,Yale,SH,Rebecca Leslie,Rebecca Russo,Unassisted,2nd Period,18:55,4,1,2,18,55.0,3,2015-16
+2015-11-03,BU,Yale,,Maddie Elia,Rebecca Leslie,Rebecca Russo,3rd Period,5:37,5,1,3,5,37.0,4,2015-16
+2015-11-03,BU,Yale,,Rebecca Leslie,Maddie Elia,Alexis Woloschuk,3rd Period,7:47,6,1,4,7,47.0,5,2015-16
+2015-11-03,BU,Yale,,Maddie Elia,Rebecca Russo,Rebecca Leslie,3rd Period,8:25,7,1,5,8,25.0,6,2015-16
+2015-11-07,BU,Boston College,PP,Sammy Davis,Jordan Juron,Samantha Sutherland,1st Period,6:03,1,0,0,6,3.0,1,2015-16
+2015-11-10,BU,Boston College,5x3,Sarah Steele,Sammy Davis,Rebecca Leslie,2nd Period,11:30,1,2,-2,11,30.0,-1,2015-16
+2015-11-10,BU,Boston College,,Maddie Elia,Rebecca Russo,Unassisted,2nd Period,16:59,2,2,-1,16,59.0,0,2015-16
+2015-11-10,BU,Boston College,,Rebecca Russo,Rebecca Leslie,Unassisted,3rd Period,6:39,3,3,-1,6,39.0,0,2015-16
+2015-11-14,BU,Maine,,Sarah Lefort,Kayla Tutino,Unassisted,1st Period,0:57,1,0,0,0,57.0,1,2015-16
+2015-11-14,BU,Maine,,Victoria Bach,Unassisted,Unassisted,1st Period,18:58,2,1,0,18,58.0,1,2015-16
+2015-11-14,BU,Maine,PP,Sarah Lefort,Victoria Bach,Rebecca Leslie,2nd Period,18:05,3,3,-1,18,5.0,0,2015-16
+2015-11-14,BU,Maine,,Maddie Elia,Rebecca Leslie,Rebecca Russo,3rd Period,11:56,4,3,0,11,56.0,1,2015-16
+2015-11-14,BU,Maine,EN,Maddie Elia,Unassisted,Unassisted,3rd Period,19:23,5,3,1,19,23.0,2,2015-16
+2015-11-15,BU,Maine,,Dakota Woodworth,Alexis Woloschuk,Sammy Davis,1st Period,13:09,1,0,0,13,9.0,1,2015-16
+2015-11-15,BU,Maine,,Samantha Sutherland,Sammy Davis,Dakota Woodworth,2nd Period,7:05,2,0,1,7,5.0,2,2015-16
+2015-11-15,BU,Maine,PP,Sarah Lefort,Rebecca Leslie,Kayla Tutino,3rd Period,9:30,3,1,1,9,30.0,2,2015-16
+2015-11-20,BU,Merrimack,,Dakota Woodworth,Sarah Steele,Samantha Sutherland,1st Period,10:57,1,0,0,10,57.0,1,2015-16
+2015-11-20,BU,Merrimack,PP,Victoria Bach,Kayla Tutino,Sarah Lefort,1st Period,13:42,2,0,1,13,42.0,2,2015-16
+2015-11-20,BU,Merrimack,,Victoria Bach,Sarah Lefort,Alexis Crossley,2nd Period,12:15,3,0,2,12,15.0,3,2015-16
+2015-11-20,BU,Merrimack,PP,Rebecca Russo,Maddie Elia,Samantha Sutherland,2nd Period,14:25,4,0,3,14,25.0,4,2015-16
+2015-11-20,BU,Merrimack,,Victoria Bach,Sarah Lefort,Kayla Tutino,3rd Period,0:21,5,0,4,0,21.0,5,2015-16
+2015-11-21,BU,Merrimack,,Rebecca Russo,Rebecca Leslie,Unassisted,1st Period,0:12,1,0,0,0,12.0,1,2015-16
+2015-11-21,BU,Merrimack,EA,Samantha Sutherland,Sammy Davis,Sarah Lefort,1st Period,6:19,2,0,1,6,19.0,2,2015-16
+2015-11-21,BU,Merrimack,PP,Alexis Crossley,Sarah Lefort,Kayla Tutino,1st Period,7:36,3,0,2,7,36.0,3,2015-16
+2015-11-21,BU,Merrimack,,Kayla Tutino,Victoria Bach,Sarah Lefort,1st Period,15:52,4,0,3,15,52.0,4,2015-16
+2015-11-28,BU,Cornell,PP,Sarah Lefort,Rebecca Leslie,Alexis Crossley,1st Period,8:26,1,1,-1,8,26.0,0,2015-16
+2015-11-28,BU,Cornell,,Lillian Ribeirinha-Braga,Alexis Woloschuk,Dakota Woodworth,1st Period,9:14,2,1,0,9,14.0,1,2015-16
+2015-11-29,BU,Ohio State,PP,Kayla Tutino,Victoria Bach,Sarah Lefort,1st Period,3:58,1,0,0,3,58.0,1,2015-16
+2015-11-29,BU,Ohio State,,Rebecca Leslie,Jordan Juron,Unassisted,1st Period,19:59,2,0,1,19,59.0,2,2015-16
+2015-11-29,BU,Ohio State,PP,Sarah Lefort,Victoria Bach,Rebecca Leslie,2nd Period,16:21,3,0,2,16,21.0,3,2015-16
+2015-11-29,BU,Ohio State,,Victoria Bach,Lillian Ribeirinha-Braga,Unassisted,3rd Period,1:44,4,1,2,1,44.0,3,2015-16
+2015-11-29,BU,Ohio State,PP,Victoria Bach,Alexis Crossley,Kayla Tutino,3rd Period,10:33,5,3,1,10,33.0,2,2015-16
+2015-12-05,BU,Connecticut,,Victoria Bach,Alexis Crossley,Sarah Lefort,1st Period,12:26,1,0,0,12,26.0,1,2015-16
+2015-12-05,BU,Connecticut,SH,Rebecca Russo,Rebecca Leslie,Unassisted,1st Period,15:51,2,0,1,15,51.0,2,2015-16
+2015-12-05,BU,Connecticut,,Rebecca Russo,Maddie Elia,Rebecca Leslie,1st Period,18:50,3,0,2,18,50.0,3,2015-16
+2015-12-05,BU,Connecticut,,Samantha Sutherland,Jordan Juron,Alexis Woloschuk,2nd Period,15:13,4,1,2,15,13.0,3,2015-16
+2015-12-06,BU,Connecticut,,Kayla Tutino,Sarah Lefort,Victoria Bach,1st Period,0:37,1,0,0,0,37.0,1,2015-16
+2015-12-06,BU,Connecticut,SH,Sarah Lefort,Unassisted,Unassisted,1st Period,13:35,2,1,0,13,35.0,1,2015-16
+2015-12-06,BU,Connecticut,,Victoria Bach,Sarah Lefort,Unassisted,2nd Period,0:35,3,1,1,0,35.0,2,2015-16
+2015-12-06,BU,Connecticut,,Sarah Lefort,Victoria Bach,Kayla Tutino,3rd Period,14:20,4,3,0,14,20.0,1,2015-16
+2015-12-09,BU,Providence,,Jordan Juron,Samantha Sutherland,Sammy Davis,1st Period,16:22,1,0,0,16,22.0,1,2015-16
+2015-12-09,BU,Providence,PP,Sarah Lefort,Victoria Bach,Kayla Tutino,2nd Period,3:05,2,0,1,3,5.0,2,2015-16
+2015-12-09,BU,Providence,,Victoria Bach,Kayla Tutino,Alexis Crossley,2nd Period,11:35,3,0,2,11,35.0,3,2015-16
+2015-12-09,BU,Providence,PP,Victoria Bach,Rebecca Leslie,Alexis Crossley,3rd Period,2:37,4,0,3,2,37.0,4,2015-16
+2015-12-09,BU,Providence,,Sarah Lefort,Unassisted,Unassisted,3rd Period,17:31,5,0,4,17,31.0,5,2015-16
+2015-12-09,BU,Providence,,Dakota Woodworth,Samantha Sutherland,Alexis Woloschuk,3rd Period,17:49,6,0,5,17,49.0,6,2015-16
+2016-01-09,BU,Boston College,,Kayla Tutino,Sarah Lefort,Unassisted,1st Period,8:13,1,1,-1,8,13.0,0,2015-16
+2016-01-09,BU,Boston College,,Dakota Woodworth,Sarah Lefort,Samantha Sutherland,1st Period,19:32,2,2,-1,19,32.0,0,2015-16
+2016-01-09,BU,Boston College,SH,Rebecca Russo,Rebecca Leslie,Lillian Ribeirinha-Braga,2nd Period,1:05,3,2,0,1,5.0,1,2015-16
+2016-01-16,BU,Vermont,,Rebecca Leslie,Unassisted,Unassisted,1st Period,1:02,1,0,0,1,2.0,1,2015-16
+2016-01-16,BU,Vermont,,Samantha Sutherland,Alexis Woloschuk,Sammy Davis,1st Period,17:24,2,2,-1,17,24.0,0,2015-16
+2016-01-16,BU,Vermont,PP,Victoria Bach,Sarah Lefort,Alexis Crossley,2nd Period,0:34,3,2,0,0,34.0,1,2015-16
+2016-01-17,BU,Vermont,,Sammy Davis,Lillian Ribeirinha-Braga,Samantha Sutherland,1st Period,2:16,1,0,0,2,16.0,1,2015-16
+2016-01-17,BU,Vermont,,Sammy Davis,Lillian Ribeirinha-Braga,Samantha Sutherland,1st Period,14:50,2,0,1,14,50.0,2,2015-16
+2016-01-17,BU,Vermont,,Samantha Sutherland,Sammy Davis,Alexis Woloschuk,2nd Period,3:17,3,0,2,3,17.0,3,2015-16
+2016-01-17,BU,Vermont,,Alexis Crossley,Rebecca Russo,Maddie Elia,3rd Period,4:18,4,2,1,4,18.0,2,2015-16
+2016-01-17,BU,Vermont,,Sammy Davis,Savannah Newton,Unassisted,3rd Period,4:44,5,2,2,4,44.0,3,2015-16
+2016-01-17,BU,Vermont,,Dakota Woodworth,Jordan Juron,Rebecca Leslie,3rd Period,13:10,6,2,3,13,10.0,4,2015-16
+2016-01-20,BU,Quinnipiac,PP,Jordan Juron,Rebecca Leslie,Lillian Ribeirinha-Braga,2nd Period,4:32,1,4,-4,4,32.0,-3,2015-16
+2016-01-23,BU,Providence,,Alexis Crossley,Savannah Newton,Victoria Bach,1st Period,3:01,1,0,0,3,1.0,1,2015-16
+2016-01-23,BU,Providence,,Rebecca Russo,Rebecca Leslie,Connor Galway,1st Period,3:09,2,0,1,3,9.0,2,2015-16
+2016-01-23,BU,Providence,,Rebecca Leslie,Maddie Elia,Rebecca Russo,1st Period,10:42,3,1,1,10,42.0,2,2015-16
+2016-01-23,BU,Providence,,Victoria Bach,Kayla Tutino,Unassisted,2nd Period,12:44,4,1,2,12,44.0,3,2015-16
+2016-01-23,BU,Providence,SH,Rebecca Leslie,Unassisted,Unassisted,3rd Period,2:29,5,1,3,2,29.0,4,2015-16
+2016-01-24,BU,Providence,,Maddie Elia,Rebecca Leslie,Rebecca Russo,2nd Period,0:33,1,2,-2,0,33.0,-1,2015-16
+2016-01-24,BU,Providence,,Rebecca Russo,Maddie Elia,Rebecca Leslie,2nd Period,4:40,2,2,-1,4,40.0,0,2015-16
+2016-01-24,BU,Providence,,Mary Grace Kelley,Victoria Bach,Unassisted,2nd Period,11:07,3,2,0,11,7.0,1,2015-16
+2016-01-24,BU,Providence,,Victoria Bach,Sarah Lefort,Kayla Tutino,2nd Period,11:19,4,2,1,11,19.0,2,2015-16
+2016-01-30,BU,Merrimack,,Alexis Crossley,Kayla Tutino,Rebecca Russo,1st Period,1:01,1,0,0,1,1.0,1,2015-16
+2016-01-30,BU,Merrimack,,Kayla Tutino,Sarah Lefort,Victoria Bach,1st Period,19:07.9,2,1,0,19,7.9,1,2015-16
+2016-01-30,BU,Merrimack,,Alexis Crossley,Victoria Bach,Savannah Newton,2nd Period,1:39,3,1,1,1,39.0,2,2015-16
+2016-01-30,BU,Merrimack,,Sammy Davis,Samantha Sutherland,Rebecca Russo,2nd Period,4:39,4,1,2,4,39.0,3,2015-16
+2016-01-30,BU,Merrimack,,Sarah Lefort,Kayla Tutino,Sarah Steele,3rd Period,9:58,5,2,2,9,58.0,3,2015-16
+2016-01-30,BU,Merrimack,,Victoria Bach,Sarah Lefort,Savannah Newton,3rd Period,10:22,6,2,3,10,22.0,4,2015-16
+2016-02-02,BU,Northeastern,,Rebecca Russo,Rebecca Leslie,Alexis Crossley,1st Period,10:43,1,0,0,10,43.0,1,2015-16
+2016-02-02,BU,Northeastern,"5x3, EA",Alexis Crossley,Rebecca Leslie,Unassisted,3rd Period,18:04,2,3,-2,18,4.0,-1,2015-16
+2016-02-09,BU,Harvard,,Maddie Elia,Unassisted,Unassisted,1st Period,1:14,1,0,0,1,14.0,1,2015-16
+2016-02-09,BU,Harvard,,Maddie Elia,Rebecca Leslie,Rebecca Russo,1st Period,4:12,2,0,1,4,12.0,2,2015-16
+2016-02-09,BU,Harvard,PP,Sammy Davis,Maddie Elia,Lillian Ribeirinha-Braga,1st Period,7:33,3,1,1,7,33.0,2,2015-16
+2016-02-13,BU,New Hampshire,,Rebecca Leslie,Maddie Elia,Rebecca Russo,2nd Period,0:30,1,2,-2,0,30.0,-1,2015-16
+2016-02-13,BU,New Hampshire,,Rebecca Russo,Rebecca Leslie,Unassisted,3rd Period,0:12,2,3,-2,0,12.0,-1,2015-16
+2016-02-13,BU,New Hampshire,PP,Rebecca Russo,Maddie Elia,Unassisted,3rd Period,5:54,3,3,-1,5,54.0,0,2015-16
+2016-02-13,BU,New Hampshire,,Sammy Davis,Dakota Woodworth,Jordan Juron,3rd Period,9:31,4,3,0,9,31.0,1,2015-16
+2016-02-13,BU,New Hampshire,SH,Rebecca Leslie,Victoria Bach,Lillian Ribeirinha-Braga,3rd Period,16:32,5,4,0,16,32.0,1,2015-16
+2016-02-13,BU,New Hampshire,EN,Alexis Crossley,Dakota Woodworth,Unassisted,3rd Period,19:44,6,4,1,19,44.0,2,2015-16
+2016-02-14,BU,New Hampshire,,Victoria Bach,Jordan Juron,Sarah Steele,2nd Period,7:24,1,0,0,7,24.0,1,2015-16
+2016-02-14,BU,New Hampshire,,Victoria Bach,Sarah Lefort,Kayla Tutino,2nd Period,9:49,2,1,0,9,49.0,1,2015-16
+2016-02-14,BU,New Hampshire,,Rebecca Leslie,Maddie Elia,Rebecca Russo,2nd Period,18:56,3,1,1,18,56.0,2,2015-16
+2016-02-14,BU,New Hampshire,,Sammy Davis,Sarah Steele,Alexis Woloschuk,3rd Period,15:00,4,2,1,15,0.0,2,2015-16
+2016-02-14,BU,New Hampshire,EN,Sammy Davis,Victoria Bach,Unassisted,3rd Period,17:05,5,2,2,17,5.0,3,2015-16
+2016-02-14,BU,New Hampshire,EN,Maddie Elia,Unassisted,Unassisted,3rd Period,18:28,6,2,3,18,28.0,4,2015-16
+2016-02-19,BU,Northeastern,SH,Dakota Woodworth,Jordan Juron,Lillian Ribeirinha-Braga,1st Period,9:33,1,0,0,9,33.0,1,2015-16
+2016-02-19,BU,Northeastern,,Jordan Juron,Victoria Bach,Alexis Woloschuk,2nd Period,17:58,2,1,0,17,58.0,1,2015-16
+2016-02-19,BU,Northeastern,,Victoria Bach,Kayla Tutino,Erin O'Neil,3rd Period,3:09,3,1,1,3,9.0,2,2015-16
+2016-02-20,BU,Northeastern,,Sarah Lefort,Victoria Bach,Kayla Tutino,1st Period,13:16,1,0,0,13,16.0,1,2015-16
+2016-02-20,BU,Northeastern,PP,Kayla Tutino,Victoria Bach,Sarah Lefort,2nd Period,9:00,2,3,-2,9,0.0,-1,2015-16
+2016-02-26,BU,Vermont,,Lillian Ribeirinha-Braga,Rebecca Leslie,Rebecca Russo,1st Period,19:26.5,1,0,0,19,26.5,1,2015-16
+2016-02-26,BU,Vermont,,Sammy Davis,Jordan Juron,Savannah Newton,3rd Period,3:19,2,0,1,3,19.0,2,2015-16
+2016-02-26,BU,Vermont,,Kayla Tutino,Alexis Woloschuk,Victoria Bach,3rd Period,4:27,3,0,2,4,27.0,3,2015-16
+2016-02-27,BU,Vermont,SH,Rebecca Leslie,Unassisted,Unassisted,3rd Period,11:03,1,3,-3,11,3.0,-2,2015-16
+2016-02-27,BU,Vermont,SH,Victoria Bach,Rebecca Leslie,Unassisted,3rd Period,12:05,2,3,-2,12,5.0,-1,2015-16
+2016-02-28,BU,Vermont,PP,Kayla Tutino,Sarah Lefort,Alexis Crossley,1st Period,4:12,1,0,0,4,12.0,1,2015-16
+2016-02-28,BU,Vermont,PP,Kayla Tutino,Lillian Ribeirinha-Braga,Rebecca Russo,1st Period,4:12,1,0,0,4,12.0,1,2015-16
+2016-02-28,BU,Vermont,,Rebecca Leslie,Sarah Lefort,Alexis Crossley,2nd Period,4:12,4,0,3,4,12.0,4,2015-16
+2016-02-28,BU,Vermont,,Rebecca Leslie,Lillian Ribeirinha-Braga,Rebecca Russo,2nd Period,4:12,4,0,3,4,12.0,4,2015-16
+2016-02-28,BU,Vermont,,Maddie Elia,Rebecca Russo,Alexis Woloschuk,1st Period,5:10,2,0,1,5,10.0,2,2015-16
+2016-02-28,BU,Vermont,,Sarah Lefort,Victoria Bach,Unassisted,2nd Period,3:12,3,0,2,3,12.0,3,2015-16
+2016-02-28,BU,Vermont,,Rebecca Leslie,Maddie Elia,Mary Grace Kelley,2nd Period,11:54,5,0,4,11,54.0,5,2015-16
+2016-02-28,BU,Vermont,,Mary Grace Kelley,Maddie Elia,Unassisted,2nd Period,19:44,6,0,5,19,44.0,6,2015-16
+2016-03-05,BU,Northeastern,PP,Rebecca Leslie,Alexis Crossley,Erin O'Neil,1st Period,10:55,1,1,-1,10,55.0,0,2015-16
+2016-03-05,BU,Northeastern,,Victoria Bach,Jordan Juron,Sarah Steele,2nd Period,8:01,2,1,0,8,1.0,1,2015-16
+2016-03-05,BU,Northeastern,,Kayla Tutino,Alexis Crossley,Dakota Woodworth,2nd Period,15:09,3,2,0,15,9.0,1,2015-16
+2016-03-05,BU,Northeastern,SH,Alexis Crossley,Victoria Bach,Unassisted,3rd Period,10:54,4,2,1,10,54.0,2,2015-16
+2016-09-25,BU,Providence,,Mary Parker,Victoria Bach,Unassisted,1st Period,5:08,1,0,0,5,8.0,1,2016-17
+2016-09-25,BU,Providence,,Samantha Sutherland,Sammy Davis,Abby Cook,1st Period,14:54,2,0,1,14,54.0,2,2016-17
+2016-09-25,BU,Providence,PP,Samantha Sutherland,Nina Rodgers,Sammy Davis,3rd Period,5:46,3,1,1,5,46.0,2,2016-17
+2016-09-25,BU,Providence,PP,Maddie Elia,Victoria Bach,Rebecca Leslie,3rd Period,18:30,4,2,1,18,30.0,2,2016-17
+2016-09-25,BU,Providence,EN,Samantha Sutherland,Sammy Davis,Unassisted,3rd Period,19:13,5,2,2,19,13.0,3,2016-17
+2016-10-07,BU,New Hampshire,,Maddie Elia,Rebecca Leslie,Savannah Newton,1st Period,1:23,1,0,0,1,23.0,1,2016-17
+2016-10-07,BU,New Hampshire,,Natasza Tarnowski,Sammy Davis,Connor Galway,2nd Period,2:57,2,1,0,2,57.0,1,2016-17
+2016-10-07,BU,New Hampshire,,Victoria Bach,Mary Parker,Unassisted,2nd Period,9:21,3,1,1,9,21.0,2,2016-17
+2016-10-07,BU,New Hampshire,PP,Samantha Sutherland,Sammy Davis,Savannah Newton,3rd Period,9:02,4,1,2,9,2.0,3,2016-17
+2016-10-07,BU,New Hampshire,,Samantha Sutherland,Sammy Davis,Alexandra Calderone,3rd Period,19:03,5,1,3,19,3.0,4,2016-17
+2016-10-09,BU,Vermont,,Samantha Sutherland,Abby Cook,Sammy Davis,1st Period,12:45,1,1,-1,12,45.0,0,2016-17
+2016-10-09,BU,Vermont,3x3,Samantha Sutherland,Sammy Davis,Unassisted,3rd Period,12:36,2,2,-1,12,36.0,0,2016-17
+2016-10-14,BU,Penn State,,Mary Parker,Victoria Bach,Alexis Crossley,2nd Period,1:09,1,1,-1,1,9.0,0,2016-17
+2016-10-14,BU,Penn State,PP,Alexis Crossley,Rebecca Leslie,Maddie Elia,2nd Period,3:24,2,1,0,3,24.0,1,2016-17
+2016-10-14,BU,Penn State,,Maddie Elia,Rebecca Leslie,Connor Galway,3rd Period,8:30,3,3,-1,8,30.0,0,2016-17
+2016-10-15,BU,Penn State,,Mary Parker,Alexis Crossley,Maddie Elia,1st Period,0:53,1,0,0,0,53.0,1,2016-17
+2016-10-15,BU,Penn State,,Mary Parker,Nina Rodgers,Victoria Bach,1st Period,3:25,2,1,0,3,25.0,1,2016-17
+2016-10-15,BU,Penn State,PP,Sammy Davis,Sarah Steele,Samantha Sutherland,1st Period,15:00,3,1,1,15,0.0,2,2016-17
+2016-10-15,BU,Penn State,PP,Mary Parker,Victoria Bach,Alexis Crossley,2nd Period,10:51,4,2,1,10,51.0,2,2016-17
+2016-10-15,BU,Penn State,,Connor Galway,Alexandra Calderone,Maddie Elia,2nd Period,16:00,5,2,2,16,0.0,3,2016-17
+2016-10-15,BU,Penn State,PP,Maddie Elia,Rebecca Leslie,Mary Parker,2nd Period,17:59,6,2,3,17,59.0,4,2016-17
+2016-10-15,BU,Penn State,,Mary Grace Kelley,Mary Parker,Unassisted,3rd Period,19:45,7,2,4,19,45.0,5,2016-17
+2016-10-18,BU,Northeastern,,Natasza Tarnowski,Samantha Sutherland,Deziray De Sousa,1st Period,7:17,1,1,-1,7,17.0,0,2016-17
+2016-10-18,BU,Northeastern,,Mary Parker,Victoria Bach,Nina Rodgers,2nd Period,14:52,2,4,-3,14,52.0,-2,2016-17
+2016-10-25,BU,Northeastern,PP,Maddie Elia,Samantha Sutherland,Savannah Newton,1st Period,11:48,1,2,-2,11,48.0,-1,2016-17
+2016-10-25,BU,Northeastern,PP,Victoria Bach,Maddie Elia,Rebecca Leslie,2nd Period,16:20,2,4,-3,16,20.0,-2,2016-17
+2016-10-25,BU,Northeastern,,Victoria Bach,Savannah Newton,Nina Rodgers,3rd Period,7:34,3,4,-2,7,34.0,-1,2016-17
+2016-11-04,BU,Boston College,PP,Sammy Davis,Sarah Steele,Nina Rodgers,1st Period,15:09,1,0,0,15,9.0,1,2016-17
+2016-11-04,BU,Boston College,,Sammy Davis,Natasza Tarnowski,Rebecca Leslie,2nd Period,12:07,2,1,0,12,7.0,1,2016-17
+2016-11-04,BU,Boston College,,Nina Rodgers,Mary Parker,Alexis Crossley,3rd Period,3:27,3,2,0,3,27.0,1,2016-17
+2016-11-05,BU,Boston College,,Victoria Bach,Mary Parker,Sarah Steele,3rd Period,0:40,1,2,-2,0,40.0,-1,2016-17
+2016-11-05,BU,Boston College,PP,Mary Parker,Alexis Crossley,Rebecca Leslie,3rd Period,4:48,2,3,-2,4,48.0,-1,2016-17
+2016-11-05,BU,Boston College,,Victoria Bach,Mary Parker,Alexis Crossley,3rd Period,6:55,3,3,-1,6,55.0,0,2016-17
+2016-11-05,BU,Boston College,,Deziray De Sousa,Sarah Steele,Maddie Elia,3rd Period,9:58,4,3,0,9,58.0,1,2016-17
+2016-11-05,BU,Boston College,EN,Nina Rodgers,Victoria Bach,Mary Parker,3rd Period,19:45.8,5,3,1,19,45.8,2,2016-17
+2016-11-11,BU,Maine,,Victoria Bach,Mary Parker,Unassisted,1st Period,19:18,1,0,0,19,18.0,1,2016-17
+2016-11-11,BU,Maine,,Samantha Sutherland,Connor Galway,Mary Grace Kelley,2nd Period,16:23,2,1,0,16,23.0,1,2016-17
+2016-11-11,BU,Maine,,Victoria Bach,Deziray De Sousa,Rebecca Leslie,3rd Period,10:01,3,3,-1,10,1.0,0,2016-17
+2016-11-11,BU,Maine,,Mary Parker,Nina Rodgers,Unassisted,3rd Period,12:09,4,3,0,12,9.0,1,2016-17
+2016-11-11,BU,Maine,EN,Victoria Bach,Unassisted,Unassisted,3rd Period,19:59,5,3,1,19,59.0,2,2016-17
+2016-11-12,BU,Maine,,Mary Parker,Victoria Bach,Sarah Steele,1st Period,13:11,1,0,0,13,11.0,1,2016-17
+2016-11-18,BU,Merrimack,,Deziray De Sousa,Rebecca Leslie,Maddie Elia,1st Period,9:06,1,1,-1,9,6.0,0,2016-17
+2016-11-18,BU,Merrimack,,Mary Parker,Victoria Bach,Unassisted,2nd Period,0:41,2,1,0,0,41.0,1,2016-17
+2016-11-18,BU,Merrimack,,Breanna Scarpaci,Maddie Elia,Samantha Sutherland,3rd Period,2:17,3,2,0,2,17.0,1,2016-17
+2016-11-18,BU,Merrimack,,Victoria Bach,Unassisted,Unassisted,3rd Period,6:52,4,2,1,6,52.0,2,2016-17
+2016-11-18,BU,Merrimack,,Rebecca Leslie,Maddie Elia,Unassisted,3rd Period,9:02,5,2,2,9,2.0,3,2016-17
+2016-11-18,BU,Merrimack,PP,Rebecca Leslie,Abby Cook,Unassisted,3rd Period,13:10,6,2,3,13,10.0,4,2016-17
+2016-11-18,BU,Merrimack,EN,Rebecca Leslie,Natalie Flynn,Unassisted,3rd Period,18:26,7,3,3,18,26.0,4,2016-17
+2016-11-19,BU,Merrimack,PP,Mary Parker,Connor Galway,Breanna Scarpaci,2nd Period,13:37,1,0,0,13,37.0,1,2016-17
+2016-11-19,BU,Merrimack,EN,Sammy Davis,Victoria Bach,Unassisted,3rd Period,18:31,2,0,1,18,31.0,2,2016-17
+2016-11-22,BU,Harvard,,Mary Parker,Nina Rodgers,Victoria Bach,1st Period,5:39,1,0,0,5,39.0,1,2016-17
+2016-11-22,BU,Harvard,,Mary Parker,Victoria Bach,Savannah Newton,2nd Period,14:43,2,1,0,14,43.0,1,2016-17
+2016-11-22,BU,Harvard,,Rebecca Leslie,Deziray De Sousa,Savannah Newton,3rd Period,7:35,3,1,1,7,35.0,2,2016-17
+2016-11-22,BU,Harvard,,Victoria Bach,Nina Rodgers,Savannah Newton,Overtime (3:14),3:14,4,3,0,3,14.0,1,2016-17
+2016-11-25,BU,Princeton,,Maddie Elia,Rebecca Leslie,Nina Rodgers,1st Period,0:54,1,0,0,0,54.0,1,2016-17
+2016-11-25,BU,Princeton,,Samantha Sutherland,Sammy Davis,Unassisted,1st Period,1:58,2,0,1,1,58.0,2,2016-17
+2016-11-25,BU,Princeton,PP,Nina Rodgers,Abby Cook,Samantha Sutherland,3rd Period,18:13,3,1,1,18,13.0,2,2016-17
+2016-11-25,BU,Princeton,EN,Mary Parker,Nina Rodgers,Maddie Elia,3rd Period,19:49.9,4,1,2,19,49.9,3,2016-17
+2016-11-26,BU,Princeton,,Rebecca Leslie,Sammy Davis,Sarah Steele,1st Period,4:26,1,0,0,4,26.0,1,2016-17
+2016-11-26,BU,Princeton,,Maddie Elia,Unassisted,Unassisted,2nd Period,12:53,2,2,-1,12,53.0,0,2016-17
+2016-11-26,BU,Princeton,,Abby Cook,Samantha Sutherland,Maddie Elia,3rd Period,16:02,3,3,-1,16,2.0,0,2016-17
+2016-11-26,BU,Princeton,,Mary Parker,Victoria Bach,Nina Rodgers,Overtime (0:37),0:37,4,3,0,0,37.0,1,2016-17
+2016-12-02,BU,Connecticut,,Sammy Davis,Alexis Crossley,Savannah Newton,2nd Period,7:54,1,0,0,7,54.0,1,2016-17
+2016-12-02,BU,Connecticut,PP,Nina Rodgers,Samantha Sutherland,Sammy Davis,2nd Period,12:11,2,0,1,12,11.0,2,2016-17
+2016-12-02,BU,Connecticut,,Mary Parker,Victoria Bach,Nina Rodgers,2nd Period,17:02,3,0,2,17,2.0,3,2016-17
+2016-12-02,BU,Connecticut,EN,Victoria Bach,Mary Parker,Deziray De Sousa,3rd Period,18:14,4,1,2,18,14.0,3,2016-17
+2016-12-03,BU,Connecticut,PP,Sammy Davis,Alexis Crossley,Abby Cook,2nd Period,4:37,1,1,-1,4,37.0,0,2016-17
+2016-12-09,BU,Minnesota,,Mary Parker,Unassisted,Unassisted,3rd Period,11:07,1,4,-4,11,7.0,-3,2016-17
+2016-12-10,BU,Minnesota,,Victoria Bach,Natasza Tarnowski,Unassisted,1st Period,1:42,1,0,0,1,42.0,1,2016-17
+2016-12-10,BU,Minnesota,,Abby Cook,Samantha Sutherland,Maddie Elia,1st Period,6:49,2,0,1,6,49.0,2,2016-17
+2016-12-10,BU,Minnesota,,Nina Rodgers,Unassisted,Unassisted,2nd Period,4:33,3,2,0,4,33.0,1,2016-17
+2016-12-10,BU,Minnesota,,Natalie Flynn,Deziray De Sousa,Unassisted,2nd Period,5:23,4,2,1,5,23.0,2,2016-17
+2016-12-10,BU,Minnesota,5x3,Samantha Sutherland,Maddie Elia,Alexis Crossley,2nd Period,18:00,5,3,1,18,0.0,2,2016-17
+2016-12-10,BU,Minnesota,,Natalie Flynn,Natasza Tarnowski,Unassisted,Overtime (1:40),1:40,6,5,0,1,40.0,1,2016-17
+2017-01-07,BU,Boston College,PP,Nina Rodgers,Abby Cook,Deziray De Sousa,2nd Period,8:34,1,0,0,8,34.0,1,2016-17
+2017-01-10,BU,Connecticut,,Mary Grace Kelley,Mary Parker,Unassisted,1st Period,19:37.2,1,0,0,19,37.2,1,2016-17
+2017-01-14,BU,Vermont,,Sarah Steele,Nina Rodgers,Victoria Bach,3rd Period,4:38,1,1,-1,4,38.0,0,2016-17
+2017-01-14,BU,Vermont,PP,Sammy Davis,Mary Parker,Victoria Bach,3rd Period,16:19,2,3,-2,16,19.0,-1,2016-17
+2017-01-14,BU,Vermont,EA,Victoria Bach,Mary Parker,Samantha Sutherland,3rd Period,18:32,3,3,-1,18,32.0,0,2016-17
+2017-01-15,BU,Vermont,,Mary Parker,Sammy Davis,Alexis Crossley,1st Period,0:54,1,0,0,0,54.0,1,2016-17
+2017-01-21,BU,Providence,,Victoria Bach,Savannah Newton,Alexis Crossley,1st Period,8:19,1,0,0,8,19.0,1,2016-17
+2017-01-21,BU,Providence,,Rebecca Leslie,Nina Rodgers,Connor Galway,2nd Period,8:38,2,1,0,8,38.0,1,2016-17
+2017-01-21,BU,Providence,5x3,Victoria Bach,Samantha Sutherland,Alexis Crossley,2nd Period,14:46,3,1,1,14,46.0,2,2016-17
+2017-01-21,BU,Providence,PP,Victoria Bach,Mary Parker,Alexis Crossley,2nd Period,15:59,4,1,2,15,59.0,3,2016-17
+2017-01-21,BU,Providence,,Rebecca Leslie,Mary Parker,Alexis Crossley,3rd Period,17:28,5,5,-1,17,28.0,0,2016-17
+2017-01-22,BU,Providence,,Rebecca Leslie,Victoria Bach,Unassisted,1st Period,8:49,1,0,0,8,49.0,1,2016-17
+2017-01-22,BU,Providence,,Anna Streifel,Rebecca Leslie,Victoria Bach,1st Period,9:42,2,0,1,9,42.0,2,2016-17
+2017-01-22,BU,Providence,,Nina Rodgers,Victoria Bach,Unassisted,2nd Period,8:47,3,1,1,8,47.0,2,2016-17
+2017-01-22,BU,Providence,,Nina Rodgers,Samantha Sutherland,Abby Cook,3rd Period,15:53,4,2,1,15,53.0,2,2016-17
+2017-01-22,BU,Providence,EN,Abby Cook,Unassisted,Unassisted,3rd Period,17:38,5,2,2,17,38.0,3,2016-17
+2017-01-28,BU,Merrimack,PP,Victoria Bach,Maddie Elia,Samantha Sutherland,1st Period,14:38,1,1,-1,14,38.0,0,2016-17
+2017-01-31,BU,Boston College,PP,Nina Rodgers,Sammy Davis,Sarah Steele,2nd Period,7:34,1,1,-1,7,34.0,0,2016-17
+2017-01-31,BU,Boston College,PP,Maddie Elia,Mary Parker,Victoria Bach,2nd Period,9:51,2,1,0,9,51.0,1,2016-17
+2017-02-07,BU,Harvard,,Nina Rodgers,Maddie Elia,Alexis Crossley,1st Period,9:36,1,0,0,9,36.0,1,2016-17
+2017-02-07,BU,Harvard,,Maddie Elia,Nina Rodgers,Rebecca Leslie,2nd Period,4:54,2,1,0,4,54.0,1,2016-17
+2017-02-07,BU,Harvard,,Victoria Bach,Mary Parker,Deziray De Sousa,2nd Period,17:56,3,3,-1,17,56.0,0,2016-17
+2017-02-07,BU,Harvard,,Rebecca Leslie,Maddie Elia,Sammy Davis,3rd Period,5:15,4,3,0,5,15.0,1,2016-17
+2017-02-07,BU,Harvard,,Mary Parker,Victoria Bach,Unassisted,3rd Period,8:32,5,4,0,8,32.0,1,2016-17
+2017-02-07,BU,Harvard,,Mary Parker,Victoria Bach,Unassisted,3rd Period,14:00,6,5,0,14,0.0,1,2016-17
+2017-02-10,BU,New Hampshire,,Abby Cook,Maddie Elia,Unassisted,1st Period,1:32,1,0,0,1,32.0,1,2016-17
+2017-02-10,BU,New Hampshire,,Rebecca Leslie,Unassisted,Unassisted,1st Period,13:21,2,1,0,13,21.0,1,2016-17
+2017-02-10,BU,New Hampshire,,Natasza Tarnowski,Samantha Sutherland,Sammy Davis,2nd Period,9:46,3,3,-1,9,46.0,0,2016-17
+2017-02-10,BU,New Hampshire,PP,Samantha Sutherland,Abby Cook,Nina Rodgers,2nd Period,11:44,4,3,0,11,44.0,1,2016-17
+2017-02-11,BU,New Hampshire,,Victoria Bach,Mary Parker,Unassisted,1st Period,1:30,1,0,0,1,30.0,1,2016-17
+2017-02-11,BU,New Hampshire,,Rebecca Leslie,Nina Rodgers,Unassisted,2nd Period,1:25,2,1,0,1,25.0,1,2016-17
+2017-02-11,BU,New Hampshire,PP,Alexis Crossley,Rebecca Leslie,Maddie Elia,2nd Period,7:29,3,1,1,7,29.0,2,2016-17
+2017-02-11,BU,New Hampshire,,Victoria Bach,Deziray De Sousa,Savannah Newton,3rd Period,17:14,4,2,1,17,14.0,2,2016-17
+2017-02-11,BU,New Hampshire,EN,Maddie Elia,Rebecca Leslie,Abby Cook,3rd Period,17:47,5,2,2,17,47.0,3,2016-17
+2017-02-17,BU,Northeastern,PP,Nina Rodgers,Abby Cook,Samantha Sutherland,1st Period,13:43,1,1,-1,13,43.0,0,2016-17
+2017-02-17,BU,Northeastern,,Maddie Elia,Rebecca Leslie,Unassisted,1st Period,14:37,2,1,0,14,37.0,1,2016-17
+2017-02-17,BU,Northeastern,,Mary Parker,Victoria Bach,Unassisted,2nd Period,5:39,3,1,1,5,39.0,2,2016-17
+2017-02-17,BU,Northeastern,,Samantha Sutherland,Natasza Tarnowski,Unassisted,2nd Period,7:02,4,1,2,7,2.0,3,2016-17
+2017-02-17,BU,Northeastern,PP,Victoria Bach,Mary Parker,Rebecca Leslie,2nd Period,9:12,5,1,3,9,12.0,4,2016-17
+2017-02-17,BU,Northeastern,,Mary Parker,Victoria Bach,Unassisted,3rd Period,11:10,6,2,3,11,10.0,4,2016-17
+2017-02-17,BU,Northeastern,,Natalie Flynn,Samantha Sutherland,Sammy Davis,3rd Period,13:58,7,2,4,13,58.0,5,2016-17
+2017-02-19,BU,Maine,,Rebecca Leslie,Maddie Elia,Nina Rodgers,1st Period,9:01,1,0,0,9,1.0,1,2016-17
+2017-02-19,BU,Maine,PP,Rebecca Leslie,Alexis Crossley,Victoria Bach,2nd Period,0:25,2,0,1,0,25.0,2,2016-17
+2017-02-19,BU,Maine,PP,Mary Parker,Rebecca Leslie,Maddie Elia,2nd Period,18:27,3,0,2,18,27.0,3,2016-17
+2017-02-19,BU,Maine,,Victoria Bach,Savannah Newton,Unassisted,3rd Period,0:59,4,0,3,0,59.0,4,2016-17
+2017-02-19,BU,Maine,PP,Samantha Sutherland,Nina Rodgers,Sarah Steele,3rd Period,6:17,5,0,4,6,17.0,5,2016-17
+2017-02-24,BU,New Hampshire,,Mary Parker,Deziray De Sousa,Connor Galway,3rd Period,11:54,1,3,-3,11,54.0,-2,2016-17
+2017-02-24,BU,New Hampshire,EA,Alexis Crossley,Maddie Elia,Unassisted,3rd Period,17:40,2,3,-2,17,40.0,-1,2016-17
+2017-02-25,BU,New Hampshire,,Maddie Elia,Unassisted,Unassisted,1st Period,12:07,1,1,-1,12,7.0,0,2016-17
+2017-02-25,BU,New Hampshire,PP,Rebecca Leslie,Maddie Elia,Breanna Scarpaci,2nd Period,18:27,2,3,-2,18,27.0,-1,2016-17
+2017-02-25,BU,New Hampshire,,Alexis Crossley,Victoria Bach,Mary Parker,3rd Period,5:38,3,3,-1,5,38.0,0,2016-17
+2017-02-25,BU,New Hampshire,SH,Samantha Sutherland,Unassisted,Unassisted,3rd Period,8:14,4,3,0,8,14.0,1,2016-17
+2017-02-26,BU,New Hampshire,PP,Samantha Sutherland,Nina Rodgers,Abby Cook,1st Period,4:07,1,1,-1,4,7.0,0,2016-17
+2017-02-26,BU,New Hampshire,,Rebecca Leslie,Maddie Elia,Alexis Crossley,1st Period,4:36,2,1,0,4,36.0,1,2016-17
+2017-02-26,BU,New Hampshire,PP,Rebecca Leslie,Maddie Elia,Mary Parker,3rd Period,13:13,3,2,0,13,13.0,1,2016-17
+2017-03-04,BU,Northeastern,EA,Victoria Bach,Maddie Elia,Mary Parker,2nd Period,12:35,1,0,0,12,35.0,1,2016-17
+2017-09-23,BU,Merrimack,PP,Reagan Rust,Victoria Bach,Abby Cook,1st Period,11:30,1,0,0,11,30.0,1,2017-18
+2017-10-06,BU,Northeastern,PP,Kristina Schuler,Reagan Rust,Abbey Stanley,1st Period,18:35,1,0,0,18,35.0,1,2017-18
+2017-10-06,BU,Northeastern,PP,Nara Elia,Kristina Schuler,Abbey Stanley,2nd Period,13:48,2,0,1,13,48.0,2,2017-18
+2017-10-07,BU,Northeastern,,Mary Grace Kelley,Jesse Compher,Unassisted,1st Period,5:15,1,0,0,5,15.0,1,2017-18
+2017-10-07,BU,Northeastern,,Savannah Newton,Nina Rodgers,Unassisted,2nd Period,8:35,2,3,-2,8,35.0,-1,2017-18
+2017-10-07,BU,Northeastern,,Victoria Bach,Natasza Tarnowski,Savannah Newton,3rd Period,6:33,3,4,-2,6,33.0,-1,2017-18
+2017-10-20,BU,Maine,,Nara Elia,Kristina Schuler,Unassisted,2nd Period,11:28,1,3,-3,11,28.0,-2,2017-18
+2017-10-20,BU,Maine,,Victoria Bach,Unassisted,Unassisted,3rd Period,7:18,2,3,-2,7,18.0,-1,2017-18
+2017-10-22,BU,UConn,PP,Nara Elia,Victoria Bach,Corinne Schroeder,1st Period,10:14,1,1,-1,10,14.0,0,2017-18
+2017-10-22,BU,UConn,SH,Victoria Bach,Rebecca Leslie,Reagan Rust,1st Period,11:32,2,1,0,11,32.0,1,2017-18
+2017-10-22,BU,UConn,PP,Rebecca Leslie,Nina Rodgers,Jesse Compher,2nd Period,8:40,3,2,0,8,40.0,1,2017-18
+2017-10-22,BU,UConn,,Rebecca Leslie,Savannah Newton,Victoria Bach,3rd Period,0:36,4,2,1,0,36.0,2,2017-18
+2017-10-22,BU,UConn,,Nina Rodgers,Natasza Tarnowski,Unassisted,3rd Period,4:47,5,2,2,4,47.0,3,2017-18
+2017-10-22,BU,UConn,PP,Rebecca Leslie,Victoria Bach,Abby Cook,3rd Period,17:29,6,2,3,17,29.0,4,2017-18
+2017-10-28,BU,Boston College,3x3,Rebecca Leslie,Victoria Bach,Abby Cook,2nd Period,11:14,1,3,-3,11,14.0,-2,2017-18
+2017-10-28,BU,Boston College,EA,Mary Grace Kelley,Rebecca Leslie,Victoria Bach,3rd Period,17:32,2,4,-3,17,32.0,-2,2017-18
+2017-10-28,BU,Boston College,"PP, EA",Rebecca Leslie,Jesse Compher,Reagan Rust,3rd Period,19:17.8,3,4,-2,19,17.8,-1,2017-18
+2017-10-29,BU,New Hampshire,,Victoria Bach,Rebecca Leslie,Abby Cook,1st Period,0:18,1,0,0,0,18.0,1,2017-18
+2017-10-29,BU,New Hampshire,PP,Kristina Schuler,Mary Grace Kelley,Abbey Stanley,1st Period,15:55,2,0,1,15,55.0,2,2017-18
+2017-11-03,BU,RIT,,Reagan Rust,Nara Elia,Deziray De Sousa,1st Period,2:32,1,0,0,2,32.0,1,2017-18
+2017-11-03,BU,RIT,,Victoria Bach,Rebecca Leslie,Unassisted,1st Period,3:57,2,0,1,3,57.0,2,2017-18
+2017-11-03,BU,RIT,,Nina Rodgers,Natasza Tarnowski,Jesse Compher,1st Period,5:46,3,0,2,5,46.0,3,2017-18
+2017-11-03,BU,RIT,PP,Abby Cook,Victoria Bach,Rebecca Leslie,2nd Period,0:20,4,0,3,0,20.0,4,2017-18
+2017-11-03,BU,RIT,,Rebecca Leslie,Reagan Rust,Victoria Bach,3rd Period,15:44,5,1,3,15,44.0,4,2017-18
+2017-11-04,BU,RIT,,Mary Grace Kelley,Nara Elia,Kristina Schuler,2nd Period,13:09,1,1,-1,13,9.0,0,2017-18
+2017-11-10,BU,UConn,,Natasza Tarnowski,Abby Cook,Jesse Compher,1st Period,19:34.8,1,0,0,19,34.8,1,2017-18
+2017-11-10,BU,UConn,EA,Rebecca Leslie,Victoria Bach,Abbey Stanley,3rd Period,19:10.4,2,2,-1,19,10.4,0,2017-18
+2017-11-17,BU,Vermont,SH,Victoria Bach,Rebecca Leslie,Reagan Rust,1st Period,7:09,1,0,0,7,9.0,1,2017-18
+2017-11-17,BU,Vermont,,Natasza Tarnowski,Jesse Compher,Unassisted,1st Period,10:36,2,0,1,10,36.0,2,2017-18
+2017-11-17,BU,Vermont,,Victoria Bach,Rebecca Leslie,Mary Grace Kelley,1st Period,13:48,3,0,2,13,48.0,3,2017-18
+2017-11-17,BU,Vermont,,Victoria Bach,Mary Grace Kelley,Reagan Rust,2nd Period,1:22,4,0,3,1,22.0,4,2017-18
+2017-11-17,BU,Vermont,,Rebecca Leslie,Victoria Bach,Mary Grace Kelley,2nd Period,3:48,5,0,4,3,48.0,5,2017-18
+2017-11-17,BU,Vermont,,Victoria Bach,Rebecca Leslie,Abby Cook,2nd Period,12:57,6,1,4,12,57.0,5,2017-18
+2017-11-17,BU,Vermont,,Abbey Stanley,Jesse Compher,Natasza Tarnowski,2nd Period,17:25,7,1,5,17,25.0,6,2017-18
+2017-11-18,BU,Vermont,,Rebecca Leslie,Abbey Stanley,Katie Shannahan,1st Period,18:14,1,0,0,18,14.0,1,2017-18
+2017-11-18,BU,Vermont,3x3,Rebecca Leslie,Abbey Stanley,Reagan Rust,2nd Period,8:03,2,1,0,8,3.0,1,2017-18
+2017-11-18,BU,Vermont,,Victoria Bach,Rebecca Leslie,Unassisted,3rd Period,1:22,3,1,1,1,22.0,2,2017-18
+2017-11-24,BU,Minnesota State,,Victoria Bach,Rebecca Leslie,Mary Grace Kelley,1st Period,6:43,1,0,0,6,43.0,1,2017-18
+2017-11-24,BU,Minnesota State,,Victoria Bach,Rebecca Leslie,Abby Cook,1st Period,8:02,2,1,0,8,2.0,1,2017-18
+2017-11-24,BU,Minnesota State,PP,Nina Rodgers,Jesse Compher,Victoria Bach,2nd Period,3:49,3,1,1,3,49.0,2,2017-18
+2017-11-24,BU,Minnesota State,,Nina Rodgers,Jesse Compher,Natasza Tarnowski,2nd Period,5:36,4,1,2,5,36.0,3,2017-18
+2017-11-24,BU,Minnesota State,,Victoria Bach,Natasza Tarnowski,Unassisted,2nd Period,19:47,5,2,2,19,47.0,3,2017-18
+2017-11-25,BU,Wisconsin,,Victoria Bach,Rebecca Leslie,Mary Grace Kelley,1st Period,0:32,1,0,0,0,32.0,1,2017-18
+2017-11-25,BU,Wisconsin,,Victoria Bach,Rebecca Leslie,Breanna Scarpaci,3rd Period,14:47,2,3,-2,14,47.0,-1,2017-18
+2017-11-28,BU,Brown,,Victoria Bach,Rebecca Leslie,Unassisted,1st Period,3:50,1,0,0,3,50.0,1,2017-18
+2017-11-28,BU,Brown,PP,Jesse Compher,Abby Cook,Victoria Bach,2nd Period,2:17,2,0,1,2,17.0,2,2017-18
+2017-11-28,BU,Brown,,Rebecca Leslie,Abby Cook,Unassisted,2nd Period,11:37,3,2,0,11,37.0,1,2017-18
+2017-11-28,BU,Brown,PP,Jesse Compher,Abby Cook,Victoria Bach,3rd Period,8:57,4,4,-1,8,57.0,0,2017-18
+2017-11-28,BU,Brown,PP,Victoria Bach,Abby Cook,Rebecca Leslie,3rd Period,13:29,5,4,0,13,29.0,1,2017-18
+2017-11-28,BU,Brown,,Rebecca Leslie,Victoria Bach,Unassisted,3rd Period,15:30,6,4,1,15,30.0,2,2017-18
+2017-12-01,BU,Boston College,,Rebecca Leslie,Deziray De Sousa,Victoria Bach,1st Period,18:59,1,0,0,18,59.0,1,2017-18
+2017-12-01,BU,Boston College,PP,Nina Rodgers,Abby Cook,Rebecca Leslie,3rd Period,0:30,2,1,0,0,30.0,1,2017-18
+2017-12-02,BU,Boston College,,Rebecca Leslie,Mary Grace Kelley,Victoria Bach,1st Period,16:44,1,0,0,16,44.0,1,2017-18
+2017-12-02,BU,Boston College,PP,Rebecca Leslie,Abby Cook,Nara Elia,2nd Period,17:21,2,2,-1,17,21.0,0,2017-18
+2017-12-07,BU,Yale,PP,Victoria Bach,Nara Elia,Rebecca Leslie,1st Period,9:17,1,0,0,9,17.0,1,2017-18
+2017-12-07,BU,Yale,,Victoria Bach,Abbey Stanley,Mary Grace Kelley,1st Period,13:06,2,0,1,13,6.0,2,2017-18
+2017-12-07,BU,Yale,,Victoria Bach,Unassisted,Unassisted,2nd Period,13:20,3,0,2,13,20.0,3,2017-18
+2017-12-07,BU,Yale,,Abbey Stanley,Breanna Scarpaci,Rebecca Leslie,3rd Period,18:24,4,2,1,18,24.0,2,2017-18
+2017-12-07,BU,Yale,EN,Victoria Bach,Abby Cook,Unassisted,3rd Period,19:39,5,2,2,19,39.0,3,2017-18
+2017-12-09,BU,Providence,PP,Victoria Bach,Rebecca Leslie,Abby Cook,2nd Period,11:04,1,3,-3,11,4.0,-2,2017-18
+2017-12-09,BU,Providence,SH,Victoria Bach,Rebecca Leslie,Unassisted,2nd Period,17:29,2,3,-2,17,29.0,-1,2017-18
+2017-12-09,BU,Providence,,Nara Elia,Victoria Bach,Rebecca Leslie,3rd Period,11:16,3,4,-2,11,16.0,-1,2017-18
+2017-12-09,BU,Providence,"PP, EA",Mary Grace Kelley,Abby Cook,Jesse Compher,3rd Period,18:26,4,6,-3,18,26.0,-2,2017-18
+2017-12-09,BU,Providence,"PP, EA",Abbey Stanley,Nara Elia,Jesse Compher,3rd Period,18:58,5,6,-2,18,58.0,-1,2017-18
+2017-12-30,BU,Princeton,,Breanna Scarpaci,Reagan Rust,Rachel Allen,2nd Period,15:57,1,1,-1,15,57.0,0,2017-18
+2017-12-31,BU,Princeton,,Reagan Rust,Natasza Tarnowski,Unassisted,2nd Period,1:27,1,1,-1,1,27.0,0,2017-18
+2018-01-06,BU,Maine,PP,Deziray De Sousa,Reagan Rust,Abbey Stanley,3rd Period,6:18,1,4,-4,6,18.0,-3,2017-18
+2018-01-07,BU,Maine,,Nara Elia,Jesse Compher,Deziray De Sousa,1st Period,14:20,1,1,-1,14,20.0,0,2017-18
+2018-01-07,BU,Maine,,Jesse Compher,Abbey Stanley,Deziray De Sousa,3rd Period,14:39,2,3,-2,14,39.0,-1,2017-18
+2018-01-12,BU,Providence,,Victoria Bach,Breanna Scarpaci,Unassisted,1st Period,0:28,1,0,0,0,28.0,1,2017-18
+2018-01-12,BU,Providence,,Reagan Rust,Natasza Tarnowski,Kristina Schuler,1st Period,8:49,2,0,1,8,49.0,2,2017-18
+2018-01-12,BU,Providence,PP,Nara Elia,Victoria Bach,Abbey Stanley,2nd Period,1:12,3,0,2,1,12.0,3,2017-18
+2018-01-12,BU,Providence,,Nara Elia,Abbey Stanley,Jesse Compher,2nd Period,3:39,4,0,3,3,39.0,4,2017-18
+2018-01-12,BU,Providence,EN,Jesse Compher,Abbey Stanley,Unassisted,3rd Period,17:42,5,1,3,17,42.0,4,2017-18
+2018-01-13,BU,Providence,PP,Natasza Tarnowski,Deziray De Sousa,Kristina Schuler,2nd Period,9:49,1,2,-2,9,49.0,-1,2017-18
+2018-01-13,BU,Providence,,Victoria Bach,Rebecca Leslie,Abbey Stanley,3rd Period,13:23,2,4,-3,13,23.0,-2,2017-18
+2018-01-13,BU,Providence,,Rebecca Leslie,Victoria Bach,Reagan Rust,3rd Period,18:07,3,5,-3,18,7.0,-2,2017-18
+2018-01-16,BU,Northeastern,,Victoria Bach,Rebecca Leslie,Breanna Scarpaci,1st Period,12:18,1,0,0,12,18.0,1,2017-18
+2018-01-16,BU,Northeastern,,Victoria Bach,Unassisted,Unassisted,2nd Period,7:06,2,0,1,7,6.0,2,2017-18
+2018-01-16,BU,Northeastern,EA,Victoria Bach,Jesse Compher,Rebecca Leslie,3rd Period,19:57,3,3,-1,19,57.0,0,2017-18
+2018-01-21,BU,UConn,,Jesse Compher,Deziray De Sousa,Connor Galway,2nd Period,18:17,1,2,-2,18,17.0,-1,2017-18
+2018-01-21,BU,UConn,,Deziray De Sousa,Breanna Scarpaci,Abbey Stanley,3rd Period,4:58,2,2,-1,4,58.0,0,2017-18
+2018-01-25,BU,Merrimack,,Victoria Bach,Nina Rodgers,Abby Cook,1st Period,18:43,1,1,-1,18,43.0,0,2017-18
+2018-01-25,BU,Merrimack,PP,Jesse Compher,Rebecca Leslie,Abby Cook,2nd Period,1:04,2,1,0,1,4.0,1,2017-18
+2018-01-25,BU,Merrimack,,Rebecca Leslie,Victoria Bach,Abby Cook,3rd Period,1:51,3,1,1,1,51.0,2,2017-18
+2018-01-25,BU,Merrimack,SH,Natasza Tarnowski,Victoria Bach,Abby Cook,3rd Period,12:40,4,1,2,12,40.0,3,2017-18
+2018-01-25,BU,Merrimack,EN,Victoria Bach,Unassisted,Unassisted,3rd Period,18:46,5,1,3,18,46.0,4,2017-18
+2018-01-27,BU,Merrimack,PP,Victoria Bach,Jesse Compher,Rebecca Leslie,1st Period,2:04,1,0,0,2,4.0,1,2017-18
+2018-01-27,BU,Merrimack,PP,Nara Elia,Reagan Rust,Abbey Stanley,1st Period,12:19,2,0,1,12,19.0,2,2017-18
+2018-01-27,BU,Merrimack,,Abbey Stanley,Kristina Schuler,Natasza Tarnowski,2nd Period,4:24,3,0,2,4,24.0,3,2017-18
+2018-01-27,BU,Merrimack,3x3,Victoria Bach,Rebecca Leslie,Unassisted,3rd Period,3:54,4,1,2,3,54.0,3,2017-18
+2018-01-27,BU,Merrimack,,Rebecca Leslie,Victoria Bach,Kristina Schuler,3rd Period,8:01,5,1,3,8,1.0,4,2017-18
+2018-01-27,BU,Merrimack,,Abby Cook,Kristina Schuler,Unassisted,3rd Period,13:03,6,1,4,13,3.0,5,2017-18
+2018-02-02,BU,Vermont,,Jesse Compher,Nina Rodgers,Breanna Scarpaci,2nd Period,14:32,1,1,-1,14,32.0,0,2017-18
+2018-02-06,BU,Harvard,,Victoria Bach,Rebecca Leslie,Unassisted,1st Period,3:48,1,0,0,3,48.0,1,2017-18
+2018-02-06,BU,Harvard,,Victoria Bach,Mary Grace Kelley,Rebecca Leslie,1st Period,5:55,2,0,1,5,55.0,2,2017-18
+2018-02-06,BU,Harvard,PP,Jesse Compher,Victoria Bach,Abby Cook,1st Period,6:09,3,0,2,6,9.0,3,2017-18
+2018-02-13,BU,Boston College,,Victoria Bach,Reagan Rust,Unassisted,2nd Period,3:15,1,2,-2,3,15.0,-1,2017-18
+2018-02-13,BU,Boston College,PP,Reagan Rust,Abbey Stanley,Nara Elia,2nd Period,4:00,2,2,-1,4,0.0,0,2017-18
+2018-02-13,BU,Boston College,,Rebecca Leslie,Victoria Bach,Breanna Scarpaci,2nd Period,8:16,3,2,0,8,16.0,1,2017-18
+2018-02-17,BU,New Hampshire,,Rebecca Leslie,Abby Cook,Mary Grace Kelley,1st Period,16:41,1,0,0,16,41.0,1,2017-18
+2018-02-17,BU,New Hampshire,PP,Rebecca Leslie,Abby Cook,Victoria Bach,3rd Period,9:44,2,0,1,9,44.0,2,2017-18
+2018-02-18,BU,New Hampshire,,Kristina Schuler,Connor Galway,Abbey Stanley,1st Period,5:20,1,0,0,5,20.0,1,2017-18
+2018-02-18,BU,New Hampshire,EN,Victoria Bach,Rebecca Leslie,Reagan Rust,3rd Period,19:30,2,0,1,19,30.0,2,2017-18
+2018-02-23,BU,Maine,,Nina Rodgers,Rebecca Leslie,Victoria Bach,1st Period,17:16,1,3,-3,17,16.0,-2,2017-18
+2018-02-23,BU,Maine,PP,Victoria Bach,Rebecca Leslie,Jesse Compher,2nd Period,10:50,2,3,-2,10,50.0,-1,2017-18
+2018-02-24,BU,Maine,,Victoria Bach,Unassisted,Unassisted,1st Period,6:15,1,0,0,6,15.0,1,2017-18
+2018-02-24,BU,Maine,,Rebecca Leslie,Victoria Bach,Connor Galway,2nd Period,2:28,2,0,1,2,28.0,2,2017-18
+2018-02-24,BU,Maine,SH,Jesse Compher,Abbey Stanley,Unassisted,2nd Period,10:55,3,0,2,10,55.0,3,2017-18
+2018-02-24,BU,Maine,EN,Rebecca Leslie,Abbey Stanley,Unassisted,3rd Period,18:51,4,1,2,18,51.0,3,2017-18
+2018-02-25,BU,Maine,PP,Rebecca Leslie,Victoria Bach,Abby Cook,1st Period,10:07,1,0,0,10,7.0,1,2017-18
+2018-02-25,BU,Maine,PP,Victoria Bach,Jesse Compher,Rebecca Leslie,1st Period,16:22,2,0,1,16,22.0,2,2017-18
+2018-02-25,BU,Maine,,Natasza Tarnowski,Unassisted,Unassisted,3rd Period,4:07,3,0,2,4,7.0,3,2017-18
 2018-10-06,BU,Northeastern,,Jesse Compher,Courtney Correia,Unassisted,2:40,1st Period,1,0,0,2,40,1,2018-19
 2018-10-06,BU,Northeastern,,Sammy Davis,Jesse Compher,Alex Allan,10:38,1st Period,2,1,0,10,38,1,2018-19
 2018-10-06,BU,Northeastern,PP,Nara Elia,Sammy Davis,Abby Cook,18:52,1st Period,3,1,1,18,52,2,2018-19
