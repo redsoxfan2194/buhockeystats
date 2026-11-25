@@ -1,0 +1,10 @@
+gameNumber,grid,score,gaveup,guessesLeft,timestamp
+80,"['Ahti Oksanen (2012-16)', 'Evan Rodrigues (2011-15)', ""Danny O'Regan (2012-16)"", 'Bobo Carpenter (2015-19)', None, 'Marc Hetnik (1975-79)', 'Mike Prendergast (1991-95)', 'Freddy Meyer (1999-03)', 'Pete MacArthur (2004-08)']",8,False,0,2026-11-24T11:22:58.318Z
+80,"[None, None, 'Jesse Compher (2017-21)', 'Cole Hutson (2024-26)', None, 'Cole Eiserman (2024-26)', 'Clayton Keller (2016-17)', None, None]",4,False,0,2026-11-24T11:32:32.783Z
+80,"[""Danny O'Regan (2012-16)"", None, 'Bobo Carpenter (2015-19)', 'Jacques Joubert (1992-95)', None, 'Cole Eiserman (2024-26)', 'Jack Eichel (2014-15)', 'Cole Hutson (2024-26)', 'Macklin Celebrini (2023-24)']",7,False,0,2026-11-24T14:17:24.453Z
+80,"[None, None, 'Mike Eruzione (1973-77)', None, None, 'Cole Eiserman (2024-26)', 'Jack Eichel (2014-15)', 'Cole Hutson (2024-26)', 'Macklin Celebrini (2023-24)']",5,False,0,2026-11-24T14:52:15.658Z
+80,"[None, None, 'Mike Eruzione (1973-77)', 'Cole Eiserman (2024-26)', 'Cole Hutson (2024-26)', None, 'Jack Eichel (2014-15)', None, 'Marie-Philip Poulin (2010-15)']",5,False,0,2026-11-24T16:52:35.936Z
+80,"['Nara Elia (2017-21)', 'Kristina Schuler (2017-21)', 'Rebecca Leslie (2014-18)', 'Lindsay Bochna (2024-25)', None, 'Maddie Elia (2013-17)', 'Victoria Bach (2014-18)', 'Jesse Compher (2017-21)', 'Sammy Davis (2015-20)']",8,True,1,2026-11-24T18:14:10.216Z
+80,"[None, None, 'Chris Drury (1994-98)', None, None, None, 'Lane Hutson (2022-24)', 'Cole Hutson (2024-26)', 'Cole Eiserman (2024-26)']",4,False,0,2026-11-24T19:10:25.153Z
+80,"['Kayla Tutino (2011-16)', 'Jesse Compher (2017-21)', None, 'Bobo Carpenter (2015-19)', None, None, 'Marie-Philip Poulin (2010-15)', 'Victoria Bach (2014-18)', 'Rebecca Leslie (2014-18)']",6,False,0,2026-11-24T19:33:12.710Z
+80,"['Clayton Keller (2016-17)', None, None, 'Cole Hutson (2024-26)', None, 'Bobo Carpenter (2015-19)', 'Cole Eiserman (2024-26)', 'Macklin Celebrini (2023-24)', None]",5,False,0,2026-11-24T23:07:54.458Z
