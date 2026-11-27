@@ -3918,7 +3918,7 @@ def updateResults(gender):
             sources.write(line)
             
 def updatePolls(gender):
-    season=(currSeason[:4])+1
+    season=int(currSeason[:4])+1
     if(gender=="Mens"):
         url = "https://www.uscho.com/rankings/d-i-mens-poll"
         pollFile = RECBOOK_DATA_PATH + 'mpolls.csv'
