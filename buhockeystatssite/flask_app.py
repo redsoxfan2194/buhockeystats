@@ -42,6 +42,8 @@ def removeTrailingSlash():
     if path != '/' and path.endswith('/'):
         query = request.query_string.decode()
         # one leading slash only, so "//site.com/" can't redirect off this site
+        return redirect('/' + path.strip('/') + ('?' + query if query else ''), code=308)
+
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
 app.config["CACHE_TYPE"] = "SimpleCache"
