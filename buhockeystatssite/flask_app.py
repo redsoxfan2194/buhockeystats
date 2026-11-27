@@ -33,6 +33,15 @@ easternTZ = pytz.timezone('US/Eastern')
 
 app = Flask(__name__)
 
+@app.before_request
+def removeTrailingSlash():
+    ''' Sends any address ending in "/" (e.g. /players/) to the same address without it,
+    keeping the query string. 308 keeps the method, so form POSTs still work.
+    '''
+    path = request.path
+    if path != '/' and path.endswith('/'):
+        query = request.query_string.decode()
+        # one leading slash only, so "//site.com/" can't redirect off this site
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
 app.config["CACHE_TYPE"] = "SimpleCache"
@@ -2028,7 +2037,6 @@ def interactiveRecap(gameId):
     return render_template(f'{INTERACTIVE_DIR}/{gameId}_recap_interactive.html')
 
 @app.route('/jacksboxes/stats', defaults={'gameNumRequested': None})
-@app.route('/jacksboxes/stats/', defaults={'gameNumRequested': None})
 @app.route('/jacksboxes/stats/<int:gameNumRequested>')
 def jacksBoxesStats(gameNumRequested):
 
@@ -2056,7 +2064,6 @@ def jacksBoxesStats(gameNumRequested):
     )
     
 @app.route('/jacksboxes/stats/overall')
-@app.route('/jacksboxes/stats/overall/')
 def jacksBoxesOverallStats():
 
     dfResults = getAllJacksBoxesResultGrids()
